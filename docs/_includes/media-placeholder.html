@@ -1,0 +1,7 @@
+<!-- Media placeholder: {{ include.id }} — {{ include.label }} -->
+<div class="media-placeholder" aria-label="{{ include.label | default: 'Recurso multimedia pendiente' }}" data-media-id="{{ include.id }}">
+  <span class="placeholder-icon">{% if include.type == 'video' %}▶{% elsif include.type == 'image' %}🖼{% else %}◈{% endif %}</span>
+  <span class="placeholder-label">{{ include.type | default: 'media' | upcase }} — {{ include.id }}</span>
+  <span>{{ include.label }}</span>
+  {% if include.note %}<span style="font-size:0.75rem;opacity:0.5;">{{ include.note }}</span>{% endif %}
+</div>

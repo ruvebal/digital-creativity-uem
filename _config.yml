@@ -1,0 +1,89 @@
+title: 'Digital Creativity — Creación Digital'
+description: 'Digital fashion creation, avatars, web portfolio and AR — lessons, methodology, and research grounding for Creación Digital (Universidad Europea).'
+url: 'https://ruvebal.github.io'
+baseurl: '/digital-creativity-uem'
+repository: 'ruvebal/digital-creativity-uem'
+source: docs
+markdown: kramdown
+kramdown:
+ input: GFM
+ hard_wrap: false
+ parse_block_html: true
+ parse_span_html: true
+ show_warnings: false
+ auto_ids: true
+ auto_id_stripping: true
+ smart_quotes: [lsquo, rsquo, ldquo, rdquo]
+ entity_output: as_char
+ typographic_symbols:
+  hellip: '…'
+  ndash: '–'
+  mdash: '—'
+  laquo: '«'
+  raquo: '»'
+ footnote_nr: 1
+ footnote_backlink: '↩'
+ footnote_backlink_inline: true
+ footnote_backlink_class: 'footnote-back'
+ footnote_prefix: ''
+ toc_levels: 2..4
+theme: null
+highlighter: rouge
+permalink: /:categories/:path/
+
+include:
+ - lessons
+ - assets
+ - _data
+ - _plugins
+ - methodology
+ - tracks
+ - templates
+ - evaluation
+ - bibliography
+ - tao
+
+exclude:
+ - node_modules
+ - vendor
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - package-lock.json
+ - scripts
+ - .github
+ - _research
+ - student-project-template
+ - digital-creativity-pedagogy
+
+plugins:
+ - jekyll-seo-tag
+ - jekyll-sitemap
+
+collections:
+ lessons:
+  output: true
+  permalink: /lessons/:lang/:slug/
+ bibliography:
+  output: true
+  permalink: /bibliography/:lang/
+ methodology:
+  output: true
+  permalink: /methodology/:lang/
+ tracks:
+  output: true
+  permalink: /tracks/:lang/:slug/
+
+defaults:
+ - scope: { path: 'lessons/es' }
+   values: { lang: 'es', layout: 'lesson' }
+ - scope: { path: 'lessons/en' }
+   values: { lang: 'en', layout: 'lesson' }
+ - scope: { path: 'methodology/es' }
+   values: { lang: 'es', layout: 'methodology' }
+ - scope: { path: 'methodology/en' }
+   values: { lang: 'en', layout: 'methodology' }
+ - scope: { path: 'tracks/es' }
+   values: { lang: 'es', layout: 'track' }
+ - scope: { path: 'tracks/en' }
+   values: { lang: 'en', layout: 'track' }

@@ -1,0 +1,104 @@
+{% assign primary_id = include.id %}
+{% assign fallback_url = include.url %}
+{% unless primary_id %}
+	{% if include.url %}
+		{% assign primary_id = include.url %}
+	{% elsif include.url_webm %}
+		{% assign primary_id = include.url_webm %}
+	{% elsif include.url_mp4 %}
+		{% assign primary_id = include.url_mp4 %}
+	{% elsif include.url_ogg %}
+		{% assign primary_id = include.url_ogg %}
+	{% endif %}
+{% endunless %}
+{% if fallback_url == nil or fallback_url == '' %}
+	{% if include.url_mp4 %}
+		{% assign fallback_url = include.url_mp4 %}
+	{% elsif include.url_webm %}
+		{% assign fallback_url = include.url_webm %}
+	{% elsif include.url_ogg %}
+		{% assign fallback_url = include.url_ogg %}
+	{% endif %}
+{% endif %}
+
+<div class="video-player" data-video-id="{{ primary_id }}" markdown="0">
+{% if include.platform == 'youtube' %}
+{% include youtube.html id=include.id title=include.title %}
+{% elsif include.platform == 'vimeo' %}
+{% include vimeo.html id=include.id title=include.title %}
+{% elsif include.platform == 'file' %}
+<!-- Direct file embed for PD/CC sources (e.g., Wikimedia Commons upload URLs) -->
+<div class="video-container">
+	{% assign has_multiple_sources = false %}
+	{% if include.url_mp4 or include.url_webm or include.url_ogg or include.sources %}
+		{% assign has_multiple_sources = true %}
+	{% endif %}
+	{% if has_multiple_sources == false and include.url == nil %}
+		{% assign has_multiple_sources = true %}
+	{% endif %}
+
+	<video
+		{% unless has_multiple_sources == true %}
+			src="{{ include.url }}"
+		{% endunless %}
+		controls
+		preload="metadata"
+		playsinline
+		aria-label="{{ include.title | default: 'Video' }}">
+		{% comment %}
+			Optional explicit sources (handled first so browsers pick the best supported format).
+			Callers can pass url_mp4 / url_webm / url_ogg or a comma-separated "sources" list like "url|type,url2|type".
+		{% endcomment %}
+		{% if include.url_mp4 %}
+		<source src="{{ include.url_mp4 }}" type="video/mp4" />
+		{% endif %}
+		{% if include.url_webm %}
+		<source src="{{ include.url_webm }}" type="video/webm" />
+		{% endif %}
+		{% if include.url_ogg %}
+		<source src="{{ include.url_ogg }}" type="video/ogg" />
+		{% endif %}
+		{% if include.sources %}
+			{% assign extra_sources = include.sources | split: ',' %}
+			{% for src_def in extra_sources %}
+				{% assign parts = src_def | split: '|' %}
+				{% assign src_url = parts[0] | strip %}
+				{% assign src_type = parts[1] | strip %}
+				{% if src_url != '' %}
+		<source src="{{ src_url }}" {% if src_type != '' %}type="{{ src_type }}"{% endif %} />
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+		{% if has_multiple_sources == false and include.url %}
+			{% comment %}
+				Add a default <source> element for browsers that ignore the src attribute.
+			{% endcomment %}
+		<source src="{{ include.url }}" {% if include.mime %}type="{{ include.mime }}"{% endif %} />
+		{% endif %}
+		<p>Your browser does not support the video element. <a href="{{ fallback_url }}">Download the video</a>.</p>
+	</video>
+</div>
+{% endif %}
+{% if include.title %}
+<div class="video-title">
+<h4>{{ include.title }}</h4>
+</div>
+{% endif %}
+{% if include.timestamps %}
+<div class="video-timestamps">
+<h4>Key Moments:</h4>
+<ul>
+{% assign timestamps = include.timestamps | split: ',' %}
+{% for timestamp in timestamps %}
+{% assign parts = timestamp | split: '|' %}
+<li>
+<button class="timestamp-btn" data-time="{{ parts[0] }}">
+<span class="time">{{ parts[0] }}</span>
+<span class="label">{{ parts[1] }}</span>
+</button>
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+</div>

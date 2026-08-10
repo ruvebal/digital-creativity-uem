@@ -1,0 +1,16 @@
+project: digital-creativity-uem
+title:
+ es: 'Creación Digital'
+ en: 'Digital Creativity'
+subtitle:
+ es: 'Avatares, experiencias de moda digitales, portfolio web y R.A.'
+ en: 'Avatars, digital fashion experiences, web portfolio, and AR'
+motto: 'Critical Coding for a Better Living'
+studio_cycle:
+ - Exploration
+ - Reflection
+ - Conceptualization
+ - Production
+ - Exhibition
+institution: 'Universidad Europea'
+degree: 'Grado en Comunicación y Gestión de Moda'

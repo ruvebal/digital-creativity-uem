@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "ScholarlyArticle",
+		"headline": "{{ page.title | default: site.title }}",
+		"author": {
+			"@type": "Person",
+			"name": "Rubén Vega Balbás, PhD",
+			"jobTitle": "Creative Technologist & Developer",
+			"affiliation": {
+				"@type": "Organization",
+				"name": "crea-comm.net",
+				"url": "https://crea-comm.net"
+			},
+			"identifier": {
+				"@type": "PropertyValue",
+				"propertyID": "ORCID",
+				"value": "https://orcid.org/0000-0001-6862-9081"
+			},
+			"sameAs": ["https://github.com/ruvebal", "https://mastodon.social/@ruvebal", "https://www.ruvebal.art/"],
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"contactType": "inquiries",
+				"email": "ruvebal@crea-comm.net"
+			}
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "Digital Creativity — Creación Digital",
+			"url": "https://github.com/ruvebal/digital-creativity-uem"
+		},
+		"datePublished": "{{ page.date | default: site.time | date: '%Y-%m-%d' }}",
+		"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+		"keywords": ["digital creativity", "digital fashion", "avatars", "web portfolio", "AR", "critical coding"]
+	}
+</script>

@@ -1,0 +1,17 @@
+{% assign current_lesson = site.data.lessons | where: "slug", page.slug | first %}
+{% if current_lesson %}
+	{% if page.lang == 'es' %}
+		<link rel="alternate" hreflang="es" href="{{ site.url }}{{ site.baseurl }}{{ current_lesson.path.es }}" />
+		<link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ current_lesson.path.en }}" />
+		<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}{{ current_lesson.path.es }}" />
+	{% else %}
+		<link rel="alternate" hreflang="es" href="{{ site.url }}{{ site.baseurl }}{{ current_lesson.path.es }}" />
+		<link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ current_lesson.path.en }}" />
+		<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}{{ current_lesson.path.es }}" />
+	{% endif %}
+{% else %}
+	<link rel="alternate" hreflang="es" href="{{ page.url | replace: '/en/', '/es/' | absolute_url }}" />
+	<link rel="alternate" hreflang="en" href="{{ page.url | replace: '/es/', '/en/' | absolute_url }}" />
+	<link rel="alternate" hreflang="x-default" href="{{ page.url | replace: '/en/', '/es/' | absolute_url }}" />
+{% endif %}
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />

@@ -1,0 +1,14 @@
+node_modules/
+vendor/
+.bundle/
+_site/
+_site_test/
+.DS_Store
+*.log
+
+# Local build / OS
+.DS_Store
+*.log
+
+# Optional: never commit Ahmes PDF dumps if dropped here by mistake
+digital-creativity-pedagogy/**/pdfs/

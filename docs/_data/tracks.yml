@@ -1,0 +1,30 @@
+- slug: creacion-digital-i
+  title:
+   es: 'Creación Digital I — Forma tridimensional'
+   en: 'Digital Creativity I — Three-dimensional form'
+  path:
+   es: /tracks/es/creacion-digital-i/
+   en: /tracks/en/digital-creativity-i/
+  file:
+   es: tracks/es/creacion-digital-i/index.md
+   en: tracks/en/digital-creativity-i/index.md
+  status:
+   es: scaffold
+   en: scaffold
+  type: track
+  duration: 'S1 · 6 ECTS'
+- slug: creacion-digital-ii
+  title:
+   es: 'Creación Digital II — Avatares, portfolio web, R.A.'
+   en: 'Digital Creativity II — Avatars, web portfolio, AR'
+  path:
+   es: /tracks/es/creacion-digital-ii/
+   en: /tracks/en/digital-creativity-ii/
+  file:
+   es: tracks/es/creacion-digital-ii/index.md
+   en: tracks/en/digital-creativity-ii/index.md
+  status:
+   es: scaffold
+   en: scaffold
+  type: track
+  duration: 'S2 · 6 ECTS'

@@ -1,0 +1,49 @@
+---
+description: Research & authority home for Creación Digital — field map, authorities, proposals; not published on GitHub Pages
+globs: 'digital-creativity-pedagogy/**'
+alwaysApply: false
+---
+
+# digital-creativity-pedagogy — research home
+
+Mirror of the Web Atelier `frontend-pedagogy/` **structure**, not a copy of its FE CER claims or Cursor stack.
+
+## Layout
+
+| Path | Role |
+| ---- | ---- |
+| [`grounding/`](./grounding/) | **Canonical authorities** — field scope, edited map, authorities directory, seed lists, lexicum |
+| [`cv/`](./cv/) | Guías / CV drafts for CD I–II (when authored) |
+| *(future)* `syllabus-renewal/` | Institutional TEMARIO work |
+| *(future)* research-line / cohort proposal | Fashion Ladder B + FACTUM calendar (see Web Atelier synergy §7 until localised) |
+
+## Grounding index
+
+| File | Status |
+| ---- | ------ |
+| [`grounding/00-field-scope.md`](./grounding/00-field-scope.md) | synced from profield |
+| [`grounding/profield-digital-creativity.md`](./grounding/profield-digital-creativity.md) | synced pass-1 edited map |
+| [`grounding/profield-authorities-directory.md`](./grounding/profield-authorities-directory.md) | synced authorities (FACTUM, awards, journals) |
+| [`grounding/corpus-seed-list.md`](./grounding/corpus-seed-list.md) | global seeds |
+| [`grounding/corpus-seed-list-ibero.md`](./grounding/corpus-seed-list-ibero.md) | ibero seeds |
+| [`grounding/lexicum.yaml`](./grounding/lexicum.yaml) | vocabulary |
+| [`grounding/FINAL.md`](./grounding/FINAL.md) | run notes |
+
+## Re-sync
+
+```bash
+PROFIELD=~/src/profield/runs/digital-creativity
+G=digital-creativity-pedagogy/grounding
+cp "$PROFIELD/00-field-scope.md" "$G/"
+cp "$PROFIELD/01/pass1.edited.md" "$G/profield-digital-creativity.md"
+cp "$PROFIELD/01/pass1c.raw.authorities_directory.md" "$G/profield-authorities-directory.md"
+# restore HTML provenance banners after copy
+```
+
+Upstream remains profield for pipeline artefacts; **this directory is the teaching-repo authority** once emancipated.
+
+## Cross-repo
+
+- vShowroom synergy & FACTUM calendar: Web Atelier `frontend-pedagogy/atelier-synergy-vshowroom.mdc`
+- FE CER ladder (Ladder A): Web Atelier `frontend-pedagogy/fe-research-line.mdc`
+- Do **not** conflate LVMH/ANDAM student visibility with CER merit
