@@ -1,0 +1,225 @@
+---
+# T2 Pass 1 Deep Research Resultant
+
+- source_prompt: `T2-retouch-video-portfolio.pass1.prompt.md`
+- surface: ChatGPT Deep Research · external model A
+- chat_thread: `6a7b1248-b42c-83eb-a48c-05c37163d34a`
+- captured: 2026-08-11
+- audit_source: Claude Cloud · external model B
+- audit_artifact: `T2-retouch-video-portfolio.pass2.raw.md`
+- audited: 2026-08-11
+
+---
+## Retoque fotográfico avanzado de imágenes de moda / Advanced photographic retouching of fashion images
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] La gestión mediante perfiles ICC proporciona un marco reproducible para conservar la apariencia cromática entre captura, edición, pantalla e impresión.
+  - cite: Phil Green and Michael Kriss (eds.), *Color Management: Understanding and Using ICC Profiles*, 2010, Wiley
+  - doi: none
+  - isbn: 978-0-470-05825-1
+  - ES: Gestión de color y perfiles ICC en el flujo de retoque
+  - EN: Colour management and ICC profiles in the retouching workflow
+  - fit_ES: Fundamenta decisiones técnicas sobre espacios de color, perfiles de dispositivo, conversión, prueba y salida de imágenes de moda.
+  - fit_EN: It grounds technical decisions concerning colour spaces, device profiles, conversion, proofing, and output of fashion images.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] La fotografía de moda constituye una práctica histórica de construcción visual de cuerpos, prendas, deseo y cultura, no solo una técnica de cámara o posproducción.
+  - cite: Eugénie Shinkle, *Fashion Photography: The Story in 180 Pictures*, 2017, Aperture
+  - doi: none
+  - isbn: 978-1-59711-363-2
+  - ES: Historia y códigos visuales de la fotografía de moda
+  - EN: History and visual codes of fashion photography
+  - fit_ES: Permite relacionar las decisiones de retoque, encuadre, acabado y representación corporal con genealogías concretas de la imagen de moda.
+  - fit_EN: It connects retouching, framing, finishing, and bodily representation decisions to specific genealogies of fashion imagery.
+- [ESTABLISHED] El cuerpo vestido es una producción social situada; modificar digitalmente su forma, piel o edad también interviene en normas culturales sobre identidad y apariencia.
+  - cite: Joanne Entwistle, *The Fashioned Body: Fashion, Dress and Modern Social Theory*, 2015, Polity
+  - doi: none
+  - isbn: 978-0-7456-4938-2
+  - ES: Cuerpo vestido, identidad y representación
+  - EN: The dressed body, identity, and representation
+  - fit_ES: Aporta el marco sociológico necesario para evaluar críticamente la transformación digital de cuerpos en comunicación de moda.
+  - fit_EN: It supplies the sociological framework needed to evaluate digital transformations of bodies in fashion communication critically.
+
+### C · Académico / Academic
+
+- [EMERGING] Los retocadores profesionales desarrollan criterios éticos situados sobre inclusión, objetivación y modificación corporal, pero esos criterios no forman todavía un código profesional uniforme.
+  - cite: Matthew Raj Webb, *Compositing the Body: Ethical Expertise Among Professional Photographic Retouchers*, 2025, Visual Anthropology Review
+  - doi: 10.1111/var.70002
+  - isbn: none
+  - ES: Ética profesional del retoque corporal
+  - EN: Professional ethics of body retouching
+  - fit_ES: Vincula directamente las operaciones de retoque comercial con el juicio ético de quienes producen imágenes de moda y belleza.
+  - fit_EN: It directly connects commercial retouching operations with the ethical judgment of practitioners producing fashion and beauty images.
+- [ESTABLISHED] Las imágenes corporales alteradas pueden influir en la satisfacción corporal y las aspiraciones de belleza, mientras que una simple etiqueta de «imagen retocada» no garantiza la reducción de ese efecto.
+  - cite: Fiona MacCallum and Heather Widdows, *Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations*, 2018, Health Care Analysis
+  - doi: 10.1007/s10728-016-0327-1
+  - isbn: none
+  - ES: Alteración digital, ideales de belleza y límites del etiquetado
+  - EN: Digital alteration, beauty ideals, and limits of labelling
+  - fit_ES: Justifica incorporar análisis de consecuencias y alfabetización visual, además de declaraciones formales de retoque.
+  - fit_EN: It supports teaching consequence analysis and visual literacy in addition to formal retouching disclosures.
+- [EMERGING] La edición de fotografías en redes se asocia con autoobjetivación, comparación de apariencia y menor autoestima, aunque la evidencia disponible no permite establecer una dirección causal firme.
+  - cite: Phillip Ozimek, Semina Lainas, Hans-Werner Bierhoff, and Elke Rohmann, *How Photo Editing in Social Media Shapes Self-Perceived Attractiveness and Self-Esteem via Self-Objectification and Physical Appearance Comparisons*, 2023, BMC Psychology
+  - doi: 10.1186/s40359-023-01143-0
+  - isbn: none
+  - ES: Edición de autorretratos, autoobjetivación y autoestima
+  - EN: Self-image editing, self-objectification, and self-esteem
+  - fit_ES: Extiende la ética del retoque desde la publicidad editorial hasta los filtros, la autorrepresentación y la circulación social de imágenes.
+  - fit_EN: It extends retouching ethics from editorial advertising to filters, self-representation, and social image circulation.
+
+## Recursos de vídeo digital y edición para comunicación de moda / Digital video resources and editing for fashion communication
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] La estructura visual del vídeo puede diseñarse sistemáticamente mediante espacio, línea, forma, tono, color, movimiento y ritmo, con independencia del programa de edición empleado.
+  - cite: Bruce Block, *The Visual Story: Creating the Visual Structure of Film, TV, and Digital Media*, 2020, Routledge
+  - doi: none
+  - isbn: 978-1-138-01415-2
+  - ES: Estructura visual, continuidad, contraste y ritmo audiovisual
+  - EN: Visual structure, continuity, contrast, and audiovisual rhythm
+  - fit_ES: Ofrece un vocabulario operativo para planificar rodaje, selección de planos, montaje, color y ritmo en relatos breves de moda.
+  - fit_EN: It offers an operational vocabulary for planning shooting, shot selection, editing, colour, and rhythm in short fashion narratives.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] El fashion film es una forma híbrida situada entre promoción, entretenimiento de marca, exploración artística, documental y cultura digital.
+  - cite: Nick Rees-Roberts, *Fashion Film: Art and Advertising in the Digital Age*, 2018, Bloomsbury Visual Arts
+  - doi: none
+  - isbn: 978-0-8578-5700-2
+  - ES: Fashion film, publicidad, arte y documental
+  - EN: Fashion film, advertising, art, and documentary
+  - fit_ES: Es la monografía de referencia más directamente alineada con el análisis y la producción narrativa de imagen de moda en movimiento.
+  - fit_EN: It is the reference monograph most directly aligned with analysing and producing narrative moving fashion imagery.
+
+### C · Académico / Academic
+
+- [ESTABLISHED] La producción audiovisual de moda contemporánea desborda la categoría cerrada de fashion film y circula como vídeo social, contenido de marca y comunicación para plataformas móviles.
+  - cite: Nick Rees-Roberts, *After Fashion Film: Social Video and Brand Content in the Influencer Economy*, 2020, Journal of Visual Culture
+  - doi: 10.1177/1470412920964907
+  - isbn: none
+  - ES: Vídeo social, contenido de marca y economía influencer
+  - EN: Social video, brand content, and the influencer economy
+  - fit_ES: Actualiza el temario desde la pieza cinematográfica autónoma hacia formatos seriados, móviles y dependientes de plataforma.
+  - fit_EN: It updates the syllabus from autonomous cinematic pieces toward serial, mobile, and platform-dependent formats.
+- [EMERGING] El fashion film puede funcionar como diseño narrativo: la ficción, la experiencia de la prenda y la mediación audiovisual se construyen conjuntamente.
+  - cite: Jinyi Wang and Oskar Juhlin, *Unpacking Fashion Film for Digital Design*, 2020, Fashion Practice
+  - doi: 10.1080/17569370.2019.1635345
+  - isbn: none
+  - ES: Diseño narrativo y experiencia mediada de la prenda
+  - EN: Narrative design and mediated garment experience
+  - fit_ES: Relaciona las decisiones de guion, montaje y puesta en escena con la experiencia imaginada de vestir y usar el producto.
+  - fit_EN: It relates scripting, editing, and staging decisions to the imagined experience of wearing and using the product.
+
+## Maquetación, edición y creación de web y portfolio digital / Layout, editing, and creation of web and digital portfolio
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] El diseño web responsivo combina rejillas flexibles, medios adaptables y consultas de medios para conservar jerarquía y legibilidad en distintos tamaños de pantalla.
+  - cite: Ethan Marcotte, *Responsive Web Design*, 2011, A Book Apart
+  - doi: none
+  - isbn: 978-0-9844425-7-7
+  - ES: Diseño responsivo y adaptación del portfolio
+  - EN: Responsive design and portfolio adaptation
+  - fit_ES: Proporciona una base independiente de plataformas para convertir una identidad visual en una superficie web adaptable.
+  - fit_EN: It provides a platform-independent basis for translating visual identity into an adaptable web surface.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Las rejillas organizan relaciones, secuencias y jerarquías visuales y siguen siendo una base transferible de la maquetación editorial al entorno web.
+  - cite: Josef Müller-Brockmann, *Grid Systems in Graphic Design: A Visual Communication Manual for Graphic Designers, Typographers and Three Dimensional Designers*, 2016, Niggli
+  - doi: none
+  - isbn: 978-3-7212-0145-1
+  - ES: Rejillas, jerarquía y sistemas de maquetación
+  - EN: Grids, hierarchy, and layout systems
+  - fit_ES: Permite enseñar la composición del portfolio como sistema visual coherente y no como acumulación de páginas o proyectos.
+  - fit_EN: It supports teaching portfolio composition as a coherent visual system rather than an accumulation of pages or projects.
+- [ESTABLISHED] La composición multimodal produce significado mediante relaciones entre imagen, texto, tipografía, encuadre, saliencia y estructura de información.
+  - cite: Gunther Kress and Theo van Leeuwen, *Reading Images: The Grammar of Visual Design*, 2021, Routledge
+  - doi: none
+  - isbn: 978-0-415-67257-3
+  - ES: Gramática visual y composición multimodal
+  - EN: Visual grammar and multimodal composition
+  - fit_ES: Fundamenta la lectura y edición conjunta de fotografía, vídeo, texto y navegación como voz de marca.
+  - fit_EN: It grounds the combined reading and editing of photography, video, text, and navigation as a brand voice.
+
+### C · Académico / Academic
+
+- [EMERGING] El portfolio de moda no solo presenta resultados: selecciona, secuencia y narra proyectos para construir la identidad formativa y profesional de su autor.
+  - cite: Paolo Franzo, *La costruzione dell’identità attraverso il fashion portfolio: una esperienza di ricerca sul campo in ambito internazionale*, 2021, Revista de Ensino em Artes, Moda e Design
+  - doi: 10.5965/25944630512021076
+  - isbn: none
+  - ES: Portfolio de moda, narración e identidad profesional
+  - EN: Fashion portfolio, narrative, and professional identity
+  - fit_ES: Es una de las escasas investigaciones específicamente centradas en el portfolio de moda como artefacto narrativo e identitario.
+  - fit_EN: It is one of the few studies specifically focused on the fashion portfolio as a narrative and identity-forming artefact.
+- [EMERGING] Los portfolios digitales en educación artística favorecen reflexión, identidad profesional y alfabetización multimodal, pero la evidencia está dominada por estudios cualitativos y reclama más experimentación.
+  - cite: Diego Calderón-Garrido, Raquel Gil-Fernández, and Carolina Martín-Piñol, *Exploring Perspectives, Uses, Implications and Needs of the Educational Digital Portfolio in the Arts: A Systematic Review of the Scientific Literature*, 2023, SAGE Open
+  - doi: 10.1177/21582440231185557
+  - isbn: none
+  - ES: Portfolio digital en educación artística y evidencia de proceso
+  - EN: Digital portfolios in arts education and process evidence
+  - fit_ES: Es una fuente adyacente —no específica de moda— para justificar portfolios que documenten reflexión, iteración y competencias, además del resultado final.
+  - fit_EN: It is an adjacent—not fashion-specific—source supporting portfolios that document reflection, iteration, and competencies as well as final outcomes.
+
+## Cross-cut · GenAI, authenticity, process evidence
+
+### A · Técnico / Technical
+
+- [UNVERIFIED] C2PA define un estándar técnico para asociar a imágenes, vídeo y otros activos credenciales verificables sobre origen, ingredientes y operaciones de edición.
+  - cite: Coalition for Content Provenance and Authenticity, *C2PA Technical Specification, Version 2.4*, 2026, C2PA / Joint Development Foundation
+  - doi: none
+  - isbn: none
+  - identifier: [https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html](https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html)
+  - status: no-doi-no-isbn
+  - ES: Credenciales de contenido y trazabilidad técnica del proceso
+  - EN: Content credentials and technical process provenance
+  - fit_ES: Permite plantear la conservación verificable de procedencia y transformaciones en imágenes retocadas, vídeos y piezas publicadas en portfolios.
+  - fit_EN: It supports verifiable preservation of provenance and transformations in retouched images, videos, and portfolio publications.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Los medios digitales remedian formas anteriores y alternan entre transparencia aparente y exhibición de su propia mediación.
+  - cite: Jay David Bolter and Richard Grusin, *Remediation: Understanding New Media*, 2000, The MIT Press
+  - doi: none
+  - isbn: 978-0-262-52279-3
+  - ES: Remediación, transparencia e hipermediación
+  - EN: Remediation, transparency, and hypermediacy
+  - fit_ES: Ofrece un marco para analizar cómo el retoque, el montaje web y la generación sintética ocultan o hacen visible el proceso de mediación.
+  - fit_EN: It provides a framework for analysing how retouching, web composition, and synthetic generation conceal or expose mediation.
+
+### C · Académico / Academic
+
+- [EMERGING] En diseño textil universitario, la GenAI puede reducir carga y dificultad operativa mientras debilita el control expresivo, la editabilidad y la percepción de autoría; documentar prompts, decisiones y reelaboración humana ayuda a evaluar el proceso.
+  - cite: Shin Young Jang, *From Designer to Curator: Cognitive and Creative Trade-offs in GenAI-Assisted Design*, 2026, Fashion and Textiles
+  - doi: 10.1186/s40691-026-00459-w
+  - isbn: none
+  - ES: Autoría, agencia y evidencias del flujo GenAI
+  - EN: Authorship, agency, and evidence of the GenAI workflow
+  - fit_ES: Aunque estudia diseño textil, sus resultados son directamente transferibles a la evaluación de imágenes, vídeos y portfolios de moda asistidos por GenAI.
+  - fit_EN: Although centred on textile design, its findings transfer directly to assessing GenAI-assisted fashion images, videos, and portfolios.
+- [EMERGING] La transparencia sobre el origen humano o artificial de contenidos de marca no produce efectos uniformes sobre la autenticidad percibida y debe estudiarse según medio, tarea y contexto.
+  - cite: Alexandra Kirkby, Carsten Baumgarth, and Jörg Henseler, *To Disclose or Not Disclose, Is No Longer the Question – Effect of AI-Disclosed Brand Voice on Brand Authenticity and Attitude*, 2023, Journal of Product & Brand Management
+  - doi: 10.1108/JPBM-02-2022-3864
+  - isbn: none
+  - ES: Divulgación de IA y autenticidad de marca
+  - EN: AI disclosure and brand authenticity
+  - fit_ES: Es una fuente adyacente basada en texto de marca; desaconseja asumir sin evidencia que toda declaración de IA mejora o reduce automáticamente la autenticidad de portfolios y campañas.
+  - fit_EN: It is an adjacent brand-text study cautioning against assuming that every AI disclosure automatically improves or diminishes the authenticity of portfolios and campaigns.
+
+## Gaps
+
+La investigación específicamente dedicada al **retoque profesional de moda** sigue siendo escasa. El estudio etnográfico de Webb constituye una aportación directa poco habitual; gran parte de la evidencia sobre consecuencias procede todavía de autorretratos, redes sociales o exposición general a ideales corporales, no de comparaciones controladas entre prácticas concretas de retoque editorial.
+
+La literatura continúa reclamando diseños longitudinales y experimentales capaces de separar causalmente edición, autoobjetivación, comparación corporal y autoestima. También están infrarrepresentados hombres, adolescentes, identidades no binarias y contextos culturales no occidentales.
+
+En fashion film falta evidencia comparativa suficiente sobre cómo montaje, duración, sonido, orientación de pantalla y estructura narrativa afectan a la comprensión de marca, el recuerdo o la experiencia de la prenda en distintas plataformas. La bibliografía describe bien la evolución del formato, pero ofrece menos pruebas causales sobre decisiones concretas de edición.
+
+La investigación sobre **portfolio web específicamente orientado a fashion communication** es especialmente delgada. El trabajo de Franzo estudia identidad y narrativa del portfolio, pero no permite establecer qué rasgos web —arquitectura, interacción, velocidad, secuencia, accesibilidad o grado de experimentación visual— mejoran causalmente la empleabilidad, la evaluación académica o la percepción de marca.
+
+La revisión sobre portfolios artísticos identifica predominio cualitativo, escasez de experimentos, problemas de plataforma, sostenibilidad y flexibilidad, y necesidad de estudiar mejor la integración entre portfolio, redes sociales, evaluación y audiencia profesional.
+
+En GenAI faltan estudios centrados conjuntamente en **retoque de moda, fashion film y portfolio web**. Sigue abierta la validación de métodos de evaluación que combinen calidad final con trazas de proceso: originales, versiones, prompts, fuentes visuales, decisiones editoriales, intervención humana y credenciales técnicas.
+
+C2PA aporta infraestructura de procedencia, pero no demuestra por sí misma veracidad, mérito creativo, consentimiento, licitud de los materiales ni autenticidad cultural. Permanecen abiertos la conservación de credenciales durante la publicación web, la interoperabilidad entre herramientas y plataformas y la comprensión real de esas señales por estudiantes, evaluadores y públicos.

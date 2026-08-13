@@ -1,0 +1,341 @@
+---
+# C1 Pass 1 Deep Research Resultant
+
+- source_prompt: `C1-fashion-digital-world.pass1.prompt.md`
+- surface: ChatGPT Deep Research · external model A
+- chat_thread: `6a7b1dd3-6ea4-83eb-bd35-81274ea4c8ae`
+- captured: 2026-08-11
+- audit_source: Claude Cloud · external model B
+- audit_artifact: `C1-fashion-digital-world.pass2.raw.md`
+- audited: 2026-08-11
+
+---
+## Plataformización, capitalismo digital y comunicación de moda / Platformisation, digital capitalism, and fashion communication
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Las plataformas no son canales neutrales para la moda: sus infraestructuras y reglas comerciales pueden reorganizar producción, venta, visibilidad y dependencia empresarial.
+
+  * cite: Deya Xu and Tingting Liu, “Profit compression, time compression, and emotional exhaustion: the platformization of Taobao and its constraining effects on Chinese ‘original design’ women’s e-shops”, 2025, *Journal of Cultural Economy*
+  * doi: 10.1080/17530350.2024.2346208
+  * isbn: none
+  * ES: Plataformización del comercio y producción de moda
+  * EN: Platformisation of fashion commerce and production
+  * fit_ES: Permite analizar cómo la infraestructura de una gran plataforma condiciona modelos productivos y comerciales de pequeñas empresas de moda, desplazando la lectura desde el “marketing digital” hacia el poder de intermediación. ([Taylor & Francis Online][1])
+  * fit_EN: It shows how platform infrastructure constrains the production and commercial models of smaller fashion businesses, shifting discussion from digital marketing toward intermediary power. ([Taylor & Francis Online][1])
+
+* [ESTABLISHED] La mediatización digital de la moda alcanza no solo su comunicación sino el diseño de desfiles, el retail y las prácticas cotidianas mediante las que se produce el yo visible.
+
+  * cite: Agnès Rocamora, “Mediatization and Digital Media in the Field of Fashion”, 2017, *Fashion Theory*
+  * doi: 10.1080/1362704X.2016.1173349
+  * isbn: none
+  * ES: Mediatización digital del campo de la moda
+  * EN: Digital mediatization of the fashion field
+  * fit_ES: Es una referencia directamente situada en fashion studies para comprender cómo la lógica mediática penetra la producción, circulación y experiencia cotidiana de la moda. ([Taylor & Francis Online][2])
+  * fit_EN: This is a fashion-studies reference for understanding how media logics penetrate fashion production, circulation, retail, and everyday self-fashioning. ([Taylor & Francis Online][2])
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] La plataformización debe entenderse como una reorganización institucional basada en infraestructuras, datos, algoritmos, modelos comerciales y gobernanza, no simplemente como la expansión de las redes sociales.
+
+  * cite: José van Dijck, Thomas Poell, Martijn de Waal, *The Platform Society: Public Values in a Connective World*, 2018, Oxford University Press
+  * doi: none
+  * isbn: 978-0-19-088977-7
+  * ES: Sociedad de plataformas, datos y valores públicos
+  * EN: Platform society, data, and public values
+  * fit_ES: Ofrece el marco estructural necesario para explicar qué significa realmente “plataformización” cuando Instagram, TikTok, marketplaces y motores de recomendación median la comunicación de moda. ([UvA DARE][3])
+  * fit_EN: It provides the structural framework needed to explain what “platformisation” means when fashion communication is mediated by social platforms, marketplaces, data, and recommendation systems. ([UvA DARE][3])
+
+* [ESTABLISHED] La cultura de marca convierte autenticidad, identidad y participación en recursos económicos y en formas ambivalentes de poder cultural.
+
+  * cite: Sarah Banet-Weiser, *Authentic™: The Politics of Ambivalence in a Brand Culture*, 2012, New York University Press
+  * doi: none
+  * isbn: 978-0-8147-8713-7
+  * ES: Autenticidad y poder en la cultura de marca
+  * EN: Authenticity and power in brand culture
+  * fit_ES: Proporciona una genealogía crítica del lenguaje de autenticidad y autoexpresión que hoy estructura storytelling, influencers y branding de moda en plataformas. ([NYU Press][4])
+  * fit_EN: It provides a critical genealogy of the language of authenticity and self-expression now central to fashion storytelling, influencer culture, and platform branding. ([NYU Press][4])
+
+### C · Académico / Academic
+
+* [ESTABLISHED] En el trabajo creativo plataformizado, métricas como likes, shares y followers funcionan como mecanismos que distribuyen visibilidad, reputación y oportunidades económicas.
+
+  * cite: Brooke Erin Duffy, Annika Pinch, Shruti Sannon, Megan Sawey, “The Nested Precarities of Creative Labor on Social Media”, 2021, *Social Media + Society*
+  * doi: 10.1177/20563051211021368
+  * isbn: none
+  * ES: Métricas, visibilidad y precariedad creativa
+  * EN: Metrics, visibility, and creative precarity
+  * fit_ES: Permite leer el engagement no solo como KPI comunicativo sino como mecanismo de asignación desigual de valor, contratos y oportunidades dentro de la economía de creadores. ([Sage Journals][5])
+  * fit_EN: It enables students to read engagement not merely as a communication KPI but as an unequal mechanism for allocating value, sponsorships, contracts, and opportunities in creator economies. ([Sage Journals][5])
+
+## Espectáculo, cultura de la imagen y medios de moda tras la digitalización / Spectacle, image culture, and fashion media after digitisation
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] El fashion film digital opera simultáneamente como forma audiovisual, dispositivo publicitario y mecanismo para extender el universo simbólico de las marcas.
+
+  * cite: Nick Rees-Roberts, *Fashion Film: Art and Advertising in the Digital Age*, 2018, Bloomsbury Visual Arts
+  * doi: none
+  * isbn: 978-1-4725-1917-7
+  * ES: Fashion film entre arte, publicidad y espectáculo
+  * EN: Fashion film between art, advertising, and spectacle
+  * fit_ES: Vincula directamente imagen en movimiento, comunicación de moda, branded content y espectáculo, por lo que permite problematizar el fashion film mientras se enseña su producción. ([Bloomsbury][6])
+  * fit_EN: It directly connects moving image, fashion communication, branded content, and spectacle, making it suitable for critically framing fashion-film production. ([Bloomsbury][6])
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] El espectáculo designa una relación social mediada por imágenes en la que mercancía, representación y vida cotidiana quedan crecientemente entrelazadas.
+
+  * cite: Guy Debord, *The Society of the Spectacle*, 1994 [1967], Zone Books
+  * doi: none
+  * isbn: 978-0-942299-79-3
+  * ES: Mercancía, espectáculo y mediación visual
+  * EN: Commodity, spectacle, and visual mediation
+  * fit_ES: Sigue siendo un marco productivo para discutir críticamente la intensificación visual de la moda, siempre que se enseñe históricamente y no se trate como explicación total de las plataformas contemporáneas. ([Zone Books][7])
+  * fit_EN: It remains productive for discussing fashion's intensified visuality provided it is historically situated rather than treated as a complete theory of contemporary platforms. ([Zone Books][7])
+
+* [ESTABLISHED] Los medios de moda constituyen históricamente el propio campo de la moda, en lugar de limitarse a documentarlo desde fuera.
+
+  * cite: Djurdja Bartlett, Shaun Cole, Agnès Rocamora (eds.), *Fashion Media: Past and Present*, 2013, Bloomsbury Academic
+  * doi: none
+  * isbn: 978-0-85785-307-3
+  * ES: Historia crítica de los medios de moda
+  * EN: Critical history of fashion media
+  * fit_ES: Sitúa blogs y medios digitales en una genealogía más larga de revistas, fotografía, ilustración y otras tecnologías de mediación de la moda. ([UAL Research Online][8])
+  * fit_EN: It places blogs and digital media within a longer genealogy of magazines, photography, illustration, and other technologies through which fashion is mediated. ([UAL Research Online][8])
+
+### C · Académico / Academic
+
+* [ESTABLISHED] El fashion film contemporáneo requiere una perspectiva histórica y de arqueología de medios que evite presentar la imagen digital en movimiento como una ruptura absoluta con formas audiovisuales anteriores.
+
+  * cite: Marketa Uhlirova, “100 Years of the Fashion Film: Frameworks and Histories”, 2013, *Fashion Theory*
+  * doi: 10.2752/175174113X13541091797562
+  * isbn: none
+  * ES: Genealogías y arqueologías del fashion film
+  * EN: Genealogies and archaeologies of fashion film
+  * fit_ES: Introduce una corrección histórica importante frente a narrativas tecnodeterministas que atribuyen el nacimiento del fashion film exclusivamente a Internet y las plataformas digitales. ([Taylor & Francis Online][9])
+  * fit_EN: It provides an important historical corrective to technologically deterministic accounts that locate the origin of fashion film solely in the internet and digital platforms. ([Taylor & Francis Online][9])
+
+* [EMERGING] TikTok, ASMR, nostalgia, realidad aumentada y otras formas de circulación digital muestran cómo las tendencias de moda contemporáneas se organizan crecientemente en torno al afecto y la experiencia audiovisual.
+
+  * cite: Rosa Crepax, “Affective Fashion Trends: Aesthetic and Digital Transformations in the Fashion System”, 2024, *Fashion Theory*
+  * doi: 10.1080/1362704X.2024.2389595
+  * isbn: none
+  * ES: Afecto, tendencias y cultura visual digital
+  * EN: Affect, trends, and digital visual culture
+  * fit_ES: Actualiza la discusión de cultura visual mediante casos de TikTok, ASMR, nostalgia y fashion media inmersivos, útiles para contextualizar prácticas audiovisuales actuales. ([Taylor & Francis Online][10])
+  * fit_EN: It updates visual-culture critique through TikTok, ASMR, nostalgia, and immersive fashion-media cases relevant to contemporary audiovisual practice. ([Taylor & Francis Online][10])
+
+## Trabajo, creatividad y precariedad en la economía digital de la moda / Labour, creativity, and precarity in the digital fashion economy
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Una parte sustantiva del trabajo mediático realizado por diseñadores independientes permanece invisible aunque sea indispensable para obtener circulación y reconocimiento en Instagram y otros entornos digitales.
+
+  * cite: Synne Skjulstad, “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion”, 2025, *Fashion Theory*
+  * doi: 10.1080/1362704X.2024.2442183
+  * isbn: none
+  * ES: Trabajo mediático invisible del diseñador de moda
+  * EN: Invisible media work of fashion designers
+  * fit_ES: Hace visible la negociación, circulación de prendas, mantenimiento de redes y trabajo comunicativo que hay detrás de la aparente inmediatez de la imagen de moda en plataformas. ([Taylor & Francis Online][11])
+  * fit_EN: It exposes the negotiation, garment circulation, networking, and communication labour concealed behind the apparent immediacy of platform fashion imagery. ([Taylor & Francis Online][11])
+
+* [ESTABLISHED] La gestión algorítmica introduce formas específicas de inseguridad porque sistemas opacos y cambiantes intervienen en cómo el trabajo cultural es evaluado, distribuido y recompensado.
+
+  * cite: Brooke Erin Duffy, “Algorithmic Precarity in Cultural Work”, 2020, *Communication and the Public*
+  * doi: 10.1177/2057047320959855
+  * isbn: none
+  * ES: Precariedad algorítmica en el trabajo cultural
+  * EN: Algorithmic precarity in cultural work
+  * fit_ES: Ofrece un lenguaje preciso para analizar dependencia de algoritmos y variabilidad de la visibilidad sin reducir esos problemas a consejos para “optimizar el algoritmo”. 
+  * fit_EN: It provides precise language for analysing dependence on opaque and changing algorithms without reducing the issue to advice on “optimising the algorithm.” 
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] El ideal de “hacer lo que amas” en las industrias digitales puede legitimar trabajo aspiracional, no remunerado o infrapagado y distribuir sus costes de forma marcadamente desigual por género.
+
+  * cite: Brooke Erin Duffy, *(Not) Getting Paid to Do What You Love: Gender, Social Media, and Aspirational Work*, 2017, Yale University Press
+  * doi: none
+  * isbn: 978-0-300-21817-6
+  * ES: Trabajo aspiracional, género y economía de creadores
+  * EN: Aspirational labour, gender, and the creator economy
+  * fit_ES: Es especialmente pertinente para una titulación de moda porque su investigación parte de productoras digitales vinculadas a moda, belleza y lifestyle y desmonta la aparente equivalencia entre visibilidad y carrera profesional sostenible. ([PagePlace][12])
+  * fit_EN: It is especially relevant to fashion because its empirical world includes fashion, beauty, and lifestyle producers and challenges the apparent equivalence between visibility and a sustainable creative career. ([PagePlace][12])
+
+### C · Académico / Academic
+
+* [ESTABLISHED] El self-branding de las fashion bloggers combina emprendimiento, autenticidad cuidadosamente escenificada y trabajo afectivo dentro de normas de feminidad que distribuyen la visibilidad de manera desigual.
+
+  * cite: Brooke Erin Duffy, Emily Hund, “‘Having it All’ on Social Media: Entrepreneurial Femininity and Self-Branding Among Fashion Bloggers”, 2015, *Social Media + Society*
+  * doi: 10.1177/2056305115604337
+  * isbn: none
+  * ES: Self-branding, feminidad emprendedora y fashion blogging
+  * EN: Self-branding, entrepreneurial femininity, and fashion blogging
+  * fit_ES: Conecta directamente estética del perfil, identidad profesional, trabajo y género en uno de los antecedentes centrales de la actual cultura influencer de moda. ([Sage Journals][13])
+  * fit_EN: It directly connects profile aesthetics, professional identity, labour, and gender in a key precursor to contemporary fashion-influencer culture. ([Sage Journals][13])
+
+* [ESTABLISHED] La economía influencer obtiene valor no solo del contenido de los creadores sino también del trabajo de visibilidad realizado por audiencias y seguidores.
+
+  * cite: Crystal Abidin, “Visibility Labour: Engaging with Influencers’ Fashion Brands and #OOTD Advertorial Campaigns on Instagram”, 2016, *Media International Australia*
+  * doi: 10.1177/1329878X16665177
+  * isbn: none
+  * ES: Trabajo de visibilidad en marcas e influencers de moda
+  * EN: Visibility labour in fashion brands and influencer culture
+  * fit_ES: Permite ampliar quién cuenta como productor de valor dentro de la comunicación digital de moda, incorporando la actividad de followers y comunidades en la economía de atención. ([Sage Journals][14])
+  * fit_EN: It expands who counts as a producer of value in digital fashion communication by including follower and community activity within the attention economy. ([Sage Journals][14])
+
+## Sostenibilidad: discurso frente a práctica en la moda digital / Sustainability: discourse versus practice in digital fashion
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] La transformación digital puede modificar cadenas de suministro y modelos de negocio de moda, pero sus efectos sobre la sostenibilidad son multidimensionales y no permiten identificar digitalización con sostenibilidad por defecto.
+
+  * cite: Daria Casciani, et al., “Exploring the Nature of Digital Transformation in the Fashion Industry: Opportunities for Supply Chains, Business Models, and Sustainability-Oriented Innovation”, 2022, *Sustainability: Science, Practice and Policy*
+  * doi: 10.1080/15487733.2022.2125640
+  * isbn: none
+  * ES: Digitalización de la moda y sostenibilidad sistémica
+  * EN: Fashion digitalisation and systemic sustainability
+  * fit_ES: Es útil para desmontar la ecuación simplista “digital = sostenible” examinando simultáneamente tecnología, supply chain, modelos empresariales y distintos efectos de sostenibilidad. ([Taylor & Francis Online][15])
+  * fit_EN: It helps dismantle the simplistic equation “digital = sustainable” by considering technology, supply chains, business models, and multiple sustainability effects together. ([Taylor & Francis Online][15])
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] La sostenibilidad de la moda exige intervenir sobre el sistema completo —materiales, producción, distribución, uso, consumo y modelos empresariales— en lugar de convertirla en una propiedad promocional del producto.
+
+  * cite: Kate Fletcher, Lynda Grose, *Fashion & Sustainability: Design for Change*, 2012, Laurence King Publishing
+  * doi: none
+  * isbn: 978-1-85669-754-5
+  * ES: Sostenibilidad como transformación del sistema moda
+  * EN: Sustainability as transformation of the fashion system
+  * fit_ES: Funciona como contrapunto canónico a la comunicación verde superficial al situar sostenibilidad en cambios materiales, sociales y sistémicos que pueden contrastarse con las afirmaciones de marca. ([UAL Research Online][16])
+  * fit_EN: It provides a canonical counterpoint to superficial green communication by locating sustainability in material, social, and systemic change against which brand claims can be tested. ([UAL Research Online][16])
+
+### C · Académico / Academic
+
+* [ESTABLISHED] El discurso de “moda sostenible” más visible en Instagram puede quedar dominado por mensajes promocionales de marcas, mientras las formulaciones orientadas al cambio sistémico aparecen con mayor frecuencia fuera de los posts patrocinados.
+
+  * cite: Katia Vladimirova, “Behind 11 Million Likes: Sustainable Fashion on Instagram – A Critical Analysis of Actors and Discourses on Fashion, Sustainability and Social Change”, 2022, *International Journal of Sustainable Fashion & Textiles*
+  * doi: 10.1386/sft/0006_1
+  * isbn: none
+  * ES: Discurso de sostenibilidad de moda en Instagram
+  * EN: Sustainable-fashion discourse on Instagram
+  * fit_ES: Proporciona evidencia directamente crítica sobre quién consigue dominar el discurso visual de sostenibilidad y qué tipos de cambio quedan relegados por la comunicación promocional. ([Intellect Discover][17])
+  * fit_EN: It provides directly relevant evidence about who dominates visual sustainability discourse and which forms of systemic change are marginalised by promotional communication. ([Intellect Discover][17])
+
+* [ESTABLISHED] Las comunicaciones de fast-fashion en redes sociales pueden legitimar prácticas corporativas mediante autorización, racionalización, evaluación moral y narrativas que transforman sostenibilidad en reputación.
+
+  * cite: Tiia Alkkiomäki, Henna Syrjälä, Hanna Leipämaa-Leskinen, and Elina Ellonen, “Critical discourse analysis of fast fashion companies’ legitimation strategies on Instagram”, 2024, *Consumption Markets & Culture*
+  * doi: 10.1080/10253866.2024.2390864
+  * isbn: none
+  * ES: Green claims y legitimación discursiva en fast fashion
+  * EN: Green claims and discursive legitimation in fast fashion
+  * fit_ES: Permite analizar las piezas de comunicación sostenible como operaciones discursivas de legitimación y no únicamente según su eficacia gráfica o publicitaria. ([Taylor & Francis Online][18])
+  * fit_EN: It enables sustainability communications to be analysed as operations of discursive legitimation rather than only in terms of graphic or advertising effectiveness. ([Taylor & Francis Online][18])
+
+* [ESTABLISHED] En las revistas digitales de moda españolas, sostenibilidad y economía circular tienen presencia continuada pero aparecen frecuentemente vinculadas a promoción de marcas y celebridades.
+
+  * cite: Francisco Javier Ruiz del Olmo, Mireya Carballeda Camacho, “Estrategias comunicativas de la sostenibilidad y la economía circular en las ediciones digitales de las revistas sobre moda en España”, 2024, *Historia y Comunicación Social*
+  * doi: 10.5209/rced.93243
+  * isbn: none
+  * ES: Sostenibilidad en medios digitales de moda españoles
+  * EN: Sustainability in Spanish digital fashion media
+  * fit_ES: Aporta una referencia española directamente aplicable al aula bilingüe y permite discutir la tensión entre información medioambiental y promoción comercial en publicaciones de moda. ([Revistas Complutenses][19])
+  * fit_EN: It supplies a directly relevant Spanish case for a bilingual classroom and exposes tensions between environmental information and commercial promotion in fashion publishing. ([Revistas Complutenses][19])
+
+## Crítica de la IA generativa en imagen y comunicación de moda / Critical perspectives on generative AI in fashion imagery and brand media
+
+### A · Crítico-técnico / Critical-technical
+
+* [EMERGING] La generación de moda mediante IA introduce conflictos estructurales de copyright porque los sistemas pueden entrenarse sobre diseños protegidos y después producir outputs cuya relación con esas fuentes es difícil de determinar jurídicamente.
+
+  * cite: Jetsaphon Niyompatama, “Generative AI in Fashion Design Creation: A Copyright Analysis under EU and UK Law”, 2025, *Journal of Intellectual Property Law & Practice*
+  * doi: 10.1093/jiplp/jpaf077
+  * isbn: none
+  * ES: IA generativa, autoría y copyright en moda
+  * EN: Generative AI, authorship, and fashion copyright
+  * fit_ES: Introduce el problema material de training data, reproducción, originalidad y obras derivadas sin convertir la cuestión en una lista genérica de recomendaciones éticas. ([OUP Academic][20])
+  * fit_EN: It foregrounds training data, reproduction, originality, and derivative works without reducing the issue to a generic checklist of AI ethics recommendations. ([OUP Academic][20])
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] La IA debe analizarse como una infraestructura extractiva que depende de concentraciones de capital, recursos materiales, energía, datos y trabajo humano, no como una inteligencia abstracta separada de sus condiciones de producción.
+
+  * cite: Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*, 2021, Yale University Press
+  * doi: none
+  * isbn: 978-0-300-20957-0
+  * ES: Poder, extracción y costes materiales de la IA
+  * EN: Power, extraction, and the material costs of AI
+  * fit_ES: Proporciona el marco político-económico que falta cuando la IA generativa de imagen se presenta simplemente como nueva herramienta creativa, haciendo visibles infraestructura, concentración industrial y extracción. ([Open Library][21])
+  * fit_EN: It supplies the political-economic framework missing when image generation is presented simply as a new creative tool, making infrastructure, industrial concentration, and extraction visible. ([Open Library][21])
+
+* [ESTABLISHED] La captura masiva de datos constituye una relación económica en la que la vida social es convertida en materia prima para la acumulación, una lógica que antecede y sostiene los actuales sistemas generativos.
+
+  * cite: Nick Couldry, Ulises A. Mejias, *The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism*, 2019, Stanford University Press
+  * doi: 10.1515/9781503609754
+  * isbn: 978-1-5036-0975-4
+  * ES: Colonialismo de datos y acumulación digital
+  * EN: Data colonialism and digital accumulation
+  * fit_ES: Amplía la crítica de la IA desde los outputs hacia las relaciones de apropiación de datos que hacen posibles los sistemas de generación y personalización a escala. ([Everand][22])
+  * fit_EN: It extends AI critique from outputs to the relations of data appropriation that enable generative and personalisation systems at scale. ([Everand][22])
+
+### C · Académico / Academic
+
+* [EMERGING] En moda, la adopción de IA plantea problemas todavía abiertos de originalidad, autoría, autonomía creativa, propiedad intelectual y reproducción de convenciones estéticas procedentes de datasets anteriores.
+
+  * cite: Raj R. Mahto, et al., “Ethical Implications of AI in the Fashion Industry for Trend Forecasting and Garment Design Development”, 2026, *AI and Ethics*
+  * doi: 10.1007/s43681-026-01185-1
+  * isbn: none
+  * ES: Autoría, autonomía y datasets en IA para moda
+  * EN: Authorship, autonomy, and datasets in fashion AI
+  * fit_ES: Es útil como lectura reciente y específica de moda porque formula las disputas sobre originalidad, ownership y dependencia de datasets sin tratarlas como cuestiones ya resueltas. ([Springer Nature Link][23])
+  * fit_EN: It is useful as a recent fashion-specific reading because it frames originality, ownership, and dataset dependence as unresolved disputes rather than settled questions. ([Springer Nature Link][23])
+
+* [EMERGING] La integración experimental de GenAI en procesos de moda confirma capacidades de aceleración e ideación pero también muestra que el discurso de “colaboración humano-IA” necesita ser situado dentro de transformaciones más amplias de la práctica creativa.
+
+  * cite: Greta Rizzi and Paola Bertola, “Exploring the Generative AI Potential in the Fashion Design Process: An Experimental Experience on the Collaboration between Fashion Design Practitioners and Generative AI Tools”, 2025, *European Journal of Cultural Management and Policy*
+  * doi: 10.3389/ejcmp.2025.13875
+  * isbn: none
+  * ES: GenAI y transformación de la práctica creativa de moda
+  * EN: GenAI and the transformation of fashion creative practice
+  * fit_ES: Puede leerse críticamente junto a Crawford y la literatura sobre trabajo para contrastar las ventajas observadas en el estudio de taller con preguntas sobre autoría, dependencia tecnológica y reorganización profesional. ([Frontiers Partnerships][24])
+  * fit_EN: Read alongside Crawford and labour scholarship, it allows documented workshop benefits to be contrasted with questions of authorship, technological dependence, and professional restructuring. ([Frontiers Partnerships][24])
+
+## Gaps
+
+* [EMERGING] **Moda generativa como economía política de imagen:** la bibliografía específicamente dedicada a fashion communication todavía es mucho más sólida en copyright, adopción de herramientas y diseño que en concentración industrial, dependencia de proveedores de modelos, costes de infraestructura y desplazamiento del trabajo visual. Crawford y Couldry/Mejias proporcionan el marco general, pero todavía falta una literatura fashion-specific madura que conecte directamente esos problemas con campañas, editoriales y branded media. ([Open Library][21])
+
+* [EMERGING] **Impacto laboral de GenAI sobre fotógrafos, retocadores, modelos, estilistas, ilustradores y productores de fashion content:** existe una literatura robusta sobre precariedad e influencer labour anterior a la actual ola generativa, pero todavía es insuficiente la investigación longitudinal específicamente dedicada a cómo GenAI redistribuye tareas, tarifas, autoría y poder contractual dentro de la cadena de producción de imágenes de moda. ([Sage Journals][5])
+
+* [EMERGING] **“Desmaterialización” de la moda digital:** la evidencia disponible obliga a distinguir cuidadosamente sustitución de ciertos productos físicos, reducción de muestras/prototipos y creación de nuevos consumos digitales. Una bibliografía crítica consolidada que mida el balance neto incluyendo computación, dispositivos, rebound effects y crecimiento del consumo sigue siendo limitada; no debe enseñarse “digital fashion = lower impact” como hecho establecido. ([ScienceDirect][25])
+
+* [ESTABLISHED] **Sostenibilidad comunicada frente a transformación material:** hay evidencia suficiente para enseñar que presencia visual de mensajes sostenibles, engagement y discurso de marca no equivalen a transformación del sistema productivo; este contraste debería mantenerse explícito en el temario. ([Intellect Discover][17])
+
+* [EMERGING] **TikTok, recommendation systems y fashion image cultures:** existe trabajo creciente sobre tendencias, afecto, influencers y plataformas, pero sigue siendo menos consolidada la investigación crítica fashion-specific sobre cómo ranking, recommendation y short-video metrics condicionan formalmente montaje, duración, cuerpos visibles, repetición estética y circulación de tendencias. ([Taylor & Francis Online][10])
+
+* [EMERGING] **Perspectiva iberoamericana:** existe investigación española y latinoamericana relevante sobre redes, sostenibilidad y comunicación de moda, pero el núcleo internacional sobre platformisation, influencer labour y AI political economy continúa dominado por bibliografía anglófona. La incorporación iberoamericana debe hacerse por aportación demostrable —como el estudio español de Ruiz del Olmo y Carballeda Camacho— y no mediante cuotas bibliográficas no verificadas. ([Revistas Complutenses][19])
+
+[1]: https://www.tandfonline.com/doi/abs/10.1080/17530350.2024.2346208?utm_source=chatgpt.com "the platformization of Taobao and its constraining effects ..."
+[2]: https://www.tandfonline.com/doi/abs/10.1080/1362704X.2016.1173349?utm_source=chatgpt.com "Mediatization and Digital Media in the Field of Fashion"
+[3]: https://dare.uva.nl/id/54a2a45c-8228-49d9-9c1a-b3cb9bd76685?utm_source=chatgpt.com "The Platform Society - UvA DARE"
+[4]: https://nyupress.org/9780814787137/authentic/?utm_source=chatgpt.com "Authentic™ - NYU Press"
+[5]: https://journals.sagepub.com/doi/full/10.1177/20563051211021368 "The Nested Precarities of Creative Labor on Social Media - Brooke Erin Duffy, Annika Pinch, Shruti Sannon, Megan Sawey, 2021"
+[6]: https://www.bloomsbury.com/uk/fashion-film-9781472519177/?utm_source=chatgpt.com "Fashion Film - Nick Rees-Roberts"
+[7]: https://www.zonebooks.org/books/3-the-society-of-the-spectacle?utm_source=chatgpt.com "The Society of the Spectacle - Zone Books"
+[8]: https://ualresearchonline.arts.ac.uk/id/eprint/6485/?utm_source=chatgpt.com "Fashion Media: Past and Present - - UAL Research Online"
+[9]: https://www.tandfonline.com/doi/abs/10.2752/175174113X13541091797562?utm_source=chatgpt.com "100 Years of the Fashion Film: Frameworks and Histories"
+[10]: https://www.tandfonline.com/doi/full/10.1080/1362704X.2024.2389595?utm_source=chatgpt.com "Full article: Affective Fashion Trends: Aesthetic and Digital ..."
+[11]: https://www.tandfonline.com/doi/full/10.1080/1362704X.2024.2442183?utm_source=chatgpt.com "Backstage Matters: Designer's Invisible Media Work in ..."
+[12]: https://api.pageplace.de/preview/DT0400.9780300227666_A29976587/preview-9780300227666_A29976587.pdf?utm_source=chatgpt.com "[PDF] (Not) Getting Paid to Do What You Love"
+[13]: https://journals.sagepub.com/doi/10.1177/2056305115604337 "“Having it All” on Social Media: Entrepreneurial Femininity and Self-Branding Among Fashion Bloggers - Brooke Erin Duffy, Emily Hund, 2015"
+[14]: https://journals.sagepub.com/doi/abs/10.1177/1329878x16665177?utm_source=chatgpt.com "Visibility labour: Engaging with Influencers' fashion brands ..."
+[15]: https://www.tandfonline.com/doi/full/10.1080/15487733.2022.2125640?utm_source=chatgpt.com "Exploring the nature of digital transformation in the fashion ..."
+[16]: https://ualresearchonline.arts.ac.uk/id/eprint/2867/?utm_source=chatgpt.com "Fashion and sustainability: design for change - - UAL Research Online"
+[17]: https://intellectdiscover.com/content/journals/10.1386/sft/0006_1 "Behind 11 million likes: Sustainable fashion on Instagram – A critical analysis of actors and discourses on fashion, sustainability and social change | Intellect"
+[18]: https://www.tandfonline.com/doi/full/10.1080/10253866.2024.2390864?utm_source=chatgpt.com "Critical discourse analysis of fast fashion companies' ..."
+[19]: https://revistas.ucm.es/index.php/HICS/article/download/93243/4564456569356/4564456712357 "Estrategias comunicativas de la sostenibilidad y la economía circular en las ediciones digitales de las revistas sobre moda en España"
+[20]: https://academic.oup.com/jiplp/article/20/10/654/8232563 "oup.silverchair-cdn.com"
+[21]: https://openlibrary.org/books/OL29455403M/Atlas_of_AI?utm_source=chatgpt.com "Atlas of AI by Kate Crawford | Open Library"
+[22]: https://www.everand.com/book/416972614/The-Costs-of-Connection-How-Data-Is-Colonizing-Human-Life-and-Appropriating-It-for-Capitalism/276289609?utm_source=chatgpt.com "The Costs of Connection by Nick Couldry, Ulises A. Mejias (Ebook) - Read free for 30 days"
+[23]: https://link.springer.com/article/10.1007/s43681-026-01185-1 "Ethical implications of AI in the fashion industry for trend forecasting and garment design development | AI and Ethics | Springer Nature Link"
+[24]: https://www.frontierspartnerships.org/journals/european-journal-of-cultural-management-and-policy/articles/10.3389/ejcmp.2025.13875/full "Frontiers Publishing Partnerships | Exploring the generative AI potential in the fashion design process: an experimental experience on the collaboration between fashion design practitioners and generative AI tools"
+[25]: https://www.sciencedirect.com/science/article/pii/S0007681323000459?utm_source=chatgpt.com "How digital substitutes are creating new market opportunities"

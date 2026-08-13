@@ -1,0 +1,270 @@
+---
+# T1 Pass 1 Deep Research Resultant
+
+- source_prompt: `T1-image-2d-volume.pass1.prompt.md`
+- surface: ChatGPT Deep Research · external model A
+- chat_thread: `6a7b1247-97d0-83eb-9c8d-a53ef3a47ff8`
+- captured: 2026-08-11
+- audit_source: Claude Cloud · external model B
+- audit_artifact: `T1-image-2d-volume.pass2.raw.md`
+- audited: 2026-08-11
+
+---
+## Introducción a las imágenes digitales / Introduction to digital images
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] Bitmap/vector basics are teachable through practical digital-media exercises that connect resolution, layers, format, and design fundamentals.
+  - cite: xtine burrough and Michael Mandiberg, *Digital Foundations: Intro to Media Design with the Adobe Creative Suite*, 2009, New Riders/AIGA Design Press
+  - doi: none
+  - isbn: 978-0-321-55598-4
+  - ES: Imágenes digitales: mapa de bits/vector y resolución
+  - EN: Digital images: bitmap/vector and resolution
+  - fit_ES: Aporta ejercicios de base para diferenciar imagen raster, vector, capas, salida y composición digital.
+  - fit_EN: It gives practical entry-level exercises for distinguishing raster, vector, layers, output, and digital composition.
+- [ESTABLISHED] Colour-space, sampling, compression, and resolution concepts are a durable technical bridge between digital still images and screen-based media.
+  - cite: Charles Poynton, *Digital Video and HD: Algorithms and Interfaces*, 2012, Morgan Kaufmann
+  - doi: none
+  - isbn: 978-0-12-391926-7
+  - ES: Espacios de color, muestreo y resolución digital
+  - EN: Colour spaces, sampling, and digital resolution
+  - fit_ES: Sitúa RGB, codificación, muestreo y resolución en una base técnica aplicable a la alfabetización de imagen digital.
+  - fit_EN: It grounds RGB, encoding, sampling, and resolution in a technical framework useful for digital image literacy.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] New-media images should be read as software-shaped cultural objects, not only as files or screen outputs.
+  - cite: Lev Manovich, *The Language of New Media*, 2001, The MIT Press
+  - doi: none
+  - isbn: 978-0-262-63255-3
+  - ES: Imagen digital como objeto de nuevos medios
+  - EN: Digital image as new-media object
+  - fit_ES: Da el marco teórico para leer interfaz, base de datos, pantalla y montaje como condiciones de la imagen digital.
+  - fit_EN: It frames interface, database, screen, and montage as cultural conditions of the digital image.
+
+### C · Académico / Academic
+
+- [ESTABLISHED] Visual literacy in higher education combines interpretation, analysis, evaluation, and production of images.
+  - cite: Joanna Kędra, “What does it mean to be visually literate? Examination of visual literacy definitions in a context of higher education,” 2018, *Journal of Visual Literacy*
+  - doi: 10.1080/1051144X.2018.1492234
+  - isbn: none
+  - ES: Alfabetización visual digital en educación superior
+  - EN: Digital visual literacy in higher education
+  - fit_ES: Fundamenta competencias críticas para leer, evaluar y producir imágenes digitales en una asignatura universitaria.
+  - fit_EN: It supports critical competencies for reading, evaluating, and producing digital images in undergraduate teaching.
+
+## Herramientas y flujos de dibujo digital 2D para comunicación de moda / 2D digital drawing tools and workflows for fashion communication
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] Fashion CAD workflows depend on combining vector illustration, raster editing, croquis, flats, specs, colour, and presentation.
+  - cite: Stacy Stewart Smith, *CAD for Fashion Design and Merchandising*, 2015, Fairchild Books / Bloomsbury Publishing
+  - doi: none
+  - isbn: 978-1-5013-9534-5
+  - ES: CAD 2D para dibujo y presentación de moda
+  - EN: 2D CAD for fashion drawing and presentation
+  - fit_ES: Encaja con flujos de Illustrator/Photoshop, figurín, plano técnico, retoque y presentación de moda.
+  - fit_EN: It fits Illustrator/Photoshop workflows for croquis, flats, retouching, technical drawing, and fashion presentation.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Fashion drawing conventions remain the visual grammar behind both hand-rendered and digital fashion communication.
+  - cite: Bina Abling, *Fashion Sketchbook*, 2023, Fairchild Books / Bloomsbury Publishing
+  - doi: none
+  - isbn: 978-1-5013-8795-1
+  - ES: Convenciones de ilustración, figurín, flats y specs
+  - EN: Conventions of illustration, croquis, flats, and specs
+  - fit_ES: Ofrece una gramática estable de proporción, prenda, detalle y plano técnico que puede trasladarse al entorno digital.
+  - fit_EN: It supplies a stable grammar of proportion, garment detail, and technical flats that transfers to digital tools.
+
+### C · Académico / Academic
+
+- [ESTABLISHED] Digital tutoring and computer-aided instruction can scaffold the learning of fashion-design principles and visual decisions.
+  - cite: Ching-I Cheng, Damon Shing-Min Liu, and Charles Chia-Hsu Lin, “A digital tutor for learning fashion design,” 2014, *Multimedia Tools and Applications*
+  - doi: 10.1007/s11042-014-2084-1
+  - isbn: none
+  - ES: Aprendizaje asistido por software en diseño de moda
+  - EN: Software-assisted learning in fashion design
+  - fit_ES: Aporta evidencia académica sobre herramientas digitales como apoyo al aprendizaje visual y proyectual en moda.
+  - fit_EN: It provides scholarly evidence on digital tools as support for visual and design learning in fashion.
+
+## Color; mapas de bits; efectos digitales y postprocesado / Colour; bitmap images; digital effects and post-processing
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] Filtering, enhancement, colour transformation, and correction are core bitmap operations behind digital post-processing.
+  - cite: Rafael C. Gonzalez and Richard E. Woods, *Digital Image Processing*, 2018, Pearson
+  - doi: none
+  - isbn: 978-0-13-335672-4
+  - ES: Procesamiento de imagen, filtros y corrección
+  - EN: Image processing, filters, and correction
+  - fit_ES: Proporciona la base técnica para explicar píxel, canal, filtro, mejora, transformación y corrección de imágenes.
+  - fit_EN: It supplies the technical basis for pixels, channels, filters, enhancement, transformations, and correction.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Colour is relational and perceptual, so digital palettes must be taught through interaction, contrast, and context.
+  - cite: Josef Albers, *Interaction of Color: 50th Anniversary Edition*, 2013, Yale University Press
+  - doi: none
+  - isbn: 978-0-300-17935-4
+  - ES: Teoría perceptiva del color aplicada a imagen digital
+  - EN: Perceptual colour theory for digital image work
+  - fit_ES: Ancla la enseñanza del color más allá de valores RGB, hacia contraste, temperatura, transparencia e ilusión perceptiva.
+  - fit_EN: It anchors colour teaching beyond RGB values, toward contrast, temperature, transparency, and perceptual illusion.
+
+### C · Académico / Academic
+
+- [EMERGING] Fashion and beauty retouching require technical literacy plus ethical awareness of manipulated advertising images.
+  - cite: Caitlin McBride, Nancy Costello, Suman Ambwani, Breanne Wilhite, and S. Bryn Austin, “Digital Manipulation of Images of Models’ Appearance in Advertising: Strategies for Action Through Law and Corporate Social Responsibility Incentives to Protect Public Health,” 2019, *American Journal of Law & Medicine*
+  - doi: 10.1177/0098858819849990
+  - isbn: none
+  - ES: Retoque digital, publicidad de moda y ética visual
+  - EN: Digital retouching, fashion advertising, and visual ethics
+  - fit_ES: Vincula el postprocesado con la lectura crítica de imágenes retocadas en moda, belleza y publicidad.
+  - fit_EN: It connects post-processing with critical reading of retouched fashion, beauty, and advertising imagery.
+
+## Fundamentos y representación de la forma tridimensional; volumen / Fundamentals and representation of three-dimensional form; volume
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] 3D representation depends on geometry, transforms, surfaces, lighting, rendering, and display pipelines.
+  - cite: John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, and Kurt Akeley, *Computer Graphics: Principles and Practice*, 2013, Addison-Wesley / Pearson
+  - doi: none
+  - isbn: 978-0-321-39952-6
+  - ES: Geometría, transformación y render de volumen
+  - EN: Geometry, transformation, and rendering of volume
+  - fit_ES: Ofrece los fundamentos técnicos para representar forma, volumen, superficie, luz y punto de vista.
+  - fit_EN: It supplies the technical fundamentals for representing form, volume, surface, light, and viewpoint.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Perception of shape, balance, depth, and volume is a psychological foundation for representing three-dimensional form.
+  - cite: Rudolf Arnheim, *Art and Visual Perception, Second Edition: A Psychology of the Creative Eye*, 2004, University of California Press
+  - doi: none
+  - isbn: 978-0-520-24383-5
+  - ES: Percepción visual de forma, profundidad y volumen
+  - EN: Visual perception of form, depth, and volume
+  - fit_ES: Da una base canónica para entender cómo el ojo organiza peso, contorno, profundidad y volumen.
+  - fit_EN: It gives a canonical basis for how the eye organizes weight, contour, depth, and volume.
+
+### C · Académico / Academic
+
+- [EMERGING] 3D fashion design changes how volume, pattern, garment development, and sustainability are conceived together.
+  - cite: Holly McQuillan, “Digital 3D design as a tool for augmenting zero-waste fashion design practice,” 2020, *International Journal of Fashion Design, Technology and Education*
+  - doi: 10.1080/17543266.2020.1737248
+  - isbn: none
+  - ES: Diseño 3D y volumen en moda sostenible
+  - EN: 3D design and volume in sustainable fashion
+  - fit_ES: Conecta representación volumétrica digital con patronaje, prototipado y estrategias de cero residuo.
+  - fit_EN: It links digital volumetric representation with pattern cutting, prototyping, and zero-waste strategies.
+
+## Fuentes compositivas y referencias en diseño e imagen de moda / Compositional sources and references in fashion design/image
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] Fashion research methods translate visual sources, references, concepts, and moodboards into design direction.
+  - cite: Ezinma Mbonu, *Fashion Design Research*, 2014, Laurence King Publishing
+  - doi: none
+  - isbn: 978-1-78067-179-6
+  - ES: Investigación visual, referencias y moodboards en moda
+  - EN: Visual research, references, and moodboards in fashion
+  - fit_ES: Sirve para enseñar cómo seleccionar, ordenar y transformar referencias visuales en propuestas de moda.
+  - fit_EN: It supports teaching how to select, organize, and transform visual references into fashion proposals.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Fashion images and garments operate as communicative systems that encode identity, culture, and social meaning.
+  - cite: Malcolm Barnard, *Fashion as Communication*, 2002, Routledge
+  - doi: none
+  - isbn: 978-0-415-26018-3
+  - ES: Moda como comunicación visual y cultural
+  - EN: Fashion as visual and cultural communication
+  - fit_ES: Proporciona el marco teórico para leer referencias, estilos e imágenes de moda como mensajes culturales.
+  - fit_EN: It provides the theoretical frame for reading fashion references, styles, and images as cultural messages.
+
+### C · Académico / Academic
+
+- [ESTABLISHED] The fashion photograph is a complex cultural image, shaped by editorial, commercial, street-style, and art-photographic conventions.
+  - cite: Karen de Perthuis, “Fashion’s Image: The Complex World of the Fashion Photograph,” 2019, in Stephen Bull (ed.), *A Companion to Photography*, Wiley-Blackwell
+  - doi: 10.1002/9781118598764.ch15
+  - isbn: 978-1-4051-9584-3
+  - ES: La fotografía de moda como imagen cultural y compositiva
+  - EN: The fashion photograph as cultural and compositional image
+  - fit_ES: Ayuda a situar composición, referencia y estilo dentro de la producción y recepción de imágenes de moda.
+  - fit_EN: It situates composition, reference, and style within the production and reception of fashion images.
+
+## Creación de imágenes digitales animadas / Animated digital images and 2D motion for fashion narrative
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] Motion design requires timing, sequencing, transitions, typography, compositing, and visual continuity.
+  - cite: Austin Shaw, *Design for Motion: Fundamentals and Techniques of Motion Design*, 2015, Routledge
+  - doi: none
+  - isbn: 978-1-138-81209-3
+  - ES: Fundamentos técnicos de motion design 2D
+  - EN: Technical fundamentals of 2D motion design
+  - fit_ES: Aporta procedimientos para construir imágenes animadas mediante ritmo, composición temporal y continuidad visual.
+  - fit_EN: It gives procedures for building animated images through rhythm, temporal composition, and visual continuity.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Software reshapes media authorship by hybridizing older media languages into editable, compositable, animated forms.
+  - cite: Lev Manovich, *Software Takes Command*, 2013, Bloomsbury Academic
+  - doi: none
+  - isbn: 978-1-62356-745-3
+  - ES: Software, hibridación de medios y animación digital
+  - EN: Software, media hybridity, and digital animation
+  - fit_ES: Explica por qué la animación digital y el motion graphics son lenguajes de software, composición e hibridación mediática.
+  - fit_EN: It explains why digital animation and motion graphics are languages of software, compositing, and media hybridity.
+
+### C · Académico / Academic
+
+- [EMERGING] Motion graphics can extend fashion illustration into dynamic textile patterns and time-based fashion communication.
+  - cite: Kyung-Hee Choi, “Digitalized Dynamic Fashion Illustration, Using Motion Graphics,” 2019, in *Fashion Communication in the Digital Age*, Springer
+  - doi: 10.1007/978-3-030-15436-3_2
+  - isbn: 978-3-030-15436-3
+  - ES: Ilustración de moda dinámica con motion graphics
+  - EN: Dynamic fashion illustration with motion graphics
+  - fit_ES: Conecta animación 2D, patrones dinámicos y narrativa visual de moda en un caso académico específico.
+  - fit_EN: It connects 2D animation, dynamic patterns, and fashion visual narrative in a fashion-specific scholarly case.
+
+## Bodegones digitales y puestas en escena de producto/moda / Digital still lifes and staged product/fashion stills
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] Product and still-life staging depend on controlled light, reflection, surface, shadow, transparency, and studio setup.
+  - cite: Fil Hunter, Steven Biver, and Paul Fuqua, *Light—Science & Magic: An Introduction to Photographic Lighting*, 2015, Routledge / Focal Press
+  - doi: none
+  - isbn: 978-0-415-71940-7
+  - ES: Iluminación y puesta en escena de bodegón/producto
+  - EN: Lighting and staging for still life/product images
+  - fit_ES: Ofrece procedimientos claros para iluminar objetos, textiles, metal, vidrio, superficies y fondos en imágenes de producto.
+  - fit_EN: It gives clear procedures for lighting objects, textiles, metal, glass, surfaces, and backgrounds in product imagery.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Still photographic images can be read through attention, detail, affect, and cultural codes.
+  - cite: Roland Barthes, *Camera Lucida: Reflections on Photography*, 1981/2010, Hill and Wang
+  - doi: none
+  - isbn: 978-0-374-53233-8
+  - ES: Lectura crítica de la imagen fotográfica fija
+  - EN: Critical reading of the still photographic image
+  - fit_ES: Aporta conceptos útiles para analizar cómo un bodegón o producto atrae atención, deseo y significado.
+  - fit_EN: It offers concepts for analysing how a still life or product image draws attention, desire, and meaning.
+
+### C · Académico / Academic
+
+- [EMERGING] Online apparel product images work differently when they are product-focused versus style-focused, affecting consumer response.
+  - cite: Jonghan Hyun, “Online apparel presentation: Exploring consumer response toward different types of product images,” 2026, *Journal of Global Fashion Marketing*
+  - doi: 10.1080/20932685.2025.2560312
+  - isbn: none
+  - ES: Presentación digital de producto de moda en ecommerce
+  - EN: Digital presentation of fashion products in ecommerce
+  - fit_ES: Relaciona directamente tipos de imagen de producto, estilismo visual y respuesta del consumidor en moda online.
+  - fit_EN: It directly links product-image types, visual styling, and consumer response in online fashion.
+
+## Gaps
+
+- Anchors missing class B: none.
+- Anchors missing class C: none.
+- `no-doi-no-isbn` items: 0.

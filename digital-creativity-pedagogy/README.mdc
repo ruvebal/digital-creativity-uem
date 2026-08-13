@@ -12,8 +12,13 @@ Mirror of the Web Atelier `frontend-pedagogy/` **structure**, not a copy of its 
 
 | Path | Role |
 | ---- | ---- |
-| [`grounding/`](./grounding/) | **Canonical authorities** — field scope, edited map, authorities directory, seed lists, lexicum |
-| [`cv/`](./cv/) | Guías / CV drafts for CD I–II (when authored) |
+| [`cv/guides/*.json`](./cv/guides/) | **Mandatory** official UEM guía scrapes (CD I · CD II) |
+| [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) | How hours, evaluation, competencies, CONTENIDOS bind all pedagogy |
+| [`dc-cv-forge.mdc`](./dc-cv-forge.mdc) | Forge instructor CV / guía curricular from JSON |
+| [`dc-unit-forge.mdc`](./dc-unit-forge.mdc) | One unit → lesson + studio + exercises (hours = guía, not FE) |
+| [`grounding/`](./grounding/) | Field map, authorities, seed lists · discover/cite rules · [`temario/PROVENANCE-LAYER.md`](./grounding/temario/PROVENANCE-LAYER.md) worked demo |
+| [`TEACHING-READINESS.mdc`](./TEACHING-READINESS.mdc) | Honest “can we teach yet?” audit |
+| [`cv/`](./cv/) | Guides + (pending) `uem-ruvebal-creacion-digital-*-cv.md` |
 | *(future)* `syllabus-renewal/` | Institutional TEMARIO work |
 | *(future)* research-line / cohort proposal | Fashion Ladder B + FACTUM calendar (see Web Atelier synergy §7 until localised) |
 

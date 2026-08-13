@@ -15,10 +15,16 @@ status: scaffold
 
 **Scaffold.** Las unidades de lección se irán publicando bajo `docs/lessons/es/creacion-digital-i/`.
 
-## Ancla oficial
+## Contenidos oficiales (guía)
 
-Fundamentos y representación de la forma tridimensional. Volumen.
+Contrato institucional: `digital-creativity-pedagogy/cv/guides/1-creacion-digital-i.json` (no se publica en Pages). Carga formativa presencial **140 h**.
+
+- Introducción a las imágenes digitales  
+- Tecnología digital 2D: herramientas de dibujo · color · mapas de bits · efectos  
+- Fundamentos y representación de la forma tridimensional · Volumen  
+- Fuentes y referencias compositivas en el diseño de moda  
+- Creación de imágenes digitales animadas · Bodegones digitales  
 
 ## Relación con el arco anual
 
-CD I prepara el lenguaje volumétrico; CD II (S2) lo lleva a avatar, experiencia digital, portfolio web y R.A., y alimenta el vShowroom.
+CD I prepara alfabetización 2D + volumétrica; CD II (S2) lo lleva a avatar, experiencia digital, portfolio web y R.A., y alimenta el vShowroom.

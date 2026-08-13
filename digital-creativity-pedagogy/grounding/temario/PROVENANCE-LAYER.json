@@ -1,0 +1,578 @@
+[
+  {
+    "resultant": "T1",
+    "file": "T1-image-2d-volume.pass1.resultant.mdc",
+    "strand": "Technique",
+    "query": "volumetric imaging 2D fashion photography spatial volume digital image",
+    "athanor_hits": [
+      {
+        "similarity": 0.7208,
+        "node_id": "01d38c38-3d8a-5d56-9040-fec3d7781c90",
+        "document_id": "a79f3811-a033-5ab6-86df-b6e9dc4d718f",
+        "file_name": "Eugenie Shinkle - Fashion as Photograph_ Viewing and Reviewing Images of Fashion (2008, I. B. Tauris).pdf",
+        "document_title": "Fashion as Photograph",
+        "page_index": 3,
+        "source_hash": "1936070c4126b3ded06f615752e2776aa6e3fab8d62b2a82b9afbd50f1f14113",
+        "content_preview": "Images of Fashion",
+        "meta_title": "Fashion as Photograph",
+        "doi": null,
+        "isbn": 9781845115166
+      },
+      {
+        "similarity": 0.7203,
+        "node_id": "698b82b2-fa28-5e67-8fbe-93ce1ab960eb",
+        "document_id": "a79f3811-a033-5ab6-86df-b6e9dc4d718f",
+        "file_name": "Eugenie Shinkle - Fashion as Photograph_ Viewing and Reviewing Images of Fashion (2008, I. B. Tauris).pdf",
+        "document_title": "Fashion as Photograph",
+        "page_index": 243,
+        "source_hash": "1936070c4126b3ded06f615752e2776aa6e3fab8d62b2a82b9afbd50f1f14113",
+        "content_preview": "fashion photography as 2, 3, 6-7, 30, 32-4",
+        "meta_title": "Fashion as Photograph",
+        "doi": null,
+        "isbn": 9781845115166
+      },
+      {
+        "similarity": 0.7105,
+        "node_id": "6087397f-3e0e-5a38-9f13-ab42423ca9b9",
+        "document_id": "a79f3811-a033-5ab6-86df-b6e9dc4d718f",
+        "file_name": "Eugenie Shinkle - Fashion as Photograph_ Viewing and Reviewing Images of Fashion (2008, I. B. Tauris).pdf",
+        "document_title": "Fashion as Photograph",
+        "page_index": 148,
+        "source_hash": "1936070c4126b3ded06f615752e2776aa6e3fab8d62b2a82b9afbd50f1f14113",
+        "content_preview": "THE FASHION PHOTOGRAPH",
+        "meta_title": "Fashion as Photograph",
+        "doi": null,
+        "isbn": 9781845115166
+      }
+    ],
+    "deviac_top": [
+      {
+        "similarity": 0.6697,
+        "source": "ahmes/10_3389_fpsyg_2023_1276856_virtual_fashion_experiences_in_virtual_reality_fashion_show_ddb20bc5/index.md",
+        "preview": "The  spatial  characteristics  of  pataphysics  are significant in the image-oriented fashion industry as they can express images  that  designers  want  to  convey  without  limit"
+      },
+      {
+        "similarity": 0.6647,
+        "source": "ahmes/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/index.md",
+        "preview": "Photographic images play a key role in defining global fashion culture and in charting its discursive space. They are seen by many as the driving force behind  the  fashion  system"
+      },
+      {
+        "similarity": 0.6608,
+        "source": "ahmes/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/index.md",
+        "preview": "image is a continuation of this tendency. In everyday fashion images, it is both ubiquitous and imperceptible, its application little more than a sophisticated version of older tec"
+      }
+    ],
+    "primary_cite": {
+      "stdout": "(Shinkle 2008, 4)  [01d38c38-3d8a-5d56-9040-fec3d7781c90]  page_index=3\n  confidence=0.95 source=metadata kind=person scheme=pdf_order evaluator_safe=yes",
+      "stderr": null,
+      "returncode": 0
+    },
+    "primary_quote": {
+      "node_id": "01d38c38-3d8a-5d56-9040-fec3d7781c90",
+      "page_index": 3,
+      "block_type": "heading",
+      "quote": "Images of Fashion",
+      "quote_len": 17
+    },
+    "tri_anchor": {
+      "coat": "eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c",
+      "node_id": "01d38c38-3d8a-5d56-9040-fec3d7781c90",
+      "page_index": 3,
+      "label": "⟨eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c⟩ · nodo 01d38c38… · p.3"
+    },
+    "coat_db": "/Users/ruvebal/ahmes-library/scholar/documents/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/extract/extraction.db",
+    "coat_slug": "eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c",
+    "demo_hit": {
+      "similarity": 0.7208,
+      "node_id": "c1cb2f51-674b-54f7-9b26-8f72ed572988",
+      "page_index": 248,
+      "block_type": "text",
+      "file_name": "Eugenie Shinkle - Fashion as Photograph_ Viewing and Reviewing Images of Fashion (2008, I. B. Tauris).pdf",
+      "document_title": "Fashion as Photograph",
+      "note": "body node from same coat as top Athanor hit (quote surface)",
+      "quote": "| Hudson, Kate 128                                                               | Kidman, Nicole 128, 138                                        |\n|--------------------------------------------------------------------------------|----------------------------------------------------------------|\n| Hutcheon, Linda 13                                                             | Kismaric, Susan 6-7, 29-45 , 228 Klein, Calvin 132, 137, 207   |\n| i-D magazine 8, 11, 33, 36, 52, 91, 102, 106, 189, 190, 200, 207, 215, Plate 9 | Obsession advertisement 41 Klein, William 31, 32, 38, 59, 203  |\n| 'straight-ups' 185, 186, 186 , 188, 193,                                       | Knight, Nick 5, 9, 36, 10",
+      "cite": "(Shinkle 2008, 249)  [c1cb2f51-674b-54f7-9b26-8f72ed572988]  page_index=248\n  confidence=0.95 source=metadata kind=person scheme=pdf_order evaluator_safe=yes",
+      "tri_anchor": "⟨eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c⟩ · nodo c1cb2f51… · p.248"
+    }
+  },
+  {
+    "resultant": "T2",
+    "file": "T2-retouch-video-portfolio.pass1.resultant.mdc",
+    "strand": "Technique",
+    "query": "fashion retouching photo editing social media self-perceived attractiveness",
+    "athanor_hits": [
+      {
+        "similarity": 0.8935,
+        "node_id": "af07aa72-4ab5-5607-96e6-6406cce96453",
+        "document_id": "0458f91a-622a-5ec3-876f-c5cdabfc4636",
+        "file_name": "s40359-023-01143-0.pdf",
+        "document_title": "Open Access",
+        "page_index": 0,
+        "source_hash": "4abbe0957e845af3e7d25868904af58978a3fcfab88eeeb5056306f5cb4132c6",
+        "content_preview": "How photo editing in social media shapes self-perceived attractiveness and selfesteem via self-objectification and physical appearance comparisons",
+        "meta_title": "Open Access",
+        "doi": null,
+        "isbn": null
+      },
+      {
+        "similarity": 0.8398,
+        "node_id": "1ea14642-4e7c-596c-921c-8f2d35072057",
+        "document_id": "0458f91a-622a-5ec3-876f-c5cdabfc4636",
+        "file_name": "s40359-023-01143-0.pdf",
+        "document_title": "Open Access",
+        "page_index": 0,
+        "source_hash": "4abbe0957e845af3e7d25868904af58978a3fcfab88eeeb5056306f5cb4132c6",
+        "content_preview": "Keywords Photo editing, Social media, Self-objectification, Physical appearance comparisons, attractiveness, Selfesteem",
+        "meta_title": "Open Access",
+        "doi": null,
+        "isbn": null
+      },
+      {
+        "similarity": 0.8269,
+        "node_id": "e97327cd-ef56-5806-8ddd-ef03c418c658",
+        "document_id": "0458f91a-622a-5ec3-876f-c5cdabfc4636",
+        "file_name": "s40359-023-01143-0.pdf",
+        "document_title": "Open Access",
+        "page_index": 1,
+        "source_hash": "4abbe0957e845af3e7d25868904af58978a3fcfab88eeeb5056306f5cb4132c6",
+        "content_preview": "Photo  editing  behavior  increases  the  options  available  for  self-presentation  on  social  network  sites  and constitutes a significant restriction on verifiability of the accuracy of profile photos. In addition, it is likely to be ",
+        "meta_title": "Open Access",
+        "doi": null,
+        "isbn": null
+      }
+    ],
+    "deviac_top": [
+      {
+        "similarity": 0.8426,
+        "source": "ahmes/10_1186_s40359_023_01143_0_how_photo_editing_in_social_media_shapes_self_perceived_attr_4abbe095/index.md",
+        "preview": "# 10.1186_s40359-023-01143-0__How_photo_editing_in_social_media_shapes_self-perceived_attr\n\nRESEARCH\n\nOpen Access\n\nHow photo editing in social media shapes self-perceived attractiv"
+      },
+      {
+        "similarity": 0.8367,
+        "source": "ahmes/s40359_023_01143_0_4abbe095/index.md",
+        "preview": "# s40359-023-01143-0\n\nRESEARCH\n\nOpen Access\n\nHow photo editing in social media shapes self-perceived attractiveness and selfesteem via self-objectification and physical appearance "
+      },
+      {
+        "similarity": 0.8162,
+        "source": "ahmes/s40359_023_01143_0_4abbe095/index.md",
+        "preview": "As the physical appearance of users plays an important role  in  impression management on SNSs, photo editing behavior  serves  as  an  impression  management  strategy of  online "
+      }
+    ],
+    "primary_cite": {
+      "stdout": "[BIBLIO-GAP] af07aa72-4ab5-5607-96e6-6406cce96453",
+      "stderr": null,
+      "returncode": 0
+    },
+    "primary_quote": {
+      "node_id": "af07aa72-4ab5-5607-96e6-6406cce96453",
+      "page_index": 0,
+      "block_type": "heading",
+      "quote": "How photo editing in social media shapes self-perceived attractiveness and selfesteem via self-objectification and physical appearance comparisons",
+      "quote_len": 146
+    },
+    "tri_anchor": {
+      "coat": "10_1186_s40359_023_01143_0_how_photo_editing_in_social_media_shapes_self_perceived_attr_4abbe095",
+      "node_id": "af07aa72-4ab5-5607-96e6-6406cce96453",
+      "page_index": 0,
+      "label": "⟨10_1186_s40359_023_01143_0_how_photo_editing_in_social_media_shapes_self_perceived_attr_4abbe095⟩ · nodo af07aa72… · p.0"
+    },
+    "coat_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1186_s40359_023_01143_0_how_photo_editing_in_social_media_shapes_self_perceived_attr_4abbe095/extract/extraction.db",
+    "coat_slug": "10_1186_s40359_023_01143_0_how_photo_editing_in_social_media_shapes_self_perceived_attr_4abbe095",
+    "demo_hit": {
+      "similarity": 0.8269,
+      "node_id": "e97327cd-ef56-5806-8ddd-ef03c418c658",
+      "page_index": 1,
+      "block_type": "text",
+      "file_name": "s40359-023-01143-0.pdf",
+      "document_title": "Open Access",
+      "content_preview": "Photo  editing  behavior  increases  the  options  available  for  self-presentation  on  social  network  sites  and constitutes a significant restriction on verifiability of the accuracy of profile photos. In addition, it is likely to be ",
+      "quote": "Photo  editing  behavior  increases  the  options  available  for  self-presentation  on  social  network  sites  and constitutes a significant restriction on verifiability of the accuracy of profile photos. In addition, it is likely to be negatively  correlated  with  self-perceived  attractiveness. Therefore,  the  importance  of  photo  editing  behavior  in the context of social network sites is high.",
+      "cite": "[BIBLIO-GAP] e97327cd-ef56-5806-8ddd-ef03c418c658",
+      "tri_anchor": "⟨10_1186_s40359_023_01143_0_how_photo_editing_in_social_media_shapes_self_perceived_attr_4abbe095⟩ · nodo e97327cd… · p.1"
+    }
+  },
+  {
+    "resultant": "T3",
+    "file": "T3-avatars-experiences-ar.pass1.resultant.mdc",
+    "strand": "Technique",
+    "query": "avatars augmented reality virtual try-on fashion immersive experience",
+    "athanor_hits": [
+      {
+        "similarity": 0.8571,
+        "node_id": "04f04672-8886-5038-818b-1258db617409",
+        "document_id": "db1b606d-5296-5f86-8eac-0030a04b969e",
+        "file_name": "10.1007_s10055-024-00945-w__VR_Designer_enhancing_fashion_showcases_through_immersive_vi.pdf",
+        "document_title": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+        "page_index": 0,
+        "source_hash": "d3d4e2e6a5a2e29971ed752693af9c96a4d1fc6b263756d1b053f6eb347a7384",
+        "content_preview": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+        "meta_title": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+        "doi": null,
+        "isbn": null
+      },
+      {
+        "similarity": 0.8497,
+        "node_id": "54d6cfa5-86bd-5684-b01a-a4fb29aa63e7",
+        "document_id": "db1b606d-5296-5f86-8eac-0030a04b969e",
+        "file_name": "10.1007_s10055-024-00945-w__VR_Designer_enhancing_fashion_showcases_through_immersive_vi.pdf",
+        "document_title": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+        "page_index": 15,
+        "source_hash": "d3d4e2e6a5a2e29971ed752693af9c96a4d1fc6b263756d1b053f6eb347a7384",
+        "content_preview": "Sarakatsanos O, Chatzilari E, Nikolopoulos S, Kompatsiaris I, Gavilan D, Downing J (2021) A vr application for the virtual fitting of fashion garments on avatars. In 2021 IEEE international symposium on mixed and augmented reality adjunct (",
+        "meta_title": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+        "doi": null,
+        "isbn": null
+      },
+      {
+        "similarity": 0.8474,
+        "node_id": "4bfe1067-e922-5bd1-b57b-ca2564c5907a",
+        "document_id": "db1b606d-5296-5f86-8eac-0030a04b969e",
+        "file_name": "10.1007_s10055-024-00945-w__VR_Designer_enhancing_fashion_showcases_through_immersive_vi.pdf",
+        "document_title": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+        "page_index": 0,
+        "source_hash": "d3d4e2e6a5a2e29971ed752693af9c96a4d1fc6b263756d1b053f6eb347a7384",
+        "content_preview": "This paper introduces a Virtual Reality (VR) application tailored for fashion designers and retailers, transcending traditional garment design and demonstration boundaries by presenting an immersive digital garment showcase within a captiva",
+        "meta_title": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+        "doi": null,
+        "isbn": null
+      }
+    ],
+    "deviac_top": [
+      {
+        "similarity": 0.8474,
+        "source": "ahmes/10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6/index.md",
+        "preview": "This paper introduces a Virtual Reality (VR) application tailored for fashion designers and retailers, transcending traditional garment design and demonstration boundaries by prese"
+      },
+      {
+        "similarity": 0.8448,
+        "source": "ahmes/10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6/index.md",
+        "preview": "Our vision was to create an immersive VR application allowing users to virtually try on digital garments using various humanoid avatars (e.g., fit models). Navigating the VR space,"
+      },
+      {
+        "similarity": 0.8405,
+        "source": "ahmes/10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6/index.md",
+        "preview": "In this paper, we introduce an immersive VR application that is mainly designed to cater to the needs of professional designers. Our primary aim is to immerse users in an interacti"
+      }
+    ],
+    "primary_cite": {
+      "stdout": "(Hafliger 2024, 1)  [04f04672-8886-5038-818b-1258db617409]  page_index=0\n  confidence=0.70 source=metadata kind=person scheme=pdf_order evaluator_safe=no",
+      "stderr": null,
+      "returncode": 0
+    },
+    "primary_quote": {
+      "node_id": "04f04672-8886-5038-818b-1258db617409",
+      "page_index": 0,
+      "block_type": "heading",
+      "quote": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+      "quote_len": 82
+    },
+    "tri_anchor": {
+      "coat": "10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6",
+      "node_id": "04f04672-8886-5038-818b-1258db617409",
+      "page_index": 0,
+      "label": "⟨10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6⟩ · nodo 04f04672… · p.0"
+    },
+    "coat_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6/extract/extraction.db",
+    "coat_slug": "10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6",
+    "demo_hit": {
+      "similarity": 0.8497,
+      "node_id": "54d6cfa5-86bd-5684-b01a-a4fb29aa63e7",
+      "page_index": 15,
+      "block_type": "text",
+      "file_name": "10.1007_s10055-024-00945-w__VR_Designer_enhancing_fashion_showcases_through_immersive_vi.pdf",
+      "document_title": "VR Designer: enhancing fashion showcases through immersive virtual garment fitting",
+      "content_preview": "Sarakatsanos O, Chatzilari E, Nikolopoulos S, Kompatsiaris I, Gavilan D, Downing J (2021) A vr application for the virtual fitting of fashion garments on avatars. In 2021 IEEE international symposium on mixed and augmented reality adjunct (",
+      "quote": "Sarakatsanos O, Chatzilari E, Nikolopoulos S, Kompatsiaris I, Gavilan D, Downing J (2021) A vr application for the virtual fitting of fashion garments on avatars. In 2021 IEEE international symposium on mixed and augmented reality adjunct (ISMAR-Adjunct)",
+      "cite": "(Hafliger 2024, 16)  [54d6cfa5-86bd-5684-b01a-a4fb29aa63e7]  page_index=15\n  confidence=0.70 source=metadata kind=person scheme=pdf_order evaluator_safe=no",
+      "tri_anchor": "⟨10_1007_s10055_024_00945_w_vr_designer_enhancing_fashion_showcases_through_immersive_vi_d3d4e2e6⟩ · nodo 54d6cfa5… · p.15"
+    }
+  },
+  {
+    "resultant": "C1",
+    "file": "C1-fashion-digital-world.pass1.resultant.mdc",
+    "strand": "Critical",
+    "query": "platformisation fashion digital capitalism mediatization brand culture",
+    "athanor_hits": [
+      {
+        "similarity": 0.7739,
+        "node_id": "c8036241-1991-55bc-b0c4-acde6fbbb3ea",
+        "document_id": "414402ca-7446-5d99-8d91-35530edf5c68",
+        "file_name": "10.1515_9783839474624-013.pdf",
+        "document_title": "Towards a Responsible Metaverse",
+        "page_index": 2,
+        "source_hash": "2ebbda3ad26e562ae43d5eb7ccb7aff66d584155483f4be4f7ba85c3a6f09b3c",
+        "content_preview": "Digital fashion opens us up to new ways of being and forms of embodiment. The construction of our avatars is a kind of digital cosplay that relates to performance and dress-up, as well as the construction of a virtual identity overall. Aest",
+        "meta_title": "Towards a Responsible Metaverse",
+        "doi": null,
+        "isbn": 9783839474624
+      },
+      {
+        "similarity": 0.7631,
+        "node_id": "3fbde2c3-391b-5105-9bd7-26f63df68abc",
+        "document_id": "ba52187e-624a-5278-bd81-df0fa7ee36f9",
+        "file_name": "978-3-031-99481-4.pdf",
+        "document_title": "Fashion Communication in the Digital Age",
+        "page_index": 278,
+        "source_hash": "72e535d7f9202f43cf1021f504a9c048a722edf63ada776a93b15402ccf78967",
+        "content_preview": "The concept of global culture, viewed as a symbolic platform, has enabled iconic fashion  brands  to  transcend  cultural  and  temporal  boundaries  and  to  reconstruct their narratives in response to contemporary demands for sustainabili",
+        "meta_title": "Fashion Communication in the Digital Age",
+        "doi": "10.1007/978-3-031-99481-4",
+        "isbn": 9783031994807
+      },
+      {
+        "similarity": 0.7612,
+        "node_id": "59529207-16f1-5520-8791-c71faf7a08e4",
+        "document_id": "ba52187e-624a-5278-bd81-df0fa7ee36f9",
+        "file_name": "978-3-031-99481-4.pdf",
+        "document_title": "Fashion Communication in the Digital Age",
+        "page_index": 243,
+        "source_hash": "72e535d7f9202f43cf1021f504a9c048a722edf63ada776a93b15402ccf78967",
+        "content_preview": "Today, identity is constructed, framed, and co-created online [12], and brands are increasingly  acting  as  cultural  intermediaries  [13].  Cultural  intermediaries  are defined as taste-makers that describe symbolic meaning to products, ",
+        "meta_title": "Fashion Communication in the Digital Age",
+        "doi": "10.1007/978-3-031-99481-4",
+        "isbn": 9783031994807
+      }
+    ],
+    "deviac_top": [
+      {
+        "similarity": 0.7612,
+        "source": "ahmes/978_3_031_99481_4_72e535d7/index.md",
+        "preview": "Today, identity is constructed, framed, and co-created online [12], and brands are increasingly  acting  as  cultural  intermediaries  [13].  Cultural  intermediaries  are defined "
+      },
+      {
+        "similarity": 0.7572,
+        "source": "ahmes/10_1515_9783839474624_013_2ebbda3a/index.md",
+        "preview": "Digital fashion opens us up to new ways of being and forms of embodiment. The construction of our avatars is a kind of digital cosplay that relates to performance and dress-up, as "
+      },
+      {
+        "similarity": 0.7516,
+        "source": "ahmes/10_1515_9783839474624_013_2ebbda3a/index.md",
+        "preview": "and material sector is now extending into new platforms. The development of digital fashion is intimately related to ideas about digital identity and the visions of tech companies "
+      }
+    ],
+    "primary_cite": {
+      "stdout": "(10.1515 9783, 3)  [c8036241-1991-55bc-b0c4-acde6fbbb3ea]  page_index=2\n  confidence=0.60 source=slug kind=person scheme=pdf_order evaluator_safe=no",
+      "stderr": null,
+      "returncode": 0
+    },
+    "primary_quote": {
+      "node_id": "c8036241-1991-55bc-b0c4-acde6fbbb3ea",
+      "page_index": 2,
+      "block_type": "text",
+      "quote": "Digital fashion opens us up to new ways of being and forms of embodiment. The construction of our avatars is a kind of digital cosplay that relates to performance and dress-up, as well as the construction of a virtual identity overall. Aesthetics, social, technical, and economic worlds come together here. 7 However, this datafication and monetization of our identity and assets is also problematic. It is intimately connected to platformization, or 'the rise of the platform as the dominant infrastructural and economic model of the social web and its consequences, in its historical context.' 8 Th",
+      "quote_len": 740
+    },
+    "tri_anchor": {
+      "coat": "10_1515_9783839474624_013_2ebbda3a",
+      "node_id": "c8036241-1991-55bc-b0c4-acde6fbbb3ea",
+      "page_index": 2,
+      "label": "⟨10_1515_9783839474624_013_2ebbda3a⟩ · nodo c8036241… · p.2"
+    },
+    "coat_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1515_9783839474624_013_2ebbda3a/extract/extraction.db",
+    "coat_slug": "10_1515_9783839474624_013_2ebbda3a",
+    "demo_hit": {
+      "similarity": 0.7739,
+      "node_id": "c8036241-1991-55bc-b0c4-acde6fbbb3ea",
+      "page_index": 2,
+      "block_type": "text",
+      "file_name": "10.1515_9783839474624-013.pdf",
+      "document_title": "Towards a Responsible Metaverse",
+      "content_preview": "Digital fashion opens us up to new ways of being and forms of embodiment. The construction of our avatars is a kind of digital cosplay that relates to performance and dress-up, as well as the construction of a virtual identity overall. Aest",
+      "quote": "Digital fashion opens us up to new ways of being and forms of embodiment. The construction of our avatars is a kind of digital cosplay that relates to performance and dress-up, as well as the construction of a virtual identity overall. Aesthetics, social, technical, and economic worlds come together here. 7 However, this datafication and monetization of our identity and assets is also problematic. It is intimately connected to platformization, or 'the rise of the platform as the dominant infrastructural and economic model of the social web and its consequences, in its historical context.' 8 The platformization of fashion specifically circulates, constructs, and monetizes our digital bodies i",
+      "cite": "(10.1515 9783, 3)  [c8036241-1991-55bc-b0c4-acde6fbbb3ea]  page_index=2\n  confidence=0.60 source=slug kind=person scheme=pdf_order evaluator_safe=no",
+      "tri_anchor": "⟨10_1515_9783839474624_013_2ebbda3a⟩ · nodo c8036241… · p.2"
+    }
+  },
+  {
+    "resultant": "C2",
+    "file": "C2-fashion-virtuality.pass1.resultant.mdc",
+    "strand": "Critical",
+    "query": "digital fashion virtuality metaverse identity virtual worlds avatars",
+    "athanor_hits": [
+      {
+        "similarity": 0.9007,
+        "node_id": "56b6e6c2-3d0e-5a67-b97d-03e119b453bf",
+        "document_id": "414402ca-7446-5d99-8d91-35530edf5c68",
+        "file_name": "10.1515_9783839474624-013.pdf",
+        "document_title": "Towards a Responsible Metaverse",
+        "page_index": 0,
+        "source_hash": "2ebbda3ad26e562ae43d5eb7ccb7aff66d584155483f4be4f7ba85c3a6f09b3c",
+        "content_preview": "Digital Fashion, Avatars, and the Promise of Identity in Virtual Worlds",
+        "meta_title": "Towards a Responsible Metaverse",
+        "doi": null,
+        "isbn": 9783839474624
+      },
+      {
+        "similarity": 0.8597,
+        "node_id": "45b729fe-6b82-5808-81b7-02a038e543b0",
+        "document_id": "7b49f1f9-975b-5e4a-8798-d5b9a98adeb3",
+        "file_name": "1-s2.0-S0969698924000766-am.pdf",
+        "document_title": "Is digital fashion the future of the metaverse? Insights from YouTube comments",
+        "page_index": 4,
+        "source_hash": "1809bdb94f64f51b78b98ac56b559f8657c9bf052d3697bf198911dcabb2725b",
+        "content_preview": "Digital fashion in the metaverse",
+        "meta_title": "Is digital fashion the future of the metaverse? Insights from YouTube comments",
+        "doi": null,
+        "isbn": null
+      },
+      {
+        "similarity": 0.8578,
+        "node_id": "a00c0caf-d635-5091-bac6-d2b8f68804d9",
+        "document_id": "7b49f1f9-975b-5e4a-8798-d5b9a98adeb3",
+        "file_name": "1-s2.0-S0969698924000766-am.pdf",
+        "document_title": "Is digital fashion the future of the metaverse? Insights from YouTube comments",
+        "page_index": 4,
+        "source_hash": "1809bdb94f64f51b78b98ac56b559f8657c9bf052d3697bf198911dcabb2725b",
+        "content_preview": "Fashion brands employ the metaverse as a new social marketing platform, as this virtual world is considered to cause considerable modifications in the fashion and retail industry (Park & Lim, 2023).  The  field  of  digital  fashion  is  ra",
+        "meta_title": "Is digital fashion the future of the metaverse? Insights from YouTube comments",
+        "doi": null,
+        "isbn": null
+      }
+    ],
+    "deviac_top": [
+      {
+        "similarity": 0.7846,
+        "source": "ahmes/978_3_031_99481_4_72e535d7/index.md",
+        "preview": "While consumers may struggle to replicate the avatars' garments, they may find elements of their own identities reflected in the tattoos. As noted by Simmel [1], it is the tension "
+      },
+      {
+        "similarity": 0.6992,
+        "source": "ahmes/chen_et_al_virtual_try_on_systems_applsci_2024_5433485f/index.md",
+        "preview": "Jang, J.Y. Analyzing visual behavior of consumers in a virtual reality fashion store using eye tracking. Fash. Text. 2023 , 10 , 2450.\n\nKim, T.H.; Im, H. Can augmented reality impa"
+      },
+      {
+        "similarity": 0.6839,
+        "source": "ahmes/10_3389_fpsyg_2023_1276856_virtual_fashion_experiences_in_virtual_reality_fashion_show_ddb20bc5/index.md",
+        "preview": "Slater, M. (2009). Place illusion and plausibility can lead to realistic behaviour in immersive virtual environments. Philos. Trans. R. Soc. B 364, 3549-3557. doi: 10.1098/ rstb.20"
+      }
+    ],
+    "primary_cite": {
+      "stdout": "(10.1515 9783, 1)  [56b6e6c2-3d0e-5a67-b97d-03e119b453bf]  page_index=0\n  confidence=0.60 source=slug kind=person scheme=pdf_order evaluator_safe=no",
+      "stderr": null,
+      "returncode": 0
+    },
+    "primary_quote": {
+      "node_id": "56b6e6c2-3d0e-5a67-b97d-03e119b453bf",
+      "page_index": 0,
+      "block_type": "text",
+      "quote": "Digital Fashion, Avatars, and the Promise of Identity in Virtual Worlds",
+      "quote_len": 71
+    },
+    "tri_anchor": {
+      "coat": "10_1515_9783839474624_013_2ebbda3a",
+      "node_id": "56b6e6c2-3d0e-5a67-b97d-03e119b453bf",
+      "page_index": 0,
+      "label": "⟨10_1515_9783839474624_013_2ebbda3a⟩ · nodo 56b6e6c2… · p.0"
+    },
+    "coat_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1515_9783839474624_013_2ebbda3a/extract/extraction.db",
+    "coat_slug": "10_1515_9783839474624_013_2ebbda3a",
+    "demo_hit": {
+      "similarity": 0.9007,
+      "node_id": "769eaad4-8271-5232-bcd3-2fccaf837c72",
+      "page_index": 4,
+      "block_type": "text",
+      "file_name": "10.1515_9783839474624-013.pdf",
+      "document_title": "Towards a Responsible Metaverse",
+      "note": "body node from same coat as top Athanor hit (quote surface)",
+      "quote": "Finally, digital fashion can be tokenized and certified on a blockchain. Since digital fashion is usually unique and scarce, the tokens used are often NFTs. They are essentially unique digital items certified on the blockchain. 'Non-fungible' means that these items are unique, cannot be interchanged, and can't be replaced. The NFT itself is best understood as its history and proof of ownership, which is stored on a blockchain, such as Ethereum. NFTs are tokens that are different from cryptocurrency, which is 'fungible.' In other words, each Bitcoin or each Ether is the same. An NFT is not a literal crypto token or valuation but rather represents the item, assets, or commodity on the blockcha",
+      "cite": "(10.1515 9783, 5)  [769eaad4-8271-5232-bcd3-2fccaf837c72]  page_index=4\n  confidence=0.60 source=slug kind=person scheme=pdf_order evaluator_safe=no",
+      "tri_anchor": "⟨10_1515_9783839474624_013_2ebbda3a⟩ · nodo 769eaad4… · p.4"
+    }
+  },
+  {
+    "resultant": "C3",
+    "file": "C3-gender-minorities-silences.pass1.resultant.mdc",
+    "strand": "Critical",
+    "query": "gender minorities fat bodies digital screens fashion representation silence",
+    "athanor_hits": [
+      {
+        "similarity": 0.715,
+        "node_id": "5d8af160-80f8-5b60-a1b2-effe3189d7e9",
+        "document_id": "296b57ac-0f11-5529-9b9f-eaa4f0d0c030",
+        "file_name": "Campinho_et_al_corpos_gordos_telas_digitais_2025.pdf",
+        "document_title": "Corpos gordos e corpos obesos em telas digitais: um  olhar  analítico  para  imagens  propagadas pelo Google",
+        "page_index": 0,
+        "source_hash": "31a9a35972b668feb7f1fb26189d0f79fc9d607db9cd2f54429819d895033562",
+        "content_preview": "Fat bodies and obese bodies on digital screens: an analytical look at images propagated by Google",
+        "meta_title": "Corpos gordos e corpos obesos em telas digitais: um  olhar  analítico  para  imagens  propagadas pelo Google",
+        "doi": null,
+        "isbn": null
+      },
+      {
+        "similarity": 0.6828,
+        "node_id": "84908db4-1512-5dc1-944c-ccb332c65b3f",
+        "document_id": "5e7b3648-99b6-55b8-b5ea-1b0c2f9ceb33",
+        "file_name": "10.1007_s10728-016-0327-1__Altered_Images_Understanding_the_Influence_of_Unrealistic_Im.pdf",
+        "document_title": "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations",
+        "page_index": 1,
+        "source_hash": "984f4f11342d00c99233ef6ea534898c35d2d8161f195e9dce722b9e62d67597",
+        "content_preview": "Digital Images and Body Image",
+        "meta_title": "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations",
+        "doi": null,
+        "isbn": null
+      },
+      {
+        "similarity": 0.6612,
+        "node_id": "29e0b3cf-bd30-5373-bfbe-d208de8c3a3b",
+        "document_id": "296b57ac-0f11-5529-9b9f-eaa4f0d0c030",
+        "file_name": "Campinho_et_al_corpos_gordos_telas_digitais_2025.pdf",
+        "document_title": "Corpos gordos e corpos obesos em telas digitais: um  olhar  analítico  para  imagens  propagadas pelo Google",
+        "page_index": 1,
+        "source_hash": "31a9a35972b668feb7f1fb26189d0f79fc9d607db9cd2f54429819d895033562",
+        "content_preview": "The associations between body and image in terms of image production take on immeasurable contours in  digital  media,  reinforcing  the  visuality  of  the body in our scenario. This article aims to study the image production of fat bodies",
+        "meta_title": "Corpos gordos e corpos obesos em telas digitais: um  olhar  analítico  para  imagens  propagadas pelo Google",
+        "doi": null,
+        "isbn": null
+      }
+    ],
+    "deviac_top": [
+      {
+        "similarity": 0.6124,
+        "source": "ahmes/10_1007_s10728_016_0327_1_altered_images_understanding_the_influence_of_unrealistic_im_984f4f11/index.md",
+        "preview": "The authors suggested that the warning labels directed greater attention to the model's body, and particularly those areas named as altered, than would be the case with a generic w"
+      },
+      {
+        "similarity": 0.6058,
+        "source": "ahmes/10_1007_s10728_016_0327_1_altered_images_understanding_the_influence_of_unrealistic_im_984f4f11/index.md",
+        "preview": "swimsuits with the tagline ' 'the image below has been digitally manipulated to enhance the model's appearance'' [2]. The results showed that, compared to a second group of women w"
+      },
+      {
+        "similarity": 0.6034,
+        "source": "ahmes/10_1038_s41598_025_99623_3_ai_generated_faces_influence_gender_stereotypes_and_racial_h_fe54fc54/index.md",
+        "preview": "We examined the degree to which different races and genders appear in SDXL generated images. To this end, we generated 10,000 images using the following racial- and gender-neutral "
+      }
+    ],
+    "primary_cite": {
+      "stdout": "(Campinho_et_al_corpos_gordos_telas_digitais 2025, 1)  [5d8af160-80f8-5b60-a1b2-effe3189d7e9]  page_index=0\n  confidence=0.60 source=slug kind=person scheme=pdf_order evaluator_safe=no",
+      "stderr": null,
+      "returncode": 0
+    },
+    "primary_quote": {
+      "node_id": "5d8af160-80f8-5b60-a1b2-effe3189d7e9",
+      "page_index": 0,
+      "block_type": "text",
+      "quote": "Fat bodies and obese bodies on digital screens: an analytical look at images propagated by Google",
+      "quote_len": 97
+    },
+    "tri_anchor": {
+      "coat": "campinho_et_al_corpos_gordos_telas_digitais_2025_31a9a359",
+      "node_id": "5d8af160-80f8-5b60-a1b2-effe3189d7e9",
+      "page_index": 0,
+      "label": "⟨campinho_et_al_corpos_gordos_telas_digitais_2025_31a9a359⟩ · nodo 5d8af160… · p.0"
+    },
+    "coat_db": "/Users/ruvebal/ahmes-library/scholar/documents/campinho_et_al_corpos_gordos_telas_digitais_2025_31a9a359/extract/extraction.db",
+    "coat_slug": "campinho_et_al_corpos_gordos_telas_digitais_2025_31a9a359",
+    "demo_hit": {
+      "similarity": 0.6612,
+      "node_id": "29e0b3cf-bd30-5373-bfbe-d208de8c3a3b",
+      "page_index": 1,
+      "block_type": "text",
+      "file_name": "Campinho_et_al_corpos_gordos_telas_digitais_2025.pdf",
+      "document_title": "Corpos gordos e corpos obesos em telas digitais: um  olhar  analítico  para  imagens  propagadas pelo Google",
+      "content_preview": "The associations between body and image in terms of image production take on immeasurable contours in  digital  media,  reinforcing  the  visuality  of  the body in our scenario. This article aims to study the image production of fat bodies",
+      "quote": "The associations between body and image in terms of image production take on immeasurable contours in  digital  media,  reinforcing  the  visuality  of  the body in our scenario. This article aims to study the image production of fat bodies and obese bodies on Google  images,  considering  the  similarity  of  such corporealities  in  the  sociocultural  imaginary.  This is  a  qualitative,  exploratory  study  carried  out  on the Google platform, with reflection inspired by the method of semiotic analysis suggested by Joly (2007). The  photographic  and  public  access  collection  was searched  using  the  descriptors  fat  body  and  obese body,  and  covered  the  publication  period  b",
+      "cite": "(Campinho_et_al_corpos_gordos_telas_digitais 2025, 2)  [29e0b3cf-bd30-5373-bfbe-d208de8c3a3b]  page_index=1\n  confidence=0.60 source=slug kind=person scheme=pdf_order evaluator_safe=no",
+      "tri_anchor": "⟨campinho_et_al_corpos_gordos_telas_digitais_2025_31a9a359⟩ · nodo 29e0b3cf… · p.1"
+    }
+  }
+]

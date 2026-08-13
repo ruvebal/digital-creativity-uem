@@ -1,0 +1,154 @@
+---
+description: Master prompt to forge one Creación Digital unit into lesson + studio brief + exercise set — hours and contents bound to official UEM guía JSON
+globs: 'digital-creativity-pedagogy/**,docs/lessons/**,docs/tracks/**'
+alwaysApply: false
+---
+
+# UNIT FORGE — Creación Digital (CD I / CD II)
+
+> One unit in, three artefacts out. Grounded, hour-honest, and research-instrumented.
+> **Institutional contract:** [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) + [`cv/guides/*.json`](./cv/guides/).  
+> Also: [`grounding/README.md`](./grounding/README.md) · [`dc-cv-forge.mdc`](./dc-cv-forge.mdc) · vShowroom synergy (Web Atelier) · `CLAUDE.md`
+
+Do **not** use FE’s 10 / 30 / 14 hour scheme. Close hours to the guía JSON for the chosen modality.
+
+---
+
+## 0. Architecture — three logics, kept apart
+
+| Logic | Owns | Unit of work | Never |
+| ----- | ---- | ------------ | ----- |
+| **L1 · Teaching** | Lesson, studio, exercises; hours; assessment | The **unit** | Bent to suit a measurement |
+| **L2 · Research** | Consent, instruments, data custody | The **cohort** | Allowed to change what is taught |
+| **L3 · Product** | vShowroom | The **repository** (FE runtime) | Confused with a grade / CONTENIDOS |
+
+**L2 never reaches back into L1.** L3 may consume CD II portfolio/avatar/AR outputs; it does not rewrite official `contents`.
+
+---
+
+## 1. Official activity → forge artefact (presencial)
+
+From the guía JSON via [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) §5–§7:
+
+| Official activity | Course hours (CD I / CD II) | Forge output |
+| ----------------- | --------------------------- | ------------ |
+| Clases magistrales | — / **10** | **B1** conceptual half + deck (CD II only) |
+| Seminarios de aplicación práctica | **20** / **20** | **B1** (CD I primary expositive channel) + applied demos |
+| Debates y coloquios | **8** / **8** | **B1** debate prompts |
+| Actividades en talleres y/o laboratorios | **14** / **14** | **B2** studio brief (atelier) |
+| Proyectos | **20** / **20** | **B2** project milestones (contextualised) |
+| Resolución de problemas | **8** / **8** | **B3** exercise set (individual) |
+| Trabajo autónomo · Tutoría · Pruebas | 56 · 12 · 2 | Course-level residuals — not unit-session forged |
+
+**B2 ≠ B3.** Talleres/proyectos are workplace-like; resolución de problemas is decontextualised. Collapsing them destroys the individual-evidence channel.
+
+> **VTON / try-on is out of sprint scope.**
+
+---
+
+## 2. Scholarly grounding pipeline (mandatory)
+
+**Discover in vectors / Athanor, cite from Ahmes nodes.** See [`grounding/README.md`](./grounding/README.md).
+
+Prefer the worked temario harvest when the unit maps to T1–T3 / C1–C3: [`grounding/temario/PROVENANCE-LAYER.md`](./grounding/temario/PROVENANCE-LAYER.md). Promote accepted Tri-Anchors into the evidence matrix **before** writing B1–B3. Never paste DevIAC/Athanor `content_preview` into lessons.
+
+```bash
+cd ~/src/deviac && make ingest-profield-dc   # when corpus refreshes
+# optional field index: athanor search … --project-slug profield-digital-creativity --vault scholar
+curl -s -X POST http://localhost:8100/vectors/search \
+  -H "Content-Type: application/json" \
+  -d '{"query":"<unit topic>","project_slug":"profield-digital-creativity","knowledge_scope":"field_prospection","n_results":5}'
+# then: ahmes query --cite "$DB:<node_id>" --style chicago-author-date
+```
+
+Cite `⟨coat⟩ · nodo ⟨id⟩ · p. ⟨n⟩`. If evidence matrix says NONE → declared-gap paragraph.
+
+---
+
+## 3. THE MASTER PROMPT
+
+Copy from here. Fill INPUT. Do not skip step A.
+
+```markdown
+# FORGE CD UNIT — <COURSE> Unit <N>: <TITLE>
+
+## INPUT
+
+- COURSE: <CD I | CD II>
+- GUIDE_JSON: digital-creativity-pedagogy/cv/guides/<1-creacion-digital-i|3-creacion-digital-ii>.json
+- UNIT: <n>
+- CONTENIDOS anchor(s): <verbatim phrase(s) from GUIDE_JSON.contents / framework §2>
+- COMPETENCIES: <subset of GUIDE_JSON.competencies codes>
+- MODALITY: Modalidad presencial
+- HOURS this unit (must use official keys; sum later into course totals):
+  - clases_magistrales: <h>          # CD II only; 0 for CD I presencial
+  - seminarios: <h>
+  - debates: <h>
+  - talleres_labs: <h>
+  - proyectos: <h>
+  - resolucion_problemas: <h>
+- ARTEFACT ROLE: <vShowroom / portfolio / none>
+- COHORT: <year · n ≈>
+
+## STEP A — GROUND BEFORE WRITING (mandatory)
+
+1. Open GUIDE_JSON + `oficial-guia-framework.mdc`. Confirm anchors and competencies exist.
+2. Read `grounding/README.md` evidence row for this unit (or treat as NONE).
+3. Query DevIAC (`profield-digital-creativity`); open Ahmes nodes for claims.
+4. If NONE: declared-gap. Tool docs ground HOW, never WHY THIS SEQUENCE TEACHES WELL.
+5. Cross-check vShowroom synergy only if ARTEFACT ROLE ≠ none (consent S1–S5).
+
+## STEP B — EMIT THREE ARTEFACTS
+
+### B1 · Conceptual (magistral CD II / seminarios+debates)
+→ `docs/lessons/{en,es}/…`
+- One-sentence claim; CONTENIDOS anchors; competencies served; evidence or gap.
+- EN + ES for student-facing pages.
+
+### B2 · Studio (talleres/labs + proyectos slice)
+- Deliverable mapped to official contents (2D/volume/avatar/portfolio/AR…).
+- Definition of done (+ consent if exhibition-bound).
+- Evidence: process paths, piece IDs, project rubric alignment to evaluation.Proyectos.
+
+### B3 · Resolución de problemas (individual)
+- 3–5 short problems; ≥1 diagnostic; ≥1 solvable without AI (declared).
+- Professor expected-answer sketch.
+
+## STEP C — WIRE IT
+
+- `docs/_data/tracks.yml` session with the official hour keys above.
+- Running totals for the course must close to framework §5 for presencial.
+- Evaluation instruments on the track must quote framework §6 (PDF-fix CD I).
+- Status leaves `scaffold` only when B1–B3 exist.
+
+## STEP D — VERIFY
+
+- Hour keys ⊆ official activity set; course sums close.
+- CONTENIDOS + competencies ⊆ JSON.
+- `npm run build` — no leak of `digital-creativity-pedagogy/`.
+- Nodes resolve; one-line statement of missing evidence.
+```
+
+---
+
+## 4. Forge order (first-run)
+
+| Wave | Focus | CONTENIDOS bias |
+| ---- | ----- | --------------- |
+| **0** | Close hours in `tracks.yml` to JSON; PDF-fix CD I eval 85% | institutional |
+| **1** | CD II portfolio / web + authorship visibility | maquetación · portfolio digital |
+| **2** | CD I volume / 3D form | forma tridimensional · Volumen |
+| **3** | Avatars · experiencias · AR · vídeo · retoque | remaining CD II anchors |
+| **4** | CD I 2D stack (dibujo, color, efectos, animación, bodegones) | remaining CD I anchors |
+| **5** | Decks | after prose settles |
+
+---
+
+## 5. Non-negotiables
+
+1. **Official JSON (+ PDF on conflict) beats taste.**  
+2. **Teaching is not bent to suit research.** (L1 ▸ L2)  
+3. **A unit with no evidence says so.**  
+4. **B2 ≠ B3.**  
+5. **No citation without a node. No VTON sprint. No FE hour scheme.**  
+6. **Discover in vectors, cite from nodes.**

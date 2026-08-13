@@ -15,13 +15,17 @@ status: scaffold
 
 **Scaffold.** Units under `docs/lessons/en/digital-creativity-ii/` (pending).
 
-## Official anchors
+## Official contents (guía)
 
-- Avatar creation  
-- Digital fashion experiences  
-- Web layout / digital portfolio  
-- Holograms and AR  
+Institutional contract: `digital-creativity-pedagogy/cv/guides/3-creacion-digital-ii.json` (not published on Pages). Presencial formative load **150 h**.
+
+- Retoque fotográfico avanzado de imágenes moda  
+- Creación de avatares  
+- Diseño de experiencias de moda digitales  
+- Recursos digitales de edición de vídeo  
+- Maquetación, edición y creación de web y portfolio digital  
+- Hologramas y R.A  
 
 ## vShowroom role
 
-In S2 this cohort **populates** the FE-built showroom and **files issues as real users**. Per-artefact consent before any public exhibition.
+In S2 this cohort **populates** the FE-built showroom and **files issues as real users**. Per-artefact consent before any public exhibition. L3 must not rewrite the contents list above.

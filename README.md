@@ -7,6 +7,7 @@ Standalone teaching site for **Creación Digital I–II** (Grado en Comunicació
 - **Live site (planned):** [https://ruvebal.github.io/digital-creativity-uem/](https://ruvebal.github.io/digital-creativity-uem/)
 - **Student template:** [`student-project-template/`](student-project-template/)
 - **Research / authorities (not published):** [`digital-creativity-pedagogy/`](digital-creativity-pedagogy/)
+- **Official guías (JSON clones, not published):** [`digital-creativity-pedagogy/cv/guides/`](digital-creativity-pedagogy/cv/guides/) — mandatory hour/eval/CONTENIDOS contract
 - **Sister craft site:** [Web Atelier — Web Foundations](https://ruvebal.github.io/web-atelier-udit/) (UDIT FE)
 - **Sister HC site:** [Human-Centered Application Design](https://ruvebal.github.io/hc-app-design/)
 - **Shared artefact:** [vShowroom synergy](https://github.com/ruvebal/web-atelier-udit/blob/main/frontend-pedagogy/atelier-synergy-vshowroom.mdc) (FE · CD · Diseño de Moda/CLO)

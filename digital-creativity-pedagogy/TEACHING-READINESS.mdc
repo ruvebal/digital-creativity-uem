@@ -1,0 +1,63 @@
+---
+description: Honest readiness for teaching Creación Digital I–II — what exists, what blocks first class, ordered path to ready
+globs: 'digital-creativity-pedagogy/**'
+alwaysApply: false
+---
+
+# Teaching readiness — Creación Digital I–II (UEM)
+
+**Audited 2026-08-11** against emancipated repo layout + official guía JSON clones.
+
+---
+
+## 0. Straight answer
+
+**CD I: not yet teachable.** Track pages are scaffold; no forged units bound to the guía hour table.
+
+**CD II: not yet teachable** beyond naming official CONTENIDOS and the vShowroom role.
+
+**Institutional contract: cloned.** `cv/guides/1-creacion-digital-i.json` · `cv/guides/3-creacion-digital-ii.json` + [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc). All forging must close to those tables.
+
+**Research / grounding layer: extraction + vectors live.** Ahmes 43/43; DevIAC ingest 43/43 (`profield-digital-creativity`). **Cite nodes, not snippets.**
+
+**Product layer (vShowroom): specified cross-repo.** Web Atelier `atelier-synergy-vshowroom.mdc`.
+
+---
+
+## 1. Measured state (repo)
+
+| Surface | State |
+| ------- | ----- |
+| Jekyll + Pages + excludes | ✅ |
+| Official guía JSON clones | ✅ `cv/guides/` |
+| `oficial-guia-framework.mdc` · `dc-cv-forge.mdc` · `dc-unit-forge.mdc` | ✅ |
+| Track indexes EN/ES | ✅ scaffold |
+| `docs/lessons/**` forged units | ✗ |
+| CV drafts `uem-ruvebal-creacion-digital-*-cv.md` | ✗ |
+| `tracks.yml` hours closing to JSON | ✗ |
+| CD I presencial eval sum 85% | 🔴 PDF reconcile before student tables |
+| Consent C-set | ✗ |
+| DevIAC DC ingest | ✅ 43/43 |
+
+---
+
+## 2. Path to ready — ordered
+
+**Wave 0 — institutional honesty**
+1. PDF-check CD I evaluation weights; document the fix in `cv/README.md`.
+2. Allocate session hours in `tracks.yml` with official keys; close to 140 h (CD I) / 150 h (CD II) presencial.
+3. Consent / authorship templates (exhibition gate).
+
+**Wave 1 — forge** via [`dc-unit-forge.mdc`](./dc-unit-forge.mdc) against CONTENIDOS anchors in the framework.  
+**Wave 2 — CV drafts** via [`dc-cv-forge.mdc`](./dc-cv-forge.mdc).  
+**Wave 3 — decks** after prose settles.
+
+**Minimum viable first class:** Wave 0 + one forged CD I unit (volume/3D or 2D intro) + one CD II studio brief on portfolio/web with vShowroom ingest named.
+
+---
+
+## 3. What would change the answer to “ready”
+
+- Full triad (B1·B2·B3) per first units, EN+ES, anchors ⊆ JSON.
+- Hour sums close; evaluation tables match JSON/PDF.
+- Consent path usable before any public piece.

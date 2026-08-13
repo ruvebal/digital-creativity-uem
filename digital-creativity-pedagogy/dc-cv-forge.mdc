@@ -1,0 +1,60 @@
+---
+description: Forge UEM guías curriculares / CV drafts for Creación Digital I–II strictly from official JSON structure
+globs: 'digital-creativity-pedagogy/cv/**'
+alwaysApply: false
+---
+
+# CV FORGE — Creación Digital (UEM)
+
+> Output: markdown guía curricular drafts under `digital-creativity-pedagogy/cv/`.  
+> **Authority:** [`oficial-guia-framework.mdc`](../oficial-guia-framework.mdc) + the JSON clones in [`guides/`](./guides/).  
+> Scholarly citations: [`../grounding/README.md`](../grounding/README.md). Unit lessons: [`../dc-unit-forge.mdc`](../dc-unit-forge.mdc).
+
+---
+
+## INPUT
+
+- COURSE: `<CD I | CD II>`
+- GUIDE_JSON: `cv/guides/1-creacion-digital-i.json` | `cv/guides/3-creacion-digital-ii.json`
+- MODALITY: `Modalidad presencial` (default) | `Modalidad virtual`
+- OUTPUT: `cv/uem-ruvebal-creacion-digital-{i|ii}-cv.md`
+
+## STEP A — LOAD THE CONTRACT (mandatory)
+
+1. Parse the GUIDE_JSON. Copy identity fields verbatim (§1 of the framework).
+2. Extract `contents` → CONTENIDOS anchor list (framework §2). Do not drop or reorder silently; if you cluster for pedagogy, show the mapping table.
+3. List `competencies` exactly as strings in the JSON.
+4. Load `formative_activities[MODALITY]` — hours must sum to the JSON total (140 CD I presencial / 150 otherwise).
+5. Load `evaluation[MODALITY]` — weights must match JSON. **If CD I presencial sums ≠ 100%, stop and reconcile with the PDF** (`source_url`) before publishing weights to students.
+6. Ground any research / pedagogy claims via DevIAC/Athanor discovery → Ahmes nodes. Use [`../grounding/temario/PROVENANCE-LAYER.md`](../grounding/temario/PROVENANCE-LAYER.md) as a coverage check for T/C strands; **only** Ahmes `--cite` (evaluator-safe / not `[BIBLIO-GAP]`) may enter published bibliography lines. Framework orientation may cite `grounding/profield-digital-creativity.md` but not as a substitute for nodes.
+
+## STEP B — EMIT CV SECTIONS
+
+Required section order (adapt labels to UEM institutional template if provided; keep data from JSON):
+
+1. **Identificación** — degree, subject, ECTS, year, semester, modality, language, coordinating professor, academic year, source PDF URL  
+2. **Presentación** — from `presentation` (may lightly expand; do not contradict)  
+3. **Competencias** — full JSON list  
+4. **Resultados de aprendizaje** — JSON is empty (`[]`); either leave explicit *“no publicados en la guía scrapeada — completar desde PDF / coordinación”* or fill only from PDF-verified text  
+5. Contenidos / Temario — anchors from `contents`; map planned units to anchors; **bibliography lines must come from temario prospection** (`../grounding/TEMARIO-PROSPECTION.md` → profield `02-temario-contenidos` T1–T3 **and** `03-temario-critica` C1–C3), each entry with technical/canonical/academic **or** critical class marked  
+6. **Metodologías** — from `methodologies`  
+7. **Actividades formativas** — full hour table for chosen modality; state the sum  
+8. **Sistema de evaluación** — full weight table; state the sum  
+9. **Pedagogical / research note** (optional, clearly labelled) — consent, AI declaration, vShowroom role — **must not alter** official hours or weights  
+10. **Bibliografía / grounding** — Ahmes-citable sources only for scholarly claims  
+
+## STEP C — VERIFY
+
+- [ ] Every hour row name matches JSON (allowing only orthographic cleanup)  
+- [ ] Hour sum = JSON sum for that modality  
+- [ ] Evaluation weights = JSON (or PDF-corrected with a dated note)  
+- [ ] Every planned unit maps to ≥1 CONTENIDOS anchor  
+- [ ] Competency codes referenced in units ⊆ JSON list  
+- [ ] No FE 10/30/14 hour scheme anywhere  
+- [ ] No VTON as required deliverable  
+
+## Non-negotiables
+
+1. JSON (+ PDF on conflict) beats taste.  
+2. Empty `learning_outcomes` is not a license to invent outcomes without a PDF check.  
+3. L2 research clauses are additive, never a rewrite of L1 institutional tables.

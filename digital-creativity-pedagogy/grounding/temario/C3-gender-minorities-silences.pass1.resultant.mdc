@@ -1,0 +1,367 @@
+---
+# C3 Pass 1 Deep Research Resultant
+
+- source_prompt: `C3-gender-minorities-silences.pass1.prompt.md`
+- surface: ChatGPT Deep Research · external model A
+- chat_thread: `6a7b1df4-d54c-83eb-972a-a1b4c8cbe6ae`
+- captured: 2026-08-11
+- audit_source: Claude Cloud · external model B
+- audit_artifact: `C3-gender-minorities-silences.pass2.raw.md`
+- audited: 2026-08-11
+
+---
+## Género en la imagen de moda y los medios digitales / Gender in fashion imagery and digital fashion media
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Los sistemas contemporáneos de generación y clasificación visual pueden reproducir desigualdades interseccionales de género y racialización, por lo que las herramientas empleadas para producir imágenes de moda no deben tratarse como infraestructuras representacionales neutrales.
+
+  * cite: AlDahoul, Nouar; Rahwan, Talal; Zaki, Yasir. “AI-generated faces influence gender stereotypes and racial homogenization.” *Scientific Reports* 15 (2025), 14449. ([Nature][1])
+  * doi: 10.1038/s41598-025-99623-3
+  * lang: en
+  * ES: Sesgos de género y racialización en sistemas de generación de imagen
+  * EN: Gender and racial bias in image-generation systems
+  * fit_ES: Referencia crítico-técnica directamente aplicable a generación de modelos, rostros y personajes para comunicación visual de moda; documenta estereotipos y homogeneización racial en Stable Diffusion.
+  * fit_EN: Critical-technical reference directly applicable to model, face, and character generation in fashion communication; documents stereotyping and racial homogenization in Stable Diffusion.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] El cuerpo vestido no es un soporte pre-social: la teoría de la moda lo entiende como una práctica corporal situada, atravesada por normas sociales de género, apariencia y presentación.
+
+  * cite: Entwistle, Joanne. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Polity, 2015. ([Polity Books][2])
+  * isbn: 9780745649382
+  * lang: en
+  * ES: Cuerpo vestido, género y normas de presentación
+  * EN: The fashioned body, gender, and norms of presentation
+  * fit_ES: Canon fashion-studies útil para situar críticamente retoque, estilización digital y construcción corporal más allá de una lectura puramente técnica de la imagen.
+  * fit_EN: Fashion-studies canon for placing retouching, digital styling, and bodily construction within social norms rather than treating image-making as technically neutral.
+
+### C · Académico / Academic
+
+* [ESTABLISHED] El análisis longitudinal de revistas de moda muestra que las representaciones de masculinidad y feminidad cambian, pero siguen organizándose mediante modelos visuales de género e intersecciones entre sexo, rol y presentación corporal.
+
+  * cite: Kuipers, Giselinde; van der Laan, Elise; Arfini, Elisa A. G. “Gender models: changing representations and intersecting roles in Dutch and Italian fashion magazines, 1982–2011.” *Journal of Gender Studies* 26.6 (2017): 632–648. ([Taylor & Francis Online][3])
+  * doi: 10.1080/09589236.2016.1155435
+  * lang: en
+  * ES: Modelos visuales de género en la comunicación de moda
+  * EN: Visual gender models in fashion communication
+  * fit_ES: Permite contrastar continuidades históricas de representación con su migración actual a campañas, portfolios y feeds digitales.
+  * fit_EN: Supports comparison between historical representational patterns and their migration into contemporary campaigns, portfolios, and digital feeds.
+
+## Raza, etnicidad y regímenes visuales coloniales / Race, ethnicity, and colonial visual regimes
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Los archivos digitales de moda pueden reproducir historiografías blancas y eurocéntricas, pero también pueden diseñarse explícitamente para descentralizar esas narrativas y hacer recuperables historias racializadas e indígenas.
+
+  * cite: Victoria Rodriguez Schon and Julia Valle-Noronha. “Experiencing digital fashion archives through a decolonial lens.” *European Journal of Cultural Management and Policy* (2025). El artículo analiza, entre otros casos, The Fashion and Race Database. ([DOI][4])
+  * doi: 10.3389/ejcmp.2025.14563
+  * lang: en
+  * ES: Archivo digital de moda, clasificación y descolonización de la mirada
+  * EN: Digital fashion archives, classification, and decolonising the gaze
+  * fit_ES: Conecta arquitectura digital, archivo y visibilidad: qué cuerpos, autores y tradiciones entran en el corpus que después se consulta, enseña o reutiliza.
+  * fit_EN: Connects digital architecture, archival selection, and visibility: whose bodies, authors, and traditions enter corpora subsequently searched, taught, and reused.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] La “mirada oposicional” proporciona un marco canónico para analizar cómo la representación racializada distribuye de forma desigual las posiciones de quien mira, quien es mirado y quien puede responder a la imagen.
+
+  * cite: hooks, bell. *Black Looks: Race and Representation*. South End Press, 1992; later Routledge editions. ([Amazon][5])
+  * isbn: 9780896084339
+  * lang: en
+  * ES: Mirada oposicional, raza y poder de representación
+  * EN: Oppositional gaze, race, and representational power
+  * fit_ES: Canon de estudios visuales y feminismo negro ampliamente trasladable a fotografía y medios de moda; evita limitar la cuestión racial al simple recuento de diversidad.
+  * fit_EN: Black feminist visual-culture canon readily applicable to fashion photography and media; shifts analysis beyond numerical diversity toward structures of looking and representational power.
+
+* [ESTABLISHED] La moda y la belleza diaspóricas muestran que feminidad, raza, consumo y pertenencia nacional se producen conjuntamente, cuestionando el supuesto de una estética de moda universal.
+
+  * cite: Reddy, Vanita. *Fashioning Diaspora: Beauty, Femininity, and South Asian American Culture*. Temple University Press, 2015/2016. ([Bibliovault][6])
+  * isbn: 9781439911556
+  * lang: en
+  * ES: Moda, diáspora y feminidades racializadas
+  * EN: Fashion, diaspora, and racialised femininities
+  * fit_ES: Uptake directamente situado en moda y belleza; introduce una perspectiva South Asian/diaspórica frente a cánones exclusivamente blancos y euroamericanos.
+  * fit_EN: Directly situated in fashion and beauty studies; introduces a South Asian/diasporic perspective against exclusively white Euro-American canons.
+
+### C · Académico / Academic
+
+* [ESTABLISHED] Los materiales pedagógicos de representación de moda pueden naturalizar simultáneamente blanquitud, colorismo, delgadez y sexualización: el sesgo no aparece sólo en publicidad final, sino en las referencias con las que se aprende a producir imágenes.
+
+  * cite: Reddy-Best, Kelly L.; Choi, Eunji; Park, Hangael. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36.4 (2018): 281–295. ([Sage Journals][7])
+  * doi: 10.1177/0887302X18779140
+  * lang: en
+  * ES: Raza, colorismo y canon corporal en la ilustración de moda
+  * EN: Race, colorism, and bodily norms in fashion illustration
+  * fit_ES: Especialmente adecuado para conectar régimen visual, referencias compositivas y formación de estudiantes que posteriormente producirán imágenes digitales.
+  * fit_EN: Particularly useful for linking visual regimes, compositional references, and the training materials from which students later produce digital images.
+
+## Talla corporal, discapacidad, edad y otras minorías / Body size, disability, age, and other minorities
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] La presencia de personas con discapacidad en influencer marketing no equivale automáticamente a inclusión: las narrativas de empowerment, resistencia y deseabilidad son mediadas por las mismas infraestructuras comerciales de visibilidad.
+
+  * cite: Södergren, Jonatan et al. “Disability in influencer marketing: a complex model of disability representation.” *Journal of Marketing Management* (2023). ([Taylor & Francis Online][8])
+  * doi: 10.1080/0267257X.2022.2144418
+  * lang: en
+  * ES: Discapacidad, influencers y economía de la visibilidad
+  * EN: Disability, influencers, and the visibility economy
+  * fit_ES: Lleva la discusión de representación al entorno específico del contenido patrocinado y de los cuerpos convertidos en activos de comunicación digital.
+  * fit_EN: Moves disability representation into the specific environment of sponsored content and bodies functioning as assets within digital communication.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] Los estudios de discapacidad distinguen representación de participación: hacer visible un cuerpo no normativo no elimina las estructuras que determinan quién dispone de agencia cultural, acceso o autoridad.
+
+  * cite: Garland-Thomson, Rosemarie. “Disability and Representation.” *PMLA* 120.2 (2005). ([Cambridge University Press][9])
+  * doi: 10.1632/S0030812900167835
+  * lang: en
+  * ES: Discapacidad, representación y agencia visual
+  * EN: Disability, representation, and visual agency
+  * fit_ES: Canon adyacente de disability studies posteriormente utilizado en estudios visuales y pedagogías de moda; útil para distinguir inclusión estética de redistribución de agencia.
+  * fit_EN: Adjacent disability-studies canon subsequently mobilised in visual and fashion pedagogy; distinguishes aesthetic inclusion from redistribution of agency.
+
+### C · Académico / Academic
+
+* [ESTABLISHED] El problema corporal en moda incluye no sólo infrarrepresentación sino colorismo, delgadez normativa y posiciones corporales sexualizadas, ya presentes en recursos educativos profesionales.
+
+  * cite: Reddy-Best, Kelly L.; Choi, Eunji; Park, Hangael. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36.4 (2018): 281–295. ([Sage Journals][10])
+
+  * doi: 10.1177/0887302X18779140
+
+  * lang: en
+
+  * ES: Norma corporal, talla y exclusión en los referentes de moda
+
+  * EN: Body norms, size, and exclusion in fashion references
+
+  * fit_ES: Fuente directamente fashion-specific para revisar referencias corporales antes de la producción de imágenes, portfolios y avatares.
+
+  * fit_EN: Fashion-specific evidence for auditing bodily references before students produce imagery, portfolios, or avatars.
+
+* [EMERGING] La investigación reciente sobre edad documenta infrarrepresentación, ausencia y representación estereotipada de personas mayores en marketing; la evidencia específicamente centrada en superficies digitales de moda sigue siendo menor.
+
+  * cite: Darveau, Jessica; Paquet, Catherine; Faber, Aida; Champagne Saint-Arnaud, Valériane. “A scoping review on ageism in marketing: towards age inclusiveness.” *Journal of Marketing Management* (online 2025; vol. 42, 2026). ([Taylor & Francis Online][11])
+  * doi: 10.1080/0267257X.2025.2562327
+  * lang: en
+  * ES: Edadismo, ausencia y estereotipo en comunicación comercial
+  * EN: Ageism, absence, and stereotyping in commercial communication
+  * fit_ES: Fuente adyacente de marketing útil para un hueco donde la investigación estrictamente fashion-digital continúa siendo escasa.
+  * fit_EN: Adjacent marketing source useful for an area where specifically digital-fashion evidence remains comparatively thin.
+
+## Aplanamiento de opinión y fabricación de consenso / Opinion flatness and consensus manufacture
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Las herramientas algorítmicas de gestión de influencers convierten categorías subjetivas como “brand suitability”, “brand friendliness” y “risk” en variables de selección, pudiendo reinscribir desigualdades de clase, raza y sexualidad dentro de decisiones aparentemente métricas.
+
+  * cite: Bishop, Sophie. “Influencer Management Tools: Algorithmic Cultures, Brand Safety, and Bias.” *Social Media + Society* 7.1 (2021). ([Sage Journals][12])
+  * doi: 10.1177/20563051211003066
+  * lang: en
+  * ES: Métricas de influencia, brand safety y normalización algorítmica
+  * EN: Influencer metrics, brand safety, and algorithmic normalisation
+  * fit_ES: Evidencia central para explicar cómo la economía de métricas puede penalizar voces, estilos o identidades considerados menos comercialmente “seguros”.
+  * fit_EN: Central evidence for explaining how metricised selection may penalise voices, styles, or identities deemed less commercially “safe.”
+
+### B · Canónico-teórico / Canonical-theoretical
+
+<!-- verified extension from Pass 2: canonical source independently checked against Penguin -->
+* [ESTABLISHED] La personalización algorítmica puede encerrar a cada usuario en un entorno informativo que reduce la exposición a perspectivas divergentes y oculta las reglas de selección.
+
+  * cite: Eli Pariser, *The Filter Bubble: What the Internet Is Hiding from You*, 2011, Penguin Books
+  * doi: none
+  * isbn: 978-0-141-96992-3
+  * lang: en
+  * ES: Personalización, burbujas de filtro y reducción de la diversidad de opinión
+  * EN: Personalisation, filter bubbles, and reduced diversity of opinion
+  * fit_ES: Proporciona el anclaje canónico que conecta los estudios de filtrado algorítmico en moda con una teoría más amplia de la personalización y la pérdida de exposición a ideas discrepantes.
+  * fit_EN: Provides the canonical anchor connecting fashion-specific algorithmic-filtering studies to a broader account of personalisation and reduced exposure to dissenting ideas.
+
+* [ESTABLISHED] La platformisation transforma el producto cultural en una mercancía contingente de infraestructuras, mercados, gobernanza y datos de plataforma; por tanto, lo que circula como “gusto” no puede separarse de las condiciones técnicas y económicas que determinan su visibilidad.
+
+  * cite: Nieborg, David B.; Poell, Thomas. “The platformization of cultural production: Theorizing the contingent cultural commodity.” *New Media & Society* 20.11 (2018): 4275–4292. ([Sage Journals][13])
+  * doi: 10.1177/1461444818769694
+  * lang: en
+  * ES: Plataformización del gusto y de la producción cultural
+  * EN: Platformisation of taste and cultural production
+  * fit_ES: Canon de platform studies, adyacente pero ampliamente aplicable a fashion media, para teorizar cómo ranking, engagement y monetización intervienen en la producción estética.
+  * fit_EN: Platform-studies canon, adjacent but highly applicable to fashion media, for theorising how ranking, engagement, and monetisation shape aesthetic production.
+
+### C · Académico / Academic
+
+* [ESTABLISHED] En moda, el filtrado algorítmico y la personalización pueden producir filter bubbles y echo chambers que reducen la exposición a narrativas estéticas discrepantes y convierten preferencias previas en condiciones de visibilidad futuras.
+
+  * cite: Daria Onitiu. “Fashion, filter bubbles and echo chambers: questions of privacy, identity, and governance.” *Law, Innovation and Technology*, 14(2), 395–420 (2022). ([Taylor & Francis Online][14])
+  * doi: 10.1080/17579961.2022.2113672
+  * lang: en
+  * ES: Burbujas de filtro, consenso y diversidad estética en moda
+  * EN: Filter bubbles, consensus, and aesthetic diversity in fashion
+  * fit_ES: Fuente excepcionalmente directa para la cuestión de “opinion flatness”: relaciona identidad de moda, perfiles de usuario y filtrado de información.
+  * fit_EN: Unusually direct source for “opinion flatness,” connecting fashion identity, user profiling, and information filtering.
+
+* [EMERGING] La promesa de que la moda digital constituye por sí misma una esfera más abierta o contracultural necesita ser examinada empíricamente: las comunidades digitales también pueden reproducir ideología, jerarquías y discursos dominantes.
+
+  * cite: Lee, YeSeung. “Digital fashion ideology: Towards a critical public sphere.” *International Journal of Cultural Studies* 29.1: 75–99, published online 2025. ([Sage Journals][15])
+  * doi: 10.1177/13678779251351644
+  * lang: en
+  * ES: Moda digital, esfera pública y límites del disenso
+  * EN: Digital fashion, the public sphere, and limits of dissent
+  * fit_ES: Actualiza la cuestión del consenso para comunidades específicamente vinculadas a digital fashion y cuestiona el tecnoutopismo como supuesto pedagógico.
+  * fit_EN: Updates the consensus question for specifically digital-fashion communities and challenges technological utopianism as a pedagogical assumption.
+
+## Voces silenciadas y periféricas / Silenced and peripheral voices
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] La economía de la imagen en redes exige trabajo estético intensivo que queda parcialmente oculto tras la apariencia de autenticidad espontánea; el contenido final invisibiliza buena parte de la producción necesaria para hacerlo legible y competitivo.
+
+  * cite: “It’s All About the Look”: Making Sense of Appearance, Attractiveness, and Authenticity Online. *Social Media + Society* (2022). ([Sage Journals][16])
+  * doi: 10.1177/20563051221138762
+  * lang: en
+  * ES: Trabajo estético invisible detrás de la imagen digital
+  * EN: Invisible aesthetic labour behind the digital image
+  * fit_ES: Fuente de digital labour directamente útil para problematizar quién produce la imagen “personal”: edición, styling, posing y trabajo continuo para plataformas.
+  * fit_EN: Digital-labour source useful for questioning who produces the supposedly “personal” image through editing, styling, posing, and continuous platform work.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] “Queer fashion” no constituye una categoría transparente de inclusión: para quienes trabajan en moda, la visibilidad puede coexistir con etiquetado externo, estetización, mercantilización y una distribución desigual de los beneficios simbólicos y materiales.
+
+  * cite: Llamas, Veronica G. “The trouble with queer fashion: Ambivalence, visibility, and the meanings of ‘queer’ among London-based LGBTIQ creatives.” *Sexualities* (2025). ([Sage Journals][17])
+  * doi: 10.1177/13634607251405143
+  * lang: en
+  * ES: Visibilidad queer, apropiación comercial y límites de la inclusión
+  * EN: Queer visibility, commercial capture, and the limits of inclusion
+  * fit_ES: Fuente fashion-specific basada en 47 entrevistas con profesionales LGBTIQ; especialmente fuerte para separar visibilidad de capacidad efectiva para definir el propio discurso.
+  * fit_EN: Fashion-specific study based on 47 interviews with LGBTIQ practitioners; particularly strong for separating visibility from actual capacity to define one’s own discourse.
+
+### C · Académico / Academic
+
+* [ESTABLISHED] Los medios comunitarios digitales pueden permitir a personas trans producir y distribuir conocimientos de vestimenta que el mercado convencional no proporciona, convirtiendo plataformas como YouTube en infraestructuras parciales de world-making y auto-representación.
+
+  * cite: Streck, Kyra G.; Reddy-Best, Kelly L. “Openly-Trans YouTubers and Gender-Affirming Undergarments: Production, Distribution, and Consumption via DIY Tutorials on YouTube.” *Clothing and Textiles Research Journal*. ([Sage Journals][18])
+  * doi: 10.1177/0887302X221138976
+  * lang: en
+  * ES: Medios trans comunitarios, DIY y circulación alternativa de conocimiento de moda
+  * EN: Trans community media, DIY, and alternative circulation of fashion knowledge
+  * fit_ES: Ejemplo empírico claro de voces que producen saber fuera de la comunicación oficial de marca y de las categorías comerciales dominantes.
+  * fit_EN: Clear empirical case of communities producing fashion knowledge outside official brand communication and dominant commercial categories.
+
+* [EMERGING] En el Sur Global, la investigación sobre públicos LGBTQ+ muestra que participación digital, consumo y liderazgo de moda no pueden extrapolarse sin más desde mercados angloamericanos.
+
+  * cite: Coetzee, C. et al. “LGBTQ Consumers’ Engagement and Attitudes Toward …” estudio situado en Sudáfrica, *Global Business Review*. ([Sage Journals][19])
+  * doi: 10.1177/09721509221141198
+  * lang: en
+  * ES: Consumo, identidad LGBTQ+ y moda digital en Sudáfrica
+  * EN: LGBTQ+ consumption, identity, and digital fashion in South Africa
+  * fit_ES: Introduce evidencia de una economía emergente africana y evita asumir que las relaciones entre queer identity, moda y plataformas son universales.
+  * fit_EN: Adds evidence from an African emerging economy and prevents treating relationships between queer identity, fashion, and platforms as universally Anglo-American.
+
+## Implicación para aula y estudio / Classroom and studio implication
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Los propios manuales con los que se enseña moda pueden constituir una infraestructura de exclusión: análisis sistemáticos encuentran sesgos simultáneos de raza, género y cuerpo antes de que el estudiante llegue a producir obra propia.
+
+  * cite: Reddy-Best, Kelly L.; Kane, Laura; Harmon, Jennifer; Gagliardi, Nika R. “Critical perspectives on fashion textbooks: representations of race, gender, and body.” *International Journal of Fashion Design, Technology and Education* 11.1 (2018): 63–75. ([Taylor & Francis Online][20])
+  * doi: 10.1080/17543266.2017.1299226
+  * lang: en
+  * ES: Auditoría crítica de referentes y manuales empleados en el estudio
+  * EN: Critical audit of references and textbooks used in the studio
+  * fit_ES: Fundamenta una práctica docente concreta: revisar quién aparece como cuerpo “normal”, diseñador legítimo y sujeto de moda antes de fijar briefs y referencias.
+  * fit_EN: Supports a concrete teaching practice: auditing who appears as the “normal” body, legitimate designer, and fashion subject before briefs and reference sets are established.
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] Descolonizar la enseñanza de moda no equivale a añadir ejemplos diversos a un canon intacto: requiere examinar cómo colonialidad, posición docente, afecto y autoridad estructuran aquello que la disciplina reconoce como conocimiento de moda.
+
+  * cite: Cheang, Sarah; Suterwalla, Shehnaz. “Decolonizing the Curriculum? Transformation, Emotion, and Positionality in Teaching.” *Fashion Theory* 24.6 (2020): 879–900. ([Taylor & Francis Online][21])
+  * doi: 10.1080/1362704X.2020.1800989
+  * lang: en
+  * ES: Descolonización del currículo y autoridad en Fashion Studies
+  * EN: Curriculum decolonisation and authority in Fashion Studies
+  * fit_ES: Referencia fashion-specific central para evitar una pedagogía aditiva de “diversidad” y revisar la construcción misma del canon.
+  * fit_EN: Central fashion-specific reference for avoiding additive “diversity” pedagogy and interrogating how the canon itself is constructed.
+
+* [ESTABLISHED] Una bibliografía de moda aparentemente diversa puede continuar reproduciendo jerarquías coloniales si mantiene intactas las relaciones entre conocimiento occidental/moderno y conocimiento no occidental/tradicional.
+
+  * cite: Ahmed, Tanveer. “Towards a decolonial feminist fashion design reading list.” *Art Libraries Journal* 47.1 (2022): 9–13. ([Cambridge University Press][22])
+  * doi: 10.1017/alj.2021.26
+  * lang: en
+  * ES: Construcción feminista y decolonial de bibliografías de moda
+  * EN: Feminist and decolonial construction of fashion reading lists
+  * fit_ES: Aplicación inmediata al diseño del propio Temario: plantea explícitamente que diversificar nombres sin reordenar jerarquías epistémicas puede reproducir los sesgos que pretende corregir.
+  * fit_EN: Immediately applicable to syllabus construction: explicitly argues that adding diverse names without reorganising epistemic hierarchies can reproduce the biases being addressed.
+
+### C · Académico / Academic
+
+* [ESTABLISHED] Una pedagogía de moda multisensorial puede cuestionar el ocularcentrismo del estudio y ampliar tanto la participación de estudiantes con discapacidad como las propias definiciones de qué cuenta como conocimiento y comunicación de moda.
+
+  * cite: Gork, Julie; Stasiulytė, Vidmina; Gupta, Sugandha. “Sensory Explorations: A Critical Multisensory Approach to Fashion Pedagogy.” *ZoneModa Journal* (2025). ([zmj.unibo.it][23])
+  * doi: 10.60923/issn.2611-0563/22969
+  * lang: en
+  * ES: Pedagogía multisensorial, discapacidad y crítica del ocularcentrismo
+  * EN: Multisensory pedagogy, disability, and critique of ocularcentrism
+  * fit_ES: Especialmente pertinente para imagen, 3D e inmersión: evita que “comunicación digital” se reduzca automáticamente a una cultura exclusivamente visual y normativamente vidente.
+  * fit_EN: Especially pertinent to image, 3D, and immersive practice: prevents “digital communication” from automatically becoming an exclusively visual and normatively sighted culture.
+
+* [ESTABLISHED] Una pedagogía explícitamente orientada a justicia social ofrece una alternativa al modelo neoliberal de educación de moda centrado exclusivamente en empleabilidad, competitividad individual y adaptación a la industria.
+
+  * cite: Reed, J. et al. “Creating Room for Social Justice Pedagogy in Fashion Education.” *Clothing and Textiles Research Journal* (2023). ([Sage Journals][24])
+  * doi: 10.1177/0887302X221099824
+  * lang: en
+  * ES: Justicia social y crítica del modelo neoliberal de educación de moda
+  * EN: Social-justice pedagogy and critique of neoliberal fashion education
+  * fit_ES: Proporciona una referencia específicamente fashion-education para convertir la crítica de representación en criterio de briefing, crítica de proyectos y evaluación.
+  * fit_EN: Provides a specifically fashion-education basis for translating representational critique into briefing, critique, and assessment practices.
+
+* [ESTABLISHED] Una pedagogía antirracista de diseño de moda puede apoyarse directamente en feminismos negros y de mujeres de color, en lugar de relegar estas perspectivas a módulos contextuales separados del trabajo de estudio.
+
+  * cite: Ahmed, Tanveer. “‘All about Love’: How would bell hooks teach fashion design?” *Design Research Society Conference* (2018). ([UAL Research Online][25])
+  * doi: 10.21606/dma.2018.665
+  * lang: en
+  * ES: Pedagogía antirracista aplicada al estudio de diseño de moda
+  * EN: Anti-racist pedagogy applied to the fashion design studio
+  * fit_ES: Vincula teoría crítica y práctica pedagógica de moda, evitando tratar raza y género como contenidos históricos desconectados de la producción creativa.
+  * fit_EN: Connects critical theory directly to fashion-studio pedagogy rather than treating race and gender as historical topics detached from creative production.
+
+## Gaps
+
+* **Perspectivas minoritarias insuficientemente documentadas:** este mapa no encontró evidencia académica suficientemente sólida y directamente centrada en *digital fashion communication* para pueblos indígenas contemporáneos, comunidades Roma, moda musulmana/modest fashion en plataformas, minorías religiosas, personas neurodivergentes, identidades intersex y muchas comunidades trans fuera de Norteamérica y Europa. No se introducen referencias regionales no verificadas para rellenar artificialmente estos huecos.
+* **Iberoamérica y lenguas ibéricas:** la literatura robustamente verificable recuperada para este Pass 1 continúa siendo desproporcionadamente anglófona. Hay investigación latinoamericana y decolonial relevante, pero son escasas las fuentes recientes en **español o portugués** que crucen específicamente moda + producción de imagen digital + plataformas + exclusión con DOI/ISBN fácilmente verificable. La ausencia debe tratarse como un hueco del mapa, no como evidencia de ausencia de producción regional.
+* **Global South:** aparecen perspectivas South Asian/diaspóricas, sudafricanas y debates decoloniales, pero el corpus continúa dependiendo en exceso de editoriales y revistas del Global North. África fuera de Sudáfrica, América Latina, Oriente Medio, Sudeste Asiático y comunidades indígenas están infrarrepresentados.
+* **Retocadores y trabajadores invisibles de postproducción:** existe abundante literatura sobre aesthetic labour, influencers y creative labour, pero este Pass 1 no localizó una base académica equivalente y suficientemente verificable sobre **retouchers, compositors, digital technicians y otros trabajadores específicos detrás de la imagen de moda**. Es un hueco importante para “who produces the image economy”.
+* **Modelos y trabajadores de cadenas globales como sujetos hablantes:** hay literatura extensa sobre trabajo de moda y supply chains, pero es menor la investigación que analiza específicamente quién obtiene voz narrativa dentro de campañas, portfolios o storytelling digital de marca frente a quién aparece únicamente como objeto visual o “impact story”.
+* **Portfolio economy:** se localizaron fuertes trabajos sobre self-branding, influencer labour y platformisation, pero falta investigación fashion-specific directamente dedicada a **quién puede permitirse mantener el portfolio digital continuamente optimizado, quién obtiene visibilidad algorítmica y quién queda fuera por clase, infraestructura, discapacidad o capital social**.
+* **Edad:** la evidencia sobre ageism en advertising/marketing es sólida, pero la investigación específicamente dedicada a edad en fashion platforms, virtual fashion, avatars y generative-fashion imagery sigue siendo comparativamente escasa.
+* **Discapacidad digital:** la literatura fashion-specific está creciendo —incluidos influencer marketing y pedagogía multisensorial— pero sigue habiendo bastante más investigación sobre adaptive clothing y accesibilidad física que sobre representación, algoritmos y autoridad cultural en medios digitales de moda.
+* **“Opinion flatness”:** existe fundamento sólido mediante platformisation, influencer-management algorithms, filter bubbles y digital-fashion discourse, pero “opinion flatness” no aparece como término disciplinar estabilizado. Para Temario conviene mantenerlo como **rótulo pedagógico**, sustentado por literatura sobre *platformisation*, *algorithmic visibility*, *filter bubbles*, *metricisation*, *brand safety* y *cultural production*.
+* **Generative fashion imagery:** existe evidencia fuerte de sesgo racial, de género y edad en text-to-image en general, pero aún es menor la investigación peer-reviewed que aísla específicamente datasets, prompts y outputs de **fashion imaging**. Conviene no confundir evidencia general de T2I bias con evidencia empírica específicamente fashion-sector.
+* **Anclas con sólo `[UNVERIFIED]`: ninguna.** No se han incluido entradas sin DOI/ISBN que obligasen a clasificarlas `[UNVERIFIED]`.
+
+[1]: https://www.nature.com/articles/s41598-025-99623-3?utm_source=chatgpt.com "AI-generated faces influence gender stereotypes and racial ..."
+[2]: https://www.politybooks.com/bookdetail?book_slug=the-fashioned-body-fashion-dress-and-social-theory-2nd-edition--9780745649375&utm_source=chatgpt.com "Fashion, Dress and Social Theory, 2nd Edition - Polity"
+[3]: https://www.tandfonline.com/doi/full/10.1080/09589236.2016.1155435?utm_source=chatgpt.com "Gender models: changing representations and intersecting ..."
+[4]: https://doi.org/10.3389/ejcmp.2025.14563?utm_source=chatgpt.com "Experiencing digital fashion archives through a decolonial lens"
+[5]: https://www.amazon.co.uk/Black-Looks-Representation-Bell-Hooks/dp/0896084337?utm_source=chatgpt.com "Black Looks: Race and Representation - Bell Hooks"
+[6]: https://www.bibliovault.org/BV.book.epl?ISBN=9781439911556&utm_source=chatgpt.com "Fashioning Diaspora: Beauty, Femininity, and South Asian ..."
+[7]: https://journals.sagepub.com/doi/10.1177/0887302X18779140?utm_source=chatgpt.com "Race, Colorism, Body Size, Body Position, and Sexiness"
+[8]: https://www.tandfonline.com/doi/full/10.1080/0267257X.2022.2144418?utm_source=chatgpt.com "Disability in influencer marketing: a complex model of ..."
+[9]: https://www.cambridge.org/core/journals/pmla/article/disability-and-representation/C926E5C7299EE2C7FE8D0FBD2272FB9D?utm_source=chatgpt.com "Disability and Representation | PMLA | Cambridge Core"
+[10]: https://journals.sagepub.com/doi/abs/10.1177/0887302X18779140?utm_source=chatgpt.com "Race, Colorism, Body Size, Body Position, and Sexiness"
+[11]: https://www.tandfonline.com/doi/full/10.1080/0267257X.2025.2562327?utm_source=chatgpt.com "A scoping review on ageism in marketing: towards age ..."
+[12]: https://journals.sagepub.com/doi/10.1177/20563051211003066?utm_source=chatgpt.com "Influencer Management Tools: Algorithmic Cultures, Brand ..."
+[13]: https://journals.sagepub.com/doi/abs/10.1177/1461444818769694?utm_source=chatgpt.com "The platformization of cultural production: Theorizing ..."
+[14]: https://www.tandfonline.com/doi/full/10.1080/17579961.2022.2113672?utm_source=chatgpt.com "Full article: Fashion, filter bubbles and echo chambers"
+[15]: https://journals.sagepub.com/doi/10.1177/13678779251351644?utm_source=chatgpt.com "Digital fashion ideology: Towards a critical public sphere"
+[16]: https://journals.sagepub.com/doi/10.1177/20563051221138762?utm_source=chatgpt.com "“It's All About the Look”: Making Sense of Appearance, ..."
+[17]: https://journals.sagepub.com/doi/full/10.1177/13634607251405143 "The trouble with queer fashion: Ambivalence, visibility, and the meanings of ‘queer’ among London-based LGBTIQ creatives - Veronica G. Llamas, 2025"
+[18]: https://journals.sagepub.com/doi/10.1177/0887302X221138976 "Openly-Trans YouTubers and Gender-Affirming Undergarments: Production, Distribution, and Consumption via DIY Tutorials on YouTube - Kyra G. Streck, Kelly L. Reddy-Best, 2025"
+[19]: https://journals.sagepub.com/doi/10.1177/09721509221141198?utm_source=chatgpt.com "LGBTQ Consumers' Engagement and Attitudes Toward ..."
+[20]: https://www.tandfonline.com/doi/full/10.1080/17543266.2017.1299226?utm_source=chatgpt.com "Full article: Critical perspectives on fashion textbooks"
+[21]: https://www.tandfonline.com/doi/abs/10.1080/1362704X.2020.1800989?utm_source=chatgpt.com "Decolonizing the Curriculum? Transformation, Emotion, ..."
+[22]: https://www.cambridge.org/core/journals/art-libraries-journal/article/towards-a-decolonial-feminist-fashion-design-reading-list/02C588FCD06AE8B7565159FDEDEF76CC "Towards a decolonial feminist fashion design reading list | Art Libraries Journal | Cambridge Core"
+[23]: https://zmj.unibo.it/article/view/22969 "Sensory Explorations: A Critical Multisensory Approach to Fashion Pedagogy | ZoneModa Journal"
+[24]: https://journals.sagepub.com/doi/abs/10.1177/0887302X221099824?utm_source=chatgpt.com "Creating Room for Social Justice Pedagogy in Fashion ..."
+[25]: https://ualresearchonline.arts.ac.uk/id/eprint/17912/1/665_Ahmed%20%281%29%20AMENDED.pdf?utm_source=chatgpt.com "about Love”: How would bell hooks teach fashion design?"

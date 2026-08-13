@@ -15,13 +15,17 @@ status: scaffold
 
 **Scaffold.** Unidades bajo `docs/lessons/es/creacion-digital-ii/` (pendiente).
 
-## Anclas oficiales
+## Contenidos oficiales (guía)
 
+Contrato institucional: `digital-creativity-pedagogy/cv/guides/3-creacion-digital-ii.json` (no se publica en Pages). Carga formativa presencial **150 h**.
+
+- Retoque fotográfico avanzado de imágenes moda  
 - Creación de avatares  
 - Diseño de experiencias de moda digitales  
+- Recursos digitales de edición de vídeo  
 - Maquetación, edición y creación de web y portfolio digital  
-- Hologramas y R.A.
+- Hologramas y R.A  
 
 ## Rol en la sinergia vShowroom
 
-En S2, este cohort **puebla** el vShowroom (runtime construido por FE II en S1) y **abre issues como usuarias reales**. Consentimiento por artefacto obligatorio antes de cualquier exhibición pública.
+En S2, este cohort **puebla** el vShowroom (runtime construido por FE II en S1) y **abre issues como usuarias reales**. Consentimiento por artefacto obligatorio antes de cualquier exhibición pública. L3 no reescribe la lista de contenidos.

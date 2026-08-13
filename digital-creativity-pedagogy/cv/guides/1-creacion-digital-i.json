@@ -1,0 +1,143 @@
+{
+  "subject_name": "Creación Digital I",
+  "official_title_name": "Grado en Comunicación y Gestión de Moda",
+  "school_or_faculty": "Escuela de Arquitectura, Ingeniería y Diseño - Campus Creativo",
+  "year": 1,
+  "ects": 6.0,
+  "module_type": "Básica",
+  "languages": [
+    "Castellano"
+  ],
+  "modality": "Presencial / Virtual",
+  "semester": "1",
+  "academic_year": "2025-2026",
+  "coordinating_professor": "Sandra Jiménez Duarte",
+  "presentation": "En esta materia conoceremos algunas de las principales herramientas de trabajo para creación de imágenes digitales, retoque fotográfico y animación 2D",
+  "competencies": [
+    "CON1. Diferenciar las distintas técnicas de representación audiovisual de ideas de moda y sus posibilidades y medios de difusión.",
+    "HAB9. Utilizar profesionalmente tecnología digital para el tratamiento de imágenes, textos y sonidos",
+    "HAB10.Diseñar la imagen de marca de una firma de moda.",
+    "COMP8. Capacidad para manejar herramientas digitales de representación gráfica o audiovisual en la comunicación de ideas o proyectos de moda, creando y mejorando la imagen y la marca empresarial.",
+    "COMP9. Capacidad para crear ideas nuevas y conceptos a partir de ideas y conceptos conocidos, llegando a conclusiones o resolviendo problemas, retos y situaciones de una forma original."
+  ],
+  "learning_outcomes": [],
+  "contents": "Introducción a las imágenes digitales Tecnología digital 2D: Herramientas de dibujo. Color, imágenes con mapas de bits. Efectos. Fundamentos y representación de la forma tridimensional. Volumen. Fuentes y referencias compositivas en el diseño de moda. Creación de imágenes digitales animadas Bodegones digitales",
+  "methodologies": {
+    "General": [
+      "Clase magistral",
+      "Aprendizaje basado en problemas",
+      "Aprendizaje basado en proyectos",
+      "Aprendizaje basado en enseñanzas de taller",
+      "Entornos de simulación"
+    ]
+  },
+  "formative_activities": {
+    "Modalidad presencial": [
+      {
+        "name": "Seminarios de aplicación práctica (modalidad presencial)",
+        "hours": 20.0
+      },
+      {
+        "name": "Resolución de problemas (modalidad presencial)",
+        "hours": 8.0
+      },
+      {
+        "name": "Proyectos (modalidad presencial)",
+        "hours": 20.0
+      },
+      {
+        "name": "Actividades en talleres y/o laboratorios (modalidad presencial)",
+        "hours": 14.0
+      },
+      {
+        "name": "Trabajo autónomo (modalidad presencial)",
+        "hours": 56.0
+      },
+      {
+        "name": "Debates y coloquios (modalidad presencial)",
+        "hours": 8.0
+      },
+      {
+        "name": "Tutoría académica (modalidad presencial)",
+        "hours": 12.0
+      },
+      {
+        "name": "Pruebas de evaluación presenciales (modalidad presencial)",
+        "hours": 2.0
+      }
+    ],
+    "Modalidad virtual": [
+      {
+        "name": "Clases magistrales (modalidad virtual)",
+        "hours": 10.0
+      },
+      {
+        "name": "Clases virtuales síncronas (modalidad virtual)",
+        "hours": 20.0
+      },
+      {
+        "name": "Resolución de problemas (modalidad virtual)",
+        "hours": 8.0
+      },
+      {
+        "name": "Proyectos (modalidad virtual)",
+        "hours": 20.0
+      },
+      {
+        "name": "Actividades síncronas en talleres/ laboratorios virtuales (modalidad virtual)",
+        "hours": 14.0
+      },
+      {
+        "name": "Estudio de contenidos y documentación (modalidad virtual)",
+        "hours": 56.0
+      },
+      {
+        "name": "Foro Virtual (modalidad virtual)",
+        "hours": 8.0
+      },
+      {
+        "name": "Tutoría académica virtual síncrona (modalidad virtual)",
+        "hours": 12.0
+      },
+      {
+        "name": "Pruebas de evaluación presenciales (modalidad virtual)",
+        "hours": 2.0
+      }
+    ]
+  },
+  "evaluation": {
+    "Modalidad presencial": [
+      {
+        "name": "Pruebas de evaluación presenciales (modalidad presencial)",
+        "weight_percent": 55.0
+      },
+      {
+        "name": "Caso/problema (modalidad presencial)",
+        "weight_percent": 20.0
+      },
+      {
+        "name": "Proyectos (modalidad presencial)",
+        "weight_percent": 10.0
+      }
+    ],
+    "Modalidad virtual": [
+      {
+        "name": "Pruebas de evaluación presenciales (modalidad virtual)",
+        "weight_percent": 55.0
+      },
+      {
+        "name": "Informes y escritos (modalidad virtual)",
+        "weight_percent": 15.0
+      },
+      {
+        "name": "Caso/problema (modalidad virtual)",
+        "weight_percent": 20.0
+      },
+      {
+        "name": "Proyectos (modalidad virtual)",
+        "weight_percent": 10.0
+      }
+    ]
+  },
+  "source_url": "https://universidadeuropea.es/myfiles/pr/9729001103.pdf"
+}

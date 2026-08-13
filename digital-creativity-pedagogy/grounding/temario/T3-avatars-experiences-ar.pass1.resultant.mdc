@@ -1,0 +1,312 @@
+---
+# T3 Pass 1 Deep Research Resultant
+
+- source_prompt: `T3-avatars-experiences-ar.pass1.prompt.md`
+- surface: ChatGPT Deep Research · external model A
+- chat_thread: `6a7b1249-c86c-83eb-9904-8178c0f80ad1`
+- captured: 2026-08-11
+- audit_source: Claude Cloud · external model B
+- audit_artifact: `T3-avatars-experiences-ar.pass2.raw.md`
+- audited: 2026-08-11
+
+---
+## Creación de avatares para comunicación de moda / Creation of avatars for fashion communication
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] La simulación 3D permite construir prendas sobre avatares, animarlas y convertirlas en piezas de comunicación visual mediante renderizado y posproducción.
+  - cite: Kyung-Hee Choi, “3D Dynamic Fashion Design Development Using Digital Technology and Its Potential in Online Platforms,” 2022, *Fashion and Textiles*
+  - doi: 10.1186/s40691-021-00286-1
+  - isbn: none
+  - ES: Flujo de creación de prendas dinámicas y avatares 3D
+  - EN: Workflow for dynamic garments and 3D avatars
+  - fit_ES: Documenta un procedimiento con CLO3D, animación, renderizado y After Effects orientado a resultados expresivos y comunicativos.
+  - fit_EN: It documents a CLO3D, animation, rendering, and After Effects workflow aimed at expressive and communicative outputs.
+  - scope: curricular
+- [ESTABLISHED] La literatura técnica sobre prueba virtual distingue detección, síntesis de prendas y problemas de pose, oclusión, iluminación, textura y conservación de logotipos.
+  - cite: Hajer Ghodhbani, Mohamed Neji, Imran Razzak, and Adel M. Alimi, “You Can Try without Visiting: A Comprehensive Survey on Virtually Try-on Outfits,” 2022, *Multimedia Tools and Applications*
+  - doi: 10.1007/s11042-022-12802-6
+  - isbn: none
+  - ES: Fundamentos técnicos de la prueba virtual de prendas
+  - EN: Technical foundations of virtual garment try-on
+  - fit_ES: Sirve para contextualizar los límites técnicos de vestir avatares, pero su centro es la ingeniería de prueba virtual y no la comunicación de moda.
+  - fit_EN: It contextualizes the technical limits of dressing avatars, but its main concern is virtual try-on engineering rather than fashion communication.
+  - scope: research-context-only
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] La identidad digital puede analizarse como una construcción performativa y mediada que se negocia mediante representaciones del yo en pantalla.
+  - cite: Sherry Turkle, *Life on the Screen: Identity in the Age of the Internet*, 1995, Simon & Schuster
+  - doi: none
+  - isbn: 978-0-684-80353-1
+  - ES: Identidad virtual y representación del yo
+  - EN: Virtual identity and representation of the self
+  - fit_ES: Proporciona una base canónica para estudiar el avatar como mediación identitaria y no solo como modelo técnico.
+  - fit_EN: It provides a canonical basis for studying the avatar as an identity mediation rather than merely a technical model.
+  - scope: curricular
+- [ESTABLISHED] El cuerpo vestido es una práctica corporal situada en la que identidad, normas sociales, imagen y materialidad se articulan conjuntamente.
+  - cite: Joanne Entwistle, *The Fashioned Body: Fashion, Dress and Modern Social Theory*, 2nd ed., 2015, Polity
+  - doi: none
+  - isbn: 978-0745649382
+  - ES: Cuerpo vestido, imagen y representación digital
+  - EN: The dressed body, image, and digital representation
+  - fit_ES: Permite problematizar qué se conserva, normaliza o transforma cuando el cuerpo vestido se convierte en avatar.
+  - fit_EN: It helps question what is preserved, normalized, or transformed when the dressed body becomes an avatar.
+  - scope: curricular
+
+### C · Académico / Academic
+
+- [ESTABLISHED] Las prácticas profesionales de moda 3D están reconfigurando la autoría, la artesanía digital y los límites entre diseñador, cuerpo, prenda y plataforma.
+  - cite: Natalia Särmäkari, “Digital 3D Fashion Designers: Cases of Atacac and The Fabricant,” 2023, *Fashion Theory: The Journal of Dress, Body & Culture*
+  - doi: 10.1080/1362704X.2021.1981657
+  - isbn: none
+  - ES: Diseñadores de moda 3D, autoría y artesanía digital
+  - EN: 3D fashion designers, authorship, and digital craftsmanship
+  - fit_ES: Los casos de Atacac y The Fabricant conectan directamente creación 3D, identidad profesional y comunicación de moda digital.
+  - fit_EN: The Atacac and The Fabricant cases directly connect 3D creation, professional identity, and digital fashion communication.
+  - scope: curricular
+- [EMERGING] La visualización de un avatar antropométrico propio puede afectar la percepción corporal y los conceptos de autoestima y autocompasión, aunque la evidencia procede de una muestra pequeña.
+  - cite: Juyeon Park and Jennifer Paff Ogle, “How Virtual Avatar Experience Interplays with Self-Concepts: The Use of Anthropometric 3D Body Models in the Visual Stimulation Process,” 2021, *Fashion and Textiles*
+  - doi: 10.1186/s40691-021-00257-6
+  - isbn: none
+  - ES: Avatar corporal, autopercepción y ética de representación
+  - EN: Body avatars, self-perception, and representational ethics
+  - fit_ES: Introduce consecuencias éticas y afectivas relevantes al decidir proporciones, realismo y diversidad corporal en avatares.
+  - fit_EN: It introduces ethical and affective consequences relevant to decisions about proportions, realism, and bodily diversity in avatars.
+  - scope: curricular
+
+## Diseño de experiencias digitales de moda / Design of digital fashion experiences
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] Un entorno de realidad virtual puede integrar prendas profesionales, avatares animados, navegación espacial, interacción multiusuario y revisión colaborativa.
+  - cite: Orestis Sarakatsanos, Anastasios Papazoglou-Chalikias, Machi Boikou, Elisavet Chatzilari, Michaela Jauk, Ursina Hafliger, Spiros Nikolopoulos, and Ioannis Kompatsiaris, “VR Designer: Enhancing Fashion Showcases through Immersive Virtual Garment Fitting,” 2024, *Virtual Reality*
+  - doi: 10.1007/s10055-024-00945-w
+  - isbn: none
+  - ES: Diseño técnico de escaparates y espacios inmersivos de moda
+  - EN: Technical design of immersive fashion showcases and spaces
+  - fit_ES: Describe la integración de simulaciones avatar-prenda en Unity y permite separar visualización inmersiva, interacción y evaluación del ajuste.
+  - fit_EN: It describes the integration of avatar-garment simulations in Unity and helps distinguish immersive visualization, interaction, and fit evaluation.
+  - scope: curricular
+- [ESTABLISHED] En un desfile virtual, el punto de vista, la transformación de la ropa, la iluminación y el sonido pueden diseñarse como variables interactivas que afectan interés, diversión, inmersión y usabilidad.
+  - cite: Duck-Ki Ahn, Byung-Chull Bae, and Yejin Kim, “User Experience of a Digital Fashion Show: Exploring the Effectiveness of Interactivity in Virtual Reality,” 2023, *Applied Sciences*
+  - doi: 10.3390/app13042558
+  - isbn: none
+  - ES: Interacción y experiencia de usuario en desfiles virtuales
+  - EN: Interaction and user experience in virtual fashion shows
+  - fit_ES: Aporta un proceso de prototipado y evaluación aplicable al diseño de experiencias de presentación, no solo a la exhibición pasiva.
+  - fit_EN: It provides a prototyping and evaluation process applicable to presentation experiences rather than passive display alone.
+  - scope: curricular
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] El diseño de experiencias puede entenderse como la organización deliberada de elementos espaciales, temporales y sensoriales para producir una vivencia coherente y memorable.
+  - cite: B. Joseph Pine II and James H. Gilmore, *The Experience Economy: Competing for Customer Time, Attention, and Money*, 2019, Harvard Business Review Press
+  - doi: none
+  - isbn: 978-1633697973
+  - ES: Dramaturgia y diseño de experiencias
+  - EN: Dramaturgy and experience design
+  - fit_ES: Ofrece vocabulario para analizar tematización, participación, inmersión y coherencia, aunque procede de la teoría empresarial de experiencias.
+  - fit_EN: It offers vocabulary for analyzing theming, participation, immersion, and coherence, although it originates in business experience theory.
+  - scope: curricular
+- [ESTABLISHED] El espectáculo convierte relaciones sociales y mercancías en representaciones, una perspectiva crítica pertinente para la mediatización intensiva de la moda.
+  - cite: Guy Debord, *The Society of the Spectacle*, 1994 English ed., Zone Books
+  - doi: none
+  - isbn: 978-0942299793
+  - ES: Moda, mercancía y espectáculo mediatizado
+  - EN: Fashion, commodity, and mediated spectacle
+  - fit_ES: Permite someter la experiencia digital de moda a crítica cultural y no tratar inmersión o novedad tecnológica como valores automáticos.
+  - fit_EN: It enables cultural critique of digital fashion experiences rather than treating immersion or technological novelty as automatic values.
+  - scope: curricular
+
+### C · Académico / Academic
+
+- [ESTABLISHED] Las experiencias de desfiles de lujo en VR dependen de la telepresencia, el valor experiencial y la relación entre cualidades del medio y respuesta del público.
+  - cite: Jungmin Jung, Jihye Yu, Yoonjae Seo, and Eunju Ko, “Consumer Experiences of Virtual Reality: Insights from VR Luxury Brand Fashion Shows,” 2021, *Journal of Business Research*
+  - doi: 10.1016/j.jbusres.2019.10.038
+  - isbn: none
+  - ES: Telepresencia y recepción de desfiles de lujo en VR
+  - EN: Telepresence and reception of luxury VR fashion shows
+  - fit_ES: Aporta evidencia empírica para relacionar decisiones de mediación inmersiva con experiencia y percepción de marca.
+  - fit_EN: It provides empirical evidence linking immersive mediation decisions to audience experience and brand perception.
+  - scope: curricular
+- [ESTABLISHED] Las entrevistas sobre desfiles inmersivos muestran que espacio, narrativa, cuerpo virtual, interacción y posibilidad de exploración participan conjuntamente en la experiencia de moda.
+  - cite: Se Jin Kim, “Virtual Fashion Experiences in Virtual Reality Fashion Show Spaces,” 2023, *Frontiers in Psychology*
+  - doi: 10.3389/fpsyg.2023.1276856
+  - isbn: none
+  - ES: Experiencia espacial y narrativa del desfile virtual
+  - EN: Spatial and narrative experience of the virtual fashion show
+  - fit_ES: Se centra específicamente en la experiencia del desfile de moda inmersivo y complementa los estudios cuantitativos de aceptación tecnológica.
+  - fit_EN: It focuses specifically on the immersive fashion-show experience and complements quantitative technology-acceptance studies.
+  - scope: curricular
+- [ESTABLISHED] Una revisión sistemática identifica diseño, consumidor, cuerpo, virtualidad, impresión y cadena de suministro como temas diferenciados dentro de la moda digital.
+  - cite: Eunsoo Baek, Shelley Haines, Omar Fares, Zhihong Huang, Yuwei Hong, and Seung Hwan Lee, “Defining Digital Fashion: Reshaping the Field via a Systematic Review,” 2022, *Computers in Human Behavior*
+  - doi: 10.1016/j.chb.2022.107407
+  - isbn: none
+  - ES: Delimitación conceptual de la moda digital
+  - EN: Conceptual delimitation of digital fashion
+  - fit_ES: Ayuda a mantener la experiencia y la representación identitaria separadas de operaciones de producción o comercio electrónico.
+  - fit_EN: It helps keep experience and identity representation distinct from production or e-commerce operations.
+  - scope: curricular
+
+## Hologramas y realidad aumentada en la exhibición y narrativa de moda / Holograms and augmented reality in fashion display and storytelling
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] La realidad aumentada combina contenido real y virtual, opera interactivamente en tiempo real y registra los elementos virtuales en el espacio tridimensional.
+  - cite: Ronald T. Azuma, “A Survey of Augmented Reality,” 1997, *Presence: Teleoperators and Virtual Environments*
+  - doi: 10.1162/pres.1997.6.4.355
+  - isbn: none
+  - ES: Definición técnica y propiedades de la realidad aumentada
+  - EN: Technical definition and properties of augmented reality
+  - fit_ES: Proporciona criterios técnicos para distinguir una experiencia AR de vídeo compuesto, proyección escénica o imágenes denominadas comercialmente “holográficas”.
+  - fit_EN: It provides technical criteria for distinguishing AR from composited video, stage projection, or imagery commercially described as “holographic.”
+  - scope: curricular
+- [EMERGING] La holografía aplicada al lujo comprende objetos holográficos, promoción visual y autenticación, pero esos usos no son técnicamente equivalentes a AR ni a las proyecciones pseudo-holográficas de pasarela.
+  - cite: V. Michael Bove Jr. and Nicole A. Reader, “Holography and the Luxury Industry,” 2021, *Photonics*
+  - doi: 10.3390/photonics8060219
+  - isbn: none
+  - ES: Holografía, lujo y tipologías de aplicación
+  - EN: Holography, luxury, and application types
+  - fit_ES: Es la fuente académica más directamente alineada con lujo y holografía, pero debe leerse considerando la afiliación comercial de Nicole A. Reader con Modern Mirror.
+  - fit_EN: It is the scholarly source most directly aligned with luxury and holography, but should be read in light of Nicole A. Reader’s commercial affiliation with Modern Mirror.
+  - scope: curricular
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] Los nuevos medios producen inmediatez e hipermediación al refashionar y hacer visibles convenciones de medios anteriores.
+  - cite: Jay David Bolter and Richard Grusin, *Remediation: Understanding New Media*, 2000 paperback ed., The MIT Press
+  - doi: none
+  - isbn: 978-0262522793
+  - ES: Remediación, presencia y capas de mediación
+  - EN: Remediation, presence, and layers of mediation
+  - fit_ES: Permite analizar cómo AR, proyección y displays volumétricos remedian pasarela, fotografía, cine, escaparate y exposición.
+  - fit_EN: It supports analysis of how AR, projection, and volumetric displays remediate runway, photography, cinema, window display, and exhibition.
+  - scope: curricular
+- [ESTABLISHED] La representación tecnológica del cuerpo vestido debe leerse dentro de las convenciones sociales que hacen visible, legible y normativo ese cuerpo.
+  - cite: Joanne Entwistle, *The Fashioned Body: Fashion, Dress and Modern Social Theory*, 2nd ed., 2015, Polity
+  - doi: none
+  - isbn: 978-0745649382
+  - ES: Cuerpo vestido y mediación aumentada
+  - EN: The dressed body and augmented mediation
+  - fit_ES: Ayuda a evaluar qué cuerpos, movimientos y códigos de vestir son amplificados o excluidos por una exhibición aumentada.
+  - fit_EN: It helps evaluate which bodies, movements, and dress codes are amplified or excluded by augmented display.
+  - scope: curricular
+
+<!-- verified extension from Pass 2: canonical source independently checked against MIT Press -->
+- [ESTABLISHED] Las imágenes virtuales e inmersivas deben analizarse históricamente como tecnologías de ilusión y posicionamiento del espectador, distinguiendo arte virtual, holografía óptica, proyección escénica y realidad aumentada.
+  - cite: Oliver Grau, *Virtual Art: From Illusion to Immersion*, 2003, The MIT Press
+  - doi: none
+  - isbn: 978-0-262-57223-1
+  - ES: Historia de la ilusión, inmersión y arte virtual
+  - EN: History of illusion, immersion, and virtual art
+  - fit_ES: Ayuda a diferenciar las genealogías perceptivas y mediáticas de hologramas, proyecciones y experiencias AR/XR en la exhibición de moda.
+  - fit_EN: It helps distinguish the perceptual and media genealogies of holograms, projections, and AR/XR experiences in fashion display.
+  - scope: curricular
+
+### C · Académico / Academic
+
+- [ESTABLISHED] El diseño de AR en espacios de moda debe diferenciar objetivos funcionales de alto volumen y estrategias narrativas o hedónicas propias de marcas de gama alta.
+  - cite: Liangchao Xue, Christopher J. Parker, and Cathryn Hart, “In-store Augmented Reality Design: Fashion Retail’s Perspectives,” 2024, *International Journal of Retail & Distribution Management*
+  - doi: 10.1108/IJRDM-10-2023-0599
+  - isbn: none
+  - ES: Diseño narrativo y experiencial de AR en espacios de moda
+  - EN: Narrative and experiential AR design in fashion spaces
+  - fit_ES: Sus entrevistas con personal de moda y diseñadores AR/UX aportan pautas sobre engagement y relato, aunque el contexto empírico sea retail físico.
+  - fit_EN: Its interviews with fashion staff and AR/UX designers provide guidance on engagement and storytelling, although the empirical setting is physical retail.
+  - scope: curricular
+- [EMERGING] La investigación sobre VR en moda ha crecido desde 2020, pero sigue concentrada geográficamente, dominada por entornos no inmersivos y muy vinculada a adopción tecnológica.
+  - cite: Hyo Jung Chang, Ho-Young Lee, and Min Jung Kim, “Virtual Reality in Fashion: A Systematic Review and Research Agenda,” 2026, *Clothing and Textiles Research Journal*
+  - doi: 10.1177/0887302X251352563
+  - isbn: none
+  - ES: Estado de la investigación XR en moda
+  - EN: State of XR research in fashion
+  - fit_ES: Sitúa la presentación inmersiva dentro de un campo más amplio y confirma que la evidencia específicamente comunicativa continúa siendo limitada.
+  - fit_EN: It positions immersive presentation within a broader field and confirms that specifically communication-oriented evidence remains limited.
+  - scope: curricular
+
+## Cross-cut · IA generativa en la educación de moda basada en estudio / GenAI in studio-based fashion education
+
+### A · Técnico / Technical
+
+- [ESTABLISHED] La revisión técnica de IA aplicada al diseño de moda organiza aplicaciones como generación, recomendación, reconocimiento, análisis y apoyo al desarrollo de productos.
+  - cite: Ziyue Guo, Zongyang Zhu, Yizhi Li, Shidong Cao, Hangyue Chen, and Gaoang Wang, “AI Assisted Fashion Design: A Review,” 2023, *IEEE Access*
+  - doi: 10.1109/ACCESS.2023.3306235
+  - isbn: none
+  - ES: Panorama técnico de IA aplicada al diseño de moda
+  - EN: Technical overview of AI-assisted fashion design
+  - fit_ES: Ofrece base técnica para identificar qué partes del proceso pueden automatizarse o asistirse antes de debatir autoría y evaluación.
+  - fit_EN: It provides a technical basis for identifying which parts of the process can be automated or assisted before discussing authorship and assessment.
+  - scope: research-context-only
+- [EMERGING] Una implementación curricular estructurada con Firefly, Photoshop e Illustrator puede aumentar la confianza del alumnado, pero también revela tensiones entre velocidad, autenticidad, eficiencia y dominio específico.
+  - cite: Balasubramanian M., “Implementing Generative AI in Fashion Design Curriculum,” 2026, *Frontiers in Education*
+  - doi: 10.3389/feduc.2026.1824003
+  - isbn: none
+  - ES: Flujo curricular de IA generativa para una colección digital
+  - EN: Generative-AI curriculum workflow for a digital collection
+  - fit_ES: Presenta un flujo de colección de extremo a extremo y reflexiones estudiantiles útiles para planificar documentación y crítica del proceso.
+  - fit_EN: It presents an end-to-end collection workflow and student reflections useful for planning process documentation and critique.
+  - scope: curricular
+
+### B · Canónico-teórico / Canonical-theoretical
+
+- [ESTABLISHED] La creatividad puede analizarse mediante procesos combinatorios, exploratorios y transformacionales sin atribuir automáticamente intención o creatividad humana al sistema computacional.
+  - cite: Margaret A. Boden, *The Creative Mind: Myths and Mechanisms*, 2nd ed., 2004, Routledge
+  - doi: none
+  - isbn: 978-0415314534
+  - ES: Creatividad humana, creatividad computacional y atribución
+  - EN: Human creativity, computational creativity, and attribution
+  - fit_ES: Proporciona vocabulario canónico para criticar afirmaciones de coautoría y distinguir generación de novedad, intención y juicio creativo.
+  - fit_EN: It provides canonical vocabulary for critiquing co-authorship claims and distinguishing novelty generation, intention, and creative judgment.
+  - scope: curricular
+- [ESTABLISHED] La educación artística de estudio hace evaluables no solo los productos, sino también hábitos de observación, reflexión, experimentación, persistencia, crítica y toma de decisiones.
+  - cite: Kimberly M. Sheridan, Shirley Veenema, Ellen Winner, and Lois Hetland, *Studio Thinking 3: The Real Benefits of Visual Arts Education*, 2022, Teachers College Press
+  - doi: none
+  - isbn: 978-0807766514
+  - ES: Crítica, reflexión y evaluación del proceso de estudio
+  - EN: Critique, reflection, and assessment of studio process
+  - fit_ES: Ofrece una base no dependiente de una herramienta para evaluar decisiones, reflexión y desarrollo del trabajo cuando interviene IA generativa.
+  - fit_EN: It offers a tool-independent basis for assessing decisions, reflection, and development when generative AI participates in the work.
+  - scope: curricular
+
+### C · Académico / Academic
+
+- [EMERGING] Un laboratorio de moda con IA generativa muestra que registrar interacciones, selecciones, rechazos y transformaciones permite reconstruir la agencia humana y algorítmica durante el proceso.
+  - cite: Greta Rizzi and Paola Bertola, “Exploring the Generative AI Potential in the Fashion Design Process: An Experimental Experience on the Collaboration between Fashion Design Practitioners and Generative AI Tools,” 2025, *European Journal of Cultural Management and Policy*
+  - doi: 10.3389/ejcmp.2025.13875
+  - isbn: none
+  - ES: Trazabilidad del proceso y modelos de colaboración diseñador-IA
+  - EN: Process traceability and designer–AI collaboration models
+  - fit_ES: Es especialmente pertinente porque exige documentar las interacciones con IA y compara contribuciones humanas y generativas por fases.
+  - fit_EN: It is especially relevant because it requires documentation of AI interactions and compares human and generative contributions across stages.
+  - scope: curricular
+- [ESTABLISHED] En talleres con estudiantes de moda, la generación de imágenes amplía la exploración visual y puede elevar la novedad, pero presenta carencias socioculturales, identitarias y técnicas.
+  - cite: Se Jin Kim, “Generative Artificial Intelligence in Collaborative Ideation: Educational Insight from Fashion Students,” 2024, *IEEE Access*
+  - doi: 10.1109/ACCESS.2024.3382194
+  - isbn: none
+  - ES: Ideación colaborativa con IA y juicio crítico del estudiante
+  - EN: Collaborative AI ideation and student critical judgment
+  - fit_ES: Su comparación de talleres y entrevistas permite discutir cuándo la IA amplía la ideación y cuándo debilita identidad, contexto o control.
+  - fit_EN: Its workshop comparison and interviews support discussion of when AI expands ideation and when it weakens identity, context, or control.
+  - scope: curricular
+- [EMERGING] El profesorado de moda identifica usos diferenciados de IA en definición del problema, ideación, prototipado y evaluación, y favorece evaluación cualitativa del proceso frente a la dependencia exclusiva del resultado.
+  - cite: Hyosun An and Minjung Park, “AI Tools and Fashion Design Education: Instructor Perspectives on Student Challenges and Design Process Tool Support,” 2026, *Fashion and Textiles*
+  - doi: 10.1186/s40691-025-00452-9
+  - isbn: none
+  - ES: Integración pedagógica, autonomía y evaluación basada en proceso
+  - EN: Pedagogical integration, learner autonomy, and process-based assessment
+  - fit_ES: Conecta explícitamente fases del diseño, funciones de IA, feedback, autoevaluación y revisión de criterios, aunque se basa en diez entrevistas.
+  - fit_EN: It explicitly connects design stages, AI functions, feedback, self-assessment, and revised criteria, although it is based on ten interviews.
+  - scope: curricular
+
+## Gaps
+
+- La “moda holográfica” es una categoría académica débil y terminológicamente inestable frente a AR, VR, MR/XR, proyección, Pepper’s Ghost, vídeo sobre malla transparente, captura volumétrica y display de campo de luz. Muchos casos llamados “hologramas” no emplean holografía óptica.
+- La literatura revisada sobre holografía y lujo se concentra en promoción, autenticación y propiedades del display; existe mucha menos investigación revisada por pares sobre gramática narrativa, composición, dirección artística y recepción de “desfiles holográficos”.
+- La investigación de AR en moda continúa dominada por prueba virtual, intención de compra y retail. Deben separarse esas líneas de la AR utilizada para exhibición, patrimonio de moda, dramaturgia de pasarela o storytelling de marca.
+- La representación de cuerpos mediante avatares necesita mayor evidencia sobre diversidad corporal, discapacidad, raza, género, edad, sesgo de plantillas, uncanny valley y efectos de la idealización. Los estudios antropométricos existentes suelen utilizar muestras pequeñas o poblaciones estrechas.
+- No existe todavía una equivalencia estable entre fidelidad física de la prenda, realismo visual y eficacia comunicativa. Un avatar o tejido físicamente preciso no garantiza una narrativa de moda convincente, y una estilización comunicativamente eficaz puede abandonar deliberadamente la precisión de ajuste.
+- La evidencia sobre GenAI específicamente en educación universitaria de moda basada en estudio es reciente y se apoya principalmente en talleres pequeños, estudios exploratorios, entrevistas docentes y una variedad rápidamente cambiante de herramientas.
+- La transparencia del proceso se recomienda con frecuencia, pero aún faltan convenciones compartidas para registrar prompts, semillas, modelos y versiones, imágenes de referencia, selección y descarte de resultados, edición manual, traducción a patrones y contribuciones de integrantes del grupo.
+- Siguen abiertos los criterios para atribuir autoría y evaluar aprendizaje cuando el resultado visual puede generarse con rapidez: dominio técnico, intención, justificación, iteración, crítica, transformación material, conocimiento del cuerpo y la prenda, y capacidad para identificar fallos del sistema no cuentan aún con ponderaciones consensuadas.
+- La comparación longitudinal entre estudiantes que usan y no usan GenAI es insuficiente. Falta evidencia sobre adquisición o pérdida de dibujo, patronaje, construcción, composición, cultura visual, juicio material y capacidad crítica más allá de la novedad inmediata del resultado.

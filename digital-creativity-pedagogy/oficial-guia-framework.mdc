@@ -1,0 +1,165 @@
+---
+description: Mandatory pedagogical framework — official UEM guías JSON structure binds all CV forging, unit forging, tracks, and assessment
+globs: 'digital-creativity-pedagogy/**,docs/lessons/**,docs/tracks/**,docs/_data/**'
+alwaysApply: false
+---
+
+# Official guía framework — Creación Digital I–II
+
+> **These JSON files are the institutional contract.** Every CV, unit forge, `tracks.yml` hour allocation, and evaluation claim must reconcile to them. Do not invent FE-style 10/30/14 splits. Do not invent competencies or contents.
+
+## Canonical sources (in-repo clones)
+
+| Course | Path | Upstream scrape | PDF |
+| ------ | ---- | --------------- | --- |
+| **CD I** | [`cv/guides/1-creacion-digital-i.json`](./cv/guides/1-creacion-digital-i.json) | `unicrawler/output/guides/1-creacion-digital-i.json` | [9729001103.pdf](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) |
+| **CD II** | [`cv/guides/3-creacion-digital-ii.json`](./cv/guides/3-creacion-digital-ii.json) | `unicrawler/output/guides/3-creacion-digital-ii.json` | [9729001108.pdf](https://universidadeuropea.es/myfiles/pr/9729001108.pdf) |
+
+**Re-sync:** copy from unicrawler when the university republishes; keep provenance note in [`cv/README.md`](./cv/README.md). Prefer PDF check if JSON and PDF disagree — flag the conflict, do not silently invent.
+
+**Default modality for authoring:** `Modalidad presencial` (Campus Creativo). Virtual tables exist in the JSON and must be respected if a virtual delivery is ever claimed — never mix presencial hours with virtual labels.
+
+---
+
+## 1. Identity fields (must appear in every CV / track header)
+
+Read verbatim from JSON: `subject_name`, `official_title_name`, `school_or_faculty`, `year`, `ects`, `module_type`, `languages`, `modality`, `semester`, `academic_year`, `coordinating_professor`, `presentation`, `source_url`.
+
+| | CD I | CD II |
+| - | ---- | ----- |
+| Semester | **1** | **2** |
+| ECTS | **6** | **6** |
+| Year | **1** | **1** |
+| Module | Básica | Básica |
+| Degree | Grado en Comunicación y Gestión de Moda | same |
+
+---
+
+## 2. CONTENIDOS — teachable anchors (verbatim phrases from `contents`)
+
+Split the scraped `contents` string into anchors. **Unit titles and lesson claims must map to one or more of these.** Do not drop official phrases to make room for vShowroom marketing.
+
+### CD I (`1-creacion-digital-i.json` → `contents`)
+
+1. Introducción a las imágenes digitales  
+2. Tecnología digital 2D: Herramientas de dibujo  
+3. Color, imágenes con mapas de bits  
+4. Efectos  
+5. Fundamentos y representación de la forma tridimensional  
+6. Volumen  
+7. Fuentes y referencias compositivas en el diseño de moda  
+8. Creación de imágenes digitales animadas  
+9. Bodegones digitales  
+
+### CD II (`3-creacion-digital-ii.json` → `contents`)
+
+1. Retoque fotográfico avanzado de imágenes moda  
+2. Creación de avatares  
+3. Diseño de experiencias de moda digitales  
+4. Recursos digitales de edición de vídeo  
+5. Maquetación, edición y creación de web y portfolio digital  
+6. Hologramas y R.A  
+
+**vShowroom / L3** may host artefacts produced under anchors 2–3–5–6 of CD II; it does **not** replace those contents.
+
+---
+
+## 3. Competencies (must be traceable)
+
+Every forged unit lists the **JSON competency codes** it serves (`CON1`, `HAB*`, `COMP*`). Do not invent codes.
+
+| Course | Codes in guía |
+| ------ | ------------- |
+| CD I | CON1 · HAB9 · HAB10 · COMP8 · COMP9 |
+| CD II | CON1 · HAB1 · HAB10 · COMP8 · COMP9 |
+
+---
+
+## 4. Methodologies (`methodologies.General`)
+
+Only claim methods that appear in the JSON (clase magistral, ABP, proyectos, taller, simulación, etc.). CD II’s scraped list is partially concatenated in one string — when citing, prefer the discrete names also present in CD I.
+
+---
+
+## 5. Formative activities — hour tables (mandatory close)
+
+### CD I — Modalidad presencial (sum **140 h**)
+
+| Activity (official `name`) | Hours |
+| -------------------------- | ----: |
+| Seminarios de aplicación práctica | 20 |
+| Resolución de problemas | 8 |
+| Proyectos | 20 |
+| Actividades en talleres y/o laboratorios | 14 |
+| Trabajo autónomo | 56 |
+| Debates y coloquios | 8 |
+| Tutoría académica | 12 |
+| Pruebas de evaluación presenciales | 2 |
+
+> ⚠️ CD I presencial has **no** `Clases magistrales` row (unlike CD II). Do not invent 10 h of magistral for CD I presencial. Conceptual exposition lands in **Seminarios** + **Debates** unless the PDF later contradicts the JSON.
+
+### CD II — Modalidad presencial (sum **150 h**)
+
+| Activity (official `name`) | Hours |
+| -------------------------- | ----: |
+| Clases magistrales | 10 |
+| Seminarios de aplicación práctica | 20 |
+| Resolución de problemas | 8 |
+| Proyectos | 20 |
+| Actividades en talleres y/o laboratorios | 14 |
+| Trabajo autónomo | 56 |
+| Debates y coloquios | 8 |
+| Tutoría académica | 12 |
+| Pruebas de evaluación presenciales | 2 |
+
+Virtual modality tables live in the same JSON files — use them only for virtual delivery claims. CD I virtual sums to **150 h**; CD II virtual **150 h**.
+
+**Contact-forgeable bucket** (what unit forge allocates across sessions): magistral (CD II only) + seminarios + resolución de problemas + proyectos + talleres/labs + debates. **Not session-forged:** trabajo autónomo, tutoría, pruebas de evaluación (institutional totals; keep as course-level residuals).
+
+---
+
+## 6. Evaluation weights (mandatory)
+
+### CD I — presencial
+
+| Instrument | Weight |
+| ---------- | -----: |
+| Pruebas de evaluación presenciales | 55% |
+| Caso/problema | 20% |
+| Proyectos | 10% |
+
+> 🔴 **Scrape defect:** presencial weights sum to **85%**. Virtual sums to 100% (adds Informes y escritos 15%). When authoring the CV, **verify against the PDF** before inventing the missing 15%. Prefer restoring the PDF’s fourth instrument over guessing.
+
+### CD II — presencial (sums **100%**)
+
+| Instrument | Weight |
+| ---------- | -----: |
+| Pruebas de evaluación presenciales | 55% |
+| Informes y escritos | 15% |
+| Caso/problema | 20% |
+| Proyectos | 10% |
+
+---
+
+## 7. Forge artefact ↔ official activity mapping
+
+| Official activity | Forge artefact | Evidence channel |
+| ----------------- | -------------- | ---------------- |
+| Clases magistrales (CD II) · Seminarios · Debates | **B1 Conceptual lesson + deck** | claims, competency map |
+| Actividades en talleres y/o laboratorios · Proyectos | **B2 Studio brief** (atelier / contextualised) | process folder, piece IDs, project milestones |
+| Resolución de problemas | **B3 Exercise set** (individual, decontextualised) | worked solutions |
+| Trabajo autónomo | reading list / self-check | not graded as contact |
+| Tutoría · Pruebas | course-level | evaluation table only |
+
+**Do not collapse** talleres/proyectos with resolución de problemas — the guía separates them; that separation is also the individual vs cohort evidence channel for research.
+
+---
+
+## 8. Binding rules for all pedagogical actions
+
+1. Open the matching `cv/guides/*.json` **before** writing a CV, unit, track session, or assessment page.  
+2. CONTENIDOS anchors and competency codes come from JSON — verbatim.  
+3. Hour fields in `tracks.yml` must use official activity names (or stable keys mapped 1:1 in a comment). Totals must close to §5.  
+4. Evaluation % on student-facing pages must match §6 (after PDF fix for CD I).  
+5. Scholarly citations still follow [`grounding/README.md`](./grounding/README.md) (discover vectors → cite Ahmes nodes).  
+6. vShowroom synergy is L3 — it may consume CD II portfolio/avatar/AR outputs; it may not rewrite §2 contents.

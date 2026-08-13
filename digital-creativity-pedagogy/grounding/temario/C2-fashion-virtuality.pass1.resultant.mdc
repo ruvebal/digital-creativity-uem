@@ -1,0 +1,296 @@
+---
+# C2 Pass 1 Deep Research Resultant
+
+- source_prompt: `C2-fashion-virtuality.pass1.prompt.md`
+- surface: ChatGPT Deep Research · external model A
+- chat_thread: `6a7b1de7-e6ec-83eb-be9c-54dc14511e7a`
+- captured: 2026-08-11
+- audit_source: Claude Cloud · external model B
+- audit_artifact: `C2-fashion-virtuality.pass2.raw.md`
+- audited: 2026-08-11
+
+---
+## Cuerpos virtuales y avatares en moda / Virtual bodies and avatars in fashion
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Las bibliotecas de avatares no son representaciones neutrales del cuerpo: las categorías, tonos de piel y rasgos disponibles condicionan qué identidades pueden reconocerse y estudiarse en entornos virtuales.
+
+  * cite: Do, T. D., Zelenty, S., Gonzalez-Franco, M., & McMahan, R. P. (2023). “VALID: a perceptually validated Virtual Avatar Library for Inclusion and Diversity.” *Frontiers in Virtual Reality*, 4, 1248915. ([Frontiers][1])
+  * doi: 10.3389/frvir.2023.1248915
+  * ES: Recurso técnico especialmente útil para problematizar la construcción del “cuerpo por defecto”: VALID se diseñó explícitamente para mejorar la diversidad racial y estudió empíricamente cómo los usuarios percibían raza y género en los avatares.
+  * EN: A useful technical-critical resource for interrogating the “default body”: VALID was explicitly developed to improve racial diversity and empirically tested how users perceived avatar race and gender.
+  * fit_ES: Permite leer críticamente cualquier pipeline de avatar de moda preguntando quién aparece en el espacio de posibilidades corporales y quién queda fuera.
+  * fit_EN: Supports critical reading of fashion-avatar pipelines by asking whose bodies are representable within the available design space and whose are excluded.
+  * scope: curricular-critical
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] El cuerpo vestido no es un soporte biológico previo a la moda, sino un cuerpo socialmente producido; esta tesis sigue siendo fundamental para cuestionar la supuesta neutralidad del avatar como “maniquí digital”.
+
+  * cite: Entwistle, J. (2015). *The Fashioned Body: Fashion, Dress and Modern Social Theory*, 2nd ed. Polity. ([ResearchGate][2])
+  * isbn: 9780745649382
+  * ES: Entwistle sitúa vestido, corporalidad y orden social en una misma relación analítica.
+  * EN: Entwistle treats dress, embodiment, and social order as mutually constitutive rather than separable domains.
+  * fit_ES: Funciona como contrapeso teórico frente a modelos 3D que presentan medidas, género, pose o silueta como datos puramente técnicos.
+  * fit_EN: Provides a theoretical counterweight to 3D systems that treat measurements, gender, pose, or silhouette as merely technical parameters.
+  * scope: curricular-critical
+
+* [ESTABLISHED] La figura del cyborg permite pensar el cuerpo digital como híbrido tecnocultural y no como simple copia computacional de una identidad humana previa.
+
+  * cite: Haraway, D. J. (1991). *Simians, Cyborgs, and Women: The Reinvention of Nature*. Routledge. ([Routledge][3])
+  * isbn: 9780415903875
+  * ES: El cyborg de Haraway desestabiliza fronteras entre humano/máquina, natural/artificial y cuerpo/tecnología.
+  * EN: Haraway’s cyborg destabilizes human/machine, natural/artificial, and body/technology binaries.
+  * fit_ES: Sigue siendo una referencia productiva para analizar avatares, dobles digitales y cuerpos de moda construidos mediante software sin convertir el posthumanismo en celebración acrítica de la tecnología.
+  * fit_EN: Remains productive for analyzing avatars, digital doubles, and software-constructed fashion bodies without reducing posthumanism to technological celebration.
+  * scope: curricular-critical
+
+### C · Académico / Academic
+
+* [EMERGING] La investigación reciente sobre embodiment muestra que cambiar tamaño corporal, perspectiva y personalización del avatar puede modificar la sensación de propiedad corporal y relacionarse con sesgos sobre el tamaño del cuerpo.
+
+  * cite: Mar Gonzalez-Franco, Anthony Steed, Christopher C. Berger, and Ana Tajadura-Jiménez (2024). “The impact of first-person avatar customization on embodiment in immersive virtual reality.” *Frontiers in Virtual Reality*. ([Frontiers][4])
+  * doi: 10.3389/frvir.2024.1436752
+  * ES: El estudio muestra que las decisiones aparentemente visuales sobre escala corporal y punto de vista tienen efectos perceptivos medibles.
+  * EN: The study shows that apparently visual decisions about body scale and viewpoint can have measurable perceptual effects.
+  * fit_ES: Útil para discutir críticamente la idealización corporal cuando los estudiantes diseñan o evalúan modelos y avatares de moda.
+  * fit_EN: Useful for critically discussing body idealization when students design or evaluate fashion models and avatars.
+  * scope: curricular-critical
+
+* [EMERGING] La representación racial en avatares sigue siendo un problema de diseño y acceso a la identificación, no una cuestión ya resuelta mediante mayor fotorealismo.
+
+  * cite: Olaoluwa Oyedokun, Syed Tanzim Mubarrat, Amogh Joshi, Christos Mousas, and Dominic Kao (2024). “Exploring the Influence of Avatar Skin Tone in VR Educational Games.” *Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play* (CHI-PLAY Companion 2024). ([ACM Digital Library][5])
+  * doi: 10.1145/3665463.3678799
+  * ES: El trabajo compara experiencias con distintos tonos de piel del avatar y hace visible la relación entre identificación, representación y experiencia de usuario.
+  * EN: The study compares experiences across avatar skin tones, making the relationship between identification, representation, and user experience explicit.
+  * fit_ES: Aporta evidencia contemporánea para discutir por qué un sistema de moda virtual “inclusivo” necesita evaluar representación y no solo calidad gráfica.
+  * fit_EN: Provides contemporary evidence that an “inclusive” virtual-fashion system must assess representation rather than graphics quality alone.
+  * scope: curricular-critical
+
+## Prendas virtuales y moda digital como forma cultural / Virtual garments and digital fashion as cultural form
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] La digitalización de una prenda no elimina los problemas de autoría, copia y propiedad: al contrario, la reproductibilidad digital obliga a redefinirlos.
+
+  * cite: Härkönen, H., & Särmäkari, N. (2023). “Copyright and digital fashion designers: the democratization of authorship?” *Journal of Intellectual Property Law & Practice*, 18(1), 42–57. ([OUP Academic][6])
+  * doi: 10.1093/jiplp/jpac115
+  * ES: El artículo conecta prácticas reales de diseñadores digitales con autoría, originalidad, copyright, piratería e interoperabilidad.
+  * EN: The article connects actual digital-fashion design practices with authorship, originality, copyright, piracy, and interoperability.
+  * fit_ES: Fundamental para evitar una lectura ingenua de la “prenda inmaterial” como bien libre de restricciones materiales, legales o económicas.
+  * fit_EN: Essential for avoiding naïve accounts of the “immaterial garment” as free from material, legal, or economic constraints.
+  * scope: curricular-critical
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] La simulación puede dejar de funcionar como representación secundaria de un original y convertirse en el régimen a través del cual se produce lo real; esta idea sigue siendo útil para pensar prendas que existen primariamente como imágenes y signos.
+
+  * cite: Baudrillard, J. (1994). *Simulacra and Simulation*. University of Michigan Press. ([City Lights][7])
+  * isbn: 9780472065219
+  * ES: Baudrillard ofrece un marco fuerte —aunque debe utilizarse con precisión histórica— para discutir original/copia, signo, simulacro e hiperrealidad.
+  * EN: Baudrillard provides a strong—if historically specific—framework for discussing original/copy relations, signs, simulacra, and hyperreality.
+  * fit_ES: Permite preguntar qué significa “auténtico”, “exclusivo” o “de lujo” cuando una prenda es infinitamente reproducible pero comercialmente escasa.
+  * fit_EN: Supports questions about what “authentic,” “exclusive,” or “luxury” mean when a garment is infinitely reproducible yet commercially made scarce.
+  * scope: curricular-critical
+
+### C · Académico / Academic
+
+* [ESTABLISHED] La moda 3D contemporánea ya debe estudiarse como cultura profesional y autoral, no solamente como herramienta de prototipado.
+
+  * cite: Särmäkari, N. (2023). “Digital 3D Fashion Designers: Cases of Atacac and The Fabricant.” *Fashion Theory*. ([OUP Academic][6])
+  * doi: 10.1080/1362704X.2021.1981657
+  * ES: Mediante los casos Atacac y The Fabricant, el artículo estudia cómo cambia la figura del diseñador cuando la práctica se organiza alrededor de objetos, herramientas y comunidades digitales.
+  * EN: Through Atacac and The Fabricant, the article examines how the designer’s role changes when practice is organized around digital objects, tools, and communities.
+  * fit_ES: Especialmente adecuado para pasar de “cómo se hace una prenda 3D” a “qué tipo de práctica cultural y autoría produce la moda 3D”.
+  * fit_EN: Particularly useful for moving from “how a 3D garment is made” to “what cultural practice and mode of authorship 3D fashion produces.”
+  * scope: curricular-critical
+
+* [ESTABLISHED] La literatura ya distingue la moda digital como producto final de su función instrumental dentro de la producción de moda física, pero el campo sigue siendo conceptualmente heterogéneo.
+
+  * cite: Chan, H. Y., Henninger, C., Boardman, R., & Blazquez Cano, M. (2024). “The Adoption of Digital Fashion as an End-product: A Systematic Literature Review of Research Foci and Future Research Agenda.” *Journal of Global Fashion Marketing*, 15(1), 155–180. ([Taylor & Francis Online][8])
+  * doi: 10.1080/20932685.2023.2251033
+  * ES: La revisión separa la prenda digital como herramienta de diseño de la moda digital adquirida y utilizada como producto exclusivamente virtual.
+  * EN: The review separates digital garments used as design tools from digital fashion purchased and used as an exclusively virtual end product.
+  * fit_ES: Da una base terminológica rigurosa para discutir identidad, consumo, valor y desmaterialización sin confundir muestras 3D con moda digital consumida.
+  * fit_EN: Gives students a rigorous vocabulary for discussing identity, consumption, value, and dematerialization without conflating 3D samples with consumed digital fashion.
+  * scope: curricular-critical
+
+## Presencia, ausencia y mediación / Presence, absence, and mediation
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] Un sistema de virtual try-on produce una visualización plausible de una persona “vistiendo” un objeto, pero esa imagen no equivale automáticamente a ajuste físico, tactilidad ni experiencia corporal de la prenda.
+
+  * cite: Han, X., Wu, Z., Wu, Z., Yu, R., & Davis, L. S. (2018). “VITON: An Image-Based Virtual Try-On Network.” *Proceedings of CVPR 2018*, 7543–7552. ([DBLP][9])
+  * doi: 10.1109/CVPR.2018.00787
+  * ES: VITON es un caso canónico de generación de imagen: transfiere visualmente una prenda a una fotografía sin modelar la experiencia material completa de vestirla.
+  * EN: VITON is a canonical image-generation case: it visually transfers a garment to a photograph without modelling the full material experience of wearing it.
+  * fit_ES: Es útil precisamente como `research-context-only`: permite enseñar la diferencia entre “verse con”, “probarse virtualmente” y determinar cómo queda o se siente una prenda física.
+  * fit_EN: Useful precisely as `research-context-only`: it helps distinguish “seeing oneself in,” “virtual try-on,” and determining how a physical garment actually fits or feels.
+  * scope: research-context-only
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] Los medios digitales no sustituyen limpiamente a medios anteriores, sino que los remedian; la experiencia virtual de moda rehace simultáneamente espejo, fotografía, escaparate, catálogo, probador y pasarela.
+
+  * cite: Bolter, J. D., & Grusin, R. (2000). *Remediation: Understanding New Media*. MIT Press. ([MIT Press][10])
+  * isbn: 9780262522793
+  * ES: La teoría de la remediación permite analizar cómo una interfaz promete inmediatez al mismo tiempo que depende de múltiples capas técnicas y representacionales.
+  * EN: Remediation theory explains how an interface can promise immediacy while depending on multiple technical and representational layers.
+  * fit_ES: Muy adecuado para problematizar el “espejo virtual” y la promesa de que una interfaz hace desaparecer la mediación.
+  * fit_EN: Particularly suitable for interrogating the “virtual mirror” and claims that an interface makes mediation disappear.
+  * scope: curricular-critical
+
+### C · Académico / Academic
+
+* [ESTABLISHED] La investigación sobre virtual try-on estudia principalmente adopción, valor percibido y conducta de compra, lo que deja visible una brecha entre evaluación comercial de la interfaz y experiencia corporal del vestido.
+
+  * cite: Chen, C., Ni, J., & Zhang, P. (2024). “Virtual Try-On Systems in Fashion Consumption: A Systematic Review.” *Applied Sciences*, 14(24), 11839. ([MDPI][11])
+  * doi: 10.3390/app142411839
+  * ES: La revisión sintetiza 69 trabajos y muestra el peso de variables como utilidad, gratificación, emociones, adopción y compra.
+  * EN: The review synthesizes 69 studies and shows the dominance of variables such as utility, gratification, emotion, adoption, and purchasing.
+  * fit_ES: Excelente para enseñar a los estudiantes qué mide normalmente un artículo de VTO y qué dimensiones del vestir quedan frecuentemente sin medir.
+  * fit_EN: Excellent for showing students what VTO research usually measures—and which dimensions of actual dressing experience frequently remain unmeasured.
+  * scope: curricular-critical
+
+* [ESTABLISHED] Comparar entornos de tienda inmersivos y de escritorio muestra que “más inmersión” es una variable evaluable y no una mejora que deba darse por supuesta.
+
+  * cite: Ricci, M., Evangelista, A., Di Roma, A., & Fiorentino, M. (2023). “Immersive and desktop virtual reality in virtual fashion stores: a comparison between shopping experiences.” *Virtual Reality*, 27, 2281–2296. ([Springer][12])
+  * doi: 10.1007/s10055-023-00806-y
+  * ES: El artículo compara directamente modalidades de experiencia virtual en comercio de moda.
+  * EN: The article directly compares different modes of virtual fashion-store experience.
+  * fit_ES: Introduce una disciplina metodológica importante: la presencia debe medirse y compararse, no inferirse de la mera presencia de un visor o entorno 3D.
+  * fit_EN: Introduces an important methodological discipline: presence must be measured and compared, not inferred merely from the use of a headset or 3D environment.
+  * scope: curricular-critical
+
+## Exhibición inmersiva, AR y “holográfica” / Immersive, AR, and “holographic” fashion display
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] La literatura de VR aplicada a lujo y moda sigue fragmentada en tipologías, métodos y definiciones; por ello las afirmaciones promocionales sobre “experiencias inmersivas” no deberían tratarse como resultados de investigación.
+
+  * cite: Liu, T., Tan, C. S. L., & Quintero Rodriguez, C. (2025). “Virtual reality in the luxury fashion industry: a systematic literature review.” *Spanish Journal of Marketing – ESIC*, 29(3), 312–329. ([Emerald Publishing][13])
+  * doi: 10.1108/SJME-07-2023-0203
+  * ES: La revisión identifica cinco áreas —consumo virtual, comunicación, try-on, retail VR y mundos virtuales/avatares— y señala explícitamente la fragmentación del campo.
+  * EN: The review identifies five areas—virtual consumption, communication, try-on, VR retail, and virtual worlds/avatars—and explicitly characterizes the field as fragmented.
+  * fit_ES: Fuente especialmente sólida para separar demostraciones de marca, aplicaciones exploratorias y resultados académicamente evaluados.
+  * fit_EN: Particularly strong for separating brand demonstrations, exploratory applications, and academically evaluated outcomes.
+  * scope: curricular-critical
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] La novedad visual de una tecnología no implica una ruptura mediática: los nuevos dispositivos vuelven a poner en escena formas previas de espectáculo, escaparate, teatro, cine y exposición.
+
+  * cite: Bolter, J. D., & Grusin, R. (2000). *Remediation: Understanding New Media*. MIT Press. ([MIT Press][10])
+  * isbn: 9780262522793
+  * ES: La remediación ofrece una alternativa rigurosa a narrativas de “primera vez” o ruptura absoluta.
+  * EN: Remediation provides a rigorous alternative to “first-ever” and total-rupture narratives.
+  * fit_ES: Es particularmente útil frente al abuso de términos como “holograma” para espectáculos que en realidad reutilizan proyección, reflexión, composición escénica o técnicas de ilusión más antiguas.
+  * fit_EN: Particularly useful against loose uses of “hologram” for displays actually built from projection, reflection, staging, or older illusion techniques.
+  * scope: curricular-critical
+
+### C · Académico / Academic
+
+* [EMERGING] Las pasarelas virtuales pueden ampliar ciertas formas de acceso pero también generar fricción y diferencias generacionales; la “innovación” de formato no garantiza una experiencia igualmente legible para todos los públicos.
+
+  * cite: Farah, M. F., Ramadan, Z., & Nassereddine, Y. (2025). “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. ([Taylor & Francis Online][14])
+  * doi: 10.1080/17543266.2025.2489380
+  * ES: El trabajo examina explícitamente desafíos de las pasarelas virtuales y diferencias generacionales en la respuesta del consumidor.
+  * EN: The study explicitly examines challenges associated with virtual fashion shows and generational differences in consumer response.
+  * fit_ES: Excelente correctivo frente a la equivalencia automática entre virtualización, accesibilidad y mejora de experiencia.
+  * fit_EN: A useful corrective to automatically equating virtualization with accessibility or improved experience.
+  * scope: curricular-critical
+
+* [EMERGING] Las experiencias de moda en VR constituyen ya un objeto empírico de investigación, pero el grueso del trabajo reciente sigue centrado en experiencia, adopción y comportamiento más que en una crítica cultural extensa.
+
+  * cite: Se Jin Kim (2023). “Virtual fashion experiences in virtual reality fashion show spaces.” *Frontiers in Psychology*, 14:1276856. ([PubMed Central (PMC)][15])
+  * doi: 10.3389/fpsyg.2023.1276856
+  * ES: La existencia de estudios empíricos sobre espacios de desfile virtual permite contrastar prototipos con experiencia de usuarios reales.
+  * EN: Empirical work on VR fashion-show environments allows prototypes to be assessed against actual user experience.
+  * fit_ES: Útil como mapa del campo, pero el registro consultado no permitió verificar con suficiente seguridad un DOI; se conserva como referencia provisional.
+  * fit_EN: Useful as a field-mapping source, but the consulted record did not support sufficiently secure DOI verification; retained provisionally.
+  * scope: curricular-critical
+
+## Narrativas de metaverso y escaparate virtual / Metaverse and virtual-storefront narratives
+
+### A · Crítico-técnico / Critical-technical
+
+* [ESTABLISHED] El acceso al metaverso está condicionado por capacidades corporales, hardware, interfaces y decisiones de diseño; la inclusión no puede inferirse simplemente de que un espacio sea “virtual”.
+
+  * cite: Radanliev, P., De Roure, D., Novitzky, P., & Sluganovic, I. (2024). “Accessibility and inclusiveness of new information and communication technologies for disabled users and content creators in the Metaverse.” *Disability and Rehabilitation: Assistive Technology*, 19(5), 1849–1863. ([PubMed][16])
+  * doi: 10.1080/17483107.2023.2241882
+  * ES: La revisión sostiene que la inclusión de personas con discapacidad en proyectos de metaverso sigue siendo limitada y reclama participación activa de usuarios discapacitados en diseño y regulación.
+  * EN: The review finds that disabled participation in metaverse projects remains limited and calls for active involvement of disabled users in design and regulation.
+  * fit_ES: Proporciona una base sólida para preguntar quién puede realmente entrar, navegar y producir dentro de un showroom virtual.
+  * fit_EN: Provides a strong basis for asking who can actually enter, navigate, and create within a virtual showroom.
+  * scope: curricular-critical
+
+### B · Canónico-teórico / Canonical-theoretical
+
+* [ESTABLISHED] La promesa de un espacio virtual “más real que lo real” debe leerse críticamente como construcción de signos, valor y deseo, no como consecuencia técnica inevitable de la inmersión.
+
+  * cite: Baudrillard, J. (1994). *Simulacra and Simulation*. University of Michigan Press. ([City Lights][7])
+  * isbn: 9780472065219
+  * ES: La noción de hiperrealidad sigue siendo productiva para analizar boutiques virtuales que escenifican exclusividad, rareza y lujo sin depender del objeto material tradicional.
+  * EN: Hyperreality remains productive for analyzing virtual boutiques that stage exclusivity, scarcity, and luxury without depending on the traditional material object.
+  * fit_ES: Adecuado para poner en relación el showroom virtual con estrategias más antiguas de construcción simbólica del lujo.
+  * fit_EN: Suitable for connecting virtual showrooms with longer histories of symbolic luxury construction.
+  * scope: curricular-critical
+
+### C · Académico / Academic
+
+* [ESTABLISHED] El lujo virtual no reproduce sin cambios los códigos de valoración del lujo físico: la percepción del portador y del producto varía entre mundo material y metaverso.
+
+  * cite: Um, H., Ko, E., Cho, M. J., & Do, B. (2025). “Does Luxury Fashion Shape Consumers’ Perception Differently in the Real World Versus the Metaverse? A Comparative Study on Wearer Evaluation.” *International Journal of Human–Computer Interaction*, 41(13), 8314–8329. ([Yonsei University][17])
+  * doi: 10.1080/10447318.2024.2407688
+  * ES: La comparación empírica muestra que las categorías y señales que sostienen el lujo no se trasladan mecánicamente al entorno virtual.
+  * EN: The empirical comparison shows that categories and cues sustaining luxury do not transfer mechanically into virtual environments.
+  * fit_ES: Permite discutir si exclusividad, estatus y prestigio sobreviven, se abaratan o se reconfiguran cuando la prenda se desplaza al avatar.
+  * fit_EN: Supports discussion of whether exclusivity, status, and prestige survive, become diluted, or are reconfigured when fashion moves onto the avatar.
+  * scope: curricular-critical
+
+* [EMERGING] El metaverso de moda está consolidándose como área de investigación de consumo y marketing, pero gran parte de la literatura todavía estudia intención de uso y oportunidades de marca más que exclusión, poder de plataforma o fracaso de experiencias.
+
+  * cite: Liu, T., Tan, C. S. L., & Quintero Rodriguez, C. (2025). “Virtual reality in the luxury fashion industry: a systematic literature review.” *Spanish Journal of Marketing – ESIC*, 29(3), 312–329. ([Emerald Publishing][13])
+  * doi: 10.1108/SJME-07-2023-0203
+  * ES: La revisión muestra crecimiento del campo pero también falta de cohesión conceptual y metodológica, con predominio de temas de consumo, comunicación y retail.
+  * EN: The review shows a growing but conceptually and methodologically fragmented field dominated by consumption, communication, and retail questions.
+  * fit_ES: Sirve para enseñar que la abundancia de artículos sobre “metaverso + moda” no equivale a una tradición crítica madura.
+  * fit_EN: Helps students understand that a growing volume of “metaverse + fashion” publications does not yet amount to a mature critical tradition.
+  * scope: curricular-critical
+
+## Gaps
+
+* [ESTABLISHED] **“Holographic fashion” no constituye todavía un campo académico coherente comparable a VR/AR fashion research.** La bibliografía académica recuperable se concentra mucho más en VR, AR, virtual try-on, pasarelas virtuales y retail inmersivo; además, exhibiciones de moda comercializadas como “hologramas” pueden utilizar técnicas de proyección o ilusión óptica distintas de la holografía propiamente dicha. La terminología debe verificarse caso por caso. La revisión de Liu, Tan y Quintero Rodriguez confirma que la investigación de lujo/VR continúa fragmentada incluso bajo categorías tecnológicas más consolidadas. ([Emerald Publishing][13])
+
+* [ESTABLISHED] **La literatura sobre virtual try-on es mucho más extensa que su crítica cultural.** Existen revisiones sistemáticas amplias y una tradición técnica madura, pero predominan exactitud visual, adopción, compra, gratificación y experiencia del consumidor; esto justifica marcar papers puramente generativos o de fitting como `research-context-only`. ([MDPI][11])
+
+* [EMERGING] **La crítica de raza, piel, tamaño corporal, género y discapacidad en avatares está creciendo, pero buena parte de la evidencia relevante procede de HCI/VR más que de Fashion Studies.** Es metodológicamente legítimo utilizarla para estudiar el cuerpo virtual de moda, siempre que no se presente como si se hubiera producido específicamente dentro de la investigación de moda. ([Frontiers][1])
+
+* [EMERGING] **“Metaverse fashion” es un campo real pero todavía muy dependiente de marcos de marketing, adopción tecnológica y comportamiento del consumidor.** La literatura crítica sobre plataforma, exclusión socioeconómica, gobernanza, interoperabilidad, hardware y acceso sigue siendo comparativamente menor que la literatura sobre engagement, intención de compra y oportunidades de marca. ([Emerald Publishing][13])
+
+* [ESTABLISHED] **No debe equipararse desmaterialización con ausencia de materialidad.** La moda digital desplaza parte de la materialidad hacia infraestructuras, propiedad intelectual, plataformas, hardware, energía y trabajo digital; la literatura sobre copyright muestra además que copiar, poseer, autenticar y hacer interoperable una prenda digital son problemas constitutivos del campo. ([OUP Academic][6])
+
+* [EMERGING] **La oposición “wearable versus viewable” está mejor formulada como problema de mediación y embodiment que como diferencia binaria.** Las tecnologías actuales pueden producir imagen, identificación, presencia y sensación de propiedad corporal sin reproducir tacto, presión, caída del tejido, termorregulación o ajuste físico; la literatura de VTO y embodiment debe mantenerse conceptualmente separada cuando haga afirmaciones sobre esas dimensiones. ([MDPI][18])
+
+* [EMERGING] **La investigación sobre escaparates, boutiques y fashion shows virtuales aún necesita más trabajos críticos longitudinales y comparativos.** Ya existen comparaciones experimentales entre VR inmersiva y escritorio, estudios de diferencias generacionales y revisiones sistemáticas, pero no hay base suficiente para aceptar narrativas generales de que la virtualización democratiza, mejora o sustituye la experiencia física. ([Springer][12])
+
+[1]: https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2023.1248915/full?utm_source=chatgpt.com "VALID: a perceptually validated Virtual Avatar Library for ..."
+[2]: https://www.researchgate.net/publication/322162486_The_fashioned_body_Fashion_dress_modern_social_theory_Joanne_Entwistle?utm_source=chatgpt.com "Fashion, dress & modern social theory Joanne Entwistle"
+[3]: https://www.routledge.com/Simians-Cyborgs-and-Women-The-Reinvention-of-Nature/Haraway/p/book/9780415903875?utm_source=chatgpt.com "Simians, Cyborgs, and Women: The Reinvention of Nature"
+[4]: https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2024.1436752/full?utm_source=chatgpt.com "The impact of first-person avatar customization on ..."
+[5]: https://dl.acm.org/doi/fullHtml/10.1145/3665463.3678799?utm_source=chatgpt.com "Exploring the Influence of Avatar Skin Tone in VR ..."
+[6]: https://academic.oup.com/jiplp/article/18/1/42/6974661 "oup.silverchair-cdn.com"
+[7]: https://citylights.com/commodity-aesthetics/simulacra-simulation/?utm_source=chatgpt.com "Simulacra and Simulation | City Lights Booksellers & Publishers"
+[8]: https://www.tandfonline.com/doi/full/10.1080/20932685.2023.2251033?utm_source=chatgpt.com "The adoption of digital fashion as an end product"
+[9]: https://dblp.org/rec/conf/cvpr/HanWWYD18?utm_source=chatgpt.com "VITON: An Image-Based Virtual Try-On Network."
+[10]: https://mitpress.mit.edu/9780262522793/remediation/?utm_source=chatgpt.com "Remediation - MIT Press"
+[11]: https://www.mdpi.com/2076-3417/14/24/11839/notes?utm_source=chatgpt.com "Applied Sciences | Free Full-Text | Virtual Try-On Systems in Fashion Consumption: A Systematic Review | Notes"
+[12]: https://link.springer.com/article/10.1007/s10055-023-00806-y?utm_source=chatgpt.com "Immersive and desktop virtual reality in virtual fashion stores"
+[13]: https://www.emerald.com/sjme/article/29/3/312/1273957/Virtual-reality-in-the-luxury-fashion-industry-a "Virtual reality in the luxury fashion industry: a systematic literature review | Spanish Journal of Marketing - ESIC | Emerald Publishing"
+[14]: https://www.tandfonline.com/doi/abs/10.1080/17543266.2025.2489380?utm_source=chatgpt.com "Mind the gap: virtual fashion shows and generational ..."
+[15]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10693427/?utm_source=chatgpt.com "Virtual fashion experiences in virtual reality fashion show spaces"
+[16]: https://pubmed.ncbi.nlm.nih.gov/37585705/?utm_source=chatgpt.com "Accessibility and inclusiveness of new information and communication technologies for disabled users and content creators in the Metaverse - PubMed"
+[17]: https://yonsei.elsevierpure.com/en/publications/does-luxury-fashion-shape-consumers-perception-differently-in-the/?utm_source=chatgpt.com "Does Luxury Fashion Shape Consumers' Perception ..."
+[18]: https://www.mdpi.com/2076-3417/14/24/11839?utm_source=chatgpt.com "Virtual Try-On Systems in Fashion Consumption: A Systematic Review"
