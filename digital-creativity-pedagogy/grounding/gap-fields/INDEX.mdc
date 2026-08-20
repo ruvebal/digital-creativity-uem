@@ -1,0 +1,18 @@
+# DC gap-fields index
+
+Generated from the replicated prompt contract. Maps remain research inputs; student lessons are not forged here.
+
+**Paradigm coat (wired):** Paiva 2026 Curriculum as Code — best Tri-Anchor + MSCA contrast on [`../GAP-PROSPECTION-INDEX.mdc`](../GAP-PROSPECTION-INDEX.mdc) · full card [`~/src/profield/runs/PARADIGM-CURRICULUM-AS-CODE-20260816.md`](/Users/ruvebal/src/profield/runs/PARADIGM-CURRICULUM-AS-CODE-20260816.md) · inventory row in [`COAT-INVENTORY.json`](./COAT-INVENTORY.json) (`paradigm-curriculum-as-code`, cross-slug FE).
+
+| Field | Units | Priority | Forge wave / operator sequence |
+| --- | --- | --- | --- |
+| `dc-curriculum-gap-harvest` | I.1–I.9 · II.1–II.6 | P0 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (omnibus gap map) |
+| `dc-fashion-portfolio-web-ux` | II.5 | P0 | Wave 1 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (portfolio/web UX) |
+| `dc-3d-form-volume-pedagogy` | I.5 · I.6 | P0 | Wave 2 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (3D form / volume) |
+| `dc-2d-image-craft-pedagogy` | I.2 · I.3 · I.4 | P1 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (2D craft / colour / effects) |
+| `dc-fashion-retouch-pedagogy` | II.1 | P1 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (retouch pedagogy) |
+| `dc-avatar-digital-fashion-pedagogy` | II.2 | P1 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (avatar making) |
+| `dc-fashion-video-pedagogy` | II.4 | P1 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (video pedagogy) |
+| `dc-ar-hologram-fashion-pedagogy` | II.6 | P1 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (AR / hologram pedagogy) |
+| `dc-fashion-motion-still-pedagogy` | I.8 · I.9 | P1 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (motion / still-life) |
+| `dc-digital-fashion-experience-pedagogy` | II.3 | P2 | Wave 3–4 · Athanor discovery → Ahmes page → cite gate → declared gap/forge question (digital fashion experience pedagogy) |

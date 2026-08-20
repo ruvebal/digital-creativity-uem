@@ -1,0 +1,194 @@
+{
+  "schema": "profield-curriculum-sync/v1",
+  "generated_at": "2026-08-16T16:45:01.905578+00:00",
+  "authority": "curriculum root is mutable publication head; Profield run is evidence factory",
+  "audit_ledger": "/Users/ruvebal/src/profield/runs/dc-curriculum-gap-harvest/20260816/pass2.claude.audit.ledger.md",
+  "source_run": "dc-curriculum-gap-harvest/20260816",
+  "approved_edits": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+  ],
+  "forge_amendments": [
+    "cv/UNIT-PLAN.md: Athanor-assisted forge discovery table and subunit query seeds",
+    "dc-unit-forge.mdc: Athanor→Ahmes ignitor protocol and verified examples"
+  ],
+  "deferred_edits": [
+    "E5 (source discrepancy)",
+    "E6 (FieldSpec owner)",
+    "E7 (FieldSpec owner)"
+  ],
+  "identifier_queue": [
+    {
+      "run": "dc-2d-image-craft-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-2d-image-craft-pedagogy/20260816/identifier-queue-report.json",
+      "references": 7,
+      "with_registry_hit": 7,
+      "with_doi": 7,
+      "with_isbn": 2
+    },
+    {
+      "run": "dc-3d-form-volume-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-3d-form-volume-pedagogy/20260816/identifier-queue-report.json",
+      "references": 8,
+      "with_registry_hit": 8,
+      "with_doi": 8,
+      "with_isbn": 6
+    },
+    {
+      "run": "dc-ar-hologram-fashion-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-ar-hologram-fashion-pedagogy/20260816/identifier-queue-report.json",
+      "references": 8,
+      "with_registry_hit": 8,
+      "with_doi": 8,
+      "with_isbn": 2
+    },
+    {
+      "run": "dc-avatar-digital-fashion-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-avatar-digital-fashion-pedagogy/20260816/identifier-queue-report.json",
+      "references": 5,
+      "with_registry_hit": 5,
+      "with_doi": 5,
+      "with_isbn": 2
+    },
+    {
+      "run": "dc-curriculum-gap-harvest",
+      "report": "/Users/ruvebal/src/profield/runs/dc-curriculum-gap-harvest/20260816/identifier-queue-report.json",
+      "references": 4,
+      "with_registry_hit": 4,
+      "with_doi": 4,
+      "with_isbn": 0
+    },
+    {
+      "run": "dc-digital-fashion-experience-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-digital-fashion-experience-pedagogy/20260816/identifier-queue-report.json",
+      "references": 9,
+      "with_registry_hit": 9,
+      "with_doi": 9,
+      "with_isbn": 0
+    },
+    {
+      "run": "dc-fashion-motion-still-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-fashion-motion-still-pedagogy/20260816/identifier-queue-report.json",
+      "references": 2,
+      "with_registry_hit": 2,
+      "with_doi": 2,
+      "with_isbn": 1
+    },
+    {
+      "run": "dc-fashion-portfolio-web-ux",
+      "report": "/Users/ruvebal/src/profield/runs/dc-fashion-portfolio-web-ux/20260816/identifier-queue-report.json",
+      "references": 6,
+      "with_registry_hit": 6,
+      "with_doi": 6,
+      "with_isbn": 1
+    },
+    {
+      "run": "dc-fashion-retouch-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-fashion-retouch-pedagogy/20260816/identifier-queue-report.json",
+      "references": 4,
+      "with_registry_hit": 4,
+      "with_doi": 4,
+      "with_isbn": 1
+    },
+    {
+      "run": "dc-fashion-video-pedagogy",
+      "report": "/Users/ruvebal/src/profield/runs/dc-fashion-video-pedagogy/20260816/identifier-queue-report.json",
+      "references": 8,
+      "with_registry_hit": 8,
+      "with_doi": 8,
+      "with_isbn": 4
+    }
+  ],
+  "provenance_rule": "Athanor/vector results are discovery only; cite Ahmes page/node evidence with evaluator_safe=yes.",
+  "replication_outputs": {
+    "status": "replicated; no student lessons forged",
+    "gap_fields_index": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/gap-fields/INDEX.mdc",
+    "coat_inventory": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/gap-fields/COAT-INVENTORY.json",
+    "forge_questions": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/gap-fields/FORGE-AVANTGARDE-QUESTIONS.md",
+    "pending_procurement": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/gap-fields/PENDING-procurement.md",
+    "unified_temario_index": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/temario-unified/INDEX.md",
+    "provenance_appendix": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/temario-unified/PROVENANCE-APPENDIX.md"
+  },
+  "publication_target": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy",
+  "publication_status": "safe CV promotion applied; remaining field claims still require FieldSpec and page-level cite gates",
+  "promoted_content": [
+    {
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/cv/uem-ruvebal-creacion-digital-ii-cv.md",
+      "sections": [
+        "§9 Nota pedagógica / investigación",
+        "§10 Bibliografía / grounding"
+      ],
+      "source": "Smith-Glaviana 2025",
+      "ahmes_node": "19f2e4c6-34e6-599a-8b5c-87a01bc08900",
+      "evaluator_safe": true
+    },
+    {
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/cv/UNIT-PLAN.md",
+      "sections": [
+        "2026-08-16 audited field promotion"
+      ],
+      "status": "research-input mapping only; official anchors unchanged"
+    }
+  ],
+  "edited_artifacts": [
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-2d-image-craft-pedagogy/20260816/pass1.edited.md",
+      "sha256": "91768ea8f5ad8b1f25b009d20ef13ff3749a974ed23d4be54c9c08a35a7bddb4"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-3d-form-volume-pedagogy/20260816/pass1.edited.md",
+      "sha256": "c8c692f5a7c7db4f860dd422554b42a6177027e97ec2e5986b381d7b9d5758d2"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-ar-hologram-fashion-pedagogy/20260816/pass1.edited.md",
+      "sha256": "fd33b087f543e9590c5ba72155d6b22fe0d773736c687a9f0ad2204d3a0742ff"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-avatar-digital-fashion-pedagogy/20260816/pass1.edited.md",
+      "sha256": "df57063974abcb7feb3fd4da81c47d7aa1d643450417d5d70d0b94b6cd234ab2"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-curriculum-gap-harvest/20260816/pass1.edited.md",
+      "sha256": "c8eec27f461159d12d1cc03c058b4b8b022c032ad4fef91904bde95d90e1698e"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-digital-fashion-experience-pedagogy/20260816/pass1.edited.md",
+      "sha256": "efd303669464d8397aeb3b404025f169c6f1018bd85a3eda6aaac9a589c7450d"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-fashion-motion-still-pedagogy/20260816/pass1.edited.md",
+      "sha256": "f43d8f99c8aa64ea8fbe36ceee84c283f72a82883aee5d754ba360d0ff5b90fc"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-fashion-portfolio-web-ux/20260816/pass1.edited.md",
+      "sha256": "a6ffa35af211958722e3257ae8728e1469742ec98a2463f0c07036cca3be6818"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-fashion-retouch-pedagogy/20260816/pass1.edited.md",
+      "sha256": "7c58e2a09f2fb74ac43358ff4adc2241ddb258c3887584c4f458f10856cdea94"
+    },
+    {
+      "path": "/Users/ruvebal/src/profield/runs/dc-fashion-video-pedagogy/20260816/pass1.edited.md",
+      "sha256": "c86a85bcf56500d84053f38586fbdce020830165678be90c381cdf86e82c4a5a"
+    }
+  ],
+  "unresolved": [
+    "Claude audit did not receive repository FieldSpecs.",
+    "Local digital-fashion-experience source contains section 6 despite Claude's missing-section finding.",
+    "214 UNVERIFIED/UNVERIFIED-GAP lines remain a verification queue."
+  ],
+  "retrieval_extraction_ingest": {
+    "source_pdfs": 22,
+    "ahmes_processed_ok": 22,
+    "evaluator_safe_vaults": 14,
+    "devIAC_project": "profield-digital-creativity",
+    "devIAC_scope": "field_prospection",
+    "empty_no_oa_fields": [
+      "dc-avatar-digital-fashion-pedagogy",
+      "dc-fashion-motion-still-pedagogy"
+    ],
+    "derived_chunk_count": 1912
+  }
+}

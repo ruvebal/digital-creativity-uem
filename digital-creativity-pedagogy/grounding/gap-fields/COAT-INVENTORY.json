@@ -1,0 +1,161 @@
+{
+  "generated": "2026-08-16",
+  "deduplication_key": "Ahmes vault directory",
+  "coats": {
+    "10_1145_3745133_3745170_research_on_the_production_method_of_virtual_fashion_show_358faf91": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1145_3745133_3745170_research_on_the_production_method_of_virtual_fashion_show_358faf91/extract/extraction.db",
+      "fields": [
+        "dc-curriculum-gap-harvest"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_65136_ejbm_v10i4_24_generative_ai_in_studio_based_fashion_education_a_systematic_0598ec0e": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_65136_ejbm_v10i4_24_generative_ai_in_studio_based_fashion_education_a_systematic_0598ec0e/extract/extraction.db",
+      "fields": [
+        "dc-curriculum-gap-harvest"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_1007_s10639_025_13869_y_e_portfolios_as_authentic_assessment_in_pre_service_teacher_bb31f49b": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1007_s10639_025_13869_y_e_portfolios_as_authentic_assessment_in_pre_service_teacher_bb31f49b/extract/extraction.db",
+      "fields": [
+        "dc-fashion-portfolio-web-ux"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_3389_ejcmp_2025_13875_exploring_the_generative_ai_potential_in_the_fashion_design_167816a4": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_3389_ejcmp_2025_13875_exploring_the_generative_ai_potential_in_the_fashion_design_167816a4/extract/extraction.db",
+      "fields": [
+        "dc-fashion-portfolio-web-ux",
+        "dc-2d-image-craft-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_53761_41wbmq76_sustaining_ethical_eportfolio_practices_insights_from_aaeebl_b172b699": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_53761_41wbmq76_sustaining_ethical_eportfolio_practices_insights_from_aaeebl_b172b699/extract/extraction.db",
+      "fields": [
+        "dc-fashion-portfolio-web-ux"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_1186_s40691_022_00293_w_spatial_ability_of_transitioning_2d_to_3d_designs_in_virtual_7a494f80": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1186_s40691_022_00293_w_spatial_ability_of_transitioning_2d_to_3d_designs_in_virtual_7a494f80/extract/extraction.db",
+      "fields": [
+        "dc-3d-form-volume-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_1186_s40691_025_00417_y_developing_an_instrument_with_simulations_to_measure_3d_to_2_4520fa7f": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1186_s40691_025_00417_y_developing_an_instrument_with_simulations_to_measure_3d_to_2_4520fa7f/extract/extraction.db",
+      "fields": [
+        "dc-3d-form-volume-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_1186_s40691_025_00452_9_ai_tools_and_fashion_design_education_instructor_perspective_c4236068": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1186_s40691_025_00452_9_ai_tools_and_fashion_design_education_instructor_perspective_c4236068/extract/extraction.db",
+      "fields": [
+        "dc-3d-form-volume-pedagogy",
+        "dc-2d-image-craft-pedagogy",
+        "dc-fashion-video-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_2991_978_2_38476_360_3_72_development_of_3d_virtual_fashion_design_e_module_using_clo3_8d0ab5d9": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_2991_978_2_38476_360_3_72_development_of_3d_virtual_fashion_design_e_module_using_clo3_8d0ab5d9/extract/extraction.db",
+      "fields": [
+        "dc-3d-form-volume-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_1007_s00146_023_01780_4_image_synthesis_from_an_ethical_perspective_71d6c25f": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1007_s00146_023_01780_4_image_synthesis_from_an_ethical_perspective_71d6c25f/extract/extraction.db",
+      "fields": [
+        "dc-fashion-retouch-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_25039_x46_2019_po065_reference_data_set_and_variability_study_for_human_skin_refl_9471a414": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_25039_x46_2019_po065_reference_data_set_and_variability_study_for_human_skin_refl_9471a414/extract/extraction.db",
+      "fields": [
+        "dc-fashion-retouch-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_6028_jres_122_026_reference_data_set_of_human_skin_reflectance_582a1d5a": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_6028_jres_122_026_reference_data_set_of_human_skin_reflectance_582a1d5a/extract/extraction.db",
+      "fields": [
+        "dc-fashion-retouch-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_3389_fcomm_2025_1598376_reflection_ai_artificial_intelligence_as_a_redefining_force_4e54e330": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_3389_fcomm_2025_1598376_reflection_ai_artificial_intelligence_as_a_redefining_force_4e54e330/extract/extraction.db",
+      "fields": [
+        "dc-fashion-video-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_1177_0887302x231161641_university_students_experience_of_a_digital_fashion_exhibiti_7fd736b6": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1177_0887302x231161641_university_students_experience_of_a_digital_fashion_exhibiti_7fd736b6/extract/extraction.db",
+      "fields": [
+        "dc-ar-hologram-fashion-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_3389_ejcmp_2025_15689_fashion_archive_abilities_the_impact_of_digital_technologie_9c590d95": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_3389_ejcmp_2025_15689_fashion_archive_abilities_the_impact_of_digital_technologie_9c590d95/extract/extraction.db",
+      "fields": [
+        "dc-ar-hologram-fashion-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_3389_frvir_2024_1396280_the_museum_of_digital_things_extended_reality_and_museum_pra_a38cb08b": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_3389_frvir_2024_1396280_the_museum_of_digital_things_extended_reality_and_museum_pra_a38cb08b/extract/extraction.db",
+      "fields": [
+        "dc-ar-hologram-fashion-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_3389_frvir_2025_1520655_rethinking_privacy_for_avatars_biometric_and_inferred_data_i_f82cf846": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_3389_frvir_2025_1520655_rethinking_privacy_for_avatars_biometric_and_inferred_data_i_f82cf846/extract/extraction.db",
+      "fields": [
+        "dc-ar-hologram-fashion-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_1080_17543266_2023_2247425_developing_digital_skills_a_fashion_business_masterclass_in_d0dad06a": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_1080_17543266_2023_2247425_developing_digital_skills_a_fashion_business_masterclass_in_d0dad06a/extract/extraction.db",
+      "fields": [
+        "dc-digital-fashion-experience-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "10_3389_fpsyg_2023_1276856_virtual_fashion_experiences_in_virtual_reality_fashion_show_ddb20bc5": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/10_3389_fpsyg_2023_1276856_virtual_fashion_experiences_in_virtual_reality_fashion_show_ddb20bc5/extract/extraction.db",
+      "fields": [
+        "dc-digital-fashion-experience-pedagogy"
+      ],
+      "status": "PROCESSED_OK"
+    },
+    "2608_07364v1_paiva_curriculum_as_code_749851aa": {
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/2608_07364v1_paiva_curriculum_as_code_749851aa/extract/extraction.db",
+      "fields": [
+        "paradigm-curriculum-as-code"
+      ],
+      "status": "PROCESSED_OK",
+      "routing": "canonical ingest under profield-frontend-pedagogy — no DC vault duplicate",
+      "card": "~/src/profield/runs/PARADIGM-CURRICULUM-AS-CODE-20260816.md",
+      "cite_gate": "BIBLIO-GAP",
+      "best_match": {
+        "nodo": "f46a847c-7554-5a41-b3b7-e87f7fc0a926",
+        "page": 7,
+        "lens": "tacit pedagogical knowledge → explicit rules / teaching signature"
+      },
+      "also_wired": [
+        {"nodo": "d92bf048-b455-50c2-b129-ad0e6bc647f2", "page": 3},
+        {"nodo": "65ab8882-3118-5ccd-b3fe-ba0ef183754f", "page": 8}
+      ]
+    }
+  }
+}

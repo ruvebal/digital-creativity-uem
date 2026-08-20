@@ -6,32 +6,36 @@ alwaysApply: false
 
 # Official guía framework — Creación Digital I–II
 
-> **These JSON files are the institutional contract.** Every CV, unit forge, `tracks.yml` hour allocation, and evaluation claim must reconcile to them. Do not invent FE-style 10/30/14 splits. Do not invent competencies or contents.
+> **The live PDF is the institutional contract.** In-repo JSON clones are working copies that must reconcile to those PDFs. Every CV, unit forge, `tracks.yml` hour allocation, and evaluation claim must close to the tables below. Do not invent FE-style 10/30/14 splits. Do not invent competencies or contents.
 
 ## Canonical sources (in-repo clones)
 
-| Course | Path | Upstream scrape | PDF |
+| Course | Path | Upstream scrape | PDF (authority) |
 | ------ | ---- | --------------- | --- |
-| **CD I** | [`cv/guides/1-creacion-digital-i.json`](./cv/guides/1-creacion-digital-i.json) | `unicrawler/output/guides/1-creacion-digital-i.json` | [9729001103.pdf](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) |
-| **CD II** | [`cv/guides/3-creacion-digital-ii.json`](./cv/guides/3-creacion-digital-ii.json) | `unicrawler/output/guides/3-creacion-digital-ii.json` | [9729001108.pdf](https://universidadeuropea.es/myfiles/pr/9729001108.pdf) |
+| **CD I** | [`cv/guides/1-creacion-digital-i.json`](./cv/guides/1-creacion-digital-i.json) | `unicrawler/output/guides/1-creacion-digital-i.json` | [9729001103.pdf](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) · **2026-27** |
+| **CD II** | [`cv/guides/3-creacion-digital-ii.json`](./cv/guides/3-creacion-digital-ii.json) | `unicrawler/output/guides/3-creacion-digital-ii.json` | [9729001108.pdf](https://universidadeuropea.es/myfiles/pr/9729001108.pdf) · **2025-2026** (not yet rolled) |
 
-**Re-sync:** copy from unicrawler when the university republishes; keep provenance note in [`cv/README.md`](./cv/README.md). Prefer PDF check if JSON and PDF disagree — flag the conflict, do not silently invent.
+**Re-sync:** copy from unicrawler only after that scrape matches the live PDF. Prefer PDF if JSON and PDF disagree — flag the conflict, do not silently invent. Provenance of the 2026-08-14 patch: [`cv/README.md`](./cv/README.md).
 
-**Default modality for authoring:** `Modalidad presencial` (Campus Creativo). Virtual tables exist in the JSON and must be respected if a virtual delivery is ever claimed — never mix presencial hours with virtual labels.
+**Default modality for authoring:** `Modalidad presencial` (Campus Creativo). CD I’s PDF labels the other table **Modalidad online**; CD II still says **Modalidad virtual**. Never mix presencial hours with online/virtual labels.
 
 ---
 
 ## 1. Identity fields (must appear in every CV / track header)
 
-Read verbatim from JSON: `subject_name`, `official_title_name`, `school_or_faculty`, `year`, `ects`, `module_type`, `languages`, `modality`, `semester`, `academic_year`, `coordinating_professor`, `presentation`, `source_url`.
+Read verbatim from the matching JSON (PDF-patched). `subject_name`, `official_title_name`, `school_or_faculty`, `year`, `ects`, `module_type`, `languages`, `modality`, `semester`, `academic_year`, `coordinating_professor`, `presentation`, `source_url`.
 
 | | CD I | CD II |
 | - | ---- | ----- |
-| Semester | **1** | **2** |
+| Semester | **S1** | **2** |
 | ECTS | **6** | **6** |
 | Year | **1** | **1** |
 | Module | Básica | Básica |
 | Degree | Grado en Comunicación y Gestión de Moda | same |
+| Academic year (live PDF) | **2026-27** | **2025-2026** |
+| Faculty | Facultad de Diseño y Tecnologías Creativas | Escuela de Arquitectura, Ingeniería y Diseño — Campus Creativo |
+
+The year/faculty split is real: CD I’s PDF was regenerated 2026-08-03; CD II’s published PDF has not rolled.
 
 ---
 
@@ -73,64 +77,84 @@ Every forged unit lists the **JSON competency codes** it serves (`CON1`, `HAB*`,
 | CD I | CON1 · HAB9 · HAB10 · COMP8 · COMP9 |
 | CD II | CON1 · HAB1 · HAB10 · COMP8 · COMP9 |
 
+Learning-outcome bullets now live in JSON `learning_outcomes` (taken from PDF §3). They are not a license to invent extra competencies.
+
 ---
 
 ## 4. Methodologies (`methodologies.General`)
 
-Only claim methods that appear in the JSON (clase magistral, ABP, proyectos, taller, simulación, etc.). CD II’s scraped list is partially concatenated in one string — when citing, prefer the discrete names also present in CD I.
+Only claim methods that appear in the JSON (clase magistral, ABP, proyectos, taller, simulación). CD II’s scrape used to concatenate four names into one string; the clone now lists the five discrete PDF names.
 
 ---
 
 ## 5. Formative activities — hour tables (mandatory close)
 
-### CD I — Modalidad presencial (sum **140 h**)
+Both presencial tables **TOTAL 150 h**. The 140 h CD I figure was a unicrawler dropped row (`Clases magistrales` 10 h), not a real curricular difference.
 
-| Activity (official `name`) | Hours |
-| -------------------------- | ----: |
-| Seminarios de aplicación práctica | 20 |
-| Resolución de problemas | 8 |
-| Proyectos | 20 |
-| Actividades en talleres y/o laboratorios | 14 |
-| Trabajo autónomo | 56 |
-| Debates y coloquios | 8 |
-| Tutoría académica | 12 |
-| Pruebas de evaluación presenciales | 2 |
+### CD I — Modalidad presencial (PDF p.3 · sum **150 h**)
 
-> ⚠️ CD I presencial has **no** `Clases magistrales` row (unlike CD II). Do not invent 10 h of magistral for CD I presencial. Conceptual exposition lands in **Seminarios** + **Debates** unless the PDF later contradicts the JSON.
+| Activity (official `name`) | Hours | `tracks.yml` key |
+| -------------------------- | ----: | ---------------- |
+| Clases magistrales | 10 | `clases_magistrales` |
+| Seminarios de aplicación práctica | 20 | `seminarios` |
+| Resolución de Problemas | 8 | `resolucion_problemas` |
+| Investigaciones y proyectos | 20 | `investigaciones_proyectos` |
+| Actividades en talleres y/o laboratorios | 14 | `talleres_labs` |
+| Trabajo autónomo | 56 | `trabajo_autonomo` |
+| Debates y coloquios | 8 | `debates` |
+| Tutoría académica | 12 | `tutoria` |
+| Pruebas de evaluación presenciales | 2 | `pruebas` |
 
-### CD II — Modalidad presencial (sum **150 h**)
+### CD I — Modalidad online (PDF p.3–4 · sum **150 h**)
 
-| Activity (official `name`) | Hours |
-| -------------------------- | ----: |
+| Activity | Hours |
+| -------- | ----: |
 | Clases magistrales | 10 |
-| Seminarios de aplicación práctica | 20 |
-| Resolución de problemas | 8 |
-| Proyectos | 20 |
-| Actividades en talleres y/o laboratorios | 14 |
-| Trabajo autónomo | 56 |
-| Debates y coloquios | 8 |
-| Tutoría académica | 12 |
-| Pruebas de evaluación presenciales | 2 |
+| Clases virtuales síncronas | 20 |
+| Resolución de Problemas | 8 |
+| Investigaciones y proyectos | 20 |
+| Actividades síncronas en talleres/ laboratorios virtuales | 14 |
+| Estudio de contenidos y documentación | 56 |
+| Foro Virtual | 8 |
+| Tutoría académica virtual síncrona | 12 |
+| Pruebas de evaluación virtuales | 2 |
 
-Virtual modality tables live in the same JSON files — use them only for virtual delivery claims. CD I virtual sums to **150 h**; CD II virtual **150 h**.
+### CD II — Modalidad presencial (PDF p.3 · sum **150 h**)
 
-**Contact-forgeable bucket** (what unit forge allocates across sessions): magistral (CD II only) + seminarios + resolución de problemas + proyectos + talleres/labs + debates. **Not session-forged:** trabajo autónomo, tutoría, pruebas de evaluación (institutional totals; keep as course-level residuals).
+| Activity (official `name`) | Hours | `tracks.yml` key |
+| -------------------------- | ----: | ---------------- |
+| Clases magistrales | 10 | `clases_magistrales` |
+| Seminarios de aplicación práctica | 20 | `seminarios` |
+| Resolución de problemas | 8 | `resolucion_problemas` |
+| Proyectos | 20 | `proyectos` |
+| Actividades en talleres y/o laboratorios | 14 | `talleres_labs` |
+| Trabajo autónomo | 56 | `trabajo_autonomo` |
+| Debates y coloquios | 8 | `debates` |
+| Tutoría académica | 12 | `tutoria` |
+| Pruebas de evaluación presenciales | 2 | `pruebas` |
+
+Keep **Investigaciones y proyectos** (CD I) and **Proyectos** (CD II) as distinct keys. Do not rename one into the other.
+
+Virtual/online tables live in the same JSON files — use them only for that delivery claim.
+
+**Contact-forgeable bucket** (what unit forge allocates across sessions): magistral + seminarios + resolución de problemas + proyectos/investigaciones + talleres/labs + debates = **80 h**. **Not session-forged:** trabajo autónomo (56), tutoría (12), pruebas (2) — course-level residuals.
+
+> ⚠️ **Same class of defect as FE `tracks.yml`.** FE allocated only `duration` + `labHours` and left Lección Magistral / Resolución de Ejercicios at zero. Here `docs/_data/tracks.yml` had **no session rows and no official activity keys** — only `duration: S1 · 6 ECTS`. Course totals now close in JSON + this table. **Per-session allocation is still empty.** Do not invent a timetable to make the sums look distributed.
 
 ---
 
 ## 6. Evaluation weights (mandatory)
 
-### CD I — presencial
+### CD I — presencial **and** online (PDF p.4 · sum **100%**)
 
 | Instrument | Weight |
 | ---------- | -----: |
-| Pruebas de evaluación presenciales | 55% |
-| Caso/problema | 20% |
-| Proyectos | 10% |
+| Pruebas de evaluación presenciales / virtuales | 55% |
+| Caso/problema | 15% |
+| Investigaciones y proyectos | 20% |
+| Cuaderno de prácticas de laboratorio/taller | 10% |
 
-> 🔴 **Scrape defect:** presencial weights sum to **85%**. Virtual sums to 100% (adds Informes y escritos 15%). When authoring the CV, **verify against the PDF** before inventing the missing 15%. Prefer restoring the PDF’s fourth instrument over guessing.
-
-### CD II — presencial (sums **100%**)
+### CD II — presencial (PDF p.4 · sum **100%**)
 
 | Instrument | Weight |
 | ---------- | -----: |
@@ -139,14 +163,25 @@ Virtual modality tables live in the same JSON files — use them only for virtua
 | Caso/problema | 20% |
 | Proyectos | 10% |
 
+### CD II — virtual (PDF p.4 · sum **100%**)
+
+| Instrument | Weight |
+| ---------- | -----: |
+| Pruebas de evaluación presenciales | 55% |
+| Informes y escritos | 15% |
+| Proyectos | 20% |
+| Cuaderno de prácticas de laboratorio/taller | 10% |
+
+Virtual CD II has **no** Caso/problema row. That is the PDF, not a scrape hole.
+
 ---
 
 ## 7. Forge artefact ↔ official activity mapping
 
 | Official activity | Forge artefact | Evidence channel |
 | ----------------- | -------------- | ---------------- |
-| Clases magistrales (CD II) · Seminarios · Debates | **B1 Conceptual lesson + deck** | claims, competency map |
-| Actividades en talleres y/o laboratorios · Proyectos | **B2 Studio brief** (atelier / contextualised) | process folder, piece IDs, project milestones |
+| Clases magistrales · Seminarios · Debates (online: clases virtuales síncronas · Foro) | **B1 Conceptual lesson + deck** | claims, competency map |
+| Actividades en talleres y/o laboratorios · Investigaciones y proyectos / Proyectos | **B2 Studio brief** (atelier / contextualised) | process folder, piece IDs, project milestones |
 | Resolución de problemas | **B3 Exercise set** (individual, decontextualised) | worked solutions |
 | Trabajo autónomo | reading list / self-check | not graded as contact |
 | Tutoría · Pruebas | course-level | evaluation table only |
@@ -157,9 +192,9 @@ Virtual modality tables live in the same JSON files — use them only for virtua
 
 ## 8. Binding rules for all pedagogical actions
 
-1. Open the matching `cv/guides/*.json` **before** writing a CV, unit, track session, or assessment page.  
+1. Open the matching `cv/guides/*.json` **and** the live PDF **before** writing a CV, unit, track session, or assessment page.  
 2. CONTENIDOS anchors and competency codes come from JSON — verbatim.  
-3. Hour fields in `tracks.yml` must use official activity names (or stable keys mapped 1:1 in a comment). Totals must close to §5.  
-4. Evaluation % on student-facing pages must match §6 (after PDF fix for CD I).  
-5. Scholarly citations still follow [`grounding/README.md`](./grounding/README.md) (discover vectors → cite Ahmes nodes).  
+3. Hour fields in `tracks.yml` must use the keys in §5. Course-level `formative_hours` must close to 150. Session rows, when forged, must carry **every** contact-forgeable key (not only a generic `duration`).  
+4. Evaluation % on student-facing pages must match §6.  
+5. Scholarly citations still follow [`grounding/README.md`](./grounding/README.md) (discover vectors → cite Ahmes nodes). Institutional hour/weight claims cite the PDF, not the research vault.  
 6. vShowroom synergy is L3 — it may consume CD II portfolio/avatar/AR outputs; it may not rewrite §2 contents.

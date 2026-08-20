@@ -1,0 +1,88 @@
+---
+description: Gap-harvest index — which CD I/II CONTENIDOS lack vault pedagogy evidence and which Profield fields to run before unit forgery
+globs: 'digital-creativity-pedagogy/**'
+alwaysApply: false
+---
+
+# CD I/II curriculum gap prospection — index
+
+**Date:** 2026-08-16  
+**Sources of truth:** [`README.md`](./README.md) evidence matrix · [`profield-digital-creativity.md`](./profield-digital-creativity.md) · [`../cv/UNIT-PLAN.md`](../cv/UNIT-PLAN.md) · [`../TEACHING-READINESS.mdc`](../TEACHING-READINESS.mdc)  
+**Rule:** Pass 1–3 + Ahmes/DevIAC ingest **before** forging units that still say NONE / `[BIBLIO-GAP]` / pilot. Tool docs ground HOW only. VTON stays out of sprint scope.
+
+## Paradigm coat — Curriculum as Code (wired)
+
+**Card (all matches + MSCA contrast):** [`~/src/profield/runs/PARADIGM-CURRICULUM-AS-CODE-20260816.md`](/Users/ruvebal/src/profield/runs/PARADIGM-CURRICULUM-AS-CODE-20260816.md)  
+**Routing:** canonical Ahmes/Athanor coat lives under FE slug `profield-frontend-pedagogy` — **no DC vault duplicate**. Cross-field discovery only.  
+**Transfer boundary:** STEM instructional architecture ≠ fashion Contidos method (supports process/authorship visibility & declared-gap discipline, not CLO/AR pedagogy).  
+**Coat:** ⟨`2608_07364v1_paiva_curriculum_as_code_749851aa`⟩ · `[BIBLIO-GAP]` (`evaluator_safe=no`)
+
+**Best match (this index):** tacit teaching signature → explicit rules / process before GenAI output.
+
+> The architecture suggests that tacit pedagogical knowledge can be systematically translated into explicit rules through a combination of few-shot calibration (Phase 2) and structural isolation (Phase 4). By allowing the instructor to quickly review and tweak the textbased Lesson Plan before any code was generated, the pipeline ensured that the instructor's personal teaching signature was preserved while automating the most labor-intensive tasks.
+
+⟨`2608_07364v1_paiva_curriculum_as_code_749851aa`⟩ · nodo `f46a847c-7554-5a41-b3b7-e87f7fc0a926` · p. 7 · (Paiva, 2026)
+
+| Also wired | nodo | p. |
+| --- | --- | ---: |
+| Tacit elicitation / formalization prerequisite (Athanor top tacit hit) | `d92bf048-b455-50c2-b129-ad0e6bc647f2` | 3 |
+| Systematization into replicable computational rules | `65ab8882-3118-5ccd-b3fe-ba0ef183754f` | 8 |
+
+Anwar + Rizzi remain II.5 *content* authorship; Paiva is instructor-side authoring formalization only.
+
+**Contrast — MSCA / WPL:** formalizes *provenance of derivation and agent responsibility*, not studio teaching signature. See paradigm card § MSCA (Moreau / Domingue / PROV agent). Do not paste FE coat into Part B.
+
+## Already covered (do not duplicate)
+
+| FieldSpec / artefact | Covers |
+| --- | --- |
+| `digital-creativity` | Omnibus fashion digital-creativity map (synced as `profield-digital-creativity.md`) |
+| Temario T1–T3 · C1–C3 + `PROVENANCE-LAYER` | Contidos harvest demo — not a substitute for unit pedagogy coats |
+| Anwar + Rizzi (II.5) | Studio GenAI / authorship — **not** portfolio web UX |
+| Shinkle (I.1) | Fashion image as field of practices — **not** Photoshop pedagogy |
+| Kim 2023 (II.3) | Digital fashion *experience* as phenomenon — **not** AR teaching method |
+| Sister FE fields (`ai-assisted-3d-web`, portfolio UX adjacent) | Web/R3F — import only with Ladder B discipline; do not paste FE CER claims |
+
+## Forge-blocking gaps → dedicated fields
+
+| Priority | Unit(s) | Matrix gate | FieldSpec | Pass 1 prompt |
+| ---: | --- | --- | --- | --- |
+| **P0** | **All blanks** | Refresh § open problems + matrix NONE rows | `~/src/profield/fields/dc-curriculum-gap-harvest.yaml` | `~/src/profield/runs/dc-curriculum-gap-harvest/20260816/pass1.prompt.md` |
+| **P0** | **I.5 · I.6** Wave 2 | NONE — 3D form / volume *pedagogy* | `~/src/profield/fields/dc-3d-form-volume-pedagogy.yaml` | `~/src/profield/runs/dc-3d-form-volume-pedagogy/20260816/pass1.prompt.md` |
+| **P0** | **II.5** remaining | NONE — fashion-portfolio *web UX* / a11y–hire causal studies | `~/src/profield/fields/dc-fashion-portfolio-web-ux.yaml` | `~/src/profield/runs/dc-fashion-portfolio-web-ux/20260816/pass1.prompt.md` |
+| **P1** | **I.2 · I.3 · I.4** | NONE — 2D tools, colour/bitmaps, effects pedagogy | `~/src/profield/fields/dc-2d-image-craft-pedagogy.yaml` | `~/src/profield/runs/dc-2d-image-craft-pedagogy/20260816/pass1.prompt.md` |
+| **P1** | **I.8 · I.9** | NONE — fashion animation + digital still-life pedagogy | `~/src/profield/fields/dc-fashion-motion-still-pedagogy.yaml` | `~/src/profield/runs/dc-fashion-motion-still-pedagogy/20260816/pass1.prompt.md` |
+| **P1** | **II.1** | [BIBLIO-GAP] — retouch *curriculum* (not appearance-psychology alone) | `~/src/profield/fields/dc-fashion-retouch-pedagogy.yaml` | `~/src/profield/runs/dc-fashion-retouch-pedagogy/20260816/pass1.prompt.md` |
+| **P1** | **II.2** | [BIBLIO-GAP] — avatar *making* method (CLO/digital human), not identity theory alone | `~/src/profield/fields/dc-avatar-digital-fashion-pedagogy.yaml` | `~/src/profield/runs/dc-avatar-digital-fashion-pedagogy/20260816/pass1.prompt.md` |
+| **P1** | **II.4** | NONE — fashion video editing pedagogy | `~/src/profield/fields/dc-fashion-video-pedagogy.yaml` | `~/src/profield/runs/dc-fashion-video-pedagogy/20260816/pass1.prompt.md` |
+| **P1** | **II.6** | NONE — holograms / AR *pedagogy* (Kim ≠ method) | `~/src/profield/fields/dc-ar-hologram-fashion-pedagogy.yaml` | `~/src/profield/runs/dc-ar-hologram-fashion-pedagogy/20260816/pass1.prompt.md` |
+| **P2** | **II.3** deepen | SAFE phenomenon only — need *teaching* digital fashion experiences | `~/src/profield/fields/dc-digital-fashion-experience-pedagogy.yaml` | `~/src/profield/runs/dc-digital-fashion-experience-pedagogy/20260816/pass1.prompt.md` |
+| **P2** | **I.7** | [BIBLIO-GAP] Campinho — composition references / enrich or replace | Fold into gap-harvest + optional re-cite; no separate field unless Pass 1 demands it | — |
+
+## Recommended run order (before Wave 2–4 forge)
+
+```
+1. dc-curriculum-gap-harvest          ← one Pass 1 refreshes the blank map
+2. dc-fashion-portfolio-web-ux        ← closes II.5 declared UX gap (Wave 1 still forgeable with gap paragraph)
+3. dc-3d-form-volume-pedagogy         ← unblocks honest Wave 2 (I.5/I.6)
+4. dc-2d-image-craft-pedagogy
+5. dc-fashion-retouch-pedagogy
+6. dc-avatar-digital-fashion-pedagogy ← VTON out of scope — say so in notes
+7. dc-fashion-video-pedagogy
+8. dc-ar-hologram-fashion-pedagogy
+9. dc-fashion-motion-still-pedagogy
+10. dc-digital-fashion-experience-pedagogy
+```
+
+After each Pass 3 + Ahmes batch: update the evidence matrix row in [`README.md`](./README.md), then forge (`dc-unit-forge.mdc`).
+
+## 2026-08-16 replication outputs
+
+The DC specialty-field outputs have been replicated into [`gap-fields/INDEX.mdc`](./gap-fields/INDEX.mdc) and unified into [`temario-unified/INDEX.md`](./temario-unified/INDEX.md). The pass preserves the evidence gates: 22 source PDFs were processed across the active manifests; 14 evaluator-safe vaults are available; avatar and motion/still remain no-OA procurement gaps. Athanor injection was run idempotently from each manifest; Athanor remains discovery-only, and no student-facing lessons were forged in this pass.
+
+## Operator paths
+
+Fields: `~/src/profield/fields/dc-*.yaml`  
+Runs: `~/src/profield/runs/<field-id>/20260816/`  
+Batch card: `~/src/profield/runs/DC-GAP-PROSPECTION-20260816.md`  
+Omnibus field (already exists): `~/src/profield/fields/digital-creativity.yaml`

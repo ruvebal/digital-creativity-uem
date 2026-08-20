@@ -7,10 +7,10 @@ alwaysApply: false
 # UNIT FORGE — Creación Digital (CD I / CD II)
 
 > One unit in, three artefacts out. Grounded, hour-honest, and research-instrumented.
-> **Institutional contract:** [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) + [`cv/guides/*.json`](./cv/guides/).  
-> Also: [`grounding/README.md`](./grounding/README.md) · [`dc-cv-forge.mdc`](./dc-cv-forge.mdc) · vShowroom synergy (Web Atelier) · `CLAUDE.md`
+> **Institutional contract:** [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) + [`cv/guides/*.json`](./cv/guides/).
+> Also: [`grounding/README.md`](./grounding/README.md) · [`dc-cv-forge.mdc`](./dc-cv-forge.mdc) · vShowroom synergy (Web Atelier) · `CLAUDE.md` · `curriculum-forger` (`~/src/.cursor/skills/curriculum-forger/SKILL.md`, sibling to `user-guide-forger`) — classical-didactics axis, UbD/5E/Bloom/CLT/constructivism grounding for STEP A, cross-institution with FE · `ttod-bridge` (`~/src/.cursor/skills/ttod-bridge/SKILL.md`) — TTOD epigraphs, read and proposed, same capability FE's `fe-unit-forge.mdc` already has
 
-Do **not** use FE’s 10 / 30 / 14 hour scheme. Close hours to the guía JSON for the chosen modality.
+Do **not** use FE’s 10 / 30 / 14 hour scheme. Close hours to the guía JSON **after PDF check** (framework §5): both courses **150 h** presencial; contact-forgeable bucket **80 h**.
 
 ---
 
@@ -32,16 +32,18 @@ From the guía JSON via [`oficial-guia-framework.mdc`](./oficial-guia-framework.
 
 | Official activity | Course hours (CD I / CD II) | Forge output |
 | ----------------- | --------------------------- | ------------ |
-| Clases magistrales | — / **10** | **B1** conceptual half + deck (CD II only) |
-| Seminarios de aplicación práctica | **20** / **20** | **B1** (CD I primary expositive channel) + applied demos |
+| Clases magistrales | **10** / **10** | **B1** conceptual half + deck |
+| Seminarios de aplicación práctica | **20** / **20** | **B1** applied demos |
 | Debates y coloquios | **8** / **8** | **B1** debate prompts |
 | Actividades en talleres y/o laboratorios | **14** / **14** | **B2** studio brief (atelier) |
-| Proyectos | **20** / **20** | **B2** project milestones (contextualised) |
+| Investigaciones y proyectos (CD I) · Proyectos (CD II) | **20** / **20** | **B2** project milestones (contextualised) |
 | Resolución de problemas | **8** / **8** | **B3** exercise set (individual) |
 | Trabajo autónomo · Tutoría · Pruebas | 56 · 12 · 2 | Course-level residuals — not unit-session forged |
 
 **B2 ≠ B3.** Talleres/proyectos are workplace-like; resolución de problemas is decontextualised. Collapsing them destroys the individual-evidence channel.
 
+> ⚠️ **Current defect:** `docs/_data/tracks.yml` carries course-level `formative_hours` that close at 150, but **zero session rows**. Every forged unit must emit all contact-forgeable keys (`clases_magistrales`, `seminarios`, `debates`, `talleres_labs`, `investigaciones_proyectos` **or** `proyectos`, `resolucion_problemas`). Totals across sessions must close at 10 / 20 / 8 / 14 / 20 / 8. Do not invent a timetable in Wave 0 — allocate when the unit exists.
+>
 > **VTON / try-on is out of sprint scope.**
 
 ---
@@ -50,7 +52,7 @@ From the guía JSON via [`oficial-guia-framework.mdc`](./oficial-guia-framework.
 
 **Discover in vectors / Athanor, cite from Ahmes nodes.** See [`grounding/README.md`](./grounding/README.md).
 
-Prefer the worked temario harvest when the unit maps to T1–T3 / C1–C3: [`grounding/temario/PROVENANCE-LAYER.md`](./grounding/temario/PROVENANCE-LAYER.md). Promote accepted Tri-Anchors into the evidence matrix **before** writing B1–B3. Never paste DevIAC/Athanor `content_preview` into lessons.
+Prefer the evidence matrix in [`grounding/README.md`](./grounding/README.md) (unit IDs I.1–I.9 / II.1–II.6). The temario harvest ([`grounding/temario/PROVENANCE-LAYER.md`](./grounding/temario/PROVENANCE-LAYER.md)) is a coverage demo — **do not paste its T1 index-page quote**. Promote only the matrix Tri-Anchors. Never paste DevIAC/Athanor `content_preview` into lessons.
 
 ```bash
 cd ~/src/deviac && make ingest-profield-dc   # when corpus refreshes
@@ -63,11 +65,55 @@ curl -s -X POST http://localhost:8100/vectors/search \
 
 Cite `⟨coat⟩ · nodo ⟨id⟩ · p. ⟨n⟩`. If evidence matrix says NONE → declared-gap paragraph.
 
+### 2.1 Athanor-assisted forge ignitor
+
+Before writing B1–B3, run one short, unit-scoped Athanor query against
+`project_slug=profield-digital-creativity` and
+`knowledge_scope=field_prospection`. Treat its result as a **discovery pointer**
+with four recorded fields: query text, source locator, similarity, and proposed
+unit use. Then resolve the candidate in Ahmes:
+
+```text
+Athanor candidate → source hash / document → Ahmes extraction.db
+→ complete node + page → ahmes query --cite → evaluator_safe gate
+→ lesson claim, or explicit [BIBLIO-GAP]/NONE
+```
+
+Ignitor query seeds:
+
+| Unit family | Query seed | Forge decision |
+| --- | --- | --- |
+| I.1–I.4 | `fashion design education AI visualization process assessment` | Make iteration and critique observable; do not infer Photoshop pedagogy from an AI study. |
+| I.5–I.6 | `fashion spatial visualization 3D volume teaching CLO` | Diagnose spatial reasoning separately from package operation; generic mesh/CSG transfer requires evidence. |
+| II.1–II.2 | `fashion image synthesis ethics avatar authorship student process` | Require process/provenance and human judgement; keep VTON out of scope. |
+| II.3/II.6 | `fashion digital exhibition student experience object based learning` | Separate experience/staging evidence from evidence of a teaching method. |
+| II.4 | `fashion video education studio production process` | Make storyboard → capture → edit → critique → export traceable. |
+| II.5 | `generative AI studio based fashion education authorship ethics` | Add authorship/material/tool declarations and human verification to the portfolio forge. |
+
+Verified examples from the current corpus:
+
+- Anwar, Raza & Marzouk (2025), *Generative AI in Studio-Based Fashion
+  Education*: Ahmes node `0d5bfc56-5325-5145-9f76-82f4650d7bdb`, p.2,
+  `(Anwar 2025, 2)`, `evaluator_safe=yes`. Use for authorship/studio-process
+  framing, not as proof that a particular tool sequence improves learning.
+- Smith-Glaviana (2025), *University Students’ Experience of a Digital Fashion
+  Exhibition*: Ahmes node `19f2e4c6-34e6-599a-8b5c-87a01bc08900`, p.1,
+  `(Smith-Glaviana 2025, 1)`, `evaluator_safe=yes`. Use for experience and
+  object-based-learning context, not as a validated AR teaching method.
+
+The current index also returns malformed AI-fashion metadata with a
+host-title mismatch. That result is a useful retrieval warning, not evidence:
+quarantine it, retain `[BIBLIO-GAP]`, and never promote its preview into a CV or
+lesson. Athanor is therefore an adaptive question-and-routing layer; Ahmes is
+the citation boundary.
+
 ---
 
 ## 3. THE MASTER PROMPT
 
-Copy from here. Fill INPUT. Do not skip step A.
+**Filled run file (Wave 1 — execute this, do not re-fill the template):** [`forge/CD-II-II.5.execute.md`](./forge/CD-II-II.5.execute.md).
+
+Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
 
 ```markdown
 # FORGE CD UNIT — <COURSE> Unit <N>: <TITLE>
@@ -75,34 +121,48 @@ Copy from here. Fill INPUT. Do not skip step A.
 ## INPUT
 
 - COURSE: <CD I | CD II>
+- UNIT_ID: <I.1–I.9 | II.1–II.6>   # from cv/UNIT-PLAN.md
 - GUIDE_JSON: digital-creativity-pedagogy/cv/guides/<1-creacion-digital-i|3-creacion-digital-ii>.json
 - UNIT: <n>
-- CONTENIDOS anchor(s): <verbatim phrase(s) from GUIDE_JSON.contents / framework §2>
+- CONTENIDOS anchor(s): <verbatim phrase(s) from GUIDE_JSON.contents / framework §2 / UNIT-PLAN>
 - COMPETENCIES: <subset of GUIDE_JSON.competencies codes>
 - MODALITY: Modalidad presencial
 - HOURS this unit (must use official keys; sum later into course totals):
-  - clases_magistrales: <h>          # CD II only; 0 for CD I presencial
+  - clases_magistrales: <h>          # 10 h across the course, both CD I and CD II
   - seminarios: <h>
   - debates: <h>
   - talleres_labs: <h>
-  - proyectos: <h>
+  - investigaciones_proyectos: <h>  # CD I only (PDF name)
+  - proyectos: <h>                   # CD II only (PDF name)
   - resolucion_problemas: <h>
 - ARTEFACT ROLE: <vShowroom / portfolio / none>
+  <!-- Deferred 2026-08-20, operator's own call: default to `portfolio` or
+       `none` for now, not `vShowroom` — naming the showroom synergy in DC
+       content changes nothing about what CD students actually do, so it's
+       being held back until the operator decides to switch it on. Set to
+       `vShowroom` only on explicit instruction, not by forge default. -->
 - COHORT: <year · n ≈>
 
 ## STEP A — GROUND BEFORE WRITING (mandatory)
 
 1. Open GUIDE_JSON + `oficial-guia-framework.mdc`. Confirm anchors and competencies exist.
-2. Read `grounding/README.md` evidence row for this unit (or treat as NONE).
-3. Query DevIAC (`profield-digital-creativity`); open Ahmes nodes for claims.
-4. If NONE: declared-gap. Tool docs ground HOW, never WHY THIS SEQUENCE TEACHES WELL.
-5. Cross-check vShowroom synergy only if ARTEFACT ROLE ≠ none (consent S1–S5).
+2. Open `cv/UNIT-PLAN.md` and the **evidence matrix row for UNIT_ID** in `grounding/README.md`. That row is authoritative over the 2026-08-11 harvest demo.
+3. If the row is SAFE: cite `⟨coat⟩ · nodo ⟨id⟩ · p. ⟨n⟩` from the row (re-open the node; do not paste vector previews).
+4. If the row is NONE or `[BIBLIO-GAP]`: declared-gap paragraph. Tool docs ground HOW, never WHY THIS SEQUENCE TEACHES WELL. `[BIBLIO-GAP]` coats may be quoted in the lesson with the gap visible; they must **not** enter the CV bibliography.
+5. Cross-check vShowroom synergy only if ARTEFACT ROLE ≠ none. Exhibition requires signed **S1/S2** ([`consent/S-SET.md`](./consent/S-SET.md)); research reuse requires **C-set** administered by the IP, not the teacher ([`consent/README.md`](./consent/README.md)).
+6. Pick a TTOD epigraph by ID through `~/src/.cursor/skills/ttod-bridge/SKILL.md`
+   — never by hand-parsing `~/src/ttod/ttod.yml` or hand-appending YAML to
+   it. If the aphorism doesn't exist yet, `propose_quote(...)` through the
+   bridge (`origin: blackbox`, `source` naming this unit) stages it for
+   human review; it is never cited as canonical until a human accepts it
+   via TTOD's own `cli.py add`.
 
 ## STEP B — EMIT THREE ARTEFACTS
 
-### B1 · Conceptual (magistral CD II / seminarios+debates)
+### B1 · Conceptual (magistral + seminarios + debates)
 → `docs/lessons/{en,es}/…`
 - One-sentence claim; CONTENIDOS anchors; competencies served; evidence or gap.
+- ONE TTOD epigraph at the conceptual turn, cited by ID (Step A.6).
 - EN + ES for student-facing pages.
 
 ### B2 · Studio (talleres/labs + proyectos slice)
@@ -118,8 +178,9 @@ Copy from here. Fill INPUT. Do not skip step A.
 
 - `docs/_data/tracks.yml` session with the official hour keys above.
 - Running totals for the course must close to framework §5 for presencial.
-- Evaluation instruments on the track must quote framework §6 (PDF-fix CD I).
+- Evaluation instruments on the track must quote framework §6.
 - Status leaves `scaffold` only when B1–B3 exist.
+- If the unit produces an exhibitable piece: S1/S2 attached in the studio brief (unsigned drafts are not consent).
 
 ## STEP D — VERIFY
 
@@ -135,9 +196,9 @@ Copy from here. Fill INPUT. Do not skip step A.
 
 | Wave | Focus | CONTENIDOS bias |
 | ---- | ----- | --------------- |
-| **0** | Close hours in `tracks.yml` to JSON; PDF-fix CD I eval 85% | institutional |
-| **1** | CD II portfolio / web + authorship visibility | maquetación · portfolio digital |
-| **2** | CD I volume / 3D form | forma tridimensional · Volumen |
+| **0** | Course totals now close in JSON/`formative_hours`. Remaining: allocate the 80 h contact bucket across real units — do not invent sessions | institutional |
+| **1** | CD II **II.5** portfolio / web + authorship visibility | maquetación · portfolio digital |
+| **2** | CD I **I.5–I.6** volume / 3D form | forma tridimensional · Volumen |
 | **3** | Avatars · experiencias · AR · vídeo · retoque | remaining CD II anchors |
 | **4** | CD I 2D stack (dibujo, color, efectos, animación, bodegones) | remaining CD I anchors |
 | **5** | Decks | after prose settles |

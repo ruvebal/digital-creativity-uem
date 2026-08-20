@@ -6,21 +6,19 @@ alwaysApply: false
 
 # Teaching readiness — Creación Digital I–II (UEM)
 
-**Audited 2026-08-11** against emancipated repo layout + official guía JSON clones.
+**Re-audited 2026-08-14** (hours PDF-patched; matrix plugged; consent drafted). Figures below are measured.
 
 ---
 
 ## 0. Straight answer
 
-**CD I: not yet teachable.** Track pages are scaffold; no forged units bound to the guía hour table.
+**Forge: ready to start Wave 1 (II.5).** Paste [`forge/CD-II-II.5.execute.md`](./forge/CD-II-II.5.execute.md). It will not write a truthful *taught* course until B1–B3 exist.
 
-**CD II: not yet teachable** beyond naming official CONTENIDOS and the vShowroom role.
+**CD I / CD II as taught sequences: not yet.** Track pages remain scaffold; `sessions_list: []`.
 
-**Institutional contract: cloned.** `cv/guides/1-creacion-digital-i.json` · `cv/guides/3-creacion-digital-ii.json` + [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc). All forging must close to those tables.
+**Research data: not collectable.** Consent C/S are **drafts** (no DPO, not administered). Exhibition of student work: same gate (S1/S2).
 
-**Research / grounding layer: extraction + vectors live.** Ahmes 43/43; DevIAC ingest 43/43 (`profield-digital-creativity`). **Cite nodes, not snippets.**
-
-**Product layer (vShowroom): specified cross-repo.** Web Atelier `atelier-synergy-vshowroom.mdc`.
+**Institutional contract: PDF-patched.** Both presencial tables close at **150 h**.
 
 ---
 
@@ -29,35 +27,48 @@ alwaysApply: false
 | Surface | State |
 | ------- | ----- |
 | Jekyll + Pages + excludes | ✅ |
-| Official guía JSON clones | ✅ `cv/guides/` |
-| `oficial-guia-framework.mdc` · `dc-cv-forge.mdc` · `dc-unit-forge.mdc` | ✅ |
-| Track indexes EN/ES | ✅ scaffold |
+| Official guía JSON clones | ✅ PDF-patched 2026-08-14 |
+| `oficial-guia-framework.mdc` · forges | ✅ hours + UNIT_ID + matrix Step A |
+| `cv/UNIT-PLAN.md` | ✅ I.1–I.9 · II.1–II.6 |
+| Evidence matrix (`grounding/README.md`) | ✅ 15 rows; many honest NONE / `[BIBLIO-GAP]` |
+| Consent C-set + S-set | ✅ drafted · ✗ DPO · ✗ administered |
+| Track indexes EN/ES | ✅ scaffold (150 h stated) |
 | `docs/lessons/**` forged units | ✗ |
-| CV drafts `uem-ruvebal-creacion-digital-*-cv.md` | ✗ |
-| `tracks.yml` hours closing to JSON | ✗ |
-| CD I presencial eval sum 85% | 🔴 PDF reconcile before student tables |
-| Consent C-set | ✗ |
-| DevIAC DC ingest | ✅ 43/43 |
+| CV drafts | ✅ hours/eval + SAFE bib seed |
+| `tracks.yml` course totals | ✅ 150 / 150 |
+| `tracks.yml` session allocation | 🔴 still empty (by design until first unit) |
+| DevIAC DC ingest | ✅ live (`profield-digital-creativity`) |
+| Ahmes batch | **63** `PROCESSED_OK` (not the stale 43) |
+| Athanor project | ✅ searchable (Shinkle ~0.72 on T1 query) |
 
 ---
 
-## 2. Path to ready — ordered
+## 2. What “forge-ready” means here
 
-**Wave 0 — institutional honesty**
-1. PDF-check CD I evaluation weights; document the fix in `cv/README.md`.
-2. Allocate session hours in `tracks.yml` with official keys; close to 140 h (CD I) / 150 h (CD II) presencial.
-3. Consent / authorship templates (exhibition gate).
+Wave 1 (II.5) can be written **now** under the matrix: Anwar + Rizzi ground authorship/studio-AI; portfolio *web UX* stays a declared field gap; S1/S2 go in the studio brief as unsigned templates.
 
-**Wave 1 — forge** via [`dc-unit-forge.mdc`](./dc-unit-forge.mdc) against CONTENIDOS anchors in the framework.  
-**Wave 2 — CV drafts** via [`dc-cv-forge.mdc`](./dc-cv-forge.mdc).  
-**Wave 3 — decks** after prose settles.
+Wave 2 (I.5–I.6 volume) can be written only as a **declared-gap** unit — the vault does not support 3D-form pedagogy yet. That is allowed; hiding the gap is not.
 
-**Minimum viable first class:** Wave 0 + one forged CD I unit (volume/3D or 2D intro) + one CD II studio brief on portfolio/web with vShowroom ingest named.
+Do **not** invent a week-by-week timetable to close the 80 h contact bucket before those units exist.
 
 ---
 
-## 3. What would change the answer to “ready”
+## 3. Path to *teachable*
 
-- Full triad (B1·B2·B3) per first units, EN+ES, anchors ⊆ JSON.
-- Hour sums close; evaluation tables match JSON/PDF.
-- Consent path usable before any public piece.
+**Wave 0** — hours/JSON/CV/matrix/consent drafts. ✅ except DPO/IP administration.
+
+**Wave 1** — paste [`forge/CD-II-II.5.execute.md`](./forge/CD-II-II.5.execute.md); emit B1·B2·B3 (EN+ES) + unsigned S1/S2 in the brief.
+
+**Wave 2** — I.5/I.6 with NONE declared **unless** `dc-3d-form-volume-pedagogy` Pass 3 upgrades the matrix first ([`grounding/GAP-PROSPECTION-INDEX.mdc`](./grounding/GAP-PROSPECTION-INDEX.mdc)).
+
+**Then** remaining CONTENIDOS after their gap fields; decks last.
+
+**Minimum viable first class:** Wave 1 lesson + consent forms printed as drafts (research still off) + one studio brief that does not require public exhibition.
+
+---
+
+## 4. What would change the answer to “ready to teach / ready to research”
+
+- Teach: Wave 1 B1–B3 on Pages; session hours in `tracks.yml` for that unit only.
+- Research: DPO sign-off + IP administering C-set.
+- Exhibit: signed S1/S2 per piece.

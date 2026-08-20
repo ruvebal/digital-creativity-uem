@@ -1,4 +1,16 @@
 {
+  "_reconciliation": {
+    "checked": "2026-08-14",
+    "authority": "official PDF",
+    "source_url": "https://universidadeuropea.es/myfiles/pr/9729001108.pdf",
+    "pdf_academic_year": "2025-2026",
+    "pdf_pages": {
+      "identity": 1,
+      "formative": 3,
+      "evaluation": 4
+    },
+    "note": "Live PDF is still 2025-2026 (CD I has already rolled to 2026-27). Unicrawler hours and presencial evaluation already matched the PDF. Virtual evaluation really has no Caso/problema row (Informes 15 + Proyectos 20 + Cuaderno 10). Methodologies split from concatenated scrape. Learning-outcome bullets taken from PDF §3."
+  },
   "subject_name": "Creación Digital II",
   "official_title_name": "Grado en Comunicación y Gestión de Moda",
   "school_or_faculty": "Escuela de Arquitectura, Ingeniería y Diseño - Campus Creativo",
@@ -20,12 +32,22 @@
     "COMP8 Capacidad para manejar herramientas digitales de representación gráfica o audiovisual en la comunicación de ideas o proyectos de moda, creando y mejorando la imagen y la marca empresarial.",
     "COMP9. Capacidad para crear ideas nuevas y conceptos a partir de ideas y conceptos conocidos, llegando a conclusiones o resolviendo problemas, retos y situaciones de una forma original."
   ],
-  "learning_outcomes": [],
+  "learning_outcomes": [
+    "Aplicar herramientas informáticas avanzadas en la creación y la representación digital de creaciones de moda.",
+    "Realizar campañas digitales de moda.",
+    "Manejar formatos de archivo digitales propios y genéricos.",
+    "Realizar dibujos y vídeos técnicos de moda.",
+    "Maquetar proyectos y trabajos de diseño con calidad profesional.",
+    "Diseñar estrategias creativas de comunicación digital en empresas de moda."
+  ],
   "contents": "Retoque fotográfico avanzado de imágenes moda. Creación de avatares Diseño de experiencias de moda digitales Recursos digitales de edición de vídeo Maquetación, edición y creación de web y portfolio digital. Hologramas y R.A",
   "methodologies": {
     "General": [
+      "Clase magistral",
+      "Aprendizaje basado en problemas",
+      "Aprendizaje basado en proyectos",
       "Aprendizaje basado en enseñanzas de taller",
-      "Clase magistral Aprendizaje basado en problemas Aprendizaje basado en proyectos Entornos de simulación"
+      "Entornos de simulación"
     ]
   },
   "formative_activities": {

@@ -2,17 +2,23 @@
 
 Official CONTENIDOS need checkable references (**DOI and/or ISBN**) before CV / unit forge reading lists are honest.
 
-## Canonical resultants (promoted)
+## Promoted resultants
 
 | Location | Role |
 | -------- | ---- |
-| `profield/runs/digital-creativity/01/temario/*.pass1.resultant.mdc` | **Canonical** field grounding (6 files) |
-| `digital-creativity-pedagogy/grounding/temario/` | Teaching-repo mirror (same 6; no PDFs) |
+| `digital-creativity-pedagogy/grounding/temario/` | **Publication head** for the six promoted temario resultants |
+| `profield/runs/digital-creativity/01/temario/*.pass1.resultant.mdc` | Profield provenance/source-run copy |
 
 | Strand | Files |
 | ------ | ----- |
 | Technique | T1 · T2 · T3 |
 | Critical | C1 · C2 · C3 |
+
+Most former bibliography-data gaps have been repaired by later DOI/ISBN lookup,
+retrieval, metadata coats, and procurement notes. Treat remaining `BIBLIO-GAP` or
+`READY_DECLARED_GAP` labels as precise gates: page-level citation still needed,
+evaluator-safe coat not yet available, no OA/full text procured, or a real
+pedagogical research gap still being declared.
 
 ## PDF corpus + Ahmes path
 

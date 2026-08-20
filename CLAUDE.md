@@ -33,7 +33,7 @@ A **sovereign teaching site** for digital fashion creation — emancipated from 
 | **CD I** | 1 | 6 | Imágenes digitales · 2D (dibujo, color, bitmaps, efectos) · **forma tridimensional · Volumen** · referencias moda · animación · bodegones |
 | **CD II** | 2 | 6 | Retoque moda · **avatares** · **experiencias de moda digitales** · vídeo · **web y portfolio digital** · **Hologramas y R.A** |
 
-Presencial formative totals: CD I **140 h** · CD II **150 h**. Evaluation weights and activity names must match the JSON (PDF-check CD I presencial eval sum 85%).
+Presencial formative totals: CD I **150 h** · CD II **150 h** (PDF-patched 2026-08-14; the 140 h CD I figure was a dropped `Clases magistrales` row). Evaluation weights and activity names must match the JSON **after** the live PDF check (`oficial-guia-framework.mdc` §5–§6). CD I PDF is **2026-27**; CD II PDF is still **2025-2026**.
 
 Sister content stream (same campus triangle): **UDIT Diseño de Moda** authors garments in **CLO 3D**; FE II builds the web runtime. See synergy brief in Web Atelier `frontend-pedagogy/atelier-synergy-vshowroom.mdc` (cross-repo).
 
@@ -69,19 +69,19 @@ Pattern inspired by Web Atelier `frontend-pedagogy/` (grounding README, research
 | Cite | Ahmes `extraction.db` | `⟨coat⟩ · nodo ⟨id⟩ · p. ⟨n⟩` — **never cite vector snippets** |
 | Inject (optional) | Athanor | collective search infra — not a citation source |
 
-Authoring gate: [`dc-unit-forge.mdc`](digital-creativity-pedagogy/dc-unit-forge.mdc) · CV: [`dc-cv-forge.mdc`](digital-creativity-pedagogy/dc-cv-forge.mdc) · framework: [`oficial-guia-framework.mdc`](digital-creativity-pedagogy/oficial-guia-framework.mdc) · readiness: [`TEACHING-READINESS.mdc`](digital-creativity-pedagogy/TEACHING-READINESS.mdc) · citation: [`grounding/README.md`](digital-creativity-pedagogy/grounding/README.md).
+Authoring gate: [`dc-unit-forge.mdc`](digital-creativity-pedagogy/dc-unit-forge.mdc) · execute Wave 1: [`forge/CD-II-II.5.execute.md`](digital-creativity-pedagogy/forge/CD-II-II.5.execute.md) · CV: [`dc-cv-forge.mdc`](digital-creativity-pedagogy/dc-cv-forge.mdc) · framework: [`oficial-guia-framework.mdc`](digital-creativity-pedagogy/oficial-guia-framework.mdc) · units: [`cv/UNIT-PLAN.md`](digital-creativity-pedagogy/cv/UNIT-PLAN.md) · matrix: [`grounding/README.md`](digital-creativity-pedagogy/grounding/README.md) · consent: [`consent/README.md`](digital-creativity-pedagogy/consent/README.md) · readiness: [`TEACHING-READINESS.mdc`](digital-creativity-pedagogy/TEACHING-READINESS.mdc).
 
 ---
 
 ## 4. Hard rules
 
 1. **No cloud AI in teaching materials** — Ollama / local only for studio generation if used.
-2. **Student fashion work is authorial property** — exhibition needs per-artefact consent (synergy S1–S5).
+2. **Student fashion work is authorial property** — exhibition needs per-artefact **S1/S2** (`digital-creativity-pedagogy/consent/S-SET.md`). Research reuse needs **C-set**, IP-administered. Drafts are not DPO approval.
 3. **VTON / try-on is out of teaching sprint scope** — open research problem; showroom exhibits, does not fit.
 4. **Pages must not leak** `digital-creativity-pedagogy/`, `_research/`, or `private/`.
 5. **Authorship** — credit `ruvebal@crea-comm.net`; UEM affiliation on teaching surfaces; UDIT where research co-badges.
 6. **No citation without an Ahmes node** — DevIAC/Athanor find; vaults prove. Declared gaps when NONE.
-7. **Official guía JSON is the pedagogical contract** — hours, evaluation %, competencies, and CONTENIDOS from `cv/guides/*.json` (see `oficial-guia-framework.mdc`). No FE 10/30/14 substitution.
+7. **Official guía PDF (cloned to JSON) is the pedagogical contract** — hours, evaluation %, competencies, and CONTENIDOS from `cv/guides/*.json` after PDF check (see `oficial-guia-framework.mdc`). No FE 10/30/14 substitution. Course hour totals close at 150; per-session allocation lives in `tracks.yml` and must emit every contact-forgeable key.
 
 ---
 
