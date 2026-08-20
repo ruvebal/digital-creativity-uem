@@ -17,15 +17,15 @@ status: draft
 
 | Unidad | Lección | Clase de evidencia |
 | --- | --- | --- |
-| I.1 | [Introducción a las imágenes digitales](/lessons/es/creacion-digital-i/i-1-imagenes-digitales/) | SAFE, acotada — Shinkle (2008) fundamenta un marco de campo de prácticas, no pedagogía de herramienta |
-| I.2 | [Tecnología digital 2D: Herramientas de dibujo](/lessons/es/creacion-digital-i/i-2-dibujo-2d/) | NONE — laguna declarada |
-| I.3 | [Color, imágenes con mapas de bits](/lessons/es/creacion-digital-i/i-3-color-bitmaps/) | NONE — laguna declarada |
-| I.4 | [Efectos](/lessons/es/creacion-digital-i/i-4-efectos/) | NONE — laguna declarada |
-| I.5 | [Fundamentos y representación de la forma tridimensional](/lessons/es/creacion-digital-i/i-5-forma-tridimensional/) | SAFE, acotada — estructura 2D→3D realmente impartida, no validación de resultado de aprendizaje |
-| I.6 | [Volumen](/lessons/es/creacion-digital-i/i-6-volumen/) | SAFE, acotada — un caso de estudio híbrido, no un método generalizable |
-| I.7 | [Fuentes y referencias compositivas en el diseño de moda](/lessons/es/creacion-digital-i/i-7-referencias-moda/) | SAFE, acotada — Campinho et al. (2025) fundamenta la ética de búsqueda de imágenes, no un método de pedagogía de búsqueda; cita resuelta genuinamente desde `[BIBLIO-GAP]` esta sesión |
-| I.8 | [Creación de imágenes digitales animadas](/lessons/es/creacion-digital-i/i-8-animacion/) | NONE — laguna declarada; asignación de 0 h debates/resolución, expuesta en la página de la unidad |
-| I.9 | [Bodegones digitales](/lessons/es/creacion-digital-i/i-9-bodegones/) | NONE — ejercicio de síntesis declarado a través de I.1–I.4 |
+| I.1 | [Introducción a las imágenes digitales]({{ '/lessons/es/creacion-digital-i/i-1-imagenes-digitales/' | relative_url }}) | SAFE, acotada — Shinkle (2008) fundamenta un marco de campo de prácticas, no pedagogía de herramienta |
+| I.2 | [Tecnología digital 2D: Herramientas de dibujo]({{ '/lessons/es/creacion-digital-i/i-2-dibujo-2d/' | relative_url }}) | NONE — laguna declarada |
+| I.3 | [Color, imágenes con mapas de bits]({{ '/lessons/es/creacion-digital-i/i-3-color-bitmaps/' | relative_url }}) | NONE — laguna declarada |
+| I.4 | [Efectos]({{ '/lessons/es/creacion-digital-i/i-4-efectos/' | relative_url }}) | NONE — laguna declarada |
+| I.5 | [Fundamentos y representación de la forma tridimensional]({{ '/lessons/es/creacion-digital-i/i-5-forma-tridimensional/' | relative_url }}) | SAFE, acotada — estructura 2D→3D realmente impartida, no validación de resultado de aprendizaje |
+| I.6 | [Volumen]({{ '/lessons/es/creacion-digital-i/i-6-volumen/' | relative_url }}) | SAFE, acotada — un caso de estudio híbrido, no un método generalizable |
+| I.7 | [Fuentes y referencias compositivas en el diseño de moda]({{ '/lessons/es/creacion-digital-i/i-7-referencias-moda/' | relative_url }}) | SAFE, acotada — Campinho et al. (2025) fundamenta la ética de búsqueda de imágenes, no un método de pedagogía de búsqueda; cita resuelta genuinamente desde `[BIBLIO-GAP]` esta sesión |
+| I.8 | [Creación de imágenes digitales animadas]({{ '/lessons/es/creacion-digital-i/i-8-animacion/' | relative_url }}) | NONE — laguna declarada; asignación de 0 h debates/resolución, expuesta en la página de la unidad |
+| I.9 | [Bodegones digitales]({{ '/lessons/es/creacion-digital-i/i-9-bodegones/' | relative_url }}) | NONE — ejercicio de síntesis declarado a través de I.1–I.4 |
 
 ## Contenidos oficiales (guía)
 

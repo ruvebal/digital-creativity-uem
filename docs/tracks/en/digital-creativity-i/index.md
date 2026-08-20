@@ -17,15 +17,15 @@ status: draft
 
 | Unit | Lesson | Evidence class |
 | --- | --- | --- |
-| I.1 | [Introduction to Digital Images](/lessons/en/digital-creativity-i/i-1-digital-images/) | SAFE, narrow — Shinkle (2008) grounds a field-of-practices frame, not tool pedagogy |
-| I.2 | [2D Digital Technology: Drawing Tools](/lessons/en/digital-creativity-i/i-2-2d-drawing/) | NONE — declared gap |
-| I.3 | [Colour, Bitmap Images](/lessons/en/digital-creativity-i/i-3-color-bitmaps/) | NONE — declared gap |
-| I.4 | [Effects](/lessons/en/digital-creativity-i/i-4-effects/) | NONE — declared gap |
-| I.5 | [Fundamentals and Representation of Three-Dimensional Form](/lessons/en/digital-creativity-i/i-5-three-dimensional-form/) | SAFE, narrow — real taught 2D→3D structure, not learning-outcome validation |
-| I.6 | [Volume](/lessons/en/digital-creativity-i/i-6-volume/) | SAFE, narrow — one hybrid-studio case study, not a generalisable method |
-| I.7 | [Compositional Sources and References in Fashion Design](/lessons/en/digital-creativity-i/i-7-fashion-references/) | SAFE, narrow — Campinho et al. (2025) grounds image-sourcing ethics, not a sourcing-pedagogy method; citation genuinely resolved from `[BIBLIO-GAP]` this session |
-| I.8 | [Creating Animated Digital Images](/lessons/en/digital-creativity-i/i-8-animation/) | NONE — declared gap; 0 h debates/resolución allocation, disclosed on the unit page |
-| I.9 | [Digital Still Lifes (Bodegones)](/lessons/en/digital-creativity-i/i-9-bodegones/) | NONE — declared synthesis exercise across I.1–I.4 |
+| I.1 | [Introduction to Digital Images]({{ '/lessons/en/digital-creativity-i/i-1-digital-images/' | relative_url }}) | SAFE, narrow — Shinkle (2008) grounds a field-of-practices frame, not tool pedagogy |
+| I.2 | [2D Digital Technology: Drawing Tools]({{ '/lessons/en/digital-creativity-i/i-2-2d-drawing/' | relative_url }}) | NONE — declared gap |
+| I.3 | [Colour, Bitmap Images]({{ '/lessons/en/digital-creativity-i/i-3-color-bitmaps/' | relative_url }}) | NONE — declared gap |
+| I.4 | [Effects]({{ '/lessons/en/digital-creativity-i/i-4-effects/' | relative_url }}) | NONE — declared gap |
+| I.5 | [Fundamentals and Representation of Three-Dimensional Form]({{ '/lessons/en/digital-creativity-i/i-5-three-dimensional-form/' | relative_url }}) | SAFE, narrow — real taught 2D→3D structure, not learning-outcome validation |
+| I.6 | [Volume]({{ '/lessons/en/digital-creativity-i/i-6-volume/' | relative_url }}) | SAFE, narrow — one hybrid-studio case study, not a generalisable method |
+| I.7 | [Compositional Sources and References in Fashion Design]({{ '/lessons/en/digital-creativity-i/i-7-fashion-references/' | relative_url }}) | SAFE, narrow — Campinho et al. (2025) grounds image-sourcing ethics, not a sourcing-pedagogy method; citation genuinely resolved from `[BIBLIO-GAP]` this session |
+| I.8 | [Creating Animated Digital Images]({{ '/lessons/en/digital-creativity-i/i-8-animation/' | relative_url }}) | NONE — declared gap; 0 h debates/resolución allocation, disclosed on the unit page |
+| I.9 | [Digital Still Lifes (Bodegones)]({{ '/lessons/en/digital-creativity-i/i-9-bodegones/' | relative_url }}) | NONE — declared synthesis exercise across I.1–I.4 |
 
 ## Official contents (guía)
 

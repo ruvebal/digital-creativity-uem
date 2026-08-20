@@ -15,12 +15,12 @@ status: draft
 
 **Borrador — las seis unidades redactadas; el curso no es impartible de principio a fin.** Los seis anclajes CONTENIDOS tienen ya un par de lecciones redactado (EN+ES):
 
-- [II.1 · Retoque fotográfico avanzado de imágenes moda](/lessons/es/creacion-digital-ii/ii-1-retoque-moda/) — `[BIBLIO-GAP]` declarado, solo cita con vacío visible.
-- [II.2 · Creación de avatares](/lessons/es/creacion-digital-ii/ii-2-avatares/) — `[BIBLIO-GAP]` declarado, solo cita con vacío visible; VTON fuera de alcance.
-- [II.3 · Diseño de experiencias de moda digitales](/lessons/es/creacion-digital-ii/ii-3-experiencias-digitales/) — SAFE solo como evidencia de fenómeno (Kim 2023), no una secuencia de enseñanza validada.
-- [II.4 · Recursos digitales de edición de vídeo](/lessons/es/creacion-digital-ii/ii-4-video/) — vacío declarado completo, ningún coat citado.
-- [II.5 · Maquetación, edición y creación de web y portfolio digital](/lessons/es/creacion-digital-ii/ii-5-web-portfolio/) — SAFE para el marco de autoría/IA de taller (Anwar 2025, Rizzi 2025); los resultados de UX web de portfolio siguen siendo un vacío.
-- [II.6 · Hologramas y R.A.](/lessons/es/creacion-digital-ii/ii-6-hologramas-ra/) — piloto declarado, NONE para pedagogía de R.A.; reutiliza la cita de Kim de II.3 solo como paralelismo de tipo de estímulo, no evidencia independiente de R.A. VTON fuera de alcance.
+- [II.1 · Retoque fotográfico avanzado de imágenes moda]({{ '/lessons/es/creacion-digital-ii/ii-1-retoque-moda/' | relative_url }}) — `[BIBLIO-GAP]` declarado, solo cita con vacío visible.
+- [II.2 · Creación de avatares]({{ '/lessons/es/creacion-digital-ii/ii-2-avatares/' | relative_url }}) — `[BIBLIO-GAP]` declarado, solo cita con vacío visible; VTON fuera de alcance.
+- [II.3 · Diseño de experiencias de moda digitales]({{ '/lessons/es/creacion-digital-ii/ii-3-experiencias-digitales/' | relative_url }}) — SAFE solo como evidencia de fenómeno (Kim 2023), no una secuencia de enseñanza validada.
+- [II.4 · Recursos digitales de edición de vídeo]({{ '/lessons/es/creacion-digital-ii/ii-4-video/' | relative_url }}) — vacío declarado completo, ningún coat citado.
+- [II.5 · Maquetación, edición y creación de web y portfolio digital]({{ '/lessons/es/creacion-digital-ii/ii-5-web-portfolio/' | relative_url }}) — SAFE para el marco de autoría/IA de taller (Anwar 2025, Rizzi 2025); los resultados de UX web de portfolio siguen siendo un vacío.
+- [II.6 · Hologramas y R.A.]({{ '/lessons/es/creacion-digital-ii/ii-6-hologramas-ra/' | relative_url }}) — piloto declarado, NONE para pedagogía de R.A.; reutiliza la cita de Kim de II.3 solo como paralelismo de tipo de estímulo, no evidencia independiente de R.A. VTON fuera de alcance.
 
 El bucket de horas forjables de contacto (`tracks.yml` `sessions_list`) ahora cierra en **80/80 h** a través de estas seis sesiones. **Cerrar el bucket de horas no es lo mismo que el curso esté pedagógicamente completo** — cinco de seis unidades siguen declarando un vacío de investigación o solo evidencia parcial de fenómeno; solo el marco de autoría de II.5 y el marco de fenómeno de II.3 tienen alguna cita `evaluator_safe=yes`.
 
