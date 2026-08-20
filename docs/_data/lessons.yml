@@ -1,3 +1,212 @@
 # Lessons index — populated as units are authored.
 # Keep in sync with docs/lessons/{es,en}/**/index.md
-[]
+- slug: ii-5-web-portfolio
+  title:
+    es: 'II.5 · Maquetación, edición y creación de web y portfolio digital'
+    en: 'II.5 · Web Layout, Editing & Digital Portfolio Creation'
+  path:
+    es: /lessons/es/creacion-digital-ii/ii-5-web-portfolio/
+    en: /lessons/en/digital-creativity-ii/ii-5-web-portfolio/
+  file:
+    es: lessons/es/creacion-digital-ii/ii-5-web-portfolio/index.md
+    en: lessons/en/digital-creativity-ii/ii-5-web-portfolio/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-5-forma-tridimensional
+  title:
+    es: 'I.5 · Fundamentos y representación de la forma tridimensional'
+    en: 'I.5 · Fundamentals and Representation of Three-Dimensional Form'
+  path:
+    es: /lessons/es/creacion-digital-i/i-5-forma-tridimensional/
+    en: /lessons/en/digital-creativity-i/i-5-three-dimensional-form/
+  file:
+    es: lessons/es/creacion-digital-i/i-5-forma-tridimensional/index.md
+    en: lessons/en/digital-creativity-i/i-5-three-dimensional-form/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: ii-1-retoque-moda
+  title:
+    es: 'II.1 · Retoque fotográfico avanzado de imágenes moda'
+    en: 'II.1 · Advanced Photo Retouching for Fashion Images'
+  path:
+    es: /lessons/es/creacion-digital-ii/ii-1-retoque-moda/
+    en: /lessons/en/digital-creativity-ii/ii-1-retoque-moda/
+  file:
+    es: lessons/es/creacion-digital-ii/ii-1-retoque-moda/index.md
+    en: lessons/en/digital-creativity-ii/ii-1-retoque-moda/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: ii-2-avatares
+  title:
+    es: 'II.2 · Creación de avatares'
+    en: 'II.2 · Avatar Creation'
+  path:
+    es: /lessons/es/creacion-digital-ii/ii-2-avatares/
+    en: /lessons/en/digital-creativity-ii/ii-2-avatares/
+  file:
+    es: lessons/es/creacion-digital-ii/ii-2-avatares/index.md
+    en: lessons/en/digital-creativity-ii/ii-2-avatares/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: ii-3-experiencias-digitales
+  title:
+    es: 'II.3 · Diseño de experiencias de moda digitales'
+    en: 'II.3 · Designing Digital Fashion Experiences'
+  path:
+    es: /lessons/es/creacion-digital-ii/ii-3-experiencias-digitales/
+    en: /lessons/en/digital-creativity-ii/ii-3-experiencias-digitales/
+  file:
+    es: lessons/es/creacion-digital-ii/ii-3-experiencias-digitales/index.md
+    en: lessons/en/digital-creativity-ii/ii-3-experiencias-digitales/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: ii-4-video
+  title:
+    es: 'II.4 · Recursos digitales de edición de vídeo'
+    en: 'II.4 · Digital Video Editing Resources'
+  path:
+    es: /lessons/es/creacion-digital-ii/ii-4-video/
+    en: /lessons/en/digital-creativity-ii/ii-4-video/
+  file:
+    es: lessons/es/creacion-digital-ii/ii-4-video/index.md
+    en: lessons/en/digital-creativity-ii/ii-4-video/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: ii-6-hologramas-ra
+  title:
+    es: 'II.6 · Hologramas y R.A.'
+    en: 'II.6 · Holograms & Augmented Reality'
+  path:
+    es: /lessons/es/creacion-digital-ii/ii-6-hologramas-ra/
+    en: /lessons/en/digital-creativity-ii/ii-6-hologramas-ra/
+  file:
+    es: lessons/es/creacion-digital-ii/ii-6-hologramas-ra/index.md
+    en: lessons/en/digital-creativity-ii/ii-6-hologramas-ra/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-6-volumen
+  title:
+    es: 'I.6 · Volumen'
+    en: 'I.6 · Volume'
+  path:
+    es: /lessons/es/creacion-digital-i/i-6-volumen/
+    en: /lessons/en/digital-creativity-i/i-6-volume/
+  file:
+    es: lessons/es/creacion-digital-i/i-6-volumen/index.md
+    en: lessons/en/digital-creativity-i/i-6-volume/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-1-imagenes-digitales
+  title:
+    es: 'I.1 · Introducción a las imágenes digitales'
+    en: 'I.1 · Introduction to Digital Images'
+  path:
+    es: /lessons/es/creacion-digital-i/i-1-imagenes-digitales/
+    en: /lessons/en/digital-creativity-i/i-1-digital-images/
+  file:
+    es: lessons/es/creacion-digital-i/i-1-imagenes-digitales/index.md
+    en: lessons/en/digital-creativity-i/i-1-digital-images/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-2-dibujo-2d
+  title:
+    es: 'I.2 · Tecnología digital 2D: Herramientas de dibujo'
+    en: 'I.2 · 2D Digital Technology: Drawing Tools'
+  path:
+    es: /lessons/es/creacion-digital-i/i-2-dibujo-2d/
+    en: /lessons/en/digital-creativity-i/i-2-2d-drawing/
+  file:
+    es: lessons/es/creacion-digital-i/i-2-dibujo-2d/index.md
+    en: lessons/en/digital-creativity-i/i-2-2d-drawing/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-3-color-bitmaps
+  title:
+    es: 'I.3 · Color, imágenes con mapas de bits'
+    en: 'I.3 · Colour, Bitmap Images'
+  path:
+    es: /lessons/es/creacion-digital-i/i-3-color-bitmaps/
+    en: /lessons/en/digital-creativity-i/i-3-color-bitmaps/
+  file:
+    es: lessons/es/creacion-digital-i/i-3-color-bitmaps/index.md
+    en: lessons/en/digital-creativity-i/i-3-color-bitmaps/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-4-efectos
+  title:
+    es: 'I.4 · Efectos'
+    en: 'I.4 · Effects'
+  path:
+    es: /lessons/es/creacion-digital-i/i-4-efectos/
+    en: /lessons/en/digital-creativity-i/i-4-effects/
+  file:
+    es: lessons/es/creacion-digital-i/i-4-efectos/index.md
+    en: lessons/en/digital-creativity-i/i-4-effects/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-7-referencias-moda
+  title:
+    es: 'I.7 · Fuentes y referencias compositivas en el diseño de moda'
+    en: 'I.7 · Compositional Sources and References in Fashion Design'
+  path:
+    es: /lessons/es/creacion-digital-i/i-7-referencias-moda/
+    en: /lessons/en/digital-creativity-i/i-7-fashion-references/
+  file:
+    es: lessons/es/creacion-digital-i/i-7-referencias-moda/index.md
+    en: lessons/en/digital-creativity-i/i-7-fashion-references/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-8-animacion
+  title:
+    es: 'I.8 · Creación de imágenes digitales animadas'
+    en: 'I.8 · Creating Animated Digital Images'
+  path:
+    es: /lessons/es/creacion-digital-i/i-8-animacion/
+    en: /lessons/en/digital-creativity-i/i-8-animation/
+  file:
+    es: lessons/es/creacion-digital-i/i-8-animacion/index.md
+    en: lessons/en/digital-creativity-i/i-8-animation/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson
+- slug: i-9-bodegones
+  title:
+    es: 'I.9 · Bodegones digitales'
+    en: 'I.9 · Digital Still Lifes (Bodegones)'
+  path:
+    es: /lessons/es/creacion-digital-i/i-9-bodegones/
+    en: /lessons/en/digital-creativity-i/i-9-bodegones/
+  file:
+    es: lessons/es/creacion-digital-i/i-9-bodegones/index.md
+    en: lessons/en/digital-creativity-i/i-9-bodegones/index.md
+  status:
+    es: draft
+    en: draft
+  type: lesson

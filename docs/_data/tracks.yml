@@ -1,30 +1,212 @@
+# Track registry. Course-level hours close to the official PDFs (2026-08-14).
+# Per-session allocation is empty on purpose — analog of the FE tracks.yml
+# defect (duration/labHours only). Do not invent sessions to make 80 h look
+# distributed. Keys: oficial-guia-framework.mdc §5.
+
 - slug: creacion-digital-i
   title:
-   es: 'Creación Digital I — Forma tridimensional'
-   en: 'Digital Creativity I — Three-dimensional form'
+    es: 'Creación Digital I — Forma tridimensional'
+    en: 'Digital Creativity I — Three-dimensional form'
   path:
-   es: /tracks/es/creacion-digital-i/
-   en: /tracks/en/digital-creativity-i/
+    es: /tracks/es/creacion-digital-i/
+    en: /tracks/en/digital-creativity-i/
   file:
-   es: tracks/es/creacion-digital-i/index.md
-   en: tracks/en/digital-creativity-i/index.md
+    es: tracks/es/creacion-digital-i/index.md
+    en: tracks/en/digital-creativity-i/index.md
   status:
-   es: scaffold
-   en: scaffold
+    es: draft
+    en: draft
   type: track
-  duration: 'S1 · 6 ECTS'
+  duration: 'S1 · 6 ECTS · 150 h'
+  academic_year: '2026-27'
+  modality: presencial
+  source_url: 'https://universidadeuropea.es/myfiles/pr/9729001103.pdf'
+  formative_hours:
+    clases_magistrales: 10
+    seminarios: 20
+    resolucion_problemas: 8
+    investigaciones_proyectos: 20
+    talleres_labs: 14
+    trabajo_autonomo: 56
+    debates: 8
+    tutoria: 12
+    pruebas: 2
+  formative_hours_total: 150
+  contact_forgeable_hours: 80
+  evaluation_weights:
+    pruebas: 55
+    caso_problema: 15
+    investigaciones_proyectos: 20
+    cuaderno_taller: 10
+  sessions_list:
+    - title: 'I.5 Forma tridimensional'
+      slug: 'i-5-forma-tridimensional'
+      unit_id: I.5
+      clases_magistrales: 1
+      seminarios: 2
+      debates: 1
+      talleres_labs: 2
+      investigaciones_proyectos: 2
+      resolucion_problemas: 1
+    - title: 'I.6 Volumen'
+      slug: 'i-6-volumen'
+      unit_id: I.6
+      clases_magistrales: 1
+      seminarios: 2
+      debates: 1
+      talleres_labs: 2
+      investigaciones_proyectos: 2
+      resolucion_problemas: 1
+    - title: 'I.1 Imágenes digitales'
+      slug: 'i-1-imagenes-digitales'
+      unit_id: I.1
+      clases_magistrales: 2
+      seminarios: 3
+      debates: 1
+      talleres_labs: 2
+      investigaciones_proyectos: 3
+      resolucion_problemas: 1
+    - title: 'I.2 Dibujo 2D'
+      slug: 'i-2-dibujo-2d'
+      unit_id: I.2
+      clases_magistrales: 1
+      seminarios: 2
+      debates: 1
+      talleres_labs: 1
+      investigaciones_proyectos: 2
+      resolucion_problemas: 1
+    - title: 'I.3 Color y mapas de bits'
+      slug: 'i-3-color-bitmaps'
+      unit_id: I.3
+      clases_magistrales: 1
+      seminarios: 2
+      debates: 1
+      talleres_labs: 1
+      investigaciones_proyectos: 2
+      resolucion_problemas: 1
+    - title: 'I.4 Efectos'
+      slug: 'i-4-efectos'
+      unit_id: I.4
+      clases_magistrales: 1
+      seminarios: 2
+      debates: 1
+      talleres_labs: 1
+      investigaciones_proyectos: 2
+      resolucion_problemas: 1
+    - title: 'I.7 Referencias de moda'
+      slug: 'i-7-referencias-moda'
+      unit_id: I.7
+      clases_magistrales: 1
+      seminarios: 2
+      debates: 1
+      talleres_labs: 2
+      investigaciones_proyectos: 2
+      resolucion_problemas: 1
+    - title: 'I.8 Animación'
+      slug: 'i-8-animacion'
+      unit_id: I.8
+      clases_magistrales: 1
+      seminarios: 2
+      debates: 0
+      talleres_labs: 1
+      investigaciones_proyectos: 2
+      resolucion_problemas: 0
+    - title: 'I.9 Bodegones'
+      slug: 'i-9-bodegones'
+      unit_id: I.9
+      clases_magistrales: 1
+      seminarios: 3
+      debates: 1
+      talleres_labs: 2
+      investigaciones_proyectos: 3
+      resolucion_problemas: 1
 - slug: creacion-digital-ii
   title:
-   es: 'Creación Digital II — Avatares, portfolio web, R.A.'
-   en: 'Digital Creativity II — Avatars, web portfolio, AR'
+    es: 'Creación Digital II — Avatares, portfolio web, R.A.'
+    en: 'Digital Creativity II — Avatars, web portfolio, AR'
   path:
-   es: /tracks/es/creacion-digital-ii/
-   en: /tracks/en/digital-creativity-ii/
+    es: /tracks/es/creacion-digital-ii/
+    en: /tracks/en/digital-creativity-ii/
   file:
-   es: tracks/es/creacion-digital-ii/index.md
-   en: tracks/en/digital-creativity-ii/index.md
+    es: tracks/es/creacion-digital-ii/index.md
+    en: tracks/en/digital-creativity-ii/index.md
   status:
-   es: scaffold
-   en: scaffold
+    es: draft
+    en: draft
   type: track
-  duration: 'S2 · 6 ECTS'
+  duration: 'S2 · 6 ECTS · 150 h'
+  academic_year: '2025-2026'
+  modality: presencial
+  source_url: 'https://universidadeuropea.es/myfiles/pr/9729001108.pdf'
+  formative_hours:
+    clases_magistrales: 10
+    seminarios: 20
+    resolucion_problemas: 8
+    proyectos: 20
+    talleres_labs: 14
+    trabajo_autonomo: 56
+    debates: 8
+    tutoria: 12
+    pruebas: 2
+  formative_hours_total: 150
+  contact_forgeable_hours: 80
+  evaluation_weights:
+    pruebas: 55
+    informes_escritos: 15
+    caso_problema: 20
+    proyectos: 10
+  sessions_list:
+    - title: 'II.5 Web y portfolio'
+      slug: 'ii-5-web-portfolio'
+      unit_id: II.5
+      clases_magistrales: 2
+      seminarios: 3
+      debates: 1
+      talleres_labs: 3
+      proyectos: 4
+      resolucion_problemas: 1
+    - title: 'II.1 Retoque moda'
+      slug: 'ii-1-retoque-moda'
+      unit_id: II.1
+      clases_magistrales: 2
+      seminarios: 4
+      debates: 2
+      talleres_labs: 3
+      proyectos: 4
+      resolucion_problemas: 2
+    - title: 'II.2 Avatares'
+      slug: 'ii-2-avatares'
+      unit_id: II.2
+      clases_magistrales: 2
+      seminarios: 3
+      debates: 1
+      talleres_labs: 2
+      proyectos: 3
+      resolucion_problemas: 1
+    - title: 'II.3 Experiencias digitales'
+      slug: 'ii-3-experiencias-digitales'
+      unit_id: II.3
+      clases_magistrales: 1
+      seminarios: 3
+      debates: 1
+      talleres_labs: 2
+      proyectos: 3
+      resolucion_problemas: 1
+    - title: 'II.4 Vídeo'
+      slug: 'ii-4-video'
+      unit_id: II.4
+      clases_magistrales: 2
+      seminarios: 4
+      debates: 2
+      talleres_labs: 3
+      proyectos: 3
+      resolucion_problemas: 2
+    - title: 'II.6 Hologramas y R.A.'
+      slug: 'ii-6-hologramas-ra'
+      unit_id: II.6
+      clases_magistrales: 1
+      seminarios: 3
+      debates: 1
+      talleres_labs: 1
+      proyectos: 3
+      resolucion_problemas: 1
