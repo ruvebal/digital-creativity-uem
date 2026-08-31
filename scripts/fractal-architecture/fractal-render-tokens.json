@@ -1,0 +1,16 @@
+{
+  "$comment": "Design tokens for fractal-architect renderers. No renderer script may hardcode a color literal — every RGB value used to paint a pixel comes from here, keyed by the render brief's palette_hint. Values are 8-bit sRGB triples.",
+  "palettes": {
+    "dark-only, cool boundary / warm interior": {
+      "bounded_rgb": [8, 10, 18],
+      "exterior_start_rgb": [20, 160, 90],
+      "exterior_end_rgb": [200, 40, 230],
+      "description": "Julia/escape-time: dark near-black for the bounded set; exterior points interpolate from cool green (fast escape) to warm magenta (slow escape, near boundary)."
+    },
+    "dark-only, single warm accent on point density": {
+      "background_rgb": [8, 10, 18],
+      "accent_rgb": [235, 178, 96],
+      "description": "IFS chaos-game: dark ground; hit density at each pixel interpolates toward a single warm accent, gamma-compressed so sparse orbit tails stay visible."
+    }
+  }
+}

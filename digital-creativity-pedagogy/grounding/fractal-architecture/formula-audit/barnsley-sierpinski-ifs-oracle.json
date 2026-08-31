@@ -1,0 +1,33 @@
+{
+  "source": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Michael F. Barnsley, Robert L. Devaney, Benoit B. Mandelbrot, He - The science of fractal images (1988, Springer) [10.1007_978-1-4612-3784-6].pdf",
+  "title": "The Science of Fractal Images",
+  "author": "Barnsley, M. F. (with Devaney, Mandelbrot, Peitgen, Saupe, Voss)",
+  "purpose": "AFEL §4.1 iterated-system (IFS) canary fixture. Section 5.3, p.225 (db_page_index 239), Eq. (5.1).",
+  "equations": [
+    {
+      "id": "eq-1",
+      "source_page": 225,
+      "db_page_index": 239,
+      "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+      "required_tokens": ["P", "w_1", "cup", "w_2", "w_N"],
+      "symbol_classes": ["SUB", "MEM"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "iteration_law",
+      "note": "The generalized Chaos Game / Hutchinson operator, Eq. (5.1) of Barnsley et al. 1988. Visually verified against page-239.png: candidate 9a6f946c-5297-5399-b7d5-424821f68aae (node 38936517-77d1-5fe7-8ce3-cb57338f874c)."
+    },
+    {
+      "id": "eq-2",
+      "source_page": 225,
+      "db_page_index": 239,
+      "latex": "w(x,y)=\\left(\\tfrac{1}{2}x+\\tfrac{1}{4}y+1,\\ \\tfrac{1}{4}x+\\tfrac{1}{2}y+0.5\\right)",
+      "required_tokens": ["w(x,y)", "1/2", "1/4", "+1", "0.5"],
+      "symbol_classes": ["FRAC"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "worked_example_single_transform",
+      "note": "Fig. 5.3's single contractive affine map ('puts the eyes closer together') — one illustrative w_i, not the unlisted N=5 set behind Fig. 5.4. Visually verified: candidate 73626946-3c7c-5885-839e-5a57171c3f04 (node 4ac5d391-be0c-5798-95d7-2e5fbf243e59); matrix form also legible on the same page."
+    }
+  ],
+  "render_note": "The book states its own Fig. 5.4 example used 'five affine transformations, which themselves were somewhat arbitrarily chosen' but does not print their coefficients on this page — only the general law (eq-1) and one single-map illustration (eq-2) are page-verified. The actual render therefore instantiates eq-1 with the canonical, independently published N=3 Sierpinski-triangle coefficients (Hutchinson 1981; Barnsley, Fractals Everywhere, 1988), not a re-transcription of this specific book's unlisted Fig. 5.4 set. See render-brief parameter_envelope for exact values and this distinction."
+}
