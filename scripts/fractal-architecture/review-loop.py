@@ -21,12 +21,15 @@ Author: Rubén Vega Balbás PhD (ECSIT / UDIT)
 from __future__ import annotations
 
 import json
+import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any, Optional
 
 AHMES = Path.home() / "src/ahmes/.venv/bin/ahmes"
+REVIEW_TMP_DIR = Path(tempfile.gettempdir()) / "afel-review-crops"
 QUEUE = (
     Path.home()
     / "projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem"
@@ -73,6 +76,43 @@ def next_candidate() -> Optional[dict[str, Any]]:
         if candidate["candidate_id"] not in handled:
             return candidate
     return None
+
+
+def _close_previous_review_windows() -> None:
+    """Close only Preview windows this script opened (name prefix afel_),
+    never touching unrelated windows the user has open elsewhere.
+
+    Best-effort: needs macOS Automation permission for whatever runs this
+    script to control Preview (System Settings > Privacy & Security >
+    Automation) — first run may prompt for it. If it's denied or not yet
+    granted, this silently no-ops (AppleScript's `close` on a window doesn't
+    raise even when blocked) — windows will pile up, but each is still
+    labeled with its candidate_id, which is the actual fix for "can't match
+    pngs and terminal text." Closing old ones is cosmetic on top of that."""
+    script = '''
+    tell application "Preview"
+        if it is running then
+            try
+                close (every window whose name starts with "afel_")
+            end try
+        end if
+    end tell
+    '''
+    subprocess.run(["osascript", "-e", script], capture_output=True)
+
+
+def open_crop_labeled(crop_path: Path, candidate_id: str, page_index: Any) -> Path:
+    """Copy the crop to a temp file named with the candidate_id, so the
+    Preview window title is matchable against the terminal — the original
+    crop filename is the *node_id*, a different UUID with no visible
+    relation to candidate_id, which is what made this unmatchable before."""
+    REVIEW_TMP_DIR.mkdir(parents=True, exist_ok=True)
+    short_id = candidate_id.split("-")[0]
+    labeled_path = REVIEW_TMP_DIR / f"afel_{short_id}_p{page_index}{crop_path.suffix}"
+    shutil.copyfile(crop_path, labeled_path)
+    _close_previous_review_windows()
+    subprocess.run(["open", str(labeled_path)])
+    return labeled_path
 
 
 def prompt_choice(label: str, choices: list[str], allow_blank: bool = False) -> str:
@@ -153,8 +193,10 @@ def main() -> int:
                     crop_path = candidate_crop
                     break
         if crop_path:
+            labeled = open_crop_labeled(crop_path, candidate["candidate_id"], candidate["page_index"])
             print(f"crop          {crop_path}")
-            subprocess.run(["open", str(crop_path)])
+            print(f"  → opened as {labeled.name}  (Preview window title matches this — "
+                  f"candidate_id starts with the same '{candidate['candidate_id'].split('-')[0]}')")
         else:
             print("crop          (not found on disk)")
         print("=" * 78)
