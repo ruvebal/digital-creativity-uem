@@ -1,0 +1,33 @@
+{
+  "source": "/Users/ruvebal/ahmes-library/scholar/documents/przemyslaw_prusinkiewicz_aristid_lindenmayer_the_algorithmic_beauty_of_plants_2004_springer_18843e8f/source/original/Przemyslaw Prusinkiewicz, Aristid Lindenmayer - The Algorithmic Beauty of Plants (2004, Springer).pdf",
+  "title": "The Algorithmic Beauty of Plants",
+  "author": "Prusinkiewicz, P. & Lindenmayer, A. (1990/2004, Springer)",
+  "purpose": "AFEL formula promotion — canonical, geometrically-interpretable L-system (parametric, bracketed), chapter 8. Book's own Figure 8.5 illustrates the exact structures this production rule generates.",
+  "equations": [
+    {
+      "id": "eq-1",
+      "source_page": 187,
+      "db_page_index": 187,
+      "latex": "\\omega: A(1);\\quad p_1: A(s):* \\to F(s)[+A(s/R)][-A(s/R)]F(s)A(s/R)",
+      "required_tokens": ["A(1)", "A(s)", "F(s)", "A(s/R)"],
+      "symbol_classes": ["SUB", "DELIM"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "iteration_law",
+      "note": "Eq. (8.2) — axiom A(1), parametric production rule for a self-similar branching tree with scale factor R. Visually verified against page-187.png: candidate c118904a-c173-5741-b109-934d043bf3d7 (node 9c922fe1-d1b4-55f7-8431-b3f44d1abc8d). Figure 8.5 on the same page shows the actual generated tree structures (parts a/b, 3 derivation steps each)."
+    },
+    {
+      "id": "eq-2",
+      "source_page": 187,
+      "db_page_index": 187,
+      "latex": "A_n(s) = F(s)[+A_{n-1}(s/R)][-A_{n-1}(s/R)]F(s)A_{n-1}(s/R)",
+      "required_tokens": ["A_n(s)", "F(s)", "A_{n-1}(s/R)"],
+      "symbol_classes": ["SUB", "DELIM"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "derivation_step",
+      "note": "Eq. (8.3) — the general n-step derivation, immediate consequence of (8.2) ('According to production p1, the following equality holds'). Visually verified: candidate 98b00d7f-42d4-5136-9e03-58a96cfddf10 (node a4d053ca-21c8-51d9-ab3c-35c07ab230bd)."
+    }
+  ],
+  "render_note": "The production rule (eq-1) is fully page-verified. The turn angle and scale factor R are not given as explicit numeric values on this page (R is a symbolic parameter throughout; the branching angle is implicit in Figure 8.5's own rendering, not stated as a number in the surrounding text). The render therefore uses standard, commonly-published L-system parameters for this exact structure class (symmetric branching, angle ~25-30 degrees, R~0.7 scale-down per level) rather than a corpus-extracted numeric value — stated explicitly here, not silently assumed, matching the same disclosure pattern used for the Barnsley/Sierpinski IFS fixture."
+}

@@ -11,6 +11,12 @@
       "background_rgb": [8, 10, 18],
       "accent_rgb": [235, 178, 96],
       "description": "IFS chaos-game: dark ground; hit density at each pixel interpolates toward a single warm accent, gamma-compressed so sparse orbit tails stay visible."
+    },
+    "dark-only, single warm accent on branch depth": {
+      "background_rgb": [8, 10, 18],
+      "trunk_rgb": [200, 214, 150],
+      "tip_rgb": [96, 214, 150],
+      "description": "L-system turtle graphics: dark ground; branch color interpolates from a pale trunk tone at depth 0 to a cooler green accent at the outermost tips, evoking new growth without a literal green-on-black cliche."
     }
   }
 }
