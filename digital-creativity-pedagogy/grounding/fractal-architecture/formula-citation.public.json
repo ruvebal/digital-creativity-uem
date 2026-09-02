@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "formula_id": "15b9f228-d71a-5ae6-9603-b04a50df131e",
+  "style": "chicago-author-date",
+  "evaluator_safe": true,
+  "inline": "(Drakopoulos 2002, 1)",
+  "chicago": "Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161."
+}

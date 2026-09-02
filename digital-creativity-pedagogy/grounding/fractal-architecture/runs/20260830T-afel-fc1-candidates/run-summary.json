@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "phase": "12H.FC1",
+  "status": "REVIEW_REQUIRED",
+  "input_databases": 13,
+  "total_candidates": 5783,
+  "with_context_cues": 4093,
+  "cue_score_gte_4": 1562,
+  "with_before_and_after_context": 5783,
+  "with_crop_sha256": 5783,
+  "valid_bboxes": 5783,
+  "invalid_bboxes": 0,
+  "clusters": 5685,
+  "reduced_review_queue": 318,
+  "equation_cross_reference_candidates": 268,
+  "empty_raw_text": 64,
+  "empty_normalized_text": 5775,
+  "agent_ranking_run": false,
+  "promotion_run": false,
+  "next_gate": "Qwen role hypotheses as append-only sidecar, followed by human review"
+}

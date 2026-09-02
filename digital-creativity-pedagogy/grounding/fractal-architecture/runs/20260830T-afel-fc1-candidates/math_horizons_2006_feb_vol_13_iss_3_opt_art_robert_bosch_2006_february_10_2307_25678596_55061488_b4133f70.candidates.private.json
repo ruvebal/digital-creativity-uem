@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "status": "REVIEW_REQUIRED",
+  "database": "/Users/ruvebal/ahmes-library/scholar/documents/math_horizons_2006_feb_vol_13_iss_3_opt_art_robert_bosch_2006_february_10_2307_25678596_55061488_b4133f70/extract/extraction.db",
+  "candidate_count": 4,
+  "policy": {
+    "context_is_evidence_not_verdict": true,
+    "agent_may_rank_but_not_assign_derivation_role": true,
+    "unattended_promotion": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "da1f9618-b57e-573f-970d-b14da678f300",
+      "document_id": "6208f163-e7a3-5a7e-b606-4b6db2e32d37",
+      "node_id": "36442dfe-0acb-52a4-a53c-1c250737764b",
+      "page_index": 2,
+      "bbox": [
+        35.88,
+        531.9100000000001,
+        286.71999999999997,
+        434.2852786885246
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/36442dfe-0acb-52a4-a53c-1c250737764b.png",
+      "crop_sha256": "6f2ebe50a9268f42594fa0ff881db6730c4ea33324906eebee4ae27a7c33eedf",
+      "raw_text": "minimize ?(*/-?(, )  *fij feF i=\\  j=\\ m n subject to ^ *jLxfij -uf  f?r eacn/  G F i=\\  7=1 ^ xfij = 1 for  each  1 <  / <  m,  1 < j <  n feF xfij e  {0,1} for  each/ e  F, 1 < i  <  m,  1 < j <  n",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "d82f273f-5e12-58ad-b1ec-360843f94309",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "Note that we have a binary variable xfij for each photograph feF and each square (ij) of our canvas. We interpret xfij = 1 to mean that we should place photograph/in square (ij), and Xfij = 0 to mean that we definitely should not make this partic ular placement."
+        },
+        {
+          "node_id": "17e58277-7685-5f70-a917-85514472b25a",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "Figure 2. A domino portrait of Venus from Botticelli's \"The Birth of Venus\" created with nine complete sets of double-nine dominoes."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "55d1101c-0556-579e-8a5f-a40972538683",
+          "page_index": 2,
+          "block_type": "heading",
+          "text": "Photomosaic IP"
+        },
+        {
+          "node_id": "87218cdf-80a2-5967-a91e-9f9c5b30818c",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "This task is very well suited to optimization. When trans lated into the language of mathematics, it becomes an integer program (IP), an optimization problem with a linear objective function, linear constraints (inequalities and/or equations), and variables that take on integer values:"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "b4133f702e648a9d5691a27c62926ecdb0b8b04df242d7dea0d364cee25b17bf",
+      "database_sha256": "b8b8fa671b1d675cbd7378cf42b56a8f1af9e9cfba609c12ceee12eeb05a444d"
+    },
+    {
+      "candidate_id": "004836db-4ae7-5057-858a-adabc517e823",
+      "document_id": "6208f163-e7a3-5a7e-b606-4b6db2e32d37",
+      "node_id": "8b5a43dd-da1b-56fe-bcc0-7b68761bb3ac",
+      "page_index": 3,
+      "bbox": [
+        39.72,
+        185.904,
+        267.32,
+        72.60527868852455
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/8b5a43dd-da1b-56fe-bcc0-7b68761bb3ac.png",
+      "crop_sha256": "28f932d0d1f5498c60797188a92ec54eac8c9fc2d010dada554f341a53729d49",
+      "raw_text": "Domino IP minimize ^ ]T cdpxdp dsD peP subject  to ^ xdp =  s for  each d e D peP X X Xdp =  *  f?r eacn * -  '  -  m'  * -  J ~ n deD peP: pHti) xdp e  {0,1} for  each d e  D, p  e P.",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "57f5d5c0-0325-56a3-9c22-651c2ad6e7ba",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "congruent squares. We denote the brightness of the row-/ column-y square?square (/,/) ?of our target image by p,7, using the same 0-to-l, black-to-white scale we use for the ?ys. Our task amounts to placing photographs from F onto our canvas, one photograph per square. Our goal is to pick the pho tographs and place them on the canvas in such a way that the arrangement of photographs resembles our target image as closely as possible."
+        },
+        {
+          "node_id": "26cd3864-81dc-5563-93f4-8d1c6cb31579",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "Figure 3. Michaelangelo's \"David\" using diamond-shaped tiles with edge constraints."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "c18c08ee-5030-5570-84ae-58087d6b61d2",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "we can then proceed as we did before: we can introduce a binary variable xdp for each domino d 'mD and each pair p in P. We interpret xdp = 1 to mean that we should place domino d on the board in such a way that it covers the squares in pair p\\ we interpret xdp = 0 to mean that we shouldn't do this. And we quickly arrive at the following integer program:"
+        },
+        {
+          "node_id": "caf7767a-c284-59d6-b7e3-be20ec0d2540",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "Recall that constructing a photomosaic requires us to make a yes-no decision for each possible assignment of a photo graph /to a square (ij) of the canvas, and that in our Photo mosaic IP we modeled this via binary variables x^. Con structing a domino portrait is more complicated in that we need to make a yes-no decision for each possible assignment of a domino d to a pair of adjacent squares of the canvas. But if we construct the set of all adjacent pairs of squares"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "b4133f702e648a9d5691a27c62926ecdb0b8b04df242d7dea0d364cee25b17bf",
+      "database_sha256": "b8b8fa671b1d675cbd7378cf42b56a8f1af9e9cfba609c12ceee12eeb05a444d"
+    },
+    {
+      "candidate_id": "dac755e1-cd8e-5100-8206-30df25fd20c8",
+      "document_id": "6208f163-e7a3-5a7e-b606-4b6db2e32d37",
+      "node_id": "1e937a14-6138-5673-9886-ef04d6d64570",
+      "page_index": 3,
+      "bbox": [
+        52.92,
+        309.144,
+        281.71,
+        281.7165983606558
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/1e937a14-6138-5673-9886-ef04d6d64570.png",
+      "crop_sha256": "4f241d4e28bce0a41d495e0c3c63365eaa50fab438ece3955cbeba2dea25b80a",
+      "raw_text": "P  = {{(iJ),(i +  hj)}'.l<i<m-h l<j<n} u {{(/J), (ij +1)} :  1 <  i <  m, 1 <  j  < n -1},",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "26cd3864-81dc-5563-93f4-8d1c6cb31579",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "Figure 3. Michaelangelo's \"David\" using diamond-shaped tiles with edge constraints."
+        },
+        {
+          "node_id": "c18c08ee-5030-5570-84ae-58087d6b61d2",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "we can then proceed as we did before: we can introduce a binary variable xdp for each domino d 'mD and each pair p in P. We interpret xdp = 1 to mean that we should place domino d on the board in such a way that it covers the squares in pair p\\ we interpret xdp = 0 to mean that we shouldn't do this. And we quickly arrive at the following integer program:"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "caf7767a-c284-59d6-b7e3-be20ec0d2540",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "Recall that constructing a photomosaic requires us to make a yes-no decision for each possible assignment of a photo graph /to a square (ij) of the canvas, and that in our Photo mosaic IP we modeled this via binary variables x^. Con structing a domino portrait is more complicated in that we need to make a yes-no decision for each possible assignment of a domino d to a pair of adjacent squares of the canvas. But if we construct the set of all adjacent pairs of squares"
+        },
+        {
+          "node_id": "13dcf7c8-e8f1-5fcb-bf12-6a04db8376bc",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "At first glance, the Domino Problem appears to be another instance of the Assignment Problem. After all, we are assigning dominoes to pairs of adjacent squares of the canvas, making sure that each domino is used s times. But note that instead of requiring that each pair of adjacent squares receives"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "b4133f702e648a9d5691a27c62926ecdb0b8b04df242d7dea0d364cee25b17bf",
+      "database_sha256": "b8b8fa671b1d675cbd7378cf42b56a8f1af9e9cfba609c12ceee12eeb05a444d"
+    },
+    {
+      "candidate_id": "3d989ce5-d0c2-55d0-9503-4f9dd107d00a",
+      "document_id": "6208f163-e7a3-5a7e-b606-4b6db2e32d37",
+      "node_id": "b530f015-5efe-5bb9-91ca-22020d9be9bf",
+      "page_index": 3,
+      "bbox": [
+        303.6,
+        555.144,
+        435.58399999999983,
+        529.0852786885246
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/b530f015-5efe-5bb9-91ca-22020d9be9bf.png",
+      "crop_sha256": "cb723484940ce183bec0dd4f06f634d7da61520f59ccd846c6a03a2b8378dba4",
+      "raw_text": "cdp=min{(dl-piijt)2+(d2-l3i2h)2, (4-A2,2)2+(<*2-A,,-,)2}",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "1109dbc6-28f1-5a47-af57-711732f29c3d",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "Finally, note that it is convenient here to denote the brightness of the row-/-column-y square of our target image by an integer 0<Pij<9 (or if we want higher resolution, with a real number -0.5 << 9.5). A completely black square will be given a brightness of 0 (or -0.5), and a complete white square will be given a brightness of 9 (or 9.5)."
+        },
+        {
+          "node_id": "0da33968-e7e1-5b62-94f4-a7839d1f50d9",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "As for the constraints, they are very easy to understand. The first set makes sure that all of the dominoes are placed on the canvas. The second set makes sure that each square of the canvas is covered by exactly one domino."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "4f06fae6-dc65-5c6e-9a65-39489a409d9d",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "Also note that since there are 55 dominoes per set, we need to make sure that when we partition the target image and canvas into m rows and n columns of congruent squares, m and n satisfy mn = HQs. The portrait in Figure 2 has m = 33, n = 30, and s = 9."
+        },
+        {
+          "node_id": "c2ea4972-b9d3-558c-82cb-45e9cafb7ffd",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "Note that in place of a set of building-block photographs F, we have a set of double-nine dominoes D = {d = (dx, d2): 0 < dx <<i2 ?9}, and we need to use each domino d eD exactly s times. Since domino d=(dx, d2) is black and has dx white dots painted on one square and d2 white dots painted on the other, domino d = (dx, d2) can be thought of as a domino-shaped photograph, half of which has brightness dx and half of which has brightness d2, with both brightness values measured on a 0-to-9, black-to-white scale."
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "b4133f702e648a9d5691a27c62926ecdb0b8b04df242d7dea0d364cee25b17bf",
+      "database_sha256": "b8b8fa671b1d675cbd7378cf42b56a8f1af9e9cfba609c12ceee12eeb05a444d"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "current_release": "ba67a758c202775b",
+  "releases": [
+    {
+      "release_id": "64d59b40108202c9",
+      "created_at": "2026-08-29T12:17:12.000Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Source: Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.1.0."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.1.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-c42117a28bb3.svg",
+          "png": "uem-pass-01-structure-c42117a28bb3.png",
+          "sha256": "c42117a28bb3e90ec42286e147c26ac4a06a7f8d2869a2a230bcce09fa02d162"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-bcc87bf3e33e.svg",
+          "png": "uem-pass-02-threshold-bcc87bf3e33e.png",
+          "sha256": "bcc87bf3e33e99bae1bebeec2317dee87c5c43fadee34608419fb7c1cce30b68"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-5bf34585b286.svg",
+          "png": "uem-pass-03-branching-5bf34585b286.png",
+          "sha256": "5bf34585b28667b588fb68f4b0e34a098238f6b467f165c538d6124ec3c154b9"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-e6f6f45189f7.svg",
+          "png": "uem-pass-04-practice-e6f6f45189f7.png",
+          "sha256": "e6f6f45189f7ae9e5309f7eda1388c59d9037b122af29d290c0285f0c88a03cf"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-53f90480d158.svg",
+          "png": "uem-pass-05-feedback-53f90480d158.png",
+          "sha256": "53f90480d158a44f1d62f7f89da6c189e82ed00f86e7bf0f62633fe4398dc45b"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-c2b238e52284.svg",
+          "png": "uem-pass-06-coherence-c2b238e52284.png",
+          "sha256": "c2b238e5228486fe18dd92e0b3ad29517a363463b832d48d0f233c8449a0e11d"
+        }
+      ]
+    },
+    {
+      "release_id": "84fc2f40134a616b",
+      "created_at": "2026-09-02T16:10:08.514Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Nebula shader field — pass-track deck backdrop",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.2.0."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.2.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-5218b595b4fa.svg",
+          "png": "uem-pass-01-structure-5218b595b4fa.png",
+          "sha256": "5218b595b4fab94548df906ce6a9dfac81eb21df1ef3e8a301b45a66e27f5f93"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-a393168a1bcb.svg",
+          "png": "uem-pass-02-threshold-a393168a1bcb.png",
+          "sha256": "a393168a1bcb913f794a8fa131f806828323303fdbe0358141e79344298d6faa"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-e7facd874275.svg",
+          "png": "uem-pass-03-branching-e7facd874275.png",
+          "sha256": "e7facd874275fef59059e999f4af7c14e689a9f127f287dde558b0946fe71e78"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-9c466003cbb0.svg",
+          "png": "uem-pass-04-practice-9c466003cbb0.png",
+          "sha256": "9c466003cbb0f0c45ae84103977b797cd4f605d55cadf35fbc12d4755c3e74a8"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-80362d0b4e8c.svg",
+          "png": "uem-pass-05-feedback-80362d0b4e8c.png",
+          "sha256": "80362d0b4e8c6b36397ba666f6499f49d341ac852588aea072cfe14395118647"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-c125a4b1e424.svg",
+          "png": "uem-pass-06-coherence-c125a4b1e424.png",
+          "sha256": "c125a4b1e424fe19fff908f79e057c4ab71d69968a71bee2503e966e9dafead9"
+        }
+      ]
+    },
+    {
+      "release_id": "ba67a758c202775b",
+      "created_at": "2026-09-02T16:55:27.763Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Source: Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.3.0."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.3.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-ad6259b9f008.svg",
+          "png": "uem-pass-01-structure-ad6259b9f008.png",
+          "sha256": "ad6259b9f0089d95e57bbcdf54291dace42fae10c86d79b9912bfcc6bdd5f38d"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-a6c1da349671.svg",
+          "png": "uem-pass-02-threshold-a6c1da349671.png",
+          "sha256": "a6c1da3496719e0fdaa57ad747c69f535f25f2e876b2b6e8e9294c24eae4f87b"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-62121b37ef57.svg",
+          "png": "uem-pass-03-branching-62121b37ef57.png",
+          "sha256": "62121b37ef57321f84dc8134188154a725aa9553e5494914314d229f6319c69f"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-fd9d0106f537.svg",
+          "png": "uem-pass-04-practice-fd9d0106f537.png",
+          "sha256": "fd9d0106f5371578ffa8a0ea59342c859827642f1438d03d00729f3ffc922ecd"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-502329e7a218.svg",
+          "png": "uem-pass-05-feedback-502329e7a218.png",
+          "sha256": "502329e7a2186d2d0fa101f6ea47c27ed5c8f4f3d3ea85ef8e4b960ad7ea8ba0"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-a5e02d398916.svg",
+          "png": "uem-pass-06-coherence-a5e02d398916.png",
+          "sha256": "a5e02d398916870f97832f9968a0749cfd4bca84c4c8652506d3454aa74d6ada"
+        }
+      ]
+    }
+  ]
+}

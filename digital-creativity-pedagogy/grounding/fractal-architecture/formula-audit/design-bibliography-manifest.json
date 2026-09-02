@@ -1,0 +1,38 @@
+{
+  "manifest_version": "1",
+  "purpose": "Controlled design-bibliography ingest for fractal-architect. One PDF + oracle at a time. No bulk auto-LaTeX.",
+  "read_only_input_dir": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design",
+  "entries": [
+    {
+      "slug": "drakopoulos-julia-rendering",
+      "pdf": "Comparing_Rendering_Methods_for_Julia_Sets.pdf",
+      "author": "V. Drakopoulos",
+      "status": "LOOP_COMPLETE",
+      "oracle": "digital-creativity-pedagogy/grounding/fractal-architecture/formula-audit/julia-rendering-oracle.json",
+      "ahmes_bundle": "scholar/documents/comparing_rendering_methods_for_julia_sets_a1e80611",
+      "promoted_oracle_ids": ["eq-1", "eq-2", "eq-3", "eq-4", "eq-5"],
+      "render_brief": "extract/formula-audit/render-brief.private.json",
+      "output_png": "extract/formula-audit/julia-eq1-escape-time.png",
+      "notes": "F0–F2 + consumer loop 2026-08-28. Type-3 text layer; symbolic truth from oracle only."
+    },
+    {
+      "slug": "peitgen-chaos-fractals",
+      "pdf": "Peitgen_Jurgens_Saupe_Chaos_and_Fractals.pdf",
+      "status": "PENDING_ORACLE",
+      "notes": "Requires per-paper oracle JSON before promote."
+    },
+    {
+      "slug": "barnsley-fractals-everywhere",
+      "pdf": "Barnsley_Fractals_Everywhere.pdf",
+      "status": "PENDING_ORACLE"
+    },
+    {
+      "slug": "prusinkiewicz-abc",
+      "pdf": "Prusinkiewicz_Lindenmayer_The_Algorithmic_Beauty_of_Plants.pdf",
+      "status": "PENDING_ORACLE",
+      "grammar_hint": "L-system"
+    }
+  ],
+  "ingest_command_template": "ahmes ingest {pdf} -o ~/ahmes-library --library scholar --save-db",
+  "loop_command": "scripts/fractal-architecture/run-drakopoulos-loop.sh"
+}

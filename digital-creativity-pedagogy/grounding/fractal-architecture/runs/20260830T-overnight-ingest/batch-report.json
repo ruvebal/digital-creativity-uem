@@ -1,0 +1,206 @@
+{
+  "total": 28,
+  "processed_ok": 0,
+  "skipped": 0,
+  "failed": 0,
+  "elapsed_ms": 2,
+  "semantic_anchors_total": null,
+  "results": [
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/(Critical anthologies in art and culture) Cornell, Lauren_Halter, Ed - Mass effect_ art and the internet in the twenty-first century-The MIT Press (2015).pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/(International Texts in Critical Media Aesthetics) Ceci Moss - Expanded Internet Art_ Twenty-First-Century Artistic Practice and the Informational Milieu-Bloomsbury Academic (2019.epub",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Castillo, Vivianne_Monteiro, Mike - Ruined by design_ how designers destroyed the world, and what we can do to fix it (2019, Mule Books_ Mule Design) - libgen.li.epub",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Comparing_Rendering_Methods_for_Julia_Sets.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Dynamics Of Entire Functions The Fractal Sets Of Julia And Mandelbrot{Cándido Piñeiro}(2025, DE GRUYTER){116214707}.epub",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Fractal Functions Communication with Fractional Calculus{A. Gowrisankar_ T. M. C Priyanka_ Santo Banerjee}(2025){111113592}.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Heinz-Otto Peitgen, Hartmut Jürgens, Dietmar Saupe (auth.) - Chaos and Fractals_ New Frontiers of Science (2004, Springer) [10.1007_b97624].pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/InteractiveVisualizationQuatcopy.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Michael F. Barnsley, Robert L. Devaney, Benoit B. Mandelbrot, He - The science of fractal images (1988, Springer) [10.1007_978-1-4612-3784-6].pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Nigel Lesmoir-Gordon - The Colours of Infinity_ The Beauty and Power of Fractals (2010, Springer).pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Przemyslaw Prusinkiewicz, Aristid Lindenmayer - The Algorithmic Beauty of Plants (2004, Springer).pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Rob Larsen [Larsen, Rob] - Mastering SVG_ Web Animations, Visualizations and Vector Graphics With HTML, CSS and JavaScript-Packt Publishing (2018).epub",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Sarah Drasner - SVG Animations From Common UX Implementations to Complex Responsive Animation-O'Reilly (2017).pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Stefan Kottwitz - LaTeX Graphics with TikZ_ A practitioner's guide to drawing 2D and 3D images, diagrams, charts, and plots (2023, Packt Publishing).epub",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Vijay K. Vaishnavi, William, Jr. Kuechler - Design Science Research Methods and Patterns_ Innovating Information and Communication Technology (2015, CRC Press).pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Virginia Heffernan - Magic and Loss_ The Internet as Art-Simon & Schuster (2015).epub",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Walter Mora F., Alexánder Borbón A. - LaTeX. Composición, Diseno Editorial, Graficos, Inkscape, TikZ y beamer. Versión Final 2011.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[ACM SIGGRAPH Computer Graphics 2010-aug 01 vol. 44 iss. 3] The flame algorithm and its open source culture{Draves, Scott_ Draves, Isabel Walcott}(2010 August 01)[10.1145_1852645.18526.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[American Journal of Physics 1983-mar vol. 51 iss. 3] The Fractal Geometry of Nature {Mandelbrot, Benoit B. (author)_Wheeler, John A. (author)}(1983 March, American Association of Phys.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Cultural Studies 2002-jul vol. 16 iss. 4] Soar, Matthew - THE FIRST THINGS FIRST MANIFESTO AND THE POLITICS OF CULTURE JAMMING_ TOWARDS A CULTURAL ECONOMY OF GRAPHIC DESIGN AND ADVERT.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Design Management Review 2020-mar vol. 31 iss. 1] Walmsley, Craig - The Impact Canvas_ An Ethical Design Experiment (2020) [10.1111_drev.12196] - libgen.li.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Design Studies 2009-mar vol. 30 iss. 2] Peter Lloyd - Ethical imagination and design (2009) [10.1016_j.destud.2008.12.004] - libgen.li.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Graduate Studies in Mathematics, Volume 247 - Graduate Studies in Mathematics, Volume 247] An Invitation to Fractal Geometry_ Fractal Dimensions, Self-Similarity, and Fractal Curves 2.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Integrated Series in Information Systems ] Hevner, Alan(Editor)_Chatterjee, Samir(Editor) - Design Research In Information Systems_ Theory And Practice (2010, Alan Hevner., Springer S.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[International Journal of Bifurcation and Chaos 2008-apr vol. 18 iss. 04] THE AESTHETICS AND FRACTAL DIMENSION OF ELECTRIC SHEEP{DRAVES, SCOTT_ ABRAHAM, RALPH_ VIOTTI, PABLO_ ABRAHAM, .pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Math Horizons 2006-feb vol. 13 iss. 3] Opt Art{Robert Bosch}(2006 February)[10.2307_25678596]{55061488}.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Physics World 1990-sep vol. 3 iss. 9] Mathematical beauty of fractals{Peitgen, Heinz-Otto}(1990 September)[10.1088_2058-7058_3_9_29]{65075898}.pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    },
+    {
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/[Undergraduate Topics in Computer Science] Vince, John - Mathematics for Computer Graphics (2017, Springer London _ Imprint _ Springer).pdf",
+      "status": "DISCOVERED",
+      "elapsed_ms": 0,
+      "outputs": {},
+      "error": null
+    }
+  ]
+}

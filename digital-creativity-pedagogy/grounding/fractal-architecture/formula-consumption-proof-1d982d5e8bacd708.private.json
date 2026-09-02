@@ -1,0 +1,227 @@
+{
+  "status": "FORMULA_CONSUMED",
+  "source_export": "formula-glossary.public.json",
+  "source_export_sha256": "7ec7ae8464181940fa9c5a86556496291cc8d2ae81c965bee649ad318af57e19",
+  "formula_contract": {
+    "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+    "fidelity_status": "EXACT",
+    "adapter": "hutchinson-ifs-chaos-game-v1"
+  },
+  "private_reference_anchor": {
+    "formula_id": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+    "document_id": "3a304b6f-d9e5-5f1e-bcd7-c0e17248ab6b",
+    "node_id": "4ac5d391-be0c-5798-95d7-2e5fbf243e59",
+    "page_index": 239,
+    "printed_page": 225,
+    "crop_relpath": "extract/formula-audit/pages/page-239.png",
+    "crop_sha256": "4f854342f88bf7ee2dbfaba124f7d2585323873f9ad16ca870f2b303663b618a",
+    "audit_notes": [
+      "promoted_from_oracle:eq-1"
+    ]
+  },
+  "release_id": "1d982d5e8bacd708",
+  "studio_stack": [
+    {
+      "kind": "skill",
+      "name": "curriculum-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/curriculum-forger/SKILL.md",
+      "sha256": "63623c9704c33085d7096216b68235a35a5122069c6ca8d08d68517b575dabd9",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "visual-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+      "sha256": "2ff702c65945aa79855136a4a03d229ddc7d697130f52b4a56ed7d252394d87b",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "fractal-architect",
+      "version": "1.2.1",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/skills/fractal-architect/SKILL.md",
+      "sha256": "6fa0ed5006e4ef483d57a8d703eed6e4b82608bb16148e30a90f545856d16784",
+      "git_commit": "4a5c345251e7fdedfbe6c65db1c5a4e8d770b8bc"
+    },
+    {
+      "kind": "agent",
+      "name": "fractal-architect",
+      "version": "1.2.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/agents/fractal-architect.md",
+      "sha256": "f9ecccde85d90b7d7e1fabc4b703f578a8890db3a3d7afd2e1236616c3a7b2c4",
+      "git_commit": "4a5c345251e7fdedfbe6c65db1c5a4e8d770b8bc"
+    },
+    {
+      "kind": "renderer",
+      "name": "pass-track-backgrounds-ifs",
+      "version": "1.0.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/scripts/fractal-architecture/generate-pass-track-backgrounds-ifs.mjs",
+      "sha256": "7404e654e3ac6d6bab662e74e702bc02a64c9a8bb83959f1db7002e03e586242",
+      "git_commit": "4a5c345251e7fdedfbe6c65db1c5a4e8d770b8bc"
+    }
+  ],
+  "original_release_dir": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708",
+  "public_caption_manifest": "caption-manifests/1d982d5e8bacd708.json",
+  "semantic_index": {
+    "provider": "ollama",
+    "status": "ready",
+    "model": "nomic-embed-text:latest",
+    "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/fractal-architecture/fractal-art-semantic-index.private.json"
+  },
+  "public_asset_policy": "No corpus or local-architecture metadata is embedded in SVG/PNG outputs.",
+  "outputs": [
+    {
+      "file": "uem-ifs-pass-01-structure-2ca32c0ed6be.svg",
+      "png": "uem-ifs-pass-01-structure-2ca32c0ed6be.png",
+      "sha256": "2ca32c0ed6be466c71b5590ef64572f4d0d707f1020dadbe6a1e20debb68cb26",
+      "brand": "uem",
+      "family": "structure",
+      "seed": 2119785561,
+      "backdrop": "hutchinson-ifs-chaos-game-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "7327fbf00e644097f1c61bae8004305634d09a647dbe31b01c427269197c5fd0",
+      "uuid": "929841a3-1776-5f85-a061-12bbc72884bf",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-01-structure-2ca32c0ed6be.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-01-structure-2ca32c0ed6be.png"
+      }
+    },
+    {
+      "file": "uem-ifs-pass-02-threshold-f93e67e7a3ff.svg",
+      "png": "uem-ifs-pass-02-threshold-f93e67e7a3ff.png",
+      "sha256": "f93e67e7a3ff3888aefd91372f7872796851116a26d0320d5091cf74ed3e54d2",
+      "brand": "uem",
+      "family": "threshold",
+      "seed": 3755747285,
+      "backdrop": "hutchinson-ifs-chaos-game-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "b3d81d67529000ddeca08d46ab69e3c6927a7fcd80d7987a1cd9a0bbafb4a2cf",
+      "uuid": "5ddee94a-9066-52eb-9517-e739cdc4610d",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-02-threshold-f93e67e7a3ff.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-02-threshold-f93e67e7a3ff.png"
+      }
+    },
+    {
+      "file": "uem-ifs-pass-03-branching-681259b873b8.svg",
+      "png": "uem-ifs-pass-03-branching-681259b873b8.png",
+      "sha256": "681259b873b8e3562a4b87ae78d00bbf443d10b103b0772df0b81483b6924a4e",
+      "brand": "uem",
+      "family": "branching",
+      "seed": 3837107818,
+      "backdrop": "hutchinson-ifs-chaos-game-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "a6fb8deca5bd27bfaa3955f6bc2e05c7be062258039f7bdb36ceff087a2f2824",
+      "uuid": "46288679-524b-562f-aec9-7a693ef5a1b6",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-03-branching-681259b873b8.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-03-branching-681259b873b8.png"
+      }
+    },
+    {
+      "file": "uem-ifs-pass-04-practice-59c2e2c4c608.svg",
+      "png": "uem-ifs-pass-04-practice-59c2e2c4c608.png",
+      "sha256": "59c2e2c4c60868a0c2984bcd6f2e003f72d86d63694ff77633c4cb57b4af3255",
+      "brand": "uem",
+      "family": "practice",
+      "seed": 1622381319,
+      "backdrop": "hutchinson-ifs-chaos-game-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "20656261d360202dd99825a130390a0e9893af3f6aba42ff836cfb67c159f61f",
+      "uuid": "50550013-fda7-5d73-89aa-88d8eedc44fd",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-04-practice-59c2e2c4c608.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-04-practice-59c2e2c4c608.png"
+      }
+    },
+    {
+      "file": "uem-ifs-pass-05-feedback-3a121e38f3c0.svg",
+      "png": "uem-ifs-pass-05-feedback-3a121e38f3c0.png",
+      "sha256": "3a121e38f3c02e6738bc1e68c333f7d953b6011b4aae5f22de68ccd504299208",
+      "brand": "uem",
+      "family": "feedback",
+      "seed": 3811549134,
+      "backdrop": "hutchinson-ifs-chaos-game-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "dbf54358389eb8dd0f04c3e791c2457f91c999f80362ec67595d1fd5fef0f5e3",
+      "uuid": "5ce4a1f2-88d8-52bd-b04c-8c0053c2c04b",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-05-feedback-3a121e38f3c0.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-05-feedback-3a121e38f3c0.png"
+      }
+    },
+    {
+      "file": "uem-ifs-pass-06-coherence-85ace1961354.svg",
+      "png": "uem-ifs-pass-06-coherence-85ace1961354.png",
+      "sha256": "85ace19613542579fff859b91f832c6eb23d612077f3c7d6aedc2fe5977e65cf",
+      "brand": "uem",
+      "family": "coherence",
+      "seed": 2887937852,
+      "backdrop": "hutchinson-ifs-chaos-game-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "a1661873b5f12f3658dfb30492f7513c17c9fbda008d38e67412355a61fb9058",
+      "uuid": "6f274889-a408-5294-a617-3a412e8972bf",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-06-coherence-85ace1961354.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-1d982d5e8bacd708/uem-ifs-pass-06-coherence-85ace1961354.png"
+      }
+    }
+  ]
+}

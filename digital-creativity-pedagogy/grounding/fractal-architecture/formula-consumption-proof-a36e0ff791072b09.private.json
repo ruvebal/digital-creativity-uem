@@ -1,0 +1,227 @@
+{
+  "status": "FORMULA_CONSUMED",
+  "source_export": "formula-glossary.public.json",
+  "source_export_sha256": "3269e3a6b4ffbf600232b4e00ab1901ed101d77568338780b7abcdc1dd7dd9e8",
+  "formula_contract": {
+    "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>p</mi><mi>c</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>z</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>z</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mi>c</mi><mo>&#x0002C;</mo><mspace width=\"1em\" /><mi>c</mi><mo>&#x02208;</mo><mi>&#x02102;</mi></mrow></math>",
+    "fidelity_status": "EXACT",
+    "adapter": "complex-quadratic-v1"
+  },
+  "private_reference_anchor": {
+    "formula_id": "15b9f228-d71a-5ae6-9603-b04a50df131e",
+    "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+    "node_id": "8d1b7bda-4ee4-5007-8bd6-739980674cb6",
+    "page_index": 0,
+    "printed_page": 1,
+    "crop_relpath": "extract/formula-audit/pages/page-00.png",
+    "crop_sha256": "b43904459a7f241c933d4a79c6b88a56700d3aaa8644875a68a2d8fc5f44c640",
+    "audit_notes": [
+      "promoted_from_oracle:eq-1"
+    ]
+  },
+  "release_id": "a36e0ff791072b09",
+  "studio_stack": [
+    {
+      "kind": "skill",
+      "name": "curriculum-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/curriculum-forger/SKILL.md",
+      "sha256": "63623c9704c33085d7096216b68235a35a5122069c6ca8d08d68517b575dabd9",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "visual-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+      "sha256": "2ff702c65945aa79855136a4a03d229ddc7d697130f52b4a56ed7d252394d87b",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "fractal-architect",
+      "version": "1.2.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/skills/fractal-architect/SKILL.md",
+      "sha256": "164914dbcf41777a4c3a24076a6a58a59599fce6e72e80eb39162f1f0262cdce",
+      "git_commit": "4a5c345251e7fdedfbe6c65db1c5a4e8d770b8bc"
+    },
+    {
+      "kind": "agent",
+      "name": "fractal-architect",
+      "version": "1.2.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/agents/fractal-architect.md",
+      "sha256": "f9ecccde85d90b7d7e1fabc4b703f578a8890db3a3d7afd2e1236616c3a7b2c4",
+      "git_commit": "4a5c345251e7fdedfbe6c65db1c5a4e8d770b8bc"
+    },
+    {
+      "kind": "renderer",
+      "name": "pass-track-backgrounds",
+      "version": "1.4.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/scripts/fractal-architecture/generate-pass-track-backgrounds.mjs",
+      "sha256": "d82b67988d4abfed7a39b36054eadf91329a66b224fec9a5d7ae044500421c9e",
+      "git_commit": "4a5c345251e7fdedfbe6c65db1c5a4e8d770b8bc"
+    }
+  ],
+  "original_release_dir": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09",
+  "public_caption_manifest": "caption-manifests/a36e0ff791072b09.json",
+  "semantic_index": {
+    "provider": "ollama",
+    "status": "ready",
+    "model": "nomic-embed-text:latest",
+    "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/fractal-architecture/fractal-art-semantic-index.private.json"
+  },
+  "public_asset_policy": "No corpus or local-architecture metadata is embedded in SVG/PNG outputs.",
+  "outputs": [
+    {
+      "file": "uem-pass-01-structure-79909126d96e.svg",
+      "png": "uem-pass-01-structure-79909126d96e.png",
+      "sha256": "79909126d96eaa22ca4439cee71f3e6024564c794744dfe5ae98e4b578cc4aa3",
+      "brand": "uem",
+      "family": "structure",
+      "seed": 2626550909,
+      "backdrop": "julia-geometric-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "7a2f6369e2d7004479fe17c221efca655c59342b1c7c1e24436717a652053c1e",
+      "uuid": "2cea186c-e745-5ace-bfc9-0eb6b8d8865d",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-01-structure-79909126d96e.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-01-structure-79909126d96e.png"
+      }
+    },
+    {
+      "file": "uem-pass-02-threshold-ccd8abcff3dc.svg",
+      "png": "uem-pass-02-threshold-ccd8abcff3dc.png",
+      "sha256": "ccd8abcff3dcca92ecce493bb2e850fc56390c1af0c7e2fe7c4d1c1a0fa8f6d1",
+      "brand": "uem",
+      "family": "threshold",
+      "seed": 3111897837,
+      "backdrop": "julia-geometric-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "a768f3de6e814fa976c43fa5933001ff0b2ec3a1b4271ad77dc65075c479880c",
+      "uuid": "c140e824-011b-5793-82f6-8488277be565",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-02-threshold-ccd8abcff3dc.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-02-threshold-ccd8abcff3dc.png"
+      }
+    },
+    {
+      "file": "uem-pass-03-branching-dfb2d072ab88.svg",
+      "png": "uem-pass-03-branching-dfb2d072ab88.png",
+      "sha256": "dfb2d072ab881365eee3e2bafa174bb17fa6637ee4db852271b3f7779cecf1ca",
+      "brand": "uem",
+      "family": "branching",
+      "seed": 2263115040,
+      "backdrop": "julia-geometric-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "f17611494622ea791f1dacbd41375b3b63fd84b5f0801565bc68514fd76b517a",
+      "uuid": "37f24397-f034-5a75-9423-dd1ea5be89b8",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-03-branching-dfb2d072ab88.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-03-branching-dfb2d072ab88.png"
+      }
+    },
+    {
+      "file": "uem-pass-04-practice-4a190e098ca6.svg",
+      "png": "uem-pass-04-practice-4a190e098ca6.png",
+      "sha256": "4a190e098ca6b8860ab63851b1a59b1a8ddcdd8849668a7385e72c65938bc0c0",
+      "brand": "uem",
+      "family": "practice",
+      "seed": 2564019421,
+      "backdrop": "julia-geometric-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "318996e635705e0220324339a660f5452259f7b9028d5143cf67127450194ff1",
+      "uuid": "6fda3e68-80a9-5ce0-9186-f8a47d1e32f0",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-04-practice-4a190e098ca6.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-04-practice-4a190e098ca6.png"
+      }
+    },
+    {
+      "file": "uem-pass-05-feedback-78d9d1e3d330.svg",
+      "png": "uem-pass-05-feedback-78d9d1e3d330.png",
+      "sha256": "78d9d1e3d3307f26e86aed348047f5472a6daf822c67263d76e911d94f9456e9",
+      "brand": "uem",
+      "family": "feedback",
+      "seed": 3415153471,
+      "backdrop": "julia-geometric-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "153064698b137c7d4213515b7bf376d2f7ef5ca856a106c540ccc8af4f9903a6",
+      "uuid": "096780d4-1d65-5cdb-8cdd-b023b4e6712e",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-05-feedback-78d9d1e3d330.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-05-feedback-78d9d1e3d330.png"
+      }
+    },
+    {
+      "file": "uem-pass-06-coherence-3996da69ad34.svg",
+      "png": "uem-pass-06-coherence-3996da69ad34.png",
+      "sha256": "3996da69ad34ba1f6f0c8acf9607592b601df2db9cf50b12fb654736a8e2fb59",
+      "brand": "uem",
+      "family": "coherence",
+      "seed": 3272666104,
+      "backdrop": "julia-geometric-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "cf836ce1b115989943094b62185557b611acc9e50d647fd3db0cdb6120020a17",
+      "uuid": "00a224e9-c609-58b6-9dcd-98b75b713fde",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-06-coherence-3996da69ad34.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-a36e0ff791072b09/uem-pass-06-coherence-3996da69ad34.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "source": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Comparing_Rendering_Methods_for_Julia_Sets.pdf",
+  "title": "Comparing Rendering Methods for Julia Sets",
+  "author": "V. Drakopoulos",
+  "purpose": "Adversarial formula extraction specimen; visible pages are clean but the Type-3 PDF text map is broken.",
+  "equations": [
+    {
+      "id": "eq-1",
+      "source_page": 1,
+      "db_page_index": 0,
+      "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+      "required_tokens": ["p_c", "z^2", "+c", "in", "C"],
+      "symbol_classes": ["SUP", "MEM"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "iteration_law"
+    },
+    {
+      "id": "eq-2",
+      "source_page": 1,
+      "db_page_index": 0,
+      "latex": "A_c(a)=\\{z\\in\\mathbb{C}:\\lim_{k\\to\\infty}p_c^k(z)=a\\}",
+      "required_tokens": ["A_c", "lim", "k", "infty", "p_c^k", "=a"],
+      "symbol_classes": ["MEM", "SUB", "SUP"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "transform"
+    },
+    {
+      "id": "eq-3",
+      "source_page": 2,
+      "db_page_index": 1,
+      "latex": "n(k)=2^{k+1}-1",
+      "required_tokens": ["n(k)", "2", "k+1", "-1"],
+      "symbol_classes": ["SUP"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "iteration_law"
+    },
+    {
+      "id": "eq-4",
+      "source_page": 3,
+      "db_page_index": 2,
+      "latex": "w_1(u)=+\\sqrt{u-c},\\quad w_2(u)=-\\sqrt{u-c}",
+      "required_tokens": ["w_1", "sqrt", "u-c", "w_2", "-"],
+      "symbol_classes": ["RAD", "SUB", "DELIM"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "transform"
+    },
+    {
+      "id": "eq-5",
+      "source_page": 3,
+      "db_page_index": 2,
+      "latex": "\\left|(p_c^k)'(u_{m_k})\\right|=\\left|\\prod_{i=1}^{k}p_c'(u_{m_i})\\right|",
+      "required_tokens": ["p_c^k", "u_m", "prod", "i=1", "p_c'"],
+      "symbol_classes": ["PROD", "SUP", "SUB", "DELIM"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "transform"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "current_release": "64d59b40108202c9",
+  "releases": [
+    {
+      "release_id": "64d59b40108202c9",
+      "created_at": "2026-08-29T12:17:12.000Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Source: Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.1.0."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.1.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-c42117a28bb3.svg",
+          "png": "uem-pass-01-structure-c42117a28bb3.png",
+          "sha256": "c42117a28bb3e90ec42286e147c26ac4a06a7f8d2869a2a230bcce09fa02d162"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-bcc87bf3e33e.svg",
+          "png": "uem-pass-02-threshold-bcc87bf3e33e.png",
+          "sha256": "bcc87bf3e33e99bae1bebeec2317dee87c5c43fadee34608419fb7c1cce30b68"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-5bf34585b286.svg",
+          "png": "uem-pass-03-branching-5bf34585b286.png",
+          "sha256": "5bf34585b28667b588fb68f4b0e34a098238f6b467f165c538d6124ec3c154b9"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-e6f6f45189f7.svg",
+          "png": "uem-pass-04-practice-e6f6f45189f7.png",
+          "sha256": "e6f6f45189f7ae9e5309f7eda1388c59d9037b122af29d290c0285f0c88a03cf"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-53f90480d158.svg",
+          "png": "uem-pass-05-feedback-53f90480d158.png",
+          "sha256": "53f90480d158a44f1d62f7f89da6c189e82ed00f86e7bf0f62633fe4398dc45b"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-c2b238e52284.svg",
+          "png": "uem-pass-06-coherence-c2b238e52284.png",
+          "sha256": "c2b238e5228486fe18dd92e0b3ad29517a363463b832d48d0f233c8449a0e11d"
+        }
+      ]
+    }
+  ]
+}

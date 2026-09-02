@@ -1,0 +1,2494 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "status": "REVIEW_REQUIRED",
+  "database": "/Users/ruvebal/ahmes-library/scholar/documents/interactivevisualizationquatcopy_f11e47e1/extract/extraction.db",
+  "candidate_count": 40,
+  "policy": {
+    "context_is_evidence_not_verdict": true,
+    "agent_may_rank_but_not_assign_derivation_role": true,
+    "unattended_promotion": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "35c6f7c5-3bc8-5be4-a456-75569ae1882f",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "0c685f44-0637-50e3-aadc-22f33ff7730b",
+      "page_index": 1,
+      "bbox": [
+        385.3536797683775,
+        186.5757785268704,
+        511.91729316957964,
+        172.67441876232976
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/0c685f44-0637-50e3-aadc-22f33ff7730b.png",
+      "crop_sha256": "d73b8c50af7eac75f7ba668b8854427bd7c1a4da2f931e320bacddc7836ffb34",
+      "raw_text": "90(2) = eit= (5)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "9a6502e2-9ef4-5a95-b6b8-8d47fe266ebb",
+          "page_index": 0,
+          "block_type": "heading",
+          "text": "Interactive Visualization of Quaternion Julia Sets"
+        },
+        {
+          "node_id": "466fad69-4ab7-5585-9d27-8bb7e04def82",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "A quaternion value » = a + Bi + yj+ 6k is a four- be a function that rotates point z by A radians tuple of independent real values (a, B, y, 5) assigned counter-clockwise about the origin in C. A new func-"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "83def966-c09f-5d68-a479-8dc141660fcb",
+          "page_index": 1,
+          "block_type": "heading",
+          "text": "2.2.1 Rotational Families"
+        },
+        {
+          "node_id": "0af9a0e1-310b-5e44-b8ea-7f66870bcfe5",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "The quaternions were introduced by Hamilton in the mid-19th century as a method of performing 3-D multiplication [1). As the name suggests, the addition of Let a fourth dimension was necessary for Hamilton to get the multiplication properties he desired."
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "4a9ddc61-dd2e-5bc1-bace-774bfd23da37",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "fe809972-5a54-5274-ba73-2c350a812760",
+      "page_index": 1,
+      "bbox": [
+        288.7443612637771,
+        364.9186046709271,
+        302.54887201613707,
+        355.70930240448826
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/fe809972-5a54-5274-ba73-2c350a812760.png",
+      "crop_sha256": "db3c2fe18bb34d014e864788b49048adad74a80fe337988e1ae5106a0e95bfff",
+      "raw_text": "(1)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "5db625a2-6b83-5536-a20f-791728f8c9de",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "where z is the iterated variable and c is a fixed parameter."
+        },
+        {
+          "node_id": "a8af5c1b-5f94-5fa5-9979-73d7d3537298",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "The symbol H (after Hamilton) denotes the quaternions to avoid confusion with the rationals."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "20d97701-4164-583f-aa3c-86074e30ccef",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "One very popular function is the quadratic"
+        },
+        {
+          "node_id": "500f32fb-8146-5006-b9aa-f90b7fc71704",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "to one real axis and three imaginary axes: i,j, k such that"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        },
+        {
+          "side": "before",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "aeca5b54-e843-5b2b-9243-81ac76bade7c",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "dc2a6a8e-c9ed-540a-901b-c8951046c360",
+      "page_index": 1,
+      "bbox": [
+        356.61654199284584,
+        369.6666666079202,
+        513.0676692445985,
+        358.0116279696843
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/dc2a6a8e-c9ed-540a-901b-c8951046c360.png",
+      "crop_sha256": "f8572f97213b6c035cd8465ea11696451fe63907ccbe2099f05b45c20a38c3f9",
+      "raw_text": "ji = -k; kj= -i; ik = -j. (4)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "5db625a2-6b83-5536-a20f-791728f8c9de",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "where z is the iterated variable and c is a fixed parameter."
+        },
+        {
+          "node_id": "a8af5c1b-5f94-5fa5-9979-73d7d3537298",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "The symbol H (after Hamilton) denotes the quaternions to avoid confusion with the rationals."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "20d97701-4164-583f-aa3c-86074e30ccef",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "One very popular function is the quadratic"
+        },
+        {
+          "node_id": "500f32fb-8146-5006-b9aa-f90b7fc71704",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "to one real axis and three imaginary axes: i,j, k such that"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        },
+        {
+          "side": "before",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "ed00a583-e427-54bc-966e-1c85912b2b14",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "a7b254f8-b2a0-5061-a962-7d6ff1c9bff5",
+      "page_index": 1,
+      "bbox": [
+        368.1203010234032,
+        398.3333334162389,
+        514.2180452922959,
+        386.79069808683226
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/a7b254f8-b2a0-5061-a962-7d6ff1c9bff5.png",
+      "crop_sha256": "b91290c1b60affbd6a98a11a062cba118ecff6d073bc4a081ebe55184c865ee7",
+      "raw_text": "ij = k; jk = i; ki=j (3)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "a8af5c1b-5f94-5fa5-9979-73d7d3537298",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "The symbol H (after Hamilton) denotes the quaternions to avoid confusion with the rationals."
+        },
+        {
+          "node_id": "20d97701-4164-583f-aa3c-86074e30ccef",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "One very popular function is the quadratic"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "500f32fb-8146-5006-b9aa-f90b7fc71704",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "to one real axis and three imaginary axes: i,j, k such that"
+        },
+        {
+          "node_id": "156fdbe6-503f-560d-a7d1-3ab9ee494407",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "Figure 1: The filled-in Julia set of f(z) = «2 + 0.2809 + 0.53i."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "a11ce50b-ed1e-5c37-9e60-adc056c72291",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "5c7fc85a-7688-5d2b-abef-853bbfcbcef3",
+      "page_index": 1,
+      "bbox": [
+        373.8280446718188,
+        428.49405495927067,
+        513.0676689560296,
+        415.30827030147447
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/5c7fc85a-7688-5d2b-abef-853bbfcbcef3.png",
+      "crop_sha256": "0a66266e9be95e3f500bb839447ac54ef7b715b9c73645dac221c9541ed8ad53",
+      "raw_text": "i =j=k'=-1 (2)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "a8af5c1b-5f94-5fa5-9979-73d7d3537298",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "The symbol H (after Hamilton) denotes the quaternions to avoid confusion with the rationals."
+        },
+        {
+          "node_id": "20d97701-4164-583f-aa3c-86074e30ccef",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "One very popular function is the quadratic"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "500f32fb-8146-5006-b9aa-f90b7fc71704",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "to one real axis and three imaginary axes: i,j, k such that"
+        },
+        {
+          "node_id": "156fdbe6-503f-560d-a7d1-3ab9ee494407",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "Figure 1: The filled-in Julia set of f(z) = «2 + 0.2809 + 0.53i."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "56bb0cb8-3153-5ebf-86ac-ad4c9cbd34c5",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "25f4fbb7-b489-58b7-b931-01bea12bc8d3",
+      "page_index": 1,
+      "bbox": [
+        148.39850076153076,
+        455.86046508670773,
+        253.08270486309326,
+        394.7042333431079
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/25f4fbb7-b489-58b7-b931-01bea12bc8d3.png",
+      "crop_sha256": "561c0fae3a5a6ffc9aba42b5e4423de75e5152bb173233cbea6ea15c053a1e5a",
+      "raw_text": "21 =$(50), Z2 = f(f(20)) = f02(z0), in =ff...f(20)...)) = for (20).",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "20d97701-4164-583f-aa3c-86074e30ccef",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "One very popular function is the quadratic"
+        },
+        {
+          "node_id": "500f32fb-8146-5006-b9aa-f90b7fc71704",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "to one real axis and three imaginary axes: i,j, k such that"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "156fdbe6-503f-560d-a7d1-3ab9ee494407",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "Figure 1: The filled-in Julia set of f(z) = «2 + 0.2809 + 0.53i."
+        },
+        {
+          "node_id": "a879f2ea-4387-5154-b45e-692625c0e984",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "The dynamics of a function are found by repeated application of a function to an initial starting value. For example, let f be a function and zo be an initial value. Then the orbit of 2o is 21,22,..., in defined by"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "defined by",
+          "weight": 4
+        }
+      ],
+      "canonicality_score": 4,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "23190189-6de3-5ad3-828f-73e6421f730c",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "886b00b6-c976-5a1d-8e0a-ed3ad0b56f2d",
+      "page_index": 2,
+      "bbox": [
+        371.5349341790923,
+        187.83962263448745,
+        510.76691682001984,
+        173.62549414022476
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/886b00b6-c976-5a1d-8e0a-ed3ad0b56f2d.png",
+      "crop_sha256": "50929f4ce7d84e4599b511371e524730cd98903fb5209e7df522e6bef6a7d331",
+      "raw_text": "==a+ Bi+ pel$j. (13)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "6f5315fe-ac00-5c41-9c0c-080bcecfba3d",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "The Julia set is repulsive with respect to f which Hence the 4-D Julia set is obtained as a set of revolution about C of the 3-D Julia set."
+        },
+        {
+          "node_id": "aaef95a2-448c-59fb-9d1c-7b75d4b4028a",
+          "page_index": 2,
+          "block_type": "heading",
+          "text": "2.3.1 Strange Attractors"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "2c6dbb1b-fe82-5c1a-b807-edeeb09cf032",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "Several properties of quaternion Julia sets have been discovered. The properties that follow were essen- Theorem 1 The dynamics of the function tial for the development of the efficient visualization method using the inverse iteration algorithm. However, knowledge of their details and proofs are not necessary to implement the algorithm. for c E C is independent of the angle $ in"
+        },
+        {
+          "node_id": "4da53b7c-39c0-5645-9553-95b9f6154c12",
+          "page_index": 2,
+          "block_type": "heading",
+          "text": "2.3 Useful Properties"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "hence",
+          "weight": 1
+        },
+        {
+          "side": "after",
+          "cue": "theorem",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "606134b3-12e8-5c4e-bcf5-6eec019bc6af",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "eb55d58f-ee2a-58f5-9138-8a795ab5f3d8",
+      "page_index": 2,
+      "bbox": [
+        492.3609023079903,
+        223.32558107362956,
+        510.76691706832554,
+        212.9651163417774
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/eb55d58f-ee2a-58f5-9138-8a795ab5f3d8.png",
+      "crop_sha256": "f4d9367dc8258bec40d74401f63e24304bc6c02e5e34cca860dfb377d0e26263",
+      "raw_text": "(12)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "6f5315fe-ac00-5c41-9c0c-080bcecfba3d",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "The Julia set is repulsive with respect to f which Hence the 4-D Julia set is obtained as a set of revolution about C of the 3-D Julia set."
+        },
+        {
+          "node_id": "aaef95a2-448c-59fb-9d1c-7b75d4b4028a",
+          "page_index": 2,
+          "block_type": "heading",
+          "text": "2.3.1 Strange Attractors"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "2c6dbb1b-fe82-5c1a-b807-edeeb09cf032",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "Several properties of quaternion Julia sets have been discovered. The properties that follow were essen- Theorem 1 The dynamics of the function tial for the development of the efficient visualization method using the inverse iteration algorithm. However, knowledge of their details and proofs are not necessary to implement the algorithm. for c E C is independent of the angle $ in"
+        },
+        {
+          "node_id": "4da53b7c-39c0-5645-9553-95b9f6154c12",
+          "page_index": 2,
+          "block_type": "heading",
+          "text": "2.3 Useful Properties"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "hence",
+          "weight": 1
+        },
+        {
+          "side": "after",
+          "cue": "theorem",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "edddc5d6-472c-5082-9f80-9607696b24fb",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "e45a146b-418c-5f2f-a377-b35bb5c74b1f",
+      "page_index": 2,
+      "bbox": [
+        381.90914255926873,
+        358.09393458650567,
+        509.6165414160698,
+        346.50000006270767
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/e45a146b-418c-5f2f-a377-b35bb5c74b1f.png",
+      "crop_sha256": "a2367bc3c2dd93ac2ae33b58a03677a4fa708410817c5aef0e35d39ce8b2c50e",
+      "raw_text": "22: 52→ -1. (11)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "0f4ea864-3d29-515a-8358-5b4edf5c7719",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "In general, any such sphere of radius p € R+ (the positive real axis), when squared, \"collapses\" to a single point in R. (the negative real axis), specifically - Гр."
+        },
+        {
+          "node_id": "d493ac52-8b04-56cc-8499-c8c642bacea7",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "for a given parameter 1 produces the same shape as the complex Julia set of Eq. (1) given the right parameter c E C. But their counterparts in Hare quite different. Both quaternion Julia sets can be produced by Eq. (6) given the parameter c from Eq. (1) and the proper rotation A."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "e148b901-9973-52fe-99fd-f03a1a8492dd",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "be a unit two-sphere of totally imaginary points. Then"
+        },
+        {
+          "node_id": "58763fd7-d07d-5589-b42a-7bf5e91f1f99",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "This lack of commutivity is why the two parameter function Eq. (6) produces the entire family of quaternion Julia sets for any quadratic functions parameterized by a single complex constant. For example, the complex Julia set of"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "a5439bf4-fafc-505b-958e-b8ced41b1d41",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "a55ec735-2aa2-5354-a89d-4786f5e2f555",
+      "page_index": 2,
+      "bbox": [
+        165.6541375211165,
+        362.6162790070598,
+        299.09774406922514,
+        352.255814059804
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/a55ec735-2aa2-5354-a89d-4786f5e2f555.png",
+      "crop_sha256": "5a46c3dd62a98bf85af125cc73bec0e50c1173563815b600b64412fcb6d23c33",
+      "raw_text": "f (z) = 1z (1- z) (8)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "0f4ea864-3d29-515a-8358-5b4edf5c7719",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "In general, any such sphere of radius p € R+ (the positive real axis), when squared, \"collapses\" to a single point in R. (the negative real axis), specifically - Гр."
+        },
+        {
+          "node_id": "d493ac52-8b04-56cc-8499-c8c642bacea7",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "for a given parameter 1 produces the same shape as the complex Julia set of Eq. (1) given the right parameter c E C. But their counterparts in Hare quite different. Both quaternion Julia sets can be produced by Eq. (6) given the parameter c from Eq. (1) and the proper rotation A."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "e148b901-9973-52fe-99fd-f03a1a8492dd",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "be a unit two-sphere of totally imaginary points. Then"
+        },
+        {
+          "node_id": "58763fd7-d07d-5589-b42a-7bf5e91f1f99",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "This lack of commutivity is why the two parameter function Eq. (6) produces the entire family of quaternion Julia sets for any quadratic functions parameterized by a single complex constant. For example, the complex Julia set of"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "c5de951e-6962-5340-86f6-64f08c6940cc",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "0ce47165-823b-5375-80c8-6dd0dd1cd5c9",
+      "page_index": 2,
+      "bbox": [
+        340.51127677348995,
+        398.3333331851239,
+        508.46616162049514,
+        386.66666651845725
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/0ce47165-823b-5375-80c8-6dd0dd1cd5c9.png",
+      "crop_sha256": "c44acdf534da1faf323fe3043fdc9a1bc125c0f011f8b406fc778b83f58dc7b2",
+      "raw_text": "5'={z: = EH,|=|= 1, Re(z) = 0} (10)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "d493ac52-8b04-56cc-8499-c8c642bacea7",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "for a given parameter 1 produces the same shape as the complex Julia set of Eq. (1) given the right parameter c E C. But their counterparts in Hare quite different. Both quaternion Julia sets can be produced by Eq. (6) given the parameter c from Eq. (1) and the proper rotation A."
+        },
+        {
+          "node_id": "e148b901-9973-52fe-99fd-f03a1a8492dd",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "be a unit two-sphere of totally imaginary points. Then"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "58763fd7-d07d-5589-b42a-7bf5e91f1f99",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "This lack of commutivity is why the two parameter function Eq. (6) produces the entire family of quaternion Julia sets for any quadratic functions parameterized by a single complex constant. For example, the complex Julia set of"
+        },
+        {
+          "node_id": "945e0383-40da-5939-8a49-8f7341c4b885",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "In R as well as C, squaring is a two-to-one mapping everywhere but the origin. This is not so in H, as suggested by Eq. (2). Here the squaring mapping is capable of mapping an infinite number of values to a single point."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "2375eedb-2a87-5fc2-933b-5072fbd20a40",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "ea340f7a-170c-5e14-9067-3ce799fffc10",
+      "page_index": 2,
+      "bbox": [
+        138.04511358907712,
+        438.666666903237,
+        257.68421271017087,
+        427.0000002365703
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/ea340f7a-170c-5e14-9067-3ce799fffc10.png",
+      "crop_sha256": "fd1d2b404d9d16b84b37f971e31572a98708f77610e3e0f1ec08b6c1839988bc",
+      "raw_text": "Fe(z) = eiR (e-ilze-il=)+ei°c.",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "e148b901-9973-52fe-99fd-f03a1a8492dd",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "be a unit two-sphere of totally imaginary points. Then"
+        },
+        {
+          "node_id": "58763fd7-d07d-5589-b42a-7bf5e91f1f99",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "This lack of commutivity is why the two parameter function Eq. (6) produces the entire family of quaternion Julia sets for any quadratic functions parameterized by a single complex constant. For example, the complex Julia set of"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "945e0383-40da-5939-8a49-8f7341c4b885",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "In R as well as C, squaring is a two-to-one mapping everywhere but the origin. This is not so in H, as suggested by Eq. (2). Here the squaring mapping is capable of mapping an infinite number of values to a single point."
+        },
+        {
+          "node_id": "77d38a8b-63b4-562c-980a-3070300337dd",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "A closer inspection of Eq. (6) reveals that commutivity was expected. For use in H, it should have been"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "42086a3a-800d-5ab3-8a4a-72602e62444e",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "1daf6377-fa92-57eb-85de-ae2f1ef152b5",
+      "page_index": 2,
+      "bbox": [
+        370.4210531742892,
+        649.2558138907807,
+        506.16541363426,
+        637.744186343809
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/1daf6377-fa92-57eb-85de-ae2f1ef152b5.png",
+      "crop_sha256": "53b51b7f71965425601a5c1021c02bb4c884414fc1b26f9930bd8c0579fea030",
+      "raw_text": "5(2)=V=-c (9)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "d8860ce1-c256-552c-9f19-3d5c162d3340",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "What is perhaps unexpected is that when Eq. (6) is iterated in H, completely different shapes occur for the same c but different 0. These shapes all share the the topology of their extensions in H change dramat-"
+        },
+        {
+          "node_id": "20a2a53d-4bcc-5de6-8dae-d7408d9730ef",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "das a new parameter to Eq. (1) which causes the because the orbits under f-- of points far away fron clockwise about the origin in C (9]. are a specific form of strange attractor. These shapes commonly rise from physical differential equations such as the popular Lorenze attractor."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "498c6a45-c503-5c19-85b9-b75350a8c547",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "farther away from it. Conversely, the Julia set is attractive with respect to the inverse"
+        },
+        {
+          "node_id": "77f2103f-b291-5531-907e-4420f4159436",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "This algorithm is capable of generating complex nion version. Julia sets in real time. In fact, using lookup tables, One more improvement that keeps the values in H"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "cc1d40b6-c677-5931-b8bc-bad15877ab26",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "10eb9cf8-2345-52ff-a672-efaf5dd91729",
+      "page_index": 2,
+      "bbox": [
+        143.7969953947045,
+        660.7674416495049,
+        295.64661647785033,
+        635.4418605997715
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/10eb9cf8-2345-52ff-a672-efaf5dd91729.png",
+      "crop_sha256": "600e2fcdd3e957808bdccd7decaf608ca77ac8323fdbbea65cbecb136bc7557f",
+      "raw_text": "Fo(z) = 900 foge (z) = e-ie=2+eioc (6)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "d8860ce1-c256-552c-9f19-3d5c162d3340",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "What is perhaps unexpected is that when Eq. (6) is iterated in H, completely different shapes occur for the same c but different 0. These shapes all share the the topology of their extensions in H change dramat-"
+        },
+        {
+          "node_id": "20a2a53d-4bcc-5de6-8dae-d7408d9730ef",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "das a new parameter to Eq. (1) which causes the because the orbits under f-- of points far away fron clockwise about the origin in C (9]. are a specific form of strange attractor. These shapes commonly rise from physical differential equations such as the popular Lorenze attractor."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "498c6a45-c503-5c19-85b9-b75350a8c547",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "farther away from it. Conversely, the Julia set is attractive with respect to the inverse"
+        },
+        {
+          "node_id": "77f2103f-b291-5531-907e-4420f4159436",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "This algorithm is capable of generating complex nion version. Julia sets in real time. In fact, using lookup tables, One more improvement that keeps the values in H"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "57adbe82-a023-5179-a294-bb3d7154ca02",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "bec69f20-a832-5d74-92c1-8e2fb93fa5f8",
+      "page_index": 4,
+      "bbox": [
+        330.1578957754503,
+        165.76744198438223,
+        478.55638852244283,
+        142.6666666822971
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/bec69f20-a832-5d74-92c1-8e2fb93fa5f8.png",
+      "crop_sha256": "fd30bbe3b4f21acaccc7df7091ffe28d6bbc11bbc6e029ff6dc28958ca3dd9e3",
+      "raw_text": "2' = x (left eye image), х' = x + 0.12 z (right eye image),",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "a6c44907-64cc-5d4f-95c6-8805c9ed1104",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "A simple algebraic proof may be found in Appendix B. The hypothesis of this theorem requires that e E C. This causes no loss of generality on c since a theorem in 2] shows that the dynamics of Eq. (1) for c E H are the same as with e E C except for a rotation about the real axis."
+        },
+        {
+          "node_id": "6e9cf560-7d57-5e76-b8a9-01bc7e01e6c9",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "for any z E J."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "3b69c2c6-1966-5eed-85a5-990af73c85a8",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "Stereo can be integrated into the orthogonal projection easily by the following formula"
+        },
+        {
+          "node_id": "1b16c29b-a4a2-527f-a742-f88c367d4c04",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "This is done simply by setting"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "theorem",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "dfbdec0a-d294-5d93-9e64-c2dc8cb33397",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "946eb27c-8bf8-511c-a431-4927b0bf8ea9",
+      "page_index": 4,
+      "bbox": [
+        98.71204678861382,
+        183.66252745261284,
+        295.8611149852284,
+        163.03750583599503
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/946eb27c-8bf8-511c-a431-4927b0bf8ea9.png",
+      "crop_sha256": "58c9bf7409997c7716cc66d15a1ea188257cc445ad52a87a85db460f686bb1e5",
+      "raw_text": "*= Re(z) + Im;(z)i+VIm;(z)?+ Imx(z)?j (17)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "a6c44907-64cc-5d4f-95c6-8805c9ed1104",
+          "page_index": 3,
+          "block_type": "text",
+          "text": "A simple algebraic proof may be found in Appendix B. The hypothesis of this theorem requires that e E C. This causes no loss of generality on c since a theorem in 2] shows that the dynamics of Eq. (1) for c E H are the same as with e E C except for a rotation about the real axis."
+        },
+        {
+          "node_id": "6e9cf560-7d57-5e76-b8a9-01bc7e01e6c9",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "for any z E J."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "3b69c2c6-1966-5eed-85a5-990af73c85a8",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "Stereo can be integrated into the orthogonal projection easily by the following formula"
+        },
+        {
+          "node_id": "1b16c29b-a4a2-527f-a742-f88c367d4c04",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "This is done simply by setting"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "theorem",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "3448c7a5-4a66-5620-892c-564de91e1811",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "1590fc26-daf3-5c10-863c-6b4b65927335",
+      "page_index": 4,
+      "bbox": [
+        240.42857165703617,
+        513.4186049277328,
+        505.0150369729724,
+        500.66666642573904
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/1590fc26-daf3-5c10-863c-6b4b65927335.png",
+      "crop_sha256": "4ea1eb979a6c9806103c776b2a33418b3c0f6cb641faf5b14c49cc7bea4bbca5",
+      "raw_text": "s'=/=:|21= Vc-2-1, Re(=) = Imx (z) = 0} (16)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "da51a0f0-1805-5f6f-a261-df190fb4da74",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "iii. Plot the reflections z; - 2Im; (zi) and - z; + 2Im; (z;)."
+        },
+        {
+          "node_id": "2ee5f89a-5011-5025-bf93-3fa51379496e",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "ii. Plot zi, - z;."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "73212217-9e55-566f-90c2-f55898a3e98e",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "B. (zi-1 - c) € R. in which case z; should be chosen at random from the circle"
+        },
+        {
+          "node_id": "918fef99-c941-53c7-9513-2bb45114d866",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "A. Let z; = f-'(z;-1) be the next point in the iteration unless ..."
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "78d24103-f474-5e93-b520-779be8e02330",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "0fdc76ad-96b9-5991-aae2-a510e590a128",
+      "page_index": 4,
+      "bbox": [
+        264.58646591839914,
+        602.1056468900276,
+        503.8913553110502,
+        591.6501669502491
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/0fdc76ad-96b9-5991-aae2-a510e590a128.png",
+      "crop_sha256": "62d236a10ce2a39914f321be09d22b81f6a06ec494e43bb08682b36379f3d870",
+      "raw_text": "20=pcosti + psin 0j (15)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "852cb2ad-f7a6-5149-9db8-3b86c7dfe8f0",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "(a) For i € {1,2,3,..., N}..."
+        },
+        {
+          "node_id": "117f601c-d7e2-5ff6-a2d6-2924e134c1e2",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "be a point on a circle of radius p about the origin in the i,j plane ..."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "21a2eac9-a767-5ada-a57f-50f9a6b7d99f",
+          "page_index": 4,
+          "block_type": "heading",
+          "text": "2. For each value 0 € [0, 2) let"
+        },
+        {
+          "node_id": "55734fbc-f9d5-54ca-a118-fe5a6c443040",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "by extending a ray from the origin up the i axis to find the least positive i value not in the filled-in Julia"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "1c788424-67bb-5cf0-b0b4-74943f731f03",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "75696d43-df66-55df-8729-130cf24bd61d",
+      "page_index": 4,
+      "bbox": [
+        265.6907013299864,
+        659.8463731765459,
+        503.8646619101732,
+        643.2699069340736
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/75696d43-df66-55df-8729-130cf24bd61d.png",
+      "crop_sha256": "fb9fb6493d8606a1bf198a89bdf82927aee069bce69ae8b5dc6910d36533b1d7",
+      "raw_text": "p = minfy: yi$K} (14)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "21a2eac9-a767-5ada-a57f-50f9a6b7d99f",
+          "page_index": 4,
+          "block_type": "heading",
+          "text": "2. For each value 0 € [0, 2) let"
+        },
+        {
+          "node_id": "55734fbc-f9d5-54ca-a118-fe5a6c443040",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "by extending a ray from the origin up the i axis to find the least positive i value not in the filled-in Julia"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "a8c12148-7094-5271-84c5-369b4dd01a29",
+          "page_index": 4,
+          "block_type": "heading",
+          "text": "1. Compute"
+        },
+        {
+          "node_id": "d9a31e69-4768-5475-af6c-240307c42727",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "The inverse iteration method runs in object-time but takes image-space. This requires much less memory"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "a9affe44-f06c-5aa7-969b-0da2de225f5d",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "e5a85948-8db7-59d4-8573-047e22088611",
+      "page_index": 5,
+      "bbox": [
+        154.15038171974655,
+        231.38372097740546,
+        308.30075155700973,
+        221.02325594860883
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/e5a85948-8db7-59d4-8573-047e22088611.png",
+      "crop_sha256": "6d472ec763b06c1e426b9326f1abf2084b81313f4ba80e7449cfbfcc5936da1d",
+      "raw_text": "C(z) = |256(Re(z) mod 1)] (18)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "c4879cfc-8c65-5986-b581-684d140f960f",
+          "page_index": 5,
+          "block_type": "heading",
+          "text": "4.1 Comparisons"
+        },
+        {
+          "node_id": "8a73d025-ee72-5438-bf1f-c136e4f9742d",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "will assign colors that vary across the point cloud in the direction of the real axis. Computationally, some modulo functions return unexpected values for negative values. In such a case, adding 10 to z does not change its modulo with respect to 1 and insures the points to be positive."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "1822f245-096e-5466-8e70-eb56c461180b",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "tion algorithms. It also does not require an expensive frame buffer. We expect that these factors will make the algorithm very popular to those wanting to investgate these objects but without the resources available to a research mathematician."
+        },
+        {
+          "node_id": "e63bce38-6d40-56d4-989a-ff2d05053e33",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "An alternative but similar cue is to use a modulo color scheme based on a coordinate. For example, The inverse iteration algorithm is much simpler and if valid color indices range from 0 to 255 inclusively, faster than the other quaternion Julia set visualizathen the function"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "2f1c6a03-7ff1-576c-a88c-f9a9f1fdf534",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "d25c94d2-9e28-5164-ab68-fadf7b8c492c",
+      "page_index": 5,
+      "bbox": [
+        385.37594043149994,
+        375.3333335272364,
+        518.8195490778893,
+        356.86046523654494
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/d25c94d2-9e28-5164-ab68-fadf7b8c492c.png",
+      "crop_sha256": "56665299b6ca84d318c1b9e951cb19fcbd3f6db2cf8e923dd93c1f9d8036c438",
+      "raw_text": "Ñ = - × (19) 1X)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "5a8a1935-6bec-5743-8fc4-e4aca1f56b46",
+          "page_index": 5,
+          "block_type": "heading",
+          "text": "3.2.2 Depthcueing"
+        },
+        {
+          "node_id": "a6518f18-4a94-5e9f-85e5-90c7acce1e25",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "If a shadow buffer is maintained by projecting each point with respect to each light source and adding them to a separate z-buffer dedicated to each light source, then the object can be rendered with shadows."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "f9d859e8-534d-5c63-a6cd-099fffbb5053",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "z is the z-buffer indexed by x and y. The surface normal may then be computed as"
+        },
+        {
+          "node_id": "ddc4591b-a20c-530b-86bd-1f291d61b1e0",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "A more correct stereo display involves two perspective transformations performed after a transla tion to the left and right by some disparity factor. Although rotation can produce a stereo effect, it is not valid stereopsis whereas off-axis perspective pro jections are."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "26e2b490-f74c-5fb0-9bb4-707c5ee8ed05",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "9c486150-fc41-5d3d-9178-02f715ed202e",
+      "page_index": 5,
+      "bbox": [
+        365.8195477146517,
+        442.04651138816774,
+        467.05263080384447,
+        417.8720933449751
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/9c486150-fc41-5d3d-9178-02f715ed202e.png",
+      "crop_sha256": "989912cb1467711ea9503d195a729c480322be54c1ec147fa0cdcdebd0c67b3b",
+      "raw_text": "X = (1,0, a (x +1,y)), Ỹ = (0,1, z (x, y + 1))",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "f9d859e8-534d-5c63-a6cd-099fffbb5053",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "z is the z-buffer indexed by x and y. The surface normal may then be computed as"
+        },
+        {
+          "node_id": "ddc4591b-a20c-530b-86bd-1f291d61b1e0",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "A more correct stereo display involves two perspective transformations performed after a transla tion to the left and right by some disparity factor. Although rotation can produce a stereo effect, it is not valid stereopsis whereas off-axis perspective pro jections are."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "3af950f5-286e-5c2a-aacc-166f1db8a974",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "The surface normal of a z-buffered point may be found by forming two other vectors [8). Let"
+        },
+        {
+          "node_id": "94503115-881d-5c9f-8d93-6e27a9a07c4d",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "The factor 0.12 is the disparity and can be adjusted to change the depth of the stereo image. These equations force the center of focus of the stereo projection to be at the z = 0 plane so half of the points will be in front of the screen and the other half will be behind."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "ea070621-babd-5808-b665-44b8a7d7f32f",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "ef4004d0-f3aa-5e60-88c8-c0a94845814e",
+      "page_index": 5,
+      "bbox": [
+        131.1428578802662,
+        678.0348835792782,
+        266.88721737844975,
+        669.9767443900531
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/ef4004d0-f3aa-5e60-88c8-c0a94845814e.png",
+      "crop_sha256": "52e7e1fd4c669c88fc5e621ad6c5ba440f3beaf6756fb20822136aeb4474bca9",
+      "raw_text": "y = y (both images).",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "e75a9048-b859-5cea-8060-efe0e5936b43",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "This is computed for positive x axis pointing to the viewer's right and positive z axis pointing away from the viewer."
+        },
+        {
+          "node_id": "c2c99442-3618-529f-814c-5c08d3d295fa",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "A forward iterative method for computing the surface normal of a point on the quaternion Julia set exists [3] but it is computationally expensive. The technique is to define some scalar field that is zero at K and diverges as it approches infinity. Two continuos fields that work well are the potential and the estimated distance. The surface normal is then computed as the gradient of this field at any given point."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "71af12fc-ec48-5461-9676-dc363358f1e8",
+          "page_index": 5,
+          "block_type": "heading",
+          "text": "3.2.3 Computation of Surface Normals"
+        },
+        {
+          "node_id": "8270e17a-5ced-51b9-8601-593eacbbf6c7",
+          "page_index": 6,
+          "block_type": "text",
+          "text": "The research for this project was performed at 4.2 Implementations the Electronic Visualization Laboratoy under the co direction of Thomas A. DeFanti and Daniel J. Sandin This method was originally implemented on a lap- with Maxine D. Brown (Assistant Director) and Irv- top where the sets were displayed in single-bit black ing Moy (Systems Specialist)."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "d8896d53-f1cb-5478-a707-d944946adb16",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "498080d7-9fc7-5e2a-98c6-86de3cf00a8c",
+      "page_index": 7,
+      "bbox": [
+        319.80451399816974,
+        161.16279048627496,
+        425.6390985522062,
+        150.6666665365883
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/498080d7-9fc7-5e2a-98c6-86de3cf00a8c.png",
+      "crop_sha256": "ea6ae9a30ff57df143fba04731575a1c2cd893ea869b3f8f01c66b523f5966eb",
+      "raw_text": "1. Let R = V22 + 42 + 22.",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "cfd4a3d7-e9c2-5084-9924-ee48bbecb6dd",
+          "page_index": 6,
+          "block_type": "text",
+          "text": "than does Norton's boundary tracking method and and white as stereo pairs. The stereo images would generate visually and one could watch as the inverse iteration fills in the quaternion Julia set."
+        },
+        {
+          "node_id": "cd92de98-9aa6-5b7f-aa3c-ab46b6915f79",
+          "page_index": 6,
+          "block_type": "text",
+          "text": "Figure 4: A disconnected quaternion Julia set of f(z) = z2 + 1.2i generated by inverse iteration on a laptop PC compatible and displayed as a stereo pair."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "8145261e-783c-5c13-a37c-b88cbd0f3fcf",
+          "page_index": 7,
+          "block_type": "text",
+          "text": "when a? + 62 = 1. Here E denotes the sign of b if it is non-zero, and E is zero otherwise."
+        },
+        {
+          "node_id": "23446cb4-2d84-5495-a7f6-f5277b5216da",
+          "page_index": 7,
+          "block_type": "text",
+          "text": "Letting x = ay = bcost, 7 = bsint we can form Va+ bu as follows:"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "denotes",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "0e0321fb-6da8-5938-affe-9f7940d58d8b",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "7123b099-3976-57b2-aa2e-00e03467da6b",
+      "page_index": 7,
+      "bbox": [
+        284.1428574095223,
+        191.09302305180722,
+        307.15037490626713,
+        183.03488388656478
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/7123b099-3976-57b2-aa2e-00e03467da6b.png",
+      "crop_sha256": "875f5a1a49999763e8957e3a8dbf02a67301998eea2fce2e3c9ee7644907791d",
+      "raw_text": "20)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "8145261e-783c-5c13-a37c-b88cbd0f3fcf",
+          "page_index": 7,
+          "block_type": "text",
+          "text": "when a? + 62 = 1. Here E denotes the sign of b if it is non-zero, and E is zero otherwise."
+        },
+        {
+          "node_id": "23446cb4-2d84-5495-a7f6-f5277b5216da",
+          "page_index": 7,
+          "block_type": "text",
+          "text": "Letting x = ay = bcost, 7 = bsint we can form Va+ bu as follows:"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "7ef6cc59-4e5d-5d74-a629-31e40fecbcdc",
+          "page_index": 7,
+          "block_type": "text",
+          "text": "Recall that the simple formula for the square root of a complex number is given by"
+        },
+        {
+          "node_id": "8a4633e0-c9f4-592d-9d2e-ef464929897e",
+          "page_index": 7,
+          "block_type": "text",
+          "text": "The core of the simplest computation of three dimensional Julia sets is the function for the square root of a point in three space with respect to this second order power mapping. Let this point be specified by a + bu(0) where a and 6 are real, and u(0) denotes the point (cos 0, sin 0) in the plane."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        },
+        {
+          "side": "after",
+          "cue": "given by",
+          "weight": 3
+        },
+        {
+          "side": "after",
+          "cue": "denotes",
+          "weight": 2
+        },
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 8,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "df0cd244-addc-5926-9726-d5cbc67a1977",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "b99fa5b6-929f-5153-b44a-8786e2cece58",
+      "page_index": 8,
+      "bbox": [
+        158.72181801174204,
+        159.04949362372622,
+        295.64661637971653,
+        147.15980831081936
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/b99fa5b6-929f-5153-b44a-8786e2cece58.png",
+      "crop_sha256": "1c9af25936910a723228b68ac1d966beba9b4f66a5fa83ae875d41d5fcc34803",
+      "raw_text": "z=a+ßi+pe*j (25)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "2034e6a6-47fc-5872-9363-c564e8cefce8",
+          "page_index": 7,
+          "block_type": "text",
+          "text": "Similarly, a quaternion in 4-D can be written in the form a+ bu where a, b E R and u = uit uzjt uzk and lu| = 1. It then follows directly from the algebraic structure of H that u? = -1. Thus, in and of itself each quaternion belongs to a complex plane in fourspace that is determined by the real axis and the direction of the unit vector u in the complementary three-space."
+        },
+        {
+          "node_id": "b9c960df-bc4d-5297-8372-2a732817132e",
+          "page_index": 7,
+          "block_type": "heading",
+          "text": "References"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "6436b3de-03da-5ca5-a9d1-ffa7992c0bb4",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Any arbitrary z E H can be expressed"
+        },
+        {
+          "node_id": "81a72372-2fb7-5cfd-bd38-0d471bd6364e",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "commutes. Here the symbol Hi denotes the space spanned by 1,i and j."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "where",
+          "weight": 1
+        },
+        {
+          "side": "after",
+          "cue": "denotes",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "271eda2f-591d-56f6-8608-d42ad58076ae",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "9ad153cc-8b32-55a6-8a37-9f7b7c582e3c",
+      "page_index": 8,
+      "bbox": [
+        158.75187990690006,
+        282.03488339921097,
+        295.6466164890022,
+        208.3604651789866
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/9ad153cc-8b32-55a6-8a37-9f7b7c582e3c.png",
+      "crop_sha256": "5323ce5996eb4db376cd284c1ab691802b44f48b0589f06276bdb0fac4bb2c9c",
+      "raw_text": "Fo → Hi 90 t H T90 H (24) Fo",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "6436b3de-03da-5ca5-a9d1-ffa7992c0bb4",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Any arbitrary z E H can be expressed"
+        },
+        {
+          "node_id": "81a72372-2fb7-5cfd-bd38-0d471bd6364e",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "commutes. Here the symbol Hi denotes the space spanned by 1,i and j."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "ad15db43-53d6-576d-8740-0eeb707d3033",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "be a rotation of quaternion z about the complex plane that leaves points in C fixed. The proof consists of showing algebraically that"
+        },
+        {
+          "node_id": "8bb92948-e5ba-5664-a584-3e0deb55afb6",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Proof: Let"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "f6541e69-231a-5c2d-a221-7c3ed3f64b54",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "c14dcbb7-b76b-5163-8451-353c2cd28305",
+      "page_index": 8,
+      "bbox": [
+        322.10526127750137,
+        316.6666668220925,
+        506.165413151525,
+        264.39237764192114
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/c14dcbb7-b76b-5163-8451-353c2cd28305.png",
+      "crop_sha256": "3bf67222f11a0742b80f1a4d332c05b9daff7c08e006081252bd8545f5f39c44",
+      "raw_text": "=(a-B2-p) cose + 2aß sin e+ (l-a' +B°+p?) sine + 2aß cost)i + 2ap(cos 8 cos d - sin 0 sin d)j Zap(sin 9 cos - cos 0 sin d)k + ei°c. O (33)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "6436b3de-03da-5ca5-a9d1-ffa7992c0bb4",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Any arbitrary z E H can be expressed"
+        },
+        {
+          "node_id": "81a72372-2fb7-5cfd-bd38-0d471bd6364e",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "commutes. Here the symbol Hi denotes the space spanned by 1,i and j."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "ad15db43-53d6-576d-8740-0eeb707d3033",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "be a rotation of quaternion z about the complex plane that leaves points in C fixed. The proof consists of showing algebraically that"
+        },
+        {
+          "node_id": "8bb92948-e5ba-5664-a584-3e0deb55afb6",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Proof: Let"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "0153902d-d745-504e-b2b9-2c554f73232e",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "aece0fc4-4e5b-5f55-a2d6-cca08f83b5dd",
+      "page_index": 8,
+      "bbox": [
+        124.24060456968573,
+        354.6666665837611,
+        295.64661660403976,
+        330.33333358904656
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/aece0fc4-4e5b-5f55-a2d6-cca08f83b5dd.png",
+      "crop_sha256": "7c00dab6c46c50fcc1f2458aac9997a7f2526476c87e09116e69ecfc9db0eae7",
+      "raw_text": "9ф(2) = Re(z)+Im;(z)i+ (23) e**(Im; (=)j+ Imk(z)k)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "81a72372-2fb7-5cfd-bd38-0d471bd6364e",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "commutes. Here the symbol Hi denotes the space spanned by 1,i and j."
+        },
+        {
+          "node_id": "ad15db43-53d6-576d-8740-0eeb707d3033",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "be a rotation of quaternion z about the complex plane that leaves points in C fixed. The proof consists of showing algebraically that"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "8bb92948-e5ba-5664-a584-3e0deb55afb6",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Proof: Let"
+        },
+        {
+          "node_id": "97be85fb-fb43-5e31-8c95-1c47fb468328",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Hence the 4-D Julia set is obtained as a set of revolution about C of the S-D Julia set."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        },
+        {
+          "side": "after",
+          "cue": "hence",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "3430f355-d136-57a5-a307-8a122d6478aa",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "32865ab2-9e86-5c03-93a1-9be848f27b7e",
+      "page_index": 8,
+      "bbox": [
+        319.804515611982,
+        355.70930249183175,
+        506.16541354858873,
+        331.5348837609299
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/32865ab2-9e86-5c03-93a1-9be848f27b7e.png",
+      "crop_sha256": "4f6cfbd92500eac29d82776ab6fd95b646d9976d20aeb4af737e71d634c346c5",
+      "raw_text": "=e-id(a-B'-p'+ 2aßi+ Zap cos dj + 2ap sin dk) + eidc (32)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "81a72372-2fb7-5cfd-bd38-0d471bd6364e",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "commutes. Here the symbol Hi denotes the space spanned by 1,i and j."
+        },
+        {
+          "node_id": "ad15db43-53d6-576d-8740-0eeb707d3033",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "be a rotation of quaternion z about the complex plane that leaves points in C fixed. The proof consists of showing algebraically that"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "8bb92948-e5ba-5664-a584-3e0deb55afb6",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Proof: Let"
+        },
+        {
+          "node_id": "97be85fb-fb43-5e31-8c95-1c47fb468328",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Hence the 4-D Julia set is obtained as a set of revolution about C of the S-D Julia set."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "denotes",
+          "weight": 2
+        },
+        {
+          "side": "after",
+          "cue": "hence",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "13cef51c-95e3-52cb-a76c-a8361b585aba",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "7e107202-8e41-56cd-8ec1-4712001db011",
+      "page_index": 8,
+      "bbox": [
+        314.0526319525097,
+        417.99999985055905,
+        506.16541335284074,
+        370.6666667307729
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/7e107202-8e41-56cd-8ec1-4712001db011.png",
+      "crop_sha256": "755f9615d9f3a325183a602f11445b4f84eb483326c05109412d44ce94d6c834",
+      "raw_text": "Fa (z) = (30) e-id (at Bi + pcosoj+ psin k)? +ei°c = e-io (a-B' -p'cos? d-p'sin? d + (31) 2aßi + 2apcos dj + Lapsink) + e*° c",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "8bb92948-e5ba-5664-a584-3e0deb55afb6",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Proof: Let"
+        },
+        {
+          "node_id": "97be85fb-fb43-5e31-8c95-1c47fb468328",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Hence the 4-D Julia set is obtained as a set of revolution about C of the S-D Julia set."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "62f4920b-a913-5e73-b01c-1830a11106cb",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "which is the same result as"
+        },
+        {
+          "node_id": "bf0676f9-0422-53e6-b22c-68a38c95deb4",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "for c E C is independent of the angle d in"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "hence",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "99134498-3fd1-553e-bfba-c96238ce6929",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "f2d046bf-33d2-5aa2-aceb-1bbc3a032402",
+      "page_index": 8,
+      "bbox": [
+        157.60150492822436,
+        424.7790697479027,
+        295.6466165561075,
+        413.26744194759453
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/f2d046bf-33d2-5aa2-aceb-1bbc3a032402.png",
+      "crop_sha256": "8ad8fa1b683f2dfa11a333eac4e11e7bc849cb9c8882a9743165b62eabddd7f3",
+      "raw_text": "= = a+ßi + pe*$j. (22)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "8bb92948-e5ba-5664-a584-3e0deb55afb6",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Proof: Let"
+        },
+        {
+          "node_id": "97be85fb-fb43-5e31-8c95-1c47fb468328",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Hence the 4-D Julia set is obtained as a set of revolution about C of the S-D Julia set."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "62f4920b-a913-5e73-b01c-1830a11106cb",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "which is the same result as"
+        },
+        {
+          "node_id": "bf0676f9-0422-53e6-b22c-68a38c95deb4",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "for c E C is independent of the angle d in"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "hence",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "8e3a787e-b151-5966-b4d2-5beb32c86ae6",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "2bfedfe7-14fd-5734-8326-813c36b6fb73",
+      "page_index": 8,
+      "bbox": [
+        154.15037762624135,
+        463.9999999452578,
+        295.6466158714498,
+        451.2558141025332
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/2bfedfe7-14fd-5734-8326-813c36b6fb73.png",
+      "crop_sha256": "c368221dfa7af28a72adfb445a680d6e3add4f80db66ade75db7120eac9db725",
+      "raw_text": "Fe(z) = e-io=2+eioc (21)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "62f4920b-a913-5e73-b01c-1830a11106cb",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "which is the same result as"
+        },
+        {
+          "node_id": "bf0676f9-0422-53e6-b22c-68a38c95deb4",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "for c E C is independent of the angle d in"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "fc5f8945-e521-5eff-a207-45de09f2a66c",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Theorem 1 The dynamics of the function"
+        },
+        {
+          "node_id": "4057a328-daf0-5598-bdb0-7ec26191ce09",
+          "page_index": 8,
+          "block_type": "heading",
+          "text": "B Proof of j,k Equivalence in Julia Sets"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "theorem",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "559ec609-bc85-5127-9c28-a116d55bc502",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "a161231f-132c-5f33-89b8-23750a6ad935",
+      "page_index": 8,
+      "bbox": [
+        320.9548863073825,
+        507.66666663207917,
+        505.0150373238841,
+        444.09661897909706
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/a161231f-132c-5f33-89b8-23750a6ad935.png",
+      "crop_sha256": "ad7b3f7868bae6361bf71d17d75b39c35ef2d94d79690c0f0fa69a8b9b4e918e",
+      "raw_text": "9ф о Fo 0g-ф(z) = (22-B°-p) cost +2aßsine+ (l-a? +B°+ p?) sine + 2aß cost)i + 2ap(cos 8 cos ф - sin 0 sin ф)j 2ap(sin (sin cos cos - cos f sin ф)k + ei° c. (29)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "bf0676f9-0422-53e6-b22c-68a38c95deb4",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "for c E C is independent of the angle d in"
+        },
+        {
+          "node_id": "fc5f8945-e521-5eff-a207-45de09f2a66c",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Theorem 1 The dynamics of the function"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "4057a328-daf0-5598-bdb0-7ec26191ce09",
+          "page_index": 8,
+          "block_type": "heading",
+          "text": "B Proof of j,k Equivalence in Julia Sets"
+        },
+        {
+          "node_id": "dcfdde9f-5888-5012-974d-71d35df760fb",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Rotating back we get"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "theorem",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "d44a0426-f0df-5cef-ae1f-84f238dff968",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "8cc41843-f06d-52fa-aadd-de35a4014f74",
+      "page_index": 8,
+      "bbox": [
+        323.255643686915,
+        574.4302323803156,
+        505.01503765667127,
+        537.5930234624169
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/8cc41843-f06d-52fa-aadd-de35a4014f74.png",
+      "crop_sha256": "ef23002f8ffd51bce94c0530908de2abfedd152baee388c0b12ef7bd9fb54d91",
+      "raw_text": "= (a'-B°-p) cose + 2aß sine + ((-a +82 + p) sin e + 2aß cos P)i + Zapcos@j- LapsinOk + ei°c. (28)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "4057a328-daf0-5598-bdb0-7ec26191ce09",
+          "page_index": 8,
+          "block_type": "heading",
+          "text": "B Proof of j,k Equivalence in Julia Sets"
+        },
+        {
+          "node_id": "dcfdde9f-5888-5012-974d-71d35df760fb",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Rotating back we get"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "1d69f999-fba6-5c71-8e69-36238e21c599",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "This formula is derived directly from our geometric considerations, and it can be used to program in standard three dimensional coordinates. This makes possible a simple and useful program for 3-D Julia sets, computed by inverse (random for the sign of the root) square root iteration."
+        },
+        {
+          "node_id": "58ce908c-64a2-54aa-9aa4-80f3f44f8ef8",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "takes z from H into Hi. Then"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "25739874-73ca-5db8-9e8f-b95561daed7d",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "b8134d93-48a4-5b25-a09a-d39c6680f31b",
+      "page_index": 8,
+      "bbox": [
+        315.18335745029486,
+        611.3790510202048,
+        505.01503761640816,
+        589.3333331972701
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/b8134d93-48a4-5b25-a09a-d39c6680f31b.png",
+      "crop_sha256": "ae26b230a0bcb9fd0e8c0c13c62fbdf11c5c8db425e7531771dd69f0239f736f",
+      "raw_text": "Foo g-ø(z)= (27) e-it(a'-B'-p+2aßi+2apj) +eic",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "dcfdde9f-5888-5012-974d-71d35df760fb",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Rotating back we get"
+        },
+        {
+          "node_id": "1d69f999-fba6-5c71-8e69-36238e21c599",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "This formula is derived directly from our geometric considerations, and it can be used to program in standard three dimensional coordinates. This makes possible a simple and useful program for 3-D Julia sets, computed by inverse (random for the sign of the root) square root iteration."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "58ce908c-64a2-54aa-9aa4-80f3f44f8ef8",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "takes z from H into Hi. Then"
+        },
+        {
+          "node_id": "e78abb7f-200d-51a1-8f12-4c5c2f74e059",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "parameterized by three reals a, B, p and an angle Notice that"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "da8ca211-c7b0-5cfb-bc47-906bda3a49f6",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "98cdca82-a7d0-5de3-805a-bb2c630986d9",
+      "page_index": 8,
+      "bbox": [
+        97.78195934552541,
+        617.02325549747,
+        233.52631359357224,
+        605.5116283002044
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/98cdca82-a7d0-5de3-805a-bb2c630986d9.png",
+      "crop_sha256": "a8596b5c889add79553f5fdb324e00c43ec24aaea8e127db574fd1082f4ef067",
+      "raw_text": "5. Then Va+ bu = S[A, BIm, m1).",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "dcfdde9f-5888-5012-974d-71d35df760fb",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "Rotating back we get"
+        },
+        {
+          "node_id": "1d69f999-fba6-5c71-8e69-36238e21c599",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "This formula is derived directly from our geometric considerations, and it can be used to program in standard three dimensional coordinates. This makes possible a simple and useful program for 3-D Julia sets, computed by inverse (random for the sign of the root) square root iteration."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "58ce908c-64a2-54aa-9aa4-80f3f44f8ef8",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "takes z from H into Hi. Then"
+        },
+        {
+          "node_id": "e78abb7f-200d-51a1-8f12-4c5c2f74e059",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "parameterized by three reals a, B, p and an angle Notice that"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "20fe1b1c-0b5c-5e65-b4dc-159d38274b86",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "403a0e0c-f41a-50d6-b771-885f8731d2df",
+      "page_index": 8,
+      "bbox": [
+        362.36842417089935,
+        651.6666666988774,
+        505.0150376087391,
+        641.1976745057341
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/403a0e0c-f41a-50d6-b771-885f8731d2df.png",
+      "crop_sha256": "29572387c46cc9763036b0db1c256be8d26d9a31fb8e79eb6f7191f8b95038e4",
+      "raw_text": "9-(z) = a + Bi + pj (26)",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "1d69f999-fba6-5c71-8e69-36238e21c599",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "This formula is derived directly from our geometric considerations, and it can be used to program in standard three dimensional coordinates. This makes possible a simple and useful program for 3-D Julia sets, computed by inverse (random for the sign of the root) square root iteration."
+        },
+        {
+          "node_id": "58ce908c-64a2-54aa-9aa4-80f3f44f8ef8",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "takes z from H into Hi. Then"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "e78abb7f-200d-51a1-8f12-4c5c2f74e059",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "parameterized by three reals a, B, p and an angle Notice that"
+        },
+        {
+          "node_id": "96c3bbc0-a45f-5d99-bf7c-893968515eca",
+          "page_index": 9,
+          "block_type": "text",
+          "text": "Figure 9: The Julia set at the origin without the sphere, deptheued as in Figure 6 (Color Plate 96, page 475)"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "4e62f541-cf82-5de0-aedc-b2c1ff09f23a",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "3004da30-cb08-5835-8ed4-a3207ee9c153",
+      "page_index": 8,
+      "bbox": [
+        97.78195828442294,
+        663.069767259364,
+        241.5789452554346,
+        626.232558375313
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/3004da30-cb08-5835-8ed4-a3207ee9c153.png",
+      "crop_sha256": "175d8bfb53b8e12b6ff8976ad8e6307899962cd8ac9558619a0d7a7dd935dc8d",
+      "raw_text": "3. Let S= VRand m = Vyi2 + 217. 4. Let A = VIé and B = VI.",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "1d69f999-fba6-5c71-8e69-36238e21c599",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "This formula is derived directly from our geometric considerations, and it can be used to program in standard three dimensional coordinates. This makes possible a simple and useful program for 3-D Julia sets, computed by inverse (random for the sign of the root) square root iteration."
+        },
+        {
+          "node_id": "58ce908c-64a2-54aa-9aa4-80f3f44f8ef8",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "takes z from H into Hi. Then"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "e78abb7f-200d-51a1-8f12-4c5c2f74e059",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "parameterized by three reals a, B, p and an angle Notice that"
+        },
+        {
+          "node_id": "96c3bbc0-a45f-5d99-bf7c-893968515eca",
+          "page_index": 9,
+          "block_type": "text",
+          "text": "Figure 9: The Julia set at the origin without the sphere, deptheued as in Figure 6 (Color Plate 96, page 475)"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    },
+    {
+      "candidate_id": "b627cd6d-b76f-5fe6-bb74-1b5033de5c5b",
+      "document_id": "5b111797-8896-5997-8296-404ef3ec5152",
+      "node_id": "a0fb7a17-c8ec-5c3c-853b-a4add983414c",
+      "page_index": 8,
+      "bbox": [
+        97.52271270751953,
+        681.2121200561523,
+        215.0150909423828,
+        670.1602630615234
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/a0fb7a17-c8ec-5c3c-853b-a4add983414c.png",
+      "crop_sha256": "dda19c0cb85ff2ca06e2f2bb050de3cd3fffd0b15deebd368d274e3f19b6bd1e",
+      "raw_text": "",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "58ce908c-64a2-54aa-9aa4-80f3f44f8ef8",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "takes z from H into Hi. Then"
+        },
+        {
+          "node_id": "e78abb7f-200d-51a1-8f12-4c5c2f74e059",
+          "page_index": 8,
+          "block_type": "text",
+          "text": "parameterized by three reals a, B, p and an angle Notice that"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "96c3bbc0-a45f-5d99-bf7c-893968515eca",
+          "page_index": 9,
+          "block_type": "text",
+          "text": "Figure 9: The Julia set at the origin without the sphere, deptheued as in Figure 6 (Color Plate 96, page 475)"
+        },
+        {
+          "node_id": "3ef34f87-4f6b-52c2-953c-4c53f9cda604",
+          "page_index": 9,
+          "block_type": "text",
+          "text": "Figure 10: \"The Pillow.\" The quaternion Julia set at e = 0.25 for 0 = 90°. (Color Plate 97, page 478)"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b",
+      "database_sha256": "8d13352cac0cf919f38bcb3cf03b81db47286d7d9742594ef9e98f1bd3c032c0"
+    }
+  ]
+}

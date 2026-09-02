@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "formula_id": "869968b7-f6e6-50ce-93f0-f251e9efb12f",
+  "style": "chicago-author-date",
+  "evaluator_safe": true,
+  "inline": "(Prusinkiewicz and Lindenmayer 2004, 187)",
+  "chicago": "Prusinkiewicz, Przemysław, and Aristid Lindenmayer. 2004. The Algorithmic Beauty of Plants. New York: Springer."
+}

@@ -1,0 +1,896 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "status": "REVIEW_REQUIRED",
+  "database": "/Users/ruvebal/ahmes-library/scholar/documents/nigel_lesmoir_gordon_the_colours_of_infinity_the_beauty_and_power_of_fractals_2010_springer_aebecb13/extract/extraction.db",
+  "candidate_count": 14,
+  "policy": {
+    "context_is_evidence_not_verdict": true,
+    "agent_may_rank_but_not_assign_derivation_role": true,
+    "unattended_promotion": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "cb220c66-1a3e-5e50-897b-61c72dc80603",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "f3a985a6-c16c-540f-8fbe-5fc6caa02940",
+      "page_index": 39,
+      "bbox": [
+        283.49067686999996,
+        425.206009765625,
+        312.18508,
+        413.895009765625
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/f3a985a6-c16c-540f-8fbe-5fc6caa02940.png",
+      "crop_sha256": "4ce3f0d0c8a7b1875925ce98dcc3f4cadacc5f6fe4f3b3f36fe3d2f289d4c121",
+      "raw_text": "Z z 2",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "6677fd2f-d838-567a-86af-d0de73863c26",
+          "page_index": 39,
+          "block_type": "text",
+          "text": "In theory, anyone who can add and multiply could plot out the M-set with pen or pencil on a sheet of squared paper. However, as we'll see later, there are certain practical difficulties - notably the fact that a human lifespan is seldom more than a hundred years. So the M-set is invariably computer-generated, and usually shown on a computer screen."
+        },
+        {
+          "node_id": "aada1561-8044-5650-b615-6bcad9d6b2ad",
+          "page_index": 39,
+          "block_type": "text",
+          "text": "That double arrow is a two-way traffic sign, indicating that the numbers flow in both directions. This time, we don't stop at Z = 4; we make that equal to a new z - which promptly give us a second Z of 16, and so on."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "f6fa57a4-2bed-57f3-a007-61ee62c594b7",
+          "page_index": 39,
+          "block_type": "text",
+          "text": "Nothing to get very excited about, but now comes the modification that makes all the difference:"
+        },
+        {
+          "node_id": "7be3017d-39c2-5e5a-894e-5844c210846b",
+          "page_index": 39,
+          "block_type": "heading",
+          "text": "The iteration loop"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "f7a32811-38d6-5393-97d6-54a5167cde98",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "c28067c2-da5f-56a0-b8a3-5f5048b5f8b5",
+      "page_index": 41,
+      "bbox": [
+        283.48990000000003,
+        128.0332097656251,
+        330.685066,
+        116.72200976562499
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/c28067c2-da5f-56a0-b8a3-5f5048b5f8b5.png",
+      "crop_sha256": "2a26956a6b38b2a4a40d508a8cb4fd73f2ce0e8434bbd692ff73ed2226a07319",
+      "raw_text": "Z z 2 + c.",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "adf8d85d-e6cd-59d1-b832-0cb8c83076cf",
+          "page_index": 41,
+          "block_type": "text",
+          "text": "The only difference between this and the equation we have used to describe the S-set is the term c. This - not z - is now the starting point of our mapping operation. The first time round the loop, z is put equal to zero."
+        },
+        {
+          "node_id": "6f58051e-7646-5801-b24b-1a0aab8a676d",
+          "page_index": 41,
+          "block_type": "text",
+          "text": "The S-set lies inside a map, and its frontier is the circle enclosing it. That circle is simply a continuous line with no thickness. If you could examine it with a microscope of infinite power, it would always look exactly the same."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "ef62cd66-317e-5ce0-8714-92ed6f1fe973",
+          "page_index": 41,
+          "block_type": "heading",
+          "text": "Inside the map"
+        },
+        {
+          "node_id": "1c312a99-c274-54f4-bd88-70b772ecba5a",
+          "page_index": 41,
+          "block_type": "text",
+          "text": "During the 1970s, the French mathematician Benoît Mandelbrot, working at Harvard and IBM, started to investigate the equation that has made him famous, and which I will now write in dynamic form:"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "the equation",
+          "weight": 3
+        },
+        {
+          "side": "after",
+          "cue": "the equation",
+          "weight": 3
+        }
+      ],
+      "canonicality_score": 6,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "ab51c38b-0ea9-51d6-8721-0a497b317807",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "0f97e604-b743-56c1-8d50-d3d2025ef270",
+      "page_index": 42,
+      "bbox": [
+        73.65329999999999,
+        304.36610976562514,
+        230.63707200000005,
+        237.0580597656251
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/0f97e604-b743-56c1-8d50-d3d2025ef270.png",
+      "crop_sha256": "5592b031bf3aa70e8f58560a7d9c35f7eb643afa0d5bdc0b0509d584ef8d5b91",
+      "raw_text": "For starters, z = 0, c = 1. So Z = 1. First loop: Z = 1 2 + 1 = 2. Second loop: Z = 2 2 + 1 = 5. Third loop: Z = 5 2 + 1 = 26. Fourth loop: Z = 26 2 + 1 … and so on.",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "d3086999-ff69-543f-9340-3cc3a5b02f4b",
+          "page_index": 42,
+          "block_type": "text",
+          "text": "I once set my computer to work out the higher terms (about the limit of my programming ability) and it produced only two more values before it had to start approximating. Starting from the beginning we get:"
+        },
+        {
+          "node_id": "0f36ab0d-df27-5ad6-9ebb-ef79af6b912d",
+          "page_index": 42,
+          "block_type": "heading",
+          "text": "The indescribable M-set"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "60451e60-905c-5cbd-b7d4-14a30f49311a",
+          "page_index": 42,
+          "block_type": "text",
+          "text": "You should be able to do it in your head - for the first few steps. But after a few dozen even a supercomputer may blow a gasket."
+        },
+        {
+          "node_id": "17522aa2-91f5-5c00-b1c3-713b41c55054",
+          "page_index": 42,
+          "block_type": "text",
+          "text": "One might have guessed that, from the nature of the equation. But no-one could possibly have intuited its real appearance: if the question had been put to me in my virginal pre-Mandelbrot days, I would probably have hazarded: 'Something like an ellipse, squashed along the Y-axis.' I might even (though I doubt it) have correctly guessed that it would be shifted towards the left, or minus, direction."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "the equation",
+          "weight": 3
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "98e5a02b-ccd2-5b4d-9a47-62ade6533a64",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "ac4a3e3d-4cff-5d39-8f92-a616abaacb4e",
+      "page_index": 60,
+      "bbox": [
+        371.10031000000004,
+        84.40148576562501,
+        424.5901414,
+        59.19748416562504
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/ac4a3e3d-4cff-5d39-8f92-a616abaacb4e.png",
+      "crop_sha256": "41cd2c4797139dc4cd18e8a92962e4d88c2a90f0a12b65a960c0c06b120e48ba",
+      "raw_text": "s 1 r logN D log( / ) =",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "bfcaa103-811e-5ede-bbcf-38fba7bc1191",
+          "page_index": 59,
+          "block_type": "text",
+          "text": "MAG 1.00E + 00"
+        },
+        {
+          "node_id": "fbcb968a-0c38-521f-a0f2-aacc9c4ada73",
+          "page_index": 59,
+          "block_type": "text",
+          "text": "MAG 4.00E + 00"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "033567f5-f95e-5a4a-ba51-3866060b60b2",
+          "page_index": 60,
+          "block_type": "text",
+          "text": "So what about the 'real length of the coast of Sardinia'? The question seems both elementary and silly,but it turns out to have an unexpected answer…it depends on whether you circumnavigate it in a ..ship…or walk along it,or use a mouse or some other instrument to measure the coastline."
+        },
+        {
+          "node_id": "bcc6eecc-9654-5cbe-85a6-8a3b2523985e",
+          "page_index": 60,
+          "block_type": "text",
+          "text": "The simplest variant is the similarity dimension D s , which applies to shapes that are linearly selfsimilar. As I have already stated, this means that they are made up of N replicas of the whole, each replica being reduced linearly in the same ratio r. Then one defines"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "58986fa4-8487-50c0-81d5-2087e9865901",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "6e029b52-91fa-5e25-a883-5996e2a6ed9e",
+      "page_index": 61,
+      "bbox": [
+        97.54881000000002,
+        525.333009765625,
+        200.10897500000004,
+        514.023009765625
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/6e029b52-91fa-5e25-a883-5996e2a6ed9e.png",
+      "crop_sha256": "a38f532e422876aac5604750252c2a45a4a6fb6b02bf9f8e2be0c6af3055a2c2",
+      "raw_text": "D = log3/log2 ~ 1.5849...",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "e9185721-7d24-5e08-8731-db8ed030a4e1",
+          "page_index": 61,
+          "block_type": "text",
+          "text": "Another simple fractal dimension is the mass dimension. Take a distribution of mass of uniform density on the line, in the place or in space. Then choose a sphere of radius R whose centre lies in our set. The mass in such a sphere takes the form MR = FR D , where D is the 'ordinary' dimension and F is a numerical constant. The idea of uniform density extends to fractals, and in many cases an exponent D can be defined; it is called the mass dimension and is often equal to the similarity dimension. Unfortunately, we must move away from dimension."
+        },
+        {
+          "node_id": "47f30d86-ed4b-5106-8fec-335aee1d161b",
+          "page_index": 61,
+          "block_type": "text",
+          "text": "Quite unexpectedly, massive computer simulations show that DLA clusters are fractal. They are nearly self-similar, that is, small portions are very much like reduced versions of large portions. But deviations from randomized linear self-similarity are obvious and pose interesting challenges."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "5983eb63-2c78-5c8b-b15d-3640dbd6c195",
+          "page_index": 61,
+          "block_type": "text",
+          "text": "For a point, an interval, a square and a full cube, one has D s = 0, 1, 2 and 3, respectively. As announced, these are the familiar values of the 'ordinary' dimensions. But the Sierpinski gasket adds something very new: one has N = 3 and r = 1 / 2 , hence"
+        },
+        {
+          "node_id": "1f34739f-9fbe-5127-8afd-3a6fae3d687d",
+          "page_index": 62,
+          "block_type": "text",
+          "text": "This shows without any trace of doubt that one can create rough fractals from the smoothness that characterizes equipotential lines, but this knowledge remains imperfect. We all thirst for new mathematics and physics. Nevertheless, it is worth noting how fractal geometry has led to an altogether new problem, outlined the broad solution and set many scientists to work."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "is called",
+          "weight": 3
+        },
+        {
+          "side": "before",
+          "cue": "where",
+          "weight": 1
+        },
+        {
+          "side": "after",
+          "cue": "hence",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 5,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "59b94ef8-f9e4-563f-875c-f9d550d5ac44",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "59befb76-f72a-5bed-a8ae-a6c68ee9df48",
+      "page_index": 63,
+      "bbox": [
+        53.86014999999999,
+        104.12823776562504,
+        141.46654999999998,
+        68.25698976562501
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/59befb76-f72a-5bed-a8ae-a6c68ee9df48.png",
+      "crop_sha256": "cd3fbb1e6ade32937c06feb3b024a038a54111558bb242db243aca5703683f8f",
+      "raw_text": "k k 2 - 1 k 2 - 1 0 and v k = 2 u k -1 v k -1 + v 0 .",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "58586a5e-ab1f-568d-9701-3d8179dd8f59",
+          "page_index": 62,
+          "block_type": "text",
+          "text": "What DLA shows is that the old and new wisdoms are compatible only if one abandons the old philosophical expectation that everything in the world will eventually prove to be smooth or of smooth variation."
+        },
+        {
+          "node_id": "5ab18201-2c18-53bd-b727-eae0dcabdf5a",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "Fig. 3.12 below: The Mandelbrot Set, surrounded by its equipotential curves."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "f74be31d-b456-52f0-a1b2-de80799eb02b",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "More generally, the coordinates u k and v k of C k are obtained from u k -1 and v k -1 by the so-called 'iterative formulas'"
+        },
+        {
+          "node_id": "d0666589-af59-51c4-9156-17265399ff56",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "Here is how the Mandelbrot Set is constructed. Take a starting point C 0 in the plane of coordinates u 0 and v 0 . From the coordinate of C 0 , form a second point C 1 of coordinates u 1 = u 0 2 -v 0 2 + u 0"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "5849ca62-1257-5702-8261-8167716cc187",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "0bde5cc0-1508-5bc0-96c3-1ca6cb2a2f56",
+      "page_index": 63,
+      "bbox": [
+        53.85884999999999,
+        109.85454976562505,
+        138.55155,
+        98.54454976562499
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/0bde5cc0-1508-5bc0-96c3-1ca6cb2a2f56.png",
+      "crop_sha256": "1a89db2d21e03acb9f85edd923ee87d8bd77c67b5f89df7a11446373fade8d4a",
+      "raw_text": "u = u -v + u",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "58586a5e-ab1f-568d-9701-3d8179dd8f59",
+          "page_index": 62,
+          "block_type": "text",
+          "text": "What DLA shows is that the old and new wisdoms are compatible only if one abandons the old philosophical expectation that everything in the world will eventually prove to be smooth or of smooth variation."
+        },
+        {
+          "node_id": "5ab18201-2c18-53bd-b727-eae0dcabdf5a",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "Fig. 3.12 below: The Mandelbrot Set, surrounded by its equipotential curves."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "f74be31d-b456-52f0-a1b2-de80799eb02b",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "More generally, the coordinates u k and v k of C k are obtained from u k -1 and v k -1 by the so-called 'iterative formulas'"
+        },
+        {
+          "node_id": "d0666589-af59-51c4-9156-17265399ff56",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "Here is how the Mandelbrot Set is constructed. Take a starting point C 0 in the plane of coordinates u 0 and v 0 . From the coordinate of C 0 , form a second point C 1 of coordinates u 1 = u 0 2 -v 0 2 + u 0"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "092358e4-9c4f-508d-8739-ea295fa1196d",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "76e8a295-6637-5436-98a5-63708c80ab0c",
+      "page_index": 63,
+      "bbox": [
+        53.859080000000006,
+        221.854529765625,
+        211.86411300000003,
+        168.544549765625
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/76e8a295-6637-5436-98a5-63708c80ab0c.png",
+      "crop_sha256": "83ae57a91ff8eb3bab7c36912076c409aeedd622ba9fa09a9ad8b5426deba164",
+      "raw_text": "and v 1 = 2 u 0 u 0 + v 0 . Next, form the point C 2 of coordinates u 2 = u 1 2 -v 1 2 + u 0 and",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "5ab18201-2c18-53bd-b727-eae0dcabdf5a",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "Fig. 3.12 below: The Mandelbrot Set, surrounded by its equipotential curves."
+        },
+        {
+          "node_id": "f74be31d-b456-52f0-a1b2-de80799eb02b",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "More generally, the coordinates u k and v k of C k are obtained from u k -1 and v k -1 by the so-called 'iterative formulas'"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "d0666589-af59-51c4-9156-17265399ff56",
+          "page_index": 63,
+          "block_type": "text",
+          "text": "Here is how the Mandelbrot Set is constructed. Take a starting point C 0 in the plane of coordinates u 0 and v 0 . From the coordinate of C 0 , form a second point C 1 of coordinates u 1 = u 0 2 -v 0 2 + u 0"
+        },
+        {
+          "node_id": "5257cbf7-3303-5b63-ad93-c7cb76924ec4",
+          "page_index": 63,
+          "block_type": "heading",
+          "text": "Constructing the Mandelbrot Set"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "fcb7def0-0929-5ec8-9e5e-e94b443fb05d",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "54333a08-9352-5347-b541-7040d300b9d5",
+      "page_index": 72,
+      "bbox": [
+        301.23386,
+        392.4910097656251,
+        495.2736899999999,
+        379.4610097656251
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/54333a08-9352-5347-b541-7040d300b9d5.png",
+      "crop_sha256": "ee91db8c6a6ad7e7f9a801862dbed46d39cc86269514798227501cc1d3183f4d",
+      "raw_text": "= Alf(  ) ∪ Bert(  ) ∪ Charlie(  ) ∪ Debbie(  ) .",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "26c867a3-f355-5c13-8431-b64985371083",
+          "page_index": 72,
+          "block_type": "text",
+          "text": "Who kicks the ball next is entirely random. It makes no difference where the players are on the pitch or who kicked it last. You can never reliably predict who is going to kick it next. The sequence of kickers might be determined by a random sequence of their initials: DABACBADAABCDCBACAADDBAC…"
+        },
+        {
+          "node_id": "9d49a7d3-ef55-5555-bdf1-3679642ebc3b",
+          "page_index": 72,
+          "block_type": "text",
+          "text": "It says that that the pitch  is made of 'four transformed copies of itself'. It says that the pitch is the union of the four quarter-pitches, just as the UK is"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "5e7b3b16-542d-5c92-96cb-f90a7763d421",
+          "page_index": 72,
+          "block_type": "text",
+          "text": "Alf acts in the same way, except that he kicks the ball halfway to A. And Bert kicks the ball halfway to B. You can guess where Charlie kicks the ball, when she gets to it first."
+        },
+        {
+          "node_id": "a6ddf06a-c747-5511-ba8e-f5513d1c3e17",
+          "page_index": 72,
+          "block_type": "text",
+          "text": "These transformations actually provide an 'equation' for the soccer pitch:"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "where",
+          "weight": 1
+        },
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "4888211a-adc8-5481-be57-f02afb762782",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "6180b41f-764d-56e8-85bd-f753e90f47e1",
+      "page_index": 72,
+      "bbox": [
+        326.85464,
+        531.3810097656251,
+        469.6543179999999,
+        519.8910097656251
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/6180b41f-764d-56e8-85bd-f753e90f47e1.png",
+      "crop_sha256": "491c816ec929e36b2d6abf93def4bde25b3a184718a7cf0a40dbe212a2f01a83",
+      "raw_text": "Alf(  ) = Quarter A of Soccer Pitch,",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "5b1f3a31-9b8c-5088-8851-74635880a99d",
+          "page_index": 72,
+          "block_type": "text",
+          "text": "Similarly Bert (  ) = Quarter B of Soccer Pitch , the quarter at the bottom right. Also Charlie (  ) = Quarter C of Soccer Pitch , and Debbie (  ) = Quarter D of Soccer Pitch , the quarter at the top left."
+        },
+        {
+          "node_id": "8802d576-4ff5-58cd-bee5-0eba9b45aaa5",
+          "page_index": 72,
+          "block_type": "text",
+          "text": "the quarter at the bottom left. Think of Alf 'kicking' the whole pitch into a quarter of the pitch."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "141dadda-1253-544e-b0ad-e9a4388515be",
+          "page_index": 72,
+          "block_type": "text",
+          "text": "I magine that you are a great soccer player, with perfect ball control and perfect consistency. Wherever the ball is on the soccer pitch you can kick it so that it lands halfway between where it was and a corner. And the ball comes to a dead stop right where it lands. You can always do this."
+        },
+        {
+          "node_id": "493d647a-c271-55b0-9253-5956ba779abb",
+          "page_index": 72,
+          "block_type": "heading",
+          "text": "A fascinating soccer game - See Debbie kick!"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "85c45bea-816d-56ee-a215-5de14a06d1f4",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "51dd4658-06d9-523b-af49-40eccd49d619",
+      "page_index": 79,
+      "bbox": [
+        276.58739999999995,
+        353.65945976562506,
+        479.4547999999999,
+        326.72875976562506
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/51dd4658-06d9-523b-af49-40eccd49d619.png",
+      "crop_sha256": "3e7fdb32aca3ed114bc3dfca5d46d873767675835ed4718f84921beb518a8015",
+      "raw_text": "+ + + + = + + + +       ( 1) ( ( 1) ( ( 1) ) ( , ) ( 1) ( ( 1) )( ( 1) ) a b c d x y Bert x y e f g h x y ÷ -÷ -÷ -÷ -÷ -÷ -",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "e8e1ef56-389f-52a1-acb9-52abbae1da79",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "which uses complex arithmetic and also uses eight constants."
+        },
+        {
+          "node_id": "c5a2a820-79d8-5ebe-a5a3-273b4444dce9",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "Fig. 4.9 below: Illustration of the Circumscribed Fish Theorem.Although the fish in Fig. 4.8 look quite various, they have the following property:Draw the smallest circle around each fish, such that the circle touches the fish in at least three points; then each fish touches its circle with the same parts of its body."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "ac061780-8c72-5888-b6d9-46a3b9d16b11",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "Fig. 4.8 above: The same Mobius transformation is applied over and over again to a single fish, to produce this double spiral of fish. Notice that although the fish are massively distorted, they all look fish-like."
+        },
+        {
+          "node_id": "e005a7db-6654-5269-90a8-b47c9e3a7f7b",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "where a, b, c, d, e, f, g, h, and k, are numbers, the 'constants', such as a = 1.023, b = 7.1, c = -0.00035, d =1 00, f = 9.1, g = 34.9, and h = 17.3. Similarly, a Mobius transformation can take the form"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "theorem",
+          "weight": 2
+        },
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "6d1edfc4-3a6a-5e0e-ae4c-e20ec5da0205",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "36ccdeae-1791-5797-a7a0-f752ee3aff83",
+      "page_index": 79,
+      "bbox": [
+        301.6463,
+        445.8790597656251,
+        453.20629999999994,
+        418.53885976562503
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/36ccdeae-1791-5797-a7a0-f752ee3aff83.png",
+      "crop_sha256": "06a8b9855f9ef24c293e66f636e67494bd850f647f716d8e0b2e33237e4ca3b0",
+      "raw_text": "ax + by + c dx + ey + f Alf(x,y)= gx + hy + 1 , gx + hy + 1      ",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "ac061780-8c72-5888-b6d9-46a3b9d16b11",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "Fig. 4.8 above: The same Mobius transformation is applied over and over again to a single fish, to produce this double spiral of fish. Notice that although the fish are massively distorted, they all look fish-like."
+        },
+        {
+          "node_id": "e005a7db-6654-5269-90a8-b47c9e3a7f7b",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "where a, b, c, d, e, f, g, h, and k, are numbers, the 'constants', such as a = 1.023, b = 7.1, c = -0.00035, d =1 00, f = 9.1, g = 34.9, and h = 17.3. Similarly, a Mobius transformation can take the form"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "6cc9d14a-cae2-54f8-9b3a-b500e97cd838",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "Transformations in two-dimensional space may be represented using Cartesian coordinates (x, y) to represent points. A projective transformation can be expressed with a formula such as"
+        },
+        {
+          "node_id": "d511aca2-8e8c-508b-a338-65a25037b828",
+          "page_index": 79,
+          "block_type": "text",
+          "text": "Even 'simple' transformations can be complicated if they involve 'constants' that require lots of digits to express them accurately. To explain this point, let us look briefly at some 'formulas' for simple transformations. The details of these formulas, other than the fact that they contain 'constants', need not concern us."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 1,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "c1cdd117-393a-5f85-9dc9-cbe4aab7dca9",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "02e400db-b8c7-5fbb-bcc6-07d793daa108",
+      "page_index": 88,
+      "bbox": [
+        374.9935,
+        254.9011097656251,
+        421.51523,
+        243.5911097656251
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/02e400db-b8c7-5fbb-bcc6-07d793daa108.png",
+      "crop_sha256": "260c1eaea121be72241ce782ced7b091b30523b29c11e396552349a0fc2c8d48",
+      "raw_text": "Z /.notdef Z 2 + c",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "3c2f92e2-7154-5b76-a57f-60a7325731a2",
+          "page_index": 86,
+          "block_type": "heading",
+          "text": "5 Fractal Limits"
+        },
+        {
+          "node_id": "12b43056-4d15-5827-ab98-2b11597b6490",
+          "page_index": 88,
+          "block_type": "text",
+          "text": "The arrow can be read as 'goes to' or 'becomes', for what this rule represents is a transformation of two-dimensional space; the letters z and c by convention indicate generic points in this space, with z being variable and c constant. In other words, the rule transforms the point z to another point in the space, while leaving c unchanged. This twodimensional space inhabited by z and c, the home of the Mandelbrot Set and Julia Sets, is central to mathematics, from quantum mechanics to number theory."
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "1c3f3578-9957-5cdf-ad0c-878bd2312d65",
+          "page_index": 88,
+          "block_type": "text",
+          "text": "The Mandelbrot Set is a strange shape, and the closer you look, the stranger it becomes. It's been called the thumbprint of God and the Creator's calling card - clear evidence of a deep underlying harmony and unity in nature."
+        },
+        {
+          "node_id": "6d4a36ac-70fd-55e0-9368-42b37346d83b",
+          "page_index": 88,
+          "block_type": "text",
+          "text": "The Mandelbrot Set looks very complicated, and yet it is generated by a very simple rule:"
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "represents",
+          "weight": 2
+        }
+      ],
+      "canonicality_score": 2,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    },
+    {
+      "candidate_id": "00a4d6c2-c62c-5665-a17e-82fb69f12cd3",
+      "document_id": "03775949-9f56-51e0-89da-3e9bbbdf7d64",
+      "node_id": "e9953443-4d7b-5ce1-91dd-a38d97938ac7",
+      "page_index": 91,
+      "bbox": [
+        310.65042188,
+        110.04380976562493,
+        462.89423188000006,
+        56.30847976562495
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/e9953443-4d7b-5ce1-91dd-a38d97938ac7.png",
+      "crop_sha256": "0a64bd2f568d1fc4db9f6227e1832f495795eab90e76690cd8c19cf14fd7b807",
+      "raw_text": "R < | z |  R 2 log R < log| z |  2log R log 2 log R < log 2 log| z |  1 + log 2 log R 0 < log log| z | -log log R  1",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "023016d7-39de-5878-b6f4-ed4ad52e6cf5",
+          "page_index": 90,
+          "block_type": "text",
+          "text": "In these maps, black represents points that remain bounded."
+        },
+        {
+          "node_id": "a87c4cab-7e59-54a5-ba67-f05a45c5c813",
+          "page_index": 91,
+          "block_type": "text",
+          "text": "If z is the final point in our sequence, and R is big enough, we know that the following are roughly true"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "eb9098f5-6aa2-5731-81d0-67e51816fd89",
+          "page_index": 91,
+          "block_type": "text",
+          "text": "(where |z| is the modulus of z, the distance from z to 0):"
+        },
+        {
+          "node_id": "f5e45e01-5ba6-5fd5-8ce0-5fec8d0a8bb8",
+          "page_index": 91,
+          "block_type": "text",
+          "text": "Like the contours on a map, the exact position of these bands is arbitrary, determined in this case by the size of the cut-off region. A more natural representation of the exterior of the M-set can be achieved using the continuous escape time method. This uses the escape time as a starting point, and then adds a correction factor between 0 and 1, depending on how far into the escape region the point got."
+        }
+      ],
+      "canonicality_cues": [
+        {
+          "side": "before",
+          "cue": "represents",
+          "weight": 2
+        },
+        {
+          "side": "after",
+          "cue": "where",
+          "weight": 1
+        }
+      ],
+      "canonicality_score": 3,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f",
+      "database_sha256": "ecfd9b4b5f85078e1d09b56a292cdc5f88585dc79c40f2b231b133a73915b567"
+    }
+  ]
+}

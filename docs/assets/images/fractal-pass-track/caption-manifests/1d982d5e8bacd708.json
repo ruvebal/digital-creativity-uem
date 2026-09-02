@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "fractal-architect.figcaption-data",
+  "release_id": "1d982d5e8bacd708",
+  "created_at": "2026-09-02T18:49:48.264Z",
+  "authorship": {
+    "name": "Ruvebal",
+    "email": "ruvebal@crea-comm.net"
+  },
+  "formulae": [
+    {
+      "uuid": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+      "fractal_hash256": "b1dcabe0a4b74ec605d76188dc236207a15b2c9a532135d0120e0aaaa8d4a947",
+      "title": "Hutchinson IFS attractor union (Sierpinski-triangle instance)",
+      "display": "P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P)",
+      "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+      "basic_explanation": "The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle.",
+      "citation": {
+        "inline": "(Barnsley et al. 1988, 225)",
+        "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+      }
+    }
+  ],
+  "figures": [
+    {
+      "uuid": "929841a3-1776-5f85-a061-12bbc72884bf",
+      "title": "Sierpinski IFS backdrop: structure",
+      "description": "A structure variation of a Sierpinski-triangle chaos-game density field with rhythmic triangular accents.",
+      "figcaption": "Sierpinski IFS backdrop. P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P). The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle. (Barnsley et al. 1988, 225).",
+      "fractal_hash256": "2ca32c0ed6be466c71b5590ef64572f4d0d707f1020dadbe6a1e20debb68cb26",
+      "created_at": "2026-09-02T18:49:48.264Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+          "fractal_hash256": "b1dcabe0a4b74ec605d76188dc236207a15b2c9a532135d0120e0aaaa8d4a947",
+          "title": "Hutchinson IFS attractor union (Sierpinski-triangle instance)",
+          "display": "P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P)",
+          "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+          "basic_explanation": "The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle.",
+          "citation": {
+            "inline": "(Barnsley et al. 1988, 225)",
+            "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-ifs-pass-01-structure-2ca32c0ed6be.svg",
+        "png": "uem-ifs-pass-01-structure-2ca32c0ed6be.png",
+        "svg_sha256": "2ca32c0ed6be466c71b5590ef64572f4d0d707f1020dadbe6a1e20debb68cb26",
+        "png_sha256": "7327fbf00e644097f1c61bae8004305634d09a647dbe31b01c427269197c5fd0"
+      }
+    },
+    {
+      "uuid": "5ddee94a-9066-52eb-9517-e739cdc4610d",
+      "title": "Sierpinski IFS backdrop: threshold",
+      "description": "A threshold variation of a Sierpinski-triangle chaos-game density field with rhythmic triangular accents.",
+      "figcaption": "Sierpinski IFS backdrop. P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P). The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle. (Barnsley et al. 1988, 225).",
+      "fractal_hash256": "f93e67e7a3ff3888aefd91372f7872796851116a26d0320d5091cf74ed3e54d2",
+      "created_at": "2026-09-02T18:49:48.264Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+          "fractal_hash256": "b1dcabe0a4b74ec605d76188dc236207a15b2c9a532135d0120e0aaaa8d4a947",
+          "title": "Hutchinson IFS attractor union (Sierpinski-triangle instance)",
+          "display": "P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P)",
+          "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+          "basic_explanation": "The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle.",
+          "citation": {
+            "inline": "(Barnsley et al. 1988, 225)",
+            "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-ifs-pass-02-threshold-f93e67e7a3ff.svg",
+        "png": "uem-ifs-pass-02-threshold-f93e67e7a3ff.png",
+        "svg_sha256": "f93e67e7a3ff3888aefd91372f7872796851116a26d0320d5091cf74ed3e54d2",
+        "png_sha256": "b3d81d67529000ddeca08d46ab69e3c6927a7fcd80d7987a1cd9a0bbafb4a2cf"
+      }
+    },
+    {
+      "uuid": "46288679-524b-562f-aec9-7a693ef5a1b6",
+      "title": "Sierpinski IFS backdrop: branching",
+      "description": "A branching variation of a Sierpinski-triangle chaos-game density field with rhythmic triangular accents.",
+      "figcaption": "Sierpinski IFS backdrop. P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P). The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle. (Barnsley et al. 1988, 225).",
+      "fractal_hash256": "681259b873b8e3562a4b87ae78d00bbf443d10b103b0772df0b81483b6924a4e",
+      "created_at": "2026-09-02T18:49:48.264Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+          "fractal_hash256": "b1dcabe0a4b74ec605d76188dc236207a15b2c9a532135d0120e0aaaa8d4a947",
+          "title": "Hutchinson IFS attractor union (Sierpinski-triangle instance)",
+          "display": "P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P)",
+          "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+          "basic_explanation": "The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle.",
+          "citation": {
+            "inline": "(Barnsley et al. 1988, 225)",
+            "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-ifs-pass-03-branching-681259b873b8.svg",
+        "png": "uem-ifs-pass-03-branching-681259b873b8.png",
+        "svg_sha256": "681259b873b8e3562a4b87ae78d00bbf443d10b103b0772df0b81483b6924a4e",
+        "png_sha256": "a6fb8deca5bd27bfaa3955f6bc2e05c7be062258039f7bdb36ceff087a2f2824"
+      }
+    },
+    {
+      "uuid": "50550013-fda7-5d73-89aa-88d8eedc44fd",
+      "title": "Sierpinski IFS backdrop: practice",
+      "description": "A practice variation of a Sierpinski-triangle chaos-game density field with rhythmic triangular accents.",
+      "figcaption": "Sierpinski IFS backdrop. P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P). The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle. (Barnsley et al. 1988, 225).",
+      "fractal_hash256": "59c2e2c4c60868a0c2984bcd6f2e003f72d86d63694ff77633c4cb57b4af3255",
+      "created_at": "2026-09-02T18:49:48.264Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+          "fractal_hash256": "b1dcabe0a4b74ec605d76188dc236207a15b2c9a532135d0120e0aaaa8d4a947",
+          "title": "Hutchinson IFS attractor union (Sierpinski-triangle instance)",
+          "display": "P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P)",
+          "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+          "basic_explanation": "The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle.",
+          "citation": {
+            "inline": "(Barnsley et al. 1988, 225)",
+            "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-ifs-pass-04-practice-59c2e2c4c608.svg",
+        "png": "uem-ifs-pass-04-practice-59c2e2c4c608.png",
+        "svg_sha256": "59c2e2c4c60868a0c2984bcd6f2e003f72d86d63694ff77633c4cb57b4af3255",
+        "png_sha256": "20656261d360202dd99825a130390a0e9893af3f6aba42ff836cfb67c159f61f"
+      }
+    },
+    {
+      "uuid": "5ce4a1f2-88d8-52bd-b04c-8c0053c2c04b",
+      "title": "Sierpinski IFS backdrop: feedback",
+      "description": "A feedback variation of a Sierpinski-triangle chaos-game density field with rhythmic triangular accents.",
+      "figcaption": "Sierpinski IFS backdrop. P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P). The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle. (Barnsley et al. 1988, 225).",
+      "fractal_hash256": "3a121e38f3c02e6738bc1e68c333f7d953b6011b4aae5f22de68ccd504299208",
+      "created_at": "2026-09-02T18:49:48.264Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+          "fractal_hash256": "b1dcabe0a4b74ec605d76188dc236207a15b2c9a532135d0120e0aaaa8d4a947",
+          "title": "Hutchinson IFS attractor union (Sierpinski-triangle instance)",
+          "display": "P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P)",
+          "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+          "basic_explanation": "The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle.",
+          "citation": {
+            "inline": "(Barnsley et al. 1988, 225)",
+            "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-ifs-pass-05-feedback-3a121e38f3c0.svg",
+        "png": "uem-ifs-pass-05-feedback-3a121e38f3c0.png",
+        "svg_sha256": "3a121e38f3c02e6738bc1e68c333f7d953b6011b4aae5f22de68ccd504299208",
+        "png_sha256": "dbf54358389eb8dd0f04c3e791c2457f91c999f80362ec67595d1fd5fef0f5e3"
+      }
+    },
+    {
+      "uuid": "6f274889-a408-5294-a617-3a412e8972bf",
+      "title": "Sierpinski IFS backdrop: coherence",
+      "description": "A coherence variation of a Sierpinski-triangle chaos-game density field with rhythmic triangular accents.",
+      "figcaption": "Sierpinski IFS backdrop. P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P). The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle. (Barnsley et al. 1988, 225).",
+      "fractal_hash256": "85ace19613542579fff859b91f832c6eb23d612077f3c7d6aedc2fe5977e65cf",
+      "created_at": "2026-09-02T18:49:48.264Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+          "fractal_hash256": "b1dcabe0a4b74ec605d76188dc236207a15b2c9a532135d0120e0aaaa8d4a947",
+          "title": "Hutchinson IFS attractor union (Sierpinski-triangle instance)",
+          "display": "P = w₁(P) ∪ w₂(P) ∪ ⋯ ∪ wₙ(P)",
+          "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>P</mi><mo>&#x0003D;</mo><msub><mi>w</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0222A;</mo><mo>&#x022EF;</mo><mo>&#x0222A;</mo><msub><mi>w</mi><mi>N</mi></msub><mo stretchy=\"false\">&#x00028;</mo><mi>P</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+          "basic_explanation": "The attractor P is the unique set left invariant by the union of N contraction maps. A chaos-game walk that jumps between three verified half-scale copies of the plane converges onto the Sierpinski triangle.",
+          "citation": {
+            "inline": "(Barnsley et al. 1988, 225)",
+            "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-ifs-pass-06-coherence-85ace1961354.svg",
+        "png": "uem-ifs-pass-06-coherence-85ace1961354.png",
+        "svg_sha256": "85ace19613542579fff859b91f832c6eb23d612077f3c7d6aedc2fe5977e65cf",
+        "png_sha256": "a1661873b5f12f3658dfb30492f7513c17c9fbda008d38e67412355a61fb9058"
+      }
+    }
+  ]
+}

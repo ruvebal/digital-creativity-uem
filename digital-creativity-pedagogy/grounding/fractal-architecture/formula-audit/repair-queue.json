@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "queue": "AFEL-formula-repair",
+  "updated_at_utc": "2026-08-30T12:00:00Z",
+  "items": [
+    {
+      "queue_id": "repair-dynamics-entire-functions-116214707",
+      "title": "Dynamics Of Entire Functions: The Fractal Sets of Julia and Mandelbrot",
+      "author": "Cándido Piñeiro",
+      "year": 2025,
+      "doi": "10.1515/9783111689685",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/design/Dynamics Of Entire Functions The Fractal Sets Of Julia And Mandelbrot{Cándido Piñeiro}(2025, DE GRUYTER){116214707}.epub",
+      "source_sha256": "4116916924e797ebfe53471a58b63eb63bcf88a35a7033dccaac786cf64bc49c",
+      "status": "SOURCE_INVALID",
+      "observed_failure": "Ahmes reported Bad Zip file; file signature is HTML, not an EPUB ZIP archive.",
+      "required_action": "Obtain a valid licensed EPUB or PDF, verify its container signature and SHA-256, then rerun AFEL FC1 extraction, visual audit, promotion, glossary export, and Athanor injection.",
+      "extraction_db": null,
+      "injection_status": "BLOCKED_UNTIL_VALID_SOURCE"
+    }
+  ]
+}

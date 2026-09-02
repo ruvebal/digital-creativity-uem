@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "status": "REVIEW_REQUIRED",
+  "database": "/Users/ruvebal/ahmes-library/scholar/documents/international_journal_of_bifurcation_and_chaos_2008_apr_vol_18_iss_04_the_aesthetics_and_fractal_dimension_of_electric_sheep_draves_scott_abraham_ralph_viotti_pablo_abraham_8a798623/extract/extraction.db",
+  "candidate_count": 0,
+  "policy": {
+    "context_is_evidence_not_verdict": true,
+    "agent_may_rank_but_not_assign_derivation_role": true,
+    "unattended_promotion": false
+  },
+  "candidates": []
+}

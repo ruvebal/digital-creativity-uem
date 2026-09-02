@@ -1,0 +1,1154 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "status": "REVIEW_REQUIRED",
+  "database": "/Users/ruvebal/ahmes-library/scholar/documents/comparing_rendering_methods_for_julia_sets_a1e80611/extract/extraction.db",
+  "candidate_count": 20,
+  "policy": {
+    "context_is_evidence_not_verdict": true,
+    "agent_may_rank_but_not_assign_derivation_role": true,
+    "unattended_promotion": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "273b6d3f-83ed-57db-8209-855a80138260",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "8d1b7bda-4ee4-5007-8bd6-739980674cb6",
+      "page_index": 0,
+      "bbox": [
+        82.4399640000001,
+        174.81001200000003,
+        271.91998800000005,
+        165.090012
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/8d1b7bda-4ee4-5007-8bd6-739980674cb6.png",
+      "crop_sha256": "a277fba346c64e89e7c9145fde2204086ba60ab777d3ee2cdaf4dbf4a8cdba42",
+      "raw_text": "/D4 /CR /B4 /CP /BD /B5 /BP /CP /BE /BN /BM /BM /BM /BN /D4 /CR /B4 /CP /CZ /A0 /BD /B5 /BP /CP /CZ /BN /D4 /CR /B4 /CP /CZ /B5 /BP /CP /BD /BN",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "4ac76585-662d-5870-96eb-f3571557fcd5",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/D7/D3/B8 /CX/D2 /CU/CP/CR/D8/B8 /CU/D3/D6 /CT/CP/CR/CW /CY /BP /BD /BN /BE /BN /BM /BM /BM /BN /CZ /B8 /DE /BP /CP /CY /CX/D7 /CP /D7/D3/D0/D9/D8/CX/D3/D2 /D3/CU /D4 /CZ /CR /B4 /DE /B5 /BP /DE /B8 /DB/CW/CT/D6/CT /D4 /CZ /CR /B4 /DE /B5 /BP /D4 /CR /B4 /D4 /CZ /A0 /BD /CR /B4 /DE /B5/B5/BA \u0000/CT/D2/CR/CT/B8 /CP /D4/D3/CX/D2/D8 /CP /CX/D7 /D4/CT/D6/CX/D3 /CS/CX/CR /B8 /CX/CU /D4 /CZ /CR /B4 /CP /B5 /BP /CP /CU/D3/D6 /D7/D3/D1/CT /CZ /BQ /BC/BN /CX/D8 /CX/D7 /D6 /CT/D4 /CT/D0 /D0/CX/D2/CV/B8 /CX/D2/CS/CX/AB/CT/D6/CT/D2/D8 /D3/D6 /CP/D8/D8/D6 /CP/CR/D8/B9 /CX/D2/CV /CS/CT/D4/CT/D2/CS/CX/D2/CV /D3/D2 /DB/CW/CT/D8/CW/CT/D6 /CY /B4 /D4 /CZ /CR /B5 /BC /B4 /CP /B5 /CY /CX/D7 /CV/D6/CT/CP/D8/CT/D6 /D8/CW/CP/D2/B8 /CT/D5/D9/CP/D0 /D8/D3 /D3/D6 /D0/CT/D7/D7 /D8/CW/CP/D2 /D3/D2/CT/B8 /D6/CT/D7/D4/CT/CR/D8/CX/DA/CT/D0/DD /BA \u0001/CU /CY /B4 /D4 /CZ /CR /B5 /BC /B4 /CP /B5 /CY /BP /BC/B8 /CP /CX/D7 /D8/CT/D6/D1/CT/CS /D7/D9/D4/CT/D6/CP/D8/D8/D6 /CP/CR/D8/CX/D2/CV /BA \u0001/CU"
+        },
+        {
+          "node_id": "cc12c398-3918-5ed4-8019-b3723e13d3e0",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/CX/BA/CT/BA/B8 -/CR /D7/CT/D4/CP/D6/CP/D8/CT/D7 /CR/D3/D1/D4/CT/D8/CX/D8/CX/D3/D2 /CQ/CT/D8/DB/CT/CT/D2 /D3/D6/CQ/CX/D8/D7 /CQ/CT/B9 /CX/D2/CV /CP/D8/D8/D6/CP/CR/D8/CT/CS /D8/D3 /BD /CP/D2/CS /D3/D6/CQ/CX/D8/D7 /D6/CT/D1/CP/CX/D2/CX/D2/CV /CQ/D3/D9/D2/CS/CT/CS /CP/D7 /CZ /AX /BD /BA"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "f0a981f8-a509-557b-afe0-0c5a6277e3d8",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/BT /D4/CT/D6/CX/D3 /CS/CX/CR /D3/D6/CQ/CX/D8 /D3/D6 /CR/DD/CR/D0/CT /CX/D7 /CP /D7/CT/D8 /D3/CU /CZ /AL /BE /CS/CX/D7/D8/CX/D2/CR/D8 /D4/D3/CX/D2/D8/D7 /CU /CP /BD /BN /BM /BM /BM /BN /CP /CZ /CV /D7/D9/CR/CW /D8/CW/CP/D8"
+        },
+        {
+          "node_id": "027fcd10-fa46-589a-98c6-d958bbf021b5",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/D7/D3/D1/CT/D8/CX/D1/CT/D7 /CR/CP/D0/D0/CT/CS /D8/CW/CT /AC/D0 /D0/CT /CS/B9/CX/D2 -/D9/D0/CX/CP /D7/CT/D8 /BA \u0007/CQ/DA/CX/B9 /D3/D9/D7/D0/DD /B8 /DB/CT /CW/CP/DA/CT /D8/CW/CP/D8"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "1b65b8eb-ee08-5bd1-aa16-1be24130f152",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "1aa2549e-4ef9-5306-a19b-b40cd6701df5",
+      "page_index": 0,
+      "bbox": [
+        371.88001199999985,
+        185.37001199999986,
+        464.1600119999997,
+        168.93001199999992
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/1aa2549e-4ef9-5306-a19b-b40cd6701df5.png",
+      "crop_sha256": "0865410cae3a9aacec1e34ae6a8187a741f0bfd8c0977686f3cfb7079a85cd92",
+      "raw_text": "/BS \u0003 /CR /BP -/CR /BP /BS /BT /CR /B4 /BD /B5 /BN",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "4ac76585-662d-5870-96eb-f3571557fcd5",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/D7/D3/B8 /CX/D2 /CU/CP/CR/D8/B8 /CU/D3/D6 /CT/CP/CR/CW /CY /BP /BD /BN /BE /BN /BM /BM /BM /BN /CZ /B8 /DE /BP /CP /CY /CX/D7 /CP /D7/D3/D0/D9/D8/CX/D3/D2 /D3/CU /D4 /CZ /CR /B4 /DE /B5 /BP /DE /B8 /DB/CW/CT/D6/CT /D4 /CZ /CR /B4 /DE /B5 /BP /D4 /CR /B4 /D4 /CZ /A0 /BD /CR /B4 /DE /B5/B5/BA \u0000/CT/D2/CR/CT/B8 /CP /D4/D3/CX/D2/D8 /CP /CX/D7 /D4/CT/D6/CX/D3 /CS/CX/CR /B8 /CX/CU /D4 /CZ /CR /B4 /CP /B5 /BP /CP /CU/D3/D6 /D7/D3/D1/CT /CZ /BQ /BC/BN /CX/D8 /CX/D7 /D6 /CT/D4 /CT/D0 /D0/CX/D2/CV/B8 /CX/D2/CS/CX/AB/CT/D6/CT/D2/D8 /D3/D6 /CP/D8/D8/D6 /CP/CR/D8/B9 /CX/D2/CV /CS/CT/D4/CT/D2/CS/CX/D2/CV /D3/D2 /DB/CW/CT/D8/CW/CT/D6 /CY /B4 /D4 /CZ /CR /B5 /BC /B4 /CP /B5 /CY /CX/D7 /CV/D6/CT/CP/D8/CT/D6 /D8/CW/CP/D2/B8 /CT/D5/D9/CP/D0 /D8/D3 /D3/D6 /D0/CT/D7/D7 /D8/CW/CP/D2 /D3/D2/CT/B8 /D6/CT/D7/D4/CT/CR/D8/CX/DA/CT/D0/DD /BA \u0001/CU /CY /B4 /D4 /CZ /CR /B5 /BC /B4 /CP /B5 /CY /BP /BC/B8 /CP /CX/D7 /D8/CT/D6/D1/CT/CS /D7/D9/D4/CT/D6/CP/D8/D8/D6 /CP/CR/D8/CX/D2/CV /BA \u0001/CU"
+        },
+        {
+          "node_id": "cc12c398-3918-5ed4-8019-b3723e13d3e0",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/CX/BA/CT/BA/B8 -/CR /D7/CT/D4/CP/D6/CP/D8/CT/D7 /CR/D3/D1/D4/CT/D8/CX/D8/CX/D3/D2 /CQ/CT/D8/DB/CT/CT/D2 /D3/D6/CQ/CX/D8/D7 /CQ/CT/B9 /CX/D2/CV /CP/D8/D8/D6/CP/CR/D8/CT/CS /D8/D3 /BD /CP/D2/CS /D3/D6/CQ/CX/D8/D7 /D6/CT/D1/CP/CX/D2/CX/D2/CV /CQ/D3/D9/D2/CS/CT/CS /CP/D7 /CZ /AX /BD /BA"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "f0a981f8-a509-557b-afe0-0c5a6277e3d8",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/BT /D4/CT/D6/CX/D3 /CS/CX/CR /D3/D6/CQ/CX/D8 /D3/D6 /CR/DD/CR/D0/CT /CX/D7 /CP /D7/CT/D8 /D3/CU /CZ /AL /BE /CS/CX/D7/D8/CX/D2/CR/D8 /D4/D3/CX/D2/D8/D7 /CU /CP /BD /BN /BM /BM /BM /BN /CP /CZ /CV /D7/D9/CR/CW /D8/CW/CP/D8"
+        },
+        {
+          "node_id": "027fcd10-fa46-589a-98c6-d958bbf021b5",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/D7/D3/D1/CT/D8/CX/D1/CT/D7 /CR/CP/D0/D0/CT/CS /D8/CW/CT /AC/D0 /D0/CT /CS/B9/CX/D2 -/D9/D0/CX/CP /D7/CT/D8 /BA \u0007/CQ/DA/CX/B9 /D3/D9/D7/D0/DD /B8 /DB/CT /CW/CP/DA/CT /D8/CW/CP/D8"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "2ff7ecfb-659d-5d2d-ad7b-1354421429c0",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "2cf32a37-ae63-5d74-a041-535e4539f0f4",
+      "page_index": 0,
+      "bbox": [
+        313.4400119999998,
+        255.09003599999994,
+        522.8399519999998,
+        223.4100239999999
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/2cf32a37-ae63-5d74-a041-535e4539f0f4.png",
+      "crop_sha256": "26d729c68f7fdc23120dd772f72b805434bfbb417d17bd98881385fdb246d0b7",
+      "raw_text": "\u0003 /CR /BP /BV /D2 /BT /CR /B4 /BD /B5 /BP /CU /DE /BE /BV /BM /D4 /CZ /CR /B4 /DE /B5 /D7/D8/CP/DD/D7 /CQ/D3/D9/D2/CS/CT/CS /CU/D3/D6 /CP/D0/D0 /CZ /CV",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "f0a981f8-a509-557b-afe0-0c5a6277e3d8",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/BT /D4/CT/D6/CX/D3 /CS/CX/CR /D3/D6/CQ/CX/D8 /D3/D6 /CR/DD/CR/D0/CT /CX/D7 /CP /D7/CT/D8 /D3/CU /CZ /AL /BE /CS/CX/D7/D8/CX/D2/CR/D8 /D4/D3/CX/D2/D8/D7 /CU /CP /BD /BN /BM /BM /BM /BN /CP /CZ /CV /D7/D9/CR/CW /D8/CW/CP/D8"
+        },
+        {
+          "node_id": "027fcd10-fa46-589a-98c6-d958bbf021b5",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/D7/D3/D1/CT/D8/CX/D1/CT/D7 /CR/CP/D0/D0/CT/CS /D8/CW/CT /AC/D0 /D0/CT /CS/B9/CX/D2 -/D9/D0/CX/CP /D7/CT/D8 /BA \u0007/CQ/DA/CX/B9 /D3/D9/D7/D0/DD /B8 /DB/CT /CW/CP/DA/CT /D8/CW/CP/D8"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "92cd3c3c-9cb3-5e89-8aa7-1baee2b654d1",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "\u0001/D8 /CX/D7 /D3/CQ/DA/CX/D3/D9/D7 /D8/CW/CP/D8 /BD /CX/D7 /CP/D2 /CP/D8/D8/D6/CP/CR/D8/CX/D2/CV /AC/DC/CT/CS /D4/D3/CX/D2/D8 /D3/CU /D4 /CR /BA /CC/CW/CT /CQ/D3/D9/D2/CS/CP/D6/DD /D3/CU /BT /CR /B4 /BD /B5 /CX/D7 /CS/CT/D2/D3/D8/CT/CS /CQ/DD /BS /BT /CR /B4 /BD /B5 /CP/D2/CS /CX/D7 /CR/CP/D0/D0/CT/CS /D8/CW/CT -/D9/D0/CX/CP /D7/CT/D8 /D3/CU /D4 /CR /BA /CF/CT /CP/D0/D7/D3 /D9/D7/CT /D8/CW/CT /D7/DD/D1/CQ/D3/D0 -/CR /BP /BS /BT /CR /B4 /BD /B5/BA \u0007/D8/CW/CT/D6 /D8/CW/CP/D2 /BT /CR /B4 /BD /B5 /CP/D2/CS -/CR /B8 /CP/D0/D7/D3 /D8/D3 /CQ/CT /CR/D3/D2/D7/CX/CS/CT/D6/CT/CS /CX/D7 /CP /D8/CW/CX/D6/CS /D3/CQ /CY/CT/CR/D8"
+        },
+        {
+          "node_id": "f0567461-904d-5679-9f23-769434bd9d4b",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/CC/CW/CT /CS/DD/D2/CP/D1/CX/CR/D7 /D3/CU /D4 /CR /CX/D7 /CP/D2 /CT/D2/D3/D6/D1/D3/D9/D7/D0/DD /D6/CX/CR/CW /CU/D3/D9/D2/B9 /D8/CP/CX/D2 /D3/CU /CU/D6/CP/CR/D8/CP/D0 /D7/D8/D6/D9/CR/D8/D9/D6/CT/D7/BA /BT/D0/D8/CW/D3/D9/CV/CW /D8/CW/CT /CU/D6/CP/CR/D8/CP/D0 /D7/CT/D8/D7 /CV/CT/D2/CT/D6/CP/D8/CT/CS /CU/D6/D3/D1 /D8/CW/CT /CP/CQ/D3/DA/CT/B9/D1/CT/D2/D8/CX/D3/D2/CT/CS /D8/D6/CP/D2/D7/B9 /CU/D3/D6/D1/CP/D8/CX/D3/D2 /CW/CP/DA/CT /CQ/CT/CT/D2 /CS/CX/D7/CR/D9/D7/D7/CT/CS /CT/DC/D8/CT/D2/D7/CX/DA/CT/D0/DD /CX/D2 /D8/CW/CT /D0/CX/D8/CT/D6/CP/D8/D9/D6/CT/B8 /CP/D7 /CU/CP/D6 /CP/D7 /DB/CT /CZ/D2/D3/DB/B8 /D2/D3 /D4/D6/CT/DA/CX/D3/D9/D7/D0/DD /D4/D9/CQ/B9 /D0/CX/D7/CW/CT/CS /DB/D3/D6/CZ /CT/DC/CX/D7/D8/D7 /D8/CW/CP/D8 /CR/D3/D1/D4/D6/CX/D7/CT/D7 /D8/CW/CT /CQ/CT/D7/D8 /CZ/D2/D3/DB/D2 /D7/CT/D5/D9/CT/D2/D8/CX/CP/D0 /DA/CX/D7/D9/CP/D0/CX/D7/CP/D8/CX/D3/D2 /D1/CT/D8/CW/D3/CS/D7 /CP/D2/CS /DB/CW/D3/D7/CT /D7/CR/D3/D4/CT /CX/D7 /D8/CW/CT /CR/D3/D1/D4/CP/D6/CX/D7/D3/D2 /D3/CU /D8/CW/CT/CX/D6 /D4/CT/D6/CU/D3/D6/D1/CP/D2/CR/CT/D7/BA \u0001/D2 /D3/D6/CS/CT/D6 /D8/D3 /D4/D6/CT/D7/CT/D2/D8 /D8/CW/CT/D7/CT /D1/CT/D8/CW/D3/CS/D7/B8 /DB/CT /D1/D9/D7/D8 /AC/D6/D7/D8 /CX/D2/D8/D6/D3/CS/D9/CR/CT /D7/D3/D1/CT /D9/D7…"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "f88936df-773b-5125-8366-e5bf5aa6a5e9",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "0b85efd8-8f33-5ba5-bd0b-335293b0283e",
+      "page_index": 0,
+      "bbox": [
+        344.8800120000001,
+        349.050012,
+        524.4000120000002,
+        332.2500359999999
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/0b85efd8-8f33-5ba5-bd0b-335293b0283e.png",
+      "crop_sha256": "7d2c4c06abc8103410995f917624030aa14331432a12993e8e32db0bc87c3151",
+      "raw_text": "/BT /CR /B4 /CP /B5 /BP /CU /DE /BE /BV /BM /D0/CX/D1 /CZ /AX/BD /D4 /CZ /CR /B4 /DE /B5 /BP /CP /CV /BM /B4/BE/B5",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "92cd3c3c-9cb3-5e89-8aa7-1baee2b654d1",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "\u0001/D8 /CX/D7 /D3/CQ/DA/CX/D3/D9/D7 /D8/CW/CP/D8 /BD /CX/D7 /CP/D2 /CP/D8/D8/D6/CP/CR/D8/CX/D2/CV /AC/DC/CT/CS /D4/D3/CX/D2/D8 /D3/CU /D4 /CR /BA /CC/CW/CT /CQ/D3/D9/D2/CS/CP/D6/DD /D3/CU /BT /CR /B4 /BD /B5 /CX/D7 /CS/CT/D2/D3/D8/CT/CS /CQ/DD /BS /BT /CR /B4 /BD /B5 /CP/D2/CS /CX/D7 /CR/CP/D0/D0/CT/CS /D8/CW/CT -/D9/D0/CX/CP /D7/CT/D8 /D3/CU /D4 /CR /BA /CF/CT /CP/D0/D7/D3 /D9/D7/CT /D8/CW/CT /D7/DD/D1/CQ/D3/D0 -/CR /BP /BS /BT /CR /B4 /BD /B5/BA \u0007/D8/CW/CT/D6 /D8/CW/CP/D2 /BT /CR /B4 /BD /B5 /CP/D2/CS -/CR /B8 /CP/D0/D7/D3 /D8/D3 /CQ/CT /CR/D3/D2/D7/CX/CS/CT/D6/CT/CS /CX/D7 /CP /D8/CW/CX/D6/CS /D3/CQ /CY/CT/CR/D8"
+        },
+        {
+          "node_id": "f0567461-904d-5679-9f23-769434bd9d4b",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/CC/CW/CT /CS/DD/D2/CP/D1/CX/CR/D7 /D3/CU /D4 /CR /CX/D7 /CP/D2 /CT/D2/D3/D6/D1/D3/D9/D7/D0/DD /D6/CX/CR/CW /CU/D3/D9/D2/B9 /D8/CP/CX/D2 /D3/CU /CU/D6/CP/CR/D8/CP/D0 /D7/D8/D6/D9/CR/D8/D9/D6/CT/D7/BA /BT/D0/D8/CW/D3/D9/CV/CW /D8/CW/CT /CU/D6/CP/CR/D8/CP/D0 /D7/CT/D8/D7 /CV/CT/D2/CT/D6/CP/D8/CT/CS /CU/D6/D3/D1 /D8/CW/CT /CP/CQ/D3/DA/CT/B9/D1/CT/D2/D8/CX/D3/D2/CT/CS /D8/D6/CP/D2/D7/B9 /CU/D3/D6/D1/CP/D8/CX/D3/D2 /CW/CP/DA/CT /CQ/CT/CT/D2 /CS/CX/D7/CR/D9/D7/D7/CT/CS /CT/DC/D8/CT/D2/D7/CX/DA/CT/D0/DD /CX/D2 /D8/CW/CT /D0/CX/D8/CT/D6/CP/D8/D9/D6/CT/B8 /CP/D7 /CU/CP/D6 /CP/D7 /DB/CT /CZ/D2/D3/DB/B8 /D2/D3 /D4/D6/CT/DA/CX/D3/D9/D7/D0/DD /D4/D9/CQ/B9 /D0/CX/D7/CW/CT/CS /DB/D3/D6/CZ /CT/DC/CX/D7/D8/D7 /D8/CW/CP/D8 /CR/D3/D1/D4/D6/CX/D7/CT/D7 /D8/CW/CT /CQ/CT/D7/D8 /CZ/D2/D3/DB/D2 /D7/CT/D5/D9/CT/D2/D8/CX/CP/D0 /DA/CX/D7/D9/CP/D0/CX/D7/CP/D8/CX/D3/D2 /D1/CT/D8/CW/D3/CS/D7 /CP/D2/CS /DB/CW/D3/D7/CT /D7/CR/D3/D4/CT /CX/D7 /D8/CW/CT /CR/D3/D1/D4/CP/D6/CX/D7/D3/D2 /D3/CU /D8/CW/CT/CX/D6 /D4/CT/D6/CU/D3/D6/D1/CP/D2/CR/CT/D7/BA \u0001/D2 /D3/D6/CS/CT/D6 /D8/D3 /D4/D6/CT/D7/CT/D2/D8 /D8/CW/CT/D7/CT /D1/CT/D8/CW/D3/CS/D7/B8 /DB/CT /D1/D9/D7/D8 /AC/D6/D7/D8 /CX/D2/D8/D6/D3/CS/D9/CR/CT /D7/D3/D1/CT /D9/D7…"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "89d3782a-4063-56ba-ad22-97174dec7469",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/DE /CZ /B7/BD /BP /D4 /CR /B4 /DE /CZ /B5/B8 /CZ /BP /BC /BN /BD /BN /BM /BM /BM /B8 /DB/CW/CX/CR/CW /CP/D4/D4/D6/D3/CP/CR/CW /CP /BA /BU/DD /CR/D3/D0/D0/CT/CR/D8/CX/D2/CV /CP/D0/D0 /D7/D9/CR/CW /D4/D3/CX/D2/D8/D7 /D3/D2/CT /D3/CQ/D8/CP/CX/D2/D7 /D8/CW/CT /CQ/CP/D7/CX/D2 /D3/CU /CP/D8/D8/D6 /CP/CR/D8/CX/D3/D2 /D3/CU /CP/D2 /CP/D8/D8/D6/CP/CR/D8/CX/D2/CV /AC/DC/CT/CS /D4/D3/CX/D2/D8 /CP"
+        },
+        {
+          "node_id": "95efd67e-bf59-56c9-81bc-1697a5744bd2",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "\u0007/D2/CT /CU/CP/D7/CR/CX/D2/CP/D8/CX/D2/CV /CP/D7/D4/CT/CR/D8 /D3/CU /CU/D6/CP/CR/D8/CP/D0/D7 /CX/D7 /D8/CW/CT /CQ/CT/CP/D9/D8/DD /D3/CU /D8/CW/CT/CX/D6 /CV/D6/CP/D4/CW/CX/CR/CP/D0 /D6/CT/D4/D6/CT/D7/CT/D2/D8/CP/D8/CX/D3/D2/BA /CC/CW/CX/D7 /D4/CP/D4/CT/D6 /CX/D7 /CS/CT/DA/D3/D8/CT/CS /D8/D3 /CP /CS/CX/D7/CR/D9/D7/D7/CX/D3/D2 /D3/CU /DA /CP/D6/CX/D3/D9/D7 /CU/D6/CP/CR/D8/CP/D0 /CP/D7/D4/CT/CR/D8/D7 /CX/D2/DA/D3/D0/DA/CT/CS /CX/D2 /D8/CW/CT /D4/D3/D0/DD/D2/D3/D1/CX/CP/D0 /D4 /CR /BM /BV /AX /BV /DB/CX/D8/CW"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "8adf0a9d-8b98-5f77-b6a6-d1de870596b1",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "9f8110e5-93ce-5c11-913b-ed9de75b5404",
+      "page_index": 0,
+      "bbox": [
+        126.11996400000004,
+        365.85002399999996,
+        283.439976,
+        347.60999999999996
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/9f8110e5-93ce-5c11-913b-ed9de75b5404.png",
+      "crop_sha256": "887e5d10ad24337e9e3123859fea9b4e79d4a080601cc0874393b56b385d9f46",
+      "raw_text": "/D4 /CR /B4 /DE /B5 /BP /DE /BE /B7 /CR/BN /CR /BE /BV /BM /B4/BD/B5",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "92cd3c3c-9cb3-5e89-8aa7-1baee2b654d1",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "\u0001/D8 /CX/D7 /D3/CQ/DA/CX/D3/D9/D7 /D8/CW/CP/D8 /BD /CX/D7 /CP/D2 /CP/D8/D8/D6/CP/CR/D8/CX/D2/CV /AC/DC/CT/CS /D4/D3/CX/D2/D8 /D3/CU /D4 /CR /BA /CC/CW/CT /CQ/D3/D9/D2/CS/CP/D6/DD /D3/CU /BT /CR /B4 /BD /B5 /CX/D7 /CS/CT/D2/D3/D8/CT/CS /CQ/DD /BS /BT /CR /B4 /BD /B5 /CP/D2/CS /CX/D7 /CR/CP/D0/D0/CT/CS /D8/CW/CT -/D9/D0/CX/CP /D7/CT/D8 /D3/CU /D4 /CR /BA /CF/CT /CP/D0/D7/D3 /D9/D7/CT /D8/CW/CT /D7/DD/D1/CQ/D3/D0 -/CR /BP /BS /BT /CR /B4 /BD /B5/BA \u0007/D8/CW/CT/D6 /D8/CW/CP/D2 /BT /CR /B4 /BD /B5 /CP/D2/CS -/CR /B8 /CP/D0/D7/D3 /D8/D3 /CQ/CT /CR/D3/D2/D7/CX/CS/CT/D6/CT/CS /CX/D7 /CP /D8/CW/CX/D6/CS /D3/CQ /CY/CT/CR/D8"
+        },
+        {
+          "node_id": "f0567461-904d-5679-9f23-769434bd9d4b",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/CC/CW/CT /CS/DD/D2/CP/D1/CX/CR/D7 /D3/CU /D4 /CR /CX/D7 /CP/D2 /CT/D2/D3/D6/D1/D3/D9/D7/D0/DD /D6/CX/CR/CW /CU/D3/D9/D2/B9 /D8/CP/CX/D2 /D3/CU /CU/D6/CP/CR/D8/CP/D0 /D7/D8/D6/D9/CR/D8/D9/D6/CT/D7/BA /BT/D0/D8/CW/D3/D9/CV/CW /D8/CW/CT /CU/D6/CP/CR/D8/CP/D0 /D7/CT/D8/D7 /CV/CT/D2/CT/D6/CP/D8/CT/CS /CU/D6/D3/D1 /D8/CW/CT /CP/CQ/D3/DA/CT/B9/D1/CT/D2/D8/CX/D3/D2/CT/CS /D8/D6/CP/D2/D7/B9 /CU/D3/D6/D1/CP/D8/CX/D3/D2 /CW/CP/DA/CT /CQ/CT/CT/D2 /CS/CX/D7/CR/D9/D7/D7/CT/CS /CT/DC/D8/CT/D2/D7/CX/DA/CT/D0/DD /CX/D2 /D8/CW/CT /D0/CX/D8/CT/D6/CP/D8/D9/D6/CT/B8 /CP/D7 /CU/CP/D6 /CP/D7 /DB/CT /CZ/D2/D3/DB/B8 /D2/D3 /D4/D6/CT/DA/CX/D3/D9/D7/D0/DD /D4/D9/CQ/B9 /D0/CX/D7/CW/CT/CS /DB/D3/D6/CZ /CT/DC/CX/D7/D8/D7 /D8/CW/CP/D8 /CR/D3/D1/D4/D6/CX/D7/CT/D7 /D8/CW/CT /CQ/CT/D7/D8 /CZ/D2/D3/DB/D2 /D7/CT/D5/D9/CT/D2/D8/CX/CP/D0 /DA/CX/D7/D9/CP/D0/CX/D7/CP/D8/CX/D3/D2 /D1/CT/D8/CW/D3/CS/D7 /CP/D2/CS /DB/CW/D3/D7/CT /D7/CR/D3/D4/CT /CX/D7 /D8/CW/CT /CR/D3/D1/D4/CP/D6/CX/D7/D3/D2 /D3/CU /D8/CW/CT/CX/D6 /D4/CT/D6/CU/D3/D6/D1/CP/D2/CR/CT/D7/BA \u0001/D2 /D3/D6/CS/CT/D6 /D8/D3 /D4/D6/CT/D7/CT/D2/D8 /D8/CW/CT/D7/CT /D1/CT/D8/CW/D3/CS/D7/B8 /DB/CT /D1/D9/D7/D8 /AC/D6/D7/D8 /CX/D2/D8/D6/D3/CS/D9/CR/CT /D7/D3/D1/CT /D9/D7…"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "89d3782a-4063-56ba-ad22-97174dec7469",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/DE /CZ /B7/BD /BP /D4 /CR /B4 /DE /CZ /B5/B8 /CZ /BP /BC /BN /BD /BN /BM /BM /BM /B8 /DB/CW/CX/CR/CW /CP/D4/D4/D6/D3/CP/CR/CW /CP /BA /BU/DD /CR/D3/D0/D0/CT/CR/D8/CX/D2/CV /CP/D0/D0 /D7/D9/CR/CW /D4/D3/CX/D2/D8/D7 /D3/D2/CT /D3/CQ/D8/CP/CX/D2/D7 /D8/CW/CT /CQ/CP/D7/CX/D2 /D3/CU /CP/D8/D8/D6 /CP/CR/D8/CX/D3/D2 /D3/CU /CP/D2 /CP/D8/D8/D6/CP/CR/D8/CX/D2/CV /AC/DC/CT/CS /D4/D3/CX/D2/D8 /CP"
+        },
+        {
+          "node_id": "95efd67e-bf59-56c9-81bc-1697a5744bd2",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "\u0007/D2/CT /CU/CP/D7/CR/CX/D2/CP/D8/CX/D2/CV /CP/D7/D4/CT/CR/D8 /D3/CU /CU/D6/CP/CR/D8/CP/D0/D7 /CX/D7 /D8/CW/CT /CQ/CT/CP/D9/D8/DD /D3/CU /D8/CW/CT/CX/D6 /CV/D6/CP/D4/CW/CX/CR/CP/D0 /D6/CT/D4/D6/CT/D7/CT/D2/D8/CP/D8/CX/D3/D2/BA /CC/CW/CX/D7 /D4/CP/D4/CT/D6 /CX/D7 /CS/CT/DA/D3/D8/CT/CS /D8/D3 /CP /CS/CX/D7/CR/D9/D7/D7/CX/D3/D2 /D3/CU /DA /CP/D6/CX/D3/D9/D7 /CU/D6/CP/CR/D8/CP/D0 /CP/D7/D4/CT/CR/D8/D7 /CX/D2/DA/D3/D0/DA/CT/CS /CX/D2 /D8/CW/CT /D4/D3/D0/DD/D2/D3/D1/CX/CP/D0 /D4 /CR /BM /BV /AX /BV /DB/CX/D8/CW"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "1a1f2a11-02b9-52e3-9240-28192ae884b3",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "9b3f4383-971d-5585-8585-f4c758270318",
+      "page_index": 0,
+      "bbox": [
+        369.95998800000007,
+        409.770012,
+        466.1999880000001,
+        395.01001199999996
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/9b3f4383-971d-5585-8585-f4c758270318.png",
+      "crop_sha256": "43060560288dbe1c0717f491e6a0a6156d735f8376ba85c308765316da192d6e",
+      "raw_text": "/DE /BC /BJ/AX /DE /BD /BJ/AX /DE /BE /BJ/AX /DE /BF /BM /BM /BM",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "f0567461-904d-5679-9f23-769434bd9d4b",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/CC/CW/CT /CS/DD/D2/CP/D1/CX/CR/D7 /D3/CU /D4 /CR /CX/D7 /CP/D2 /CT/D2/D3/D6/D1/D3/D9/D7/D0/DD /D6/CX/CR/CW /CU/D3/D9/D2/B9 /D8/CP/CX/D2 /D3/CU /CU/D6/CP/CR/D8/CP/D0 /D7/D8/D6/D9/CR/D8/D9/D6/CT/D7/BA /BT/D0/D8/CW/D3/D9/CV/CW /D8/CW/CT /CU/D6/CP/CR/D8/CP/D0 /D7/CT/D8/D7 /CV/CT/D2/CT/D6/CP/D8/CT/CS /CU/D6/D3/D1 /D8/CW/CT /CP/CQ/D3/DA/CT/B9/D1/CT/D2/D8/CX/D3/D2/CT/CS /D8/D6/CP/D2/D7/B9 /CU/D3/D6/D1/CP/D8/CX/D3/D2 /CW/CP/DA/CT /CQ/CT/CT/D2 /CS/CX/D7/CR/D9/D7/D7/CT/CS /CT/DC/D8/CT/D2/D7/CX/DA/CT/D0/DD /CX/D2 /D8/CW/CT /D0/CX/D8/CT/D6/CP/D8/D9/D6/CT/B8 /CP/D7 /CU/CP/D6 /CP/D7 /DB/CT /CZ/D2/D3/DB/B8 /D2/D3 /D4/D6/CT/DA/CX/D3/D9/D7/D0/DD /D4/D9/CQ/B9 /D0/CX/D7/CW/CT/CS /DB/D3/D6/CZ /CT/DC/CX/D7/D8/D7 /D8/CW/CP/D8 /CR/D3/D1/D4/D6/CX/D7/CT/D7 /D8/CW/CT /CQ/CT/D7/D8 /CZ/D2/D3/DB/D2 /D7/CT/D5/D9/CT/D2/D8/CX/CP/D0 /DA/CX/D7/D9/CP/D0/CX/D7/CP/D8/CX/D3/D2 /D1/CT/D8/CW/D3/CS/D7 /CP/D2/CS /DB/CW/D3/D7/CT /D7/CR/D3/D4/CT /CX/D7 /D8/CW/CT /CR/D3/D1/D4/CP/D6/CX/D7/D3/D2 /D3/CU /D8/CW/CT/CX/D6 /D4/CT/D6/CU/D3/D6/D1/CP/D2/CR/CT/D7/BA \u0001/D2 /D3/D6/CS/CT/D6 /D8/D3 /D4/D6/CT/D7/CT/D2/D8 /D8/CW/CT/D7/CT /D1/CT/D8/CW/D3/CS/D7/B8 /DB/CT /D1/D9/D7/D8 /AC/D6/D7/D8 /CX/D2/D8/D6/D3/CS/D9/CR/CT /D7/D3/D1/CT /D9/D7…"
+        },
+        {
+          "node_id": "89d3782a-4063-56ba-ad22-97174dec7469",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "/DE /CZ /B7/BD /BP /D4 /CR /B4 /DE /CZ /B5/B8 /CZ /BP /BC /BN /BD /BN /BM /BM /BM /B8 /DB/CW/CX/CR/CW /CP/D4/D4/D6/D3/CP/CR/CW /CP /BA /BU/DD /CR/D3/D0/D0/CT/CR/D8/CX/D2/CV /CP/D0/D0 /D7/D9/CR/CW /D4/D3/CX/D2/D8/D7 /D3/D2/CT /D3/CQ/D8/CP/CX/D2/D7 /D8/CW/CT /CQ/CP/D7/CX/D2 /D3/CU /CP/D8/D8/D6 /CP/CR/D8/CX/D3/D2 /D3/CU /CP/D2 /CP/D8/D8/D6/CP/CR/D8/CX/D2/CV /AC/DC/CT/CS /D4/D3/CX/D2/D8 /CP"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "95efd67e-bf59-56c9-81bc-1697a5744bd2",
+          "page_index": 0,
+          "block_type": "text",
+          "text": "\u0007/D2/CT /CU/CP/D7/CR/CX/D2/CP/D8/CX/D2/CV /CP/D7/D4/CT/CR/D8 /D3/CU /CU/D6/CP/CR/D8/CP/D0/D7 /CX/D7 /D8/CW/CT /CQ/CT/CP/D9/D8/DD /D3/CU /D8/CW/CT/CX/D6 /CV/D6/CP/D4/CW/CX/CR/CP/D0 /D6/CT/D4/D6/CT/D7/CT/D2/D8/CP/D8/CX/D3/D2/BA /CC/CW/CX/D7 /D4/CP/D4/CT/D6 /CX/D7 /CS/CT/DA/D3/D8/CT/CS /D8/D3 /CP /CS/CX/D7/CR/D9/D7/D7/CX/D3/D2 /D3/CU /DA /CP/D6/CX/D3/D9/D7 /CU/D6/CP/CR/D8/CP/D0 /CP/D7/D4/CT/CR/D8/D7 /CX/D2/DA/D3/D0/DA/CT/CS /CX/D2 /D8/CW/CT /D4/D3/D0/DD/D2/D3/D1/CX/CP/D0 /D4 /CR /BM /BV /AX /BV /DB/CX/D8/CW"
+        },
+        {
+          "node_id": "989bf983-d37a-527d-9746-3e142e184b2f",
+          "page_index": 0,
+          "block_type": "heading",
+          "text": "/BD \u0001\u0006/CC/CA\u0007/BW/CD/BV/CC\u0001\u0007\u0006"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "0b5adf11-babc-55de-8a7d-17f502f7f5fb",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "a6b62a80-171e-5636-b487-92b3dd5907da",
+      "page_index": 1,
+      "bbox": [
+        349.32002400000005,
+        609.5700399999997,
+        486.9600359999999,
+        591.3300999999998
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/a6b62a80-171e-5636-b487-92b3dd5907da.png",
+      "crop_sha256": "7d530a37721ebe443761e473f78e9fd020554a9df8debd07b480f990d754e415",
+      "raw_text": "/D2 /B4 /CZ /B5 /BP /BE /CZ /B7/BD /A0 /BD /BN /CZ /BP /BC /BN /BD /BN /BM /BM /BM /BM",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "d5216edf-682e-5bd9-97e3-29172b7a5e16",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "/CF/CT /CR/D3/D2/D7/CX/CS/CT/D6 /D1/CT/D8/CW/D3/CS/D7 /D6/CT/D4/D6/CT/D7/CT/D2/D8/CX/D2/CV -/D9/D0/CX/CP /D7/CT/D8/D7 /CP/D7 /D8/CW/CT/DD /D6/CT/D7/D9/D0/D8 /CU/D6/D3/D1 /CX/D8/CT/D6/CP/D8/CX/D2/CV /D8/CW/CT /CR/D3/D1/D4/D0/CT/DC /D5/D9/CP/CS/D6/CP/D8/CX/CR /D4/D3/D0/DD/D2/D3/D1/CX/CP/D0 /B4/BD/B5/BA /CC/CW/CT /D1/CT/D8/CW/D3/CS/D7 /CU/D3/D6 /D6/CT/D2/CS/CT/D6/CX/D2/CV -/D9/D0/CX/CP /D7/CT/D8/D7 /CP/D6/CT /CS/CX/CP/CV/D6/CP/D1/D1/CP/D8/CX/CR/CP/D0/D0/DD /D6/CT/D4/D6/CT/D7/CT/D2/D8/CT/CS /CX/D2 /BY/CX/CV/BA /BD/BA /BY /D3/D6 /CR/D0/CP/D6/CX/D8/DD /B8 /D8/CW/CT/D7/CT /D1/CT/D8/CW/D3/CS/D7 /CP/D6/CT /D7/D9/CQ/CS/CX/DA/CX/CS/CT/CS /CX/D2/D8/D3 /D8/DB/D3"
+        },
+        {
+          "node_id": "5bccf24a-df9a-5197-af4e-39607fb92219",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "/CC/CW/CT /D6/CT/CR/D9/D6/D7/CX/D3/D2 /CX/D7 /D2/CX/CR/CT/D0/DD /D6/CT/D4/D6/CT/D7/CT/D2/D8/CT/CS /CX/D2 /CP /CQ/CX/D2/CP/D6/DD /D8/D6/CT/CT /CP/D7 /CX/D2 /BY/CX/CV/BA /BE/B4/CP/B5/BA /BY /D3/D6 /D8/CW/CT /DB/CW/D3/D0/CT /D8/D6/CT/CT /D3/D2/CT /D2/CT/CT/CS/D7"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "b50fbd9f-3dd2-5b4c-a59e-4f7f3bdb810c",
+          "page_index": 1,
+          "block_type": "heading",
+          "text": "/BE /CE\u0001/CB/CD/BT\u0004\u0001/CB/BT/CC\u0001\u0007\u0006 \u0005/BX/CC\u0000\u0007/BW/CB /CA/BX/CE\u0001/CB\u0001/CC/BX/BW"
+        },
+        {
+          "node_id": "d78d1efa-d4e7-5c0b-bfcb-60171a074d5b",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "\u0006/D3/D8/CT /D8/CW/CP/D8/B8 /CX/D2 /CV/CT/D2/CT/D6/CP/D0/B8 /D4 /CZ /CR /B4 /DE /B5 /BP /D9 /BC /CW/CP/D7 /BE /CZ /D7/D3/D0/D9/D8/CX/D3/D2/D7/B8 /CX/BA/CT/BA /D8/CW/CT /D8/D3/D8/CP/D0 /D2/D9/D1/CQ/CT/D6 /D3/CU /CX/D8/CT/D6/CP/D8/CT/CS /D4/D6/CT/CX/D1/CP/CV/CT/D7 /D3/CU /D9 /BC /D3/CQ/D8/CP/CX/D2/CT/CS /CQ/DD /D6/CT/CR/D9/D6/D7/CX/DA/CT/D0/DD /D7/D3/D0/DA/CX/D2/CV /D8/CW/CT /CT/D5/D9/CP/D8/CX/D3/D2 /DE /BE /B7 /CR /BP /D9 /BC /CX/D7"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "6e932dc2-77ba-5ec0-912f-fbb012baa9a7",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "90a74ec7-3413-5407-8298-683b0c816cd4",
+      "page_index": 1,
+      "bbox": [
+        326.8799999999999,
+        688.7701000000001,
+        509.2800240000001,
+        672.0900999999999
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/90a74ec7-3413-5407-8298-683b0c816cd4.png",
+      "crop_sha256": "46ea35e31814e03c25bd0a3f38c91103a61f37553ea1ee7ae98d16259f56e5ae",
+      "raw_text": "-/CR /BP /CU /DE /BE /BV /BM /D4 /CZ /CR /B4 /DE /B5 /BP /D9 /BC /CU/D3/D6 /D7/D3/D1/CT /CZ /BE /CI /CV /BM",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "b50fbd9f-3dd2-5b4c-a59e-4f7f3bdb810c",
+          "page_index": 1,
+          "block_type": "heading",
+          "text": "/BE /CE\u0001/CB/CD/BT\u0004\u0001/CB/BT/CC\u0001\u0007\u0006 \u0005/BX/CC\u0000\u0007/BW/CB /CA/BX/CE\u0001/CB\u0001/CC/BX/BW"
+        },
+        {
+          "node_id": "d78d1efa-d4e7-5c0b-bfcb-60171a074d5b",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "\u0006/D3/D8/CT /D8/CW/CP/D8/B8 /CX/D2 /CV/CT/D2/CT/D6/CP/D0/B8 /D4 /CZ /CR /B4 /DE /B5 /BP /D9 /BC /CW/CP/D7 /BE /CZ /D7/D3/D0/D9/D8/CX/D3/D2/D7/B8 /CX/BA/CT/BA /D8/CW/CT /D8/D3/D8/CP/D0 /D2/D9/D1/CQ/CT/D6 /D3/CU /CX/D8/CT/D6/CP/D8/CT/CS /D4/D6/CT/CX/D1/CP/CV/CT/D7 /D3/CU /D9 /BC /D3/CQ/D8/CP/CX/D2/CT/CS /CQ/DD /D6/CT/CR/D9/D6/D7/CX/DA/CT/D0/DD /D7/D3/D0/DA/CX/D2/CV /D8/CW/CT /CT/D5/D9/CP/D8/CX/D3/D2 /DE /BE /B7 /CR /BP /D9 /BC /CX/D7"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "fadef50e-9f43-58cd-a8ca-3bf47c5dbc7f",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "/BI"
+        },
+        {
+          "node_id": "1ebd5229-31fd-5185-bd27-885efa11afb2",
+          "page_index": 1,
+          "block_type": "text",
+          "text": "/BI"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "9163ea01-db76-511c-bc62-2105cf9b4aec",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "35470bf8-aeee-51c1-8025-d42199c2081d",
+      "page_index": 2,
+      "bbox": [
+        322.07995200000005,
+        132.21003600000017,
+        514.1999760000001,
+        115.77003600000023
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/35470bf8-aeee-51c1-8025-d42199c2081d.png",
+      "crop_sha256": "4cca7a60583875ab375cd4206a2c7d9fa283a0840cc11a8f4421cc93a7f73d91",
+      "raw_text": "\u0006/CT/DB/BW/CT/D6/CX/DA/CP/D8/CX/DA/CT /BP /BE /A1 \u0007/D0/CS/BW/CT/D6/CX/DA/CP/D8/CX/DA/CT /A1 /CY /D9 /D1 /CY /BM",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "13e89e8f-0cdb-5fd1-abbc-6d7b3d6bb79a",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "\u0001/D2 /D8/CW/CT /CR/CP/D7/CT /D3/CU /D8/CW/CT \u0005\u0001\u0001\u0005 /D8/CW/CT /CP/D0/CV/D3/D6/CX/D8/CW/D1 /CX/D7/BM"
+        },
+        {
+          "node_id": "0fb1da8d-0d1a-5c13-8882-944ae277d35c",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/CX"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "4e4e72c0-38af-5229-9e55-b70398071d89",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/CX /CZ \u0007/CU /CR/D3/D9/D6/D7/CT/B8 /D8/CW/CT /CP/CQ/D3/DA/CT /CS/CT/D6/CX/DA /CP/D8/CX/DA/CT/D7 /CR/CP/D2 /CQ/CT /CR/CW/CT/CP/D4/D0/DD /CP/CR/CR/D9/D1/D9/D0/CP/D8/CT/CS /CX/D2 /D8/CW/CT /CR/D3/D9/D6/D7/CT /D3/CU /D8/CW/CT /D6/CT/CR/D9/D6/D7/CX/D3/D2/BM"
+        },
+        {
+          "node_id": "2a1a0033-78bd-5703-aa88-eee4498d19a7",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/DA/D3/CX/CS -/D9/D0/CX/CP/BM/BM\u0001\u0001\u0005/CT/D8/CW/D3/CS/B4/BV/BW/BV /B6/D4/BW/BV/B5 /DF /CX/D2/D8 /DC/B8 /DD/BN /CX/D2/D8 /D8/CX/D1/CT/D7 /BP /BC/BN /CX/D2/D8 /D1/CP/DC/CS/CT/D4/D8/CW /BP /BD/BH/BN /CB/D8/CP/CR/CZ/BO\u0001\u0001\u0005/CA/CT/CR/BQ /BV/CB/D8/CP/CR/CZ/BN \u0001\u0001\u0005/CA/CT/CR /BW/CP/D8/CP/B8 /D6/D3/D3/D8/BN /BW/CP/D8/CP/BA/D0/CP/CQ/CT/D0 /BP /BC/BN /CX/CU /B4/BV/BA/CA/CT/B4/B5/BP/BP/BC /B2/B2 /BV/BA\u0001/D1/B4/B5/BP/BP/BC/B5 /BW/CP/D8/CP/BA/CI /BP /BV/D3/D1/D4/D0/CT/DC/B4/BD/B8/BC/B5/BN /BV/CB/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/BW/CP/D8/CP/B5/BN /DB/CW/CX/D0/CT /B4/AX/BV/CB/D8/CP/CR/CZ/BA/CX/D7/BX/D1/D4/D8/DD/B4/B5/B5/DF /BV/CB/D8/CP/CR/CZ/BA/D4/D3/D4/B4/BW/CP/D8/CP/B5/BN"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "91b58b61-aad0-5db2-9ae7-1a5f3dbdc5b0",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "41b30b84-df9f-5915-be4b-dc2a5a1cf642",
+      "page_index": 2,
+      "bbox": [
+        347.87997600000006,
+        186.33003600000018,
+        488.3999639999999,
+        175.1700360000002
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/41b30b84-df9f-5915-be4b-dc2a5a1cf642.png",
+      "crop_sha256": "099988d4dca80aa8fcd7535f8e731f8fc2d8d732f4ee5bed872a7b4701226251",
+      "raw_text": "/D9 /D1 /BP /D4 /CZ /A0 /CX /CR /B4 /D9 /D1 /B5 /BN /CX /BP /BC /BN /BM /BM /BM /BN /CZ/BM",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "0fb1da8d-0d1a-5c13-8882-944ae277d35c",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/CX"
+        },
+        {
+          "node_id": "4e4e72c0-38af-5229-9e55-b70398071d89",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/CX /CZ \u0007/CU /CR/D3/D9/D6/D7/CT/B8 /D8/CW/CT /CP/CQ/D3/DA/CT /CS/CT/D6/CX/DA /CP/D8/CX/DA/CT/D7 /CR/CP/D2 /CQ/CT /CR/CW/CT/CP/D4/D0/DD /CP/CR/CR/D9/D1/D9/D0/CP/D8/CT/CS /CX/D2 /D8/CW/CT /CR/D3/D9/D6/D7/CT /D3/CU /D8/CW/CT /D6/CT/CR/D9/D6/D7/CX/D3/D2/BM"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "2a1a0033-78bd-5703-aa88-eee4498d19a7",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/DA/D3/CX/CS -/D9/D0/CX/CP/BM/BM\u0001\u0001\u0005/CT/D8/CW/D3/CS/B4/BV/BW/BV /B6/D4/BW/BV/B5 /DF /CX/D2/D8 /DC/B8 /DD/BN /CX/D2/D8 /D8/CX/D1/CT/D7 /BP /BC/BN /CX/D2/D8 /D1/CP/DC/CS/CT/D4/D8/CW /BP /BD/BH/BN /CB/D8/CP/CR/CZ/BO\u0001\u0001\u0005/CA/CT/CR/BQ /BV/CB/D8/CP/CR/CZ/BN \u0001\u0001\u0005/CA/CT/CR /BW/CP/D8/CP/B8 /D6/D3/D3/D8/BN /BW/CP/D8/CP/BA/D0/CP/CQ/CT/D0 /BP /BC/BN /CX/CU /B4/BV/BA/CA/CT/B4/B5/BP/BP/BC /B2/B2 /BV/BA\u0001/D1/B4/B5/BP/BP/BC/B5 /BW/CP/D8/CP/BA/CI /BP /BV/D3/D1/D4/D0/CT/DC/B4/BD/B8/BC/B5/BN /BV/CB/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/BW/CP/D8/CP/B5/BN /DB/CW/CX/D0/CT /B4/AX/BV/CB/D8/CP/CR/CZ/BA/CX/D7/BX/D1/D4/D8/DD/B4/B5/B5/DF /BV/CB/D8/CP/CR/CZ/BA/D4/D3/D4/B4/BW/CP/D8/CP/B5/BN"
+        },
+        {
+          "node_id": "a19c5604-3efe-5657-9bf7-6bf7a537759a",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/AC /AC /CT/DC/CR/CT/CT/CS/D7 /D7/D3/D1/CT /CQ/D3/D9/D2/CS /BW /BE /CJ/BC /BN /BD/B5/B8 /DB/CW/CX/CR/CW /CX/D7 /D8/CW/CT /D4/CP/B9 /D6/CP/D1/CT/D8/CT/D6 /D3/CU /D8/CW/CT /CP/D0/CV/D3/D6/CX/D8/CW/D1/BA \u0000/CT/D6/CT /DB/CT /CW/CP/DA/CT /DB/D6/CX/D8/D8/CT/D2"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "b33ca6fe-ddbb-552c-9432-8e1ce785c868",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "bfbd12e8-2ed5-5e32-9315-ea5f955d8577",
+      "page_index": 2,
+      "bbox": [
+        358.5599520000002,
+        259.6500480000002,
+        477.7199520000001,
+        209.49003600000015
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/bfbd12e8-2ed5-5e32-9315-ea5f955d8577.png",
+      "crop_sha256": "ace20d19acf912798ec901e3e18682a3d94243aaa916382e94e54e9a9bb2aac9",
+      "raw_text": "/CY /B4 /D4 /CZ /CR /B5 /BC /B4 /D9 /D1 /CZ /B5 /CY /BP /AC /AC /AC /AC /CZ /CH /CX /BP/BD /D4 /BC /CR /B4 /D9 /D1 /CX /B5 /AC /AC /AC /AC",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "2a1a0033-78bd-5703-aa88-eee4498d19a7",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/DA/D3/CX/CS -/D9/D0/CX/CP/BM/BM\u0001\u0001\u0005/CT/D8/CW/D3/CS/B4/BV/BW/BV /B6/D4/BW/BV/B5 /DF /CX/D2/D8 /DC/B8 /DD/BN /CX/D2/D8 /D8/CX/D1/CT/D7 /BP /BC/BN /CX/D2/D8 /D1/CP/DC/CS/CT/D4/D8/CW /BP /BD/BH/BN /CB/D8/CP/CR/CZ/BO\u0001\u0001\u0005/CA/CT/CR/BQ /BV/CB/D8/CP/CR/CZ/BN \u0001\u0001\u0005/CA/CT/CR /BW/CP/D8/CP/B8 /D6/D3/D3/D8/BN /BW/CP/D8/CP/BA/D0/CP/CQ/CT/D0 /BP /BC/BN /CX/CU /B4/BV/BA/CA/CT/B4/B5/BP/BP/BC /B2/B2 /BV/BA\u0001/D1/B4/B5/BP/BP/BC/B5 /BW/CP/D8/CP/BA/CI /BP /BV/D3/D1/D4/D0/CT/DC/B4/BD/B8/BC/B5/BN /BV/CB/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/BW/CP/D8/CP/B5/BN /DB/CW/CX/D0/CT /B4/AX/BV/CB/D8/CP/CR/CZ/BA/CX/D7/BX/D1/D4/D8/DD/B4/B5/B5/DF /BV/CB/D8/CP/CR/CZ/BA/D4/D3/D4/B4/BW/CP/D8/CP/B5/BN"
+        },
+        {
+          "node_id": "a19c5604-3efe-5657-9bf7-6bf7a537759a",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/AC /AC /CT/DC/CR/CT/CT/CS/D7 /D7/D3/D1/CT /CQ/D3/D9/D2/CS /BW /BE /CJ/BC /BN /BD/B5/B8 /DB/CW/CX/CR/CW /CX/D7 /D8/CW/CT /D4/CP/B9 /D6/CP/D1/CT/D8/CT/D6 /D3/CU /D8/CW/CT /CP/D0/CV/D3/D6/CX/D8/CW/D1/BA \u0000/CT/D6/CT /DB/CT /CW/CP/DA/CT /DB/D6/CX/D8/D8/CT/D2"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "383ba6b1-317c-52c3-94d5-cade9186b427",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/CZ"
+        },
+        {
+          "node_id": "c1068b1e-1bfe-5de2-b345-57fdcfad5006",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/DA /CP/D6/CX/CP/D8/CX/D3/D2/D7 /D3/CU \u0001\u0001\u0005 /D3/D6 /D8/D3/D8/CP/D0/D0/DD /CS/CX/AB/CT/D6/CT/D2/D8 /D1/CT/D8/CW/D3/CS/D7 /CP/D6/CT /D2/CT/CR/CT/D7/D7/CP/D6/DD /BA \u0006/D3/D8/CT /D8/CW/CP/D8 /D8/CW/CX/D7 /D1/CT/D8/CW/D3/CS /CQ/CT/D0/D3/D2/CV/D7 /D8/D3 /D8/CW/CT /D7/CT/CR/D3/D2/CS /D1/CT/D8/CW/D3/CS /D7/CT/D8 /D3/CU /D8/CW/CT /AC/D6/D7/D8 /CV/D6/D3/D9/D4 /B4/D7/CT/CT /BY/CX/CV/BA /BD/B5/BA \u0001/D2 /D8/CW/CT /CR/CP/D7/CT /D3/CU /D8/CW/CT \u0001\u0001\u0005 /D8/CW/CT /CP/D0/CV/D3/D6/CX/D8/CW/D1 /CX/D7/BM"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "8c3488b8-1e54-5d5a-89af-8b3fabaea824",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "a355c3c4-5082-59e7-9979-a2e9b9189ec1",
+      "page_index": 2,
+      "bbox": [
+        87.839988,
+        755.73006,
+        266.52001199999995,
+        732.93
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/a355c3c4-5082-59e7-9979-a2e9b9189ec1.png",
+      "crop_sha256": "e43dfe3e31d416b9033188c5df6d6f6a5b20ddee4e22e8811b8b090b6f3f846c",
+      "raw_text": "/DB /BD /B4 /D9 /B5 /BP /B7 /D4 /D9 /A0 /CR /CP/D2/CS /DB /BE /B4 /D9 /B5 /BP /A0 /D4 /D9 /A0 /CR/BN",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "4437eb49-03f9-5150-abe4-17fad774485c",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "(a)"
+        },
+        {
+          "node_id": "31393dca-fd54-5c4c-83c6-df8ebea3a26a",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/DB/CW/CT/D6/CT /CP/D2/DD /D7/CT/D8 /BT /D3/CU /D4/D3/CX/D2/D8/D7 /D7/D3 /CU/CP/D6 /CR/D3/D1/D4/D9/D8/CT/CS /DD/CX/CT/D0/CS/D7 /CP /D0/CP/D6/CV/CT/D6 /D7/CT/D8 /DB /BD /B4 /BT /B5 /CJ /DB /BE /B4 /BT /B5/BA /BU/CP/D6/D2/D7/D0/CT/DD /CX/D2 /CJ/BU/CP/D6/D2/D7/D0/CT/DD/BL/BF/CL /CP/D2/CS \u0000/CT/D4/D8/CX/D2/CV /CT/D8 /CP/D0/BA /CX/D2 /CJ\u0000/CT/D4/D8/CX/D2/CV/BL/BD/CL /CT/DC/D4/D0/D3/D6/CT /D8/CW/CX/D7 /DA/CX/CT/DB/D4/D3/CX/D2/D8 /CX/D2 /CS/CT/D8/CP/CX/D0/BA"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "ccfff6c0-0c8a-5c74-ac55-e45e4bbe67da",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/DC /BP /D6/D3/D9/D2/CS/B4/B4/BW/CP/D8/CP/BA/CI/BA/CA/CT/B4/B5/B9/CG/D1/CX/D2/B5/BB/CS/DC/B5/BN /DD /BP /D6/D3/D9/D2/CS/B4/B4/BW/CP/D8/CP/BA/CI/BA\u0001/D1/B4/B5/B9/CH/D1/CX/D2/B5/BB/CS/DD/B5/BN /D4/BW/BV/B9/BQ/CB/CT/D8\b/CX/DC/CT/D0/B4/DC/B8/DD/B8/CA/BZ/BU/B4/BC/B8/BC/B8/BD/BC/BC/B5/B5/BN /CX/CU /B4/BW/CP/D8/CP/BA/D0/CP/CQ/CT/D0/BO/D1/CP/DC/CS/CT/D4/D8/CW/B5/DF /D6/D3/D3/D8/BA/CI /BP /D7/D5/D6/D8/BV/B4/BW/CP/D8/CP/BA/CI/B9/BV/B5/BN /D6/D3/D3/D8/BA/D0/CP/CQ/CT/D0 /BP /BW/CP/D8/CP/BA/D0/CP/CQ/CT/D0 /B7 /BD/BN /BV/CB/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/D6/D3/D3/D8/B5/BN /D6/D3/D3/D8/BA/CI /BP /B4/B9/BD/B5/B6/D6/D3/D3/D8/BA/CI/BN /BV/CB/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/D6/D3/D3/D8/B5/BN /DH /DH /DH"
+        },
+        {
+          "node_id": "61211a45-7ca6-54f1-a6dc-7d215e0e4395",
+          "page_index": 2,
+          "block_type": "text",
+          "text": "/CP/D2 /CX/D8/CT/D6 /CP/D8/CT /CS /CU/D9/D2/CR/D8/CX/D3/D2 /D7/DD/D7/D8/CT/D1 /B4\u0001/BY/CB/B5 /DB/CX/D8/CW /D1/CP/D4/D7"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "72a607bb-5b0f-5e4b-9328-38703bcd9920",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "02622bea-de33-5566-ba0a-0a0759b57ac9",
+      "page_index": 5,
+      "bbox": [
+        120.83999999999992,
+        151.53005200000007,
+        233.51999999999998,
+        127.88999999999999
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/02622bea-de33-5566-ba0a-0a0759b57ac9.png",
+      "crop_sha256": "b9c71e54155a1fe453cc84914a6576378d9cd11f862a79730906e6005c71e69e",
+      "raw_text": "/D4/D3/D8 /CR /B4 /DE /BC /B5 /BP /AI /DE /BC /BN /D0/D3/CV /CY /DE /D2 /CY /BE /D2 /AJ /BN",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "a27f39ff-9989-5af4-a5ea-84d75518eaf9",
+          "page_index": 4,
+          "block_type": "text",
+          "text": "-/CB/CT/D8/B4/CI/BA/CX/B8 /CI/BA/CY/B5/BP/BD/BN /CP/CS/CY/CI/BA/CX /BP /CI/BA/CX/BN /CP/CS/CY/CI/BA/CY /BP /CI/BA/CY/B7/BD/BN /CG /BP /CG/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CX/B6/CS/DC/BN /CH /BP /CH/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CY/B6/CS/DD/BN /CX/CU /B4-/CB/CT/D8/B4/CP/CS/CY/CI/BA/CX/B8/CP/CS/CY/CI/BA/CY/B5 /BP/BP /BC/B5 /D7/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/CP/CS/CY/CI/B5/BN /CP/CS/CY/CI/BA/CX /BP /CI/BA/CX/BN /CP/CS/CY/CI/BA/CY /BP /CI/BA/CY/B9/BD/BN /CG /BP /CG/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CX/B6/CS/DC/BN /CH /BP /CH/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CY/B6/CS/DD/BN /CX/CU /B4-/CB/CT/D8/B4/CP/CS/CY/CI/BA/CX/B8/CP/CS/CY/CI/BA/CY/B5 /BP/BP /BC/B5 /D7/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/CP/CS/CY/CI/B5/BN /CP/CS/CY/CI/BA/CX/BP/CI/BA/CX/B7/BD/BN /CP/CS/CY/CI/BA/CY/BP/CI/BA/CY/BN /CG /BP /CG/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CX/B6/CS/DC/BN /CH /BP /CH/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CY/B6/CS/DD/BN /CX/CU /B4-/CB/CT/D8/B4/CP/CS/CY/CI/BA/CX/B8/CP/CS/CY/CI/BA/CY/B5 /BP/BP /BC/B5 /D7/D8/CP/CR/CZ/BA/D4/D9/D7/CW/B4/CP/CS/CY/CI/B5/BN /CP/CS/CY/CI/BA/CX /BP /CI/BA/CX/B9/BD/BN /CP/CS/CY/CI/BA/CY /BP /CI/BA/CY/BN /CG /BP /CG/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CX/B6/CS/DC/BN /CH /BP /CH/D1/CX/D2 /B7 /CP/CS/CY/CI/BA/CY/B6/CS/DD/BN…"
+        },
+        {
+          "node_id": "fa5c729c-847b-5397-b468-be3525674d7a",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/DB/CW/CT/D6/CT /DE /CZ /BP /DE /BE /CZ /A0 /BD /B7 /CR /B8 /CZ /BP /BD /BN /BE /BN /BM /BM /BM /BN /D2 /B8 /D2 /BP /D0 /CR /B4 /DE /BC /BN /CC /B5 /CP/D2/CS /CC /BP /CU /DE /BE /BV /BM /CY /DE /CY /AL /BD /BP/AY /CV /CU/D3/D6 /D7/D1/CP/D0/D0 /AY /B4/BY/CX/CV/BA /BG/B4/CR/B5/B5/BA \u0006/D3/D8/CT /D8/CW/CP/D8 /D8/CW/CT /D0/CT/DA/CT/D0 /CR/D9/D6/DA/CT/D7 /D3/CU /D4/D3/D8 /CR /CP/D6/CT /CR/CX/D6/CR/D0/CT/B9/D0/CX/CZ/CT /CU/CP/D6 /D3/D9/D8/D7/CX/CS/CT/BA"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "1e9cafbe-3a18-5006-8b4a-758bfd89a652",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/DB/CW/CX/CR/CW /CX/D7 /CP/D4/D4/D6/D3/DC/CX/D1/CP/D8/CT/D0/DD /CV/CX/DA/CT/D2 /CQ/DD"
+        },
+        {
+          "node_id": "fb5d5152-56f0-5b68-afbf-8d7579072e11",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CC /CP/CQ/D0/CT /BD /D4/D6/CT/D7/CT/D2/D8/D7 /D8/CW/CT /D7/CT/D5/D9/CT/D2/D8/CX/CP/D0 /D6/D9/D2/D8/CX/D1/CT /D1/CT/CP/D7/D9/D6/CT/CS /CU/D3/D6 /CT/CP/CR/CW /D3/CU /D8/CW/CT /D7/CT/DA/CT/D2 /D1/CT/D8/CW/D3/CS/D7 /B4\u0001\u0001\u0005/B8 \u0005\u0001\u0001\u0005/B8 /BU/CB\u0005/B8 \u0005/BU/CB\u0005/B8 \u0004/CB\u0005/B8 /BV\b\u0005/B8 /BW/BX\u0005/B5 /CU/D3/D6 /D8/CW/CT /CR/D3/D1/D4/D9/D8/CP/D8/CX/D3/D2 /D3/CU /D8/CW/CT -/D9/D0/CX/CP /D7/CT/D8/BA /BT /AC/D6/D7/D8 /D3/CQ/D7/CT/D6/DA /CP/D8/CX/D3/D2 /CU/D6/D3/D1 /D8/CW/CT/D7/CT /D6/CT/B9 /D7/D9/D0/D8/D7 /CR/D3/D2/CR/CT/D6/D2/D7 /D8/CW/CT /CX/D2/CR/D6/CT/CP/D7/CT /D3/CU /D8/CW/CT /D6/D9/D2/D8/CX/D1/CT/D7/B8 /DB/CW/CX/D0/CT /CX/D2/CR/D6/CT/CP/D7/CX/D2/CV /D8/CW/CT /D6/CT/D7/D3/D0/D9/D8/CX/D3/D2 /B4/CA/CT/D7 /D6/D3/DB/B5 /D3/CU /D8/CW/CT /CX/D1/CP/CV/CT/D7/BA /BT /D7/CT/CR/D3/D2/CS /D3/CQ/D7/CT/D6/DA /CP/D8/CX/D3/D2 /CR/D3/D2/CR/CT/D6/D2/D7 /D8/CW/CT /D0/D3/DB /D6/D9/D2/D8/CX/D1/CT /D3/CQ/D8/CP/CX/D2/CT/CS /CU/D3/D6 /D8/CW/CT /BU/CB\u0005 /CP/D2/CS \u0005/BU/CB\u0005 /D1/CT/D8/CW/D3/CS/D7/BN /D8/CW/CT /D0/CP/D8/D8/CT/D6 /CX/D7 /D3/CQ/DA/CX/D3/D9/D7/D0/DD /CP/D2 /CX/D1/D4/D6/D3/DA/CT/D1/CT/D2/D8 /D3/CU /D8/CW/CT /CU/D3/D6/D1/CT/D6/BA /CC/CW/CT \u0001\u0001\u0005 /CP/D2/CS /D8/CW/CT \u0005\u0001\u0001\u0005 /CP/D6/CT /D8/CW/CT /CU/CP/D7/D8/CT/D7/D8 /D1/CT/…"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "279c1d24-e18b-5350-9fb4-b40fa474bff3",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "f13466a0-03ea-53cf-be2a-e14f0adc1b40",
+      "page_index": 5,
+      "bbox": [
+        129.23999999999992,
+        191.97005200000012,
+        224.39999999999992,
+        175.29005200000006
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/f13466a0-03ea-53cf-be2a-e14f0adc1b40.png",
+      "crop_sha256": "6d9c003012ac7e1b6aaee8c8975f56b407419509093d8f65667338d63c5fc87c",
+      "raw_text": "/D4/D3/D8 /CR /BM /BV /D2 \u0003 /CR /AX /BV /A2 /CA /BN",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "fa5c729c-847b-5397-b468-be3525674d7a",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/DB/CW/CT/D6/CT /DE /CZ /BP /DE /BE /CZ /A0 /BD /B7 /CR /B8 /CZ /BP /BD /BN /BE /BN /BM /BM /BM /BN /D2 /B8 /D2 /BP /D0 /CR /B4 /DE /BC /BN /CC /B5 /CP/D2/CS /CC /BP /CU /DE /BE /BV /BM /CY /DE /CY /AL /BD /BP/AY /CV /CU/D3/D6 /D7/D1/CP/D0/D0 /AY /B4/BY/CX/CV/BA /BG/B4/CR/B5/B5/BA \u0006/D3/D8/CT /D8/CW/CP/D8 /D8/CW/CT /D0/CT/DA/CT/D0 /CR/D9/D6/DA/CT/D7 /D3/CU /D4/D3/D8 /CR /CP/D6/CT /CR/CX/D6/CR/D0/CT/B9/D0/CX/CZ/CT /CU/CP/D6 /D3/D9/D8/D7/CX/CS/CT/BA"
+        },
+        {
+          "node_id": "1e9cafbe-3a18-5006-8b4a-758bfd89a652",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/DB/CW/CX/CR/CW /CX/D7 /CP/D4/D4/D6/D3/DC/CX/D1/CP/D8/CT/D0/DD /CV/CX/DA/CT/D2 /CQ/DD"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "fb5d5152-56f0-5b68-afbf-8d7579072e11",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CC /CP/CQ/D0/CT /BD /D4/D6/CT/D7/CT/D2/D8/D7 /D8/CW/CT /D7/CT/D5/D9/CT/D2/D8/CX/CP/D0 /D6/D9/D2/D8/CX/D1/CT /D1/CT/CP/D7/D9/D6/CT/CS /CU/D3/D6 /CT/CP/CR/CW /D3/CU /D8/CW/CT /D7/CT/DA/CT/D2 /D1/CT/D8/CW/D3/CS/D7 /B4\u0001\u0001\u0005/B8 \u0005\u0001\u0001\u0005/B8 /BU/CB\u0005/B8 \u0005/BU/CB\u0005/B8 \u0004/CB\u0005/B8 /BV\b\u0005/B8 /BW/BX\u0005/B5 /CU/D3/D6 /D8/CW/CT /CR/D3/D1/D4/D9/D8/CP/D8/CX/D3/D2 /D3/CU /D8/CW/CT -/D9/D0/CX/CP /D7/CT/D8/BA /BT /AC/D6/D7/D8 /D3/CQ/D7/CT/D6/DA /CP/D8/CX/D3/D2 /CU/D6/D3/D1 /D8/CW/CT/D7/CT /D6/CT/B9 /D7/D9/D0/D8/D7 /CR/D3/D2/CR/CT/D6/D2/D7 /D8/CW/CT /CX/D2/CR/D6/CT/CP/D7/CT /D3/CU /D8/CW/CT /D6/D9/D2/D8/CX/D1/CT/D7/B8 /DB/CW/CX/D0/CT /CX/D2/CR/D6/CT/CP/D7/CX/D2/CV /D8/CW/CT /D6/CT/D7/D3/D0/D9/D8/CX/D3/D2 /B4/CA/CT/D7 /D6/D3/DB/B5 /D3/CU /D8/CW/CT /CX/D1/CP/CV/CT/D7/BA /BT /D7/CT/CR/D3/D2/CS /D3/CQ/D7/CT/D6/DA /CP/D8/CX/D3/D2 /CR/D3/D2/CR/CT/D6/D2/D7 /D8/CW/CT /D0/D3/DB /D6/D9/D2/D8/CX/D1/CT /D3/CQ/D8/CP/CX/D2/CT/CS /CU/D3/D6 /D8/CW/CT /BU/CB\u0005 /CP/D2/CS \u0005/BU/CB\u0005 /D1/CT/D8/CW/D3/CS/D7/BN /D8/CW/CT /D0/CP/D8/D8/CT/D6 /CX/D7 /D3/CQ/DA/CX/D3/D9/D7/D0/DD /CP/D2 /CX/D1/D4/D6/D3/DA/CT/D1/CT/D2/D8 /D3/CU /D8/CW/CT /CU/D3/D6/D1/CT/D6/BA /CC/CW/CT \u0001\u0001\u0005 /CP/D2/CS /D8/CW/CT \u0005\u0001\u0001\u0005 /CP/D6/CT /D8/CW/CT /CU/CP/D7/D8/CT/D7/D8 /D1/CT/…"
+        },
+        {
+          "node_id": "66654c2c-82c3-59d6-b7e9-e0f4630ba3c3",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CC/CW/CT /BV/D3/D2/D8/CX/D2/D9/D3/D9/D7 \b/D3/D8/CT/D2/D8/CX/CP/D0 \u0005/CT/D8/CW/D3/CS /B8 /D3/D6 /BV\b\u0005 /CU/D3/D6 /D7/CW/D3/D6/D8/B8 /CP/D0/D0/D3/DB/D7 /D8/D3 /D6/CT/D4/D6/CT/D7/CT/D2/D8 /D8/CW/CT /D4/D3/D8/CT/D2/D8/CX/CP/D0 /D3/CU \u0003 /CR /CP/D7 /CP /D7/D1/D3/D3/D8/CW /D4/CP/D6/CP/D1/CT/D8/CT/D6/CX/D7/CT/CS /D7/D9/D6/CU/CP/CR/CT"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "033476a6-744f-5a4e-8124-f8269f13f161",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "3c4aa5b2-74eb-5e7c-a1da-7d4091c393ad",
+      "page_index": 5,
+      "bbox": [
+        334.320024,
+        370.770024,
+        495.8400239999999,
+        347.130024
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/3c4aa5b2-74eb-5e7c-a1da-7d4091c393ad.png",
+      "crop_sha256": "a9e4edbda4750bae0a5da1b5e329be91b826216a396d5c419d9dc6dc1a85c290",
+      "raw_text": "/D0 /B4 /CR /B5 /BP /AQ /BD /BN /CX/CU /CS /B4 /DE /BC /BN\u0003 /CR /B5 /BO /BW/BX\u0004/CC /BT /BE /BN /D3/D8/CW/CT/D6/DB/CX/D7/CT/BA",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "bd10ba09-efb8-596e-b32c-5f7b2f03743b",
+          "page_index": 5,
+          "block_type": "heading",
+          "text": "/BF /BV\u0007\u0005\b/BT/CA/BT/CC\u0001/CE/BX /CA/BX/CB/CD\u0004/CC/CB"
+        },
+        {
+          "node_id": "b3f02602-101d-5e01-be04-b1337bf6c2cb",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CC/CW/CT /CX/D2/D8/CT/D6/D4/D6/CT/D8/CP/D8/CX/D3/D2 /D3/CU /CP /D2/D3/D2/DE/CT/D6/D3 /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D7 /D3/CQ/B9 /DA/CX/D3/D9/D7/BM /D5 /CT/D7/CR/CP/D4/CT/D7 /D8/D3 /BD /CP/D2/CS /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D7 /D8/CW/CT /CK/CT/D7/B9 /CR/CP/D4/CT /D8/CX/D1/CT/AY/B8 /D1/CT/CP/D7/D9/D6/CT/CS /CX/D2 /D8/CW/CT /D2/D9/D1/CQ/CT/D6 /D3/CU /CX/D8/CT/D6/CP/D8/CX/D3/D2/D7/B8 /D2/CT/CT/CS/CT/CS /D8/D3 /CW/CX/D8 /D8/CW/CT /D8/CP/D6/CV/CT/D8 /D7/CT/D8 /CC /CP/D6/D3/D9/D2/CS /BD /BA /CC/CW/CT /CR/D3/D0/B9 /D0/CT/CR/D8/CX/D3/D2 /D3/CU /D4/D3/CX/D2/D8/D7 /D3/CU /CP /AC/DC/CT/CS /D0/CP/CQ/CT/D0/B8 /D7/CP/DD /CZ /B8 /CR/D3/D2/D7/D8/CX/D8/D9/D8/CT/D7 /CP /D0/CT/DA/CT/D0 /D7/CT/D8 /B4/BY/CX/CV/BA /BG/B4/CP/B5/B8/B4/CQ/B5/B5/BA"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "ca87d346-d5a5-5f54-a710-cace11818ded",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CP/D2/CS /D7/CT/D8"
+        },
+        {
+          "node_id": "d2fe527d-e8d3-5e5b-bb58-05e8d68e3c63",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/D5 /CU/D6/D3/D1 /D8/CW/CT /D0/CP/D8/D8/CX/CR/CT /CP/D2 /CX/D2/D8/CT/CV/CT/D6 /D0/CP/CQ/CT/D0 /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D2 /D8/CW/CT /CU/D3/D0/D0/D3/DB/CX/D2/CV /DB/CP/DD/BM"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "ecd36c08-0d2a-59ac-8e71-c2c556153b05",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "1b545323-80b1-5eb6-a0d6-cabee482e43b",
+      "page_index": 5,
+      "bbox": [
+        83.39998799999998,
+        416.73004000000003,
+        261.359976,
+        354.21004000000005
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/1b545323-80b1-5eb6-a0d6-cabee482e43b.png",
+      "crop_sha256": "ebaeec72178bc04aa1d8703608f41dc6295f6aa2df12bb488925b1c537d1f52a",
+      "raw_text": "/D0 /CR /B4 /D5 /BN /CC /B5 /BP /BK /BQ /BQ /BO /BQ /BQ /BM /CZ/BN /D4/D6/D3/DA/CX/CS/CT/CS /D4 /CX /CR /B4 /D5 /B5 /BP /BE /CC /CP/D2/CS /D4 /CZ /CR /B4 /D5 /B5 /BE /CC /CU/D3/D6 /BC /AK /CX /BO /CZ /CP/D2/CS /CZ /AK \u0006 /D1/CP/DC /BC /BN /D3/D8/CW/CT/D6/DB/CX/D7/CT/BA",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "b3f02602-101d-5e01-be04-b1337bf6c2cb",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CC/CW/CT /CX/D2/D8/CT/D6/D4/D6/CT/D8/CP/D8/CX/D3/D2 /D3/CU /CP /D2/D3/D2/DE/CT/D6/D3 /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D7 /D3/CQ/B9 /DA/CX/D3/D9/D7/BM /D5 /CT/D7/CR/CP/D4/CT/D7 /D8/D3 /BD /CP/D2/CS /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D7 /D8/CW/CT /CK/CT/D7/B9 /CR/CP/D4/CT /D8/CX/D1/CT/AY/B8 /D1/CT/CP/D7/D9/D6/CT/CS /CX/D2 /D8/CW/CT /D2/D9/D1/CQ/CT/D6 /D3/CU /CX/D8/CT/D6/CP/D8/CX/D3/D2/D7/B8 /D2/CT/CT/CS/CT/CS /D8/D3 /CW/CX/D8 /D8/CW/CT /D8/CP/D6/CV/CT/D8 /D7/CT/D8 /CC /CP/D6/D3/D9/D2/CS /BD /BA /CC/CW/CT /CR/D3/D0/B9 /D0/CT/CR/D8/CX/D3/D2 /D3/CU /D4/D3/CX/D2/D8/D7 /D3/CU /CP /AC/DC/CT/CS /D0/CP/CQ/CT/D0/B8 /D7/CP/DD /CZ /B8 /CR/D3/D2/D7/D8/CX/D8/D9/D8/CT/D7 /CP /D0/CT/DA/CT/D0 /D7/CT/D8 /B4/BY/CX/CV/BA /BG/B4/CP/B5/B8/B4/CQ/B5/B5/BA"
+        },
+        {
+          "node_id": "ca87d346-d5a5-5f54-a710-cace11818ded",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CP/D2/CS /D7/CT/D8"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "d2fe527d-e8d3-5e5b-bb58-05e8d68e3c63",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/D5 /CU/D6/D3/D1 /D8/CW/CT /D0/CP/D8/D8/CX/CR/CT /CP/D2 /CX/D2/D8/CT/CV/CT/D6 /D0/CP/CQ/CT/D0 /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D2 /D8/CW/CT /CU/D3/D0/D0/D3/DB/CX/D2/CV /DB/CP/DD/BM"
+        },
+        {
+          "node_id": "d70e118a-3428-5317-b1e3-a9f481d7abb2",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CU/D3/D6 /D7/D3/D1/CT /CZ /B8 /D8/CW/CT/D2 /DE /BC /D7/CW/D3/D9/D0/CS /CQ/CT /DA/CT/D6/DD /CR/D0/D3/D7/CT /D8/D3 \u0003 /CR /B8 /D8/CW/D9/D7 /DB/CT /D0/CP/CQ/CT/D0 /DE /BC /CQ/DD /A0 /BD/BA \u0001/CU /D2/D3 /D3/DA/CT/D6/AD/D3/DB /D3/CR/CR/D9/D6/CT/CS/B8 /D8/CW/CT/D2 /DB/CT /CT/D7/D8/CX/D1/CP/D8/CT /D8/CW/CT /CS/CX/D7/D8/CP/D2/CR/CT /D3/CU /DE /BC /CU/D6/D3/D1 \u0003 /CR /CQ/DD"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "b12257b2-a536-5697-8425-ac6cd1695eaa",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "b9ac14fc-f959-5ce1-b42a-651fcd3a8d98",
+      "page_index": 5,
+      "bbox": [
+        364.559988,
+        419.49001200000015,
+        471.60002399999996,
+        391.04999999999995
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/b9ac14fc-f959-5ce1-b42a-651fcd3a8d98.png",
+      "crop_sha256": "e2e7aaaa49946708f6788f21fd5407b2cda748f76de8299f82483a2a9866fdba",
+      "raw_text": "/CS /B4 /DE /BC /BN\u0003 /CR /B5 /BP /BE /CY /DE /D2 /CY /CY /DE /BC /D2 /CY /D0/D3/CV /CY /DE /D2 /CY",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "b3f02602-101d-5e01-be04-b1337bf6c2cb",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CC/CW/CT /CX/D2/D8/CT/D6/D4/D6/CT/D8/CP/D8/CX/D3/D2 /D3/CU /CP /D2/D3/D2/DE/CT/D6/D3 /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D7 /D3/CQ/B9 /DA/CX/D3/D9/D7/BM /D5 /CT/D7/CR/CP/D4/CT/D7 /D8/D3 /BD /CP/D2/CS /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D7 /D8/CW/CT /CK/CT/D7/B9 /CR/CP/D4/CT /D8/CX/D1/CT/AY/B8 /D1/CT/CP/D7/D9/D6/CT/CS /CX/D2 /D8/CW/CT /D2/D9/D1/CQ/CT/D6 /D3/CU /CX/D8/CT/D6/CP/D8/CX/D3/D2/D7/B8 /D2/CT/CT/CS/CT/CS /D8/D3 /CW/CX/D8 /D8/CW/CT /D8/CP/D6/CV/CT/D8 /D7/CT/D8 /CC /CP/D6/D3/D9/D2/CS /BD /BA /CC/CW/CT /CR/D3/D0/B9 /D0/CT/CR/D8/CX/D3/D2 /D3/CU /D4/D3/CX/D2/D8/D7 /D3/CU /CP /AC/DC/CT/CS /D0/CP/CQ/CT/D0/B8 /D7/CP/DD /CZ /B8 /CR/D3/D2/D7/D8/CX/D8/D9/D8/CT/D7 /CP /D0/CT/DA/CT/D0 /D7/CT/D8 /B4/BY/CX/CV/BA /BG/B4/CP/B5/B8/B4/CQ/B5/B5/BA"
+        },
+        {
+          "node_id": "ca87d346-d5a5-5f54-a710-cace11818ded",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CP/D2/CS /D7/CT/D8"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "d2fe527d-e8d3-5e5b-bb58-05e8d68e3c63",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/D5 /CU/D6/D3/D1 /D8/CW/CT /D0/CP/D8/D8/CX/CR/CT /CP/D2 /CX/D2/D8/CT/CV/CT/D6 /D0/CP/CQ/CT/D0 /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D2 /D8/CW/CT /CU/D3/D0/D0/D3/DB/CX/D2/CV /DB/CP/DD/BM"
+        },
+        {
+          "node_id": "d70e118a-3428-5317-b1e3-a9f481d7abb2",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CU/D3/D6 /D7/D3/D1/CT /CZ /B8 /D8/CW/CT/D2 /DE /BC /D7/CW/D3/D9/D0/CS /CQ/CT /DA/CT/D6/DD /CR/D0/D3/D7/CT /D8/D3 \u0003 /CR /B8 /D8/CW/D9/D7 /DB/CT /D0/CP/CQ/CT/D0 /DE /BC /CQ/DD /A0 /BD/BA \u0001/CU /D2/D3 /D3/DA/CT/D6/AD/D3/DB /D3/CR/CR/D9/D6/CT/CS/B8 /D8/CW/CT/D2 /DB/CT /CT/D7/D8/CX/D1/CP/D8/CT /D8/CW/CT /CS/CX/D7/D8/CP/D2/CR/CT /D3/CU /DE /BC /CU/D6/D3/D1 \u0003 /CR /CQ/DD"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "42bf5318-726e-57f8-968b-206f86b6acd4",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "f469dfde-6c4f-5047-8c36-e5b56bece260",
+      "page_index": 5,
+      "bbox": [
+        366.4800240000001,
+        485.0100120000002,
+        468.2400240000002,
+        469.2900120000001
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/f469dfde-6c4f-5047-8c36-e5b56bece260.png",
+      "crop_sha256": "b94104c3af8a19322b5683544737d659f767750a390dfb0a3e16e40eaec1c470",
+      "raw_text": "/CY /DE /BC /CZ /B7/BD /CY /AL \u0007/CE /BX/CA/BY \u0004\u0007/CF",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "d2fe527d-e8d3-5e5b-bb58-05e8d68e3c63",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/D5 /CU/D6/D3/D1 /D8/CW/CT /D0/CP/D8/D8/CX/CR/CT /CP/D2 /CX/D2/D8/CT/CV/CT/D6 /D0/CP/CQ/CT/D0 /D0 /CR /B4 /D5 /BN /CC /B5 /CX/D2 /D8/CW/CT /CU/D3/D0/D0/D3/DB/CX/D2/CV /DB/CP/DD/BM"
+        },
+        {
+          "node_id": "d70e118a-3428-5317-b1e3-a9f481d7abb2",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CU/D3/D6 /D7/D3/D1/CT /CZ /B8 /D8/CW/CT/D2 /DE /BC /D7/CW/D3/D9/D0/CS /CQ/CT /DA/CT/D6/DD /CR/D0/D3/D7/CT /D8/D3 \u0003 /CR /B8 /D8/CW/D9/D7 /DB/CT /D0/CP/CQ/CT/D0 /DE /BC /CQ/DD /A0 /BD/BA \u0001/CU /D2/D3 /D3/DA/CT/D6/AD/D3/DB /D3/CR/CR/D9/D6/CT/CS/B8 /D8/CW/CT/D2 /DB/CT /CT/D7/D8/CX/D1/CP/D8/CT /D8/CW/CT /CS/CX/D7/D8/CP/D2/CR/CT /D3/CU /DE /BC /CU/D6/D3/D1 \u0003 /CR /CQ/DD"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "2469f63e-ee75-5762-bf0e-5905ef176206",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/BY/CX/CV/D9/D6/CT /BG/BM /BT -/D9/D0/CX/CP /D7/CT/D8 /D3/CQ/D8/CP/CX/D2/CT/CS /CQ/DD /B4/CP/B5 /D8/CW/CT \u0004/CB\u0005/B8 /B4/CQ/B5 /D8/CW/CT \u0004/CB\u0005 /CQ/D9/D8 /D7/CW/D3/DB/CX/D2/CV /D8/CW/CT /CQ/D3/D6/CS/CT/D6 /D3/CU /D8/CW/CT /CT/D2/CR/CX/D6/CR/D0/CT/D1/CT/D2/D8/D7/B8 /B4/CR/B5 /D8/CW/CT /BV\b\u0005 /CP/D2/CS /B4/CS/B5 /D8/CW/CT /BW/BX\u0005"
+        },
+        {
+          "node_id": "5905965f-f5aa-57b6-8ae9-4d11f33994aa",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "\u0001/CU /CX/D2 /D8/CW/CT /CR/D3/D9/D6/D7/CT /D3/CU /D8/CW/CT /CX/D8/CT/D6/CP/D8/CX/D3/D2 /D3/CU /BX/D5/BA /B4/BF/B5 /DB/CT /CV/CT/D8 /CP/D2 /D3/DA/CT/D6/AD/D3/DB/B8 /CX/BA/CT/BA /CX/CU"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "e0290fa8-e5c1-5089-b54d-0b85d4f7d803",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "958e4f82-3c25-523a-a578-0bb65816c986",
+      "page_index": 5,
+      "bbox": [
+        320.4,
+        540.0900120000002,
+        524.400024,
+        523.6500120000002
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/958e4f82-3c25-523a-a578-0bb65816c986.png",
+      "crop_sha256": "4c7fe5b88f37366c4322780e7b31030a466d7137b67b12e2e23189ebf10c980d",
+      "raw_text": "/DE /BC /CZ /B7/BD /BP /BE /DE /CZ /DE /BC /CZ /BN /DE /BC /BC /BP /BD /BN /CZ /BP /BC /BN /BD /BN /BM /BM /BM /BN /D2 /A0 /BD /BM /B4/BF/B5",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "2469f63e-ee75-5762-bf0e-5905ef176206",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/BY/CX/CV/D9/D6/CT /BG/BM /BT -/D9/D0/CX/CP /D7/CT/D8 /D3/CQ/D8/CP/CX/D2/CT/CS /CQ/DD /B4/CP/B5 /D8/CW/CT \u0004/CB\u0005/B8 /B4/CQ/B5 /D8/CW/CT \u0004/CB\u0005 /CQ/D9/D8 /D7/CW/D3/DB/CX/D2/CV /D8/CW/CT /CQ/D3/D6/CS/CT/D6 /D3/CU /D8/CW/CT /CT/D2/CR/CX/D6/CR/D0/CT/D1/CT/D2/D8/D7/B8 /B4/CR/B5 /D8/CW/CT /BV\b\u0005 /CP/D2/CS /B4/CS/B5 /D8/CW/CT /BW/BX\u0005"
+        },
+        {
+          "node_id": "5905965f-f5aa-57b6-8ae9-4d11f33994aa",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "\u0001/CU /CX/D2 /D8/CW/CT /CR/D3/D9/D6/D7/CT /D3/CU /D8/CW/CT /CX/D8/CT/D6/CP/D8/CX/D3/D2 /D3/CU /BX/D5/BA /B4/BF/B5 /DB/CT /CV/CT/D8 /CP/D2 /D3/DA/CT/D6/AD/D3/DB/B8 /CX/BA/CT/BA /CX/CU"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "871fb3ee-e05e-5764-bf1d-2d6c5cf34e98",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/D9/D2/D8/CX/D0 /CT/CX/D8/CW/CT/D6 /CY /DE /CZ /B7/BD /CY /AL /CA /D3/D6 /CZ /BP \u0006 /D1/CP/DC /BA \u0001/D2 /D8/CW/CT /D7/CT/CR/D3/D2/CS /CR/CP/D7/CT /DB/CT /D7/CT/D8 /D0 /B4 /DE /BC /B5 /BP /BC/BA \u0001/D2 /D8/CW/CT /D3/D8/CW/CT/D6 /CR/CP/D7/CT /DB/CT /CW/CP/DA/CT /CY /DE /D2 /CY /AL /CA /DB/CX/D8/CW /D2 /BP /CZ /B7 /BD /BP /D0 /CR /B4 /DE /BC /BN /CC /B5 /CP/D2/CS /DE /BC /CX/D7 /D7/D8/CX/D0/D0 /CR/CP/D2/CS/CX/CS/CP/D8/CT /CU/D3/D6 /CP /D4/D3/CX/D2/D8 /CR/D0/D3/D7/CT /D8/D3 \u0003 /CR /BA /CC/CW/D9/D7 /DB/CT /D8/D6/DD /D8/D3 /CT/D7/D8/CX/D1/CP/D8/CT /CX/D8/D7 /CS/CX/D7/D8/CP/D2/CR/CT /CW/CP/DA/CX/D2/CV /D7/CP/DA/CT/CS /D8/CW/CT /D3/D6/CQ/CX/D8 /CU /DE /BC /BN /DE /BD /BN /BM /BM /BM /BN /DE /D2 /CV /BM"
+        },
+        {
+          "node_id": "df509ece-822b-54b0-a551-6112ec5825e1",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "(a)"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    },
+    {
+      "candidate_id": "51aaee7a-fcb0-539b-b191-450fb7cdff25",
+      "document_id": "b59659cb-64b3-5984-a9f1-807699c23bf6",
+      "node_id": "8c90047b-a43b-512a-a2c7-87a8e5418f10",
+      "page_index": 5,
+      "bbox": [
+        352.080012,
+        644.010072,
+        484.31998799999997,
+        631.410012
+      ],
+      "crop_relpath": "formula-audit/crops/by-node/8c90047b-a43b-512a-a2c7-87a8e5418f10.png",
+      "crop_sha256": "841a303c90f1410b81f2ac81809445e4efa2dd42bbb3d238de188f2ca4515f08",
+      "raw_text": "/DE /CZ /B7/BD /BP /DE /BE /CZ /B7 /CR/BN /CZ /BP /BC /BN /BD /BN /BE /BN /BM /BM /BM",
+      "normalized_text": "",
+      "latex": null,
+      "mathml": null,
+      "fidelity_status": "PENDING_VISUAL_AUDIT",
+      "derivation_role": null,
+      "context_before": [
+        {
+          "node_id": "5905965f-f5aa-57b6-8ae9-4d11f33994aa",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "\u0001/CU /CX/D2 /D8/CW/CT /CR/D3/D9/D6/D7/CT /D3/CU /D8/CW/CT /CX/D8/CT/D6/CP/D8/CX/D3/D2 /D3/CU /BX/D5/BA /B4/BF/B5 /DB/CT /CV/CT/D8 /CP/D2 /D3/DA/CT/D6/AD/D3/DB/B8 /CX/BA/CT/BA /CX/CU"
+        },
+        {
+          "node_id": "871fb3ee-e05e-5764-bf1d-2d6c5cf34e98",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/D9/D2/D8/CX/D0 /CT/CX/D8/CW/CT/D6 /CY /DE /CZ /B7/BD /CY /AL /CA /D3/D6 /CZ /BP \u0006 /D1/CP/DC /BA \u0001/D2 /D8/CW/CT /D7/CT/CR/D3/D2/CS /CR/CP/D7/CT /DB/CT /D7/CT/D8 /D0 /B4 /DE /BC /B5 /BP /BC/BA \u0001/D2 /D8/CW/CT /D3/D8/CW/CT/D6 /CR/CP/D7/CT /DB/CT /CW/CP/DA/CT /CY /DE /D2 /CY /AL /CA /DB/CX/D8/CW /D2 /BP /CZ /B7 /BD /BP /D0 /CR /B4 /DE /BC /BN /CC /B5 /CP/D2/CS /DE /BC /CX/D7 /D7/D8/CX/D0/D0 /CR/CP/D2/CS/CX/CS/CP/D8/CT /CU/D3/D6 /CP /D4/D3/CX/D2/D8 /CR/D0/D3/D7/CT /D8/D3 \u0003 /CR /BA /CC/CW/D9/D7 /DB/CT /D8/D6/DD /D8/D3 /CT/D7/D8/CX/D1/CP/D8/CT /CX/D8/D7 /CS/CX/D7/D8/CP/D2/CR/CT /CW/CP/DA/CX/D2/CV /D7/CP/DA/CT/CS /D8/CW/CT /D3/D6/CQ/CX/D8 /CU /DE /BC /BN /DE /BD /BN /BM /BM /BM /BN /DE /D2 /CV /BM"
+        }
+      ],
+      "context_after": [
+        {
+          "node_id": "df509ece-822b-54b0-a551-6112ec5825e1",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "(a)"
+        },
+        {
+          "node_id": "6064fa00-561e-5e6b-8e34-8e456b91d29a",
+          "page_index": 5,
+          "block_type": "text",
+          "text": "/CC/CW/CT /BW/CX/D7/D8/CP/D2/CR/CT /BX/D7/D8/CX/D1/CP/D8/D3/D6 \u0005/CT/D8/CW/D3/CS /B8 /D3/D6 /BW/BX\u0005 /CU/D3/D6 /D7/CW/D3/D6/D8/B8 /D9/D7/D9/CP/D0/D0/DD /CP/D4/D4/D0/CX/CT/D7 /CU/D3/D6 /DE /D2/CT/CP/D6 \u0003 /CR /B4/CR/D3/D2/D2/CT/CR/D8/CT/CS/B5/BN /D7/CT/CT /BY/CX/CV/BA /BG/B4/CS/B5/BA \u0004/CT/D8 /CR /CQ/CT /AC/DC/CT/CS/BA /BV/CW/D3/D3/D7/CT \u0006 /D1/CP/DC /CP/D2/CS /CA /BP /BD /BP/AY /B8 /DB/CW/CT/D6/CT /CC /BP /CU /DE /BE /BV /BM /CY /DE /CY /AL /BD /BP/AY /CV /CU/D3/D6 /D7/D1/CP/D0/D0 /AY /CX/D7 /D8/CW/CT /D8/CP/D6/CV/CT/D8 /D7/CT/D8 /CP/D6/D3/D9/D2/CS /BD /BA /BY /D3/D6 /CT/CP/CR/CW /DE /BC /DB/CT /DB/CX/D0/D0 /CS/CT/D8/CT/D6/D1/CX/D2/CT /CP /D0/CP/CQ/CT/D0 /D0 /B4 /DE /BC /B5 /CU/D6/D3/D1 /CU /BC /BN /A6 /BD /BN /BE /CV /B4/BC /CU/D3/D6 /DE /BC /BE \u0003 /CR /B8 /CU /B7/BD /BN /A0 /BD /CV /CU/D3/D6 /DE /BC /CR/D0/D3/D7/CT /D8/D3 \u0003 /CR /B8 /BE /CU/D3/D6 /DE /BC /D2/D3/D8 /CR/D0/D3/D7/CT /D8/D3 \u0003 /CR /B5/BM /BV/D3/D1/D4/D9/D8/CT"
+        }
+      ],
+      "canonicality_cues": [],
+      "canonicality_score": 0,
+      "agent_assessment": null,
+      "extractor_name": "docling",
+      "extractor_version": "2.77.0",
+      "ahmes_version": "0.1.0",
+      "ahmes_git_commit": "48e7dd1",
+      "document_sha256": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5",
+      "database_sha256": "2497d221cb4ce3239d96c7a7441fa4b8ac186fa8158eb1e6725d8aad1e99c906"
+    }
+  ]
+}

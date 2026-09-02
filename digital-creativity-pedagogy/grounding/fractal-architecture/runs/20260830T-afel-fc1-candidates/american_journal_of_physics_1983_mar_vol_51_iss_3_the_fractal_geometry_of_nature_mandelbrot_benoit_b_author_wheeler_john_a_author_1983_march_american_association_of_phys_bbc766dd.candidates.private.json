@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "status": "REVIEW_REQUIRED",
+  "database": "/Users/ruvebal/ahmes-library/scholar/documents/american_journal_of_physics_1983_mar_vol_51_iss_3_the_fractal_geometry_of_nature_mandelbrot_benoit_b_author_wheeler_john_a_author_1983_march_american_association_of_phys_bbc766dd/extract/extraction.db",
+  "candidate_count": 0,
+  "policy": {
+    "context_is_evidence_not_verdict": true,
+    "agent_may_rank_but_not_assign_derivation_role": true,
+    "unattended_promotion": false
+  },
+  "candidates": []
+}

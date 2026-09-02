@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "current_release": "a551af3330d8fe35",
+  "releases": [
+    {
+      "release_id": "64d59b40108202c9",
+      "created_at": "2026-08-29T12:17:12.000Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Source: Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.1.0."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.1.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-c42117a28bb3.svg",
+          "png": "uem-pass-01-structure-c42117a28bb3.png",
+          "sha256": "c42117a28bb3e90ec42286e147c26ac4a06a7f8d2869a2a230bcce09fa02d162"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-bcc87bf3e33e.svg",
+          "png": "uem-pass-02-threshold-bcc87bf3e33e.png",
+          "sha256": "bcc87bf3e33e99bae1bebeec2317dee87c5c43fadee34608419fb7c1cce30b68"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-5bf34585b286.svg",
+          "png": "uem-pass-03-branching-5bf34585b286.png",
+          "sha256": "5bf34585b28667b588fb68f4b0e34a098238f6b467f165c538d6124ec3c154b9"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-e6f6f45189f7.svg",
+          "png": "uem-pass-04-practice-e6f6f45189f7.png",
+          "sha256": "e6f6f45189f7ae9e5309f7eda1388c59d9037b122af29d290c0285f0c88a03cf"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-53f90480d158.svg",
+          "png": "uem-pass-05-feedback-53f90480d158.png",
+          "sha256": "53f90480d158a44f1d62f7f89da6c189e82ed00f86e7bf0f62633fe4398dc45b"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-c2b238e52284.svg",
+          "png": "uem-pass-06-coherence-c2b238e52284.png",
+          "sha256": "c2b238e5228486fe18dd92e0b3ad29517a363463b832d48d0f233c8449a0e11d"
+        }
+      ]
+    },
+    {
+      "release_id": "84fc2f40134a616b",
+      "created_at": "2026-09-02T16:10:08.514Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Nebula shader field — pass-track deck backdrop",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.2.0."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.2.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-5218b595b4fa.svg",
+          "png": "uem-pass-01-structure-5218b595b4fa.png",
+          "sha256": "5218b595b4fab94548df906ce6a9dfac81eb21df1ef3e8a301b45a66e27f5f93"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-a393168a1bcb.svg",
+          "png": "uem-pass-02-threshold-a393168a1bcb.png",
+          "sha256": "a393168a1bcb913f794a8fa131f806828323303fdbe0358141e79344298d6faa"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-e7facd874275.svg",
+          "png": "uem-pass-03-branching-e7facd874275.png",
+          "sha256": "e7facd874275fef59059e999f4af7c14e689a9f127f287dde558b0946fe71e78"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-9c466003cbb0.svg",
+          "png": "uem-pass-04-practice-9c466003cbb0.png",
+          "sha256": "9c466003cbb0f0c45ae84103977b797cd4f605d55cadf35fbc12d4755c3e74a8"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-80362d0b4e8c.svg",
+          "png": "uem-pass-05-feedback-80362d0b4e8c.png",
+          "sha256": "80362d0b4e8c6b36397ba666f6499f49d341ac852588aea072cfe14395118647"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-c125a4b1e424.svg",
+          "png": "uem-pass-06-coherence-c125a4b1e424.png",
+          "sha256": "c125a4b1e424fe19fff908f79e057c4ab71d69968a71bee2503e966e9dafead9"
+        }
+      ]
+    },
+    {
+      "release_id": "ba67a758c202775b",
+      "created_at": "2026-09-02T16:55:27.763Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Source: Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.3.0."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.3.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-ad6259b9f008.svg",
+          "png": "uem-pass-01-structure-ad6259b9f008.png",
+          "sha256": "ad6259b9f0089d95e57bbcdf54291dace42fae10c86d79b9912bfcc6bdd5f38d"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-a6c1da349671.svg",
+          "png": "uem-pass-02-threshold-a6c1da349671.png",
+          "sha256": "a6c1da3496719e0fdaa57ad747c69f535f25f2e876b2b6e8e9294c24eae4f87b"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-62121b37ef57.svg",
+          "png": "uem-pass-03-branching-62121b37ef57.png",
+          "sha256": "62121b37ef57321f84dc8134188154a725aa9553e5494914314d229f6319c69f"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-fd9d0106f537.svg",
+          "png": "uem-pass-04-practice-fd9d0106f537.png",
+          "sha256": "fd9d0106f5371578ffa8a0ea59342c859827642f1438d03d00729f3ffc922ecd"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-502329e7a218.svg",
+          "png": "uem-pass-05-feedback-502329e7a218.png",
+          "sha256": "502329e7a2186d2d0fa101f6ea47c27ed5c8f4f3d3ea85ef8e4b960ad7ea8ba0"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-a5e02d398916.svg",
+          "png": "uem-pass-06-coherence-a5e02d398916.png",
+          "sha256": "a5e02d398916870f97832f9968a0749cfd4bca84c4c8652506d3454aa74d6ada"
+        }
+      ]
+    },
+    {
+      "release_id": "b1b4a0d2c63de3ec",
+      "created_at": "2026-09-02T16:59:31.940Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Source: Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.1.0, and pass-track-backgrounds 1.3.1."
+      },
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.3.1"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "svg": "uem-pass-01-structure-79909126d96e.svg",
+          "png": "uem-pass-01-structure-79909126d96e.png",
+          "sha256": "79909126d96eaa22ca4439cee71f3e6024564c794744dfe5ae98e4b578cc4aa3"
+        },
+        {
+          "family": "threshold",
+          "svg": "uem-pass-02-threshold-ccd8abcff3dc.svg",
+          "png": "uem-pass-02-threshold-ccd8abcff3dc.png",
+          "sha256": "ccd8abcff3dcca92ecce493bb2e850fc56390c1af0c7e2fe7c4d1c1a0fa8f6d1"
+        },
+        {
+          "family": "branching",
+          "svg": "uem-pass-03-branching-dfb2d072ab88.svg",
+          "png": "uem-pass-03-branching-dfb2d072ab88.png",
+          "sha256": "dfb2d072ab881365eee3e2bafa174bb17fa6637ee4db852271b3f7779cecf1ca"
+        },
+        {
+          "family": "practice",
+          "svg": "uem-pass-04-practice-4a190e098ca6.svg",
+          "png": "uem-pass-04-practice-4a190e098ca6.png",
+          "sha256": "4a190e098ca6b8860ab63851b1a59b1a8ddcdd8849668a7385e72c65938bc0c0"
+        },
+        {
+          "family": "feedback",
+          "svg": "uem-pass-05-feedback-78d9d1e3d330.svg",
+          "png": "uem-pass-05-feedback-78d9d1e3d330.png",
+          "sha256": "78d9d1e3d3307f26e86aed348047f5472a6daf822c67263d76e911d94f9456e9"
+        },
+        {
+          "family": "coherence",
+          "svg": "uem-pass-06-coherence-3996da69ad34.svg",
+          "png": "uem-pass-06-coherence-3996da69ad34.png",
+          "sha256": "3996da69ad34ba1f6f0c8acf9607592b601df2db9cf50b12fb654736a8e2fb59"
+        }
+      ]
+    },
+    {
+      "release_id": "a36e0ff791072b09",
+      "created_at": "2026-09-02T17:26:43.765Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.0, and pass-track-backgrounds 1.4.0."
+      },
+      "figcaption_manifest": "caption-manifests/a36e0ff791072b09.json",
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.2.0"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.4.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "uuid": "2cea186c-e745-5ace-bfc9-0eb6b8d8865d",
+          "svg": "uem-pass-01-structure-79909126d96e.svg",
+          "png": "uem-pass-01-structure-79909126d96e.png",
+          "sha256": "79909126d96eaa22ca4439cee71f3e6024564c794744dfe5ae98e4b578cc4aa3",
+          "png_sha256": "7a2f6369e2d7004479fe17c221efca655c59342b1c7c1e24436717a652053c1e"
+        },
+        {
+          "family": "threshold",
+          "uuid": "c140e824-011b-5793-82f6-8488277be565",
+          "svg": "uem-pass-02-threshold-ccd8abcff3dc.svg",
+          "png": "uem-pass-02-threshold-ccd8abcff3dc.png",
+          "sha256": "ccd8abcff3dcca92ecce493bb2e850fc56390c1af0c7e2fe7c4d1c1a0fa8f6d1",
+          "png_sha256": "a768f3de6e814fa976c43fa5933001ff0b2ec3a1b4271ad77dc65075c479880c"
+        },
+        {
+          "family": "branching",
+          "uuid": "37f24397-f034-5a75-9423-dd1ea5be89b8",
+          "svg": "uem-pass-03-branching-dfb2d072ab88.svg",
+          "png": "uem-pass-03-branching-dfb2d072ab88.png",
+          "sha256": "dfb2d072ab881365eee3e2bafa174bb17fa6637ee4db852271b3f7779cecf1ca",
+          "png_sha256": "f17611494622ea791f1dacbd41375b3b63fd84b5f0801565bc68514fd76b517a"
+        },
+        {
+          "family": "practice",
+          "uuid": "6fda3e68-80a9-5ce0-9186-f8a47d1e32f0",
+          "svg": "uem-pass-04-practice-4a190e098ca6.svg",
+          "png": "uem-pass-04-practice-4a190e098ca6.png",
+          "sha256": "4a190e098ca6b8860ab63851b1a59b1a8ddcdd8849668a7385e72c65938bc0c0",
+          "png_sha256": "318996e635705e0220324339a660f5452259f7b9028d5143cf67127450194ff1"
+        },
+        {
+          "family": "feedback",
+          "uuid": "096780d4-1d65-5cdb-8cdd-b023b4e6712e",
+          "svg": "uem-pass-05-feedback-78d9d1e3d330.svg",
+          "png": "uem-pass-05-feedback-78d9d1e3d330.png",
+          "sha256": "78d9d1e3d3307f26e86aed348047f5472a6daf822c67263d76e911d94f9456e9",
+          "png_sha256": "153064698b137c7d4213515b7bf376d2f7ef5ca856a106c540ccc8af4f9903a6"
+        },
+        {
+          "family": "coherence",
+          "uuid": "00a224e9-c609-58b6-9dcd-98b75b713fde",
+          "svg": "uem-pass-06-coherence-3996da69ad34.svg",
+          "png": "uem-pass-06-coherence-3996da69ad34.png",
+          "sha256": "3996da69ad34ba1f6f0c8acf9607592b601df2db9cf50b12fb654736a8e2fb59",
+          "png_sha256": "cf836ce1b115989943094b62185557b611acc9e50d647fd3db0cdb6120020a17"
+        }
+      ]
+    },
+    {
+      "release_id": "a551af3330d8fe35",
+      "created_at": "2026-09-02T17:28:31.756Z",
+      "brand": "uem",
+      "formula": {
+        "text": "p_c(z)=z²+c",
+        "latex": "p_c(z)=z^2+c,\\quad c\\in\\mathbb{C}",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Drakopoulos, Vasileios. 2002. \"Comparing Rendering Methods for Julia Sets.\" Journal of WSCG 10 (1-2): 155-161.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.0, and pass-track-backgrounds 1.4.0."
+      },
+      "figcaption_manifest": "caption-manifests/a551af3330d8fe35.json",
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.2.1"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds",
+          "version": "1.4.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "uuid": "2cea186c-e745-5ace-bfc9-0eb6b8d8865d",
+          "svg": "uem-pass-01-structure-79909126d96e.svg",
+          "png": "uem-pass-01-structure-79909126d96e.png",
+          "sha256": "79909126d96eaa22ca4439cee71f3e6024564c794744dfe5ae98e4b578cc4aa3",
+          "png_sha256": "7a2f6369e2d7004479fe17c221efca655c59342b1c7c1e24436717a652053c1e"
+        },
+        {
+          "family": "threshold",
+          "uuid": "c140e824-011b-5793-82f6-8488277be565",
+          "svg": "uem-pass-02-threshold-ccd8abcff3dc.svg",
+          "png": "uem-pass-02-threshold-ccd8abcff3dc.png",
+          "sha256": "ccd8abcff3dcca92ecce493bb2e850fc56390c1af0c7e2fe7c4d1c1a0fa8f6d1",
+          "png_sha256": "a768f3de6e814fa976c43fa5933001ff0b2ec3a1b4271ad77dc65075c479880c"
+        },
+        {
+          "family": "branching",
+          "uuid": "37f24397-f034-5a75-9423-dd1ea5be89b8",
+          "svg": "uem-pass-03-branching-dfb2d072ab88.svg",
+          "png": "uem-pass-03-branching-dfb2d072ab88.png",
+          "sha256": "dfb2d072ab881365eee3e2bafa174bb17fa6637ee4db852271b3f7779cecf1ca",
+          "png_sha256": "f17611494622ea791f1dacbd41375b3b63fd84b5f0801565bc68514fd76b517a"
+        },
+        {
+          "family": "practice",
+          "uuid": "6fda3e68-80a9-5ce0-9186-f8a47d1e32f0",
+          "svg": "uem-pass-04-practice-4a190e098ca6.svg",
+          "png": "uem-pass-04-practice-4a190e098ca6.png",
+          "sha256": "4a190e098ca6b8860ab63851b1a59b1a8ddcdd8849668a7385e72c65938bc0c0",
+          "png_sha256": "318996e635705e0220324339a660f5452259f7b9028d5143cf67127450194ff1"
+        },
+        {
+          "family": "feedback",
+          "uuid": "096780d4-1d65-5cdb-8cdd-b023b4e6712e",
+          "svg": "uem-pass-05-feedback-78d9d1e3d330.svg",
+          "png": "uem-pass-05-feedback-78d9d1e3d330.png",
+          "sha256": "78d9d1e3d3307f26e86aed348047f5472a6daf822c67263d76e911d94f9456e9",
+          "png_sha256": "153064698b137c7d4213515b7bf376d2f7ef5ca856a106c540ccc8af4f9903a6"
+        },
+        {
+          "family": "coherence",
+          "uuid": "00a224e9-c609-58b6-9dcd-98b75b713fde",
+          "svg": "uem-pass-06-coherence-3996da69ad34.svg",
+          "png": "uem-pass-06-coherence-3996da69ad34.png",
+          "sha256": "3996da69ad34ba1f6f0c8acf9607592b601df2db9cf50b12fb654736a8e2fb59",
+          "png_sha256": "cf836ce1b115989943094b62185557b611acc9e50d647fd3db0cdb6120020a17"
+        }
+      ]
+    },
+    {
+      "release_id": "1d982d5e8bacd708",
+      "created_at": "2026-09-02T18:49:48.264Z",
+      "brand": "uem",
+      "formula": {
+        "text": "P = w1(P) ∪ w2(P) ∪ ⋯ ∪ wN(P)",
+        "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.1, and pass-track-backgrounds-ifs 1.0.0."
+      },
+      "figcaption_manifest": "caption-manifests/1d982d5e8bacd708.json",
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.2.1"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds-ifs",
+          "version": "1.0.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "uuid": "929841a3-1776-5f85-a061-12bbc72884bf",
+          "svg": "uem-ifs-pass-01-structure-2ca32c0ed6be.svg",
+          "png": "uem-ifs-pass-01-structure-2ca32c0ed6be.png",
+          "sha256": "2ca32c0ed6be466c71b5590ef64572f4d0d707f1020dadbe6a1e20debb68cb26",
+          "png_sha256": "7327fbf00e644097f1c61bae8004305634d09a647dbe31b01c427269197c5fd0"
+        },
+        {
+          "family": "threshold",
+          "uuid": "5ddee94a-9066-52eb-9517-e739cdc4610d",
+          "svg": "uem-ifs-pass-02-threshold-f93e67e7a3ff.svg",
+          "png": "uem-ifs-pass-02-threshold-f93e67e7a3ff.png",
+          "sha256": "f93e67e7a3ff3888aefd91372f7872796851116a26d0320d5091cf74ed3e54d2",
+          "png_sha256": "b3d81d67529000ddeca08d46ab69e3c6927a7fcd80d7987a1cd9a0bbafb4a2cf"
+        },
+        {
+          "family": "branching",
+          "uuid": "46288679-524b-562f-aec9-7a693ef5a1b6",
+          "svg": "uem-ifs-pass-03-branching-681259b873b8.svg",
+          "png": "uem-ifs-pass-03-branching-681259b873b8.png",
+          "sha256": "681259b873b8e3562a4b87ae78d00bbf443d10b103b0772df0b81483b6924a4e",
+          "png_sha256": "a6fb8deca5bd27bfaa3955f6bc2e05c7be062258039f7bdb36ceff087a2f2824"
+        },
+        {
+          "family": "practice",
+          "uuid": "50550013-fda7-5d73-89aa-88d8eedc44fd",
+          "svg": "uem-ifs-pass-04-practice-59c2e2c4c608.svg",
+          "png": "uem-ifs-pass-04-practice-59c2e2c4c608.png",
+          "sha256": "59c2e2c4c60868a0c2984bcd6f2e003f72d86d63694ff77633c4cb57b4af3255",
+          "png_sha256": "20656261d360202dd99825a130390a0e9893af3f6aba42ff836cfb67c159f61f"
+        },
+        {
+          "family": "feedback",
+          "uuid": "5ce4a1f2-88d8-52bd-b04c-8c0053c2c04b",
+          "svg": "uem-ifs-pass-05-feedback-3a121e38f3c0.svg",
+          "png": "uem-ifs-pass-05-feedback-3a121e38f3c0.png",
+          "sha256": "3a121e38f3c02e6738bc1e68c333f7d953b6011b4aae5f22de68ccd504299208",
+          "png_sha256": "dbf54358389eb8dd0f04c3e791c2457f91c999f80362ec67595d1fd5fef0f5e3"
+        },
+        {
+          "family": "coherence",
+          "uuid": "6f274889-a408-5294-a617-3a412e8972bf",
+          "svg": "uem-ifs-pass-06-coherence-85ace1961354.svg",
+          "png": "uem-ifs-pass-06-coherence-85ace1961354.png",
+          "sha256": "85ace19613542579fff859b91f832c6eb23d612077f3c7d6aedc2fe5977e65cf",
+          "png_sha256": "a1661873b5f12f3658dfb30492f7513c17c9fbda008d38e67412355a61fb9058"
+        }
+      ]
+    },
+    {
+      "release_id": "2cf0c147aead8e9c",
+      "created_at": "2026-09-02T18:50:04.880Z",
+      "brand": "uem",
+      "formula": {
+        "text": "A(s) -> F(s)[+A(s/R)][-A(s/R)]F(s)A(s/R)",
+        "latex": "\\omega: A(1);\\quad p_1: A(s):* \\to F(s)[+A(s/R)][-A(s/R)]F(s)A(s/R)",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Prusinkiewicz, Przemysław, and Aristid Lindenmayer. 2004. The Algorithmic Beauty of Plants. New York: Springer.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.1, and pass-track-backgrounds-lsystem 1.0.0."
+      },
+      "figcaption_manifest": "caption-manifests/2cf0c147aead8e9c.json",
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.2.1"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds-lsystem",
+          "version": "1.0.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "uuid": "4d1694d9-9877-5ebd-9ad2-f1a0ec99241c",
+          "svg": "uem-lsystem-pass-01-structure-771937162e32.svg",
+          "png": "uem-lsystem-pass-01-structure-771937162e32.png",
+          "sha256": "771937162e32442ba51f95d5982606e6bcb05df104186619fa033342d7903374",
+          "png_sha256": "bd2d832fe2a7c62d93a9d00243536cd1c8808564542b8a048006682945470cf2"
+        },
+        {
+          "family": "threshold",
+          "uuid": "fe4b0f47-ae5b-5042-a8c2-f0e06ad9e121",
+          "svg": "uem-lsystem-pass-02-threshold-03aed6d00723.svg",
+          "png": "uem-lsystem-pass-02-threshold-03aed6d00723.png",
+          "sha256": "03aed6d00723f36544b50c2f006e74f643f682ca4fb926306347667ff8f29119",
+          "png_sha256": "4b59a91c01d4829b9e47ea1facc29c7b81698015fd762f61216d6171f9175855"
+        },
+        {
+          "family": "branching",
+          "uuid": "979fb4b7-6777-560d-b0c4-e119f62bb4ff",
+          "svg": "uem-lsystem-pass-03-branching-ebf26d59599f.svg",
+          "png": "uem-lsystem-pass-03-branching-ebf26d59599f.png",
+          "sha256": "ebf26d59599fa81d52d4c5918ae1273e407a269e10d6bb48c53577dde67bf657",
+          "png_sha256": "666630a53fa2d59334c09baee7ce8e1e8687a71a3374c4fbf9ce9c0a1d293358"
+        },
+        {
+          "family": "practice",
+          "uuid": "33670c1c-bcf0-5604-a673-62b32b2e6a1b",
+          "svg": "uem-lsystem-pass-04-practice-990c74a3127a.svg",
+          "png": "uem-lsystem-pass-04-practice-990c74a3127a.png",
+          "sha256": "990c74a3127a68d2c261e80cfae5e5f38e77a9bcd7e899b7e2b1ab99bd7557a8",
+          "png_sha256": "9dff96fbc5811f0f66380d6d2d473014851ba8efa560d80f83705cf6cca465b8"
+        },
+        {
+          "family": "feedback",
+          "uuid": "29d34236-b42f-5971-81bf-d2f7b145ef3b",
+          "svg": "uem-lsystem-pass-05-feedback-b0e068977ff1.svg",
+          "png": "uem-lsystem-pass-05-feedback-b0e068977ff1.png",
+          "sha256": "b0e068977ff12e077d1581b425ef4966101bf3cabbb8133ed86910c845ce322f",
+          "png_sha256": "d786589f5baadba8ab290e9942172b5f016108c9cefbcd4599b1eabc4047a4eb"
+        },
+        {
+          "family": "coherence",
+          "uuid": "31edd120-bb51-5093-b075-c0766a9c73f8",
+          "svg": "uem-lsystem-pass-06-coherence-8da7f0f35bfc.svg",
+          "png": "uem-lsystem-pass-06-coherence-8da7f0f35bfc.png",
+          "sha256": "8da7f0f35bfc92fcb6ecab2078a5cb0f147fff55c4a26fcd24e2ef9782097482",
+          "png_sha256": "088eaf29b2e55651bf57a6def8ac1e66251d4ee2cc355e975bf5770432262862"
+        }
+      ]
+    }
+  ]
+}

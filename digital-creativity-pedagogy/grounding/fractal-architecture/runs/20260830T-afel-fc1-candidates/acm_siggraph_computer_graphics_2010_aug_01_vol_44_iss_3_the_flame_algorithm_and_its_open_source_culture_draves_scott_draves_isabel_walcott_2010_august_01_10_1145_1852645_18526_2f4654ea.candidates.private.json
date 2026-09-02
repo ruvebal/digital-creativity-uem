@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "workflow": "AFEL",
+  "status": "REVIEW_REQUIRED",
+  "database": "/Users/ruvebal/ahmes-library/scholar/documents/acm_siggraph_computer_graphics_2010_aug_01_vol_44_iss_3_the_flame_algorithm_and_its_open_source_culture_draves_scott_draves_isabel_walcott_2010_august_01_10_1145_1852645_18526_2f4654ea/extract/extraction.db",
+  "candidate_count": 0,
+  "policy": {
+    "context_is_evidence_not_verdict": true,
+    "agent_may_rank_but_not_assign_derivation_role": true,
+    "unattended_promotion": false
+  },
+  "candidates": []
+}

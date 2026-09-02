@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "formula_id": "88bec2fb-6e89-5ea3-aabc-5191c426607a",
+  "style": "chicago-author-date",
+  "evaluator_safe": true,
+  "inline": "(Barnsley et al. 1988, 225)",
+  "chicago": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer."
+}

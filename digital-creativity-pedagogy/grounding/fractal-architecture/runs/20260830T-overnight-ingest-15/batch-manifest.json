@@ -1,0 +1,273 @@
+{
+  "/private/tmp/afel-design-15-cePwlo/Dynamics Of Entire Functions The Fractal Sets Of Julia And Mandelbrot{Cándido Piñeiro}(2025, DE GRUYTER){116214707}.epub": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/Dynamics Of Entire Functions The Fractal Sets Of Julia And Mandelbrot{Cándido Piñeiro}(2025, DE GRUYTER){116214707}.epub",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/Dynamics Of Entire Functions The Fractal Sets Of Julia And Mandelbrot{Cándido Piñeiro}(2025, DE GRUYTER){116214707}.epub",
+      "size_bytes": 20969,
+      "content_hash": "af566b4c67003a7ab34873f7aa8eec91e88915862831c66f872405bf571a91f3"
+    },
+    "status": "FAILED",
+    "updated_at": "2026-08-30T10:00:44.411797+00:00",
+    "outputs": {},
+    "error": "'Bad Zip file'"
+  },
+  "/private/tmp/afel-design-15-cePwlo/Comparing_Rendering_Methods_for_Julia_Sets.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/Comparing_Rendering_Methods_for_Julia_Sets.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/Comparing_Rendering_Methods_for_Julia_Sets.pdf",
+      "size_bytes": 201573,
+      "content_hash": "a1e80611f39709a8001c4c435c7a8f75a7c6c14af8cc5e9ad8290d1ece89eaf5"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T10:14:49.598639+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/comparing_rendering_methods_for_julia_sets_a1e80611",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/comparing_rendering_methods_for_julia_sets_a1e80611/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/comparing_rendering_methods_for_julia_sets_a1e80611/extract/extraction.db",
+      "semantic_anchors_count": "12",
+      "semantic_total_text_nodes": "77",
+      "semantic_coverage_ratio": "0.1558"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/Fractal Functions Communication with Fractional Calculus{A. Gowrisankar_ T. M. C Priyanka_ Santo Banerjee}(2025){111113592}.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/Fractal Functions Communication with Fractional Calculus{A. Gowrisankar_ T. M. C Priyanka_ Santo Banerjee}(2025){111113592}.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/Fractal Functions Communication with Fractional Calculus{A. Gowrisankar_ T. M. C Priyanka_ Santo Banerjee}(2025){111113592}.pdf",
+      "size_bytes": 12447655,
+      "content_hash": "960fcf3577f7c483a5db6b484e19da6a4e4c4c9107a61effab265d223cca3788"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T10:50:14.646258+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/fractal_functions_communication_with_fractional_calculus_a_gowrisankar_t_m_c_priyanka_santo_banerjee_2025_111113592_960fcf35",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/fractal_functions_communication_with_fractional_calculus_a_gowrisankar_t_m_c_priyanka_santo_banerjee_2025_111113592_960fcf35/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/fractal_functions_communication_with_fractional_calculus_a_gowrisankar_t_m_c_priyanka_santo_banerjee_2025_111113592_960fcf35/extract/extraction.db",
+      "semantic_anchors_count": "616",
+      "semantic_total_text_nodes": "1111",
+      "semantic_coverage_ratio": "0.5545"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/InteractiveVisualizationQuatcopy.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/InteractiveVisualizationQuatcopy.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/InteractiveVisualizationQuatcopy.pdf",
+      "size_bytes": 1212884,
+      "content_hash": "f11e47e12c2cc9e20181f1764af4d1620d5fedf5b0909c0e09fe263efb7a677b"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T10:52:43.706562+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/interactivevisualizationquatcopy_f11e47e1",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/interactivevisualizationquatcopy_f11e47e1/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/interactivevisualizationquatcopy_f11e47e1/extract/extraction.db",
+      "semantic_anchors_count": "76",
+      "semantic_total_text_nodes": "137",
+      "semantic_coverage_ratio": "0.5547"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/Michael F. Barnsley, Robert L. Devaney, Benoit B. Mandelbrot, He - The science of fractal images (1988, Springer) [10.1007_978-1-4612-3784-6].pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/Michael F. Barnsley, Robert L. Devaney, Benoit B. Mandelbrot, He - The science of fractal images (1988, Springer) [10.1007_978-1-4612-3784-6].pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/Michael F. Barnsley, Robert L. Devaney, Benoit B. Mandelbrot, He - The science of fractal images (1988, Springer) [10.1007_978-1-4612-3784-6].pdf",
+      "size_bytes": 39256592,
+      "content_hash": "4c3d2164a799f99a4cc12918709abd3de0fd886bc6c0d626afa463841abf74f0"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T11:54:36.453070+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/michael_f_barnsley_robert_l_devaney_benoit_b_mandelbrot_he_the_science_of_fractal_images_1988_springer_10_1007_978_1_4612_3784_6_4c3d2164",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/michael_f_barnsley_robert_l_devaney_benoit_b_mandelbrot_he_the_science_of_fractal_images_1988_springer_10_1007_978_1_4612_3784_6_4c3d2164/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/michael_f_barnsley_robert_l_devaney_benoit_b_mandelbrot_he_the_science_of_fractal_images_1988_springer_10_1007_978_1_4612_3784_6_4c3d2164/extract/extraction.db",
+      "semantic_anchors_count": "839",
+      "semantic_total_text_nodes": "1436",
+      "semantic_coverage_ratio": "0.5843"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/Nigel Lesmoir-Gordon - The Colours of Infinity_ The Beauty and Power of Fractals (2010, Springer).pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/Nigel Lesmoir-Gordon - The Colours of Infinity_ The Beauty and Power of Fractals (2010, Springer).pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/Nigel Lesmoir-Gordon - The Colours of Infinity_ The Beauty and Power of Fractals (2010, Springer).pdf",
+      "size_bytes": 13845582,
+      "content_hash": "aebecb131f376fee6f04903d7b705ed28e5b520f4d8021646ff24ab8b335573f"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T12:50:30.735984+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/nigel_lesmoir_gordon_the_colours_of_infinity_the_beauty_and_power_of_fractals_2010_springer_aebecb13",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/nigel_lesmoir_gordon_the_colours_of_infinity_the_beauty_and_power_of_fractals_2010_springer_aebecb13/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/nigel_lesmoir_gordon_the_colours_of_infinity_the_beauty_and_power_of_fractals_2010_springer_aebecb13/extract/extraction.db",
+      "semantic_anchors_count": "1068",
+      "semantic_total_text_nodes": "1466",
+      "semantic_coverage_ratio": "0.7285"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/Heinz-Otto Peitgen, Hartmut Jürgens, Dietmar Saupe (auth.) - Chaos and Fractals_ New Frontiers of Science (2004, Springer) [10.1007_b97624].pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/Heinz-Otto Peitgen, Hartmut Jürgens, Dietmar Saupe (auth.) - Chaos and Fractals_ New Frontiers of Science (2004, Springer) [10.1007_b97624].pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/Heinz-Otto Peitgen, Hartmut Jürgens, Dietmar Saupe (auth.) - Chaos and Fractals_ New Frontiers of Science (2004, Springer) [10.1007_b97624].pdf",
+      "size_bytes": 110045684,
+      "content_hash": "1a3cd50412b5d1fc80e042e08f1c1a5ecde5dd64fb4301c71d284e4effdcdb95"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T13:13:57.540790+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/heinz_otto_peitgen_hartmut_jurgens_dietmar_saupe_auth_chaos_and_fractals_new_frontiers_of_science_2004_springer_10_1007_b97624_1a3cd504",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/heinz_otto_peitgen_hartmut_jurgens_dietmar_saupe_auth_chaos_and_fractals_new_frontiers_of_science_2004_springer_10_1007_b97624_1a3cd504/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/heinz_otto_peitgen_hartmut_jurgens_dietmar_saupe_auth_chaos_and_fractals_new_frontiers_of_science_2004_springer_10_1007_b97624_1a3cd504/extract/extraction.db",
+      "semantic_anchors_count": "2845",
+      "semantic_total_text_nodes": "4870",
+      "semantic_coverage_ratio": "0.5842"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/[ACM SIGGRAPH Computer Graphics 2010-aug 01 vol. 44 iss. 3] The flame algorithm and its open source culture{Draves, Scott_ Draves, Isabel Walcott}(2010 August 01)[10.1145_1852645.18526.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/[ACM SIGGRAPH Computer Graphics 2010-aug 01 vol. 44 iss. 3] The flame algorithm and its open source culture{Draves, Scott_ Draves, Isabel Walcott}(2010 August 01)[10.1145_1852645.18526.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/[ACM SIGGRAPH Computer Graphics 2010-aug 01 vol. 44 iss. 3] The flame algorithm and its open source culture{Draves, Scott_ Draves, Isabel Walcott}(2010 August 01)[10.1145_1852645.18526.pdf",
+      "size_bytes": 232301,
+      "content_hash": "2f4654ea5e74422224796a9b0fd63091f1d861fe297380e70781824b9ad77f18"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T13:14:53.493674+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/acm_siggraph_computer_graphics_2010_aug_01_vol_44_iss_3_the_flame_algorithm_and_its_open_source_culture_draves_scott_draves_isabel_walcott_2010_august_01_10_1145_1852645_18526_2f4654ea",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/acm_siggraph_computer_graphics_2010_aug_01_vol_44_iss_3_the_flame_algorithm_and_its_open_source_culture_draves_scott_draves_isabel_walcott_2010_august_01_10_1145_1852645_18526_2f4654ea/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/acm_siggraph_computer_graphics_2010_aug_01_vol_44_iss_3_the_flame_algorithm_and_its_open_source_culture_draves_scott_draves_isabel_walcott_2010_august_01_10_1145_1852645_18526_2f4654ea/extract/extraction.db",
+      "semantic_anchors_count": "40",
+      "semantic_total_text_nodes": "46",
+      "semantic_coverage_ratio": "0.8696"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/[American Journal of Physics 1983-mar vol. 51 iss. 3] The Fractal Geometry of Nature {Mandelbrot, Benoit B. (author)_Wheeler, John A. (author)}(1983 March, American Association of Phys.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/[American Journal of Physics 1983-mar vol. 51 iss. 3] The Fractal Geometry of Nature {Mandelbrot, Benoit B. (author)_Wheeler, John A. (author)}(1983 March, American Association of Phys.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/[American Journal of Physics 1983-mar vol. 51 iss. 3] The Fractal Geometry of Nature {Mandelbrot, Benoit B. (author)_Wheeler, John A. (author)}(1983 March, American Association of Phys.pdf",
+      "size_bytes": 510372,
+      "content_hash": "bbc766ddefc13c5e18c75a94af0c7693f451b92423be8f635b9bdcf7a6b3daad"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T13:15:50.613886+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/american_journal_of_physics_1983_mar_vol_51_iss_3_the_fractal_geometry_of_nature_mandelbrot_benoit_b_author_wheeler_john_a_author_1983_march_american_association_of_phys_bbc766dd",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/american_journal_of_physics_1983_mar_vol_51_iss_3_the_fractal_geometry_of_nature_mandelbrot_benoit_b_author_wheeler_john_a_author_1983_march_american_association_of_phys_bbc766dd/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/american_journal_of_physics_1983_mar_vol_51_iss_3_the_fractal_geometry_of_nature_mandelbrot_benoit_b_author_wheeler_john_a_author_1983_march_american_association_of_phys_bbc766dd/extract/extraction.db",
+      "semantic_anchors_count": "34",
+      "semantic_total_text_nodes": "44",
+      "semantic_coverage_ratio": "0.7727"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/Przemyslaw Prusinkiewicz, Aristid Lindenmayer - The Algorithmic Beauty of Plants (2004, Springer).pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/Przemyslaw Prusinkiewicz, Aristid Lindenmayer - The Algorithmic Beauty of Plants (2004, Springer).pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/Przemyslaw Prusinkiewicz, Aristid Lindenmayer - The Algorithmic Beauty of Plants (2004, Springer).pdf",
+      "size_bytes": 6896690,
+      "content_hash": "18843e8feaace58692a6b02431d2ea822c294bcc44cdedbcb22255e80fd30e38"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T13:17:54.122237+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/przemyslaw_prusinkiewicz_aristid_lindenmayer_the_algorithmic_beauty_of_plants_2004_springer_18843e8f",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/przemyslaw_prusinkiewicz_aristid_lindenmayer_the_algorithmic_beauty_of_plants_2004_springer_18843e8f/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/przemyslaw_prusinkiewicz_aristid_lindenmayer_the_algorithmic_beauty_of_plants_2004_springer_18843e8f/extract/extraction.db",
+      "semantic_anchors_count": "680",
+      "semantic_total_text_nodes": "1144",
+      "semantic_coverage_ratio": "0.5944"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/[International Journal of Bifurcation and Chaos 2008-apr vol. 18 iss. 04] THE AESTHETICS AND FRACTAL DIMENSION OF ELECTRIC SHEEP{DRAVES, SCOTT_ ABRAHAM, RALPH_ VIOTTI, PABLO_ ABRAHAM, .pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/[International Journal of Bifurcation and Chaos 2008-apr vol. 18 iss. 04] THE AESTHETICS AND FRACTAL DIMENSION OF ELECTRIC SHEEP{DRAVES, SCOTT_ ABRAHAM, RALPH_ VIOTTI, PABLO_ ABRAHAM, .pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/[International Journal of Bifurcation and Chaos 2008-apr vol. 18 iss. 04] THE AESTHETICS AND FRACTAL DIMENSION OF ELECTRIC SHEEP{DRAVES, SCOTT_ ABRAHAM, RALPH_ VIOTTI, PABLO_ ABRAHAM, .pdf",
+      "size_bytes": 299173,
+      "content_hash": "8a798623a7c5b551d1f6671f637c74a5466b72cd77dabf3ef54243959f4cefbc"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T13:20:28.656659+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/international_journal_of_bifurcation_and_chaos_2008_apr_vol_18_iss_04_the_aesthetics_and_fractal_dimension_of_electric_sheep_draves_scott_abraham_ralph_viotti_pablo_abraham_8a798623",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/international_journal_of_bifurcation_and_chaos_2008_apr_vol_18_iss_04_the_aesthetics_and_fractal_dimension_of_electric_sheep_draves_scott_abraham_ralph_viotti_pablo_abraham_8a798623/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/international_journal_of_bifurcation_and_chaos_2008_apr_vol_18_iss_04_the_aesthetics_and_fractal_dimension_of_electric_sheep_draves_scott_abraham_ralph_viotti_pablo_abraham_8a798623/extract/extraction.db",
+      "semantic_anchors_count": "59",
+      "semantic_total_text_nodes": "73",
+      "semantic_coverage_ratio": "0.8082"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/[Math Horizons 2006-feb vol. 13 iss. 3] Opt Art{Robert Bosch}(2006 February)[10.2307_25678596]{55061488}.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/[Math Horizons 2006-feb vol. 13 iss. 3] Opt Art{Robert Bosch}(2006 February)[10.2307_25678596]{55061488}.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/[Math Horizons 2006-feb vol. 13 iss. 3] Opt Art{Robert Bosch}(2006 February)[10.2307_25678596]{55061488}.pdf",
+      "size_bytes": 1449087,
+      "content_hash": "b4133f702e648a9d5691a27c62926ecdb0b8b04df242d7dea0d364cee25b17bf"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T13:21:36.175847+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/math_horizons_2006_feb_vol_13_iss_3_opt_art_robert_bosch_2006_february_10_2307_25678596_55061488_b4133f70",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/math_horizons_2006_feb_vol_13_iss_3_opt_art_robert_bosch_2006_february_10_2307_25678596_55061488_b4133f70/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/math_horizons_2006_feb_vol_13_iss_3_opt_art_robert_bosch_2006_february_10_2307_25678596_55061488_b4133f70/extract/extraction.db",
+      "semantic_anchors_count": "41",
+      "semantic_total_text_nodes": "52",
+      "semantic_coverage_ratio": "0.7885"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/[Physics World 1990-sep vol. 3 iss. 9] Mathematical beauty of fractals{Peitgen, Heinz-Otto}(1990 September)[10.1088_2058-7058_3_9_29]{65075898}.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/[Physics World 1990-sep vol. 3 iss. 9] Mathematical beauty of fractals{Peitgen, Heinz-Otto}(1990 September)[10.1088_2058-7058_3_9_29]{65075898}.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/[Physics World 1990-sep vol. 3 iss. 9] Mathematical beauty of fractals{Peitgen, Heinz-Otto}(1990 September)[10.1088_2058-7058_3_9_29]{65075898}.pdf",
+      "size_bytes": 20699,
+      "content_hash": "ccdc58348d900878d0ba5904f7610129cb418be22cf878aaaf7d040e5cada6a5"
+    },
+    "status": "FAILED",
+    "updated_at": "2026-08-30T13:21:36.196734+00:00",
+    "outputs": {},
+    "error": "Input document [Physics World 1990-sep vol. 3 iss. 9] Mathematical beauty of fractals{Peitgen, Heinz-Otto}(1990 September)[10.1088_2058-7058_3_9_29]{65075898}.pdf is not valid."
+  },
+  "/private/tmp/afel-design-15-cePwlo/[Undergraduate Topics in Computer Science] Vince, John - Mathematics for Computer Graphics (2017, Springer London _ Imprint _ Springer).pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/[Undergraduate Topics in Computer Science] Vince, John - Mathematics for Computer Graphics (2017, Springer London _ Imprint _ Springer).pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/[Undergraduate Topics in Computer Science] Vince, John - Mathematics for Computer Graphics (2017, Springer London _ Imprint _ Springer).pdf",
+      "size_bytes": 15673438,
+      "content_hash": "9f6b4c2074ccda08974a02c2fdf1a67f8eec0c77e13f3c383bdfbc938cf001be"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T15:58:50.691536+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/undergraduate_topics_in_computer_science_vince_john_mathematics_for_computer_graphics_2017_springer_london_imprint_springer_9f6b4c20",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/undergraduate_topics_in_computer_science_vince_john_mathematics_for_computer_graphics_2017_springer_london_imprint_springer_9f6b4c20/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/undergraduate_topics_in_computer_science_vince_john_mathematics_for_computer_graphics_2017_springer_london_imprint_springer_9f6b4c20/extract/extraction.db",
+      "semantic_anchors_count": "1131",
+      "semantic_total_text_nodes": "2591",
+      "semantic_coverage_ratio": "0.4365"
+    },
+    "error": null
+  },
+  "/private/tmp/afel-design-15-cePwlo/[Graduate Studies in Mathematics, Volume 247 - Graduate Studies in Mathematics, Volume 247] An Invitation to Fractal Geometry_ Fractal Dimensions, Self-Similarity, and Fractal Curves 2.pdf": {
+    "source_path": "/private/tmp/afel-design-15-cePwlo/[Graduate Studies in Mathematics, Volume 247 - Graduate Studies in Mathematics, Volume 247] An Invitation to Fractal Geometry_ Fractal Dimensions, Self-Similarity, and Fractal Curves 2.pdf",
+    "fingerprint": {
+      "path": "/private/tmp/afel-design-15-cePwlo/[Graduate Studies in Mathematics, Volume 247 - Graduate Studies in Mathematics, Volume 247] An Invitation to Fractal Geometry_ Fractal Dimensions, Self-Similarity, and Fractal Curves 2.pdf",
+      "size_bytes": 16206081,
+      "content_hash": "76b0c9068d55783d38b9e30907d420521e5ac10f0d10759e969be7aaeba36c76"
+    },
+    "status": "PROCESSED_OK",
+    "updated_at": "2026-08-30T16:22:22.794503+00:00",
+    "outputs": {
+      "document_dir": "/Users/ruvebal/ahmes-library/scholar/documents/graduate_studies_in_mathematics_volume_247_graduate_studies_in_mathematics_volume_247_an_invitation_to_fractal_geometry_fractal_dimensions_self_similarity_and_fractal_curves_2_76b0c906",
+      "index_md": "/Users/ruvebal/ahmes-library/scholar/documents/graduate_studies_in_mathematics_volume_247_graduate_studies_in_mathematics_volume_247_an_invitation_to_fractal_geometry_fractal_dimensions_self_similarity_and_fractal_curves_2_76b0c906/extract/index.md",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/graduate_studies_in_mathematics_volume_247_graduate_studies_in_mathematics_volume_247_an_invitation_to_fractal_geometry_fractal_dimensions_self_similarity_and_fractal_curves_2_76b0c906/extract/extraction.db",
+      "semantic_anchors_count": "2409",
+      "semantic_total_text_nodes": "5285",
+      "semantic_coverage_ratio": "0.4558"
+    },
+    "error": null
+  }
+}
