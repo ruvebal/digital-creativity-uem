@@ -241,7 +241,7 @@ function renderSvg(brandKey, family, familyIndex) {
   <rect width="1600" height="900" fill="url(#${id}-neb-b)"/>
   <rect width="1600" height="900" fill="url(#${id}-neb-c)"/>
   <rect width="1600" height="900" filter="url(#${id}-nebula)" opacity="0.5"/>
-  <g filter="url(#${id}-glow)" opacity="0.9">${fractalField(family, palette)}</g>
+  <g filter="url(#${id}-glow)" opacity="0.9" transform="translate(1290,450) rotate(90) scale(2) translate(-1290,-450)">${fractalField(family, palette)}</g>
   <g opacity="0.85">${accents.join('')}</g>
   <rect width="1600" height="900" fill="url(#${id}-veil)"/>
 </svg>`;

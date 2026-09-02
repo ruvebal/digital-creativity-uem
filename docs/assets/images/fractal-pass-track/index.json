@@ -479,96 +479,8 @@
       ]
     },
     {
-      "release_id": "1d982d5e8bacd708",
-      "created_at": "2026-09-02T18:49:48.264Z",
-      "brand": "uem",
-      "formula": {
-        "text": "P = w1(P) ∪ w2(P) ∪ ⋯ ∪ wN(P)",
-        "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
-        "fidelity_status": "EXACT"
-      },
-      "caption": {
-        "source": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer.",
-        "source_evaluator_safe": true,
-        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.1, and pass-track-backgrounds-ifs 1.0.0."
-      },
-      "figcaption_manifest": "caption-manifests/1d982d5e8bacd708.json",
-      "studio_stack": [
-        {
-          "kind": "skill",
-          "name": "curriculum-forger",
-          "version": "1.1.0"
-        },
-        {
-          "kind": "skill",
-          "name": "visual-forger",
-          "version": "1.1.0"
-        },
-        {
-          "kind": "agent+skill",
-          "name": "fractal-architect",
-          "version": "1.2.1"
-        },
-        {
-          "kind": "renderer",
-          "name": "pass-track-backgrounds-ifs",
-          "version": "1.0.0"
-        }
-      ],
-      "assets": [
-        {
-          "family": "structure",
-          "uuid": "929841a3-1776-5f85-a061-12bbc72884bf",
-          "svg": "uem-ifs-pass-01-structure-2ca32c0ed6be.svg",
-          "png": "uem-ifs-pass-01-structure-2ca32c0ed6be.png",
-          "sha256": "2ca32c0ed6be466c71b5590ef64572f4d0d707f1020dadbe6a1e20debb68cb26",
-          "png_sha256": "7327fbf00e644097f1c61bae8004305634d09a647dbe31b01c427269197c5fd0"
-        },
-        {
-          "family": "threshold",
-          "uuid": "5ddee94a-9066-52eb-9517-e739cdc4610d",
-          "svg": "uem-ifs-pass-02-threshold-f93e67e7a3ff.svg",
-          "png": "uem-ifs-pass-02-threshold-f93e67e7a3ff.png",
-          "sha256": "f93e67e7a3ff3888aefd91372f7872796851116a26d0320d5091cf74ed3e54d2",
-          "png_sha256": "b3d81d67529000ddeca08d46ab69e3c6927a7fcd80d7987a1cd9a0bbafb4a2cf"
-        },
-        {
-          "family": "branching",
-          "uuid": "46288679-524b-562f-aec9-7a693ef5a1b6",
-          "svg": "uem-ifs-pass-03-branching-681259b873b8.svg",
-          "png": "uem-ifs-pass-03-branching-681259b873b8.png",
-          "sha256": "681259b873b8e3562a4b87ae78d00bbf443d10b103b0772df0b81483b6924a4e",
-          "png_sha256": "a6fb8deca5bd27bfaa3955f6bc2e05c7be062258039f7bdb36ceff087a2f2824"
-        },
-        {
-          "family": "practice",
-          "uuid": "50550013-fda7-5d73-89aa-88d8eedc44fd",
-          "svg": "uem-ifs-pass-04-practice-59c2e2c4c608.svg",
-          "png": "uem-ifs-pass-04-practice-59c2e2c4c608.png",
-          "sha256": "59c2e2c4c60868a0c2984bcd6f2e003f72d86d63694ff77633c4cb57b4af3255",
-          "png_sha256": "20656261d360202dd99825a130390a0e9893af3f6aba42ff836cfb67c159f61f"
-        },
-        {
-          "family": "feedback",
-          "uuid": "5ce4a1f2-88d8-52bd-b04c-8c0053c2c04b",
-          "svg": "uem-ifs-pass-05-feedback-3a121e38f3c0.svg",
-          "png": "uem-ifs-pass-05-feedback-3a121e38f3c0.png",
-          "sha256": "3a121e38f3c02e6738bc1e68c333f7d953b6011b4aae5f22de68ccd504299208",
-          "png_sha256": "dbf54358389eb8dd0f04c3e791c2457f91c999f80362ec67595d1fd5fef0f5e3"
-        },
-        {
-          "family": "coherence",
-          "uuid": "6f274889-a408-5294-a617-3a412e8972bf",
-          "svg": "uem-ifs-pass-06-coherence-85ace1961354.svg",
-          "png": "uem-ifs-pass-06-coherence-85ace1961354.png",
-          "sha256": "85ace19613542579fff859b91f832c6eb23d612077f3c7d6aedc2fe5977e65cf",
-          "png_sha256": "a1661873b5f12f3658dfb30492f7513c17c9fbda008d38e67412355a61fb9058"
-        }
-      ]
-    },
-    {
-      "release_id": "2cf0c147aead8e9c",
-      "created_at": "2026-09-02T18:50:04.880Z",
+      "release_id": "e00c3b28131d9f5a",
+      "created_at": "2026-09-02T19:13:53.976Z",
       "brand": "uem",
       "formula": {
         "text": "A(s) -> F(s)[+A(s/R)][-A(s/R)]F(s)A(s/R)",
@@ -580,7 +492,7 @@
         "source_evaluator_safe": true,
         "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.1, and pass-track-backgrounds-lsystem 1.0.0."
       },
-      "figcaption_manifest": "caption-manifests/2cf0c147aead8e9c.json",
+      "figcaption_manifest": "caption-manifests/e00c3b28131d9f5a.json",
       "studio_stack": [
         {
           "kind": "skill",
@@ -606,51 +518,139 @@
       "assets": [
         {
           "family": "structure",
-          "uuid": "4d1694d9-9877-5ebd-9ad2-f1a0ec99241c",
-          "svg": "uem-lsystem-pass-01-structure-771937162e32.svg",
-          "png": "uem-lsystem-pass-01-structure-771937162e32.png",
-          "sha256": "771937162e32442ba51f95d5982606e6bcb05df104186619fa033342d7903374",
-          "png_sha256": "bd2d832fe2a7c62d93a9d00243536cd1c8808564542b8a048006682945470cf2"
+          "uuid": "5ccda55e-d69b-53ae-a573-15d9363261a0",
+          "svg": "uem-lsystem-pass-01-structure-01349a4aa67b.svg",
+          "png": "uem-lsystem-pass-01-structure-01349a4aa67b.png",
+          "sha256": "01349a4aa67bafc5cff8a3723ed47e068bddeef00e60373e13c87e5e968e01f3",
+          "png_sha256": "8a19f8d38560b22060ccf6d5dc2aa17ee6d74387f044c5c04c39c5e7415d60c7"
         },
         {
           "family": "threshold",
-          "uuid": "fe4b0f47-ae5b-5042-a8c2-f0e06ad9e121",
-          "svg": "uem-lsystem-pass-02-threshold-03aed6d00723.svg",
-          "png": "uem-lsystem-pass-02-threshold-03aed6d00723.png",
-          "sha256": "03aed6d00723f36544b50c2f006e74f643f682ca4fb926306347667ff8f29119",
-          "png_sha256": "4b59a91c01d4829b9e47ea1facc29c7b81698015fd762f61216d6171f9175855"
+          "uuid": "a20c57b6-7d69-592e-969e-cff7a8cc6fce",
+          "svg": "uem-lsystem-pass-02-threshold-09508ff1494c.svg",
+          "png": "uem-lsystem-pass-02-threshold-09508ff1494c.png",
+          "sha256": "09508ff1494c03d24e28c945a75697d45a73604e51262f43cd5cf7ec3840e498",
+          "png_sha256": "1fbd78f33dc88a59af9056e0121fa73a2414cc71e69690e931662d2a824327d2"
         },
         {
           "family": "branching",
-          "uuid": "979fb4b7-6777-560d-b0c4-e119f62bb4ff",
-          "svg": "uem-lsystem-pass-03-branching-ebf26d59599f.svg",
-          "png": "uem-lsystem-pass-03-branching-ebf26d59599f.png",
-          "sha256": "ebf26d59599fa81d52d4c5918ae1273e407a269e10d6bb48c53577dde67bf657",
-          "png_sha256": "666630a53fa2d59334c09baee7ce8e1e8687a71a3374c4fbf9ce9c0a1d293358"
+          "uuid": "6fc74fc9-7aa8-5a35-9506-4c18b2c4b5fe",
+          "svg": "uem-lsystem-pass-03-branching-17ab94f9554e.svg",
+          "png": "uem-lsystem-pass-03-branching-17ab94f9554e.png",
+          "sha256": "17ab94f9554eac504d3d6c905f3094229b48628943bdde4ee96061f25d6f8d8b",
+          "png_sha256": "7e514ba120dd1eae7957d7c25a144bcf15063c11933a6c6a5df7e828d4968381"
         },
         {
           "family": "practice",
-          "uuid": "33670c1c-bcf0-5604-a673-62b32b2e6a1b",
-          "svg": "uem-lsystem-pass-04-practice-990c74a3127a.svg",
-          "png": "uem-lsystem-pass-04-practice-990c74a3127a.png",
-          "sha256": "990c74a3127a68d2c261e80cfae5e5f38e77a9bcd7e899b7e2b1ab99bd7557a8",
-          "png_sha256": "9dff96fbc5811f0f66380d6d2d473014851ba8efa560d80f83705cf6cca465b8"
+          "uuid": "406c8142-c493-5743-bae8-d63cf33cd9e2",
+          "svg": "uem-lsystem-pass-04-practice-9f9b88bf7f44.svg",
+          "png": "uem-lsystem-pass-04-practice-9f9b88bf7f44.png",
+          "sha256": "9f9b88bf7f446535101a28b97353142d341dd0a994473583d287423758f0cfc7",
+          "png_sha256": "b3a7b0c85fbf62490856552f3b05f967e73bbcc0615c2047a76fb4aaa0680c39"
         },
         {
           "family": "feedback",
-          "uuid": "29d34236-b42f-5971-81bf-d2f7b145ef3b",
-          "svg": "uem-lsystem-pass-05-feedback-b0e068977ff1.svg",
-          "png": "uem-lsystem-pass-05-feedback-b0e068977ff1.png",
-          "sha256": "b0e068977ff12e077d1581b425ef4966101bf3cabbb8133ed86910c845ce322f",
-          "png_sha256": "d786589f5baadba8ab290e9942172b5f016108c9cefbcd4599b1eabc4047a4eb"
+          "uuid": "84fc5987-7b2e-5bdf-b438-3a5e4ff6ea32",
+          "svg": "uem-lsystem-pass-05-feedback-a0b2d2c82d75.svg",
+          "png": "uem-lsystem-pass-05-feedback-a0b2d2c82d75.png",
+          "sha256": "a0b2d2c82d75e389f3495534940b8847fdaf347d8d9b36f42cea2b8abbd8ff81",
+          "png_sha256": "a57530b9d496ec5956764389f38f0a1776d003c1b93d7ff53858e84a50483724"
         },
         {
           "family": "coherence",
-          "uuid": "31edd120-bb51-5093-b075-c0766a9c73f8",
-          "svg": "uem-lsystem-pass-06-coherence-8da7f0f35bfc.svg",
-          "png": "uem-lsystem-pass-06-coherence-8da7f0f35bfc.png",
-          "sha256": "8da7f0f35bfc92fcb6ecab2078a5cb0f147fff55c4a26fcd24e2ef9782097482",
-          "png_sha256": "088eaf29b2e55651bf57a6def8ac1e66251d4ee2cc355e975bf5770432262862"
+          "uuid": "67715bad-7657-5941-9e6a-d37ced6d194a",
+          "svg": "uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
+          "png": "uem-lsystem-pass-06-coherence-9a61a10b6e79.png",
+          "sha256": "9a61a10b6e796a614ce9ecf092d61c015b5a92d0c182682c3954321b8f494db0",
+          "png_sha256": "17734b6143740af12cb9779cb84961f16729bc0b036b810d425867c761f790f1"
+        }
+      ]
+    },
+    {
+      "release_id": "cda4c6420bb120b4",
+      "created_at": "2026-09-02T19:15:05.479Z",
+      "brand": "uem",
+      "formula": {
+        "text": "P = w1(P) ∪ w2(P) ∪ ⋯ ∪ wN(P)",
+        "latex": "P = w_1(P) \\cup w_2(P) \\cup \\cdots \\cup w_N(P)",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Barnsley, Michael F., Robert L. Devaney, Benoit B. Mandelbrot, Heinz-Otto Peitgen, Dietmar Saupe, and Richard F. Voss. 1988. The Science of Fractal Images. New York: Springer.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.1, and pass-track-backgrounds-ifs 1.0.0."
+      },
+      "figcaption_manifest": "caption-manifests/cda4c6420bb120b4.json",
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.2.1"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds-ifs",
+          "version": "1.0.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "uuid": "b11675b6-a27e-5230-9a82-05e778402841",
+          "svg": "uem-ifs-pass-01-structure-3a56c2102a68.svg",
+          "png": "uem-ifs-pass-01-structure-3a56c2102a68.png",
+          "sha256": "3a56c2102a681bc2d84f7533f366100c38e8f404e65db080a5fb59fbf1bc9e7f",
+          "png_sha256": "e3335a1010bc93108ecad55b5c2c6fd73e3573d1781c5d003f049785c3016de7"
+        },
+        {
+          "family": "threshold",
+          "uuid": "ff193fa0-f955-51e2-bc29-781f1d136825",
+          "svg": "uem-ifs-pass-02-threshold-367e1577c524.svg",
+          "png": "uem-ifs-pass-02-threshold-367e1577c524.png",
+          "sha256": "367e1577c524d0a46108d5b96e08a69d6c1e38144a4a6990ed4b7b28fe4c7adc",
+          "png_sha256": "3b8ba642b68b025bae3becd8e6fe7917f0e3c59b4994daaeaf9609369f9ef616"
+        },
+        {
+          "family": "branching",
+          "uuid": "cc1bb66d-ee02-5001-80d5-38a17da09b07",
+          "svg": "uem-ifs-pass-03-branching-d175cf353f17.svg",
+          "png": "uem-ifs-pass-03-branching-d175cf353f17.png",
+          "sha256": "d175cf353f17a91cf4a4d76798cf1b82bbb2445e1f60280a469802c312a0ac85",
+          "png_sha256": "92eeca6d6706f022eb933a5d4a0ba4d3f85e60b039ad8120fd3e6a202863f65d"
+        },
+        {
+          "family": "practice",
+          "uuid": "6da43a5e-418a-53b8-8dbd-8ba0156addad",
+          "svg": "uem-ifs-pass-04-practice-6b40967b408c.svg",
+          "png": "uem-ifs-pass-04-practice-6b40967b408c.png",
+          "sha256": "6b40967b408cac860285dfb675c33264b2ce8e9a7b6bf7fbeae3c630b165b3b4",
+          "png_sha256": "849112760a7890dadb0b2c9d72ffc34044d6e77db94cfa7c8c53679296b9a383"
+        },
+        {
+          "family": "feedback",
+          "uuid": "86dc92a4-d236-57ff-80b9-07d37f3f3899",
+          "svg": "uem-ifs-pass-05-feedback-ead19611ad2d.svg",
+          "png": "uem-ifs-pass-05-feedback-ead19611ad2d.png",
+          "sha256": "ead19611ad2d9300913a072edb000c06be4a718b869bf6b6fec02c022b21ce9c",
+          "png_sha256": "259f4822aa27f53c867a8a42dad6e58f39363c9b360bdec09884f6bb7b2bbc8a"
+        },
+        {
+          "family": "coherence",
+          "uuid": "e090eab3-dd6a-52cb-ad31-4faafa845ad9",
+          "svg": "uem-ifs-pass-06-coherence-323207dda743.svg",
+          "png": "uem-ifs-pass-06-coherence-323207dda743.png",
+          "sha256": "323207dda743e856c685bf3e83e3786e307dce5973bfb99968904e26876157fc",
+          "png_sha256": "46551f29185f57136d2c74dcae262b938e84d199213904b642c985c5f9d75d3e"
         }
       ]
     }

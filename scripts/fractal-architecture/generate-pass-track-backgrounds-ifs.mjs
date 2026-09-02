@@ -187,8 +187,11 @@ function nebulaDefs(id, palette, seed) {
 // right-biased canvas zone (x: 520-1600) to match the Julia/L-system
 // backdrops' left title-safe convention, instead of spanning the full width.
 function fractalField(points, family, palette) {
-  const cols = 108;
-  const rows = 62;
+  // 1.5x the base 108x62 grid so post-zoom cell size (the group is scaled
+  // 1.5x below) stays close to the original visual grain instead of
+  // blocking up.
+  const cols = 162;
+  const rows = 93;
   const originX = 520;
   const spanCanvasX = 1600 - originX;
   const cellWidth = spanCanvasX / cols;
@@ -260,7 +263,7 @@ function renderSvg(brandKey, family, familyIndex) {
   <rect width="1600" height="900" fill="url(#${id}-neb-b)"/>
   <rect width="1600" height="900" fill="url(#${id}-neb-c)"/>
   <rect width="1600" height="900" filter="url(#${id}-nebula)" opacity="0.58"/>
-  <g opacity="1">${fractalField(points, family, palette)}</g>
+  <g opacity="1" transform="translate(1060,450) scale(-1.5,1.5) translate(-1060,-450)">${fractalField(points, family, palette)}</g>
   <g filter="url(#${id}-glow)" opacity="0.72">${accents.slice(0, 2).join('')}</g>
   <g opacity="0.88">${accents.join('')}</g>
   <rect width="1600" height="900" fill="url(#${id}-veil)"/>
