@@ -1,0 +1,376 @@
+{
+  "/lessons/en/digital-creativity-i/i-1-digital-images/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-1-digital-images",
+    "title": "I.1 · Introduction to Digital Images",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-2-2d-drawing/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-2-2d-drawing",
+    "title": "I.2 · 2D Digital Technology: Drawing Tools",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-3-color-bitmaps/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-3-color-bitmaps",
+    "title": "I.3 · Colour, Bitmap Images",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-4-effects/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-4-effects",
+    "title": "I.4 · Effects",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-5-three-dimensional-form/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-5-three-dimensional-form",
+    "title": "I.5 · Fundamentals and Representation of Three-Dimensional Form",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-6-volume/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-6-volume",
+    "title": "I.6 · Volume",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-7-fashion-references/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-7-fashion-references",
+    "title": "I.7 · Compositional Sources and References in Fashion Design",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-8-animation/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-8-animation",
+    "title": "I.8 · Creating Animated Digital Images",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-i/i-9-bodegones/": {
+    "asset": "page-lessons-en-digital-creativity-i-i-9-bodegones",
+    "title": "I.9 · Digital Still Lifes (Bodegones)",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-ii/ii-1-retoque-moda/": {
+    "asset": "page-lessons-en-digital-creativity-ii-ii-1-retoque-moda",
+    "title": "II.1 · Advanced Photo Retouching for Fashion Images",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-ii/ii-2-avatares/": {
+    "asset": "page-lessons-en-digital-creativity-ii-ii-2-avatares",
+    "title": "II.2 · Avatar Creation",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-ii/ii-3-experiencias-digitales/": {
+    "asset": "page-lessons-en-digital-creativity-ii-ii-3-experiencias-digitales",
+    "title": "II.3 · Designing Digital Fashion Experiences",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-ii/ii-4-video/": {
+    "asset": "page-lessons-en-digital-creativity-ii-ii-4-video",
+    "title": "II.4 · Digital Video Editing Resources",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-ii/ii-5-web-portfolio/": {
+    "asset": "page-lessons-en-digital-creativity-ii-ii-5-web-portfolio",
+    "title": "II.5 · Web Layout, Editing & Digital Portfolio Creation",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/en/digital-creativity-ii/ii-6-hologramas-ra/": {
+    "asset": "page-lessons-en-digital-creativity-ii-ii-6-hologramas-ra",
+    "title": "II.6 · Holograms & Augmented Reality",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-1-imagenes-digitales/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-1-imagenes-digitales",
+    "title": "I.1 · Introducción a las imágenes digitales",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-2-dibujo-2d/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-2-dibujo-2d",
+    "title": "I.2 · Tecnología digital 2D: Herramientas de dibujo",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-3-color-bitmaps/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-3-color-bitmaps",
+    "title": "I.3 · Color, imágenes con mapas de bits",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-4-efectos/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-4-efectos",
+    "title": "I.4 · Efectos",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-5-forma-tridimensional/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-5-forma-tridimensional",
+    "title": "I.5 · Fundamentos y representación de la forma tridimensional",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-6-volumen/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-6-volumen",
+    "title": "I.6 · Volumen",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-7-referencias-moda/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-7-referencias-moda",
+    "title": "I.7 · Fuentes y referencias compositivas en el diseño de moda",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-8-animacion/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-8-animacion",
+    "title": "I.8 · Creación de imágenes digitales animadas",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-i/i-9-bodegones/": {
+    "asset": "page-lessons-es-creacion-digital-i-i-9-bodegones",
+    "title": "I.9 · Bodegones digitales",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-ii/ii-1-retoque-moda/": {
+    "asset": "page-lessons-es-creacion-digital-ii-ii-1-retoque-moda",
+    "title": "II.1 · Retoque fotográfico avanzado de imágenes moda",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-ii/ii-2-avatares/": {
+    "asset": "page-lessons-es-creacion-digital-ii-ii-2-avatares",
+    "title": "II.2 · Creación de avatares",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-ii/ii-3-experiencias-digitales/": {
+    "asset": "page-lessons-es-creacion-digital-ii-ii-3-experiencias-digitales",
+    "title": "II.3 · Diseño de experiencias de moda digitales",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-ii/ii-4-video/": {
+    "asset": "page-lessons-es-creacion-digital-ii-ii-4-video",
+    "title": "II.4 · Recursos digitales de edición de vídeo",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-ii/ii-5-web-portfolio/": {
+    "asset": "page-lessons-es-creacion-digital-ii-ii-5-web-portfolio",
+    "title": "II.5 · Maquetación, edición y creación de web y portfolio digital",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/lessons/es/creacion-digital-ii/ii-6-hologramas-ra/": {
+    "asset": "page-lessons-es-creacion-digital-ii-ii-6-hologramas-ra",
+    "title": "II.6 · Hologramas y R.A.",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/methodology/en/ai-practical-guide/": {
+    "asset": "page-methodology-en-ai-practical-guide",
+    "title": "AI Practical Guide: The Book of the Woven Prompt",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/methodology/es/ai-practical-guide/": {
+    "asset": "page-methodology-es-ai-practical-guide",
+    "title": "Guía práctica de IA: El libro del prompt tejido",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/tao/": {
+    "asset": "page-tao",
+    "title": "El Tao del Diseño Centrado en las Personas",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  },
+  "/templates/": {
+    "asset": "page-templates",
+    "title": "Templates — HC Student Project",
+    "grammar": [
+      "platonic-solid",
+      "fractal-structure",
+      "opt-art",
+      "glitch",
+      "organic-dialogue"
+    ]
+  }
+}

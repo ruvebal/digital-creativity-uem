@@ -7,6 +7,7 @@ alwaysApply: false
 # UNIT FORGE — Creación Digital (CD I / CD II)
 
 > One unit in, three artefacts out. Grounded, hour-honest, and research-instrumented.
+> **Provenance law:** [`forge/PROVENANCE-LAW.mdc`](./forge/PROVENANCE-LAW.mdc) is fail-closed: every Athanor/Ahmes datum and evidence-bearing claim requires a complete `PROVENANCE_LINE` in a source comment.
 > **Institutional contract:** [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) + [`cv/guides/*.json`](./cv/guides/).
 > Also: [`grounding/README.md`](./grounding/README.md) · [`dc-cv-forge.mdc`](./dc-cv-forge.mdc) · vShowroom synergy (Web Atelier) · `CLAUDE.md` · `curriculum-forger` (`~/src/.cursor/skills/curriculum-forger/SKILL.md`, sibling to `user-guide-forger`) — classical-didactics axis, UbD/5E/Bloom/CLT/constructivism grounding for STEP A, cross-institution with FE · `ttod-bridge` (`~/src/.cursor/skills/ttod-bridge/SKILL.md`) — TTOD epigraphs, read and proposed, same capability FE's `fe-unit-forge.mdc` already has
 
@@ -36,13 +37,13 @@ From the guía JSON via [`oficial-guia-framework.mdc`](./oficial-guia-framework.
 | Seminarios de aplicación práctica | **20** / **20** | **B1** applied demos |
 | Debates y coloquios | **8** / **8** | **B1** debate prompts |
 | Actividades en talleres y/o laboratorios | **14** / **14** | **B2** studio brief (atelier) |
-| Investigaciones y proyectos (CD I) · Proyectos (CD II) | **20** / **20** | **B2** project milestones (contextualised) |
+| Investigaciones y proyectos | **20** / **20** | **B2** project milestones (contextualised) |
 | Resolución de problemas | **8** / **8** | **B3** exercise set (individual) |
 | Trabajo autónomo · Tutoría · Pruebas | 56 · 12 · 2 | Course-level residuals — not unit-session forged |
 
-**B2 ≠ B3.** Talleres/proyectos are workplace-like; resolución de problemas is decontextualised. Collapsing them destroys the individual-evidence channel.
+**B2 ≠ B3.** Talleres/investigaciones y proyectos are workplace-like; resolución de problemas is decontextualised. Collapsing them destroys the individual-evidence channel.
 
-> ⚠️ **Current defect:** `docs/_data/tracks.yml` carries course-level `formative_hours` that close at 150, but **zero session rows**. Every forged unit must emit all contact-forgeable keys (`clases_magistrales`, `seminarios`, `debates`, `talleres_labs`, `investigaciones_proyectos` **or** `proyectos`, `resolucion_problemas`). Totals across sessions must close at 10 / 20 / 8 / 14 / 20 / 8. Do not invent a timetable in Wave 0 — allocate when the unit exists.
+> **Reconciled track state:** `docs/_data/tracks.yml` now carries the course-level 150 h totals and every forged session row. Each unit must emit all contact-forgeable keys (`clases_magistrales`, `seminarios`, `debates`, `talleres_labs`, `investigaciones_proyectos`, `resolucion_problemas`); totals close at 10 / 20 / 8 / 14 / 20 / 8 per course. These rows are pedagogical slices, not an institutional week-by-week timetable.
 >
 > **VTON / try-on is out of sprint scope.**
 
@@ -63,7 +64,13 @@ curl -s -X POST http://localhost:8100/vectors/search \
 # then: ahmes query --cite "$DB:<node_id>" --style chicago-author-date
 ```
 
-Cite `⟨coat⟩ · nodo ⟨id⟩ · p. ⟨n⟩`. If evidence matrix says NONE → declared-gap paragraph.
+Resolve privately as `⟨coat⟩ · nodo ⟨id⟩ · p. ⟨n⟩`. Student-facing prose
+publishes Chicago author-date only — `(Author Year, page)` plus a complete
+`References` / `Referencias` entry. Keep coat/node/page/resolver/discovery
+details in the lesson source inside the switch-gated `curriculum-internal`
+comment required by `curriculum-forger` §6.1. If the evidence matrix says
+NONE, state the epistemic limit in ordinary teaching language and keep the
+internal status vocabulary in that source-only comment.
 
 ### 2.1 Athanor-assisted forge ignitor
 
@@ -76,7 +83,8 @@ unit use. Then resolve the candidate in Ahmes:
 ```text
 Athanor candidate → source hash / document → Ahmes extraction.db
 → complete node + page → ahmes query --cite → evaluator_safe gate
-→ lesson claim, or explicit [BIBLIO-GAP]/NONE
+→ public lesson claim/citation, or an open-question statement; complete
+  [BIBLIO-GAP]/NONE audit remains source-only
 ```
 
 Ignitor query seeds:
@@ -132,8 +140,7 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
   - seminarios: <h>
   - debates: <h>
   - talleres_labs: <h>
-  - investigaciones_proyectos: <h>  # CD I only (PDF name)
-  - proyectos: <h>                   # CD II only (PDF name)
+  - investigaciones_proyectos: <h>  # current PDF name for CD I and CD II
   - resolucion_problemas: <h>
 - ARTEFACT ROLE: <vShowroom / portfolio / none>
   <!-- Deferred 2026-08-20, operator's own call: default to `portfolio` or
@@ -148,7 +155,12 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
 1. Open GUIDE_JSON + `oficial-guia-framework.mdc`. Confirm anchors and competencies exist.
 2. Open `cv/UNIT-PLAN.md` and the **evidence matrix row for UNIT_ID** in `grounding/README.md`. That row is authoritative over the 2026-08-11 harvest demo.
 3. If the row is SAFE: cite `⟨coat⟩ · nodo ⟨id⟩ · p. ⟨n⟩` from the row (re-open the node; do not paste vector previews).
-4. If the row is NONE or `[BIBLIO-GAP]`: declared-gap paragraph. Tool docs ground HOW, never WHY THIS SEQUENCE TEACHES WELL. `[BIBLIO-GAP]` coats may be quoted in the lesson with the gap visible; they must **not** enter the CV bibliography.
+4. If the row is NONE or `[BIBLIO-GAP]`: keep the full status and resolver
+   reason in the source-only gated provenance comment. Tool docs ground HOW,
+   never WHY THIS SEQUENCE TEACHES WELL. In visible lesson prose, state only
+   the pedagogically useful limit/open question; do not expose the internal
+   label, source architecture, or an unsafe author-date citation. Unsafe
+   records must **not** enter the lesson or CV bibliography.
 5. Cross-check vShowroom synergy only if ARTEFACT ROLE ≠ none. Exhibition requires signed **S1/S2** ([`consent/S-SET.md`](./consent/S-SET.md)); research reuse requires **C-set** administered by the IP, not the teacher ([`consent/README.md`](./consent/README.md)).
 6. Pick a TTOD epigraph by ID through `~/src/.cursor/skills/ttod-bridge/SKILL.md`
    — never by hand-parsing `~/src/ttod/ttod.yml` or hand-appending YAML to
@@ -156,6 +168,15 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
    bridge (`origin: blackbox`, `source` naming this unit) stages it for
    human review; it is never cited as canonical until a human accepts it
    via TTOD's own `cli.py add`.
+7. Every visible TTOD epigraph must receive the Tao quote visual treatment:
+   use the visual-forger grammar as a transparent, low-contrast nebula shader
+   field. Do not use partial/cropped geometry, heavy ornamental shapes, dark
+   blue-purple title-card grounds, embedded quote text, Ahmes/Athanor/DevIAC
+   metadata, node IDs, or local paths inside the artwork. The current site
+   implementation applies this through `.tao-development-quote` in
+   `docs/assets/css/site.css` and the lesson layout enhancer; future forks may
+   replace the asset, but must preserve transparency, readable text, and
+   source/visual separation.
 
 ## STEP B — EMIT THREE ARTEFACTS
 
@@ -188,6 +209,9 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
 - CONTENIDOS + competencies ⊆ JSON.
 - `npm run build` — no leak of `digital-creativity-pedagogy/`.
 - Nodes resolve; one-line statement of missing evidence.
+- `npm run verify:publication` and `npm run verify:citations` pass: no
+  internal corpus/local-architecture metadata in rendered output; cited
+  lessons use Chicago author-date and end with References/Referencias.
 ```
 
 ---

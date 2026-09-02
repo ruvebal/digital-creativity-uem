@@ -22,20 +22,26 @@ tags: [metodologia, creacion-digital, moda-digital, portfolio, avatares, pedagog
 
 ## Por qué una metodología propia
 
-**Web Foundations** (UDIT) enseña **oficio de interfaz** — HTML, CSS, JavaScript, React, WebGL. **Creación Digital** (UEM) enseña **creación de moda en medios digitales** — volumen, avatar, experiencia, portfolio, AR — y el juicio cultural que decide qué se exhibe.
+**Creación Digital** (UEM) enseña **creación de moda en medios digitales** — volumen, avatar, experiencia, portfolio, AR — y el juicio cultural que decide qué se exhibe. El oficio de interfaz y el runtime web del showroom viven en un **programa hermano**; este curso posee el artefacto digital de moda y su ética de exhibición.
 
 Comparten un lema:
 
 > **Critical Coding for a Better Living**  
 > *Codificación crítica para una vida mejor*
 
-| Web Foundations pregunta… | Creación Digital pregunta… |
+| Pregunta del runtime web… | Pregunta de Creación Digital… |
 | --- | --- |
 | ¿Se renderiza? ¿Es accesible? | ¿El look comunica? ¿A quién atribuye? |
 | ¿El commit narra el proceso? | ¿El portfolio hace visible el proceso bajo GenAI? |
 | ¿El 3D cabe en el presupuesto de rendimiento? | ¿El avatar / la prenda digital es exhibible sin vender el alma al visor propietario? |
 
-La laguna documentada del campo (mapa en `digital-creativity-pedagogy/grounding/`) pide exactamente eso: **proceso, autoría, iteración y juicio visibles**. Esta metodología responde en el aula.
+La laguna documentada en la revisión del campo pide exactamente eso: **proceso, autoría, iteración y juicio visibles**. Esta metodología responde en el aula.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+Fuente del mapa de campo: `digital-creativity-pedagogy/grounding/`.
+-->
+{% endif %}
 
 ---
 
@@ -51,7 +57,7 @@ La laguna documentada del campo (mapa en `digital-creativity-pedagogy/grounding/
 
 ## Relación con el artefacto compartido
 
-En S2, CD II opera como **usuaria real** del vShowroom construido por Front-End II (UDIT): publica piezas, abre issues, no actúa como “cliente inventado”. Ver sinergia en el repo hermano Web Atelier.
+En S2, CD II opera como **usuaria real** del **showroom digital compartido (L3)**: publica piezas, abre issues y critica como cohorte auténtica, no como “cliente inventado”. La autoría de prenda puede usar **CLO 3D** en el flujo paralelo de diseño de moda; el runtime web del showroom se mantiene fuera de este repositorio.
 
 ---
 

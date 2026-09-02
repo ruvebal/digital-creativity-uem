@@ -1,5 +1,6 @@
 <!--
 Forged per dc-cv-forge.mdc, 2026-08-14. Modality: presencial (default).
+**Spanish mirror.** Canonical English CV: uem-ruvebal-digital-creativity-i-cv.md
 Authority: live PDF 9729001103 (academic year 2026-27), cloned into
 cv/guides/1-creacion-digital-i.json the same day. Do not revert to the
 unicrawler 2025-2026 scrape.
@@ -98,7 +99,7 @@ and summed 140 — that was a scrape hole, not a curricular difference from CD I
 Contact-forgeable (session-allocated when units exist): 10 + 20 + 8 + 20 + 14 + 8 = **80 h**.
 Residuals (course-level only): autónomo 56 + tutoría 12 + pruebas 2 = **70 h**.
 
-Per-session rows in `docs/_data/tracks.yml` are still empty — do not invent a timetable here.
+Per-session rows in `docs/_data/tracks.yml` under `creacion-digital-i` → `sessions_list` (80/80 h closed 2026-08-28).
 
 ## 8. Sistema de evaluación — Modalidad presencial
 

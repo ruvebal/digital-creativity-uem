@@ -6,7 +6,7 @@
 **Contract (do not rewrite):** [`../dc-unit-forge.mdc`](../dc-unit-forge.mdc)  
 **Hours/eval/CONTENIDOS:** [`../oficial-guia-framework.mdc`](../oficial-guia-framework.mdc)  
 **Guide JSON:** [`../cv/guides/3-creacion-digital-ii.json`](../cv/guides/3-creacion-digital-ii.json)  
-**PDF:** https://universidadeuropea.es/myfiles/pr/9729001108.pdf (2025-2026)  
+**PDF:** https://universidadeuropea.es/myfiles/pr/9729001108.pdf (2026-27; checked 2026-08-23)
 **Unit IDs:** [`../cv/UNIT-PLAN.md`](../cv/UNIT-PLAN.md)  
 **Matrix (authoritative over harvest demo):** [`../grounding/README.md`](../grounding/README.md)  
 **Consent (unsigned templates only):** [`../consent/S-SET.md`](../consent/S-SET.md) · [`../consent/README.md`](../consent/README.md)
@@ -36,10 +36,10 @@ This file is the filled master prompt. The `.mdc` is the procedure. Do not use F
 | `seminarios` | 3 | 17 of 20 |
 | `debates` | 1 | 7 of 8 |
 | `talleres_labs` | 3 | 11 of 14 |
-| `proyectos` | 4 | 16 of 20 |
+| `investigaciones_proyectos` | 4 | 16 of 20 |
 | `resolucion_problemas` | 1 | 7 of 8 |
 
-Contact this unit: **14 h**. Do not emit `investigaciones_proyectos` (CD I name). Do not allocate `trabajo_autonomo` / `tutoria` / `pruebas` on the session.
+Contact this unit: **14 h**. Do not allocate `trabajo_autonomo` / `tutoria` / `pruebas` on the session.
 
 - ARTEFACT ROLE: **portfolio** — a public-ready page *may* later ingest to vShowroom (L3). L3 does not rewrite the CONTENIDO. Exhibition is **not** live in this run.
 - COHORT: UEM Grado en Comunicación y Gestión de Moda · S2 · n ≈ (leave blank if unknown)
@@ -49,7 +49,7 @@ Contact this unit: **14 h**. Do not emit `investigaciones_proyectos` (CD I name)
 - Register in `docs/_data/lessons.yml`
 - Track pages: `docs/tracks/en/digital-creativity-ii/index.md` · `docs/tracks/es/creacion-digital-ii/index.md`
 
-Frontmatter pattern (emancipation = hc-app-design): `layout: lesson`, `lang`, `permalink` `/lessons/en/digital-creativity-ii/ii-5-web-portfolio/` and `/lessons/es/creacion-digital-ii/ii-5-web-portfolio/`, bilingual `title` / `title_es` (or ES file `title_en`), `status: draft`, `author: Rubén Vega Balbás, PhD`. TOC fence as other lessons in that layout. Pages must not leak `digital-creativity-pedagogy/`.
+Frontmatter pattern (emancipation = hc-app-design): `layout: lesson`, `lang`, `permalink` `/lessons/en/digital-creativity-ii/ii-5-web-portfolio/` and `/lessons/es/creacion-digital-ii/ii-5-web-portfolio/`, bilingual `title` / `title_es` (or ES file `title_en`), `status: scaffold`, `author: Rubén Vega Balbás, PhD`. TOC fence as other lessons in that layout. Pages must not leak `digital-creativity-pedagogy/`.
 
 ## STEP A — GROUND BEFORE WRITING
 
@@ -66,15 +66,15 @@ Frontmatter pattern (emancipation = hc-app-design): `layout: lesson`, `lang`, `p
 
 ### B1 · Conceptual (magistral 2 + seminarios 3 + debates 1)
 - One-sentence claim: process and authorship must be visible on the portfolio page; polish without a trail is not the learning outcome.
-- CONTENIDOS + competencies + eval weights quoted from framework §6 (presencial: pruebas 55 · informes 15 · caso 20 · proyectos 10).
+- CONTENIDOS + competencies + eval weights quoted from framework §6 (presencial: pruebas 55 · caso 15 · investigaciones y proyectos 20 · cuaderno 10).
 - Anwar + Rizzi as WHY visibility; gap paragraph on UX-as-research.
 - Debate prompt: what counts as “the work” when a look was co-made with a generator.
 - Speaker outline ≤ 12 claims. No reveal.js in this run.
 
-### B2 · Studio (talleres 3 + proyectos 4)
+### B2 · Studio (talleres 3 + investigaciones y proyectos 4)
 - Deliverable: one portfolio page (or small static site) that maquetas the student’s own CD work with process trail + AI-use declaration. Quality bar = JSON «calidad profesional», not a FE meta-framework course.
 - Definition of done: page exists locally; piece ID; process folder; unsigned S1/S2 attached *if* they want exhibition later. Public showroom URL is **not** required.
-- Evidence maps to evaluation **Proyectos** (10%) and can feed **Informes y escritos** (15%) — say so; do not invent a fourth weight.
+- Evidence maps to evaluation **Investigaciones y proyectos** (20%) and **Cuaderno de prácticas de laboratorio/taller** (10%) — say so; do not invent a fourth weight.
 - Tool docs dated; labelled Excerpt / Template (no CodeSandbox-ready unless a complete static file really runs).
 
 ### B3 · Resolución de problemas (1 h) — INDIVIDUAL
@@ -93,7 +93,7 @@ sessions_list:
     seminarios: 3
     debates: 1
     talleres_labs: 3
-    proyectos: 4
+    investigaciones_proyectos: 4
     resolucion_problemas: 1
 ```
 

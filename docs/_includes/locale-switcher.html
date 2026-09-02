@@ -1,8 +1,7 @@
 {% comment %}
   locale-switcher.html
   Renders a link to the equivalent page in the other language.
-  Uses page.lang, page.slug, and _data/lessons.yml for cross-reference.
-  Cannot live in layout — ES/EN URL conventions differ per slug.
+  Uses page.lang, page.slug, _data/lessons.yml, and _data/tracks.yml.
   Usage: {% include locale-switcher.html %}
 {% endcomment %}
 {% assign other_lang = 'es' %}
@@ -17,14 +16,24 @@
   {% assign switcher_label = 'ES' %}
 {% endif %}
 
-{% comment %} Look up lesson cross-reference in _data/lessons.yml by current URL {% endcomment %}
-{% for lesson in site.data.lessons %}
-  {% if page.lang == 'es' and lesson.path.es contains page.slug %}
-    {% if lesson.path.en %}{% assign switcher_url = lesson.path.en %}{% endif %}
-  {% elsif page.lang == 'en' and lesson.path.en contains page.slug %}
-    {% if lesson.path.es %}{% assign switcher_url = lesson.path.es %}{% endif %}
+{% if page.url contains '/lessons/' %}
+  {% assign current_lesson = site.data.lessons | where: 'slug', page.slug | first %}
+  {% if current_lesson %}
+    {% if other_lang == 'en' and current_lesson.path.en %}
+      {% assign switcher_url = current_lesson.path.en %}
+    {% elsif other_lang == 'es' and current_lesson.path.es %}
+      {% assign switcher_url = current_lesson.path.es %}
+    {% endif %}
   {% endif %}
-{% endfor %}
+{% elsif page.url contains '/tracks/' %}
+  {% for track in site.data.tracks %}
+    {% if page.lang == 'es' and track.path.es == page.url %}
+      {% if other_lang == 'en' and track.path.en %}{% assign switcher_url = track.path.en %}{% endif %}
+    {% elsif page.lang == 'en' and track.path.en == page.url %}
+      {% if other_lang == 'es' and track.path.es %}{% assign switcher_url = track.path.es %}{% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 {% comment %} Fallback: methodology and track index pages {% endcomment %}
 {% if switcher_url == nil %}
@@ -32,10 +41,6 @@
     {% assign switcher_url = '/methodology/en/' | prepend: site.baseurl %}
   {% elsif page.url contains '/methodology/en' %}
     {% assign switcher_url = '/methodology/es/' | prepend: site.baseurl %}
-  {% elsif page.url contains '/tracks/es/diseno-centrado-usuario' %}
-    {% assign switcher_url = '/tracks/en/user-centered-app-development/' | prepend: site.baseurl %}
-  {% elsif page.url contains '/tracks/en/user-centered-app-development' %}
-    {% assign switcher_url = '/tracks/es/diseno-centrado-usuario/' | prepend: site.baseurl %}
   {% elsif page.url contains '/tracks/es' %}
     {% assign switcher_url = '/tracks/en/' | prepend: site.baseurl %}
   {% elsif page.url contains '/tracks/en' %}

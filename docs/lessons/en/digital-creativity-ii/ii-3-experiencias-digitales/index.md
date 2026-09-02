@@ -8,7 +8,7 @@ author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /lessons/en/digital-creativity-ii/ii-3-experiencias-digitales/
 description: 'A digital fashion experience is a staging decision, not a technology checklist — stimulus type measurably changes audience response.'
-status: draft
+status: scaffold
 tags: [digital-creativity-ii, experience-design, staging, immersion, genai-studio]
 ---
 
@@ -25,30 +25,23 @@ tags: [digital-creativity-ii, experience-design, staging, immersion, genai-studi
 
 > _"Your 404 page is a mirror. What does it reflect?"_
 > — Tao of Development, `img-024`
+{: .tao-development-quote }
 
 > **AI Assistance Disclosure:** staging tools (360° capture, interactive builders, generative asset tools) are studio-normal. Every experience concept carries a written rationale for the stimulus choice and, where a generator was used, an AI-use declaration.
 
 ---
 
-## Code conventions in this unit
-
-- **CodeSandbox-ready** — complete file, copy-paste, runs as-is.
-- **Excerpt** — partial pattern, illustrative. Does **not** run as-is.
-- **Template** — copy and replace placeholder values before use.
-
-No runnable code in this unit — it is a staging-brief/studio unit. Any platform tool reference is a dated note.
-
----
+{% include lesson-semantic-graphic.html %}
 
 ## Where this sits — CONTENIDOS and competencies
 
 **CONTENIDOS anchor (verbatim, official guía):** *Diseño de experiencias de moda digitales.*
 
-**Competencies served:** `CON1`, `HAB1`, `COMP8`, `COMP9`.
+**Competencies served (`3-creacion-digital-ii.json`):** `CON1` (differentiate audiovisual representation techniques and their dissemination media), `HAB1` (graphically represent fashion ideas), `COMP8` (handle digital graphic/audiovisual representation tools in fashion communication), `COMP9` (create new ideas from known concepts, solving problems originally).
 
-**Learning outcomes this unit serves:** *"Realizar campañas digitales de moda."* · *"Diseñar estrategias creativas de comunicación digital en empresas de moda."*
+**Learning outcomes this unit serves** (verbatim from `learning_outcomes`): *"Realizar campañas digitales de moda."* · *"Diseñar estrategias creativas de comunicación digital en empresas de moda."*
 
-**Evaluation weights this unit's evidence can feed:** **Proyectos 10%** scores the staging brief; the rationale can feed **Informes y escritos 15%**.
+**Evaluation weights this unit's evidence can feed** (CD II presencial, framework §6): **Investigaciones y proyectos 20%** scores the staging brief; the rationale can feed **Cuaderno de prácticas de laboratorio/taller 10%**.
 
 ---
 
@@ -59,39 +52,75 @@ By the end of this unit, you will be able to:
 - **Write a staging brief** for a digital fashion experience concept — stimulus type, degree of immersion, and the audience response it targets.
 - **Name the trade-off** between immersion and access/cost/practicality for a given brand goal.
 - **Cite the evidence correctly** — what Kim (2023) shows about stimulus type, and what it does not show about teaching method.
-- **Avoid metaverse overclaiming** — know which adjacent coats stay unusable and why.
+- **Design for observation and reflection** — digital fashion experiences can support observation when they give viewers time, multiple views, and close-ups (Smith-Glaviana 2025, 1).
 
 ---
 
-## Why this unit exists: staging is a design decision with a measured effect
+## Why this unit exists — staging is a design decision with a measured effect
 
 **Claim:** a digital fashion "experience" is a staging decision — what stimulus type, what degree of immersion — not a technology checklist to complete. This matters because the staging choice is not neutral: it measurably changes the audience's response.
 
-A controlled comparison of stimulus types for the same fashion show — a screened/flat recording versus a 360°/VR presentation of Dior's 2017 Spring/Summer Haute Couture show — found the stimulus type shapes participant response differently (Kim 2023; Ahmes coat `10_3389_fpsyg_2023_1276856_virtual_fashion_experiences_in_virtual_reality_fashion_show_ddb20bc5`, node `b83ed780-006c-56e2-ab8b-8f68fa6f9499`, p.5(→6) — *"Stimulus 1, Dior's 2017 Spring/Summer Haute Couture Show, was produced by recording the live fashion show so that partic[ipants]…"*). Live-verified this session: `(Kim 2023, 6)`, **evaluator_safe=yes**.
+A controlled comparison of stimulus types for the same fashion show — a screened/flat recording versus a 360°/VR presentation of Dior's 2017 Spring/Summer Haute Couture show — found that the stimulus type shapes participant response differently (Kim 2023, 6).
+
+Smith-Glaviana's study of 62 students viewing a narrated digital tour of a physical fashion exhibition adds a second, bounded design criterion: digital fashion experiences can support observation and reflection when they give viewers time, multiple views, and close-ups. That finding informs this unit's brief — specify where the audience pauses, looks again, or changes viewpoint — but it is evidence about student experience and object-based learning, not a validated teaching sequence or an AR result (Smith-Glaviana 2025, 1).
 
 **What this grounds:** *how industry stages a digital experience matters to the audience it produces for that experience* — a phenomenon finding. **What it does not ground:** any particular *teaching sequence* for experience design. Read it as evidence of the phenomenon this unit's craft responds to, not as proof this unit's method works.
 
-### Declared gap
+**Practice anchor (field lens):** stimulus capture (recorded / 360° / interactive), journey mapping, orientation, close-up/detail view, and reflection prompt as durable design moves — separate from any one platform's UI or effect menu.
 
-A separate metaverse-focused coat in the same field map (referred to elsewhere as C1/C2) remains `evaluator_safe=no` and is **not used here** — do not substitute it for the Kim citation above.
+**Frontier signal (field lens):** metaverse and immersive-brand narratives may outpace evidence on access, legibility, and learning; treat any "more immersive" claim as a hypothesis to test against audience burden, not a default upgrade.
+
+## Critical perspective
+
+Digital mediatization of fashion reaches not only its communication but runway design, retail, and the everyday practices through which a visible self is produced (Rocamora 2017).
+
+Virtual fashion shows can widen certain forms of access but also create friction and generational differences; format innovation does not guarantee an equally legible experience for every audience (Farah, Ramadan, and Nassereddine 2025).
 
 ### The debate prompt
 
 When does "more immersive" stop being "better," for a fashion brand's actual goals — reach, cost, accessibility, or the message itself?
 
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.3.video.tour-breakdown" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-03-experience-audience-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for a digital fashion tour breakdown demonstration; no people or garments depicted." loading="lazy" />
+<figcaption>
+<p><strong>Why this is here:</strong> A short breakdown pauses before each staging move so students label orientation, object view, and reflection time.</p>
+<p><strong>Look for:</strong> Entry cue, observation pause, close-up affordance, and what each step forecloses.</p>
+<p class="media-note">Placeholder visual — licensed media pending review.</p>
+</figcaption>
+</figure>
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.3.still.journey-exemplar" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-03-experience-audience-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for guided journey exemplar and overwhelming-interface counterexample; no people or garments depicted." loading="lazy" />
+<figcaption>
+<p><strong>Why this is here:</strong> Paired stills test legibility, pacing, and what remains readable after interface decoration.</p>
+<p><strong>Look for:</strong> Clear object path versus decoration that hides the garment.</p>
+<p class="media-note">Placeholder visual — licensed media pending review.</p>
+</figcaption>
+</figure>
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.3.graphic.journey-map" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-03-experience-audience-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract diagram placeholder for enter-orient-inspect-reflect-exit journey chain; no people or garments depicted." loading="lazy" />
+<figcaption>
+<p><strong>Why this is here:</strong> Maps enter → orient → inspect → compare → reflect → exit.</p>
+<p><strong>Look for:</strong> Where a missing pause or close-up could be added without adding immersion for its own sake.</p>
+<p class="media-note">Placeholder visual — licensed media pending review.</p>
+</figcaption>
+</figure>
+
 ---
 
 ## B1 · Conceptual — magistral 1 h + seminarios 3 h + debates 1 h
 
-Present the Kim (2023) stimulus-comparison finding, then run the debate prompt. Make the evidence boundary explicit before students draft a brief: Kim tells you staging changes response, not which staging choice is "correct" for a given goal.
+Covered above: Kim/Smith-Glaviana framing, critical lens, debate, and placeholders. Present the Kim (2023) stimulus-comparison finding, then run the debate prompt. Make the evidence boundary explicit before students draft a brief: Kim tells you staging changes response, not which staging choice is "correct" for a given goal.
 
 ---
 
-## B2 · Taller — talleres 2 h + proyectos 3 h (workplace-like, contextualised)
+## B2 · Taller — talleres 2 h + investigaciones y proyectos 3 h (workplace-like, contextualised)
 
 **Deliverable:** a short **staging brief** (not a finished build) for one digital fashion experience concept — chosen stimulus type (recorded / 360° / interactive), the audience response it is designed to produce, and why, referencing the Kim finding correctly.
 
-**Definition of done:** brief exists; piece ID assigned; process folder kept.
+**Definition of done:**
+- Brief exists; piece ID assigned; process folder kept even if not published.
 
 **If you want this piece exhibited publicly** (vShowroom), attach the **unsigned** consent checklist below. Filling it in is not signing it.
 
@@ -115,7 +144,12 @@ Default: **attributed** (name as the student writes it).
 
 S2 without S1 does nothing. S1 without S2 defaults to attributed.
 
-**Evidence this deliverable maps to:** **Proyectos (10%)** directly; the rationale can support **Informes y escritos (15%)**. No fourth weight is claimed.
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+**Evidence:** Investigaciones y proyectos 20% (staging brief); Cuaderno 10% (rationale). S1/S2 optional for vShowroom exhibition — attach unsigned drafts only; no live consent instrument.
+Any platform tool reference is a dated note, not a research citation — check versions before class.
+-->
+{% endif %}
 
 ---
 
@@ -123,14 +157,40 @@ S2 without S1 does nothing. S1 without S2 defaults to attributed.
 
 1. **Diagnostic.** Given two stimulus-type descriptions for the same show (screened recording vs. 360° capture), predict which Kim's finding suggests produces a stronger response, and say in one sentence why that is a prediction, not a guarantee.
 2. Write a one-paragraph staging rationale, by hand, for a described experience concept.
-3. **No-AI, declared:** name why the C1/C2 metaverse coat is not cited in this unit's evidence gate, in one sentence.
+3. **No-AI, declared:** explain in one sentence why an unresolved metaverse reference is not used as evidence in this unit.
 
-Professor answer sketches are not published on this page.
+Professor answer sketches are not published on this page — kept in the instructor's private notes.
+
+{% comment %}
+outcome-graphic-selection:
+  source-section: "B3 · Resolución de problemas"
+  visual-grammar: "staged-response — different experience paths create different response waves inside an uncertainty field"
+{% endcomment %}
+{% include lesson-outcome-graphic.html %}
 
 ---
 
-## Provenance and evidence gate
+## References
 
-- Kim, S. (2023), *Virtual fashion experiences in virtual reality fashion shows*, Frontiers in Psychology, `10.3389/fpsyg.2023.1276856`. Ahmes coat `10_3389_fpsyg_2023_1276856_virtual_fashion_experiences_in_virtual_reality_fashion_show_ddb20bc5`, node `b83ed780-006c-56e2-ab8b-8f68fa6f9499`, p.5(→6). `(Kim 2023, 6)`. Live-verified this session via `ahmes query --cite --require-evaluator-safe`, **evaluator_safe=yes**.
-  <!-- provenance: matrix row II.3 in digital-creativity-pedagogy/grounding/README.md; re-confirmed live this session, not assumed from the matrix text; node text read directly from fission_node.markdown_content -->
-- **Missing evidence — declared, not papered over:** Kim (2023) is SAFE as *phenomenon* evidence (stimulus type changes response) only. No vault source validates a *teaching sequence* for digital-experience design — that remains `[UNVERIFIED-GAP]`. The C1/C2 metaverse coat stays `evaluator_safe=no` and is not used.
+- Farah, M. F., Z. Ramadan, and Y. Nassereddine. 2025. "Mind the gap: virtual fashion shows and generational disparities." *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2025.2489380.
+- Kim, S. 2023. "Virtual Fashion Experiences in Virtual Reality Fashion Shows." *Frontiers in Psychology*. https://doi.org/10.3389/fpsyg.2023.1276856.
+- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory*. https://doi.org/10.1080/1362704X.2016.1173349.
+- Smith-Glaviana, Dina. 2025. "University Students' Experience of a Digital Fashion Exhibition: Engagement, Embodiment, and Object-Based Learning." *Clothing and Textiles Research Journal* 43 (1): 32–47.
+
+**Declared gap — stated plainly.** Kim (2023) and Smith-Glaviana (2025) support phenomenon and experience-design criteria respectively; they do **not** prove that this classroom's staging sequence, brief rubric, or deliverable teaches digital experience design better than an alternative. No reviewed source validates an experience-design teaching sequence for HE. Rocamora (2017) and Farah et al. (2025) inform critical reading of mediatization and virtual access; they do not substitute for a validated classroom method.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+PROFIELD_ROUTING: unit=II.3; temario=T2-avatars-experiences.pass1.resultant.mdc § experiences; subfield_runs=digital-creativity/03-temario-critica/C1-fashion-digital-world.pass1.resultant.mdc + C2-fashion-virtuality.pass1.resultant.mdc
+CRITICAL_ROUTING: unit=II.3; critica=C1 Rocamora mediatization L27–L28; C2 Farah virtual access L195–L202; session visitor-burden prompt
+PROVENANCE_LINE: claim=II.3.claim.stimulus-type-response; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="stimulus type fashion show VR 360 Kim Dior"; source_locator=T2-avatars-experiences.pass1.resultant.mdc § Kim; similarity=null; proposed_use="phenomenon anchor"}; source={document_coat=ddb20bc5; extraction_db=ahmes-library/scholar/documents/10_3389_fpsyg_2023_1276856_virtual_fashion_experiences_in_virtual_reality_fashion_show_ddb20bc5/extract/extraction.db; node_id=b83ed780-006c-56e2-ab8b-8f68fa6f9499; page_index=5; printed_page=6}; resolver="ahmes query --cite extraction.db:b83ed780-006c-56e2-ab8b-8f68fa6f9499 --require-evaluator-safe evaluator_safe=yes"; quote="Stimulus 1, Dior's 2017 Spring/Summer Haute Couture Show"; public_citation="(Kim 2023, 6)"; supports="stimulus type shapes participant response"; does_not_support="experience-design teaching sequence or correct staging choice"
+PROVENANCE_LINE: claim=II.3.claim.digital-tour-observation; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="digital fashion exhibition observation reflection close-ups Smith-Glaviana"; source_locator=T2-avatars-experiences.pass1.resultant.mdc § Smith-Glaviana; similarity=null; proposed_use="experience criteria anchor"}; source={document_coat=none; extraction_db=ahmes-library/scholar/documents/university_students_experience_of_a_digital_fashion_exhibition_engagement_embodiment_and_object_based_learning/extract/extraction.db; node_id=19f2e4c6-34e6-599a-8b5c-87a01bc08900; page_index=0; printed_page=1}; resolver="ahmes query --cite extraction.db:19f2e4c6-34e6-599a-8b5c-87a01bc08900 --require-evaluator-safe evaluator_safe=yes"; quote="time, multiple views, and close-ups"; public_citation="(Smith-Glaviana 2025, 1)"; supports="digital tours can support observation and reflection with time and close-ups"; does_not_support="validated AR teaching sequence or learning-effect claim"
+PROVENANCE_LINE: claim=II.3.gap.experience-design-sequence; status=NONE; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="validated digital fashion experience design teaching sequence HE"; source_locator=T2-avatars-experiences.pass1.resultant.mdc; similarity=null; proposed_use="honest gap retained"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="validated experience-design method for fashion students"
+PROVENANCE_LINE: claim=II.3.critical.mediatization; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="mediatizacion digital campo moda Rocamora"; source_locator=C1-fashion-digital-world.pass1.resultant.mdc L27; similarity=null; proposed_use="critical theoretical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=DOI 10.1080/1362704X.2016.1173349 not in scholar vault; public_citation="(Rocamora 2017)"; supports="media logics penetrate fashion production circulation and self-fashioning"; does_not_support="mandatory Rocamora reading assignment"
+PROVENANCE_LINE: claim=II.3.critical.virtual-access; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="virtual fashion shows accessibility generational disparities Farah"; source_locator=C2-fashion-virtuality.pass1.resultant.mdc L195; similarity=null; proposed_use="access corrective"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=DOI 10.1080/17543266.2025.2489380 not in scholar vault; public_citation="(Farah, Ramadan, and Nassereddine 2025)"; supports="virtualization does not automatically equal accessibility"; does_not_support="which staging format students must choose"
+PROVENANCE_LINE: claim=II.3.critical.visitor-burden-prompt; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="digital tour access visitor burden"; source_locator=ii-3-digital-experiences.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming visitor burden as studio question"; does_not_support="empirical claim about cohort norms"
+MEDIA_RIGHTS_LINE: slot=II.3.video.tour-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+MEDIA_RIGHTS_LINE: slot=II.3.still.journey-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+MEDIA_RIGHTS_LINE: slot=II.3.graphic.journey-map; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}

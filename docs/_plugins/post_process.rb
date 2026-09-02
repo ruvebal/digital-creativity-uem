@@ -21,7 +21,12 @@ Jekyll::Hooks.register :site, :post_write do |site|
   stdout, stderr, status = Open3.capture3('node', 'scripts/mark-broken-links.mjs', chdir: cwd)
   puts stdout unless stdout.empty?
   puts stderr unless stderr.empty?
+
+  # Strip source-only Markdown helper attributes from generated HTML
+  Jekyll.logger.info "Running strip-markdown-helper-attrs..."
+  stdout, stderr, status = Open3.capture3('node', 'scripts/strip-markdown-helper-attrs.mjs', chdir: cwd)
+  puts stdout unless stdout.empty?
+  puts stderr unless stderr.empty?
   
   Jekyll.logger.info "Post-processing complete!"
 end
-

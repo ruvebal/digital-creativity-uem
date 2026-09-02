@@ -1,0 +1,6 @@
+{% assign page_art = site.data.page_art[page.url] %}
+{% if page_art %}
+<figure class="page-art" data-page-art-grammar="{{ page_art.grammar | join: ' ' }}" markdown="0">
+<img src="{{ '/assets/images/page-art/' | append: page_art.asset | append: '.svg' | relative_url }}" width="1600" height="360" alt="Generative geometric artwork for {{ page_art.title | escape }}" />
+</figure>
+{% endif %}

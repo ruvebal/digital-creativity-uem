@@ -1,0 +1,18 @@
+{
+  "current": "book-of-the-woven-prompt-cv-index-20260831-v2",
+  "releases": [
+    {
+      "id": "book-of-the-woven-prompt-cv-index-20260831-v2",
+      "svg": "book-of-the-woven-prompt-cv-index-20260831-v2.svg",
+      "png": "book-of-the-woven-prompt-cv-index-20260831-v2.png",
+      "background": "page-index-background-20260831.png",
+      "background_source": "../page-art/page-index.svg",
+      "description": "Code-authored poster field for the AI practical guide, preserving the main Digital Creativity index artwork as its background grammar."
+    },
+    {
+      "id": "book-of-the-woven-prompt-legacy-20260831",
+      "png": "book-of-the-woven-prompt.png",
+      "description": "Previous allegorical raster release retained as a legacy reference."
+    }
+  ]
+}

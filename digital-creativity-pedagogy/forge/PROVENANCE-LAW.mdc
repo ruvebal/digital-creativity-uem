@@ -1,0 +1,102 @@
+---
+description: Fail-closed provenance law for Athanor discovery and Ahmes evidence in the CD curriculum forge
+globs: 'digital-creativity-pedagogy/**,docs/lessons/**,docs/tracks/**'
+alwaysApply: false
+---
+
+# PROVENANCE LAW — Athanor / Ahmes curriculum evidence
+
+This is the controlling rule for every CD I / CD II forge run.
+
+## Three layers (not contradictory)
+
+| Layer | What it looks like | Where it lives | Can students see it? |
+| --- | --- | --- | --- |
+| **1 · Profield routing** | `[ESTABLISHED]` / `[EMERGING]` bullets in `~/src/profield/runs/…` | pass artefacts + `03-temario-critica/C1–C3` | **Yes — verbatim when pass-audited** (excellent summaries); route in comments too |
+| **2 · PROVENANCE_LINE** | One machine-readable record per **public claim** | switch-gated `curriculum-internal` comment | **No** |
+| **3 · Public lesson** | Chicago `(Author Year[, page])` + **References / Referencias** | lesson body + final bibliography section | **Yes** |
+
+Use Profield to **route** and to **draft** layer 3 prose. Layer 2 records whether Ahmes has verified the
+claim (`VERIFIED`) or ingest is still blocked (`[BIBLIO-GAP]`). **References are built from layer 2**
+metadata — every `public_citation` in the lesson must have a matching Chicago entry at the end.
+
+### `[BIBLIO-GAP]` workflow (mandatory before keeping a gap)
+
+1. Check `digital-creativity-pedagogy/grounding/gap-fields/PENDING-procurement.md` for the DOI/ISBN.
+2. If a PDF exists locally, run `ahmes ingest` → `ahmes enrich --meta [--online]` → `ahmes query --cite`.
+3. If procurement is `no_oa` or missing, record the attempt in `PROVENANCE_LINE` (`resolver=OMITTED;
+   ahmes_attempt=<reason>`) and keep `status=[BIBLIO-GAP]` — **public prose and References may still
+   cite the profield-grounded bibliography**; the gap is *vault verification*, not *silence*.
+4. Never upgrade to `VERIFIED` without `evaluator_safe=yes`.
+
+### Critical layer (layer 1½)
+
+Temario crítica `C1-fashion-digital-world`, `C2-fashion-virtuality`, `C3-gender-minorities-silences`
+supply the **critical perspective** block in every unit. Route in `CRITICAL_ROUTING:` comments; use
+pass-audited `[ESTABLISHED]` sentences verbatim in public `## Critical perspective` where they fit the
+unit. Map: `forge/PROFIELD-CRITICAL-MAP.md`.
+
+The orchestrator step “write a PROVENANCE_LINE beside every claim” does **not** forbid Profield prose
+in the lesson — it requires a trace for every citation that reaches students.
+
+## The law
+
+Every piece of Athanor discovery data and every Ahmes-derived claim must be
+traceable in a source comment with one complete `PROVENANCE_LINE`. No claim is
+promoted into a lesson, session prompt, assessment, media brief, or track row
+without that line. A missing, partial, guessed, or vector-only trace is a
+forge failure.
+
+Athanor is discovery only. Ahmes is the citable evidence layer. A vector
+preview, search result, title, or similarity score is never evidence by itself.
+
+## Canonical record
+
+Place this record immediately beside the claim it governs. It is one complete
+provenance record, even when wrapped for readability:
+
+```text
+PROVENANCE_LINE: claim=<stable-unit.claim-id>; status=VERIFIED|[BIBLIO-GAP]|NONE; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="<exact query>"; source_locator="<exact locator>"; similarity=<number-or-null>; proposed_use="<bounded use>"}; source={document_coat="<source hash or coat>"; extraction_db="<repo-relative Ahmes extraction.db path>"; node_id="<full Ahmes node UUID>"; page_index=<zero-based-or-null>; printed_page=<page-or-null>}; resolver="<complete ahmes query --cite output, including evaluator_safe>"; quote="<short exact quote or none>"; public_citation="(<Author Year, page>) or OMITTED"; supports="<what the source supports>"; does_not_support="<transfer boundary>"
+```
+
+`[BIBLIO-GAP]` and `NONE` are honest outcomes, not invitations to invent a
+source. They must include the attempted query, reason for the gap, boundary,
+and `public_citation="OMITTED"`. An `evaluator_safe=no` result stays private.
+
+In lesson Markdown, keep the full record inside the existing switch-gated
+comment so internal metadata cannot reach student HTML:
+
+```liquid
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+PROVENANCE_LINE: ...
+-->
+{% endif %}
+```
+
+Forge-only documents under this research home may show the same comment
+without Liquid gating, but must retain the exact fields. Public prose may use
+only ordinary Chicago author-date citations and a complete References /
+Referencias entry. Never expose Athanor, Ahmes, DevIAC, node IDs, extraction
+paths, resolver output, or internal status labels (`[BIBLIO-GAP]`, `NONE`, `VERIFIED`)
+in student-facing HTML. Use plain language for gaps in public prose; keep status tokens
+only inside switch-gated comments.
+
+## Required gates
+
+1. Every evidence-bearing sentence or media-research decision has a stable
+   claim ID and a complete line.
+2. `VERIFIED` requires the full Ahmes node, page, complete cite resolver output,
+   and `evaluator_safe=yes`.
+3. Every line states what the source does not support; do not infer software
+   pedagogy, classroom outcomes, legal permission, or sustainability effects.
+4. Internal records are switch-gated and public output has no metadata leaks.
+5. Any missing line, unsafe resolver, invented quote, or rights uncertainty
+   blocks promotion and is recorded as `BLOCKED`, `[BIBLIO-GAP]`, or `NONE`.
+
+Media assets additionally require a `MEDIA_RIGHTS_LINE` from
+`PROFIELD-MEDIA-PROSPECTOR-REQUEST.md`; research provenance never substitutes
+for a licence record.
+
+The whole-course controller is
+`DC-CURRICULUM-ORCHESTRATOR.execute.md`.

@@ -8,7 +8,7 @@ author: 'Rubén Vega Balbás, PhD'
 lang: es
 permalink: /lessons/es/creacion-digital-ii/ii-5-web-portfolio/
 description: 'Maquetación de portfolio y web para comunicación de moda: hacer visible el proceso y la autoría, no solo el look terminado.'
-status: draft
+status: scaffold
 tags: [creacion-digital-ii, portfolio, web, autoria, ia-generativa-taller]
 ---
 
@@ -25,20 +25,13 @@ tags: [creacion-digital-ii, portfolio, web, autoria, ia-generativa-taller]
 
 > _"Entender la documentación es entender el código. Entender el código es entender la mente que lo escribió."_
 > — Tao of Development, `qa-010`
+{: .tao-development-quote }
 
 > **Declaración de asistencia de IA:** esta unidad está diseñada para un curso donde la IA generativa es una herramienta habitual de taller. Cada pieza que se coloca en un portfolio lleva un rastro de autoría, no solo una imagen terminada.
 
 ---
 
-## Convenciones de código en esta unidad
-
-- **CodeSandbox-ready** — archivo completo, se copia y pega, funciona tal cual.
-- **Excerpt** — patrón parcial, ilustrativo. **No** funciona tal cual.
-- **Template** — copiar y sustituir los valores marcados antes de usar.
-
-Los bloques HTML/CSS de esta unidad están etiquetados individualmente; la mayoría son **Template** — una estructura de partida para adaptar a tu propio contenido de portfolio, no un sitio terminado.
-
----
+{% include lesson-semantic-graphic.html %}
 
 ## Dónde se sitúa — CONTENIDOS y competencias
 
@@ -48,7 +41,7 @@ Los bloques HTML/CSS de esta unidad están etiquetados individualmente; la mayor
 
 **Resultados de aprendizaje que sirve esta unidad** (verbatim del `learning_outcomes` de la guía, sin añadidos): *"Maquetar proyectos y trabajos de diseño con calidad profesional."* · *"Diseñar estrategias creativas de comunicación digital en empresas de moda."* · *"Manejar formatos de archivo digitales propios y genéricos."*
 
-**Pesos de evaluación a los que alimenta la evidencia de esta unidad** (CD II presencial, framework §6): **Proyectos 10%** es donde se puntúa directamente el entregable de portfolio de esta unidad; su rastro de proceso (decisiones, iteraciones, declaración de IA) puede alimentar también **Informes y escritos 15%**. Esta unidad no toca Pruebas (55%) ni Caso/problema (20%).
+**Pesos de evaluación a los que alimenta la evidencia de esta unidad** (CD II presencial, framework §6): **Investigaciones y proyectos 20%** es donde se puntúa directamente el entregable de portfolio de esta unidad; su rastro de proceso (decisiones, iteraciones, declaración de IA) puede alimentar también **Cuaderno de prácticas de laboratorio/taller 10%**. Esta unidad no toca Pruebas (55%) ni Caso/problema (15%).
 
 ---
 
@@ -68,23 +61,60 @@ Al final de esta unidad podrás:
 
 **Afirmación:** una página de portfolio es evaluable cuando su proceso y su autoría son visibles en la página, no simplemente cuando las imágenes parecen terminadas. Un acabado sin rastro no es el resultado de aprendizaje que enseña esta unidad.
 
-No es una preferencia de estilo. Una revisión sistemática de IA generativa en educación de moda basada en taller (28 fuentes académicas, 2018–2025) identifica **Learner Identity & Authorship** (identidad del aprendiz y autoría) como uno de cuatro pilares temáticos centrales que dan forma a cómo la IA generativa cambia la pedagogía de taller — junto a Construcción de Conocimiento, Práctica Docente, y Cultura y Ética de Taller — y nombra la tensión directamente: la IA generativa aporta "mayor ideación creativa y eficiencia" junto con "preocupaciones sobre originalidad, responsabilidad ética y acceso equitativo" (Anwar, Raza y Marzouk 2025, 1 — coat Ahmes `0598ec0e`, nodo `c9a17328-72f7-56c8-95bf-b9860b1067b8`).
+Una revisión sistemática de IA generativa en educación de moda basada en taller identifica la identidad y autoría del aprendiz como uno de los pilares que configuran la pedagogía de taller, junto con la construcción de conocimiento, la práctica docente y la cultura y ética de estudio, y nombra la tensión directamente: la IA generativa aporta "mayor ideación creativa y eficiencia" junto con "preocupaciones sobre originalidad, responsabilidad ética y acceso equitativo" (Anwar, Raza y Marzouk 2025, 1).
 
-Un estudio de laboratorio independiente sobre diseño de moda asistido por IA ("Artificial A(i)rchive") plantea la relación no como sustitución de autoría sino como **complemento**: la IA se trata como "suplemento a la creatividad humana natural", examinada a través de seis capacidades — Percibir, Pensar, Expresar, Colaborar, Construir, Probar — con el hallazgo de que la dinámica colaborativa recorre *todo* el proceso, no una fase aislada (Rizzi y Bertola 2025, 10 — coat Ahmes `167816a4`, nodo `908f5339-781d-51cc-a803-47dfbf9c0677`).
+Rizzi y Bertola plantean el diseño de moda asistido por IA no como sustitución de autoría sino como **complemento**: la IA se trata como "suplemento a la creatividad humana natural", con dinámicas colaborativas que recorren *todo* el proceso, no una fase aislada (Rizzi y Bertola 2025, 10).
 
-Leídos juntos: el campo coincide en que la IA generativa cambia la autoría de taller, y coincide en que la respuesta honesta es la visibilidad — mostrar la colaboración, no ocultarla ni fingir que no ocurrió.
+Garcia estudió un curso de diseño y desarrollo web en el que 176 estudiantes completaron tareas semanales de código hasta producir un portfolio digital autocodificado. El estudio trata el portfolio como evidencia de competencias técnicas y como artefacto de aprendizaje, no solo como contenedor de piezas. Es un análogo de curso técnico útil para exigir trazabilidad de proceso; su diseño de un solo grupo y su contexto informático **no** prueban qué patrón de UX, accesibilidad o presentación funciona mejor para un portfolio de moda (Garcia 2025, 2, 4).
 
-### Vacío declarado — leer esto antes de asumir que el formato del portfolio en sí está validado
+**Qué apoya esto, y qué no.** Anwar et al. (2025), Rizzi y Bertola (2025) y Garcia (2025) apoyan hacer visible la autoría y el proceso cuando la IA generativa forma parte del taller, e integrar la construcción del portfolio con tareas técnicas. **Ninguna fuente revisada valida qué patrones concretos de UX web de portfolio de moda producen mejor comunicación, visibilidad o contratación** — la guía de maquetación de abajo es oficio profesional, no investigación.
 
-**Lo que está fundamentado arriba:** *por qué* la autoría y el proceso deben ser visibles cuando la IA generativa forma parte del taller. **Lo que NO está fundamentado:** qué patrones concretos de UX web de portfolio, maquetación o accesibilidad ayudan realmente a que un portfolio de moda consiga trabajo, se vea, o comunique bien. Esa pregunta queda fuera del corpus actual — es un `[UNVERIFIED-GAP]` declarado en el mapa de campo, no un problema resuelto que se enseñe como investigación asentada. La documentación de HTML/CSS/herramientas en esta unidad fundamenta **cómo** construir la página; no fundamenta **por qué esta maquetación enseña o consigue trabajo mejor que otra**. No leas la guía de maquetación de abajo como ciencia de UX respaldada por investigación — es asesoramiento de oficio profesional, etiquetado como tal.
+**Ancla de práctica (perspectiva de campo):** estructura HTML semántica, arquitectura de información, maquetación responsive, texto alternativo, créditos y rastro de proceso como operaciones de publicación duraderas — separadas de cualquier generador de sitios estáticos o plataforma de alojamiento.
+
+**Señal de frontera (perspectiva de campo):** los generadores de portfolio con IA y los constructores de sitios en un clic pueden producir acabado más rápido que la validación pedagógica; trata cualquier página generada como entrada al juicio, no como prueba de que la autoría está declarada con honestidad.
+
+## Perspectiva crítica
+
+Descolonizar la enseñanza de moda no equivale a añadir ejemplos diversos a un canon intacto: requiere examinar cómo colonialidad, posición docente, afecto y autoridad estructuran aquello que la disciplina reconoce como conocimiento de moda (Cheang y Suterwalla 2020).
+
+Un portfolio es autopresentación y evidencia, mientras plataformas y empleadores a menudo premian métricas de visibilidad por encima del rastro de proceso. Quién decide qué prueba cuenta — el render terminado, el registro de colaboración, la declaración de herramientas — no es neutral: la tensión de autoría en plataformas se sitúa entre lo que la página *muestra* y lo que puede *probar* sobre quien la hizo.
+
+### La pregunta de debate
+
+¿Qué cuenta como "el trabajo" cuando un look se co-creó con un generador? La tensión de autoría de Anwar et al. y el planteamiento de "suplemento, no sustituto" de Rizzi y Bertola son dos respuestas distintas — el taller debe alcanzar su propia postura, por escrito, antes de que venza el entregable de portfolio.
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.5.video.portfolio-walkthrough" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-05-portfolio-evidence-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador abstracto para recorrido de proceso de portfolio; no representa personas ni prendas." loading="lazy" />
+<figcaption>
+<p><strong>Por qué está aquí:</strong> un recorrido breve prueba si la navegación, la evidencia del case study y los supuestos de mantenimiento son legibles.</p>
+<p><strong>Qué observar:</strong> rastro de proceso frente a presentación solo-imagen — qué puede y qué no puede probar cada una.</p>
+<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+</figcaption>
+</figure>
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.5.still.process-exemplar" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-05-portfolio-evidence-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador para ejemplo de portfolio con proceso y contraejemplo solo-imagen; no representa personas ni prendas." loading="lazy" />
+<figcaption>
+<p><strong>Por qué está aquí:</strong> páginas en paralelo prueban legibilidad de autoría, texto alternativo y evidencia de proceso inspeccionable.</p>
+<p><strong>Qué observar:</strong> propósito de oficio frente a pulido que oculta la colaboración.</p>
+<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+</figcaption>
+</figure>
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.5.graphic.portfolio-ia" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-05-portfolio-evidence-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador de diagrama para inicio a case study a proceso a declaración de autoría; no representa personas ni prendas." loading="lazy" />
+<figcaption>
+<p><strong>Por qué está aquí:</strong> mapea inicio → obra seleccionada → case study → proceso → about/contacto, más un bloque de declaración de autoría.</p>
+<p><strong>Qué observar:</strong> dónde deben aparecer las líneas de uso de IA y crédito antes de que la página se lea como terminada.</p>
+<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+</figcaption>
+</figure>
 
 ---
 
 ## B1 · Conceptual — magistral 2 h + seminarios 3 h + debates 1 h
 
-### La pregunta de debate
-
-Plantea esto al grupo antes de construir nada: **¿qué cuenta como "el trabajo" cuando un look se co-creó con un generador?** La tensión de autoría de Anwar et al. y el planteamiento de "suplemento, no sustituto" de Rizzi y Bertola son dos respuestas distintas — el taller debe alcanzar su propia postura, por escrito, antes de que venza el entregable de portfolio.
+Cubierto arriba: marco Anwar/Rizzi/Garcia, perspectiva crítica, debate y marcadores.
 
 ### Qué significa "proceso visible" en una página, en concreto
 
@@ -146,7 +176,7 @@ El nivel de calidad es la frase de la propia guía: *"calidad profesional"* — 
 
 ---
 
-## B2 · Taller — talleres 3 h + proyectos 4 h (contextualizado, tipo entorno laboral)
+## B2 · Taller — talleres 3 h + investigaciones y proyectos 4 h (contextualizado, tipo entorno laboral)
 
 **Entregable:** una página de portfolio (o pequeño sitio estático) que maqueta tu propio trabajo de Creación Digital con rastro de proceso y declaración de uso de IA, siguiendo la estructura de arriba.
 
@@ -178,9 +208,12 @@ Por defecto: **atribuido** (nombre como lo escribe el estudiante).
 
 S2 sin S1 no hace nada. S1 sin S2 se atribuye por defecto.
 
-**Evidencia a la que alimenta este entregable:** Evaluación → **Proyectos (10%)** directamente; el rastro de proceso y la declaración de IA también pueden apoyar **Informes y escritos (15%)** si el profesor pide una reflexión escrita junto a la pieza. Esta unidad no inventa un cuarto peso de evaluación — solo se reclaman estos dos.
-
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+**Evidencia:** Investigaciones y proyectos 20% (entregable de portfolio); Cuaderno 10% (rastro de proceso + declaración de IA). S1/S2 requeridos solo antes de uso público en vShowroom.
 Las referencias a herramientas en esta unidad (cualquier generador de sitios estáticos, editor de imagen o plataforma de alojamiento) son notas de plataforma fechadas, no citas de investigación — comprueba las versiones antes de clase.
+-->
+{% endif %}
 
 ---
 
@@ -207,12 +240,36 @@ No es el entregable de portfolio. Problemas cortos que aíslan una habilidad cad
 
 Los bocetos de respuesta del profesor no se publican en esta página — se conservan en notas privadas del instructor.
 
+{% comment %}
+outcome-graphic-selection:
+  source-section: "B3 · Resolución de problemas"
+  visual-grammar: "portfolio-lineage — fragmentos de proceso convergen en una página verificable con autoría visible"
+{% endcomment %}
+{% include lesson-outcome-graphic.html %}
+
 ---
 
-## Trazabilidad y puerta de evidencia
+## Referencias
 
-- Anwar, S., Raza, A. y Marzouk, R. (2025). *Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.* European Journal of Business and Management, `10.65136/ejbm.v10i4.24`. Coat Ahmes `0598ec0e`, nodo `c9a17328-72f7-56c8-95bf-b9860b1067b8`, p.1. `(Anwar 2025, 1)`. Resuelto vía `ahmes query --cite`, `evaluator_safe=yes`.
-  <!-- provenance: cita/nodo nombrado en la fila II.5 de la matriz digital-creativity-pedagogy/grounding/README.md y reconfirmado en vivo esta sesión vía `ahmes query --cite <db>:<node_id> --require-evaluator-safe --style chicago-author-date`; texto del nodo leído directamente de fission_node.markdown_content, no de una vista previa de vector/Athanor -->
-- Rizzi, G. y Bertola, P. (2025). *Exploring the generative AI potential in the fashion design process.* European Journal of Cultural Management and Policy, `10.3389/ejcmp.2025.13875`. Coat Ahmes `167816a4`, nodo `908f5339-781d-51cc-a803-47dfbf9c0677`, p.9(→10). `(Rizzi 2025, 10)`. Resuelto vía `ahmes query --cite`, `evaluator_safe=yes`.
-  <!-- provenance: cita/nodo nombrado en la fila II.5 de la matriz digital-creativity-pedagogy/grounding/README.md y reconfirmado en vivo esta sesión vía `ahmes query --cite <db>:<node_id> --require-evaluator-safe --style chicago-author-date`; texto del nodo leído directamente de fission_node.markdown_content -->
-- **Evidencia ausente — declarada, no disimulada:** el mapa de campo mantiene un `[UNVERIFIED-GAP]` sobre **UX web de portfolio de moda** — ningún corpus establece qué patrones de maquetación, accesibilidad o presentación hacen que un portfolio comunique mejor, se vea, o consiga trabajo. Todo lo que aparece en la guía de maquetación/template de B1 es consejo de oficio profesional, no evidencia de investigación. No lo cites como si lo fuera.
+- Anwar, S., A. Raza y R. Marzouk. 2025. “Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.” *European Journal of Business and Management*. https://doi.org/10.65136/ejbm.v10i4.24.
+- Cheang, Sarah, y Shehnaz Suterwalla. 2020. “Decolonizing the Curriculum? Transformation, Emotion, and Positionality in Teaching.” *Fashion Theory* 24 (6): 879–900. https://doi.org/10.1080/1362704X.2020.1800989.
+- Garcia, M. B. 2025. “Self-Coded Digital Portfolios as an Authentic Project-Based Learning Assessment in Computing Education: Evidence from a Web Design and Development Course.” *Education Sciences* 15 (9): 1150. https://doi.org/10.3390/educsci15091150.
+- Rizzi, G. y P. Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. https://doi.org/10.3389/ejcmp.2025.13875.
+
+**Vacío declarado — en claro.** Anwar et al. (2025), Rizzi y Bertola (2025) y Garcia (2025) apoyan la visibilidad de autoría y el encuadre portfolio-como-evidencia; **no** prueban que la maquetación HTML, las elecciones de accesibilidad o la estructura de portfolio de esta unidad produzcan mejor comunicación, visibilidad o contratación en moda. Ninguna fuente revisada valida resultados de UX web de portfolio de moda para HE.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+PROFIELD_ROUTING: unit=II.5; temario=T2-retouch-video-portfolio.pass1.resultant.mdc § portfolio; subfield_runs=dc-fashion-portfolio-web-ux gap NONE
+CRITICAL_ROUTING: unit=II.5; critica=C3 Cheang decolonizing curriculum L277; C1 platform authorship tension; session proof-beyond-polish prompt
+PROVENANCE_LINE: claim=II.5.claim.genai-authorship-pillar; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="generative AI studio fashion education authorship Anwar"; source_locator=T2-retouch-video-portfolio.pass1.resultant.mdc § Anwar; similarity=null; proposed_use="authorship anchor"}; source={document_coat=0598ec0e; extraction_db=ahmes-library/scholar/documents/generative_ai_in_studio_based_fashion_education_a_systematic_literature_review_0598ec0e/extract/extraction.db; node_id=c9a17328-72f7-56c8-95bf-b9860b1067b8; page_index=0; printed_page=1}; resolver="ahmes query --cite extraction.db:c9a17328-72f7-56c8-95bf-b9860b1067b8 --require-evaluator-safe evaluator_safe=yes"; quote="Learner Identity & Authorship"; public_citation="(Anwar, Raza y Marzouk 2025, 1)"; supports="GenAI changes studio authorship; visibility is honest response"; does_not_support="which portfolio layout teaches best"
+PROVENANCE_LINE: claim=II.5.claim.genai-complement; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="generative AI complement human creativity fashion design Rizzi"; source_locator=T2-retouch-video-portfolio.pass1.resultant.mdc § Rizzi; similarity=null; proposed_use="complement anchor"}; source={document_coat=167816a4; extraction_db=ahmes-library/scholar/documents/exploring_the_generative_ai_potential_in_the_fashion_design_process_167816a4/extract/extraction.db; node_id=908f5339-781d-51cc-a803-47dfbf9c0677; page_index=9; printed_page=10}; resolver="ahmes query --cite extraction.db:908f5339-781d-51cc-a803-47dfbf9c0677 --require-evaluator-safe evaluator_safe=yes"; quote="supplement to natural human creativity"; public_citation="(Rizzi y Bertola 2025, 10)"; supports="AI as complement across whole process"; does_not_support="originality guarantee or hiring effect"
+PROVENANCE_LINE: claim=II.5.claim.portfolio-pbl-analogue; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="self-coded digital portfolios web design Garcia"; source_locator=T2-retouch-video-portfolio.pass1.resultant.mdc § Garcia; similarity=null; proposed_use="technical analogue"}; source={document_coat=educsci15091150; extraction_db=ahmes-library/scholar/documents/self_coded_digital_portfolios_as_an_authentic_project_based_learning_assessment_e09e72ca/extract/extraction.db; node_id=e09e72ca-5a4b-51dc-823a-1d05ea71ee8f; page_index=1; printed_page=2}; resolver="ahmes query --cite extraction.db:e09e72ca-5a4b-51dc-823a-1d05ea71ee8f --require-evaluator-safe evaluator_safe=yes"; quote="self-coded digital portfolio"; public_citation="(Garcia 2025, 2, 4)"; supports="portfolio as learning artifact and technical evidence"; does_not_support="fashion UX outcomes accessibility hiring causality"
+PROVENANCE_LINE: claim=II.5.gap.fashion-portfolio-ux; status=NONE; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="fashion portfolio web UX hiring outcomes"; source_locator=grounding/README.md row II.5; similarity=null; proposed_use="honest gap retained"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="validated fashion-portfolio layout or hiring effect"
+PROVENANCE_LINE: claim=II.5.critical.decolonizing-curriculum; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="decolonizing curriculum fashion teaching Cheang Suterwalla"; source_locator=C3-gender-minorities-silences.pass1.resultant.mdc L277; similarity=null; proposed_use="critical theoretical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=DOI 10.1080/1362704X.2020.1800989 not in scholar vault; public_citation="(Cheang y Suterwalla 2020)"; supports="decolonisation requires examining canon construction not additive diversity"; does_not_support="mandatory reading list assignment"
+PROVENANCE_LINE: claim=II.5.critical.platform-authorship; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="portfolio proof beyond polish platform visibility"; source_locator=ii-5-web-portfolio.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming platform authorship tension"; does_not_support="employment outcome claim"
+MEDIA_RIGHTS_LINE: slot=II.5.video.portfolio-walkthrough; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+MEDIA_RIGHTS_LINE: slot=II.5.still.process-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+MEDIA_RIGHTS_LINE: slot=II.5.graphic.portfolio-ia; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}

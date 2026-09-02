@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title-woven-prompt-v2 desc-woven-prompt-v2">
+  <title id="title-woven-prompt-v2">Poster field for the woven prompt</title>
+  <desc id="desc-woven-prompt-v2">A dark geometric poster field carries a red thread through a needle, a reflective circle, a pattern tile, and a small lantern-like machine. The field uses the visual grammar of the main Digital Creativity index.</desc>
+  <rect width="1600" height="900" fill="#050816"/>
+  <image href="page-index-background-20260831.png" x="0" y="270" width="1600" height="360" preserveAspectRatio="none"/>
+  <rect x="48" y="48" width="1504" height="804" fill="none" stroke="#E2B127" stroke-width="2" opacity=".62"/>
+  <rect x="70" y="70" width="1460" height="760" fill="none" stroke="#ED93B1" stroke-width="1" opacity=".3"/>
+  <g fill="none" stroke="#ED93B1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M126 706 C298 554 414 780 594 680 S840 430 1030 510 S1266 746 1474 584" stroke-width="10" opacity=".68"/>
+    <path d="M126 706 C298 554 414 780 594 680 S840 430 1030 510 S1266 746 1474 584" stroke="#E2B127" stroke-width="2" stroke-dasharray="16 18" opacity=".9"/>
+  </g>
+  <g fill="none" stroke="#E2B127" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M770 456 L704 654" stroke-width="11"/>
+    <path d="M770 456 L704 654" stroke="#F7F2E8" stroke-width="4"/>
+    <ellipse cx="770" cy="456" rx="11" ry="25" stroke-width="4"/>
+    <path d="M704 654 L697 676" stroke-width="3"/>
+  </g>
+  <g fill="none" stroke="#ED93B1" stroke-width="3" opacity=".9">
+    <path d="M586 678 L630 586 L719 554 L780 618 L736 710 L647 740 Z"/>
+    <path d="M630 586 L647 740 M719 554 L736 710 M586 678 L736 710 M630 586 L780 618 M647 740 L719 554"/>
+  </g>
+  <g fill="#050816" stroke="#E2B127" stroke-width="4">
+    <circle cx="1136" cy="382" r="126"/>
+    <circle cx="1136" cy="382" r="92" stroke="#97C459" stroke-width="2"/>
+    <path d="M1057 382 C1098 338 1170 330 1214 382 C1170 424 1098 426 1057 382 Z" fill="none" stroke="#ED93B1" stroke-width="3"/>
+    <path d="M1136 290 L1136 474 M1044 382 L1228 382" stroke="#0C447C" stroke-width="2"/>
+  </g>
+  <g stroke="#E2B127" stroke-width="4" stroke-linejoin="round">
+    <path d="M1310 466 L1438 466 L1470 518 L1470 704 L1278 704 L1278 518 Z" fill="#0C447C" opacity=".78"/>
+    <path d="M1310 466 L1438 466 L1452 432 L1296 432 Z" fill="#ED93B1" opacity=".28"/>
+    <path d="M1320 546 L1428 546 L1428 666 L1320 666 Z" fill="#E2B127" opacity=".25"/>
+    <circle cx="1374" cy="606" r="31" fill="#ED93B1" opacity=".72"/>
+    <path d="M1374 575 L1374 637 M1343 606 L1405 606" stroke="#050816" stroke-width="3"/>
+  </g>
+  <g fill="none" stroke="#97C459" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M236 270 C246 212 292 177 346 190 C388 200 399 236 383 267 C368 294 331 310 295 302 C267 296 246 286 236 270 Z"/>
+    <path d="M278 250 C302 218 329 213 354 232 C334 244 319 258 310 281"/>
+    <path d="M312 194 C304 166 318 145 343 133"/>
+  </g>
+  <g fill="#E2B127">
+    <circle cx="594" cy="680" r="8"/>
+    <circle cx="1030" cy="510" r="8"/>
+    <circle cx="1474" cy="584" r="8"/>
+  </g>
+</svg>

@@ -4,6 +4,11 @@ url: 'https://ruvebal.github.io'
 baseurl: '/digital-creativity-uem'
 repository: 'ruvebal/digital-creativity-uem'
 source: docs
+
+# Student-facing builds are fail-closed. Internal corpus provenance may only be
+# emitted when an operator explicitly changes this switch for a private build.
+publication:
+ publish_internal_metadata: false
 markdown: kramdown
 kramdown:
  input: GFM

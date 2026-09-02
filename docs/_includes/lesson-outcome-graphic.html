@@ -1,0 +1,7 @@
+{% assign outcome_cover_key = page.slug | default: page.title | slugify %}
+{% assign outcome_cover = site.data.lesson_covers[outcome_cover_key] %}
+{% if outcome_cover and outcome_cover.outcome %}
+<figure class="lesson-outcome lesson-outcome--{{ outcome_cover.family }}" data-outcome-grammar="{{ outcome_cover.outcome.grammar }}" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/' | append: outcome_cover.outcome.asset | append: '.svg' | relative_url }}" width="1600" height="720" alt="{% if page.lang == 'es' and outcome_cover.outcome.alt_es %}{{ outcome_cover.outcome.alt_es | escape }}{% elsif outcome_cover.outcome.alt_en %}{{ outcome_cover.outcome.alt_en | escape }}{% else %}{{ outcome_cover.master_idea | escape }}{% endif %}" />
+</figure>
+{% endif %}

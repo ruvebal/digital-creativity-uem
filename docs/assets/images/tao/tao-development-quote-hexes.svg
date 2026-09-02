@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Transparent hexagonal quote background</title>
+  <desc id="desc">Complete hexagonal figures forming a transparent ornamental background for Tao of Development quotes.</desc>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M95 28 154 62v68l-59 34-59-34V62z" stroke="#9373DD" stroke-width="3" opacity=".42"/>
+    <path d="M252 76 328 120v88l-76 44-76-44v-88z" stroke="#0EA5A3" stroke-width="2.5" opacity=".36"/>
+    <path d="M126 230 190 267v74l-64 37-64-37v-74z" stroke="#E2B127" stroke-width="2.5" opacity=".34"/>
+    <path d="M444 36 518 79v86l-74 43-74-43V79z" stroke="#C9C932" stroke-width="3" opacity=".32"/>
+    <path d="M566 212 639 254v84l-73 42-73-42v-84z" stroke="#9373DD" stroke-width="2.5" opacity=".32"/>
+    <path d="M756 66 827 107v82l-71 41-71-41v-82z" stroke="#0EA5A3" stroke-width="3" opacity=".40"/>
+    <path d="M892 238 957 276v76l-65 38-65-38v-76z" stroke="#E2B127" stroke-width="2.5" opacity=".34"/>
+    <path d="M1052 24 1124 66v84l-72 42-72-42V66z" stroke="#C9C932" stroke-width="3" opacity=".34"/>
+    <path d="M1228 116 1306 161v90l-78 45-78-45v-90z" stroke="#9373DD" stroke-width="2.5" opacity=".38"/>
+    <path d="M1464 42 1536 84v84l-72 42-72-42V84z" stroke="#0EA5A3" stroke-width="3" opacity=".36"/>
+    <path d="M1415 246 1478 282v72l-63 36-63-36v-72z" stroke="#E2B127" stroke-width="2.5" opacity=".36"/>
+    <path d="M330 280 371 304v48l-41 24-41-24v-48z" stroke="#9373DD" stroke-width="2" opacity=".28"/>
+    <path d="M680 14 720 37v46l-40 23-40-23V37z" stroke="#E2B127" stroke-width="2" opacity=".28"/>
+    <path d="M1014 262 1058 287v50l-44 25-44-25v-50z" stroke="#0EA5A3" stroke-width="2" opacity=".30"/>
+    <path d="M1344 10 1388 35v50l-44 25-44-25V35z" stroke="#C9C932" stroke-width="2" opacity=".28"/>
+  </g>
+</svg>

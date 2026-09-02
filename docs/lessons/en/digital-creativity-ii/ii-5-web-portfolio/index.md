@@ -8,7 +8,7 @@ author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /lessons/en/digital-creativity-ii/ii-5-web-portfolio/
 description: 'Portfolio and web layout for fashion communication: making process and authorship visible, not just the finished look.'
-status: draft
+status: scaffold
 tags: [digital-creativity-ii, portfolio, web, authorship, genai-studio]
 ---
 
@@ -25,20 +25,13 @@ tags: [digital-creativity-ii, portfolio, web, authorship, genai-studio]
 
 > _"To understand the docs is to understand the code. To understand the code is to understand the mind that wrote it."_
 > — Tao of Development, `qa-010`
+{: .tao-development-quote }
 
 > **AI Assistance Disclosure:** This unit is designed for a course where generative AI is a normal studio tool. Every piece placed on a portfolio carries an authorship trail, not just a finished image.
 
 ---
 
-## Code conventions in this unit
-
-- **CodeSandbox-ready** — complete file, copy-paste, runs as-is.
-- **Excerpt** — partial pattern, illustrative. Does **not** run as-is.
-- **Template** — copy and replace placeholder values before use.
-
-This unit's HTML/CSS blocks are labelled individually; most are **Template** — a starting structure to adapt to your own portfolio content, not a finished site.
-
----
+{% include lesson-semantic-graphic.html %}
 
 ## Where this sits — CONTENIDOS and competencies
 
@@ -48,7 +41,7 @@ This unit's HTML/CSS blocks are labelled individually; most are **Template** —
 
 **Learning outcomes this unit serves** (verbatim from the guía's `learning_outcomes`, not invented extras): *"Maquetar proyectos y trabajos de diseño con calidad profesional."* · *"Diseñar estrategias creativas de comunicación digital en empresas de moda."* · *"Manejar formatos de archivo digitales propios y genéricos."*
 
-**Evaluation weights this unit's evidence can feed** (CD II presencial, framework §6): **Proyectos 10%** is where this unit's portfolio deliverable is scored directly; its process trail (decisions, iterations, AI declaration) can also feed **Informes y escritos 15%**. This unit does not touch Pruebas (55%) or Caso/problema (20%).
+**Evaluation weights this unit's evidence can feed** (CD II presencial, framework §6): **Investigaciones y proyectos 20%** is where this unit's portfolio deliverable is scored directly; its process trail (decisions, iterations, AI declaration) can also feed **Cuaderno de prácticas de laboratorio/taller 10%**. This unit does not touch Pruebas (55%) or Caso/problema (15%).
 
 ---
 
@@ -64,27 +57,64 @@ By the end of this unit, you will be able to:
 
 ---
 
-## Why this unit exists: process and authorship must be visible
+## Why this unit exists — process and authorship must be visible
 
 **Claim:** a portfolio page is assessable when its process and authorship are visible on the page, not merely when the images look finished. Polish without a trail is not the learning outcome this unit teaches.
 
-This is not a stylistic preference. A systematic review of generative AI in studio-based fashion education (28 academic sources, 2018–2025) identifies **Learner Identity & Authorship** as one of four core thematic pillars shaping how GenAI changes studio pedagogy — alongside Knowledge Construction, Teaching Practice, and Studio Culture & Ethics — and names the tension directly: GenAI brings "enhanced creative ideation and efficiency" alongside "concerns over originality, ethical responsibility, and equitable access" (Anwar, Raza & Marzouk 2025, 1 — Ahmes coat `0598ec0e`, node `c9a17328-72f7-56c8-95bf-b9860b1067b8`).
+A systematic review of generative AI in studio-based fashion education (28 academic sources, 2018–2025) identifies **Learner Identity & Authorship** as one of four core thematic pillars shaping how GenAI changes studio pedagogy — alongside Knowledge Construction, Teaching Practice, and Studio Culture & Ethics — and names the tension directly: GenAI brings “enhanced creative ideation and efficiency” alongside “concerns over originality, ethical responsibility, and equitable access” (Anwar, Raza, and Marzouk 2025, 1).
 
-A separate laboratory study of AI-assisted fashion design ("Artificial A(i)rchive") frames the relationship not as authorship replacement but as **complement**: AI is treated as a "supplement to natural human creativity," examined through six capabilities — Perceive, Think, Express, Collaborate, Build, Test — with the finding that collaborative dynamics run through the *whole* process rather than one isolated phase (Rizzi & Bertola 2025, 10 — Ahmes coat `167816a4`, node `908f5339-781d-51cc-a803-47dfbf9c0677`).
+Rizzi and Bertola frame AI-assisted fashion design not as authorship replacement but as **complement**: AI is treated as a “supplement to natural human creativity,” with collaborative dynamics running through the *whole* process rather than one isolated phase (Rizzi and Bertola 2025, 10).
 
-Read together: the field agrees GenAI changes studio authorship, and it agrees the honest response is visibility — showing the collaboration, not hiding it or pretending it didn't happen.
+Garcia studied a web-design and development course in which 176 students completed weekly coding tasks culminating in a self-coded digital portfolio. The study treats the portfolio as evidence of technical competencies and as a learning artifact, not merely a container for pieces. It is a useful technical-course analogue for requiring a process trail; its one-group design and computing context **do not** prove which portfolio-UX, accessibility, or presentation pattern works best for fashion (Garcia 2025, 2, 4).
 
-### Declared gap — read this before assuming the portfolio format itself is validated
+**What this supports, and what it does not.** Anwar et al. (2025), Rizzi and Bertola (2025), and Garcia (2025) support making authorship and process visible when GenAI is part of the studio, and integrating portfolio construction with technical tasks. **No reviewed source validates which fashion-portfolio web-UX patterns cause better communication, visibility, or hiring outcomes** — layout guidance below is professional craft, not research.
 
-**What is grounded above:** *why* authorship and process must be visible when GenAI is part of the studio. **What is NOT grounded:** which specific portfolio web-UX patterns, layouts, or accessibility choices actually help a fashion portfolio get hired, get seen, or communicate well. That question sits outside the current vault — it is a declared `[UNVERIFIED-GAP]` in the field map, not a solved problem being taught as settled research. HTML/CSS/tool documentation in this unit grounds **how** to build the page; it does not ground **why this layout teaches or hires better than another one**. Do not read the layout advice below as research-backed UX science — it is professional craft guidance, labelled as such.
+**Practice anchor (field lens):** semantic HTML structure, information architecture, responsive layout, alt text, credits, and a process trail as durable publishing operations — separate from any one static-site generator or hosting platform.
+
+**Frontier signal (field lens):** AI portfolio generators and one-click site builders may produce polish faster than pedagogical validation; treat any generated page as input to judgement, not proof that authorship is honestly declared.
+
+## Critical perspective
+
+Decolonising fashion teaching is not the same as adding diverse examples to an intact canon: it requires examining how coloniality, teacher position, affect, and authority structure what the discipline recognises as fashion knowledge (Cheang and Suterwalla 2020).
+
+A portfolio is self-presentation and evidence, while platforms and employers often reward visibility metrics over process trace. Who decides which proof counts — the finished render, the collaboration log, the tool declaration — is not neutral: platform authorship tension sits between what the page *shows* and what it can *prove* about the maker.
+
+### The debate prompt
+
+What counts as "the work" when a look was co-made with a generator? Anwar et al.'s authorship tension and Rizzi and Bertola's "supplement, not substitute" framing are two different answers — the studio should reach its own position, in writing, before the portfolio deliverable is due.
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.5.video.portfolio-walkthrough" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-05-portfolio-evidence-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for a portfolio process walkthrough; no people or garments depicted." loading="lazy" />
+<figcaption>
+<p><strong>Why this is here:</strong> A short walkthrough tests whether navigation, case-study evidence, and maintenance assumptions are readable.</p>
+<p><strong>Look for:</strong> Process trail versus image-only presentation — what each can and cannot prove.</p>
+<p class="media-note">Placeholder visual — licensed media pending review.</p>
+</figcaption>
+</figure>
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.5.still.process-exemplar" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-05-portfolio-evidence-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for process-rich portfolio exemplar and image-only counterexample; no people or garments depicted." loading="lazy" />
+<figcaption>
+<p><strong>Why this is here:</strong> Paired pages test legibility of authorship, alt text, and inspectable process evidence.</p>
+<p><strong>Look for:</strong> Craft purpose versus polish that hides collaboration.</p>
+<p class="media-note">Placeholder visual — licensed media pending review.</p>
+</figcaption>
+</figure>
+
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="II.5.graphic.portfolio-ia" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/dc-ii-05-portfolio-evidence-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract diagram placeholder for home to case study to process to authorship declaration; no people or garments depicted." loading="lazy" />
+<figcaption>
+<p><strong>Why this is here:</strong> Maps home → selected work → case study → process → about/contact, plus an authorship declaration block.</p>
+<p><strong>Look for:</strong> Where AI-use and credit lines must appear before the page reads as finished.</p>
+<p class="media-note">Placeholder visual — licensed media pending review.</p>
+</figcaption>
+</figure>
 
 ---
 
 ## B1 · Conceptual — magistral 2 h + seminarios 3 h + debates 1 h
 
-### The debate prompt
-
-Put this to the group before building anything: **what counts as "the work" when a look was co-made with a generator?** Anwar et al.'s authorship tension and Rizzi & Bertola's "supplement, not substitute" framing are two different answers — the studio should reach its own position, in writing, before the portfolio deliverable is due.
+Covered above: Anwar/Rizzi/Garcia framing, critical lens, debate, and placeholders.
 
 ### What "process visible" means on a page, concretely
 
@@ -146,7 +176,7 @@ Quality bar is the guía's own phrase: *"calidad profesional"* — professional 
 
 ---
 
-## B2 · Studio — talleres 3 h + proyectos 4 h (workplace-like, contextualised)
+## B2 · Studio — talleres 3 h + investigaciones y proyectos 4 h (workplace-like, contextualised)
 
 **Deliverable:** one portfolio page (or small static site) that lays out your own Creación Digital work with a process trail and an AI-use declaration, per the structure above.
 
@@ -178,9 +208,12 @@ Default: **attributed** (name as the student writes it).
 
 S2 without S1 does nothing. S1 without S2 defaults to attributed.
 
-**Evidence this deliverable maps to:** Evaluación → **Proyectos (10%)** directly; the process trail and AI declaration can also support **Informes y escritos (15%)** if the instructor asks for a written reflection alongside the piece. This unit does not invent a fourth evaluation weight — only these two are claimed.
-
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+**Evidence:** Investigaciones y proyectos 20% (portfolio deliverable); Cuaderno 10% (process trail + AI declaration). S1/S2 required before public vShowroom use only.
 Tool docs referenced in this unit (any static-site generator, image editor, or hosting platform) are dated platform notes, not research citations — check versions before class.
+-->
+{% endif %}
 
 ---
 
@@ -207,12 +240,36 @@ Not the portfolio deliverable. Short problems isolating one skill each:
 
 Professor answer sketches are not published on this page — kept in the instructor's private notes.
 
+{% comment %}
+outcome-graphic-selection:
+  source-section: "B3 · Resolución de problemas"
+  visual-grammar: "portfolio-lineage — process fragments converge into an inspectable page with visible authorship"
+{% endcomment %}
+{% include lesson-outcome-graphic.html %}
+
 ---
 
-## Provenance and evidence gate
+## References
 
-- Anwar, S., Raza, A. &amp; Marzouk, R. (2025). *Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.* European Journal of Business and Management, `10.65136/ejbm.v10i4.24`. Ahmes coat `0598ec0e`, node `c9a17328-72f7-56c8-95bf-b9860b1067b8`, p.1. `(Anwar 2025, 1)`. Resolved via `ahmes query --cite`, `evaluator_safe=yes`.
-  <!-- provenance: node/citation named in digital-creativity-pedagogy/grounding/README.md matrix row II.5 and re-confirmed live this session via `ahmes query --cite <db>:<node_id> --require-evaluator-safe --style chicago-author-date`; node text read directly from fission_node.markdown_content, not from a vector/Athanor preview -->
-- Rizzi, G. &amp; Bertola, P. (2025). *Exploring the generative AI potential in the fashion design process.* European Journal of Cultural Management and Policy, `10.3389/ejcmp.2025.13875`. Ahmes coat `167816a4`, node `908f5339-781d-51cc-a803-47dfbf9c0677`, p.9(→10). `(Rizzi 2025, 10)`. Resolved via `ahmes query --cite`, `evaluator_safe=yes`.
-  <!-- provenance: node/citation named in digital-creativity-pedagogy/grounding/README.md matrix row II.5 and re-confirmed live this session via `ahmes query --cite <db>:<node_id> --require-evaluator-safe --style chicago-author-date`; node text read directly from fission_node.markdown_content -->
-- **Missing evidence — declared, not papered over:** the field map holds an `[UNVERIFIED-GAP]` on **fashion-portfolio web UX** — no vault source establishes which layout, accessibility, or presentation patterns cause a portfolio to communicate better, get seen, or get hired. Everything in this unit's B1 template/layout guidance is professional craft advice, not research evidence. Do not cite it as if it were.
+- Anwar, S., A. Raza, and R. Marzouk. 2025. “Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.” *European Journal of Business and Management*. https://doi.org/10.65136/ejbm.v10i4.24.
+- Cheang, Sarah, and Shehnaz Suterwalla. 2020. “Decolonizing the Curriculum? Transformation, Emotion, and Positionality in Teaching.” *Fashion Theory* 24 (6): 879–900. https://doi.org/10.1080/1362704X.2020.1800989.
+- Garcia, M. B. 2025. “Self-Coded Digital Portfolios as an Authentic Project-Based Learning Assessment in Computing Education: Evidence from a Web Design and Development Course.” *Education Sciences* 15 (9): 1150. https://doi.org/10.3390/educsci15091150.
+- Rizzi, G., and P. Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. https://doi.org/10.3389/ejcmp.2025.13875.
+
+**Declared gap — stated plainly.** Anwar et al. (2025), Rizzi and Bertola (2025), and Garcia (2025) support authorship visibility and portfolio-as-evidence framing; they do **not** prove that this unit's HTML layout, accessibility choices, or portfolio structure cause better fashion communication, visibility, or hiring outcomes. No reviewed source validates fashion-portfolio web-UX outcomes for HE.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+PROFIELD_ROUTING: unit=II.5; temario=T2-retouch-video-portfolio.pass1.resultant.mdc § portfolio; subfield_runs=dc-fashion-portfolio-web-ux gap NONE
+CRITICAL_ROUTING: unit=II.5; critica=C3 Cheang decolonizing curriculum L277; C1 platform authorship tension; session proof-beyond-polish prompt
+PROVENANCE_LINE: claim=II.5.claim.genai-authorship-pillar; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="generative AI studio fashion education authorship Anwar"; source_locator=T2-retouch-video-portfolio.pass1.resultant.mdc § Anwar; similarity=null; proposed_use="authorship anchor"}; source={document_coat=0598ec0e; extraction_db=ahmes-library/scholar/documents/generative_ai_in_studio_based_fashion_education_a_systematic_literature_review_0598ec0e/extract/extraction.db; node_id=c9a17328-72f7-56c8-95bf-b9860b1067b8; page_index=0; printed_page=1}; resolver="ahmes query --cite extraction.db:c9a17328-72f7-56c8-95bf-b9860b1067b8 --require-evaluator-safe evaluator_safe=yes"; quote="Learner Identity & Authorship"; public_citation="(Anwar, Raza, and Marzouk 2025, 1)"; supports="GenAI changes studio authorship; visibility is honest response"; does_not_support="which portfolio layout teaches best"
+PROVENANCE_LINE: claim=II.5.claim.genai-complement; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="generative AI complement human creativity fashion design Rizzi"; source_locator=T2-retouch-video-portfolio.pass1.resultant.mdc § Rizzi; similarity=null; proposed_use="complement anchor"}; source={document_coat=167816a4; extraction_db=ahmes-library/scholar/documents/exploring_the_generative_ai_potential_in_the_fashion_design_process_167816a4/extract/extraction.db; node_id=908f5339-781d-51cc-a803-47dfbf9c0677; page_index=9; printed_page=10}; resolver="ahmes query --cite extraction.db:908f5339-781d-51cc-a803-47dfbf9c0677 --require-evaluator-safe evaluator_safe=yes"; quote="supplement to natural human creativity"; public_citation="(Rizzi and Bertola 2025, 10)"; supports="AI as complement across whole process"; does_not_support="originality guarantee or hiring effect"
+PROVENANCE_LINE: claim=II.5.claim.portfolio-pbl-analogue; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="self-coded digital portfolios web design Garcia"; source_locator=T2-retouch-video-portfolio.pass1.resultant.mdc § Garcia; similarity=null; proposed_use="technical analogue"}; source={document_coat=educsci15091150; extraction_db=ahmes-library/scholar/documents/self_coded_digital_portfolios_as_an_authentic_project_based_learning_assessment_e09e72ca/extract/extraction.db; node_id=e09e72ca-5a4b-51dc-823a-1d05ea71ee8f; page_index=1; printed_page=2}; resolver="ahmes query --cite extraction.db:e09e72ca-5a4b-51dc-823a-1d05ea71ee8f --require-evaluator-safe evaluator_safe=yes"; quote="self-coded digital portfolio"; public_citation="(Garcia 2025, 2, 4)"; supports="portfolio as learning artifact and technical evidence"; does_not_support="fashion UX outcomes accessibility hiring causality"
+PROVENANCE_LINE: claim=II.5.gap.fashion-portfolio-ux; status=NONE; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="fashion portfolio web UX hiring outcomes"; source_locator=grounding/README.md row II.5; similarity=null; proposed_use="honest gap retained"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="validated fashion-portfolio layout or hiring effect"
+PROVENANCE_LINE: claim=II.5.critical.decolonizing-curriculum; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="decolonizing curriculum fashion teaching Cheang Suterwalla"; source_locator=C3-gender-minorities-silences.pass1.resultant.mdc L277; similarity=null; proposed_use="critical theoretical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=DOI 10.1080/1362704X.2020.1800989 not in scholar vault; public_citation="(Cheang and Suterwalla 2020)"; supports="decolonisation requires examining canon construction not additive diversity"; does_not_support="mandatory reading list assignment"
+PROVENANCE_LINE: claim=II.5.critical.platform-authorship; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="portfolio proof beyond polish platform visibility"; source_locator=ii-5-web-portfolio.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming platform authorship tension"; does_not_support="employment outcome claim"
+MEDIA_RIGHTS_LINE: slot=II.5.video.portfolio-walkthrough; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+MEDIA_RIGHTS_LINE: slot=II.5.still.process-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+MEDIA_RIGHTS_LINE: slot=II.5.graphic.portfolio-ia; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}

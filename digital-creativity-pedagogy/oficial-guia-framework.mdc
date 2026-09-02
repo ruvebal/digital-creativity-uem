@@ -13,11 +13,11 @@ alwaysApply: false
 | Course | Path | Upstream scrape | PDF (authority) |
 | ------ | ---- | --------------- | --- |
 | **CD I** | [`cv/guides/1-creacion-digital-i.json`](./cv/guides/1-creacion-digital-i.json) | `unicrawler/output/guides/1-creacion-digital-i.json` | [9729001103.pdf](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) · **2026-27** |
-| **CD II** | [`cv/guides/3-creacion-digital-ii.json`](./cv/guides/3-creacion-digital-ii.json) | `unicrawler/output/guides/3-creacion-digital-ii.json` | [9729001108.pdf](https://universidadeuropea.es/myfiles/pr/9729001108.pdf) · **2025-2026** (not yet rolled) |
+| **CD II** | [`cv/guides/3-creacion-digital-ii.json`](./cv/guides/3-creacion-digital-ii.json) | `unicrawler/output/guides/3-creacion-digital-ii.json` | [9729001108.pdf](https://universidadeuropea.es/myfiles/pr/9729001108.pdf) · **2026-27** (live URL checked 2026-08-23) |
 
 **Re-sync:** copy from unicrawler only after that scrape matches the live PDF. Prefer PDF if JSON and PDF disagree — flag the conflict, do not silently invent. Provenance of the 2026-08-14 patch: [`cv/README.md`](./cv/README.md).
 
-**Default modality for authoring:** `Modalidad presencial` (Campus Creativo). CD I’s PDF labels the other table **Modalidad online**; CD II still says **Modalidad virtual**. Never mix presencial hours with online/virtual labels.
+**Default modality for authoring:** `Modalidad presencial`. Both current PDFs label their alternate table **Modalidad online**. Never mix presencial hours with online labels.
 
 ---
 
@@ -27,15 +27,15 @@ Read verbatim from the matching JSON (PDF-patched). `subject_name`, `official_ti
 
 | | CD I | CD II |
 | - | ---- | ----- |
-| Semester | **S1** | **2** |
+| Semester | **S1** | **S2** |
 | ECTS | **6** | **6** |
 | Year | **1** | **1** |
 | Module | Básica | Básica |
 | Degree | Grado en Comunicación y Gestión de Moda | same |
-| Academic year (live PDF) | **2026-27** | **2025-2026** |
-| Faculty | Facultad de Diseño y Tecnologías Creativas | Escuela de Arquitectura, Ingeniería y Diseño — Campus Creativo |
+| Academic year (live PDF) | **2026-27** | **2026-27** |
+| Faculty | Facultad de Diseño y Tecnologías Creativas | Facultad de Diseño y Tecnologías Creativas |
 
-The year/faculty split is real: CD I’s PDF was regenerated 2026-08-03; CD II’s published PDF has not rolled.
+The two PDFs now align on the 2026-27 academic year and faculty identity; the CD II URL rolled after the earlier 2026-08-14 clone.
 
 ---
 
@@ -126,20 +126,20 @@ Both presencial tables **TOTAL 150 h**. The 140 h CD I figure was a unicrawler d
 | Clases magistrales | 10 | `clases_magistrales` |
 | Seminarios de aplicación práctica | 20 | `seminarios` |
 | Resolución de problemas | 8 | `resolucion_problemas` |
-| Proyectos | 20 | `proyectos` |
+| Investigaciones y proyectos | 20 | `investigaciones_proyectos` |
 | Actividades en talleres y/o laboratorios | 14 | `talleres_labs` |
 | Trabajo autónomo | 56 | `trabajo_autonomo` |
 | Debates y coloquios | 8 | `debates` |
 | Tutoría académica | 12 | `tutoria` |
 | Pruebas de evaluación presenciales | 2 | `pruebas` |
 
-Keep **Investigaciones y proyectos** (CD I) and **Proyectos** (CD II) as distinct keys. Do not rename one into the other.
+The current live CD I and CD II PDFs both use **Investigaciones y proyectos** for this activity. Keep the official name and the `investigaciones_proyectos` key in both tracks.
 
 Virtual/online tables live in the same JSON files — use them only for that delivery claim.
 
 **Contact-forgeable bucket** (what unit forge allocates across sessions): magistral + seminarios + resolución de problemas + proyectos/investigaciones + talleres/labs + debates = **80 h**. **Not session-forged:** trabajo autónomo (56), tutoría (12), pruebas (2) — course-level residuals.
 
-> ⚠️ **Same class of defect as FE `tracks.yml`.** FE allocated only `duration` + `labHours` and left Lección Magistral / Resolución de Ejercicios at zero. Here `docs/_data/tracks.yml` had **no session rows and no official activity keys** — only `duration: S1 · 6 ECTS`. Course totals now close in JSON + this table. **Per-session allocation is still empty.** Do not invent a timetable to make the sums look distributed.
+> **Reconciled track state:** the earlier defect was that `docs/_data/tracks.yml` had no official activity keys or session rows. The current registry now allocates every contact-forgeable key across the forged units and closes each course at **80/80 h**. The rows are pedagogical slices, not a week-by-week institutional timetable; dates and Campus Virtual procedures still belong to the official course space.
 
 ---
 
@@ -159,20 +159,20 @@ Virtual/online tables live in the same JSON files — use them only for that del
 | Instrument | Weight |
 | ---------- | -----: |
 | Pruebas de evaluación presenciales | 55% |
-| Informes y escritos | 15% |
-| Caso/problema | 20% |
-| Proyectos | 10% |
+| Caso/problema | 15% |
+| Investigaciones y proyectos | 20% |
+| Cuaderno de prácticas de laboratorio/taller | 10% |
 
 ### CD II — virtual (PDF p.4 · sum **100%**)
 
 | Instrument | Weight |
 | ---------- | -----: |
-| Pruebas de evaluación presenciales | 55% |
-| Informes y escritos | 15% |
-| Proyectos | 20% |
+| Pruebas de evaluación virtuales | 55% |
+| Caso/problema | 15% |
+| Investigaciones y proyectos | 20% |
 | Cuaderno de prácticas de laboratorio/taller | 10% |
 
-Virtual CD II has **no** Caso/problema row. That is the PDF, not a scrape hole.
+The current CD II online table uses the same four instruments as its presencial table. The earlier 2025-2026 clone's Informes y escritos / Proyectos split is retired with that stale PDF version.
 
 ---
 
@@ -181,12 +181,12 @@ Virtual CD II has **no** Caso/problema row. That is the PDF, not a scrape hole.
 | Official activity | Forge artefact | Evidence channel |
 | ----------------- | -------------- | ---------------- |
 | Clases magistrales · Seminarios · Debates (online: clases virtuales síncronas · Foro) | **B1 Conceptual lesson + deck** | claims, competency map |
-| Actividades en talleres y/o laboratorios · Investigaciones y proyectos / Proyectos | **B2 Studio brief** (atelier / contextualised) | process folder, piece IDs, project milestones |
+| Actividades en talleres y/o laboratorios · Investigaciones y proyectos | **B2 Studio brief** (atelier / contextualised) | process folder, piece IDs, project milestones |
 | Resolución de problemas | **B3 Exercise set** (individual, decontextualised) | worked solutions |
 | Trabajo autónomo | reading list / self-check | not graded as contact |
 | Tutoría · Pruebas | course-level | evaluation table only |
 
-**Do not collapse** talleres/proyectos with resolución de problemas — the guía separates them; that separation is also the individual vs cohort evidence channel for research.
+**Do not collapse** talleres/investigaciones y proyectos with resolución de problemas — the guía separates them; that separation is also the individual vs cohort evidence channel for research.
 
 ---
 

@@ -1,9 +1,9 @@
 <!--
-Forged per dc-cv-forge.mdc, 2026-08-14. Modality: presencial (default).
-Authority: live PDF 9729001108 (academic year 2025-2026 — not yet rolled to
-2026-27). Hours already matched the unicrawler clone; evaluation table in the
-2026-08-13 draft had dropped Informes y escritos (15 %) and summed 85 % while
-claiming 100 %.
+Forged per dc-cv-forge.mdc, updated 2026-08-23. Modality: presencial (default).
+**Spanish mirror.** Canonical English CV: uem-ruvebal-digital-creativity-ii-cv.md
+Authority: live PDF 9729001108, checked 2026-08-23 (academic year 2026-27).
+The URL had rolled since the previous clone; identity, presentation, activity
+names, and evaluation rows below were synchronized to the current PDF.
 -->
 
 # Guía Curricular — Creación Digital II
@@ -14,27 +14,28 @@ claiming 100 %.
 |---|---|
 | Asignatura | Creación Digital II |
 | Titulación | Grado en Comunicación y Gestión de Moda |
-| Centro | Escuela de Arquitectura, Ingeniería y Diseño — Campus Creativo |
+| Centro | Facultad de Diseño y Tecnologías Creativas |
 | Curso | 1º |
 | ECTS | 6 |
 | Tipo | Básica |
-| Idioma | Castellano |
+| Idioma | Castellano / inglés |
 | Modalidad (esta guía) | Presencial |
 | Semestre | 2 |
-| Año académico | 2025-2026 |
-| Profesores coordinadores | Sandra Jiménez / Joans Ribas |
-| Fuente oficial | <https://universidadeuropea.es/myfiles/pr/9729001108.pdf> (PDF pp. 1, 3–4; verified 2026-08-14) |
+| Año académico | 2026-27 |
+| Docente coordinador | Sandra Jiménez Duarte |
+| Fuente oficial | <https://universidadeuropea.es/myfiles/pr/9729001108.pdf> (PDF pp. 1, 3–4; checked 2026-08-23) |
 
-The CD I PDF has already rolled to 2026-27; this CD II PDF has not. Do not back-port CD I’s faculty name or year onto this subject.
+The live CD II URL now serves the 2026-27 contract. The prior 2025-2026 clone is retained only in git history, not as current authority.
 
 ## 2. Presentación
 
-En Creación Digital II nos centraremos en ampliar y profundizar los conocimientos digitales,
-explorando nuevos conceptos y otros más avanzados en cuanto a técnicas y softwares. Se
-aprenderán a aplicar herramientas digitales y técnicas para desarrollar colecciones de moda
-únicas y expresivas. Se abordarán temas como el uso de softwares especializados, la creación
-de avatares 3D, la creación de contenido digital y su difusión, y la importancia de la realidad
-aumentada en el diseño de moda actualmente.
+La materia aborda la representación gráfica y audiovisual de ideas de moda mediante
+técnicas digitales avanzadas. El alumnado aprende a diseñar la imagen de marca de firmas
+de moda, crear campañas digitales y manejar formatos de archivo propios y genéricos. Se
+desarrollan competencias en retoque fotográfico, creación de avatares, edición de vídeo,
+maquetación web y portfolio digital, así como en el diseño de experiencias de moda
+digitales, incluyendo hologramas y realidad aumentada. El enfoque fomenta la creatividad y
+la capacidad de resolver retos de comunicación visual en el ámbito empresarial de la moda.
 
 ## 3. Competencias
 
@@ -80,14 +81,14 @@ Aprendizaje basado en enseñanzas de taller · Entornos de simulación.
 
 ## 7. Actividades formativas — Modalidad presencial
 
-PDF p.3 TOTAL **150**. Official project row is **Proyectos**, not CD I’s “Investigaciones y proyectos”.
+PDF p.3 TOTAL **150**. The current official row is **Investigaciones y proyectos**.
 
 | Actividad formativa | Horas | Clave `tracks.yml` |
 |---|---:|---|
 | Clases magistrales | 10 | `clases_magistrales` |
 | Seminarios de aplicación práctica | 20 | `seminarios` |
 | Resolución de problemas | 8 | `resolucion_problemas` |
-| Proyectos | 20 | `proyectos` |
+| Investigaciones y proyectos | 20 | `investigaciones_proyectos` |
 | Actividades en talleres y/o laboratorios | 14 | `talleres_labs` |
 | Trabajo autónomo | 56 | `trabajo_autonomo` |
 | Debates y coloquios | 8 | `debates` |
@@ -96,26 +97,24 @@ PDF p.3 TOTAL **150**. Official project row is **Proyectos**, not CD I’s “In
 | **TOTAL** | **150** | |
 
 Contact-forgeable: 10 + 20 + 8 + 20 + 14 + 8 = **80 h**. Residuals 70 h.
-Per-session rows in `docs/_data/tracks.yml` are still empty — do not invent a timetable here.
+Per-session rows in `docs/_data/tracks.yml` under `creacion-digital-ii` → `sessions_list` (80/80 h closed 2026-08-28).
 
 PDF §8 lists four evaluable activities (Octubre–Enero) without hour splits; that cronograma is
 not a session allocation.
 
 ## 8. Sistema de evaluación — Modalidad presencial
 
-PDF p.4. Sum **100 %**. The 2026-08-13 draft omitted `Informes y escritos` (15 %) and
-printed 55 + 20 + 10 = 85 % under a 100 % total.
+PDF p.4. Sum **100 %** in both modalities.
 
 | Actividad de evaluación | Peso |
 |---|---:|
 | Pruebas de evaluación presenciales | 55 % |
-| Informes y escritos | 15 % |
-| Caso/problema | 20 % |
-| Proyectos | 10 % |
+| Caso/problema | 15 % |
+| Investigaciones y proyectos | 20 % |
+| Cuaderno de prácticas de laboratorio/taller | 10 % |
 | **TOTAL** | **100 %** |
 
-Virtual modality (not this draft’s delivery claim) is also 100 % but **different instruments**:
-pruebas 55 · informes 15 · proyectos 20 · cuaderno 10 — no Caso/problema row. That is the PDF.
+The online table in the same current PDF uses the same weights and instruments.
 
 ## 9. Nota pedagógica / investigación
 
@@ -149,7 +148,7 @@ Huecos: II.1 `[BIBLIO-GAP]`; II.2 `[BIBLIO-GAP]`; II.4 NONE; II.6 AR pedagogy NO
 
 - [x] Cada fila de horas coincide con JSON = PDF p.3
 - [x] Suma de horas = 150
-- [x] Pesos de evaluación = 100 % (PDF p.4; Informes restored)
+- [x] Pesos de evaluación = 100 % in presencial and online tables (PDF p.4)
 - [x] Cada unidad planeada mapea a ≥1 ancla CONTENIDOS — II.1–II.6 en `UNIT-PLAN.md`
 - [x] Códigos de competencia citados ⊆ lista JSON
 - [x] Sin esquema de horas FE 10/30/14

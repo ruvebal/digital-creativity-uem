@@ -8,9 +8,16 @@
 		"postcss:watch": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css --watch",
 		"normalize:ids": "node scripts/normalize-ids.mjs",
 		"mark-broken-links": "node scripts/mark-broken-links.mjs",
-		"develop": "npm run postcss:build && bundle exec jekyll serve --source docs --livereload --config _config.yml --port ${PORT:-4002}",
-		"build": "npm run postcss:build && bundle exec jekyll build --source docs --destination _site --config _config.yml",
-		"validate:yaml": "find docs/_data -name '*.yml' -exec yaml-lint {} \\;"
+		"generate:lesson-covers": "node scripts/lesson-covers/generate-lesson-covers.mjs",
+    "generate:archive-covers": "node scripts/archive-covers/generate-archive-covers.mjs . uem",
+    "generate:page-art": "node scripts/generate-page-art.mjs",
+    "generate:pass-track-art": "bash scripts/fractal-architecture/generate-pass-track-backgrounds.sh",
+		"verify:publication": "node scripts/verify-publication-safety.mjs",
+		"verify:citations": "node scripts/verify-publication-safety.mjs --citations",
+		"predevelop": "bash scripts/kill-dev-ports.sh",
+		"develop": "npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35730} --config _config.yml --port ${PORT:-4002}",
+		"build": "npm run postcss:build && bundle exec jekyll build --source docs --destination _site --config _config.yml && npm run verify:publication && npm run verify:citations",
+		"validate:yaml": "find docs/_data -name '*.yml' -exec yamllint {} \\;"
 	},
 	"devDependencies": {
 		"@tailwindcss/typography": "^0.5.19",

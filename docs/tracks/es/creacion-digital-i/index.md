@@ -8,34 +8,52 @@ author: 'Rubén Vega Balbás, PhD'
 lang: es
 permalink: /tracks/es/creacion-digital-i/
 description: 'S1 · 6 ECTS — fundamentos y representación de la forma tridimensional · volumen.'
-status: draft
+status: scaffold
 ---
 
 ## Estado
 
-**Borrador — las nueve unidades tienen ya contenido de primera pasada, por primera vez en esta cascada.** Las horas de contacto en `tracks.yml` cierran a **80/80 h** en todo el conjunto de unidades de CD I. Es un hecho contable honesto de horas, no una afirmación de que el curso está pedagógicamente completo o es impartible de principio a fin — la mayoría de las unidades declara una laguna de evidencia real, expuesta en su propia página.
+**Andamiaje completo — las nueve unidades tienen una pareja de lecciones B1/B2/B3 orientada al alumnado.** Las horas de contacto cierran a **80/80 h** en todo el conjunto de unidades de CD I. Es un hito curricular honesto, no una afirmación de que la investigación haya validado cada secuencia docente: la mayoría de las unidades declara una laguna de evidencia real, expuesta en su propia página.
 
-| Unidad | Lección | Clase de evidencia |
+| Unidad | Lección | Idea central y justificación |
 | --- | --- | --- |
-| I.1 | [Introducción a las imágenes digitales]({{ '/lessons/es/creacion-digital-i/i-1-imagenes-digitales/' | relative_url }}) | SAFE, acotada — Shinkle (2008) fundamenta un marco de campo de prácticas, no pedagogía de herramienta |
-| I.2 | [Tecnología digital 2D: Herramientas de dibujo]({{ '/lessons/es/creacion-digital-i/i-2-dibujo-2d/' | relative_url }}) | NONE — laguna declarada |
-| I.3 | [Color, imágenes con mapas de bits]({{ '/lessons/es/creacion-digital-i/i-3-color-bitmaps/' | relative_url }}) | NONE — laguna declarada |
-| I.4 | [Efectos]({{ '/lessons/es/creacion-digital-i/i-4-efectos/' | relative_url }}) | NONE — laguna declarada |
-| I.5 | [Fundamentos y representación de la forma tridimensional]({{ '/lessons/es/creacion-digital-i/i-5-forma-tridimensional/' | relative_url }}) | SAFE, acotada — estructura 2D→3D realmente impartida, no validación de resultado de aprendizaje |
-| I.6 | [Volumen]({{ '/lessons/es/creacion-digital-i/i-6-volumen/' | relative_url }}) | SAFE, acotada — un caso de estudio híbrido, no un método generalizable |
-| I.7 | [Fuentes y referencias compositivas en el diseño de moda]({{ '/lessons/es/creacion-digital-i/i-7-referencias-moda/' | relative_url }}) | SAFE, acotada — Campinho et al. (2025) fundamenta la ética de búsqueda de imágenes, no un método de pedagogía de búsqueda; cita resuelta genuinamente desde `[BIBLIO-GAP]` esta sesión |
-| I.8 | [Creación de imágenes digitales animadas]({{ '/lessons/es/creacion-digital-i/i-8-animacion/' | relative_url }}) | NONE — laguna declarada; asignación de 0 h debates/resolución, expuesta en la página de la unidad |
-| I.9 | [Bodegones digitales]({{ '/lessons/es/creacion-digital-i/i-9-bodegones/' | relative_url }}) | NONE — ejercicio de síntesis declarado a través de I.1–I.4 |
+| I.1 | [Introducción a las imágenes digitales]({{ '/lessons/es/creacion-digital-i/i-1-imagenes-digitales/' | relative_url }}) | La imagen de moda se define por prácticas, medios y objetivos compartidos — no por formato de píxeles. Shinkle (2008) fundamenta el marco de campo de prácticas antes de abrir cualquier herramienta. |
+| I.2 | [Tecnología digital 2D: Herramientas de dibujo]({{ '/lessons/es/creacion-digital-i/i-2-dibujo-2d/' | relative_url }}) | El dibujo vectorial describe la forma como relación entre puntos de anclaje y curvas — disciplina de oficio sin fuente que valide un método docente. |
+| I.3 | [Color, imágenes con mapas de bits]({{ '/lessons/es/creacion-digital-i/i-3-color-bitmaps/' | relative_url }}) | Un mapa de bits fija el color en una cuadrícula; cada modo y gama cierra opciones futuras — oficio enseñado, no pedagogía probada. |
+| I.4 | [Efectos]({{ '/lessons/es/creacion-digital-i/i-4-efectos/' | relative_url }}) | Todo efecto tiene un "antes" rastreable; perder esa pista es el riesgo que nombra la unidad — no la mecánica de un filtro concreto. |
+| I.5 | [Fundamentos y representación de la forma tridimensional]({{ '/lessons/es/creacion-digital-i/i-5-forma-tridimensional/' | relative_url }}) | La forma 3D es una secuencia espacial enseñada — alfabetización 2D primero, prototipado 3D después — no una función de software absorbida por exposición. |
+| I.6 | [Volumen]({{ '/lessons/es/creacion-digital-i/i-6-volumen/' | relative_url }}) | El volumen se construye iterando entre representaciones físicas y digitales de la misma pieza — ningún medio se trata como definitivo por sí solo. |
+| I.7 | [Fuentes y referencias compositivas en el diseño de moda]({{ '/lessons/es/creacion-digital-i/i-7-referencias-moda/' | relative_url }}) | Buscar una referencia nunca es neutro — lo que devuelve una búsqueda ya carga política de representación (lente ética de Campinho et al.). |
+| I.8 | [Creación de imágenes digitales animadas]({{ '/lessons/es/creacion-digital-i/i-8-animacion/' | relative_url }}) | La animación es una secuencia deliberada de fijas; el oficio es cuáles conservar. La evidencia individual se pliega en la nota de proceso (0 h debates/resolución declaradas). |
+| I.9 | [Bodegones digitales]({{ '/lessons/es/creacion-digital-i/i-9-bodegones/' | relative_url }}) | Un bodegón digital sintetiza I.1–I.4 en una composición equilibrada — ejercicio de síntesis entre unidades previas, no técnica nueva. |
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+Nota previa del track: `[BIBLIO-GAP]` — Campinho et al. (2025) se conservó inicialmente solo como puntero visible sobre ética de búsqueda hasta resolver su ficha bibliográfica.
+-->
+{% endif %}
+
+## Cómo completar una unidad
+
+Cada lección es ahora un andamiaje utilizable por el alumnado: **B1** presenta el concepto y el debate, **B2** define el artefacto de taller y su definición de terminado, y **B3** aísla un problema individual (salvo I.8, cuya asignación real de 0 h de resolución se declara y se integra en la nota de proceso). Entrega un ID de pieza, carpeta de proceso, artefacto final y nota de proceso; conserva los originales y declara cualquier asistencia de IA. Las fechas, canales de entrega y procedimiento institucional de examen permanecen en el Campus Virtual; aquí no se inventan.
 
 ## Contenidos oficiales (guía)
 
-Contrato institucional: PDF oficial [9729001103](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) (2026-27), clonado en `digital-creativity-pedagogy/cv/guides/1-creacion-digital-i.json` (no se publica en Pages). Carga formativa presencial **150 h** (clases magistrales 10 · seminarios 20 · resolución 8 · investigaciones y proyectos 20 · talleres 14 · autónomo 56 · debates 8 · tutoría 12 · pruebas 2). El horario por sesión aún no está asignado.
+Contrato institucional: PDF oficial [9729001103](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) (2026-27). Carga formativa presencial **150 h** repartida entre las categorías oficiales de actividad. Las franjas pedagógicas están asignadas en el currículo; quedan pendientes las fechas institucionales y los procedimientos del Campus Virtual.
 
-- Introducción a las imágenes digitales  
-- Tecnología digital 2D: herramientas de dibujo · color · mapas de bits · efectos  
-- Fundamentos y representación de la forma tridimensional · Volumen  
-- Fuentes y referencias compositivas en el diseño de moda  
-- Creación de imágenes digitales animadas · Bodegones digitales  
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+
+Contrato institucional: PDF oficial [9729001103](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) (2026-27), clonado en `digital-creativity-pedagogy/cv/guides/1-creacion-digital-i.json` (no se publica en Pages). Carga formativa presencial **150 h** (clases magistrales 10 · seminarios 20 · resolución 8 · investigaciones y proyectos 20 · talleres 14 · autónomo 56 · debates 8 · tutoría 12 · pruebas 2). Las franjas pedagógicas están asignadas en el registro; quedan pendientes las fechas institucionales y los procedimientos del Campus Virtual.
+
+-->
+{% endif %}
+
+- Introducción a las imágenes digitales
+- Tecnología digital 2D: herramientas de dibujo · color · mapas de bits · efectos
+- Fundamentos y representación de la forma tridimensional · Volumen
+- Fuentes y referencias compositivas en el diseño de moda
+- Creación de imágenes digitales animadas · Bodegones digitales
 
 ## Relación con el arco anual
 

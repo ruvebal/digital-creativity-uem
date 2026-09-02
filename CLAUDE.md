@@ -5,22 +5,22 @@
 **Course:** Creación Digital I–II  
 **Institution:** Universidad Europea — Grado en Comunicación y Gestión de Moda  
 **Instructor:** Rubén Vega Balbás, PhD — `ruvebal@crea-comm.net` · ORCID [0000-0001-6862-9081](https://orcid.org/0000-0001-6862-9081)  
-**Affiliation:** UEM (teaching) · ECSIT / UDIT (research) · crea-comm.net  
+**Affiliation:** UEM (teaching) · ECSIT (research) · crea-comm.net  
 **License:** Code MIT · Content CC BY-NC-SA 4.0
 
 ---
 
 ## 1. What this repo is
 
-A **sovereign teaching site** for digital fashion creation — emancipated from Web Atelier the same way `hc-app-design` was.
+A **sovereign teaching site** for digital fashion creation — emancipated as a standalone UEM course site (same pattern as `hc-app-design`).
 
 | Layer | Path | Role |
 | ----- | ---- | ---- |
 | **L1 · Teaching** | `docs/lessons/`, `docs/tracks/` | Student-facing lessons & itineraries (GitHub Pages) |
 | **L2 · Research** | `digital-creativity-pedagogy/` | Field map, authorities, proposals — **not published** |
-| **L3 · Product** | vShowroom (lives in Web Atelier FE II + this cohort as content authors) | Shared exhibition artefact |
+| **L3 · Product** | vShowroom — shared digital showroom | Content authored here; web runtime in sibling repo |
 
-**Do not** import Web Atelier’s `.cursor/rules` or `.cursor/skills` wholesale — that stack grew for FE lesson authoring (Liquid integrity, exam-forge, CodeSandbox). This repo stays lean: methodology + content. Add Cursor rules only when CD-specific authoring needs them.
+**Do not** import another course's full `.cursor/rules` or `.cursor/skills` stack wholesale. This repo stays lean: methodology + content.
 
 ---
 
@@ -33,9 +33,9 @@ A **sovereign teaching site** for digital fashion creation — emancipated from 
 | **CD I** | 1 | 6 | Imágenes digitales · 2D (dibujo, color, bitmaps, efectos) · **forma tridimensional · Volumen** · referencias moda · animación · bodegones |
 | **CD II** | 2 | 6 | Retoque moda · **avatares** · **experiencias de moda digitales** · vídeo · **web y portfolio digital** · **Hologramas y R.A** |
 
-Presencial formative totals: CD I **150 h** · CD II **150 h** (PDF-patched 2026-08-14; the 140 h CD I figure was a dropped `Clases magistrales` row). Evaluation weights and activity names must match the JSON **after** the live PDF check (`oficial-guia-framework.mdc` §5–§6). CD I PDF is **2026-27**; CD II PDF is still **2025-2026**.
+Presencial formative totals: CD I **150 h** · CD II **150 h** (live PDFs checked 2026-08-23; the 140 h CD I figure was a dropped `Clases magistrales` row). Evaluation weights and activity names must match the JSON **after** the live PDF check (`oficial-guia-framework.mdc` §5–§6). Both current PDFs are **2026-27**.
 
-Sister content stream (same campus triangle): **UDIT Diseño de Moda** authors garments in **CLO 3D**; FE II builds the web runtime. See synergy brief in Web Atelier `frontend-pedagogy/atelier-synergy-vshowroom.mdc` (cross-repo).
+Sister content stream (same campus triangle): **fashion design** authors garments in **CLO 3D**; a **sibling web programme** maintains the showroom runtime. Cross-repo synergy briefs stay in `digital-creativity-pedagogy/` (unpublished).
 
 ---
 
@@ -55,7 +55,7 @@ Canonical copies live under `digital-creativity-pedagogy/grounding/`:
 **Source of truth for re-sync:** `/Users/ruvebal/src/profield/runs/digital-creativity/`.  
 **Ahmes extractions / PDFs:** stay in Ahmes library + `profield/.../pdfs/` — do not duplicate binaries here.
 
-Pattern inspired by Web Atelier `frontend-pedagogy/` (grounding README, research line, cohort proposal, unit forge) — adapt, do not copy FE CER claims into fashion venues without Ladder A/B discipline.
+Pattern inspired by standalone course-site pedagogy packs (grounding README, research line, cohort proposal, unit forge) — adapt, do not copy foreign CER claims into fashion venues without Ladder A/B discipline.
 
 ### Scholarly grounding pipeline (CV / lessons)
 
@@ -79,8 +79,12 @@ Authoring gate: [`dc-unit-forge.mdc`](digital-creativity-pedagogy/dc-unit-forge.
 2. **Student fashion work is authorial property** — exhibition needs per-artefact **S1/S2** (`digital-creativity-pedagogy/consent/S-SET.md`). Research reuse needs **C-set**, IP-administered. Drafts are not DPO approval.
 3. **VTON / try-on is out of teaching sprint scope** — open research problem; showroom exhibits, does not fit.
 4. **Pages must not leak** `digital-creativity-pedagogy/`, `_research/`, or `private/`.
-5. **Authorship** — credit `ruvebal@crea-comm.net`; UEM affiliation on teaching surfaces; UDIT where research co-badges.
-6. **No citation without an Ahmes node** — DevIAC/Athanor find; vaults prove. Declared gaps when NONE.
+5. **Authorship** — credit `ruvebal@crea-comm.net`; UEM affiliation on teaching surfaces. Do not name UDIT or sibling institutions on student-facing pages.
+6. **No citation without an Ahmes node** — DevIAC/Athanor find; vaults prove.
+   The node record is private source provenance, not student copy: public
+   lessons use Chicago `(Author Year, page)` and a complete final reference;
+   internal names/IDs/status/paths live only in the switch-gated source
+   comment and must fail the normal build if they reach rendered output.
 7. **Official guía PDF (cloned to JSON) is the pedagogical contract** — hours, evaluation %, competencies, and CONTENIDOS from `cv/guides/*.json` after PDF check (see `oficial-guia-framework.mdc`). No FE 10/30/14 substitution. Course hour totals close at 150; per-session allocation lives in `tracks.yml` and must emit every contact-forgeable key.
 
 ---
@@ -102,9 +106,8 @@ cd ~/src/deviac && make health && make ingest-profield-dc
 
 | Repo | Relation |
 | ---- | -------- |
-| `web-atelier-udit` | FE I/II + vShowroom engineering + CER case · `atelier-synergy-vshowroom.mdc` |
 | `hc-app-design` | Emancipation template (Jekyll + Pages) |
-| `profield` | Upstream field-map runs |
+| `profield` | Upstream field-map runs + Media Prospector (MP0–MP5) |
 | `ahmes` | Extraction engine for PDFs |
 | `deviac` | Postgres + pgvector ingest (`ingest-profield-dc`) |
 | `athanor` | Optional inject / field search layer (not citation) |

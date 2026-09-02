@@ -1,74 +1,133 @@
 ---
-description: Honest readiness for teaching Creación Digital I–II — what exists, what blocks first class, ordered path to ready
+description: Honest readiness and executable remaining-work queue for teaching Creación Digital I–II in 2026-27
 globs: 'digital-creativity-pedagogy/**'
 alwaysApply: false
 ---
 
 # Teaching readiness — Creación Digital I–II (UEM)
 
-**Re-audited 2026-08-14** (hours PDF-patched; matrix plugged; consent drafted). Figures below are measured.
+**Re-audited 2026-08-28.** This file distinguishes a complete lesson scaffold from delivery sign-off, evidence maturity, research permission, public-exhibition permission, and generated-asset operations.
 
----
+## 0. Current verdict
 
-## 0. Straight answer
+**Curriculum scaffold: complete.** CD I has 9 units and CD II has 6. All 15 exist in English and Spanish with B1/B2/B3, definition of done, assessment mapping, hand-in package, master idea, field lens, semantic graphic, outcome illustration, and private instructor answer sketches.
 
-**Forge: ready to start Wave 1 (II.5).** Paste [`forge/CD-II-II.5.execute.md`](./forge/CD-II-II.5.execute.md). It will not write a truthful *taught* course until B1–B3 exist.
+**Teaching: ready for instructor dry-run, not yet institutionally released.** The official presencial totals remain 150 h per course; the curriculum allocates 80/80 contact hours as pedagogical slices. Actual dates, groups, submission channels, room/software conditions, and Campus Virtual procedures remain external.
 
-**CD I / CD II as taught sequences: not yet.** Track pages remain scaffold; `sessions_list: []`.
+**Research data: blocked.** Consent C/S is drafted but has no DPO approval and has not been administered.
 
-**Research data: not collectable.** Consent C/S are **drafts** (no DPO, not administered). Exhibition of student work: same gate (S1/S2).
+**Public exhibition: blocked by default.** A student piece needs the applicable signed S1/S2 permission. Course completion never implies exhibition or research consent.
 
-**Institutional contract: PDF-patched.** Both presencial tables close at **150 h**.
+**Evidence gaps: bounded, not hidden.** A gap in direct teaching research does not make a lesson unusable. It means the lesson remains a declared pilot and must not claim a validated learning effect.
 
----
-
-## 1. Measured state (repo)
+## 1. Measured repository state
 
 | Surface | State |
-| ------- | ----- |
-| Jekyll + Pages + excludes | ✅ |
-| Official guía JSON clones | ✅ PDF-patched 2026-08-14 |
-| `oficial-guia-framework.mdc` · forges | ✅ hours + UNIT_ID + matrix Step A |
-| `cv/UNIT-PLAN.md` | ✅ I.1–I.9 · II.1–II.6 |
-| Evidence matrix (`grounding/README.md`) | ✅ 15 rows; many honest NONE / `[BIBLIO-GAP]` |
-| Consent C-set + S-set | ✅ drafted · ✗ DPO · ✗ administered |
-| Track indexes EN/ES | ✅ scaffold (150 h stated) |
-| `docs/lessons/**` forged units | ✗ |
-| CV drafts | ✅ hours/eval + SAFE bib seed |
-| `tracks.yml` course totals | ✅ 150 / 150 |
-| `tracks.yml` session allocation | 🔴 still empty (by design until first unit) |
-| DevIAC DC ingest | ✅ live (`profield-digital-creativity`) |
-| Ahmes batch | **63** `PROCESSED_OK` (not the stale 43) |
-| Athanor project | ✅ searchable (Shinkle ~0.72 on T1 query) |
+| --- | --- |
+| Official guía JSON clones | ✅ checked against the current 2026-27 PDFs |
+| Official course load | ✅ 150 h / 150 h |
+| Pedagogical contact allocation | ✅ 80 h / 80 h |
+| Unit plan | ✅ I.1–I.9 and II.1–II.6 |
+| Student lessons | ✅ 15 units × EN/ES = 30 pages |
+| B1/B2/B3 and hand-in contract | ✅ all units |
+| Master idea + field lens | ✅ all units, EN/ES |
+| Semantic + outcome illustrations | ✅ all 30 rendered lesson pages |
+| Lesson-cover regeneration safety | ✅ `npm run generate:lesson-covers` archives previous SVG/PNG/manifest targets before overwriting |
+| Formula-driven visual grounding | ✅ verified Julia LaTeX/MathML is consumed through the complex-quadratic adapter; private page/crop proof remains unpublished |
+| Formula corpus qualification | ◻ AFEL 12H.FC0–FC6 planned; overnight `--execute` is fail-closed until FC0–FC4 produce an operator-approved `CORPUS_READY` artifact |
+| How-to-pass track decks | ✅ DC I/II published with content-addressed UEM-only SVG/PNG releases, a public append-only index, semantic glass `<figcaption>` provenance, shared responsive styling, and back-to-track navigation |
+| Instructor answer sketches | ✅ all 15 units; private |
+| Public bibliography | ✅ Chicago author-date; final References/Referencias gate passes |
+| Publication firewall | ✅ internal corpus, resolver, and local-path metadata blocked from public output |
+| Track/index links | ✅ present in the rendered site |
+| Local Jekyll build | ✅ publication, citation, and broken-link checks pass |
+| Unit teaching decks | ◻ not produced; optional unless your delivery requires them |
+| Campus Virtual calendar/procedure data | ✗ external and still to enter |
+| DPO/research authorization | ✗ not approved |
+| Student exhibition permission | ✗ piece-specific; not yet administered |
 
----
+## 2. Work queue — do in this order
 
-## 2. What “forge-ready” means here
+### P0 — before the first class
 
-Wave 1 (II.5) can be written **now** under the matrix: Anwar + Rizzi ground authorship/studio-AI; portfolio *web UX* stays a declared field gap; S1/S2 go in the studio brief as unsigned templates.
+- [ ] **Instructor sign-off:** read each track once as a sequence, then mark any unit you do not intend to teach this year. Do not silently leave a published unit in the assessed sequence.
+- [ ] **Institutional delivery data:** enter real dates, groups, submission channels, assessment deadlines, recovery procedure, and Campus Virtual links in the institutional system. Do not invent them in this repository.
+- [ ] **Assessment cross-check:** compare each B1/B2/B3 allocation and hand-in package with the final institutional evaluation table. Record any approved local adaptation before students begin.
+- [ ] **Software and access dry-run:** test the actual lab machines/accounts for image, 3D, video, portfolio, avatar, and AR units. Record a no-cost or lower-spec fallback for every required tool.
+- [ ] **Accessibility route:** verify keyboard access, captions/transcripts, contrast, reduced-motion alternatives, export formats, and a non-AR/non-immersive path where relevant.
+- [ ] **First-session rehearsal:** run the opening lesson against its real time allocation. Confirm that B3 remains individually attributable.
+- [ ] **Release checkpoint:** commit/deploy the selected version and inspect the public track plus one lesson in each language. A passing local build is not itself a live release.
 
-Wave 2 (I.5–I.6 volume) can be written only as a **declared-gap** unit — the vault does not support 3D-form pedagogy yet. That is allowed; hiding the gap is not.
+**P0 definition of done:** a student can identify where to go, what to install or use, what to submit, when to submit it, how it is assessed, and what accessible fallback exists.
 
-Do **not** invent a week-by-week timetable to close the 80 h contact bucket before those units exist.
+### P1 — teaching-pack polish
 
----
+- [ ] Before any visual reforge, run `npm run generate:lesson-covers` only from a clean intentional state and inspect `digital-creativity-pedagogy/archives/lesson-covers/<timestamp>/` so the previous generated set remains recoverable without publishing the archive.
+- [x] Formula-backed track-orientation backgrounds regenerate with `npm run generate:pass-track-art`; image bytes are immutable and content-addressed, each release is retained in the public index, superseded mutable assets/indexes are archived under `digital-creativity-pedagogy/archives/fractal-pass-track/<timestamp>/`, and private receipts retain tool versions, hashes, and Git commits where available.
+- [ ] Build and rehearse the Ahmes Formula Evidence Lifecycle (12H.FC0–FC4) before enabling broad design-bibliography ingestion. Keep unattended promotion forbidden; only reviewed `EXACT` or `USABLE_WITH_REPAIR` rows may enter glossary exports or fractal-architect briefs.
+- [ ] Decide whether you will teach from the lesson page or require slides. If slides are required, produce decks only after each unit's sequence is signed off.
+- [ ] Add one instructor-selected exemplar and one counterexample per unit. Keep answer logic private; publish student work only with permission.
+- [ ] Time-box each B1/B2/B3 activity and note the cut point if the class runs late.
+- [ ] Pin the tool/version assumptions used in demonstrations and record the expected fallback when an interface changes.
+- [ ] Dry-run all export and hand-in packages on a clean student account, not only an instructor machine.
+- [ ] Review the bilingual pair together after any substantive edit so EN and ES do not drift.
 
-## 3. Path to *teachable*
+### P2 — scholarly gaps; improve when useful, but do not block teaching
 
-**Wave 0** — hours/JSON/CV/matrix/consent drafts. ✅ except DPO/IP administration.
+| Unit(s) | Current evidence boundary | Work if you want to narrow it | Acceptable teaching state now |
+| --- | --- | --- | --- |
+| I.1 | Fashion-image field frame is safe; no Photoshop pedagogy claim | Search only if making a tool-learning claim | Teach image-as-system; keep software as HOW |
+| I.2–I.4 | No direct 2D-tool, colour-management, or effects pedagogy evidence | Run the relevant Profield gap fields, discover in vectors, verify full Ahmes pages, promote only evaluator-safe citations | Declared technique/studio pilots |
+| I.5 | Safe evidence that real 3D teaching sequences exist; no validated form-understanding outcome | Seek comparative or measured spatial-learning studies | Course-structure-grounded pilot |
+| I.6 | Safe single-module hybrid CLO3D case; limited generalisability | Seek replication across cohorts/tools | Bounded hybrid-studio precedent |
+| I.7 | Reference/moodboard source remains `[BIBLIO-GAP]` | Repair bibliographic metadata or find a safe replacement; do not invent author/year | Declared sourcing/provenance gap |
+| I.8–I.9 | No direct animation or fashion still-life teaching sequence | Search motion/fashion-film and product/still-life education separately | Declared synthesis pilots |
+| II.1 | Appearance/retouch source remains `[BIBLIO-GAP]`; no retouch curriculum validation | Resolve the record or replace it with a safe full-text source | Ethical edit-ledger pilot |
+| II.2 | Safe authorship and embodiment guardrails; no avatar-making pedagogy | Seek avatar design/assessment studies, not VTON papers | Bounded representation pilot |
+| II.3 | Safe digital-experience criteria; no validated classroom sequence | Seek exhibition/experience learning studies | Phenomenon-grounded pilot |
+| II.4 | Safe fashion-film genre evidence; no editing pedagogy | Seek storyboard-to-export teaching studies | Genre-grounded production pilot |
+| II.5 | Safe portfolio process/authorship precedent; no fashion-portfolio UX or hiring effect | Seek accessible portfolio UX and assessment studies; do not promise employment | Process-grounded portfolio pilot |
+| II.6 | Safe fashion-AR audience evidence; no AR/hologram pedagogy | Seek classroom AR design studies; keep VTON out of scope | Audience-grounded AR pilot |
 
-**Wave 1** — paste [`forge/CD-II-II.5.execute.md`](./forge/CD-II-II.5.execute.md); emit B1·B2·B3 (EN+ES) + unsigned S1/S2 in the brief.
+For every evidence upgrade:
 
-**Wave 2** — I.5/I.6 with NONE declared **unless** `dc-3d-form-volume-pedagogy` Pass 3 upgrades the matrix first ([`grounding/GAP-PROSPECTION-INDEX.mdc`](./grounding/GAP-PROSPECTION-INDEX.mdc)).
+1. Search the scoped Profield/Athanor project for discovery only.
+2. Read the complete Ahmes node and page context.
+3. Resolve Chicago author-date and require `evaluator_safe=yes` for public citation.
+4. Keep unresolved records as `[BIBLIO-GAP]` in source-only provenance.
+5. Update the evidence matrix, lesson boundary, public References section, and this readiness table together.
 
-**Then** remaining CONTENIDOS after their gap fields; decks last.
+### P0-R — research and public-showroom gates
 
-**Minimum viable first class:** Wave 1 lesson + consent forms printed as drafts (research still off) + one studio brief that does not require public exhibition.
+Do not collect, export, analyse, or retain coursework as research data until every required box is complete.
 
----
+- [ ] UEM DPO has reviewed the pack and named the controller.
+- [ ] Lawful basis, retention period, withdrawal process, deletion deadline, and processor/storage locations are written.
+- [ ] The possible presence of 17-year-old students has been resolved with the DPO.
+- [ ] An independent person administers research consent; participation is grade-neutral and invisible to the instructor until grading is complete.
+- [ ] C-set has been versioned, approved, and administered before collection begins.
+- [ ] S1/S2 has been administered separately for each exhibited piece.
+- [ ] Cross-institutional DPO/approval is added if shared-showroom exhibition activity enters scope.
+- [ ] Public-showroom defaults remain private until the signed permission record is linked to the piece.
 
-## 4. What would change the answer to “ready to teach / ready to research”
+If these boxes are not complete, teach normally and produce **no research dataset**. This is a valid outcome.
 
-- Teach: Wave 1 B1–B3 on Pages; session hours in `tracks.yml` for that unit only.
-- Research: DPO sign-off + IP administering C-set.
-- Exhibit: signed S1/S2 per piece.
+## 3. Release acceptance checklist
+
+- [ ] `npm run build` passes publication and citation checks.
+- [ ] If lesson covers were regenerated, the previous generated SVG/PNG/manifest set is present in `digital-creativity-pedagogy/archives/lesson-covers/`.
+- [ ] Formula-driven artwork uses only exportable Ahmes formula glossary records, not vector snippets or unverified `normalized_text`.
+- [ ] Both home/track indexes link to every intended lesson.
+- [ ] No internal metadata appears in `_site`.
+- [ ] Every lesson has exactly one semantic and one outcome illustration.
+- [ ] References/Referencias is the final visible level-two section when citations are used.
+- [ ] The public page contains no answer sketch, consent assumption, invented date, or unsupported learning-effect claim.
+- [ ] The release/tag used for teaching is recorded in the Campus Virtual.
+
+## 4. Meaning of “done”
+
+- **Ready to teach:** P0 complete; P1 may continue during preparation.
+- **Ready as a polished teaching pack:** P0 + the chosen P1 materials complete.
+- **Ready to study:** all P0-R gates complete before data collection.
+- **Ready to exhibit:** signed piece-specific S1/S2, plus any cross-institutional approval.
+- **Evidence-complete:** not required and probably unattainable; declared pilots remain legitimate when their boundaries are explicit.

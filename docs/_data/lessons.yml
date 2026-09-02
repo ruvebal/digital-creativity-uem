@@ -11,8 +11,8 @@
     es: lessons/es/creacion-digital-ii/ii-5-web-portfolio/index.md
     en: lessons/en/digital-creativity-ii/ii-5-web-portfolio/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-5-forma-tridimensional
   title:
@@ -25,8 +25,8 @@
     es: lessons/es/creacion-digital-i/i-5-forma-tridimensional/index.md
     en: lessons/en/digital-creativity-i/i-5-three-dimensional-form/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: ii-1-retoque-moda
   title:
@@ -39,8 +39,8 @@
     es: lessons/es/creacion-digital-ii/ii-1-retoque-moda/index.md
     en: lessons/en/digital-creativity-ii/ii-1-retoque-moda/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: ii-2-avatares
   title:
@@ -53,8 +53,8 @@
     es: lessons/es/creacion-digital-ii/ii-2-avatares/index.md
     en: lessons/en/digital-creativity-ii/ii-2-avatares/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: ii-3-experiencias-digitales
   title:
@@ -67,8 +67,8 @@
     es: lessons/es/creacion-digital-ii/ii-3-experiencias-digitales/index.md
     en: lessons/en/digital-creativity-ii/ii-3-experiencias-digitales/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: ii-4-video
   title:
@@ -81,8 +81,8 @@
     es: lessons/es/creacion-digital-ii/ii-4-video/index.md
     en: lessons/en/digital-creativity-ii/ii-4-video/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: ii-6-hologramas-ra
   title:
@@ -95,8 +95,8 @@
     es: lessons/es/creacion-digital-ii/ii-6-hologramas-ra/index.md
     en: lessons/en/digital-creativity-ii/ii-6-hologramas-ra/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-6-volumen
   title:
@@ -109,8 +109,8 @@
     es: lessons/es/creacion-digital-i/i-6-volumen/index.md
     en: lessons/en/digital-creativity-i/i-6-volume/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-1-imagenes-digitales
   title:
@@ -123,8 +123,8 @@
     es: lessons/es/creacion-digital-i/i-1-imagenes-digitales/index.md
     en: lessons/en/digital-creativity-i/i-1-digital-images/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-2-dibujo-2d
   title:
@@ -137,8 +137,8 @@
     es: lessons/es/creacion-digital-i/i-2-dibujo-2d/index.md
     en: lessons/en/digital-creativity-i/i-2-2d-drawing/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-3-color-bitmaps
   title:
@@ -151,8 +151,8 @@
     es: lessons/es/creacion-digital-i/i-3-color-bitmaps/index.md
     en: lessons/en/digital-creativity-i/i-3-color-bitmaps/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-4-efectos
   title:
@@ -165,8 +165,8 @@
     es: lessons/es/creacion-digital-i/i-4-efectos/index.md
     en: lessons/en/digital-creativity-i/i-4-effects/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-7-referencias-moda
   title:
@@ -179,8 +179,8 @@
     es: lessons/es/creacion-digital-i/i-7-referencias-moda/index.md
     en: lessons/en/digital-creativity-i/i-7-fashion-references/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-8-animacion
   title:
@@ -193,8 +193,8 @@
     es: lessons/es/creacion-digital-i/i-8-animacion/index.md
     en: lessons/en/digital-creativity-i/i-8-animation/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson
 - slug: i-9-bodegones
   title:
@@ -207,6 +207,6 @@
     es: lessons/es/creacion-digital-i/i-9-bodegones/index.md
     en: lessons/en/digital-creativity-i/i-9-bodegones/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: lesson

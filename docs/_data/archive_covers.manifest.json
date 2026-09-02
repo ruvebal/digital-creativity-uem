@@ -1,0 +1,32 @@
+{
+	"udit": [
+		{ "url": "/", "asset": "archive-home", "title": "WEB ATELIER (UDIT)", "family": "fe-i", "seed": "home" },
+		{ "url": "/lessons/en/", "asset": "archive-lessons-en", "title": "Lessons (EN)", "family": "fe-i", "seed": "lessons-en" },
+		{ "url": "/lessons/es/", "asset": "archive-lessons-es", "title": "Lecciones (ES)", "family": "fe-i", "seed": "lessons-es" },
+		{ "url": "/tracks/", "asset": "archive-tracks", "title": "Learning Tracks", "family": "fe-ii", "seed": "tracks" },
+		{ "url": "/tracks/en/", "asset": "archive-tracks-en", "title": "Learning Tracks (EN)", "family": "fe-ii", "seed": "tracks-en" },
+		{ "url": "/tracks/es/", "asset": "archive-tracks-es", "title": "Cursos de Aprendizaje (ES)", "family": "fe-ii", "seed": "tracks-es" },
+		{ "url": "/tracks/fei/", "asset": "archive-fei", "title": "Front-End I", "family": "fe-i", "seed": "fei" },
+		{ "url": "/tracks/feii/", "asset": "archive-feii", "title": "Front-End II", "family": "fe-ii", "seed": "feii" },
+		{ "url": "/tracks/en/udit/2627-fei/", "asset": "archive-2627-fei", "title": "Front-End I · 2026–27", "family": "fe-i", "seed": "2627-fei" },
+		{ "url": "/tracks/en/udit/2627-feii/", "asset": "archive-2627-feii", "title": "Front-End II · 2026–27", "family": "fe-ii", "seed": "2627-feii" },
+		{ "url": "/methodology/en/", "asset": "archive-methodology-en", "title": "Methodology (EN)", "family": "fe-ii", "seed": "methodology-en" },
+		{ "url": "/methodology/es/", "asset": "archive-methodology-es", "title": "Metodología (ES)", "family": "fe-ii", "seed": "methodology-es" }
+	],
+	"uem": [
+		{ "url": "/", "asset": "archive-home", "title": "Digital Creativity", "family": "dc-i", "seed": "home" },
+		{ "url": "/tracks/", "asset": "archive-tracks", "title": "Learning Tracks", "family": "dc-ii", "seed": "tracks" },
+		{ "url": "/tracks/en/", "asset": "archive-tracks-en", "title": "Tracks (EN)", "family": "dc-i", "seed": "tracks-en" },
+		{ "url": "/tracks/es/", "asset": "archive-tracks-es", "title": "Cursos (ES)", "family": "dc-i", "seed": "tracks-es" },
+		{ "url": "/tracks/en/digital-creativity-i/", "asset": "archive-dc-i", "title": "Digital Creativity I", "family": "dc-i", "seed": "dc-i" },
+		{ "url": "/tracks/en/digital-creativity-ii/", "asset": "archive-dc-ii", "title": "Digital Creativity II", "family": "dc-ii", "seed": "dc-ii" },
+		{ "url": "/tracks/es/creacion-digital-i/", "asset": "archive-cd-i-es", "title": "Creación Digital I", "family": "dc-i", "seed": "cd-i-es" },
+		{ "url": "/tracks/es/creacion-digital-ii/", "asset": "archive-cd-ii-es", "title": "Creación Digital II", "family": "dc-ii", "seed": "cd-ii-es" },
+		{ "url": "/tracks/en/uem/2627-dci/", "asset": "archive-2627-dci", "title": "Digital Creativity I · 2026–27", "family": "dc-i", "seed": "2627-dci" },
+		{ "url": "/tracks/en/uem/2627-dcii/", "asset": "archive-2627-dcii", "title": "Digital Creativity II · 2026–27", "family": "dc-ii", "seed": "2627-dcii" },
+		{ "url": "/methodology/en/", "asset": "archive-methodology-en", "title": "Methodology (EN)", "family": "dc-i", "seed": "methodology-en" },
+		{ "url": "/methodology/es/", "asset": "archive-methodology-es", "title": "Metodología (ES)", "family": "dc-i", "seed": "methodology-es" },
+		{ "url": "/evaluation/", "asset": "archive-evaluation", "title": "Evaluation", "family": "dc-ii", "seed": "evaluation" },
+		{ "url": "/bibliography/es/", "asset": "archive-bibliography-es", "title": "Bibliografía", "family": "dc-i", "seed": "bibliography-es" }
+	]
+}

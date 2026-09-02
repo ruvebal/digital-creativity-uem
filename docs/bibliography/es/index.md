@@ -34,5 +34,4 @@ Referencias académicas completas en la [nota de autoría del Tao del Diseño Ce
 
 ## Metodología Studio
 
-- [Metodología HC]({{ '/methodology/es/' | relative_url }})
-- [Web Foundations — metodología](https://ruvebal.github.io/web-atelier-udit/methodology/es/)
+- [Metodología Creación Digital]({{ '/methodology/es/' | relative_url }})

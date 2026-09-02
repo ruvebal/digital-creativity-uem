@@ -1,0 +1,8 @@
+interface:
+  display_name: "Fractal Architect"
+  short_description: "Verified mathematics for recursive visual systems"
+  brand_color: "#9373DD"
+  default_prompt: "Use $fractal-architect to design a seeded, formula-governed curriculum background with a clear readability contract."
+policy:
+  allow_implicit_invocation: true
+

@@ -1,8 +1,16 @@
 ---
 layout: default
-title: 'Tracks'
+title: 'Tracks — Digital Creativity'
+description: 'Course itineraries for Digital Creativity I–II (Universidad Europea).'
+lang: en
 permalink: /tracks/
 ---
 
-<meta http-equiv="refresh" content="0; url={{ '/tracks/es/' | relative_url }}">
-<p><a href="{{ '/tracks/es/' | relative_url }}">Cursos (ES)</a> · <a href="{{ '/tracks/en/' | relative_url }}">Tracks (EN)</a></p>
+<meta http-equiv="refresh" content="0; url={{ '/tracks/en/' | relative_url }}">
+
+# Learning Tracks / Cursos
+
+| Locale | Hub |
+| ------ | --- |
+| **EN** | [Digital Creativity tracks (EN)]({{ '/tracks/en/' | relative_url }}) |
+| **ES** | [Cursos Creación Digital (ES)]({{ '/tracks/es/' | relative_url }}) |

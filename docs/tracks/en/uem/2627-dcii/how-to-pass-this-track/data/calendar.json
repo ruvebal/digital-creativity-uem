@@ -1,0 +1,27 @@
+---
+layout: null
+---
+{
+  "source_label": "Universidad Europea academic calendar",
+  "source_url": "https://universidadeuropea.com/tu-experiencia/servicios-gestion-academica/",
+  "note": "Verify with school calendar for exam periods",
+  "exam_periods": [
+    {
+      "label": "Semester 1 closes",
+      "value": "22 January 2027"
+    },
+    {
+      "label": "Semester 2 closes",
+      "value": "6 June 2027"
+    },
+    {
+      "label": "Extraordinary call",
+      "value": "21 June-9 July 2027"
+    }
+  ],
+  "data_source": {
+    "adapter": "ttdo-ready static JSON",
+    "owner": "TTDO calendar adapter",
+    "proposal": "Keep institutional calendar facts in this small data file now; later generate the same schema from the private TTDO source so slide templates only consume resolved calendar JSON."
+  }
+}

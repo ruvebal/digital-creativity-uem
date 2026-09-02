@@ -1,35 +1,36 @@
 {
   "_reconciliation": {
-    "checked": "2026-08-14",
+    "checked": "2026-08-23",
     "authority": "official PDF",
     "source_url": "https://universidadeuropea.es/myfiles/pr/9729001108.pdf",
-    "pdf_academic_year": "2025-2026",
+    "pdf_academic_year": "2026-27",
     "pdf_pages": {
       "identity": 1,
       "formative": 3,
       "evaluation": 4
     },
-    "note": "Live PDF is still 2025-2026 (CD I has already rolled to 2026-27). Unicrawler hours and presencial evaluation already matched the PDF. Virtual evaluation really has no Caso/problema row (Informes 15 + Proyectos 20 + Cuaderno 10). Methodologies split from concatenated scrape. Learning-outcome bullets taken from PDF §3."
+    "note": "The live URL rolled from the prior 2025-2026 clone to 2026-27 between the earlier repo patch and this audit. The current PDF now uses Facultad de Diseño y Tecnologías Creativas, castellano/inglés, S2, and the same presencial/online evaluation structure as CD I: 55% pruebas, 15% caso/problema, 20% investigaciones y proyectos, 10% cuaderno. The former Informes y escritos/Proyectos table was stale. Presentation, competencies, learning outcomes, activities, and methodology were re-read from the current PDF."
   },
   "subject_name": "Creación Digital II",
   "official_title_name": "Grado en Comunicación y Gestión de Moda",
-  "school_or_faculty": "Escuela de Arquitectura, Ingeniería y Diseño - Campus Creativo",
+  "school_or_faculty": "Facultad de Diseño y Tecnologías Creativas",
   "year": 1,
   "ects": 6.0,
   "module_type": "Básica",
   "languages": [
-    "Castellano"
+    "castellano",
+    "inglés"
   ],
-  "modality": "Presencial/virtual",
-  "semester": "2",
-  "academic_year": "2025-2026",
-  "coordinating_professor": "Sandra Jiménez/Joans Ribas",
-  "presentation": "En Creación Digital II nos centraremos en ampliar y profundizar los conocimientos digitales, explorando nuevos conceptos y otros más avanzados en cuanto a técnicas y softwares. Se aprenderán a aplicar herramientas digitales y técnicas para desarrollar colecciones de moda únicas y expresivas. Se abordarán temas como el uso de softwares especializados, la creación de avatares 3D, la creación de contenido digital y su difusión, y la importancia de la realidad aumentada en el diseño de moda actualmente.",
+  "modality": "presencial",
+  "semester": "S2",
+  "academic_year": "2026-27",
+  "coordinating_professor": "Sandra Jiménez Duarte",
+  "presentation": "La materia aborda la representación gráfica y audiovisual de ideas de moda mediante técnicas digitales avanzadas. El alumnado aprende a diseñar la imagen de marca de firmas de moda, crear campañas digitales y manejar formatos de archivo propios y genéricos. Se desarrollan competencias en retoque fotográfico, creación de avatares, edición de vídeo, maquetación web y portfolio digital, así como en el diseño de experiencias de moda digitales, incluyendo hologramas y realidad aumentada. El enfoque fomenta la creatividad y la capacidad de resolver retos de comunicación visual en el ámbito empresarial de la moda.",
   "competencies": [
-    "CON1.Diferenciar las distintas técnicas de representación audiovisual de ideas de moda y sus posibilidades y medios de difusión.",
+    "CON1. Diferenciar las distintas técnicas de representación audiovisual de ideas de moda y sus posibilidades y medios de difusión.",
     "HAB1. Representar gráficamente ideas de moda.",
-    "HAB10.Diseñar la imagen de marca de una firma de moda.",
-    "COMP8 Capacidad para manejar herramientas digitales de representación gráfica o audiovisual en la comunicación de ideas o proyectos de moda, creando y mejorando la imagen y la marca empresarial.",
+    "HAB10. Diseñar la imagen de marca de una firma de moda.",
+    "COMP8. Capacidad para manejar herramientas digitales de representación gráfica o audiovisual en la comunicación de ideas o proyectos de moda, creando y mejorando la imagen y la marca empresarial.",
     "COMP9. Capacidad para crear ideas nuevas y conceptos a partir de ideas y conceptos conocidos, llegando a conclusiones o resolviendo problemas, retos y situaciones de una forma original."
   ],
   "learning_outcomes": [
@@ -40,7 +41,7 @@
     "Maquetar proyectos y trabajos de diseño con calidad profesional.",
     "Diseñar estrategias creativas de comunicación digital en empresas de moda."
   ],
-  "contents": "Retoque fotográfico avanzado de imágenes moda. Creación de avatares Diseño de experiencias de moda digitales Recursos digitales de edición de vídeo Maquetación, edición y creación de web y portfolio digital. Hologramas y R.A",
+  "contents": "Retoque fotográfico avanzado de imágenes moda. Creación de avatares. Diseño de experiencias de moda digitales. Recursos digitales de edición de vídeo. Maquetación, edición y creación de web y portfolio digital. Hologramas y R.A.",
   "methodologies": {
     "General": [
       "Clase magistral",
@@ -53,77 +54,77 @@
   "formative_activities": {
     "Modalidad presencial": [
       {
-        "name": "Clases magistrales (modalidad presencial)",
+        "name": "Clases magistrales",
         "hours": 10.0
       },
       {
-        "name": "Seminarios de aplicación práctica (modalidad presencial)",
+        "name": "Seminarios de aplicación práctica",
         "hours": 20.0
       },
       {
-        "name": "Resolución de problemas (modalidad presencial)",
+        "name": "Resolución de problemas",
         "hours": 8.0
       },
       {
-        "name": "Proyectos (modalidad presencial)",
+        "name": "Investigaciones y proyectos",
         "hours": 20.0
       },
       {
-        "name": "Actividades en talleres y/o laboratorios (modalidad presencial)",
+        "name": "Actividades en talleres y/o laboratorios",
         "hours": 14.0
       },
       {
-        "name": "Trabajo autónomo (modalidad presencial)",
+        "name": "Trabajo autónomo",
         "hours": 56.0
       },
       {
-        "name": "Debates y coloquios (modalidad presencial)",
+        "name": "Debates y coloquios",
         "hours": 8.0
       },
       {
-        "name": "Tutoría académica (modalidad presencial)",
+        "name": "Tutoría",
         "hours": 12.0
       },
       {
-        "name": "Pruebas de evaluación presenciales (modalidad presencial)",
+        "name": "Pruebas de evaluación presenciales",
         "hours": 2.0
       }
     ],
-    "Modalidad virtual": [
+    "Modalidad online": [
       {
-        "name": "Clases magistrales (modalidad Foro Virtual)",
+        "name": "Clases magistrales",
         "hours": 10.0
       },
       {
-        "name": "Clases virtuales síncronas (modalidad virtual)",
+        "name": "Clases virtuales síncronas",
         "hours": 20.0
       },
       {
-        "name": "Resolución de problemas (modalidad virtual)",
+        "name": "Resolución de problemas",
         "hours": 8.0
       },
       {
-        "name": "Proyectos (modalidad virtual)",
+        "name": "Investigaciones y proyectos",
         "hours": 20.0
       },
       {
-        "name": "Actividades síncronas en talleres/ laboratorios virtuales (modalidad virtual)",
+        "name": "Actividades síncronas en talleres/ laboratorios virtuales (MyLabs - entornos de simulación)",
         "hours": 14.0
       },
       {
-        "name": "Estudios de contenidos y documentación (modalidad virtual)",
+        "name": "Estudios de contenidos y documentación",
         "hours": 56.0
       },
       {
-        "name": "Foro Virtual (modalidad virtual)",
+        "name": "Foro Virtual",
         "hours": 8.0
       },
       {
-        "name": "Tutoría académica virtual síncrona (modalidad virtual)",
+        "name": "Tutoría académica virtual síncrona",
         "hours": 12.0
       },
       {
-        "name": "Pruebas de evaluación presenciales (modalidad virtual)",
+        "name": "Pruebas de evaluación virtuales",
         "hours": 2.0
       }
     ]
@@ -131,37 +132,37 @@
   "evaluation": {
     "Modalidad presencial": [
       {
-        "name": "Pruebas de evaluación presenciales (modalidad presencial)",
+        "name": "Pruebas de evaluación presenciales",
         "weight_percent": 55.0
       },
       {
-        "name": "Informes y escritos (modalidad presencial)",
+        "name": "Caso/problema",
         "weight_percent": 15.0
       },
       {
-        "name": "Caso/problema (modalidad presencial)",
+        "name": "Investigaciones y proyectos",
         "weight_percent": 20.0
       },
       {
-        "name": "Proyectos (modalidad presencial)",
+        "name": "Cuaderno de prácticas de laboratorio/taller",
         "weight_percent": 10.0
       }
     ],
-    "Modalidad virtual": [
+    "Modalidad online": [
       {
-        "name": "Pruebas de evaluación presenciales (modalidad virtual)",
+        "name": "Pruebas de evaluación virtuales",
         "weight_percent": 55.0
       },
       {
-        "name": "Informes y escritos (modalidad virtual)",
+        "name": "Caso/problema",
         "weight_percent": 15.0
       },
       {
-        "name": "Proyectos (modalidad virtual)",
+        "name": "Investigaciones y proyectos",
         "weight_percent": 20.0
       },
       {
-        "name": "Cuaderno de prácticas de laboratorio/taller (modalidad virtual)",
+        "name": "Cuaderno de prácticas de laboratorio/taller",
         "weight_percent": 10.0
       }
     ]

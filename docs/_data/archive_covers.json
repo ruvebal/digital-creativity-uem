@@ -1,0 +1,86 @@
+{
+	"/": {
+		"asset": "archive-home",
+		"title": "Digital Creativity",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/tracks/": {
+		"asset": "archive-tracks",
+		"title": "Learning Tracks",
+		"family": "dc-ii",
+		"mode": "archive"
+	},
+	"/tracks/en/": {
+		"asset": "archive-tracks-en",
+		"title": "Tracks (EN)",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/tracks/es/": {
+		"asset": "archive-tracks-es",
+		"title": "Cursos (ES)",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/tracks/en/digital-creativity-i/": {
+		"asset": "archive-dc-i",
+		"title": "Digital Creativity I",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/tracks/en/digital-creativity-ii/": {
+		"asset": "archive-dc-ii",
+		"title": "Digital Creativity II",
+		"family": "dc-ii",
+		"mode": "archive"
+	},
+	"/tracks/es/creacion-digital-i/": {
+		"asset": "archive-cd-i-es",
+		"title": "Creación Digital I",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/tracks/es/creacion-digital-ii/": {
+		"asset": "archive-cd-ii-es",
+		"title": "Creación Digital II",
+		"family": "dc-ii",
+		"mode": "archive"
+	},
+	"/tracks/en/uem/2627-dci/": {
+		"asset": "archive-2627-dci",
+		"title": "Digital Creativity I · 2026–27",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/tracks/en/uem/2627-dcii/": {
+		"asset": "archive-2627-dcii",
+		"title": "Digital Creativity II · 2026–27",
+		"family": "dc-ii",
+		"mode": "archive"
+	},
+	"/methodology/en/": {
+		"asset": "archive-methodology-en",
+		"title": "Methodology (EN)",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/methodology/es/": {
+		"asset": "archive-methodology-es",
+		"title": "Metodología (ES)",
+		"family": "dc-i",
+		"mode": "archive"
+	},
+	"/evaluation/": {
+		"asset": "archive-evaluation",
+		"title": "Evaluation",
+		"family": "dc-ii",
+		"mode": "archive"
+	},
+	"/bibliography/es/": {
+		"asset": "archive-bibliography-es",
+		"title": "Bibliografía",
+		"family": "dc-i",
+		"mode": "archive"
+	}
+}

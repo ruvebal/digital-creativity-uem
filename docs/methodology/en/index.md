@@ -22,11 +22,17 @@ tags: [methodology, digital-creativity, digital-fashion, portfolio, avatars, cri
 
 ## Why a methodology of its own
 
-**Web Foundations** (UDIT) teaches **interface craft**. **Digital Creativity** (UEM) teaches **fashion creation in digital media** — volume, avatar, experience, portfolio, AR — and the cultural judgement that decides what is shown.
+**Digital Creativity** (UEM) teaches **fashion creation in digital media** — volume, avatar, experience, portfolio, AR — and the cultural judgement that decides what is shown. Interface craft and web runtime engineering live in a **sibling programme**; this course owns the fashion-digital artefact and its ethics of display.
 
 Shared motto: **Critical Coding for a Better Living.**
 
-The field map under `digital-creativity-pedagogy/grounding/` names the gap this course answers: process, authorship, iteration and judgement must be made visible.
+The field review names the gap this course answers: process, authorship, iteration and judgement must be made visible.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+Field-map source: `digital-creativity-pedagogy/grounding/`.
+-->
+{% endif %}
 
 ## Studio cycle
 
@@ -34,4 +40,4 @@ Exploration → Reflection → Conceptualization → Production → Exhibition.
 
 ## Shared artefact
 
-In S2, CD II students are **real users** of the FE-built vShowroom (UDIT), not fictional clients. See the Web Atelier synergy brief.
+In S2, CD II students are **real users** of the shared **digital showroom (L3)** — they publish pieces, file issues, and critique as an authentic cohort, not as fictional clients. Garment authoring may use **CLO 3D** in the parallel fashion-design stream; the showroom web runtime is maintained elsewhere.

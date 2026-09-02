@@ -1,8 +1,8 @@
 # Unit plan — Creación Digital I–II
 
-Bound to official CONTENIDOS (framework §2). **No session hours here** — `tracks.yml` `sessions_list` stays empty until a unit is forged and a pedagogical slice of the 80 h contact bucket is written.
+Bound to official CONTENIDOS (framework §2). **No session hours here** — pedagogical slices live in `tracks.yml`; this file only binds stable unit IDs to official anchors.
 
-IDs are stable. Evidence: [`../grounding/README.md`](../grounding/README.md) matrix. Consent: [`../consent/README.md`](../consent/README.md).
+IDs are stable. Evidence: [`../grounding/README.md`](../grounding/README.md) matrix. Lesson-level trend anchors: [`../grounding/MASTER-IDEAS.md`](../grounding/MASTER-IDEAS.md). Consent: [`../consent/README.md`](../consent/README.md).
 
 ## CD I — S1 · 2026-27
 
@@ -18,7 +18,7 @@ IDs are stable. Evidence: [`../grounding/README.md`](../grounding/README.md) mat
 | **I.8** | Animación | Creación de imágenes digitales animadas | 4 |
 | **I.9** | Bodegones | Bodegones digitales | 4 |
 
-## CD II — S2 · PDF still 2025-2026
+## CD II — S2 · 2026-27
 
 | ID | Title | CONTENIDOS anchor (verbatim) | Forge wave |
 | -- | ----- | ---------------------------- | ---------- |

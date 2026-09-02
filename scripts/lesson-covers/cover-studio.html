@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hexaform cover studio</title>
+  <style>
+    :root { color-scheme: dark; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #101827; color: #f7f2e8; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; gap: 1.5rem; padding: 2rem; box-sizing: border-box; }
+    canvas { width: min(100%, 1000px); height: auto; border-radius: 1.25rem; box-shadow: 0 24px 64px rgb(0 0 0 / .38); }
+    form { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; width: min(100%, 1000px); }
+    label { display: grid; gap: .35rem; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; }
+    input, button { font: inherit; }
+    input { accent-color: #54d6be; }
+    button { background: #ff7a59; border: 0; border-radius: .45rem; color: #101827; cursor: pointer; font-weight: 700; padding: .6rem .9rem; }
+  </style>
+</head>
+<body>
+  <canvas id="cover" width="1600" height="900" aria-label="Interactive Hexaform cover study"></canvas>
+  <form id="controls">
+    <label>Seed <input id="seed" type="number" value="20260825" min="1" max="99999999" /></label>
+    <label>Density <input id="density" type="range" value="16" min="5" max="28" /></label>
+    <label>Energy <input id="energy" type="range" value="58" min="10" max="100" /></label>
+    <button type="submit">Regenerate</button>
+  </form>
+  <script>
+    const canvas = document.querySelector('#cover');
+    const ctx = canvas.getContext('2d');
+    const controls = document.querySelector('#controls');
+    const randomFactory = (seed) => () => ((seed = Math.imul(1664525, seed) + 1013904223 >>> 0) / 4294967296);
+    const hex = (x, y, r, fill, alpha) => {
+      ctx.beginPath();
+      for (let i = 0; i < 6; i += 1) {
+        const a = Math.PI / 6 + i * Math.PI / 3;
+        (i ? ctx.lineTo : ctx.moveTo).call(ctx, x + Math.cos(a) * r, y + Math.sin(a) * r);
+      }
+      ctx.closePath(); ctx.globalAlpha = alpha; ctx.fillStyle = fill; ctx.fill();
+    };
+    const render = () => {
+      const seed = Number(document.querySelector('#seed').value);
+      const density = Number(document.querySelector('#density').value);
+      const energy = Number(document.querySelector('#energy').value) / 100;
+      const random = randomFactory(seed);
+      ctx.globalAlpha = 1; ctx.fillStyle = '#101827'; ctx.fillRect(0, 0, 1600, 900);
+      const colours = ['#ff7a59', '#54d6be', '#f3c969'];
+      for (let row = 0; row < 15; row += 1) for (let col = 0; col < 25; col += 1) {
+        const x = col * 73 + (row % 2 ? 36 : 0), y = row * 63;
+        if (random() > .32) hex(x, y, 9 + random() * 20, colours[Math.floor(random() * 3)], .03 + random() * .13);
+      }
+      for (let i = 0; i < density; i += 1) {
+        const angle = i * 2.399963 + seed * .0019, radius = 40 + Math.sqrt(i + 1) * (30 + energy * 60);
+        hex(920 + Math.cos(angle) * radius, 450 + Math.sin(angle) * radius * .8, 18 + (density - i) * 2 + random() * 8, colours[i % 3], .28 + (density - i) / density * .45);
+      }
+      ctx.globalAlpha = 1; ctx.fillStyle = '#f7f2e8'; ctx.font = '700 34px ui-monospace, monospace'; ctx.fillText('HEXAFORM / STUDY', 94, 762);
+      ctx.font = '18px ui-monospace, monospace'; ctx.globalAlpha = .7; ctx.fillText(`SEED ${seed} · DENSITY ${density} · ENERGY ${Math.round(energy * 100)}`, 94, 810);
+    };
+    controls.addEventListener('submit', (event) => { event.preventDefault(); render(); });
+    controls.addEventListener('input', render); render();
+  </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
-# Track registry. Course-level hours close to the official PDFs (2026-08-14).
-# Per-session allocation is empty on purpose — analog of the FE tracks.yml
-# defect (duration/labHours only). Do not invent sessions to make 80 h look
-# distributed. Keys: oficial-guia-framework.mdc §5.
+# Track registry. Course-level hours close to the official PDFs (2026-08-23).
+# Session rows are pedagogical slices of the 80 h contact bucket; autonomous
+# work, tutoría, and pruebas remain course-level residuals. Keys follow the
+# current live PDF as reconciled in oficial-guia-framework.mdc §5.
 
 - slug: creacion-digital-i
   title:
@@ -14,8 +14,8 @@
     es: tracks/es/creacion-digital-i/index.md
     en: tracks/en/digital-creativity-i/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: track
   duration: 'S1 · 6 ECTS · 150 h'
   academic_year: '2026-27'
@@ -131,18 +131,18 @@
     es: tracks/es/creacion-digital-ii/index.md
     en: tracks/en/digital-creativity-ii/index.md
   status:
-    es: draft
-    en: draft
+    es: scaffold
+    en: scaffold
   type: track
   duration: 'S2 · 6 ECTS · 150 h'
-  academic_year: '2025-2026'
+  academic_year: '2026-27'
   modality: presencial
   source_url: 'https://universidadeuropea.es/myfiles/pr/9729001108.pdf'
   formative_hours:
     clases_magistrales: 10
     seminarios: 20
     resolucion_problemas: 8
-    proyectos: 20
+    investigaciones_proyectos: 20
     talleres_labs: 14
     trabajo_autonomo: 56
     debates: 8
@@ -152,9 +152,9 @@
   contact_forgeable_hours: 80
   evaluation_weights:
     pruebas: 55
-    informes_escritos: 15
-    caso_problema: 20
-    proyectos: 10
+    caso_problema: 15
+    investigaciones_proyectos: 20
+    cuaderno_taller: 10
   sessions_list:
     - title: 'II.5 Web y portfolio'
       slug: 'ii-5-web-portfolio'
@@ -163,7 +163,7 @@
       seminarios: 3
       debates: 1
       talleres_labs: 3
-      proyectos: 4
+      investigaciones_proyectos: 4
       resolucion_problemas: 1
     - title: 'II.1 Retoque moda'
       slug: 'ii-1-retoque-moda'
@@ -172,7 +172,7 @@
       seminarios: 4
       debates: 2
       talleres_labs: 3
-      proyectos: 4
+      investigaciones_proyectos: 4
       resolucion_problemas: 2
     - title: 'II.2 Avatares'
       slug: 'ii-2-avatares'
@@ -181,7 +181,7 @@
       seminarios: 3
       debates: 1
       talleres_labs: 2
-      proyectos: 3
+      investigaciones_proyectos: 3
       resolucion_problemas: 1
     - title: 'II.3 Experiencias digitales'
       slug: 'ii-3-experiencias-digitales'
@@ -190,7 +190,7 @@
       seminarios: 3
       debates: 1
       talleres_labs: 2
-      proyectos: 3
+      investigaciones_proyectos: 3
       resolucion_problemas: 1
     - title: 'II.4 Vídeo'
       slug: 'ii-4-video'
@@ -199,7 +199,7 @@
       seminarios: 4
       debates: 2
       talleres_labs: 3
-      proyectos: 3
+      investigaciones_proyectos: 3
       resolucion_problemas: 2
     - title: 'II.6 Hologramas y R.A.'
       slug: 'ii-6-hologramas-ra'
@@ -208,5 +208,5 @@
       seminarios: 3
       debates: 1
       talleres_labs: 1
-      proyectos: 3
+      investigaciones_proyectos: 3
       resolucion_problemas: 1

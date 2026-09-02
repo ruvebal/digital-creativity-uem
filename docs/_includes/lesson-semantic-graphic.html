@@ -1,0 +1,24 @@
+{% assign semantic_cover_key = page.slug | default: page.title | slugify %}
+{% assign semantic_cover = site.data.lesson_covers[semantic_cover_key] %}
+{% if semantic_cover %}
+{% if page.lang == 'es' %}
+{% assign semantic_idea = semantic_cover.master_idea_es | default: semantic_cover.master_idea %}
+{% assign semantic_lens = semantic_cover.field_lens_es | default: semantic_cover.field_lens %}
+{% assign semantic_lens = semantic_lens | replace: 'Established:', 'Anclaje de práctica:' | replace: 'Emerging:', 'Señal de frontera:' %}
+<aside class="lesson-framing" aria-label="Idea maestra y perspectiva de campo">
+<p><strong>Idea maestra:</strong> {{ semantic_idea }}.</p>
+<p><strong>Perspectiva de campo:</strong> {{ semantic_lens }}.</p>
+</aside>
+{% else %}
+{% assign semantic_idea = semantic_cover.master_idea %}
+{% assign semantic_lens = semantic_cover.field_lens %}
+{% assign semantic_lens = semantic_lens | replace: 'Established:', 'Practice anchor:' | replace: 'Emerging:', 'Frontier signal:' %}
+<aside class="lesson-framing" aria-label="Master idea and field lens">
+<p><strong>Master idea:</strong> {{ semantic_idea }}.</p>
+<p><strong>Field lens:</strong> {{ semantic_lens }}.</p>
+</aside>
+{% endif %}
+<figure class="lesson-semantic lesson-semantic--{{ semantic_cover.family }}" data-semantic-mode="{{ semantic_cover.mode }}" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/' | append: semantic_cover.asset | append: '-semantic.svg' | relative_url }}" width="1600" height="560" alt="{% if page.lang == 'es' and semantic_cover.semantic_alt_es %}{{ semantic_cover.semantic_alt_es | escape }}{% elsif page.lang == 'es' %}{{ semantic_cover.alt_es | escape }}{% elsif semantic_cover.semantic_alt_en %}{{ semantic_cover.semantic_alt_en | escape }}{% else %}{{ semantic_cover.master_idea | escape }}{% endif %}" />
+</figure>
+{% endif %}

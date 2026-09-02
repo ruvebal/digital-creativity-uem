@@ -16,6 +16,13 @@ Mirror of the Web Atelier `frontend-pedagogy/` **structure**, not a copy of its 
 | [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) | How hours, evaluation, competencies, CONTENIDOS bind all pedagogy |
 | [`dc-cv-forge.mdc`](./dc-cv-forge.mdc) | Forge instructor CV / guía curricular from JSON |
 | [`dc-unit-forge.mdc`](./dc-unit-forge.mdc) | One unit → lesson + studio + exercises (hours = guía, not FE) |
+| [`forge/SESSION-PROMPT-FORGE.mdc`](./forge/SESSION-PROMPT-FORGE.mdc) | Reusable 120-minute classroom-session forge with media and evidence gates |
+| [`forge/SESSION-PROMPTS-README.md`](./forge/SESSION-PROMPTS-README.md) | Fifteen filled CD I / CD II instructor session prompts |
+| [`forge/SESSION-PROMPTS-GROUNDING-RECEIPT.md`](./forge/SESSION-PROMPTS-GROUNDING-RECEIPT.md) | Athanor discovery and Ahmes citation receipt for the prompt set |
+| [`forge/CRITICAL-FIELD-LAYER.md`](./forge/CRITICAL-FIELD-LAYER.md) | Critical field/subfield lens, verified quotation bank, and living-prompt protocol |
+| [`forge/PROVENANCE-LAW.mdc`](./forge/PROVENANCE-LAW.mdc) | Fail-closed Athanor/Ahmes trace law and canonical full provenance line |
+| [`forge/DC-CURRICULUM-ORCHESTRATOR.execute.md`](./forge/DC-CURRICULUM-ORCHESTRATOR.execute.md) | Whole-course CD I + CD II sequential forging cascade |
+| [`forge/PROFIELD-MEDIA-PROSPECTOR-REQUEST.md`](./forge/PROFIELD-MEDIA-PROSPECTOR-REQUEST.md) | Technical request for legal media discovery and studio-semantics classification |
 | [`forge/CD-II-II.5.execute.md`](./forge/CD-II-II.5.execute.md) | **Filled Wave 1 prompt** — paste to execute II.5 |
 | [`grounding/`](./grounding/) | Field map, authorities, seed lists · discover/cite rules · [`temario/PROVENANCE-LAYER.md`](./grounding/temario/PROVENANCE-LAYER.md) · [`GAP-PROSPECTION-INDEX.mdc`](./grounding/GAP-PROSPECTION-INDEX.mdc) |
 | [`TEACHING-READINESS.mdc`](./TEACHING-READINESS.mdc) | Honest “can we teach yet?” audit |

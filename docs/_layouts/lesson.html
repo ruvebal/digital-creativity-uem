@@ -44,6 +44,7 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 	{% endif %}
 
 	<div class="lesson-main">
+		{% include site-hero.html %}
 		<!-- Back to top button -->
 		<button
 			id="back-to-top"
@@ -99,7 +100,9 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 				</ol>
 			</nav>
 
-			<header class="lesson-header">
+			<header class="lesson-header{% if site.data.archive_covers[page.url] %} hero-section hero-section--archive hero-section--hub{% endif %}">
+				{% assign cover_key = page.slug | default: page.title | slugify %}
+				{% assign lesson_cover = site.data.lesson_covers[cover_key] %}
 				<div class="lesson-meta">
 					{% if page.lang == 'es' %}
 					<p class="lesson-tagline">Creación Digital · Avatares, portfolio web y moda digital</p>
@@ -107,18 +110,46 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 					<p class="lesson-tagline">Digital Creativity · Avatars, web portfolio, and digital fashion</p>
 					{% endif %}
 				</div>
+				{% if lesson_cover %}
+					{% if page.lang == 'es' and lesson_cover.alt_es %}
+						{% assign lesson_cover_alt = lesson_cover.alt_es %}
+					{% else %}
+						{% assign lesson_cover_alt = lesson_cover.alt_en %}
+					{% endif %}
+					<figure class="lesson-cover lesson-cover--{{ lesson_cover.family }}" data-cover-mode="{{ lesson_cover.mode }}">
+						<img
+							src="{{ '/assets/images/lesson-covers/' | append: lesson_cover.asset | append: '.svg' | relative_url }}"
+							width="1600"
+							height="900"
+							alt="{{ lesson_cover_alt | escape }}"
+							fetchpriority="high" />
+						<figcaption class="lesson-cover__caption">
+							<h1 class="lesson-title lesson-title--cover">{{ page.title }}</h1>
+							{% if page.status %} {% assign status_lower = page.status | downcase %}
+							<span class="lesson-status lesson-status--cover status-{{ page.status | downcase | replace: ' ', '-' }} flex-shrink-0">
+								{% if status_lower == 'finished' or status_lower == 'terminado' %} {% if page.lang == 'es' %}✓ Finalizado{% else
+								%}✓ Finished{% endif %} {% elsif status_lower == 'scaffold' %} {% if page.lang == 'es' %}Andamiaje{% else %}Scaffold{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
+								%}Borrador{% else %}Draft{% endif %} {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
+								status_lower == 'en proceso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
+								page.status | capitalize }} {% endif %}
+							</span>
+							{% endif %}
+						</figcaption>
+					</figure>
+				{% else %}
 				<div class="flex items-start justify-between gap-4 mb-4">
 					<h1 class="lesson-title flex-1">{{ page.title }}</h1>
 					{% if page.status %} {% assign status_lower = page.status | downcase %}
 					<span class="lesson-status status-{{ page.status | downcase | replace: ' ', '-' }} flex-shrink-0">
 						{% if status_lower == 'finished' or status_lower == 'terminado' %} {% if page.lang == 'es' %}✓ Finalizado{% else
-						%}✓ Finished{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
+						%}✓ Finished{% endif %} {% elsif status_lower == 'scaffold' %} {% if page.lang == 'es' %}Andamiaje{% else %}Scaffold{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
 						%}Borrador{% else %}Draft{% endif %} {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
 						status_lower == 'en proceso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
 						page.status | capitalize }} {% endif %}
 					</span>
 					{% endif %}
 				</div>
+				{% endif %}
 				{% if page.author or page.date %}
 				<div class="lesson-author-date">
 					{% if page.author %}
@@ -163,6 +194,22 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 				tocHeading.style.display = 'none';
 			}
 		}
+
+		document.querySelectorAll('.lesson-body blockquote').forEach((quote) => {
+			const text = quote.textContent || '';
+			if (
+				text.includes('Tao of Development') ||
+				text.includes('Tao del Desarrollo') ||
+				text.includes('Tao del Desarrollador') ||
+				text.includes('Tao de la Desarrolladora')
+			) {
+				quote.classList.add('tao-development-quote');
+				const lastParagraph = quote.querySelector('p:last-child');
+				if (lastParagraph && !lastParagraph.querySelector('.tao-signature-break')) {
+					lastParagraph.innerHTML = lastParagraph.innerHTML.replace(/^\s*(—|&mdash;)/, '<span class="tao-signature-break">$1</span>');
+				}
+			}
+		});
 
 		// Mobile TOC toggle functionality
 		const tocToggle = document.getElementById('toc-toggle');
@@ -285,37 +332,26 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 				// Observe all sections
 				sections.forEach((section) => observer.observe(section.element));
 
-				// Smooth scroll for TOC links
-				const lessonMain = document.querySelector('.lesson-main');
+				// Smooth scroll for TOC links — document scroll (header stays fixed)
+				const siteHeader = document.getElementById('site-header');
+				const headerOffset = () => (siteHeader ? siteHeader.offsetHeight : 72) + 16;
 
 				tocLinks.forEach((link) => {
 					link.addEventListener('click', (e) => {
 						const href = link.getAttribute('href');
 						if (href.startsWith('#')) {
 							const target = document.querySelector(href);
-							if (target && lessonMain) {
+							if (target) {
 								e.preventDefault();
-								const headerOffset = 100;
+								const offsetPosition = target.getBoundingClientRect().top + window.scrollY - headerOffset();
 
-								// Get the scroll container (lesson-main)
-								const containerRect = lessonMain.getBoundingClientRect();
-								const targetRect = target.getBoundingClientRect();
-								const scrollTop = lessonMain.scrollTop;
-
-								// Calculate position relative to scroll container
-								const targetTop = targetRect.top - containerRect.top + scrollTop;
-								const offsetPosition = targetTop - headerOffset;
-
-								// Scroll the main content container
-								lessonMain.scrollTo({
+								window.scrollTo({
 									top: offsetPosition,
 									behavior: 'smooth',
 								});
 
-								// Update URL without jumping
 								history.pushState(null, '', href);
 
-								// Close mobile TOC after navigation
 								if (window.innerWidth <= 1024) {
 									closeTOC();
 								}
@@ -328,21 +364,18 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 
 		// Back to top button functionality
 		const backToTopButton = document.getElementById('back-to-top');
-		const lessonMain = document.querySelector('.lesson-main');
 
-		if (backToTopButton && lessonMain) {
-			// Show/hide button based on scroll position
-			lessonMain.addEventListener('scroll', function () {
-				if (lessonMain.scrollTop > 300) {
+		if (backToTopButton) {
+			window.addEventListener('scroll', function () {
+				if (window.scrollY > 300) {
 					backToTopButton.classList.add('visible');
 				} else {
 					backToTopButton.classList.remove('visible');
 				}
 			});
 
-			// Scroll to top when clicked
 			backToTopButton.addEventListener('click', function () {
-				lessonMain.scrollTo({
+				window.scrollTo({
 					top: 0,
 					behavior: 'smooth',
 				});
