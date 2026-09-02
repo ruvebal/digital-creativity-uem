@@ -653,6 +653,182 @@
           "png_sha256": "46551f29185f57136d2c74dcae262b938e84d199213904b642c985c5f9d75d3e"
         }
       ]
+    },
+    {
+      "release_id": "9f98498ca34e2a02",
+      "created_at": "2026-09-02T21:51:21.102Z",
+      "brand": "uem",
+      "formula": {
+        "text": "H(x,y) = (y+1-ax^2, bx)",
+        "latex": "H(x,y) = (y+1-ax^2, bx)",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Peitgen, Heinz-Otto, Hartmut Jürgens, and Dietmar Saupe. 2004. Chaos and Fractals: New Frontiers of Science. New York: Springer.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.1, and pass-track-backgrounds-henon 1.0.0."
+      },
+      "figcaption_manifest": "caption-manifests/9f98498ca34e2a02.json",
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.2.1"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds-henon",
+          "version": "1.0.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "uuid": "2c9fa3d6-2fbe-5426-ae70-1d7a1379b9ee",
+          "svg": "uem-henon-pass-01-structure-2fc3613c22a1.svg",
+          "png": "uem-henon-pass-01-structure-2fc3613c22a1.png",
+          "sha256": "2fc3613c22a1827d3235cafbe52db415a522c5bffeaf765d428f7515aa697a6a",
+          "png_sha256": "374062b2b11beb415d1da9483c63dc43c76ed88de08d4f4eca606c8bae4646b6"
+        },
+        {
+          "family": "threshold",
+          "uuid": "aa64989e-a2a1-53fc-a1cd-5230e033a63c",
+          "svg": "uem-henon-pass-02-threshold-c378606cc29b.svg",
+          "png": "uem-henon-pass-02-threshold-c378606cc29b.png",
+          "sha256": "c378606cc29b9463f561614a5e8f216655eb61757586eb8cf2e46fae5e8e6545",
+          "png_sha256": "ea09370034ce1fe7c62eeb8597da16eba4747de9c0753a61fa5563a4680e39bb"
+        },
+        {
+          "family": "branching",
+          "uuid": "2023d201-10aa-54ad-8a64-a0c54cbeacc8",
+          "svg": "uem-henon-pass-03-branching-46681e3d02cd.svg",
+          "png": "uem-henon-pass-03-branching-46681e3d02cd.png",
+          "sha256": "46681e3d02cdb3602f39a6808e3382d8fa95f5600c02725eeb8aef3676b08050",
+          "png_sha256": "37f9aacec20b49221fd38d4b4e6435fcee27215ea288433ede0615c133b0e03a"
+        },
+        {
+          "family": "practice",
+          "uuid": "103e416f-5d54-5352-96d9-d8693c8ac69c",
+          "svg": "uem-henon-pass-04-practice-1ab1247ed3af.svg",
+          "png": "uem-henon-pass-04-practice-1ab1247ed3af.png",
+          "sha256": "1ab1247ed3afe8dc836fd771fefcca7fb6ceab9bca567eba43f99ef7ed3028a4",
+          "png_sha256": "7935b2e4fd99e5568c5fb81fdab485f0b9b4e65071270b2e04a7d8fe035bb6bf"
+        },
+        {
+          "family": "feedback",
+          "uuid": "b925bb95-2f58-5901-94b4-c440ee51f781",
+          "svg": "uem-henon-pass-05-feedback-903832404a06.svg",
+          "png": "uem-henon-pass-05-feedback-903832404a06.png",
+          "sha256": "903832404a060d7523343a14f19d405e8d96e9d22942b9d0fedcae895dd0f4df",
+          "png_sha256": "67378bc1c993b662c3012d70b544d0356a7d5415547c98530602147c67093bc3"
+        },
+        {
+          "family": "coherence",
+          "uuid": "d238c8bf-5110-5420-a4e2-4b21ebd7b403",
+          "svg": "uem-henon-pass-06-coherence-a8444d20854d.svg",
+          "png": "uem-henon-pass-06-coherence-a8444d20854d.png",
+          "sha256": "a8444d20854dafe306f47fbac5a81d0e62e1f48ad69bbdd030de0a750bb27295",
+          "png_sha256": "371b58863836572dc310adaabe0421ba1497c037511fb80f310d20b3cf620a87"
+        }
+      ]
+    },
+    {
+      "release_id": "b12bbddd409f71e6",
+      "created_at": "2026-09-02T21:51:23.889Z",
+      "brand": "uem",
+      "formula": {
+        "text": "phi_1(x)=x/2, phi_2(x)=x/2+(1/2,0), phi_3(x)=x/2+(1/4,sqrt3/4)",
+        "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+        "fidelity_status": "EXACT"
+      },
+      "caption": {
+        "source": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society.",
+        "source_evaluator_safe": true,
+        "credit": "Image by @ruvebal with curriculum-forger 1.1.0, visual-forger 1.1.0, fractal-architect 1.2.1, and pass-track-backgrounds-sierpinski-gasket 1.0.0."
+      },
+      "figcaption_manifest": "caption-manifests/b12bbddd409f71e6.json",
+      "studio_stack": [
+        {
+          "kind": "skill",
+          "name": "curriculum-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "skill",
+          "name": "visual-forger",
+          "version": "1.1.0"
+        },
+        {
+          "kind": "agent+skill",
+          "name": "fractal-architect",
+          "version": "1.2.1"
+        },
+        {
+          "kind": "renderer",
+          "name": "pass-track-backgrounds-sierpinski-gasket",
+          "version": "1.0.0"
+        }
+      ],
+      "assets": [
+        {
+          "family": "structure",
+          "uuid": "a3291b47-b5ea-5af9-bb51-94f235ce350b",
+          "svg": "uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.svg",
+          "png": "uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.png",
+          "sha256": "ec87bed9c2c166372b791a137296851b30d8b1226ecc1458bf7e2da4e51f60ba",
+          "png_sha256": "78399478965eff618e3f2aa73b2e3ec10a18b2b81a21a32fdca6462c110caacd"
+        },
+        {
+          "family": "threshold",
+          "uuid": "872370d8-cbfa-5497-a85d-eb3cfbe47756",
+          "svg": "uem-sierpinski-gasket-pass-02-threshold-caa358861b38.svg",
+          "png": "uem-sierpinski-gasket-pass-02-threshold-caa358861b38.png",
+          "sha256": "caa358861b38004b8738c05183e32dce5505a94f8f4fadc7f6fd12b7f31ccee8",
+          "png_sha256": "38d5cb6e6737855f7ed834f1ef6dd489eb4506288b562ed0b3a4fd78bc45dff6"
+        },
+        {
+          "family": "branching",
+          "uuid": "71cab434-29d9-5964-a5bc-75bbef2388e9",
+          "svg": "uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.svg",
+          "png": "uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.png",
+          "sha256": "1b02b2b2ddf2bf10d8e711048d25ab7efea94d151671723afc3c79f6b7d5b70d",
+          "png_sha256": "c15dd69edc602d0b374ef34236b8bc883bff4819219cb538193783dca82fc2a8"
+        },
+        {
+          "family": "practice",
+          "uuid": "12c1daa9-3702-51e7-8668-95662de548a9",
+          "svg": "uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.svg",
+          "png": "uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.png",
+          "sha256": "0d08ae27372fa01b133c82bb824844cdb7fb049b556dfa0461857bd09d2011db",
+          "png_sha256": "c75a7865aa2bf0c58d1472de08664885f86d3f2dfb32a28641d92c8ea3d24cc1"
+        },
+        {
+          "family": "feedback",
+          "uuid": "40192fba-6f63-51e4-b755-bfd9aad20d14",
+          "svg": "uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.svg",
+          "png": "uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.png",
+          "sha256": "d939bb8c09bf28a39b0aa9062ff3d466d220cc5869e4bba802e1b21933fac200",
+          "png_sha256": "af0a99561c6153b434df18be63dc21aa172cd278b9566192aafbb8ea48132fa9"
+        },
+        {
+          "family": "coherence",
+          "uuid": "b137ab30-da3f-5fc5-89d0-4147b9a3d2a5",
+          "svg": "uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.svg",
+          "png": "uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.png",
+          "sha256": "699da4aa2f5675461490e9d84ecb198f4347917af936a5012eabaa40d48994bb",
+          "png_sha256": "38c39b7274359d5cf4f11f046c3bf2a3849d862ee3c5c3423ec6c83211b57291"
+        }
+      ]
     }
   ]
 }

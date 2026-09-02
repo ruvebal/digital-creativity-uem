@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "fractal-architect.figcaption-data",
+  "release_id": "b12bbddd409f71e6",
+  "created_at": "2026-09-02T21:53:49.260Z",
+  "authorship": {
+    "name": "Ruvebal",
+    "email": "ruvebal@crea-comm.net"
+  },
+  "formulae": [
+    {
+      "uuid": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+      "fractal_hash256": "979d7ea9fb7ccc44910c63ba392b4f21b00ec3a2e2251cf15f6256fe10b426a5",
+      "title": "Equilateral Sierpinski gasket (standard IFS)",
+      "display": "φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4)",
+      "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+      "basic_explanation": "The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud.",
+      "citation": {
+        "inline": "(Graduate Studies in Mathematics, Vol. 247, 134)",
+        "chicago": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society."
+      }
+    }
+  ],
+  "figures": [
+    {
+      "uuid": "a3291b47-b5ea-5af9-bb51-94f235ce350b",
+      "title": "Sierpinski gasket backdrop: structure",
+      "description": "A structure variation of a direct-subdivision Sierpinski gasket with rhythmic triangular accents.",
+      "figcaption": "Sierpinski gasket backdrop. φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4). The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud. (Graduate Studies in Mathematics, Vol. 247, 134). Verified against the source page, rendered, and confirmed by a human reviewer before promotion — the same evidence loop every formula in this gallery passes through.",
+      "fractal_hash256": "ec87bed9c2c166372b791a137296851b30d8b1226ecc1458bf7e2da4e51f60ba",
+      "created_at": "2026-09-02T21:53:49.260Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+          "fractal_hash256": "979d7ea9fb7ccc44910c63ba392b4f21b00ec3a2e2251cf15f6256fe10b426a5",
+          "title": "Equilateral Sierpinski gasket (standard IFS)",
+          "display": "φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4)",
+          "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "basic_explanation": "The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud.",
+          "citation": {
+            "inline": "(Graduate Studies in Mathematics, Vol. 247, 134)",
+            "chicago": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.svg",
+        "png": "uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.png",
+        "svg_sha256": "ec87bed9c2c166372b791a137296851b30d8b1226ecc1458bf7e2da4e51f60ba",
+        "png_sha256": "78399478965eff618e3f2aa73b2e3ec10a18b2b81a21a32fdca6462c110caacd"
+      }
+    },
+    {
+      "uuid": "872370d8-cbfa-5497-a85d-eb3cfbe47756",
+      "title": "Sierpinski gasket backdrop: threshold",
+      "description": "A threshold variation of a direct-subdivision Sierpinski gasket with rhythmic triangular accents.",
+      "figcaption": "Sierpinski gasket backdrop. φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4). The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud. (Graduate Studies in Mathematics, Vol. 247, 134). Verified against the source page, rendered, and confirmed by a human reviewer before promotion — the same evidence loop every formula in this gallery passes through.",
+      "fractal_hash256": "caa358861b38004b8738c05183e32dce5505a94f8f4fadc7f6fd12b7f31ccee8",
+      "created_at": "2026-09-02T21:53:49.260Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+          "fractal_hash256": "979d7ea9fb7ccc44910c63ba392b4f21b00ec3a2e2251cf15f6256fe10b426a5",
+          "title": "Equilateral Sierpinski gasket (standard IFS)",
+          "display": "φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4)",
+          "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "basic_explanation": "The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud.",
+          "citation": {
+            "inline": "(Graduate Studies in Mathematics, Vol. 247, 134)",
+            "chicago": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-sierpinski-gasket-pass-02-threshold-caa358861b38.svg",
+        "png": "uem-sierpinski-gasket-pass-02-threshold-caa358861b38.png",
+        "svg_sha256": "caa358861b38004b8738c05183e32dce5505a94f8f4fadc7f6fd12b7f31ccee8",
+        "png_sha256": "38d5cb6e6737855f7ed834f1ef6dd489eb4506288b562ed0b3a4fd78bc45dff6"
+      }
+    },
+    {
+      "uuid": "71cab434-29d9-5964-a5bc-75bbef2388e9",
+      "title": "Sierpinski gasket backdrop: branching",
+      "description": "A branching variation of a direct-subdivision Sierpinski gasket with rhythmic triangular accents.",
+      "figcaption": "Sierpinski gasket backdrop. φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4). The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud. (Graduate Studies in Mathematics, Vol. 247, 134). Verified against the source page, rendered, and confirmed by a human reviewer before promotion — the same evidence loop every formula in this gallery passes through.",
+      "fractal_hash256": "1b02b2b2ddf2bf10d8e711048d25ab7efea94d151671723afc3c79f6b7d5b70d",
+      "created_at": "2026-09-02T21:53:49.260Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+          "fractal_hash256": "979d7ea9fb7ccc44910c63ba392b4f21b00ec3a2e2251cf15f6256fe10b426a5",
+          "title": "Equilateral Sierpinski gasket (standard IFS)",
+          "display": "φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4)",
+          "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "basic_explanation": "The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud.",
+          "citation": {
+            "inline": "(Graduate Studies in Mathematics, Vol. 247, 134)",
+            "chicago": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.svg",
+        "png": "uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.png",
+        "svg_sha256": "1b02b2b2ddf2bf10d8e711048d25ab7efea94d151671723afc3c79f6b7d5b70d",
+        "png_sha256": "c15dd69edc602d0b374ef34236b8bc883bff4819219cb538193783dca82fc2a8"
+      }
+    },
+    {
+      "uuid": "12c1daa9-3702-51e7-8668-95662de548a9",
+      "title": "Sierpinski gasket backdrop: practice",
+      "description": "A practice variation of a direct-subdivision Sierpinski gasket with rhythmic triangular accents.",
+      "figcaption": "Sierpinski gasket backdrop. φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4). The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud. (Graduate Studies in Mathematics, Vol. 247, 134). Verified against the source page, rendered, and confirmed by a human reviewer before promotion — the same evidence loop every formula in this gallery passes through.",
+      "fractal_hash256": "0d08ae27372fa01b133c82bb824844cdb7fb049b556dfa0461857bd09d2011db",
+      "created_at": "2026-09-02T21:53:49.260Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+          "fractal_hash256": "979d7ea9fb7ccc44910c63ba392b4f21b00ec3a2e2251cf15f6256fe10b426a5",
+          "title": "Equilateral Sierpinski gasket (standard IFS)",
+          "display": "φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4)",
+          "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "basic_explanation": "The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud.",
+          "citation": {
+            "inline": "(Graduate Studies in Mathematics, Vol. 247, 134)",
+            "chicago": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.svg",
+        "png": "uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.png",
+        "svg_sha256": "0d08ae27372fa01b133c82bb824844cdb7fb049b556dfa0461857bd09d2011db",
+        "png_sha256": "c75a7865aa2bf0c58d1472de08664885f86d3f2dfb32a28641d92c8ea3d24cc1"
+      }
+    },
+    {
+      "uuid": "40192fba-6f63-51e4-b755-bfd9aad20d14",
+      "title": "Sierpinski gasket backdrop: feedback",
+      "description": "A feedback variation of a direct-subdivision Sierpinski gasket with rhythmic triangular accents.",
+      "figcaption": "Sierpinski gasket backdrop. φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4). The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud. (Graduate Studies in Mathematics, Vol. 247, 134). Verified against the source page, rendered, and confirmed by a human reviewer before promotion — the same evidence loop every formula in this gallery passes through.",
+      "fractal_hash256": "d939bb8c09bf28a39b0aa9062ff3d466d220cc5869e4bba802e1b21933fac200",
+      "created_at": "2026-09-02T21:53:49.260Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+          "fractal_hash256": "979d7ea9fb7ccc44910c63ba392b4f21b00ec3a2e2251cf15f6256fe10b426a5",
+          "title": "Equilateral Sierpinski gasket (standard IFS)",
+          "display": "φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4)",
+          "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "basic_explanation": "The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud.",
+          "citation": {
+            "inline": "(Graduate Studies in Mathematics, Vol. 247, 134)",
+            "chicago": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.svg",
+        "png": "uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.png",
+        "svg_sha256": "d939bb8c09bf28a39b0aa9062ff3d466d220cc5869e4bba802e1b21933fac200",
+        "png_sha256": "af0a99561c6153b434df18be63dc21aa172cd278b9566192aafbb8ea48132fa9"
+      }
+    },
+    {
+      "uuid": "b137ab30-da3f-5fc5-89d0-4147b9a3d2a5",
+      "title": "Sierpinski gasket backdrop: coherence",
+      "description": "A coherence variation of a direct-subdivision Sierpinski gasket with rhythmic triangular accents.",
+      "figcaption": "Sierpinski gasket backdrop. φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4). The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud. (Graduate Studies in Mathematics, Vol. 247, 134). Verified against the source page, rendered, and confirmed by a human reviewer before promotion — the same evidence loop every formula in this gallery passes through.",
+      "fractal_hash256": "699da4aa2f5675461490e9d84ecb198f4347917af936a5012eabaa40d48994bb",
+      "created_at": "2026-09-02T21:53:49.260Z",
+      "authorship": {
+        "name": "Ruvebal",
+        "email": "ruvebal@crea-comm.net"
+      },
+      "formulae": [
+        {
+          "uuid": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+          "fractal_hash256": "979d7ea9fb7ccc44910c63ba392b4f21b00ec3a2e2251cf15f6256fe10b426a5",
+          "title": "Equilateral Sierpinski gasket (standard IFS)",
+          "display": "φ₁(x)=½x, φ₂(x)=½x+(½,0), φ₃(x)=½x+(¼,√3/4)",
+          "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+          "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+          "basic_explanation": "The gasket is the unique compact set left invariant by the union of three half-scale copies of itself, each placed at one corner of the equilateral triangle. Direct recursive subdivision of the triangle — removing each central sub-triangle at every generation — converges to the same attractor a chaos game would reach, but shows the self-similar hierarchy explicitly rather than as an emergent point cloud.",
+          "citation": {
+            "inline": "(Graduate Studies in Mathematics, Vol. 247, 134)",
+            "chicago": "Graduate Studies in Mathematics, Volume 247. An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves. Providence, RI: American Mathematical Society."
+          }
+        }
+      ],
+      "delivery": {
+        "svg": "uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.svg",
+        "png": "uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.png",
+        "svg_sha256": "699da4aa2f5675461490e9d84ecb198f4347917af936a5012eabaa40d48994bb",
+        "png_sha256": "38c39b7274359d5cf4f11f046c3bf2a3849d862ee3c5c3423ec6c83211b57291"
+      }
+    }
+  ]
+}

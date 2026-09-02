@@ -1,0 +1,227 @@
+{
+  "status": "FORMULA_CONSUMED",
+  "source_export": "formula-glossary.public.json",
+  "source_export_sha256": "fccc2126c42ff78f9e5637d204b430fa20fd2af1ceb53f6db7c158256bc74c45",
+  "formula_contract": {
+    "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><msub><mi>&#x003C6;</mi><mn>1</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>2</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mn>0</mn><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width=\"1em\" /><msub><mi>&#x003C6;</mi><mn>3</mn></msub><mo stretchy=\"false\">&#x00028;</mo><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mstyle><mrow><mi mathvariant=\"bold-italic\">x</mi></mrow><mo>&#x0002B;</mo><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x00028;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo>&#x0002C;</mo><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mfrac><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mstyle><mo stretchy=\"true\" fence=\"true\" form=\"postfix\">&#x00029;</mo></mrow></mrow></math>",
+    "fidelity_status": "EXACT",
+    "adapter": "sierpinski-gasket-prefractal-subdivision-v1"
+  },
+  "private_reference_anchor": {
+    "formula_id": "30a074fa-b3d9-54b3-af08-e07eae533abe",
+    "document_id": "5c5b6113-853a-5b45-b059-628fc04152a1",
+    "node_id": "dac05d89-b3e7-5a60-81bb-488c2b5be0b1",
+    "page_index": 163,
+    "printed_page": 134,
+    "crop_relpath": "extract/formula-audit/pages/page-163.png",
+    "crop_sha256": "d84851ed6f9e77bfb840b8e86caa3b112b885c519430e98ab8049f51567654d8",
+    "audit_notes": [
+      "promoted_from_oracle:eq-1"
+    ]
+  },
+  "release_id": "b12bbddd409f71e6",
+  "studio_stack": [
+    {
+      "kind": "skill",
+      "name": "curriculum-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/curriculum-forger/SKILL.md",
+      "sha256": "63623c9704c33085d7096216b68235a35a5122069c6ca8d08d68517b575dabd9",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "visual-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+      "sha256": "2ff702c65945aa79855136a4a03d229ddc7d697130f52b4a56ed7d252394d87b",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "fractal-architect",
+      "version": "1.2.1",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/skills/fractal-architect/SKILL.md",
+      "sha256": "6fa0ed5006e4ef483d57a8d703eed6e4b82608bb16148e30a90f545856d16784",
+      "git_commit": "28640dfc3c7ece31e32c17d4f2a9446ab60dbfea"
+    },
+    {
+      "kind": "agent",
+      "name": "fractal-architect",
+      "version": "1.2.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/agents/fractal-architect.md",
+      "sha256": "f9ecccde85d90b7d7e1fabc4b703f578a8890db3a3d7afd2e1236616c3a7b2c4",
+      "git_commit": "28640dfc3c7ece31e32c17d4f2a9446ab60dbfea"
+    },
+    {
+      "kind": "renderer",
+      "name": "pass-track-backgrounds-sierpinski-gasket",
+      "version": "1.0.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/scripts/fractal-architecture/generate-pass-track-backgrounds-sierpinski-gasket.mjs",
+      "sha256": "e22205312d27b09b524720c5b07ef47ebfb41f493622b84660df37fff160abdc",
+      "git_commit": "28640dfc3c7ece31e32c17d4f2a9446ab60dbfea"
+    }
+  ],
+  "original_release_dir": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6",
+  "public_caption_manifest": "caption-manifests/b12bbddd409f71e6.json",
+  "semantic_index": {
+    "provider": "ollama",
+    "status": "ready",
+    "model": "nomic-embed-text:latest",
+    "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/fractal-architecture/fractal-art-semantic-index.private.json"
+  },
+  "public_asset_policy": "No corpus or local-architecture metadata is embedded in SVG/PNG outputs.",
+  "outputs": [
+    {
+      "file": "uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.svg",
+      "png": "uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.png",
+      "sha256": "ec87bed9c2c166372b791a137296851b30d8b1226ecc1458bf7e2da4e51f60ba",
+      "brand": "uem",
+      "family": "structure",
+      "seed": 2940349951,
+      "backdrop": "sierpinski-gasket-prefractal-subdivision-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "78399478965eff618e3f2aa73b2e3ec10a18b2b81a21a32fdca6462c110caacd",
+      "uuid": "a3291b47-b5ea-5af9-bb51-94f235ce350b",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-01-structure-ec87bed9c2c1.png"
+      }
+    },
+    {
+      "file": "uem-sierpinski-gasket-pass-02-threshold-caa358861b38.svg",
+      "png": "uem-sierpinski-gasket-pass-02-threshold-caa358861b38.png",
+      "sha256": "caa358861b38004b8738c05183e32dce5505a94f8f4fadc7f6fd12b7f31ccee8",
+      "brand": "uem",
+      "family": "threshold",
+      "seed": 2795242914,
+      "backdrop": "sierpinski-gasket-prefractal-subdivision-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "38d5cb6e6737855f7ed834f1ef6dd489eb4506288b562ed0b3a4fd78bc45dff6",
+      "uuid": "872370d8-cbfa-5497-a85d-eb3cfbe47756",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-02-threshold-caa358861b38.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-02-threshold-caa358861b38.png"
+      }
+    },
+    {
+      "file": "uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.svg",
+      "png": "uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.png",
+      "sha256": "1b02b2b2ddf2bf10d8e711048d25ab7efea94d151671723afc3c79f6b7d5b70d",
+      "brand": "uem",
+      "family": "branching",
+      "seed": 3841557961,
+      "backdrop": "sierpinski-gasket-prefractal-subdivision-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "c15dd69edc602d0b374ef34236b8bc883bff4819219cb538193783dca82fc2a8",
+      "uuid": "71cab434-29d9-5964-a5bc-75bbef2388e9",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-03-branching-1b02b2b2ddf2.png"
+      }
+    },
+    {
+      "file": "uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.svg",
+      "png": "uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.png",
+      "sha256": "0d08ae27372fa01b133c82bb824844cdb7fb049b556dfa0461857bd09d2011db",
+      "brand": "uem",
+      "family": "practice",
+      "seed": 3226537464,
+      "backdrop": "sierpinski-gasket-prefractal-subdivision-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "c75a7865aa2bf0c58d1472de08664885f86d3f2dfb32a28641d92c8ea3d24cc1",
+      "uuid": "12c1daa9-3702-51e7-8668-95662de548a9",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-04-practice-0d08ae27372f.png"
+      }
+    },
+    {
+      "file": "uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.svg",
+      "png": "uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.png",
+      "sha256": "d939bb8c09bf28a39b0aa9062ff3d466d220cc5869e4bba802e1b21933fac200",
+      "brand": "uem",
+      "family": "feedback",
+      "seed": 1461918446,
+      "backdrop": "sierpinski-gasket-prefractal-subdivision-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "af0a99561c6153b434df18be63dc21aa172cd278b9566192aafbb8ea48132fa9",
+      "uuid": "40192fba-6f63-51e4-b755-bfd9aad20d14",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-05-feedback-d939bb8c09bf.png"
+      }
+    },
+    {
+      "file": "uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.svg",
+      "png": "uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.png",
+      "sha256": "699da4aa2f5675461490e9d84ecb198f4347917af936a5012eabaa40d48994bb",
+      "brand": "uem",
+      "family": "coherence",
+      "seed": 1551953890,
+      "backdrop": "sierpinski-gasket-prefractal-subdivision-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "38c39b7274359d5cf4f11f046c3bf2a3849d862ee3c5c3423ec6c83211b57291",
+      "uuid": "b137ab30-da3f-5fc5-89d0-4147b9a3d2a5",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-b12bbddd409f71e6/uem-sierpinski-gasket-pass-06-coherence-699da4aa2f56.png"
+      }
+    }
+  ]
+}

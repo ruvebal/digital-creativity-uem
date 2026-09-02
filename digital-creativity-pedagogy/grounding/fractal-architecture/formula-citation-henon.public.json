@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "formula_id": "97bd92ca-120c-59e7-9cae-de7619b0130c",
+  "style": "chicago-author-date",
+  "evaluator_safe": true,
+  "inline": "(Peitgen, Jürgens, and Saupe 2004, 610)",
+  "chicago": "Peitgen, Heinz-Otto, Hartmut Jürgens, and Dietmar Saupe. 2004. Chaos and Fractals: New Frontiers of Science. New York: Springer."
+}

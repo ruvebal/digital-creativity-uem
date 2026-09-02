@@ -1,0 +1,227 @@
+{
+  "status": "FORMULA_CONSUMED",
+  "source_export": "formula-glossary.public.json",
+  "source_export_sha256": "ecae3f20e61c405bac250d64488fd0aa2acf57af5040452f6f2f84fb0ac708c2",
+  "formula_contract": {
+    "latex": "H(x,y) = (y+1-ax^2, bx)",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mo stretchy=\"false\">&#x00028;</mo><mi>y</mi><mo>&#x0002B;</mo><mn>1</mn><mo>&#x02212;</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002C;</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+    "fidelity_status": "EXACT",
+    "adapter": "henon-strange-attractor-v1"
+  },
+  "private_reference_anchor": {
+    "formula_id": "97bd92ca-120c-59e7-9cae-de7619b0130c",
+    "document_id": "14a3cade-72c5-5681-bffa-6b5eab7e36cd",
+    "node_id": "311cbf0c-7e8d-5be7-99b6-8f095b3426fc",
+    "page_index": 634,
+    "printed_page": 610,
+    "crop_relpath": "extract/formula-audit/pages/page-634.png",
+    "crop_sha256": "86d0ed4af0b8409e8a2cdb64cca6575feb725f91ecf75895fe76ae3b05fa195f",
+    "audit_notes": [
+      "promoted_from_oracle:eq-1"
+    ]
+  },
+  "release_id": "9f98498ca34e2a02",
+  "studio_stack": [
+    {
+      "kind": "skill",
+      "name": "curriculum-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/curriculum-forger/SKILL.md",
+      "sha256": "63623c9704c33085d7096216b68235a35a5122069c6ca8d08d68517b575dabd9",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "visual-forger",
+      "version": "1.1.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+      "sha256": "2ff702c65945aa79855136a4a03d229ddc7d697130f52b4a56ed7d252394d87b",
+      "git_commit": null
+    },
+    {
+      "kind": "skill",
+      "name": "fractal-architect",
+      "version": "1.2.1",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/skills/fractal-architect/SKILL.md",
+      "sha256": "6fa0ed5006e4ef483d57a8d703eed6e4b82608bb16148e30a90f545856d16784",
+      "git_commit": "28640dfc3c7ece31e32c17d4f2a9446ab60dbfea"
+    },
+    {
+      "kind": "agent",
+      "name": "fractal-architect",
+      "version": "1.2.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/agents/fractal-architect.md",
+      "sha256": "f9ecccde85d90b7d7e1fabc4b703f578a8890db3a3d7afd2e1236616c3a7b2c4",
+      "git_commit": "28640dfc3c7ece31e32c17d4f2a9446ab60dbfea"
+    },
+    {
+      "kind": "renderer",
+      "name": "pass-track-backgrounds-henon",
+      "version": "1.0.0",
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/scripts/fractal-architecture/generate-pass-track-backgrounds-henon.mjs",
+      "sha256": "0d79e1ab89c9540ac315a6d4b64eb724b081e8912786acbbcedd054efb4db0ba",
+      "git_commit": "28640dfc3c7ece31e32c17d4f2a9446ab60dbfea"
+    }
+  ],
+  "original_release_dir": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02",
+  "public_caption_manifest": "caption-manifests/9f98498ca34e2a02.json",
+  "semantic_index": {
+    "provider": "ollama",
+    "status": "ready",
+    "model": "nomic-embed-text:latest",
+    "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/grounding/fractal-architecture/fractal-art-semantic-index.private.json"
+  },
+  "public_asset_policy": "No corpus or local-architecture metadata is embedded in SVG/PNG outputs.",
+  "outputs": [
+    {
+      "file": "uem-henon-pass-01-structure-2fc3613c22a1.svg",
+      "png": "uem-henon-pass-01-structure-2fc3613c22a1.png",
+      "sha256": "2fc3613c22a1827d3235cafbe52db415a522c5bffeaf765d428f7515aa697a6a",
+      "brand": "uem",
+      "family": "structure",
+      "seed": 2992555528,
+      "backdrop": "henon-strange-attractor-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "374062b2b11beb415d1da9483c63dc43c76ed88de08d4f4eca606c8bae4646b6",
+      "uuid": "2c9fa3d6-2fbe-5426-ae70-1d7a1379b9ee",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-01-structure-2fc3613c22a1.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-01-structure-2fc3613c22a1.png"
+      }
+    },
+    {
+      "file": "uem-henon-pass-02-threshold-c378606cc29b.svg",
+      "png": "uem-henon-pass-02-threshold-c378606cc29b.png",
+      "sha256": "c378606cc29b9463f561614a5e8f216655eb61757586eb8cf2e46fae5e8e6545",
+      "brand": "uem",
+      "family": "threshold",
+      "seed": 3161893905,
+      "backdrop": "henon-strange-attractor-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "ea09370034ce1fe7c62eeb8597da16eba4747de9c0753a61fa5563a4680e39bb",
+      "uuid": "aa64989e-a2a1-53fc-a1cd-5230e033a63c",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-02-threshold-c378606cc29b.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-02-threshold-c378606cc29b.png"
+      }
+    },
+    {
+      "file": "uem-henon-pass-03-branching-46681e3d02cd.svg",
+      "png": "uem-henon-pass-03-branching-46681e3d02cd.png",
+      "sha256": "46681e3d02cdb3602f39a6808e3382d8fa95f5600c02725eeb8aef3676b08050",
+      "brand": "uem",
+      "family": "branching",
+      "seed": 2365215306,
+      "backdrop": "henon-strange-attractor-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "37f9aacec20b49221fd38d4b4e6435fcee27215ea288433ede0615c133b0e03a",
+      "uuid": "2023d201-10aa-54ad-8a64-a0c54cbeacc8",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-03-branching-46681e3d02cd.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-03-branching-46681e3d02cd.png"
+      }
+    },
+    {
+      "file": "uem-henon-pass-04-practice-1ab1247ed3af.svg",
+      "png": "uem-henon-pass-04-practice-1ab1247ed3af.png",
+      "sha256": "1ab1247ed3afe8dc836fd771fefcca7fb6ceab9bca567eba43f99ef7ed3028a4",
+      "brand": "uem",
+      "family": "practice",
+      "seed": 2105594754,
+      "backdrop": "henon-strange-attractor-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "7935b2e4fd99e5568c5fb81fdab485f0b9b4e65071270b2e04a7d8fe035bb6bf",
+      "uuid": "103e416f-5d54-5352-96d9-d8693c8ac69c",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-04-practice-1ab1247ed3af.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-04-practice-1ab1247ed3af.png"
+      }
+    },
+    {
+      "file": "uem-henon-pass-05-feedback-903832404a06.svg",
+      "png": "uem-henon-pass-05-feedback-903832404a06.png",
+      "sha256": "903832404a060d7523343a14f19d405e8d96e9d22942b9d0fedcae895dd0f4df",
+      "brand": "uem",
+      "family": "feedback",
+      "seed": 2589421524,
+      "backdrop": "henon-strange-attractor-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "67378bc1c993b662c3012d70b544d0356a7d5415547c98530602147c67093bc3",
+      "uuid": "b925bb95-2f58-5901-94b4-c440ee51f781",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-05-feedback-903832404a06.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-05-feedback-903832404a06.png"
+      }
+    },
+    {
+      "file": "uem-henon-pass-06-coherence-a8444d20854d.svg",
+      "png": "uem-henon-pass-06-coherence-a8444d20854d.png",
+      "sha256": "a8444d20854dafe306f47fbac5a81d0e62e1f48ad69bbdd030de0a750bb27295",
+      "brand": "uem",
+      "family": "coherence",
+      "seed": 3491849802,
+      "backdrop": "henon-strange-attractor-v1",
+      "viewport": [
+        1600,
+        900
+      ],
+      "title_safe_region": {
+        "x": 0,
+        "y": 0,
+        "width": 690,
+        "height": 900
+      },
+      "png_sha256": "371b58863836572dc310adaabe0421ba1497c037511fb80f310d20b3cf620a87",
+      "uuid": "d238c8bf-5110-5420-a4e2-4b21ebd7b403",
+      "original_paths": {
+        "svg": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-06-coherence-a8444d20854d.svg",
+        "png": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/fractal-architecture/originals/pass-track/release-9f98498ca34e2a02/uem-henon-pass-06-coherence-a8444d20854d.png"
+      }
+    }
+  ]
+}

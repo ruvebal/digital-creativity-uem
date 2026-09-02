@@ -1,0 +1,21 @@
+{
+  "source": "/Users/ruvebal/ahmes-library/scholar/documents/graduate_studies_in_mathematics_volume_247_graduate_studies_in_mathematics_volume_247_an_invitation_to_fractal_geometry_fractal_dimensions_self_similarity_and_fractal_curves_2_76b0c906/source/original/[Graduate Studies in Mathematics, Volume 247 - Graduate Studies in Mathematics, Volume 247] An Invitation to Fractal Geometry_ Fractal Dimensions, Self-Similarity, and Fractal Curves 2.pdf",
+  "title": "An Invitation to Fractal Geometry: Fractal Dimensions, Self-Similarity, and Fractal Curves",
+  "author": "Graduate Studies in Mathematics, Volume 247 (AMS)",
+  "purpose": "AFEL formula promotion — canonical equilateral Sierpinski gasket IFS, Example 4.33 (Chapter 4, 'Iterated Function Systems and Self-Similarity'). Fills the self-similar-construction grammar family (SKILL.md taxonomy) — direct recursive polygon subdivision (the book's own Figure 4.5 shows the prefractal approximations), a genuinely different rendering technique from the chaos-game IFS already promoted (Barnsley's right-triangle Sierpinski), even though both converge to a Sierpinski-triangle attractor.",
+  "equations": [
+    {
+      "id": "eq-1",
+      "source_page": 134,
+      "db_page_index": 163,
+      "latex": "\\varphi_1(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x},\\quad \\varphi_2(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{2}, 0\\right),\\quad \\varphi_3(\\boldsymbol{x}) = \\tfrac{1}{2}\\boldsymbol{x} + \\left(\\tfrac{1}{4}, \\tfrac{\\sqrt{3}}{4}\\right)",
+      "required_tokens": ["\\varphi_1", "\\varphi_2", "\\varphi_3", "\\tfrac{1}{2}"],
+      "symbol_classes": ["FRAC", "SUB"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "iteration_law",
+      "note": "Eq. (4.15), Example 4.33 'The Sierpinski Gasket, Viewed as a Self-Similar Set: Standard IFS'. Visually verified against page-163.png rendered from the source PDF page 164 (printed page 134). Attractor E is the equilateral triangle with vertices (0,0), (1,0), (1/2, sqrt3/2); each phi_j contracts by 1/2. Figure 4.5 on the same page shows the first three prefractal (direct subdivision) approximations."
+    }
+  ],
+  "render_note": "No free decorative parameters — the three contracting similarities and the triangle vertices are given exactly on the verified page."
+}

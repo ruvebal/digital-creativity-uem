@@ -1,0 +1,21 @@
+{
+  "source": "/Users/ruvebal/ahmes-library/scholar/documents/heinz_otto_peitgen_hartmut_jurgens_dietmar_saupe_auth_chaos_and_fractals_new_frontiers_of_science_2004_springer_10_1007_b97624_1a3cd504/source/original/Heinz-Otto Peitgen, Hartmut Jürgens, Dietmar Saupe (auth.) - Chaos and Fractals_ New Frontiers of Science (2004, Springer) [10.1007_b97624].pdf",
+  "title": "Chaos and Fractals: New Frontiers of Science",
+  "author": "Peitgen, H.-O., Jürgens, H., Saupe, D. (2004, Springer)",
+  "purpose": "AFEL formula promotion — canonical Hénon map, Chapter 12 'Strange Attractors: The Locus of Chaos'. Fills the attractor/flow-field grammar family (SKILL.md taxonomy) — a genuinely distinct rendering technique (discrete point-map iteration) from escape-time, IFS/chaos-game, and L-system turtle graphics already promoted.",
+  "equations": [
+    {
+      "id": "eq-1",
+      "source_page": 610,
+      "db_page_index": 634,
+      "latex": "H(x,y) = (y+1-ax^2, bx)",
+      "required_tokens": ["H(x,y)", "ax^2", "bx"],
+      "symbol_classes": ["SUP"],
+      "expected_extractor_label": "formula",
+      "display": "display",
+      "role": "iteration_law",
+      "note": "Eq. (12.1) — visually verified against page-634.png rendered from the source PDF page 635 (printed page 610). Standard adjustable parameters a=1.4, b=0.3 (the classic Hénon strange attractor) are given in the surrounding text on the same page. An orbit is (x_{k+1}, y_{k+1}) = (y_k + 1 - a x_k^2, b x_k), k = 0, 1, 2, ..."
+    }
+  ],
+  "render_note": "a=1.4, b=0.3 are the standard published Hénon parameters, stated explicitly on the verified page — not a free decorative choice."
+}
