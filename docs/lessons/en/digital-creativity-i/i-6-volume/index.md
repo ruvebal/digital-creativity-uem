@@ -24,7 +24,8 @@ tags: [digital-creativity-i, volume, hybrid-studio, clo3d, fashion-education]
 ---
 
 > _"To bump wisely is to keep truth in two places: the manifest and the module."_
-> — Tao of Development, `qa-013` *(used analogically here — its own `teaches` field is about software version sync across sources of truth, not fashion volume-making; the fit is keeping a physical maquette and a digital pass in sync through iteration, B1/B2 below)*
+<!-- TTDO fit: used analogically here — its own `teaches` field is about software version sync across sources of truth, not fashion volume-making; the fit is keeping a physical maquette and a digital pass in sync through iteration, B1/B2 below. -->
+> — Tao of Development, `qa-013`
 {: .tao-development-quote }
 
 ---

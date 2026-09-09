@@ -24,7 +24,8 @@ tags: [creacion-digital-i, animacion, movimiento, fotogramas]
 ---
 
 > _"Un GIF que se repite para siempre nos enseña: movimiento sin desplazamiento sigue siendo naturaleza muerta."_
-> — Tao of Development, `img-002` *(ajuste directo — la paradoja propia de la animación, movimiento implícito frente a desplazamiento real, es literalmente el giro conceptual de esta unidad)*
+<!-- Ajuste TTDO: ajuste directo — la paradoja propia de la animación, movimiento implícito frente a desplazamiento real, es literalmente el giro conceptual de esta unidad. -->
+> — Tao of Development, `img-002`
 {: .tao-development-quote }
 
 ---

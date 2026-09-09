@@ -24,7 +24,8 @@ tags: [digital-creativity-i, digital-images, fashion-photography, foundations]
 ---
 
 > _"The path to mastery begins with reading. The path to enlightenment continues with practice."_
-> — Tao of Development, `qa-008` *(direct fit — an introductory unit is literally the "begins with reading" moment before I.2's hands-on drawing tools)*
+<!-- TTDO fit: direct fit — an introductory unit is literally the "begins with reading" moment before I.2's hands-on drawing tools. -->
+> — Tao of Development, `qa-008`
 {: .tao-development-quote }
 
 ---

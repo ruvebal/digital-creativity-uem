@@ -24,7 +24,8 @@ tags: [creacion-digital-i, referencias, moodboard, etica-imagen, representacion-
 ---
 
 > _"Libre como en libertad, estable como en probado. El Tao no pide pago, solo atribución adecuada."_
-> — Tao of Development, `qa-011` *(usado de forma analógica aquí — su campo `teaches` propio trata del licenciamiento de código abierto; el ajuste se declara: buscar una referencia compositiva plantea la misma pregunta que el uso de código abierto — no "¿puedo usar esto?" sino "¿lo he atribuido honestamente?")*
+<!-- Ajuste TTDO: usado de forma analógica aquí — su campo `teaches` propio trata del licenciamiento de código abierto; el ajuste se declara: buscar una referencia compositiva plantea la misma pregunta que el uso de código abierto — no "¿puedo usar esto?" sino "¿lo he atribuido honestamente?". -->
+> — Tao of Development, `qa-011`
 {: .tao-development-quote }
 
 ---

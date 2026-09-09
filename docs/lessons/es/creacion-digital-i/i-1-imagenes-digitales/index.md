@@ -24,7 +24,8 @@ tags: [creacion-digital-i, imagenes-digitales, fotografia-moda, fundamentos]
 ---
 
 > _"El camino a la maestría empieza con la lectura. El camino a la iluminación continúa con la práctica."_
-> — Tao of Development, `qa-008` *(ajuste directo — una unidad introductoria es literalmente el momento de "empezar con la lectura" antes de las herramientas de dibujo de la I.2)*
+<!-- Ajuste TTDO: ajuste directo — una unidad introductoria es literalmente el momento de "empezar con la lectura" antes de las herramientas de dibujo de la I.2. -->
+> — Tao of Development, `qa-008`
 {: .tao-development-quote }
 
 ---

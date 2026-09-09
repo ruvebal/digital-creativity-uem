@@ -24,7 +24,8 @@ tags: [creacion-digital-i, volumen, taller-hibrido, clo3d, educacion-moda]
 ---
 
 > _"Actualizar con sabiduría es mantener la verdad en dos lugares: el manifiesto y el módulo."_
-> — Tao of Development, `qa-013` *(usado de forma analógica aquí — su campo `teaches` propio trata de sincronización de versiones de software entre fuentes de verdad, no de creación de volumen en moda; el ajuste está en mantener sincronizados una maqueta física y un pase digital mediante iteración, B1/B2 más abajo)*
+<!-- Ajuste TTDO: usado de forma analógica aquí — su campo `teaches` propio trata de sincronización de versiones de software entre fuentes de verdad, no de creación de volumen en moda; el ajuste está en mantener sincronizados una maqueta física y un pase digital mediante iteración, B1/B2 más abajo. -->
+> — Tao of Development, `qa-013`
 {: .tao-development-quote }
 
 ---

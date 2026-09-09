@@ -24,7 +24,8 @@ tags: [creacion-digital-i, naturaleza-muerta, bodegon, composicion, sintesis]
 ---
 
 > _"El camino de la imagen es el camino del equilibrio. Demasiado pesada, y el usuario se va. Demasiado ligera, y el sentido se pierde. Demasiadas, y el mensaje se ahoga. Muy pocas, y la página habla en monotonía."_
-> — Tao of Development, `img-070` *(ajuste directo — un bodegón es precisamente un ejercicio de composición-de-equilibrio, disponer objetos hasta que el peso visual se lea correctamente, aunque el registro literal propio de la cita sea la densidad de imagen de una página web)*
+<!-- Ajuste TTDO: ajuste directo — un bodegón es precisamente un ejercicio de composición-de-equilibrio, disponer objetos hasta que el peso visual se lea correctamente, aunque el registro literal propio de la cita sea la densidad de imagen de una página web. -->
+> — Tao of Development, `img-070`
 {: .tao-development-quote }
 
 ---

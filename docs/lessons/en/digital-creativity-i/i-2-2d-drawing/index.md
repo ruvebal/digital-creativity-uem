@@ -30,7 +30,8 @@ description: 'Vector drawing as a discipline of describing shape as relationship
 ---
 
 > _"The SVG scales infinitely, yet remains exactly what it is. Be like the SVG."_
-> — Tao of Development, `img-004` *(direct fit — vector drawing is exactly the "scales without losing identity" property this unit teaches)*
+<!-- TTDO fit: direct fit — vector drawing is exactly the "scales without losing identity" property this unit teaches. -->
+> — Tao of Development, `img-004`
 {: .tao-development-quote }
 
 ---

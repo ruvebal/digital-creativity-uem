@@ -24,7 +24,8 @@ tags: [creacion-digital-i, efectos, filtros, divulgacion]
 ---
 
 > _"El offset no es matemática — es empatía. Debes recordar lo que vino antes."_
-> — Tao of Development, `arch-018` *(usado de forma analógica aquí — su campo `teaches` propio trata del offset/posicionamiento en interfaz, no de efectos de imagen; el ajuste se declara: un efecto aplicado a una imagen es una transformación que debe recordar, no borrar, el original)*
+<!-- Ajuste TTDO: usado de forma analógica aquí — su campo `teaches` propio trata del offset/posicionamiento en interfaz, no de efectos de imagen; el ajuste se declara: un efecto aplicado a una imagen es una transformación que debe recordar, no borrar, el original. -->
+> — Tao of Development, `arch-018`
 {: .tao-development-quote }
 
 ---

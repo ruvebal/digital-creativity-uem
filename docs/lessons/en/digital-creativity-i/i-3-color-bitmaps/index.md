@@ -24,7 +24,8 @@ tags: [digital-creativity-i, color, bitmap, raster-imaging]
 ---
 
 > _"The raster image fears the zoom. The SVG welcomes it."_
-> — Tao of Development, `img-016` *(direct fit — this unit's own anchor is bitmap/raster imagery specifically, in contrast to I.2's vector)*
+<!-- TTDO fit: direct fit — this unit's own anchor is bitmap/raster imagery specifically, in contrast to I.2's vector. -->
+> — Tao of Development, `img-016`
 {: .tao-development-quote }
 
 ---

@@ -24,7 +24,8 @@ tags: [creacion-digital-i, color, mapa-de-bits, imagen-de-trama]
 ---
 
 > _"La imagen de trama teme el zoom. El SVG lo recibe con los brazos abiertos."_
-> — Tao of Development, `img-016` *(ajuste directo — el propio anclaje de esta unidad es la imagen de mapa de bits/trama específicamente, en contraste con el vector de la I.2)*
+<!-- Ajuste TTDO: ajuste directo — el propio anclaje de esta unidad es la imagen de mapa de bits/trama específicamente, en contraste con el vector de la I.2. -->
+> — Tao of Development, `img-016`
 {: .tao-development-quote }
 
 ---

@@ -24,7 +24,8 @@ tags: [digital-creativity-i, references, mood-board, image-ethics, body-represen
 ---
 
 > _"Free as in freedom, stable as in tested. The Tao asks not for payment, only for proper attribution."_
-> — Tao of Development, `qa-011` *(used analogically here — its own `teaches` field is open-source licensing; the fit is disclosed: sourcing a compositional reference asks the same question open-source use does — not "can I use this" but "have I attributed it honestly")*
+<!-- TTDO fit: used analogically here — its own `teaches` field is open-source licensing; the fit is disclosed: sourcing a compositional reference asks the same question open-source use does — not "can I use this" but "have I attributed it honestly". -->
+> — Tao of Development, `qa-011`
 {: .tao-development-quote }
 
 ---

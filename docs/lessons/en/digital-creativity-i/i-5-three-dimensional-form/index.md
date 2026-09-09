@@ -24,7 +24,8 @@ tags: [digital-creativity-i, 3d-form, spatial-reasoning, fashion-education]
 ---
 
 > _"Practice in the dojo, perform in the arena."_
-> — Tao of Development, `wis-013` *(used analogically here — its own `teaches` field is about DEV/STG/PROD software environments, not fashion form-making; the fit is the distinction between decontextualised skill drills and the contextualised studio piece, B3 vs B2 below)*
+<!-- TTDO fit: used analogically here — its own `teaches` field is about DEV/STG/PROD software environments, not fashion form-making; the fit is the distinction between decontextualised skill drills and the contextualised studio piece, B3 vs B2 below. -->
+> — Tao of Development, `wis-013`
 {: .tao-development-quote }
 
 ---

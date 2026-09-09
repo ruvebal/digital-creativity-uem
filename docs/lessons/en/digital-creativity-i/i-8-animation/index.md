@@ -24,7 +24,8 @@ tags: [digital-creativity-i, animation, motion, stills]
 ---
 
 > _"A GIF that loops forever teaches us: motion without movement is still life."_
-> — Tao of Development, `img-002` *(direct fit — animation's own paradox, implied motion vs. actual movement, is literally this unit's conceptual turn)*
+<!-- TTDO fit: direct fit — animation's own paradox, implied motion vs. actual movement, is literally this unit's conceptual turn. -->
+> — Tao of Development, `img-002`
 {: .tao-development-quote }
 
 ---

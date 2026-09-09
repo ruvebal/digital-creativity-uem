@@ -30,7 +30,8 @@ description: 'El dibujo vectorial como disciplina de describir la forma como rel
 ---
 
 > _"El SVG escala infinitamente, y sigue siendo exactamente lo que es. Sé como el SVG."_
-> — Tao of Development, `img-004` *(ajuste directo — el dibujo vectorial es exactamente esa propiedad de "escalar sin perder identidad" que enseña esta unidad)*
+<!-- Ajuste TTDO: ajuste directo — el dibujo vectorial es exactamente esa propiedad de "escalar sin perder identidad" que enseña esta unidad. -->
+> — Tao of Development, `img-004`
 {: .tao-development-quote }
 
 ---

@@ -24,7 +24,8 @@ tags: [digital-creativity-i, still-life, bodegon, composition, synthesis]
 ---
 
 > _"The way of the image is the way of balance. Too heavy, and the user departs. Too light, and meaning is lost. Too many, and the message drowns. Too few, and the page speaks in monotone."_
-> — Tao of Development, `img-070` *(direct fit — a bodegón is precisely a composition-of-balance exercise, arranging objects until the visual weight reads correctly, even though the quote's own literal register is web-page image density)*
+<!-- TTDO fit: direct fit — a bodegón is precisely a composition-of-balance exercise, arranging objects until the visual weight reads correctly, even though the quote's own literal register is web-page image density. -->
+> — Tao of Development, `img-070`
 {: .tao-development-quote }
 
 ---

@@ -24,7 +24,8 @@ tags: [creacion-digital-i, forma-3d, razonamiento-espacial, educacion-moda]
 ---
 
 > _"Practica en el dojo, actúa en la arena."_
-> — Tao of Development, `wis-013` *(usado de forma analógica aquí — su campo `teaches` propio trata de entornos de software DEV/STG/PROD, no de creación de forma en moda; el ajuste está en la distinción entre práctica descontextualizada, B3, y la pieza contextualizada de taller, B2, más abajo)*
+<!-- Ajuste TTDO: usado de forma analógica aquí — su campo `teaches` propio trata de entornos de software DEV/STG/PROD, no de creación de forma en moda; el ajuste está en la distinción entre práctica descontextualizada, B3, y la pieza contextualizada de taller, B2, más abajo. -->
+> — Tao of Development, `wis-013`
 {: .tao-development-quote }
 
 ---

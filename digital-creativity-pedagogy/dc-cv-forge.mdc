@@ -11,6 +11,8 @@ alwaysApply: false
 > Scholarly citations: [`../grounding/README.md`](../grounding/README.md). Unit lessons: [`../dc-unit-forge.mdc`](../dc-unit-forge.mdc).
 > Classical-didactics grounding + rationale-quoting rule (§4, §7): `curriculum-forger` (`~/src/.cursor/skills/curriculum-forger/SKILL.md`).
 
+> **TTDO quote rule:** In public lesson Markdown, keep Tao of Development quote text and citation visible, but place any fit, analogy, or selection justification in an HTML comment (`<!-- ... -->`) immediately above the quote. Never expose the parenthetical rationale in the rendered lesson; preserve it for authoring/audit context.
+
 ---
 
 ## INPUT
@@ -67,3 +69,4 @@ Required section order (adapt labels to UEM institutional template if provided; 
 1. JSON (+ PDF on conflict) beats taste.  
 2. Learning-outcome bullets come from PDF §3 via JSON. Do not invent extras.  
 3. L2 research clauses are additive, never a rewrite of L1 institutional tables.
+4. TTDO quote justifications are authoring metadata: emit them only inside `<!-- ... -->` comments in lessons, never as rendered parenthetical text.

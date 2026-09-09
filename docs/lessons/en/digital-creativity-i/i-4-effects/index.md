@@ -24,7 +24,8 @@ tags: [digital-creativity-i, effects, filters, disclosure]
 ---
 
 > _"Offset is not mathematics—it is empathy. You must remember what came before."_
-> — Tao of Development, `arch-018` *(used analogically here — its own `teaches` field is about UI offset/positioning, not image effects; the fit is disclosed: an effect applied to an image is a transformation that should remember, not erase, the original)*
+<!-- TTDO fit: used analogically here — its own `teaches` field is about UI offset/positioning, not image effects; the fit is disclosed: an effect applied to an image is a transformation that should remember, not erase, the original. -->
+> — Tao of Development, `arch-018`
 {: .tao-development-quote }
 
 ---
