@@ -1,0 +1,171 @@
+---
+description: Forge for the I.0 image-ontology masterclass, lecture, student slideshow, and detection exercises
+globs: 'digital-creativity-pedagogy/forge/**,digital-creativity-pedagogy/forge/session-prompts/**'
+alwaysApply: false
+---
+
+# IMAGE ONTOLOGY FORGE — I.0
+
+Forge a short foundational masterclass before I.1. Its purpose is to teach
+students to identify what kind of image they are looking at before interpreting
+its meaning, style, or commercial function.
+
+The canonical author is **Joan Fontcuberta**. Use the exact name and verify the
+selected work before citing it. Do not treat Fontcuberta as evidence for every
+claim about AI imagery: distinguish his work on photographic truth, fiction,
+authorship, and post-photography from contemporary generative-model research.
+
+## Ontology detection model
+
+Every example is classified on two independent axes.
+
+### Production ontology
+
+```text
+analog_human_made
+analog_photographic
+digital_capture
+digitised_analog
+digital_native
+non_ai_machine_generated
+generative_art
+data_generated_or_visualised
+ai_or_model_generated
+hybrid
+```
+
+`generative_art` is a subset of non-AI machine-generated work when rules,
+simulation, procedural variation, randomness, or interaction produce the form.
+`data_generated_or_visualised` identifies the source material or transformation;
+it may also be generative art, explanatory graphics, or a scientific display.
+
+### Image function / claim
+
+```text
+trace_or_testimony
+representation_or_reproduction
+diagram_or_explanation
+measurement_or_data_argument
+fiction_or_simulation
+expression_or_composition
+advertising_or persuasion
+evidence_or_document
+hybrid_claim
+```
+
+Students must never infer “truth” from photographic appearance alone. Record
+the event, apparatus, dataset, software, model, operator, edits, and circulation
+context that support the classification.
+
+## Required lecture arc
+
+1. What ontology asks: what kind of thing is this image?
+2. Analog objects, photographs, digital captures, and digitised originals.
+3. Software-generated and non-AI machine-generated images.
+4. Generative art, procedural images, simulations, and data visualisation.
+5. AI/model-generated images: model-mediated synthesis, not autonomous authorship.
+6. Photography as event-related trace plus framing, processing, and convention.
+7. Fontcuberta: photographic truth, fiction, authorship, and post-photography.
+8. Peirce, Barthes, Bazin, Flusser, Benjamin, Sontag, and Foucault as a gentle
+   vocabulary ladder; introduce only one concept at a time.
+9. Detection exercise: classify five unlabeled images and state what each can
+   and cannot legitimately claim.
+
+## 120-minute session
+
+```text
+00–30  students inspect unlabeled examples and write an ontology hypothesis
+30–60  lecture: production ontology, function, trace, code, model, circulation
+60–90  individual detection cards: apparatus, source, transformations, claim
+90–120 workshop: compare classifications and save one card to the portfolio
+```
+
+The student slideshow is image-led: one ontology question per slide, one
+sentence of explanation, an accessible caption, and no professor-side
+provenance. The professor guide contains the deeper theory, teaching notes,
+uncertainties, and full Chicago references.
+
+## Output contract
+
+Produce:
+
+- `I.0` professor session prompt in English, then an outcome-equivalent Spanish
+  version;
+- a student-facing slideshow with 8–12 slides;
+- an ontology-card exercise template;
+- a reviewed Media Prospector request for Fontcuberta, photography, procedural
+  graphics, generative art, data visualisation, and AI/model-generated examples;
+- a provenance ledger for every scholarly claim, gated from public HTML.
+
+Do not manufacture a Fontcuberta quotation. If the local Ahmes corpus does not
+resolve a claim, retain `[BIBLIO-GAP]` in the internal provenance comment and
+use a plainly attributed open question in the student surface.
+
+Before writing public lessons, verify the official course guide and preserve
+the publication firewall, visual-readability law, one-graph rule, and MP5 media
+handoff boundary.
+
+## Execution phase — local Ollama
+
+Route the drafting phase to the locally installed model:
+
+```bash
+OLLAMA_MODEL=qwen3.8:27b
+```
+
+Use the Ollama HTTP API with an explicit timeout. Ask the model to draft only
+the professor lecture outline, one-idea-per-slide sentences, ontology-card
+prompts, and structured Media Prospector slots. It must not invent Fontcuberta
+quotes, Chicago references, image URLs, licences, or Profield acceptance.
+
+The execution sequence is:
+
+```text
+official guide + lesson/session contracts
+→ grounded ontology forge input
+→ local qwen3.8:27b draft
+→ human/editorial review
+→ accepted Profield media pack
+→ student slideshow: one idea + one sentence + one visual focus per slide
+→ publication/citation/media/readability gates
+```
+
+If `qwen3.8:27b` is unavailable, stop with `BLOCKED_MODEL_UNAVAILABLE`.
+
+## Grounding memory: current Athanor/Ahmes discovery
+
+The first all-project vector pass used the CV descriptors:
+
+```text
+digital images, photography, image synthesis, authorship, semiotics,
+generative art, data visualisation, ontology, AI imagery, digitisation,
+human–AI collaboration, fashion communication
+```
+
+The retained evidence and discovery routes are recorded in
+`forge/IMAGE-ONTOLOGY-GROUNDING-RECEIPT.md`. The receipt is a search memory,
+not a bibliography shortcut: vector proximity is discovery only; every claim
+must still pass complete-node reading and the Ahmes citation resolver.
+
+Strong verified matches currently available:
+
+- Shinkle, Eugénie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing
+  Images of Fashion*. `(Shinkle 2008, 50)`. Use for photographic truth,
+  construction, and fashion-image practice.
+- Bendel, Oliver. 2025. “Image Synthesis from an Ethical Perspective.” *AI &
+  Society*. `(Bendel 2025, 1)`. DOI: `10.1007/s00146-023-01780-4`. Use for
+  distinguishing image synthesis from photographic capture and for ethical
+  questions around generated images.
+
+Strong conceptual routes for later retrieval:
+
+- generative AI and image synthesis;
+- ethical issues in generated images;
+- the transformation of the image through digitisation;
+- image semiotics in fashion communication;
+- digital authorship and human–AI collaboration;
+- ontology as a formal vocabulary for classification;
+- data and computational image production.
+
+Fontcuberta remains a named target with a direct `[BIBLIO-GAP]` until a
+canonical Ahmes node is ingested and resolved. Do not manufacture a quotation.

@@ -89,34 +89,38 @@ Digital mediatization reaches not only how fashion is communicated but how runwa
 
 Before students collect reference images, audit who appears as the “normal” body, legitimate designer, and fashion subject in the textbooks and mood boards the studio treats as neutral (Reddy-Best et al. 2018).
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.1.video.practice-boundary" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-01-image-system-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for a short fashion-image screening clip; no people or garments depicted." loading="lazy" />
+<figure class="lesson-media lesson-media--semantic" data-media-slot="I.1.video.practice-boundary" markdown="0">
+<div class="lesson-media__text-fallback" role="img" aria-label="Video placeholder: practice, venue, audience, and circulation"><strong>Screening slot:</strong> practice → venue → audience → circulation</div>
 <figcaption>
 <p><strong>Why this is here:</strong> A three-minute screening anchors the practice-boundary debate before any software demo.</p>
 <p><strong>What to notice:</strong> Cropping, lighting, and circulation cues — not file format or filter names.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p class="media-note">Video slot remains a reviewed semantic placeholder until an accepted moving-image record arrives.</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.1.still.editorial-vs-commercial" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-01-image-system-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for paired editorial and commercial fashion stills; no people or garments depicted." loading="lazy" />
+<figure class="lesson-media lesson-media--accepted" data-media-slot="I.1.still.editorial-vs-commercial" markdown="0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Camp_-_Notes_on_Fashion_at_the_Met_-_Burberry_rainbow_cape_%2873854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original" width="1600" height="560" alt="Photograph from the Met exhibition Camp: Notes on Fashion, showing a Burberry rainbow cape." loading="lazy" />
 <figcaption>
 <p><strong>Why this is here:</strong> Side-by-side stills let students argue editorial vs commercial intent using compositional evidence.</p>
 <p><strong>What to notice:</strong> Negative space, gaze, branding visibility, and implied audience.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p class="media-note"><a href="https://commons.wikimedia.org/wiki/File:Camp_-_Notes_on_Fashion_at_the_Met_-_Burberry_rainbow_cape_(73854).jpg">Rhododendrites — Camp: Notes on Fashion at the Met — Burberry rainbow cape</a> · CC BY-SA 4.0</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.1.graphic.image-regimes" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-01-image-system-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract diagram placeholder for editorial, commercial, and hybrid image regimes; no people or garments depicted." loading="lazy" />
+<figure class="lesson-media lesson-media--semantic" data-media-slot="I.1.graphic.image-regimes" markdown="0">
+<div class="lesson-media__text-fallback" role="img" aria-label="Graphic summary: practice, venue, audience, circulation, and the boundary between art and commerce"><strong>Graphic summary:</strong> practice → venue → audience → circulation → boundary</div>
 <figcaption>
 <p><strong>Why this is here:</strong> A single graphic maps editorial, commercial, and hybrid regimes used in B2 and B3.</p>
 <p><strong>What to notice:</strong> Audience, circulation channel, and evaluation criteria — not software icons.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p class="media-note">Visual-forger semantic graphic: image practice → venue → audience → circulation.</p>
 </figcaption>
 </figure>
 
 ---
+
+## First studio artefact
+
+**Produce a small labelled set of digital fashion images**, annotated by practice and boundary, as this course’s first studio artefact.
 
 ## B1 · Conceptual — magistral 2 h + seminarios 3 h + debates 1 h
 

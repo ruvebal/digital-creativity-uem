@@ -1,0 +1,10 @@
+# Visual readability law
+
+This rule applies to every forged lesson and student-facing slideshow.
+
+- Use one semantic graph per lesson surface; never repeat the same graph in hero, media, cards, or slideshow.
+- Keep page-art/friso assets archived, but exclude them from lesson HTML by default. Opt in only with `enable_page_art: true`.
+- Text must never collide with nodes, controls, forms, captions, or navigation. Reserve text-safe zones and move copy into a theme surface when needed.
+- TTDO/Athanor quotations use one typographic treatment: no literal quote marks combined with pseudo-elements or a second decorative quote layer.
+- Use theme surface, text, border, and link tokens. Avoid stacked transparent backgrounds that obscure reading order.
+- Verify generated HTML after every forge: no duplicate graph, no lesson page-art figure, no quote decoration collision.

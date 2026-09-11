@@ -171,6 +171,12 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 			</header>
 
 			{% include locale-switcher.html %}
+			{% if page.url contains '/lessons/en/digital-creativity-i/i-1-digital-images/' %}
+			<p class="lesson-student-deck-link"><a href="{{ '/tracks/dci/i-1-fashion-image/' | relative_url }}">Open the student-facing I.1 slideshow →</a></p>
+			{% endif %}
+			{% if page.url contains '/lessons/es/creacion-digital-i/i-1-imagenes-digitales/' %}
+			<p class="lesson-student-deck-link"><a href="{{ '/tracks/dci/i-1-fashion-image/' | relative_url }}">Abrir la presentación estudiantil de I.1 →</a></p>
+			{% endif %}
 			<div class="lesson-body prose prose-lg prose-slate dark:prose-invert">{{ content }}</div>
 		</article>
 	</div>

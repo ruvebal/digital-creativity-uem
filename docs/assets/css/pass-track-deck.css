@@ -182,6 +182,137 @@ body {
   color: rgb(var(--muted-foreground) / 0.88);
 }
 
+.student-media-slide {
+  display: grid;
+  align-content: start;
+  min-height: min(62vh, 34rem);
+  max-width: min(46rem, 76%);
+  gap: 0.7rem;
+  padding: clamp(1.1rem, 3vw, 2rem);
+  border: 1px solid rgb(var(--foreground) / 0.18);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgb(var(--card) / 0.9), rgb(var(--background) / 0.68));
+  box-shadow: 0 1rem 3rem rgb(var(--background) / 0.32);
+}
+
+.student-media-deck .reveal .slides section {
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+/* Reading mode: the image bleeds behind the card. */
+.student-media-deck .slide-background-content {
+	background-repeat: no-repeat;
+	transition: background-size 280ms ease, background-position 280ms ease;
+}
+
+/* Image mode: hide the card and reveal the complete image at natural ratio. */
+.student-media-deck.student-media-card-hidden .slide-background.present .slide-background-content {
+	background-size: contain !important;
+	background-position: center !important;
+	background-color: rgb(var(--background));
+}
+
+.student-media-card-hidden .student-media-slide {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.98);
+}
+
+.student-media-card-hidden .student-media-caption {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.student-media-controls {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 60;
+  display: flex;
+  gap: 0.45rem;
+}
+
+.student-media-controls button {
+  border: 1px solid rgb(var(--foreground) / 0.2);
+  border-radius: 999px;
+  padding: 0.48rem 0.7rem;
+  background: rgb(var(--card) / 0.68);
+  color: rgb(var(--foreground));
+  box-shadow: 0 0.5rem 1.5rem rgb(var(--background) / 0.22);
+  backdrop-filter: blur(16px) saturate(135%);
+  cursor: pointer;
+}
+
+.student-media-controls button:hover,
+.student-media-controls button:focus-visible {
+  background: rgb(var(--accent) / 0.22);
+  outline: 2px solid rgb(var(--accent) / 0.68);
+  outline-offset: 2px;
+}
+
+.student-media-slide__unit,
+.student-media-slide__credit,
+.student-media-slide__prompt,
+.student-media-caption {
+  color: rgb(var(--muted-foreground) / 0.95);
+}
+
+.student-media-slide__unit,
+.student-media-slide__credit {
+  margin: 0;
+  font-size: 0.55em;
+}
+
+.student-media-slide__citation {
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.student-media-slide__citation a { color: rgb(var(--accent)); }
+
+.student-media-slide__prompt {
+  margin: 0;
+  font-size: 0.76em;
+  font-style: italic;
+}
+
+.student-media-caption {
+	position: fixed;
+	left: 1rem;
+	right: 1rem;
+	bottom: clamp(4.2rem, 8vw, 5.4rem);
+	z-index: 35;
+	display: block;
+	max-width: min(58rem, calc(100% - 2rem));
+	padding: 0.7rem 0.9rem;
+	border-top: 1px solid rgb(var(--foreground) / 0.42);
+	border: 1px solid rgb(var(--foreground) / 0.2);
+	border-radius: var(--radius);
+	background: linear-gradient(135deg, rgb(var(--card) / 0.9), rgb(var(--background) / 0.78));
+	box-shadow: 0 0.8rem 2rem rgb(0 0 0 / 0.24);
+	font-size: clamp(0.62rem, 1vw, 0.82rem);
+	line-height: 1.35;
+	letter-spacing: 0.015em;
+	text-transform: uppercase;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	backdrop-filter: blur(16px) saturate(135%);
+}
+
+.student-media-caption span,
+.student-media-caption a {
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+}
+
+.student-media-caption a { color: rgb(var(--accent)); }
+
 .reveal h1,
 .reveal h2,
 .reveal h3 {

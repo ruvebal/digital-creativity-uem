@@ -61,12 +61,16 @@ Read in order:
 7. `digital-creativity-pedagogy/forge/CRITICAL-FIELD-LAYER.md`
 8. `digital-creativity-pedagogy/forge/PROFIELD-MEDIA-PROSPECTOR-REQUEST.md` (spec only — tool not shipped)
 9. `digital-creativity-pedagogy/forge/MEDIA-PLACEHOLDER-CONTRACT.md`
-10. `digital-creativity-pedagogy/forge/SESSION-PROMPTS-README.md`
-11. `digital-creativity-pedagogy/forge/SESSION-PROMPTS-GROUNDING-RECEIPT.md`
-12. `digital-creativity-pedagogy/grounding/README.md`
-13. `digital-creativity-pedagogy/grounding/MASTER-IDEAS.md`
-14. `digital-creativity-pedagogy/cv/UNIT-PLAN.md`
-15. The unit's **existing** session prompt, EN lesson, ES lesson, and track-row summary
+10. `digital-creativity-pedagogy/forge/IMAGE-ONTOLOGY-MEDIA-PROSPECTOR-REQUEST.md` when forging I.0 media
+11. `digital-creativity-pedagogy/forge/IMAGE-ONTOLOGY-OLLAMA.execute.md` for the local I.0 drafting phase
+12. `digital-creativity-pedagogy/forge/SESSION-PROMPTS-README.md`
+13. `digital-creativity-pedagogy/forge/SESSION-PROMPTS-GROUNDING-RECEIPT.md`
+14. `digital-creativity-pedagogy/forge/STUDENT-SLIDESHOW-FORGE.mdc`
+15. `digital-creativity-pedagogy/forge/IMAGE-ONTOLOGY-FORGE.mdc`
+16. `digital-creativity-pedagogy/grounding/README.md`
+17. `digital-creativity-pedagogy/grounding/MASTER-IDEAS.md`
+18. `digital-creativity-pedagogy/cv/UNIT-PLAN.md`
+19. The unit's **existing** session prompt, EN lesson, ES lesson, and track-row summary
 
 Apply relevant sections from:
 
@@ -112,7 +116,7 @@ scholarly claim.
 Process sequentially to keep shared registries and provenance auditable:
 
 ```text
-CD I:  I.1 → I.2 → I.3 → I.4 → I.5 → I.6 → I.7 → I.8 → I.9
+CD I:  I.0 (image ontology masterclass) → I.1 → I.2 → I.3 → I.4 → I.5 → I.6 → I.7 → I.8 → I.9
 CD II: II.1 → II.2 → II.3 → II.4 → II.5 → II.6
 ```
 
@@ -137,6 +141,8 @@ For each unit, complete every substep before moving on:
    lesson, master idea, or provenance record changed. Keep B1/B2/B3 timing,
    three media cards (as specifications), accessibility fallbacks, and the
    critical field lens + open living prompt.
+   Use the fixed 30/30/30/30 analysis → lecture → individual problem →
+   project/workshop rhythm and record the B3 portfolio trace.
 6. **Reconcile both languages.** Patch EN first, then ES with outcome parity
    (claims, boundaries, media semantics, citations, gated internal provenance).
    Do not regress complete student-facing sections.
@@ -166,7 +172,7 @@ For each unit, complete every substep before moving on:
 | **A — Provenance + reconcile** | `PROVENANCE_LINE` on all claims; session ↔ lesson ↔ track sync | ✅ **Run now** |
 | **B — Semantic media placeholders** | `media_slot_id` + caption-first figures; fractal/SVG placeholders | ✅ **Run with Phase A** — see `MEDIA-PLACEHOLDER-CONTRACT.md` |
 | **B′ — Licensed embed swap** | Replace placeholders from Profield manifests | ◻ After `~/src/profield` MP5 accept — **not a blocker** |
-| **C — Teaching decks** | Optional slides | ◻ Out of scope unless operator opts in |
+| **C — Student teaching decks** | Image-led decks from accepted MP5 collections | ◻ After an accepted media pack; use `STUDENT-SLIDESHOW-FORGE.mdc` |
 | **D — Formula backgrounds** | Fractal-architect cascade | ◻ Separate execute file; not a dependency for Phase A |
 
 If Phase B′ (licensed swap) is not ready, Phase A+B still completes with

@@ -27,6 +27,12 @@ Jekyll::Hooks.register :site, :post_write do |site|
   stdout, stderr, status = Open3.capture3('node', 'scripts/strip-markdown-helper-attrs.mjs', chdir: cwd)
   puts stdout unless stdout.empty?
   puts stderr unless stderr.empty?
+
+  # Link Chicago author-date citations to stable local bibliography entries.
+  Jekyll.logger.info "Running link-lesson-citations..."
+  stdout, stderr, status = Open3.capture3('node', 'scripts/link-lesson-citations.mjs', chdir: cwd)
+  puts stdout unless stdout.empty?
+  puts stderr unless stderr.empty?
   
   Jekyll.logger.info "Post-processing complete!"
 end

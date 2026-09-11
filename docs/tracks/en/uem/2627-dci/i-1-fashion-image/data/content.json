@@ -1,0 +1,175 @@
+---
+layout: null
+---
+{
+  "unit_label": "Digital Creativity I · I.1 Digital images",
+  "media_selection": {
+    "unit_id": "I.1",
+    "collection": "designers",
+    "strategy": "accepted-ranked",
+    "description": "Select backgrounds from accepted I.1 media, ranked upstream by review priority."
+  },
+  "assets": [
+    {
+      "media_slot_id": "I.1.still.profield-1",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fan_SAAM-1935.8.20_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Fan_SAAM-1935.8.20_1.jpg",
+      "alt_text": "Teaching image: wikimedia:File:Fan SAAM-1935.8.20 1.jpg",
+      "title": "File:Fan SAAM-1935.8.20 1.jpg [explicit_public_domain_statement]",
+      "provider": "wikimedia_commons",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "designers"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-2",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png",
+      "alt_text": "Teaching image: wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
+      "title": "File:Miss Maquillage Digital Fashion Garment example.png [modern_rights_review_required]",
+      "provider": "wikimedia_commons",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "designers"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-3",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_McQueen_clamshell_dress_(51611p).jpg",
+      "alt_text": "Teaching image: wikimedia:File:Alexander McQueen clamshell dress (51611p).jpg",
+      "title": "File:Alexander McQueen clamshell dress (51611p).jpg [modern_rights_review_required]",
+      "provider": "wikimedia_commons",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "designers"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-4",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/The_American_Club_Woman_Magazine_cover_%28January_1916%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_American_Club_Woman_Magazine_cover_(January_1916).png",
+      "alt_text": "Teaching image: wikimedia:File:The American Club Woman Magazine cover (January 1916).png",
+      "title": "File:The American Club Woman Magazine cover (January 1916).png [explicit_public_domain_statement]",
+      "provider": "wikimedia_commons",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "designers"
+    }
+  ],
+  "slides": [
+    {
+      "heading": "Digital images",
+      "sentence": "Produce a small labelled set of digital fashion images, annotated by practice and boundary, as this course’s first studio artefact.",
+      "prompt": "I.1 · Introduction to Digital Images",
+      "media_slot_id": null
+    },
+    {
+      "heading": "1 · Field of practices",
+      "sentence": "A digital fashion image is defined by who made it, for what venue, and under which shared goals.",
+      "media_slot_id": "I.1.still.profield-1"
+    },
+    {
+      "heading": "2 · Not a file format",
+      "sentence": "JPEG, PNG, GIF, and RAW describe technical containers; they do not tell us what a fashion image does.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "3 · Many collaborators",
+      "sentence": "Fashion images gather photographers, stylists, models, designers, editors, producers, and audiences around a shared situation.",
+      "media_slot_id": "I.1.still.profield-2"
+    },
+    {
+      "heading": "4 · More than one genre",
+      "sentence": "Editorial, advertising, beauty, portraiture, and documentary practices can all belong to fashion-image culture.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "5 · Art and commerce",
+      "sentence": "Fashion images can occupy artistic and commercial realms at the same time.",
+      "media_slot_id": "I.1.still.profield-3"
+    },
+    {
+      "heading": "6 · A permeable boundary",
+      "sentence": "The boundary between art and commerce shifts with caption, venue, commission, audience, and circulation.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "7 · Read the circulation",
+      "sentence": "Meaning changes when the same image moves between runway, retail, editorial, social media, and exhibition contexts.",
+      "media_slot_id": "I.1.still.profield-4"
+    },
+    {
+      "heading": "8 · Make the process visible",
+      "sentence": "An image analysis should retain its source, audience, purpose, observations, and classification decision.",
+      "prompt": "Save the analysis as the first portfolio trace.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "II · Debate 1",
+      "sentence": "If the same image reads as art in a gallery caption and commerce in an advertisement, whose intent decides what it is?",
+      "prompt": "Maker, venue, or viewer? Defend one position.",
+      "media_slot_id": "I.1.still.camp-burberry"
+    },
+    {
+      "heading": "II · Debate 2",
+      "sentence": "Does a changing caption change the image, or does it reveal a meaning that was already there?",
+      "prompt": "Use one visible detail and one circulation clue.",
+      "media_slot_id": "I.1.still.camp-moschino"
+    },
+    {
+      "heading": "II · Debate 3",
+      "sentence": "Can an image be both commercially useful and artistically serious without resolving the tension?",
+      "prompt": "Listen for the boundary each speaker assumes.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "III · Critical 1",
+      "sentence": "Digital mediatization reaches how fashion is communicated, how runway design and retail are organised, and how visible self-fashioning becomes everyday practice.",
+      "citation": {
+        "label": "(Rocamora 2017)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-rocamora-2017"
+      },
+      "prompt": "Read circulation and venue, not only file format.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "III · Critical 2",
+      "sentence": "Before collecting references, audit who appears as the normal body, legitimate designer, and fashion subject in supposedly neutral studio materials.",
+      "citation": {
+        "label": "(Reddy-Best et al. 2018)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-reddy-best-2018"
+      },
+      "prompt": "Who is missing from the frame and from the archive?",
+      "media_slot_id": "I.1.still.camp-moschino"
+    },
+    {
+      "heading": "III · Critical 3",
+      "sentence": "Every visual reference carries an audience, a power relation, and an omission that can be made discussable.",
+      "prompt": "Name the relation your chosen image makes visible.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "IV · Diagnostic",
+      "sentence": "Given an unlabelled fashion-image description, assign the most defensible field-of-practice label and justify it in two sentences.",
+      "prompt": "Work alone; no tool or AI needed.",
+      "media_slot_id": "I.1.still.camp-burberry"
+    },
+    {
+      "heading": "IV · Boundary judgement",
+      "sentence": "Given an ambiguous artistic or commercial placement, write a one-sentence boundary judgement by hand.",
+      "prompt": "Declare the evidence you used.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "IV · The JPEG problem",
+      "sentence": "Explain why “it’s a JPEG” is not an answer to “what kind of fashion image is this?”",
+      "prompt": "Use the distinction between file format and field of practice.",
+      "media_slot_id": null
+    },
+    {
+      "heading": "IV · Portfolio trace",
+      "sentence": "Collect the analysis, debate position, critical audit, and problem response as the first material of the public portfolio defence.",
+      "prompt": "Save source, version, and one changed judgement.",
+      "media_slot_id": null
+    }
+  ]
+}

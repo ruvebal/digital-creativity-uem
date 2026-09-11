@@ -1521,6 +1521,48 @@ html.dark,
 	padding: 2rem 3rem;
 }
 
+.lesson-session-frame {
+	margin: 1.25rem auto 1.75rem;
+	padding: 1rem 1.15rem;
+	border: 1px solid rgb(100 116 139 / 0.28);
+	border-radius: 0.85rem;
+	background: linear-gradient(135deg, rgb(248 250 252 / 0.9), rgb(241 245 249 / 0.72));
+	color: rgb(30 41 59);
+}
+
+.lesson-session-frame__label {
+	margin: 0 0 0.65rem;
+	font-size: 0.73rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.lesson-session-frame__grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 0.65rem;
+}
+
+.lesson-session-frame__grid div {
+	display: grid;
+	gap: 0.2rem;
+	padding: 0.65rem;
+	border-radius: 0.55rem;
+	background: rgb(255 255 255 / 0.72);
+}
+
+.lesson-session-frame__grid strong { font-size: 0.82rem; }
+.lesson-session-frame__grid span,
+.lesson-session-frame__note { font-size: 0.8rem; line-height: 1.4; }
+.lesson-session-frame > p:last-child { margin: 0.75rem 0 0; }
+.lesson-session-frame__note { color: rgb(71 85 105); }
+.lesson-student-deck-link { margin: 0 auto 1rem; max-width: 900px; font-weight: 700; }
+
+@media (max-width: 720px) {
+	.lesson-session-frame__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
 @media (max-width: 1024px) {
 	.lesson-content {
 		padding: 1.5rem 1.25rem;
@@ -1728,14 +1770,15 @@ html.dark,
 	margin: 2rem 0;
 	padding: var(--tao-quote-padding);
 	border-left: 3px solid var(--link);
-	border-radius: 0 8px 8px 0;
-	background-image: url('/digital-creativity-uem/assets/images/tao/tao-development-quote-nebula.svg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
-	background-color: transparent;
-	text-align: right;
+	border-radius: 0.75rem;
+	background: var(--surface, #101827);
+	box-shadow: 0 1rem 2.5rem rgb(15 23 42 / 0.12);
+	text-align: left;
+	quotes: none;
 }
+
+.lesson-body blockquote.tao-development-quote p::before,
+.lesson-body blockquote.tao-development-quote p::after { content: none !important; }
 
 .lesson-body blockquote.tao-development-quote > * {
 	position: relative;
@@ -1754,12 +1797,14 @@ html.dark,
 	font-size: var(--tao-quote-font-size);
 	font-weight: var(--tao-quote-weight);
 	line-height: var(--tao-quote-line);
-	text-align: right;
+	text-align: left;
 	text-wrap: balance;
 }
 
 .lesson-body blockquote.tao-development-quote p:last-child {
 	margin-top: 1rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid rgb(148 163 184 / 0.28);
 	font-size: var(--tao-quote-signature-size);
 	font-weight: 500;
 	line-height: 1.35;

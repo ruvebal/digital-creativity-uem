@@ -1,7 +1,8 @@
 <!--
-Forged per dc-cv-forge.mdc, 2026-08-14; English canonical revision 2026-08-29.
+Forged per dc-cv-forge.mdc; re-verified 2026-09-09 against the local 2026-27 PDF bible; English canonical revision.
 Modality: presencial (default).
-Authority: live PDF 9729001103 (academic year 2026-27), cloned into
+Authority: local official PDF `2026-27_Digital_creation_i.pdf`, `REF: 21dd1c29`,
+academic year 2026-27, reconciled against
 cv/guides/1-creacion-digital-i.json. Do not revert to the unicrawler 2025-2026 scrape.
 Spanish mirror: uem-ruvebal-creacion-digital-i-cv.md
 -->
@@ -23,7 +24,7 @@ Spanish mirror: uem-ruvebal-creacion-digital-i-cv.md
 | Semester | S1 |
 | Academic year | 2026-27 |
 | Coordinating instructor | Sandra Jiménez Duarte |
-| Official source | <https://universidadeuropea.es/myfiles/pr/9729001103.pdf> (PDF pp. 1, 3–4; verified 2026-08-14) |
+| Official source | <https://universidadeuropea.es/myfiles/pr/9729001103.pdf> (local PDF `2026-27_Digital_creation_i.pdf`, REF `21dd1c29`, pp. 1–4; verified 2026-09-09) |
 
 ## 2. Presentation
 

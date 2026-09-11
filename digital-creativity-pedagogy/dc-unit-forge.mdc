@@ -180,6 +180,20 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
 
 ## STEP B — EMIT THREE ARTEFACTS
 
+### Delivery model — professor guide first, student deck second
+
+The unit lesson and its session prompt are the professor-side preparation
+layer: they may go deeper into teaching choices, boundaries, answer sketches,
+and switch-gated provenance. The student-facing layer is the compact image-led
+deck defined in [`forge/STUDENT-SLIDESHOW-FORGE.mdc`](./forge/STUDENT-SLIDESHOW-FORGE.mdc).
+It uses only accepted media-pack records and one heading plus one sentence per
+slide. Do not turn the public deck into a research or provenance document.
+
+Every 120-minute unit session follows: **00–30 analysis; 30–60 lecture and
+demonstration; 60–90 individual exercise/problem-solving; 90–120 project-based
+learning or workshop.** B3 responses are retained as individual evidence for
+the final portfolio defence.
+
 ### B1 · Conceptual (magistral + seminarios + debates)
 → `docs/lessons/{en,es}/…`
 - One-sentence claim; CONTENIDOS anchors; competencies served; evidence or gap.
@@ -193,7 +207,20 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
 
 ### B3 · Resolución de problemas (individual)
 - 3–5 short problems; ≥1 diagnostic; ≥1 solvable without AI (declared).
-- Professor expected-answer sketch.
+- Professor expected-answer sketch and a portfolio-index label so the response
+  can be selected for the final individual oral defence.
+
+### Course evidence — preserve, do not silently reweight
+
+The course sequence culminates in three deliverables and a public portfolio
+defence: (1) an individual free-choice analysis presented in person; (2) a
+transposition into an image series; (3) a multimedia presentation prepared for
+a live atrium show; and (4) the final oral defence of the portfolio of exercises
+and deliverables. Deliverable 1 uses the internal 70% presentation / 20%
+deliverable / 10% cohort-participation rubric, with one or two 10–15-minute
+presentations per session. Map these to the official assessment instruments in
+the guía before publishing a gradebook; do not replace the official 55/15/20/10
+course weighting by assertion.
 
 ## STEP C — WIRE IT
 
@@ -211,7 +238,9 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
 - Nodes resolve; one-line statement of missing evidence.
 - `npm run verify:publication` and `npm run verify:citations` pass: no
   internal corpus/local-architecture metadata in rendered output; cited
-  lessons use Chicago author-date and end with References/Referencias.
+  lessons use Chicago author-date, link every rendered `(Author Year[, page])`
+  to its stable Chicago `References` / `Referencias` entry, and end with that
+  reference list.
 ```
 
 ---
@@ -237,3 +266,4 @@ Copy from here only for later UNIT_IDs. Fill INPUT. Do not skip step A.
 4. **B2 ≠ B3.**  
 5. **No citation without a node. No VTON sprint. No FE hour scheme.**  
 6. **Discover in vectors, cite from nodes.**
+7. **A slide uses an accepted media slot or a course-generated accessible graphic; never a raw discovery-index image.**

@@ -1,0 +1,168 @@
+---
+description: Student-facing slide-deck contract for Creación Digital I and II using accepted Profield media packs
+globs: 'docs/tracks/**,docs/_data/media-packs/**,digital-creativity-pedagogy/forge/**'
+alwaysApply: false
+---
+
+# STUDENT SLIDESHOW FORGE — Creación Digital I / II
+
+The student-facing surface is a short image-led Reveal.js deck, visually
+consistent with “How to Pass This Track.” It is not the lesson text, a research
+ledger, or an instructor script. The fuller unit lesson and session prompt are
+professor-side preparation material; internal provenance remains source-only.
+
+## Media intake: collection → accepted pack → deck
+
+Never read a raw Profield discovery index directly into a public page. The
+correct route is:
+
+```text
+media-index.json (review inbox)
+→ media-collection.py named collection (editorial snapshot)
+→ instructor review / acceptance
+→ MP5 YAML pack in docs/_data/media-packs/
+→ student deck slots matched by media_slot_id
+```
+
+Use the unit manifests under
+`/Users/ruvebal/src/profield/runs/media-prospector/<UNIT>/<RUN>/manifest.json`,
+not the root index, as the asset source. The accepted I.1 snapshot is
+`I.1/20260904T130000Z/manifest.json`: two reviewed Wikimedia Commons images,
+both CC BY-SA 4.0. They seed the first I.1 analysis deck. All other unit decks
+remain blocked until their own accepted manifest/collection arrives; never
+invent a replacement image, URL, credit, licence, or alt text.
+
+Each deck slide receives only public-safe media fields: title, public preview or
+embed URL, alt text, credit line, licence display, and the single sentence that
+states what students should notice. Profield run IDs, local paths, retrieval
+traces, review notes, rights uncertainty, and scholarly provenance never render.
+
+## Production rehydration
+
+Background selection is collection-driven. For each unit, the rehydrator reads
+the accepted assets belonging to that unit's reviewed media collection, sorts
+them by upstream priority/rank, and assigns the selected asset to the slide's
+`media_slot_id`. The slot names the teaching role; it does not itself fetch an
+image. A slide with no media slot keeps the theme background.
+
+### Explicit slide-image override
+
+The deck author may force a particular accepted catalogue asset for a specific
+slide. Use this when the teaching argument depends on one named image rather
+than on whichever asset currently ranks first:
+
+```json
+{
+  "media_selection": {
+    "unit_id": "I.1",
+    "collection": "designers",
+    "strategy": "explicit-then-ranked"
+  },
+  "media_overrides": {
+    "I.1.still.profield-1": "wikimedia:File:Fan SAAM-1935.8.20 1.jpg",
+    "I.1.still.profield-2": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png"
+  }
+}
+```
+
+The key is the slide's `media_slot_id`; the value is the Profield `asset_id`.
+The rehydrator must resolve the override inside the selected reviewed
+collection, require `review_status: accepted`, a rank from 1–5, a usable
+public image or video URL, rights evidence, and accessibility metadata. A
+missing, rejected, unranked, or non-renderable override is never silently
+published: report it and fall back to the normal accepted unit/rank selection
+for that slot. Overrides take precedence only for their named slots; all
+other slots remain collection- and rank-driven. Preserve the asset's canonical
+source and licence metadata in the deck output.
+
+Priority is marked upstream in the unit manifest (`review.priority`, `priority`,
+or `rank`). Run `npm run media:rehydrate` before the production build. The
+script scans accepted manifests under `runs/media-prospector/`, deduplicates by
+asset ID, sorts by priority, preserves the deck's `media_slot_id` mapping, and
+copies only public-safe fields into the deck JSON. The production deck has no
+reload control and no dependency on Profield paths at runtime.
+
+## Unit deck shape
+
+One ordinary unit deck uses 5–7 slides. A conceptual masterclass such as I.0
+may use 8–12 slides when the taxonomy requires it, but the one-idea rule still
+holds: one conceptual move, one heading, one sentence, and one visual focus per
+slide.
+
+1. **Question:** unit title + one heading + one sentence.
+2. **Look closely:** one accepted image/video and one observation question.
+3. **Analyse:** compare two accepted assets or one asset and a teacher-made
+   diagram; students write an individual reading before discussion.
+4. **Concept:** one heading and one sentence; a teacher explains the criterion.
+5. **Problem:** one constrained individual exercise and its submission trace.
+6. **Project/workshop:** the collaborative or project move for that moment.
+7. **Carry forward:** which portfolio evidence is saved and why.
+
+Use visual-forger for course-generated diagrams. Use media-embed-forger only
+after the MP5 pack passes validation. A student deck may name UEM and the course
+only; it must not name Profield, Ahmes, Athanor, DevIAC, UDIT, Web Atelier, or
+the sibling runtime.
+
+## 120-minute class rhythm
+
+The deck and professor guide follow this four-part rhythm:
+
+| Minutes | Learning move | Evidence |
+| --- | --- | --- |
+| 00–30 | Individual visual analysis, then comparison | annotated reading / short position |
+| 30–60 | Lecture and demonstration | conceptual notes / criterion |
+| 60–90 | Individual exercises and problem-solving | saved problem response for portfolio evidence |
+| 90–120 | Project-based learning or workshop | group/project trace, critique, next task |
+
+The final quarter changes with the unit: it may be a workshop, group project,
+or project milestone. B3 remains individually attributable even when its
+evidence later supports a collective project.
+
+## Course delivery and assessment choreography
+
+The following is a teaching design that must be mapped to the official UEM
+assessment instruments; it does not change their 55 / 15 / 20 / 10 weighting
+without formal course authorization.
+
+| Course evidence | Student task | Evidence retained |
+| --- | --- | --- |
+| Deliverable 1 — Analysis | Individual free-choice analysis, presented in person; support may be photo, drawing, illustration, or GIF | presentation support + individual analysis |
+| Deliverable 2 — Transposition | Translate a self-chosen input from one medium/language into another; output is an image series | source declaration + image series + process trace |
+| Deliverable 3 — Multimedia presentation | Multimedia work prepared for a live atrium show | multimedia export + technical/accessibility plan + group/individual roles |
+| Final exam — public portfolio defence | Oral defence of the personal portfolio assembled from collected unit problem-solving evidence and course deliverables | portfolio index + selected exercises + oral defence support |
+
+Deliverable 1’s internal rubric is: presentation 70%, deliverable 20%, and
+participation in peers’ presentations/debate 10%. Schedule one or two students
+per session for 10–15 minutes each. This is a rubric within the deliverable,
+not a replacement for the official course-wide evaluation table.
+
+## Required student-deck fields
+
+```yaml
+course_id: dci | dcii
+unit_id: I.1 | II.4
+slide_id: stable-unit-purpose-id
+heading: "Short student-facing heading"
+sentence: "One sentence only."
+media_slot_id: I.1.still.editorial-vs-commercial
+observation_prompt: "What decision changes the meaning here?"
+portfolio_trace: "Save the annotated comparison in your portfolio index."
+```
+
+No slide is published until `media_slot_id` resolves to an accepted MP5 record
+or the slide is a course-generated diagram with accessible text equivalent.
+
+## Local Ollama forge phase
+
+The ontology lecture and student slideshow use the locally installed model:
+
+```bash
+OLLAMA_MODEL=qwen3.8:27b
+```
+
+Use the Ollama HTTP API with an explicit timeout. The model may draft lecture
+structure, slide sentences, ontology-card prompts, and media-slot requests; it
+may not invent citations, licences, image URLs, provenance, or rights status.
+The deterministic forge remains authoritative for official contents, timing,
+publication safety, visual-readability rules, and MP5 acceptance. If the model
+is unavailable, fail closed rather than silently substituting another model.

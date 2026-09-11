@@ -1,7 +1,8 @@
 <!--
-Forged per dc-cv-forge.mdc, 2026-08-14. Modality: presencial (default).
+Forged per dc-cv-forge.mdc, re-verified 2026-09-09 against the local 2026-27 PDF bible. Modality: presencial (default).
 **Spanish mirror.** Canonical English CV: uem-ruvebal-digital-creativity-i-cv.md
-Authority: live PDF 9729001103 (academic year 2026-27), cloned into
+Authority: local official PDF `2026-27_Digital_creation_i.pdf`, `REF: 21dd1c29`,
+academic year 2026-27, reconciled against
 cv/guides/1-creacion-digital-i.json the same day. Do not revert to the
 unicrawler 2025-2026 scrape.
 -->
@@ -23,7 +24,7 @@ unicrawler 2025-2026 scrape.
 | Semestre | S1 |
 | Año académico | 2026-27 |
 | Profesor coordinador | Sandra Jiménez Duarte |
-| Fuente oficial | <https://universidadeuropea.es/myfiles/pr/9729001103.pdf> (PDF pp. 1, 3–4; verified 2026-08-14) |
+| Fuente oficial | <https://universidadeuropea.es/myfiles/pr/9729001103.pdf> (local PDF `2026-27_Digital_creation_i.pdf`, REF `21dd1c29`, pp. 1–4; verified 2026-09-09) |
 
 ## 2. Presentación
 

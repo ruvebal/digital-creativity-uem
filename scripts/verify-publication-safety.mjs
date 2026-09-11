@@ -116,6 +116,18 @@ function citationAudit() {
 			}
 		}
 	}
+	if (statSync(publicRoot, { throwIfNoEntry: false })) {
+		for (const file of filesUnder(resolve(publicRoot, 'lessons'), new Set(['.html']))) {
+			const body = readFileSync(file, 'utf8');
+			const citationLinks = [...body.matchAll(/<a class="citation-link" href="#(ref-[^"]+)"[^>]*>\([^<]+\)<\/a>/g)];
+			for (const match of citationLinks) {
+				if (!body.includes(`id="${match[1]}"`)) failures.push(`${relative(root, file)}: citation link points to a missing reference anchor (${match[1]})`);
+			}
+			if (/\b(?:Shinkle|Anwar|Rizzi|Coats|Campinho|Kim|Smith-Glaviana)\b[^<\n]{0,55}\s(?:19|20)\d{2}/.test(body) && !citationLinks.length) {
+				failures.push(`${relative(root, file)}: published author-date citations are not linked to reference anchors`);
+			}
+		}
+	}
 	if (failures.length) {
 		console.error(`Citation conformance failed (${failures.length} finding(s)):\n${failures.join('\n')}`);
 		process.exit(1);

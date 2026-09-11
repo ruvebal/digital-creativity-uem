@@ -7,7 +7,7 @@ alwaysApply: false
 # CV FORGE — Creación Digital (UEM)
 
 > Output: markdown guía curricular drafts under `digital-creativity-pedagogy/cv/`.
-> **Authority:** [`oficial-guia-framework.mdc`](../oficial-guia-framework.mdc) + the JSON clones in [`guides/`](./guides/).
+> **Authority:** the matching official PDF first, reconciled against its JSON clone, plus [`oficial-guia-framework.mdc`](../oficial-guia-framework.mdc). The PDF is the bible; JSON is a checked working transcription, never an independent authority.
 > Scholarly citations: [`../grounding/README.md`](../grounding/README.md). Unit lessons: [`../dc-unit-forge.mdc`](../dc-unit-forge.mdc).
 > Classical-didactics grounding + rationale-quoting rule (§4, §7): `curriculum-forger` (`~/src/.cursor/skills/curriculum-forger/SKILL.md`).
 
@@ -18,18 +18,33 @@ alwaysApply: false
 ## INPUT
 
 - COURSE: `<CD I | CD II>`
+- GUIDE_PDF: `/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/26-27/guias_docentes/2026-27_Digital_creation_i.pdf` | matching CD II PDF
 - GUIDE_JSON: `cv/guides/1-creacion-digital-i.json` | `cv/guides/3-creacion-digital-ii.json`
 - MODALITY: `Modalidad presencial` (default) | `Modalidad virtual`
 - OUTPUT: `cv/uem-ruvebal-creacion-digital-{i|ii}-cv.md`
 
-## STEP A — LOAD THE CONTRACT (mandatory)
+## STEP A — LOAD THE CONTRACT (mandatory; PDF first)
 
-1. Parse the GUIDE_JSON. Copy identity fields verbatim (§1 of the framework).
-2. Extract `contents` → CONTENIDOS anchor list (framework §2). Do not drop or reorder silently; if you cluster for pedagogy, show the mapping table.
-3. List `competencies` exactly as strings in the JSON.
-4. Load `formative_activities[MODALITY]` — hours must sum to **150** (both courses, both modalities). If they do not, stop: the clone is stale; re-check the live PDF.
-5. Load `evaluation[MODALITY]` — weights must match JSON **and** the live PDF (`source_url`). Sum must be 100%. CD I and CD II use different instrument names; copy them, do not unify.
-6. Ground any research / pedagogy claims via the **evidence matrix** in [`../grounding/README.md`](../grounding/README.md) (unit IDs in [`UNIT-PLAN.md`](./UNIT-PLAN.md)). [`../grounding/temario/PROVENANCE-LAYER.md`](../grounding/temario/PROVENANCE-LAYER.md) is a coverage check only. **Only** Ahmes `--cite` with `evaluator_safe=yes` may enter published bibliography lines. `[BIBLIO-GAP]` stays labelled. Consent clause in §9 points at [`../consent/README.md`](../consent/README.md) — drafts, not administered.
+1. Open and text-extract the matching `GUIDE_PDF` before reading the JSON. Record
+   PDF title, academic year, local file path, page count, the document `REF`,
+   and the official `source_url`. For the current CD I bible the PDF is the
+   2026-27 six-page guide with `REF: 21dd1c29`.
+2. Parse the GUIDE_JSON and reconcile every identity field, presentation,
+   learning-outcome bullet, contents anchor, methodology, activity row, and
+   assessment row against the PDF. Do not silently normalize a disagreement.
+3. Copy `contents` → CONTENIDOS anchor list from the PDF (§4), preserving order;
+   use JSON only as the checked transcription. If pedagogy clusters anchors,
+   show the mapping table.
+4. List competencies and learning outcomes exactly as the PDF (§3), retaining
+   the CON/HAB/COMP labels and bullets. Do not invent outcomes from research.
+5. Load the PDF's `formative_activities[MODALITY]` — hours must sum to **150**
+   for both courses and modalities. If PDF and JSON differ, stop and repair the
+   clone before drafting.
+6. Load the PDF's `evaluation[MODALITY]` — weights must match the PDF and JSON
+   and sum to 100%. Copy instrument names; do not unify CD I and CD II labels.
+7. Ground any research / pedagogy claims via the **evidence matrix** in
+   [`../grounding/README.md`](../grounding/README.md) (unit IDs in
+   [`UNIT-PLAN.md`](./UNIT-PLAN.md)). [`../grounding/temario/PROVENANCE-LAYER.md`](../grounding/temario/PROVENANCE-LAYER.md) is a coverage check only. **Only** Ahmes `--cite` with `evaluator_safe=yes` may enter published bibliography lines. `[BIBLIO-GAP]` stays labelled. Consent clause in §9 points at [`../consent/README.md`](../consent/README.md) — drafts, not administered.
 
 ## STEP B — EMIT CV SECTIONS
 
@@ -48,9 +63,10 @@ Required section order (adapt labels to UEM institutional template if provided; 
 
 ## STEP C — VERIFY
 
-- [ ] Every hour row name matches JSON (allowing only orthographic cleanup)  
+- [ ] Every hour row name matches the PDF; JSON reconciliation is recorded (allowing only orthographic cleanup)
 - [ ] Hour sum = 150 for the chosen modality  
-- [ ] Evaluation weights = JSON = PDF (sum 100%)  
+- [ ] Evaluation weights = PDF = JSON (sum 100%)
+- [ ] PDF provenance recorded: local path, page count, `REF`, academic year, and official URL
 - [ ] Every planned unit maps to ≥1 CONTENIDOS anchor (`UNIT-PLAN.md`)  
 - [ ] Bibliography lines are `evaluator_safe=yes` only
 - [ ] **Bibliography coverage** (`curriculum-forger` SKILL.md §9.9): at least

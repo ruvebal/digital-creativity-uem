@@ -19,6 +19,10 @@
 </aside>
 {% endif %}
 <figure class="lesson-semantic lesson-semantic--{{ semantic_cover.family }}" data-semantic-mode="{{ semantic_cover.mode }}" markdown="0">
+{% if page.slug == 'i-1-imagenes-digitales' %}
+<img src="{{ '/assets/images/lesson-covers/dc-i-01-image-regimes-graph.svg' | relative_url }}" width="1600" height="620" alt="Semantic graph connecting practice, venue, audience, circulation, and the changing boundary between art and commerce." />
+{% else %}
 <img src="{{ '/assets/images/lesson-covers/' | append: semantic_cover.asset | append: '-semantic.svg' | relative_url }}" width="1600" height="560" alt="{% if page.lang == 'es' and semantic_cover.semantic_alt_es %}{{ semantic_cover.semantic_alt_es | escape }}{% elsif page.lang == 'es' %}{{ semantic_cover.alt_es | escape }}{% elsif semantic_cover.semantic_alt_en %}{{ semantic_cover.semantic_alt_en | escape }}{% else %}{{ semantic_cover.master_idea | escape }}{% endif %}" />
+{% endif %}
 </figure>
 {% endif %}
