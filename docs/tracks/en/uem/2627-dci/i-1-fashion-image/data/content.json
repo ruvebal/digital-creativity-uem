@@ -6,15 +6,19 @@ layout: null
   "media_selection": {
     "unit_id": "I.1",
     "collection": "designers",
-    "strategy": "accepted-ranked",
-    "description": "Select backgrounds from accepted I.1 media, ranked upstream by review priority."
+    "strategy": "explicit-then-ranked",
+    "description": "Use explicit slide assets first; use accepted I.1 media by rank for remaining slots.",
+    "media_overrides": {
+      "I.1.cover.astronaut": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp",
+      "I.1.cover.ladies": "wikimedia:File:The Ladies' home journal (1948) (14578727659).jpg"
+    }
   },
   "assets": [
     {
-      "media_slot_id": "I.1.still.profield-1",
+      "media_slot_id": "I.1.cover.astronaut",
       "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fan_SAAM-1935.8.20_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Fan_SAAM-1935.8.20_1.jpg",
-      "alt_text": "Teaching image: wikimedia:File:Fan SAAM-1935.8.20 1.jpg",
+      "alt_text": "File:Fan SAAM-1935.8.20 1.jpg [explicit_public_domain_statement]",
       "title": "File:Fan SAAM-1935.8.20 1.jpg [explicit_public_domain_statement]",
       "provider": "wikimedia_commons",
       "priority": 5,
@@ -22,10 +26,10 @@ layout: null
       "collection": "designers"
     },
     {
-      "media_slot_id": "I.1.still.profield-2",
+      "media_slot_id": "I.1.cover.ladies",
       "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png",
-      "alt_text": "Teaching image: wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
+      "alt_text": "File:Miss Maquillage Digital Fashion Garment example.png [modern_rights_review_required]",
       "title": "File:Miss Maquillage Digital Fashion Garment example.png [modern_rights_review_required]",
       "provider": "wikimedia_commons",
       "priority": 5,
@@ -33,10 +37,32 @@ layout: null
       "collection": "designers"
     },
     {
+      "media_slot_id": "I.1.still.profield-1",
+      "asset_url": "https://dn711300.ca.archive.org/0/items/fashion-designing-institute-in-noida/Fashion%20Designing%20Institute%20in%20Noida.png",
+      "canonical_source_url": "https://archive.org/details/fashion-designing-institute-in-noida",
+      "alt_text": "Fashion Designing Institute In Noida",
+      "title": "Fashion Designing Institute In Noida",
+      "provider": "internet_archive",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "designers"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-2",
+      "asset_url": "https://dn710907.ca.archive.org/0/items/img-9200_20260804/IMG_9200.jpg",
+      "canonical_source_url": "https://archive.org/details/img-9200_20260804",
+      "alt_text": "Ranzuki Magazine 2011/August Cover Scan [modern_rights_review_required]",
+      "title": "Ranzuki Magazine 2011/August Cover Scan [modern_rights_review_required]",
+      "provider": "internet_archive",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "designers"
+    },
+    {
       "media_slot_id": "I.1.still.profield-3",
       "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_McQueen_clamshell_dress_(51611p).jpg",
-      "alt_text": "Teaching image: wikimedia:File:Alexander McQueen clamshell dress (51611p).jpg",
+      "alt_text": "File:Alexander McQueen clamshell dress (51611p).jpg [modern_rights_review_required]",
       "title": "File:Alexander McQueen clamshell dress (51611p).jpg [modern_rights_review_required]",
       "provider": "wikimedia_commons",
       "priority": 4,
@@ -45,13 +71,46 @@ layout: null
     },
     {
       "media_slot_id": "I.1.still.profield-4",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/The_American_Club_Woman_Magazine_cover_%28January_1916%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_American_Club_Woman_Magazine_cover_(January_1916).png",
-      "alt_text": "Teaching image: wikimedia:File:The American Club Woman Magazine cover (January 1916).png",
-      "title": "File:The American Club Woman Magazine cover (January 1916).png [explicit_public_domain_statement]",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Heavenly_Bodies_Fashion_and_the_Catholic_Imagination_at_The_Metropolitan_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Heavenly_Bodies_Fashion_and_the_Catholic_Imagination_at_The_Metropolitan_Museum_of_Art.jpg",
+      "alt_text": "File:Heavenly Bodies Fashion and the Catholic Imagination at The Metropolitan Museum of Art.jpg [modern_rights_review_required]",
+      "title": "File:Heavenly Bodies Fashion and the Catholic Imagination at The Metropolitan Museum of Art.jpg [modern_rights_review_required]",
       "provider": "wikimedia_commons",
       "priority": 4,
       "selection_rank": 4,
+      "collection": "designers"
+    },
+    {
+      "media_slot_id": "I.1.still.camp-burberry",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Saisonen._Magazine_for_art%2C_fashion_and_news.1916.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Saisonen._Magazine_for_art,_fashion_and_news.1916.jpg",
+      "alt_text": "File:Saisonen. Magazine for art, fashion and news.1916.jpg [published_before_1931_us_public_domain_timing]",
+      "title": "File:Saisonen. Magazine for art, fashion and news.1916.jpg [published_before_1931_us_public_domain_timing]",
+      "provider": "wikimedia_commons",
+      "priority": 2,
+      "selection_rank": 2,
+      "collection": "designers"
+    },
+    {
+      "media_slot_id": "I.1.cover.ladies",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Ladies%27_home_journal_%281948%29_%2814578727659%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Ladies%27_home_journal_(1948)_(14578727659).jpg",
+      "alt_text": "File:The Ladies' home journal (1948) (14578727659).jpg [explicit_public_domain_statement]",
+      "title": "File:The Ladies' home journal (1948) (14578727659).jpg [explicit_public_domain_statement]",
+      "provider": "wikimedia_commons",
+      "priority": 2,
+      "selection_rank": 2,
+      "collection": "designers"
+    },
+    {
+      "media_slot_id": "I.1.cover.astronaut",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp",
+      "alt_text": "File:Astronaut Riding a Horse (SD3.5).webp [explicit_public_domain_statement]",
+      "title": "File:Astronaut Riding a Horse (SD3.5).webp [explicit_public_domain_statement]",
+      "provider": "wikimedia_commons",
+      "priority": 999,
+      "selection_rank": 999,
       "collection": "designers"
     }
   ],
@@ -60,17 +119,17 @@ layout: null
       "heading": "Digital images",
       "sentence": "Produce a small labelled set of digital fashion images, annotated by practice and boundary, as this course’s first studio artefact.",
       "prompt": "I.1 · Introduction to Digital Images",
-      "media_slot_id": null
+      "media_slot_id": "I.1.cover.astronaut"
     },
     {
       "heading": "1 · Field of practices",
       "sentence": "A digital fashion image is defined by who made it, for what venue, and under which shared goals.",
-      "media_slot_id": "I.1.still.profield-1"
+      "media_slot_id": "I.1.cover.ladies"
     },
     {
       "heading": "2 · Not a file format",
       "sentence": "JPEG, PNG, GIF, and RAW describe technical containers; they do not tell us what a fashion image does.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.still.profield-1"
     },
     {
       "heading": "3 · Many collaborators",
@@ -80,7 +139,7 @@ layout: null
     {
       "heading": "4 · More than one genre",
       "sentence": "Editorial, advertising, beauty, portraiture, and documentary practices can all belong to fashion-image culture.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.4"
     },
     {
       "heading": "5 · Art and commerce",
@@ -90,7 +149,7 @@ layout: null
     {
       "heading": "6 · A permeable boundary",
       "sentence": "The boundary between art and commerce shifts with caption, venue, commission, audience, and circulation.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.6"
     },
     {
       "heading": "7 · Read the circulation",
@@ -101,7 +160,7 @@ layout: null
       "heading": "8 · Make the process visible",
       "sentence": "An image analysis should retain its source, audience, purpose, observations, and classification decision.",
       "prompt": "Save the analysis as the first portfolio trace.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.8"
     },
     {
       "heading": "II · Debate 1",
@@ -119,7 +178,7 @@ layout: null
       "heading": "II · Debate 3",
       "sentence": "Can an image be both commercially useful and artistically serious without resolving the tension?",
       "prompt": "Listen for the boundary each speaker assumes.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.11"
     },
     {
       "heading": "III · Critical 1",
@@ -129,7 +188,7 @@ layout: null
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-rocamora-2017"
       },
       "prompt": "Read circulation and venue, not only file format.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.12"
     },
     {
       "heading": "III · Critical 2",
@@ -145,7 +204,7 @@ layout: null
       "heading": "III · Critical 3",
       "sentence": "Every visual reference carries an audience, a power relation, and an omission that can be made discussable.",
       "prompt": "Name the relation your chosen image makes visible.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.14"
     },
     {
       "heading": "IV · Diagnostic",
@@ -157,19 +216,19 @@ layout: null
       "heading": "IV · Boundary judgement",
       "sentence": "Given an ambiguous artistic or commercial placement, write a one-sentence boundary judgement by hand.",
       "prompt": "Declare the evidence you used.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.16"
     },
     {
       "heading": "IV · The JPEG problem",
       "sentence": "Explain why “it’s a JPEG” is not an answer to “what kind of fashion image is this?”",
       "prompt": "Use the distinction between file format and field of practice.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.17"
     },
     {
       "heading": "IV · Portfolio trace",
       "sentence": "Collect the analysis, debate position, critical audit, and problem response as the first material of the public portfolio defence.",
       "prompt": "Save source, version, and one changed judgement.",
-      "media_slot_id": null
+      "media_slot_id": "I.1.default.18"
     }
   ]
 }

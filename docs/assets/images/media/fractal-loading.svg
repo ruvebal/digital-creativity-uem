@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Fractal media loading pattern</title>
+  <desc id="desc">An animated recursive pattern indicating that a reviewed media image is loading.</desc>
+  <rect width="320" height="180" fill="#111827"/>
+  <g fill="none" stroke="#a7f3d0" stroke-width="1.4" opacity=".82" transform="translate(160 90)">
+    <g>
+      <circle r="18"><animate attributeName="r" values="12;62;12" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle r="36" stroke="#93c5fd"><animate attributeName="r" values="30;78;30" dur="3.6s" begin="-.9s" repeatCount="indefinite"/></circle>
+      <circle r="54" stroke="#f9a8d4"><animate attributeName="r" values="48;94;48" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/></circle>
+      <path d="M0-70L61 35H-61z" stroke="#fde68a">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0-48L42 24H-42z" stroke="#c4b5fd">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+</svg>

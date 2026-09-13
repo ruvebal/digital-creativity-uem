@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel grid mutation</title>
+  <desc id="desc">A quiet grid of square pixels whose colours mutate in slow waves.</desc>
+  <rect width="1280" height="720" fill="#111827"/>
+  <g opacity=".86">
+    <g fill="#67e8f9">
+      <rect x="32" y="32" width="24" height="24"><animate attributeName="fill" values="#67e8f9;#c4b5fd;#86efac;#67e8f9" dur="29s" repeatCount="indefinite"/></rect>
+      <rect x="192" y="112" width="24" height="24"><animate attributeName="fill" values="#f0abfc;#fde68a;#67e8f9;#f0abfc" dur="37s" begin="-8s" repeatCount="indefinite"/></rect>
+      <rect x="352" y="272" width="24" height="24"><animate attributeName="fill" values="#86efac;#fb7185;#c4b5fd;#86efac" dur="43s" begin="-16s" repeatCount="indefinite"/></rect>
+      <rect x="592" y="192" width="24" height="24"><animate attributeName="fill" values="#fde68a;#67e8f9;#f0abfc;#fde68a" dur="31s" begin="-12s" repeatCount="indefinite"/></rect>
+      <rect x="832" y="432" width="24" height="24"><animate attributeName="fill" values="#c4b5fd;#86efac;#fde68a;#c4b5fd" dur="41s" begin="-20s" repeatCount="indefinite"/></rect>
+      <rect x="1072" y="272" width="24" height="24"><animate attributeName="fill" values="#fb7185;#67e8f9;#86efac;#fb7185" dur="35s" begin="-5s" repeatCount="indefinite"/></rect>
+      <rect x="112" y="592" width="24" height="24"><animate attributeName="fill" values="#86efac;#f0abfc;#67e8f9;#86efac" dur="47s" begin="-26s" repeatCount="indefinite"/></rect>
+      <rect x="752" y="592" width="24" height="24"><animate attributeName="fill" values="#fde68a;#fb7185;#c4b5fd;#fde68a" dur="39s" begin="-14s" repeatCount="indefinite"/></rect>
+    </g>
+    <path d="M0 80H1280M0 160H1280M0 240H1280M0 320H1280M0 400H1280M0 480H1280M0 560H1280M0 640H1280M80 0V720M160 0V720M240 0V720M320 0V720M400 0V720M480 0V720M560 0V720M640 0V720M720 0V720M800 0V720M880 0V720M960 0V720M1040 0V720M1120 0V720M1200 0V720" stroke="#c4b5fd" stroke-opacity=".12"/>
+  </g>
+</svg>

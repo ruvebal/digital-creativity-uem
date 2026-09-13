@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Organic pixel drift</title>
+  <desc id="desc">A slow grid of small square pixels whose colours drift through an organic field.</desc>
+  <defs>
+    <filter id="soften" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="2"/></filter>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#312e81"/></linearGradient>
+    <pattern id="pixels" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#111827"/><rect x="2" y="2" width="16" height="16" fill="#67e8f9" opacity=".18"/></pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#wash)"/><rect width="1280" height="720" fill="url(#pixels)" opacity=".72"/>
+  <g filter="url(#soften)" opacity=".84">
+    <circle cx="190" cy="170" r="130" fill="#67e8f9"><animate attributeName="cx" values="190;420;120;190" dur="38s" repeatCount="indefinite"/><animate attributeName="cy" values="170;300;420;170" dur="43s" repeatCount="indefinite"/><animate attributeName="fill" values="#67e8f9;#f0abfc;#86efac;#67e8f9" dur="52s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="180" r="170" fill="#f0abfc"><animate attributeName="cx" values="760;570;900;760" dur="47s" repeatCount="indefinite"/><animate attributeName="cy" values="180;360;120;180" dur="41s" repeatCount="indefinite"/><animate attributeName="fill" values="#f0abfc;#fde68a;#93c5fd;#f0abfc" dur="61s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="560" r="150" fill="#86efac"><animate attributeName="cx" values="560;760;380;560" dur="43s" repeatCount="indefinite"/><animate attributeName="cy" values="560;430;620;560" dur="39s" repeatCount="indefinite"/><animate attributeName="fill" values="#86efac;#fb7185;#67e8f9;#86efac" dur="57s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

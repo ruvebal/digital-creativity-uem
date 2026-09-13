@@ -35,7 +35,7 @@ function publicAsset(asset, slot, existing) {
     media_slot_id: slot,
     asset_url: asset.asset_url,
     canonical_source_url: asset.canonical_source_url,
-    alt_text: asset.accessibility?.alt_text || existing?.alt_text || `Teaching image: ${asset.asset_id}`,
+    alt_text: asset.accessibility?.alt_text || asset.title || 'Teaching image',
     title: asset.title || asset.name || existing?.title || asset.asset_id,
     provider: asset.provider || asset.source_provider || existing?.provider,
     credit_line: asset.rights?.credit_line,
@@ -54,7 +54,7 @@ function unitFromPath(path, manifest) {
 function slotsFor(unit, content) {
   return content.slides
     .map((slide) => slide.media_slot_id)
-    .filter((slot) => slot && slot.startsWith(`${unit}.`));
+    .filter((slot) => slot && slot.startsWith(`${unit}.`) && !slot.includes('.default.'));
 }
 
 const manifests = filesUnder(profieldRoot);
@@ -75,6 +75,7 @@ if (existsSync(reviewIndexPath)) {
       for (const candidate of entry.candidates || []) {
         if (!candidate.asset_id) continue;
         const incoming = {
+          ...candidate,
           review_status: candidate.review_status || '',
           review_rank: candidate.review_rank ?? null,
           review_collections: candidate.review_collections || [],
@@ -82,6 +83,8 @@ if (existsSync(reviewIndexPath)) {
         };
         const previous = reviewOverrides.get(candidate.asset_id);
         reviewOverrides.set(candidate.asset_id, previous ? {
+          ...previous,
+          ...incoming,
           review_status: previous.review_status === 'accepted' || incoming.review_status === 'accepted'
             ? 'accepted' : (previous.review_status || incoming.review_status),
           review_rank: Math.max(previous.review_rank ?? 0, incoming.review_rank ?? 0) || null,
@@ -154,14 +157,24 @@ for (const unitDirectory of readdirSync(deckRoot, { withFileTypes: true }).filte
     const existing = deduped.get(asset.asset_id);
     if (!existing || selectionScore(asset) > selectionScore(existing)) deduped.set(asset.asset_id, asset);
   }
+  for (const [slot, assetId] of Object.entries(selection.media_overrides || {})) {
+    const reviewed = reviewOverrides.get(assetId);
+    if (!reviewed || reviewStatus(reviewed) !== 'accepted') continue;
+    const assetUrl = reviewed.asset_url || reviewed.preview_url;
+    const sourceUrl = reviewed.canonical_source_url || reviewed.source;
+    if (!assetUrl || !sourceUrl) continue;
+    deduped.set(assetId, { ...reviewed, asset_url: assetUrl, canonical_source_url: sourceUrl, _collection: selection.collection || 'unit-accepted', media_slot_id: slot });
+  }
   const selected = [...deduped.values()]
     .filter((asset) => !selection.collection || selection.collection === 'unit-accepted' || asset._collection === selection.collection)
+    .filter((asset) => !Object.entries(selection.media_overrides || {}).some(([slot, assetId]) => slot === asset.media_slot_id && assetId !== asset.asset_id))
     .sort((a, b) => selectionScore(b) - selectionScore(a) || String(a.asset_id).localeCompare(String(b.asset_id)));
   const assets = selected.map((asset, index) => {
     const existing = (content.assets || []).find((candidate) => candidate.canonical_source_url === asset.canonical_source_url);
     // Reassign the reviewed collection in rank order to distinct slideshow slots.
     // Upstream slot IDs can be stale or duplicated across older deck versions.
-    return publicAsset(asset, slots[index] || existing?.media_slot_id || asset.media_slot_id || `${unit}.still.profield-${index + 1}`, existing);
+    const overrideSlot = Object.entries(selection.media_overrides || {}).find(([, assetId]) => assetId === asset.asset_id)?.[0];
+    return publicAsset(asset, overrideSlot || slots[index] || existing?.media_slot_id || asset.media_slot_id || `${unit}.still.profield-${index + 1}`, existing);
   });
   const frontMatter = '---\nlayout: null\n---\n';
   const output = `${frontMatter}${JSON.stringify({ ...content, assets }, null, 2)}\n`;

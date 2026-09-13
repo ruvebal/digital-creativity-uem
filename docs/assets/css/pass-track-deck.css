@@ -204,6 +204,7 @@ body {
 /* Reading mode: the image bleeds behind the card. */
 .student-media-deck .slide-background-content {
 	background-repeat: no-repeat;
+	background-color: rgb(var(--background));
 	transition: background-size 280ms ease, background-position 280ms ease;
 }
 

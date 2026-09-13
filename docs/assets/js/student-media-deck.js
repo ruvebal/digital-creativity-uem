@@ -1,6 +1,26 @@
 (() => {
   const body = document.body;
   const slidesRoot = document.getElementById('slides');
+  const base = '/digital-creativity-uem';
+  const loadingBackground = `${base}/assets/images/media/fractal-loading.svg`;
+  const defaultBackgrounds = [
+    {
+      url: `${base}/assets/images/media/organic-pixel-drift.svg`,
+      title: 'Organic pixel drift',
+      credit_line: 'Course-generated visual · visual-forger',
+      licence: 'Original studio SVG · educational use',
+      resource_uuid: '7e3c9a4e-4d6b-4c38-9b2d-0f5e8a6c1d72',
+      forger_version: 'visual-forger 1.2.0',
+    },
+    {
+      url: `${base}/assets/images/media/pixel-grid-mutation.svg`,
+      title: 'Pixel grid mutation',
+      credit_line: 'Course-generated visual · visual-forger',
+      licence: 'Original studio SVG · educational use',
+      resource_uuid: 'b6a1f2d8-8c47-4f3e-a9c1-2d7e5b904613',
+      forger_version: 'visual-forger 1.2.0',
+    },
+  ];
   const captionRoot = document.createElement('aside');
   captionRoot.className = 'student-media-caption';
   captionRoot.setAttribute('aria-live', 'polite');
@@ -20,7 +40,9 @@
   const caption = (asset) => asset ? `
     <strong>${escapeHtml(asset.title || asset.alt_text || 'Untitled image')}</strong><br>
     <span>${escapeHtml(asset.credit_line || asset.provider || '')}</span><br>
-    <a href="${escapeHtml(asset.canonical_source_url || '')}" target="_blank" rel="noopener">View source record</a>${asset.licence ? `<br><span>${escapeHtml(asset.licence)}</span>` : ''}` : '';
+    ${asset.canonical_source_url ? `<a href="${escapeHtml(asset.canonical_source_url)}" target="_blank" rel="noopener">View source record</a>` : '<span>Studio-generated background</span>'}${asset.licence ? `<br><span>${escapeHtml(asset.licence)}</span>` : ''}${asset.resource_uuid ? `<br><span>Resource UUID: ${escapeHtml(asset.resource_uuid)}</span>` : ''}${asset.forger_version ? `<br><span>Forger: ${escapeHtml(asset.forger_version)}</span>` : ''}` : '';
+
+  slidesRoot.innerHTML = `<section data-background-image="${loadingBackground}" data-background-size="cover"><div class="student-media-slide"><h1>Loading reviewed media</h1></div></section>`;
 
   const loadDeck = () => fetch(`${body.dataset.contentUrl}?v=${Date.now()}`)
     .then(async (response) => {
@@ -29,18 +51,20 @@
     })
     .then((data) => {
       const assets = new Map(data.assets.map((asset) => [asset.media_slot_id, asset]));
-      slidesRoot.innerHTML = data.slides.map((slide) => {
-        const asset = assets.get(slide.media_slot_id);
-        const image = asset?.asset_url ? ` data-background-image="${escapeHtml(asset.asset_url)}" data-background-size="cover" data-background-position="center"` : '';
-        const alt = asset ? `<p class="sr-only">${escapeHtml(asset.alt_text)}</p>` : '';
-        return `<section${image} data-caption="${escapeHtml(caption(asset))}">
+      slidesRoot.innerHTML = data.slides.map((slide, slideIndex) => {
+        const directAsset = assets.get(slide.media_slot_id);
+        const asset = directAsset || null;
+        const fallback = defaultBackgrounds[slideIndex % defaultBackgrounds.length];
+        const captionAsset = asset || fallback;
+        const imageUrl = asset?.asset_url || fallback.url;
+        const image = ` data-background-image="${escapeHtml(imageUrl)}" data-background-size="cover" data-background-position="center"`;
+        return `<section${image} data-caption="${escapeHtml(caption(captionAsset))}">
           <div class="student-media-slide">
             <p class="student-media-slide__unit">${escapeHtml(data.unit_label)}</p>
             <h1>${escapeHtml(slide.heading)}</h1>
             <p>${escapeHtml(slide.sentence)}</p>
             ${slide.citation ? `<p class="student-media-slide__citation"><a href="${escapeHtml(slide.citation.href)}">${escapeHtml(slide.citation.label)}</a></p>` : ''}
             ${slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : ''}
-            ${alt}
           </div>
         </section>`;
       }).join('');
@@ -65,7 +89,7 @@
       });
     })
     .catch((error) => {
-      slidesRoot.innerHTML = `<section><h1>Slides unavailable</h1><p>${escapeHtml(error.message)}</p></section>`;
+      slidesRoot.innerHTML = `<section data-background-image="${loadingBackground}" data-background-size="cover"><div class="student-media-slide"><h1>Slides unavailable</h1><p>${escapeHtml(error.message)}</p></div></section>`;
     });
 
   loadDeck();

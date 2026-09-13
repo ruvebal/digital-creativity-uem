@@ -98,12 +98,12 @@ Before students collect reference images, audit who appears as the “normal” 
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--accepted" data-media-slot="I.1.still.editorial-vs-commercial" markdown="0">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Camp_-_Notes_on_Fashion_at_the_Met_-_Burberry_rainbow_cape_%2873854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original" width="1600" height="560" alt="Photograph from the Met exhibition Camp: Notes on Fashion, showing a Burberry rainbow cape." loading="lazy" />
+<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.1.still.editorial-vs-commercial" markdown="0">
+<div class="lesson-media__text-fallback" role="img" aria-label="Still-image comparison placeholder: editorial, commercial, and ambiguous fashion-image regimes"><strong>Still-image comparison:</strong> editorial → commercial → ambiguous</div>
 <figcaption>
 <p><strong>Why this is here:</strong> Side-by-side stills let students argue editorial vs commercial intent using compositional evidence.</p>
 <p><strong>What to notice:</strong> Negative space, gaze, branding visibility, and implied audience.</p>
-<p class="media-note"><a href="https://commons.wikimedia.org/wiki/File:Camp_-_Notes_on_Fashion_at_the_Met_-_Burberry_rainbow_cape_(73854).jpg">Rhododendrites — Camp: Notes on Fashion at the Met — Burberry rainbow cape</a> · CC BY-SA 4.0</p>
+<p class="media-note">Placeholder visual — licensed stills pending review.</p>
 </figcaption>
 </figure>
 

@@ -70,6 +70,17 @@ composition; semantics=process demonstration|exemplar|counterexample|object;
 licences=CC0|CC BY|CC BY-SA|public domain; require=object metadata, captions,
 and crop permission.`
 
+## Canonical provenance record
+
+The following complete records mirror the canonical English lesson and govern this instructor prompt. Unresolved records remain explicitly bounded; they are not promoted as validated pedagogy.
+
+```text
+PROVENANCE_LINE: claim=I.9.claim.synthesis-convergence; status=NONE; discovery={service=forge; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="bodegon synthesis I.1 I.4 convergence"; source_locator=lesson design cross-unit; similarity=null; proposed_use="craft synthesis claim"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="declared synthesis across prior units"; does_not_support="validated bodegon pedagogy"
+PROVENANCE_LINE: claim=I.9.gap.still-life-pedagogy; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="bodegon composition teaching sequence validated"; source_locator=i-9-digital-still-life.md § Grounding note; similarity=null; proposed_use="honest gap"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="validated still-life teaching method"
+PROVENANCE_LINE: claim=I.9.critical.visibility-labour; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="visibility labour fashion Instagram Abidin"; source_locator=C1-fashion-digital-world.pass1.resultant.mdc L179; similarity=null; proposed_use="attention economy critical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Abidin 2016 not in scholar vault; quote=none; public_citation="(Abidin 2016)"; supports="attention and visibility labour in fashion imagery"; does_not_support="compositional rules prescription"
+PROVENANCE_LINE: claim=I.9.critical.object-history; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="still life object history material consequence"; source_locator=i-9-digital-still-life.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming hidden labour behind still life"; does_not_support="empirical claim about cohort"
+PROVENANCE_LINE: claim=I.9.artefact.no-exhibition; status=NONE; discovery={service=grounding; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="I.9 S1 exhibition conditional"; source_locator=grounding/README.md matrix I.9; similarity=null; proposed_use="S1/S2 scope"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="no exhibition claim this forge"; does_not_support="mandatory vShowroom submission"
+```
 ## Follow-up
 
 Archive source captures or original-object notes, editable composition, crops,
