@@ -1,0 +1,234 @@
+subfield_slug: fashion_communication
+field_slug: fashion
+title: Fashion Communication
+description: Brand identity, editorial and press practice, styling, events, and digital/social communication.
+concepts:
+- slug: brandIdentity
+  pref_label: Brand Identity
+  definition: The consistent set of visual, verbal, and experiential signals — logo, typography, color,
+    tone — through which a fashion brand is recognized.
+  narrower:
+  - brandVoice
+  - visualIdentity
+  related:
+  - brandNarrative
+- slug: brandVoice
+  pref_label: Brand Voice
+  definition: The characteristic style, vocabulary, and attitude a brand uses in written and spoken communication
+    across all channels.
+  alt_labels:
+  - tone of voice
+  broader:
+  - brandIdentity
+  related:
+  - brandNarrative
+- slug: visualIdentity
+  pref_label: Visual Identity
+  definition: The codified visual system — logo, color palette, typography, photography style — applied
+    consistently across a brand's touchpoints.
+  broader:
+  - brandIdentity
+  related:
+  - artDirection
+- slug: brandNarrative
+  pref_label: Brand Narrative
+  definition: The overarching story a brand tells about its origin, values, and purpose, used to give
+    coherence to campaigns and product launches.
+  alt_labels:
+  - brand story
+  related:
+  - brandIdentity
+  - brandVoice
+- slug: artDirection
+  pref_label: Art Direction
+  definition: The creative oversight of a campaign, shoot, or show's visual execution — casting, set,
+    lighting, composition — to realize a defined concept.
+  related:
+  - campaign
+  - visualIdentity
+- slug: campaign
+  pref_label: Campaign
+  definition: A coordinated set of images, film, and messaging produced to promote a collection or brand
+    moment across paid and owned media.
+  alt_labels:
+  - ad campaign
+  related:
+  - artDirection
+  - lookbook
+  crm_mapping: crm:E7_Activity (the production process); outputs are crm:E31_Document / crm:E38_Image
+- slug: lookbook
+  pref_label: Lookbook
+  definition: A curated set of photographs presenting a collection's key looks, used by press, buyers,
+    and consumers to preview a season.
+  related:
+  - campaign
+  - fashion_design.collection
+  crm_mapping: crm:E31_Document
+- slug: editorial
+  pref_label: Editorial
+  definition: A styled photographic feature published in a magazine or online platform, built around a
+    concept rather than direct product promotion.
+  alt_labels:
+  - fashion editorial
+  - fashion story
+  related:
+  - styling
+  - artDirection
+  crm_mapping: crm:E31_Document
+- slug: styling
+  pref_label: Styling
+  definition: Selecting and combining garments, accessories, and props to create a specific look for a
+    shoot, show, or personal client.
+  narrower:
+  - personalStyling
+  related:
+  - editorial
+- slug: personalStyling
+  pref_label: Personal Styling
+  definition: One-to-one styling services provided to an individual client for their wardrobe or a specific
+    occasion, as distinct from editorial or show styling.
+  broader:
+  - styling
+- slug: runwayShow
+  pref_label: Runway Show
+  definition: A live presentation in which models walk a defined path wearing a collection's looks in
+    sequence, for press, buyers, and increasingly livestream audiences.
+  alt_labels:
+  - fashion show
+  - catwalk show
+  related:
+  - presentation
+  - fashionWeek
+  crm_mapping: crm:E7_Activity
+- slug: presentation
+  pref_label: Presentation
+  definition: A collection preview format in which looks are shown on stationary models or mannequins
+    for guests to view at their own pace, as an alternative to a runway show.
+  alt_labels:
+  - static presentation
+  related:
+  - runwayShow
+  crm_mapping: crm:E7_Activity
+- slug: fashionWeek
+  pref_label: Fashion Week
+  definition: A scheduled series of runway shows and presentations held in a given city, at which brands
+    unveil upcoming seasonal collections to press and buyers.
+  narrower:
+  - runwayShow
+  crm_mapping: crm:E5_Event
+- slug: pressKit
+  pref_label: Press Kit
+  definition: A packaged set of materials — images, product details, brand background — distributed to
+    journalists to support coverage of a launch or collection.
+  alt_labels:
+  - media kit
+  related:
+  - pressRelease
+  crm_mapping: crm:E31_Document
+- slug: pressRelease
+  pref_label: Press Release
+  definition: A formal written announcement distributed to media to communicate news — a launch, partnership,
+    or appointment — in a brand's official framing.
+  related:
+  - pressKit
+  crm_mapping: crm:E31_Document
+- slug: seeding
+  pref_label: Seeding
+  definition: Sending product to press, stylists, or influencers without charge in the hope of earning
+    organic coverage or wear.
+  alt_labels:
+  - gifting
+  - PR seeding
+  related:
+  - influencerMarketing
+- slug: influencerMarketing
+  pref_label: Influencer Marketing
+  definition: Paid or gifted partnerships with individuals who have an established audience, used to promote
+    product or brand messaging through their own channels.
+  related:
+  - seeding
+  - brandAmbassador
+- slug: brandAmbassador
+  pref_label: Brand Ambassador
+  definition: An individual, often a public figure, contracted to represent a brand publicly and consistently
+    over an extended period, beyond a single campaign.
+  related:
+  - influencerMarketing
+  - campaign
+- slug: frontRow
+  pref_label: Front Row
+  definition: The seating position closest to the runway at a fashion show, reserved for top editors,
+    buyers, celebrities, and VIP guests as a visible signal of status and access.
+  related:
+  - runwayShow
+- slug: visualMerchandising
+  pref_label: Visual Merchandising
+  definition: The design of in-store and window displays to present product attractively and guide customer
+    movement and purchase decisions.
+  alt_labels:
+  - VM
+  related:
+  - fashion_business.merchandising
+  - windowDisplay
+- slug: windowDisplay
+  pref_label: Window Display
+  definition: A curated arrangement of product and props in a store's street-facing window, used as a
+    brand's most public communication surface.
+  related:
+  - visualMerchandising
+- slug: fashionFilm
+  pref_label: Fashion Film
+  definition: A short film produced to communicate a brand's aesthetic and narrative, distinct from a
+    straightforward product advertisement.
+  related:
+  - campaign
+  - artDirection
+  crm_mapping: crm:E31_Document
+- slug: socialCommerce
+  pref_label: Social Commerce
+  definition: The integration of purchasing directly into social media platforms, collapsing discovery
+    and checkout into a single interaction.
+  related:
+  - influencerMarketing
+  - fashion_business.ecommerce
+- slug: userGeneratedContent
+  pref_label: User-Generated Content
+  definition: Photos, videos, or reviews created by consumers rather than the brand, often reshared as
+    a lower-cost, higher-trust form of social proof.
+  alt_labels:
+  - UGC
+  related:
+  - socialCommerce
+- slug: brandCollaboration
+  pref_label: Brand Collaboration
+  definition: A limited joint project between two brands, or a brand and an individual creative, that
+    combines both names' identities into a distinct co-branded release.
+  alt_labels:
+  - collab
+  related:
+  - fashion_design.capsuleCollection
+  - campaign
+- slug: sizeInclusivity
+  pref_label: Size Inclusivity
+  definition: A brand communication and design commitment to offering and representing an extended range
+    of body sizes across product and campaign imagery.
+  related:
+  - brandNarrative
+- slug: heritage
+  pref_label: Heritage
+  definition: A brand's use of its own history, archive, and founding narrative as a communication asset
+    to establish authenticity and longevity.
+  alt_labels:
+  - brand heritage
+  related:
+  - brandNarrative
+  - archive
+- slug: archive
+  pref_label: Archive
+  definition: A brand's or institution's preserved collection of historical garments, sketches, and documents,
+    maintained for reference, exhibition, and heritage communication.
+  alt_labels:
+  - fashion archive
+  related:
+  - heritage
+  crm_mapping: crm:E78_Curated_Holding (a collection curated and maintained as a unit)

@@ -1,0 +1,265 @@
+subfield_slug: fashion_business
+field_slug: fashion
+title: Fashion Business
+description: Sourcing, production economics, retail operations, distribution models, and sustainability
+  governance.
+concepts:
+- slug: sourcing
+  pref_label: Sourcing
+  definition: The process of identifying, vetting, and contracting suppliers of fabric, trims, and manufacturing
+    capacity for production.
+  related:
+  - fashion_design.billOfMaterials
+  - supplyChain
+  crm_mapping: crm:E7_Activity
+- slug: supplyChain
+  pref_label: Supply Chain
+  definition: The full sequence of entities and processes — raw material, manufacture, logistics, retail
+    — through which a garment moves from fiber to consumer.
+  narrower:
+  - sourcing
+  - verticalIntegration
+  related:
+  - traceability
+- slug: traceability
+  pref_label: Traceability
+  definition: The ability to track a garment's materials and production steps back through the supply
+    chain, typically for compliance, sustainability, or authenticity claims.
+  alt_labels:
+  - chain of custody
+  related:
+  - supplyChain
+  - certification
+- slug: verticalIntegration
+  pref_label: Vertical Integration
+  definition: A business model in which one company controls multiple stages of the supply chain — e.g.
+    manufacturing and retail — rather than outsourcing them.
+  broader:
+  - supplyChain
+  related:
+  - fastFashion
+- slug: privateLabel
+  pref_label: Private Label
+  definition: Merchandise manufactured by a third party but sold under a retailer's own brand name rather
+    than the manufacturer's.
+  alt_labels:
+  - own brand
+  - store brand
+  related:
+  - licensing
+- slug: licensing
+  pref_label: Licensing
+  definition: An agreement allowing a manufacturer to produce and sell goods under a designer's or brand's
+    name in exchange for royalties, common in fragrance, eyewear, and accessories.
+  alt_labels:
+  - brand licensing
+  related:
+  - privateLabel
+  - brandExtension
+  crm_mapping: crm:E7_Activity (a legal/contractual activity)
+- slug: wholesale
+  pref_label: Wholesale
+  definition: Selling goods in bulk to retailers at a discounted per-unit price, for onward resale to
+    consumers, as distinct from direct-to-consumer selling.
+  related:
+  - directToConsumer
+  - markup
+- slug: directToConsumer
+  pref_label: Direct-to-Consumer
+  definition: A distribution model in which a brand sells directly to end customers, bypassing wholesale
+    intermediaries, typically via owned e-commerce or retail.
+  alt_labels:
+  - DTC
+  - D2C
+  related:
+  - wholesale
+  - ecommerce
+- slug: buying
+  pref_label: Buying
+  definition: The retail function of selecting and ordering product from suppliers for a store or platform,
+    balancing trend, margin, and forecasted demand.
+  alt_labels:
+  - merchandise buying
+  narrower:
+  - openToBuy
+  related:
+  - merchandising
+- slug: openToBuy
+  pref_label: Open-to-Buy
+  definition: A budgeting tool that sets the dollar amount a buyer has available to purchase new inventory
+    within a given period, based on planned sales, stock, and markdowns.
+  alt_labels:
+  - OTB
+  broader:
+  - buying
+- slug: merchandising
+  pref_label: Merchandising
+  definition: The planning and management of product assortment, pricing, and presentation to maximize
+    sales across a retail season.
+  narrower:
+  - fashion_communication.visualMerchandising
+  related:
+  - buying
+  - assortmentPlanning
+- slug: assortmentPlanning
+  pref_label: Assortment Planning
+  definition: Determining the mix, depth, and breadth of styles, sizes, and colors a retailer will carry
+    for a given season or store.
+  broader:
+  - merchandising
+  related:
+  - buying
+- slug: markup
+  pref_label: Markup
+  definition: The amount added to a garment's cost price to set its retail price, usually expressed as
+    a percentage or multiplier (e.g. "2.5x cost").
+  related:
+  - margin
+  - markdown
+- slug: margin
+  pref_label: Margin
+  definition: The difference between selling price and cost, expressed as a percentage of the selling
+    price; the core profitability metric in fashion retail.
+  alt_labels:
+  - gross margin
+  related:
+  - markup
+  - markdown
+- slug: markdown
+  pref_label: Markdown
+  definition: A reduction in a product's retail price, applied to move slow-selling stock and recover
+    cash flow before a season closes.
+  related:
+  - sellThrough
+  - margin
+- slug: sellThrough
+  pref_label: Sell-Through
+  definition: The percentage of received inventory sold within a given period, a key indicator of how
+    well a style or collection is performing.
+  alt_labels:
+  - sell-through rate
+  related:
+  - markdown
+  - openToBuy
+- slug: minimumOrderQuantity
+  pref_label: Minimum Order Quantity
+  definition: The smallest quantity of a style a manufacturer will agree to produce in a single order,
+    a key constraint for small and emerging brands.
+  alt_labels:
+  - MOQ
+  related:
+  - sourcing
+- slug: leadTime
+  pref_label: Lead Time
+  definition: The elapsed time between placing a production order and receiving finished goods, a critical
+    planning variable across sourcing and buying.
+  related:
+  - sourcing
+  - fastFashion
+- slug: fastFashion
+  pref_label: Fast Fashion
+  definition: A business model built on rapid design-to-shelf turnaround and frequent new-product drops,
+    prioritizing speed and trend responsiveness over durability.
+  related:
+  - leadTime
+  - slowFashion
+- slug: slowFashion
+  pref_label: Slow Fashion
+  definition: A production and consumption philosophy emphasizing durability, ethical labor, and reduced
+    volume, positioned as a counter-model to fast fashion.
+  related:
+  - fastFashion
+  - sustainability
+- slug: circularFashion
+  pref_label: Circular Fashion
+  definition: A model designed to keep garments and materials in use through resale, rental, repair, and
+    recycling, minimizing the flow of virgin material in and waste out.
+  alt_labels:
+  - circularity
+  narrower:
+  - resale
+  - rental
+  related:
+  - sustainability
+- slug: resale
+  pref_label: Resale
+  definition: The sale of previously owned garments through dedicated platforms or brand-run take-back
+    programs.
+  alt_labels:
+  - secondhand
+  - recommerce
+  broader:
+  - circularFashion
+  related:
+  - rental
+- slug: rental
+  pref_label: Rental
+  definition: A model in which consumers pay to borrow garments for a limited period rather than purchase
+    them outright.
+  alt_labels:
+  - fashion rental
+  - subscription rental
+  broader:
+  - circularFashion
+  related:
+  - resale
+- slug: sustainability
+  pref_label: Sustainability
+  definition: Practices intended to reduce the environmental and social impact of fashion production and
+    consumption across the product lifecycle.
+  related:
+  - slowFashion
+  - circularFashion
+  - certification
+- slug: certification
+  pref_label: Certification
+  definition: Third-party verification that a product, material, or facility meets defined environmental
+    or labor standards (e.g. GOTS, Fair Trade, Bluesign).
+  related:
+  - traceability
+  - sustainability
+  crm_mapping: crm:E31_Document (the certificate) issued via crm:E7_Activity
+- slug: franchise
+  pref_label: Franchise
+  definition: A contractual arrangement letting an independent operator run a store under a brand's name
+    and system in exchange for fees, common for market entry in new territories.
+  related:
+  - licensing
+- slug: showroom
+  pref_label: Showroom
+  definition: A space, physical or digital, where a brand presents its collection to wholesale buyers
+    and press for ordering and coverage decisions.
+  related:
+  - wholesale
+  - tradeShow
+  crm_mapping: crm:E53_Place (the space itself)
+- slug: tradeShow
+  pref_label: Trade Show
+  definition: A scheduled industry event where multiple brands present collections to buyers, press, and
+    other trade professionals under one roof.
+  alt_labels:
+  - trade fair
+  related:
+  - showroom
+  crm_mapping: crm:E5_Event
+- slug: brandExtension
+  pref_label: Brand Extension
+  definition: Launching a new product category (e.g. fragrance, homeware) under an existing brand name
+    to leverage its recognition into adjacent markets.
+  related:
+  - licensing
+- slug: ecommerce
+  pref_label: E-Commerce
+  definition: The sale of fashion goods through digital storefronts, encompassing owned websites, marketplaces,
+    and social commerce.
+  alt_labels:
+  - online retail
+  related:
+  - directToConsumer
+- slug: massMarket
+  pref_label: Mass Market
+  definition: The segment of the fashion industry producing high-volume, lower-priced goods for the broadest
+    possible consumer base.
+  related:
+  - fashion_design.pretAPorter
+  - fastFashion

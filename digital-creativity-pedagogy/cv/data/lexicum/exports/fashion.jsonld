@@ -1,0 +1,1298 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "dct": "http://purl.org/dc/terms/",
+    "fashion": "https://example.org/lexfield/fashion#",
+    "prefLabel": {
+      "@id": "skos:prefLabel",
+      "@language": "en"
+    },
+    "altLabel": {
+      "@id": "skos:altLabel",
+      "@language": "en"
+    },
+    "definition": {
+      "@id": "skos:definition",
+      "@language": "en"
+    },
+    "scopeNote": {
+      "@id": "skos:scopeNote",
+      "@language": "en"
+    },
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "broader": {
+      "@id": "skos:broader",
+      "@type": "@id"
+    },
+    "narrower": {
+      "@id": "skos:narrower",
+      "@type": "@id"
+    },
+    "related": {
+      "@id": "skos:related",
+      "@type": "@id"
+    },
+    "note": {
+      "@id": "skos:note",
+      "@language": "en"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "fashion:Field",
+      "@type": "skos:Collection",
+      "dct:title": {
+        "@value": "Fashion",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "fashion:fashion_business",
+      "@type": "skos:ConceptScheme",
+      "dct:title": {
+        "@value": "Fashion Business",
+        "@language": "en"
+      },
+      "dct:isPartOf": {
+        "@id": "fashion:Field"
+      }
+    },
+    {
+      "@id": "fashion:fashion_communication",
+      "@type": "skos:ConceptScheme",
+      "dct:title": {
+        "@value": "Fashion Communication",
+        "@language": "en"
+      },
+      "dct:isPartOf": {
+        "@id": "fashion:Field"
+      }
+    },
+    {
+      "@id": "fashion:fashion_design",
+      "@type": "skos:ConceptScheme",
+      "dct:title": {
+        "@value": "Fashion Design",
+        "@language": "en"
+      },
+      "dct:isPartOf": {
+        "@id": "fashion:Field"
+      }
+    },
+    {
+      "@id": "fashion:sourcing",
+      "@type": "skos:Concept",
+      "prefLabel": "Sourcing",
+      "definition": "The process of identifying, vetting, and contracting suppliers of fabric, trims, and manufacturing capacity for production.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:billOfMaterials",
+        "fashion:supplyChain"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity"
+    },
+    {
+      "@id": "fashion:supplyChain",
+      "@type": "skos:Concept",
+      "prefLabel": "Supply Chain",
+      "definition": "The full sequence of entities and processes — raw material, manufacture, logistics, retail — through which a garment moves from fiber to consumer.",
+      "inScheme": "fashion:fashion_business",
+      "narrower": [
+        "fashion:sourcing",
+        "fashion:verticalIntegration"
+      ],
+      "related": [
+        "fashion:traceability"
+      ]
+    },
+    {
+      "@id": "fashion:traceability",
+      "@type": "skos:Concept",
+      "prefLabel": "Traceability",
+      "definition": "The ability to track a garment's materials and production steps back through the supply chain, typically for compliance, sustainability, or authenticity claims.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "chain of custody"
+      ],
+      "related": [
+        "fashion:supplyChain",
+        "fashion:certification"
+      ]
+    },
+    {
+      "@id": "fashion:verticalIntegration",
+      "@type": "skos:Concept",
+      "prefLabel": "Vertical Integration",
+      "definition": "A business model in which one company controls multiple stages of the supply chain — e.g. manufacturing and retail — rather than outsourcing them.",
+      "inScheme": "fashion:fashion_business",
+      "broader": [
+        "fashion:supplyChain"
+      ],
+      "related": [
+        "fashion:fastFashion"
+      ]
+    },
+    {
+      "@id": "fashion:privateLabel",
+      "@type": "skos:Concept",
+      "prefLabel": "Private Label",
+      "definition": "Merchandise manufactured by a third party but sold under a retailer's own brand name rather than the manufacturer's.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "own brand",
+        "store brand"
+      ],
+      "related": [
+        "fashion:licensing"
+      ]
+    },
+    {
+      "@id": "fashion:licensing",
+      "@type": "skos:Concept",
+      "prefLabel": "Licensing",
+      "definition": "An agreement allowing a manufacturer to produce and sell goods under a designer's or brand's name in exchange for royalties, common in fragrance, eyewear, and accessories.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "brand licensing"
+      ],
+      "related": [
+        "fashion:privateLabel",
+        "fashion:brandExtension"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity (a legal/contractual activity)"
+    },
+    {
+      "@id": "fashion:wholesale",
+      "@type": "skos:Concept",
+      "prefLabel": "Wholesale",
+      "definition": "Selling goods in bulk to retailers at a discounted per-unit price, for onward resale to consumers, as distinct from direct-to-consumer selling.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:directToConsumer",
+        "fashion:markup"
+      ]
+    },
+    {
+      "@id": "fashion:directToConsumer",
+      "@type": "skos:Concept",
+      "prefLabel": "Direct-to-Consumer",
+      "definition": "A distribution model in which a brand sells directly to end customers, bypassing wholesale intermediaries, typically via owned e-commerce or retail.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "DTC",
+        "D2C"
+      ],
+      "related": [
+        "fashion:wholesale",
+        "fashion:ecommerce"
+      ]
+    },
+    {
+      "@id": "fashion:buying",
+      "@type": "skos:Concept",
+      "prefLabel": "Buying",
+      "definition": "The retail function of selecting and ordering product from suppliers for a store or platform, balancing trend, margin, and forecasted demand.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "merchandise buying"
+      ],
+      "narrower": [
+        "fashion:openToBuy"
+      ],
+      "related": [
+        "fashion:merchandising"
+      ]
+    },
+    {
+      "@id": "fashion:openToBuy",
+      "@type": "skos:Concept",
+      "prefLabel": "Open-to-Buy",
+      "definition": "A budgeting tool that sets the dollar amount a buyer has available to purchase new inventory within a given period, based on planned sales, stock, and markdowns.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "OTB"
+      ],
+      "broader": [
+        "fashion:buying"
+      ]
+    },
+    {
+      "@id": "fashion:merchandising",
+      "@type": "skos:Concept",
+      "prefLabel": "Merchandising",
+      "definition": "The planning and management of product assortment, pricing, and presentation to maximize sales across a retail season.",
+      "inScheme": "fashion:fashion_business",
+      "narrower": [
+        "fashion:visualMerchandising"
+      ],
+      "related": [
+        "fashion:buying",
+        "fashion:assortmentPlanning"
+      ]
+    },
+    {
+      "@id": "fashion:assortmentPlanning",
+      "@type": "skos:Concept",
+      "prefLabel": "Assortment Planning",
+      "definition": "Determining the mix, depth, and breadth of styles, sizes, and colors a retailer will carry for a given season or store.",
+      "inScheme": "fashion:fashion_business",
+      "broader": [
+        "fashion:merchandising"
+      ],
+      "related": [
+        "fashion:buying"
+      ]
+    },
+    {
+      "@id": "fashion:markup",
+      "@type": "skos:Concept",
+      "prefLabel": "Markup",
+      "definition": "The amount added to a garment's cost price to set its retail price, usually expressed as a percentage or multiplier (e.g. \"2.5x cost\").",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:margin",
+        "fashion:markdown"
+      ]
+    },
+    {
+      "@id": "fashion:margin",
+      "@type": "skos:Concept",
+      "prefLabel": "Margin",
+      "definition": "The difference between selling price and cost, expressed as a percentage of the selling price; the core profitability metric in fashion retail.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "gross margin"
+      ],
+      "related": [
+        "fashion:markup",
+        "fashion:markdown"
+      ]
+    },
+    {
+      "@id": "fashion:markdown",
+      "@type": "skos:Concept",
+      "prefLabel": "Markdown",
+      "definition": "A reduction in a product's retail price, applied to move slow-selling stock and recover cash flow before a season closes.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:sellThrough",
+        "fashion:margin"
+      ]
+    },
+    {
+      "@id": "fashion:sellThrough",
+      "@type": "skos:Concept",
+      "prefLabel": "Sell-Through",
+      "definition": "The percentage of received inventory sold within a given period, a key indicator of how well a style or collection is performing.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "sell-through rate"
+      ],
+      "related": [
+        "fashion:markdown",
+        "fashion:openToBuy"
+      ]
+    },
+    {
+      "@id": "fashion:minimumOrderQuantity",
+      "@type": "skos:Concept",
+      "prefLabel": "Minimum Order Quantity",
+      "definition": "The smallest quantity of a style a manufacturer will agree to produce in a single order, a key constraint for small and emerging brands.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "MOQ"
+      ],
+      "related": [
+        "fashion:sourcing"
+      ]
+    },
+    {
+      "@id": "fashion:leadTime",
+      "@type": "skos:Concept",
+      "prefLabel": "Lead Time",
+      "definition": "The elapsed time between placing a production order and receiving finished goods, a critical planning variable across sourcing and buying.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:sourcing",
+        "fashion:fastFashion"
+      ]
+    },
+    {
+      "@id": "fashion:fastFashion",
+      "@type": "skos:Concept",
+      "prefLabel": "Fast Fashion",
+      "definition": "A business model built on rapid design-to-shelf turnaround and frequent new-product drops, prioritizing speed and trend responsiveness over durability.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:leadTime",
+        "fashion:slowFashion"
+      ]
+    },
+    {
+      "@id": "fashion:slowFashion",
+      "@type": "skos:Concept",
+      "prefLabel": "Slow Fashion",
+      "definition": "A production and consumption philosophy emphasizing durability, ethical labor, and reduced volume, positioned as a counter-model to fast fashion.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:fastFashion",
+        "fashion:sustainability"
+      ]
+    },
+    {
+      "@id": "fashion:circularFashion",
+      "@type": "skos:Concept",
+      "prefLabel": "Circular Fashion",
+      "definition": "A model designed to keep garments and materials in use through resale, rental, repair, and recycling, minimizing the flow of virgin material in and waste out.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "circularity"
+      ],
+      "narrower": [
+        "fashion:resale",
+        "fashion:rental"
+      ],
+      "related": [
+        "fashion:sustainability"
+      ]
+    },
+    {
+      "@id": "fashion:resale",
+      "@type": "skos:Concept",
+      "prefLabel": "Resale",
+      "definition": "The sale of previously owned garments through dedicated platforms or brand-run take-back programs.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "secondhand",
+        "recommerce"
+      ],
+      "broader": [
+        "fashion:circularFashion"
+      ],
+      "related": [
+        "fashion:rental"
+      ]
+    },
+    {
+      "@id": "fashion:rental",
+      "@type": "skos:Concept",
+      "prefLabel": "Rental",
+      "definition": "A model in which consumers pay to borrow garments for a limited period rather than purchase them outright.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "fashion rental",
+        "subscription rental"
+      ],
+      "broader": [
+        "fashion:circularFashion"
+      ],
+      "related": [
+        "fashion:resale"
+      ]
+    },
+    {
+      "@id": "fashion:sustainability",
+      "@type": "skos:Concept",
+      "prefLabel": "Sustainability",
+      "definition": "Practices intended to reduce the environmental and social impact of fashion production and consumption across the product lifecycle.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:slowFashion",
+        "fashion:circularFashion",
+        "fashion:certification"
+      ]
+    },
+    {
+      "@id": "fashion:certification",
+      "@type": "skos:Concept",
+      "prefLabel": "Certification",
+      "definition": "Third-party verification that a product, material, or facility meets defined environmental or labor standards (e.g. GOTS, Fair Trade, Bluesign).",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:traceability",
+        "fashion:sustainability"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document (the certificate) issued via crm:E7_Activity"
+    },
+    {
+      "@id": "fashion:franchise",
+      "@type": "skos:Concept",
+      "prefLabel": "Franchise",
+      "definition": "A contractual arrangement letting an independent operator run a store under a brand's name and system in exchange for fees, common for market entry in new territories.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:licensing"
+      ]
+    },
+    {
+      "@id": "fashion:showroom",
+      "@type": "skos:Concept",
+      "prefLabel": "Showroom",
+      "definition": "A space, physical or digital, where a brand presents its collection to wholesale buyers and press for ordering and coverage decisions.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:wholesale",
+        "fashion:tradeShow"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E53_Place (the space itself)"
+    },
+    {
+      "@id": "fashion:tradeShow",
+      "@type": "skos:Concept",
+      "prefLabel": "Trade Show",
+      "definition": "A scheduled industry event where multiple brands present collections to buyers, press, and other trade professionals under one roof.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "trade fair"
+      ],
+      "related": [
+        "fashion:showroom"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E5_Event"
+    },
+    {
+      "@id": "fashion:brandExtension",
+      "@type": "skos:Concept",
+      "prefLabel": "Brand Extension",
+      "definition": "Launching a new product category (e.g. fragrance, homeware) under an existing brand name to leverage its recognition into adjacent markets.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:licensing"
+      ]
+    },
+    {
+      "@id": "fashion:ecommerce",
+      "@type": "skos:Concept",
+      "prefLabel": "E-Commerce",
+      "definition": "The sale of fashion goods through digital storefronts, encompassing owned websites, marketplaces, and social commerce.",
+      "inScheme": "fashion:fashion_business",
+      "altLabel": [
+        "online retail"
+      ],
+      "related": [
+        "fashion:directToConsumer"
+      ]
+    },
+    {
+      "@id": "fashion:massMarket",
+      "@type": "skos:Concept",
+      "prefLabel": "Mass Market",
+      "definition": "The segment of the fashion industry producing high-volume, lower-priced goods for the broadest possible consumer base.",
+      "inScheme": "fashion:fashion_business",
+      "related": [
+        "fashion:pretAPorter",
+        "fashion:fastFashion"
+      ]
+    },
+    {
+      "@id": "fashion:brandIdentity",
+      "@type": "skos:Concept",
+      "prefLabel": "Brand Identity",
+      "definition": "The consistent set of visual, verbal, and experiential signals — logo, typography, color, tone — through which a fashion brand is recognized.",
+      "inScheme": "fashion:fashion_communication",
+      "narrower": [
+        "fashion:brandVoice",
+        "fashion:visualIdentity"
+      ],
+      "related": [
+        "fashion:brandNarrative"
+      ]
+    },
+    {
+      "@id": "fashion:brandVoice",
+      "@type": "skos:Concept",
+      "prefLabel": "Brand Voice",
+      "definition": "The characteristic style, vocabulary, and attitude a brand uses in written and spoken communication across all channels.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "tone of voice"
+      ],
+      "broader": [
+        "fashion:brandIdentity"
+      ],
+      "related": [
+        "fashion:brandNarrative"
+      ]
+    },
+    {
+      "@id": "fashion:visualIdentity",
+      "@type": "skos:Concept",
+      "prefLabel": "Visual Identity",
+      "definition": "The codified visual system — logo, color palette, typography, photography style — applied consistently across a brand's touchpoints.",
+      "inScheme": "fashion:fashion_communication",
+      "broader": [
+        "fashion:brandIdentity"
+      ],
+      "related": [
+        "fashion:artDirection"
+      ]
+    },
+    {
+      "@id": "fashion:brandNarrative",
+      "@type": "skos:Concept",
+      "prefLabel": "Brand Narrative",
+      "definition": "The overarching story a brand tells about its origin, values, and purpose, used to give coherence to campaigns and product launches.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "brand story"
+      ],
+      "related": [
+        "fashion:brandIdentity",
+        "fashion:brandVoice"
+      ]
+    },
+    {
+      "@id": "fashion:artDirection",
+      "@type": "skos:Concept",
+      "prefLabel": "Art Direction",
+      "definition": "The creative oversight of a campaign, shoot, or show's visual execution — casting, set, lighting, composition — to realize a defined concept.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:campaign",
+        "fashion:visualIdentity"
+      ]
+    },
+    {
+      "@id": "fashion:campaign",
+      "@type": "skos:Concept",
+      "prefLabel": "Campaign",
+      "definition": "A coordinated set of images, film, and messaging produced to promote a collection or brand moment across paid and owned media.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "ad campaign"
+      ],
+      "related": [
+        "fashion:artDirection",
+        "fashion:lookbook"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity (the production process); outputs are crm:E31_Document / crm:E38_Image"
+    },
+    {
+      "@id": "fashion:lookbook",
+      "@type": "skos:Concept",
+      "prefLabel": "Lookbook",
+      "definition": "A curated set of photographs presenting a collection's key looks, used by press, buyers, and consumers to preview a season.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:campaign",
+        "fashion:collection"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:editorial",
+      "@type": "skos:Concept",
+      "prefLabel": "Editorial",
+      "definition": "A styled photographic feature published in a magazine or online platform, built around a concept rather than direct product promotion.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "fashion editorial",
+        "fashion story"
+      ],
+      "related": [
+        "fashion:styling",
+        "fashion:artDirection"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:styling",
+      "@type": "skos:Concept",
+      "prefLabel": "Styling",
+      "definition": "Selecting and combining garments, accessories, and props to create a specific look for a shoot, show, or personal client.",
+      "inScheme": "fashion:fashion_communication",
+      "narrower": [
+        "fashion:personalStyling"
+      ],
+      "related": [
+        "fashion:editorial"
+      ]
+    },
+    {
+      "@id": "fashion:personalStyling",
+      "@type": "skos:Concept",
+      "prefLabel": "Personal Styling",
+      "definition": "One-to-one styling services provided to an individual client for their wardrobe or a specific occasion, as distinct from editorial or show styling.",
+      "inScheme": "fashion:fashion_communication",
+      "broader": [
+        "fashion:styling"
+      ]
+    },
+    {
+      "@id": "fashion:runwayShow",
+      "@type": "skos:Concept",
+      "prefLabel": "Runway Show",
+      "definition": "A live presentation in which models walk a defined path wearing a collection's looks in sequence, for press, buyers, and increasingly livestream audiences.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "fashion show",
+        "catwalk show"
+      ],
+      "related": [
+        "fashion:presentation",
+        "fashion:fashionWeek"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity"
+    },
+    {
+      "@id": "fashion:presentation",
+      "@type": "skos:Concept",
+      "prefLabel": "Presentation",
+      "definition": "A collection preview format in which looks are shown on stationary models or mannequins for guests to view at their own pace, as an alternative to a runway show.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "static presentation"
+      ],
+      "related": [
+        "fashion:runwayShow"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity"
+    },
+    {
+      "@id": "fashion:fashionWeek",
+      "@type": "skos:Concept",
+      "prefLabel": "Fashion Week",
+      "definition": "A scheduled series of runway shows and presentations held in a given city, at which brands unveil upcoming seasonal collections to press and buyers.",
+      "inScheme": "fashion:fashion_communication",
+      "narrower": [
+        "fashion:runwayShow"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E5_Event"
+    },
+    {
+      "@id": "fashion:pressKit",
+      "@type": "skos:Concept",
+      "prefLabel": "Press Kit",
+      "definition": "A packaged set of materials — images, product details, brand background — distributed to journalists to support coverage of a launch or collection.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "media kit"
+      ],
+      "related": [
+        "fashion:pressRelease"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:pressRelease",
+      "@type": "skos:Concept",
+      "prefLabel": "Press Release",
+      "definition": "A formal written announcement distributed to media to communicate news — a launch, partnership, or appointment — in a brand's official framing.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:pressKit"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:seeding",
+      "@type": "skos:Concept",
+      "prefLabel": "Seeding",
+      "definition": "Sending product to press, stylists, or influencers without charge in the hope of earning organic coverage or wear.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "gifting",
+        "PR seeding"
+      ],
+      "related": [
+        "fashion:influencerMarketing"
+      ]
+    },
+    {
+      "@id": "fashion:influencerMarketing",
+      "@type": "skos:Concept",
+      "prefLabel": "Influencer Marketing",
+      "definition": "Paid or gifted partnerships with individuals who have an established audience, used to promote product or brand messaging through their own channels.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:seeding",
+        "fashion:brandAmbassador"
+      ]
+    },
+    {
+      "@id": "fashion:brandAmbassador",
+      "@type": "skos:Concept",
+      "prefLabel": "Brand Ambassador",
+      "definition": "An individual, often a public figure, contracted to represent a brand publicly and consistently over an extended period, beyond a single campaign.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:influencerMarketing",
+        "fashion:campaign"
+      ]
+    },
+    {
+      "@id": "fashion:frontRow",
+      "@type": "skos:Concept",
+      "prefLabel": "Front Row",
+      "definition": "The seating position closest to the runway at a fashion show, reserved for top editors, buyers, celebrities, and VIP guests as a visible signal of status and access.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:runwayShow"
+      ]
+    },
+    {
+      "@id": "fashion:visualMerchandising",
+      "@type": "skos:Concept",
+      "prefLabel": "Visual Merchandising",
+      "definition": "The design of in-store and window displays to present product attractively and guide customer movement and purchase decisions.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "VM"
+      ],
+      "related": [
+        "fashion:merchandising",
+        "fashion:windowDisplay"
+      ]
+    },
+    {
+      "@id": "fashion:windowDisplay",
+      "@type": "skos:Concept",
+      "prefLabel": "Window Display",
+      "definition": "A curated arrangement of product and props in a store's street-facing window, used as a brand's most public communication surface.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:visualMerchandising"
+      ]
+    },
+    {
+      "@id": "fashion:fashionFilm",
+      "@type": "skos:Concept",
+      "prefLabel": "Fashion Film",
+      "definition": "A short film produced to communicate a brand's aesthetic and narrative, distinct from a straightforward product advertisement.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:campaign",
+        "fashion:artDirection"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:socialCommerce",
+      "@type": "skos:Concept",
+      "prefLabel": "Social Commerce",
+      "definition": "The integration of purchasing directly into social media platforms, collapsing discovery and checkout into a single interaction.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:influencerMarketing",
+        "fashion:ecommerce"
+      ]
+    },
+    {
+      "@id": "fashion:userGeneratedContent",
+      "@type": "skos:Concept",
+      "prefLabel": "User-Generated Content",
+      "definition": "Photos, videos, or reviews created by consumers rather than the brand, often reshared as a lower-cost, higher-trust form of social proof.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "UGC"
+      ],
+      "related": [
+        "fashion:socialCommerce"
+      ]
+    },
+    {
+      "@id": "fashion:brandCollaboration",
+      "@type": "skos:Concept",
+      "prefLabel": "Brand Collaboration",
+      "definition": "A limited joint project between two brands, or a brand and an individual creative, that combines both names' identities into a distinct co-branded release.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "collab"
+      ],
+      "related": [
+        "fashion:capsuleCollection",
+        "fashion:campaign"
+      ]
+    },
+    {
+      "@id": "fashion:sizeInclusivity",
+      "@type": "skos:Concept",
+      "prefLabel": "Size Inclusivity",
+      "definition": "A brand communication and design commitment to offering and representing an extended range of body sizes across product and campaign imagery.",
+      "inScheme": "fashion:fashion_communication",
+      "related": [
+        "fashion:brandNarrative"
+      ]
+    },
+    {
+      "@id": "fashion:heritage",
+      "@type": "skos:Concept",
+      "prefLabel": "Heritage",
+      "definition": "A brand's use of its own history, archive, and founding narrative as a communication asset to establish authenticity and longevity.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "brand heritage"
+      ],
+      "related": [
+        "fashion:brandNarrative",
+        "fashion:archive"
+      ]
+    },
+    {
+      "@id": "fashion:archive",
+      "@type": "skos:Concept",
+      "prefLabel": "Archive",
+      "definition": "A brand's or institution's preserved collection of historical garments, sketches, and documents, maintained for reference, exhibition, and heritage communication.",
+      "inScheme": "fashion:fashion_communication",
+      "altLabel": [
+        "fashion archive"
+      ],
+      "related": [
+        "fashion:heritage"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E78_Curated_Holding (a collection curated and maintained as a unit)"
+    },
+    {
+      "@id": "fashion:silhouette",
+      "@type": "skos:Concept",
+      "prefLabel": "Silhouette",
+      "definition": "The overall outer contour of a garment or outfit, independent of surface detail, fabric, or color.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "shape",
+        "line"
+      ],
+      "narrower": [
+        "fashion:aLine",
+        "fashion:sheath",
+        "fashion:empireLine"
+      ],
+      "related": [
+        "fashion:draping",
+        "fashion:fit"
+      ],
+      "scopeNote": "A vocabulary term used across design and buying to communicate shape quickly (\"boxy silhouette,\" \"hourglass silhouette\") without reference to fabrication."
+    },
+    {
+      "@id": "fashion:aLine",
+      "@type": "skos:Concept",
+      "prefLabel": "A-Line",
+      "definition": "A silhouette that narrows at the shoulders and flares gradually toward the hem, tracing the shape of the letter A.",
+      "inScheme": "fashion:fashion_design",
+      "broader": [
+        "fashion:silhouette"
+      ]
+    },
+    {
+      "@id": "fashion:sheath",
+      "@type": "skos:Concept",
+      "prefLabel": "Sheath",
+      "definition": "A close-fitting silhouette that follows the body's natural line from shoulder to hem with minimal flare.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "column dress"
+      ],
+      "broader": [
+        "fashion:silhouette"
+      ]
+    },
+    {
+      "@id": "fashion:empireLine",
+      "@type": "skos:Concept",
+      "prefLabel": "Empire Line",
+      "definition": "A silhouette with the waistline raised to sit just below the bust, with fabric falling loosely from that seam to the hem.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "empire waist"
+      ],
+      "broader": [
+        "fashion:silhouette"
+      ]
+    },
+    {
+      "@id": "fashion:patternMaking",
+      "@type": "skos:Concept",
+      "prefLabel": "Pattern Making",
+      "definition": "The technical process of translating a design sketch or draped form into flat templates (\"pattern pieces\") used to cut fabric.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "patternmaking",
+        "flat pattern cutting"
+      ],
+      "narrower": [
+        "fashion:draping",
+        "fashion:grading"
+      ],
+      "related": [
+        "fashion:toile",
+        "fashion:sloper"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity (a type of crm:E65_Creation)"
+    },
+    {
+      "@id": "fashion:draping",
+      "@type": "skos:Concept",
+      "prefLabel": "Draping",
+      "definition": "Shaping fabric directly on a dress form or body to develop a pattern or silhouette by eye, rather than drafting flat.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "moulage"
+      ],
+      "broader": [
+        "fashion:patternMaking"
+      ],
+      "related": [
+        "fashion:toile",
+        "fashion:silhouette"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity"
+    },
+    {
+      "@id": "fashion:toile",
+      "@type": "skos:Concept",
+      "prefLabel": "Toile",
+      "definition": "A trial garment made in inexpensive fabric to test and refine a pattern before cutting the final material.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "muslin",
+        "fitting sample"
+      ],
+      "broader": [
+        "fashion:patternMaking"
+      ],
+      "related": [
+        "fashion:fitting"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E22_Human-Made_Object"
+    },
+    {
+      "@id": "fashion:sloper",
+      "@type": "skos:Concept",
+      "prefLabel": "Sloper",
+      "definition": "A basic, fitted pattern template without seam allowances or style lines, used as the foundation for developing new patterns.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "block",
+        "basic block"
+      ],
+      "broader": [
+        "fashion:patternMaking"
+      ],
+      "related": [
+        "fashion:grading"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E22_Human-Made_Object"
+    },
+    {
+      "@id": "fashion:grading",
+      "@type": "skos:Concept",
+      "prefLabel": "Grading",
+      "definition": "Proportionally scaling a finished pattern up or down to produce the full range of garment sizes.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "size grading"
+      ],
+      "broader": [
+        "fashion:patternMaking"
+      ],
+      "related": [
+        "fashion:sizeChart",
+        "fashion:fit"
+      ],
+      "scopeNote": "Distinct from \"fitting\" — grading is mathematical scaling, not on-body adjustment."
+    },
+    {
+      "@id": "fashion:fitting",
+      "@type": "skos:Concept",
+      "prefLabel": "Fitting",
+      "definition": "A session in which a garment sample is tried on a model or form to assess and correct fit, proportion, and ease.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "fit session"
+      ],
+      "related": [
+        "fashion:toile",
+        "fashion:fit"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E7_Activity"
+    },
+    {
+      "@id": "fashion:fit",
+      "@type": "skos:Concept",
+      "prefLabel": "Fit",
+      "definition": "How closely and comfortably a garment conforms to the body at key measurement points; a core quality attribute in both design and merchandising.",
+      "inScheme": "fashion:fashion_design",
+      "related": [
+        "fashion:grading",
+        "fashion:ease"
+      ],
+      "scopeNote": "In business use, \"fit issues\" are a leading cause of returns — see fashion_business.sellThrough."
+    },
+    {
+      "@id": "fashion:ease",
+      "@type": "skos:Concept",
+      "prefLabel": "Ease",
+      "definition": "The difference between body measurements and garment measurements, added for comfort (wearing ease) or stylistic volume (design ease).",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "wearing ease",
+        "design ease"
+      ],
+      "related": [
+        "fashion:fit",
+        "fashion:silhouette"
+      ]
+    },
+    {
+      "@id": "fashion:croquis",
+      "@type": "skos:Concept",
+      "prefLabel": "Croquis",
+      "definition": "A stylized, elongated figure template used as the base for sketching fashion designs quickly.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "fashion figure",
+        "fashion template"
+      ],
+      "related": [
+        "fashion:flatSketch"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E22_Human-Made_Object (as a drawing artifact)"
+    },
+    {
+      "@id": "fashion:flatSketch",
+      "@type": "skos:Concept",
+      "prefLabel": "Flat Sketch",
+      "definition": "A precise, proportionate line drawing of a garment shown without a body, used to communicate construction detail to a pattern maker or factory.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "technical flat",
+        "CAD flat",
+        "spec drawing"
+      ],
+      "related": [
+        "fashion:techPack",
+        "fashion:croquis"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:techPack",
+      "@type": "skos:Concept",
+      "prefLabel": "Tech Pack",
+      "definition": "The complete production document set for a garment — flats, measurements, materials, trims, and construction notes — sent to a manufacturer.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "technical package",
+        "spec sheet"
+      ],
+      "narrower": [
+        "fashion:flatSketch",
+        "fashion:billOfMaterials"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:billOfMaterials",
+      "@type": "skos:Concept",
+      "prefLabel": "Bill of Materials",
+      "definition": "An itemized list of every fabric, trim, and component required to construct a garment, with quantities and suppliers.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "BOM"
+      ],
+      "broader": [
+        "fashion:techPack"
+      ],
+      "related": [
+        "fashion:sourcing"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:fabrication",
+      "@type": "skos:Concept",
+      "prefLabel": "Fabrication",
+      "definition": "The specific fabric or material selected to execute a design, and the design decisions that follow from that choice (drape, hand, weight).",
+      "inScheme": "fashion:fashion_design",
+      "narrower": [
+        "fashion:textile"
+      ],
+      "related": [
+        "fashion:hand",
+        "fashion:drape"
+      ]
+    },
+    {
+      "@id": "fashion:textile",
+      "@type": "skos:Concept",
+      "prefLabel": "Textile",
+      "definition": "Any woven, knitted, or non-woven material produced from fibers, used as the raw substrate of a garment.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "fabric",
+        "cloth"
+      ],
+      "broader": [
+        "fashion:fabrication"
+      ],
+      "related": [
+        "fashion:hand"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E24_Physical_Human-Made_Thing"
+    },
+    {
+      "@id": "fashion:hand",
+      "@type": "skos:Concept",
+      "prefLabel": "Hand",
+      "definition": "The tactile quality of a fabric — how it feels to the touch (soft, crisp, slippery, dry) — used as a technical descriptor in fabric sourcing.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "handfeel"
+      ],
+      "related": [
+        "fashion:textile",
+        "fashion:drape"
+      ]
+    },
+    {
+      "@id": "fashion:drape",
+      "@type": "skos:Concept",
+      "prefLabel": "Drape",
+      "definition": "How a fabric falls and moves under its own weight when hung or worn, a key criterion in fabric-to-silhouette matching.",
+      "inScheme": "fashion:fashion_design",
+      "related": [
+        "fashion:hand",
+        "fashion:silhouette"
+      ]
+    },
+    {
+      "@id": "fashion:collection",
+      "@type": "skos:Concept",
+      "prefLabel": "Collection",
+      "definition": "A cohesive group of garments and accessories designed and produced together around a shared concept, palette, and season.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "line"
+      ],
+      "narrower": [
+        "fashion:capsuleCollection"
+      ],
+      "related": [
+        "fashion:trendForecast",
+        "fashion:lookbook"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E65_Creation (as the creative process) — the resulting garments are individually crm:E22_Human-Made_Object"
+    },
+    {
+      "@id": "fashion:capsuleCollection",
+      "@type": "skos:Concept",
+      "prefLabel": "Capsule Collection",
+      "definition": "A small, tightly edited collection of interchangeable pieces designed to mix and match, often released outside the main seasonal calendar.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "capsule"
+      ],
+      "broader": [
+        "fashion:collection"
+      ]
+    },
+    {
+      "@id": "fashion:trendForecast",
+      "@type": "skos:Concept",
+      "prefLabel": "Trend Forecast",
+      "definition": "A predictive report on upcoming color, fabric, silhouette, and cultural directions, produced ahead of a season to guide design and buying decisions.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "trend forecasting"
+      ],
+      "related": [
+        "fashion:collection",
+        "fashion:colorStory"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:colorStory",
+      "@type": "skos:Concept",
+      "prefLabel": "Color Story",
+      "definition": "The coordinated set of colors chosen to run across a collection or a single style, developed to reinforce a season's concept.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "colorway",
+        "palette"
+      ],
+      "related": [
+        "fashion:trendForecast"
+      ]
+    },
+    {
+      "@id": "fashion:hauteCouture",
+      "@type": "skos:Concept",
+      "prefLabel": "Haute Couture",
+      "definition": "Legally protected French term for custom-fitted, hand-made garments produced by houses officially recognized by the Fédération de la Haute Couture et de la Mode, meeting strict criteria on atelier size and made-to-order production.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "couture"
+      ],
+      "related": [
+        "fashion:pretAPorter",
+        "fashion:atelier"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E55_Type (a type of production, applied via crm:P2_has_type to the relevant crm:E12_Production)",
+      "scopeNote": "Frequently misused generically for \"expensive\" or \"high-end\"; the term has a defined legal meaning in France."
+    },
+    {
+      "@id": "fashion:pretAPorter",
+      "@type": "skos:Concept",
+      "prefLabel": "Prêt-à-Porter",
+      "definition": "Garments manufactured in standard sizes and produced in quantity for direct retail sale, as opposed to made-to-measure.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "ready-to-wear",
+        "RTW"
+      ],
+      "related": [
+        "fashion:hauteCouture",
+        "fashion:massMarket"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E55_Type"
+    },
+    {
+      "@id": "fashion:atelier",
+      "@type": "skos:Concept",
+      "prefLabel": "Atelier",
+      "definition": "The workshop where a design house's garments are constructed, historically distinguishing \"flou\" (soft dressmaking) from \"tailleur\" (tailoring) ateliers.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "workshop",
+        "studio"
+      ],
+      "related": [
+        "fashion:hauteCouture"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E53_Place (as the workshop location) — the working group itself is crm:E74_Group"
+    },
+    {
+      "@id": "fashion:sizeChart",
+      "@type": "skos:Concept",
+      "prefLabel": "Size Chart",
+      "definition": "A reference table of body and garment measurements for each size in a brand's range, used to standardize fit across production.",
+      "inScheme": "fashion:fashion_design",
+      "altLabel": [
+        "size specification",
+        "grading rules"
+      ],
+      "related": [
+        "fashion:grading"
+      ],
+      "note": "CIDOC-CRM mapping: crm:E31_Document"
+    },
+    {
+      "@id": "fashion:zeroWaste",
+      "@type": "skos:Concept",
+      "prefLabel": "Zero-Waste Design",
+      "definition": "A pattern-making approach that uses the entire width of fabric with no offcuts, integrating waste elimination into the cut itself rather than treating it as a post-production concern.",
+      "inScheme": "fashion:fashion_design",
+      "broader": [
+        "fashion:patternMaking"
+      ],
+      "related": [
+        "fashion:sustainability"
+      ]
+    }
+  ]
+}

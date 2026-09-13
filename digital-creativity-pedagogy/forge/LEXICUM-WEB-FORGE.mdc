@@ -1,0 +1,70 @@
+---
+description: Forge a public Fashion Lexicum web route from the curriculum-local SKOS snapshot
+globs: 'digital-creativity-pedagogy/forge/LEXICUM*,digital-creativity-pedagogy/cv/data/lexicum/**,docs/lexicum/**,docs/_data/lexicum.json,docs/_layouts/lexicum.html,docs/assets/css/lexicum.css,docs/assets/js/lexicum.js'
+alwaysApply: false
+---
+
+# LEXICUM WEB FORGE — Fashion controlled vocabulary (public route)
+
+Forge a student-facing **Fashion Lexicum** at `/lexicum/` for Creación Digital.
+The page is a readable SKOS concept catalogue (Design · Business · Communication),
+not a research ledger and not a lesson.
+
+## Authority chain
+
+```text
+lexfield fields/fashion YAML  (studio vocabulary engine)
+        ↓ clone (never live-mount)
+digital-creativity-pedagogy/cv/data/lexicum/   ← curriculum snapshot
+        ↓ compile
+docs/_data/lexicum.json                       ← Jekyll data
+        ↓ forge
+docs/lexicum/index.md + layout/css/js         ← public HTML
+```
+
+- **Curriculum-local snapshot** under `cv/data/lexicum/` is what the site publishes from.
+- Re-sync with `digital-creativity-pedagogy/forge/scripts/sync-fashion-lexicum.py`.
+- Do **not** name discontinued sibling tool repos on student HTML or in public
+  captions. Upstream engine name in pedagogy docs: **lexfield** (`~/src/fieldlex`).
+- Do **not** emit Ahmes / Athanor / DevIAC / local absolute paths in public HTML.
+
+## Output contract
+
+| Artefact | Path | Published? |
+| -------- | ---- | ---------- |
+| Forge contract | `forge/LEXICUM-WEB-FORGE.mdc` | No |
+| Execute brief | `forge/LEXICUM-WEB-FORGE.execute.md` | No |
+| Sync script | `forge/scripts/sync-fashion-lexicum.py` | No |
+| YAML + JSON snapshot | `cv/data/lexicum/` | No |
+| Jekyll data | `docs/_data/lexicum.json` | Data only |
+| Master page | `docs/lexicum/index.md` | **Yes** → `/lexicum/` |
+| Layout / CSS / JS | `docs/_layouts/lexicum.html`, `assets/css/lexicum.css`, `assets/js/lexicum.js` | Yes |
+| Receipt | `forge/receipts/LEXICUM-WEB.md` | No |
+
+## Public surface rules
+
+1. Show: field title, subfield schemes, concept `pref_label`, definition,
+   alt labels, broader / narrower / related (human labels, not raw paths).
+2. Provide client-side search + subfield filter; deep-linkable concept anchors.
+3. One composition: brand (Creación Digital nav) + page title **Fashion Lexicum**
+   as the route hero; one lede; then the catalogue. No dashboard card grid in the hero.
+4. Follow existing site tokens (`site.css`); lexicum CSS is additive.
+5. Standards line may mention SKOS / CIDOC-CRM; keep it one short sentence.
+6. Publication firewall: fail if rendered HTML contains `Ahmes`, `Athanor`,
+   `DevIAC`, `[BIBLIO-GAP]`, or absolute `/Users/` paths.
+
+## Agent harness
+
+1. Preflight: `cv/data/lexicum/MANIFEST.json` + `docs/_data/lexicum.json` exist and
+   concept counts match.
+2. Cold-review the forge contract before regenerating `docs/lexicum/index.md`.
+3. After forge: Jekyll build (or liquid dry-check); spot-check `/lexicum/` for
+   search, three schemes, and zero firewall leaks.
+4. Write `forge/receipts/LEXICUM-WEB.md` with counts, sync timestamp, review verdict.
+
+## Non-goals
+
+- Do not auto-translate every label to Spanish in v1 (EN labels are the vocabulary
+  spine; ES UI chrome is allowed).
+- Do not invent concepts; only publish cloned snapshot terms.
+- Do not turn the lexicum into a lesson with TTDO quotes or media slots.

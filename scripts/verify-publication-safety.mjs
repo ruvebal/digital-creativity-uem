@@ -26,6 +26,7 @@ const forbidden = [
 	[/\bvector (?:preview|snippet|search)\b/i, 'internal discovery trace'],
 	[/\b(?:coat|node|nodo)\s+`?[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}`?/i, 'internal node identifier'],
 	[/\bcoat\s+`?[0-9a-f]{8,}(?:_[0-9a-z]+)*`?/i, 'internal coat identifier'],
+	[/\bfashlex\b/i, 'discontinued sibling vocabulary name'],
 	[/\/Users\/ruvebal\/[^\s<'\"]+/i, 'local filesystem path'],
 	[/~\/src\//i, 'local studio path'],
 	[/\bdigital-creativity-pedagogy\//i, 'local curriculum-maintenance path'],

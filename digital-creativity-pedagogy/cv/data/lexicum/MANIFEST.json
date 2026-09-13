@@ -1,0 +1,23 @@
+{
+  "schema": "dc-lexicum-clone-manifest/v1",
+  "cloned_at": "2026-09-13T15:03:10Z",
+  "upstream": {
+    "tool": "lexfield",
+    "path": "/Users/ruvebal/src/fieldlex/fields/fashion",
+    "note": "Curriculum-local snapshot. Re-run this script to refresh."
+  },
+  "stats": {
+    "subfields": 3,
+    "concepts": 88
+  },
+  "destinations": {
+    "yaml_tree": "digital-creativity-pedagogy/cv/data/lexicum/fashion/",
+    "public_json": "digital-creativity-pedagogy/cv/data/lexicum/fashion.json",
+    "jekyll_data": "docs/_data/lexicum.json",
+    "skos_exports": "digital-creativity-pedagogy/cv/data/lexicum/exports/"
+  },
+  "publication": {
+    "route": "/lexicum/",
+    "student_surface": "pref_label, definition, alt_labels, relations"
+  }
+}
