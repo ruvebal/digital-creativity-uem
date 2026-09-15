@@ -1,0 +1,59 @@
+- id: factum-network
+  name: FACTUM conference network
+  kind: organization
+  status: established
+  summary: Dedicated international series Fashion Communication in the Digital Age — field-formation congress, not a single university’s property.
+  url: https://digitalfashion.ch/fashion-communication-conferences/
+  doi: null
+  location: international
+  years: 2019–
+  references: []
+  units: [I.1]
+
+- id: springer-factum
+  name: Springer · FACTUM proceedings
+  kind: organization
+  status: established
+  summary: FACTUM volumes appear in Springer Proceedings in Business and Economics — the proceedings channel for fashion-communication research.
+  url: https://link.springer.com/conference/factum
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: instituto-derecho-moda
+  name: Instituto del Derecho de la Moda (CABA)
+  kind: organization
+  status: practitioner
+  summary: Fashion-law research context in Buenos Aires — useful when authorship, image rights, and GenAI collide.
+  url: null
+  doi: null
+  location: Buenos Aires
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: felafacs
+  name: FELAFACS
+  kind: organization
+  status: established
+  summary: Pan–Latin American federation of communication schools — periodic congresses with fashion/branding panels.
+  url: https://felafacs.org/
+  doi: null
+  location: Latin America
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: ae-ic
+  name: AE-IC (Asociación Española de Investigación de la Comunicación)
+  kind: organization
+  status: established
+  summary: Spanish communication-research association; biennial congress with recurring fashion/branding tracks.
+  url: https://ae-ic.org/
+  doi: null
+  location: Spain
+  years: 2008–
+  references: []
+  units: [I.1]

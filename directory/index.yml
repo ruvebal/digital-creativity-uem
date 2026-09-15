@@ -1,0 +1,26 @@
+schema: dc-field-directory/v1
+title: Field directory — Digital Creativity
+source: digital-creativity-pedagogy/grounding/profield-authorities-directory.md
+updated: 2026-09-15
+categories:
+  - id: prizes
+    title: Prizes
+    route: /directory/en/#prizes
+  - id: awards
+    title: Awards and competitions
+    route: /directory/en/#awards
+  - id: studios
+    title: Studios and labs
+    route: /directory/en/#studios
+  - id: journals
+    title: Journals
+    route: /directory/en/#journals
+  - id: organizations
+    title: Organizations and networks
+    route: /directory/en/#organizations
+  - id: contests
+    title: Contests and conferences
+    route: /directory/en/#contests
+  - id: figures
+    title: Artists and figures
+    route: /directory/en/#figures

@@ -390,16 +390,41 @@ async function rehydrateDecks() {
       if (!existing || selectionScore(asset) > selectionScore(existing)) deduped.set(asset.asset_id, asset);
     }
 
-    for (const [slot, assetId] of Object.entries(selection.media_overrides || {})) {
-      const fromUnit = deduped.get(assetId) || (acceptedByUnit.get(unit) || []).find((a) => a.asset_id === assetId);
-      const enriched = fromUnit || enrich(assetId, { review_status: 'accepted' });
-      if (!enriched) continue;
-      const inPool = Boolean(fromUnit) || (acceptedByUnit.get(unit) || []).some((a) => a.asset_id === assetId);
+    const overrideEntries = Object.entries(selection.media_overrides || {});
+
+    /** Wikimedia asset ids may use spaces or underscores for the same file. */
+    const assetIdVariants = (id) => {
+      const raw = String(id || '');
+      const variants = new Set([raw]);
+      if (raw.startsWith('wikimedia:File:')) {
+        const name = raw.slice('wikimedia:File:'.length);
+        variants.add(`wikimedia:File:${name.replace(/_/g, ' ')}`);
+        variants.add(`wikimedia:File:${name.replace(/ /g, '_')}`);
+      }
+      return [...variants];
+    };
+
+    const idsMatch = (a, b) => {
+      const left = new Set(assetIdVariants(a));
+      return assetIdVariants(b).some((id) => left.has(id));
+    };
+
+    for (const [slot, assetId] of overrideEntries) {
+      const fromUnit = [...deduped.values()].find((a) => idsMatch(a.asset_id, assetId))
+        || (acceptedByUnit.get(unit) || []).find((a) => idsMatch(a.asset_id, assetId));
+      const resolvedId = fromUnit?.asset_id || assetIdVariants(assetId).find((id) => catalog.has(id)) || assetId;
+      const enriched = fromUnit || enrich(resolvedId, { review_status: 'accepted' });
+      if (!enriched) {
+        console.warn(`skip override ${slot}: cannot enrich ${assetId}`);
+        continue;
+      }
+      const inPool = Boolean(fromUnit)
+        || (acceptedByUnit.get(unit) || []).some((a) => idsMatch(a.asset_id, assetId));
       if (!inPool) {
         console.warn(`skip override ${slot}: ${assetId} not accepted/assigned to ${projectId}/${unit}`);
         continue;
       }
-      deduped.set(assetId, { ...enriched, media_slot_id: slot });
+      deduped.set(enriched.asset_id, { ...enriched, media_slot_id: slot, _cover_override: /cover/i.test(slot) });
     }
 
     let selected = [...deduped.values()];
@@ -426,7 +451,7 @@ async function rehydrateDecks() {
       const existing = (content.assets || []).find((candidate) =>
         candidate.asset_id === asset.asset_id
         || candidate.canonical_source_url === asset.canonical_source_url);
-      const overrideSlot = Object.entries(selection.media_overrides || {}).find(([, id]) => id === asset.asset_id)?.[0];
+      const overrideSlot = overrideEntries.find(([, id]) => idsMatch(id, asset.asset_id))?.[0];
       const remote = stripUtm(asset.asset_url || asset.preview_url || existing?.source_file_url || '');
       if (remote && /\.php($|\?)/i.test(remote) && !/images\.nypl\.org\/index\.php/i.test(remote)) {
         console.warn(`skip php url ${asset.asset_id}: ${remote}`);
@@ -444,14 +469,23 @@ async function rehydrateDecks() {
         continue;
       }
       const slot = overrideSlot || `${unit}.still.profield-${assets.length + 1}`;
-      assets.push(publicAsset(asset, slot, existing, urls));
+      const pub = publicAsset(asset, slot, existing, urls);
+      if (asset._cover_override || (overrideSlot && /cover/i.test(overrideSlot))) {
+        pub._cover_override = true;
+      }
+      assets.push(pub);
     }
 
     // Priority fill: cover → analysis_model → masterclass (unique).
     // Exercises (lab_exercise / workshop_work) always get image backgrounds —
     // unique surplus first, then recycle from the pool (never leave solid/none).
     // Geometrical / diagram / structural openers are never overwritten.
-    const rankedSlots = assets.map((a) => a.media_slot_id);
+    // Cover overrides (media_selection.media_overrides *cover*) always win unit_cover.
+    const coverOverrideSlots = assets.filter((a) => a._cover_override).map((a) => a.media_slot_id);
+    const rankedSlots = [
+      ...coverOverrideSlots,
+      ...assets.map((a) => a.media_slot_id).filter((slot) => !coverOverrideSlots.includes(slot)),
+    ];
     let rankCursor = 0;
     const structuralRoles = new Set(['analysis_opener', 'lab_opener', 'workshop_opener', 'outro']);
     const priorityRoles = ['unit_cover', 'analysis_model', 'masterclass'];
@@ -511,6 +545,9 @@ async function rehydrateDecks() {
       return slide;
     });
 
+    // Strip internal flags from published assets.
+    const publicAssets = assets.map(({ _cover_override: _drop, ...rest }) => rest);
+
     const next = {
       ...content,
       media_selection: {
@@ -522,7 +559,7 @@ async function rehydrateDecks() {
           || `Accepted/ranked Profield review-state assets for ${projectId}/${unit}.`,
         media_overrides: selection.media_overrides || {},
       },
-      assets,
+      assets: publicAssets,
       slides,
     };
 

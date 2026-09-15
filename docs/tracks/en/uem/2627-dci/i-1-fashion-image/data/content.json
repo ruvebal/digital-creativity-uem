@@ -9,14 +9,44 @@ layout: null
     "project_id": "dc",
     "collection": "unit-accepted",
     "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets assigned to dc/I.1; cover override = NASA astronaut EVA.",
+    "description": "Accepted/ranked Profield review-state assets for dc/I.1; cover override = Commons Astronaut Riding a Horse (SD3.5).",
     "media_overrides": {
-      "I.1.cover.astronaut": "wikimedia:File:Astronaut_Riding_a_Horse_(SD3.5).webp"
+      "I.1.cover.astronaut": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp"
     }
   },
   "assets": [
     {
-      "media_slot_id": "I.1.still.profield-1",
+      "media_slot_id": "I.1.cover.astronaut",
+      "asset_id": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/14efab1e027565fc.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp",
+      "alt_text": "Astronaut Riding a Horse (SD3.5).webp",
+      "title": "Astronaut Riding a Horse (SD3.5).webp",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 10,
+      "selection_rank": 10,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-2",
+      "asset_id": "wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/bf651ca6c925cff0.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lautrec_the_photographer_sescau_%28poster%29_1894.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Lautrec_the_photographer_sescau_(poster)_1894.jpg",
+      "alt_text": "Lautrec the photographer sescau (poster) 1894.jpg",
+      "title": "Lautrec the photographer sescau (poster) 1894.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-3",
       "asset_id": "internet_archive:fashion-designing-institute-in-noida",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/efb0747e171662c4.png",
       "source_file_url": "https://dn711300.ca.archive.org/0/items/fashion-designing-institute-in-noida/Fashion%20Designing%20Institute%20in%20Noida.png",
@@ -31,22 +61,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-2",
-      "asset_id": "nypl:08c74ef0-5530-0135-18ad-3fc83eb6687f",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/290eb35b25f7662d.jpg",
-      "source_file_url": "https://images.nypl.org/index.php?id=57332905&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/08c74ef0-5530-0135-18ad-3fc83eb6687f",
-      "alt_text": "Leonardo da Vinci",
-      "title": "Leonardo da Vinci",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 7,
-      "selection_rank": 7,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-3",
+      "media_slot_id": "I.1.still.profield-4",
       "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
@@ -61,7 +76,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-4",
+      "media_slot_id": "I.1.still.profield-5",
       "asset_id": "wikimedia:File:Fan SAAM-1935.8.20 1.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/ae43d3487632fd88.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fan_SAAM-1935.8.20_1.jpg",
@@ -76,7 +91,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-5",
+      "media_slot_id": "I.1.still.profield-6",
       "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/eb30c35e179aae54.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png",
@@ -91,7 +106,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-6",
+      "media_slot_id": "I.1.still.profield-7",
       "asset_id": "internet_archive:barbie-magazine-2003",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
       "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
@@ -106,7 +121,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-7",
+      "media_slot_id": "I.1.still.profield-8",
       "asset_id": "wikimedia:File:Alexander McQueen clamshell dress (51611p).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9840aaa8f2da66c.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg",
@@ -121,7 +136,7 @@ layout: null
       "collection": "designers"
     },
     {
-      "media_slot_id": "I.1.still.profield-8",
+      "media_slot_id": "I.1.still.profield-9",
       "asset_id": "wikimedia:File:Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/4ddb9d161b673b9f.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alexander_McQueen_Dress_at_The_Metropolitan_Museum_of_Art.jpg",
@@ -136,7 +151,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-9",
+      "media_slot_id": "I.1.still.profield-10",
       "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c8acd44e8f333198.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
@@ -151,7 +166,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-10",
+      "media_slot_id": "I.1.still.profield-11",
       "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/e16150afa0636624.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beauty_is_my_business%2C_says_Anne_Piron%2C_1950.jpg",
@@ -166,7 +181,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-11",
+      "media_slot_id": "I.1.still.profield-12",
       "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/66e54dae6e9921a1.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dirty_and_damaged_fashion_doll.jpg",
@@ -181,7 +196,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-12",
+      "media_slot_id": "I.1.still.profield-13",
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg",
@@ -196,7 +211,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-13",
+      "media_slot_id": "I.1.still.profield-14",
       "asset_id": "wikimedia:File:Giada Advertising Campaign SS11.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f1cd306acb57ec21.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Giada_Advertising_Campaign_SS11.jpg",
@@ -211,7 +226,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-14",
+      "media_slot_id": "I.1.still.profield-15",
       "asset_id": "wikimedia:File:Heavenly Bodies Fashion and the Catholic Imagination at The Metropolitan Museum of Art.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/cae87288b14d07e7.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Heavenly_Bodies_Fashion_and_the_Catholic_Imagination_at_The_Metropolitan_Museum_of_Art.jpg",
@@ -226,7 +241,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-15",
+      "media_slot_id": "I.1.still.profield-16",
       "asset_id": "wikimedia:File:The Future Face of Avattire.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/8eb44f02b715b814.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Future_Face_of_Avattire.jpg",
@@ -241,7 +256,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-16",
+      "media_slot_id": "I.1.still.profield-17",
       "asset_id": "wikimedia:File:Comme des Garcons at the Met 01.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/6e2b118fe4e72280.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Comme_des_Garcons_at_the_Met_01.jpg",
@@ -256,7 +271,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-17",
+      "media_slot_id": "I.1.still.profield-18",
       "asset_id": "wikimedia:File:Saisonen. Magazine for art, fashion and news.1916.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/4881175963f701da.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Saisonen._Magazine_for_art%2C_fashion_and_news.1916.jpg",
@@ -271,7 +286,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-18",
+      "media_slot_id": "I.1.still.profield-19",
       "asset_id": "wikimedia:File:The Ladies' home journal (1948) (14578727659).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/701b22b6d0745f87.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Ladies%27_home_journal_%281948%29_%2814578727659%29.jpg",
@@ -290,7 +305,7 @@ layout: null
     {
       "slide_role": "unit_cover",
       "background_kind": "profield",
-      "media_slot_id": "I.1.still.profield-1",
+      "media_slot_id": "I.1.cover.astronaut",
       "heading": "I.1 · Digital images",
       "sentence": "An image is a decision about where meaning lands — format comes later.",
       "prompt": "CONTENIDOS: Introducción a las imágenes digitales",
@@ -329,7 +344,6 @@ layout: null
     {
       "slide_role": "analysis_model",
       "background_kind": "profield",
-      "media_slot_id": "I.1.still.profield-2",
       "heading": "How to read a fashion image",
       "sentence": "Name the practice, the venue, the audience, then the path the picture travels.",
       "quote": "Affordances, signifiers, mappings, and constraints can simplify our encounters with everyday objects.",
@@ -354,7 +368,8 @@ layout: null
       "citation": {
         "label": "(Norman 2013)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-norman-2013"
-      }
+      },
+      "media_slot_id": "I.1.still.profield-2"
     },
     {
       "slide_role": "masterclass",
@@ -534,7 +549,7 @@ layout: null
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
-      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index — including a Directory field pin.",
       "portfolio_bound": true,
       "portfolio_trace": "Open or update the portfolio index before you leave."
     },
@@ -542,40 +557,10 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "profield",
       "media_slot_id": "I.1.still.profield-9",
-      "heading": "Exercise 1 · Label the practice",
-      "sentence": "Given an unlabelled fashion image, assign the most defensible practice label and justify it in two sentences.",
+      "heading": "Exercise 1 · Boundary by hand",
+      "sentence": "Same fashion photo, two jobs: write a gallery caption and a campaign caption by hand — then mark what evidence changed.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save label + two-sentence defence in the portfolio index.",
-      "quote": "Label the practice before you name the file — JPEG never answered a venue.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "practice-label",
-          "evidence"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of the Image)",
-        "href": "/digital-creativity-uem/tao/"
-      }
-    },
-    {
-      "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "I.1.still.profield-10",
-      "heading": "Exercise 2 · Boundary by hand",
-      "sentence": "For an ambiguous art/commerce placement, write one boundary sentence by hand. No tool. No AI.",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save the handwritten sentence + what evidence you used.",
+      "portfolio_trace": "Two handwritten captions + evidence circled.",
       "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -597,13 +582,14 @@ layout: null
       "citation": {
         "label": "(Kleon 2019)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-kleon-2019"
-      }
+      },
+      "prompt": "No tool. No AI. Portfolio: two captions + circled evidence (who paid / where shown / who looks)."
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "media_slot_id": "I.1.still.profield-11",
-      "heading": "Exercise 3 · The JPEG problem",
+      "media_slot_id": "I.1.still.profield-10",
+      "heading": "Exercise 2 · The JPEG problem",
       "sentence": "Explain why “it’s a JPEG” is not an answer to “what kind of fashion image is this?”",
       "portfolio_bound": true,
       "portfolio_trace": "Save one short paragraph using practice vs container.",
@@ -628,6 +614,38 @@ layout: null
         "label": "(Norman 2013)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-norman-2013"
       }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "heading": "Exercise 3 · Picture yourself in the field",
+      "sentence": "Open the Field Directory. Pick one prize, one studio/lab, and one figure — then write where you picture yourself among them.",
+      "prompt": "Portfolio: three Directory pins + two sentences on your position. Link: /directory/en/",
+      "portfolio_bound": true,
+      "portfolio_trace": "Three Directory pins + two-sentence field position.",
+      "quote": "A field is not a mood board — it is a map of who consecrates whom.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "field-directory",
+          "positioning",
+          "authorities"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.1.still.profield-11"
     },
     {
       "slide_role": "outro",

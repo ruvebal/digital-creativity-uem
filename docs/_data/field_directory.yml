@@ -1,0 +1,597 @@
+schema: dc-field-directory/v1
+title: Field directory — Digital Creativity
+updated: 2026-09-15T00:00:00.000Z
+categories:
+  prizes:
+    - id: lvmh-prize
+      name: LVMH Prize for Young Fashion Designers
+      kind: prize
+      status: established
+      summary: >-
+        Major industry prize for emerging designers (incl. Karl Lagerfeld and Savoir-Faire prizes).
+        Useful as a career-field landmark, not as a studio grading rubric.
+      url: https://www.lvmhprize.com/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: andam-prize
+      name: ANDAM Prize
+      kind: prize
+      status: established
+      summary: >-
+        Canonical French emerging-designer prize; past honorees include Margiela, Vaccarello, Van
+        Herpen — a map pin for “where designers become visible.”
+      url: https://andam.fr/
+      doi: null
+      location: France
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: woolmark-prize
+      name: International Woolmark Prize
+      kind: prize
+      status: established
+      summary: >-
+        Emerging-designer prize with material constraint (wool); another consecration path beside
+        LVMH/ANDAM.
+      url: https://www.woolmarkprize.com/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: global-change-award
+      name: Global Change Award (H&M Foundation)
+      kind: prize
+      status: practitioner
+      summary: >-
+        Sustainability/innovation award often cited in fashion-innovation discourse — industry
+        framing more than peer-reviewed pedagogy.
+      url: https://globalchangeaward.com/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+  awards:
+    - id: redress-design-award
+      name: Redress Design Award
+      kind: award
+      status: established
+      summary: >-
+        Leading circular/sustainable-design competition (Hong Kong NGO, founded 2007). A field pin
+        for ethics of make-and-remake.
+      url: https://www.redressdesignaward.com/
+      doi: null
+      location: Hong Kong / international
+      years: 2007–
+      references: []
+      units:
+        - I.1
+    - id: supima-design-competition
+      name: Supima Design Competition
+      kind: award
+      status: practitioner
+      summary: >-
+        Emerging-talent competition with NYFW/PFW showcase path — industry visibility more than
+        academic consecration.
+      url: https://supima.com/
+      doi: null
+      location: United States / international
+      years: 2008–
+      references: []
+      units:
+        - I.1
+    - id: aifw-winners
+      name: AI Fashion Week winners
+      kind: award
+      status: emerging
+      summary: >-
+        Explicit AI-generated-design competition outcomes (from 2023). Treat as industry event
+        evidence, not as settled scholarly method.
+      url: https://fashionweek.ai/
+      doi: null
+      location: New York / international
+      years: 2023–
+      references: []
+      units:
+        - I.1
+    - id: dfw-touch-grass
+      name: Digital Fashion Week “Touch Grass” competition
+      kind: award
+      status: emerging
+      summary: >-
+        Digital-garment-specific contest (Decentraland editions). A pin for
+        phygital/runway-as-platform practice.
+      url: https://digitalfashionweek.com/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+  studios:
+    - id: usi-digital-fashion-communication
+      name: Digital Fashion Communication (USI)
+      kind: studio
+      status: established
+      summary: >-
+        Research group at Università della Svizzera italiana — central to fashion-communication
+        reviews and the FACTUM conference network.
+      url: https://digitalfashion.ch/fashion-communication-conferences/
+      doi: null
+      location: Lugano
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: aidlab
+      name: AiDLab (RCA + PolyU)
+      kind: studio
+      status: established
+      summary: >-
+        Laboratory for Artificial Intelligence in Design — joint RCA / Hong Kong Polytechnic
+        (InnoHK). A pin for AI-in-design research infrastructure.
+      url: https://www.rca.ac.uk/more/staff/professor-sharon-baurley/
+      doi: null
+      location: London / Hong Kong
+      years: 2021–
+      references: []
+      units:
+        - I.1
+    - id: fairee-hub
+      name: FAIREE Hub (London College of Fashion / UAL)
+      kind: studio
+      status: established
+      summary: >-
+        Fashion AI Research, Education and Enterprise hub — ethical/responsible-AI framing; hosts
+        the International Symposium on AI in Fashion.
+      url: >-
+        https://www.arts.ac.uk/colleges/london-college-of-fashion/research-at-lcf/research-networks/fashion-ai-research-enterprise-and-education-hub
+      doi: null
+      location: London
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: ual-xr-lab
+      name: UAL Fashion, Textiles and Technology Institute — XR Lab
+      kind: studio
+      status: established
+      summary: >-
+        XR / virtual-production infrastructure for textiles and dress (AHRC/UKRI). Colour and
+        CG-fabric pipeline work lives here.
+      url: https://gtr.ukri.org/projects?ref=AH%2FX010155%2F1
+      doi: null
+      location: London
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: amsterdam-fashion-rt
+      name: Fashion Research & Technology (AUAS)
+      kind: studio
+      status: established
+      summary: >-
+        Amsterdam University of Applied Sciences group across digital production, data-driven
+        design, and textile technology.
+      url: https://www.amsterdamuas.com/research/research-groups/fashion-research-and-technology
+      doi: null
+      location: Amsterdam
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: showstudio
+      name: SHOWstudio
+      kind: studio
+      status: practitioner
+      summary: >-
+        Nick Knight’s digital fashion / fashion-film platform — industry image-practice authority,
+        not a peer-reviewed journal.
+      url: https://www.showstudio.com/
+      doi: null
+      location: London
+      years: 2000–
+      references: []
+      units:
+        - I.1
+    - id: admira-sevilla
+      name: ADMIRA (Universidad de Sevilla)
+      kind: studio
+      status: established
+      summary: >-
+        Research group on media, images, and audiovisual narratives — Ibero-American fashion-film
+        scholarship hub.
+      url: https://www.us.es/trabaja-en-la-us/directorio/valeriano-duran-manso
+      doi: null
+      location: Seville
+      years: ongoing
+      references: []
+      units:
+        - I.1
+  journals:
+    - id: ijfdte
+      name: International Journal of Fashion Design, Technology and Education
+      kind: journal
+      status: established
+      summary: Peer-reviewed venue for fashion + digital/tech design research (Taylor & Francis).
+      url: https://www.tandfonline.com/journals/tfdt20
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: communication-and-society
+      name: Communication & Society
+      kind: journal
+      status: established
+      summary: >-
+        Fashion film / media studies venue (Universidad de Navarra); published Díaz Soloaga & García
+        Guerrero’s fashion-film work.
+      url: https://revistas.unav.edu/index.php/communication-and-society
+      doi: null
+      location: Spain
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: visual-studies
+      name: Visual Studies
+      kind: journal
+      status: established
+      summary: Visual/photographic literacy and image-making practice (Taylor & Francis).
+      url: https://www.tandfonline.com/journals/rvst20
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: fashion-theory
+      name: Fashion Theory
+      kind: journal
+      status: established
+      summary: >-
+        Fashion mediation and mediatization scholarship — Agnès Rocamora lineage. A required reading
+        horizon for image circulation.
+      url: https://www.tandfonline.com/journals/rfft20
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: cuadernos-cedyc
+      name: Cuadernos del Centro de Estudios en Diseño y Comunicación
+      kind: journal
+      status: established
+      summary: >-
+        Refereed design/fashion research venue (Universidad de Palermo, Buenos Aires) — major
+        Ibero-American publishing hub.
+      url: https://dspace.palermo.edu/ojs/index.php/cdc/about
+      doi: null
+      location: Buenos Aires
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: computers-in-human-behavior
+      name: Computers in Human Behavior
+      kind: journal
+      status: established
+      summary: >-
+        Hosts digital-fashion definitional/systematic reviews (e.g. Baek et al.) — useful for “what
+        counts as digital fashion” debates.
+      url: https://www.sciencedirect.com/journal/computers-in-human-behavior
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: esmp
+      name: Estudios sobre el Mensaje Periodístico
+      kind: journal
+      status: established
+      summary: Fashion film / branded content scholarship (UCM) — Ibero-American media-studies pin.
+      url: https://revistas.ucm.es/index.php/ESMP
+      doi: null
+      location: Madrid
+      years: ongoing
+      references: []
+      units:
+        - I.1
+  organizations:
+    - id: factum-network
+      name: FACTUM conference network
+      kind: organization
+      status: established
+      summary: >-
+        Dedicated international series Fashion Communication in the Digital Age — field-formation
+        congress, not a single university’s property.
+      url: https://digitalfashion.ch/fashion-communication-conferences/
+      doi: null
+      location: international
+      years: 2019–
+      references: []
+      units:
+        - I.1
+    - id: springer-factum
+      name: Springer · FACTUM proceedings
+      kind: organization
+      status: established
+      summary: >-
+        FACTUM volumes appear in Springer Proceedings in Business and Economics — the proceedings
+        channel for fashion-communication research.
+      url: https://link.springer.com/conference/factum
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: instituto-derecho-moda
+      name: Instituto del Derecho de la Moda (CABA)
+      kind: organization
+      status: practitioner
+      summary: >-
+        Fashion-law research context in Buenos Aires — useful when authorship, image rights, and
+        GenAI collide.
+      url: null
+      doi: null
+      location: Buenos Aires
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: felafacs
+      name: FELAFACS
+      kind: organization
+      status: established
+      summary: >-
+        Pan–Latin American federation of communication schools — periodic congresses with
+        fashion/branding panels.
+      url: https://felafacs.org/
+      doi: null
+      location: Latin America
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: ae-ic
+      name: AE-IC (Asociación Española de Investigación de la Comunicación)
+      kind: organization
+      status: established
+      summary: >-
+        Spanish communication-research association; biennial congress with recurring
+        fashion/branding tracks.
+      url: https://ae-ic.org/
+      doi: null
+      location: Spain
+      years: 2008–
+      references: []
+      units:
+        - I.1
+  contests:
+    - id: factum
+      name: FACTUM (Fashion Communication in the Digital Age)
+      kind: contest
+      status: established
+      summary: >-
+        Dedicated international conference series (Ascona → Pamplona → Pisa → Stockholm). Primary
+        academic congress for digital fashion communication.
+      url: https://digitalfashion.ch/fashion-communication-conferences/
+      doi: null
+      location: international
+      years: 2019–
+      references: []
+      units:
+        - I.1
+    - id: ai-fashion-week
+      name: AI Fashion Week
+      kind: contest
+      status: emerging
+      summary: >-
+        Industry event for AI-generated fashion (debuted 2023, NYC). Treat promotional “first
+        worldwide” claims as marketing, not settled history.
+      url: https://fashionweek.ai/
+      doi: null
+      location: New York / international
+      years: 2023–
+      references: []
+      units:
+        - I.1
+    - id: digital-fashion-week
+      name: Digital Fashion Week
+      kind: contest
+      status: practitioner
+      summary: >-
+        Recurring phygital/AR/metaverse runway event (NYC + London editions). A pin for
+        runway-as-platform.
+      url: https://digitalfashionweek.com/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: lcf-ai-symposium
+      name: International Symposium on AI in Fashion (LCF / FAIREE)
+      kind: contest
+      status: emerging
+      summary: >-
+        Dedicated institutional AI-in-fashion symposium with peer-reviewed proceedings — stronger
+        field-formation signal than generic HE GenAI events.
+      url: >-
+        https://www.arts.ac.uk/colleges/london-college-of-fashion/international-symposium-on-ai-in-fashion-2026
+      doi: null
+      location: London
+      years: 2026–
+      references: []
+      units:
+        - I.1
+    - id: palermo-semana
+      name: Semana Internacional de Diseño en Palermo
+      kind: contest
+      status: established
+      summary: >-
+        Longstanding Buenos Aires design-week cluster (Encuentro, Coloquio, Congreso de Enseñanza) —
+        major Ibero-American design-schools forum.
+      url: https://www.palermo.edu/dyc/contenidos_dc/guia_contenido_semana.html
+      doi: null
+      location: Buenos Aires
+      years: 2006–
+      references: []
+      units:
+        - I.1
+    - id: siggraph
+      name: SIGGRAPH / SIGGRAPH Asia
+      kind: contest
+      status: established
+      summary: >-
+        Premier graphics venues for generative video and 3D garment/motion research — technical
+        frontier adjacent to fashion image.
+      url: https://www.siggraph.org/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+  figures:
+    - id: cantoni
+      name: Lorenzo Cantoni
+      kind: figure
+      status: established
+      summary: >-
+        Digital fashion communication scholar (USI); FACTUM network co-architect. A map pin for
+        academic fashion-communication research.
+      url: https://digitalfashion.ch/
+      doi: null
+      location: Lugano
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: rocamora
+      name: Agnès Rocamora
+      kind: figure
+      status: established
+      summary: >-
+        Fashion mediation / mediatization scholarship — how fashion images circulate as media.
+        Horizon name for circulation readings.
+      url: null
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: nick-knight
+      name: Nick Knight / SHOWstudio
+      kind: figure
+      status: practitioner
+      summary: >-
+        Foundational digital fashion-publishing and fashion-film practice — industry image lineage,
+        not a peer-reviewed author identity alone.
+      url: https://www.showstudio.com/
+      doi: null
+      location: London
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: shinkle
+      name: Eugénie Shinkle
+      kind: figure
+      status: established
+      summary: >-
+        Fashion photography as a wide array of practices (editorial, advertising, beauty,
+        portraiture, documentary) gathered by shared goals — core I.1 reading frame.
+      url: null
+      doi: null
+      location: international
+      years: ongoing
+      references:
+        - Shinkle, Eugénie, ed. 2008. Fashion as Photograph. I.B. Tauris.
+      units:
+        - I.1
+    - id: diaz-soloaga
+      name: Paloma Díaz Soloaga
+      kind: figure
+      status: established
+      summary: >-
+        Fashion film / branded-content scholarship (with García Guerrero; later Neural Fashion AI
+        with Pelzer-Peinado).
+      url: null
+      doi: null
+      location: Spain
+      years: ongoing
+      references: []
+      units:
+        - I.1
+    - id: barthes
+      name: Roland Barthes
+      kind: figure
+      status: established
+      summary: >-
+        Foundational fashion-as-system / fashion-as-language horizon — not a digital-fashion
+        specialist, but still a map origin for reading garments as signs.
+      url: null
+      doi: null
+      location: France
+      years: 1915–1980
+      references: []
+      units:
+        - I.1
+    - id: albers
+      name: Josef Albers
+      kind: figure
+      status: established
+      summary: >-
+        Colour interaction pedagogy — Interaction of Color remains a studio literacy landmark for
+        digital image craft.
+      url: null
+      doi: null
+      location: international
+      years: 1888–1976
+      references: []
+      units:
+        - I.1
+    - id: itten
+      name: Johannes Itten
+      kind: figure
+      status: established
+      summary: >-
+        Bauhaus colour/contrast pedagogy still rehearsed when beginners learn to see before they
+        learn to filter.
+      url: null
+      doi: null
+      location: international
+      years: 1888–1967
+      references: []
+      units:
+        - I.1
+    - id: navarro-gavino
+      name: Álvaro Navarro Gaviño
+      kind: figure
+      status: established
+      summary: >-
+        Fashion film & representation scholarship (UCM) — Ibero-American pin linking fashion image
+        to LGBTQ+ communication studies.
+      url: null
+      doi: null
+      location: Madrid
+      years: ongoing
+      references: []
+      units:
+        - I.1
+source_note: Seeded from the digital-creativity field panorama; edit directory/*.yml to update.

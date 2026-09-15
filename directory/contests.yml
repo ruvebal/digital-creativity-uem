@@ -1,0 +1,71 @@
+- id: factum
+  name: FACTUM (Fashion Communication in the Digital Age)
+  kind: contest
+  status: established
+  summary: Dedicated international conference series (Ascona → Pamplona → Pisa → Stockholm). Primary academic congress for digital fashion communication.
+  url: https://digitalfashion.ch/fashion-communication-conferences/
+  doi: null
+  location: international
+  years: 2019–
+  references: []
+  units: [I.1]
+
+- id: ai-fashion-week
+  name: AI Fashion Week
+  kind: contest
+  status: emerging
+  summary: Industry event for AI-generated fashion (debuted 2023, NYC). Treat promotional “first worldwide” claims as marketing, not settled history.
+  url: https://fashionweek.ai/
+  doi: null
+  location: New York / international
+  years: 2023–
+  references: []
+  units: [I.1]
+
+- id: digital-fashion-week
+  name: Digital Fashion Week
+  kind: contest
+  status: practitioner
+  summary: Recurring phygital/AR/metaverse runway event (NYC + London editions). A pin for runway-as-platform.
+  url: https://digitalfashionweek.com/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: lcf-ai-symposium
+  name: International Symposium on AI in Fashion (LCF / FAIREE)
+  kind: contest
+  status: emerging
+  summary: Dedicated institutional AI-in-fashion symposium with peer-reviewed proceedings — stronger field-formation signal than generic HE GenAI events.
+  url: https://www.arts.ac.uk/colleges/london-college-of-fashion/international-symposium-on-ai-in-fashion-2026
+  doi: null
+  location: London
+  years: 2026–
+  references: []
+  units: [I.1]
+
+- id: palermo-semana
+  name: Semana Internacional de Diseño en Palermo
+  kind: contest
+  status: established
+  summary: Longstanding Buenos Aires design-week cluster (Encuentro, Coloquio, Congreso de Enseñanza) — major Ibero-American design-schools forum.
+  url: https://www.palermo.edu/dyc/contenidos_dc/guia_contenido_semana.html
+  doi: null
+  location: Buenos Aires
+  years: 2006–
+  references: []
+  units: [I.1]
+
+- id: siggraph
+  name: SIGGRAPH / SIGGRAPH Asia
+  kind: contest
+  status: established
+  summary: Premier graphics venues for generative video and 3D garment/motion research — technical frontier adjacent to fashion image.
+  url: https://www.siggraph.org/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]

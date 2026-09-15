@@ -1,0 +1,108 @@
+- id: cantoni
+  name: Lorenzo Cantoni
+  kind: figure
+  status: established
+  summary: Digital fashion communication scholar (USI); FACTUM network co-architect. A map pin for academic fashion-communication research.
+  url: https://digitalfashion.ch/
+  doi: null
+  location: Lugano
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: rocamora
+  name: Agnès Rocamora
+  kind: figure
+  status: established
+  summary: Fashion mediation / mediatization scholarship — how fashion images circulate as media. Horizon name for circulation readings.
+  url: null
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: nick-knight
+  name: Nick Knight / SHOWstudio
+  kind: figure
+  status: practitioner
+  summary: Foundational digital fashion-publishing and fashion-film practice — industry image lineage, not a peer-reviewed author identity alone.
+  url: https://www.showstudio.com/
+  doi: null
+  location: London
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: shinkle
+  name: Eugénie Shinkle
+  kind: figure
+  status: established
+  summary: Fashion photography as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals — core I.1 reading frame.
+  url: null
+  doi: null
+  location: international
+  years: ongoing
+  references:
+    - 'Shinkle, Eugénie, ed. 2008. Fashion as Photograph. I.B. Tauris.'
+  units: [I.1]
+
+- id: diaz-soloaga
+  name: Paloma Díaz Soloaga
+  kind: figure
+  status: established
+  summary: Fashion film / branded-content scholarship (with García Guerrero; later Neural Fashion AI with Pelzer-Peinado).
+  url: null
+  doi: null
+  location: Spain
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: barthes
+  name: Roland Barthes
+  kind: figure
+  status: established
+  summary: Foundational fashion-as-system / fashion-as-language horizon — not a digital-fashion specialist, but still a map origin for reading garments as signs.
+  url: null
+  doi: null
+  location: France
+  years: 1915–1980
+  references: []
+  units: [I.1]
+
+- id: albers
+  name: Josef Albers
+  kind: figure
+  status: established
+  summary: Colour interaction pedagogy — Interaction of Color remains a studio literacy landmark for digital image craft.
+  url: null
+  doi: null
+  location: international
+  years: 1888–1976
+  references: []
+  units: [I.1]
+
+- id: itten
+  name: Johannes Itten
+  kind: figure
+  status: established
+  summary: Bauhaus colour/contrast pedagogy still rehearsed when beginners learn to see before they learn to filter.
+  url: null
+  doi: null
+  location: international
+  years: 1888–1967
+  references: []
+  units: [I.1]
+
+- id: navarro-gavino
+  name: Álvaro Navarro Gaviño
+  kind: figure
+  status: established
+  summary: Fashion film & representation scholarship (UCM) — Ibero-American pin linking fashion image to LGBTQ+ communication studies.
+  url: null
+  doi: null
+  location: Madrid
+  years: ongoing
+  references: []
+  units: [I.1]

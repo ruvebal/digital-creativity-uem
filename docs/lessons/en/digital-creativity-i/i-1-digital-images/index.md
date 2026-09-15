@@ -82,22 +82,22 @@ These six ideas are the Masterclass core. Paragraphs are drafted through the stu
 #### 1 · Field of practices
 
 <!-- thessia:dc-i1-idea1 -->
-A fashion image that looks "finished" on a phone is usually the residue of a temporary crowd — photographer, stylist, model, editor, producer — held together by a brief, not by a file extension. Shinkle maps that crowd as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals and contexts [(Shinkle 2008, 15)](#ref-shinkle-2008); that is why [Exercise 1](#exercise-1--label-the-practice) later this session asks you to label a practice before you name a format. Pick one image you already saved this week and write the practice label you would defend in two sentences — then ask whether a classmate would give the same label. The field itself refuses a single fixed genre; if your two sentences need a tool name to make sense, the claim has already slipped, and that slip is still open.
+A fashion image that looks "finished" on a phone is usually the residue of a temporary crowd — photographer, stylist, model, editor, producer — held together by a brief, not by a file extension. Shinkle maps that crowd as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals and contexts [(Shinkle 2008, 15)](#ref-shinkle-2008); that is why Lab later this session keeps that habit: label a practice before you name a format. Pick one image you already saved this week and write the practice label you would defend in two sentences — then ask whether a classmate would give the same label. The field itself refuses a single fixed genre; if your two sentences need a tool name to make sense, the claim has already slipped, and that slip is still open.
 
 #### 2 · Not a file format
 
 <!-- thessia:dc-i1-idea2 -->
-Calling an image "a JPEG" answers the wrong question the way calling a garment "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 3](#exercise-3--the-jpeg-problem) asks you to separate practice from container in one short paragraph. Open one of your own downloads tonight and write what kind of fashion image it is *without* mentioning the extension — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
+Calling an image "a JPEG" answers the wrong question the way calling a garment "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 2](#exercise-2--the-jpeg-problem) asks you to separate practice from container in one short paragraph. Open one of your own downloads tonight and write what kind of fashion image it is *without* mentioning the extension — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
 
 #### 3 · Many genres at once
 
 <!-- thessia:dc-i1-idea3 -->
-The temptation is to force every fashion picture into one tidy box — editorial *or* advertising — as if the room were a filing cabinet. Shinkle's own list puts beauty, portraiture, and documentary beside those two [(Shinkle 2008, 15)](#ref-shinkle-2008), which is why [Exercise 1](#exercise-1--label-the-practice) may land on images that refuse a clean single label. Try sorting three found images into the five named practices; where does the third refuse the grid? The counter-critic is fair — without categories you cannot teach — and the same page that gives us the array does not tell us how many boxes a beginner should be allowed to invent; that line is still open.
+The temptation is to force every fashion picture into one tidy box — editorial *or* advertising — as if the room were a filing cabinet. Shinkle's own list puts beauty, portraiture, and documentary beside those two [(Shinkle 2008, 15)](#ref-shinkle-2008), which is why Lab may land on images that refuse a clean single label. Try sorting three found images into the five named practices; where does the third refuse the grid? The counter-critic is fair — without categories you cannot teach — and the same page that gives us the array does not tell us how many boxes a beginner should be allowed to invent; that line is still open.
 
 #### 4 · Art and commerce
 
 <!-- thessia:dc-i1-idea4 -->
-A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 2](#exercise-2--boundary-by-hand) asks for one handwritten boundary sentence with no tool open. Take one ambiguous image from your set and write the sentence twice: once as if for a gallery caption, once as if for a paid campaign — what changed in the evidence you cited? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
+A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 1](#exercise-1--boundary-by-hand) asks for one handwritten boundary sentence with no tool open. Take one ambiguous image from your set and write the sentence twice: once as if for a gallery caption, once as if for a paid campaign — what changed in the evidence you cited? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
 
 #### 5 · Read the circulation
 
@@ -127,44 +127,50 @@ VOICE_ANCHOR: CT U1 ideas 1–3 + CT U2 Masterclass register (lesson-scribe 2026
 
 **Announced by a geometrical slide first:** three exercises follow; everything you produce in Lab goes into your **portfolio index**.
 
-### Exercise 1 — Label the practice
+### Exercise 1 — Boundary by hand
 
-Given an unlabelled fashion-image description, assign the most defensible field-of-practice label and justify the choice in two sentences.
+Pick one fashion image that could live in **two places at once** — for example a gallery wall **and** a brand campaign feed (same photo, different jobs).
 
-**Portfolio trace:** label + two-sentence defence.
+By hand (no computer, no AI), write **two short captions** for that same image:
 
-### Exercise 2 — Boundary by hand
+1. as if it hung in a gallery  
+2. as if it sold a product in a campaign  
 
-For an ambiguous artistic/commercial placement, write one boundary sentence by hand — **no tool or AI needed, declared as such.**
+Then circle what evidence you used each time (who paid? where shown? who is meant to look?).
 
-**Portfolio trace:** handwritten sentence + evidence used.
+**Portfolio trace:** the two handwritten captions + the evidence you circled.
 
-### Exercise 3 — The JPEG problem
+### Exercise 2 — The JPEG problem
 
 Explain, in your own words, why "it's a JPEG" is not an answer to "what kind of fashion image is this?"
 
 **Portfolio trace:** one short paragraph using practice vs container.
 
+### Exercise 3 — Where do you picture yourself in the field?
+
+Open the course [Field Directory]({{ '/directory/en/' | relative_url }}). Stay on that page — jump by section. Pick **one prize or award**, **one studio or lab**, and **one figure**. Write two sentences on where you picture yourself among those three pins (practice aspiration, not a CV claim).
+
+**Portfolio trace:** three Directory pins (name + section) + two-sentence field position.
+
 ---
 
-## B3 · Workshop (Deliverable) — D1 Analysis reminder
+## B3 · Carry forward (no Workshop this week)
 
-**Workshop opener (geometrical):** protected time named for the **next graded deliverable** — which is **D1 Analysis**, not a generated or annotated image pack invented for this unit.
+First lessons have **no Workshop block**. Lab ends the session.
 
-**What D1 is (How to Pass):** a **15-minute** in-person defence, supported by a slideshow, of a fashion image related to a **Madrid exhibition** piece (coordinated visit). Intra-rubric: presentation 70% · deliverable support 20% · peer debate 10%. Student defences begin **from session 3** (two students per session). Sessions 1–2 model the method.
+**Next graded stake:** **D1 Analysis** — a **15-minute** in-person defence (slideshow support) of a fashion image related to a **Madrid exhibition** piece. Defences begin **from session 3**. D1 is rehearsed in the Analysis strip — it **does not** receive Workshop clock.
 
-**What Workshop is today:** leave the D1 slot **blank**. Use the hour to rehearse the Analysis moves you just practised in Lab (practice · venue · audience · circulation · art/commerce boundary) and to start the portfolio index. Do **not** invent a side “first studio artefact” or image-generation brief that is not on the How-to-Pass list.
+**Workshop time starts session 4:** ≈ half **D2 Transposition**, ≈ half **D3 final event**.
 
 **Definition of done (this week):**
-- Portfolio index started (Lab traces only).
+- Portfolio index started (three Lab traces, including the Directory field pin).
 - One written note: “D1 = Analysis defence — exhibition image TBD after Madrid brief.”
-- One debate position drafted (maker / venue / viewer) — optional, for later D1.
 
-**Not this week:** D1 slideshow (too early), D2 transposition, D3 Atrium tech script, software feature drills, “generate 3–5 images” as graded work.
+**Not this week:** D1 slideshow, D2 transposition, D3 Atrium tech script, invented “studio piece” deliverables.
 
 {% comment %}
 outcome-graphic-selection:
-  source-section: "B3 · Workshop"
+  source-section: "B3 · Carry forward"
   visual-grammar: "practice-boundary — a classified image field crossing a movable artistic/commercial threshold"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
