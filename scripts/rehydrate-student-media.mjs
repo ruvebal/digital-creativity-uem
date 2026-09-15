@@ -20,7 +20,11 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { join, resolve } from 'node:path';
 
 const root = process.cwd();
-const profieldRoot = process.env.PROFIELD_MEDIA_ROOT || '/Users/ruvebal/src/profield/runs/media-prospector';
+const home = process.env.HOME || process.env.USERPROFILE || '';
+const defaultProfieldRoot = home
+  ? join(home, 'src/profield/runs/media-prospector')
+  : '/Users/ruvebal/src/profield/runs/media-prospector';
+const profieldRoot = process.env.PROFIELD_MEDIA_ROOT || defaultProfieldRoot;
 const projectId = (process.env.PROFIELD_PROJECT || 'dc').toLowerCase();
 const siteBase = projectId === 'tc' ? '/creativity-techniques-uem' : '/digital-creativity-uem';
 const cacheDir = join(root, 'docs/assets/images/profield-cache');
@@ -31,6 +35,14 @@ const deckRoot = resolve(
       ? 'docs/tracks/en/uem/2627-ct'
       : 'docs/tracks/en/uem/2627-dci'),
 );
+
+if (!existsSync(profieldRoot)) {
+  console.warn(
+    `media:rehydrate: skip — Profield media root missing (${profieldRoot}). `
+    + 'Keeping committed deck content.json (CI / machines without studio mount).',
+  );
+  process.exit(0);
+}
 
 function filesUnder(directory, predicate) {
   if (!existsSync(directory)) return [];
