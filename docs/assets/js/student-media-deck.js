@@ -1,19 +1,31 @@
 (() => {
   // Digital Creativity student deck — Profield-backed Reveal slides.
+  // Spine: unit_cover → analysis → masterclass ≤6 → geometrical lab_opener → lab
+  // → geometrical workshop_opener → workshop → geometrical outro.
   // Captions: clean title · human credit · Commons source page · original file.
+  // Geometrical captions include the SVG content-hash UUID from the filename.
   // Backgrounds: painted via CSS after Reveal.sync — never data-background-image
   // for remote URLs (commas split multi-bg; %2B gets encodeURI-doubled to %252B).
   // Never expose Resource UUID / forger version.
   const body = document.body;
   const slidesRoot = document.getElementById('slides');
   const base = '/digital-creativity-uem';
-  const loadingBackground = `${base}/assets/images/media/fractal-loading.svg`;
+  const geometricalCycle = [
+    'uem-henon-pass-01-structure-2fc3613c22a1.svg',
+    'uem-henon-pass-02-threshold-c378606cc29b.svg',
+    'uem-henon-pass-03-branching-46681e3d02cd.svg',
+    'uem-henon-pass-04-practice-1ab1247ed3af.svg',
+    'uem-henon-pass-05-feedback-903832404a06.svg',
+    'uem-henon-pass-06-coherence-a8444d20854d.svg',
+  ];
+  const geometricalBase = `${base}/assets/images/fractal-pass-track`;
   const diagramFallback = {
     url: `${base}/assets/images/media/organic-pixel-drift.svg`,
     title: 'Course diagram',
     credit_line: 'Course-generated visual',
     licence: 'Original studio SVG · educational use',
   };
+  const loadingBackground = `${base}/assets/images/media/fractal-loading.svg`;
 
   const captionRoot = document.createElement('aside');
   captionRoot.className = 'student-media-caption';
@@ -82,6 +94,7 @@
     const licence = asset.licence || '';
     const pageUrl = sourcePageUrl(asset);
     const fileUrl = stripUtm(asset.source_file_url || asset.asset_url || asset.preview_url || asset.url || '');
+    const svgUuid = asset.svg_uuid ? `<br><span>#${escapeHtml(asset.svg_uuid)}</span>` : '';
     const links = [];
     if (pageUrl) {
       links.push(`<a href="${escapeHtml(pageUrl)}" target="_blank" rel="noopener">View source record</a>`);
@@ -93,8 +106,13 @@
     return `<strong>${escapeHtml(title)}</strong><br>`
       + `<span>${escapeHtml(credit)}</span><br>`
       + `${links.join(' · ')}`
-      + `${licence ? `<br><span>${escapeHtml(licence)}</span>` : ''}`;
+      + `${licence ? `<br><span>${escapeHtml(licence)}</span>` : ''}`
+      + svgUuid;
   };
+
+  const isGeometrical = (slide) =>
+    slide.background_kind === 'geometrical'
+    || ['analysis_opener', 'lab_opener', 'workshop_opener', 'outro'].includes(slide.slide_role);
 
   /** Apply remote/local image URLs after Reveal builds .slide-background nodes. */
   const paintBackgrounds = () => {
@@ -122,25 +140,54 @@
     })
     .then((data) => {
       const assets = new Map((data.assets || []).map((asset) => [asset.media_slot_id, asset]));
+      let geometricalIndex = 0;
       slidesRoot.innerHTML = '';
       data.slides.forEach((slide) => {
-        const asset = slide.media_slot_id ? assets.get(slide.media_slot_id) : null;
-        const captionAsset = asset || (slide.background_kind === 'diagram' ? diagramFallback : null) || diagramFallback;
-        const fileUrl = stripUtm(asset?.asset_url || captionAsset.url || diagramFallback.url);
+        const directAsset = slide.media_slot_id ? assets.get(slide.media_slot_id) : null;
+        let fileUrl;
+        let captionAsset;
+
+        if (isGeometrical(slide)) {
+          const file = geometricalCycle[geometricalIndex % geometricalCycle.length];
+          geometricalIndex += 1;
+          fileUrl = `${geometricalBase}/${file}`;
+          const uuidMatch = file.match(/-([a-f0-9]{8,})\.svg$/i);
+          captionAsset = {
+            title: file.replace(/\.svg$/, '').replace(/uem-henon-pass-\d+-/, '').replace(/-/g, ' '),
+            credit_line: 'Course geometrical background',
+            licence: 'Original studio SVG · educational use',
+            url: fileUrl,
+            svg_uuid: uuidMatch ? uuidMatch[1] : '',
+          };
+        } else if (directAsset?.asset_url) {
+          fileUrl = stripUtm(directAsset.asset_url);
+          captionAsset = {
+            ...directAsset,
+            asset_url: fileUrl,
+            title: cleanTitle(directAsset.title || directAsset.alt_text),
+            credit_line: humanProvider(directAsset.credit_line || directAsset.provider),
+          };
+        } else {
+          fileUrl = diagramFallback.url;
+          captionAsset = diagramFallback;
+        }
+
         const section = document.createElement('section');
-        // Solid fallback only — image URL is painted after sync (see paintBackgrounds).
         section.setAttribute('data-background-color', '#0b1220');
         if (slide.slide_role) section.setAttribute('data-slide-role', slide.slide_role);
+        if (slide.portfolio_bound) section.setAttribute('data-portfolio-bound', 'true');
         section.innerHTML = `
           <div class="student-media-slide">
             <p class="student-media-slide__unit">${escapeHtml(data.unit_label)}</p>
             <h1>${escapeHtml(slide.heading)}</h1>
             <p>${escapeHtml(slide.sentence)}</p>
+            ${slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : ''}
             ${slide.citation ? `<p class="student-media-slide__citation"><a href="${escapeHtml(slide.citation.href)}">${escapeHtml(slide.citation.label)}</a></p>` : ''}
             ${slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : ''}
+            ${slide.portfolio_trace ? `<p class="student-media-slide__prompt">${escapeHtml(slide.portfolio_trace)}</p>` : ''}
           </div>`;
         backgroundUrlBySection.set(section, fileUrl);
-        captionsBySection.set(section, publicCaption(asset ? { ...asset, asset_url: fileUrl } : { ...captionAsset, asset_url: fileUrl, url: fileUrl }));
+        captionsBySection.set(section, publicCaption(captionAsset));
         slidesRoot.append(section);
       });
 

@@ -3,28 +3,44 @@ layout: null
 ---
 {
   "unit_label": "Digital Creativity I · I.1 Digital images",
+  "final_event_theme": "What is fashion for you?",
   "media_selection": {
     "unit_id": "I.1",
     "project_id": "dc",
     "collection": "unit-accepted",
     "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets assigned to dc/I.1.",
+    "description": "Accepted/ranked Profield review-state assets assigned to dc/I.1; cover override = NASA astronaut EVA.",
     "media_overrides": {
-      "I.1.cover.ladies": "wikimedia:File:The Ladies' home journal (1948) (14578727659).jpg"
+      "I.1.cover.astronaut": "wikimedia:File:Astronaut_Riding_a_Horse_(SD3.5).webp"
     }
   },
   "assets": [
+    {
+      "media_slot_id": "I.1.cover.astronaut",
+      "asset_id": "wikimedia:File:Astronaut_Riding_a_Horse_(SD3.5).webp",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/0426c90afa64550e.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp",
+      "alt_text": "AI-generated image of an astronaut riding a horse (Stable Diffusion 3.5)",
+      "title": "Astronaut Riding a Horse (SD3.5)",
+      "provider": "Wikimedia Commons",
+      "credit_line": "VulcanSphere / Stable Diffusion 3.5",
+      "licence": "CC0 1.0",
+      "priority": 1,
+      "selection_rank": 1,
+      "collection": "unit-accepted"
+    },
     {
       "media_slot_id": "I.1.still.profield-1",
       "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(48).JPG",
-      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
-      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "alt_text": "People at tables during an Art+Feminism Wikipedia edit-a-thon",
+      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
-      "licence": "",
+      "licence": "CC BY-SA 4.0",
       "priority": 5,
       "selection_rank": 5,
       "collection": "unit-accepted"
@@ -35,28 +51,13 @@ layout: null
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/eb30c35e179aae54.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png",
-      "alt_text": "Miss Maquillage Digital Fashion Garment example.png",
-      "title": "Miss Maquillage Digital Fashion Garment example.png",
+      "alt_text": "Digital fashion garment example with makeup styling",
+      "title": "Miss Maquillage digital fashion garment",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
-      "licence": "",
+      "licence": "CC BY-SA 4.0",
       "priority": 5,
       "selection_rank": 5,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-3",
-      "asset_id": "internet_archive:barbie-magazine-2003",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
-      "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
-      "canonical_source_url": "https://archive.org/details/barbie-magazine-2003",
-      "alt_text": "Barbie Magazine 2003",
-      "title": "Barbie Magazine 2003",
-      "provider": "Internet Archive",
-      "credit_line": "Internet Archive",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
       "collection": "unit-accepted"
     },
     {
@@ -65,11 +66,11 @@ layout: null
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9840aaa8f2da66c.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_McQueen_clamshell_dress_(51611p).jpg",
-      "alt_text": "Alexander McQueen clamshell dress (51611p).jpg",
-      "title": "Alexander McQueen clamshell dress (51611p).jpg",
+      "alt_text": "Alexander McQueen clamshell dress on a mannequin",
+      "title": "Alexander McQueen clamshell dress",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
-      "licence": "",
+      "licence": "CC BY-SA 4.0",
       "priority": 4,
       "selection_rank": 4,
       "collection": "designers"
@@ -80,29 +81,14 @@ layout: null
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/4ddb9d161b673b9f.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alexander_McQueen_Dress_at_The_Metropolitan_Museum_of_Art.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_McQueen_Dress_at_The_Metropolitan_Museum_of_Art.jpg",
-      "alt_text": "Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
-      "title": "Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
+      "alt_text": "Alexander McQueen dress displayed at The Metropolitan Museum of Art",
+      "title": "Alexander McQueen dress at the Met",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
-      "licence": "",
+      "licence": "CC BY-SA 4.0",
       "priority": 4,
       "selection_rank": 4,
       "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-6",
-      "asset_id": "wikimedia:File:Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Anna_Miller%27s_uniform_%28pink%29_in_Second_Life_%282012-01-22_22.36.22_by_Ramona_Forcella%29_clip.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Anna_Miller%27s_uniform_(pink)_in_Second_Life_(2012-01-22_22.36.22_by_Ramona_Forcella)_clip.jpg",
-      "alt_text": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
-      "title": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "artist"
     },
     {
       "media_slot_id": "I.1.still.profield-7",
@@ -110,103 +96,13 @@ layout: null
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c8acd44e8f333198.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
-      "alt_text": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
-      "title": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
+      "alt_text": "Barbie Dream Closet kiosk with webcam social shopping display",
+      "title": "Barbie Dream Closet kiosk",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
-      "licence": "",
+      "licence": "CC BY-SA 4.0",
       "priority": 4,
       "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-8",
-      "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/e16150afa0636624.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beauty_is_my_business%2C_says_Anne_Piron%2C_1950.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beauty_is_my_business,_says_Anne_Piron,_1950.jpg",
-      "alt_text": "Beauty is my business, says Anne Piron, 1950.jpg",
-      "title": "Beauty is my business, says Anne Piron, 1950.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-9",
-      "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/66e54dae6e9921a1.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dirty_and_damaged_fashion_doll.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dirty_and_damaged_fashion_doll.jpg",
-      "alt_text": "Dirty and damaged fashion doll.jpg",
-      "title": "Dirty and damaged fashion doll.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-10",
-      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
-      "alt_text": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
-      "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-11",
-      "asset_id": "wikimedia:File:Giada Advertising Campaign SS11.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f1cd306acb57ec21.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Giada_Advertising_Campaign_SS11.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Giada_Advertising_Campaign_SS11.jpg",
-      "alt_text": "Giada Advertising Campaign SS11.jpg",
-      "title": "Giada Advertising Campaign SS11.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-12",
-      "asset_id": "wikimedia:File:The Future Face of Avattire.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/8eb44f02b715b814.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Future_Face_of_Avattire.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Future_Face_of_Avattire.jpg",
-      "alt_text": "The Future Face of Avattire.jpg",
-      "title": "The Future Face of Avattire.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-13",
-      "asset_id": "wikimedia:File:Comme des Garcons at the Met 01.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/6e2b118fe4e72280.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Comme_des_Garcons_at_the_Met_01.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Comme_des_Garcons_at_the_Met_01.jpg",
-      "alt_text": "Comme des Garcons at the Met 01.jpg",
-      "title": "Comme des Garcons at the Met 01.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
       "collection": "unit-accepted"
     },
     {
@@ -215,150 +111,460 @@ layout: null
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/701b22b6d0745f87.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Ladies%27_home_journal_%281948%29_%2814578727659%29.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Ladies%27_home_journal_(1948)_(14578727659).jpg",
-      "alt_text": "The Ladies' home journal (1948) (14578727659).jpg",
-      "title": "The Ladies' home journal (1948) (14578727659).jpg",
+      "alt_text": "Cover of The Ladies' Home Journal, 1948",
+      "title": "The Ladies' Home Journal (1948)",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
-      "licence": "",
+      "licence": "Public domain",
       "priority": 2,
       "selection_rank": 2,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.structure-grid",
+      "asset_id": "local:profield-cache:6e2b118fe4e72280",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/6e2b118fe4e72280.jpg",
+      "source_file_url": "/digital-creativity-uem/assets/images/profield-cache/6e2b118fe4e72280.jpg",
+      "canonical_source_url": "/digital-creativity-uem/assets/images/profield-cache/6e2b118fe4e72280.jpg",
+      "alt_text": "Two structured white garments with black grid cages on headless mannequins in a white gallery niche",
+      "title": "Structured volume with grid cages",
+      "provider": "Course media cache",
+      "credit_line": "Course teaching still",
+      "licence": "Educational use",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.motion-stride",
+      "asset_id": "local:profield-cache:f1cd306acb57ec21",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f1cd306acb57ec21.jpg",
+      "source_file_url": "/digital-creativity-uem/assets/images/profield-cache/f1cd306acb57ec21.jpg",
+      "canonical_source_url": "/digital-creativity-uem/assets/images/profield-cache/f1cd306acb57ec21.jpg",
+      "alt_text": "Black-and-white fashion photograph of a model mid-stride, hair blown back, Giada SS11",
+      "title": "Giada SS11 stride",
+      "provider": "Course media cache",
+      "credit_line": "Course teaching still",
+      "licence": "Educational use",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.magazine-density",
+      "asset_id": "local:profield-cache:fad588b5929ec958",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/fad588b5929ec958.jpg",
+      "source_file_url": "/digital-creativity-uem/assets/images/profield-cache/fad588b5929ec958.jpg",
+      "canonical_source_url": "/digital-creativity-uem/assets/images/profield-cache/fad588b5929ec958.jpg",
+      "alt_text": "Dense Ranzuki magazine cover with overlapping typography and fashion portrait",
+      "title": "Ranzuki cover density",
+      "provider": "Course media cache",
+      "credit_line": "Course teaching still",
+      "licence": "Educational use",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.avatar-cafe",
+      "asset_id": "local:profield-cache:18311c5e93975eea",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
+      "source_file_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
+      "canonical_source_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
+      "alt_text": "3D avatar figure in a pink pinafore holding a silver disc in a cafe interior",
+      "title": "Digital avatar in cafe",
+      "provider": "Course media cache",
+      "credit_line": "Course teaching still",
+      "licence": "Educational use",
+      "priority": 3,
+      "selection_rank": 3,
       "collection": "unit-accepted"
     }
   ],
   "slides": [
     {
-      "heading": "Digital images",
-      "sentence": "Produce a small labelled set of digital fashion images, annotated by practice and boundary, as this course’s first studio artefact.",
-      "prompt": "I.1 · Introduction to Digital Images",
-      "media_slot_id": "I.1.still.profield-1",
-      "background_kind": "profield"
+      "slide_role": "unit_cover",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.cover.astronaut",
+      "heading": "I.1 · Digital images",
+      "sentence": "An image is a decision about where meaning lands — format comes later.",
+      "prompt": "CONTENIDOS: Introducción a las imágenes digitales",
+      "quote": "A fashion image is a decision about where meaning lands — format comes later.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "fashion-image",
+          "meaning",
+          "visual-weight"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object",
+          "crm:E36_Visual_Item"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "digital images"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=image"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
     },
     {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.still.structure-grid",
+      "heading": "How to read a fashion image",
+      "sentence": "Name the practice, the venue, the audience, then the path the picture travels.",
+      "quote": "Affordances, signifiers, mappings, and constraints can simplify our encounters with everyday objects.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "visual-literacy",
+          "signifiers",
+          "fashion-image"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "design (discipline)",
+          "semiotics"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-norman-2013"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.still.profield-2",
       "heading": "1 · Field of practices",
-      "sentence": "A digital fashion image is defined by who made it, for what venue, and under which shared goals.",
-      "media_slot_id": "I.1.still.profield-2",
-      "background_kind": "profield"
+      "sentence": "Who made it, for what venue, under which shared goals — that is the image.",
+      "quote": "Compress not the soul of the image, only its weight.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "practice",
+          "venue",
+          "authorship"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
     },
     {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.still.profield-4",
       "heading": "2 · Not a file format",
-      "sentence": "JPEG, PNG, GIF, and RAW describe technical containers; they do not tell us what a fashion image does.",
-      "media_slot_id": "I.1.still.profield-3",
-      "background_kind": "profield"
+      "sentence": "JPEG and PNG are containers. They do not tell you what the image does in the world.",
+      "quote": "To choose the right format is wisdom. To not choose at all is a 5MB hero image.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "file-format",
+          "container-vs-practice"
+        ],
+        "cidoc": [
+          "crm:E73_Information_Object"
+        ],
+        "getty_aat": [
+          "digital imaging"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
     },
     {
-      "heading": "3 · Many collaborators",
-      "sentence": "Fashion images gather photographers, stylists, models, designers, editors, producers, and audiences around a shared situation.",
-      "media_slot_id": "I.1.still.profield-4",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "4 · More than one genre",
-      "sentence": "Editorial, advertising, beauty, portraiture, and documentary practices can all belong to fashion-image culture.",
+      "slide_role": "masterclass",
+      "background_kind": "profield",
       "media_slot_id": "I.1.still.profield-5",
-      "background_kind": "profield"
+      "heading": "3 · Many genres at once",
+      "sentence": "Editorial, advertising, beauty, portraiture, and documentary can all be fashion photography.",
+      "quote": "Signifiers. Effective use of signifiers ensures discoverability and that the feedback is well communicated and intelligible.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "genre",
+          "fashion-photography",
+          "signifiers"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "fashion photography"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Shinkle 2008, 15)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-shinkle-2008"
+      }
     },
     {
-      "heading": "5 · Art and commerce",
-      "sentence": "Fashion images can occupy artistic and commercial realms at the same time.",
-      "media_slot_id": "I.1.still.profield-6",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "6 · A permeable boundary",
-      "sentence": "The boundary between art and commerce shifts with caption, venue, commission, audience, and circulation.",
+      "slide_role": "masterclass",
+      "background_kind": "profield",
       "media_slot_id": "I.1.still.profield-7",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "7 · Read the circulation",
-      "sentence": "Meaning changes when the same image moves between runway, retail, editorial, social media, and exhibition contexts.",
-      "media_slot_id": "I.1.still.profield-8",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "8 · Make the process visible",
-      "sentence": "An image analysis should retain its source, audience, purpose, observations, and classification decision.",
-      "prompt": "Save the analysis as the first portfolio trace.",
-      "media_slot_id": "I.1.still.profield-9",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "II · Debate 1",
-      "sentence": "If the same image reads as art in a gallery caption and commerce in an advertisement, whose intent decides what it is?",
-      "prompt": "Maker, venue, or viewer? Defend one position.",
-      "media_slot_id": "I.1.still.profield-10",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "II · Debate 2",
-      "sentence": "Does a changing caption change the image, or does it reveal a meaning that was already there?",
-      "prompt": "Use one visible detail and one circulation clue.",
-      "media_slot_id": "I.1.still.profield-11",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "II · Debate 3",
-      "sentence": "Can an image be both commercially useful and artistically serious without resolving the tension?",
-      "prompt": "Listen for the boundary each speaker assumes.",
-      "media_slot_id": "I.1.still.profield-12",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "III · Critical 1",
-      "sentence": "Digital mediatization reaches how fashion is communicated, how runway design and retail are organised, and how visible self-fashioning becomes everyday practice.",
-      "citation": {
-        "label": "(Rocamora 2017)",
-        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-rocamora-2017"
+      "heading": "4 · Art and commerce",
+      "sentence": "Fashion images can sit in both realms at once — the boundary moves with venue and intent.",
+      "quote": "Every human being on this planet is obligated to do their best to leave this planet in better shape than we found it. Designers don’t get to opt out.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "ethics",
+          "commerce",
+          "responsibility"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "design (discipline)",
+          "ethics (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
       },
-      "prompt": "Read circulation and venue, not only file format.",
-      "media_slot_id": "I.1.still.profield-13",
-      "background_kind": "profield"
-    },
-    {
-      "heading": "III · Critical 2",
-      "sentence": "Before collecting references, audit who appears as the normal body, legitimate designer, and fashion subject in supposedly neutral studio materials.",
       "citation": {
-        "label": "(Reddy-Best et al. 2018)",
-        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-reddy-best-2018"
-      },
-      "prompt": "Who is missing from the frame and from the archive?",
-      "media_slot_id": "I.1.cover.ladies",
-      "background_kind": "profield"
+        "label": "(Monteiro 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-monteiro-2019"
+      }
     },
     {
-      "heading": "III · Critical 3",
-      "sentence": "Every visual reference carries an audience, a power relation, and an omission that can be made discussable.",
-      "prompt": "Name the relation your chosen image makes visible.",
+      "slide_role": "masterclass",
+      "background_kind": "profield",
       "media_slot_id": "I.1.still.profield-1",
-      "background_kind": "profield"
+      "heading": "5 · Read the circulation",
+      "sentence": "The same picture can change when it moves from runway to retail to feed to gallery.",
+      "quote": "Whether you’re burned out, starting out, starting over, or wildly successful, the question is always the same: How to keep going?",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "circulation",
+          "platform",
+          "persistence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "circulation (communication)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-kleon-2019"
+      }
     },
     {
-      "heading": "IV · Diagnostic",
-      "sentence": "Given an unlabelled fashion-image description, assign the most defensible field-of-practice label and justify it in two sentences.",
-      "prompt": "Work alone; no tool or AI needed.",
-      "media_slot_id": "I.1.still.profield-2",
-      "background_kind": "profield"
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.cover.ladies",
+      "heading": "6 · Audit who counts",
+      "sentence": "Before you collect references, ask who appears as the normal body and legitimate designer.",
+      "quote": "A designer keeps their ego in check, knows when to shut up and listen, is aware of their own biases and welcomes having them checked.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "representation",
+          "bias",
+          "canon"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "representation (portrayal)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Monteiro 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-monteiro-2019"
+      }
     },
     {
-      "heading": "IV · Boundary judgement",
-      "sentence": "Given an ambiguous artistic or commercial placement, write a one-sentence boundary judgement by hand.",
-      "prompt": "Declare the evidence you used.",
-      "media_slot_id": "I.1.still.profield-3",
-      "background_kind": "profield"
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Open or update the portfolio index before you leave."
     },
     {
-      "heading": "IV · The JPEG problem",
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.still.motion-stride",
+      "heading": "Exercise 1 · Label the practice",
+      "sentence": "Given an unlabelled fashion image, assign the most defensible practice label and justify it in two sentences.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save label + two-sentence defence in the portfolio index.",
+      "quote": "Label the practice before you name the file — JPEG never answered a venue.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "practice-label",
+          "evidence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.still.magazine-density",
+      "heading": "Exercise 2 · Boundary by hand",
+      "sentence": "For an ambiguous art/commerce placement, write one boundary sentence by hand. No tool. No AI.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the handwritten sentence + what evidence you used.",
+      "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "hand-work",
+          "boundary",
+          "attention"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "handwriting"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-kleon-2019"
+      }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "I.1.still.avatar-cafe",
+      "heading": "Exercise 3 · The JPEG problem",
       "sentence": "Explain why “it’s a JPEG” is not an answer to “what kind of fashion image is this?”",
-      "prompt": "Use the distinction between file format and field of practice.",
-      "media_slot_id": "I.1.still.profield-4",
-      "background_kind": "profield"
+      "portfolio_bound": true,
+      "portfolio_trace": "Save one short paragraph using practice vs container.",
+      "quote": "Anyone using a product should always be able to determine the answers to all seven questions. This puts the burden on the designer.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "container-vs-practice",
+          "design-burden"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "usability"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-norman-2013"
+      }
     },
     {
-      "heading": "IV · Portfolio trace",
-      "sentence": "Collect the analysis, debate position, critical audit, and problem response as the first material of the public portfolio defence.",
-      "prompt": "Save source, version, and one changed judgement.",
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · D1 reminder",
+      "sentence": "Sessions 1–2: watch the analysis method. Your first graded deliverable is D1 Analysis — not a generated image set."
+    },
+    {
+      "slide_role": "workshop_work",
+      "background_kind": "profield",
       "media_slot_id": "I.1.still.profield-5",
-      "background_kind": "profield"
+      "heading": "D1 · Analysis (not yet)",
+      "sentence": "From session 3: 15 min defence of a fashion image tied to a Madrid exhibition piece. Today: leave the D1 slot blank — practise reading only.",
+      "prompt": "How to Pass: D1 Analysis · slideshow support · Madrid visit brief. Do not invent a side deliverable.",
+      "quote": "Meaning is not sealed at production — leave room for the defence you will give later.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "d1-analysis",
+          "reminder",
+          "desajuste"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Portfolio index started (Lab traces). D1 Analysis stays open until the Madrid visit brief — whose intent decides art vs commerce?"
     }
   ]
 }

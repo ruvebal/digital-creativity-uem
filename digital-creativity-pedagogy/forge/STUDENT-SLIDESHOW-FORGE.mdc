@@ -110,7 +110,9 @@ the sibling runtime.
 | Analysis strip | 00–30 | Modelled analysis (sessions 1–2) or **2×15 min** student defences (from session 3) | D1 defence slideshow |
 | Masterclass | 30–60 | Professor ideas + Profield images | conceptual notes |
 | **Lab (Portfolio)** | 60–90 | Exercises + debates — **must enter portfolio** | portfolio traces |
-| **Workshop (Deliverable)** | 90–120 | Protected time on the next graded deliverable | D1–D3 progress |
+| **Workshop (Deliverable)** | 90–120 | Protected time on the next **graded** deliverable (D1–D3) | D1–D3 progress |
+
+**I.1 / sessions 1–2:** Workshop = **D1 Analysis reminder** + blank slot until Madrid brief — never invent a side image-generation / annotated-pack deliverable. Lab portfolio traces ≠ graded Workshop work.
 
 **Lab ≠ Workshop.** Lab leaves portfolio traces; Workshop advances deliverables. Names are **not** swapped.
 
@@ -118,9 +120,20 @@ the sibling runtime.
 
 | Role | Background |
 | --- | --- |
+| `unit_cover` | Profield still (I.1 opening: astronaut EVA still unless a later override is reviewed) |
 | Masterclass content | Accepted Profield media or course diagram |
-| `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** |
+| `analysis_model` · `lab_exercise` · `workshop_work` | **Profield image background** when a unit asset exists — not `none` / not flat diagram |
+| `lab_opener` · `workshop_opener` · `outro` · `analysis_opener` | **Geometrical only** |
 | Never | Invented images; geometrical BG replacing a required Masterclass media slot |
+
+### Quote hierarchy (revised 2026-09-15 · ∥ CT slideshow forge)
+
+Every substantive slide (`unit_cover`, `analysis_model`, masterclass, `lab_exercise`, `workshop_work`) carries a brief, specific `quote:` that sharpens the sentence:
+
+1. **Prefer Ahmes** — `semantic-quote` against `extraction.db`, `evaluator_safe=yes`. Provenance in a switch-gated lesson comment. `content.json`: verbatim + `quote_origin: ahmes` + Chicago `citation` linking into `## References`.
+2. **Else invent** in the voice of **The Tao of the Image** (DC) and propose into TTOD via `ttod-bridge` (section `images` or nearest; never hand-edit `ttod.yml`). `quote_origin: tao_invented`, `citation.label: (Tao of the Image)`, invents are studio aphorisms — never disguised as scholarly quotation.
+3. **Semantic tags required** whenever `quote` is set (not student-rendered by default): `semantic_tags.themes`, `.cidoc` (e.g. `crm:E33_Linguistic_Object`), `.getty_aat`, `.dcterms`.
+4. **AI-declaration filiation** — Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) only; never `(ECSIT / UEM)`.
 
 ## Course delivery and assessment choreography
 
@@ -142,13 +155,23 @@ D1 intra-rubric: presentation **70%** · deliverable support **20%** · peer deb
 course_id: dci | dcii
 unit_id: I.1 | II.4
 slide_id: stable-unit-purpose-id
-slide_role: masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
-background_kind: profield | geometrical | none
+slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+background_kind: profield | geometrical | diagram | none
 heading: "Short student-facing heading"
-sentence: "One sentence only."
+sentence: "One sentence only — teenager voice; one idea."
 media_slot_id: I.1.still.editorial-vs-commercial  # when background_kind: profield
 portfolio_bound: true | false
 portfolio_trace: "Save the annotated comparison in your portfolio index."
+quote: "Brief Ahmes verbatim OR Tao of the Image invent (≤ ~40 words)."
+quote_origin: ahmes | tao_invented
+semantic_tags:
+  themes: [fashion-image, circulation]
+  cidoc: [crm:E33_Linguistic_Object]
+  getty_aat: [aphorisms]
+  dcterms: [dcterms:type=Text]
+citation:
+  label: "(Author Year, page) | (Tao of the Image)"
+  href: "#ref-… | /digital-creativity-uem/tao/"
 ```
 
 No Profield-backed slide is published until `media_slot_id` resolves to an accepted MP5 record

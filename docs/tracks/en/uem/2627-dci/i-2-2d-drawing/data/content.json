@@ -1,0 +1,389 @@
+---
+layout: null
+---
+{
+  "unit_label": "Digital Creativity I · I.2 2D drawing tools",
+  "final_event_theme": "What is fashion for you?",
+  "media_selection": {
+    "unit_id": "I.2",
+    "project_id": "dc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "I.2 accepted Profield pack pending — Masterclass slides use course diagram fallback until media:rehydrate assigns assets.",
+    "media_overrides": {}
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "diagram",
+      "heading": "I.2 · 2D drawing tools",
+      "sentence": "Drawing externalises visual thinking — technique lives inside the problem, not beside it.",
+      "prompt": "CONTENIDOS: Tecnología digital 2D: Herramientas de dibujo",
+      "quote": "A path you can revise is a thought that still listens.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "vector",
+          "thinking"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "How to read a drawing decision",
+      "sentence": "Line · layer · revision · export. Ask what the silhouette needed that the tool alone cannot decide.",
+      "quote": "Affordances, signifiers, mappings, and constraints can simplify our encounters with everyday objects.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "signifiers",
+          "drawing-decision"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Drawing as thinking",
+      "sentence": "A path on screen is a visible thought — you can revise it before you polish it.",
+      "quote": "Compress not the soul of the image, only its weight.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "drawing-as-thinking"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Vector is relationship",
+      "sentence": "Anchor points, curves, and fills describe shape as relation — not a grid of pixels.",
+      "quote": "Vector is relationship — points remember each other when the canvas scales.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "vector",
+          "relationship"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · Technique inside problems",
+      "sentence": "Studio assignments embed software skill in visual problems, not in isolated button drills.",
+      "prompt": "Curcic 2024 — page cite still open",
+      "quote": "Anyone using a product should always be able to determine the answers to all seven questions. This puts the burden on the designer.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "technique",
+          "problem"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "4 · Fashion visual grammar",
+      "sentence": "Proportion, croquis, and flats travel across hand, raster, and vector — the grammar stays.",
+      "prompt": "Abling 2023 — page cite still open",
+      "quote": "Signifiers. Effective use of signifiers ensures discoverability and that the feedback is well communicated and intelligible.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "fashion-grammar"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "5 · Audit the reference body",
+      "sentence": "Before you fix a brief, ask who counts as the normal body in the manuals you treat as neutral.",
+      "prompt": "Reddy-Best et al. 2018 — page cite still open",
+      "quote": "A designer keeps their ego in check, knows when to shut up and listen, is aware of their own biases and welcomes having them checked.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "representation",
+          "bias"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Monteiro 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-monteiro-2019"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "6 · Three alternatives",
+      "sentence": "One silhouette is not enough — make three visible versions, then defend the choice you keep.",
+      "quote": "Whether you’re burned out, starting out, starting over, or wildly successful, the question is always the same: How to keep going?",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "alternatives",
+          "persistence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
+      }
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Open or update the portfolio index before you leave."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 1 · Contour from primitives",
+      "sentence": "Build one simple fashion silhouette from basic shapes and paths. Keep construction marks visible.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the file + one sentence naming the hardest anchor-point decision.",
+      "quote": "Label the practice before you name the file — JPEG never answered a venue.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "contour",
+          "primitives"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 2 · Wrong curve handle",
+      "sentence": "Given a path with a visibly wrong curve handle, name what is wrong and what a correct handle would do.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save diagnosis + corrected sketch (tool or paper).",
+      "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "curve-handle",
+          "attention"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
+      }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 3 · Three alternatives",
+      "sentence": "Make three visibly different versions of the silhouette. Score novelty and fit (1–5). Rank and defend the winner.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the three versions + scoring sheet + one paragraph of defence.",
+      "quote": "Everything got better for me when I made peace with the fact that it might not ever get easier. Creative work is hard.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "alternatives",
+          "selection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
+      }
+    },
+    {
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Deliverable",
+      "sentence": "Protected time on your vector silhouette piece — alternatives, rationale, process note."
+    },
+    {
+      "slide_role": "workshop_work",
+      "background_kind": "diagram",
+      "heading": "Studio piece this week",
+      "sentence": "One vector silhouette with three alternatives, a selection rationale, and a process note.",
+      "prompt": "Done when the process note is specific — not “I drew a dress.”",
+      "quote": "Creativity that refuses to leave a trace was only a mood.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "studio-piece",
+          "process-note"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/digital-creativity-uem/tao/"
+      }
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Portfolio index updated. Open question: does vector-first change what a beginner notices about silhouette?"
+    }
+  ]
+}

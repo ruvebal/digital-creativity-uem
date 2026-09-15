@@ -3,12 +3,12 @@ layout: lesson
 title: 'I.1 · Introduction to Digital Images'
 title_es: 'I.1 · Introducción a las imágenes digitales'
 slug: i-1-imagenes-digitales
-date: 2026-08-20
+date: 2026-09-14
 author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /lessons/en/digital-creativity-i/i-1-digital-images/
 description: 'A digital fashion image is a field of practices, not a file format — the frame this course opens with, before any tool is opened.'
-status: scaffold
+status: pilot
 tags: [digital-creativity-i, digital-images, fashion-photography, foundations]
 ---
 
@@ -32,169 +32,197 @@ tags: [digital-creativity-i, digital-images, fashion-photography, foundations]
 
 {% include lesson-semantic-graphic.html %}
 
-## Where this sits — CONTENIDOS and competencies
+## Cover — what this unit is about
 
 **CONTENIDOS anchor (verbatim, official guía):** *Introducción a las imágenes digitales.*
 
-**Competencies served (`1-creacion-digital-i.json`):** `CON1` (differentiate audiovisual representation techniques of fashion ideas and their means of diffusion), `HAB9` (professionally use digital technology for image/text/sound treatment), `COMP8` (handle digital graphic/audiovisual representation tools in communicating fashion ideas), `COMP9` (create new ideas from known concepts, solving problems originally).
+**Competencies served (`1-creacion-digital-i.json`):** `CON1`, `HAB9`, `COMP8`, `COMP9`.
+
+This unit opens Digital Creativity I with a reading frame, not a tool sequence. A fashion image is defined by practices, venues, and shared goals — not by JPEG or PNG. The page-verified anchor is [Shinkle (2008, 15)](#ref-shinkle-2008). Tool pedagogy for intro-to-digital-images remains an open gap and is named as such.
+
+**Evaluation weights this unit's evidence can feed** (CD I presencial): **Investigaciones y proyectos 20%** (studio piece); **Cuaderno de prácticas 10%** (process notes). Pruebas (55%) and Caso/problema (15%) are untouched here.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Learning outcomes:** the guía's `learning_outcomes` list is written toward I.5/I.6 (form/volume) and I.2/I.3/I.4 (drawing/effects) specifically; none of its six bullets names digital-image introduction verbatim. Rather than force a fit, this unit is stated honestly as serving the four competencies above without a dedicated `learning_outcomes` bullet — a real gap in the guía's own granularity, not invented content.
+**Learning outcomes:** the guía's `learning_outcomes` list is written toward I.5/I.6 and I.2–I.4; none names digital-image introduction verbatim — real guía granularity gap, not invented content.
 -->
 {% endif %}
 
-**Evaluation weights this unit's evidence can feed** (CD I presencial, framework §6): **Investigaciones y proyectos 20%** scores this unit's studio piece; the process reflection can also feed **Cuaderno de prácticas de laboratorio/taller 10%**. This unit does not touch Pruebas (55%) or Caso/problema (15%) directly.
-
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Learning objectives
 
 By the end of this unit, you will be able to:
 
 - **Describe a fashion image by the field of practices it belongs to** (editorial, advertising, portraiture, documentary) — before naming its file format.
-- **Locate the artistic/commercial boundary** in a specific image, and explain why that boundary is shifting rather than fixed.
-- **Produce a small labelled set of digital fashion images**, annotated by practice and boundary, as this course's first studio artefact.
-- **State plainly what this unit does not teach** — no tool sequence, no software feature.
+- **Locate the artistic/commercial boundary** in a specific image, and explain why that boundary moves.
+- **Practise the D1 Analysis reading moves** (practice · venue · audience · circulation) in Lab — without inventing a side deliverable this week.
+- **State plainly what this unit does not teach** — no tool sequence, no software feature, no image-generation brief as “first deliverable.”
 
 ---
 
-## Why this unit exists: an image is a field of practices, not a file format
+## B1 · Analysis (this lives in the lesson, not only on slides)
 
-**Claim:** a digital fashion image is defined by the practices around it — who made it, for what venue, under what shared goals — not by its pixel format. Shinkle documents fashion photography as spanning editorial, advertising, beauty, portraiture, and documentary work, produced by many skilled collaborators under shared contexts, with a characteristic tension between artistic and commercial aims that the field itself describes as "shifting and highly permeable" (Shinkle 2008, 15).
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-**Claim:** a digital fashion image is defined by the practices around it — who made it, for what venue, under what shared goals — not by its pixel format. This is not a stylistic framing; it is a documented feature of the field itself. Fashion photography "comprises a wide array of practices (editorial and advertising, beauty, portraiture and documentary photography… ) and involves a range of skilled creatives and businesspeople… brought together by shared goals and contexts," and if one characteristic is shared across all fashion photographs, it is "their simultaneous placement within the artistic and commercial realms" — a boundary the field itself treats as "shifting and highly permeable," not fixed (Shinkle 2008, 15 — Ahmes coat `1936070c`, node `cca1472b-b0c6-594c-8e13-ed87d6b73897`).
--->
-{% endif %}
+Analysis opens the class. Sessions 1–2 model the method; from session 3, two students × ~15 minutes each defend a D1 piece. Before you open any software, read a fashion image with four moves: **practice · venue · audience · circulation** — then ask where the art/commerce boundary sits.
 
-**What this supports, and what it does not.** Shinkle (2008) supports the *field-of-practices* frame this unit opens with — a genuine, peer-reviewed account of how fashion photography's own discourse resists a single fixed genre or boundary. It does **not** validate Photoshop, Illustrator, or any specific tool's pedagogy: no reviewed source establishes *how best to teach* digital-image literacy as a classroom sequence. That gap stays open and is named here rather than papered over.
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-**What this grounds, and what it does not.** Shinkle (2008) grounds the *field-of-practices* frame this unit opens with — a genuine, peer-reviewed account of how fashion photography's own discourse resists a single fixed genre or boundary. It does **not** ground Photoshop, Illustrator, or any specific tool's pedagogy: no vault source validates *how best to teach* digital-image literacy as a classroom sequence. That gap stays open and is named here rather than papered over.
--->
-{% endif %}
+**Field tension — imagination ≠ creativity ≠ fantasy.** Before the tool panel opens, name the vocabulary trap: students often praise an image as “more creative” when they mean a freer *fantasy*, or call a look “imaginative” when they mean a technical *rearrangement*. Hüppauf and Wulf treat faculty of imagination, fantasy, and creativity as related but non-identical terms — imagination and fantasy can enable creativity without collapsing into it [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009). Hold that distinction beside Shinkle’s practice frame: a fashion image can be highly imaginative in Kant’s sense of “re-presenting what is absent” and still fail as a *creative* contribution to a brief. A practitioner counterpoint from music production culture insists that taste shows up in listening and curation, not in tool worship [(Rubin 2023, 123)](#ref-rubin-2023) — declared here as practitioner voice, not peer-reviewed image pedagogy.
 
-### The debate prompt
+**Debate prompt (rolling):** If the same image reads as "art" in a gallery caption and "commerce" in an advertisement, whose intent decides which it is — the maker's, the venue's, or the viewer's?
 
-Put this to the group before the studio piece: **if the same image reads as "art" in a gallery caption and "commerce" in an advertisement's caption, whose intent decides which it is — the maker's, the venue's, or the viewer's?** Shinkle's own framing suggests the boundary is "shifting and highly permeable" rather than settled by any one of the three — does that answer the question, or only relocate it?
+### Masterclass ideas (plain wording)
 
-**Practice anchor (field lens):** Shinkle's field-of-practices frame — editorial, advertising, portraiture, documentary — is the established scholarly anchor for this unit.
+These six ideas are the Masterclass core. Paragraphs are drafted through the studio's lesson harness and hand-edited toward the Creativity Techniques U1/U2 register. `(Author, Year)` links resolve to `## References`; where cites are still pending page-verified resolution the paragraph names its status openly.
 
-**Frontier signal (field lens):** Fashion images increasingly circulate as one distributed brand system across posts, short video, web, and immersive media. This unit names that frontier; evidence for algorithmic mediation in fashion education remains an open gap — not a prescribed transmedia syllabus.
+#### 1 · Field of practices
 
-## Critical perspective
+<!-- thessia:dc-i1-idea1 -->
+A fashion image that looks "finished" on a phone is usually the residue of a temporary crowd — photographer, stylist, model, editor, producer — held together by a brief, not by a file extension. Shinkle maps that crowd as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals and contexts [(Shinkle 2008, 15)](#ref-shinkle-2008); that is why [Exercise 1](#exercise-1--label-the-practice) later this session asks you to label a practice before you name a format. Pick one image you already saved this week and write the practice label you would defend in two sentences — then ask whether a classmate would give the same label. The field itself refuses a single fixed genre; if your two sentences need a tool name to make sense, the claim has already slipped, and that slip is still open.
 
-Digital mediatization reaches not only how fashion is communicated but how runway design, retail, and everyday practices of visible self-fashioning are organised — so an introductory image unit must read circulation and venue, not only file format (Rocamora 2017).
+#### 2 · Not a file format
 
-Before students collect reference images, audit who appears as the “normal” body, legitimate designer, and fashion subject in the textbooks and mood boards the studio treats as neutral (Reddy-Best et al. 2018).
+<!-- thessia:dc-i1-idea2 -->
+Calling an image "a JPEG" answers the wrong question the way calling a coat "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 3](#exercise-3--the-jpeg-problem) asks you to separate practice from container in one short paragraph. Open one of your own downloads tonight and write what kind of fashion image it is *without* mentioning the extension — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
 
-<figure class="lesson-media lesson-media--semantic" data-media-slot="I.1.video.practice-boundary" markdown="0">
-<div class="lesson-media__text-fallback" role="img" aria-label="Video placeholder: practice, venue, audience, and circulation"><strong>Screening slot:</strong> practice → venue → audience → circulation</div>
-<figcaption>
-<p><strong>Why this is here:</strong> A three-minute screening anchors the practice-boundary debate before any software demo.</p>
-<p><strong>What to notice:</strong> Cropping, lighting, and circulation cues — not file format or filter names.</p>
-<p class="media-note">Video slot remains a reviewed semantic placeholder until an accepted moving-image record arrives.</p>
-</figcaption>
-</figure>
+#### 3 · Many genres at once
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.1.still.editorial-vs-commercial" markdown="0">
-<div class="lesson-media__text-fallback" role="img" aria-label="Still-image comparison placeholder: editorial, commercial, and ambiguous fashion-image regimes"><strong>Still-image comparison:</strong> editorial → commercial → ambiguous</div>
-<figcaption>
-<p><strong>Why this is here:</strong> Side-by-side stills let students argue editorial vs commercial intent using compositional evidence.</p>
-<p><strong>What to notice:</strong> Negative space, gaze, branding visibility, and implied audience.</p>
-<p class="media-note">Placeholder visual — licensed stills pending review.</p>
-</figcaption>
-</figure>
+<!-- thessia:dc-i1-idea3 -->
+The temptation is to force every fashion picture into one tidy box — editorial *or* advertising — as if the room were a filing cabinet. Shinkle's own list puts beauty, portraiture, and documentary beside those two [(Shinkle 2008, 15)](#ref-shinkle-2008), which is why [Exercise 1](#exercise-1--label-the-practice) may land on images that refuse a clean single label. Try sorting three found images into the five named practices; where does the third refuse the grid? The counter-critic is fair — without categories you cannot teach — and the same page that gives us the array does not tell us how many boxes a beginner should be allowed to invent; that line is still open.
 
-<figure class="lesson-media lesson-media--semantic" data-media-slot="I.1.graphic.image-regimes" markdown="0">
-<div class="lesson-media__text-fallback" role="img" aria-label="Graphic summary: practice, venue, audience, circulation, and the boundary between art and commerce"><strong>Graphic summary:</strong> practice → venue → audience → circulation → boundary</div>
-<figcaption>
-<p><strong>Why this is here:</strong> A single graphic maps editorial, commercial, and hybrid regimes used in B2 and B3.</p>
-<p><strong>What to notice:</strong> Audience, circulation channel, and evaluation criteria — not software icons.</p>
-<p class="media-note">Visual-forger semantic graphic: image practice → venue → audience → circulation.</p>
-</figcaption>
-</figure>
+#### 4 · Art and commerce
 
----
+<!-- thessia:dc-i1-idea4 -->
+A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 2](#exercise-2--boundary-by-hand) asks for one handwritten boundary sentence with no tool open. Take one ambiguous image from your set and write the sentence twice: once as if for a gallery caption, once as if for a paid campaign — what changed in the evidence you cited? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
 
-## First studio artefact
+#### 5 · Read the circulation
 
-**Produce a small labelled set of digital fashion images**, annotated by practice and boundary, as this course’s first studio artefact.
+<!-- thessia:dc-i1-idea5 -->
+An image that looked editorial on a runway screen can read as brand inventory once it lands in a shop window — the pixels did not move; the venue did. This unit treats circulation as a reading skill before any filter demo: runway, retail, editorial, feed, exhibition. In Lab, add one circulation note to an image you already have — where did you find it, and where else could it travel this week? That note is portfolio practice, not D1. Mediatization arguments in fashion theory (Rocamora 2017) are named here as a frontier signal — page cite still open in our vault — so do not treat that name as settled evidence yet.
 
-## B1 · Conceptual — magistral 2 h + seminarios 3 h + debates 1 h
+#### 6 · Audit who counts
 
-Covered above: the field-of-practices claim, the Shinkle citation, the debate prompt, and the screening placeholders. No code or tool sequence in this unit — CD I opens with orientation before technique.
-
----
-
-## B2 · Studio — talleres 2 h + investigaciones y proyectos 3 h
-
-**Deliverable:** an annotated set of 3–5 found or created digital fashion images, each labelled with the field of practice it most belongs to (editorial / advertising / portraiture / documentary / other, student's own judgement) and one sentence locating where its artistic/commercial boundary sits.
-
-**Definition of done:**
-- A piece ID (a short slug you choose).
-- A process folder holding the images and the annotation notes.
-- Every image carries both a practice label and a boundary sentence — an unlabelled image is not complete work.
-
-**Evidence this deliverable maps to:** Evaluación → **Investigaciones y proyectos (20%)** directly; the annotation notes can also support **Cuaderno de prácticas de laboratorio/taller (10%)**. No third evaluation weight is invented.
+<!-- thessia:dc-i1-idea6 -->
+Reference boards pretend to be neutral until you ask who never appears as the "normal" body or the legitimate designer. Before you finish collecting images for the studio piece, audit your own set for who is present and who is missing — one sentence is enough if it is honest. Textbook and mood-board bias in fashion education (Reddy-Best et al. 2018) is a named critical prompt here — page cite still open — so the audit stands as studio practice, not as a claim we can already page-verify in the vault.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-No S1/S2 this unit — ARTEFACT ROLE is **none** (introduction to digital images is not on the vShowroom-eligible CONTENIDOS list).
+PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; source={document_coat=1936070c; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes; quote_candidates="wide array of practices" / "shifting and highly permeable"
+PROVENANCE_LINE: claim=I.1.field-tension.imagination-creativity-fantasy; status=VERIFIED; source={document_coat=94897108; node_id=edbc2759-0224-56a5-93fd-5bce9ac14b40; page_index=31; printed_page=32}; public_citation="(Hüppauf and Wulf 2009, 32)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=I.1.rubin-taste-counterpoint; status=VERIFIED; source={document_coat=574691eb; node_id=b9d0c0a0-7205-5571-aee0-10ec46a7d5c1; printed_page=123}; public_citation="(Rubin 2023, 123)"; evaluator_safe=yes; note=practitioner not peer-reviewed pedagogy
+PROVENANCE_LINE: claim=I.1.gap.tool-pedagogy; status=NONE; public_citation=OMITTED
+PROVENANCE_LINE: claim=I.1.critical.mediatization; status=[BIBLIO-GAP]; ahmes_attempt=Rocamora 2017 not in scholar vault; public_citation named as frontier only
+PROVENANCE_LINE: claim=I.1.critical.textbook-audit; status=[BIBLIO-GAP]; ahmes_attempt=Reddy-Best 2018 not in scholar vault; public_citation named as critical prompt only
+VOICE_ANCHOR: CT U1 ideas 1–3 + CT U2 Masterclass register (lesson-scribe 2026-09-14)
 -->
 {% endif %}
 
+**What the sources support — and what they do not.** Shinkle (2008) supports the field-of-practices frame and the permeable art/commerce boundary. It does **not** validate Photoshop, Illustrator, or any classroom tool sequence. Rocamora (2017) and Reddy-Best et al. (2018) remain open procurement for page-verified nodes.
+
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## B2 · Lab (Portfolio)
 
-Not the studio piece. Short problems isolating the field-of-practices frame:
+**Announced by a geometrical slide first:** three exercises follow; everything you produce in Lab goes into your **portfolio index**.
 
-1. **Diagnostic.** Given an unlabelled fashion image description, assign the most defensible field-of-practice label and justify the choice in two sentences.
-2. Given a described image with an ambiguous artistic/commercial placement, write the one-sentence boundary judgement by hand — **no tool or AI needed, declared as such.**
-3. Explain, in your own words, why "it's a JPEG" is not an answer to "what kind of fashion image is this" — the core distinction this unit teaches.
+### Exercise 1 — Label the practice
 
-Professor answer sketches are not published on this page.
+Given an unlabelled fashion-image description, assign the most defensible field-of-practice label and justify the choice in two sentences.
+
+**Portfolio trace:** label + two-sentence defence.
+
+### Exercise 2 — Boundary by hand
+
+For an ambiguous artistic/commercial placement, write one boundary sentence by hand — **no tool or AI needed, declared as such.**
+
+**Portfolio trace:** handwritten sentence + evidence used.
+
+### Exercise 3 — The JPEG problem
+
+Explain, in your own words, why "it's a JPEG" is not an answer to "what kind of fashion image is this?"
+
+**Portfolio trace:** one short paragraph using practice vs container.
+
+---
+
+## B3 · Workshop (Deliverable) — D1 Analysis reminder
+
+**Workshop opener (geometrical):** protected time named for the **next graded deliverable** — which is **D1 Analysis**, not a generated or annotated image pack invented for this unit.
+
+**What D1 is (How to Pass):** a **15-minute** in-person defence, supported by a slideshow, of a fashion image related to a **Madrid exhibition** piece (coordinated visit). Intra-rubric: presentation 70% · deliverable support 20% · peer debate 10%. Student defences begin **from session 3** (two students per session). Sessions 1–2 model the method.
+
+**What Workshop is today:** leave the D1 slot **blank**. Use the hour to rehearse the Analysis moves you just practised in Lab (practice · venue · audience · circulation · art/commerce boundary) and to start the portfolio index. Do **not** invent a side “first studio artefact” or image-generation brief that is not on the How-to-Pass list.
+
+**Definition of done (this week):**
+- Portfolio index started (Lab traces only).
+- One written note: “D1 = Analysis defence — exhibition image TBD after Madrid brief.”
+- One debate position drafted (maker / venue / viewer) — optional, for later D1.
+
+**Not this week:** D1 slideshow (too early), D2 transposition, D3 Atrium tech script, software feature drills, “generate 3–5 images” as graded work.
 
 {% comment %}
 outcome-graphic-selection:
-  source-section: "B3 · Resolución de problemas"
+  source-section: "B3 · Workshop"
   visual-grammar: "practice-boundary — a classified image field crossing a movable artistic/commercial threshold"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
 
 ---
 
+## Conclusion
+
+This unit trains a reading frame, not a software path — and it leaves doors open on purpose. First, the line between "genuinely different practices" and "same practice, new caption" is where every beginner taxonomy breaks, and Shinkle's own permeable boundary [(Shinkle 2008, 15)](#ref-shinkle-2008) refuses to close it for you. Second, circulation and textbook-audit claims that matter for critique (Rocamora; Reddy-Best et al.) are still in open procurement in our vault — you are practising the *habit* before we can hand you every *page*. Third, imagination / fantasy / creativity remain distinct in the field [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009), and Rubin’s taste-and-listening stance [(Rubin 2023, 42)](#ref-rubin-2023) *contradicts* any tool-first literacy that treats software fluency as creativity itself — that contradiction is retained on purpose. Fourth, the honest question the unit cannot answer for you is whether *your* favourite saved image last month was a practice you could name, or only a file you liked. What will you do with those gaps this week — keep Lab traces honest in the portfolio index, or start inventing a deliverable that How to Pass does not ask for? Resolving that choice for you would defeat the point of a course that begins by refusing the tidy container — and by keeping **D1 Analysis** as the first graded stake.
+
+---
+
 ## References
 
-- Shinkle, Eugenie. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I. B. Tauris. ISBN 9781845115166.
-- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. https://doi.org/10.1080/1362704X.2016.1173349.
-- Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226.
+- <span id="ref-shinkle-2008">Shinkle, Eugenie. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I. B. Tauris. ISBN 9781845115166.</span>
+- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936. — Ahmes coat `94897108`; page-verified for imagination / fantasy / creativity distinction.</span>
+- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Ahmes coat `574691eb`; practitioner counterpoint (taste / listening) — not peer-reviewed image pedagogy.</span>
+- <span id="ref-rocamora-2017">Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. https://doi.org/10.1080/1362704X.2016.1173349. *(bibliography present; Ahmes page node still open — do not treat in-prose page cites as verified yet)*</span>
+- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226. *(bibliography present; Ahmes page node still open)*</span>
+- <span id="ref-norman-2013">Norman, Donald A. 2013. *The Design of Everyday Things*. Revised and expanded edition. New York: Basic Books. ISBN 9780465050659.</span>
+- <span id="ref-kleon-2019">Kleon, Austin. 2019. *Keep Going: 10 Ways to Stay Creative in Good Times and Bad*. New York: Workman Publishing. ISBN 9781523507863.</span>
+- <span id="ref-monteiro-2019">Monteiro, Mike. 2019. *Ruined by Design: How Designers Destroyed the World, and What We Can Do to Fix It*. San Francisco: Mule Design. ISBN 9781090532084.</span>
+- <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination*. London: Routledge. ISBN 9780203259412. — Ahmes coat `178b47c2`; cultural/theological imagination frame — light gap fill, not required for I.1 body claims.</span>
+
+**Missing evidence — declared.** Shinkle (2008) supports the field-of-practices frame. It does **not** validate a tool sequence for teaching digital-image editing or capture. Hüppauf/Wulf and Rubin enrich Analysis vocabulary and contradiction work; they do not replace fashion-image primary pedagogy.
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-- Shinkle, E. (2008). *Fashion as Photograph: Viewing and Reviewing Images of Fashion.* I. B. Tauris. ISBN `9781845115166`. Ahmes coat `1936070c`, node `cca1472b-b0c6-594c-8e13-ed87d6b73897`, p.15. `(Shinkle 2008, 15)`. Resolved via `ahmes query &#45;&#45;cite &#45;&#45;require-evaluator-safe`, `evaluator_safe=yes` (confidence 0.95, source=openlibrary/metadata; re-confirmed live this session, not assumed from the matrix text).
+PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; discovery={service=DevIAC; project_slug=profield-digital-creativity; knowledge_scope=field_prospection}; source={document_coat=1936070c; extraction_db=ahmes-library/scholar/documents/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/extract/extraction.db; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes
+MEDIA_RIGHTS_LINE: deck=I.1 accepted Profield cache slots; geometrical=uem-henon-pass-* SVG UUIDs in caption
 -->
 {% endif %}
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **9** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+*Forge date: 2026-09-14 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1 · DC voice-homogenization pass (I.1 as DC voice anchor)*
+
+
 {% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-node/citation named in digital-creativity-pedagogy/grounding/README.md matrix row I.1; node text read directly from fission_node.markdown_content via sqlite3, not from a vector/Athanor preview; re-verified live via `ahmes query &#45;&#45;cite` this session
--->
-{% endif %}
-- **Missing evidence — declared, not papered over.** Shinkle (2008) supports the field-of-practices frame this unit opens with. It does **not** validate a tool sequence for teaching digital-image editing or capture. Do not cite this unit as evidence that its sequence (annotate by practice, then locate the boundary) teaches better than an alternative; no reviewed source makes that claim.
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-PROFIELD_ROUTING: unit=I.1; temario=T1-image-2d-volume.pass1.resultant.mdc § "Introducción a las imágenes digitales"; subfield_runs=digital-creativity/02-temario-contenidos; forward_only=dc-2d-image-craft-pedagogy (Curcic [ESTABLISHED] → I.2 only)
-ESTABLISHED_ROUTING: Shinkle ↔ T1 canonical-theoretical; Burrough/Poynton/Manovich/Kędra ↔ T1 technical/literacy (I.2–I.4 adjacent); Perthuis fashion photograph ↔ T1 academic (debate support, not VERIFIED here)
-EMERGING_ROUTING: T1 § animated/motion [EMERGING] motion graphics → I.8/I.9; transmedia circulation → MASTER-IDEAS I.1 emerging ([BIBLIO-GAP])
-PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="fashion design education field of practices art commerce boundary"; source_locator=shinkle-2008-fashion-design-practice; similarity=null; proposed_use="opening scholarly frame"}; source={document_coat=1936070c; extraction_db=ahmes-library/scholar/documents/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/extract/extraction.db; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; page_index=null; printed_page=15}; resolver="ahmes query --cite --node cca1472b-b0c6-594c-8e13-ed87d6b73897 evaluator_safe=yes"; quote="shifting and highly permeable"; public_citation="(Shinkle 2008, 15)"; supports="field of practices and shifting art/commerce boundary"; does_not_support="software tutorial sequence or classroom efficacy"
-PROVENANCE_LINE: claim=I.1.gap.tool-pedagogy; status=NONE; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="digital image introduction classroom photoshop pedagogy"; source_locator=null; similarity=null; proposed_use="gap retained"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="validated intro-to-digital-images teaching method"
-PROVENANCE_LINE: claim=I.1.emerging.transmedia; status=[BIBLIO-GAP]; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="fashion image transmedia circulation algorithmic mediation education"; source_locator=null; similarity=null; proposed_use="frontier signal only"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming distributed brand circulation as open question"; does_not_support="pedagogical prescription for transmedia units"
-MEDIA_RIGHTS_LINE: slot=I.1.video.practice-boundary; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.1.still.editorial-vs-commercial; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.1.graphic.image-regimes; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-CRITICAL_ROUTING: unit=I.1; critica=C1-fashion-digital-world § Rocamora mediatization; C3-gender-minorities-silences § Reddy-Best textbook audit
-PROVENANCE_LINE: claim=I.1.critical.mediatization; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="mediatization digital media fashion field"; source_locator=C1-fashion-digital-world.pass1.resultant.mdc; similarity=null; proposed_use="critical perspective on image circulation"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Rocamora 2017 not in scholar vault — procurement pending; quote=none; public_citation="(Rocamora 2017)"; supports="media logics penetrate fashion production and everyday self-fashioning"; does_not_support="tool pedagogy or classroom sequence"
-PROVENANCE_LINE: claim=I.1.critical.textbook-audit; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="fashion textbooks race gender body bias"; source_locator=C3-gender-minorities-silences.pass1.resultant.mdc § Classroom implication; similarity=null; proposed_use="studio reference audit practice"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Reddy-Best 2018 not in scholar vault — procurement pending; quote=none; public_citation="(Reddy-Best et al. 2018)"; supports="auditing who counts as normal body and legitimate designer in studio references"; does_not_support="validated classroom efficacy of audit exercise"
+<!-- lesson_uuid: 9c2e4a71-dc11-4b8f-a1e0-20260914i1dc
+     vault_refs_consulted: 9
+     tuning_memory: ~/src/deviac/fine-tuning/thessia-tuning-memory/
+     tuning_records:
+      - 2026-09-14-1c641838-dc-i1-idea1 (Idea 1 — Thessia raw REJECTED CI3 bare-year + sprawl; integrated = operator amendment; training negative retained)
+      - 2026-09-14-8fa73c0d-dc-i1-idea2
+      - 2026-09-14-e959fe13-dc-i1-idea3
+      - 2026-09-14-6f8bdb95-dc-i1-idea4
+      - 2026-09-14-6010c485-dc-i1-idea5
+      - 2026-09-14-b313e281-dc-i1-idea6
+     verbatim_registry: registries/dc-i1-verbatims.json (Shinkle 2008, 15 verbatims populated)
+     voice_anchor_for_later_dc: Masterclass idea 1 integrated paragraph
+     harness: prompt-v2.1 + --verbatim-registry + --expected-sentences 4 + --brief (CI3 tabular coats)
+     forger_versions: dc-unit-forge=teaching-week-override-2026-09, lesson-scribe=0.1, student-slideshow-forge=golden-rules-2026-09-14
 -->
 {% endif %}

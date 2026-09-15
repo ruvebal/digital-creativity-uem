@@ -42,8 +42,10 @@ Mnemonic: **Lab = leave traces in the portfolio. Workshop = work the deliverable
          ↓
 [Lab · Portfolio]  exercises + debates  ← announced by geometrical slide first
          ↓
-[Workshop · Deliverable]  work time on next deliverable  ← geometrical open + outro
+[Workshop · Deliverable]  work time on next **graded** deliverable (D1–D3)  ← geometrical open + outro
 ```
+
+**Early-unit law (sessions 1–2, before student D1 defences):** Workshop names **D1 Analysis** as the next graded stake and leaves the defence **blank** until the Madrid visit brief exists. Do **not** invent a side “first studio artefact,” image-generation pack, or other deliverable that is not on How to Pass. Lab may still practise reading moves as portfolio traces — that is Lab, not Workshop graded work.
 
 Indicative 120 minutes (adjust live; keep the order):
 
@@ -97,10 +99,15 @@ portfolio_bound: true | false
 | | TC | DC |
 | - | -- | -- |
 | Object | **Free choice · free format** — discursive circulation as cultural feedback (palimpsest) | Transpose chosen material **into an image** (series OK) |
-| Theory home | `DISCURSIVE-CIRCULATION-FORGE.mdc` (trans-unit) | Critical transposition + image ontology adjacency |
+| Theory home | CT `DISCURSIVE-CIRCULATION-FORGE.mdc` (trans-unit) | Critical transposition + `IMAGE-ONTOLOGY-FORGE.mdc` |
 | Evidence | Source declaration + process trail + reading of **desajuste** production↔recognition | Source + image series + process trail |
+| Required stakes | **Steimberg** genre/style/transposition · **Werhane & Bevan** moral imagination · **Munari** constraint/manifest (page-verify before Chicago) | Same ethical + circulation stakes; image ontology owns form |
 
-This is the **critical review trans-unit** — not a fake CONTENIDOS ID; it is a **course-wide deliverable** grounded in the masterclass forge.
+This is the **critical review trans-unit** — not a fake CONTENIDOS ID; it is a
+**course-wide deliverable**. It belongs to the **transversal CV critical layer**
+with **C1–C3** (ideology; labour; GenAI authorship). Fail closed if D2 briefs
+omit triad location, desajuste reading, or one named stake from
+{Steimberg · Werhane · Munari} when cites are still open.
 
 ### D3 — Atrium cohort event
 

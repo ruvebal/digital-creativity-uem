@@ -247,6 +247,29 @@ course weighting by assertion.
 
 ---
 
+## 3a. Prose is written through `lesson-scribe`, not by the forger inline
+
+**Sibling:** `~/src/.cursor/skills/lesson-scribe/SKILL.md` (studio-level; same harness CT uses).
+
+- Slideshow sentences come from enrichment / `MAIN-IDEAS` (human, teenager-legible) — **not** Thessia.
+- Lesson Masterclass / Analysis paragraphs are drafted by `thessia-scholar-v3` via `lesson-scribe`, one BRIEF per paragraph, archived under `~/src/deviac/fine-tuning/thessia-tuning-memory/`.
+- Prompt template: `_template/prompt-v2.1.md` with `[S1]…[S4]` markers.
+- Generation wrapper flags (mandatory once a unit has a registry):
+  `--verbatim-registry` · `--expected-sentences 4` · `--brief` (CI3 now parses lesson-scribe tabular coats).
+- Every lesson ships `## Conclusion` (gaps as invitation) before `## References`, plus `## AI-assisted authorship` with internal UUID + date.
+  Authorship: Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) **wrote** the
+  lesson in the crea-comm.net studio (local agentic harness, MCP retrieval,
+  RAG over the curriculum vault, scholar-voice model fine-tuned on his writing).
+  State **how many** vault sources were consulted (`<vault_refs_n>` = `id="ref-…"`
+  count). **Never** `(ECSIT / UEM)` in this footer.
+- Voice anchor for DC reforges: after I.1 is homogenized through this harness, all later DC units cite a specific I.1 paragraph as style anchor — not a whole file.
+
+Golden rules for slides (shared with CT): see
+[`forge/STUDENT-SLIDESHOW-FORGE.mdc`](./forge/STUDENT-SLIDESHOW-FORGE.mdc)
+§Golden rules — bigger type, 17-year-old register, Ahmes-only quotes with
+provenance in source comments, `(Author, Year)` as links to References,
+geometrical captions include SVG UUID.
+
 ## 4. Forge order (first-run)
 
 | Wave | Focus | CONTENIDOS bias |
@@ -256,7 +279,9 @@ course weighting by assertion.
 | **2** | CD I **I.5–I.6** volume / 3D form | forma tridimensional · Volumen |
 | **3** | Avatars · experiencias · AR · vídeo · retoque | remaining CD II anchors |
 | **4** | CD I 2D stack (dibujo, color, efectos, animación, bodegones) | remaining CD I anchors |
-| **5** | Decks | after prose settles |
+| **5** | Decks **before** lesson-scribe prose (spine + MAIN-IDEAS first) | after structure settles; prose via §3a |
+
+**Teaching-week override (2026-09):** homogenize **I.1** voice through `lesson-scribe`, then forge **I.1 + I.2** together (slideshow spine + prose) so this week's teaching and the voice template land as one pass.
 
 ---
 
@@ -269,3 +294,19 @@ course weighting by assertion.
 5. **No citation without a node. No VTON sprint. No FE hour scheme.**  
 6. **Discover in vectors, cite from nodes.**
 7. **A slide uses an accepted media slot or a course-generated accessible graphic; never a raw discovery-index image.**
+8. **Lesson prose via `lesson-scribe` — never freehand into the lesson file.**
+## Cue enrichment corpus (2026-09-14) — grounding coats available
+
+Shared with CT U2 cue-enrich. Prefer for Analysis field-tension and Conclusion contradiction work; do not invent pages.
+
+| Coat | Use in DC |
+| --- | --- |
+| `94897108` Hüppauf & Wulf 2009 | Imagination / creativity / fantasy distinction (I.1 / I.2 Analysis) |
+| `574691eb` Rubin 2023 | Taste / listening vs tool-first literacy (practitioner status declared) |
+| `178b47c2` Avis 2013 | Cultural/theological creative imagination — light gap fill |
+| `12be32e4` Smith 2013 | Collaboration / constraint analogies for Lab/Workshop |
+| `9bdb76cd` Lehrer 2012 | Popular-science caveats only |
+| `e77c3d8d` Markman et al. 2009 | Alternative / counterfactual thinking bridge |
+
+Full receipt: `~/src/deviac/fine-tuning/thessia-tuning-memory/registries/CT-U2-CUE-ENRICH-RECEIPT.md`.
+
