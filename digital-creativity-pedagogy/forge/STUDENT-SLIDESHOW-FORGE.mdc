@@ -177,6 +177,17 @@ citation:
 No Profield-backed slide is published until `media_slot_id` resolves to an accepted MP5 record
 or the slide is a course-generated diagram / geometrical structural slide with accessible text.
 
+## Publish gate — track + lesson links (fail-closed)
+
+When a unit deck ships (`docs/tracks/en/uem/2627-dc*/…/index.html` + `content.json`), **all** of the following must exist before claiming the unit forged:
+
+1. **EN track table** — unit row includes `· [slideshow]({{ '/tracks/dci|dcii/<slug>/' | relative_url }})` beside the lesson link.
+2. **ES track table** — same deck URL as `· [presentación](…)` (decks are EN-only until a Spanish pack exists).
+3. **EN + ES lesson frontmatter** — `deck_url: /tracks/dci|dcii/<slug>/`
+4. **EN + ES lesson cover** — **In-class deck** / **Presentación en clase** link to that permalink, plus How-to-Pass rhythm line.
+
+Do **not** invent slideshow links for scaffold units that have no deck folder yet (I.3–I.9, CD II units until forged).
+
 ## Local Ollama forge phase
 
 The ontology lecture and student slideshow use the locally installed model:

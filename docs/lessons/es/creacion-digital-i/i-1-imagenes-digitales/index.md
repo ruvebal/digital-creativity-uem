@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-1-imagenes-digitales/
 description: 'Una imagen digital de moda es un campo de prácticas, no un formato de archivo — el marco con el que se abre este curso, antes de abrir ninguna herramienta.'
 status: scaffold
 tags: [creacion-digital-i, imagenes-digitales, fotografia-moda, fundamentos]
+deck_url: /tracks/dci/i-1-fashion-image/
 ---
 
 <!-- prettier-ignore-start -->
@@ -37,6 +38,10 @@ tags: [creacion-digital-i, imagenes-digitales, fotografia-moda, fundamentos]
 **Anclaje CONTENIDOS (verbatim, guía oficial):** *Introducción a las imágenes digitales.*
 
 **Competencias que sirve (`1-creacion-digital-i.json`):** `CON1` (diferenciar técnicas de representación audiovisual de ideas de moda y sus medios de difusión), `HAB9` (utilizar profesionalmente tecnología digital para el tratamiento de imágenes, textos y sonidos), `COMP8` (manejar herramientas digitales de representación gráfica o audiovisual en la comunicación de ideas de moda), `COMP9` (crear ideas nuevas a partir de conceptos conocidos, resolviendo problemas de forma original).
+
+**Presentación en clase:** [Diapositivas I.1]({{ '/tracks/dci/i-1-fashion-image/' | relative_url }})
+
+**Cada clase ordinaria:** Análisis → Masterclass → **Lab (Portfolio)** → **Workshop (Entregable)**. Lab ≠ Workshop. Ver [Cómo aprobar]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

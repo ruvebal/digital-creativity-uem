@@ -10,6 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-1-digital-images/
 description: 'A digital fashion image is a field of practices, not a file format — the frame this course opens with, before any tool is opened.'
 status: pilot
 tags: [digital-creativity-i, digital-images, fashion-photography, foundations]
+deck_url: /tracks/dci/i-1-fashion-image/
 ---
 
 <!-- prettier-ignore-start -->
@@ -37,6 +38,10 @@ tags: [digital-creativity-i, digital-images, fashion-photography, foundations]
 **CONTENIDOS anchor (verbatim, official guía):** *Introducción a las imágenes digitales.*
 
 **Competencies served (`1-creacion-digital-i.json`):** `CON1`, `HAB9`, `COMP8`, `COMP9`.
+
+**In-class deck:** [I.1 student slideshow]({{ '/tracks/dci/i-1-fashion-image/' | relative_url }})
+
+**Every ordinary class:** Analysis → Masterclass → **Lab (Portfolio)** → **Workshop (Deliverable)**. Lab ≠ Workshop. See [How to Pass]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).
 
 This unit opens Digital Creativity I with a reading frame, not a tool sequence. A fashion image is defined by practices, venues, and shared goals — not by JPEG or PNG. The page-verified anchor is [Shinkle (2008, 15)](#ref-shinkle-2008). Tool pedagogy for intro-to-digital-images remains an open gap and is named as such.
 

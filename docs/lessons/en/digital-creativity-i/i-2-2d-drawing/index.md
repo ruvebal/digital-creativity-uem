@@ -10,6 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-2-2d-drawing/
 description: 'Drawing externalises visual thinking — studio-based assignment pedagogy embeds software technique in visual problems, with declared gaps for fashion-specific sequence validation.'
 status: pilot
 tags: [digital-creativity-i, 2d-drawing, vector-illustration, fashion-croqui]
+deck_url: /tracks/dci/i-2-2d-drawing/
 ---
 
 <!-- prettier-ignore-start -->
@@ -39,6 +40,10 @@ tags: [digital-creativity-i, 2d-drawing, vector-illustration, fashion-croqui]
 **Competencies served:** `CON1`, `HAB9`, `COMP8`, `COMP9` (same set as I.1).
 
 **Learning outcomes:** *"Seleccionar las herramientas de dibujo vectorial aplicadas al diseño y la comunicación"* — the one guía bullet that names this unit's anchor directly.
+
+**In-class deck:** [I.2 student slideshow]({{ '/tracks/dci/i-2-2d-drawing/' | relative_url }})
+
+**Every ordinary class:** Analysis → Masterclass → **Lab (Portfolio)** → **Workshop (Deliverable)**. Lab ≠ Workshop. See [How to Pass]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).
 
 After I.1's reading frame, this unit puts a path on screen. Drawing is taught as **externalised visual thinking** — anchor points, curves, and revision visible before polish — not as button fluency. Fashion drawing conventions (proportion, croquis, flats) supply a transferable visual grammar. Voice follows the homogenized I.1 Masterclass register.
 
