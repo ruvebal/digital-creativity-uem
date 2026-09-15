@@ -92,8 +92,7 @@ Ordinary unit deck spine (order binding):
 2–n. **Masterclass** moves (one idea per slide; Profield or diagram) — I.0 may use more taxonomy slides
 n. **`lab_opener`** (geometrical) — exercises are about to begin; they go into the **portfolio index**
 n+. **Lab exercises** (`portfolio_bound: true`)
-m. **`workshop_opener`** (geometrical) — deliverable work time
-m+. **Workshop** deliverable prompt
+m. **`workshop_opener`** / **`workshop_work`** — **only from session 4** (≈½ D2 Transposition · ≈½ D3 final event). **Omit entirely** on first lessons (I.1 / I.2 / sessions 1–3).
 z. **`outro`** (geometrical) — carry-forward
 
 One conceptual move, one heading, one sentence, one visual focus per Masterclass slide.
@@ -110,11 +109,11 @@ the sibling runtime.
 | Analysis strip | 00–30 | Modelled analysis (sessions 1–2) or **2×15 min** student defences (from session 3) | D1 defence slideshow |
 | Masterclass | 30–60 | Professor ideas + Profield images | conceptual notes |
 | **Lab (Portfolio)** | 60–90 | Exercises + debates — **must enter portfolio** | portfolio traces |
-| **Workshop (Deliverable)** | 90–120 | Protected time on the next **graded** deliverable (D1–D3) | D1–D3 progress |
+| **Workshop** | — / 90–120 | **Absent** in first lessons. From **session 4**: ≈½ **D2 Transposition** · ≈½ **D3 final event** | D2–D3 progress only |
 
-**I.1 / sessions 1–2:** Workshop = **D1 Analysis reminder** + blank slot until Madrid brief — never invent a side image-generation / annotated-pack deliverable. Lab portfolio traces ≠ graded Workshop work.
+**First lessons (I.1 / I.2 · sessions 1–3):** **No Workshop slides.** Session ends after Lab. Do **not** invent “studio piece this week” or any side deliverable. **D1 Analysis** is the next graded stake and is defended in the Analysis strip (from session 3) — it **never** receives Workshop clock.
 
-**Lab ≠ Workshop.** Lab leaves portfolio traces; Workshop advances deliverables. Names are **not** swapped.
+**Lab ≠ Workshop.** Lab leaves portfolio traces. Workshop (from s4) is Transposition + final event only — not “whatever deliverable is next,” and never D1.
 
 ### Background law
 
@@ -125,6 +124,8 @@ the sibling runtime.
 | `analysis_model` · `lab_exercise` · `workshop_work` | **Profield image background** when a unit asset exists — not `none` / not flat diagram |
 | `lab_opener` · `workshop_opener` · `outro` · `analysis_opener` | **Geometrical only** |
 | Never | Invented images; geometrical BG replacing a required Masterclass media slot |
+| Never | `organic-pixel-drift` / “circle dancing” (or any non-henon decorative SVG) as a slide background — transitions use **henon geometrical** only, and the forge caption **must** include the SVG content-hash UUID from the filename |
+| Lab/Workshop content without an accepted asset | `background_kind: none` (solid stage) until Profield assigns a slot — do **not** steal Masterclass images onto slides 10–12 |
 
 ### Quote hierarchy (revised 2026-09-15 · ∥ CT slideshow forge)
 

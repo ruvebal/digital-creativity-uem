@@ -97,12 +97,34 @@ function cacheKey(assetId, url) {
   return createHash('sha256').update(String(assetId || url)).digest('hex').slice(0, 16);
 }
 
+function isImageAssetUrl(url) {
+  const raw = String(url || '');
+  const path = raw.split('?')[0].toLowerCase();
+  if (!path) return false;
+  // NYPL image gateway serves binaries through index.php?id=…
+  if (/images\.nypl\.org\/index\.php/i.test(raw)) return true;
+  if (/\.php$/i.test(path) || path.includes('.php/')) return false;
+  return /\.(jpe?g|png|gif|webp|avif|svg)$/i.test(path) || /^https?:/i.test(raw);
+}
+
 function extensionFromUrl(url, contentType) {
   const pathExt = (String(url).split('?')[0].match(/\.([a-z0-9]+)$/i) || [])[1];
+  if (pathExt && /^(php|html|htm|asp|aspx)$/i.test(pathExt)) {
+    // Gateway URLs (e.g. NYPL index.php) — trust content-type only.
+    if (/png/i.test(contentType || '')) return 'png';
+    if (/webp/i.test(contentType || '')) return 'webp';
+    if (/gif/i.test(contentType || '')) return 'gif';
+    if (/jpeg|jpg/i.test(contentType || '')) return 'jpg';
+    if (/svg/i.test(contentType || '')) return 'svg';
+    throw new Error(`non-image extension .${pathExt}`);
+  }
   if (pathExt && pathExt.length <= 5) return pathExt.toLowerCase();
   if (/png/i.test(contentType || '')) return 'png';
   if (/webp/i.test(contentType || '')) return 'webp';
   if (/gif/i.test(contentType || '')) return 'gif';
+  if (contentType && !/^image\//i.test(contentType)) {
+    throw new Error(`non-image content-type ${contentType}`);
+  }
   return 'jpg';
 }
 
@@ -129,6 +151,9 @@ async function ensureLocalAsset(remoteUrl, assetId) {
   const key = cacheKey(assetId, sourceFileUrl);
   const existing = readdirSync(cacheDir).find((name) => name.startsWith(`${key}.`));
   if (existing) {
+    if (/\.php$/i.test(existing)) {
+      throw new Error(`cached non-image ${existing}`);
+    }
     return {
       displayUrl: `${siteBase}/assets/images/profield-cache/${existing}`,
       sourceFileUrl,
@@ -387,35 +412,103 @@ async function rehydrateDecks() {
     }
 
     selected.sort((a, b) => selectionScore(b) - selectionScore(a) || String(a.asset_id).localeCompare(String(b.asset_id)));
+    selected = selected.filter((asset) => {
+      const remote = stripUtm(asset.asset_url || asset.preview_url || '');
+      if (!isImageAssetUrl(remote) && remote) {
+        console.warn(`skip non-image asset ${asset.asset_id}: ${remote}`);
+        return false;
+      }
+      return true;
+    });
 
     const assets = [];
-    for (const [index, asset] of selected.entries()) {
+    for (const asset of selected) {
       const existing = (content.assets || []).find((candidate) =>
         candidate.asset_id === asset.asset_id
         || candidate.canonical_source_url === asset.canonical_source_url);
       const overrideSlot = Object.entries(selection.media_overrides || {}).find(([, id]) => id === asset.asset_id)?.[0];
-      const slot = overrideSlot || `${unit}.still.profield-${index + 1}`;
       const remote = stripUtm(asset.asset_url || asset.preview_url || existing?.source_file_url || '');
-      const urls = await ensureLocalAsset(remote, asset.asset_id);
+      if (remote && /\.php($|\?)/i.test(remote) && !/images\.nypl\.org\/index\.php/i.test(remote)) {
+        console.warn(`skip php url ${asset.asset_id}: ${remote}`);
+        continue;
+      }
+      let urls;
+      try {
+        urls = await ensureLocalAsset(remote, asset.asset_id);
+      } catch (error) {
+        console.warn(`skip asset ${asset.asset_id}: ${error.message || error}`);
+        continue;
+      }
+      if (/\.php($|\?)/i.test(String(urls.displayUrl || ''))) {
+        console.warn(`skip cached php ${asset.asset_id}: ${urls.displayUrl}`);
+        continue;
+      }
+      const slot = overrideSlot || `${unit}.still.profield-${assets.length + 1}`;
       assets.push(publicAsset(asset, slot, existing, urls));
     }
 
+    // Priority fill: cover → analysis_model → masterclass (unique).
+    // Exercises (lab_exercise / workshop_work) always get image backgrounds —
+    // unique surplus first, then recycle from the pool (never leave solid/none).
+    // Geometrical / diagram / structural openers are never overwritten.
     const rankedSlots = assets.map((a) => a.media_slot_id);
     let rankCursor = 0;
     const structuralRoles = new Set(['analysis_opener', 'lab_opener', 'workshop_opener', 'outro']);
-    const slides = (content.slides || []).map((slide) => {
-      if (slide.background_kind === 'geometrical' || slide.background_kind === 'diagram') return slide;
-      if (structuralRoles.has(slide.slide_role)) return slide;
-      if (!assets.length) return slide;
-      const wantsMedia = slide.background_kind === 'profield'
-        || Boolean(slide.media_slot_id)
-        || slide.slide_role === 'masterclass'
-        || slide.slide_role === 'lab_exercise'
-        || slide.slide_role === 'analysis_model';
-      if (!wantsMedia) return slide;
-      const slot = rankedSlots[rankCursor % rankedSlots.length];
+    const priorityRoles = ['unit_cover', 'analysis_model', 'masterclass'];
+    const surplusRoles = new Set(['lab_exercise', 'workshop_work']);
+
+    const takeSlot = () => {
+      if (rankCursor >= rankedSlots.length) return null;
+      const slot = rankedSlots[rankCursor];
       rankCursor += 1;
-      return { ...slide, media_slot_id: slot, background_kind: 'profield' };
+      return slot;
+    };
+
+    const slides = (content.slides || []).map((slide) => {
+      if (slide.background_kind === 'geometrical' || slide.background_kind === 'diagram') {
+        return { ...slide, background_kind: slide.background_kind === 'diagram' ? 'geometrical' : slide.background_kind, media_slot_id: undefined };
+      }
+      if (structuralRoles.has(slide.slide_role)) {
+        const next = { ...slide, background_kind: 'geometrical' };
+        delete next.media_slot_id;
+        return next;
+      }
+      if (!assets.length) return slide;
+
+      if (priorityRoles.includes(slide.slide_role)
+        || (slide.background_kind === 'profield' && !surplusRoles.has(slide.slide_role))) {
+        const slot = takeSlot();
+        if (!slot) {
+          const next = { ...slide, background_kind: 'none' };
+          delete next.media_slot_id;
+          return next;
+        }
+        return { ...slide, media_slot_id: slot, background_kind: 'profield' };
+      }
+
+      if (surplusRoles.has(slide.slide_role)) {
+        // Exercises must always have image backgrounds. Prefer unused slots, then recycle.
+        let slot = takeSlot();
+        if (!slot && rankedSlots.length) {
+          slot = rankedSlots[rankCursor % rankedSlots.length];
+          rankCursor += 1;
+        }
+        if (!slot) {
+          const next = { ...slide, background_kind: 'none' };
+          delete next.media_slot_id;
+          return next;
+        }
+        return { ...slide, media_slot_id: slot, background_kind: 'profield' };
+      }
+
+      return slide;
+    }).map((slide) => {
+      // Drop undefined media_slot_id keys so JSON stays clean.
+      if (slide.media_slot_id === undefined) {
+        const { media_slot_id: _drop, ...rest } = slide;
+        return rest;
+      }
+      return slide;
     });
 
     const next = {

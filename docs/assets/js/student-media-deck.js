@@ -19,12 +19,7 @@
     'uem-henon-pass-06-coherence-a8444d20854d.svg',
   ];
   const geometricalBase = `${base}/assets/images/fractal-pass-track`;
-  const diagramFallback = {
-    url: `${base}/assets/images/media/organic-pixel-drift.svg`,
-    title: 'Course diagram',
-    credit_line: 'Course-generated visual',
-    licence: 'Original studio SVG · educational use',
-  };
+  // Never use organic-pixel-drift / “circle dancing” as a slide background.
   const loadingBackground = `${base}/assets/images/media/fractal-loading.svg`;
 
   const captionRoot = document.createElement('aside');
@@ -147,19 +142,28 @@
         let fileUrl;
         let captionAsset;
 
-        if (isGeometrical(slide)) {
+        const transitionRoles = ['analysis_opener', 'lab_opener', 'workshop_opener', 'outro'];
+        const treatAsGeometrical = isGeometrical(slide)
+          || (transitionRoles.includes(slide.slide_role));
+        const assetBroken = directAsset?.asset_url && /\.php($|\?)/i.test(directAsset.asset_url);
+        const hasUsableAsset = directAsset?.asset_url && !assetBroken;
+
+        if (treatAsGeometrical) {
           const file = geometricalCycle[geometricalIndex % geometricalCycle.length];
           geometricalIndex += 1;
           fileUrl = `${geometricalBase}/${file}`;
-          const uuidMatch = file.match(/-([a-f0-9]{8,})\.svg$/i);
+          const uuidMatch = file.match(/-([a-f0-9]{8,})\.(?:svg|png)$/i);
+          if (!uuidMatch) {
+            console.warn('Geometrical background missing UUID hash in filename:', file);
+          }
           captionAsset = {
-            title: file.replace(/\.svg$/, '').replace(/uem-henon-pass-\d+-/, '').replace(/-/g, ' '),
+            title: file.replace(/\.(?:svg|png)$/i, '').replace(/^uem-henon-pass-\d+-/, '').replace(/-/g, ' '),
             credit_line: 'Course geometrical background',
             licence: 'Original studio SVG · educational use',
             url: fileUrl,
             svg_uuid: uuidMatch ? uuidMatch[1] : '',
           };
-        } else if (directAsset?.asset_url) {
+        } else if (hasUsableAsset) {
           fileUrl = stripUtm(directAsset.asset_url);
           captionAsset = {
             ...directAsset,
@@ -168,8 +172,15 @@
             credit_line: humanProvider(directAsset.credit_line || directAsset.provider),
           };
         } else {
-          fileUrl = diagramFallback.url;
-          captionAsset = diagramFallback;
+          // Missing Profield asset: solid stage — never organic-pixel-drift (“circle dancing”).
+          fileUrl = '';
+          captionAsset = {
+            title: 'Image pending review',
+            credit_line: 'Profield assignment incomplete',
+            licence: 'No decorative fallback — geometrical backgrounds are reserved for transition slides',
+            url: '',
+            svg_uuid: '',
+          };
         }
 
         const section = document.createElement('section');
@@ -186,7 +197,7 @@
             ${slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : ''}
             ${slide.portfolio_trace ? `<p class="student-media-slide__prompt">${escapeHtml(slide.portfolio_trace)}</p>` : ''}
           </div>`;
-        backgroundUrlBySection.set(section, fileUrl);
+        if (fileUrl) backgroundUrlBySection.set(section, fileUrl);
         captionsBySection.set(section, publicCaption(captionAsset));
         slidesRoot.append(section);
       });

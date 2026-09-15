@@ -10,6 +10,9 @@ permalink: /lessons/en/digital-creativity-ii/ii-1-retoque-moda/
 description: 'Advanced retouching as a representation-ethics skill: every edit changes what a viewer believes about a body or a garment — declare it.'
 status: scaffold
 tags: [digital-creativity-ii, retouching, image-editing, representation, disclosure]
+master_idea: 'Advanced retouching is a representation-ethics skill before it is a tool skill'
+practice_anchor: 'Non-destructive editing, healing, colour correction, masking, and proportion edits as durable operation classes — keep a before/after pair and an honest disclosure line'
+frontier_signal: 'Generative fill may accelerate polish faster than pedagogical validation; treat generated pixels as input to judgement'
 ---
 
 <!-- prettier-ignore-start -->
@@ -23,27 +26,30 @@ tags: [digital-creativity-ii, retouching, image-editing, representation, disclos
 
 ---
 
+<div class="lesson-opener" markdown="1">
+
 > _"The wise developer knows: the smallest image carries the heaviest meaning."_
 > — Tao of Development, `img-001`
 {: .tao-development-quote }
 
 > **AI Assistance Disclosure:** generative retouching tools are studio-normal here. Every retouched image on your work carries a disclosure line — "no retouching" is one honest answer among several, not a default assumption.
 
----
-
 {% include lesson-semantic-graphic.html %}
 
-## Where this sits — CONTENIDOS and competencies
+</div>
 
-**CONTENIDOS anchor (verbatim, official guía):** *Retoque fotográfico avanzado de imágenes moda.*
-
-**Competencies served (`3-creacion-digital-ii.json`):** `CON1` (differentiate audiovisual representation techniques and their dissemination media), `HAB1` (graphically represent fashion ideas), `COMP8` (handle digital graphic/audiovisual representation tools in fashion communication), `COMP9` (create new ideas from known concepts, solving problems originally).
-
-**Learning outcomes this unit serves** (verbatim from `learning_outcomes`): *"Aplicar herramientas informáticas avanzadas en la creación y la representación digital de creaciones de moda."* · *"Manejar formatos de archivo digitales propios y genéricos."*
-
-**Evaluation weights this unit's evidence can feed** (CD II presencial, framework §6): **Investigaciones y proyectos 20%** scores the before/after piece directly; the disclosure line can feed **Cuaderno de prácticas de laboratorio/taller 10%**. This unit does not touch Pruebas (55%) or Caso/problema (15%).
-
----
+{% comment %}
+cover-agentic:
+  unit: II.1
+  contenidos: "Retoque fotográfico avanzado de imágenes moda."
+  competencies: [CON1, HAB1, COMP8, COMP9]
+  learning_outcomes:
+    - "Aplicar herramientas informáticas avanzadas en la creación y la representación digital de creaciones de moda."
+    - "Manejar formatos de archivo digitales propios y genéricos."
+  one_line: "Every edit changes what a viewer believes about a body or a garment — declare it."
+  class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
+  evaluation_feed: "Investigaciones y proyectos 20%; Cuaderno de prácticas 10%"
+{% endcomment %}
 
 ## 🎯 Learning Objectives
 
@@ -62,12 +68,6 @@ By the end of this unit, you will be able to:
 **Claim:** advanced retouching is a *representation-ethics* skill before it is a tool skill — every edit changes what a viewer believes about a body or a garment, whether or not the editor intended that effect. This unit teaches the tool craft and the disclosure discipline together, not the tool craft alone.
 
 Digitally altered images can influence individuals' body satisfaction and beauty aspirations (MacCallum and Widdows 2018, 1). That finding supports teaching consequence analysis and visual literacy alongside formal disclosure — it does **not** validate which retouching exercises, sequence, or classroom workflow best teach advanced fashion retouching.
-
-**What this supports, and what it does not.** MacCallum and Widdows (2018) support naming that altered images shape body satisfaction and beauty aspirations. McLean et al. (2015) support treating self-photo editing as associated with body dissatisfaction in adolescent girls — adjacent to retouch ethics, not a classroom policy prescription. **No reviewed source validates a fashion-retouch teaching sequence** for HE; tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** non-destructive editing, healing, colour correction, masking, and proportion edits as durable operation classes — separate from any one application's UI or filter menu.
-
-**Frontier signal (field lens):** generative fill and AI-assisted retouching may accelerate polish faster than pedagogical validation; treat any generated pixel as input to judgement, not proof that a disclosure line is honest or complete.
 
 ## Critical perspective
 
@@ -177,3 +177,10 @@ MEDIA_RIGHTS_LINE: slot=II.1.still.before-after; status=PENDING; licence=none; c
 MEDIA_RIGHTS_LINE: slot=II.1.graphic.edit-ledger; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 -->
 {% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+MacCallum and Widdows (2018) support naming that altered images shape body satisfaction and beauty aspirations. McLean et al. (2015) support treating self-photo editing as associated with body dissatisfaction in adolescent girls — adjacent to retouch ethics, not a classroom policy prescription. **No reviewed source validates a fashion-retouch teaching sequence** for HE; tool docs ground operations only — label `[PLATFORM]`, never research. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.

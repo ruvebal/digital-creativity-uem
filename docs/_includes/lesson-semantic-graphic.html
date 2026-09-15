@@ -1,23 +1,65 @@
+{% comment %}
+  Opening framing + semantic graphic.
+  Master idea = the unit's one pedagogical claim (rule students can repeat).
+  Practice anchor = durable studio operations / field constructs to rehearse —
+  never an application menu, preset pack, or vendor UI.
+  Frontier signal = named open gap (optional).
+  Prefer page.master_idea / page.practice_anchor / page.frontier_signal;
+  else lesson_covers.json field_lens ("Established:" / "Emerging:").
+{% endcomment %}
 {% assign semantic_cover_key = page.slug | default: page.title | slugify %}
 {% assign semantic_cover = site.data.lesson_covers[semantic_cover_key] %}
-{% if semantic_cover %}
+
 {% if page.lang == 'es' %}
-{% assign semantic_idea = semantic_cover.master_idea_es | default: semantic_cover.master_idea %}
-{% assign semantic_lens = semantic_cover.field_lens_es | default: semantic_cover.field_lens %}
-{% assign semantic_lens = semantic_lens | replace: 'Established:', 'Anclaje de práctica:' | replace: 'Emerging:', 'Señal de frontera:' %}
-<aside class="lesson-framing" aria-label="Idea maestra y perspectiva de campo">
-<p><strong>Idea maestra:</strong> {{ semantic_idea }}.</p>
-<p><strong>Perspectiva de campo:</strong> {{ semantic_lens }}.</p>
-</aside>
+  {% assign semantic_idea = page.master_idea_es | default: page.master_idea | default: semantic_cover.master_idea_es | default: semantic_cover.master_idea %}
+  {% assign practice_raw = page.practice_anchor_es | default: page.practice_anchor | default: semantic_cover.field_lens_es | default: semantic_cover.field_lens %}
+  {% assign frontier_raw = page.frontier_signal_es | default: page.frontier_signal %}
+  {% assign framing_label = 'Idea maestra y anclaje de práctica' %}
+  {% assign idea_label = 'Idea maestra' %}
+  {% assign practice_label = 'Anclaje de práctica' %}
+  {% assign frontier_label = 'Señal de frontera' %}
 {% else %}
-{% assign semantic_idea = semantic_cover.master_idea %}
-{% assign semantic_lens = semantic_cover.field_lens %}
-{% assign semantic_lens = semantic_lens | replace: 'Established:', 'Practice anchor:' | replace: 'Emerging:', 'Frontier signal:' %}
-<aside class="lesson-framing" aria-label="Master idea and field lens">
-<p><strong>Master idea:</strong> {{ semantic_idea }}.</p>
-<p><strong>Field lens:</strong> {{ semantic_lens }}.</p>
+  {% assign semantic_idea = page.master_idea | default: semantic_cover.master_idea %}
+  {% assign practice_raw = page.practice_anchor | default: semantic_cover.field_lens %}
+  {% assign frontier_raw = page.frontier_signal %}
+  {% assign framing_label = 'Master idea and practice anchor' %}
+  {% assign idea_label = 'Master idea' %}
+  {% assign practice_label = 'Practice anchor' %}
+  {% assign frontier_label = 'Frontier signal' %}
+{% endif %}
+
+{% assign practice_text = practice_raw %}
+{% assign frontier_text = frontier_raw %}
+{% if practice_raw contains 'Emerging:' %}
+  {% assign practice_parts = practice_raw | split: 'Emerging:' %}
+  {% assign practice_text = practice_parts[0] | strip %}
+  {% if frontier_text == nil or frontier_text == '' %}
+    {% assign frontier_text = practice_parts[1] | strip %}
+  {% endif %}
+{% elsif practice_raw contains 'Frontera:' %}
+  {% assign practice_parts = practice_raw | split: 'Frontera:' %}
+  {% assign practice_text = practice_parts[0] | strip %}
+  {% if frontier_text == nil or frontier_text == '' %}
+    {% assign frontier_text = practice_parts[1] | strip %}
+  {% endif %}
+{% endif %}
+{% assign practice_text = practice_text | replace: 'Established:', '' | replace: 'Anclaje:', '' | replace: 'Practice anchor:', '' | replace: 'Anclaje de práctica:', '' | strip %}
+
+{% if semantic_idea or practice_text or semantic_cover %}
+<aside class="lesson-framing" aria-label="{{ framing_label }}">
+{% if semantic_idea %}
+<p><strong>{{ idea_label }}:</strong> {{ semantic_idea }}{% unless semantic_idea contains '.' %}.{% endunless %}</p>
+{% endif %}
+{% if practice_text and practice_text != '' %}
+<p><strong>{{ practice_label }}:</strong> {{ practice_text }}{% unless practice_text contains '.' %}.{% endunless %}</p>
+{% endif %}
+{% if frontier_text and frontier_text != '' %}
+<p><strong>{{ frontier_label }}:</strong> {{ frontier_text }}{% unless frontier_text contains '.' %}.{% endunless %}</p>
+{% endif %}
 </aside>
 {% endif %}
+
+{% if semantic_cover %}
 <figure class="lesson-semantic lesson-semantic--{{ semantic_cover.family }}" data-semantic-mode="{{ semantic_cover.mode }}" markdown="0">
 {% if page.slug == 'i-1-imagenes-digitales' %}
 <img src="{{ '/assets/images/lesson-covers/dc-i-01-image-regimes-graph.svg' | relative_url }}" width="1600" height="620" alt="Semantic graph connecting practice, venue, audience, circulation, and the changing boundary between art and commerce." />

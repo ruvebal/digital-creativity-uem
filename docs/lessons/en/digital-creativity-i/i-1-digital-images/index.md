@@ -11,6 +11,9 @@ description: 'A digital fashion image is a field of practices, not a file format
 status: pilot
 tags: [digital-creativity-i, digital-images, fashion-photography, foundations]
 deck_url: /tracks/dci/i-1-fashion-image/
+master_idea: 'An image is a cultural and communicative system, not merely a file'
+practice_anchor: 'Label practice · venue · audience · circulation before naming a file format; treat the art/commerce boundary as movable evidence, not a software setting'
+frontier_signal: 'Transmedia / algorithmic mediation and textbook-audit cites remain open procurement — named gaps, not settled classroom proof'
 ---
 
 <!-- prettier-ignore-start -->
@@ -24,36 +27,34 @@ deck_url: /tracks/dci/i-1-fashion-image/
 
 ---
 
+<div class="lesson-opener" markdown="1">
+
 > _"The path to mastery begins with reading. The path to enlightenment continues with practice."_
 <!-- TTDO fit: direct fit — an introductory unit is literally the "begins with reading" moment before I.2's hands-on drawing tools. -->
 > — Tao of Development, `qa-008`
 {: .tao-development-quote }
 
----
-
 {% include lesson-semantic-graphic.html %}
 
-## Cover — what this unit is about
+</div>
 
-**CONTENIDOS anchor (verbatim, official guía):** *Introducción a las imágenes digitales.*
-
-**Competencies served (`1-creacion-digital-i.json`):** `CON1`, `HAB9`, `COMP8`, `COMP9`.
-
-**In-class deck:** [I.1 student slideshow]({{ '/tracks/dci/i-1-fashion-image/' | relative_url }})
-
-**Every ordinary class:** Analysis → Masterclass → **Lab (Portfolio)** → **Workshop (Deliverable)**. Lab ≠ Workshop. See [How to Pass]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).
-
-This unit opens Digital Creativity I with a reading frame, not a tool sequence. A fashion image is defined by practices, venues, and shared goals — not by JPEG or PNG. The page-verified anchor is [Shinkle (2008, 15)](#ref-shinkle-2008). Tool pedagogy for intro-to-digital-images remains an open gap and is named as such.
-
-**Evaluation weights this unit's evidence can feed** (CD I presencial): **Investigaciones y proyectos 20%** (studio piece); **Cuaderno de prácticas 10%** (process notes). Pruebas (55%) and Caso/problema (15%) are untouched here.
+{% comment %}
+cover-agentic:
+  unit: I.1
+  contenidos: "Introducción a las imágenes digitales."
+  competencies: [CON1, HAB9, COMP8, COMP9]
+  one_line: "A fashion image is defined by practices, venues, and shared goals — not by JPEG or PNG."
+  class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
+  evaluation_feed: "Investigaciones y proyectos 20%; Cuaderno de prácticas 10%"
+  how_to_pass: "/tracks/dci/how-to-pass-this-track/"
+  page_verified_anchor: "Shinkle (2008, 15)"
+{% endcomment %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 **Learning outcomes:** the guía's `learning_outcomes` list is written toward I.5/I.6 and I.2–I.4; none names digital-image introduction verbatim — real guía granularity gap, not invented content.
 -->
 {% endif %}
-
----
 
 ## 🎯 Learning objectives
 
@@ -86,7 +87,7 @@ A fashion image that looks "finished" on a phone is usually the residue of a tem
 #### 2 · Not a file format
 
 <!-- thessia:dc-i1-idea2 -->
-Calling an image "a JPEG" answers the wrong question the way calling a coat "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 3](#exercise-3--the-jpeg-problem) asks you to separate practice from container in one short paragraph. Open one of your own downloads tonight and write what kind of fashion image it is *without* mentioning the extension — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
+Calling an image "a JPEG" answers the wrong question the way calling a garment "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 3](#exercise-3--the-jpeg-problem) asks you to separate practice from container in one short paragraph. Open one of your own downloads tonight and write what kind of fashion image it is *without* mentioning the extension — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
 
 #### 3 · Many genres at once
 
@@ -119,8 +120,6 @@ PROVENANCE_LINE: claim=I.1.critical.textbook-audit; status=[BIBLIO-GAP]; ahmes_a
 VOICE_ANCHOR: CT U1 ideas 1–3 + CT U2 Masterclass register (lesson-scribe 2026-09-14)
 -->
 {% endif %}
-
-**What the sources support — and what they do not.** Shinkle (2008) supports the field-of-practices frame and the permeable art/commerce boundary. It does **not** validate Photoshop, Illustrator, or any classroom tool sequence. Rocamora (2017) and Reddy-Best et al. (2018) remain open procurement for page-verified nodes.
 
 ---
 
@@ -181,14 +180,14 @@ This unit trains a reading frame, not a software path — and it leaves doors op
 ## References
 
 - <span id="ref-shinkle-2008">Shinkle, Eugenie. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I. B. Tauris. ISBN 9781845115166.</span>
-- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936. — Ahmes coat `94897108`; page-verified for imagination / fantasy / creativity distinction.</span>
-- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Ahmes coat `574691eb`; practitioner counterpoint (taste / listening) — not peer-reviewed image pedagogy.</span>
-- <span id="ref-rocamora-2017">Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. https://doi.org/10.1080/1362704X.2016.1173349. *(bibliography present; Ahmes page node still open — do not treat in-prose page cites as verified yet)*</span>
-- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226. *(bibliography present; Ahmes page node still open)*</span>
+- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936. — Page-verified for imagination / fantasy / creativity distinction.</span>
+- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Practitioner counterpoint (taste / listening) — not peer-reviewed image pedagogy.</span>
+- <span id="ref-rocamora-2017">Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. https://doi.org/10.1080/1362704X.2016.1173349. *(bibliography present; page node still open — do not treat in-prose page cites as verified yet)*</span>
+- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226. *(bibliography present; page node still open)*</span>
 - <span id="ref-norman-2013">Norman, Donald A. 2013. *The Design of Everyday Things*. Revised and expanded edition. New York: Basic Books. ISBN 9780465050659.</span>
 - <span id="ref-kleon-2019">Kleon, Austin. 2019. *Keep Going: 10 Ways to Stay Creative in Good Times and Bad*. New York: Workman Publishing. ISBN 9781523507863.</span>
 - <span id="ref-monteiro-2019">Monteiro, Mike. 2019. *Ruined by Design: How Designers Destroyed the World, and What We Can Do to Fix It*. San Francisco: Mule Design. ISBN 9781090532084.</span>
-- <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination*. London: Routledge. ISBN 9780203259412. — Ahmes coat `178b47c2`; cultural/theological imagination frame — light gap fill, not required for I.1 body claims.</span>
+- <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination*. London: Routledge. ISBN 9780203259412. — Cultural/theological imagination frame — light gap fill, not required for I.1 body claims.</span>
 
 **Missing evidence — declared.** Shinkle (2008) supports the field-of-practices frame. It does **not** validate a tool sequence for teaching digital-image editing or capture. Hüppauf/Wulf and Rubin enrich Analysis vocabulary and contradiction work; they do not replace fashion-image primary pedagogy.
 
@@ -198,6 +197,13 @@ PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; discovery=
 MEDIA_RIGHTS_LINE: deck=I.1 accepted Profield cache slots; geometrical=uem-henon-pass-* SVG UUIDs in caption
 -->
 {% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+Shinkle (2008) supports the field-of-practices frame and the permeable art/commerce boundary. It does **not** validate Photoshop, Illustrator, or any classroom tool sequence. Rocamora (2017) and Reddy-Best et al. (2018) remain open procurement for page-verified nodes. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 
 ---
 

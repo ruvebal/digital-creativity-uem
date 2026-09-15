@@ -11,6 +11,9 @@ description: 'Drawing externalises visual thinking — studio-based assignment p
 status: pilot
 tags: [digital-creativity-i, 2d-drawing, vector-illustration, fashion-croqui]
 deck_url: /tracks/dci/i-2-2d-drawing/
+master_idea: 'Drawing externalises visual thinking — not button fluency'
+practice_anchor: 'Anchor points, curves, revision, and export as durable drawing operations inside a silhouette problem — not isolated Pen-tool drills'
+frontier_signal: 'Fashion-specific 2D tool sequences and Curcic/Abling page cites remain open — do not treat vector-first as proven pedagogy'
 ---
 
 <!-- prettier-ignore-start -->
@@ -24,32 +27,28 @@ deck_url: /tracks/dci/i-2-2d-drawing/
 
 ---
 
+<div class="lesson-opener" markdown="1">
+
 > _"The SVG scales infinitely, yet remains exactly what it is. Be like the SVG."_
 <!-- TTDO fit: direct fit — vector drawing is exactly the "scales without losing identity" property this unit teaches. -->
 > — Tao of Development, `img-004`
 {: .tao-development-quote }
 
----
-
 {% include lesson-semantic-graphic.html %}
 
-## Cover — what this unit is about
+</div>
 
-**CONTENIDOS anchor (verbatim, official guía):** *Tecnología digital 2D: Herramientas de dibujo.*
-
-**Competencies served:** `CON1`, `HAB9`, `COMP8`, `COMP9` (same set as I.1).
-
-**Learning outcomes:** *"Seleccionar las herramientas de dibujo vectorial aplicadas al diseño y la comunicación"* — the one guía bullet that names this unit's anchor directly.
-
-**In-class deck:** [I.2 student slideshow]({{ '/tracks/dci/i-2-2d-drawing/' | relative_url }})
-
-**Every ordinary class:** Analysis → Masterclass → **Lab (Portfolio)** → **Workshop (Deliverable)**. Lab ≠ Workshop. See [How to Pass]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).
-
-After I.1's reading frame, this unit puts a path on screen. Drawing is taught as **externalised visual thinking** — anchor points, curves, and revision visible before polish — not as button fluency. Fashion drawing conventions (proportion, croquis, flats) supply a transferable visual grammar. Voice follows the homogenized I.1 Masterclass register.
-
-**Evaluation weights:** Investigaciones y proyectos 20% (studio piece); Cuaderno 10% (process note).
-
----
+{% comment %}
+cover-agentic:
+  unit: I.2
+  contenidos: "Tecnología digital 2D: Herramientas de dibujo."
+  competencies: [CON1, HAB9, COMP8, COMP9]
+  learning_outcomes: "Seleccionar las herramientas de dibujo vectorial aplicadas al diseño y la comunicación"
+  one_line: "Drawing is externalised visual thinking — paths and revision visible before polish."
+  class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
+  evaluation_feed: "Investigaciones y proyectos 20%; Cuaderno 10%"
+  how_to_pass: "/tracks/dci/how-to-pass-this-track/"
+{% endcomment %}
 
 ## 🎯 Learning objectives
 
@@ -70,7 +69,7 @@ Analysis opens the class. Keep I.1's practice · venue · audience · circulatio
 
 ### Masterclass ideas (plain wording)
 
-These six ideas follow I.1's homogenized voice. Where pedagogy sources lack Ahmes nodes, paragraphs name **studio stance — page cite still open** rather than inventing verified pages.
+These six ideas follow I.1's homogenized voice. Where pedagogy sources lack page-verified nodes, paragraphs name **studio stance — page cite still open** rather than inventing verified pages.
 
 #### 1 · Drawing as thinking
 
@@ -111,8 +110,6 @@ PROVENANCE_LINE: claim=I.2.critical.textbook-audit; status=[BIBLIO-GAP]; public_
 VOICE_ANCHOR: DC I.1 Masterclass idea 1 (homogenized 2026-09-14) + CT U2 register
 -->
 {% endif %}
-
-**What the sources support — and what they do not.** Curcic (2024) and Abling (2023) are retained as bibliography / practice anchors with **page cites still open**. Yu (2025) notes limited fashion-design pedagogy literature overall. Do not cite this unit as proof that vector-first beats raster-first for fashion students.
 
 ---
 
@@ -179,12 +176,12 @@ This unit trains a drawing rhythm — externalise, relate, revise, select — an
 
 - <span id="ref-norman-2013">Norman, Donald A. 2013. *The Design of Everyday Things*. Revised and expanded edition. New York: Basic Books. ISBN 9780465050659.</span>
 
-- <span id="ref-abling-2023">Abling, Bina. 2023. *Fashion Sketchbook*. 7th ed. New York: Fairchild Books. ISBN 9781501387951. *(bibliography present; Ahmes page node still open)*</span>
-- <span id="ref-curcic-2024">Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). https://doi.org/10.46328/ijtes.576. *(bibliography present; Ahmes page node still open)*</span>
-- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination*. New York: Routledge. ISBN 9780415990936. — Ahmes coat `94897108`; carry from I.1 field tension.</span>
-- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Ahmes coat `574691eb`; practitioner taste/listening counterpoint.</span>
-- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226. *(bibliography present; Ahmes page node still open)*</span>
-- <span id="ref-yu-2025">Yu, G.S. 2025. "With the Heart, the Mind, and the Sight: Cultivating Creativity in Fashion Pedagogy." In *Signature Pedagogies for Professional Arts and Design Education*. MIT Press. *(bibliography present; Ahmes page node still open)*</span>
+- <span id="ref-abling-2023">Abling, Bina. 2023. *Fashion Sketchbook*. 7th ed. New York: Fairchild Books. ISBN 9781501387951. *(bibliography present; page node still open)*</span>
+- <span id="ref-curcic-2024">Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). https://doi.org/10.46328/ijtes.576. *(bibliography present; page node still open)*</span>
+- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination*. New York: Routledge. ISBN 9780415990936. — Carry from I.1 field tension.</span>
+- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Practitioner taste/listening counterpoint.</span>
+- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226. *(bibliography present; page node still open)*</span>
+- <span id="ref-yu-2025">Yu, G.S. 2025. "With the Heart, the Mind, and the Sight: Cultivating Creativity in Fashion Pedagogy." In *Signature Pedagogies for Professional Arts and Design Education*. MIT Press. *(bibliography present; page node still open)*</span>
 
 **Declared gap.** Do not cite this unit as proof that vector-first beats raster-first for fashion students.
 
@@ -194,6 +191,13 @@ PROFIELD_ROUTING: unit=I.2; adjacent=T1 Abling/Smith/Cheng craft literacy
 MEDIA_RIGHTS_LINE: deck=diagram fallback until I.2 Profield pack accepted; geometrical=uem-henon-pass-* 
 -->
 {% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+Curcic (2024) and Abling (2023) are retained as bibliography / practice anchors with **page cites still open**. Yu (2025) notes limited fashion-design pedagogy literature overall. Do not cite this unit as proof that vector-first beats raster-first for fashion students. This note is part of an ongoing *Práctica de Innovación docente* — keep epistemic limits here, not between Masterclass paragraphs.
 
 ---
 

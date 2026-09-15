@@ -256,13 +256,62 @@ course weighting by assertion.
 - Prompt template: `_template/prompt-v2.1.md` with `[S1]…[S4]` markers.
 - Generation wrapper flags (mandatory once a unit has a registry):
   `--verbatim-registry` · `--expected-sentences 4` · `--brief` (CI3 now parses lesson-scribe tabular coats).
-- Every lesson ships `## Conclusion` (gaps as invitation) before `## References`, plus `## AI-assisted authorship` with internal UUID + date.
+- Every lesson ships `## Conclusion` (gaps as invitation) before `## References`, then
+  `## Editorial note. Work in progress. Teaching Innovation Practice` (epistemic limits —
+  **never** mid-body), then `## AI-assisted authorship` with internal UUID + date.
   Authorship: Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) **wrote** the
   lesson in the crea-comm.net studio (local agentic harness, MCP retrieval,
   RAG over the curriculum vault, scholar-voice model fine-tuned on his writing).
   State **how many** vault sources were consulted (`<vault_refs_n>` = `id="ref-…"`
   count). **Never** `(ECSIT / UEM)` in this footer.
 - Voice anchor for DC reforges: after I.1 is homogenized through this harness, all later DC units cite a specific I.1 paragraph as style anchor — not a whole file.
+
+### 3b. Lesson page chrome (mandatory layout law)
+
+Student lessons follow this visible order after YAML + TOC:
+
+1. **Sticky chrome** (layout-owned): breadcrumb + **action button bar** (`EN|ES` locale + **In-class deck** from frontmatter `deck_url:`). Do not duplicate deck links in Cover prose.
+2. **Lesson header** (title / status / author).
+3. **Opening block** — wrap in `<div class="lesson-opener" markdown="1">`:
+   - one TTOD epigraph (`{: .tao-development-quote }`)
+   - `{% include lesson-semantic-graphic.html %}` (Master idea + Practice anchor + semantic graphic)
+4. **Learning objectives** → B1 Analysis → Masterclass → B2 Lab → B3 Workshop → Conclusion → References → Editorial note → AI declaration.
+
+**Cover is agentic, not visible.** Do **not** ship a visible `## Cover — …` heading. Put CONTENIDOS, competencies, evaluation feeds, session rhythm, and one-line stake inside a Liquid/HTML comment (or `{% comment %}…{% endcomment %}`) keyed for agents, e.g.:
+
+```liquid
+{% comment %}
+cover-agentic:
+  contenidos: "<verbatim guía CONTENIDOS>"
+  competencies: [CON…, HAB…, COMP…]
+  one_line: "<student stake in one sentence>"
+  class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
+  evaluation_feed: "<which official weights this unit can feed>"
+  how_to_pass: "/tracks/.../how-to-pass-this-track/"
+{% endcomment %}
+```
+
+**Master idea vs Practice anchor (forger rule — keep them distinct):**
+
+| Field | Means | Must not |
+| ----- | ----- | -------- |
+| **Master idea** | The unit's one pedagogical claim a student can repeat | A tool name, a feature list, or a vague slogan |
+| **Practice anchor** | Durable studio operations / field constructs students rehearse (e.g. practice · venue · audience · circulation) | An application UI, preset pack, filter menu, or vendor workflow |
+| **Frontier signal** (optional) | Named open research/pedagogy gap | Pretending the gap is settled evidence |
+
+Prefer frontmatter `master_idea:` / `practice_anchor:` / `frontier_signal:` (and `_es` twins). `lesson_covers.json` `field_lens` may seed Practice anchor (`Established:`) and Frontier (`Emerging:`).
+
+**Editorial note (Teaching Innovation Practice).** Mid-body “What the sources support…” is forbidden. After `## References`, ship:
+
+```markdown
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+<Epistemic limits only: what page-verified sources support, what they do not,
+and which cites remain open. No new teaching content.>
+```
+
+Only `## AI-assisted authorship` may follow. This is the course's *Práctica de Innovación docente* transparency surface — English heading on EN pages; Spanish heading on ES pages (`## Nota editorial. Trabajo en curso. Práctica de Innovación docente`).
 
 Golden rules for slides (shared with CT): see
 [`forge/STUDENT-SLIDESHOW-FORGE.mdc`](./forge/STUDENT-SLIDESHOW-FORGE.mdc)
