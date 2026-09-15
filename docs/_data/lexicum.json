@@ -1,6 +1,6 @@
 {
-  "schema": "dc-lexicum-public/v1",
-  "cloned_at": "2026-09-13T15:03:10Z",
+  "schema": "lexfield-public/v1",
+  "cloned_at": "2026-09-13T15:53:54Z",
   "field": {
     "slug": "fashion",
     "title": "Fashion",
@@ -1668,8 +1668,37 @@
       ]
     }
   ],
-  "standards": [
-    "SKOS",
-    "CIDOC-CRM"
-  ]
+  "provenance": {
+    "author": {
+      "name": "Rubén Vega Balbás, PhD",
+      "role": "Creative Technologist & Developer",
+      "orcid": "https://orcid.org/0000-0001-6862-9081",
+      "email": "ruvebal@crea-comm.net"
+    },
+    "vocabulary_engine": {
+      "name": "lexfield",
+      "version": "0.1.0",
+      "path_hint": "fieldlex (multi-tenant SKOS vocabulary engine)"
+    },
+    "publication_stack": {
+      "static_site": "Jekyll 3.10.0",
+      "templates": "Liquid 4.0.4",
+      "markdown": "kramdown (GFM)",
+      "stylesheet": "PostCSS + Tailwind CSS 3.x"
+    },
+    "ontology": {
+      "skos": {
+        "name": "SKOS",
+        "version": "W3C Recommendation, 2009-08-18",
+        "url": "https://www.w3.org/TR/skos-reference/"
+      },
+      "cidoc_crm": {
+        "name": "CIDOC-CRM",
+        "version": "7.1.3 (2024-02-13)",
+        "url": "https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf"
+      }
+    },
+    "method": "Curriculum-local YAML snapshot compiled from lexfield; definitions authored as controlled-vocabulary entries with optional CIDOC-CRM class mappings where heritage-relevant.",
+    "prototype_note": "The fashion field is the seed tenant of lexfield; other fields (e.g. creativity_techniques) reuse the same Field→Subfield→Concept schema."
+  }
 }

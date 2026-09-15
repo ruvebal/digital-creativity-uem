@@ -4,7 +4,7 @@
 **Emancipation model:** `hc-app-design` (standalone repo) — lean Jekyll site, not a nested multi-course monorepo stack.  
 **Research home:** `digital-creativity-pedagogy/` (excluded from Pages).  
 **Official contract:** live UEM PDFs, cloned at `digital-creativity-pedagogy/cv/guides/{1-creacion-digital-i,3-creacion-digital-ii}.json` + `oficial-guia-framework.mdc` — **mandatory** for hours (150/150 presencial), evaluation, competencies, CONTENIDOS. CD I and CD II = current 2026-27 PDFs (CD II live URL rollover checked 2026-08-23). `tracks.yml` course totals close; pedagogical session rows allocate the 80/80 contact buckets, while institutional dates/procedures remain external.
-**Unit forge:** `dc-unit-forge.mdc` · **CV forge:** `dc-cv-forge.mdc`.  
+**Unit forge:** `dc-unit-forge.mdc` · **Session + D1–D5 (∥ TC):** `forge/SESSION-RHYTHM-AND-DELIVERABLES.mdc` · **Slideshow:** `forge/STUDENT-SLIDESHOW-FORGE.mdc` (`lab_opener` geometrical before portfolio Lab) · **CV forge:** `dc-cv-forge.mdc`.  
 **Execute Wave 1:** `digital-creativity-pedagogy/forge/CD-II-II.5.execute.md` (filled; do not re-template).  
 **Readiness:** `TEACHING-READINESS.mdc`. **Forge-ready:** unit IDs + evidence matrix + consent drafts; DPO still open.  
 **Consent:** `digital-creativity-pedagogy/consent/` (unpublished).  

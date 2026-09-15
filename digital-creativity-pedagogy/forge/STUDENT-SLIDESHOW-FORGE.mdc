@@ -84,19 +84,19 @@ reload control and no dependency on Profield paths at runtime.
 
 ## Unit deck shape
 
-One ordinary unit deck uses 5–7 slides. A conceptual masterclass such as I.0
-may use 8–12 slides when the taxonomy requires it, but the one-idea rule still
-holds: one conceptual move, one heading, one sentence, and one visual focus per
-slide.
+**Binding parallel contract:** [`SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./SESSION-RHYTHM-AND-DELIVERABLES.mdc).
 
-1. **Question:** unit title + one heading + one sentence.
-2. **Look closely:** one accepted image/video and one observation question.
-3. **Analyse:** compare two accepted assets or one asset and a teacher-made
-   diagram; students write an individual reading before discussion.
-4. **Concept:** one heading and one sentence; a teacher explains the criterion.
-5. **Problem:** one constrained individual exercise and its submission trace.
-6. **Project/workshop:** the collaborative or project move for that moment.
-7. **Carry forward:** which portfolio evidence is saved and why.
+Ordinary unit deck spine (order binding):
+
+1. **Question / title**
+2–n. **Masterclass** moves (one idea per slide; Profield or diagram) — I.0 may use more taxonomy slides
+n. **`lab_opener`** (geometrical) — exercises are about to begin; they go into the **portfolio index**
+n+. **Lab exercises** (`portfolio_bound: true`)
+m. **`workshop_opener`** (geometrical) — deliverable work time
+m+. **Workshop** deliverable prompt
+z. **`outro`** (geometrical) — carry-forward
+
+One conceptual move, one heading, one sentence, one visual focus per Masterclass slide.
 
 Use visual-forger for course-generated diagrams. Use media-embed-forger only
 after the MP5 pack passes validation. A student deck may name UEM and the course
@@ -105,36 +105,36 @@ the sibling runtime.
 
 ## 120-minute class rhythm
 
-The deck and professor guide follow this four-part rhythm:
+| Block | ≈ minutes | Name | Evidence |
+| --- | --- | --- | --- |
+| Analysis strip | 00–30 | Modelled analysis (sessions 1–2) or **2×15 min** student defences (from session 3) | D1 defence slideshow |
+| Masterclass | 30–60 | Professor ideas + Profield images | conceptual notes |
+| **Lab (Portfolio)** | 60–90 | Exercises + debates — **must enter portfolio** | portfolio traces |
+| **Workshop (Deliverable)** | 90–120 | Protected time on the next graded deliverable | D1–D3 progress |
 
-| Minutes | Learning move | Evidence |
-| --- | --- | --- |
-| 00–30 | Individual visual analysis, then comparison | annotated reading / short position |
-| 30–60 | Lecture and demonstration | conceptual notes / criterion |
-| 60–90 | Individual exercises and problem-solving | saved problem response for portfolio evidence |
-| 90–120 | Project-based learning or workshop | group/project trace, critique, next task |
+**Lab ≠ Workshop.** Lab leaves portfolio traces; Workshop advances deliverables. Names are **not** swapped.
 
-The final quarter changes with the unit: it may be a workshop, group project,
-or project milestone. B3 remains individually attributable even when its
-evidence later supports a collective project.
+### Background law
+
+| Role | Background |
+| --- | --- |
+| Masterclass content | Accepted Profield media or course diagram |
+| `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** |
+| Never | Invented images; geometrical BG replacing a required Masterclass media slot |
 
 ## Course delivery and assessment choreography
 
-The following is a teaching design that must be mapped to the official UEM
-assessment instruments; it does not change their 55 / 15 / 20 / 10 weighting
-without formal course authorization.
+Official weights stay in the UEM guía. Studio choreography (TC ∥ DC):
 
-| Course evidence | Student task | Evidence retained |
+| Evidence | Student task | DC fork |
 | --- | --- | --- |
-| Deliverable 1 — Analysis | Individual free-choice analysis, presented in person; support may be photo, drawing, illustration, or GIF | presentation support + individual analysis |
-| Deliverable 2 — Transposition | Translate a self-chosen input from one medium/language into another; output is an image series | source declaration + image series + process trace |
-| Deliverable 3 — Multimedia presentation | Multimedia work prepared for a live atrium show | multimedia export + technical/accessibility plan + group/individual roles |
-| Final exam — public portfolio defence | Oral defence of the personal portfolio assembled from collected unit problem-solving evidence and course deliverables | portfolio index + selected exercises + oral defence support |
+| **D1 — Analysis** | 15 min in-person defence; support = slideshow; **2 students/session from session 3** | Fashion image related to a **Madrid exhibition** piece (coordinated visit with Spanish-cohort students) |
+| **D2 — Transposition** | Critical review / palimpsest / discursive circulation | Output **into an image** (series OK) |
+| **D3 — Atrium** | Tech script + live performance/defence | Theme: **Communicate and inspire: What is fashion for you?** |
+| **D4 — Portfolio index** | Index of Lab exercises + D1–D3 | Same |
+| **D5 — Exam** | Test/questionnaire + **final self-review** of portfolio process | Same |
 
-Deliverable 1’s internal rubric is: presentation 70%, deliverable 20%, and
-participation in peers’ presentations/debate 10%. Schedule one or two students
-per session for 10–15 minutes each. This is a rubric within the deliverable,
-not a replacement for the official course-wide evaluation table.
+D1 intra-rubric: presentation **70%** · deliverable support **20%** · peer debate **10%**.
 
 ## Required student-deck fields
 
@@ -142,15 +142,17 @@ not a replacement for the official course-wide evaluation table.
 course_id: dci | dcii
 unit_id: I.1 | II.4
 slide_id: stable-unit-purpose-id
+slide_role: masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+background_kind: profield | geometrical | none
 heading: "Short student-facing heading"
 sentence: "One sentence only."
-media_slot_id: I.1.still.editorial-vs-commercial
-observation_prompt: "What decision changes the meaning here?"
+media_slot_id: I.1.still.editorial-vs-commercial  # when background_kind: profield
+portfolio_bound: true | false
 portfolio_trace: "Save the annotated comparison in your portfolio index."
 ```
 
-No slide is published until `media_slot_id` resolves to an accepted MP5 record
-or the slide is a course-generated diagram with accessible text equivalent.
+No Profield-backed slide is published until `media_slot_id` resolves to an accepted MP5 record
+or the slide is a course-generated diagram / geometrical structural slide with accessible text.
 
 ## Local Ollama forge phase
 

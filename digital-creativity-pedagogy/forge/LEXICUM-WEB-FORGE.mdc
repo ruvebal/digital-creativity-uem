@@ -22,11 +22,14 @@ docs/_data/lexicum.json                       ← Jekyll data
 docs/lexicum/index.md + layout/css/js         ← public HTML
 ```
 
-- **Curriculum-local snapshot** under `cv/data/lexicum/` is what the site publishes from.
+- Curriculum-local snapshot under `cv/data/lexicum/` is what the site publishes from.
+- Public data schema: **`lexfield-public/v1`** (shared with creativity-techniques-uem).
+- Fashion is the **prototype tenant**; other fields reuse Field → Subfield → Concept.
 - Re-sync with `digital-creativity-pedagogy/forge/scripts/sync-fashion-lexicum.py`.
 - Do **not** name discontinued sibling tool repos on student HTML or in public
   captions. Upstream engine name in pedagogy docs: **lexfield** (`~/src/fieldlex`).
 - Do **not** emit Ahmes / Athanor / DevIAC / local absolute paths in public HTML.
+- Per-term footer: show **CIDOC-CRM mapping** and/or **scope note** only when present; never print boilerplate “SKOS · CIDOC-CRM” on every card.
 
 ## Output contract
 

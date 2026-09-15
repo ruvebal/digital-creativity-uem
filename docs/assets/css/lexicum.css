@@ -1,4 +1,5 @@
-/* Fashion Lexicum — additive styles for /lexicum/ */
+/* Fashion Lexicum — additive styles for /lexicum/
+   Sized for classroom / whiteboard projection. */
 
 .lexicum-page {
 	--lex-ink: #f4efe4;
@@ -8,14 +9,17 @@
 	--lex-accent: #c9c932;
 	--lex-accent-soft: rgba(201, 201, 50, 0.14);
 	--lex-scheme: #7dd3c0;
+	--lex-measure: 42rem; /* ~65–70ch reading column */
+	--lex-page: min(52rem, 100%);
 	font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+	font-size: 1.125rem;
 }
 
 .lexicum-hero {
 	position: relative;
 	isolation: isolate;
 	overflow: hidden;
-	padding: clamp(3.5rem, 8vw, 6.5rem) 1.25rem clamp(2.5rem, 5vw, 4rem);
+	padding: clamp(3.75rem, 8vw, 7rem) 1.5rem clamp(2.75rem, 5vw, 4.5rem);
 	background:
 		radial-gradient(ellipse 80% 60% at 15% 20%, rgba(201, 201, 50, 0.18), transparent 55%),
 		radial-gradient(ellipse 70% 50% at 90% 10%, rgba(125, 211, 192, 0.12), transparent 50%),
@@ -40,45 +44,46 @@
 }
 
 .lexicum-hero__inner {
-	max-width: 68rem;
+	max-width: var(--lex-page);
 	margin: 0 auto;
 }
 
 .lexicum-eyebrow {
 	display: inline-block;
-	margin: 0 0 1rem;
+	margin: 0 0 1.1rem;
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.75rem;
+	font-size: 0.95rem;
 	letter-spacing: 0.18em;
 	text-transform: uppercase;
 	color: var(--lex-accent);
 }
 
 .lexicum-hero h1 {
-	margin: 0 0 0.75rem;
-	font-size: clamp(2.4rem, 6vw, 4.25rem);
+	margin: 0 0 0.9rem;
+	font-size: clamp(3rem, 7vw, 5rem);
 	line-height: 0.95;
 	font-weight: 700;
 	letter-spacing: -0.03em;
 }
 
 .lexicum-hero__lede {
-	max-width: 38rem;
+	max-width: var(--lex-measure);
 	margin: 0;
-	font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+	font-size: clamp(1.25rem, 2vw, 1.55rem);
 	line-height: 1.45;
+	font-weight: 400;
 	color: var(--lex-muted);
 }
 
 .lexicum-stats {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.75rem 1.5rem;
-	margin-top: 1.75rem;
+	gap: 0.85rem 1.75rem;
+	margin-top: 2rem;
 	padding: 0;
 	list-style: none;
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.85rem;
+	font-size: 1.05rem;
 	color: var(--lex-muted);
 }
 
@@ -94,29 +99,29 @@
 	backdrop-filter: blur(10px);
 	background: rgba(2, 8, 20, 0.88);
 	border-bottom: 1px solid var(--lex-line);
-	padding: 0.85rem 1.25rem;
+	padding: 1rem 1.5rem;
 }
 
 .lexicum-toolbar__inner {
-	max-width: 68rem;
+	max-width: var(--lex-page);
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.75rem;
+	gap: 0.85rem;
 	align-items: center;
 }
 
 .lexicum-search {
-	flex: 1 1 16rem;
-	min-width: 12rem;
+	flex: 1 1 18rem;
+	min-width: 14rem;
 	appearance: none;
 	border: 1px solid var(--lex-line);
 	background: var(--lex-panel);
 	color: var(--lex-ink);
-	border-radius: 0.35rem;
-	padding: 0.65rem 0.85rem;
+	border-radius: 0.4rem;
+	padding: 0.85rem 1rem;
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.95rem;
+	font-size: 1.15rem;
 }
 
 .lexicum-search:focus {
@@ -127,7 +132,7 @@
 .lexicum-filters {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.4rem;
+	gap: 0.5rem;
 }
 
 .lexicum-filter {
@@ -136,9 +141,9 @@
 	background: transparent;
 	color: var(--lex-muted);
 	border-radius: 999px;
-	padding: 0.4rem 0.85rem;
+	padding: 0.55rem 1.05rem;
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	cursor: pointer;
 	transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
 }
@@ -151,33 +156,34 @@
 }
 
 .lexicum-body {
-	max-width: 68rem;
+	max-width: var(--lex-page);
 	margin: 0 auto;
-	padding: 2rem 1.25rem 4rem;
+	padding: 2.5rem 1.5rem 5rem;
 }
 
 .lexicum-scheme {
-	margin: 0 0 3rem;
-	scroll-margin-top: 8rem;
+	margin: 0 0 3.5rem;
+	scroll-margin-top: 9rem;
 }
 
 .lexicum-scheme__head {
 	display: grid;
-	gap: 0.4rem;
-	margin-bottom: 1.25rem;
-	padding-bottom: 0.85rem;
+	gap: 0.5rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: 1rem;
 	border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+	max-width: var(--lex-measure);
 }
 
 .lexicum-scheme__head h2 {
 	margin: 0;
-	font-size: clamp(1.5rem, 3vw, 2rem);
+	font-size: clamp(2rem, 4vw, 2.75rem);
 	letter-spacing: -0.02em;
 }
 
 .lexicum-scheme__meta {
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.85rem;
+	font-size: 1.05rem;
 	color: #64748b;
 }
 
@@ -187,7 +193,10 @@ html.dark .lexicum-scheme__meta {
 
 .lexicum-scheme__desc {
 	margin: 0;
-	max-width: 42rem;
+	max-width: var(--lex-measure);
+	font-size: 1.2rem;
+	line-height: 1.45;
+	font-weight: 400;
 	color: #334155;
 }
 
@@ -197,15 +206,17 @@ html.dark .lexicum-scheme__desc {
 
 .lexicum-concepts {
 	display: grid;
-	gap: 0.85rem;
+	grid-template-columns: 1fr;
+	gap: 1.15rem;
+	max-width: var(--lex-measure);
 }
 
 .lexicum-concept {
 	border: 1px solid rgba(148, 163, 184, 0.28);
-	border-radius: 0.4rem;
-	padding: 1rem 1.1rem 1.05rem;
+	border-radius: 0.45rem;
+	padding: 1.35rem 1.4rem 1.25rem;
 	background: rgba(248, 250, 252, 0.65);
-	scroll-margin-top: 9rem;
+	scroll-margin-top: 10rem;
 	transition: border-color 160ms ease, transform 180ms ease;
 }
 
@@ -223,14 +234,16 @@ html.dark .lexicum-concept {
 }
 
 .lexicum-concept__label {
-	margin: 0 0 0.35rem;
-	font-size: 1.2rem;
+	margin: 0 0 0.55rem;
+	font-size: clamp(1.55rem, 2.4vw, 1.95rem);
+	font-weight: 700;
 	letter-spacing: -0.015em;
+	line-height: 1.15;
 }
 
 .lexicum-concept__slug {
 	font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-	font-size: 0.75rem;
+	font-size: 0.95rem;
 	color: #64748b;
 }
 
@@ -239,27 +252,41 @@ html.dark .lexicum-concept__slug {
 }
 
 .lexicum-concept__def {
-	margin: 0.55rem 0 0;
-	line-height: 1.45;
+	margin: 0.65rem 0 0;
+	max-width: 36rem;
+	font-size: clamp(1.25rem, 2vw, 1.5rem);
+	font-weight: 400;
+	line-height: 1.5;
+	color: #1e293b;
+}
+
+html.dark .lexicum-concept__def {
+	color: #e2e8f0;
+}
+
+/* Defeat any inherited prose/strong weight on definitions */
+.lexicum-page .lexicum-concept__def,
+.lexicum-page .lexicum-concept__def * {
+	font-weight: 400;
 }
 
 .lexicum-concept__alts,
 .lexicum-concept__rels {
-	margin: 0.65rem 0 0;
+	margin: 0.85rem 0 0;
 	padding: 0;
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.35rem;
+	gap: 0.45rem;
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.78rem;
+	font-size: 0.95rem;
 }
 
 .lexicum-chip {
 	display: inline-flex;
 	align-items: center;
-	gap: 0.25rem;
-	padding: 0.2rem 0.55rem;
+	gap: 0.3rem;
+	padding: 0.3rem 0.7rem;
 	border-radius: 999px;
 	background: rgba(125, 211, 192, 0.12);
 	color: #0f766e;
@@ -285,11 +312,72 @@ html.dark .lexicum-chip--rel {
 	text-decoration: none;
 }
 
+.lexicum-chip a:hover {
+	text-decoration: underline;
+}
+
 .lexicum-chip__kind {
 	opacity: 0.7;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
-	font-size: 0.68rem;
+	font-size: 0.78rem;
+}
+
+.lexicum-credit {
+	margin-top: 1.75rem;
+	max-width: var(--lex-measure);
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.95rem;
+	line-height: 1.45;
+	color: var(--lex-muted);
+}
+
+.lexicum-credit a {
+	color: var(--lex-accent);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.lexicum-credit__by {
+	margin: 0 0 0.45rem;
+	font-size: 1.05rem;
+	color: var(--lex-ink);
+}
+
+.lexicum-credit__stack,
+.lexicum-credit__method {
+	margin: 0.35rem 0 0;
+	font-weight: 400;
+}
+
+.lexicum-credit__stack strong {
+	font-weight: 600;
+	color: var(--lex-ink);
+}
+
+.lexicum-concept__semantic {
+	margin: 1rem 0 0;
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.85rem;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #64748b;
+}
+
+html.dark .lexicum-concept__semantic {
+	color: #94a3b8;
+}
+
+.lexicum-semantic__key {
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	font-size: 0.72rem;
+	opacity: 0.85;
+	margin-right: 0.25rem;
+}
+
+.lexicum-concept__standards {
+	display: none; /* removed: do not print boilerplate standards on every card */
 }
 
 .sr-only {
@@ -307,11 +395,13 @@ html.dark .lexicum-chip--rel {
 .lexicum-empty {
 	display: none;
 	margin: 2rem 0;
-	padding: 1rem;
+	padding: 1.15rem;
 	border: 1px dashed rgba(148, 163, 184, 0.4);
 	border-radius: 0.4rem;
 	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 1.15rem;
 	color: #64748b;
+	max-width: var(--lex-measure);
 }
 
 .lexicum-empty.is-visible {
@@ -319,11 +409,12 @@ html.dark .lexicum-chip--rel {
 }
 
 .lexicum-footnote {
-	margin-top: 2rem;
-	padding-top: 1rem;
+	margin-top: 2.5rem;
+	padding-top: 1.15rem;
 	border-top: 1px solid rgba(148, 163, 184, 0.25);
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.85rem;
+	font-size: 1.05rem;
+	max-width: var(--lex-measure);
 	color: #64748b;
 }
 

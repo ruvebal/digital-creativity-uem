@@ -29,6 +29,13 @@
 - `node scripts/verify-publication-safety.mjs` — passed
 - Firewall spot-check on `/lexicum/` — no Ahmes/Athanor/DevIAC/`/Users`/fashlex
 
+## Follow-up — shared publication contract (2026-09-13)
+
+- Schema renamed to **`lexfield-public/v1`** (fashion = prototype tenant; CT reuses same Field→Subfield→Concept).
+- Header credit: author + ORCID + stack versions (lexfield 0.1.0, Jekyll 3.10.0, Liquid 4.0.4, SKOS 2009-08-18, CIDOC-CRM 7.1.3).
+- Per-card footer: **semantic or omit** (CIDOC-CRM mapping and/or scope note only — no boilerplate “SKOS · CIDOC-CRM”).
+- CT-UEM hydrate aligned to the same contract (`/lexicum/en/`).
+
 ## Public route
 
 `/digital-creativity-uem/lexicum/` — Fashion Lexicum (search + scheme filters + deep anchors)

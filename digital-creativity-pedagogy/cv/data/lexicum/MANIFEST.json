@@ -1,6 +1,6 @@
 {
   "schema": "dc-lexicum-clone-manifest/v1",
-  "cloned_at": "2026-09-13T15:03:10Z",
+  "cloned_at": "2026-09-13T15:53:54Z",
   "upstream": {
     "tool": "lexfield",
     "path": "/Users/ruvebal/src/fieldlex/fields/fashion",

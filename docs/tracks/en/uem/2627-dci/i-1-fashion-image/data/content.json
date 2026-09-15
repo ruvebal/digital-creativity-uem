@@ -5,113 +5,224 @@ layout: null
   "unit_label": "Digital Creativity I · I.1 Digital images",
   "media_selection": {
     "unit_id": "I.1",
-    "collection": "designers",
-    "strategy": "explicit-then-ranked",
-    "description": "Use explicit slide assets first; use accepted I.1 media by rank for remaining slots.",
+    "project_id": "dc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "Accepted/ranked Profield review-state assets assigned to dc/I.1.",
     "media_overrides": {
-      "I.1.cover.astronaut": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp",
       "I.1.cover.ladies": "wikimedia:File:The Ladies' home journal (1948) (14578727659).jpg"
     }
   },
   "assets": [
     {
-      "media_slot_id": "I.1.cover.astronaut",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fan_SAAM-1935.8.20_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Fan_SAAM-1935.8.20_1.jpg",
-      "alt_text": "File:Fan SAAM-1935.8.20 1.jpg [explicit_public_domain_statement]",
-      "title": "File:Fan SAAM-1935.8.20 1.jpg [explicit_public_domain_statement]",
-      "provider": "wikimedia_commons",
-      "priority": 5,
-      "selection_rank": 5,
-      "collection": "designers"
-    },
-    {
-      "media_slot_id": "I.1.cover.ladies",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png",
-      "alt_text": "File:Miss Maquillage Digital Fashion Garment example.png [modern_rights_review_required]",
-      "title": "File:Miss Maquillage Digital Fashion Garment example.png [modern_rights_review_required]",
-      "provider": "wikimedia_commons",
-      "priority": 5,
-      "selection_rank": 5,
-      "collection": "designers"
-    },
-    {
       "media_slot_id": "I.1.still.profield-1",
-      "asset_url": "https://dn711300.ca.archive.org/0/items/fashion-designing-institute-in-noida/Fashion%20Designing%20Institute%20in%20Noida.png",
-      "canonical_source_url": "https://archive.org/details/fashion-designing-institute-in-noida",
-      "alt_text": "Fashion Designing Institute In Noida",
-      "title": "Fashion Designing Institute In Noida",
-      "provider": "internet_archive",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "designers"
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(48).JPG",
+      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "unit-accepted"
     },
     {
       "media_slot_id": "I.1.still.profield-2",
-      "asset_url": "https://dn710907.ca.archive.org/0/items/img-9200_20260804/IMG_9200.jpg",
-      "canonical_source_url": "https://archive.org/details/img-9200_20260804",
-      "alt_text": "Ranzuki Magazine 2011/August Cover Scan [modern_rights_review_required]",
-      "title": "Ranzuki Magazine 2011/August Cover Scan [modern_rights_review_required]",
-      "provider": "internet_archive",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "designers"
+      "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/eb30c35e179aae54.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png",
+      "alt_text": "Miss Maquillage Digital Fashion Garment example.png",
+      "title": "Miss Maquillage Digital Fashion Garment example.png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "unit-accepted"
     },
     {
       "media_slot_id": "I.1.still.profield-3",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_McQueen_clamshell_dress_(51611p).jpg",
-      "alt_text": "File:Alexander McQueen clamshell dress (51611p).jpg [modern_rights_review_required]",
-      "title": "File:Alexander McQueen clamshell dress (51611p).jpg [modern_rights_review_required]",
-      "provider": "wikimedia_commons",
+      "asset_id": "internet_archive:barbie-magazine-2003",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
+      "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
+      "canonical_source_url": "https://archive.org/details/barbie-magazine-2003",
+      "alt_text": "Barbie Magazine 2003",
+      "title": "Barbie Magazine 2003",
+      "provider": "Internet Archive",
+      "credit_line": "Internet Archive",
+      "licence": "",
       "priority": 4,
       "selection_rank": 4,
-      "collection": "designers"
+      "collection": "unit-accepted"
     },
     {
       "media_slot_id": "I.1.still.profield-4",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Heavenly_Bodies_Fashion_and_the_Catholic_Imagination_at_The_Metropolitan_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Heavenly_Bodies_Fashion_and_the_Catholic_Imagination_at_The_Metropolitan_Museum_of_Art.jpg",
-      "alt_text": "File:Heavenly Bodies Fashion and the Catholic Imagination at The Metropolitan Museum of Art.jpg [modern_rights_review_required]",
-      "title": "File:Heavenly Bodies Fashion and the Catholic Imagination at The Metropolitan Museum of Art.jpg [modern_rights_review_required]",
-      "provider": "wikimedia_commons",
+      "asset_id": "wikimedia:File:Alexander McQueen clamshell dress (51611p).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9840aaa8f2da66c.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_McQueen_clamshell_dress_(51611p).jpg",
+      "alt_text": "Alexander McQueen clamshell dress (51611p).jpg",
+      "title": "Alexander McQueen clamshell dress (51611p).jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
       "priority": 4,
       "selection_rank": 4,
       "collection": "designers"
     },
     {
-      "media_slot_id": "I.1.still.camp-burberry",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Saisonen._Magazine_for_art%2C_fashion_and_news.1916.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Saisonen._Magazine_for_art,_fashion_and_news.1916.jpg",
-      "alt_text": "File:Saisonen. Magazine for art, fashion and news.1916.jpg [published_before_1931_us_public_domain_timing]",
-      "title": "File:Saisonen. Magazine for art, fashion and news.1916.jpg [published_before_1931_us_public_domain_timing]",
-      "provider": "wikimedia_commons",
-      "priority": 2,
-      "selection_rank": 2,
-      "collection": "designers"
+      "media_slot_id": "I.1.still.profield-5",
+      "asset_id": "wikimedia:File:Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/4ddb9d161b673b9f.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alexander_McQueen_Dress_at_The_Metropolitan_Museum_of_Art.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_McQueen_Dress_at_The_Metropolitan_Museum_of_Art.jpg",
+      "alt_text": "Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
+      "title": "Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-6",
+      "asset_id": "wikimedia:File:Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Anna_Miller%27s_uniform_%28pink%29_in_Second_Life_%282012-01-22_22.36.22_by_Ramona_Forcella%29_clip.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Anna_Miller%27s_uniform_(pink)_in_Second_Life_(2012-01-22_22.36.22_by_Ramona_Forcella)_clip.jpg",
+      "alt_text": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "title": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "artist"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-7",
+      "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c8acd44e8f333198.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
+      "alt_text": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
+      "title": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-8",
+      "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/e16150afa0636624.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beauty_is_my_business%2C_says_Anne_Piron%2C_1950.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beauty_is_my_business,_says_Anne_Piron,_1950.jpg",
+      "alt_text": "Beauty is my business, says Anne Piron, 1950.jpg",
+      "title": "Beauty is my business, says Anne Piron, 1950.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-9",
+      "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/66e54dae6e9921a1.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dirty_and_damaged_fashion_doll.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dirty_and_damaged_fashion_doll.jpg",
+      "alt_text": "Dirty and damaged fashion doll.jpg",
+      "title": "Dirty and damaged fashion doll.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-10",
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
+      "alt_text": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-11",
+      "asset_id": "wikimedia:File:Giada Advertising Campaign SS11.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f1cd306acb57ec21.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Giada_Advertising_Campaign_SS11.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Giada_Advertising_Campaign_SS11.jpg",
+      "alt_text": "Giada Advertising Campaign SS11.jpg",
+      "title": "Giada Advertising Campaign SS11.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-12",
+      "asset_id": "wikimedia:File:The Future Face of Avattire.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/8eb44f02b715b814.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Future_Face_of_Avattire.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Future_Face_of_Avattire.jpg",
+      "alt_text": "The Future Face of Avattire.jpg",
+      "title": "The Future Face of Avattire.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-13",
+      "asset_id": "wikimedia:File:Comme des Garcons at the Met 01.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/6e2b118fe4e72280.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Comme_des_Garcons_at_the_Met_01.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Comme_des_Garcons_at_the_Met_01.jpg",
+      "alt_text": "Comme des Garcons at the Met 01.jpg",
+      "title": "Comme des Garcons at the Met 01.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
     },
     {
       "media_slot_id": "I.1.cover.ladies",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Ladies%27_home_journal_%281948%29_%2814578727659%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_id": "wikimedia:File:The Ladies' home journal (1948) (14578727659).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/701b22b6d0745f87.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Ladies%27_home_journal_%281948%29_%2814578727659%29.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Ladies%27_home_journal_(1948)_(14578727659).jpg",
-      "alt_text": "File:The Ladies' home journal (1948) (14578727659).jpg [explicit_public_domain_statement]",
-      "title": "File:The Ladies' home journal (1948) (14578727659).jpg [explicit_public_domain_statement]",
-      "provider": "wikimedia_commons",
+      "alt_text": "The Ladies' home journal (1948) (14578727659).jpg",
+      "title": "The Ladies' home journal (1948) (14578727659).jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
       "priority": 2,
       "selection_rank": 2,
-      "collection": "designers"
-    },
-    {
-      "media_slot_id": "I.1.cover.astronaut",
-      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp",
-      "alt_text": "File:Astronaut Riding a Horse (SD3.5).webp [explicit_public_domain_statement]",
-      "title": "File:Astronaut Riding a Horse (SD3.5).webp [explicit_public_domain_statement]",
-      "provider": "wikimedia_commons",
-      "priority": 999,
-      "selection_rank": 999,
-      "collection": "designers"
+      "collection": "unit-accepted"
     }
   ],
   "slides": [
@@ -119,66 +230,78 @@ layout: null
       "heading": "Digital images",
       "sentence": "Produce a small labelled set of digital fashion images, annotated by practice and boundary, as this course’s first studio artefact.",
       "prompt": "I.1 · Introduction to Digital Images",
-      "media_slot_id": "I.1.cover.astronaut"
+      "media_slot_id": "I.1.still.profield-1",
+      "background_kind": "profield"
     },
     {
       "heading": "1 · Field of practices",
       "sentence": "A digital fashion image is defined by who made it, for what venue, and under which shared goals.",
-      "media_slot_id": "I.1.cover.ladies"
+      "media_slot_id": "I.1.still.profield-2",
+      "background_kind": "profield"
     },
     {
       "heading": "2 · Not a file format",
       "sentence": "JPEG, PNG, GIF, and RAW describe technical containers; they do not tell us what a fashion image does.",
-      "media_slot_id": "I.1.still.profield-1"
+      "media_slot_id": "I.1.still.profield-3",
+      "background_kind": "profield"
     },
     {
       "heading": "3 · Many collaborators",
       "sentence": "Fashion images gather photographers, stylists, models, designers, editors, producers, and audiences around a shared situation.",
-      "media_slot_id": "I.1.still.profield-2"
+      "media_slot_id": "I.1.still.profield-4",
+      "background_kind": "profield"
     },
     {
       "heading": "4 · More than one genre",
       "sentence": "Editorial, advertising, beauty, portraiture, and documentary practices can all belong to fashion-image culture.",
-      "media_slot_id": "I.1.default.4"
+      "media_slot_id": "I.1.still.profield-5",
+      "background_kind": "profield"
     },
     {
       "heading": "5 · Art and commerce",
       "sentence": "Fashion images can occupy artistic and commercial realms at the same time.",
-      "media_slot_id": "I.1.still.profield-3"
+      "media_slot_id": "I.1.still.profield-6",
+      "background_kind": "profield"
     },
     {
       "heading": "6 · A permeable boundary",
       "sentence": "The boundary between art and commerce shifts with caption, venue, commission, audience, and circulation.",
-      "media_slot_id": "I.1.default.6"
+      "media_slot_id": "I.1.still.profield-7",
+      "background_kind": "profield"
     },
     {
       "heading": "7 · Read the circulation",
       "sentence": "Meaning changes when the same image moves between runway, retail, editorial, social media, and exhibition contexts.",
-      "media_slot_id": "I.1.still.profield-4"
+      "media_slot_id": "I.1.still.profield-8",
+      "background_kind": "profield"
     },
     {
       "heading": "8 · Make the process visible",
       "sentence": "An image analysis should retain its source, audience, purpose, observations, and classification decision.",
       "prompt": "Save the analysis as the first portfolio trace.",
-      "media_slot_id": "I.1.default.8"
+      "media_slot_id": "I.1.still.profield-9",
+      "background_kind": "profield"
     },
     {
       "heading": "II · Debate 1",
       "sentence": "If the same image reads as art in a gallery caption and commerce in an advertisement, whose intent decides what it is?",
       "prompt": "Maker, venue, or viewer? Defend one position.",
-      "media_slot_id": "I.1.still.camp-burberry"
+      "media_slot_id": "I.1.still.profield-10",
+      "background_kind": "profield"
     },
     {
       "heading": "II · Debate 2",
       "sentence": "Does a changing caption change the image, or does it reveal a meaning that was already there?",
       "prompt": "Use one visible detail and one circulation clue.",
-      "media_slot_id": "I.1.still.camp-moschino"
+      "media_slot_id": "I.1.still.profield-11",
+      "background_kind": "profield"
     },
     {
       "heading": "II · Debate 3",
       "sentence": "Can an image be both commercially useful and artistically serious without resolving the tension?",
       "prompt": "Listen for the boundary each speaker assumes.",
-      "media_slot_id": "I.1.default.11"
+      "media_slot_id": "I.1.still.profield-12",
+      "background_kind": "profield"
     },
     {
       "heading": "III · Critical 1",
@@ -188,7 +311,8 @@ layout: null
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-rocamora-2017"
       },
       "prompt": "Read circulation and venue, not only file format.",
-      "media_slot_id": "I.1.default.12"
+      "media_slot_id": "I.1.still.profield-13",
+      "background_kind": "profield"
     },
     {
       "heading": "III · Critical 2",
@@ -198,37 +322,43 @@ layout: null
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-reddy-best-2018"
       },
       "prompt": "Who is missing from the frame and from the archive?",
-      "media_slot_id": "I.1.still.camp-moschino"
+      "media_slot_id": "I.1.cover.ladies",
+      "background_kind": "profield"
     },
     {
       "heading": "III · Critical 3",
       "sentence": "Every visual reference carries an audience, a power relation, and an omission that can be made discussable.",
       "prompt": "Name the relation your chosen image makes visible.",
-      "media_slot_id": "I.1.default.14"
+      "media_slot_id": "I.1.still.profield-1",
+      "background_kind": "profield"
     },
     {
       "heading": "IV · Diagnostic",
       "sentence": "Given an unlabelled fashion-image description, assign the most defensible field-of-practice label and justify it in two sentences.",
       "prompt": "Work alone; no tool or AI needed.",
-      "media_slot_id": "I.1.still.camp-burberry"
+      "media_slot_id": "I.1.still.profield-2",
+      "background_kind": "profield"
     },
     {
       "heading": "IV · Boundary judgement",
       "sentence": "Given an ambiguous artistic or commercial placement, write a one-sentence boundary judgement by hand.",
       "prompt": "Declare the evidence you used.",
-      "media_slot_id": "I.1.default.16"
+      "media_slot_id": "I.1.still.profield-3",
+      "background_kind": "profield"
     },
     {
       "heading": "IV · The JPEG problem",
       "sentence": "Explain why “it’s a JPEG” is not an answer to “what kind of fashion image is this?”",
       "prompt": "Use the distinction between file format and field of practice.",
-      "media_slot_id": "I.1.default.17"
+      "media_slot_id": "I.1.still.profield-4",
+      "background_kind": "profield"
     },
     {
       "heading": "IV · Portfolio trace",
       "sentence": "Collect the analysis, debate position, critical audit, and problem response as the first material of the public portfolio defence.",
       "prompt": "Save source, version, and one changed judgement.",
-      "media_slot_id": "I.1.default.18"
+      "media_slot_id": "I.1.still.profield-5",
+      "background_kind": "profield"
     }
   ]
 }

@@ -7,6 +7,7 @@ permalink: /lexicum/
 ---
 
 {%- assign lex = site.data.lexicum -%}
+{%- assign prov = lex.provenance -%}
 
 <div class="lexicum-page" data-lexicum markdown="0">
 <section class="lexicum-hero" aria-labelledby="lexicum-title">
@@ -17,8 +18,26 @@ permalink: /lexicum/
 <ul class="lexicum-stats" aria-label="Lexicum statistics">
 <li><strong>{{ lex.stats.concepts }}</strong> concepts</li>
 <li><strong>{{ lex.stats.subfields }}</strong> schemes</li>
-<li>SKOS · CIDOC-CRM</li>
+<li>Design · Business · Communication</li>
 </ul>
+{%- if prov %}
+<div class="lexicum-credit">
+<p class="lexicum-credit__by">
+By <a href="{{ prov.author.orcid }}">{{ prov.author.name }}</a>
+{%- if prov.author.role %} — {{ prov.author.role }}{% endif %}
+· ORCID <a href="{{ prov.author.orcid }}">0000-0001-6862-9081</a>
+</p>
+<p class="lexicum-credit__stack">
+Built with <strong>{{ prov.vocabulary_engine.name }} {{ prov.vocabulary_engine.version }}</strong>
+(YAML → SKOS ConceptSchemes);
+published via <strong>{{ prov.publication_stack.static_site }}</strong>
++ {{ prov.publication_stack.templates }};
+ontology layer <a href="{{ prov.ontology.skos.url }}">SKOS (2009-08-18)</a>
+with optional <a href="{{ prov.ontology.cidoc_crm.url }}">CIDOC-CRM {{ prov.ontology.cidoc_crm.version }}</a> class maps.
+</p>
+<p class="lexicum-credit__method">{{ prov.method }}</p>
+</div>
+{%- endif %}
 </div>
 </section>
 
@@ -49,7 +68,7 @@ permalink: /lexicum/
 <div class="lexicum-concepts">
 {%- for concept in scheme.concepts %}
 {%- assign concept_anchor = scheme_anchor | append: '--' | append: concept.slug %}
-{%- capture search_blob -%}{{ concept.pref_label }} {{ concept.definition }} {% for a in concept.alt_labels %}{{ a }} {% endfor %}{%- endcapture %}
+{%- capture search_blob -%}{{ concept.pref_label }} {{ concept.definition }} {% for a in concept.alt_labels %}{{ a }} {% endfor %} {{ concept.crm_mapping }} {{ concept.scope_note }}{%- endcapture %}
 <article class="lexicum-concept" id="{{ concept_anchor }}" data-lexicum-concept data-scheme="{{ scheme.slug }}" data-search="{{ search_blob | strip | escape }}">
 <h3 class="lexicum-concept__label">{{ concept.pref_label }}</h3>
 <p class="lexicum-concept__def">{{ concept.definition }}</p>
@@ -91,6 +110,13 @@ permalink: /lexicum/
 </ul>
 {%- endif %}
 {%- endfor %}
+{%- if concept.crm_mapping or concept.scope_note %}
+<p class="lexicum-concept__semantic">
+{%- if concept.crm_mapping %}<span class="lexicum-semantic__crm"><span class="lexicum-semantic__key">CIDOC-CRM</span> {{ concept.crm_mapping }}</span>{%- endif %}
+{%- if concept.crm_mapping and concept.scope_note %} · {% endif %}
+{%- if concept.scope_note %}<span class="lexicum-semantic__scope">{{ concept.scope_note }}</span>{%- endif %}
+</p>
+{%- endif %}
 </article>
 {%- endfor %}
 </div>
@@ -98,6 +124,9 @@ permalink: /lexicum/
 {%- endfor %}
 
 <p class="lexicum-empty" data-lexicum-empty role="status">No concepts match this search. Clear the query or choose another scheme.</p>
-<p class="lexicum-footnote">Modelled as SKOS concept schemes with an optional CIDOC-CRM mapping layer. Curriculum snapshot for Creación Digital — {{ lex.stats.concepts }} terms across Design, Business, and Communication.</p>
+<p class="lexicum-footnote">
+Schema <code>lexfield-public/v1</code> — fashion is the prototype tenant of the multi-field vocabulary engine.
+Snapshot {{ lex.cloned_at | default: '' }}.
+</p>
 </div>
 </div>
