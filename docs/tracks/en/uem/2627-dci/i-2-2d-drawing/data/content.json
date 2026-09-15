@@ -1,0 +1,546 @@
+---
+layout: null
+---
+{
+  "unit_label": "Digital Creativity I · I.2 2D drawing tools",
+  "final_event_theme": "What is fashion for you?",
+  "media_selection": {
+    "unit_id": "I.2",
+    "project_id": "dc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "I.2: majors on cover/analysis/masterclass only; transitions geometrical+UUID; lab/workshop content wait for more accepted assets (never steal majors; never organic-pixel-drift).",
+    "media_overrides": {}
+  },
+  "assets": [
+    {
+      "media_slot_id": "I.2.still.profield-1",
+      "asset_id": "wikimedia:File:Work in Progress.JPG",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG",
+      "alt_text": "Work in Progress.JPG",
+      "title": "Work in Progress.JPG",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-2",
+      "asset_id": "wikimedia:File:Nokia 8-display pixel pattern PNr°0495.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nokia_8-display_pixel_pattern_PNr%C2%B00495.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nokia_8-display_pixel_pattern_PNr%C2%B00495.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8-display_pixel_pattern_PNr%C2%B00495.jpg",
+      "alt_text": "Nokia 8-display pixel pattern PNr°0495.jpg",
+      "title": "Nokia 8-display pixel pattern PNr°0495.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-3",
+      "asset_id": "wikimedia:File:Vector graphic design made with Inkscape.svg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/57d691cb5d3028d5.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vector_graphic_design_made_with_Inkscape.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vector_graphic_design_made_with_Inkscape.svg",
+      "alt_text": "Vector graphic design made with Inkscape.svg",
+      "title": "Vector graphic design made with Inkscape.svg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-4",
+      "asset_id": "wikimedia:File:Vector graphic scaling 2.png",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9a618606b3c129a.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Vector_graphic_scaling_2.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vector_graphic_scaling_2.png",
+      "alt_text": "Vector graphic scaling 2.png",
+      "title": "Vector graphic scaling 2.png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-5",
+      "asset_id": "wikimedia:File:Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a8e81ebc3c86799c.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png",
+      "alt_text": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "title": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 7,
+      "selection_rank": 7,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-6",
+      "asset_id": "wikimedia:File:Surrealism (49679583271).jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Surrealism_%2849679583271%29.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Surrealism_%2849679583271%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Surrealism_(49679583271).jpg",
+      "alt_text": "Surrealism (49679583271).jpg",
+      "title": "Surrealism (49679583271).jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 7,
+      "selection_rank": 7,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-7",
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(48).JPG",
+      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-8",
+      "asset_id": "wikimedia:File:Svg image.svg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/b9cc7615e728547e.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Svg_image.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Svg_image.svg",
+      "alt_text": "Svg image.svg",
+      "title": "Svg image.svg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-9",
+      "asset_id": "internet_archive:barbie-magazine-2003",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
+      "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
+      "canonical_source_url": "https://archive.org/details/barbie-magazine-2003",
+      "alt_text": "Barbie Magazine 2003",
+      "title": "Barbie Magazine 2003",
+      "provider": "Internet Archive",
+      "credit_line": "Internet Archive",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-10",
+      "asset_id": "wikimedia:File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Test_-_image_size_comparison_%28Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic%29.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Test_-_image_size_comparison_%28Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic%29.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Test_-_image_size_comparison_(Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic).png",
+      "alt_text": "Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
+      "title": "Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-11",
+      "asset_id": "wikimedia:File:The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_The_Designer_Women%E2%80%99s_Magazine%2C_July_1922_cover%2C_illustration_by_Edward_Mason_Eggleston.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_The_Designer_Women%E2%80%99s_Magazine%2C_July_1922_cover%2C_illustration_by_Edward_Mason_Eggleston.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_The_Designer_Women%E2%80%99s_Magazine,_July_1922_cover,_illustration_by_Edward_Mason_Eggleston.png",
+      "alt_text": "The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
+      "title": "The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-12",
+      "asset_id": "wikimedia:File:Umbrella Nearest Neigbor.png",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/22d13e2ce1b849cb.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Umbrella_Nearest_Neigbor.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Umbrella_Nearest_Neigbor.png",
+      "alt_text": "Umbrella Nearest Neigbor.png",
+      "title": "Umbrella Nearest Neigbor.png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    }
+  ],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "profield",
+      "heading": "I.2 · 2D drawing tools",
+      "sentence": "Drawing externalises visual thinking — technique lives inside the problem, not beside it.",
+      "prompt": "CONTENIDOS: Tecnología digital 2D: Herramientas de dibujo",
+      "quote": "A path you can revise is a thought that still listens.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "vector",
+          "thinking"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.2.still.profield-1"
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "profield",
+      "heading": "How to read a drawing decision",
+      "sentence": "Line · layer · revision · export. Ask what the silhouette needed that the tool alone cannot decide.",
+      "quote": "Affordances, signifiers, mappings, and constraints can simplify our encounters with everyday objects.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "signifiers",
+          "drawing-decision"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
+      },
+      "media_slot_id": "I.2.still.profield-2"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "1 · Drawing as thinking",
+      "sentence": "A path on screen is a visible thought — you can revise it before you polish it.",
+      "quote": "Compress not the soul of the image, only its weight.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "drawing-as-thinking"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.2.still.profield-3"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "2 · Vector is relationship",
+      "sentence": "Anchor points, curves, and fills describe shape as relation — not a grid of pixels.",
+      "quote": "Vector is relationship — points remember each other when the canvas scales.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "vector",
+          "relationship"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.2.still.profield-4"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "3 · Technique inside problems",
+      "sentence": "Studio assignments embed software skill in visual problems, not in isolated button drills.",
+      "prompt": "Curcic 2024 — page cite still open",
+      "quote": "Anyone using a product should always be able to determine the answers to all seven questions. This puts the burden on the designer.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "technique",
+          "problem"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
+      },
+      "media_slot_id": "I.2.still.profield-5"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "4 · Fashion visual grammar",
+      "sentence": "Proportion, croquis, and flats travel across hand, raster, and vector — the grammar stays.",
+      "prompt": "Abling 2023 — page cite still open",
+      "quote": "Signifiers. Effective use of signifiers ensures discoverability and that the feedback is well communicated and intelligible.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "fashion-grammar"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Norman 2013)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
+      },
+      "media_slot_id": "I.2.still.profield-6"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "5 · Audit the reference body",
+      "sentence": "Before you fix a brief, ask who counts as the normal body in the manuals you treat as neutral.",
+      "prompt": "Reddy-Best et al. 2018 — page cite still open",
+      "quote": "A designer keeps their ego in check, knows when to shut up and listen, is aware of their own biases and welcomes having them checked.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "representation",
+          "bias"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Monteiro 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-monteiro-2019"
+      },
+      "media_slot_id": "I.2.still.profield-7"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "6 · Three alternatives",
+      "sentence": "One silhouette is not enough — make three visible versions, then defend the choice you keep.",
+      "quote": "Whether you’re burned out, starting out, starting over, or wildly successful, the question is always the same: How to keep going?",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "alternatives",
+          "persistence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
+      },
+      "media_slot_id": "I.2.still.profield-8"
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Open or update the portfolio index before you leave."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "heading": "Exercise 1 · Contour from primitives",
+      "sentence": "Build one simple fashion silhouette from basic shapes and paths. Keep construction marks visible.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the file + one sentence naming the hardest anchor-point decision.",
+      "quote": "Label the practice before you name the file — JPEG never answered a venue.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "contour",
+          "primitives"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.2.still.profield-9"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "heading": "Exercise 2 · Wrong curve handle",
+      "sentence": "Given a path with a visibly wrong curve handle, name what is wrong and what a correct handle would do.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save diagnosis + corrected sketch (tool or paper).",
+      "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "curve-handle",
+          "attention"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
+      },
+      "media_slot_id": "I.2.still.profield-10"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "heading": "Exercise 3 · Three alternatives",
+      "sentence": "Make three visibly different versions of the silhouette. Score novelty and fit (1–5). Rank and defend the winner.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the three versions + scoring sheet + one paragraph of defence.",
+      "quote": "Everything got better for me when I made peace with the fact that it might not ever get easier. Creative work is hard.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "alternatives",
+          "selection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "drawing (image-making)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Kleon 2019)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
+      },
+      "media_slot_id": "I.2.still.profield-11"
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and does not get Workshop time. From session 4: Workshop splits half Transposition, half final event."
+    }
+  ]
+}
