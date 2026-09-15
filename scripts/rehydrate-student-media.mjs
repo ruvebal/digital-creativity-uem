@@ -8,9 +8,21 @@ import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from '
 import { join, resolve } from 'node:path';
 
 const root = process.cwd();
-const profieldRoot = process.env.PROFIELD_MEDIA_ROOT || '/Users/ruvebal/src/profield/runs/media-prospector';
+const home = process.env.HOME || process.env.USERPROFILE || '';
+const defaultProfieldRoot = home
+  ? `${home}/src/profield/runs/media-prospector`
+  : '/Users/ruvebal/src/profield/runs/media-prospector';
+const profieldRoot = process.env.PROFIELD_MEDIA_ROOT || defaultProfieldRoot;
 const profieldIndex = process.env.PROFIELD_MEDIA_INDEX || null;
 const deckRoot = resolve(root, 'docs/tracks/en/uem/2627-dci');
+
+if (!existsSync(profieldRoot)) {
+  console.warn(
+    `media:rehydrate: skip — Profield media root missing (${profieldRoot}). `
+    + 'Keeping committed deck content.json (CI / machines without studio mount).',
+  );
+  process.exit(0);
+}
 
 function filesUnder(directory) {
   if (!existsSync(directory)) return [];
