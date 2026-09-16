@@ -1,0 +1,83 @@
+- id: ijfdte
+  name: International Journal of Fashion Design, Technology and Education
+  kind: journal
+  status: established
+  summary: Peer-reviewed venue for fashion + digital/tech design research (Taylor & Francis).
+  url: https://www.tandfonline.com/journals/tfdt20
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: communication-and-society
+  name: Communication & Society
+  kind: journal
+  status: established
+  summary: Fashion film / media studies venue (Universidad de Navarra); published Díaz Soloaga & García Guerrero’s fashion-film work.
+  url: https://revistas.unav.edu/index.php/communication-and-society
+  doi: null
+  location: Spain
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: visual-studies
+  name: Visual Studies
+  kind: journal
+  status: established
+  summary: Visual/photographic literacy and image-making practice (Taylor & Francis).
+  url: https://www.tandfonline.com/journals/rvst20
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: fashion-theory
+  name: Fashion Theory
+  kind: journal
+  status: established
+  summary: Fashion mediation and mediatization scholarship — Agnès Rocamora lineage. A required reading horizon for image circulation.
+  url: https://www.tandfonline.com/journals/rfft20
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: cuadernos-cedyc
+  name: Cuadernos del Centro de Estudios en Diseño y Comunicación
+  kind: journal
+  status: established
+  summary: Refereed design/fashion research venue (Universidad de Palermo, Buenos Aires) — major Ibero-American publishing hub.
+  url: https://dspace.palermo.edu/ojs/index.php/cdc/about
+  doi: null
+  location: Buenos Aires
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: computers-in-human-behavior
+  name: Computers in Human Behavior
+  kind: journal
+  status: established
+  summary: Hosts digital-fashion definitional/systematic reviews (e.g. Baek et al.) — useful for “what counts as digital fashion” debates.
+  url: https://www.sciencedirect.com/journal/computers-in-human-behavior
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: esmp
+  name: Estudios sobre el Mensaje Periodístico
+  kind: journal
+  status: established
+  summary: Fashion film / branded content scholarship (UCM) — Ibero-American media-studies pin.
+  url: https://revistas.ucm.es/index.php/ESMP
+  doi: null
+  location: Madrid
+  years: ongoing
+  references: []
+  units: [I.1]

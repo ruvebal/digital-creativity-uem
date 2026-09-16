@@ -1,0 +1,7 @@
+slug: fashion
+title: Fashion
+description: A controlled vocabulary for the fashion domain — design, business, and
+  communication — modelled as SKOS concept schemes with an optional CIDOC-CRM mapping
+  layer.
+namespace_prefix: fashion
+namespace_uri: https://example.org/lexfield/fashion#

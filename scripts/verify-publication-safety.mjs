@@ -26,6 +26,7 @@ const forbidden = [
 	[/\bvector (?:preview|snippet|search)\b/i, 'internal discovery trace'],
 	[/\b(?:coat|node|nodo)\s+`?[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}`?/i, 'internal node identifier'],
 	[/\bcoat\s+`?[0-9a-f]{8,}(?:_[0-9a-z]+)*`?/i, 'internal coat identifier'],
+	[/\bfashlex\b/i, 'discontinued sibling vocabulary name'],
 	[/\/Users\/ruvebal\/[^\s<'\"]+/i, 'local filesystem path'],
 	[/~\/src\//i, 'local studio path'],
 	[/\bdigital-creativity-pedagogy\//i, 'local curriculum-maintenance path'],
@@ -111,7 +112,11 @@ function citationAudit() {
 		if (inlineCitations.length && referenceHeadings.length) {
 			const finalReferences = referenceHeadings.at(-1);
 			const afterReferences = body.slice(finalReferences.index + finalReferences[0].length);
-			if (/^##\s+/m.test(afterReferences)) {
+			const trailingH2 = [...afterReferences.matchAll(/^##\s+(.+?)\s*$/gm)].map((m) => m[1].trim());
+			const allowedTrailing = trailingH2.every((title) =>
+				/^(?:Editorial note\b|Nota editorial\b|AI-assisted authorship\b|Autoría asistida)/i.test(title)
+			);
+			if (trailingH2.length && !allowedTrailing) {
 				failures.push(`${relative(root, file)}: References/Referencias is not the final visible level-two section`);
 			}
 		}

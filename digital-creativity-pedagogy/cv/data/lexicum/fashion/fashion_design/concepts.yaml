@@ -1,0 +1,305 @@
+subfield_slug: fashion_design
+field_slug: fashion
+title: Fashion Design
+description: Garment construction, pattern-making, materials, and the creative development process from
+  concept to finished collection.
+concepts:
+- slug: silhouette
+  pref_label: Silhouette
+  definition: The overall outer contour of a garment or outfit, independent of surface detail, fabric,
+    or color.
+  alt_labels:
+  - shape
+  - line
+  narrower:
+  - aLine
+  - sheath
+  - empireLine
+  related:
+  - draping
+  - fit
+  scope_note: A vocabulary term used across design and buying to communicate shape quickly ("boxy silhouette,"
+    "hourglass silhouette") without reference to fabrication.
+- slug: aLine
+  pref_label: A-Line
+  definition: A silhouette that narrows at the shoulders and flares gradually toward the hem, tracing
+    the shape of the letter A.
+  broader:
+  - silhouette
+- slug: sheath
+  pref_label: Sheath
+  definition: A close-fitting silhouette that follows the body's natural line from shoulder to hem with
+    minimal flare.
+  alt_labels:
+  - column dress
+  broader:
+  - silhouette
+- slug: empireLine
+  pref_label: Empire Line
+  definition: A silhouette with the waistline raised to sit just below the bust, with fabric falling loosely
+    from that seam to the hem.
+  alt_labels:
+  - empire waist
+  broader:
+  - silhouette
+- slug: patternMaking
+  pref_label: Pattern Making
+  definition: The technical process of translating a design sketch or draped form into flat templates
+    ("pattern pieces") used to cut fabric.
+  alt_labels:
+  - patternmaking
+  - flat pattern cutting
+  narrower:
+  - draping
+  - grading
+  related:
+  - toile
+  - sloper
+  crm_mapping: crm:E7_Activity (a type of crm:E65_Creation)
+- slug: draping
+  pref_label: Draping
+  definition: Shaping fabric directly on a dress form or body to develop a pattern or silhouette by eye,
+    rather than drafting flat.
+  alt_labels:
+  - moulage
+  broader:
+  - patternMaking
+  related:
+  - toile
+  - silhouette
+  crm_mapping: crm:E7_Activity
+- slug: toile
+  pref_label: Toile
+  definition: A trial garment made in inexpensive fabric to test and refine a pattern before cutting the
+    final material.
+  alt_labels:
+  - muslin
+  - fitting sample
+  broader:
+  - patternMaking
+  related:
+  - fitting
+  crm_mapping: crm:E22_Human-Made_Object
+- slug: sloper
+  pref_label: Sloper
+  definition: A basic, fitted pattern template without seam allowances or style lines, used as the foundation
+    for developing new patterns.
+  alt_labels:
+  - block
+  - basic block
+  broader:
+  - patternMaking
+  related:
+  - grading
+  crm_mapping: crm:E22_Human-Made_Object
+- slug: grading
+  pref_label: Grading
+  definition: Proportionally scaling a finished pattern up or down to produce the full range of garment
+    sizes.
+  alt_labels:
+  - size grading
+  broader:
+  - patternMaking
+  related:
+  - sizeChart
+  - fit
+  scope_note: Distinct from "fitting" — grading is mathematical scaling, not on-body adjustment.
+- slug: fitting
+  pref_label: Fitting
+  definition: A session in which a garment sample is tried on a model or form to assess and correct fit,
+    proportion, and ease.
+  alt_labels:
+  - fit session
+  related:
+  - toile
+  - fit
+  crm_mapping: crm:E7_Activity
+- slug: fit
+  pref_label: Fit
+  definition: How closely and comfortably a garment conforms to the body at key measurement points; a
+    core quality attribute in both design and merchandising.
+  related:
+  - grading
+  - ease
+  scope_note: In business use, "fit issues" are a leading cause of returns — see fashion_business.sellThrough.
+- slug: ease
+  pref_label: Ease
+  definition: The difference between body measurements and garment measurements, added for comfort (wearing
+    ease) or stylistic volume (design ease).
+  alt_labels:
+  - wearing ease
+  - design ease
+  related:
+  - fit
+  - silhouette
+- slug: croquis
+  pref_label: Croquis
+  definition: A stylized, elongated figure template used as the base for sketching fashion designs quickly.
+  alt_labels:
+  - fashion figure
+  - fashion template
+  related:
+  - flatSketch
+  crm_mapping: crm:E22_Human-Made_Object (as a drawing artifact)
+- slug: flatSketch
+  pref_label: Flat Sketch
+  definition: A precise, proportionate line drawing of a garment shown without a body, used to communicate
+    construction detail to a pattern maker or factory.
+  alt_labels:
+  - technical flat
+  - CAD flat
+  - spec drawing
+  related:
+  - techPack
+  - croquis
+  crm_mapping: crm:E31_Document
+- slug: techPack
+  pref_label: Tech Pack
+  definition: The complete production document set for a garment — flats, measurements, materials, trims,
+    and construction notes — sent to a manufacturer.
+  alt_labels:
+  - technical package
+  - spec sheet
+  narrower:
+  - flatSketch
+  - billOfMaterials
+  crm_mapping: crm:E31_Document
+- slug: billOfMaterials
+  pref_label: Bill of Materials
+  definition: An itemized list of every fabric, trim, and component required to construct a garment, with
+    quantities and suppliers.
+  alt_labels:
+  - BOM
+  broader:
+  - techPack
+  related:
+  - fashion_business.sourcing
+  crm_mapping: crm:E31_Document
+- slug: fabrication
+  pref_label: Fabrication
+  definition: The specific fabric or material selected to execute a design, and the design decisions that
+    follow from that choice (drape, hand, weight).
+  narrower:
+  - textile
+  related:
+  - hand
+  - drape
+- slug: textile
+  pref_label: Textile
+  definition: Any woven, knitted, or non-woven material produced from fibers, used as the raw substrate
+    of a garment.
+  alt_labels:
+  - fabric
+  - cloth
+  broader:
+  - fabrication
+  related:
+  - hand
+  crm_mapping: crm:E24_Physical_Human-Made_Thing
+- slug: hand
+  pref_label: Hand
+  definition: The tactile quality of a fabric — how it feels to the touch (soft, crisp, slippery, dry)
+    — used as a technical descriptor in fabric sourcing.
+  alt_labels:
+  - handfeel
+  related:
+  - textile
+  - drape
+- slug: drape
+  pref_label: Drape
+  definition: How a fabric falls and moves under its own weight when hung or worn, a key criterion in
+    fabric-to-silhouette matching.
+  related:
+  - hand
+  - silhouette
+- slug: collection
+  pref_label: Collection
+  definition: A cohesive group of garments and accessories designed and produced together around a shared
+    concept, palette, and season.
+  alt_labels:
+  - line
+  narrower:
+  - capsuleCollection
+  related:
+  - trendForecast
+  - fashion_communication.lookbook
+  crm_mapping: crm:E65_Creation (as the creative process) — the resulting garments are individually crm:E22_Human-Made_Object
+- slug: capsuleCollection
+  pref_label: Capsule Collection
+  definition: A small, tightly edited collection of interchangeable pieces designed to mix and match,
+    often released outside the main seasonal calendar.
+  alt_labels:
+  - capsule
+  broader:
+  - collection
+- slug: trendForecast
+  pref_label: Trend Forecast
+  definition: A predictive report on upcoming color, fabric, silhouette, and cultural directions, produced
+    ahead of a season to guide design and buying decisions.
+  alt_labels:
+  - trend forecasting
+  related:
+  - collection
+  - colorStory
+  crm_mapping: crm:E31_Document
+- slug: colorStory
+  pref_label: Color Story
+  definition: The coordinated set of colors chosen to run across a collection or a single style, developed
+    to reinforce a season's concept.
+  alt_labels:
+  - colorway
+  - palette
+  related:
+  - trendForecast
+- slug: hauteCouture
+  pref_label: Haute Couture
+  definition: Legally protected French term for custom-fitted, hand-made garments produced by houses officially
+    recognized by the Fédération de la Haute Couture et de la Mode, meeting strict criteria on atelier
+    size and made-to-order production.
+  alt_labels:
+  - couture
+  related:
+  - pretAPorter
+  - atelier
+  crm_mapping: crm:E55_Type (a type of production, applied via crm:P2_has_type to the relevant crm:E12_Production)
+  scope_note: Frequently misused generically for "expensive" or "high-end"; the term has a defined legal
+    meaning in France.
+- slug: pretAPorter
+  pref_label: Prêt-à-Porter
+  definition: Garments manufactured in standard sizes and produced in quantity for direct retail sale,
+    as opposed to made-to-measure.
+  alt_labels:
+  - ready-to-wear
+  - RTW
+  related:
+  - hauteCouture
+  - fashion_business.massMarket
+  crm_mapping: crm:E55_Type
+- slug: atelier
+  pref_label: Atelier
+  definition: The workshop where a design house's garments are constructed, historically distinguishing
+    "flou" (soft dressmaking) from "tailleur" (tailoring) ateliers.
+  alt_labels:
+  - workshop
+  - studio
+  related:
+  - hauteCouture
+  crm_mapping: crm:E53_Place (as the workshop location) — the working group itself is crm:E74_Group
+- slug: sizeChart
+  pref_label: Size Chart
+  definition: A reference table of body and garment measurements for each size in a brand's range, used
+    to standardize fit across production.
+  alt_labels:
+  - size specification
+  - grading rules
+  related:
+  - grading
+  crm_mapping: crm:E31_Document
+- slug: zeroWaste
+  pref_label: Zero-Waste Design
+  definition: A pattern-making approach that uses the entire width of fabric with no offcuts, integrating
+    waste elimination into the cut itself rather than treating it as a post-production concern.
+  broader:
+  - patternMaking
+  related:
+  - fashion_business.sustainability

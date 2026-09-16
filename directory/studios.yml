@@ -1,0 +1,83 @@
+- id: usi-digital-fashion-communication
+  name: Digital Fashion Communication (USI)
+  kind: studio
+  status: established
+  summary: Research group at Università della Svizzera italiana — central to fashion-communication reviews and the FACTUM conference network.
+  url: https://digitalfashion.ch/fashion-communication-conferences/
+  doi: null
+  location: Lugano
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: aidlab
+  name: AiDLab (RCA + PolyU)
+  kind: studio
+  status: established
+  summary: Laboratory for Artificial Intelligence in Design — joint RCA / Hong Kong Polytechnic (InnoHK). A pin for AI-in-design research infrastructure.
+  url: https://www.rca.ac.uk/more/staff/professor-sharon-baurley/
+  doi: null
+  location: London / Hong Kong
+  years: 2021–
+  references: []
+  units: [I.1]
+
+- id: fairee-hub
+  name: FAIREE Hub (London College of Fashion / UAL)
+  kind: studio
+  status: established
+  summary: Fashion AI Research, Education and Enterprise hub — ethical/responsible-AI framing; hosts the International Symposium on AI in Fashion.
+  url: https://www.arts.ac.uk/colleges/london-college-of-fashion/research-at-lcf/research-networks/fashion-ai-research-enterprise-and-education-hub
+  doi: null
+  location: London
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: ual-xr-lab
+  name: UAL Fashion, Textiles and Technology Institute — XR Lab
+  kind: studio
+  status: established
+  summary: XR / virtual-production infrastructure for textiles and dress (AHRC/UKRI). Colour and CG-fabric pipeline work lives here.
+  url: https://gtr.ukri.org/projects?ref=AH%2FX010155%2F1
+  doi: null
+  location: London
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: amsterdam-fashion-rt
+  name: Fashion Research & Technology (AUAS)
+  kind: studio
+  status: established
+  summary: Amsterdam University of Applied Sciences group across digital production, data-driven design, and textile technology.
+  url: https://www.amsterdamuas.com/research/research-groups/fashion-research-and-technology
+  doi: null
+  location: Amsterdam
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: showstudio
+  name: SHOWstudio
+  kind: studio
+  status: practitioner
+  summary: Nick Knight’s digital fashion / fashion-film platform — industry image-practice authority, not a peer-reviewed journal.
+  url: https://www.showstudio.com/
+  doi: null
+  location: London
+  years: 2000–
+  references: []
+  units: [I.1]
+
+- id: admira-sevilla
+  name: ADMIRA (Universidad de Sevilla)
+  kind: studio
+  status: established
+  summary: Research group on media, images, and audiovisual narratives — Ibero-American fashion-film scholarship hub.
+  url: https://www.us.es/trabaja-en-la-us/directorio/valeriano-duran-manso
+  doi: null
+  location: Seville
+  years: ongoing
+  references: []
+  units: [I.1]

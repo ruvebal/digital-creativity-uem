@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-2-dibujo-2d/
 description: 'El dibujo exterioriza el pensamiento visual — pedagogía de taller por tareas que integra la técnica de software en problemas visuales, con lagunas declaradas para secuencias específicas de moda.'
 status: scaffold
 tags: [creacion-digital-i, dibujo-2d, ilustracion-vectorial, croquis-moda]
+deck_url: /tracks/dci/i-2-2d-drawing/
 ---
 
 {% if site.publication.publish_internal_metadata %}
@@ -45,6 +46,10 @@ description: 'El dibujo vectorial como disciplina de describir la forma como rel
 **Competencias que sirve:** `CON1`, `HAB9`, `COMP8`, `COMP9` (mismo conjunto que I.1 — ver esa unidad para el texto completo).
 
 **Resultados de aprendizaje:** *"Seleccionar las herramientas de dibujo vectorial aplicadas al diseño y la comunicación"* — la única frase de `learning_outcomes` de la guía que nombra directamente el anclaje de esta unidad.
+
+**Presentación en clase:** [Diapositivas I.2]({{ '/tracks/dci/i-2-2d-drawing/' | relative_url }})
+
+**Cada clase ordinaria:** Análisis → Masterclass → **Lab (Portfolio)** → **Workshop (Entregable)**. Lab ≠ Workshop. Ver [Cómo aprobar]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).
 
 **Pesos de evaluación:** Investigaciones y proyectos 20% puntúa la pieza de taller; Cuaderno 10% puede tomar la nota de proceso. Pruebas (55%) y Caso/problema (15%) no se tocan aquí.
 

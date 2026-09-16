@@ -1,0 +1,47 @@
+- id: lvmh-prize
+  name: LVMH Prize for Young Fashion Designers
+  kind: prize
+  status: established
+  summary: Major industry prize for emerging designers (incl. Karl Lagerfeld and Savoir-Faire prizes). Useful as a career-field landmark, not as a studio grading rubric.
+  url: https://www.lvmhprize.com/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: andam-prize
+  name: ANDAM Prize
+  kind: prize
+  status: established
+  summary: Canonical French emerging-designer prize; past honorees include Margiela, Vaccarello, Van Herpen — a map pin for “where designers become visible.”
+  url: https://andam.fr/
+  doi: null
+  location: France
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: woolmark-prize
+  name: International Woolmark Prize
+  kind: prize
+  status: established
+  summary: Emerging-designer prize with material constraint (wool); another consecration path beside LVMH/ANDAM.
+  url: https://www.woolmarkprize.com/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
+
+- id: global-change-award
+  name: Global Change Award (H&M Foundation)
+  kind: prize
+  status: practitioner
+  summary: Sustainability/innovation award often cited in fashion-innovation discourse — industry framing more than peer-reviewed pedagogy.
+  url: https://globalchangeaward.com/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]

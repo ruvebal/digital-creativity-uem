@@ -1,0 +1,1704 @@
+{
+  "schema": "lexfield-public/v1",
+  "cloned_at": "2026-09-13T15:53:54Z",
+  "field": {
+    "slug": "fashion",
+    "title": "Fashion",
+    "description": "A controlled vocabulary for the fashion domain — design, business, and communication — modelled as SKOS concept schemes with an optional CIDOC-CRM mapping layer.",
+    "namespace_prefix": "fashion",
+    "namespace_uri": "https://crea-comm.net/lexfield/fashion#"
+  },
+  "stats": {
+    "subfields": 3,
+    "concepts": 88
+  },
+  "subfields": [
+    {
+      "slug": "fashion_business",
+      "title": "Fashion Business",
+      "description": "Sourcing, production economics, retail operations, distribution models, and sustainability governance.",
+      "concept_count": 31,
+      "concepts": [
+        {
+          "slug": "sourcing",
+          "pref_label": "Sourcing",
+          "definition": "The process of identifying, vetting, and contracting suppliers of fabric, trims, and manufacturing capacity for production.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fashion_design.billOfMaterials",
+            "supplyChain"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity",
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.sourcing",
+          "uri_local": "fashion:sourcing"
+        },
+        {
+          "slug": "supplyChain",
+          "pref_label": "Supply Chain",
+          "definition": "The full sequence of entities and processes — raw material, manufacture, logistics, retail — through which a garment moves from fiber to consumer.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [
+            "sourcing",
+            "verticalIntegration"
+          ],
+          "related": [
+            "traceability"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.supplyChain",
+          "uri_local": "fashion:supplyChain"
+        },
+        {
+          "slug": "traceability",
+          "pref_label": "Traceability",
+          "definition": "The ability to track a garment's materials and production steps back through the supply chain, typically for compliance, sustainability, or authenticity claims.",
+          "alt_labels": [
+            "chain of custody"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "supplyChain",
+            "certification"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.traceability",
+          "uri_local": "fashion:traceability"
+        },
+        {
+          "slug": "verticalIntegration",
+          "pref_label": "Vertical Integration",
+          "definition": "A business model in which one company controls multiple stages of the supply chain — e.g. manufacturing and retail — rather than outsourcing them.",
+          "alt_labels": [],
+          "broader": [
+            "supplyChain"
+          ],
+          "narrower": [],
+          "related": [
+            "fastFashion"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.verticalIntegration",
+          "uri_local": "fashion:verticalIntegration"
+        },
+        {
+          "slug": "privateLabel",
+          "pref_label": "Private Label",
+          "definition": "Merchandise manufactured by a third party but sold under a retailer's own brand name rather than the manufacturer's.",
+          "alt_labels": [
+            "own brand",
+            "store brand"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "licensing"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.privateLabel",
+          "uri_local": "fashion:privateLabel"
+        },
+        {
+          "slug": "licensing",
+          "pref_label": "Licensing",
+          "definition": "An agreement allowing a manufacturer to produce and sell goods under a designer's or brand's name in exchange for royalties, common in fragrance, eyewear, and accessories.",
+          "alt_labels": [
+            "brand licensing"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "privateLabel",
+            "brandExtension"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity (a legal/contractual activity)",
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.licensing",
+          "uri_local": "fashion:licensing"
+        },
+        {
+          "slug": "wholesale",
+          "pref_label": "Wholesale",
+          "definition": "Selling goods in bulk to retailers at a discounted per-unit price, for onward resale to consumers, as distinct from direct-to-consumer selling.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "directToConsumer",
+            "markup"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.wholesale",
+          "uri_local": "fashion:wholesale"
+        },
+        {
+          "slug": "directToConsumer",
+          "pref_label": "Direct-to-Consumer",
+          "definition": "A distribution model in which a brand sells directly to end customers, bypassing wholesale intermediaries, typically via owned e-commerce or retail.",
+          "alt_labels": [
+            "DTC",
+            "D2C"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "wholesale",
+            "ecommerce"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.directToConsumer",
+          "uri_local": "fashion:directToConsumer"
+        },
+        {
+          "slug": "buying",
+          "pref_label": "Buying",
+          "definition": "The retail function of selecting and ordering product from suppliers for a store or platform, balancing trend, margin, and forecasted demand.",
+          "alt_labels": [
+            "merchandise buying"
+          ],
+          "broader": [],
+          "narrower": [
+            "openToBuy"
+          ],
+          "related": [
+            "merchandising"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.buying",
+          "uri_local": "fashion:buying"
+        },
+        {
+          "slug": "openToBuy",
+          "pref_label": "Open-to-Buy",
+          "definition": "A budgeting tool that sets the dollar amount a buyer has available to purchase new inventory within a given period, based on planned sales, stock, and markdowns.",
+          "alt_labels": [
+            "OTB"
+          ],
+          "broader": [
+            "buying"
+          ],
+          "narrower": [],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.openToBuy",
+          "uri_local": "fashion:openToBuy"
+        },
+        {
+          "slug": "merchandising",
+          "pref_label": "Merchandising",
+          "definition": "The planning and management of product assortment, pricing, and presentation to maximize sales across a retail season.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [
+            "fashion_communication.visualMerchandising"
+          ],
+          "related": [
+            "buying",
+            "assortmentPlanning"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.merchandising",
+          "uri_local": "fashion:merchandising"
+        },
+        {
+          "slug": "assortmentPlanning",
+          "pref_label": "Assortment Planning",
+          "definition": "Determining the mix, depth, and breadth of styles, sizes, and colors a retailer will carry for a given season or store.",
+          "alt_labels": [],
+          "broader": [
+            "merchandising"
+          ],
+          "narrower": [],
+          "related": [
+            "buying"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.assortmentPlanning",
+          "uri_local": "fashion:assortmentPlanning"
+        },
+        {
+          "slug": "markup",
+          "pref_label": "Markup",
+          "definition": "The amount added to a garment's cost price to set its retail price, usually expressed as a percentage or multiplier (e.g. \"2.5x cost\").",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "margin",
+            "markdown"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.markup",
+          "uri_local": "fashion:markup"
+        },
+        {
+          "slug": "margin",
+          "pref_label": "Margin",
+          "definition": "The difference between selling price and cost, expressed as a percentage of the selling price; the core profitability metric in fashion retail.",
+          "alt_labels": [
+            "gross margin"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "markup",
+            "markdown"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.margin",
+          "uri_local": "fashion:margin"
+        },
+        {
+          "slug": "markdown",
+          "pref_label": "Markdown",
+          "definition": "A reduction in a product's retail price, applied to move slow-selling stock and recover cash flow before a season closes.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "sellThrough",
+            "margin"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.markdown",
+          "uri_local": "fashion:markdown"
+        },
+        {
+          "slug": "sellThrough",
+          "pref_label": "Sell-Through",
+          "definition": "The percentage of received inventory sold within a given period, a key indicator of how well a style or collection is performing.",
+          "alt_labels": [
+            "sell-through rate"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "markdown",
+            "openToBuy"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.sellThrough",
+          "uri_local": "fashion:sellThrough"
+        },
+        {
+          "slug": "minimumOrderQuantity",
+          "pref_label": "Minimum Order Quantity",
+          "definition": "The smallest quantity of a style a manufacturer will agree to produce in a single order, a key constraint for small and emerging brands.",
+          "alt_labels": [
+            "MOQ"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "sourcing"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.minimumOrderQuantity",
+          "uri_local": "fashion:minimumOrderQuantity"
+        },
+        {
+          "slug": "leadTime",
+          "pref_label": "Lead Time",
+          "definition": "The elapsed time between placing a production order and receiving finished goods, a critical planning variable across sourcing and buying.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "sourcing",
+            "fastFashion"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.leadTime",
+          "uri_local": "fashion:leadTime"
+        },
+        {
+          "slug": "fastFashion",
+          "pref_label": "Fast Fashion",
+          "definition": "A business model built on rapid design-to-shelf turnaround and frequent new-product drops, prioritizing speed and trend responsiveness over durability.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "leadTime",
+            "slowFashion"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.fastFashion",
+          "uri_local": "fashion:fastFashion"
+        },
+        {
+          "slug": "slowFashion",
+          "pref_label": "Slow Fashion",
+          "definition": "A production and consumption philosophy emphasizing durability, ethical labor, and reduced volume, positioned as a counter-model to fast fashion.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fastFashion",
+            "sustainability"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.slowFashion",
+          "uri_local": "fashion:slowFashion"
+        },
+        {
+          "slug": "circularFashion",
+          "pref_label": "Circular Fashion",
+          "definition": "A model designed to keep garments and materials in use through resale, rental, repair, and recycling, minimizing the flow of virgin material in and waste out.",
+          "alt_labels": [
+            "circularity"
+          ],
+          "broader": [],
+          "narrower": [
+            "resale",
+            "rental"
+          ],
+          "related": [
+            "sustainability"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.circularFashion",
+          "uri_local": "fashion:circularFashion"
+        },
+        {
+          "slug": "resale",
+          "pref_label": "Resale",
+          "definition": "The sale of previously owned garments through dedicated platforms or brand-run take-back programs.",
+          "alt_labels": [
+            "secondhand",
+            "recommerce"
+          ],
+          "broader": [
+            "circularFashion"
+          ],
+          "narrower": [],
+          "related": [
+            "rental"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.resale",
+          "uri_local": "fashion:resale"
+        },
+        {
+          "slug": "rental",
+          "pref_label": "Rental",
+          "definition": "A model in which consumers pay to borrow garments for a limited period rather than purchase them outright.",
+          "alt_labels": [
+            "fashion rental",
+            "subscription rental"
+          ],
+          "broader": [
+            "circularFashion"
+          ],
+          "narrower": [],
+          "related": [
+            "resale"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.rental",
+          "uri_local": "fashion:rental"
+        },
+        {
+          "slug": "sustainability",
+          "pref_label": "Sustainability",
+          "definition": "Practices intended to reduce the environmental and social impact of fashion production and consumption across the product lifecycle.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "slowFashion",
+            "circularFashion",
+            "certification"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.sustainability",
+          "uri_local": "fashion:sustainability"
+        },
+        {
+          "slug": "certification",
+          "pref_label": "Certification",
+          "definition": "Third-party verification that a product, material, or facility meets defined environmental or labor standards (e.g. GOTS, Fair Trade, Bluesign).",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "traceability",
+            "sustainability"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document (the certificate) issued via crm:E7_Activity",
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.certification",
+          "uri_local": "fashion:certification"
+        },
+        {
+          "slug": "franchise",
+          "pref_label": "Franchise",
+          "definition": "A contractual arrangement letting an independent operator run a store under a brand's name and system in exchange for fees, common for market entry in new territories.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "licensing"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.franchise",
+          "uri_local": "fashion:franchise"
+        },
+        {
+          "slug": "showroom",
+          "pref_label": "Showroom",
+          "definition": "A space, physical or digital, where a brand presents its collection to wholesale buyers and press for ordering and coverage decisions.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "wholesale",
+            "tradeShow"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E53_Place (the space itself)",
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.showroom",
+          "uri_local": "fashion:showroom"
+        },
+        {
+          "slug": "tradeShow",
+          "pref_label": "Trade Show",
+          "definition": "A scheduled industry event where multiple brands present collections to buyers, press, and other trade professionals under one roof.",
+          "alt_labels": [
+            "trade fair"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "showroom"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E5_Event",
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.tradeShow",
+          "uri_local": "fashion:tradeShow"
+        },
+        {
+          "slug": "brandExtension",
+          "pref_label": "Brand Extension",
+          "definition": "Launching a new product category (e.g. fragrance, homeware) under an existing brand name to leverage its recognition into adjacent markets.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "licensing"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.brandExtension",
+          "uri_local": "fashion:brandExtension"
+        },
+        {
+          "slug": "ecommerce",
+          "pref_label": "E-Commerce",
+          "definition": "The sale of fashion goods through digital storefronts, encompassing owned websites, marketplaces, and social commerce.",
+          "alt_labels": [
+            "online retail"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "directToConsumer"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.ecommerce",
+          "uri_local": "fashion:ecommerce"
+        },
+        {
+          "slug": "massMarket",
+          "pref_label": "Mass Market",
+          "definition": "The segment of the fashion industry producing high-volume, lower-priced goods for the broadest possible consumer base.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fashion_design.pretAPorter",
+            "fastFashion"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_business",
+          "qualified": "fashion_business.massMarket",
+          "uri_local": "fashion:massMarket"
+        }
+      ]
+    },
+    {
+      "slug": "fashion_communication",
+      "title": "Fashion Communication",
+      "description": "Brand identity, editorial and press practice, styling, events, and digital/social communication.",
+      "concept_count": 28,
+      "concepts": [
+        {
+          "slug": "brandIdentity",
+          "pref_label": "Brand Identity",
+          "definition": "The consistent set of visual, verbal, and experiential signals — logo, typography, color, tone — through which a fashion brand is recognized.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [
+            "brandVoice",
+            "visualIdentity"
+          ],
+          "related": [
+            "brandNarrative"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.brandIdentity",
+          "uri_local": "fashion:brandIdentity"
+        },
+        {
+          "slug": "brandVoice",
+          "pref_label": "Brand Voice",
+          "definition": "The characteristic style, vocabulary, and attitude a brand uses in written and spoken communication across all channels.",
+          "alt_labels": [
+            "tone of voice"
+          ],
+          "broader": [
+            "brandIdentity"
+          ],
+          "narrower": [],
+          "related": [
+            "brandNarrative"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.brandVoice",
+          "uri_local": "fashion:brandVoice"
+        },
+        {
+          "slug": "visualIdentity",
+          "pref_label": "Visual Identity",
+          "definition": "The codified visual system — logo, color palette, typography, photography style — applied consistently across a brand's touchpoints.",
+          "alt_labels": [],
+          "broader": [
+            "brandIdentity"
+          ],
+          "narrower": [],
+          "related": [
+            "artDirection"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.visualIdentity",
+          "uri_local": "fashion:visualIdentity"
+        },
+        {
+          "slug": "brandNarrative",
+          "pref_label": "Brand Narrative",
+          "definition": "The overarching story a brand tells about its origin, values, and purpose, used to give coherence to campaigns and product launches.",
+          "alt_labels": [
+            "brand story"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "brandIdentity",
+            "brandVoice"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.brandNarrative",
+          "uri_local": "fashion:brandNarrative"
+        },
+        {
+          "slug": "artDirection",
+          "pref_label": "Art Direction",
+          "definition": "The creative oversight of a campaign, shoot, or show's visual execution — casting, set, lighting, composition — to realize a defined concept.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "campaign",
+            "visualIdentity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.artDirection",
+          "uri_local": "fashion:artDirection"
+        },
+        {
+          "slug": "campaign",
+          "pref_label": "Campaign",
+          "definition": "A coordinated set of images, film, and messaging produced to promote a collection or brand moment across paid and owned media.",
+          "alt_labels": [
+            "ad campaign"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "artDirection",
+            "lookbook"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity (the production process); outputs are crm:E31_Document / crm:E38_Image",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.campaign",
+          "uri_local": "fashion:campaign"
+        },
+        {
+          "slug": "lookbook",
+          "pref_label": "Lookbook",
+          "definition": "A curated set of photographs presenting a collection's key looks, used by press, buyers, and consumers to preview a season.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "campaign",
+            "fashion_design.collection"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.lookbook",
+          "uri_local": "fashion:lookbook"
+        },
+        {
+          "slug": "editorial",
+          "pref_label": "Editorial",
+          "definition": "A styled photographic feature published in a magazine or online platform, built around a concept rather than direct product promotion.",
+          "alt_labels": [
+            "fashion editorial",
+            "fashion story"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "styling",
+            "artDirection"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.editorial",
+          "uri_local": "fashion:editorial"
+        },
+        {
+          "slug": "styling",
+          "pref_label": "Styling",
+          "definition": "Selecting and combining garments, accessories, and props to create a specific look for a shoot, show, or personal client.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [
+            "personalStyling"
+          ],
+          "related": [
+            "editorial"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.styling",
+          "uri_local": "fashion:styling"
+        },
+        {
+          "slug": "personalStyling",
+          "pref_label": "Personal Styling",
+          "definition": "One-to-one styling services provided to an individual client for their wardrobe or a specific occasion, as distinct from editorial or show styling.",
+          "alt_labels": [],
+          "broader": [
+            "styling"
+          ],
+          "narrower": [],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.personalStyling",
+          "uri_local": "fashion:personalStyling"
+        },
+        {
+          "slug": "runwayShow",
+          "pref_label": "Runway Show",
+          "definition": "A live presentation in which models walk a defined path wearing a collection's looks in sequence, for press, buyers, and increasingly livestream audiences.",
+          "alt_labels": [
+            "fashion show",
+            "catwalk show"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "presentation",
+            "fashionWeek"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.runwayShow",
+          "uri_local": "fashion:runwayShow"
+        },
+        {
+          "slug": "presentation",
+          "pref_label": "Presentation",
+          "definition": "A collection preview format in which looks are shown on stationary models or mannequins for guests to view at their own pace, as an alternative to a runway show.",
+          "alt_labels": [
+            "static presentation"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "runwayShow"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.presentation",
+          "uri_local": "fashion:presentation"
+        },
+        {
+          "slug": "fashionWeek",
+          "pref_label": "Fashion Week",
+          "definition": "A scheduled series of runway shows and presentations held in a given city, at which brands unveil upcoming seasonal collections to press and buyers.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [
+            "runwayShow"
+          ],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": "crm:E5_Event",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.fashionWeek",
+          "uri_local": "fashion:fashionWeek"
+        },
+        {
+          "slug": "pressKit",
+          "pref_label": "Press Kit",
+          "definition": "A packaged set of materials — images, product details, brand background — distributed to journalists to support coverage of a launch or collection.",
+          "alt_labels": [
+            "media kit"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "pressRelease"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.pressKit",
+          "uri_local": "fashion:pressKit"
+        },
+        {
+          "slug": "pressRelease",
+          "pref_label": "Press Release",
+          "definition": "A formal written announcement distributed to media to communicate news — a launch, partnership, or appointment — in a brand's official framing.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "pressKit"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.pressRelease",
+          "uri_local": "fashion:pressRelease"
+        },
+        {
+          "slug": "seeding",
+          "pref_label": "Seeding",
+          "definition": "Sending product to press, stylists, or influencers without charge in the hope of earning organic coverage or wear.",
+          "alt_labels": [
+            "gifting",
+            "PR seeding"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "influencerMarketing"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.seeding",
+          "uri_local": "fashion:seeding"
+        },
+        {
+          "slug": "influencerMarketing",
+          "pref_label": "Influencer Marketing",
+          "definition": "Paid or gifted partnerships with individuals who have an established audience, used to promote product or brand messaging through their own channels.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "seeding",
+            "brandAmbassador"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.influencerMarketing",
+          "uri_local": "fashion:influencerMarketing"
+        },
+        {
+          "slug": "brandAmbassador",
+          "pref_label": "Brand Ambassador",
+          "definition": "An individual, often a public figure, contracted to represent a brand publicly and consistently over an extended period, beyond a single campaign.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "influencerMarketing",
+            "campaign"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.brandAmbassador",
+          "uri_local": "fashion:brandAmbassador"
+        },
+        {
+          "slug": "frontRow",
+          "pref_label": "Front Row",
+          "definition": "The seating position closest to the runway at a fashion show, reserved for top editors, buyers, celebrities, and VIP guests as a visible signal of status and access.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "runwayShow"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.frontRow",
+          "uri_local": "fashion:frontRow"
+        },
+        {
+          "slug": "visualMerchandising",
+          "pref_label": "Visual Merchandising",
+          "definition": "The design of in-store and window displays to present product attractively and guide customer movement and purchase decisions.",
+          "alt_labels": [
+            "VM"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fashion_business.merchandising",
+            "windowDisplay"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.visualMerchandising",
+          "uri_local": "fashion:visualMerchandising"
+        },
+        {
+          "slug": "windowDisplay",
+          "pref_label": "Window Display",
+          "definition": "A curated arrangement of product and props in a store's street-facing window, used as a brand's most public communication surface.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "visualMerchandising"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.windowDisplay",
+          "uri_local": "fashion:windowDisplay"
+        },
+        {
+          "slug": "fashionFilm",
+          "pref_label": "Fashion Film",
+          "definition": "A short film produced to communicate a brand's aesthetic and narrative, distinct from a straightforward product advertisement.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "campaign",
+            "artDirection"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.fashionFilm",
+          "uri_local": "fashion:fashionFilm"
+        },
+        {
+          "slug": "socialCommerce",
+          "pref_label": "Social Commerce",
+          "definition": "The integration of purchasing directly into social media platforms, collapsing discovery and checkout into a single interaction.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "influencerMarketing",
+            "fashion_business.ecommerce"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.socialCommerce",
+          "uri_local": "fashion:socialCommerce"
+        },
+        {
+          "slug": "userGeneratedContent",
+          "pref_label": "User-Generated Content",
+          "definition": "Photos, videos, or reviews created by consumers rather than the brand, often reshared as a lower-cost, higher-trust form of social proof.",
+          "alt_labels": [
+            "UGC"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "socialCommerce"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.userGeneratedContent",
+          "uri_local": "fashion:userGeneratedContent"
+        },
+        {
+          "slug": "brandCollaboration",
+          "pref_label": "Brand Collaboration",
+          "definition": "A limited joint project between two brands, or a brand and an individual creative, that combines both names' identities into a distinct co-branded release.",
+          "alt_labels": [
+            "collab"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fashion_design.capsuleCollection",
+            "campaign"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.brandCollaboration",
+          "uri_local": "fashion:brandCollaboration"
+        },
+        {
+          "slug": "sizeInclusivity",
+          "pref_label": "Size Inclusivity",
+          "definition": "A brand communication and design commitment to offering and representing an extended range of body sizes across product and campaign imagery.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "brandNarrative"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.sizeInclusivity",
+          "uri_local": "fashion:sizeInclusivity"
+        },
+        {
+          "slug": "heritage",
+          "pref_label": "Heritage",
+          "definition": "A brand's use of its own history, archive, and founding narrative as a communication asset to establish authenticity and longevity.",
+          "alt_labels": [
+            "brand heritage"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "brandNarrative",
+            "archive"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.heritage",
+          "uri_local": "fashion:heritage"
+        },
+        {
+          "slug": "archive",
+          "pref_label": "Archive",
+          "definition": "A brand's or institution's preserved collection of historical garments, sketches, and documents, maintained for reference, exhibition, and heritage communication.",
+          "alt_labels": [
+            "fashion archive"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "heritage"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E78_Curated_Holding (a collection curated and maintained as a unit)",
+          "subfield_slug": "fashion_communication",
+          "qualified": "fashion_communication.archive",
+          "uri_local": "fashion:archive"
+        }
+      ]
+    },
+    {
+      "slug": "fashion_design",
+      "title": "Fashion Design",
+      "description": "Garment construction, pattern-making, materials, and the creative development process from concept to finished collection.",
+      "concept_count": 29,
+      "concepts": [
+        {
+          "slug": "silhouette",
+          "pref_label": "Silhouette",
+          "definition": "The overall outer contour of a garment or outfit, independent of surface detail, fabric, or color.",
+          "alt_labels": [
+            "shape",
+            "line"
+          ],
+          "broader": [],
+          "narrower": [
+            "aLine",
+            "sheath",
+            "empireLine"
+          ],
+          "related": [
+            "draping",
+            "fit"
+          ],
+          "scope_note": "A vocabulary term used across design and buying to communicate shape quickly (\"boxy silhouette,\" \"hourglass silhouette\") without reference to fabrication.",
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.silhouette",
+          "uri_local": "fashion:silhouette"
+        },
+        {
+          "slug": "aLine",
+          "pref_label": "A-Line",
+          "definition": "A silhouette that narrows at the shoulders and flares gradually toward the hem, tracing the shape of the letter A.",
+          "alt_labels": [],
+          "broader": [
+            "silhouette"
+          ],
+          "narrower": [],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.aLine",
+          "uri_local": "fashion:aLine"
+        },
+        {
+          "slug": "sheath",
+          "pref_label": "Sheath",
+          "definition": "A close-fitting silhouette that follows the body's natural line from shoulder to hem with minimal flare.",
+          "alt_labels": [
+            "column dress"
+          ],
+          "broader": [
+            "silhouette"
+          ],
+          "narrower": [],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.sheath",
+          "uri_local": "fashion:sheath"
+        },
+        {
+          "slug": "empireLine",
+          "pref_label": "Empire Line",
+          "definition": "A silhouette with the waistline raised to sit just below the bust, with fabric falling loosely from that seam to the hem.",
+          "alt_labels": [
+            "empire waist"
+          ],
+          "broader": [
+            "silhouette"
+          ],
+          "narrower": [],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.empireLine",
+          "uri_local": "fashion:empireLine"
+        },
+        {
+          "slug": "patternMaking",
+          "pref_label": "Pattern Making",
+          "definition": "The technical process of translating a design sketch or draped form into flat templates (\"pattern pieces\") used to cut fabric.",
+          "alt_labels": [
+            "patternmaking",
+            "flat pattern cutting"
+          ],
+          "broader": [],
+          "narrower": [
+            "draping",
+            "grading"
+          ],
+          "related": [
+            "toile",
+            "sloper"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity (a type of crm:E65_Creation)",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.patternMaking",
+          "uri_local": "fashion:patternMaking"
+        },
+        {
+          "slug": "draping",
+          "pref_label": "Draping",
+          "definition": "Shaping fabric directly on a dress form or body to develop a pattern or silhouette by eye, rather than drafting flat.",
+          "alt_labels": [
+            "moulage"
+          ],
+          "broader": [
+            "patternMaking"
+          ],
+          "narrower": [],
+          "related": [
+            "toile",
+            "silhouette"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.draping",
+          "uri_local": "fashion:draping"
+        },
+        {
+          "slug": "toile",
+          "pref_label": "Toile",
+          "definition": "A trial garment made in inexpensive fabric to test and refine a pattern before cutting the final material.",
+          "alt_labels": [
+            "muslin",
+            "fitting sample"
+          ],
+          "broader": [
+            "patternMaking"
+          ],
+          "narrower": [],
+          "related": [
+            "fitting"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E22_Human-Made_Object",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.toile",
+          "uri_local": "fashion:toile"
+        },
+        {
+          "slug": "sloper",
+          "pref_label": "Sloper",
+          "definition": "A basic, fitted pattern template without seam allowances or style lines, used as the foundation for developing new patterns.",
+          "alt_labels": [
+            "block",
+            "basic block"
+          ],
+          "broader": [
+            "patternMaking"
+          ],
+          "narrower": [],
+          "related": [
+            "grading"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E22_Human-Made_Object",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.sloper",
+          "uri_local": "fashion:sloper"
+        },
+        {
+          "slug": "grading",
+          "pref_label": "Grading",
+          "definition": "Proportionally scaling a finished pattern up or down to produce the full range of garment sizes.",
+          "alt_labels": [
+            "size grading"
+          ],
+          "broader": [
+            "patternMaking"
+          ],
+          "narrower": [],
+          "related": [
+            "sizeChart",
+            "fit"
+          ],
+          "scope_note": "Distinct from \"fitting\" — grading is mathematical scaling, not on-body adjustment.",
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.grading",
+          "uri_local": "fashion:grading"
+        },
+        {
+          "slug": "fitting",
+          "pref_label": "Fitting",
+          "definition": "A session in which a garment sample is tried on a model or form to assess and correct fit, proportion, and ease.",
+          "alt_labels": [
+            "fit session"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "toile",
+            "fit"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E7_Activity",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.fitting",
+          "uri_local": "fashion:fitting"
+        },
+        {
+          "slug": "fit",
+          "pref_label": "Fit",
+          "definition": "How closely and comfortably a garment conforms to the body at key measurement points; a core quality attribute in both design and merchandising.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "grading",
+            "ease"
+          ],
+          "scope_note": "In business use, \"fit issues\" are a leading cause of returns — see fashion_business.sellThrough.",
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.fit",
+          "uri_local": "fashion:fit"
+        },
+        {
+          "slug": "ease",
+          "pref_label": "Ease",
+          "definition": "The difference between body measurements and garment measurements, added for comfort (wearing ease) or stylistic volume (design ease).",
+          "alt_labels": [
+            "wearing ease",
+            "design ease"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fit",
+            "silhouette"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.ease",
+          "uri_local": "fashion:ease"
+        },
+        {
+          "slug": "croquis",
+          "pref_label": "Croquis",
+          "definition": "A stylized, elongated figure template used as the base for sketching fashion designs quickly.",
+          "alt_labels": [
+            "fashion figure",
+            "fashion template"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "flatSketch"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E22_Human-Made_Object (as a drawing artifact)",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.croquis",
+          "uri_local": "fashion:croquis"
+        },
+        {
+          "slug": "flatSketch",
+          "pref_label": "Flat Sketch",
+          "definition": "A precise, proportionate line drawing of a garment shown without a body, used to communicate construction detail to a pattern maker or factory.",
+          "alt_labels": [
+            "technical flat",
+            "CAD flat",
+            "spec drawing"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "techPack",
+            "croquis"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.flatSketch",
+          "uri_local": "fashion:flatSketch"
+        },
+        {
+          "slug": "techPack",
+          "pref_label": "Tech Pack",
+          "definition": "The complete production document set for a garment — flats, measurements, materials, trims, and construction notes — sent to a manufacturer.",
+          "alt_labels": [
+            "technical package",
+            "spec sheet"
+          ],
+          "broader": [],
+          "narrower": [
+            "flatSketch",
+            "billOfMaterials"
+          ],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.techPack",
+          "uri_local": "fashion:techPack"
+        },
+        {
+          "slug": "billOfMaterials",
+          "pref_label": "Bill of Materials",
+          "definition": "An itemized list of every fabric, trim, and component required to construct a garment, with quantities and suppliers.",
+          "alt_labels": [
+            "BOM"
+          ],
+          "broader": [
+            "techPack"
+          ],
+          "narrower": [],
+          "related": [
+            "fashion_business.sourcing"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.billOfMaterials",
+          "uri_local": "fashion:billOfMaterials"
+        },
+        {
+          "slug": "fabrication",
+          "pref_label": "Fabrication",
+          "definition": "The specific fabric or material selected to execute a design, and the design decisions that follow from that choice (drape, hand, weight).",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [
+            "textile"
+          ],
+          "related": [
+            "hand",
+            "drape"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.fabrication",
+          "uri_local": "fashion:fabrication"
+        },
+        {
+          "slug": "textile",
+          "pref_label": "Textile",
+          "definition": "Any woven, knitted, or non-woven material produced from fibers, used as the raw substrate of a garment.",
+          "alt_labels": [
+            "fabric",
+            "cloth"
+          ],
+          "broader": [
+            "fabrication"
+          ],
+          "narrower": [],
+          "related": [
+            "hand"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E24_Physical_Human-Made_Thing",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.textile",
+          "uri_local": "fashion:textile"
+        },
+        {
+          "slug": "hand",
+          "pref_label": "Hand",
+          "definition": "The tactile quality of a fabric — how it feels to the touch (soft, crisp, slippery, dry) — used as a technical descriptor in fabric sourcing.",
+          "alt_labels": [
+            "handfeel"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "textile",
+            "drape"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.hand",
+          "uri_local": "fashion:hand"
+        },
+        {
+          "slug": "drape",
+          "pref_label": "Drape",
+          "definition": "How a fabric falls and moves under its own weight when hung or worn, a key criterion in fabric-to-silhouette matching.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "hand",
+            "silhouette"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.drape",
+          "uri_local": "fashion:drape"
+        },
+        {
+          "slug": "collection",
+          "pref_label": "Collection",
+          "definition": "A cohesive group of garments and accessories designed and produced together around a shared concept, palette, and season.",
+          "alt_labels": [
+            "line"
+          ],
+          "broader": [],
+          "narrower": [
+            "capsuleCollection"
+          ],
+          "related": [
+            "trendForecast",
+            "fashion_communication.lookbook"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E65_Creation (as the creative process) — the resulting garments are individually crm:E22_Human-Made_Object",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.collection",
+          "uri_local": "fashion:collection"
+        },
+        {
+          "slug": "capsuleCollection",
+          "pref_label": "Capsule Collection",
+          "definition": "A small, tightly edited collection of interchangeable pieces designed to mix and match, often released outside the main seasonal calendar.",
+          "alt_labels": [
+            "capsule"
+          ],
+          "broader": [
+            "collection"
+          ],
+          "narrower": [],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.capsuleCollection",
+          "uri_local": "fashion:capsuleCollection"
+        },
+        {
+          "slug": "trendForecast",
+          "pref_label": "Trend Forecast",
+          "definition": "A predictive report on upcoming color, fabric, silhouette, and cultural directions, produced ahead of a season to guide design and buying decisions.",
+          "alt_labels": [
+            "trend forecasting"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "collection",
+            "colorStory"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.trendForecast",
+          "uri_local": "fashion:trendForecast"
+        },
+        {
+          "slug": "colorStory",
+          "pref_label": "Color Story",
+          "definition": "The coordinated set of colors chosen to run across a collection or a single style, developed to reinforce a season's concept.",
+          "alt_labels": [
+            "colorway",
+            "palette"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "trendForecast"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.colorStory",
+          "uri_local": "fashion:colorStory"
+        },
+        {
+          "slug": "hauteCouture",
+          "pref_label": "Haute Couture",
+          "definition": "Legally protected French term for custom-fitted, hand-made garments produced by houses officially recognized by the Fédération de la Haute Couture et de la Mode, meeting strict criteria on atelier size and made-to-order production.",
+          "alt_labels": [
+            "couture"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "pretAPorter",
+            "atelier"
+          ],
+          "scope_note": "Frequently misused generically for \"expensive\" or \"high-end\"; the term has a defined legal meaning in France.",
+          "crm_mapping": "crm:E55_Type (a type of production, applied via crm:P2_has_type to the relevant crm:E12_Production)",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.hauteCouture",
+          "uri_local": "fashion:hauteCouture"
+        },
+        {
+          "slug": "pretAPorter",
+          "pref_label": "Prêt-à-Porter",
+          "definition": "Garments manufactured in standard sizes and produced in quantity for direct retail sale, as opposed to made-to-measure.",
+          "alt_labels": [
+            "ready-to-wear",
+            "RTW"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "hauteCouture",
+            "fashion_business.massMarket"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E55_Type",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.pretAPorter",
+          "uri_local": "fashion:pretAPorter"
+        },
+        {
+          "slug": "atelier",
+          "pref_label": "Atelier",
+          "definition": "The workshop where a design house's garments are constructed, historically distinguishing \"flou\" (soft dressmaking) from \"tailleur\" (tailoring) ateliers.",
+          "alt_labels": [
+            "workshop",
+            "studio"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "hauteCouture"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E53_Place (as the workshop location) — the working group itself is crm:E74_Group",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.atelier",
+          "uri_local": "fashion:atelier"
+        },
+        {
+          "slug": "sizeChart",
+          "pref_label": "Size Chart",
+          "definition": "A reference table of body and garment measurements for each size in a brand's range, used to standardize fit across production.",
+          "alt_labels": [
+            "size specification",
+            "grading rules"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "grading"
+          ],
+          "scope_note": null,
+          "crm_mapping": "crm:E31_Document",
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.sizeChart",
+          "uri_local": "fashion:sizeChart"
+        },
+        {
+          "slug": "zeroWaste",
+          "pref_label": "Zero-Waste Design",
+          "definition": "A pattern-making approach that uses the entire width of fabric with no offcuts, integrating waste elimination into the cut itself rather than treating it as a post-production concern.",
+          "alt_labels": [],
+          "broader": [
+            "patternMaking"
+          ],
+          "narrower": [],
+          "related": [
+            "fashion_business.sustainability"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "fashion_design",
+          "qualified": "fashion_design.zeroWaste",
+          "uri_local": "fashion:zeroWaste"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "author": {
+      "name": "Rubén Vega Balbás, PhD",
+      "role": "Creative Technologist & Developer",
+      "orcid": "https://orcid.org/0000-0001-6862-9081",
+      "email": "ruvebal@crea-comm.net"
+    },
+    "vocabulary_engine": {
+      "name": "lexfield",
+      "version": "0.1.0",
+      "path_hint": "fieldlex (multi-tenant SKOS vocabulary engine)"
+    },
+    "publication_stack": {
+      "static_site": "Jekyll 3.10.0",
+      "templates": "Liquid 4.0.4",
+      "markdown": "kramdown (GFM)",
+      "stylesheet": "PostCSS + Tailwind CSS 3.x"
+    },
+    "ontology": {
+      "skos": {
+        "name": "SKOS",
+        "version": "W3C Recommendation, 2009-08-18",
+        "url": "https://www.w3.org/TR/skos-reference/"
+      },
+      "cidoc_crm": {
+        "name": "CIDOC-CRM",
+        "version": "7.1.3 (2024-02-13)",
+        "url": "https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf"
+      }
+    },
+    "method": "Curriculum-local YAML snapshot compiled from lexfield; definitions authored as controlled-vocabulary entries with optional CIDOC-CRM class mappings where heritage-relevant.",
+    "prototype_note": "The fashion field is the seed tenant of lexfield; other fields (e.g. creativity_techniques) reuse the same Field→Subfield→Concept schema."
+  }
+}

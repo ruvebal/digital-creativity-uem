@@ -10,6 +10,10 @@ permalink: /lessons/es/creacion-digital-i/i-1-imagenes-digitales/
 description: 'Una imagen digital de moda es un campo de prácticas, no un formato de archivo — el marco con el que se abre este curso, antes de abrir ninguna herramienta.'
 status: scaffold
 tags: [creacion-digital-i, imagenes-digitales, fotografia-moda, fundamentos]
+deck_url: /tracks/dci/i-1-fashion-image/
+master_idea: 'Una imagen es un sistema cultural y comunicativo, no solo un archivo'
+practice_anchor: 'Etiqueta práctica · sede · audiencia · circulación antes de nombrar un formato; trata el límite arte/comercio como evidencia móvil'
+frontier_signal: 'Mediación algorítmica y auditoría de manuales siguen en adquisición abierta'
 ---
 
 <!-- prettier-ignore-start -->
@@ -23,30 +27,33 @@ tags: [creacion-digital-i, imagenes-digitales, fotografia-moda, fundamentos]
 
 ---
 
+<div class="lesson-opener" markdown="1">
+
 > _"El camino a la maestría empieza con la lectura. El camino a la iluminación continúa con la práctica."_
 <!-- Ajuste TTDO: ajuste directo — una unidad introductoria es literalmente el momento de "empezar con la lectura" antes de las herramientas de dibujo de la I.2. -->
 > — Tao of Development, `qa-008`
 {: .tao-development-quote }
 
----
-
 {% include lesson-semantic-graphic.html %}
 
-## Dónde se sitúa — CONTENIDOS y competencias
+</div>
 
-**Anclaje CONTENIDOS (verbatim, guía oficial):** *Introducción a las imágenes digitales.*
-
-**Competencias que sirve (`1-creacion-digital-i.json`):** `CON1` (diferenciar técnicas de representación audiovisual de ideas de moda y sus medios de difusión), `HAB9` (utilizar profesionalmente tecnología digital para el tratamiento de imágenes, textos y sonidos), `COMP8` (manejar herramientas digitales de representación gráfica o audiovisual en la comunicación de ideas de moda), `COMP9` (crear ideas nuevas a partir de conceptos conocidos, resolviendo problemas de forma original).
+{% comment %}
+cover-agentic:
+  unit: I.1
+  contenidos: "Introducción a las imágenes digitales."
+  competencies: [CON1, HAB9, COMP8, COMP9]
+  one_line: "Una imagen de moda se define por prácticas, sedes y metas compartidas — no por JPEG o PNG."
+  class_rhythm: "Análisis → Masterclass → Lab (Portfolio) → Workshop (Entregable)"
+  evaluation_feed: "Investigaciones y proyectos 20%; Cuaderno de prácticas 10%"
+  how_to_pass: "/tracks/dci/how-to-pass-this-track/"
+{% endcomment %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 **Resultados de aprendizaje:** la lista `learning_outcomes` de la guía está redactada pensando en I.5/I.6 (forma/volumen) y en I.2/I.3/I.4 (dibujo/efectos) específicamente; ninguna de sus seis frases nombra verbatim la introducción a la imagen digital. En vez de forzar un encaje, esta unidad se declara honestamente al servicio de las cuatro competencias anteriores sin una frase dedicada de `learning_outcomes` — una laguna real de la granularidad de la guía, no contenido inventado.
 -->
 {% endif %}
-
-**Pesos de evaluación a los que alimenta la evidencia de esta unidad** (CD I presencial, framework §6): **Investigaciones y proyectos 20%** puntúa la pieza de taller de esta unidad; la reflexión de proceso puede alimentar también **Cuaderno de prácticas de laboratorio/taller 10%**. Esta unidad no toca directamente Pruebas (55%) ni Caso/problema (15%).
-
----
 
 ## 🎯 Objetivos de aprendizaje
 
@@ -68,7 +75,6 @@ Al final de esta unidad podrás:
 -->
 {% endif %}
 
-**Qué sostiene esta fuente y qué no.** Shinkle (2008) sostiene el marco de *campo de prácticas* con el que abre esta unidad: un relato revisado por pares sobre cómo el propio discurso de la fotografía de moda resiste un género o una frontera única y fija. **No** valida Photoshop, Illustrator ni la pedagogía de una herramienta concreta: ninguna fuente revisada establece *cómo enseñar mejor* la alfabetización en imagen digital como secuencia de aula. Esa laguna queda abierta y se nombra aquí en vez de disimularse.
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 **Qué fundamenta esto, y qué no.** Shinkle (2008) fundamenta el marco de *campo de prácticas* con el que abre esta unidad — un relato revisado por pares, genuino, de cómo el propio discurso de la fotografía de moda resiste un género o frontera única y fija. **No** fundamenta Photoshop, Illustrator, ni la pedagogía de ninguna herramienta concreta: ninguna fuente del vault valida *cómo enseñar mejor* la alfabetización en imagen digital como secuencia de aula. Esa laguna queda abierta y se nombra aquí en vez de disimularse.
@@ -194,3 +200,13 @@ PROVENANCE_LINE: claim=I.1.critical.mediatization; status=[BIBLIO-GAP]; discover
 PROVENANCE_LINE: claim=I.1.critical.textbook-audit; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="fashion textbooks race gender body bias"; source_locator=C3-gender-minorities-silences.pass1.resultant.mdc § Classroom implication; similarity=null; proposed_use="studio reference audit practice"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Reddy-Best 2018 not in scholar vault — procurement pending; quote=none; public_citation="(Reddy-Best et al. 2018)"; supports="auditing who counts as normal body and legitimate designer in studio references"; does_not_support="validated classroom efficacy of audit exercise"
 -->
 {% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+**Qué sostiene esta fuente y qué no.** Shinkle (2008) sostiene el marco de *campo de prácticas* con el que abre esta unidad: un relato revisado por pares sobre cómo el propio discurso de la fotografía de moda resiste un género o una frontera única y fija. **No** valida Photoshop, Illustrator ni la pedagogía de una herramienta concreta: ninguna fuente revisada establece *cómo enseñar mejor* la alfabetización en imagen digital como secuencia de aula. Esa laguna queda abierta y se nombra aquí en vez de disimularse.
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+

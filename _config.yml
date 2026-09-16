@@ -47,6 +47,7 @@ include:
  - evaluation
  - bibliography
  - tao
+ - lexicum
 
 exclude:
  - node_modules

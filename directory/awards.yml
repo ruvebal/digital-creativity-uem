@@ -1,0 +1,47 @@
+- id: redress-design-award
+  name: Redress Design Award
+  kind: award
+  status: established
+  summary: Leading circular/sustainable-design competition (Hong Kong NGO, founded 2007). A field pin for ethics of make-and-remake.
+  url: https://www.redressdesignaward.com/
+  doi: null
+  location: Hong Kong / international
+  years: 2007–
+  references: []
+  units: [I.1]
+
+- id: supima-design-competition
+  name: Supima Design Competition
+  kind: award
+  status: practitioner
+  summary: Emerging-talent competition with NYFW/PFW showcase path — industry visibility more than academic consecration.
+  url: https://supima.com/
+  doi: null
+  location: United States / international
+  years: 2008–
+  references: []
+  units: [I.1]
+
+- id: aifw-winners
+  name: AI Fashion Week winners
+  kind: award
+  status: emerging
+  summary: Explicit AI-generated-design competition outcomes (from 2023). Treat as industry event evidence, not as settled scholarly method.
+  url: https://fashionweek.ai/
+  doi: null
+  location: New York / international
+  years: 2023–
+  references: []
+  units: [I.1]
+
+- id: dfw-touch-grass
+  name: Digital Fashion Week “Touch Grass” competition
+  kind: award
+  status: emerging
+  summary: Digital-garment-specific contest (Decentraland editions). A pin for phygital/runway-as-platform practice.
+  url: https://digitalfashionweek.com/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [I.1]
