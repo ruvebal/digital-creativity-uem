@@ -8,12 +8,16 @@ author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /tracks/en/digital-creativity-ii/
 description: 'S2 · 6 ECTS — avatars, digital fashion experiences, web/portfolio, holograms and AR.'
-status: scaffold
 ---
 
-## Status
-
-**Scaffold complete — all six units have a student-facing B1/B2/B3 lesson pair (EN+ES).** The track is still a scaffold rather than a claim of validated pedagogy: each unit names its evidence boundary on its own lesson page, and the Campus Virtual still owns dates and institutional submission procedures.
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+Track forge status (developers only — not student-facing):
+- Scaffold complete — all six units have a student-facing B1/B2/B3 lesson pair (EN+ES).
+- Still a scaffold rather than validated pedagogy: each unit names its evidence boundary on its lesson page; Campus Virtual owns dates and institutional submission.
+- Contact-hour allocation closes to 80/80 h across these six sessions. Closing hours ≠ proving a teaching method — II.1, II.2, II.4, and II.6 retain declared gaps; II.3 has bounded phenomenon/design-criteria evidence; II.5 has bounded authorship/studio-AI evidence and still has a portfolio-web-UX gap.
+-->
+{% endif %}
 
 ## Pass This Track
 
@@ -33,8 +37,6 @@ status: scaffold
 Previous track states: II.1 was `[BIBLIO-GAP]`, with a gap-visible quote only; II.2 was `[BIBLIO-GAP]` for avatar method before adjacent evaluator-safe sources were added.
 -->
 {% endif %}
-
-The contact-hour allocation closes to **80/80 h** across these six sessions. **Closing the hour allocation is not the same as proving a teaching method** — II.1, II.2, II.4, and II.6 retain declared gaps; II.3 has bounded phenomenon/design-criteria evidence; II.5 has bounded authorship/studio-AI evidence and still has a portfolio-web-UX gap.
 
 ## How to complete a unit
 

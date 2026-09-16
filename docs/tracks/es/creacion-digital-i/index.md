@@ -8,12 +8,17 @@ author: 'Rubén Vega Balbás, PhD'
 lang: es
 permalink: /tracks/es/creacion-digital-i/
 description: 'S1 · 6 ECTS — fundamentos y representación de la forma tridimensional · volumen.'
-status: scaffold
 ---
 
-## Estado
-
-**Andamiaje completo — las nueve unidades tienen una pareja de lecciones B1/B2/B3 orientada al alumnado.** Las horas de contacto cierran a **80/80 h** en todo el conjunto de unidades de CD I. Es un hito curricular honesto, no una afirmación de que la investigación haya validado cada secuencia docente: la mayoría de las unidades declara una laguna de evidencia real, expuesta en su propia página. **I.1 e I.2** tienen presentación en clase forjada (EN); I.3–I.9 aún no.
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+Estado de forja del track (solo desarrolladores — no visible al alumnado):
+- I.1 e I.2 son piloto — prosa homogenizada con lesson-scribe (voz CT) y presentaciones CT-spine; Shinkle (2008, 15) sigue siendo el ancla verificada en página para I.1.
+- I.3–I.9 permanecen andamiaje hasta el mismo pase. Horas de contacto cierran a 80/80 h en el conjunto CD I.
+- Hito curricular honesto, no validación investigadora de cada secuencia; la mayoría declara laguna de evidencia en su página.
+- Nota previa: `[BIBLIO-GAP]` — Campinho et al. (2025) se conservó inicialmente solo como puntero visible sobre ética de búsqueda hasta resolver su ficha bibliográfica.
+-->
+{% endif %}
 
 ## Cómo aprobar este track
 
@@ -31,15 +36,9 @@ status: scaffold
 | I.8 | [Creación de imágenes digitales animadas]({{ '/lessons/es/creacion-digital-i/i-8-animacion/' | relative_url }}) | La animación es una secuencia deliberada de fijas; el oficio es cuáles conservar. La evidencia individual se pliega en la nota de proceso (0 h debates/resolución declaradas). |
 | I.9 | [Bodegones digitales]({{ '/lessons/es/creacion-digital-i/i-9-bodegones/' | relative_url }}) | Un bodegón digital sintetiza I.1–I.4 en una composición equilibrada — ejercicio de síntesis entre unidades previas, no técnica nueva. |
 
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-Nota previa del track: `[BIBLIO-GAP]` — Campinho et al. (2025) se conservó inicialmente solo como puntero visible sobre ética de búsqueda hasta resolver su ficha bibliográfica.
--->
-{% endif %}
-
 ## Cómo completar una unidad
 
-Cada lección es ahora un andamiaje utilizable por el alumnado: **B1** presenta el concepto y el debate, **B2** define el artefacto de taller y su definición de terminado, y **B3** aísla un problema individual (salvo I.8, cuya asignación real de 0 h de resolución se declara y se integra en la nota de proceso). Entrega un ID de pieza, carpeta de proceso, artefacto final y nota de proceso; conserva los originales y declara cualquier asistencia de IA. Las fechas, canales de entrega y procedimiento institucional de examen permanecen en el Campus Virtual; aquí no se inventan.
+Cada lección ofrece **B1** (concepto y debate), **B2** (artefacto de taller y definición de terminado) y **B3** (problema individual — salvo I.8, cuya asignación real de 0 h de resolución se declara y se integra en la nota de proceso). Entrega un ID de pieza, carpeta de proceso, artefacto final y nota de proceso; conserva los originales y declara cualquier asistencia de IA. Las fechas, canales de entrega y procedimiento institucional de examen permanecen en el Campus Virtual; aquí no se inventan.
 
 ## Contenidos oficiales (guía)
 

@@ -8,12 +8,17 @@ author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /tracks/en/digital-creativity-i/
 description: 'S1 · 6 ECTS — foundations of three-dimensional form and volume.'
-status: pilot
 ---
 
-## Status
-
-**I.1 and I.2 are pilot** — lesson prose homogenized through `lesson-scribe` (CT voice) with CT-spine slideshows; Shinkle (2008, 15) remains the page-verified anchor for I.1. **I.3–I.9 stay scaffold** until the same pass. Contact hours still close to **80/80 h** across the full CD I unit set. This is an honest curriculum milestone, not a claim that research has validated every teaching sequence: most units declare a real evidence gap, stated on their own pages.
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+Track forge status (developers only — not student-facing):
+- I.1 and I.2 are pilot — lesson prose homogenized through lesson-scribe (CT voice) with CT-spine slideshows; Shinkle (2008, 15) remains the page-verified anchor for I.1.
+- I.3–I.9 stay scaffold until the same pass.
+- Contact hours still close to 80/80 h across the full CD I unit set.
+- Honest curriculum milestone, not a claim that research has validated every teaching sequence: most units declare a real evidence gap on their own pages.
+-->
+{% endif %}
 
 ## Pass This Track
 
@@ -39,7 +44,7 @@ Previous track note: `[BIBLIO-GAP]` — Campinho et al. (2025) was initially ret
 
 ## How to complete a unit
 
-Each lesson is now a usable student-facing scaffold: **B1** frames the concept and debate, **B2** defines the studio artefact and its definition of done, and **B3** isolates an individual problem (except I.8, whose real 0 h resolution allocation is disclosed and folded into its process note). Submit a piece ID, process folder, final artefact, and process note; keep the original/source files and disclose any AI assistance. Dates, submission channels, and the institutional exam procedure remain in the Campus Virtual rather than being invented here.
+Each lesson gives you **B1** (concept and debate), **B2** (studio artefact and definition of done), and **B3** (an individual problem — except I.8, whose real 0 h resolution allocation is disclosed and folded into its process note). Submit a piece ID, process folder, final artefact, and process note; keep the original/source files and disclose any AI assistance. Dates, submission channels, and the institutional exam procedure remain in the Campus Virtual rather than being invented here.
 
 ## Official contents (guía)
 
