@@ -18,7 +18,7 @@ field_index: true
 </ul>
 <div class="field-index__credit">
 <p class="field-index__credit-by">By <a href="https://orcid.org/0000-0001-6862-9081">Rubén Vega Balbás, PhD</a> — Creative Technologist & Developer<br/>ORCID <a href="https://orcid.org/0000-0001-6862-9081">0000-0001-6862-9081</a></p>
-<p class="field-index__credit-stack">Ontology maps: <a href="https://www.w3.org/TR/skos-reference/">SKOS (2009-08-18)</a>, <a href="https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf">CIDOC-CRM 7.1.3 (2024-02-13)</a>.</p>
+<p class="field-index__credit-stack">Ontology: <a href="https://www.w3.org/TR/skos-reference/">SKOS (2009-08-18)</a>, <a href="https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf">CIDOC-CRM 7.1.3 (2024-02-13)</a>.</p>
 <p class="field-index__credit-method"></p>
 </div>
 </header>

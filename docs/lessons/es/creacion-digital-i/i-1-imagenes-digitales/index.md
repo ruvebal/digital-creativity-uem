@@ -130,38 +130,55 @@ Cubierto arriba: la afirmación del campo de prácticas, la cita de Shinkle, la 
 
 ---
 
-## B2 · Taller — talleres 2 h + investigaciones y proyectos 3 h
+## B2 · Lab (Portfolio)
 
-**Entregable:** un conjunto anotado de 3–5 imágenes digitales de moda, encontradas o creadas, cada una etiquetada con el campo de prácticas al que más pertenece (editorial / publicitaria / retrato / documental / otro, criterio propio del estudiante) y una frase que sitúe dónde está su frontera artístico/comercial.
+**Anunciado primero por una diapositiva geométrica:** **dos** ejercicios; todo lo que produzcas en Lab entra en tu **índice de portfolio**.
 
-**Definición de terminado:**
-- Un ID de pieza (un slug corto elegido por ti).
-- Una carpeta de proceso con las imágenes y las notas de anotación.
-- Cada imagen lleva etiqueta de práctica y frase de frontera — una imagen sin etiquetar no es trabajo terminado.
+### Ejercicio 1 — Coloca una imagen en el campo
 
-**Evidencia a la que alimenta este entregable:** Evaluación → **Investigaciones y proyectos (20%)** directamente; las notas de anotación pueden alimentar también **Cuaderno de prácticas de laboratorio/taller (10%)**. No se inventa un tercer peso de evaluación.
+Elige **una** imagen de moda (encontrada o propia). En papel o en una nota breve, colócala en el campo — no por tipo de archivo:
+
+1. **Práctica** — editorial / publicidad / belleza / retrato / documental (o tu etiqueta defendida)  
+2. **Agentes / actores** — quién la hizo o representa al equipo (fotógrafo, estilista, modelo, editor, marca…)  
+3. **Sedes / venues** — dónde se muestra o podría mostrarse (galería, campaña, pasarela, retail, exposición…)  
+4. **Intereses** — quién pagó, a quién se dirige la mirada, qué trabajo hace la imagen  
+
+Luego escribe una frase explicando por qué «es un JPEG» (u otro nombre de contenedor) **no** responde a «¿qué tipo de imagen de moda es esta?»
+
+**Huella de portfolio:** mapa de campo (práctica · agentes · sedes · intereses) + una frase contenedor-vs-práctica.
+
+### Ejercicio 2 — ¿Dónde te imaginas en el campo?
+
+Abre el [Directorio de campo]({{ '/directory/en/' | relative_url }}) del curso. Quédate en esa página — salta por secciones. Elige **un premio**, **un estudio o lab** y **una figura**. Escribe dos frases sobre dónde te imaginas entre esos tres pines (aspiración de práctica, no un CV).
+
+**Huella de portfolio:** tres pines del Directorio (nombre + sección) + posición en dos frases.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 Sin S1/S2 en esta unidad — el ROL DE ARTEFACTO es **ninguno** (la introducción a la imagen digital no está en la lista de anclajes CONTENIDOS elegibles para vShowroom).
+Lab = exactamente dos ejercicios (forja 2026-09-16); no reintroducir Boundary / JPEG / Directory como tres tareas separadas.
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, descontextualizada
+## B3 · Continuación (sin Workshop esta semana)
 
-No es la pieza de taller. Problemas breves que aíslan el marco de campo de prácticas:
+Las primeras lecciones **no** tienen bloque Workshop. Lab cierra la sesión.
 
-1. **Diagnóstico.** Dada la descripción de una imagen de moda sin etiquetar, asigna la etiqueta de campo de prácticas más defendible y justifícala en dos frases.
-2. Dada una imagen descrita con una colocación artístico/comercial ambigua, escribe a mano la frase de frontera — **sin herramienta ni IA, declarado como tal.**
-3. Explica, con tus propias palabras, por qué "es un JPEG" no responde a "¿qué tipo de imagen de moda es esta?" — la distinción central de esta unidad.
+**Próxima apuesta evaluable:** **D1 Análisis** — defensa presencial de **15 minutos** (apoyo en presentación) de una imagen de moda ligada a una pieza de **exposición en Madrid**. Las defensas empiezan **desde la sesión 3**. D1 se ensaya en la franja de Análisis — **no** recibe reloj de Workshop.
 
-Los borradores de respuesta del profesor no se publican en esta página.
+**El tiempo de Workshop empieza en la sesión 4:** ≈ mitad **D2 Transposición**, ≈ mitad **D3 evento final**.
+
+**Definición de terminado (esta semana):**
+- Índice de portfolio iniciado (**dos** huellas de Lab: mapa de campo + pin del Directorio).
+- Una nota escrita: «D1 = defensa de Análisis — imagen de exposición TBD tras el brief de Madrid.»
+
+**No esta semana:** presentación D1, transposición D2, guion técnico D3 Atrium, entregables inventados de «pieza de taller».
 
 {% comment %}
 outcome-graphic-selection:
-  source-section: "B3 · Resolución de problemas"
+  source-section: "B2 · Lab (Portfolio)"
   visual-grammar: "practice-boundary — un campo de imagen clasificado atraviesa un umbral artístico-comercial móvil"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}

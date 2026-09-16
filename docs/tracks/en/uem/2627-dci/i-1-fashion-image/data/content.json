@@ -549,7 +549,7 @@ layout: null
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
-      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index — including a Directory field pin.",
+      "sentence": "Two exercises come next. Everything you make in Lab goes into your portfolio index — a field map for one image, then a Directory pin for yourself.",
       "portfolio_bound": true,
       "portfolio_trace": "Open or update the portfolio index before you leave."
     },
@@ -557,23 +557,26 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "profield",
       "media_slot_id": "I.1.still.profield-9",
-      "heading": "Exercise 1 · Boundary by hand",
-      "sentence": "Same fashion photo, two jobs: write a gallery caption and a campaign caption by hand — then mark what evidence changed.",
+      "heading": "Exercise 1 · Place an image in the field",
+      "sentence": "Map one fashion image by practice, agents, venues, and interests — then say why a file type is not the answer.",
+      "prompt": "Portfolio: practice · agents/actors · venues · interests + one container-vs-practice sentence.",
       "portfolio_bound": true,
-      "portfolio_trace": "Two handwritten captions + evidence circled.",
+      "portfolio_trace": "Field map (practice · agents · venues · interests) + container-vs-practice sentence.",
       "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
       "quote_origin": "page_verified",
       "semantic_tags": {
         "themes": [
-          "hand-work",
-          "boundary",
-          "attention"
+          "field-map",
+          "practice",
+          "agents",
+          "venues",
+          "interests"
         ],
         "cidoc": [
           "crm:E33_Linguistic_Object"
         ],
         "getty_aat": [
-          "handwriting"
+          "fashion photography"
         ],
         "dcterms": [
           "dcterms:type=Text"
@@ -582,43 +585,13 @@ layout: null
       "citation": {
         "label": "(Kleon 2019)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-kleon-2019"
-      },
-      "prompt": "No tool. No AI. Portfolio: two captions + circled evidence (who paid / where shown / who looks)."
-    },
-    {
-      "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "I.1.still.profield-10",
-      "heading": "Exercise 2 · The JPEG problem",
-      "sentence": "Explain why “it’s a JPEG” is not an answer to “what kind of fashion image is this?”",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save one short paragraph using practice vs container.",
-      "quote": "Anyone using a product should always be able to determine the answers to all seven questions. This puts the burden on the designer.",
-      "quote_origin": "page_verified",
-      "semantic_tags": {
-        "themes": [
-          "container-vs-practice",
-          "design-burden"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "usability"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "citation": {
-        "label": "(Norman 2013)",
-        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-1-digital-images/#ref-norman-2013"
       }
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "heading": "Exercise 3 · Picture yourself in the field",
+      "media_slot_id": "I.1.still.profield-11",
+      "heading": "Exercise 2 · Picture yourself in the field",
       "sentence": "Open the Field Directory. Pick one prize, one studio/lab, and one figure — then write where you picture yourself among them.",
       "prompt": "Portfolio: three Directory pins + two sentences on your position. Link: /directory/en/",
       "portfolio_bound": true,
@@ -644,8 +617,7 @@ layout: null
       "citation": {
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
-      },
-      "media_slot_id": "I.1.still.profield-11"
+      }
     },
     {
       "slide_role": "outro",

@@ -24,8 +24,7 @@ permalink: /lexicum/
 <div class="lexicum-credit">
 <p class="lexicum-credit__by">
 By <a href="{{ prov.author.orcid }}">{{ prov.author.name }}</a>
-{%- if prov.author.role %} — {{ prov.author.role }}{% endif %}
-· ORCID <a href="{{ prov.author.orcid }}">0000-0001-6862-9081</a>
+{%- if prov.author.role %} — {{ prov.author.role }}{% endif %}<br/>ORCID <a href="{{ prov.author.orcid }}">0000-0001-6862-9081</a>
 </p>
 <p class="lexicum-credit__stack">
 Built with <strong>{{ prov.vocabulary_engine.name }} {{ prov.vocabulary_engine.version }}</strong>

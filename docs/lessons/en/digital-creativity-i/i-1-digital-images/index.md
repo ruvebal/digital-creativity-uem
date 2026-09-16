@@ -12,7 +12,7 @@ status: pilot
 tags: [digital-creativity-i, digital-images, fashion-photography, foundations]
 deck_url: /tracks/dci/i-1-fashion-image/
 master_idea: 'An image is a cultural and communicative system, not merely a file'
-practice_anchor: 'Label practice · venue · audience · circulation before naming a file format; treat the art/commerce boundary as movable evidence, not a software setting'
+practice_anchor: 'Place one image in the field (practice · agents · venues · interests) then pin yourself in the Field Directory — two Lab traces only'
 frontier_signal: 'Transmedia / algorithmic mediation and textbook-audit cites remain open procurement — named gaps, not settled classroom proof'
 ---
 
@@ -62,7 +62,7 @@ By the end of this unit, you will be able to:
 
 - **Describe a fashion image by the field of practices it belongs to** (editorial, advertising, portraiture, documentary) — before naming its file format.
 - **Locate the artistic/commercial boundary** in a specific image, and explain why that boundary moves.
-- **Practise the D1 Analysis reading moves** (practice · venue · audience · circulation) in Lab — without inventing a side deliverable this week.
+- **Practise placing an image in the field** (practice · agents · venues · interests) and pinning yourself in the Field Directory — **two** Lab traces only.
 - **State plainly what this unit does not teach** — no tool sequence, no software feature, no image-generation brief as “first deliverable.”
 
 ---
@@ -87,7 +87,7 @@ A fashion image that looks "finished" on a phone is usually the residue of a tem
 #### 2 · Not a file format
 
 <!-- thessia:dc-i1-idea2 -->
-Calling an image "a JPEG" answers the wrong question the way calling a garment "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 2](#exercise-2--the-jpeg-problem) asks you to separate practice from container in one short paragraph. Open one of your own downloads tonight and write what kind of fashion image it is *without* mentioning the extension — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
+Calling an image "a JPEG" answers the wrong question the way calling a garment "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to map practice, agents, venues, and interests before you mention an extension. Open one of your own downloads and write what kind of fashion image it is *without* naming the file type — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
 
 #### 3 · Many genres at once
 
@@ -97,7 +97,7 @@ The temptation is to force every fashion picture into one tidy box — editorial
 #### 4 · Art and commerce
 
 <!-- thessia:dc-i1-idea4 -->
-A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 1](#exercise-1--boundary-by-hand) asks for one handwritten boundary sentence with no tool open. Take one ambiguous image from your set and write the sentence twice: once as if for a gallery caption, once as if for a paid campaign — what changed in the evidence you cited? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
+A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to name venues and interests as movable evidence, not a software setting. Take one ambiguous image and list who paid, where it shows, and who is meant to look — what changed when you treat it as gallery work versus campaign work? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
 
 #### 5 · Read the circulation
 
@@ -125,28 +125,22 @@ VOICE_ANCHOR: CT U1 ideas 1–3 + CT U2 Masterclass register (lesson-scribe 2026
 
 ## B2 · Lab (Portfolio)
 
-**Announced by a geometrical slide first:** three exercises follow; everything you produce in Lab goes into your **portfolio index**.
+**Announced by a geometrical slide first:** **two** exercises follow; everything you produce in Lab goes into your **portfolio index**.
 
-### Exercise 1 — Boundary by hand
+### Exercise 1 — Place an image in the field
 
-Pick one fashion image that could live in **two places at once** — for example a gallery wall **and** a brand campaign feed (same photo, different jobs).
+Pick **one** fashion image (found or your own). On paper or in a short note, place it in the field — not by file type:
 
-By hand (no computer, no AI), write **two short captions** for that same image:
+1. **Practice** — editorial / advertising / beauty / portraiture / documentary (or your defended label)  
+2. **Agents / actors** — who made it or stands in for the crowd (photographer, stylist, model, editor, brand…)  
+3. **Venues** — where it shows or could show (gallery, campaign feed, runway, retail, exhibition…)  
+4. **Interests** — who paid, who is meant to look, what job the image is doing  
 
-1. as if it hung in a gallery  
-2. as if it sold a product in a campaign  
+Then write one sentence explaining why “it’s a JPEG” (or any container name) is **not** an answer to “what kind of fashion image is this?”
 
-Then circle what evidence you used each time (who paid? where shown? who is meant to look?).
+**Portfolio trace:** field map (practice · agents · venues · interests) + one container-vs-practice sentence.
 
-**Portfolio trace:** the two handwritten captions + the evidence you circled.
-
-### Exercise 2 — The JPEG problem
-
-Explain, in your own words, why "it's a JPEG" is not an answer to "what kind of fashion image is this?"
-
-**Portfolio trace:** one short paragraph using practice vs container.
-
-### Exercise 3 — Where do you picture yourself in the field?
+### Exercise 2 — Where do you picture yourself in the field?
 
 Open the course [Field Directory]({{ '/directory/en/' | relative_url }}). Stay on that page — jump by section. Pick **one prize or award**, **one studio or lab**, and **one figure**. Write two sentences on where you picture yourself among those three pins (practice aspiration, not a CV claim).
 
@@ -163,7 +157,7 @@ First lessons have **no Workshop block**. Lab ends the session.
 **Workshop time starts session 4:** ≈ half **D2 Transposition**, ≈ half **D3 final event**.
 
 **Definition of done (this week):**
-- Portfolio index started (three Lab traces, including the Directory field pin).
+- Portfolio index started (**two** Lab traces: field map + Directory field pin).
 - One written note: “D1 = Analysis defence — exhibition image TBD after Madrid brief.”
 
 **Not this week:** D1 slideshow, D2 transposition, D3 Atrium tech script, invented “studio piece” deliverables.
