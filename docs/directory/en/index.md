@@ -1,24 +1,25 @@
 ---
-layout: "default"
-title: "Field directory"
-lang: "en"
-permalink: "/directory/en/"
-description: "Prizes, awards, studios, journals, organizations, contests, and figures — one page, section hashes."
+layout: 'default'
+title: 'Field directory'
+lang: 'en'
+permalink: '/directory/en/'
+description: 'Prizes, awards, studios, journals, organizations, contests, and figures — one page, section hashes.'
 field_index: true
 ---
+
 <div class="field-index not-prose" data-field-index="directory">
 <header class="field-index__hero">
 <p class="field-index__eyebrow">Field map</p>
 <h1 class="field-index__title">Directory</h1>
-<p class="field-index__lede">Authorities and reference points for Digital Creativity in fashion. Stay on this page — jump by section.</p>
+<p class="field-index__lede">Authorities and reference points for Digital Creativity in fashion.</p>
 <ul class="field-index__stats" aria-label="Directory statistics">
 <li><strong>42</strong> entries</li>
 <li><strong>7</strong> sections</li>
 </ul>
 <div class="field-index__credit">
-<p class="field-index__credit-by">By <a href="https://orcid.org/0000-0001-6862-9081">Rubén Vega Balbás, PhD</a> — Creative Technologist & Developer · ORCID <a href="https://orcid.org/0000-0001-6862-9081">0000-0001-6862-9081</a></p>
-<p class="field-index__credit-stack">Built with <strong>lexfield 0.1.0</strong> (YAML → SKOS ConceptSchemes); published via <strong>Jekyll 3.10.0</strong> + Liquid 4.0.4 + Node.js (js-yaml); ontology layer <a href="https://www.w3.org/TR/skos-reference/">SKOS (2009-08-18)</a> with optional <a href="https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf">CIDOC-CRM 7.1.3 (2024-02-13)</a> class maps.</p>
-<p class="field-index__credit-method">Curriculum-local field directory (YAML-as-code); entries seeded from the digital-creativity field panorama — prizes, awards, studios, journals, organizations, contests, and figures.</p>
+<p class="field-index__credit-by">By <a href="https://orcid.org/0000-0001-6862-9081">Rubén Vega Balbás, PhD</a> — Creative Technologist & Developer<br/>ORCID <a href="https://orcid.org/0000-0001-6862-9081">0000-0001-6862-9081</a></p>
+<p class="field-index__credit-stack">Ontology maps: <a href="https://www.w3.org/TR/skos-reference/">SKOS (2009-08-18)</a>, <a href="https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf">CIDOC-CRM 7.1.3 (2024-02-13)</a>.</p>
+<p class="field-index__credit-method"></p>
 </div>
 </header>
 <nav class="field-index__toc" aria-label="On this page">
