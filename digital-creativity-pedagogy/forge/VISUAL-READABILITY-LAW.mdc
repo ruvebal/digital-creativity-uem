@@ -7,4 +7,5 @@ This rule applies to every forged lesson and student-facing slideshow.
 - Text must never collide with nodes, controls, forms, captions, or navigation. Reserve text-safe zones and move copy into a theme surface when needed.
 - TTDO/Athanor quotations use one typographic treatment: no literal quote marks combined with pseudo-elements or a second decorative quote layer.
 - Use theme surface, text, border, and link tokens. Avoid stacked transparent backgrounds that obscure reading order.
+- Jekyll Markdown tables must fit their content without breaking words: use intrinsic table width with horizontal scrolling at the container edge, `word-break: normal`, `overflow-wrap: normal`, `hyphens: none`, and ordinary whitespace wrapping. Never use `break-all` or syllable-level wrapping as a table-layout repair.
 - Verify generated HTML after every forge: no duplicate graph, no lesson page-art figure, no quote decoration collision.

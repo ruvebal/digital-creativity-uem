@@ -15,7 +15,9 @@ description: 'The final digital process notebook for Digital Creativity: a day-b
 
 Create a digital portfolio notebook — a bitácora of your transit across the subject — that makes your creative process, technical decisions, critical judgement, revisions, authorship, and final work inspectable.
 
-This is not a gallery of finished images. It is the course's memory in digital form. Every exercise made during Lab time must appear in the final portfolio, with enough process evidence for another person to understand what you tried, what changed, what feedback mattered, and what you decided to publish.
+This is not a gallery of finished images. It is the course's memory in digital form. The final portfolio must preserve at least one substantive exercise from every Lab time, with enough process evidence for another person to understand what you tried, what changed, what feedback mattered, and what you decided to publish. You may include additional exercises when they strengthen the account; exhaustive accumulation is not the aim.
+
+Each lesson's Lab period must contribute **at least one substantive exercise entry**. A lesson may contain several exercises, demonstrations, or debates; you may include more than one, but the mandatory unit of evidence is one well-developed exercise for every Lab time. Select the exercise that best demonstrates your thinking and development rather than padding the portfolio with several weak traces. A debate may enrich an entry, but it does not replace the required exercise evidence.
 
 Digital Creativity requires a digital portfolio: a responsive website, a well-structured digital publication, or another navigable digital format approved by the professor. You may use a static site, a design tool, a PDF with working navigation, or another platform. The platform is your choice; legible evidence, responsible publishing, and authorship are not optional.
 
@@ -24,6 +26,11 @@ Digital Creativity requires a digital portfolio: a responsive website, a well-st
 The official guides frame Digital Creativity around digital images, 2D and 3D form, volume, fashion references, animation, retouching, avatars, digital experiences, video, web/portfolio creation, holograms, and augmented reality. They also require the ability to communicate fashion ideas with digital tools, work with file formats, create original solutions, and lay out projects to a professional quality bar.
 
 The portfolio joins those capabilities into one readable trajectory. A digital piece can show an outcome; a digital process notebook can show how you built, tested, edited, credited, and published it. Recent e-portfolio research describes structured entries as a way to move from “what happened?” toward analysis and an action plan, and identifies selection, organisation, and reflection as part of students' developing professional identity (Zainuddin et al. 2026, 7). That is the standard here: not more pages, but more accountable seeing.
+
+<figure class="lesson-semantic portfolio-practice-research" aria-labelledby="portfolio-practice-research-caption">
+<img src="{{ '/assets/images/portfolio-practice-research.svg' | relative_url }}" width="1600" height="560" alt="Practice–research loop: question, make, observe, revise, and situated knowledge." />
+<figcaption id="portfolio-practice-research-caption">The portfolio records digital practice as inquiry: a question becomes a test, the test becomes an observation, and the observation informs the next revision.</figcaption>
+</figure>
 
 ## The portfolio is the basement of the final exam
 
@@ -36,10 +43,10 @@ The better your daily Lab work, the better prepared you will be for the final ex
 Submit one navigable digital portfolio containing:
 
 - **A home/index page:** your name or chosen designer name, a short statement, course, and a clear route through the work.
-- **One case-study entry for every Lab exercise and studio assignment:** include the brief, final result, process traces, technical decisions, and reflection.
+- **At least one substantive exercise entry for every Lab time/lesson:** include the brief, final result, process traces, technical decisions, and reflection. If a Lab produces several exercises, choose the strongest representative exercise; additional evidence is welcome but not required.
 - **D1 Analysis, D2 Transposition, and D3 Atrium:** include the final work and the process that led to it, with working links or embedded media.
 - **A final synthesis:** 500–800 words or an equivalent designed digital form explaining how your creative and technical practice changed.
-- **A process inventory:** a visible or linked checklist showing that no Lab assignment is missing.
+- **A process inventory:** a visible or linked checklist showing that every Lab time has a selected exercise entry.
 - **An authorship and AI/material declaration for every piece:** name tools, source materials, collaborators, and your human decisions. “No AI tools used” is a valid declaration.
 - **A technical/accessibility check:** working navigation, readable text, meaningful alt text for informative images, captions or transcripts where relevant, stable file links, and sensible file sizes.
 
@@ -57,7 +64,7 @@ Start the portfolio in the first class and update it every time Lab begins. A co
 | **Decision** | What you kept, changed, combined, or refused — and why              | One decision paragraph or annotated comparison                  |
 | **Exit**     | What the exercise taught you and what you will try next             | learned / unresolved / next action                              |
 
-If a Lab session produces several exercises, make separate entries or clearly separated subentries. Date and label files consistently. Keep the original working files in a private process archive even when the public-facing page presents a smaller selection.
+If a Lab session produces several exercises, make separate entries or clearly separated subentries, but ensure that one selected exercise carries a complete account of the Lab time. Date and label files consistently. Keep the original working files in a private process archive even when the public-facing page presents a smaller selection.
 
 ## Rubric
 
@@ -65,7 +72,7 @@ The rubric uses a 0–10 score for the assignment. The official guide remains th
 
 | Criterion                                                    | Weight | 9–10 · Excellent                                                                                                                | 7–8.9 · Competent                                                                              | 5–6.9 · Minimum pass                                                                     | 0–4.9 · Insufficient                                                                              |
 | ------------------------------------------------------------ | -----: | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Completeness and process continuity**                      |    20% | Every Lab trace and D1–D3 is present, dated, linked, and connected into a convincing journey.                                   | Almost all evidence is present and easy to follow; minor gaps do not break the journey.        | Required core pieces are present, but several entries are thin, late, or hard to locate. | Major omissions, broken routes, or an image-only gallery with no process trail.                   |
+| **Completeness and process continuity**                      |    20% | At least one substantive exercise from every Lab time/lesson and D1–D3 is present, dated, linked, and connected into a convincing journey. | Nearly every Lab time is represented by a clear exercise entry; minor gaps do not break the journey. | Several Lab times are represented only thinly, late, or with difficult-to-locate evidence. | Major omissions, broken routes, or an image-only gallery with no process trail.                   |
 | **Depth of thought and reflection**                          |    25% | Entries move beyond description into precise questions, connections, uncertainty, and changed understanding.                    | Reflection explains meaningful creative and technical choices, with some depth.                | Reflection mostly reports what happened and gives general opinions.                      | Little or no reflection; choices cannot be explained.                                             |
 | **Critical analysis and judgement**                          |    20% | Tests assumptions, reads medium/platform/constraint critically, compares alternatives, and defends refusals as well as choices. | Uses criteria to select and revise; critique is clear and relevant.                            | Names choices but gives limited criteria or analysis.                                    | Accepts defaults uncritically or cannot account for decisions.                                    |
 | **Creative fluency, flexibility, and originality**           |    20% | Shows varied routes, productive risk, strong experimentation, and an original response that adds value to the brief.            | Shows more than one route and a purposeful creative voice.                                     | Shows some variation but relies heavily on one route or familiar solution.               | Little exploration, imitation without transformation, or no evidence of development.              |
@@ -90,6 +97,8 @@ The brief is anchored in the official Digital Creativity I and II guides' conten
 <!-- curriculum-internal:
 [VERIFIED] Official guides: digital-creativity-pedagogy/cv/guides/1-creacion-digital-i.json and 3-creacion-digital-ii.json; presencial evaluation includes Pruebas 55%, Caso/problema 15%, Investigaciones y proyectos 20%, Cuaderno de prácticas de laboratorio/taller 10%.
 [VERIFIED] Ahmes anchor: ahmes-library/scholar/documents/10_1007_s10639_025_13869_y_e_portfolios_as_authentic_assessment_in_pre_service_teacher_bb31f49b/extract/extraction.db; node 96d894e8-b83a-5468-abd7-d28a4419210f; page 6 (printed p. 7); evaluator_safe=yes, confidence 0.95. Discovery: project_slug=profield-digital-creativity; supports structured reflection moving from description to analysis/action and e-portfolio as a learning/assessment artefact; does_not_support platform-specific UX or causal learning claims.
+[BIBLIO-GAP] Practice-research framing anchor: Ahmes node 9296db4c-dc4e-545a-9406-7ac90d6c67c4, Schön, page 19 (printed p. 20), evaluator_safe=no. Retained as internal design provenance only; it does not support a measured learning outcome.
+[GRAPHIC] Practice–research loop commissioned through the course semantic-graphic/DevIAC graphic-forger grammar; the diagram translates question → making → observation → revision into a portfolio evidence cycle.
 -->
 
 {% endif %}
