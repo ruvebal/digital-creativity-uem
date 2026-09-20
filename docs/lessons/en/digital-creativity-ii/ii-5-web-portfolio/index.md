@@ -178,6 +178,8 @@ Quality bar is the guía's own phrase: *"calidad profesional"* — professional 
 
 ## B2 · Studio — talleres 3 h + investigaciones y proyectos 4 h (workplace-like, contextualised)
 
+The [Final Digital Portfolio Notebook]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}) is the course-wide end-of-semester assignment. This unit supplies the digital publishing craft; begin the notebook in the first Lab and add every later exercise to it.
+
 **Deliverable:** one portfolio page (or small static site) that lays out your own Creación Digital work with a process trail and an AI-use declaration, per the structure above.
 
 **Definition of done:**
