@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: lesson
 title: 'Final Digital Portfolio Notebook — Digital Creativity'
 lang: en
+slug: digital-creativity-portfolio
 permalink: /assignments/en/digital-creativity-portfolio/
 description: 'The final digital process notebook for Digital Creativity: a day-by-day record of making, thinking, testing, and publishing.'
 ---
@@ -23,6 +24,12 @@ Digital Creativity requires a digital portfolio: a responsive website, a well-st
 The official guides frame Digital Creativity around digital images, 2D and 3D form, volume, fashion references, animation, retouching, avatars, digital experiences, video, web/portfolio creation, holograms, and augmented reality. They also require the ability to communicate fashion ideas with digital tools, work with file formats, create original solutions, and lay out projects to a professional quality bar.
 
 The portfolio joins those capabilities into one readable trajectory. A digital piece can show an outcome; a digital process notebook can show how you built, tested, edited, credited, and published it. Recent e-portfolio research describes structured entries as a way to move from “what happened?” toward analysis and an action plan, and identifies selection, organisation, and reflection as part of students' developing professional identity (Zainuddin et al. 2026, 7). That is the standard here: not more pages, but more accountable seeing.
+
+## The portfolio is the basement of the final exam
+
+The final exam is a **critical demonstration of the understanding gained during the course**. It is not an unrelated performance that begins at the end of the semester. Your portfolio is its basement: the daily traces, technical decisions, experiments, feedback, revisions, and authorship declarations give you the evidence from which you can build a precise critical response.
+
+The better your daily Lab work, the better prepared you will be for the final exam. Keep the portfolio alive, because the exam will ask you to interpret your process, connect digital techniques to decisions, explain what changed, and defend your judgement — not merely remember software terms.
 
 ## What to submit at the end of the semester
 

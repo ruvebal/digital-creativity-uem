@@ -33,11 +33,13 @@ Use the current subject guía tables for CD I and CD II (knowledge / case / proj
 | **D2 Transposition** | Critical review / palimpsest / discursive circulation | Output **into an image** |
 | **D3 Atrium** | Tech script + live defence | Theme: *What is fashion for you?* |
 | **D4 Portfolio index** | Lab exercises + D1–D3 | Same for both subjects |
-| **D5 Exam** | Test/questionnaire + final self-review of portfolio process | Same |
+| **D5 Exam** | Critical demonstration of course understanding + final self-review of portfolio process | Same |
 
 ## D4 · Final Digital Portfolio Notebook
 
 The [full assignment brief and rubric]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}) is published from the beginning of the semester. Start the portfolio in the first Lab: it is the digital bitácora of your transit across the subject, not a last-minute gallery of finished work.
+
+The portfolio is the **basement of the final exam**. The exam is a critical demonstration of what you have understood and how you can analyse your own creative and technical decisions. Strong daily Lab evidence gives you the material to make that demonstration precise.
 
 ### D1 intra-rubric
 
