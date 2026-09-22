@@ -22,6 +22,7 @@ Estado (2026-09-22):
 - Gemelo EN: /tracks/en/nuevos-medios-moda/ — switch S./E. vía docs/_data/tracks.yml.
 - Ahmes NER+semantic: ver pipeline receipt (en curso / casi completo).
 - No publicar rutas Ahmes, UUIDs ni [BIBLIO-GAP] en HTML estudiantil.
+- Lecciones planificadas (aún no forjadas): docs/lessons/{es,en}/nuevos-medios-moda/u1–u6. Switch de lección: docs/_data/lessons.
 -->
 {% endif %}
 
@@ -62,7 +63,7 @@ Tres capas en cada unidad:
 | **3** | Marketing y publicidad en nuevos medios | Estrategias de marketing en RRSS · Creación de campañas · Publicidad efectiva en plataformas | **Tarea 10 ptos** — Análisis crítico de una campaña de moda en RRSS | La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — no solo creatividad. | Abidin (visibilidad) + CDA fast fashion + influencers; ficha de actividad pendiente. |
 | **4** | Creatividad y contenido digital | Diseño de contenido creativo · Narrativa de marca / storytelling · Engagement | **Tarea 10 ptos** — Propuesta creativa de contenido para RRSS | El contenido alineado a marca exige oficio narrativo y criterio de engagement sin vaciar la crítica. | Capa creativa del corpus más fina; anclar a casos de moda verificados. |
 | **5** | Herramientas digitales y análisis de datos | Herramientas de análisis · Big data en comunicación · Medición y optimización | Actividades (sin puntuación listada) | Los datos no “hablan solos”: cada métrica es una decisión sobre qué cuenta como éxito. | Métricas/plataforma en corpus; falta temario de herramientas + ética de medición. |
-| **6** | Futuro de la comunicación digital | IA en comunicación digital · Realidad aumentada en marketing · Futuro de plataformas interactivas | **Tarea 10 ptos** — Exploración de tecnologías emergentes aplicadas a la moda | IA y R.A. cambian la escena de moda digital; autenticidad, cuerpo y divulgación son problemas de estudio. | Vaults de influencers virtuales / IA presentes; al menos un coat `[BIBLIO-GAP]`. |
+| **6** | Futuro de la comunicación digital | IA en comunicación digital · Realidad aumentada en marketing · Futuro de plataformas interactivas | **Tarea 10 ptos** — Exploración de tecnologías emergentes aplicadas a la moda | IA y R.A. cambian la escena de moda digital; autenticidad, cuerpo y divulgación son problemas de estudio. | Fuentes sobre influencers virtuales e IA presentes; al menos una referencia bibliográfica aún abierta. |
 | **—** | Prueba de conocimientos | — | **Examen 30 ptos** | Cierra el arco U1–U6. | Banco de ítems no forjado. |
 
 ## Resultados de aprendizaje (provisionales, ES)
@@ -88,17 +89,6 @@ Modalidad online: B1 = sesión asíncrona / foro o vídeo-concepto; B2 = entrega
 | 4 | Proponer contenido creativo alineado | Entrega 10 ptos | Storytelling / engagement | **Propuesta creativa RRSS** | Variante de formato |
 | 5 | Medir y optimizar con criterio | Informe de métricas (sin peso listado) | Taller de herramientas | Auditoría de dashboard | Lectura crítica de un KPI |
 | 6 | Explorar IA/R.A. en moda con criterios | Entrega 10 ptos | Tendencias emergentes | **Exploración tecnologías emergentes** | Dilema de autenticidad |
-
-## Páginas de lección (planificadas, aún no forjadas)
-
-- `docs/lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/`
-- `docs/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/`
-- `docs/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/`
-- `docs/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/`
-- `docs/lessons/es/nuevos-medios-moda/u5-herramientas-datos/`
-- `docs/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/`
-
-Gemelos EN bajo `docs/lessons/en/nuevos-medios-moda/…` cuando existan — el switch de lección usa `docs/_data/lessons`.
 
 ## Contenidos oficiales
 

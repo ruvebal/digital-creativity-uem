@@ -15,6 +15,7 @@ status: draft
 <!-- curriculum-internal:
 EN twin only. Teaching language = ES. Canonical structure = Canvas 6 units.
 Primary page: /tracks/es/nuevos-medios-moda/
+Evidence discovery: Athanor/DevIAC project profield-nuevos-medios-moda-2026-27. Cite only via Ahmes nodes. See Profield forge-enrichment/FORGE-SCHEDULE.md for the research→Canvas map.
 -->
 {% endif %}
 
@@ -43,9 +44,5 @@ Canvas assessment (70 + 30):
 | 3 | Marketing and advertising in new media | Fashion campaigns = visibility labour + disclosure + trust. | Skeleton — strong Abidin/CDA corpus |
 | 4 | Creativity and digital content | Brand-aligned content needs craft *and* critique. | Skeleton |
 | 5 | Digital tools and data analysis | Metrics are decisions about what counts as success. | Skeleton — no listed Canvas score |
-| 6 | Future of digital communication | AI/AR change the stage; authenticity and disclosure are studio problems. | Skeleton — some `[BIBLIO-GAP]` coats |
+| 6 | Future of digital communication | AI/AR change the stage; authenticity and disclosure are studio problems. | Skeleton — some bibliography still open |
 | — | Knowledge test | Closes U1–U6 | Item bank not forged |
-
-## Research package
-
-Evidence discovery: Athanor/DevIAC project `profield-nuevos-medios-moda-2026-27`. Cite only via Ahmes nodes. See Profield `forge-enrichment/FORGE-SCHEDULE.md` for the research→Canvas map.
