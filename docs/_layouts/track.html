@@ -37,6 +37,9 @@ layout: default
   </header>
   {% if archive_cover %}</section>{% endif %}
 
+  {% comment %} S./E. lang switch — resolved from docs/_data/tracks.yml via lesson-action-bar {% endcomment %}
+  {% include lesson-action-bar.html %}
+
   <div class="lesson-body">
     {{ content }}
   </div>

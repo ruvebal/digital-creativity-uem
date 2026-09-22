@@ -152,10 +152,8 @@ outcome-graphic-selection:
 - Arnheim, Rudolf. 2004. *Art and Visual Perception: A Psychology of the Creative Eye*. 2nd ed. Berkeley: University of California Press. ISBN 9780520243835.
 - Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
 - Hughes, John F., Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, and Kurt Akeley. 2013. *Computer Graphics: Principles and Practice*. 3rd ed. Upper Saddle River, NJ: Addison-Wesley. ISBN 9780321399526.
-- Moritz, Anna, and Song-yi Youn. 2022. "Spatial Ability of Transitioning 2D to 3D Designs in Virtual Environment: Understanding Spatial Ability in Apparel Design Education." *Fashion and Textiles* 9: 29. https://doi.org/10.1186/s40691-022-00293-w.
-- Papahristou, E., and N. Zolota Tatsi. 2024. "A Review of 3D Design Knowledge and Its Impact on Creativity in Fashion Design Education." *Communications in Development and Assembling of Textile Products* 5 (2): 266–277. https://doi.org/10.25367/cdatp.2024.5.p266-277.
-
-**Declared gap — stated plainly.** Papahristou and Zolota Tatsi (2024) support a real taught 2D→3D sequence; they do **not** prove that sequence produces validated spatial-form understanding better than an alternative. Moritz and Youn (2022) support naming apparel-specific spatial visualization — not this classroom's efficacy.
+- Moritz, Anna, and Song-yi Youn. 2022. "Spatial Ability of Transitioning 2D to 3D Designs in Virtual Environment: Understanding Spatial Ability in Apparel Design Education." *Fashion and Textiles* 9: 29. <a href="https://doi.org/10.1186/s40691-022-00293-w" target="_blank" rel="noopener noreferrer">https://doi.org/10.1186/s40691-022-00293-w</a>.
+- Papahristou, E., and N. Zolota Tatsi. 2024. "A Review of 3D Design Knowledge and Its Impact on Creativity in Fashion Design Education." *Communications in Development and Assembling of Textile Products* 5 (2): 266–277. <a href="https://doi.org/10.25367/cdatp.2024.5.p266-277" target="_blank" rel="noopener noreferrer">https://doi.org/10.25367/cdatp.2024.5.p266-277</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -172,5 +170,38 @@ PROVENANCE_LINE: claim=I.5.critical.spatial-vocabulary; status=NONE; discovery={
 MEDIA_RIGHTS_LINE: slot=I.5.video.2d-to-3d-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.5.still.orthographic-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.5.graphic.reference-to-blockout; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Papahristou and Zolota Tatsi (2024) support a real taught 2D→3D sequence; they do **not** prove that sequence produces validated spatial-form understanding better than an alternative. Moritz and Youn (2022) support naming apparel-specific spatial visualization — not this classroom's efficacy.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **5** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 8dd5a47e-f8b1-4532-a98b-60d0031d33ba
+     vault_refs_consulted: 5
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

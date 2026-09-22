@@ -143,9 +143,7 @@ outcome-graphic-selection:
 
 ## References
 
-- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers' Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia* 161 (1): 86–100. https://doi.org/10.1177/1329878X16665177.
-
-**Declared gap — stated plainly.** No reviewed source validates a bodegón-composition teaching sequence; this unit is a declared synthesis exercise across I.1–I.4, not newly established technique. Abidin (2016) supports critical reading of visibility and attention — not this classroom's compositional efficacy.
+- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers' Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia* 161 (1): 86–100. <a href="https://doi.org/10.1177/1329878X16665177" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/1329878X16665177</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -159,5 +157,38 @@ PROVENANCE_LINE: claim=I.9.artefact.no-exhibition; status=NONE; discovery={servi
 MEDIA_RIGHTS_LINE: slot=I.9.video.still-life-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.9.still.balance-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.9.graphic.object-light-frame; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** No reviewed source validates a bodegón-composition teaching sequence; this unit is a declared synthesis exercise across I.1–I.4, not newly established technique. Abidin (2016) supports critical reading of visibility and attention — not this classroom's compositional efficacy.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **1** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 20c9a5a4-f2eb-42de-ba51-f1f3f9c83c5a
+     vault_refs_consulted: 1
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

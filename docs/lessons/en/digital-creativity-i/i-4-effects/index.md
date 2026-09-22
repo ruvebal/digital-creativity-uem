@@ -68,6 +68,14 @@ Contemporary digital-drawing curricula combine expressive work with foundational
 
 ## Critical perspective
 
+Recent fashion-design research frames generative systems as collaborators in
+ideation and prototyping, but also calls for checks on bias, appropriation, and
+environmental cost (Rizzi and Bertola 2025). A decolonial digital-fashion
+archive route, including cases connecting Bogotá and Spain, makes the stakes
+of reconstruction visible: an effect may reactivate a history or flatten it
+(Rodriguez Schon and Valle-Noronha 2025). These are critical routes, not a
+mandate to use a particular tool.
+
 TikTok, ASMR, nostalgia, augmented reality, and other forms of digital circulation show how contemporary fashion trends are increasingly organised around affect and audiovisual experience (Crepax 2024) — an effect that "clarifies mood" may also be manufacturing a more desirable world while appearing merely technical.
 
 Fashion and beauty retouching require technical literacy plus ethical awareness of manipulated advertising images (McBride et al. 2019). At what point does transformation become a claim about a person, garment, or reality rather than a visual treatment — and who has authority to decide that threshold?
@@ -144,13 +152,14 @@ outcome-graphic-selection:
 
 ## References
 
-- Crepax, Rosa. 2024. "Affective Fashion Trends: Aesthetic and Digital Transformations in the Fashion System." *Fashion Theory*. https://doi.org/10.1080/1362704X.2024.2389595.
-- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). https://doi.org/10.46328/ijtes.576.
-- Gonzalez, Rafael C., and Richard E. Woods. 2018. *Digital Image Processing*. 4th ed. New York: Pearson. ISBN 9780133356724.
-- McBride, Caitlin, Nancy Costello, Suman Ambwani, and S. Bryn Austin. 2019. "Digital Manipulation of Images of Models' Appearance in Advertising: Strategies for Action Through Law and Corporate Social Responsibility Incentives to Protect Public Health." *American Journal of Law & Medicine* 45 (2–3): 201–225. https://doi.org/10.1177/0098858819849990.
-- Park, H., et al. 2025. "Generative AI in Studio-Based Design Education: Human–AI Collaboration, Agency, and Assessment." IASDR 2025.
+- Rodriguez Schon, Victoria, and Julia Valle-Noronha. 2025. “Experiencing Digital Fashion Archives through a Decolonial Lens.” *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.14563" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.14563</a>.
+- Rizzi, Greta, and Paola Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.13875" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.13875</a>.
 
-**Declared gap — stated plainly.** No reviewed source validates a fashion-HE **effects/filter teaching sequence**. Gonzalez and Curcic support technical and studio framing; McBride supports ethical reading of retouched imagery; they do not prove this classroom workflow teaches better than an alternative.
+- Crepax, Rosa. 2024. "Affective Fashion Trends: Aesthetic and Digital Transformations in the Fashion System." *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2389595" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2389595</a>.
+- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.
+- Gonzalez, Rafael C., and Richard E. Woods. 2018. *Digital Image Processing*. 4th ed. New York: Pearson. ISBN 9780133356724.
+- McBride, Caitlin, Nancy Costello, Suman Ambwani, and S. Bryn Austin. 2019. "Digital Manipulation of Images of Models' Appearance in Advertising: Strategies for Action Through Law and Corporate Social Responsibility Incentives to Protect Public Health." *American Journal of Law & Medicine* 45 (2–3): 201–225. <a href="https://doi.org/10.1177/0098858819849990" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0098858819849990</a>.
+- Park, H., et al. 2025. "Generative AI in Studio-Based Design Education: Human–AI Collaboration, Agency, and Assessment." IASDR 2025.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -166,5 +175,38 @@ PROVENANCE_LINE: claim=I.4.critical.disclosure-threshold; status=NONE; discovery
 MEDIA_RIGHTS_LINE: slot=I.4.video.effect-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.4.still.before-after; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.4.graphic.layer-stack; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** No reviewed source validates a fashion-HE **effects/filter teaching sequence**. Gonzalez and Curcic support technical and studio framing; McBride supports ethical reading of retouched imagery; they do not prove this classroom workflow teaches better than an alternative.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **7** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 46b6afd9-995a-4e9e-ae78-403b220cba91
+     vault_refs_consulted: 7
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

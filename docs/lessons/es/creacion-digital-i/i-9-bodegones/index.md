@@ -143,7 +143,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers' Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia* 161 (1): 86–100. https://doi.org/10.1177/1329878X16665177.
+- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers' Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia* 161 (1): 86–100. <a href="https://doi.org/10.1177/1329878X16665177" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/1329878X16665177</a>.
 
 **Brecha declarada — en claro.** Ninguna fuente revisada valida una secuencia para enseñar composición de bodegón; esta unidad es un ejercicio declarado de síntesis entre I.1 e I.4, no una técnica nueva establecida por investigación. Abidin (2016) fundamenta la lectura crítica de visibilidad y atención — no la eficacia compositiva de este aula.
 
@@ -159,5 +159,37 @@ PROVENANCE_LINE: claim=I.9.artefact.no-exhibition; status=NONE; discovery={servi
 MEDIA_RIGHTS_LINE: slot=I.9.video.still-life-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.9.still.balance-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.9.graphic.object-light-frame; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **1** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 253edc2d-29cf-4786-90c7-d60443f9708b
+     vault_refs_consulted: 1
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

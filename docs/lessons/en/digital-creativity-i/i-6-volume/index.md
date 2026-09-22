@@ -151,11 +151,9 @@ outcome-graphic-selection:
 
 ## References
 
-- Coats, M. 2026. “The Denim Project—A Hybrid Approach to Fashion Education Using CLO3D.” *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2026.2688308.
+- Coats, M. 2026. “The Denim Project—A Hybrid Approach to Fashion Education Using CLO3D.” *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2026.2688308" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2026.2688308</a>.
 - Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
-- Farah, M. F., Z. Ramadan, and Y. Nassereddine. 2025. “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2025.2489380.
-
-**Declared gap — stated plainly.** Coats (2026, 8) supports one real hybrid volume module; it does **not** prove that approach generalises as a teaching method across other tools, cohorts, or institutions. No reviewed source validates hybrid analogue/digital iteration as universal fashion-HE volume pedagogy.
+- Farah, M. F., Z. Ramadan, and Y. Nassereddine. 2025. “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2025.2489380" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2025.2489380</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -170,5 +168,38 @@ PROVENANCE_LINE: claim=I.6.critical.relocated-costs; status=NONE; discovery={ser
 MEDIA_RIGHTS_LINE: slot=I.6.video.hybrid-handoff; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.6.still.material-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.6.graphic.mockup-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Coats (2026, 8) supports one real hybrid volume module; it does **not** prove that approach generalises as a teaching method across other tools, cohorts, or institutions. No reviewed source validates hybrid analogue/digital iteration as universal fashion-HE volume pedagogy.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **3** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: c2db34c2-8e2f-4aaa-8cef-4e057f26668f
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

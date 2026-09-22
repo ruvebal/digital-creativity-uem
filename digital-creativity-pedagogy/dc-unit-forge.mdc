@@ -15,6 +15,21 @@ Do **not** use FE’s 10 / 30 / 14 hour scheme. Close hours to the guía JSON **
 
 **Session + deliverables (parallel with Creativity Techniques):** [`forge/SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./forge/SESSION-RHYTHM-AND-DELIVERABLES.mdc) — Masterclass → Lab (portfolio exercises) → Workshop (deliverable time); D1 analysis defence (Madrid exhibition image); D2 transposition into image; D3 Atrium (*What is fashion for you?*); D4 portfolio index; D5 exam + self-review. Slideshows must include geometrical `lab_opener` / `workshop_opener` / `outro`.
 
+## Enrichment prerequisite (parallel to TC)
+
+Before forging a unit, load its matching pack under
+`forge/unit-enrichment/<unit>/PROFESSOR.md`. Each pack must contain a forge
+thesis, strong conceptual routes, a critical perspective with Ibero-American/
+Spain grounding where relevant, an open living prompt, and a slideshow spine.
+Athanor/vector hits are discovery only: promote a reference to student-facing
+prose only after Ahmes resolves the canonical node/page citation. Otherwise
+retain `[BIBLIO-GAP]` and state what the source does not support.
+
+Forge the professor guide first; derive the student slideshow from its bounded
+claims and exactly two portfolio-bound lab exercises, following
+`forge/STUDENT-SLIDESHOW-FORGE.mdc`. No deck is complete until its accepted
+media pack exists.
+
 ---
 
 ## 0. Architecture — three logics, kept apart
@@ -73,6 +88,20 @@ details in the lesson source inside the switch-gated `curriculum-internal`
 comment required by `curriculum-forger` §6.1. If the evidence matrix says
 NONE, state the epistemic limit in ordinary teaching language and keep the
 internal status vocabulary in that source-only comment.
+
+**Reference URLs (classroom board).** Every DOI / `http://` / `https://` in
+`## References` / `## Referencias` (and any other student-facing bibliography
+line) MUST be a real HTML anchor that opens in a **new tab**, so a professor
+projecting the lesson can open the article without losing the board focus:
+
+```html
+<a href="https://doi.org/10.1080/1472586X.2024.2353689" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1472586X.2024.2353689</a>
+```
+
+Never leave a bare URL as plain text — Kramdown does not autolink it, and the
+rendered lesson will show a non-clickable string. The post-build script
+`scripts/link-external-reference-urls.mjs` is a safety net; forged source must
+still ship the anchor. Same-page citation jumps (`#ref-…`) stay in-tab.
 
 ### 2.1 Athanor-assisted forge ignitor
 
@@ -242,7 +271,8 @@ course weighting by assertion.
   internal corpus/local-architecture metadata in rendered output; cited
   lessons use Chicago author-date, link every rendered `(Author Year[, page])`
   to its stable Chicago `References` / `Referencias` entry, and end with that
-  reference list.
+  reference list; every DOI/`http(s)` URL in that list is an anchor with
+  `target="_blank"` (classroom board — do not navigate the projected lesson away).
 ```
 
 ---
@@ -258,7 +288,8 @@ course weighting by assertion.
   `--verbatim-registry` · `--expected-sentences 4` · `--brief` (CI3 now parses lesson-scribe tabular coats).
 - Every lesson ships `## Conclusion` (gaps as invitation) before `## References`, then
   `## Editorial note. Work in progress. Teaching Innovation Practice` (epistemic limits —
-  **never** mid-body), then `## AI-assisted authorship` with internal UUID + date.
+  **never** mid-body), then `## AI-assisted authorship` with forge metadata + link to
+  `/ai-declaration/`.
   Authorship: Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) **wrote** the
   lesson in the crea-comm.net studio (local agentic harness, MCP retrieval,
   RAG over the curriculum vault, scholar-voice model fine-tuned on his writing).
@@ -301,17 +332,46 @@ cover-agentic:
 
 Prefer frontmatter `master_idea:` / `practice_anchor:` / `frontier_signal:` (and `_es` twins). `lesson_covers.json` `field_lens` may seed Practice anchor (`Established:`) and Frontier (`Emerging:`).
 
-**Editorial note (Teaching Innovation Practice).** Mid-body “What the sources support…” is forbidden. After `## References`, ship:
+### 3c. Closing law — Editorial note + AI-assisted authorship (binding)
+
+**Order after `## References` / `## Referencias` (fail-closed):**
+
+1. Switch-gated `curriculum-internal` comment (optional; source-only).
+2. `## Editorial note. Work in progress. Teaching Innovation Practice`  
+   ES: `## Nota editorial. Trabajo en curso. Práctica de Innovación docente`  
+   Class: `{: .lesson-editorial-note }`
+3. `## AI-assisted authorship`  
+   ES: `## Autoría asistida por IA`
+
+**What must live inside the Editorial note (not mid-body, not dangling under References):**
+
+- Every **Declared gap** / **Missing evidence** / **Laguna declarada** / **Evidencia faltante** paragraph.
+- Every **Addressed to the editor** line (page-node open, bibliography present but unverified, procurement notes formerly italicised inside Reference list items).
+- Epistemic limits only — what page-verified sources support, what they do not. No new teaching content.
+
+Mid-body “What the sources support…” is forbidden. Reference list entries stay clean Chicago (DOI anchors with `target="_blank"`); editor asides do **not** remain inside `<li>` / list items.
+
+**AI-assisted authorship template (EN — ES twin required):**
 
 ```markdown
-## Editorial note. Work in progress. Teaching Innovation Practice
-{: .lesson-editorial-note }
+## AI-assisted authorship
 
-<Epistemic limits only: what page-verified sources support, what they do not,
-and which cites remain open. No new teaching content.>
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **<vault_refs_n>** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: YYYY-MM-DD · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
 ```
 
-Only `## AI-assisted authorship` may follow. This is the course's *Práctica de Innovación docente* transparency surface — English heading on EN pages; Spanish heading on ES pages (`## Nota editorial. Trabajo en curso. Práctica de Innovación docente`).
+`<vault_refs_n>` = count of stable `id="ref-…"` (or Reference list items). Link **must** resolve through `relative_url` to the course AI declaration page. Only optional switch-gated `lesson_uuid` metadata may follow this section.
+
+Gate: `npm run verify:publication` / `verify:citations` enforce trailing H2 order, no bare Declared-gap after References, AI footer presence, and `/ai-declaration/` link.
 
 Golden rules for slides (shared with CT): see
 [`forge/STUDENT-SLIDESHOW-FORGE.mdc`](./forge/STUDENT-SLIDESHOW-FORGE.mdc)
@@ -358,4 +418,3 @@ Shared with CT U2 cue-enrich. Prefer for Analysis field-tension and Conclusion c
 | `e77c3d8d` Markman et al. 2009 | Alternative / counterfactual thinking bridge |
 
 Full receipt: `~/src/deviac/fine-tuning/thessia-tuning-memory/registries/CT-U2-CUE-ENRICH-RECEIPT.md`.
-

@@ -156,9 +156,9 @@ outcome-graphic-selection:
 ## Referencias
 
 - Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
-- MacCallum, Fiona, and Heather Widdows. 2018. "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations." *Health Care Analysis* 26 (1). https://doi.org/10.1007/s10728-016-0327-1.
-- McLean, Siân A., Susan J. Paxton, Eleanor H. Wertheim, and Jennifer Masters. 2015. "Photoshopping the selfie: Self photo editing and photo investment are associated with body dissatisfaction in adolescent girls." *International Journal of Eating Disorders* 48 (8). https://doi.org/10.1002/eat.22449.
-- Rodriguez Schon, Victoria, and Julia Valle-Noronha. 2025. "Experiencing digital fashion archives through a decolonial lens." *European Journal of Cultural Management and Policy*. https://doi.org/10.3389/ejcmp.2025.14563.
+- MacCallum, Fiona, and Heather Widdows. 2018. "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations." *Health Care Analysis* 26 (1). <a href="https://doi.org/10.1007/s10728-016-0327-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/s10728-016-0327-1</a>.
+- McLean, Siân A., Susan J. Paxton, Eleanor H. Wertheim, and Jennifer Masters. 2015. "Photoshopping the selfie: Self photo editing and photo investment are associated with body dissatisfaction in adolescent girls." *International Journal of Eating Disorders* 48 (8). <a href="https://doi.org/10.1002/eat.22449" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/eat.22449</a>.
+- Rodriguez Schon, Victoria, and Julia Valle-Noronha. 2025. "Experiencing digital fashion archives through a decolonial lens." *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.14563" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.14563</a>.
 
 **Vacío declarado — en claro.** MacCallum y Widdows (2018) y McLean et al. (2015) apoyan nombrar las consecuencias de imágenes alteradas y autorretratos editados; **no** prueban que la secuencia de retoque, la rúbrica de declaración o el entregable antes/después de este aula enseñen mejor el retoque avanzado de moda que una alternativa. Ninguna fuente revisada valida un currículo de retoque de moda para HE.
 
@@ -175,5 +175,37 @@ PROVENANCE_LINE: claim=II.1.critical.disclosure-threshold; status=NONE; discover
 MEDIA_RIGHTS_LINE: slot=II.1.video.retouch-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.1.still.before-after; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.1.graphic.edit-ledger; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **4** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 90959874-ad5a-411b-8abe-2d59d30ca455
+     vault_refs_consulted: 4
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

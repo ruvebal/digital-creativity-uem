@@ -251,10 +251,10 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Anwar, S., A. Raza y R. Marzouk. 2025. “Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.” *European Journal of Business and Management*. https://doi.org/10.65136/ejbm.v10i4.24.
-- Cheang, Sarah, y Shehnaz Suterwalla. 2020. “Decolonizing the Curriculum? Transformation, Emotion, and Positionality in Teaching.” *Fashion Theory* 24 (6): 879–900. https://doi.org/10.1080/1362704X.2020.1800989.
-- Garcia, M. B. 2025. “Self-Coded Digital Portfolios as an Authentic Project-Based Learning Assessment in Computing Education: Evidence from a Web Design and Development Course.” *Education Sciences* 15 (9): 1150. https://doi.org/10.3390/educsci15091150.
-- Rizzi, G. y P. Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. https://doi.org/10.3389/ejcmp.2025.13875.
+- Anwar, S., A. Raza y R. Marzouk. 2025. “Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.” *European Journal of Business and Management*. <a href="https://doi.org/10.65136/ejbm.v10i4.24" target="_blank" rel="noopener noreferrer">https://doi.org/10.65136/ejbm.v10i4.24</a>.
+- Cheang, Sarah, y Shehnaz Suterwalla. 2020. “Decolonizing the Curriculum? Transformation, Emotion, and Positionality in Teaching.” *Fashion Theory* 24 (6): 879–900. <a href="https://doi.org/10.1080/1362704X.2020.1800989" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2020.1800989</a>.
+- Garcia, M. B. 2025. “Self-Coded Digital Portfolios as an Authentic Project-Based Learning Assessment in Computing Education: Evidence from a Web Design and Development Course.” *Education Sciences* 15 (9): 1150. <a href="https://doi.org/10.3390/educsci15091150" target="_blank" rel="noopener noreferrer">https://doi.org/10.3390/educsci15091150</a>.
+- Rizzi, G. y P. Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.13875" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.13875</a>.
 
 **Vacío declarado — en claro.** Anwar et al. (2025), Rizzi y Bertola (2025) y Garcia (2025) apoyan la visibilidad de autoría y el encuadre portfolio-como-evidencia; **no** prueban que la maquetación HTML, las elecciones de accesibilidad o la estructura de portfolio de esta unidad produzcan mejor comunicación, visibilidad o contratación en moda. Ninguna fuente revisada valida resultados de UX web de portfolio de moda para HE.
 
@@ -271,5 +271,37 @@ PROVENANCE_LINE: claim=II.5.critical.platform-authorship; status=NONE; discovery
 MEDIA_RIGHTS_LINE: slot=II.5.video.portfolio-walkthrough; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.5.still.process-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.5.graphic.portfolio-ia; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **4** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: d1eb98ac-68a5-46eb-b7b8-ecf4194c0a82
+     vault_refs_consulted: 4
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

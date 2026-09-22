@@ -22,6 +22,12 @@ permalink: /tracks/en/
         <span>S2 · 6 ECTS — avatars, experiences, web portfolio, AR</span>
       </a>
     </li>
+    <li>
+      <a href="{{ '/tracks/en/nuevos-medios-moda/' | relative_url }}">
+        <strong>New Media — Fashion Platforms &amp; Social Networks</strong>
+        <span>Online · Spanish is the teaching language — EN twin for S./E. switch · Canvas 6-unit scaffold</span>
+      </a>
+    </li>
   </ul>
 
   <p><a href="{{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}"><strong>Final Digital Portfolio Notebook and rubric →</strong></a></p>

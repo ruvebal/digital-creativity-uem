@@ -176,11 +176,9 @@ outcome-graphic-selection:
 
 ## References
 
-- AlDahoul, Nouar, Talal Rahwan, and Yasir Zaki. 2025. "AI-generated faces influence gender stereotypes and racial homogenization." *Scientific Reports* 15: 14449. https://doi.org/10.1038/s41598-025-99623-3.
-- Anwar, S., A. Raza, and R. Marzouk. 2025. "Generative AI in Studio-Based Fashion Education: A Systematic Literature Review." *European Journal of Business and Management*. https://doi.org/10.65136/ejbm.v10i4.24.
-- Gonzalez-Franco, M., A. Steed, C. C. Berger, and A. Tajadura-Jiménez. 2024. "The Impact of First-Person Avatar Customization on Embodiment in Immersive Virtual Reality." *Frontiers in Virtual Reality* 5: 1436752. https://doi.org/10.3389/frvir.2024.1436752.
-
-**Declared gap — stated plainly.** Anwar (2025) and Gonzalez-Franco et al. (2024) support authorship guardrails and embodiment perspective respectively; they do **not** prove that this classroom's avatar sequence, identity-intent rubric, or deliverable teaches avatar creation better than an alternative. No reviewed source validates an avatar-modelling method for fashion education. Research on anthropomorphism in fashion-AI contexts may inform why identity claims matter, but that literature remains outside this unit's verified bibliography. VTON/try-on is out of scope for this unit and remains unaddressed by design.
+- AlDahoul, Nouar, Talal Rahwan, and Yasir Zaki. 2025. "AI-generated faces influence gender stereotypes and racial homogenization." *Scientific Reports* 15: 14449. <a href="https://doi.org/10.1038/s41598-025-99623-3" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41598-025-99623-3</a>.
+- Anwar, S., A. Raza, and R. Marzouk. 2025. "Generative AI in Studio-Based Fashion Education: A Systematic Literature Review." *European Journal of Business and Management*. <a href="https://doi.org/10.65136/ejbm.v10i4.24" target="_blank" rel="noopener noreferrer">https://doi.org/10.65136/ejbm.v10i4.24</a>.
+- Gonzalez-Franco, M., A. Steed, C. C. Berger, and A. Tajadura-Jiménez. 2024. "The Impact of First-Person Avatar Customization on Embodiment in Immersive Virtual Reality." *Frontiers in Virtual Reality* 5: 1436752. <a href="https://doi.org/10.3389/frvir.2024.1436752" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/frvir.2024.1436752</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -196,5 +194,38 @@ PROVENANCE_LINE: claim=II.2.critical.identity-agency-prompt; status=NONE; discov
 MEDIA_RIGHTS_LINE: slot=II.2.video.avatar-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.2.still.identity-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.2.graphic.component-map; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Anwar (2025) and Gonzalez-Franco et al. (2024) support authorship guardrails and embodiment perspective respectively; they do **not** prove that this classroom's avatar sequence, identity-intent rubric, or deliverable teaches avatar creation better than an alternative. No reviewed source validates an avatar-modelling method for fashion education. Research on anthropomorphism in fashion-AI contexts may inform why identity claims matter, but that literature remains outside this unit's verified bibliography. VTON/try-on is out of scope for this unit and remains unaddressed by design.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **3** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 9fa29c45-72ab-451d-9b45-25b2e31ac8bf
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

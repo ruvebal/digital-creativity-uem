@@ -8,6 +8,8 @@
 		"postcss:watch": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css --watch",
 		"normalize:ids": "node scripts/normalize-ids.mjs",
 		"mark-broken-links": "node scripts/mark-broken-links.mjs",
+		"link:external-refs": "node scripts/link-external-reference-urls.mjs",
+		"link:citations": "node scripts/link-lesson-citations.mjs",
 		"generate:lesson-covers": "node scripts/lesson-covers/generate-lesson-covers.mjs",
 		"generate:archive-covers": "node scripts/archive-covers/generate-archive-covers.mjs . uem",
 		"generate:page-art": "node scripts/generate-page-art.mjs",

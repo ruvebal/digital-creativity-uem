@@ -16,6 +16,8 @@ status: complete
 <header class="tao-header">
   <h1>El Tao del Diseño Centrado en las Personas</h1>
   <p class="tao-subtitle"><em>The Tao of Human-Centered Design</em></p>
+  <p class="tao-author">Por <a href="https://orcid.org/0000-0001-6862-9081">Rubén Vega Balbás, PhD</a> — Creative Technologist &amp; Developer<br/><span style="font-size: 0.8em;">ORCID <a href="https://orcid.org/0000-0001-6862-9081">0000-0001-6862-9081</a></span></p>
+  <p class="tao-project">Parte de <a href="https://ruvebal.github.io/ttod/">TTDO — The Tao of the Development project</a>.</p>
   <p class="tao-intro">
     El tao que puede ser procesado por un modelo no es el tao eterno.<br>
     Lo que sigue fue escrito antes de que los APIs existieran para leerlo.<br>
@@ -389,11 +391,39 @@ Los saberes condensados en el TTOD se anclan en la siguiente bibliografía. Las 
   color: #a3a3a3;
   margin-bottom: 1.5rem;
 }
+.tao-author {
+  margin: 0 0 1.25rem;
+  color: #d4d4d4;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.tao-page .tao-author a,
+.tao-page .tao-project a,
+.tao-page .tao-nav a,
+.tao-page .tao-footer a {
+  color: #34d399;
+}
+.tao-project {
+  margin: 0 0 1.5rem;
+  color: #a3a3a3;
+  line-height: 1.7;
+}
 .tao-intro {
   font-size: 1rem;
   color: #737373;
   line-height: 1.8;
   font-style: italic;
+}
+/* Sticky chapter tags — below sticky site chrome (CT pattern, offset for default layout) */
+.tao-nav {
+  position: sticky;
+  top: var(--site-header-height, 4.5rem);
+  z-index: 20;
+  margin: 0 -1.5rem 2rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(10, 10, 10, 0.96);
+  border-bottom: 1px solid #262626;
+  backdrop-filter: blur(8px);
 }
 .tao-nav ul {
   list-style: none;
@@ -401,10 +431,10 @@ Los saberes condensados en el TTOD se anclan en la siguiente bibliografía. Las 
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin: 0 0 2rem;
+  margin: 0;
   justify-content: center;
 }
-.tao-nav a {
+.tao-page .tao-nav a {
   font-size: 0.78rem;
   color: #34d399;
   text-decoration: none;
@@ -413,12 +443,14 @@ Los saberes condensados en el TTOD se anclan en la siguiente bibliografía. Las 
   border-radius: 4px;
   transition: background 0.15s, border-color 0.15s;
 }
-.tao-nav a:hover {
+.tao-page .tao-nav a:hover {
   background: #052e16;
   border-color: #34d399;
+  color: #34d399;
 }
 .tao-section {
   margin-bottom: 3.5rem;
+  scroll-margin-top: calc(var(--site-header-height, 4.5rem) + 4.5rem);
 }
 .tao-section h2 {
   font-size: 1.25rem;

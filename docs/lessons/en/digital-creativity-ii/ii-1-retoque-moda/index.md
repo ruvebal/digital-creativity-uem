@@ -156,11 +156,11 @@ outcome-graphic-selection:
 ## References
 
 - Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
-- MacCallum, Fiona, and Heather Widdows. 2018. "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations." *Health Care Analysis* 26 (1). https://doi.org/10.1007/s10728-016-0327-1.
-- McLean, Siân A., Susan J. Paxton, Eleanor H. Wertheim, and Jennifer Masters. 2015. "Photoshopping the selfie: Self photo editing and photo investment are associated with body dissatisfaction in adolescent girls." *International Journal of Eating Disorders* 48 (8). https://doi.org/10.1002/eat.22449.
-- Rodriguez Schon, Victoria, and Julia Valle-Noronha. 2025. "Experiencing digital fashion archives through a decolonial lens." *European Journal of Cultural Management and Policy*. https://doi.org/10.3389/ejcmp.2025.14563.
+- MacCallum, Fiona, and Heather Widdows. 2018. "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations." *Health Care Analysis* 26 (1). <a href="https://doi.org/10.1007/s10728-016-0327-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/s10728-016-0327-1</a>.
+- McLean, Siân A., Susan J. Paxton, Eleanor H. Wertheim, and Jennifer Masters. 2015. "Photoshopping the selfie: Self photo editing and photo investment are associated with body dissatisfaction in adolescent girls." *International Journal of Eating Disorders* 48 (8). <a href="https://doi.org/10.1002/eat.22449" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/eat.22449</a>.
+- Rodriguez Schon, Victoria, and Julia Valle-Noronha. 2025. "Experiencing digital fashion archives through a decolonial lens." *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.14563" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.14563</a>.
 
-**Declared gap — stated plainly.** MacCallum and Widdows (2018) and McLean et al. (2015) support naming consequences of altered and self-edited images; they do **not** prove that this classroom's retouching sequence, disclosure rubric, or before/after deliverable teaches advanced fashion retouching better than an alternative. No reviewed source validates a fashion-retouch curriculum for HE.
+---
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -183,4 +183,32 @@ MEDIA_RIGHTS_LINE: slot=II.1.graphic.edit-ledger; status=PENDING; licence=none; 
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-MacCallum and Widdows (2018) support naming that altered images shape body satisfaction and beauty aspirations. McLean et al. (2015) support treating self-photo editing as associated with body dissatisfaction in adolescent girls — adjacent to retouch ethics, not a classroom policy prescription. **No reviewed source validates a fashion-retouch teaching sequence** for HE; tool docs ground operations only — label `[PLATFORM]`, never research. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+**Declared gap — stated plainly.** MacCallum and Widdows (2018) and McLean et al. (2015) support naming consequences of altered and self-edited images; they do **not** prove that this classroom's retouching sequence, disclosure rubric, or before/after deliverable teaches advanced fashion retouching better than an alternative. No reviewed source validates a fashion-retouch curriculum for HE.
+
+MacCallum and Widdows (2018) support naming that altered images shape body satisfaction and beauty aspirations. McLean et al. (2015) support treating self-photo editing as associated with body dissatisfaction in adolescent girls — adjacent to retouch ethics, not a classroom policy prescription. **No reviewed source validates a fashion-retouch teaching sequence** for HE; tool docs ground operations only — label `[PLATFORM]`, never research.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **4** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 79995524-65c6-4d80-a239-988f101992dc
+     vault_refs_consulted: 4
+     forge_pass: editorial-ai-footer-law-2026-09-22
+-->
+{% endif %}

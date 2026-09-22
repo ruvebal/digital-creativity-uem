@@ -150,8 +150,8 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Díaz Soloaga, P. y L. García Guerrero. 2016. “Fashion Films as a New Communication Format to Build Fashion Brands.” *Communication & Society* 29 (2): 45–61. https://doi.org/10.15581/003.29.2.45-61.
-- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. https://doi.org/10.1080/1362704X.2024.2442183.
+- Díaz Soloaga, P. y L. García Guerrero. 2016. “Fashion Films as a New Communication Format to Build Fashion Brands.” *Communication & Society* 29 (2): 45–61. <a href="https://doi.org/10.15581/003.29.2.45-61" target="_blank" rel="noopener noreferrer">https://doi.org/10.15581/003.29.2.45-61</a>.
+- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2442183" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2442183</a>.
 
 **Vacío declarado — en claro.** Díaz Soloaga y García Guerrero (2016) apoyan nombrar el *fashion film* como un género de comunicación de marca; **no** prueban que la secuencia storyboard → exportación, los valores de consentimiento o el entregable de vídeo editado de este aula enseñen mejor el montaje de vídeo de moda que una alternativa. Ninguna fuente revisada valida la pedagogía de edición de vídeo de moda para HE.
 
@@ -166,5 +166,37 @@ PROVENANCE_LINE: claim=II.4.critical.consent-before-impact; status=NONE; discove
 MEDIA_RIGHTS_LINE: slot=II.4.video.fashion-film-excerpt; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.4.still.storyboard-sequence; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.4.graphic.brief-to-export; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **2** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 1b4d955a-32bf-4156-a5cb-eebd632420fc
+     vault_refs_consulted: 2
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

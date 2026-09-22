@@ -33,6 +33,12 @@ Jekyll::Hooks.register :site, :post_write do |site|
   stdout, stderr, status = Open3.capture3('node', 'scripts/link-lesson-citations.mjs', chdir: cwd)
   puts stdout unless stdout.empty?
   puts stderr unless stderr.empty?
+
+  # DOI / http(s) reference URLs → anchors that open in a new tab (board/classroom).
+  Jekyll.logger.info "Running link-external-reference-urls..."
+  stdout, stderr, status = Open3.capture3('node', 'scripts/link-external-reference-urls.mjs', chdir: cwd)
+  puts stdout unless stdout.empty?
+  puts stderr unless stderr.empty?
   
   Jekyll.logger.info "Post-processing complete!"
 end

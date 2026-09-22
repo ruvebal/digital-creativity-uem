@@ -172,12 +172,10 @@ outcome-graphic-selection:
 
 ## References
 
-- Farah, M. F., Z. Ramadan, and Y. Nassereddine. 2025. "Mind the gap: virtual fashion shows and generational disparities." *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2025.2489380.
-- Kim, S. 2023. "Virtual Fashion Experiences in Virtual Reality Fashion Shows." *Frontiers in Psychology*. https://doi.org/10.3389/fpsyg.2023.1276856.
-- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory*. https://doi.org/10.1080/1362704X.2016.1173349.
+- Farah, M. F., Z. Ramadan, and Y. Nassereddine. 2025. "Mind the gap: virtual fashion shows and generational disparities." *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2025.2489380" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2025.2489380</a>.
+- Kim, S. 2023. "Virtual Fashion Experiences in Virtual Reality Fashion Shows." *Frontiers in Psychology*. <a href="https://doi.org/10.3389/fpsyg.2023.1276856" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/fpsyg.2023.1276856</a>.
+- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2016.1173349" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2016.1173349</a>.
 - Smith-Glaviana, Dina. 2025. "University Students' Experience of a Digital Fashion Exhibition: Engagement, Embodiment, and Object-Based Learning." *Clothing and Textiles Research Journal* 43 (1): 32–47.
-
-**Declared gap — stated plainly.** Kim (2023) and Smith-Glaviana (2025) support phenomenon and experience-design criteria respectively; they do **not** prove that this classroom's staging sequence, brief rubric, or deliverable teaches digital experience design better than an alternative. No reviewed source validates an experience-design teaching sequence for HE. Rocamora (2017) and Farah et al. (2025) inform critical reading of mediatization and virtual access; they do not substitute for a validated classroom method.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -192,5 +190,38 @@ PROVENANCE_LINE: claim=II.3.critical.visitor-burden-prompt; status=NONE; discove
 MEDIA_RIGHTS_LINE: slot=II.3.video.tour-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.3.still.journey-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.3.graphic.journey-map; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Kim (2023) and Smith-Glaviana (2025) support phenomenon and experience-design criteria respectively; they do **not** prove that this classroom's staging sequence, brief rubric, or deliverable teaches digital experience design better than an alternative. No reviewed source validates an experience-design teaching sequence for HE. Rocamora (2017) and Farah et al. (2025) inform critical reading of mediatization and virtual access; they do not substitute for a validated classroom method.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **4** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 68eca979-9ec1-4fa9-b697-beb8800a3155
+     vault_refs_consulted: 4
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

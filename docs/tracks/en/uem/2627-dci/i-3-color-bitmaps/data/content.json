@@ -1,0 +1,499 @@
+---
+layout: null
+---
+{
+  "unit_label": "Digital Creativity I · I.3 Colour, bitmap images",
+  "final_event_theme": "What is fashion for you?",
+  "media_selection": {
+    "unit_id": "I.3",
+    "project_id": "dc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "I.3 Profield stills. Art+Feminism edit-a-thon still is excluded from this deck (not a colour/bitmap teaching image).",
+    "media_overrides": {
+      "I.3.still.cover": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg"
+    },
+    "exclude_asset_ids": [
+      "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG"
+    ]
+  },
+  "assets": [
+    {
+      "media_slot_id": "I.3.still.cover",
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/324922ac305a2043.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "alt_text": "News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "title": "News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 10,
+      "selection_rank": 10,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-2",
+      "asset_id": "wikimedia:File:Mujer negra con dos niños en el regazo, Vanessa Beecroft.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/5947c7ba5d9c7264.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mujer_negra_con_dos_ni%C3%B1os_en_el_regazo%2C_Vanessa_Beecroft.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Mujer_negra_con_dos_ni%C3%B1os_en_el_regazo,_Vanessa_Beecroft.jpg",
+      "alt_text": "Mujer negra con dos niños en el regazo, Vanessa Beecroft.jpg",
+      "title": "Mujer negra con dos niños en el regazo, Vanessa Beecroft.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-3",
+      "asset_id": "wikimedia:File:170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/37bdccbf1fd215f6.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
+      "alt_text": "170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
+      "title": "170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-4",
+      "asset_id": "wikimedia:File:NEXUS 5-pixel pattern PNr°0409.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/7132cff886757303.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/NEXUS_5-pixel_pattern_PNr%C2%B00409.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:NEXUS_5-pixel_pattern_PNr%C2%B00409.jpg",
+      "alt_text": "NEXUS 5-pixel pattern PNr°0409.jpg",
+      "title": "NEXUS 5-pixel pattern PNr°0409.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-5",
+      "asset_id": "wikimedia:File:FREETONE WHITE 1800x1800.webp",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a1946f4af20b8638.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/FREETONE_WHITE_1800x1800.webp",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:FREETONE_WHITE_1800x1800.webp",
+      "alt_text": "FREETONE WHITE 1800x1800.webp",
+      "title": "FREETONE WHITE 1800x1800.webp",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 7,
+      "selection_rank": 7,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-6",
+      "asset_id": "nypl:510d47da-3e01-a3d9-e040-e00a18064a99",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/7d4c7c7102cc7558.jpg",
+      "source_file_url": "https://images.nypl.org/index.php?id=102138&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47da-3e01-a3d9-e040-e00a18064a99",
+      "alt_text": "Four geometric compositions",
+      "title": "Four geometric compositions",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-8",
+      "asset_id": "internet_archive:barbie-magazine-2003",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
+      "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
+      "canonical_source_url": "https://archive.org/details/barbie-magazine-2003",
+      "alt_text": "Barbie Magazine 2003",
+      "title": "Barbie Magazine 2003",
+      "provider": "Internet Archive",
+      "credit_line": "Internet Archive",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-9",
+      "asset_id": "nypl:fe65ad90-c6cb-012f-b5c1-58d385a7bc34",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/5761b192aa790b12.jpg",
+      "source_file_url": "https://images.nypl.org/index.php?id=1221613&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/fe65ad90-c6cb-012f-b5c1-58d385a7bc34",
+      "alt_text": "A color combination chart for layered clothing",
+      "title": "A color combination chart for layered clothing",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-10",
+      "asset_id": "wikimedia:File:Sunset at L'Estel Ferit, Barceloneta (10380980254).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c9dcebe63cef1185.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sunset_at_L%27Estel_Ferit%2C_Barceloneta_%2810380980254%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sunset_at_L%27Estel_Ferit,_Barceloneta_(10380980254).jpg",
+      "alt_text": "Sunset at L'Estel Ferit, Barceloneta (10380980254).jpg",
+      "title": "Sunset at L'Estel Ferit, Barceloneta (10380980254).jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.3.still.profield-7",
+      "asset_id": "nypl:e0558b80-c5fe-012f-ce95-58d385a7bc34",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/11fa387e6d13083b.jpg",
+      "source_file_url": "https://images.nypl.org/index.php?id=404280&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/e0558b80-c5fe-012f-ce95-58d385a7bc34",
+      "alt_text": "Chaetodon tricolor, The treble-coloured.",
+      "title": "Chaetodon tricolor, The treble-coloured.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 2,
+      "selection_rank": 2,
+      "collection": "unit-accepted"
+    }
+  ],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "profield",
+      "heading": "I.3 · Colour, bitmap images",
+      "sentence": "Colour is a relation — sampled, displayed, named, and interpreted — not a fixed swatch.",
+      "prompt": "CONTENIDOS: Color, imágenes con mapas de bits",
+      "quote": "The raster image fears the zoom. The SVG welcomes it.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "colour",
+          "bitmap",
+          "relation"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "bitmapped images"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.3.still.cover"
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "profield",
+      "heading": "How to read a colour decision",
+      "sentence": "Source → profile/space → display/export → viewer. Ask what each step forecloses.",
+      "quote": "A palette you can defend is a chain of choices you can still see.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "colour-chain",
+          "analysis"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "color (perceived attribute)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.3.still.profield-2"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "1 · Colour is a relation",
+      "sentence": "Teach palettes through interaction, contrast, and context — not isolated RGB sliders.",
+      "prompt": "Albers 2013 — page cite still open",
+      "quote": "Colour answers to its neighbours before it answers to a number.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "relational-colour",
+          "perception"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "color (perceived attribute)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.3.still.profield-3"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "2 · A bitmap has limits",
+      "sentence": "A bitmap is a fixed grid of colour values — mode, depth, and gamut close later options.",
+      "quote": "Every bit you spend on colour is a door you may not reopen later.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "bitmap",
+          "sampling",
+          "limits"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "bitmapped images"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.3.still.profield-4"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "3 · Platform tones are historical",
+      "sentence": "Creator tools circulate lighting, colour trends, and tones that look “professional” for a season — treat them as signals to compare, not defaults to copy.",
+      "quote": "Sharing expertise and using specific technologies result in visuality that reflect certain editing styles that are popular at a given moment.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "platform-colour",
+          "skilled-vision",
+          "trends"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "color (perceived attribute)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Roivainen 2025, 8)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-roivainen-2025"
+      },
+      "media_slot_id": "I.3.still.profield-5"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "4 · The display participates",
+      "sentence": "The same palette on two screens can be two designs — name the display assumption you export under.",
+      "quote": "The screen is not a mirror; it is a second author of the colour.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "display",
+          "export",
+          "mismatch"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "displays (equipment)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.3.still.profield-6"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "5 · Critical · Who is the default viewer?",
+      "sentence": "When a palette is called accurate or fashionable, ask whose body, display, and cultural code count as neutral — generative tools are not representationally neutral.",
+      "quote": "This analysis reveals significant racial homogenization, e.g., depicting nearly all Middle Eastern men as bearded, brown-skinned, and wearing traditional attire.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "critical",
+          "bias",
+          "homogenization",
+          "default-viewer"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "stereotypes (culture-related concepts)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(AlDahoul et al. 2025)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-aldahoul-2025"
+      },
+      "media_slot_id": "I.3.still.profield-7"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "heading": "6 · Correcting vs changing",
+      "sentence": "When does “correcting” a colour become “changing” the garment it depicts? Decide together — then keep the decision visible.",
+      "quote": "Correction without disclosure is a redesign with an alibi.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "disclosure",
+          "debate",
+          "colour-change"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "color (perceived attribute)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.3.still.profield-8"
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Open or update the portfolio index before you leave."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "heading": "Exercise 1 · Palette + accessible alternate",
+      "sentence": "Build a five-colour fashion palette and one accessible alternate. Log format, profile assumption, and one uncertainty.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save palette sheet + alternate + colour decision log (one sentence on what another display would change).",
+      "quote": "Name the viewer before you name the hex.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "palette",
+          "accessibility",
+          "portfolio"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "color (perceived attribute)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/digital-creativity-uem/tao/"
+      },
+      "media_slot_id": "I.3.still.profield-9"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "heading": "Exercise 2 · Bitmap crop + contrast audit",
+      "sentence": "Export a 1600px bitmap crop and audit two palettes for legibility, hierarchy, and mood on the screen in front of you.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save crop + contrast notes + one sentence distinguishing colour correction from colour change.",
+      "quote": "These styles can emphasise lighting, colour trends, and tones that make images look 'professional' or 'unique'.",
+      "quote_origin": "page_verified",
+      "semantic_tags": {
+        "themes": [
+          "bitmap-crop",
+          "contrast",
+          "platform-style"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "bitmapped images"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "citation": {
+        "label": "(Roivainen 2025, 8)",
+        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-roivainen-2025"
+      },
+      "media_slot_id": "I.3.still.profield-10"
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and does not get Workshop time. From session 4: Workshop splits half Transposition, half final event."
+    }
+  ]
+}

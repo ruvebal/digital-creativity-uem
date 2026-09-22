@@ -253,12 +253,10 @@ outcome-graphic-selection:
 
 ## References
 
-- Anwar, S., A. Raza, and R. Marzouk. 2025. “Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.” *European Journal of Business and Management*. https://doi.org/10.65136/ejbm.v10i4.24.
-- Cheang, Sarah, and Shehnaz Suterwalla. 2020. “Decolonizing the Curriculum? Transformation, Emotion, and Positionality in Teaching.” *Fashion Theory* 24 (6): 879–900. https://doi.org/10.1080/1362704X.2020.1800989.
-- Garcia, M. B. 2025. “Self-Coded Digital Portfolios as an Authentic Project-Based Learning Assessment in Computing Education: Evidence from a Web Design and Development Course.” *Education Sciences* 15 (9): 1150. https://doi.org/10.3390/educsci15091150.
-- Rizzi, G., and P. Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. https://doi.org/10.3389/ejcmp.2025.13875.
-
-**Declared gap — stated plainly.** Anwar et al. (2025), Rizzi and Bertola (2025), and Garcia (2025) support authorship visibility and portfolio-as-evidence framing; they do **not** prove that this unit's HTML layout, accessibility choices, or portfolio structure cause better fashion communication, visibility, or hiring outcomes. No reviewed source validates fashion-portfolio web-UX outcomes for HE.
+- Anwar, S., A. Raza, and R. Marzouk. 2025. “Generative AI in Studio-Based Fashion Education: A Systematic Literature Review.” *European Journal of Business and Management*. <a href="https://doi.org/10.65136/ejbm.v10i4.24" target="_blank" rel="noopener noreferrer">https://doi.org/10.65136/ejbm.v10i4.24</a>.
+- Cheang, Sarah, and Shehnaz Suterwalla. 2020. “Decolonizing the Curriculum? Transformation, Emotion, and Positionality in Teaching.” *Fashion Theory* 24 (6): 879–900. <a href="https://doi.org/10.1080/1362704X.2020.1800989" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2020.1800989</a>.
+- Garcia, M. B. 2025. “Self-Coded Digital Portfolios as an Authentic Project-Based Learning Assessment in Computing Education: Evidence from a Web Design and Development Course.” *Education Sciences* 15 (9): 1150. <a href="https://doi.org/10.3390/educsci15091150" target="_blank" rel="noopener noreferrer">https://doi.org/10.3390/educsci15091150</a>.
+- Rizzi, G., and P. Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.13875" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.13875</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -273,5 +271,38 @@ PROVENANCE_LINE: claim=II.5.critical.platform-authorship; status=NONE; discovery
 MEDIA_RIGHTS_LINE: slot=II.5.video.portfolio-walkthrough; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.5.still.process-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.5.graphic.portfolio-ia; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Anwar et al. (2025), Rizzi and Bertola (2025), and Garcia (2025) support authorship visibility and portfolio-as-evidence framing; they do **not** prove that this unit's HTML layout, accessibility choices, or portfolio structure cause better fashion communication, visibility, or hiring outcomes. No reviewed source validates fashion-portfolio web-UX outcomes for HE.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **4** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: e1a064c4-6f1e-43e7-a27f-18b77bd1bea6
+     vault_refs_consulted: 4
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

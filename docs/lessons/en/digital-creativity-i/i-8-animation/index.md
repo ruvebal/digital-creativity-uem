@@ -148,9 +148,7 @@ Stated as content, not omitted silently: the allocation table gives this unit 0 
 
 - Manovich, Lev. 2013. *Software Takes Command*. New York: Bloomsbury Academic. ISBN 9781623567453.
 - Shaw, Austin. 2015. *Design for Motion: Fundamentals and Techniques of Motion Design*. New York: Routledge. ISBN 9781138812093.
-- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. https://doi.org/10.1080/1362704X.2024.2442183.
-
-**Declared gap — stated plainly.** Shaw (2015) and Manovich (2013) support motion vocabulary and software-hybridity framing; they do **not** validate a fashion-HE animation teaching sequence. This unit is a declared craft pilot, not established pedagogy.
+- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2442183" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2442183</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -165,5 +163,38 @@ PROVENANCE_LINE: claim=I.8.allocation.b2-b3-collapse; status=NONE; discovery={se
 MEDIA_RIGHTS_LINE: slot=I.8.video.motion-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.8.still.loop-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.8.graphic.timeline-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Shaw (2015) and Manovich (2013) support motion vocabulary and software-hybridity framing; they do **not** validate a fashion-HE animation teaching sequence. This unit is a declared craft pilot, not established pedagogy.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **3** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 92689464-bc50-4f62-9e51-872a90741366
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

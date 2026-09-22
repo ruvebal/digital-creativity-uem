@@ -176,9 +176,9 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- AlDahoul, Nouar, Talal Rahwan y Yasir Zaki. 2025. "AI-generated faces influence gender stereotypes and racial homogenization." *Scientific Reports* 15: 14449. https://doi.org/10.1038/s41598-025-99623-3.
-- Anwar, S., A. Raza y R. Marzouk. 2025. "Generative AI in Studio-Based Fashion Education: A Systematic Literature Review." *European Journal of Business and Management*. https://doi.org/10.65136/ejbm.v10i4.24.
-- Gonzalez-Franco, M., A. Steed, C. C. Berger y A. Tajadura-Jiménez. 2024. "The Impact of First-Person Avatar Customization on Embodiment in Immersive Virtual Reality." *Frontiers in Virtual Reality* 5: 1436752. https://doi.org/10.3389/frvir.2024.1436752.
+- AlDahoul, Nouar, Talal Rahwan y Yasir Zaki. 2025. "AI-generated faces influence gender stereotypes and racial homogenization." *Scientific Reports* 15: 14449. <a href="https://doi.org/10.1038/s41598-025-99623-3" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41598-025-99623-3</a>.
+- Anwar, S., A. Raza y R. Marzouk. 2025. "Generative AI in Studio-Based Fashion Education: A Systematic Literature Review." *European Journal of Business and Management*. <a href="https://doi.org/10.65136/ejbm.v10i4.24" target="_blank" rel="noopener noreferrer">https://doi.org/10.65136/ejbm.v10i4.24</a>.
+- Gonzalez-Franco, M., A. Steed, C. C. Berger y A. Tajadura-Jiménez. 2024. "The Impact of First-Person Avatar Customization on Embodiment in Immersive Virtual Reality." *Frontiers in Virtual Reality* 5: 1436752. <a href="https://doi.org/10.3389/frvir.2024.1436752" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/frvir.2024.1436752</a>.
 
 **Vacío declarado — en claro.** Anwar (2025) y Gonzalez-Franco et al. (2024) apoyan guardarraíles de autoría y perspectiva de encarnación respectivamente; **no** prueban que la secuencia de avatar, la rúbrica de intención de identidad o el entregable de este aula enseñen mejor la creación de avatares que una alternativa. Ninguna fuente revisada valida un método de modelado de avatar para educación de moda. La investigación sobre antropomorfismo en contextos de IA y moda puede informar por qué importan las afirmaciones de identidad, pero esa literatura permanece fuera de la bibliografía verificada de esta unidad. El VTON o prueba virtual queda fuera del alcance de esta unidad y no se aborda, por diseño.
 
@@ -196,5 +196,37 @@ PROVENANCE_LINE: claim=II.2.critical.identity-agency-prompt; status=NONE; discov
 MEDIA_RIGHTS_LINE: slot=II.2.video.avatar-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.2.still.identity-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.2.graphic.component-map; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **3** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 7b7b491c-6093-4df4-a2b0-0b8c8f989b68
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

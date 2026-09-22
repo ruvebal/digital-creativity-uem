@@ -210,3 +210,48 @@
       talleres_labs: 1
       investigaciones_proyectos: 3
       resolucion_problemas: 1
+- slug: nuevos-medios-moda
+  title:
+    es: 'Nuevos medios — RRSS y plataformas virtuales (moda)'
+    en: 'New Media — Social networks & virtual platforms (fashion)'
+  path:
+    es: /tracks/es/nuevos-medios-moda/
+    en: /tracks/en/nuevos-medios-moda/
+  file:
+    es: tracks/es/nuevos-medios-moda/index.md
+    en: tracks/en/nuevos-medios-moda/index.md
+  status:
+    es: scaffold
+    en: scaffold
+  type: track
+  duration: 'Online · Canvas 6 unidades + prueba'
+  academic_year: '2026-27'
+  modality: online
+  teaching_language: es
+  source_note: 'Contrato operativo = temario Canvas (2026-09-22); guía PDF institucional pendiente de clonar.'
+  evaluation_weights_canvas:
+    actividad_u2_estrategia: 10
+    actividad_u3_campana: 10
+    actividad_u4_contenido: 10
+    actividad_u6_emergentes: 10
+    prueba_final: 30
+  evaluation_points_total: 70
+  sessions_list:
+    - title: 'U1 Historia y evolución de los nuevos medios'
+      slug: 'u1-historia-nuevos-medios'
+      unit_id: U1
+    - title: 'U2 Estrategias de comunicación digital'
+      slug: 'u2-estrategias-comunicacion-digital'
+      unit_id: U2
+    - title: 'U3 Marketing y publicidad en nuevos medios'
+      slug: 'u3-marketing-publicidad'
+      unit_id: U3
+    - title: 'U4 Creatividad y contenido digital'
+      slug: 'u4-creatividad-contenido'
+      unit_id: U4
+    - title: 'U5 Herramientas digitales y análisis de datos'
+      slug: 'u5-herramientas-datos'
+      unit_id: U5
+    - title: 'U6 Futuro de la comunicación digital'
+      slug: 'u6-futuro-comunicacion-digital'
+      unit_id: U6

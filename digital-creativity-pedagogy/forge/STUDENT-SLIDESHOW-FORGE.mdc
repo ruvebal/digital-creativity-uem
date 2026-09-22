@@ -189,7 +189,8 @@ When a unit deck ships (`docs/tracks/en/uem/2627-dc*/…/index.html` + `content.
 3. **EN + ES lesson frontmatter** — `deck_url: /tracks/dci|dcii/<slug>/`
 4. **EN + ES lesson cover** — **In-class deck** / **Presentación en clase** link to that permalink, plus How-to-Pass rhythm line.
 
-Do **not** invent slideshow links for scaffold units that have no deck folder yet (I.3–I.9, CD II units until forged).
+Do **not** invent slideshow links for scaffold units that have no deck folder yet
+(I.4–I.9, remaining CD II units until forged). I.1–I.3 decks are live.
 
 ## Local Ollama forge phase
 

@@ -152,10 +152,8 @@ outcome-graphic-selection:
 - Arnheim, Rudolf. 2004. *Art and Visual Perception: A Psychology of the Creative Eye*. 2nd ed. Berkeley: University of California Press. ISBN 9780520243835.
 - Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
 - Hughes, John F., Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, and Kurt Akeley. 2013. *Computer Graphics: Principles and Practice*. 3rd ed. Upper Saddle River, NJ: Addison-Wesley. ISBN 9780321399526.
-- Moritz, Anna, and Song-yi Youn. 2022. "Spatial Ability of Transitioning 2D to 3D Designs in Virtual Environment: Understanding Spatial Ability in Apparel Design Education." *Fashion and Textiles* 9: 29. https://doi.org/10.1186/s40691-022-00293-w.
-- Papahristou, E., and N. Zolota Tatsi. 2024. "A Review of 3D Design Knowledge and Its Impact on Creativity in Fashion Design Education." *Communications in Development and Assembling of Textile Products* 5 (2): 266–277. https://doi.org/10.25367/cdatp.2024.5.p266-277.
-
-**Laguna declarada — con claridad.** Papahristou y Zolota Tatsi (2024) sostienen una secuencia 2D→3D realmente enseñada; **no** prueban que esa secuencia produzca comprensión espacial validada mejor que una alternativa. Moritz y Youn (2022) sostienen nombrar la visualización espacial específica de moda — no la eficacia de este aula.
+- Moritz, Anna, and Song-yi Youn. 2022. "Spatial Ability of Transitioning 2D to 3D Designs in Virtual Environment: Understanding Spatial Ability in Apparel Design Education." *Fashion and Textiles* 9: 29. <a href="https://doi.org/10.1186/s40691-022-00293-w" target="_blank" rel="noopener noreferrer">https://doi.org/10.1186/s40691-022-00293-w</a>.
+- Papahristou, E., and N. Zolota Tatsi. 2024. "A Review of 3D Design Knowledge and Its Impact on Creativity in Fashion Design Education." *Communications in Development and Assembling of Textile Products* 5 (2): 266–277. <a href="https://doi.org/10.25367/cdatp.2024.5.p266-277" target="_blank" rel="noopener noreferrer">https://doi.org/10.25367/cdatp.2024.5.p266-277</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -172,5 +170,39 @@ PROVENANCE_LINE: claim=I.5.critical.spatial-vocabulary; status=NONE; discovery={
 MEDIA_RIGHTS_LINE: slot=I.5.video.2d-to-3d-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.5.still.orthographic-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.5.graphic.reference-to-blockout; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+**Laguna declarada — con claridad.** Papahristou y Zolota Tatsi (2024) sostienen una secuencia 2D→3D realmente enseñada; **no** prueban que esa secuencia produzca comprensión espacial validada mejor que una alternativa. Moritz y Youn (2022) sostienen nombrar la visualización espacial específica de moda — no la eficacia de este aula.
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **5** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 4d860331-0085-4ca2-8103-5ebc97012d68
+     vault_refs_consulted: 5
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

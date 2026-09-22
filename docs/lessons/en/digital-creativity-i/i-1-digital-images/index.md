@@ -182,14 +182,14 @@ This unit trains a reading frame, not a software path — and it leaves doors op
 - <span id="ref-shinkle-2008">Shinkle, Eugenie. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I. B. Tauris. ISBN 9781845115166.</span>
 - <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936. — Page-verified for imagination / fantasy / creativity distinction.</span>
 - <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Practitioner counterpoint (taste / listening) — not peer-reviewed image pedagogy.</span>
-- <span id="ref-rocamora-2017">Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. https://doi.org/10.1080/1362704X.2016.1173349. *(bibliography present; page node still open — do not treat in-prose page cites as verified yet)*</span>
-- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226. *(bibliography present; page node still open)*</span>
+- <span id="ref-rocamora-2017">Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. <a href="https://doi.org/10.1080/1362704X.2016.1173349" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2016.1173349</a>.</span>
+- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.</span>
 - <span id="ref-norman-2013">Norman, Donald A. 2013. *The Design of Everyday Things*. Revised and expanded edition. New York: Basic Books. ISBN 9780465050659.</span>
 - <span id="ref-kleon-2019">Kleon, Austin. 2019. *Keep Going: 10 Ways to Stay Creative in Good Times and Bad*. New York: Workman Publishing. ISBN 9781523507863.</span>
 - <span id="ref-monteiro-2019">Monteiro, Mike. 2019. *Ruined by Design: How Designers Destroyed the World, and What We Can Do to Fix It*. San Francisco: Mule Design. ISBN 9781090532084.</span>
 - <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination*. London: Routledge. ISBN 9780203259412. — Cultural/theological imagination frame — light gap fill, not required for I.1 body claims.</span>
 
-**Missing evidence — declared.** Shinkle (2008) supports the field-of-practices frame. It does **not** validate a tool sequence for teaching digital-image editing or capture. Hüppauf/Wulf and Rubin enrich Analysis vocabulary and contradiction work; they do not replace fashion-image primary pedagogy.
+---
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -203,7 +203,13 @@ MEDIA_RIGHTS_LINE: deck=I.1 accepted Profield cache slots; geometrical=uem-henon
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Shinkle (2008) supports the field-of-practices frame and the permeable art/commerce boundary. It does **not** validate Photoshop, Illustrator, or any classroom tool sequence. Rocamora (2017) and Reddy-Best et al. (2018) remain open procurement for page-verified nodes. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+**Missing evidence — declared.** Shinkle (2008) supports the field-of-practices frame. It does **not** validate a tool sequence for teaching digital-image editing or capture. Hüppauf/Wulf and Rubin enrich Analysis vocabulary and contradiction work; they do not replace fashion-image primary pedagogy.
+
+**Addressed to the editor.** bibliography present; page node still open — do not treat in-prose page cites as verified yet · bibliography present; page node still open.
+
+Shinkle (2008) supports the field-of-practices frame and the permeable art/commerce boundary. It does **not** validate Photoshop, Illustrator, or any classroom tool sequence. Rocamora (2017) and Reddy-Best et al. (2018) remain open procurement for page-verified nodes.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 
 ---
 
@@ -217,7 +223,9 @@ public `(Author, Year)` was checked against that vault before acceptance.
 Prompts, model drafts, and human amendments are archived for later evaluation.
 Editorial judgment and responsibility for the final text remain with the author.
 
-*Forge date: 2026-09-14 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1 · DC voice-homogenization pass (I.1 as DC voice anchor)*
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
 
 
 {% if site.publication.publish_internal_metadata %}

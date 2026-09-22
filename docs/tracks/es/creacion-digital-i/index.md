@@ -13,8 +13,8 @@ description: 'S1 · 6 ECTS — fundamentos y representación de la forma tridime
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 Estado de forja del track (solo desarrolladores — no visible al alumnado):
-- I.1 e I.2 son piloto — prosa homogenizada con lesson-scribe (voz CT) y presentaciones CT-spine; Shinkle (2008, 15) sigue siendo el ancla verificada en página para I.1.
-- I.3–I.9 permanecen andamiaje hasta el mismo pase. Horas de contacto cierran a 80/80 h en el conjunto CD I.
+- I.1–I.3 son piloto — prosa + presentaciones CT-spine; Shinkle (2008, 15) ancla I.1; Roivainen (2025, 8) + AlDahoul et al. (2025) anclan I.3 color/crítica.
+- I.4–I.9 permanecen andamiaje hasta el mismo pase. Horas de contacto cierran a 80/80 h en el conjunto CD I.
 - Hito curricular honesto, no validación investigadora de cada secuencia; la mayoría declara laguna de evidencia en su página.
 - Nota previa: `[BIBLIO-GAP]` — Campinho et al. (2025) se conservó inicialmente solo como puntero visible sobre ética de búsqueda hasta resolver su ficha bibliográfica.
 -->
@@ -28,7 +28,7 @@ Estado de forja del track (solo desarrolladores — no visible al alumnado):
 | --- | --- | --- |
 | I.1 | [Introducción a las imágenes digitales]({{ '/lessons/es/creacion-digital-i/i-1-imagenes-digitales/' | relative_url }}) · [presentación]({{ '/tracks/dci/i-1-fashion-image/' | relative_url }}) | La imagen de moda se define por prácticas, medios y objetivos compartidos — no por formato de píxeles. Shinkle (2008) fundamenta el marco de campo de prácticas antes de abrir cualquier herramienta. |
 | I.2 | [Tecnología digital 2D: Herramientas de dibujo]({{ '/lessons/es/creacion-digital-i/i-2-dibujo-2d/' | relative_url }}) · [presentación]({{ '/tracks/dci/i-2-2d-drawing/' | relative_url }}) | El dibujo vectorial describe la forma como relación entre puntos de anclaje y curvas — disciplina de oficio sin fuente que valide un método docente. |
-| I.3 | [Color, imágenes con mapas de bits]({{ '/lessons/es/creacion-digital-i/i-3-color-bitmaps/' | relative_url }}) | Un mapa de bits fija el color en una cuadrícula; cada modo y gama cierra opciones futuras — oficio enseñado, no pedagogía probada. |
+| I.3 | [Color, imágenes con mapas de bits]({{ '/lessons/es/creacion-digital-i/i-3-color-bitmaps/' | relative_url }}) · [presentación]({{ '/tracks/dci/i-3-color-bitmaps/' | relative_url }}) | Un mapa de bits fija el color en una cuadrícula; cada modo y gama cierra opciones futuras — oficio enseñado, no pedagogía probada. |
 | I.4 | [Efectos]({{ '/lessons/es/creacion-digital-i/i-4-efectos/' | relative_url }}) | Todo efecto tiene un "antes" rastreable; perder esa pista es el riesgo que nombra la unidad — no la mecánica de un filtro concreto. |
 | I.5 | [Fundamentos y representación de la forma tridimensional]({{ '/lessons/es/creacion-digital-i/i-5-forma-tridimensional/' | relative_url }}) | La forma 3D es una secuencia espacial enseñada — alfabetización 2D primero, prototipado 3D después — no una función de software absorbida por exposición. |
 | I.6 | [Volumen]({{ '/lessons/es/creacion-digital-i/i-6-volumen/' | relative_url }}) | El volumen se construye iterando entre representaciones físicas y digitales de la misma pieza — ningún medio se trata como definitivo por sí solo. |

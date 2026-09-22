@@ -151,9 +151,9 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Coats, M. 2026. “The Denim Project—A Hybrid Approach to Fashion Education Using CLO3D.” *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2026.2688308.
+- Coats, M. 2026. “The Denim Project—A Hybrid Approach to Fashion Education Using CLO3D.” *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2026.2688308" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2026.2688308</a>.
 - Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
-- Farah, M. F., Z. Ramadan y Y. Nassereddine. 2025. “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2025.2489380.
+- Farah, M. F., Z. Ramadan y Y. Nassereddine. 2025. “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2025.2489380" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2025.2489380</a>.
 
 **Brecha declarada — en claro.** Coats (2026, 8) fundamenta un módulo híbrido real; **no** prueba que ese enfoque se generalice como método didáctico a otras herramientas, cohortes o instituciones. Ninguna fuente revisada valida la iteración híbrida analógica/digital como pedagogía universal de volumen en moda HE.
 
@@ -170,5 +170,37 @@ PROVENANCE_LINE: claim=I.6.critical.relocated-costs; status=NONE; discovery={ser
 MEDIA_RIGHTS_LINE: slot=I.6.video.hybrid-handoff; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.6.still.material-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.6.graphic.mockup-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **3** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 13eb3a18-ea89-4303-95f1-28f6f6b2d814
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

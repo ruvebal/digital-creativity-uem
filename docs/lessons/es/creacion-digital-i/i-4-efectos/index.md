@@ -144,13 +144,11 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Crepax, Rosa. 2024. "Affective Fashion Trends: Aesthetic and Digital Transformations in the Fashion System." *Fashion Theory*. https://doi.org/10.1080/1362704X.2024.2389595.
-- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). https://doi.org/10.46328/ijtes.576.
+- Crepax, Rosa. 2024. "Affective Fashion Trends: Aesthetic and Digital Transformations in the Fashion System." *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2389595" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2389595</a>.
+- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.
 - Gonzalez, Rafael C., and Richard E. Woods. 2018. *Digital Image Processing*. 4th ed. New York: Pearson. ISBN 9780133356724.
-- McBride, Caitlin, Nancy Costello, Suman Ambwani, and S. Bryn Austin. 2019. "Digital Manipulation of Images of Models' Appearance in Advertising: Strategies for Action Through Law and Corporate Social Responsibility Incentives to Protect Public Health." *American Journal of Law & Medicine* 45 (2–3): 201–225. https://doi.org/10.1177/0098858819849990.
+- McBride, Caitlin, Nancy Costello, Suman Ambwani, and S. Bryn Austin. 2019. "Digital Manipulation of Images of Models' Appearance in Advertising: Strategies for Action Through Law and Corporate Social Responsibility Incentives to Protect Public Health." *American Journal of Law & Medicine* 45 (2–3): 201–225. <a href="https://doi.org/10.1177/0098858819849990" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0098858819849990</a>.
 - Park, H., et al. 2025. "Generative AI in Studio-Based Design Education: Human–AI Collaboration, Agency, and Assessment." IASDR 2025.
-
-**Laguna declarada — con claridad.** Ninguna fuente revisada valida una **secuencia de enseñanza de efectos o filtros** para moda en educación superior. Gonzalez y Curcic sostienen el marco técnico y de taller; McBride sostiene la lectura ética de imagen retocada; no prueban que este flujo de aula enseñe mejor que una alternativa.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -166,5 +164,39 @@ PROVENANCE_LINE: claim=I.4.critical.disclosure-threshold; status=NONE; discovery
 MEDIA_RIGHTS_LINE: slot=I.4.video.effect-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.4.still.before-after; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.4.graphic.layer-stack; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+**Laguna declarada — con claridad.** Ninguna fuente revisada valida una **secuencia de enseñanza de efectos o filtros** para moda en educación superior. Gonzalez y Curcic sostienen el marco técnico y de taller; McBride sostiene la lectura ética de imagen retocada; no prueban que este flujo de aula enseñe mejor que una alternativa.
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **5** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 91dab705-35c9-48e8-ae51-c0c9cd9f705a
+     vault_refs_consulted: 5
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

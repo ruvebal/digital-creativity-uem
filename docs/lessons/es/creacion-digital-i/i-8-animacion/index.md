@@ -148,7 +148,7 @@ Declarado como contenido, no omitido en silencio: la tabla de asignación da a e
 
 - Manovich, Lev. 2013. *Software Takes Command*. New York: Bloomsbury Academic. ISBN 9781623567453.
 - Shaw, Austin. 2015. *Design for Motion: Fundamentals and Techniques of Motion Design*. New York: Routledge. ISBN 9781138812093.
-- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. https://doi.org/10.1080/1362704X.2024.2442183.
+- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2442183" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2442183</a>.
 
 **Brecha declarada — en claro.** Shaw (2015) y Manovich (2013) fundamentan vocabulario de movimiento y encuadre de hibridación software; **no** validan una secuencia de enseñanza de animación para moda HE. Esta unidad es un piloto de oficio declarado, no pedagogía establecida.
 
@@ -165,5 +165,37 @@ PROVENANCE_LINE: claim=I.8.allocation.b2-b3-collapse; status=NONE; discovery={se
 MEDIA_RIGHTS_LINE: slot=I.8.video.motion-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.8.still.loop-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.8.graphic.timeline-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **3** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: c3e3bc78-3901-4285-bb1f-85519a541eb9
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

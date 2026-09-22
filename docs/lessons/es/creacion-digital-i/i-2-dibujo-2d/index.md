@@ -157,11 +157,9 @@ outcome-graphic-selection:
 ## Referencias
 
 - Abling, Bina. 2023. *Fashion Sketchbook*. 7.ª ed. Nueva York: Fairchild Books. ISBN 9781501387951.
-- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). https://doi.org/10.46328/ijtes.576.
-- Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226.
+- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.
+- Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.
 - Yu, G.S. 2025. "With the Heart, the Mind, and the Sight: Cultivating Creativity in Fashion Pedagogy." In *Signature Pedagogies for Professional Arts and Design Education*. MIT Press.
-
-**Laguna declarada — con claridad.** Curcic (2024) es dibujo digital en educación superior, no una secuencia de herramientas validada específica de moda. Yu (2025) señala que la literatura de pedagogía de diseño de moda sigue siendo limitada. No cites esta unidad como prueba de que vectorial primero supera a mapa de bits en moda.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -176,5 +174,39 @@ PROVENANCE_LINE: claim=I.2.critical.tool-access; status=NONE; discovery={service
 MEDIA_RIGHTS_LINE: slot=I.2.video.drawing-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.2.still.contour-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.2.graphic.revision-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+**Laguna declarada — con claridad.** Curcic (2024) es dibujo digital en educación superior, no una secuencia de herramientas validada específica de moda. Yu (2025) señala que la literatura de pedagogía de diseño de moda sigue siendo limitada. No cites esta unidad como prueba de que vectorial primero supera a mapa de bits en moda.
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **4** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 460fdfe8-d4bb-4415-bdb1-ea1402d1c984
+     vault_refs_consulted: 4
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

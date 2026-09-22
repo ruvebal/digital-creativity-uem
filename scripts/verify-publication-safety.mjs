@@ -109,7 +109,7 @@ function citationAudit() {
 		if (inlineCitations.length && !referenceHeadings.length) {
 			failures.push(`${relative(root, file)}: has author-date citations but no final References/Referencias section`);
 		}
-		if (inlineCitations.length && referenceHeadings.length) {
+		if (referenceHeadings.length) {
 			const finalReferences = referenceHeadings.at(-1);
 			const afterReferences = body.slice(finalReferences.index + finalReferences[0].length);
 			const trailingH2 = [...afterReferences.matchAll(/^##\s+(.+?)\s*$/gm)].map((m) => m[1].trim());
@@ -117,7 +117,32 @@ function citationAudit() {
 				/^(?:Editorial note\b|Nota editorial\b|AI-assisted authorship\b|Autoría asistida)/i.test(title)
 			);
 			if (trailingH2.length && !allowedTrailing) {
-				failures.push(`${relative(root, file)}: References/Referencias is not the final visible level-two section`);
+				failures.push(`${relative(root, file)}: References/Referencias is not followed only by Editorial note / AI-assisted authorship`);
+			}
+			const beforeEditorial = afterReferences.split(/^##\s+(?:Editorial note\b|Nota editorial\b)/im)[0] || afterReferences;
+			if (/\*\*(?:Declared gap|Missing evidence|Laguna declarada|Evidencia faltante)/i.test(beforeEditorial)) {
+				failures.push(`${relative(root, file)}: Declared gap / Missing evidence must live under Editorial note, not under References`);
+			}
+			if (/\*\(bibliography present|page node still open/i.test(beforeEditorial)) {
+				failures.push(`${relative(root, file)}: editor asides (page node / bibliography present) must move into Editorial note`);
+			}
+			const hasEditorial = trailingH2.some((title) => /^(?:Editorial note\b|Nota editorial\b)/i.test(title));
+			const hasAi = trailingH2.some((title) => /^(?:AI-assisted authorship\b|Autoría asistida)/i.test(title));
+			if (!hasEditorial) failures.push(`${relative(root, file)}: missing Editorial note / Nota editorial after References`);
+			if (!hasAi) failures.push(`${relative(root, file)}: missing AI-assisted authorship / Autoría asistida footer`);
+			if (hasEditorial && hasAi) {
+				const edIdx = trailingH2.findIndex((title) => /^(?:Editorial note\b|Nota editorial\b)/i.test(title));
+				const aiIdx = trailingH2.findIndex((title) => /^(?:AI-assisted authorship\b|Autoría asistida)/i.test(title));
+				if (aiIdx < edIdx) failures.push(`${relative(root, file)}: AI-assisted authorship must follow Editorial note`);
+			}
+			if (!/\/ai-declaration\//.test(afterReferences) && !/\{\{\s*'\/ai-declaration\/'\s*\|\s*relative_url\s*\}\}/.test(afterReferences)) {
+				failures.push(`${relative(root, file)}: AI-assisted authorship footer must link to /ai-declaration/`);
+			}
+			if (!/\*[^*]*Forge date:|\*[^*]*Fecha de forja:/i.test(afterReferences)) {
+				failures.push(`${relative(root, file)}: AI footer missing Forge date / Fecha de forja line`);
+			}
+			if (!/lesson-scribe/i.test(afterReferences)) {
+				failures.push(`${relative(root, file)}: AI footer must name harness lesson-scribe`);
 			}
 		}
 	}
@@ -130,6 +155,23 @@ function citationAudit() {
 			}
 			if (/\b(?:Shinkle|Anwar|Rizzi|Coats|Campinho|Kim|Smith-Glaviana)\b[^<\n]{0,55}\s(?:19|20)\d{2}/.test(body) && !citationLinks.length) {
 				failures.push(`${relative(root, file)}: published author-date citations are not linked to reference anchors`);
+			}
+			const referencesBlock = body.match(/<h2 id="(?:references|referencias)">(?:References|Referencias)<\/h2>([\s\S]*?)(?=<h2\b|$)/i);
+			if (referencesBlock) {
+				const refs = referencesBlock[1];
+				// Strip existing anchors so we only catch bare leftover URLs.
+				const withoutAnchors = refs.replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, '');
+				const bare = withoutAnchors.match(/https?:\/\/[^\s<>"']+/g) || [];
+				for (const url of bare) {
+					failures.push(`${relative(root, file)}: bare reference URL is not an anchor (${url})`);
+				}
+				const externalAnchors = [...refs.matchAll(/<a\b([^>]*)href=(["'])(https?:\/\/[^"']+)\2([^>]*)>/gi)];
+				for (const match of externalAnchors) {
+					const attrs = `${match[1]} ${match[4]}`;
+					if (!/\btarget\s*=\s*(["'])_blank\1/i.test(attrs)) {
+						failures.push(`${relative(root, file)}: external reference URL missing target="_blank" (${match[3]})`);
+					}
+				}
 			}
 		}
 	}

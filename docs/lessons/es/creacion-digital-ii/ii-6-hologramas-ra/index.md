@@ -171,9 +171,9 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Farah, M. F., Z. Ramadan y Y. Nassereddine. 2025. “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2025.2489380.
-- Kim, S. 2023. “Virtual Fashion Experiences in Virtual Reality Fashion Shows.” *Frontiers in Psychology*. https://doi.org/10.3389/fpsyg.2023.1276856.
-- Sarkis, N., N. Jabbour Al Maalouf, E. Saliba y J. Azizi. 2026. “The Impact of Augmented Reality within the Fashion Industry on Purchase Decisions, Customer Engagement, and Brand Loyalty.” *International Journal of Fashion Design, Technology and Education* 19 (2): 224–233. https://doi.org/10.1080/17543266.2025.2470187.
+- Farah, M. F., Z. Ramadan y Y. Nassereddine. 2025. “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2025.2489380" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2025.2489380</a>.
+- Kim, S. 2023. “Virtual Fashion Experiences in Virtual Reality Fashion Shows.” *Frontiers in Psychology*. <a href="https://doi.org/10.3389/fpsyg.2023.1276856" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/fpsyg.2023.1276856</a>.
+- Sarkis, N., N. Jabbour Al Maalouf, E. Saliba y J. Azizi. 2026. “The Impact of Augmented Reality within the Fashion Industry on Purchase Decisions, Customer Engagement, and Brand Loyalty.” *International Journal of Fashion Design, Technology and Education* 19 (2): 224–233. <a href="https://doi.org/10.1080/17543266.2025.2470187" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2025.2470187</a>.
 
 **Vacío declarado — en claro.** Kim (2023) y Sarkis et al. (2026) acotan audiencia/estímulo y criterios de experiencia de R.A. en moda; **no** prueban que el entregable solo-concepto, la justificación de elección de medio o el storyboard puesto en escena de este aula enseñen mejor la presentación en R.A./holograma que una alternativa. Ninguna fuente revisada valida la pedagogía de R.A./holograma para HE. Las sobreafirmaciones de accesibilidad metaverso en discursos industriales adyacentes permanecen excluidas de la puerta de evidencia de esta unidad.
 
@@ -190,5 +190,37 @@ PROVENANCE_LINE: claim=II.6.critical.device-as-price; status=NONE; discovery={se
 MEDIA_RIGHTS_LINE: slot=II.6.video.fashion-ar-demo; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.6.still.layer-comparison; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.6.graphic.interaction-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **3** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: b8a8d7d0-10fa-444c-a5c3-3723fb715ce9
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

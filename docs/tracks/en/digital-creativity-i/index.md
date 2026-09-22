@@ -13,8 +13,8 @@ description: 'S1 · 6 ECTS — foundations of three-dimensional form and volume.
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 Track forge status (developers only — not student-facing):
-- I.1 and I.2 are pilot — lesson prose homogenized through lesson-scribe (CT voice) with CT-spine slideshows; Shinkle (2008, 15) remains the page-verified anchor for I.1.
-- I.3–I.9 stay scaffold until the same pass.
+- I.1–I.3 are pilot — lesson prose + CT-spine slideshows; Shinkle (2008, 15) anchors I.1; Roivainen (2025, 8) + AlDahoul et al. (2025) anchor I.3 colour/critical.
+- I.4–I.9 stay scaffold until the same pass.
 - Contact hours still close to 80/80 h across the full CD I unit set.
 - Honest curriculum milestone, not a claim that research has validated every teaching sequence: most units declare a real evidence gap on their own pages.
 -->
@@ -28,7 +28,7 @@ Track forge status (developers only — not student-facing):
 | --- | --- | --- |
 | I.1 | [Introduction to Digital Images]({{ '/lessons/en/digital-creativity-i/i-1-digital-images/' | relative_url }}) · [slideshow]({{ '/tracks/dci/i-1-fashion-image/' | relative_url }}) | A fashion image is defined by practices, venues, and shared goals — not pixel format. Shinkle (2008) grounds the field-of-practices frame before any tool opens. |
 | I.2 | [2D Digital Technology: Drawing Tools]({{ '/lessons/en/digital-creativity-i/i-2-2d-drawing/' | relative_url }}) · [slideshow]({{ '/tracks/dci/i-2-2d-drawing/' | relative_url }}) | Vector drawing describes shape as relationships between anchor points and curves — craft discipline taught without a validated teaching-method source. |
-| I.3 | [Colour, Bitmap Images]({{ '/lessons/en/digital-creativity-i/i-3-color-bitmaps/' | relative_url }}) | A bitmap fixes colour in a grid; every mode and gamut choice forecloses later options — taught as craft, not as proven pedagogy. |
+| I.3 | [Colour, Bitmap Images]({{ '/lessons/en/digital-creativity-i/i-3-color-bitmaps/' | relative_url }}) · [slideshow]({{ '/tracks/dci/i-3-color-bitmaps/' | relative_url }}) | A bitmap fixes colour in a grid; every mode and gamut choice forecloses later options — taught as craft, not as proven pedagogy. |
 | I.4 | [Effects]({{ '/lessons/en/digital-creativity-i/i-4-effects/' | relative_url }}) | Every effect has a traceable "before"; losing that trace is the risk this unit names — not any single filter's mechanics. |
 | I.5 | [Fundamentals and Representation of Three-Dimensional Form]({{ '/lessons/en/digital-creativity-i/i-5-three-dimensional-form/' | relative_url }}) | 3D form is a taught spatial sequence — 2D drawing literacy first, then 3D prototyping — not a software feature absorbed by exposure. |
 | I.6 | [Volume]({{ '/lessons/en/digital-creativity-i/i-6-volume/' | relative_url }}) | Volume builds by iterating between physical and digital representations of the same piece — neither medium is treated as final alone. |

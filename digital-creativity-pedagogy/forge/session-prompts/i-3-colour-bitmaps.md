@@ -9,7 +9,7 @@ unit_id: I.3
 official_contents: "Color, imágenes con mapas de bits"
 competencies: [CON1, HAB9, COMP8, COMP9]
 session_length: 120 minutes
-evidence_state: VERIFIED Roivainen platform styles; [BIBLIO-GAP] Albers; NONE for colour-management pedagogy
+evidence_state: VERIFIED Roivainen platform styles + AlDahoul critical homogenization; [BIBLIO-GAP] Albers; NONE for colour-management pedagogy
 registry_slice: "clases 1 · seminarios 2 · debates 1 · talleres 1 · proyectos 2 · problemas 1"
 ```
 
@@ -67,12 +67,23 @@ and accessibility; semantics=technical demonstration|exemplar|counterexample;
 licences=CC0|CC BY|CC BY-SA|public domain; require=contrast-safe thumbnail,
 alt text, and source/creator metadata.`
 
+## Enrichment handoff
+
+Read `../unit-enrichment/I.3-colour-bitmaps/PROFESSOR.md` before drafting the
+lecture or deck. Its critical question about the default viewer must remain in
+the lesson and in the final debate; do not reduce the new palette routes to a
+tool tutorial.
+
 ## Grounding note
 
-- **VERIFIED:** Roivainen (2025, 8) — `ahmes query --cite` on node `307e67e0-f3a3-5fa3-a623-ceebc74fd70c`, `evaluator_safe=yes`.
+- **VERIFIED:** Roivainen (2025, 8) — node `307e67e0-f3a3-5fa3-a623-ceebc74fd70c`, `evaluator_safe=yes`.
+- **VERIFIED:** AlDahoul et al. (2025) — abstract node `b3fd5903-1b33-50b3-8abe-cd2e9241513a` (racial homogenization claim) for the critical deck slide; does not support classroom policy prescription.
 - **[BIBLIO-GAP]:** Albers (2013) — not in scholar vault; use T1 verbatim + Chicago Reference.
 - **NONE:** colour-management teaching sequence for fashion HE.
 - **Critical:** C3 AlDahoul generative bias; session default-viewer prompt.
+- **Refreshed discovery:** Nobile et al. (2021) palette computation and
+  Balasubramanian (2026) HEX/Pantone activity are `[BIBLIO-GAP]` until Ahmes
+  page resolution; they inform comparison, not efficacy claims.
 
 ## Canonical provenance record
 

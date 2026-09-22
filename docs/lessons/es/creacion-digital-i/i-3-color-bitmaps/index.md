@@ -8,8 +8,12 @@ author: 'Rubén Vega Balbás, PhD'
 lang: es
 permalink: /lessons/es/creacion-digital-i/i-3-color-bitmaps/
 description: 'El color es relacional y sensible al tiempo — teoría perceptiva del color más estilos de edición en plataforma, con laguna honesta en pedagogía de gestión del color.'
-status: scaffold
+status: pilot
 tags: [creacion-digital-i, color, mapa-de-bits, imagen-de-trama]
+deck_url: /tracks/dci/i-3-color-bitmaps/
+master_idea: 'El color es una relación — muestreado, mostrado, nombrado e interpretado — no una muestra fija'
+practice_anchor: 'Alfabetización de mapa de bits: modo, profundidad, gama, contraste y una paleta alternativa accesible visible en el registro de proceso'
+frontier_signal: 'Los estilos de edición en plataforma circulan rápido; las secuencias de gestión del color en HE de moda siguen sin validar'
 ---
 
 <!-- prettier-ignore-start -->
@@ -23,14 +27,27 @@ tags: [creacion-digital-i, color, mapa-de-bits, imagen-de-trama]
 
 ---
 
+<div class="lesson-opener" markdown="1">
+
 > _"La imagen de trama teme el zoom. El SVG lo recibe con los brazos abiertos."_
 <!-- Ajuste TTDO: ajuste directo — el propio anclaje de esta unidad es la imagen de mapa de bits/trama específicamente, en contraste con el vector de la I.2. -->
 > — Tao of Development, `img-016`
 {: .tao-development-quote }
 
----
-
 {% include lesson-semantic-graphic.html %}
+
+</div>
+
+{% comment %}
+cover-agentic:
+  unit: I.3
+  contenidos: "Color, imágenes con mapas de bits."
+  competencies: [CON1, HAB9, COMP8, COMP9]
+  one_line: "El color es relacional — el mapa de bits lo muestrea bajo supuestos de pantalla y cultura."
+  class_rhythm: "Análisis → Masterclass → Lab (Portfolio) — sin Workshop en sesiones tempranas"
+  evaluation_feed: "Investigaciones y proyectos 20%; Cuaderno 10%"
+  how_to_pass: "/tracks/dci/how-to-pass-this-track/"
+{% endcomment %}
 
 ## Dónde se sitúa — CONTENIDOS y competencias
 
@@ -145,10 +162,8 @@ outcome-graphic-selection:
 ## Referencias
 
 - Albers, Josef. 2013. *Interaction of Color: 50th Anniversary Edition*. New Haven: Yale University Press. ISBN 9780300179354.
-- AlDahoul, Nouar, Talal Rahwan, and Yasir Zaki. 2025. "AI-Generated Faces Influence Gender Stereotypes and Racial Homogenization." *Scientific Reports* 15: 14449. https://doi.org/10.1038/s41598-025-99623-3.
-- Roivainen, Ida. 2025. "'How I Edit My Instagram Images': Investigating Skilled Vision in the Work of YouTube's Lifestyle-Content Creators." *Visual Studies* 40 (3): 569–585. https://doi.org/10.1080/1472586X.2024.2353689.
-
-**Laguna declarada — con claridad.** Ninguna fuente revisada valida una **secuencia de enseñanza de gestión del color** para moda en educación superior. Albers y Roivainen sostienen alfabetización perceptiva y de color en plataforma; no prueban que este flujo de aula enseñe mejor que una alternativa.
+- AlDahoul, Nouar, Talal Rahwan, and Yasir Zaki. 2025. "AI-Generated Faces Influence Gender Stereotypes and Racial Homogenization." *Scientific Reports* 15: 14449. <a href="https://doi.org/10.1038/s41598-025-99623-3" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41598-025-99623-3</a>.
+- Roivainen, Ida. 2025. "'How I Edit My Instagram Images': Investigating Skilled Vision in the Work of YouTube's Lifestyle-Content Creators." *Visual Studies* 40 (3): 569–585. <a href="https://doi.org/10.1080/1472586X.2024.2353689" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1472586X.2024.2353689</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -162,5 +177,39 @@ PROVENANCE_LINE: claim=I.3.critical.default-viewer; status=NONE; discovery={serv
 MEDIA_RIGHTS_LINE: slot=I.3.video.colour-workflow; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.3.still.palette-contrast; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.3.graphic.colour-chain; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+**Laguna declarada — con claridad.** Ninguna fuente revisada valida una **secuencia de enseñanza de gestión del color** para moda en educación superior. Albers y Roivainen sostienen alfabetización perceptiva y de color en plataforma; no prueban que este flujo de aula enseñe mejor que una alternativa.
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **3** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: deeb9179-2bef-4d0e-8f51-52d1a5186f95
+     vault_refs_consulted: 3
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

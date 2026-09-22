@@ -402,6 +402,23 @@ async function rehydrateDecks() {
       if (!existing || selectionScore(asset) > selectionScore(existing)) deduped.set(asset.asset_id, asset);
     }
 
+    // Deck-level blocklist (e.g. Art+Feminism edit-a-thon is not a colour/bitmap still).
+    const excluded = new Set(
+      (selection.exclude_asset_ids || []).flatMap((id) => {
+        const raw = String(id || '');
+        const variants = [raw];
+        if (raw.startsWith('wikimedia:File:')) {
+          const name = raw.slice('wikimedia:File:'.length);
+          variants.push(`wikimedia:File:${name.replace(/_/g, ' ')}`);
+          variants.push(`wikimedia:File:${name.replace(/ /g, '_')}`);
+        }
+        return variants;
+      }),
+    );
+    for (const assetId of [...deduped.keys()]) {
+      if (excluded.has(assetId)) deduped.delete(assetId);
+    }
+
     const overrideEntries = Object.entries(selection.media_overrides || {});
 
     /** Wikimedia asset ids may use spaces or underscores for the same file. */

@@ -11,18 +11,34 @@
 			</a>
 			<ul class="flex gap-6 text-sm">
 				<li>
+					{% if page.lang == 'es' %}
+					<a
+						href="{{ site.baseurl }}/tracks/es/"
+						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						Cursos
+					</a>
+					{% else %}
 					<a
 						href="{{ site.baseurl }}/tracks/en/"
 						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Tracks
 					</a>
+					{% endif %}
 				</li>
 				<li>
+					{% if page.lang == 'es' %}
+					<a
+						href="{{ site.baseurl }}/methodology/es/"
+						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						Metodología
+					</a>
+					{% else %}
 					<a
 						href="{{ site.baseurl }}/methodology/en/"
 						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Methodology
 					</a>
+					{% endif %}
 				</li>
 				<li>
 					<a
@@ -57,6 +73,13 @@
 						href="{{ site.baseurl }}/assignments/en/digital-creativity-portfolio/"
 						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Portfolio brief
+					</a>
+				</li>
+				<li>
+					<a
+						href="{{ site.baseurl }}/ai-declaration/"
+						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						AI declaration
 					</a>
 				</li>
 			</ul>

@@ -150,10 +150,8 @@ outcome-graphic-selection:
 
 ## References
 
-- Díaz Soloaga, P., and L. García Guerrero. 2016. “Fashion Films as a New Communication Format to Build Fashion Brands.” *Communication & Society* 29 (2): 45–61. https://doi.org/10.15581/003.29.2.45-61.
-- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. https://doi.org/10.1080/1362704X.2024.2442183.
-
-**Declared gap — stated plainly.** Díaz Soloaga and García Guerrero (2016) support naming fashion film as a branded communication genre; they do **not** prove that this classroom's storyboard-to-export sequence, consent defaults, or edited-video deliverable teaches fashion-video editing better than an alternative. No reviewed source validates fashion-video editing pedagogy for HE.
+- Díaz Soloaga, P., and L. García Guerrero. 2016. “Fashion Films as a New Communication Format to Build Fashion Brands.” *Communication & Society* 29 (2): 45–61. <a href="https://doi.org/10.15581/003.29.2.45-61" target="_blank" rel="noopener noreferrer">https://doi.org/10.15581/003.29.2.45-61</a>.
+- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2442183" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2442183</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -166,5 +164,38 @@ PROVENANCE_LINE: claim=II.4.critical.consent-before-impact; status=NONE; discove
 MEDIA_RIGHTS_LINE: slot=II.4.video.fashion-film-excerpt; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.4.still.storyboard-sequence; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.4.graphic.brief-to-export; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Díaz Soloaga and García Guerrero (2016) support naming fashion film as a branded communication genre; they do **not** prove that this classroom's storyboard-to-export sequence, consent defaults, or edited-video deliverable teaches fashion-video editing better than an alternative. No reviewed source validates fashion-video editing pedagogy for HE.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **2** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 5744f9f1-a569-4e4f-8821-b1c153dd5670
+     vault_refs_consulted: 2
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

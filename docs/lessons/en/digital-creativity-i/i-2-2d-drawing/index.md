@@ -176,14 +176,14 @@ This unit trains a drawing rhythm — externalise, relate, revise, select — an
 
 - <span id="ref-norman-2013">Norman, Donald A. 2013. *The Design of Everyday Things*. Revised and expanded edition. New York: Basic Books. ISBN 9780465050659.</span>
 
-- <span id="ref-abling-2023">Abling, Bina. 2023. *Fashion Sketchbook*. 7th ed. New York: Fairchild Books. ISBN 9781501387951. *(bibliography present; page node still open)*</span>
-- <span id="ref-curcic-2024">Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). https://doi.org/10.46328/ijtes.576. *(bibliography present; page node still open)*</span>
+- <span id="ref-abling-2023">Abling, Bina. 2023. *Fashion Sketchbook*. 7th ed. New York: Fairchild Books. ISBN 9781501387951.</span>
+- <span id="ref-curcic-2024">Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.</span>
 - <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination*. New York: Routledge. ISBN 9780415990936. — Carry from I.1 field tension.</span>
 - <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Practitioner taste/listening counterpoint.</span>
-- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226. *(bibliography present; page node still open)*</span>
-- <span id="ref-yu-2025">Yu, G.S. 2025. "With the Heart, the Mind, and the Sight: Cultivating Creativity in Fashion Pedagogy." In *Signature Pedagogies for Professional Arts and Design Education*. MIT Press. *(bibliography present; page node still open)*</span>
+- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.</span>
+- <span id="ref-yu-2025">Yu, G.S. 2025. "With the Heart, the Mind, and the Sight: Cultivating Creativity in Fashion Pedagogy." In *Signature Pedagogies for Professional Arts and Design Education*. MIT Press.</span>
 
-**Declared gap.** Do not cite this unit as proof that vector-first beats raster-first for fashion students.
+---
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -197,7 +197,13 @@ MEDIA_RIGHTS_LINE: deck=diagram fallback until I.2 Profield pack accepted; geome
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Curcic (2024) and Abling (2023) are retained as bibliography / practice anchors with **page cites still open**. Yu (2025) notes limited fashion-design pedagogy literature overall. Do not cite this unit as proof that vector-first beats raster-first for fashion students. This note is part of an ongoing *Práctica de Innovación docente* — keep epistemic limits here, not between Masterclass paragraphs.
+**Declared gap.** Do not cite this unit as proof that vector-first beats raster-first for fashion students.
+
+**Addressed to the editor.** bibliography present; page node still open.
+
+Curcic (2024) and Abling (2023) are retained as bibliography / practice anchors with **page cites still open**. Yu (2025) notes limited fashion-design pedagogy literature overall. Do not cite this unit as proof that vector-first beats raster-first for fashion students.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 
 ---
 
@@ -211,7 +217,9 @@ public `(Author, Year)` was checked against that vault before acceptance.
 Prompts, model drafts, and human amendments are archived for later evaluation.
 Editorial judgment and responsibility for the final text remain with the author.
 
-*Forge date: 2026-09-14 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1 · DC I.1+I.2 teaching-week pass*
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
 
 
 {% if site.publication.publish_internal_metadata %}

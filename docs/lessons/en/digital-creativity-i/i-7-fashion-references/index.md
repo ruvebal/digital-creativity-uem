@@ -143,10 +143,8 @@ outcome-graphic-selection:
 
 ## References
 
-- Campinho, M. I. S., C. V. Cardim da Silva, M. Dantas Soares, and L. Amparo-Santos. 2025. “Corpos gordos e corpos obesos em telas digitais: um olhar analítico para imagens propagadas pelo Google.” https://doi.org/10.1590/s0104-12902025240894pt.
-- Reddy-Best, Kelly L., Eunji Choi, and Hangael Park. 2018. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36 (4): 281–295. https://doi.org/10.1177/0887302X18779140.
-
-**Declared gap — stated plainly.** Campinho et al. (2025) grounds representation-ethics of what a search surfaces when sourcing images. It does **not** ground a teaching method for compositional-reference-sourcing itself — no source here validates that this unit's sequence teaches better than an alternative.
+- Campinho, M. I. S., C. V. Cardim da Silva, M. Dantas Soares, and L. Amparo-Santos. 2025. “Corpos gordos e corpos obesos em telas digitais: um olhar analítico para imagens propagadas pelo Google.” <a href="https://doi.org/10.1590/s0104-12902025240894pt" target="_blank" rel="noopener noreferrer">https://doi.org/10.1590/s0104-12902025240894pt</a>.
+- Reddy-Best, Kelly L., Eunji Choi, and Hangael Park. 2018. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36 (4): 281–295. <a href="https://doi.org/10.1177/0887302X18779140" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0887302X18779140</a>.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -159,5 +157,38 @@ PROVENANCE_LINE: claim=I.7.critical.source-context; status=NONE; discovery={serv
 MEDIA_RIGHTS_LINE: slot=I.7.video.reference-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.7.still.credited-board; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.7.graphic.source-transform; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+**Declared gap — stated plainly.** Campinho et al. (2025) grounds representation-ethics of what a search surfaces when sourcing images. It does **not** ground a teaching method for compositional-reference-sourcing itself — no source here validates that this unit's sequence teaches better than an alternative.
+
+This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **2** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 9f28918e-20b9-4a0b-bdeb-ecea82cd7423
+     vault_refs_consulted: 2
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

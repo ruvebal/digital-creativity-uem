@@ -188,19 +188,25 @@ outcome-graphic-selection:
 ## Referencias
 
 - Shinkle, Eugenie. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. Londres: I. B. Tauris. ISBN 9781845115166.
-- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. https://doi.org/10.1080/1362704X.2016.1173349.
-- Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. https://doi.org/10.1080/17543266.2017.1299226.
+- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. <a href="https://doi.org/10.1080/1362704X.2016.1173349" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2016.1173349</a>.
+- Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.
+
+
+
+---
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 - Shinkle, E. (2008). *Fashion as Photograph: Viewing and Reviewing Images of Fashion.* I. B. Tauris. ISBN `9781845115166`. Coat Ahmes `1936070c`, nodo `cca1472b-b0c6-594c-8e13-ed87d6b73897`, p.15. `(Shinkle 2008, 15)`. Resuelto vía `ahmes query &#45;&#45;cite &#45;&#45;require-evaluator-safe`, `evaluator_safe=yes` (confianza 0.95, source=openlibrary/metadata; re-confirmado en vivo esta sesión, no asumido del texto de la matriz).
 -->
 {% endif %}
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 nodo/cita nombrados en digital-creativity-pedagogy/grounding/README.md fila de matriz I.1; texto del nodo leído directamente de fission_node.markdown_content vía sqlite3, no de una vista previa de vector/Athanor; re-verificado en vivo vía `ahmes query &#45;&#45;cite` esta sesión
 -->
 {% endif %}
-- **Evidencia faltante — declarada, no disimulada.** Shinkle (2008) sostiene el marco de campo de prácticas con el que abre esta unidad. **No** valida una secuencia de herramientas para enseñar edición o captura de imagen digital. No cites esta unidad como evidencia de que su secuencia (anotar por práctica y después situar la frontera) enseña mejor que una alternativa; ninguna fuente revisada hace esa afirmación.
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 PROFIELD_ROUTING: unit=I.1; temario=T1-image-2d-volume.pass1.resultant.mdc § "Introducción a las imágenes digitales"; subfield_runs=digital-creativity/02-temario-contenidos; forward_only=dc-2d-image-craft-pedagogy (Curcic [ESTABLISHED] → solo I.2)
@@ -223,7 +229,33 @@ PROVENANCE_LINE: claim=I.1.critical.textbook-audit; status=[BIBLIO-GAP]; discove
 ## Nota editorial. Trabajo en curso. Práctica de Innovación docente
 {: .lesson-editorial-note }
 
+**Evidencia faltante — declarada, no disimulada.** Shinkle (2008) sostiene el marco de campo de prácticas con el que abre esta unidad. **No** valida una secuencia de herramientas para enseñar edición o captura de imagen digital. No cites esta unidad como evidencia de que su secuencia (anotar por práctica y después situar la frontera) enseña mejor que una alternativa; ninguna fuente revisada hace esa afirmación.
+
 **Qué sostiene esta fuente y qué no.** Shinkle (2008) sostiene el marco de *campo de prácticas* con el que abre esta unidad: un relato revisado por pares sobre cómo el propio discurso de la fotografía de moda resiste un género o una frontera única y fija. **No** valida Photoshop, Illustrator ni la pedagogía de una herramienta concreta: ninguna fuente revisada establece *cómo enseñar mejor* la alfabetización en imagen digital como secuencia de aula. Esa laguna queda abierta y se nombra aquí en vez de disimularse.
 
 Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
 
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **5** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: ccaa5029-7c1b-4bef-b471-2be160541cc6
+     vault_refs_consulted: 5
+     forge_pass: editorial-ai-footer-law-2026-09-22
+-->
+{% endif %}

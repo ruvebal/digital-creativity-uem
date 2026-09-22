@@ -143,8 +143,8 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Campinho, M. I. S., C. V. Cardim da Silva, M. Dantas Soares y L. Amparo-Santos. 2025. “Corpos gordos e corpos obesos em telas digitais: um olhar analítico para imagens propagadas pelo Google.” https://doi.org/10.1590/s0104-12902025240894pt.
-- Reddy-Best, Kelly L., Eunji Choi y Hangael Park. 2018. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36 (4): 281–295. https://doi.org/10.1177/0887302X18779140.
+- Campinho, M. I. S., C. V. Cardim da Silva, M. Dantas Soares y L. Amparo-Santos. 2025. “Corpos gordos e corpos obesos em telas digitais: um olhar analítico para imagens propagadas pelo Google.” <a href="https://doi.org/10.1590/s0104-12902025240894pt" target="_blank" rel="noopener noreferrer">https://doi.org/10.1590/s0104-12902025240894pt</a>.
+- Reddy-Best, Kelly L., Eunji Choi y Hangael Park. 2018. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36 (4): 281–295. <a href="https://doi.org/10.1177/0887302X18779140" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0887302X18779140</a>.
 
 **Brecha declarada — en claro.** Campinho et al. (2025) fundamenta la ética de la representación de lo que devuelve una búsqueda al buscar imágenes. **No** fundamenta un método de enseñanza para la búsqueda de referencias compositivas en sí — ninguna fuente aquí valida que la secuencia propia de esta unidad enseñe mejor que una alternativa.
 
@@ -159,5 +159,37 @@ PROVENANCE_LINE: claim=I.7.critical.source-context; status=NONE; discovery={serv
 MEDIA_RIGHTS_LINE: slot=I.7.video.reference-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.7.still.credited-board; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=I.7.graphic.source-transform; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **2** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 46bb43c3-5e71-471f-aeb3-101a7bb64188
+     vault_refs_consulted: 2
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

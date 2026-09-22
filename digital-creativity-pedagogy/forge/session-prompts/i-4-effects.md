@@ -56,11 +56,21 @@ Follow the lesson page B3 items (authoritative for assessment):
 2. Write the one-line disclosure by hand for a described effect, no tool open.
 3. Distinguish "effect" from "manipulation" for a described case, using B1's disclosure framing.
 
+## Enrichment handoff
+
+Read `../unit-enrichment/I.4-effects/PROFESSOR.md` before drafting the lecture
+or deck. Keep the Bogotá/Spain archive route and the disclosure question in the
+critical perspective; do not turn effects into a catalogue of software filters.
+
 ## Grounding note
 
 - **[BIBLIO-GAP]:** Gonzalez and Woods (2018), Curcic (2024), McBride et al. (2019), Crepax (2024), Park et al. (2025) — not in scholar vault; use T1/pass1 verbatim + Chicago References.
 - **NONE:** effects/filter teaching sequence for fashion HE.
 - **Critical:** C1 Crepax affective trends; McBride retouch ethics; session disclosure-threshold prompt.
+- **Refreshed discovery:** Rizzi and Bertola (2025) on human–AI fashion design
+  and Rodriguez Schon and Valle-Noronha (2025) on decolonial digital fashion
+  archives are `[BIBLIO-GAP]` until Ahmes page resolution; they inform process
+  critique, not a tool mandate.
 
 ## Media prospector request
 

@@ -22,6 +22,12 @@ permalink: /tracks/es/
         <span>S2 · 6 ECTS — avatares, experiencias, portfolio web, R.A.</span>
       </a>
     </li>
+    <li>
+      <a href="{{ '/tracks/es/nuevos-medios-moda/' | relative_url }}">
+        <strong>Nuevos medios — RRSS y plataformas virtuales (moda)</strong>
+        <span>Online · ES · 6 unidades Canvas + prueba final — andamiaje</span>
+      </a>
+    </li>
   </ul>
 
   <hr />

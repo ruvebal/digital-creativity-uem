@@ -172,9 +172,9 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Farah, M. F., Z. Ramadan y Y. Nassereddine. 2025. "Mind the gap: virtual fashion shows and generational disparities." *International Journal of Fashion Design, Technology and Education*. https://doi.org/10.1080/17543266.2025.2489380.
-- Kim, S. 2023. "Virtual Fashion Experiences in Virtual Reality Fashion Shows." *Frontiers in Psychology*. https://doi.org/10.3389/fpsyg.2023.1276856.
-- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory*. https://doi.org/10.1080/1362704X.2016.1173349.
+- Farah, M. F., Z. Ramadan y Y. Nassereddine. 2025. "Mind the gap: virtual fashion shows and generational disparities." *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2025.2489380" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2025.2489380</a>.
+- Kim, S. 2023. "Virtual Fashion Experiences in Virtual Reality Fashion Shows." *Frontiers in Psychology*. <a href="https://doi.org/10.3389/fpsyg.2023.1276856" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/fpsyg.2023.1276856</a>.
+- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2016.1173349" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2016.1173349</a>.
 - Smith-Glaviana, Dina. 2025. "University Students' Experience of a Digital Fashion Exhibition: Engagement, Embodiment, and Object-Based Learning." *Clothing and Textiles Research Journal* 43 (1): 32–47.
 
 **Vacío declarado — en claro.** Kim (2023) y Smith-Glaviana (2025) apoyan criterios de fenómeno y de diseño de experiencia respectivamente; **no** prueban que la secuencia de puesta en escena, la rúbrica del brief o el entregable de este aula enseñen mejor el diseño de experiencias digitales que una alternativa. Ninguna fuente revisada valida una secuencia de enseñanza del diseño de experiencias para HE. Rocamora (2017) y Farah et al. (2025) informan la lectura crítica de mediatización y acceso virtual; no sustituyen un método de aula validado.
@@ -192,5 +192,37 @@ PROVENANCE_LINE: claim=II.3.critical.visitor-burden-prompt; status=NONE; discove
 MEDIA_RIGHTS_LINE: slot=II.3.video.tour-breakdown; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.3.still.journey-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
 MEDIA_RIGHTS_LINE: slot=II.3.graphic.journey-map; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+-->
+{% endif %}
+
+---
+
+## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+{: .lesson-editorial-note }
+
+Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+
+---
+
+## Autoría asistida por IA
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
+entorno de estudio crea-comm.net — un harness agentic local con recuperación
+vía MCP, contexto RAG del vault curricular y un modelo de voz académica
+afinado sobre su propia escritura. La forja consultó **4** fuentes del vault;
+cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
+Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
+posterior. El juicio editorial y la responsabilidad del texto final permanecen
+en el autor.
+
+Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+
+*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: ce934cab-3a2a-4bc6-a033-c9a80d8dbab7
+     vault_refs_consulted: 4
+     forge_pass: editorial-ai-footer-law-2026-09-22
 -->
 {% endif %}

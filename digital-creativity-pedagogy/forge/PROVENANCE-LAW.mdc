@@ -82,6 +82,12 @@ paths, resolver output, or internal status labels (`[BIBLIO-GAP]`, `NONE`, `VERI
 in student-facing HTML. Use plain language for gaps in public prose; keep status tokens
 only inside switch-gated comments.
 
+**Board navigation.** DOI and other `http(s)` URLs that appear in public
+References / Referencias must be HTML anchors with
+`target="_blank" rel="noopener noreferrer"` (never bare text). Professors open
+articles on the projected lesson without leaving the page. See
+`dc-unit-forge.mdc` §2 “Reference URLs (classroom board)”.
+
 ## Required gates
 
 1. Every evidence-bearing sentence or media-research decision has a stable
