@@ -11,11 +11,13 @@ layout: null
     "strategy": "review-state-assigned",
     "description": "I.3 Profield stills. Excluded: Art+Feminism edit-a-thon and Barbie magazine (not colour/bitmap teaching stills for this deck).",
     "media_overrides": {
-      "I.3.still.cover": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg"
+      "I.3.still.cover": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "I.3.still.profield-8": "wikimedia:File:CMYK.png"
     },
     "exclude_asset_ids": [
       "internet_archive:barbie-magazine-2003",
-      "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG"
+      "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "wikimedia:File:1810 silhouette - DPLA - ecb5f42963fd1f5277cd8267bcdc3e8f.jpg"
     ]
   },
   "assets": [
@@ -155,19 +157,19 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.3.still.profield-8",
-      "asset_id": "wikimedia:File:FREETONE WHITE 1800x1800.webp",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a1946f4af20b8638.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/FREETONE_WHITE_1800x1800.webp",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:FREETONE_WHITE_1800x1800.webp",
-      "alt_text": "FREETONE WHITE 1800x1800.webp",
-      "title": "FREETONE WHITE 1800x1800.webp",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 7,
-      "selection_rank": 7,
-      "collection": "unit-accepted"
+    "media_slot_id": "I.3.still.profield-8",
+    "asset_id": "wikimedia:File:CMYK.png",
+    "asset_url": "/digital-creativity-uem/assets/images/profield-cache/750f32a08550dcff.png",
+    "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/CMYK.png",
+    "canonical_source_url": "https://commons.wikimedia.org/wiki/File:CMYK.png",
+    "alt_text": "Diagram of the CMYK colour model",
+    "title": "CMYK colour model",
+    "provider": "Wikimedia Commons",
+    "credit_line": "Capsoul, via Wikimedia Commons",
+    "licence": "CC BY-SA 3.0",
+    "priority": 1,
+    "selection_rank": 1,
+    "collection": "instructor-selected"
     }
   ],
   "slides": [
