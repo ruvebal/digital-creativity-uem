@@ -13,12 +13,7 @@ layout: null
     "media_overrides": {
       "I.3.still.cover": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
       "I.3.still.profield-8": "wikimedia:File:CMYK.png"
-    },
-    "exclude_asset_ids": [
-      "internet_archive:barbie-magazine-2003",
-      "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
-      "wikimedia:File:1810 silhouette - DPLA - ecb5f42963fd1f5277cd8267bcdc3e8f.jpg"
-    ]
+    }
   },
   "assets": [
     {
@@ -38,138 +33,33 @@ layout: null
     },
     {
       "media_slot_id": "I.3.still.profield-2",
-      "asset_id": "wikimedia:File:Mujer negra con dos niños en el regazo, Vanessa Beecroft.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/5947c7ba5d9c7264.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mujer_negra_con_dos_ni%C3%B1os_en_el_regazo%2C_Vanessa_Beecroft.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Mujer_negra_con_dos_ni%C3%B1os_en_el_regazo,_Vanessa_Beecroft.jpg",
-      "alt_text": "Mujer negra con dos niños en el regazo, Vanessa Beecroft.jpg",
-      "title": "Mujer negra con dos niños en el regazo, Vanessa Beecroft.jpg",
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(48).JPG",
+      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.3.still.profield-3",
-      "asset_id": "wikimedia:File:170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/37bdccbf1fd215f6.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
-      "alt_text": "170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
-      "title": "170424-purple-hair-goth-fashion-influencer-outfits-clothing-2.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.3.still.profield-4",
-      "asset_id": "wikimedia:File:NEXUS 5-pixel pattern PNr°0409.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/7132cff886757303.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/NEXUS_5-pixel_pattern_PNr%C2%B00409.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:NEXUS_5-pixel_pattern_PNr%C2%B00409.jpg",
-      "alt_text": "NEXUS 5-pixel pattern PNr°0409.jpg",
-      "title": "NEXUS 5-pixel pattern PNr°0409.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.3.still.profield-5",
-      "asset_id": "wikimedia:File:FREETONE WHITE 1800x1800.webp",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a1946f4af20b8638.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/FREETONE_WHITE_1800x1800.webp",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:FREETONE_WHITE_1800x1800.webp",
-      "alt_text": "FREETONE WHITE 1800x1800.webp",
-      "title": "FREETONE WHITE 1800x1800.webp",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 7,
-      "selection_rank": 7,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.3.still.profield-6",
-      "asset_id": "nypl:510d47da-3e01-a3d9-e040-e00a18064a99",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/7d4c7c7102cc7558.jpg",
-      "source_file_url": "https://images.nypl.org/index.php?id=102138&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47da-3e01-a3d9-e040-e00a18064a99",
-      "alt_text": "Four geometric compositions",
-      "title": "Four geometric compositions",
-      "provider": "nypl",
-      "credit_line": "nypl",
       "licence": "",
       "priority": 5,
       "selection_rank": 5,
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.3.still.profield-9",
-      "asset_id": "nypl:fe65ad90-c6cb-012f-b5c1-58d385a7bc34",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/5761b192aa790b12.jpg",
-      "source_file_url": "https://images.nypl.org/index.php?id=1221613&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/fe65ad90-c6cb-012f-b5c1-58d385a7bc34",
-      "alt_text": "A color combination chart for layered clothing",
-      "title": "A color combination chart for layered clothing",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.3.still.profield-10",
-      "asset_id": "wikimedia:File:Sunset at L'Estel Ferit, Barceloneta (10380980254).jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c9dcebe63cef1185.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sunset_at_L%27Estel_Ferit%2C_Barceloneta_%2810380980254%29.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sunset_at_L%27Estel_Ferit,_Barceloneta_(10380980254).jpg",
-      "alt_text": "Sunset at L'Estel Ferit, Barceloneta (10380980254).jpg",
-      "title": "Sunset at L'Estel Ferit, Barceloneta (10380980254).jpg",
+      "media_slot_id": "I.3.still.profield-3",
+      "asset_id": "wikimedia:File:Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Anna_Miller%27s_uniform_%28pink%29_in_Second_Life_%282012-01-22_22.36.22_by_Ramona_Forcella%29_clip.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Anna_Miller%27s_uniform_(pink)_in_Second_Life_(2012-01-22_22.36.22_by_Ramona_Forcella)_clip.jpg",
+      "alt_text": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "title": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
       "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.3.still.profield-7",
-      "asset_id": "nypl:e0558b80-c5fe-012f-ce95-58d385a7bc34",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/11fa387e6d13083b.jpg",
-      "source_file_url": "https://images.nypl.org/index.php?id=404280&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/e0558b80-c5fe-012f-ce95-58d385a7bc34",
-      "alt_text": "Chaetodon tricolor, The treble-coloured.",
-      "title": "Chaetodon tricolor, The treble-coloured.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 2,
-      "selection_rank": 2,
-      "collection": "unit-accepted"
-    },
-    {
-    "media_slot_id": "I.3.still.profield-8",
-    "asset_id": "wikimedia:File:CMYK.png",
-    "asset_url": "/digital-creativity-uem/assets/images/profield-cache/750f32a08550dcff.png",
-    "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/CMYK.png",
-    "canonical_source_url": "https://commons.wikimedia.org/wiki/File:CMYK.png",
-    "alt_text": "Diagram of the CMYK colour model",
-    "title": "CMYK colour model",
-    "provider": "Wikimedia Commons",
-    "credit_line": "Capsoul, via Wikimedia Commons",
-    "licence": "CC BY-SA 3.0",
-    "priority": 1,
-    "selection_rank": 1,
-    "collection": "instructor-selected"
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "artist"
     }
   ],
   "slides": [
@@ -271,7 +161,7 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "none",
       "heading": "2 · A bitmap has limits",
       "sentence": "A bitmap is a fixed grid of colour values — mode, depth, and gamut close later options.",
       "quote": "Every bit you spend on colour is a door you may not reopen later.",
@@ -296,12 +186,11 @@ layout: null
       "citation": {
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
-      },
-      "media_slot_id": "I.3.still.profield-4"
+      }
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "none",
       "heading": "3 · Platform tones are historical",
       "sentence": "Creator tools circulate lighting, colour trends, and tones that look “professional” for a season — treat them as signals to compare, not defaults to copy.",
       "quote": "Sharing expertise and using specific technologies result in visuality that reflect certain editing styles that are popular at a given moment.",
@@ -326,12 +215,11 @@ layout: null
       "citation": {
         "label": "(Roivainen 2025, 8)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-roivainen-2025"
-      },
-      "media_slot_id": "I.3.still.profield-5"
+      }
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "none",
       "heading": "4 · The display participates",
       "sentence": "The same palette on two screens can be two designs — name the display assumption you export under.",
       "quote": "The screen is not a mirror; it is a second author of the colour.",
@@ -356,12 +244,11 @@ layout: null
       "citation": {
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
-      },
-      "media_slot_id": "I.3.still.profield-6"
+      }
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "none",
       "heading": "5 · Critical · Who is the default viewer?",
       "sentence": "When a palette is called accurate or fashionable, ask whose body, display, and cultural code count as neutral — generative tools are not representationally neutral.",
       "quote": "This analysis reveals significant racial homogenization, e.g., depicting nearly all Middle Eastern men as bearded, brown-skinned, and wearing traditional attire.",
@@ -387,12 +274,11 @@ layout: null
       "citation": {
         "label": "(AlDahoul et al. 2025)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-aldahoul-2025"
-      },
-      "media_slot_id": "I.3.still.profield-7"
+      }
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "none",
       "heading": "6 · Correcting vs changing",
       "sentence": "When does “correcting” a colour become “changing” the garment it depicts? Decide together — then keep the decision visible.",
       "quote": "Correction without disclosure is a redesign with an alibi.",
@@ -417,8 +303,7 @@ layout: null
       "citation": {
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
-      },
-      "media_slot_id": "I.3.still.profield-8"
+      }
     },
     {
       "slide_role": "lab_opener",
@@ -458,7 +343,7 @@ layout: null
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
       },
-      "media_slot_id": "I.3.still.profield-9"
+      "media_slot_id": "I.3.still.cover"
     },
     {
       "slide_role": "lab_exercise",
@@ -490,7 +375,7 @@ layout: null
         "label": "(Roivainen 2025, 8)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-roivainen-2025"
       },
-      "media_slot_id": "I.3.still.profield-10"
+      "media_slot_id": "I.3.still.profield-2"
     },
     {
       "slide_role": "outro",

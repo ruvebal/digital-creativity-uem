@@ -107,6 +107,21 @@ layout: null
     },
     {
       "media_slot_id": "I.1.still.profield-7",
+      "asset_id": "internet_archive:barbie-magazine-2003",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
+      "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
+      "canonical_source_url": "https://archive.org/details/barbie-magazine-2003",
+      "alt_text": "Barbie Magazine 2003",
+      "title": "Barbie Magazine 2003",
+      "provider": "Internet Archive",
+      "credit_line": "Internet Archive",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-8",
       "asset_id": "wikimedia:File:Alexander McQueen clamshell dress (51611p).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9840aaa8f2da66c.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg",
@@ -121,7 +136,7 @@ layout: null
       "collection": "designers"
     },
     {
-      "media_slot_id": "I.1.still.profield-8",
+      "media_slot_id": "I.1.still.profield-9",
       "asset_id": "wikimedia:File:Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/4ddb9d161b673b9f.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alexander_McQueen_Dress_at_The_Metropolitan_Museum_of_Art.jpg",
@@ -136,7 +151,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-9",
+      "media_slot_id": "I.1.still.profield-10",
       "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c8acd44e8f333198.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
@@ -151,7 +166,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-10",
+      "media_slot_id": "I.1.still.profield-11",
       "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/e16150afa0636624.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beauty_is_my_business%2C_says_Anne_Piron%2C_1950.jpg",
@@ -166,7 +181,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-11",
+      "media_slot_id": "I.1.still.profield-12",
       "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/66e54dae6e9921a1.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dirty_and_damaged_fashion_doll.jpg",
@@ -181,7 +196,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-12",
+      "media_slot_id": "I.1.still.profield-13",
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg",
@@ -196,7 +211,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-13",
+      "media_slot_id": "I.1.still.profield-14",
       "asset_id": "wikimedia:File:Giada Advertising Campaign SS11.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f1cd306acb57ec21.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Giada_Advertising_Campaign_SS11.jpg",
@@ -211,7 +226,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-14",
+      "media_slot_id": "I.1.still.profield-15",
       "asset_id": "wikimedia:File:Heavenly Bodies Fashion and the Catholic Imagination at The Metropolitan Museum of Art.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/cae87288b14d07e7.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Heavenly_Bodies_Fashion_and_the_Catholic_Imagination_at_The_Metropolitan_Museum_of_Art.jpg",
@@ -226,7 +241,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-15",
+      "media_slot_id": "I.1.still.profield-16",
       "asset_id": "wikimedia:File:The Future Face of Avattire.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/8eb44f02b715b814.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Future_Face_of_Avattire.jpg",
@@ -241,28 +256,13 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-16",
+      "media_slot_id": "I.1.still.profield-17",
       "asset_id": "wikimedia:File:Comme des Garcons at the Met 01.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/6e2b118fe4e72280.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Comme_des_Garcons_at_the_Met_01.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Comme_des_Garcons_at_the_Met_01.jpg",
       "alt_text": "Comme des Garcons at the Met 01.jpg",
       "title": "Comme des Garcons at the Met 01.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-17",
-      "asset_id": "wikimedia:File:Stanley Kubrick The Exhibition - LACMA - 2001 A Space Odyssey - Ape costume (8998540155).jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/41f92727a5ae9d47.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Stanley_Kubrick_The_Exhibition_-_LACMA_-_2001_A_Space_Odyssey_-_Ape_costume_%288998540155%29.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Stanley_Kubrick_The_Exhibition_-_LACMA_-_2001_A_Space_Odyssey_-_Ape_costume_(8998540155).jpg",
-      "alt_text": "Stanley Kubrick The Exhibition - LACMA - 2001 A Space Odyssey - Ape costume (8998540155).jpg",
-      "title": "Stanley Kubrick The Exhibition - LACMA - 2001 A Space Odyssey - Ape costume (8998540155).jpg",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
       "licence": "",

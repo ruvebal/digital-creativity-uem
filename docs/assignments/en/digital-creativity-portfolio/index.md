@@ -11,6 +11,11 @@ description: 'The final digital process notebook for Digital Creativity: a day-b
 
 **Digital Creativity I–II · final assignment · publishable now so you can build it from the first lab**
 
+## 📋 Table of Contents
+
+* this unordered seed list will be replaced by the TOC
+{:toc}
+
 ## The assignment in one sentence
 
 Create a digital portfolio notebook — a bitácora of your transit across the subject — that makes your creative process, technical decisions, critical judgement, revisions, authorship, and final work inspectable.
@@ -27,7 +32,46 @@ The official guides frame Digital Creativity around digital images, 2D and 3D fo
 
 The portfolio joins those capabilities into one readable trajectory. A digital piece can show an outcome; a digital process notebook can show how you built, tested, edited, credited, and published it. Recent e-portfolio research describes structured entries as a way to move from “what happened?” toward analysis and an action plan, and identifies selection, organisation, and reflection as part of students' developing professional identity (Zainuddin et al. 2026, 7). That is the standard here: not more pages, but more accountable seeing.
 
-<figure class="lesson-semantic portfolio-practice-research" aria-labelledby="portfolio-practice-research-caption">
+## Scope: the complete official-guide track curriculum
+
+This assignment covers **Digital Creativity I and II as a connected track**. The portfolio is complete only when its index maps evidence to every official content anchor below. One entry may cover more than one anchor, and a single substantial project may provide evidence across both subjects, but no anchor may disappear merely because it was not part of the final showcase.
+
+### Digital Creativity I · S1
+
+Include evidence of learning, testing, or application for all nine official contents:
+
+1. Introduction to digital images.
+2. 2D digital technology: drawing tools.
+3. Colour and bitmap images.
+4. Effects.
+5. Fundamentals and representation of three-dimensional form.
+6. Volume.
+7. Sources and compositional references in fashion design.
+8. Creation of animated digital images.
+9. Digital still lifes.
+
+The guide's first anchor is the introduction to digital images; the remaining anchors are listed above in their official sequence. Your index must retain that sequence, even if you cross-link entries or combine related exercises.
+
+### Digital Creativity II · S2
+
+Include evidence of learning, testing, or application for all six official contents:
+
+1. Advanced photographic retouching of fashion images.
+2. Avatar creation.
+3. Design of digital fashion experiences.
+4. Digital resources for video editing.
+5. Layout, editing, and creation of a website and digital portfolio.
+6. Holograms and augmented reality.
+
+The portfolio is not complete when it contains only web work, avatars, or the pieces selected for exhibition. Retouching, video, digital experiences, holograms, and augmented reality require a trace too: a test, annotated study, prototype, critique, or documented decision is acceptable when a finished public piece is not appropriate.
+
+### Track capabilities and outcomes
+
+Across both subjects, the evidence must show the official capabilities to differentiate audiovisual representation techniques and their means of diffusion; use digital technology professionally for images, text, and sound; represent fashion ideas graphically; design a fashion firm's brand image; use digital graphic/audiovisual tools to communicate fashion projects; and create original solutions to problems and challenges. The portfolio should also make the official learning outcomes inspectable: 3D form and representation; 3D representation techniques and digital modelling resources; image effects and editing; image and text in digital creations; vector drawing tools; advanced digital tools for fashion representation; digital fashion campaigns; native and generic file formats; technical fashion drawings and videos; professional-quality layout; and creative digital communication strategies for fashion companies.
+
+Use the process inventory to name the relevant content anchor(s), capability, and outcome(s) for every entry. This mapping is the completion check for the whole official guide track, not an extra grading category.
+
+<figure class="lesson-semantic portfolio-practice-research" aria-labelledby="portfolio-practice-research-caption" markdown="0">
 <img src="{{ '/assets/images/portfolio-practice-research.svg' | relative_url }}" width="1600" height="560" alt="Practice–research loop: question, make, observe, revise, and situated knowledge." />
 <figcaption id="portfolio-practice-research-caption">The portfolio records digital practice as inquiry: a question becomes a test, the test becomes an observation, and the observation informs the next revision.</figcaption>
 </figure>
@@ -44,7 +88,7 @@ Submit one navigable digital portfolio containing:
 
 - **A home/index page:** your name or chosen designer name, a short statement, course, and a clear route through the work.
 - **At least one substantive exercise entry for every Lab time/lesson:** include the brief, final result, process traces, technical decisions, and reflection. If a Lab produces several exercises, choose the strongest representative exercise; additional evidence is welcome but not required.
-- **D1 Analysis, D2 Transposition, and D3 Atrium:** include the final work and the process that led to it, with working links or embedded media.
+- **D1 Analysis, D2 Transposition, and D3 Atrium:** include the final work and the process that led to it, with working links or embedded media. These are required milestone deliverables; they do not replace the official content-anchor coverage above.
 - **A final synthesis:** 500–800 words or an equivalent designed digital form explaining how your creative and technical practice changed.
 - **A process inventory:** a visible or linked checklist showing that every Lab time has a selected exercise entry.
 - **An authorship and AI/material declaration for every piece:** name tools, source materials, collaborators, and your human decisions. See the [AI usage declaration](/ai-declaration/) for detailed guidance. “No AI tools used” is a valid declaration.
@@ -72,11 +116,12 @@ The rubric uses a 0–10 score for the assignment. The official guide remains th
 
 | Criterion                                                    | Weight | 9–10 · Excellent                                                                                                                           | 7–8.9 · Competent                                                                                    | 5–6.9 · Minimum pass                                                                       | 0–4.9 · Insufficient                                                                              |
 | ------------------------------------------------------------ | -----: | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| **Completeness and process continuity**                      |    20% | At least one substantive exercise from every Lab time/lesson and D1–D3 is present, dated, linked, and connected into a convincing journey. | Nearly every Lab time is represented by a clear exercise entry; minor gaps do not break the journey. | Several Lab times are represented only thinly, late, or with difficult-to-locate evidence. | Major omissions, broken routes, or an image-only gallery with no process trail.                   |
+| **Completeness and process continuity**                      |    20% | Every official content anchor, every Lab time/lesson, and D1–D3 is represented by dated, linked evidence connected into a convincing journey. | Nearly every anchor and Lab time is represented; minor gaps do not break the journey. | Several anchors or Lab times are represented only thinly, late, or with difficult-to-locate evidence. | Major curriculum omissions, broken routes, or an image-only gallery with no process trail.          |
 | **Depth of thought and reflection**                          |    25% | Entries move beyond description into precise questions, connections, uncertainty, and changed understanding.                               | Reflection explains meaningful creative and technical choices, with some depth.                      | Reflection mostly reports what happened and gives general opinions.                        | Little or no reflection; choices cannot be explained.                                             |
 | **Critical analysis and judgement**                          |    20% | Tests assumptions, reads medium/platform/constraint critically, compares alternatives, and defends refusals as well as choices.            | Uses criteria to select and revise; critique is clear and relevant.                                  | Names choices but gives limited criteria or analysis.                                      | Accepts defaults uncritically or cannot account for decisions.                                    |
 | **Creative fluency, flexibility, and originality**           |    20% | Shows varied routes, productive risk, strong experimentation, and an original response that adds value to the brief.                       | Shows more than one route and a purposeful creative voice.                                           | Shows some variation but relies heavily on one route or familiar solution.                 | Little exploration, imitation without transformation, or no evidence of development.              |
 | **Digital craft, aesthetics, accessibility, and authorship** |    15% | Navigation, hierarchy, visual language, media handling, accessibility, credits, and declarations are authored and professional.            | Clear digital structure and adequate craft, with only minor technical or accessibility issues.       | Understandable but uneven, cluttered, fragile, or only partly accessible.                  | Broken or unreadable format, missing declarations/credits, or decoration replacing communication. |
+{: .portfolio-rubric}
 
 The professor will evaluate the depth of thought, critical analysis, and creativity. Digital craft and aesthetics matter because the portfolio is itself a designed communication artefact, but polish cannot compensate for absent process evidence or unclear authorship.
 
