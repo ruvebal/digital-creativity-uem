@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="t d">
+  <title id="t">Sistema de presencia digital</title>
+  <desc id="d">Cuatro cajas: voz, formatos, métricas, hipótesis — conectadas a marca.</desc>
+  <rect width="720" height="280" fill="#f7f4ef"/>
+  <text x="360" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#1a1a1a">Sistema de presencia (U2)</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">
+    <rect x="40" y="80" width="140" height="70" rx="4" fill="#fff" stroke="#333"/>
+    <text x="110" y="120" text-anchor="middle">Voz de marca</text>
+    <rect x="210" y="80" width="140" height="70" rx="4" fill="#fff" stroke="#333"/>
+    <text x="280" y="120" text-anchor="middle">Formatos</text>
+    <rect x="380" y="80" width="140" height="70" rx="4" fill="#fff" stroke="#333"/>
+    <text x="450" y="120" text-anchor="middle">Métricas</text>
+    <rect x="550" y="80" width="140" height="70" rx="4" fill="#fff" stroke="#333"/>
+    <text x="620" y="120" text-anchor="middle">Hipótesis</text>
+    <rect x="260" y="190" width="200" height="50" rx="4" fill="#e8e0d5" stroke="#333"/>
+    <text x="360" y="220" text-anchor="middle">Marca · público · plataforma</text>
+  </g>
+  <g stroke="#333" fill="none" stroke-width="1.5">
+    <path d="M110 150 V190 H360"/>
+    <path d="M280 150 V190"/>
+    <path d="M450 150 V190"/>
+    <path d="M620 150 V190 H360"/>
+  </g>
+</svg>

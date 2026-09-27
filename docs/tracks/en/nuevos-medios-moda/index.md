@@ -37,12 +37,20 @@ Canvas assessment (70 + 30):
 
 ## Units (Canvas contract)
 
-| U | Canvas title | Core idea (scaffold) | Forge status |
+| U | Lesson | Master idea | Canvas |
 | --- | --- | --- | --- |
-| 1 | History and evolution of new media | Platforms reconfigure brand–consumer relations; history is a power map. | Skeleton — temario/glossary not forged |
-| 2 | Digital communication strategies | Strategy is a presence system, not a posting calendar. | Skeleton — 10 pt activity unnamed on site |
-| 3 | Marketing and advertising in new media | Fashion campaigns = visibility labour + disclosure + trust. | Skeleton — strong Abidin/CDA corpus |
-| 4 | Creativity and digital content | Brand-aligned content needs craft *and* critique. | Skeleton |
-| 5 | Digital tools and data analysis | Metrics are decisions about what counts as success. | Skeleton — no listed Canvas score |
-| 6 | Future of digital communication | AI/AR change the stage; authenticity and disclosure are studio problems. | Skeleton — some bibliography still open |
-| — | Knowledge test | Closes U1–U6 | Item bank not forged |
+| 1 | [History and evolution of new media]({{ '/lessons/en/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | Platforms reconfigure brand–consumer relations; history is a power map. | Glossary / resources |
+| 2 | [Digital communication strategies]({{ '/lessons/en/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | Strategy is a presence system, not a posting calendar. | **10 pt activity** |
+| 3 | [Marketing and advertising in new media]({{ '/lessons/en/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | Fashion campaigns = visibility labour + disclosure + trust. | **10 pt activity** |
+| 4 | [Creativity and digital content]({{ '/lessons/en/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | Brand-aligned content needs craft *and* critique. | **10 pt activity** |
+| 5 | [Digital tools and data analysis]({{ '/lessons/en/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | Metrics are decisions about what counts as success. | Activities (no listed score) |
+| 6 | [Future of digital communication]({{ '/lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | AI/AR change the stage; authenticity and disclosure are studio problems. | **10 pt activity** |
+| — | Knowledge test | Closes U1–U6 | **30 pt exam** |
+
+**U1–U3 forged** (Masterclass + Reveal decks on the ES track). U4–U6 still scaffold. Teaching language remains Spanish — prefer the [ES track]({{ '/tracks/es/nuevos-medios-moda/' | relative_url }}).
+
+| Unit | Deck (ES) |
+| --- | --- |
+| U1 | [Open slides]({{ '/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/' | relative_url }}) |
+| U2 | [Open slides]({{ '/tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/' | relative_url }}) |
+| U3 | [Open slides]({{ '/tracks/es/uem/2627-nm/u3-marketing-publicidad/' | relative_url }}) |

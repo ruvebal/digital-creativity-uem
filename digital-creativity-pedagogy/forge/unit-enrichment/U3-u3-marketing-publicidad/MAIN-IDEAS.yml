@@ -1,0 +1,46 @@
+# Student slideshow payload — ≤ 6 main ideas · U3
+# Campaign bank: Profield fashion-exemplary-social-campaigns CANONICAL → 20260925T200000Z
+unit_id: U3
+title_es: U3 · Marketing y publicidad en nuevos medios
+max_ideas: 6
+note: "2026-09-26 — Benetton/COLORS (rank 5) + Levi’s (8) + PayUp (1) + Ropa Limpia (7); tracks corrected"
+voice: late-secondary / first-year clear Spanish
+teaching_language: es
+campaign_bank_ref: "~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md"
+contenidos: "Marketing y publicidad en nuevos medios."
+ideas:
+  - id: 1
+    heading: La publicidad puede borrar la prenda
+    sentence: "Si el anuncio no muestra la ropa, ¿qué está vendiendo realmente — producto o posición moral?"
+    case: "Caso: United Colors / COLORS (Benetton–Toscani) — shockvertising y revista de marca (rank 5)."
+    case_track: A
+    case_rank: 5
+    case_url: "https://www.vogue.com/article/oliviero-toscani-united-colors-benetton"
+    chicago: null
+    stance: studio_hypothesis
+    note: "Name Benetton in class; no Ahmes quote until vault ingest — cite public URL only in lab brief."
+  - id: 2
+    heading: Shock ≠ prueba de impacto social
+    sentence: "La controversia mide atención; no demuestra salarios pagados ni emisiones bajadas."
+    case: "Caso: Benetton (rank 5) vs PayUp (rank 1) — debate vs USD/firmas."
+    case_track: A_vs_C
+    case_rank: "5+1"
+    quote: "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption…"
+    chicago: "(United Nations Environment Programme 2023, 27)"
+  - id: 3
+    heading: El green claim es una apuesta reputacional
+    sentence: "Si tu claim no aguanta evidencia, no es marketing inteligente: es deuda de confianza."
+    case: "Caso: Levi’s Buy Better, Wear Longer (rank 8) — suficiencia vs incentivos de venta."
+    case_track: A
+    case_rank: 8
+    quote: "Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in the EU at large were v…"
+    chicago: "(United Nations Environment Programme 2023, 26)"
+  - id: 4
+    heading: Presionar la marca no es ser la marca
+    sentence: "Ropa Limpia en la junta no es un purpose film de Inditex: es conflicto mediático organizado."
+    case: "Caso: SETEM / Ropa Limpia × Inditex AGM (rank 7) — Track B/C."
+    case_track: B
+    case_rank: 7
+    case_url: "https://ropalimpia.org/noticias/accionistas-y-entidades-sociales-exigen-responsabilidad-climatica-y-social-a-inditex-durante-la-junta-de-accionistas/"
+    chicago: null
+    stance: studio_hypothesis

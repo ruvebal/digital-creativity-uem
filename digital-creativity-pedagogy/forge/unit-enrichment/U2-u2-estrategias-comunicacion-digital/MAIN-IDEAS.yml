@@ -1,0 +1,42 @@
+# Student slideshow payload — ≤ 6 main ideas · U2
+# Campaign bank: Profield fashion-exemplary-social-campaigns CANONICAL → 20260925T200000Z
+unit_id: U2
+title_es: U2 · Estrategias de comunicación digital
+max_ideas: 6
+note: "2026-09-26 refactor — ranks + tracks from TEACHING-CAMPAIGN-LEDGER; PayUp=C"
+voice: late-secondary / first-year clear Spanish
+teaching_language: es
+campaign_bank_ref: "~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md"
+ideas:
+  - id: 1
+    heading: Sistema de presencia, no calendario
+    sentence: "Antes de programar posts, escribe voz, formatos, hipótesis y cómo sabrás si fallan."
+    case: "Caso: Patagonia Action Works (rank 6 · Track A) — formatos = eventos, peticiones, voluntariado."
+    case_track: A
+    case_rank: 6
+    quote: "The digital transformation has impacted all the facets of fashion. First of all fashion communication and marketing, through the adoption of digital tools creates a fertile ground …"
+    chicago: "(Nobile 2021, 294)"
+  - id: 2
+    heading: Atractivo ≠ solo información
+    sentence: "Una opción sostenible que nadie desea es un fracaso de comunicación, no de ética sola."
+    case: "Caso: Selfridges Project Earth (rank 9 · Track A) — circularidad como deseo."
+    case_track: A
+    case_rank: 9
+    quote: "this is about communicators using their skills and budgets to make the more sustainable option the most attractive one…"
+    chicago: "(United Nations Environment Programme 2023, 49)"
+  - id: 3
+    heading: Las métricas son decisiones
+    sentence: "Cada KPI elige qué cuenta como éxito — y qué queda invisible."
+    case: "Caso: Levi’s (rank 8 · menciones) vs PayUp (rank 1 · Track C · USD/firmas)."
+    case_track: A_vs_C
+    case_rank: "8+1"
+    quote: "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption…"
+    chicago: "(United Nations Environment Programme 2023, 27)"
+  - id: 4
+    heading: Transparencia bajo presión de claims
+    sentence: "Si tu claim no aguanta evidencia, no es estrategia: es riesgo reputacional."
+    case: "Audita Levi’s (8) o Project Earth (9): ¿evidencia UNEP o solo sentimiento de marca?"
+    case_track: A
+    case_rank: "8,9"
+    quote: "Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in the EU at large were v…"
+    chicago: "(United Nations Environment Programme 2023, 26)"

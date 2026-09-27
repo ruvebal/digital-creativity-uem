@@ -221,14 +221,19 @@
     es: tracks/es/nuevos-medios-moda/index.md
     en: tracks/en/nuevos-medios-moda/index.md
   status:
-    es: scaffold
-    en: scaffold
+    es: scaffold-lessons-indexed
+    en: scaffold-lessons-indexed
   type: track
   duration: 'Online · Canvas 6 unidades + prueba'
   academic_year: '2026-27'
   modality: online
   teaching_language: es
-  source_note: 'Contrato operativo = temario Canvas (2026-09-22); guía PDF institucional pendiente de clonar.'
+  source_note: 'Guía oficial PDF REF 4d3415b1 (2026-27) + JSON cv/guides/2-nuevos-medios-rrss.json. Canvas U1–U6 = delivery spine mapping to CONTENIDOS; eval oficial online 50/10/20/20.'
+  evaluation_weights_official_online:
+    pruebas_virtuales: 50
+    caso_problema: 10
+    investigaciones_proyectos: 20
+    cuaderno_practicas: 20
   evaluation_weights_canvas:
     actividad_u2_estrategia: 10
     actividad_u3_campana: 10
@@ -236,6 +241,18 @@
     actividad_u6_emergentes: 10
     prueba_final: 30
   evaluation_points_total: 70
+  ects: 6
+  year: 3
+  semester: S5
+  module_type: Obligatoria
+  coordinating_professor: 'Alejandra de la Riva'
+  official_contents:
+    - 'Historia de Internet'
+    - 'Comunicación digital'
+    - 'Marketing y publicidad en nuevos medios.'
+    - 'Presente y futuro de la comunicación digital'
+    - 'Globalización y consumo interconectado'
+    - 'Creatividad aplicada a la comunicación social digital'
   sessions_list:
     - title: 'U1 Historia y evolución de los nuevos medios'
       slug: 'u1-historia-nuevos-medios'

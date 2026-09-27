@@ -1,0 +1,107 @@
+---
+description: Forge one Nuevos medios (Canvas U1–U6) unit into ES lesson (+ EN twin) bound to official guía CONTENIDOS
+globs: 'digital-creativity-pedagogy/**,docs/lessons/**/nuevos-medios*/**,docs/tracks/**/nuevos-medios*/**'
+alwaysApply: false
+---
+
+# UNIT FORGE — Nuevos medios (RRSS y plataformas virtuales)
+
+> Sibling to [`dc-unit-forge.mdc`](./dc-unit-forge.mdc). Same three-artefact shape
+> (B1/B2/B3), different contract: PDF REF `4d3415b1` + Canvas delivery spine +
+> online hour table. **Cold B1 prose:** `curriculum-forger` §5 STEP B prose →
+> [`lesson-scribe`](file:///Users/ruvebal/src/.cursor/skills/lesson-scribe/SKILL.md)
+> → Ollama `thessia-scholar-v3`. Never freehand.
+
+## Contract
+
+| Item | Source |
+| --- | --- |
+| CONTENIDOS (6 anchors) | `cv/guides/2-nuevos-medios-rrss.json` / PDF §4 |
+| Canvas U1–U6 | `docs/_data/tracks.yml` · `UNIT-PLAN-NUEVOS-MEDIOS.md` |
+| Hours (online) | 10 magistral · 20 clases virtuales síncronas · 8 resolución · 20 investigación · 14 MyLabs · 8 foro (+ residuals → 150) |
+| Eval (online) | 50 pruebas · 10 caso · 20 investigaciones · 20 cuaderno |
+| Competencies | CON4 · HAB5 · HAB12 · COMP2 · COMP8 |
+| `project_slug` | `profield-nuevos-medios-moda-2026-27` |
+| Campaign exemplars (canonical) | `~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md` |
+| Language | ES canonical lesson; EN twin for switch |
+
+## STEP A → D (raised floor — no bare scaffold)
+
+A **scaffold** lesson (frontmatter + stub B1) is not done. Done means CT/CD parity:
+
+1. Map unit to ≥1 CONTENIDOS anchor + competency codes + critical moment.  
+2. Run `curriculum-forger` STEP A (UbD, Bloom, CLT) via bridge
+   `~/src/.cursor/skills/curriculum-forger/references/institution-nm.md`.  
+3. Write `forge/unit-enrichment/U*/MAIN-IDEAS.yml` (≤ 6 ideas; slide sentences
+   human; Chicago or `studio_hypothesis`).  
+   **Campaign exemplars (binding):** before locking MAIN-IDEAS / Masterclass /
+   labs, open
+   [`~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md`](file:///Users/ruvebal/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md)
+   → run `20260925T200000Z` **`TEACHING-CAMPAIGN-LEDGER.md`** (ranked) +
+   `SUMMARY.md`. Attach **≥1 ranked campaign** per theoretical pod with its
+   **canonical URL**. Prefer ranks 1–12 for core pods. Prefer Ahmes rows in
+   `VERIFIED-CAMPAIGNS.md` (UNEP Playbook) only when the slide needs a vault
+   quote. Contested Zara/BDS cases (`CONTESTED` in the ledger) are seminar
+   material — never present as unlabelled “ethical” brand wins. Classify each
+   case as Track A (brand/designer), B (Spain–Ibero), or C (movement) — never
+   collapse the three.  
+4. Resolve Ahmes quotes with `semantic-quote` (never vector snippets).  
+   Campaign extracts from the Playbook use the same gate: blockquote + Chicago
+   `(United Nations Environment Programme 2023, p.)` + gated
+   `curriculum-internal` (`ahmes_coat` · `node_id` · `evaluator_safe`).  
+5. Emit full lesson ES under `docs/lessons/es/nuevos-medios-moda/<slug>/`.  
+6. **Cold B1** — one Thessia pass per Masterclass idea via `lesson-scribe`
+   (`thessia_generate.py`); six-axis cold review → amend → integrate.  
+7. B2 = Canvas activity brief; B3 = individual problem/quiz.  
+8. Ship Reveal deck at `docs/tracks/es/uem/2627-nm/<slug>/` (cover → analysis →
+   ≤6 masterclass → lab opener → 2 labs → outro; geometrical openers from
+   `assets/images/fractal-pass-track/`). Slideshow sentences never Thessia.
+   Masterclass slides carry a one-line **Caso:** under the human sentence when
+   a campaign exemplifies the pod (not a second invented quote).  
+9. Optional strategy/graph figure via `visual-forger` when the unit needs a
+   presence-system or timeline diagram (U2/U5).  
+10. Register `lessons.yml`; link lesson + deck from track page; write Thessia
+    performance receipt under `forge/`.  
+11. EN twin: structure + teaching-language notice only.
+
+## Real campaigns as theory pods (always)
+
+Theoretical claims (brainprint, presence system, power map, claims audit…)
+must be illustrated with **named, ranked campaigns** from Profield
+`fashion-exemplary-social-campaigns` (`TEACHING-CAMPAIGN-LEDGER.md`) — not
+generic “una marca X”. Refresh the bank from `CANONICAL.md` on every forge
+wave; when the operator adds internet research, merge into that field’s next
+pass and re-rank before treating new names as canonical.
+
+## Cite law — lessons only (fail-closed)
+
+**Profield does not need Ahmes.** Profield maps the field (passes, digests,
+keywords). It is discovery and routing. Do not block or rewrite Profield runs
+to require vault nodes.
+
+**Lessons do.** Every scholarly **quote** and Chicago citation that reaches
+student HTML must resolve to an Ahmes node you opened (`semantic-quote` /
+`ahmes query --cite` with `evaluator_safe=yes`), or stay `[BIBLIO-GAP]` /
+`OMITTED`. Never cite vector snippets as quotes.
+
+| Layer | Ahmes required? |
+| --- | --- |
+| Profield FieldSpec / pass1–3 / digest | **No** |
+| Lesson blockquotes + References + `PROVENANCE_LINE` | **Yes** |
+| Thessia cold B1 prose cadence | Quotes locked **before** Thessia; strip any cite/quote Thessia invents |
+
+If Thessia invents a quote, DOI, page, or author: **strip it**. Do not
+“normalize” a fake into a plausible extract. Prefer fewer quotes to invented ones.
+
+See [`forge/PROVENANCE-LAW.mdc`](./forge/PROVENANCE-LAW.mdc) and
+[`AGENTS.md`](../AGENTS.md).
+
+## Do not
+
+- Rename CONTENIDOS to Canvas or Profield NM titles.  
+- Publish unresolved Ahmes metadata.  
+- Call Thessia for slideshow sentences.  
+- Invent ECTS/weights (already closed in CV).  
+- Invent **quotes** or citations in lessons (Ahmes-only extracts).  
+- Demand Ahmes node IDs inside Profield pass replies.  
+- Stop at scaffold status after indexing empty stubs.

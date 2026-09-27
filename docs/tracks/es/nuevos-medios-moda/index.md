@@ -13,22 +13,21 @@ status: borrador
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-Estado (2026-09-22):
-- Idioma de docencia: ESPAÑOL (corrección respecto al brief inicial "English-only").
-- Modalidad: online — Canvas / Campus Virtual es el LMS de entrega y evaluación.
-- Estructura canónica = temario Canvas (6 unidades + prueba 30 ptos), no el spine Profield NM1–NM7.
-- El corpus Profield/Athanor (`profield-nuevos-medios-moda-2026-27`) alimenta evidencia;
-  el mapeo research→Canvas está en forge-enrichment/FORGE-SCHEDULE.md.
-- Gemelo EN: /tracks/en/nuevos-medios-moda/ — switch S./E. vía docs/_data/tracks.yml.
-- Ahmes NER+semantic: ver pipeline receipt (en curso / casi completo).
+Estado (2026-09-25):
+- Guía oficial: PDF REF 4d3415b1 · 2026-27 · JSON cv/guides/2-nuevos-medios-rrss.json (PDF-patched).
+- CV: digital-creativity-pedagogy/cv/uem-ruvebal-nuevos-medios-moda-cv.md · nm-cv-forge.mdc.
+- Idioma de docencia track: ESPAÑOL. Guía lists castellano/inglés. Modalidad online (M31).
+- CONTENIDOS oficiales (6 anclas PDF) ≠ títulos Canvas; Canvas = delivery spine.
+- Eval oficial online: 50 pruebas / 10 caso / 20 investigaciones / 20 cuaderno.
+- Canvas extract 70 pt (4×10+30) maps into those weights — confirm in LMS.
+- Corpus: profield-nuevos-medios-moda-2026-27 · cite Ahmes only.
 - No publicar rutas Ahmes, UUIDs ni [BIBLIO-GAP] en HTML estudiantil.
-- Lecciones planificadas (aún no forjadas): docs/lessons/{es,en}/nuevos-medios-moda/u1–u6. Switch de lección: docs/_data/lessons.
 -->
 {% endif %}
 
 ## Cómo aprobar este track
 
-**Estado:** andamiaje. Las reglas de entrega, rúbricas y fechas viven en **Canvas** (Campus Virtual). Esta web es el material docente de apoyo (temario, actividades, glosario, crítica), no sustituye al LMS.
+**Estado:** U1–U3 forjadas (Masterclass + deck Reveal); U4–U6 andamiaje. Las reglas de entrega, rúbricas y fechas viven en **Canvas** (Campus Virtual). Esta web es el material docente de apoyo (temario, actividades, glosario, crítica), no sustituye al LMS.
 
 Evaluación publicada en Canvas (suma 70 + 30):
 
@@ -56,15 +55,23 @@ Tres capas en cada unidad:
 
 ## Unidades (contrato Canvas)
 
-| U | Título Canvas | Temario (adjuntos Canvas) | Actividad Canvas | Idea central (esqueleto) | Evidencia / laguna |
-| --- | --- | --- | --- | --- | --- |
-| **1** | Historia y evolución de los nuevos medios | Historia de Internet y los medios digitales · Transformación de las redes sociales · Impacto de las plataformas virtuales en la comunicación | Recursos: glosario de términos clave | Internet y las plataformas reconfiguran la relación marca–consumidor; la historia no es nostalgia, es mapa de poder mediático. | Corpus moda/plataformas disponible; falta forjar temario + glosario ES. |
-| **2** | Estrategias de comunicación digital | Diseño de estrategias digitales · Herramientas y métricas · Posicionamiento de marcas en plataformas | **Tarea 10 ptos** — Diseño y análisis de estrategia digital para marca de moda | Una estrategia digital es un sistema de presencia, no un calendario de posts. | Buen encaje con playbook UNEP + estudios de plataforma; actividad aún sin ficha. |
-| **3** | Marketing y publicidad en nuevos medios | Estrategias de marketing en RRSS · Creación de campañas · Publicidad efectiva en plataformas | **Tarea 10 ptos** — Análisis crítico de una campaña de moda en RRSS | La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — no solo creatividad. | Abidin (visibilidad) + CDA fast fashion + influencers; ficha de actividad pendiente. |
-| **4** | Creatividad y contenido digital | Diseño de contenido creativo · Narrativa de marca / storytelling · Engagement | **Tarea 10 ptos** — Propuesta creativa de contenido para RRSS | El contenido alineado a marca exige oficio narrativo y criterio de engagement sin vaciar la crítica. | Capa creativa del corpus más fina; anclar a casos de moda verificados. |
-| **5** | Herramientas digitales y análisis de datos | Herramientas de análisis · Big data en comunicación · Medición y optimización | Actividades (sin puntuación listada) | Los datos no “hablan solos”: cada métrica es una decisión sobre qué cuenta como éxito. | Métricas/plataforma en corpus; falta temario de herramientas + ética de medición. |
-| **6** | Futuro de la comunicación digital | IA en comunicación digital · Realidad aumentada en marketing · Futuro de plataformas interactivas | **Tarea 10 ptos** — Exploración de tecnologías emergentes aplicadas a la moda | IA y R.A. cambian la escena de moda digital; autenticidad, cuerpo y divulgación son problemas de estudio. | Fuentes sobre influencers virtuales e IA presentes; al menos una referencia bibliográfica aún abierta. |
-| **—** | Prueba de conocimientos | — | **Examen 30 ptos** | Cierra el arco U1–U6. | Banco de ítems no forjado. |
+| U | Lección | Idea maestra | Canvas |
+| --- | --- | --- | --- |
+| **1** | [Historia y evolución de los nuevos medios]({{ '/lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | Internet y las plataformas reconfiguran la relación marca–consumidor; la historia es un mapa de poder mediático. | Glosario / recursos |
+| **2** | [Estrategias de comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | Una estrategia digital es un sistema de presencia, no un calendario de posts. | **Tarea 10 ptos** |
+| **3** | [Marketing y publicidad en nuevos medios]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — a veces sin mostrar la prenda. | **Tarea 10 ptos** |
+| **4** | [Creatividad y contenido digital]({{ '/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | El contenido alineado a marca exige oficio narrativo y criterio de engagement. | **Tarea 10 ptos** |
+| **5** | [Herramientas digitales y análisis de datos]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | Cada métrica es una decisión sobre qué cuenta como éxito. | Actividades (sin peso listado) |
+| **6** | [Futuro de la comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | IA y R.A. cambian la escena; autenticidad y divulgación son problemas de estudio. | **Tarea 10 ptos** |
+| **—** | Prueba de conocimientos | Cierra el arco U1–U6. | **Examen 30 ptos** |
+
+**Estado U1–U3:** forjadas (Masterclass + deck Reveal · campañas del ledger). U4–U6 aún andamiaje.
+
+| Unidad | Deck |
+| --- | --- |
+| U1 | [Abrir diapositivas]({{ '/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/' | relative_url }}) |
+| U2 | [Abrir diapositivas]({{ '/tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/' | relative_url }}) |
+| U3 | [Abrir diapositivas]({{ '/tracks/es/uem/2627-nm/u3-marketing-publicidad/' | relative_url }}) |
 
 ## Resultados de aprendizaje (provisionales, ES)
 
@@ -92,7 +99,9 @@ Modalidad online: B1 = sesión asíncrona / foro o vídeo-concepto; B2 = entrega
 
 ## Contenidos oficiales
 
-Contrato operativo actual: **temario Canvas** (extracto 2026-09-22). Guía PDF institucional: pendiente de clonar en el árbol de pedagogía. Hasta entonces, Canvas gana sobre cualquier spine de investigación Profield en títulos de unidad y pesos.
+Anclas de la guía PDF (REF `4d3415b1`, 2026-27): Historia de Internet · Comunicación digital · Marketing y publicidad en nuevos medios · Presente y futuro de la comunicación digital · Globalización y consumo interconectado · Creatividad aplicada a la comunicación social digital.
+
+Las **seis unidades Canvas** de arriba son el andamiaje de entrega en Campus Virtual; cada una mapea a una o más anclas (ver unit plan de pedagogía). Canvas no sustituye los CONTENIDOS oficiales ni los pesos de evaluación de la guía (online: 50 % pruebas · 10 % caso · 20 % investigaciones · 20 % cuaderno).
 
 ## Arco
 

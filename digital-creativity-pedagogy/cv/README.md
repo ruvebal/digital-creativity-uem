@@ -1,20 +1,27 @@
-# CV & official guides — Creación Digital
+# CV & official guides — Creación Digital + Nuevos medios
 
-Institutional guías (PDF-patched clones) and CV drafts for Creación Digital I–II.
+Institutional guías (PDF-patched clones) and CV drafts for Creación Digital I–II, plus
+the **Nuevos medios** (RRSS / plataformas) track CV forged from Canvas until its PDF lands.
 
-> **Canonical language:** English CVs (`uem-ruvebal-digital-creativity-*-cv.md`) are the maintained instructor drafts as of 2026-08-29. Spanish mirrors (`uem-ruvebal-creacion-digital-*-cv.md`) remain for institutional reference.
+> **Canonical language (CD):** English CVs (`uem-ruvebal-digital-creativity-*-cv.md`) are the maintained instructor drafts as of 2026-08-29. Spanish mirrors (`uem-ruvebal-creacion-digital-*-cv.md`) remain for institutional reference.
+>
+> **Canonical language (Nuevos medios):** Spanish CV (`uem-ruvebal-nuevos-medios-moda-cv.md`) — teaching language is ES; Canvas is the operational contract until the guía PDF is cloned.
 
 | Path | Role |
 | ---- | ---- |
 | [`guides/1-creacion-digital-i.json`](./guides/1-creacion-digital-i.json) | **Mandatory** official structure — CD I (**2026-27** PDF, patched 2026-08-14) |
 | [`guides/3-creacion-digital-ii.json`](./guides/3-creacion-digital-ii.json) | **Mandatory** official structure — CD II (**2026-27** PDF, checked 2026-08-23) |
+| [`guides/2-nuevos-medios-rrss.json`](./guides/2-nuevos-medios-rrss.json) | **Mandatory** official structure — Nuevos medios (**2026-27** PDF REF `4d3415b1`, patched 2026-09-25) |
 | [`../oficial-guia-framework.mdc`](../oficial-guia-framework.mdc) | How every pedagogical action must respect those fields |
 | [`../dc-cv-forge.mdc`](../dc-cv-forge.mdc) | Prompt to author `uem-ruvebal-digital-creativity-*-cv.md` |
+| [`../nm-cv-forge.mdc`](../nm-cv-forge.mdc) | Prompt to author Nuevos medios CV (Canvas → PDF) |
 | [`uem-ruvebal-digital-creativity-i-cv.md`](./uem-ruvebal-digital-creativity-i-cv.md) | **Canonical** instructor CV — CD I (hours/eval close; SAFE bib seeded) |
 | [`uem-ruvebal-digital-creativity-ii-cv.md`](./uem-ruvebal-digital-creativity-ii-cv.md) | **Canonical** instructor CV — CD II |
 | [`uem-ruvebal-creacion-digital-i-cv.md`](./uem-ruvebal-creacion-digital-i-cv.md) | Spanish mirror — CD I |
 | [`uem-ruvebal-creacion-digital-ii-cv.md`](./uem-ruvebal-creacion-digital-ii-cv.md) | Spanish mirror — CD II |
+| [`uem-ruvebal-nuevos-medios-moda-cv.md`](./uem-ruvebal-nuevos-medios-moda-cv.md) | **Canonical** instructor CV — Nuevos medios (Canvas; PDF pending) |
 | [`UNIT-PLAN.md`](./UNIT-PLAN.md) | Unit IDs I.1–I.9 / II.1–II.6 bound to CONTENIDOS |
+| [`UNIT-PLAN-NUEVOS-MEDIOS.md`](./UNIT-PLAN-NUEVOS-MEDIOS.md) | Canvas U1–U6 + examen bound to research evidence map |
 
 ## Provenance
 

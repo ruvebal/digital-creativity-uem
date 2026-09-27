@@ -210,3 +210,107 @@
     es: scaffold
     en: scaffold
   type: lesson
+
+# Nuevos medios — RRSS y plataformas virtuales (moda)
+- slug: u1-historia-nuevos-medios
+  title:
+    es: 'U1 · Historia y evolución de los nuevos medios'
+    en: 'U1 · History and evolution of new media'
+  path:
+    es: /lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/
+    en: /lessons/en/nuevos-medios-moda/u1-historia-nuevos-medios/
+  file:
+    es: lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/index.md
+    en: lessons/en/nuevos-medios-moda/u1-historia-nuevos-medios/index.md
+  status:
+    es: forged
+    en: forged-twin
+  type: lesson
+  track: nuevos-medios-moda
+  unit_id: U1
+  deck:
+    es: /tracks/es/uem/2627-nm/u1-historia-nuevos-medios/
+- slug: u2-estrategias-comunicacion-digital
+  title:
+    es: 'U2 · Estrategias de comunicación digital'
+    en: 'U2 · Digital communication strategies'
+  path:
+    es: /lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/
+    en: /lessons/en/nuevos-medios-moda/u2-estrategias-comunicacion-digital/
+  file:
+    es: lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/index.md
+    en: lessons/en/nuevos-medios-moda/u2-estrategias-comunicacion-digital/index.md
+  status:
+    es: forged
+    en: forged-twin
+  type: lesson
+  track: nuevos-medios-moda
+  unit_id: U2
+  deck:
+    es: /tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/
+- slug: u3-marketing-publicidad
+  title:
+    es: 'U3 · Marketing y publicidad en nuevos medios'
+    en: 'U3 · Marketing and advertising in new media'
+  path:
+    es: /lessons/es/nuevos-medios-moda/u3-marketing-publicidad/
+    en: /lessons/en/nuevos-medios-moda/u3-marketing-publicidad/
+  file:
+    es: lessons/es/nuevos-medios-moda/u3-marketing-publicidad/index.md
+    en: lessons/en/nuevos-medios-moda/u3-marketing-publicidad/index.md
+  status:
+    es: forged
+    en: forged-twin
+  type: lesson
+  track: nuevos-medios-moda
+  unit_id: U3
+  deck:
+    es: /tracks/es/uem/2627-nm/u3-marketing-publicidad/
+- slug: u4-creatividad-contenido
+  title:
+    es: 'U4 · Creatividad y contenido digital'
+    en: 'U4 · Creativity and digital content'
+  path:
+    es: /lessons/es/nuevos-medios-moda/u4-creatividad-contenido/
+    en: /lessons/en/nuevos-medios-moda/u4-creatividad-contenido/
+  file:
+    es: lessons/es/nuevos-medios-moda/u4-creatividad-contenido/index.md
+    en: lessons/en/nuevos-medios-moda/u4-creatividad-contenido/index.md
+  status:
+    es: scaffold
+    en: scaffold
+  type: lesson
+  track: nuevos-medios-moda
+  unit_id: U4
+- slug: u5-herramientas-datos
+  title:
+    es: 'U5 · Herramientas digitales y análisis de datos'
+    en: 'U5 · Digital tools and data analysis'
+  path:
+    es: /lessons/es/nuevos-medios-moda/u5-herramientas-datos/
+    en: /lessons/en/nuevos-medios-moda/u5-herramientas-datos/
+  file:
+    es: lessons/es/nuevos-medios-moda/u5-herramientas-datos/index.md
+    en: lessons/en/nuevos-medios-moda/u5-herramientas-datos/index.md
+  status:
+    es: scaffold
+    en: scaffold
+  type: lesson
+  track: nuevos-medios-moda
+  unit_id: U5
+- slug: u6-futuro-comunicacion-digital
+  title:
+    es: 'U6 · Futuro de la comunicación digital'
+    en: 'U6 · Future of digital communication'
+  path:
+    es: /lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/
+    en: /lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/
+  file:
+    es: lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/index.md
+    en: lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/index.md
+  status:
+    es: scaffold
+    en: scaffold
+  type: lesson
+  track: nuevos-medios-moda
+  unit_id: U6

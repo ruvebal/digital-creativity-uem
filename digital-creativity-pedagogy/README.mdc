@@ -15,6 +15,7 @@ Mirror of the Web Atelier `frontend-pedagogy/` **structure**, not a copy of its 
 | [`cv/guides/*.json`](./cv/guides/) | **Mandatory** official UEM guía scrapes (CD I · CD II) |
 | [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) | How hours, evaluation, competencies, CONTENIDOS bind all pedagogy |
 | [`dc-cv-forge.mdc`](./dc-cv-forge.mdc) | Forge instructor CV / guía curricular from JSON |
+| [`nm-cv-forge.mdc`](./nm-cv-forge.mdc) | Forge Nuevos medios CV (Canvas → PDF when cloned) |
 | [`dc-unit-forge.mdc`](./dc-unit-forge.mdc) | One unit → lesson + studio + exercises (hours = guía, not FE) |
 | [`forge/SESSION-PROMPT-FORGE.mdc`](./forge/SESSION-PROMPT-FORGE.mdc) | Reusable 120-minute classroom-session forge with media and evidence gates |
 | [`forge/SESSION-PROMPTS-README.md`](./forge/SESSION-PROMPTS-README.md) | Fifteen filled CD I / CD II instructor session prompts |

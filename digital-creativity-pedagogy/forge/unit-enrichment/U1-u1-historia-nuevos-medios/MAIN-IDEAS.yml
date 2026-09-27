@@ -1,0 +1,42 @@
+# Student slideshow payload — ≤ 6 main ideas · U1
+# Campaign bank: Profield fashion-exemplary-social-campaigns CANONICAL → 20260925T200000Z
+unit_id: U1
+title_es: U1 · Historia y evolución de los nuevos medios
+max_ideas: 6
+note: "2026-09-26 refactor — ranks + tracks from TEACHING-CAMPAIGN-LEDGER; PayUp=C; Benetton named in bank"
+voice: late-secondary / first-year clear Spanish
+teaching_language: es
+campaign_bank_ref: "~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md"
+ideas:
+  - id: 1
+    heading: La historia es un mapa de poder
+    sentence: "No memorices fechas: dibuja quién gana visibilidad cuando cambia el medio."
+    case: "Caso: PayUp / #PayUp (Remake, 2020 · rank 1 · Track C) — derechos laborales, no anuncio de producto."
+    case_track: C
+    case_rank: 1
+    quote: "Throughout history, technological advancements have shaped the nature of fashion: the first industrial revolution contributed to the mechanisation of fashion manufacture by exploit…"
+    chicago: "(Nobile 2021, 294)"
+  - id: 2
+    heading: La transformación digital toca toda la moda
+    sentence: "Comunicación y marketing digitales no son un anexo: cambian el negocio y la relación con el público."
+    case: "Caso: Patagonia Action Works (rank 6 · Track A) — presencia = peticiones, voluntariado y donaciones."
+    case_track: A
+    case_rank: 6
+    quote: "The digital transformation has impacted all the facets of fashion. First of all fashion communication and marketing, through the adoption of digital tools creates a fertile ground …"
+    chicago: "(Nobile 2021, 294)"
+  - id: 3
+    heading: El medio reescribe la relación marca–público
+    sentence: "Cada plataforma nueva no solo añade un canal: cambia quién habla, quién escucha y quién mide."
+    case: "Caso: Levi’s Buy Better, Wear Longer (rank 8 · Track A) — brainprint / consumo intencional."
+    case_track: A
+    case_rank: 8
+    quote: "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption…"
+    chicago: "(United Nations Environment Programme 2023, 27)"
+  - id: 4
+    heading: Glosario activo, no lista muerta
+    sentence: "Define cada término con un ejemplo de marca viva — o no lo has aprendido."
+    case: "Banco vivo (ranks): PayUp(1) · Benetton/COLORS(5) · Action Works(6) · Levi’s(8) · Project Earth(9)."
+    case_track: mixed
+    case_rank: "1,5,6,8,9"
+    chicago: null
+    stance: studio_hypothesis

@@ -1,0 +1,82 @@
+---
+description: Forge UEM guía curricular / CV draft for Nuevos medios (RRSS y plataformas virtuales · moda)
+globs: 'digital-creativity-pedagogy/cv/**nuevos-medios**,digital-creativity-pedagogy/cv/guides/2-nuevos-medios*'
+alwaysApply: false
+---
+
+# CV FORGE — Nuevos medios: RRSS y plataformas virtuales (UEM)
+
+> Output: markdown guía curricular drafts under `digital-creativity-pedagogy/cv/`.
+> **Authority:** official PDF first, reconciled against
+> [`cv/guides/2-nuevos-medios-rrss.json`](./cv/guides/2-nuevos-medios-rrss.json).
+> PDF: `26-27/guias_docentes/2026-27_Nuevos_medios_RRSS.pdf` · REF `4d3415b1` ·
+> URL <https://universidadeuropea.es/myfiles/pr/9729001302.pdf>.
+> Research: `~/src/profield/docs/NUEVOS-MEDIOS-MODA-CURRICULUM-FORGER-BRIEF.md`
+> · run `~/src/profield/runs/nuevos-medios-moda-2026-27/20260922T010000Z/`
+> · `project_slug=profield-nuevos-medios-moda-2026-27`.
+> Campaign exemplars (domain tier): 
+> `~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md`
+> → `20260925T200000Z/TEACHING-CAMPAIGN-LEDGER.md` (ranked · URL-verified).
+> Classical-didactics: `curriculum-forger` (`~/src/.cursor/skills/curriculum-forger/SKILL.md`).
+
+---
+
+## INPUT
+
+- COURSE: `Nuevos medios: RRSS y plataformas virtuales`
+- TRACK_SLUG: `nuevos-medios-moda`
+- MODALITY: **online** (default for this track’s horario M31) | `presencial` if forging that table
+- TEACHING_LANGUAGE: **es** for student track pages (guía lists castellano / inglés)
+- GUIDE_PDF: `~/projects/ruvebal/scholar/universidadeuropea/26-27/guias_docentes/2026-27_Nuevos_medios_RRSS.pdf`
+- GUIDE_JSON: `cv/guides/2-nuevos-medios-rrss.json`
+- CANVAS_CONTRACT: `docs/_data/tracks.yml` → delivery units only
+- OUTPUT: `cv/uem-ruvebal-nuevos-medios-moda-cv.md`
+- UNIT_PLAN: `cv/UNIT-PLAN-NUEVOS-MEDIOS.md`
+- `project_slug`: `profield-nuevos-medios-moda-2026-27`
+
+## STEP A — LOAD THE CONTRACT (PDF first)
+
+1. Text-extract `GUIDE_PDF`. Record title, academic year, local path, page count, `REF`,
+   `source_url`. Current bible: **2026-27**, REF `4d3415b1`, 6 pages.
+2. Reconcile every identity / presentation / competency / RA bullet / contents /
+   methodology / formative / evaluation row against the PDF. Do not silently normalize.
+   Known scrape defects are listed in JSON `_patch_notes` — re-check on re-sync.
+3. CONTENIDOS = the **six** PDF anchors (never the Canvas module titles as official names;
+   never Profield NM1–NM7 as official names).
+4. Competencies: CON4 · HAB5 · HAB12 · COMP2 · COMP8. RA bullets from PDF §3.
+5. Formative for chosen modality must sum **150**. Evaluation must sum **100%**.
+6. Ground research claims via Profield digest + Athanor discovery → Ahmes `--cite`
+   `evaluator_safe=yes` only. Official PDF §8 bibliography is institutional (not Ahmes).
+7. Three layers per unit: **estrategia · crítica · estudio**.
+
+## STEP B — EMIT CV SECTIONS
+
+1. Identificación  
+2. Presentación — PDF §2 verbatim (light pedagogical note allowed after)  
+3. Competencias — full list  
+4. Resultados de aprendizaje — PDF §3 bullets  
+5. Contenidos — six anchors + Canvas map table  
+6. Metodologías  
+7. Actividades formativas — full hour table; state sum 150  
+8. Sistema de evaluación — official %; optional Canvas operational map  
+9. Nota pedagógica / investigación  
+10. Bibliografía — § oficial PDF + § Ahmes SAFE + coverage table  
+
+## STEP C — VERIFY
+
+- [ ] PDF provenance recorded (path, REF, pages, year, URL)
+- [ ] Hour sum = 150 for chosen modality  
+- [ ] Evaluation weights = PDF = JSON (sum 100%)
+- [ ] Every Canvas unit maps to ≥1 CONTENIDOS anchor  
+- [ ] Bibliography: official §8 present; research lines `evaluator_safe=yes` only  
+- [ ] Every CONTENIDOS anchor cited **or** explicitly listed as unsupported  
+- [ ] Competency codes ⊆ JSON/PDF list  
+- [ ] No FE 10/30/14 · no VTON required deliverable  
+- [ ] Canvas / Profield spines do not overwrite official titles or weights  
+
+## Non-negotiables
+
+1. PDF beats JSON beats Canvas beats Profield research spine.  
+2. Learning-outcome bullets come from PDF §3. Do not invent extras as “official”.  
+3. L2 research is additive — never a rewrite of L1 institutional tables.  
+4. Publication firewall: Ahmes/Athanor IDs stay in pedagogy CV / gated comments.

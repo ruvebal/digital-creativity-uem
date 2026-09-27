@@ -1,0 +1,116 @@
+---
+layout: null
+---
+{
+  "unit_label": "Nuevos medios · U3",
+  "final_event_theme": "¿Qué métrica eliges — impresiones Benetton o firmas/USD PayUp — y por qué?",
+  "media_selection": {
+    "unit_id": "U3",
+    "project_id": "nm",
+    "collection": "unit-accepted",
+    "strategy": "geometrical-first",
+    "description": "NM decks: geometrical openers; campaign Caso: from MAIN-IDEAS / ledger ranks."
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "diagram",
+      "heading": "U3 · Marketing y publicidad en nuevos medios",
+      "sentence": "La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — y a veces vende posición moral sin mostrar la prenda.",
+      "prompt": "CONTENIDOS: Marketing y publicidad en nuevos medios.",
+      "quote": "La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — y a veces vende posición moral sin…",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "nuevos-medios",
+          "u3"
+        ]
+      }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-01-structure-5218b595b4fa.svg",
+      "heading": "Análisis · lenguaje / medio / soporte",
+      "sentence": "Nombra el lenguaje, el medio y el soporte antes de opinar sobre la marca.",
+      "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "La publicidad puede borrar la prenda",
+      "sentence": "Si el anuncio no muestra la ropa, ¿qué está vendiendo realmente — producto o posición moral?",
+      "prompt": "Caso: United Colors / COLORS (Benetton–Toscani) — shockvertising y revista de marca (rank 5).",
+      "quote": "Si el anuncio no muestra la ropa, ¿qué está vendiendo realmente — producto o posición moral?",
+      "quote_origin": "tao_invented"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Shock ≠ prueba de impacto social",
+      "sentence": "La controversia mide atención; no demuestra salarios pagados ni emisiones bajadas.",
+      "prompt": "Caso: Benetton (rank 5) vs PayUp (rank 1) — debate vs USD/firmas.",
+      "quote": "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 27)",
+        "href": "/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/#referencias"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "El green claim es una apuesta reputacional",
+      "sentence": "Si tu claim no aguanta evidencia, no es marketing inteligente: es deuda de confianza.",
+      "prompt": "Caso: Levi’s Buy Better, Wear Longer (rank 8) — suficiencia vs incentivos de venta.",
+      "quote": "Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in…",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 26)",
+        "href": "/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/#referencias"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Presionar la marca no es ser la marca",
+      "sentence": "Ropa Limpia en la junta no es un purpose film de Inditex: es conflicto mediático organizado.",
+      "prompt": "Caso: SETEM / Ropa Limpia × Inditex AGM (rank 7) — Track B/C.",
+      "quote": "Ropa Limpia en la junta no es un purpose film de Inditex: es conflicto mediático organizado.",
+      "quote_origin": "tao_invented"
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-04-practice-4a190e098ca6.svg",
+      "heading": "Laboratorio",
+      "sentence": "Dos ejercicios. Todo lo que produzcas entra en tu índice de portfolio / Canvas.",
+      "caption": "Geometrical · uem-pass-04-practice.svg#4a190e098ca6"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Ejercicio 1",
+      "sentence": "Elige ranks 5, 8, 1 o 7: Track A/B/C + URL canónica del ledger + métrica vs métrica exigida.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Guarda el boceto / análisis en Canvas."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Ejercicio 2",
+      "sentence": "En dos frases: ¿por qué PayUp y Benetton no comparten la misma rúbrica de «campaña ética»?",
+      "portfolio_bound": true,
+      "portfolio_trace": "Guarda la ficha en Canvas."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
+      "heading": "Para llevar",
+      "sentence": "¿Qué métrica eliges — impresiones Benetton o firmas/USD PayUp — y por qué?",
+      "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79"
+    }
+  ]
+}

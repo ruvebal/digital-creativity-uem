@@ -1,0 +1,197 @@
+{
+  "subject_name": "Nuevos medios: RRSS y plataformas virtuales",
+  "official_title_name": "Grado en Comunicación y Gestión de Moda",
+  "school_or_faculty": "Facultad de Diseño y Tecnologías Creativas",
+  "year": 3,
+  "ects": 6.0,
+  "module_type": "Obligatoria",
+  "languages": [
+    "castellano",
+    "inglés"
+  ],
+  "modality": "presencial/online",
+  "semester": "S5",
+  "academic_year": "2026-27",
+  "coordinating_professor": "Alejandra de la Riva",
+  "presentation": "La materia aborda el estudio de las redes sociales y plataformas virtuales como nuevos medios de comunicación en el ámbito de la moda. Se analizan estrategias comerciales y de comunicación digital utilizadas por empresas y mercados, así como tendencias y herramientas para optimizar marcas. Los estudiantes desarrollan habilidades para realizar campañas físicas y digitales, planificar contenidos editoriales y experimentar con nuevas formas publicitarias. Además, se exploran la historia de Internet, el marketing y la publicidad en nuevos medios, la globalización y el consumo interconectado, junto con la creatividad aplicada a la comunicación social digital.",
+  "competencies": [
+    "CON4. Identificar las diversas estrategias comerciales y de comunicación social digital utilizadas por empresas y mercados de moda.",
+    "HAB5. Realizar campañas físicas y digitales de moda.",
+    "HAB12. Planificar el contenido editorial de una publicación de moda",
+    "COMP2 Capacidad para establecer criterios y estrategias de comunicación de marcas de moda con el propósito de mejorar los resultados en la empresa.",
+    "COMP8 Capacidad para manejar herramientas digitales de representación gráfica o audiovisual en la comunicación de ideas o proyectos de moda, creando y mejorando la imagen y la marca empresarial."
+  ],
+  "learning_outcomes": [
+    "Identificar las tendencias en comunicación social digital.",
+    "Reconocer las principales herramientas de comunicación digital para la optimización de una marca de moda.",
+    "Utilizar herramientas del marketing y difusión digital de moda: buscadores, plataformas, mobile, aplicaciones, e-commerce, social commerce y redes sociales.",
+    "Diseñar estrategias de crecimiento comercial desde el uso profesional de los nuevos medios.",
+    "Experimentar con nuevas formas publicitarias.",
+    "Manejar profesionalmente las principales RRSS y plataformas virtuales de comunicación."
+  ],
+  "contents": [
+    "Historia de Internet",
+    "Comunicación digital",
+    "Marketing y publicidad en nuevos medios.",
+    "Presente y futuro de la comunicación digital",
+    "Globalización y consumo interconectado",
+    "Creatividad aplicada a la comunicación social digital"
+  ],
+  "methodologies": {
+    "General": [
+      "Clase magistral",
+      "Método de caso",
+      "Aprendizaje basado en problemas",
+      "Aprendizaje basado en proyectos",
+      "Aprendizaje basado en enseñanzas de taller/laboratorio",
+      "Entornos de simulación"
+    ]
+  },
+  "formative_activities": {
+    "Modalidad Presencial": [
+      {
+        "name": "Clases magistrales",
+        "hours": 10.0
+      },
+      {
+        "name": "Seminarios de aplicación práctica",
+        "hours": 20.0
+      },
+      {
+        "name": "Resolución de problemas",
+        "hours": 8.0
+      },
+      {
+        "name": "Investigaciones y proyectos",
+        "hours": 20.0
+      },
+      {
+        "name": "Actividades en talleres y laboratorios",
+        "hours": 14.0
+      },
+      {
+        "name": "Trabajo autónomo",
+        "hours": 56.0
+      },
+      {
+        "name": "Debates y coloquios",
+        "hours": 8.0
+      },
+      {
+        "name": "Tutoría",
+        "hours": 12.0
+      },
+      {
+        "name": "Pruebas de evaluación presenciales",
+        "hours": 2.0
+      }
+    ],
+    "Modalidad Online": [
+      {
+        "name": "Clases magistrales",
+        "hours": 10.0
+      },
+      {
+        "name": "Clases virtuales síncronas",
+        "hours": 20.0
+      },
+      {
+        "name": "Resolución de Problemas",
+        "hours": 8.0
+      },
+      {
+        "name": "Investigación y proyectos",
+        "hours": 20.0
+      },
+      {
+        "name": "Actividades síncronas en talleres/ laboratorios virtuales (MyLabs - entornos de simulación)",
+        "hours": 14.0
+      },
+      {
+        "name": "Estudios de contenidos y documentación",
+        "hours": 56.0
+      },
+      {
+        "name": "Foro Virtual",
+        "hours": 8.0
+      },
+      {
+        "name": "Tutoría académica virtual síncrona",
+        "hours": 12.0
+      },
+      {
+        "name": "Pruebas de evaluación virtuales",
+        "hours": 2.0
+      }
+    ]
+  },
+  "evaluation": {
+    "Modalidad presencial": [
+      {
+        "name": "Pruebas de evaluación presenciales",
+        "weight_percent": 50.0
+      },
+      {
+        "name": "Caso problema",
+        "weight_percent": 10.0
+      },
+      {
+        "name": "Investigaciones y proyectos",
+        "weight_percent": 20.0
+      },
+      {
+        "name": "Cuaderno de prácticas de laboratorio/taller",
+        "weight_percent": 20.0
+      }
+    ],
+    "Modalidad online": [
+      {
+        "name": "Pruebas de evaluación virtuales",
+        "weight_percent": 50.0
+      },
+      {
+        "name": "Caso/problema",
+        "weight_percent": 10.0
+      },
+      {
+        "name": "Investigaciones y proyectos",
+        "weight_percent": 20.0
+      },
+      {
+        "name": "Cuaderno de prácticas de laboratorio/taller",
+        "weight_percent": 20.0
+      }
+    ]
+  },
+  "bibliography_official": [
+    "Chaffey, D., y Ellis-Chadwick, F. (2019). Digital Marketing: Strategy, Implementation and Practice (7.ª ed.). Pearson.",
+    "Jenkins, H. (2008). Convergence Culture: La cultura de la convergencia de los medios de comunicación. Paidós.",
+    "Kaplan, A. M., y Haenlein, M. (2010). Users of the World, Unite! The Challenges and Opportunities of Social Media. Business Horizons.",
+    "Kotler, P., Kartajaya, H., y Setiawan, I. (2017). Marketing 4.0: Moving from Traditional to Digital. Wiley.",
+    "Ryan, D. (2016). Understanding Digital Marketing: Marketing Strategies for Engaging the Digital Generation (4.ª ed.). Kogan Page.",
+    "Scolari, C. A. (2013). Narrativas transmedia: Cuando todos los medios cuentan. Deusto.",
+    "Tuten, T. L., y Solomon, M. R. (2020). Social Media Marketing (4.ª ed.). Sage."
+  ],
+  "source_url": "https://universidadeuropea.es/myfiles/pr/9729001302.pdf",
+  "_patch_notes": {
+    "patched": "2026-09-25",
+    "pdf_local": "26-27/guias_docentes/2026-27_Nuevos_medios_RRSS.pdf",
+    "pdf_ref": "4d3415b1",
+    "pdf_pages": 6,
+    "upstream_scrape": "unicrawler/output/guides/2-nuevos-medios-rrss.json",
+    "pdf_wins_over_scrape": [
+      "academic_year 2025-2026 → 2026-27",
+      "school_or_faculty Escuela de Arquitectura… → Facultad de Diseño y Tecnologías Creativas",
+      "module_type Básico → Obligatoria",
+      "languages Castellano-only → castellano / inglés",
+      "coordinating_professor null → Alejandra de la Riva",
+      "presentation replaced with PDF §2 verbatim",
+      "learning_outcomes filled from PDF §3 bullets (scrape had [])",
+      "contents split last two anchors (scrape concatenated Globalización + Creatividad)",
+      "contents typed as array (was bullet blob)",
+      "presencial evaluation Informes y escritos → Cuaderno de prácticas (PDF)",
+      "online evaluation labels/order aligned to PDF (Pruebas virtuales 50 / Caso 10 / Investigaciones 20 / Cuaderno 20)",
+      "online formative last row Pruebas virtuales (not presenciales)"
+    ]
+  }
+}

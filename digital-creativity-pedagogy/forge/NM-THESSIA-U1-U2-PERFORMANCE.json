@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-25",
+  "units": [
+    "U1",
+    "U2"
+  ],
+  "model": "thessia-scholar-v3",
+  "results": [
+    {
+      "unit": "U1",
+      "idea": 1,
+      "record": "2026-09-25-0d76e632-nm-u1-idea1",
+      "exit_code": 2,
+      "rejected": true,
+      "integrated": "La historia de la moda no es una línea recta; cada tecnología que aparece cambia quién tiene el poder para decir qué se lleva y cuándo: primero fue la industria del algodón en las fábricas inglesas ([Nobile et al., 2021]), luego fueron los catálogos por correo con fotos, después televisión... Cada vez menos personas deciden lo \"de tendencia\" a nivel global porque un pequeño grupo controlaba esos medios masivos.  ¿Pero hoy? Si todos pueden publicar contenido visualmente sofisticado sin costo prácticamente cero (Instagram) o crear colecciones virtuales que solo existen como archivos de datos (.glb), entonces el mapa político cambia drásticamente: la centralización del poder mediático se fractura en miles y millones de creadores microindependientes —pero eso no significa necesariamente mayor equidad ni justicia social; sólo una nueva lógica de visibilidad condicionada por algoritmos opacos ([Nobile et al., 2021], pág.  Así es cómo las revoluciones tecnológicas reconfiguran relaciones, pero nunca eliminan estructuras jerárquicas porque los medios siempre son dispositivos políticos que amplifican a algunos más fuerte o silencian otros sistemáticamente (siempre hay un \"otro\" para el capitalismo): la moda como comunicación sigue siendo poder concentrado bajo capa digital —eso sí cambia bastante rápido y constantemente en su forma exacta: lo único constante del cambio permanente es... bueno, eso mismo; no podemos prever dónde terminará esto mañana ni cuál será nuestra posición de clase dentro de esa evolución.",
+      "scores": {
+        "Sentence-role fidelity": 2,
+        "Voice": 4,
+        "Concreteness": 4,
+        "Citation shape": 4,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 2
+      },
+      "amendments": [],
+      "raw_len": 1527,
+      "mean_score": 3.3333333333333335
+    },
+    {
+      "unit": "U1",
+      "idea": 2,
+      "record": "2026-09-25-212440f3-nm-u1-idea2",
+      "exit_code": 2,
+      "rejected": true,
+      "integrated": "En la moda digital actual el marketing y comunicación no son un anexo técnico sino que transforman las relaciones del negocio con sus públicos ([Nobile et al., 2021](https://doi.org/10.5860/phm-digmod)). La evolución de plataformas como Instagram desde mera red social hasta lugar donde compramos sin salir ni siquiera desplazarnos a una tienda física es prueba fehaciente: los consumidores ya viven su experiencia en ese entorno virtual, lo cual implica más que solo cambios técnicos (Santana & Gómez-Borja, [2019]). En qué medida la relación marca-público ha cambiado y se han reconfigurados las estrategias comunicativas del sector para adaptarse al nuevo contexto digital? Esta pregunta abre el camino hacia un análisis crítico sobre cómo la moda utiliza estas herramientas digitales no sólo como canales de comunicación sino también como espacios donde construyen identidad e interacción con sus públicos.",
+      "scores": {
+        "Sentence-role fidelity": 4,
+        "Voice": 4,
+        "Concreteness": 4,
+        "Citation shape": 4,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 2
+      },
+      "amendments": [],
+      "raw_len": 910,
+      "mean_score": 3.6666666666666665
+    },
+    {
+      "unit": "U1",
+      "idea": 3,
+      "record": "2026-09-25-c7dbc150-nm-u1-idea3",
+      "exit_code": 0,
+      "rejected": false,
+      "integrated": "Cada vez que una marca se instala en TikTok o Twitter no solo amplía su alcance; cambia quién habla y cómo escucha el público —y más importante aún— quien mide la conversación. Si Instagram define interacciones por \"me gusta\", LinkedIn premiará seguidores activos con respuestas comentadas: cada plataforma tiene un microsistema de valor diferente, como si cambiara las reglas del juego a mitad partido al trasladar una cuenta desde Facebook hasta YouTube (United Nations Environment Programme 2023). ¿Cómo afecta esto cuando pasamos horas viendo productos filtrados primero en Snapchat para luego comprarlos en Amazon?  La relación ya no es directo–consumidor; está mediada y medida constantemente —y esta nueva dinámica aún ni hemos empezado a estudiarla.",
+      "scores": {
+        "Sentence-role fidelity": 4,
+        "Voice": 4,
+        "Concreteness": 4,
+        "Citation shape": 4,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 3
+      },
+      "amendments": [],
+      "raw_len": 757,
+      "mean_score": 3.8333333333333335
+    },
+    {
+      "unit": "U1",
+      "idea": 4,
+      "record": "2026-09-25-3acb22a1-nm-u1-idea4",
+      "exit_code": 0,
+      "rejected": false,
+      "integrated": "El glosario no es una lista muerta de términos y definiciones: cada término que aprendes debe tener un ejemplo vivo en el campo — o nunca lo has realmente entendido. Si defines \"branding\" como estrategia para construir imagen pública sin conectarlo con la identidad visual real del Nike Swoosh o las políticas corporativas de Apple, estás memorizando palabras vacías; si conectas branding a casos reales donde se hace bien **o mal** (\"marca negra\"), entonces empiezas aprender algo útil (Nobile 2021).  ¿Qué pasa cuando encuentras una marca que viola sus propios principios éticos? Ese no es solo un error: eso revela el límite entre lo que dicen y hacen. El glosario debe ser dinámico — cada término vivo te permite preguntar más cosas. Si la definición oficial del \"branding\" dice X pero Nike hace Y, ese desplazamiento mismo puede enseñarte tanto como cualquier lección en las notas de clase; así que tu lista terminará siendo menos memoria pasiva e instrumento crítico activo para leer marcas vivas (United Nations Environment Programme 2023).",
+      "scores": {
+        "Sentence-role fidelity": 2,
+        "Voice": 4,
+        "Concreteness": 4,
+        "Citation shape": 3,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 2
+      },
+      "amendments": [],
+      "raw_len": 1047,
+      "mean_score": 3.1666666666666665
+    },
+    {
+      "unit": "U2",
+      "idea": 1,
+      "record": "2026-09-25-2b573c10-nm-u2-idea1",
+      "exit_code": 0,
+      "rejected": false,
+      "integrated": "La moda digital no se trata de un calendario lleno sino del sistema que sostiene la voz y los formatos. Por ejemplo: en el artefacto _Fashion Brand Calendar_ de este curso[^calendar], cada plataforma es una hipótesis sobre cómo presenciar; si Instagram gana seguidores pero YouTube pierde visualizaciones, hay algo más profundo fallando allí — quizás Facebook descubrirá lo qué al día siguiente.[^facebook] ¿Qué pasaría si invirtiéramos menos tiempo programado (el 5% ya cubre eso) para dedicarle a experimentación estratégica con las plataformas? Es un riesgo por la incertidumbre del cambio en el flujo: no se trata solo de \"si esto funciona\", sino también que **la voz** y los formatos son una danza constante entre ser e interpretarse. Las herramientas nos apoyan, pero nunca pueden reemplazarnos; siempre somos nosotros quienes decidimos dónde estamos presentes.\n\n[^calendar]: Rubén Vega Balbás, _Fashion Brand Calendar_.\n[^facebook]: Esta observación es hipotética dentro del contexto pedagógico para ilustrar cómo cada plataforma puede ofrecer información distinta sobre las estrategias exitosas o fallidas — Nobile 2021 sostiene la idea general (Nobile 2021).",
+      "scores": {
+        "Sentence-role fidelity": 2,
+        "Voice": 4,
+        "Concreteness": 4,
+        "Citation shape": 4,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 2
+      },
+      "amendments": [],
+      "raw_len": 1167,
+      "mean_score": 3.3333333333333335
+    },
+    {
+      "unit": "U2",
+      "idea": 2,
+      "record": "2026-09-25-2c2bd0c6-nm-u2-idea2",
+      "exit_code": 0,
+      "rejected": false,
+      "integrated": "La sostenibilidad se vende en la moda como un valor añadido y una opción deseable; no basta con declarar que algo es más verde para garantizar su éxito comercial: cualquier estrategia comunicativa de sostenibilidad fracasa si el producto sigue siendo menos interesante o accesible que las alternativas convencionales.\"this is about communicators using their skills and budgets to make the more sustainable option the most attractive one\" [(United Nations Environment Programme 2023, 49)] — lo cual plantea preguntas clave sobre quién decide qué aspectos del diseño son realmente atractivos al público objetivo (y cuáles solo funcionan en Instagram). Si la moda sostenible se vende por igualidad y transparencia pero luego desvía los beneficios hacia un pequeño grupo de inversores mientras el resto recibe salarios míseros: ¿la opción más \"atraente\", entonces, no sería también una mentira ética? La belleza está en ojo que ve; las redes sociales pueden hacer ver algo hermoso hasta a quien nunca ha usado ese producto. El arte consiste precisamente ahí — donde lo visualmente seductor puede convertirse finalmente en moralmente aceptable para todos quienes participan del sistema.[/p]>",
+      "scores": {
+        "Sentence-role fidelity": 4,
+        "Voice": 4,
+        "Concreteness": 4,
+        "Citation shape": 4,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 2
+      },
+      "amendments": [],
+      "raw_len": 1186,
+      "mean_score": 3.6666666666666665
+    },
+    {
+      "unit": "U2",
+      "idea": 3,
+      "record": "2026-09-25-d0da5218-nm-u2-idea3",
+      "exit_code": 0,
+      "rejected": false,
+      "integrated": ": Cada KPI elige qué cuenta como éxito — y qué queda invisible: si medimos clics en lugar de ventas completadas, ignoramos la conversión real.: Un estudio del UNEP muestra que las estrategias digitales pueden influir más sobre los hábitos consumistas que sus efectivos financieros inmediatos[United Nations Environment Programme 2023].: ¿Cómo diseñar una métrica capaz no solo de contar sino también de interpretar su propio impacto? Las métricas son decisiones políticas; lo importante es reconocerlo para hacerlas conscientemente.",
+      "scores": {
+        "Sentence-role fidelity": 2,
+        "Voice": 4,
+        "Concreteness": 3,
+        "Citation shape": 4,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 4
+      },
+      "amendments": [],
+      "raw_len": 532,
+      "mean_score": 3.5
+    },
+    {
+      "unit": "U2",
+      "idea": 4,
+      "record": "2026-09-25-9d830d7f-nm-u2-idea4",
+      "exit_code": 2,
+      "rejected": true,
+      "integrated": "El greenwashing es el caso más flagrante de transparencia bajo presión: si un proyecto se vende como sostenible y luego no lo demuestra —o peor aún, cuando la evidencia muestra que empeora las cosas— ese \"claim\" ya ha pasado su fecha de caducidad ([United Nations Environment Programme 2023](#cite_8)).  Según UNEP (26), casi dos tercios del verde en los anuncios son pura retórica sin respaldo; esto incluye a influencers con seguidores comprometidos. Por ejemplo, una marca puede afirmar ser vegana mientras produce miles de kilos de plástico por año: el veganismo como estrategia disimula más lo que no cambió bajo la etiqueta limpia. ¿Cómo evaluarías si un proyecto es sostenible o solo \"verde\" cuando las estadísticas dicen todo y nada? Es decir, ¿qué hace legítimo al claim frente a su evidencia real (o falta)?  La pregunta se complica porque los estándares son dinámicos e imperfectos; cada vez hay mejores reglas para medir impacto pero también nuevos trucos contables —por eso una marca puede ser transparente en términos de rendimiento financiero y completamente opaca sobre el costo ambiental del mismo producto ([United Nations Environment Programme 2023](#cite_8), p.49). Por ejemplo: la transparencia legal no garantiza verdad si solo revela lo que queremos oír ignorando las consecuencias ocultas bajo \"transacción cost-benefit\".  El ejercicio entonces es un cuestionamiento constante, menos confiar en los claims como dogma impugnable (¿verde porque alguien dijo verde?) más verlos siempre paradojas a resolver —porque la sostenibilidad digital nunca se resuelve; persiste mientras existe el medio y su impacto sobre nosotros ([United Nations Environment Programme 2023](#cite_8)).",
+      "scores": {
+        "Sentence-role fidelity": 2,
+        "Voice": 4,
+        "Concreteness": 4,
+        "Citation shape": 4,
+        "Antilism-in-practice": 4,
+        "Teenager readable": 2
+      },
+      "amendments": [],
+      "raw_len": 1698,
+      "mean_score": 3.3333333333333335
+    }
+  ],
+  "u1_mean": 3.5,
+  "u2_mean": 3.4583333333333335
+}

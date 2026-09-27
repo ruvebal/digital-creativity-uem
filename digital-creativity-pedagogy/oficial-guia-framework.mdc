@@ -14,6 +14,7 @@ alwaysApply: false
 | ------ | ---- | --------------- | --- |
 | **CD I** | [`cv/guides/1-creacion-digital-i.json`](./cv/guides/1-creacion-digital-i.json) | `unicrawler/output/guides/1-creacion-digital-i.json` | [9729001103.pdf](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) · **2026-27** |
 | **CD II** | [`cv/guides/3-creacion-digital-ii.json`](./cv/guides/3-creacion-digital-ii.json) | `unicrawler/output/guides/3-creacion-digital-ii.json` | [9729001108.pdf](https://universidadeuropea.es/myfiles/pr/9729001108.pdf) · **2026-27** (live URL checked 2026-08-23) |
+| **Nuevos medios** | [`cv/guides/2-nuevos-medios-rrss.json`](./cv/guides/2-nuevos-medios-rrss.json) | `unicrawler/output/guides/2-nuevos-medios-rrss.json` | [9729001302.pdf](https://universidadeuropea.es/myfiles/pr/9729001302.pdf) · **2026-27** · REF `4d3415b1` (PDF-patched 2026-09-25) |
 
 **Re-sync:** copy from unicrawler only after that scrape matches the live PDF. Prefer PDF if JSON and PDF disagree — flag the conflict, do not silently invent. Provenance of the 2026-08-14 patch: [`cv/README.md`](./cv/README.md).
 

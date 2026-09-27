@@ -1,0 +1,124 @@
+---
+layout: null
+---
+{
+  "unit_label": "Nuevos medios · U2",
+  "final_event_theme": "¿Qué cuenta como éxito de marca en tu dashboard — y qué queda invisible?",
+  "media_selection": {
+    "unit_id": "U2",
+    "project_id": "nm",
+    "collection": "unit-accepted",
+    "strategy": "geometrical-first",
+    "description": "NM decks: geometrical openers; campaign Caso: from MAIN-IDEAS / ledger ranks."
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "diagram",
+      "heading": "U2 · Estrategias de comunicación digital",
+      "sentence": "Una estrategia digital de moda es un sistema de presencia — voz, formatos, métricas e hipótesis — no un calendario de posts.",
+      "prompt": "CONTENIDOS: Comunicación digital",
+      "quote": "Una estrategia digital de moda es un sistema de presencia — voz, formatos, métricas e hipótesis — no un calendario de…",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "nuevos-medios",
+          "u2"
+        ]
+      }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-01-structure-5218b595b4fa.svg",
+      "heading": "Análisis · lenguaje / medio / soporte",
+      "sentence": "Nombra el lenguaje, el medio y el soporte antes de opinar sobre la marca.",
+      "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Sistema de presencia, no calendario",
+      "sentence": "Antes de programar posts, escribe voz, formatos, hipótesis y cómo sabrás si fallan.",
+      "prompt": "Caso: Patagonia Action Works (rank 6 · Track A) — formatos = eventos, peticiones, voluntariado.",
+      "quote": "The digital transformation has impacted all the facets of fashion. First of all fashion communication and marketing, through the adoption of digital tools…",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Nobile 2021, 294)",
+        "href": "/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/#referencias"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Atractivo ≠ solo información",
+      "sentence": "Una opción sostenible que nadie desea es un fracaso de comunicación, no de ética sola.",
+      "prompt": "Caso: Selfridges Project Earth (rank 9 · Track A) — circularidad como deseo.",
+      "quote": "this is about communicators using their skills and budgets to make the more sustainable option the most attractive one",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 49)",
+        "href": "/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/#referencias"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Las métricas son decisiones",
+      "sentence": "Cada KPI elige qué cuenta como éxito — y qué queda invisible.",
+      "prompt": "Caso: Levi’s (rank 8 · menciones) vs PayUp (rank 1 · Track C · USD/firmas).",
+      "quote": "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 27)",
+        "href": "/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/#referencias"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Transparencia bajo presión de claims",
+      "sentence": "Si tu claim no aguanta evidencia, no es estrategia: es riesgo reputacional.",
+      "prompt": "Audita Levi’s (8) o Project Earth (9): ¿evidencia UNEP o solo sentimiento de marca?",
+      "quote": "Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in…",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 26)",
+        "href": "/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/#referencias"
+      }
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-04-practice-4a190e098ca6.svg",
+      "heading": "Laboratorio",
+      "sentence": "Dos ejercicios. Todo lo que produzcas entra en tu índice de portfolio / Canvas.",
+      "caption": "Geometrical · uem-pass-04-practice.svg#4a190e098ca6"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Ejercicio 1",
+      "sentence": "Boceto de sistema de presencia: voz · formatos · KPI · hipótesis de fallo (modelo Action Works).",
+      "portfolio_bound": true,
+      "portfolio_trace": "Guarda el boceto / análisis en Canvas."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Ejercicio 2",
+      "sentence": "Audita un claim (Levi’s rank 8 o Project Earth rank 9): ¿evidencia UNEP o sentimiento?",
+      "portfolio_bound": true,
+      "portfolio_trace": "Guarda la ficha en Canvas."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
+      "heading": "Para llevar",
+      "sentence": "¿Qué cuenta como éxito de marca en tu dashboard — y qué queda invisible?",
+      "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79"
+    }
+  ]
+}
