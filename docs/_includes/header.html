@@ -9,7 +9,7 @@
 				<img src="{{ '/assets/icons/favicon.svg' | relative_url }}" alt="" class="brand-logo w-8 h-8" aria-hidden="true" />
 				<span>Creación Digital</span>
 			</a>
-			<ul class="flex gap-6 text-sm">
+			<ul class="flex flex-wrap gap-4 md:gap-6 text-sm">
 				<li>
 					{% if page.lang == 'es' %}
 					<a
@@ -42,6 +42,20 @@
 				</li>
 				<li>
 					<a
+						href="{{ site.baseurl }}/lessons/en/master-lectures/"
+						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						Master Lectures
+					</a>
+				</li>
+				<li>
+					<a
+						href="{{ site.baseurl }}/assignments/en/"
+						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						Assignments
+					</a>
+				</li>
+				<li>
+					<a
 						href="{{ site.baseurl }}/tao/"
 						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Tao
@@ -66,13 +80,6 @@
 						href="{{ site.baseurl }}/evaluation/"
 						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Evaluation
-					</a>
-				</li>
-				<li>
-					<a
-						href="{{ site.baseurl }}/assignments/en/digital-creativity-portfolio/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
-						Portfolio brief
 					</a>
 				</li>
 				<li>

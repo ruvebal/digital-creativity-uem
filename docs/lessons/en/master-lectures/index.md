@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: lesson
 title: 'Master Lectures — Digital Creativity'
 lang: en
+slug: master-lectures
 permalink: /lessons/en/master-lectures/
 description: 'Transversal analysis master lectures for Digital Creativity I–II and New Media.'
 ---
