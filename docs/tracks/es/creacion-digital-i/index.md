@@ -36,6 +36,14 @@ Estado de forja del track (solo desarrolladores — no visible al alumnado):
 | I.8 | [Creación de imágenes digitales animadas]({{ '/lessons/es/creacion-digital-i/i-8-animacion/' | relative_url }}) | La animación es una secuencia deliberada de fijas; el oficio es cuáles conservar. La evidencia individual se pliega en la nota de proceso (0 h debates/resolución declaradas). |
 | I.9 | [Bodegones digitales]({{ '/lessons/es/creacion-digital-i/i-9-bodegones/' | relative_url }}) | Un bodegón digital sintetiza I.1–I.4 en una composición equilibrada — ejercicio de síntesis entre unidades previas, no técnica nueva. |
 
+## Master Lectures (transversal · English)
+
+Método de análisis compartido — **no** es una fila CONTENIDOS.
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
+
 ## Cómo completar una unidad
 
 Cada lección ofrece **B1** (concepto y debate), **B2** (artefacto de taller y definición de terminado) y **B3** (problema individual — salvo I.8, cuya asignación real de 0 h de resolución se declara y se integra en la nota de proceso). Entrega un ID de pieza, carpeta de proceso, artefacto final y nota de proceso; conserva los originales y declara cualquier asistencia de IA. Las fechas, canales de entrega y procedimiento institucional de examen permanecen en el Campus Virtual; aquí no se inventan.

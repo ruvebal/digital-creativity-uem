@@ -32,6 +32,14 @@ Track forge status (developers only — not student-facing):
 | II.5 | [Web Layout, Editing & Digital Portfolio Creation]({{ '/lessons/en/digital-creativity-ii/ii-5-web-portfolio/' | relative_url }}) | A portfolio page is assessable when process and authorship are visible — polish without a trail is not the learning outcome (studio-AI frame; UX gap declared). |
 | II.6 | [Holograms & Augmented Reality]({{ '/lessons/en/digital-creativity-ii/ii-6-hologramas-ra/' | relative_url }}) | AR/hologram is a medium choice with hardware and access costs — a declared pilot, not a default upgrade (Kim stimulus parallel; Sarkis audience lens). |
 
+## Master Lectures (transversal)
+
+Shared analysis methods — **not** CONTENIDOS unit IDs. Use from any unit that needs visual critique.
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 Previous track states: II.1 was `[BIBLIO-GAP]`, with a gap-visible quote only; II.2 was `[BIBLIO-GAP]` for avatar method before adjacent evaluator-safe sources were added.

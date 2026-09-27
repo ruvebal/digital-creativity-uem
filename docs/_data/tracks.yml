@@ -272,3 +272,12 @@
     - title: 'U6 Futuro de la comunicación digital'
       slug: 'u6-futuro-comunicacion-digital'
       unit_id: U6
+  master_lectures:
+    - title: 'Master Lecture · Fashion image analysis'
+      slug: 'fashion-image-analysis'
+      unit_id: ML-FIA
+      special: true
+      lang: en
+      deck_path: 'tracks/en/uem/2627-ml/fashion-image-analysis/'
+      deck_permalink: '/master-lectures/fashion-image-analysis/'
+      lesson_path: 'lessons/en/master-lectures/fashion-image-analysis/'

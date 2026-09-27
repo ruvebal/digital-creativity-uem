@@ -1,0 +1,138 @@
+---
+layout: null
+---
+{
+  "unit_label": "Master Lecture · Fashion image analysis",
+  "final_event_theme": "What changes when the same fashion image moves from editorial to feed — language, medium, or support?",
+  "media_selection": {
+    "unit_id": "ML-FIA",
+    "project_id": "ml",
+    "collection": "unit-accepted",
+    "strategy": "geometrical-first",
+    "description": "Master lecture (transversal): geometrical openers; Masterclass quotes from Shinkle 2008 + Eckersall 2017."
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "diagram",
+      "heading": "Master Lecture · Fashion image analysis",
+      "sentence": "Eight steps. Two lenses. One image. Critical always.",
+      "prompt": "Transversal analysis guide · language / medium / support + circulation",
+      "quote": "Eight steps. Two lenses. One image. Critical always.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": { "themes": ["master-lecture", "analysis", "fashion-image"] }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-01-structure-5218b595b4fa.svg",
+      "heading": "Analysis · two lenses",
+      "sentence": "Lens A: language / medium / support. Lens B: production → reception → next production.",
+      "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa"
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "Eight steps (guide)",
+      "sentence": "Describe → Inventory → Forms → Origin → Context → Meaning → Critical → Circulation.",
+      "prompt": "Step 7 (critical) is mandatory. Without it, the analysis does not count."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Describe before you interpret",
+      "sentence": "Say what is there: bodies, clothes, light, text, crop. Not yet “what it means”.",
+      "prompt": "If you start with the “message”, you invent before you look."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Language ≠ medium ≠ support",
+      "sentence": "Code / channel-genre / material or file. Three questions. Do not mix them.",
+      "prompt": "Example: pose and typography (language) on Instagram (medium) as a JPEG (support)."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · The photo organises fashion",
+      "sentence": "The image is not decoration: it charts the discursive space of global fashion.",
+      "quote": "Photographic images play a key role in defining global fashion culture and in charting its discursive space.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Shinkle 2008, 14)",
+        "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "4 · No single genre",
+      "sentence": "Editorial, advertising, beauty, documentary… do not use one method for all.",
+      "quote": "there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is best suited to its analysis",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Shinkle 2008, 17)",
+        "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "5 · Agency, reception, experience",
+      "sentence": "Circulation is not only “views”: who acts, who receives, what is felt in the medium.",
+      "quote": "The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Eckersall 2017, 219)",
+        "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
+      },
+      "prompt": "Lens B: reception can feed the next production."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "6 · Desire + critical gaze",
+      "sentence": "Creating desire is the craft; asking whom it serves is your analytic duty.",
+      "quote": "Fashion photography is about creating desire.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Shinkle 2008, 78)",
+        "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
+      },
+      "prompt": "Step 7: who appears, who is missing, what labour is hidden?"
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-04-practice-4a190e098ca6.svg",
+      "heading": "Lab",
+      "sentence": "Two exercises. Everything you produce enters your portfolio index / Canvas.",
+      "caption": "Geometrical · uem-pass-04-practice.svg#4a190e098ca6"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 1 · Shared image",
+      "sentence": "Fill the 8-step card on the image the professor models (Lens A + Lens B).",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the card in Canvas / portfolio index."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 2 · Your image",
+      "sentence": "Choose a fashion image (campaign, lookbook, or feed). Eight steps + one critical sentence + one circulation claim.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save image + card; link to any track unit that needs visual critique."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
+      "heading": "Carry forward",
+      "sentence": "What changes when the same image moves from editorial to feed — language, medium, or support?",
+      "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79"
+    }
+  ]
+}

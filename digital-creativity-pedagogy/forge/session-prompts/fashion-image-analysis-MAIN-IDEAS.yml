@@ -1,0 +1,73 @@
+# MAIN-IDEAS — Special unit · Análisis de imagen de moda (NM)
+
+unit_id: SU-FIA
+lang: es
+max_masterclass_ideas: 6
+forged: 2026-09-27
+grounding_pass: 20260927-special-analysis-cycle1
+
+ideas:
+  - id: 1
+    title: Describe antes de interpretar
+    student_sentence: Primero di qué hay en la imagen. El significado espera.
+    slide_quote: null
+    slide_quote_origin: null
+    pedagogy: step_1_describe
+
+  - id: 2
+    title: Lenguaje ≠ medio ≠ soporte
+    student_sentence: Tres preguntas distintas. No llames “medio” a la pantalla si hablas del archivo.
+    slide_quote: null
+    slide_quote_origin: null
+    pedagogy: lens_A_triad
+
+  - id: 3
+    title: La foto de moda define cultura
+    student_sentence: La imagen no es adorno: organiza el espacio discursivo de la moda.
+    slide_quote: "Photographic images play a key role in defining global fashion culture and in charting its discursive space."
+    slide_quote_origin: page_verified
+    citation: "(Shinkle 2008, 14)"
+    ahmes_node: 81820be3-40ea-5bcd-88e4-37d99d29744a
+    coat: 1936070c
+    evaluator_safe: yes
+
+  - id: 4
+    title: No hay una sola fotografía de moda
+    student_sentence: Editorial, publicidad, belleza, documental… no uses un solo método para todas.
+    slide_quote: "there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is best suited to its analysis"
+    slide_quote_origin: page_verified
+    citation: "(Shinkle 2008, 17)"
+    ahmes_node: 424654a2-9ae8-5acb-b8de-c21c10d566ca
+    coat: 1936070c
+    evaluator_safe: yes
+
+  - id: 5
+    title: El significado se hace en la recepción
+    student_sentence: El público lee la imagen con otras imágenes. La recepción remonta la producción.
+    slide_quote: "Their meaning is produced by viewer expectations from resemblance to ' other images '."
+    slide_quote_origin: page_verified
+    citation: "(Shinkle 2008, 69)"
+    ahmes_node: 0a8cf1fc-56e6-581a-bea7-56720be8e2df
+    coat: 1936070c
+    evaluator_safe: yes
+    note: "Clean spacing in slide display: 'other images'."
+
+  - id: 6
+    title: Deseo, comercio y mirada crítica
+    student_sentence: Crear deseo es el oficio; preguntar a quién sirve es tu deber analítico.
+    slide_quote: "Fashion photography is about creating desire."
+    slide_quote_origin: page_verified
+    citation: "(Shinkle 2008, 78)"
+    ahmes_node: 369a37c3-1e08-5792-a8e9-e7ea581150fe
+    coat: 1936070c
+    evaluator_safe: yes
+
+gated_not_public:
+  - source: Shawcross 1997 (coat 03498f83)
+    reason: "evaluator_safe=no (confidence 0.70 after meta)"
+    nodes: [7391ea20-c997-583a-8646-d3604c17b884]
+    use: "studium/punctum teaching paraphrase only; full quote in curriculum-internal"
+  - source: Steimberg 2013 (coat d639c32d)
+    reason: "BIBLIO-GAP missing authors after meta"
+    nodes: [e78340b1-33e2-52c1-a4c6-4492d1d489b0, b93a7db9-4958-55e1-b7fc-1e441ebc60f9]
+    use: "triad/Verón vocabulary as course method; no Chicago until coated"

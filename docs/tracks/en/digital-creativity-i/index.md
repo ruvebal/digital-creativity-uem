@@ -36,6 +36,14 @@ Track forge status (developers only — not student-facing):
 | I.8 | [Creating Animated Digital Images]({{ '/lessons/en/digital-creativity-i/i-8-animation/' | relative_url }}) | Animation is a deliberate sequence of stills; the craft is which stills to keep. Individual evidence folds into the process note (0 h debates/resolución disclosed). |
 | I.9 | [Digital Still Lifes (Bodegones)]({{ '/lessons/en/digital-creativity-i/i-9-bodegones/' | relative_url }}) | A digital still life synthesises I.1–I.4 into one balanced composition — a synthesis exercise across prior units, not a new technique. |
 
+## Master Lectures (transversal)
+
+Shared analysis methods — **not** CONTENIDOS unit IDs. Use from any unit that needs the eight-step critique.
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 Previous track note: `[BIBLIO-GAP]` — Campinho et al. (2025) was initially retained only as a gap-visible image-sourcing ethics pointer before its bibliography record was resolved.

@@ -1,0 +1,138 @@
+---
+layout: null
+---
+{
+  "unit_label": "Nuevos medios · Especial · Análisis de imagen de moda",
+  "final_event_theme": "¿Qué cambia cuando la misma imagen de moda pasa de editorial a feed — lenguaje, medio o soporte?",
+  "media_selection": {
+    "unit_id": "SU-FIA",
+    "project_id": "nm",
+    "collection": "unit-accepted",
+    "strategy": "geometrical-first",
+    "description": "Special analysis unit: geometrical openers; Masterclass quotes from Shinkle 2008 + Eckersall 2017 (cycle 2)."
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "diagram",
+      "heading": "Especial · Análisis de una imagen de moda",
+      "sentence": "Ocho pasos. Dos lentes. Una imagen. Critica siempre.",
+      "prompt": "Guía de análisis (hermana del Web Analysis Guide) · lenguaje / medio / soporte + circulación",
+      "quote": "Ocho pasos. Dos lentes. Una imagen. Critica siempre.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": { "themes": ["nuevos-medios", "special-analysis", "fashion-image"] }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-01-structure-5218b595b4fa.svg",
+      "heading": "Análisis · dos lentes",
+      "sentence": "Lente A: lenguaje / medio / soporte. Lente B: producción → recepción → nueva producción.",
+      "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa"
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "Ocho pasos (guía)",
+      "sentence": "Describe → Inventario → Formas → Origen → Contexto → Significado → Crítica → Circulación.",
+      "prompt": "La crítica (paso 7) es obligatoria. Sin ella, el análisis no cuenta."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Describe antes de interpretar",
+      "sentence": "Di qué hay: cuerpos, ropa, luz, texto, recorte. Todavía no “significa”.",
+      "prompt": "Si empiezas por el “mensaje”, estás inventando antes de mirar."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Lenguaje ≠ medio ≠ soporte",
+      "sentence": "Código / canal-género / material o archivo. Tres preguntas. No las mezcles.",
+      "prompt": "Ejemplo: pose y tipografía (lenguaje) en Instagram (medio) en un JPEG (soporte)."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · La foto organiza la moda",
+      "sentence": "La imagen no es adorno: abre el espacio discursivo de la moda global.",
+      "quote": "Photographic images play a key role in defining global fashion culture and in charting its discursive space.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Shinkle 2008, 14)",
+        "href": "/lessons/es/nuevos-medios-moda/special-analisis-imagen-moda/#referencias"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "4 · No hay un solo género",
+      "sentence": "Editorial, publicidad, belleza, documental… no uses un solo método para todas.",
+      "quote": "there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is best suited to its analysis",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Shinkle 2008, 17)",
+        "href": "/lessons/es/nuevos-medios-moda/special-analisis-imagen-moda/#referencias"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "5 · Agencia, recepción, experiencia",
+      "sentence": "La circulación no es solo “views”: quién actúa, quién recibe, qué se siente en el medio.",
+      "quote": "The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Eckersall 2017, 219)",
+        "href": "/lessons/es/nuevos-medios-moda/special-analisis-imagen-moda/#referencias"
+      },
+      "prompt": "Lente B: la recepción puede alimentar la siguiente producción."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "6 · Deseo + mirada crítica",
+      "sentence": "Crear deseo es el oficio; preguntar a quién sirve es tu deber analítico.",
+      "quote": "Fashion photography is about creating desire.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Shinkle 2008, 78)",
+        "href": "/lessons/es/nuevos-medios-moda/special-analisis-imagen-moda/#referencias"
+      },
+      "prompt": "Paso 7: ¿quién aparece, quién falta, qué trabajo se oculta?"
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-pass-04-practice-4a190e098ca6.svg",
+      "heading": "Laboratorio",
+      "sentence": "Dos ejercicios. Todo lo que produzcas entra en tu índice de portfolio / Canvas.",
+      "caption": "Geometrical · uem-pass-04-practice.svg#4a190e098ca6"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Ejercicio 1 · Imagen compartida",
+      "sentence": "Rellena la ficha de 8 pasos sobre la imagen que modela el profesor (Lente A + Lente B).",
+      "portfolio_bound": true,
+      "portfolio_trace": "Guarda la ficha en Canvas / índice de portfolio."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Ejercicio 2 · Tu imagen",
+      "sentence": "Elige una imagen de moda (campaña, lookbook o feed). Ocho pasos + una frase crítica + un claim de circulación.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Guarda imagen + ficha; enlaza a U3 análisis de campaña si aplica."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
+      "heading": "Para llevar",
+      "sentence": "¿Qué cambia cuando la misma imagen pasa de editorial a feed — lenguaje, medio o soporte?",
+      "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79"
+    }
+  ]
+}

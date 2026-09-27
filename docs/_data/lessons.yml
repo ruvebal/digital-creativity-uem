@@ -314,3 +314,17 @@
   type: lesson
   track: nuevos-medios-moda
   unit_id: U6
+
+- slug: fashion-image-analysis
+  title:
+    en: 'Master Lecture · Fashion image analysis'
+    es: 'Master Lecture · Análisis de imagen de moda'
+  path:
+    en: /lessons/en/master-lectures/fashion-image-analysis/
+  file:
+    en: lessons/en/master-lectures/fashion-image-analysis/index.md
+  status:
+    en: pilot
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-FIA

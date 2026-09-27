@@ -28,6 +28,14 @@ Estado de forja del track (solo desarrolladores — no visible al alumnado):
 | II.5 | [Maquetación, edición y creación de web y portfolio digital]({{ '/lessons/es/creacion-digital-ii/ii-5-web-portfolio/' | relative_url }}) | Una página de portfolio es evaluable cuando proceso y autoría son visibles — un acabado sin rastro no es el resultado de aprendizaje (marco de autoría/IA de taller; vacío UX declarado). |
 | II.6 | [Hologramas y R.A.]({{ '/lessons/es/creacion-digital-ii/ii-6-hologramas-ra/' | relative_url }}) | R.A./holograma es una elección de medio con costes de hardware y acceso — piloto declarado, no mejora por defecto (paralelismo de estímulo Kim; lente de audiencia Sarkis). |
 
+## Master Lectures (transversal · English)
+
+Método de análisis compartido — **no** es una fila CONTENIDOS.
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
+
 ## Cómo completar una unidad
 
 Cada lección ofrece **B1** (concepto y debate), **B2** (entregable de taller y definición de terminado) y **B3** (resolución individual). Entrega ID de pieza, carpeta de proceso, artefacto final, nota de proceso, comprobaciones de formato/accesibilidad y declaración de IA/materiales. En II.2, II.3, II.5 e II.6, las listas de exposición pública son solo borradores sin firmar: no autorizan exposición ni reutilización de investigación sin los controles separados de consentimiento y DPO. Las fechas y procedimientos institucionales permanecen en el Campus Virtual.

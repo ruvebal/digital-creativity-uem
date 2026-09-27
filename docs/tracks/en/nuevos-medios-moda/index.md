@@ -47,7 +47,15 @@ Canvas assessment (70 + 30):
 | 6 | [Future of digital communication]({{ '/lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | AI/AR change the stage; authenticity and disclosure are studio problems. | **10 pt activity** |
 | — | Knowledge test | Closes U1–U6 | **30 pt exam** |
 
-**U1–U3 forged** (Masterclass + Reveal decks on the ES track). U4–U6 still scaffold. Teaching language remains Spanish — prefer the [ES track]({{ '/tracks/es/nuevos-medios-moda/' | relative_url }}).
+## Master Lectures (transversal · English)
+
+Shared analysis method — **not** a Canvas unit ID. Prefer the English master lecture for class.
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
+
+**U1–U3 forged** (Masterclass + Reveal decks on the ES track). U4–U6 still scaffold. Teaching language for units remains Spanish — prefer the [ES track]({{ '/tracks/es/nuevos-medios-moda/' | relative_url }}). The fashion-image **Master Lecture** is English.
 
 | Unit | Deck (ES) |
 | --- | --- |

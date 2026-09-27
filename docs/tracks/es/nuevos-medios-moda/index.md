@@ -65,13 +65,22 @@ Tres capas en cada unidad:
 | **6** | [Futuro de la comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | IA y R.A. cambian la escena; autenticidad y divulgación son problemas de estudio. | **Tarea 10 ptos** |
 | **—** | Prueba de conocimientos | Cierra el arco U1–U6. | **Examen 30 ptos** |
 
-**Estado U1–U3:** forjadas (Masterclass + deck Reveal · campañas del ledger). U4–U6 aún andamiaje.
+## Master Lectures (transversal · English)
+
+Método de análisis compartido — **no** es una fila CONTENIDOS / Canvas. La versión canónica de clase es en inglés.
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Fashion image analysis** | [Lesson (EN)]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck (EN)]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
+
+**Estado U1–U3:** forjadas (Masterclass + deck Reveal · campañas del ledger). U4–U6 aún andamiaje. Master Lecture de imagen de moda: pilot EN.
 
 | Unidad | Deck |
 | --- | --- |
 | U1 | [Abrir diapositivas]({{ '/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/' | relative_url }}) |
 | U2 | [Abrir diapositivas]({{ '/tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/' | relative_url }}) |
 | U3 | [Abrir diapositivas]({{ '/tracks/es/uem/2627-nm/u3-marketing-publicidad/' | relative_url }}) |
+| Master Lecture · Fashion image (EN) | [Open slides]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
 
 ## Resultados de aprendizaje (provisionales, ES)
 

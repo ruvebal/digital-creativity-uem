@@ -1,0 +1,163 @@
+---
+description: Special unit forge — fashion image analysis guide + Reveal slideshow for Digital Creativity (UEM)
+globs: 'digital-creativity-pedagogy/forge/**,docs/lessons/**,docs/tracks/**'
+alwaysApply: false
+---
+
+# FASHION IMAGE ANALYSIS FORGE — Special unit (Digital Creativity)
+
+**Role:** special / transversal **analysis guide** unit — student steps for reading
+a **fashion image**, with Reveal slideshow. Not a fake CONTENIDOS ID.
+
+**Shared frame (binding):**  
+[`~/src/profield/runs/curriculum-analysis-guides/20260927-special-analysis/SHARED-ANALYSIS-FRAME.md`](../../../../../../src/profield/runs/curriculum-analysis-guides/20260927-special-analysis/SHARED-ANALYSIS-FRAME.md)
+
+**Pattern reference (user guide shape):**  
+[Web Analysis Guide](https://ruvebal.github.io/web-atelier-udit/lessons/en/web-analysis/) — numbered steps, short prompts, critical close.
+
+**Theory siblings (do not duplicate):**
+
+| Forge | Owns |
+| ----- | ---- |
+| `IMAGE-ONTOLOGY-FORGE.mdc` | *What kind of image is this?* (production ontology) — run **before** or as opener |
+| `DISCURSIVE-CIRCULATION-FORGE.mdc` (CT) | Lenguaje / medio / soporte + Verónian circulation vocab |
+| **This forge** | Step guide + deck for **analysing one fashion image** |
+
+Sibling CT forge:  
+`creativity-techniques-uem/.../CREATIVE-PROCESS-ANALYSIS-FORGE.mdc`  
+(same eight steps; object = creative process).
+
+---
+
+## Pedagogical thesis (binding · simple)
+
+```text
+First say what is there.
+Then say how it is formed.
+Then ask where it comes from and under what conditions it was made.
+Only then propose a meaning — with evidence.
+Always ask who benefits and who is missing.
+Then track language / medium / support and how reception remakes the next image.
+```
+
+Students leave able to **walk eight steps** on one fashion still (or one campaign unit)
+and to **name Lens A (triad) and Lens B (circulation)** without jargon overload.
+
+Audience: ~19, little academic habit — **basic enunciations**, one job per step.
+
+---
+
+## Professor focus (two lenses)
+
+1. **Language / medium / support** — three different questions; never collapse.  
+2. **Communicative circulation** — conditions of production → puesta en circulación →
+   conditions of recognition → gap → reception as new production for the next artefact
+   (Verón; Steimberg for genre/style/transposition when the image moves across media).
+
+Reuse the course **pre-analysis** triad already broadcast in Analysis method notes.
+Do not invent a second vocabulary.
+
+---
+
+## Eight student steps (fashion image)
+
+| # | Step | Student prompt (fashion) |
+| - | ---- | ------------------------ |
+| 1 | **Describe** | In 3–5 sentences: what do you see? (bodies, clothes, setting, text, crop.) No “meaning” yet. |
+| 2 | **Inventory** | Bullet the main elements you can point to on the image. |
+| 3 | **Forms** | Composition, colour, light, pose, typography, brand marks — how are they arranged? |
+| 4 | **Origin** | Which visual codes or genres does this borrow? (editorial, street, luxury, sport, meme…) |
+| 5 | **Context of making** | Brand, campaign brief, season, channel, labour/tool clues you can justify. |
+| 6 | **Meaning (hypothesis)** | What might it sell, say, or hide? Tie each claim to steps 1–5. |
+| 7 | **Critical** | Who is centred? Who is absent? Body / labour / ecology / class / gender stereotypes? |
+| 8 | **Circulation** | Label **language / medium / support**. Then: where will this be seen? How might that audience re-use or remake it? |
+
+**Critical step is mandatory.** Description-only submissions fail.
+
+Optional opener: I.0 ontology card (*analog / digital / AI / hybrid* + claim type) before step 1.
+
+---
+
+## ≤ 6 Masterclass ideas (deck)
+
+1. Describe before you interpret.  
+2. Language ≠ medium ≠ support.  
+3. Forms come from genres and codes.  
+4. Images are made under briefs and constraints.  
+5. Meaning is a hypothesis with evidence.  
+6. Reception remakes the next fashion image.  
+
+Slideshow spine: follow `STUDENT-SLIDESHOW-FORGE.mdc` (DC).  
+`unit_cover` → `analysis_opener` → ≤ 6 ideas → `lab_opener` → **two** lab exercises → `outro`.
+
+Lab exercise 1: eight-step card on a shared course image.  
+Lab exercise 2: same card on a student-chosen fashion image (portfolio-bound).
+
+---
+
+## Grounding (discover → cite Ahmes)
+
+**Project slugs:** `profield-digital-creativity` (+ inject from this run); also search
+`profield-creativity-techniques` for Steimberg/Verón; `profield-nuevos-medios-moda-2026-27` for fashion campaign examples.
+
+**Corpus (run `20260927-special-analysis`):** Shawcross/Barthes photography; Ricoeur metaphor (one careful idea); Chion if audiovisual; Bay-Cheng intermediality; Eckersall dramaturgy (material staging); Alexander storytelling (campaign as story); Steimberg (already ingested).
+
+**Already useful without waiting:** Barthes *Fashion System* coats in DC vectors; Steimberg nodes naming Verón; Fontcuberta ontology materials from I.0.
+
+Fail closed: no Chicago citation without `ahmes query --cite … evaluator_safe=yes`. Gaps stay in gated `curriculum-internal` only.
+
+---
+
+## Output contract
+
+Produce under this forge’s execute receipt:
+
+| Artefact | Path (NM ES — shipped cycle 1) |
+| -------- | ---------------- |
+| Execute prompt | `forge/FASHION-IMAGE-ANALYSIS.execute.md` |
+| Professor brief | `forge/session-prompts/fashion-image-analysis.md` (unpublished) |
+| MAIN-IDEAS | `forge/session-prompts/fashion-image-analysis-MAIN-IDEAS.yml` |
+| Student guide lesson | `docs/lessons/es/nuevos-medios-moda/special-analisis-imagen-moda/index.md` |
+| Reveal deck | `docs/tracks/es/uem/2627-nm/special-analisis-imagen-moda/` + `data/content.json` |
+| Feedback / cold review | `forge/receipts/SU-FIA-CYCLE1-FEEDBACK.md` · `…-COLD-REVIEW.md` |
+| Lab card template | in lesson — 8 steps + triad + circulation |
+| Provenance ledger | gated `curriculum-internal` only |
+
+Wire track index **Status** = pilot with lesson · deck links. Set `deck_url:` in lesson frontmatter.
+
+### Publication firewall (binding — cold review F1–F2)
+
+Do **not** put on any student-reachable surface (lesson body, AI footer, deck JSON `description`, captions):
+
+- names Ahmes / Athanor / DevIAC  
+- `[BIBLIO-GAP]`, `evaluator_safe`, `coat`, hash8 IDs, node UUIDs, extraction paths, run folder ids  
+
+Student AI footer = vault **counts** and Chicago author names only. Deck `media_selection.description` = teaching prose only.
+
+---
+
+## 120-minute session sketch
+
+```text
+00–15  I.0 reminder or quick ontology on the sample image
+15–40  Walk steps 1–4 live (describe → forms → origin)
+40–65  Steps 5–8 + critical + circulation (Lens A/B on board)
+65–100 Lab: two students or pairs fill the 8-step card
+100–120 Share one critical finding + one circulation claim; save to portfolio
+```
+
+---
+
+## Execution sequence
+
+```text
+SHARED-ANALYSIS-FRAME
+→ Ahmes batch + meta + Athanor inject (this run)
+→ Athanor search (fashion image + triad + circulation)
+→ MAIN-IDEAS.yml ≤ 6
+→ slideshow content.json
+→ student guide lesson (lesson-scribe for B1 prose if multi-paragraph)
+→ publication + citation gates
+```
+
+Paste-ready operator prompt: `FASHION-IMAGE-ANALYSIS.execute.md`.

@@ -30,6 +30,18 @@ permalink: /tracks/es/
     </li>
   </ul>
 
+  <h2>Master Lectures</h2>
+  <p class="hc-lead" style="margin-bottom:1rem;margin-top:0">Método de análisis transversal (inglés) — usable desde cualquier curso.</p>
+  <ul class="hc-track-list">
+    <li>
+      <a href="{{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}">
+        <strong>Fashion image analysis</strong>
+        <span>Guía de ocho pasos · <em>slideshow listo</em></span>
+      </a>
+    </li>
+  </ul>
+  <p><a href="{{ '/lessons/en/master-lectures/' | relative_url }}">Todas las master lectures →</a></p>
+
   <hr />
   <p><a href="{{ '/methodology/es/' | relative_url }}">Metodología →</a></p>
 </div>
