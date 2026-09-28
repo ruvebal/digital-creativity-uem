@@ -22,3 +22,5 @@ Analyse one fashion image with the Master Lecture method; present live (slidesho
 ## Final portfolio
 
 **[Final Digital Portfolio Notebook and rubric →]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }})**
+
+[Evaluation overview →]({{ '/evaluation/' | relative_url }})
