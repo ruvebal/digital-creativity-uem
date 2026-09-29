@@ -94,6 +94,8 @@ Write one formal claim with visible evidence. Only then continue to origin, cont
 
 Kandinsky’s teaching shorthand is useful here: the point is the smallest event of attention, the line records its movement, and the plane receives their relation [(Kandinsky 2012, 9)](#ref-kandinsky-2012). Treat this as a looking order, not a claim that every image is geometric.
 
+When the pass reaches **colour**, keep the same discipline: hue, value, temperature, and contrast act as forces that organise perception, not decoration. Kandinsky’s studio metaphor is exact enough for class — colour as keyboard, the eye as hammer, the soul as a piano of many strings [(Kandinsky 1946, 44)](#ref-kandinsky-1946) — provided students still name visible relations before assigning emotion.
+
 **Teaching move:** keep the vocabulary visible while the image changes. Ask students to compare one plane, one form, one colour relation, and one depth cue before they write a semantic hypothesis. The same terms then travel cleanly into the I2 drawing, I3 colour, I4 transformation, and I5 three-dimensional-form labs.
 
 ### Hand-off to the analysis master class
@@ -161,6 +163,7 @@ Visible evidence (where?): _______________________
 {:#references}
 
 - <span id="ref-eckersall-2017">Eckersall, Peter, Helena Grehan, and Edward Scheer. 2017. *New Media Dramaturgy: Performance, Media and New-Materialism*. London: Palgrave Macmillan. DOI <a href="https://doi.org/10.1057/978-1-137-55604-2" target="_blank" rel="noopener noreferrer">10.1057/978-1-137-55604-2</a>. ISBN 9781137556035.</span>
+- <span id="ref-kandinsky-1946">Kandinsky, Vasily. 1946. *On the Spiritual in Art*. Edited and translated by Hilla Rebay. New York: Solomon R. Guggenheim Foundation.</span>
 - <span id="ref-kandinsky-2012">Kandinsky, Wassily. 2012. *Point and Line to Plane*. Translated by Howard Dearstyne and Hilla Rebay. Dover Publications.</span>
 - <span id="ref-shinkle-2008">Shinkle, Eugenie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I.B. Tauris. ISBN 9781845115166.</span>
 
@@ -174,4 +177,4 @@ Visible evidence (where?): _______________________
 
 ## AI-assisted authorship
 
-Vault counts this cycle: **2** public sources cited (Shinkle 2008; Eckersall 2017) · date **2026-09-27** · guide prose author-edited. See site AI declaration when published.
+Vault counts this cycle: **4** public sources cited (Kandinsky 1946; Kandinsky 2012; Shinkle 2008; Eckersall 2017) · date **2026-09-29** · guide prose author-edited. See site AI declaration when published.

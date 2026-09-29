@@ -123,11 +123,11 @@ layout: null
       "media_slot_id": "ML-FIA.morphology.colour",
       "heading": "5 · Colour — compare relations",
       "sentence": "Name hue, value, saturation, temperature, and contrast before assigning emotion.",
-      "quote": "The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.",
+      "quote": "Colour is the keyboard. The eye is the hammer, while the soul is a piano of many strings.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Eckersall 2017, 219)",
-        "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
+        "label": "(Kandinsky 1946, 44)",
+        "href": "/lessons/en/master-lectures/image-morphology/#ref-kandinsky-1946"
       },
       "prompt": "Compare hue, value, saturation, temperature, and contrast without assigning emotion."
     },
