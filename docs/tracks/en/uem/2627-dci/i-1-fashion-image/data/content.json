@@ -32,6 +32,36 @@ layout: null
     },
     {
       "media_slot_id": "I.1.still.profield-2",
+      "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/66e54dae6e9921a1.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dirty_and_damaged_fashion_doll.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dirty_and_damaged_fashion_doll.jpg",
+      "alt_text": "Dirty and damaged fashion doll.jpg",
+      "title": "Dirty and damaged fashion doll.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 10,
+      "selection_rank": 10,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-3",
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
+      "alt_text": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-4",
       "asset_id": "wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/bf651ca6c925cff0.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lautrec_the_photographer_sescau_%28poster%29_1894.jpg",
@@ -46,7 +76,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-3",
+      "media_slot_id": "I.1.still.profield-5",
       "asset_id": "internet_archive:fashion-designing-institute-in-noida",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/efb0747e171662c4.png",
       "source_file_url": "https://dn711300.ca.archive.org/0/items/fashion-designing-institute-in-noida/Fashion%20Designing%20Institute%20in%20Noida.png",
@@ -61,7 +91,22 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-4",
+      "media_slot_id": "I.1.still.profield-6",
+      "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/e16150afa0636624.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beauty_is_my_business%2C_says_Anne_Piron%2C_1950.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beauty_is_my_business,_says_Anne_Piron,_1950.jpg",
+      "alt_text": "Beauty is my business, says Anne Piron, 1950.jpg",
+      "title": "Beauty is my business, says Anne Piron, 1950.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.1.still.profield-7",
       "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
@@ -76,7 +121,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-5",
+      "media_slot_id": "I.1.still.profield-8",
       "asset_id": "wikimedia:File:Fan SAAM-1935.8.20 1.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/ae43d3487632fd88.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fan_SAAM-1935.8.20_1.jpg",
@@ -91,7 +136,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-6",
+      "media_slot_id": "I.1.still.profield-9",
       "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/eb30c35e179aae54.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png",
@@ -106,7 +151,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-7",
+      "media_slot_id": "I.1.still.profield-10",
       "asset_id": "internet_archive:barbie-magazine-2003",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
       "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
@@ -121,7 +166,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-8",
+      "media_slot_id": "I.1.still.profield-11",
       "asset_id": "wikimedia:File:Alexander McQueen clamshell dress (51611p).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9840aaa8f2da66c.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Alexander_McQueen_clamshell_dress_%2851611p%29.jpg",
@@ -136,7 +181,7 @@ layout: null
       "collection": "designers"
     },
     {
-      "media_slot_id": "I.1.still.profield-9",
+      "media_slot_id": "I.1.still.profield-12",
       "asset_id": "wikimedia:File:Alexander McQueen Dress at The Metropolitan Museum of Art.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/4ddb9d161b673b9f.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alexander_McQueen_Dress_at_The_Metropolitan_Museum_of_Art.jpg",
@@ -151,58 +196,13 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.1.still.profield-10",
+      "media_slot_id": "I.1.still.profield-13",
       "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c8acd44e8f333198.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
       "alt_text": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
       "title": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-11",
-      "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/e16150afa0636624.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beauty_is_my_business%2C_says_Anne_Piron%2C_1950.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beauty_is_my_business,_says_Anne_Piron,_1950.jpg",
-      "alt_text": "Beauty is my business, says Anne Piron, 1950.jpg",
-      "title": "Beauty is my business, says Anne Piron, 1950.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-12",
-      "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/66e54dae6e9921a1.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dirty_and_damaged_fashion_doll.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dirty_and_damaged_fashion_doll.jpg",
-      "alt_text": "Dirty and damaged fashion doll.jpg",
-      "title": "Dirty and damaged fashion doll.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.1.still.profield-13",
-      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
-      "alt_text": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
-      "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
       "provider": "Wikimedia Commons",
       "credit_line": "Wikimedia Commons",
       "licence": "",

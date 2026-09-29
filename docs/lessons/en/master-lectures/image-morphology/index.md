@@ -1,18 +1,18 @@
 ---
 layout: lesson
-title: 'Master Lecture · Fashion image analysis'
-title_es: 'Master Lecture · Análisis de imagen de moda'
-slug: fashion-image-analysis
+title: 'Master Lecture · Image morphology'
+title_es: 'Master Lecture · Morfología de la imagen'
+slug: image-morphology
 date: 2026-09-27
 author: 'Rubén Vega Balbás, PhD'
 lang: en
-permalink: /lessons/en/master-lectures/fashion-image-analysis/
-description: 'Morphology-first master lecture: read dot, line, plane, shape, form, colour, composition, and perspective before the eight-step critique of a fashion image.'
+permalink: /lessons/en/master-lectures/image-morphology/
+description: 'Foundational master lecture: describe dot, line, plane, shape, form, colour, composition, and perspective before semantic or critical analysis.'
 status: pilot
-tags: [master-lecture, analysis, fashion-image, guide, transversal]
-master_idea: 'Read the image from dot to perspective before asking where it comes from, what it means with evidence, whom it serves, and how it circulates.'
-practice_anchor: '8-step card + Lens A (triad) + Lens B (circulation) on one fashion image'
-deck_url: /master-lectures/fashion-image-analysis/
+tags: [master-lecture, image-morphology, visual-literacy, transversal]
+master_idea: 'Describe the image’s formal components before assigning meaning.'
+practice_anchor: 'Morphology card: dot → line → plane → shape → form → colour → composition → perspective'
+deck_url: /master-lectures/image-morphology/
 ---
 
 <!-- prettier-ignore-start -->
@@ -46,11 +46,11 @@ PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; source={c
 
 <div class="lesson-opener" markdown="1">
 
-> **Describe what is there first; then ask where it comes from, what it means with evidence, whom it serves, and how it circulates.**
+> **Describe how the image is built before asking what it means.**
 
-**In-class slideshow:** [open deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }})
+**In-class slideshow:** [open deck]({{ '/master-lectures/image-morphology/' | relative_url }})
 
-This is a **Master Lecture** — a transversal analysis method. Use it from Digital Creativity I–II, New Media, or any unit that needs a fashion-image critique. It is **not** an official CONTENIDOS unit ID.
+This is a **Master Lecture** — a transversal visual-literacy method. Use it before the separate [Fashion image analysis master lecture]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}).
 
 </div>
 
@@ -71,11 +71,9 @@ It serves campaign analysis, portfolio image work, and any track session that ne
 
 ---
 
-## B1 · Analysis (in the lesson, not only on slides)
+## B1 · Morphology (in the lesson, not only on slides)
 
-This is the critical analysis class, not the morphology class. Complete the separate [Image morphology master lecture]({{ '/lessons/en/master-lectures/image-morphology/' | relative_url }}) first when students need formal vocabulary. Here, morphology is the evidence pass that analysis uses; it is not the endpoint.
-
-### Morphological evidence — before semantics
+### Morphological reading — before semantics
 
 Before asking what an image means, describe how it is built. Use the shared Digital Creativity sequence:
 
@@ -98,84 +96,35 @@ Kandinsky’s teaching shorthand is useful here: the point is the smallest event
 
 **Teaching move:** keep the vocabulary visible while the image changes. Ask students to compare one plane, one form, one colour relation, and one depth cue before they write a semantic hypothesis. The same terms then travel cleanly into the I2 drawing, I3 colour, I4 transformation, and I5 three-dimensional-form labs.
 
-### Two lenses (do not collapse)
+### Hand-off to the analysis master class
 
-| Lens | Short ask | Typical mistake |
+This class stops after formal description. It does not infer genre, meaning, ideology, reception, or circulation. Take the completed morphology card to [Fashion image analysis]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}), where the eight-step critical method begins.
+
+### Morphology card — stop before interpretation
+
+| Pass | Observable vocabulary | Prompt |
 | --- | --- | --- |
-| **A · Language / medium / support** | Code? Channel/genre? Material/file? | Calling the screen “the medium” when you mean the JPEG |
-| **B · Circulation** | Who made it, who sees it, what changes next? | Assuming polish means “the message got through” |
+| 1 | Dot, line, plane | Where are attention, direction, and figure/ground organised? |
+| 2 | Shape, form, light | Which silhouettes, edges, folds, and volumes can you point to? |
+| 3 | Colour, composition | How do hue, value, scale, crop, rhythm, and balance relate? |
+| 4 | Space, perspective | What makes depth, viewpoint, overlap, or projection legible? |
 
-### Eight steps (in order)
+**Stop here.** Meaning, genre, ideology, reception, and circulation belong to the separate analysis master class.
 
-| # | Step | One-line prompt |
-| - | ---- | --------------- |
-| 1 | **Describe** | What do you see, in plain words? |
-| 2 | **Inventory** | Which elements can you point to? |
-| 3 | **Forms** | How are they composed (light, pose, type, crop)? |
-| 4 | **Origin** | Which genres or codes does this come from? |
-| 5 | **Context of production** | Brand, brief, channel, labour, tools? |
-| 6 | **Meaning (hypothesis)** | What might it say or sell? Evidence from 1–5? |
-| 7 | **Critical** | Who benefits? Who is missing? What is hidden? |
-| 8 | **Circulation** | Language / medium / support? How is it re-read when it moves? |
+### Studio exercise: formal inventory
 
-**Without step 7 the card fails.** Description alone is not analysis.
-
-### Why the fashion image matters
-
-Photographs are not product decoration: they organise how fashion is talked about worldwide.
-
-> “Photographic images play a key role in defining global fashion culture and in charting its discursive space.”  
-> — [(Shinkle 2008, 14)](#ref-shinkle-2008)
-
-And there is no single genre. Editorial, advertising, beauty, documentary… each asks for a different method.
-
-> “there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is best suited to its analysis”  
-> — [(Shinkle 2008, 17)](#ref-shinkle-2008)
-
-Fashion photography comprises a wide array of practices — editorial and advertising, beauty, portraiture and documentary, among others [(Shinkle 2008, 15)](#ref-shinkle-2008).
-
-### Meaning and reception
-
-Viewers do not read in a vacuum: they compare with other images.
-
-> “Their meaning is produced by viewer expectations from resemblance to other images.”  
-> — [(Shinkle 2008, 69)](#ref-shinkle-2008)
-
-That is **Lens B** in plain wording: reception can become the next condition of production (another campaign, a meme, a reel).
-
-Contemporary media dramaturgy widens the question: not only “what does it mean,” but **agency, reception, and experience**.
-
-> “The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.”  
-> — [(Eckersall 2017, 219)](#ref-eckersall-2017)
-
-And remember: art and media (industry, social media, media culture, daily life) **do not share the same core function** — even when they share screens.
-
-> “The key assertion here is that art and media (as industry, social media, media culture, mass media, and daily life) have different core functions.”  
-> — [(Eckersall 2017, 218)](#ref-eckersall-2017)
-
-### Critical (step 7) — course emphasis
-
-Fashion photography usually creates desire; your job is to ask *at whose cost*.
-
-> “Fashion photography is about creating desire.”  
-> — [(Shinkle 2008, 78)](#ref-shinkle-2008)
-
-Minimum questions: who is centred? who is absent? which labour (sewing, modelling, retouching) is made invisible? class, gender, racism, ecology?
-
-### Study vocabulary (studium) — for class
-
-When you analyse shared cultural codes (style, genre, “what everyone understands”), you are in the territory of **studium**: conventionalised codes and context. Use it as a classroom tool. Longer secondary quotations on this term stay in the professor brief until a full public citation is ready.
+Choose one image and produce eight short observations, one for each morphology term. Each observation must point to a visible location, relation, or change. Do not write a message, genre claim, or audience interpretation yet.
 
 ---
 
 ## Masterclass ideas (six)
 
-1. Describe before you interpret.
-2. Language ≠ medium ≠ support.
-3. The photo charts fashion’s discursive space [(Shinkle 2008, 14)](#ref-shinkle-2008).
-4. No single genre, no single method [(Shinkle 2008, 17)](#ref-shinkle-2008).
-5. Agency, reception, experience [(Eckersall 2017, 219)](#ref-eckersall-2017).
-6. Desire + critical gaze [(Shinkle 2008, 78)](#ref-shinkle-2008).
+1. Dot and line.
+2. Plane and shape.
+3. Form and light.
+4. Colour relations.
+5. Composition and crop.
+6. Space and perspective.
 
 ---
 
@@ -183,11 +132,11 @@ When you analyse shared cultural codes (style, genre, “what everyone understan
 
 ### Exercise 1 — Shared image
 
-Fill the **8-step card** on the image the professor models. Include Lens A and Lens B.
+Fill the **morphology card** on the image the professor models. Include one visible observation for every component.
 
 ### Exercise 2 — Your image
 
-Choose a fashion image (campaign, lookbook, or feed post). Same card. Deliver: image + card + **one critical sentence** + **one circulation claim**.
+Choose an image from a campaign, lookbook, or feed post. Complete the morphology card only; carry it to the separate analysis class afterward.
 
 Everything goes to the portfolio index / Canvas. It can feed campaign analysis or any track unit that needs visual critique.
 
@@ -197,15 +146,13 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 
 ```
 Image / URL / capture: _______________________
-1 Describe:
-2 Inventory:
-3 Forms:
-4 Origin (genre/codes):
-5 Context of production:
-6 Meaning (hypothesis + evidence):
-7 Critical:
-8 Circulation — Language: ____ Medium: ____ Support: ____
-   Production → reception → what could it produce next?
+1 Dot / line:
+2 Plane / shape:
+3 Form / light:
+4 Colour relations:
+5 Composition / crop:
+6 Space / perspective:
+Visible evidence (where?): _______________________
 ```
 
 ---

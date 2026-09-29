@@ -15,6 +15,8 @@ alwaysApply: false
 **Campaigns:** `fashion-exemplary-social-campaigns/CANONICAL.md` → `20260925T200000Z`.  
 **Harness:** `forge/nm_forge_u1_u2.py` · receipts `NM-THESSIA-U1-U2-REPORT.md` · `NM-COLD-REVIEW-U1-U3.md`.
 
+**Primary Virtual Campus source layer:** `forge/NM-PDF-EXPORT-INGEST.execute.md` · `/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/26-27/ONLINE/PDFs_export/` (23 teaching-content PDFs; separate from research bibliographies).
+
 ## Programme
 
 | Phase | Gate | Output |
@@ -33,6 +35,7 @@ alwaysApply: false
 - Cold B1 → `lesson-scribe` only. Slideshow sentences never Thessia.
 - Publication firewall: no Ahmes/Athanor/Thessia/Ollama names in student HTML.
 - Stop and declare `[BIBLIO-GAP]` rather than fabricate cites.
+- Keep Virtual Campus PDF exports in the dedicated teaching-content namespace; do not mix them into personal/research bibliography projects.
 
 ## Read before writing
 

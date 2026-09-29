@@ -1,0 +1,95 @@
+---
+description: Transversal morphology forge — pre-semantic image vocabulary for Digital Creativity I1–I5 and Fashion Image Analysis
+globs: 'digital-creativity-pedagogy/forge/**,docs/lessons/**,docs/tracks/**'
+alwaysApply: false
+---
+
+# IMAGE MORPHOLOGY FORGE — Dot, line, plane, form, colour, composition
+
+## Purpose
+
+This forge supplies the pre-semantic vocabulary missing between looking and interpreting. It is a reusable master-class layer for Digital Creativity I1–I5 and the transversal Fashion Image Analysis master lecture. It does not replace the unit lessons: each lesson applies the same sequence to its own material problem.
+
+## Binding sequence
+
+```text
+dot → line → plane → shape → form → colour → composition → space/perspective → meaning
+```
+
+Students first name visible relations, then describe organisation, and only afterwards propose semantics or cultural interpretation. Kandinsky's point–line–plane progression is used as a practical studio sequence, not as a claim that one artist exhausts the history of form.
+
+## Vocabulary contract
+
+| Term | Student job | Diagnostic question |
+| --- | --- | --- |
+| Dot | Locate emphasis, rhythm, or attention | Where does the eye stop first? |
+| Line | Trace direction, contour, gesture, or force | What moves, divides, or guides the eye? |
+| Plane | Identify fields, figure/ground, and graphic layers | Which surfaces organise the image? |
+| Shape | Name bounded 2D silhouettes and relations | What can be outlined without interpretation? |
+| Form | Describe volume, mass, edge, and light | What seems flat, folded, or volumetric? |
+| Colour | Compare hue, value, saturation, temperature, contrast | What separates, joins, or dominates? |
+| Composition | Explain hierarchy, balance, scale, crop, and rhythm | How are parts arranged across the frame? |
+| Space / perspective | Track depth cues and viewpoint | What makes the image read as near, far, or projected? |
+
+## Morphological reading card
+
+1. Inventory dots, lines, planes, shapes, and forms without naming meaning.
+2. Mark colour/value relations and the strongest contrast.
+3. Trace composition: axis, crop, scale, rhythm, balance, and figure/ground.
+4. Identify depth or perspective cues only after the 2D organisation is clear.
+5. Write one formal claim with visual evidence.
+6. Pass the card to the existing analysis method: origin, context, meaning, critical question, circulation.
+
+## Unit application
+
+| Unit | Morphology emphasis |
+| --- | --- |
+| I1 | Describe image components before semantic reading |
+| I2 | Convert line, contour, shape, and proportion into 2D drawing |
+| I3 | Construct colour/value systems and bitmap hierarchy |
+| I4 | Track formal change and preserve the before/after trace |
+| I5 | Move from plane and shape to volume, light, and perspective |
+
+## Kandinsky semantic grounding (local extraction)
+
+The following short excerpts are retained as teaching prompts from the local Ahmes extractions. They are not used as public Chicago citations until the bibliographic resolver is enriched; keep the full node/page provenance in the gated receipt.
+
+> “And so also in nature, the point is a self-contained thing, full of possibilities.”
+
+— (Kandinsky 2012, 9)
+
+> “Hidden in this zero, however, are various attributes which are ‘human’ in nature.”
+
+— (Kandinsky 2012, 9)
+
+> “Colour is the keyboard. The eye is the hammer, while the soul is a piano of many strings.”
+
+— (Kandinsky 1946, 44)
+
+### Master ideas derived from the extracts
+
+1. **The point is not nothing:** begin by locating the smallest visible event of attention before naming an object.
+2. **A line is a relation:** trace its direction, tension, repetition, and encounter with the plane.
+3. **The plane gives the mark a field:** composition is not a container added later; it changes the force of every mark.
+4. **Colour is relational action:** teach hue, value, temperature, and contrast as forces that organise perception, not decoration.
+5. **Form is an organised event:** move from point/line/plane to shape, volume, light, and perspective in that order.
+6. **Meaning follows construction:** the semantic reading must cite the formal choices that made the image perceptible.
+
+### Grounded references
+
+- Kandinsky, Wassily. 2012. *Point and Line to Plane*. Translated by Howard Dearstyne and Hilla Rebay. Dover Publications.
+- Kandinsky, Vasily. 1946. *On the Spiritual in Art*. Edited and translated by Hilla Rebay. Solomon R. Guggenheim Foundation, New York.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+[VERIFIED] Kandinsky 2012: user-supplied metadata promoted to local Ahmes extraction; nodes 0832fff7-7abb-5a99-a77c-7203eab07fb6 and 134cd779-9fcf-5faa-9299-9b9a3f97524c; citation resolver evaluator_safe=yes.
+[VERIFIED] Kandinsky 1946: user-supplied metadata promoted to local Ahmes extraction; node b5190079-9e0a-5acb-b363-0a979326c8f9; citation resolver evaluator_safe=yes.
+-->
+{% endif %}
+
+## Output contract
+
+- Master lecture: add one morphology pass before the eight-step analysis.
+- I1–I5: retain current lesson flow; add a short morphology card and one exercise.
+- Decks: use the same vocabulary order; structural openers remain geometrical.
+- Student-facing language stays descriptive before semantic and critical claims.

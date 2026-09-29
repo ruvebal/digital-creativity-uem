@@ -15,6 +15,51 @@ layout: null
   "assets": [
     {
       "media_slot_id": "I.2.still.profield-1",
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fashion_Sketch_Design.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg",
+      "alt_text": "Fashion Sketch Design.jpg",
+      "title": "Fashion Sketch Design.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 10,
+      "selection_rank": 10,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-2",
+      "asset_id": "wikimedia:File:Hand drawing on a graphic tablet.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/fd86a630773ba048.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hand_drawing_on_a_graphic_tablet.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hand_drawing_on_a_graphic_tablet.jpg",
+      "alt_text": "Hand drawing on a graphic tablet.jpg",
+      "title": "Hand drawing on a graphic tablet.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 10,
+      "selection_rank": 10,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-3",
+      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/3e1406d573d0b92f.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "alt_text": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "title": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.2.still.profield-4",
       "asset_id": "wikimedia:File:Work in Progress.JPG",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9d962140d44bf914.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG",
@@ -29,7 +74,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-2",
+      "media_slot_id": "I.2.still.profield-5",
       "asset_id": "wikimedia:File:Nokia 8-display pixel pattern PNr°0495.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/7a2791f63dcc1d31.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nokia_8-display_pixel_pattern_PNr%C2%B00495.jpg",
@@ -44,7 +89,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-3",
+      "media_slot_id": "I.2.still.profield-6",
       "asset_id": "wikimedia:File:Vector graphic design made with Inkscape.svg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/57d691cb5d3028d5.svg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vector_graphic_design_made_with_Inkscape.svg",
@@ -59,7 +104,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-4",
+      "media_slot_id": "I.2.still.profield-7",
       "asset_id": "wikimedia:File:Vector graphic scaling 2.png",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9a618606b3c129a.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Vector_graphic_scaling_2.png",
@@ -74,7 +119,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-5",
+      "media_slot_id": "I.2.still.profield-8",
       "asset_id": "wikimedia:File:Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a8e81ebc3c86799c.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png",
@@ -89,7 +134,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-6",
+      "media_slot_id": "I.2.still.profield-9",
       "asset_id": "wikimedia:File:Surrealism (49679583271).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/152b234ba400335e.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Surrealism_%2849679583271%29.jpg",
@@ -104,7 +149,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-7",
+      "media_slot_id": "I.2.still.profield-10",
       "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
@@ -119,7 +164,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-8",
+      "media_slot_id": "I.2.still.profield-11",
       "asset_id": "wikimedia:File:Svg image.svg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/b9cc7615e728547e.svg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Svg_image.svg",
@@ -134,7 +179,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-9",
+      "media_slot_id": "I.2.still.profield-12",
       "asset_id": "internet_archive:barbie-magazine-2003",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
       "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
@@ -149,7 +194,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-10",
+      "media_slot_id": "I.2.still.profield-13",
       "asset_id": "wikimedia:File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9399010fa60a83d5.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Test_-_image_size_comparison_%28Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic%29.png",
@@ -164,7 +209,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-11",
+      "media_slot_id": "I.2.still.profield-14",
       "asset_id": "wikimedia:File:The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c394ec960555ef46.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_The_Designer_Women%E2%80%99s_Magazine%2C_July_1922_cover%2C_illustration_by_Edward_Mason_Eggleston.png",
@@ -179,7 +224,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.2.still.profield-12",
+      "media_slot_id": "I.2.still.profield-15",
       "asset_id": "wikimedia:File:Umbrella Nearest Neigbor.png",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/22d13e2ce1b849cb.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Umbrella_Nearest_Neigbor.png",

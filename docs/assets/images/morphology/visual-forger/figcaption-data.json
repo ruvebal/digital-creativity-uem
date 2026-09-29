@@ -1,0 +1,18 @@
+{
+  "release": "vf-morphology-2026-09-29",
+  "author": "Rubén Vega Balbás",
+  "license": "CC BY 4.0 · all rights reserved to author except where stated",
+  "skill": "visual-forger",
+  "skill_version": "1.2.0",
+  "pipeline": "deterministic SVG source → ImageMagick PNG derivative",
+  "runtime": "Node.js ESM + ImageMagick",
+  "selection_note": "Alternative vector studies generated from the same six morphology prompts; choose before promotion to the deck.",
+  "assets": [
+    {"id":"vf-dot","title":"Dot","svg":"vf-dot.svg","png":"vf-dot.png","prompt":"A single black dot with concentric attention rings on warm paper."},
+    {"id":"vf-line","title":"Line","svg":"vf-line.svg","png":"vf-line.png","prompt":"One elegant black line moving from straight to curved across warm paper."},
+    {"id":"vf-plane","title":"Plane","svg":"vf-plane.svg","png":"vf-plane.png","prompt":"Layered translucent planes organising figure and ground."},
+    {"id":"vf-form","title":"Form","svg":"vf-form.svg","png":"vf-form.png","prompt":"A flat geometric silhouette unfolding into a volumetric form."},
+    {"id":"vf-colour","title":"Colour","svg":"vf-colour.svg","png":"vf-colour.png","prompt":"Four colour fields comparing hue, value, saturation, and warm-cool contrast."},
+    {"id":"vf-composition","title":"Composition","svg":"vf-composition.svg","png":"vf-composition.png","prompt":"An asymmetrical fashion-image composition with scale, crop, rhythm, and depth."}
+  ]
+}

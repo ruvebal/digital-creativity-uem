@@ -44,6 +44,15 @@
     return value.startsWith(`${base}/`) ? value : `${base}${value.startsWith('/') ? value : `/${value}`}`;
   };
 
+  // Deck JSON uses site-root paths while this page is served from a project
+  // subdirectory. Keep authored local assets local and resolvable in either
+  // development or Pages; do not substitute an unreviewed remote image.
+  const deckAssetHref = (href) => {
+    const value = String(href || '');
+    if (!value || /^(?:https?:|data:|\/\/)/i.test(value)) return value;
+    return value.startsWith(`${base}/`) ? value : `${base}${value.startsWith('/') ? value : `/${value}`}`;
+  };
+
   const stripUtm = (url) => {
     if (!url) return '';
     try {
@@ -152,26 +161,38 @@
         const canPromoteImage = data.media_selection?.promote_high_ranked
           && ['unit_cover', 'analysis_model', 'masterclass', 'lab_exercise', 'workshop_work'].includes(slide.slide_role);
         const promotedAsset = !directAsset && canPromoteImage && promotedAssets.length
-          ? promotedAssets[promotedIndex++ % promotedAssets.length]
+          ? promotedAssets[promotedIndex++] || null
           : null;
-        const selectedAsset = directAsset || promotedAsset;
+        // An authored slide may pin one reviewed promoted asset when its
+        // visual evidence matters to the teaching sequence.  It remains
+        // subject to the same public provenance caption as every other image.
+        const pinnedAsset = slide.background_asset_id
+          ? promotedAssets.find((asset) => asset.asset_id === slide.background_asset_id) || null
+          : null;
+        const selectedAsset = directAsset || pinnedAsset || promotedAsset;
         let fileUrl;
         let captionAsset;
 
         const transitionRoles = ['analysis_opener', 'lab_opener', 'workshop_opener', 'outro'];
         const assetBroken = selectedAsset?.asset_url && /\.php($|\?)/i.test(selectedAsset.asset_url);
         const hasUsableAsset = selectedAsset?.asset_url && !assetBroken;
-        // A deck may intentionally ship with a geometrical fallback while its
-        // reviewed media collection is still empty. As soon as rehydration
-        // provides this slide's asset, it automatically returns to media.
-        const treatAsGeometrical = isGeometrical(slide)
+        // Prefer an authored media_slot / pinned asset over the geometrical
+        // transition default. Geometrical backgrounds remain the fallback when
+        // no usable reviewed image is attached to the slide.
+        const treatAsGeometrical = !hasUsableAsset && (
+          isGeometrical(slide)
           || transitionRoles.includes(slide.slide_role)
-          || (slide.fallback_background_kind === 'geometrical' && !hasUsableAsset);
+          || canPromoteImage
+          || slide.fallback_background_kind === 'geometrical'
+        );
 
         if (treatAsGeometrical) {
-          const file = geometricalCycle[geometricalIndex % geometricalCycle.length];
+          const specifiedUrl = deckAssetHref(slide.background_url);
+          const file = specifiedUrl
+            ? specifiedUrl.split('/').pop()
+            : geometricalCycle[geometricalIndex % geometricalCycle.length];
           geometricalIndex += 1;
-          fileUrl = `${geometricalBase}/${file}`;
+          fileUrl = specifiedUrl || `${geometricalBase}/${file}`;
           const uuidMatch = file.match(/-([a-f0-9]{8,})\.(?:svg|png)$/i);
           if (!uuidMatch) {
             console.warn('Geometrical background missing UUID hash in filename:', file);
@@ -207,13 +228,34 @@
         section.setAttribute('data-background-color', '#0b1220');
         if (slide.slide_role) section.setAttribute('data-slide-role', slide.slide_role);
         if (slide.portfolio_bound) section.setAttribute('data-portfolio-bound', 'true');
+        // Prefer structured body blocks / sentence lists for dense teaching slides.
+        // Falls back to a single sentence paragraph for all existing decks.
+        const bodyBlocks = Array.isArray(slide.body) && slide.body.length
+          ? slide.body.map((block) => {
+              const kicker = block?.kicker
+                ? `<p class="student-media-slide__kicker">${escapeHtml(block.kicker)}</p>`
+                : '';
+              const text = block?.text
+                ? `<p class="student-media-slide__body">${escapeHtml(block.text)}</p>`
+                : '';
+              return `<div class="student-media-slide__block">${kicker}${text}</div>`;
+            }).join('')
+          : (Array.isArray(slide.sentences) && slide.sentences.length
+            ? slide.sentences.map((line) => {
+                const text = String(line || '');
+                const isKicker = /^pass\s*\d/i.test(text.trim());
+                const cls = isKicker ? 'student-media-slide__kicker' : 'student-media-slide__body';
+                return `<p class="${cls}">${escapeHtml(text)}</p>`;
+              }).join('')
+            : (slide.sentence ? `<p>${escapeHtml(slide.sentence)}</p>` : ''));
         section.innerHTML = `
           <div class="student-media-slide">
             <p class="student-media-slide__unit">${escapeHtml(data.unit_label)}</p>
             <h1>${escapeHtml(slide.heading)}</h1>
-            <p>${escapeHtml(slide.sentence)}</p>
+            ${bodyBlocks}
             ${slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : ''}
             ${slide.citation ? `<p class="student-media-slide__citation"><a href="${escapeHtml(citationHref(slide.citation.href))}">${escapeHtml(slide.citation.label)}</a></p>` : ''}
+            ${slide.external_link?.href ? `<p class="student-media-slide__external"><a href="${escapeHtml(slide.external_link.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(slide.external_link.label || 'Open related media')}</a></p>` : ''}
             ${slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : ''}
             ${slide.portfolio_trace ? `<p class="student-media-slide__prompt">${escapeHtml(slide.portfolio_trace)}</p>` : ''}
           </div>`;
@@ -244,7 +286,18 @@
       };
       Reveal.on('ready', updateCaption);
       Reveal.on('slidechanged', updateCaption);
-      if (Reveal.isReady && Reveal.isReady()) updateCaption();
+      // Reveal creates its background nodes asynchronously on first load.
+      // Paint once immediately and once on its next frame so a cold-loaded
+      // deep link (for example #/8) cannot lose its approved background.
+      const refreshBackgrounds = () => {
+        paintBackgrounds();
+        requestAnimationFrame(paintBackgrounds);
+      };
+      Reveal.on('ready', refreshBackgrounds);
+      if (Reveal.isReady && Reveal.isReady()) {
+        updateCaption();
+        refreshBackgrounds();
+      }
     })
     .catch((error) => {
       slidesRoot.innerHTML = `<section data-background-image="${loadingBackground}" data-background-size="cover"><div class="student-media-slide"><h1>Slides unavailable</h1><p>${escapeHtml(error.message)}</p></div></section>`;
