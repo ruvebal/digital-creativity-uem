@@ -10,6 +10,7 @@ permalink: /lessons/es/nuevos-medios-moda/u4-creatividad-contenido/
 description: 'Propuesta creativa de contenido para RRSS — actividad Canvas 10 ptos.'
 status: scaffold
 tags: [nuevos-medios-moda, u4, plataformas, moda]
+themes: [diseno-contenido-creativo, narrativa-storytelling, engagement-contenido-digital]
 master_idea: 'El contenido alineado a marca exige oficio narrativo y criterio de engagement.'
 ---
 

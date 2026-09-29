@@ -19,7 +19,7 @@ Estado (2026-09-25):
 - Idioma de docencia track: ESPAÑOL. Guía lists castellano/inglés. Modalidad online (M31).
 - CONTENIDOS oficiales (6 anclas PDF) ≠ títulos Canvas; Canvas = delivery spine.
 - Eval oficial online: 50 pruebas / 10 caso / 20 investigaciones / 20 cuaderno.
-- Canvas extract 70 pt (4×10+30) maps into those weights — confirm in LMS.
+- XLS/Canvas promoted parametrization: U2 5%, U3 5%, U4 10%, U6 20%, transversal case 10%; final test remains in virtual-tests block.
 - Corpus: profield-nuevos-medios-moda-2026-27 · cite Ahmes only.
 - No publicar rutas Ahmes, UUIDs ni [BIBLIO-GAP] en HTML estudiantil.
 -->
@@ -29,17 +29,28 @@ Estado (2026-09-25):
 
 **Estado:** U1–U3 forjadas (Masterclass + deck Reveal); U4–U6 andamiaje. Las reglas de entrega, rúbricas y fechas viven en **Canvas** (Campus Virtual). Esta web es el material docente de apoyo (temario, actividades, glosario, crítica), no sustituye al LMS.
 
-Evaluación publicada en Canvas (suma 70 + 30):
+Parametrización Canvas/XLS final (actividades; fechas de entrega):
 
-| Bloque | Ítem | Puntos |
+| Actividad | Unidad | Ítem | Peso | Entrega | Individual | Modifica |
+| --- | --- | --- | ---: | --- | --- | --- |
+| 1 | U2 | Diseño y análisis de una estrategia digital para marca de moda | 5% | 28/11/2026 | Sí | No |
+| 2 | U3 | Análisis crítico de una campaña de moda en redes sociales | 5% | 25/11/2026 | Sí | No |
+| 3 | U4 | Propuesta creativa de contenido para redes sociales | 10% | 12/01/2027 | Sí | No |
+| 4 | U6 | Exploración de tecnologías emergentes aplicadas a la moda | 20% | 02/02/2027 | Sí | No |
+| 5 | — | Caso/problema transversal | 10% | 02/02/2027 | Sí | Sí |
+
+U1 y U5 tienen actividades/recursos en Canvas sin tarea puntuada en esta parametrización. La prueba final pertenece al bloque de pruebas virtuales de la guía oficial.
+
+Esta tabla refleja el XLS/Canvas promovido por coordinación. El contrato de evaluación de la guía oficial para la modalidad online es independiente y suma 100%:
+
+| Categoría oficial (guía 2026–27) | Peso |
 | --- | ---: |
-| U2 | Actividad. Diseño y análisis de una estrategia digital para marca de moda | 10 |
-| U3 | Actividad. Análisis crítico de una campaña de moda en redes sociales | 10 |
-| U4 | Actividad. Propuesta creativa de contenido para redes sociales | 10 |
-| U6 | Actividad. Exploración de tecnologías emergentes aplicadas a la moda | 10 |
-| — | Prueba final de conocimientos | 30 |
+| Pruebas de evaluación virtuales | 50% |
+| Caso/problema | 10% |
+| Investigaciones y proyectos | 20% |
+| Cuaderno de prácticas de laboratorio/taller | 20% |
 
-U1 y U5 tienen actividades/recursos en Canvas sin tarea puntuada listada en el extracto actual.
+La parametrización del Excel mantiene el reparto oficial (50% actividades/caso + 50% prueba); esta tabla operativa recoge las actividades promovidas a Canvas.
 
 ## Objetivo del track
 
@@ -64,6 +75,19 @@ Tres capas en cada unidad:
 | **5** | [Herramientas digitales y análisis de datos]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | Cada métrica es una decisión sobre qué cuenta como éxito. | Actividades (sin peso listado) |
 | **6** | [Futuro de la comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | IA y R.A. cambian la escena; autenticidad y divulgación son problemas de estudio. | **Tarea 10 ptos** |
 | **—** | Prueba de conocimientos | Cierra el arco U1–U6. | **Examen 30 ptos** |
+
+### Tres temas dentro de cada unidad
+
+Cada lesson del track corresponde a una unidad Canvas y contiene tres temas de temario; no se crean tres lessons duplicadas por unidad. El CV fino y los decks deben conservar esta jerarquía:
+
+| Unidad | Temas |
+| --- | --- |
+| U1 | Historia de Internet y los medios digitales · Transformación de las redes sociales · Impacto de las plataformas virtuales |
+| U2 | Diseño de estrategias digitales · Herramientas y métricas digitales · Posicionamiento de marcas |
+| U3 | Marketing en redes sociales · Campañas publicitarias · Publicidad en plataformas virtuales |
+| U4 | Diseño de contenido creativo · Narrativa y storytelling · Engagement |
+| U5 | Herramientas para análisis de datos · Big data · Medición y optimización |
+| U6 | IA en comunicación digital · Realidad aumentada · Plataformas interactivas |
 
 ## Master Lectures (transversal · English)
 

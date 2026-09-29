@@ -10,6 +10,7 @@ permalink: /lessons/es/nuevos-medios-moda/u5-herramientas-datos/
 description: 'Herramientas de análisis y ética de medición — sin peso Canvas listado.'
 status: scaffold
 tags: [nuevos-medios-moda, u5, plataformas, moda]
+themes: [herramientas-analisis-datos, big-data-comunicacion, medicion-optimizacion]
 master_idea: 'Cada métrica es una decisión sobre qué cuenta como éxito.'
 ---
 

@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-5-forma-tridimensional/
 description: 'La forma tridimensional como alfabetización espacial — geometría y percepción más una secuencia 2D→3D verificada, con una laguna honesta sobre comprensión validada de la forma.'
 status: scaffold
 tags: [creacion-digital-i, forma-3d, razonamiento-espacial, educacion-moda]
+deck_url: /tracks/dci/i-5-three-dimensional-form/
 ---
 
 <!-- prettier-ignore-start -->

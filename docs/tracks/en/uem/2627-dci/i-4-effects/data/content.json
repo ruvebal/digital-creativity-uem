@@ -1,0 +1,139 @@
+---
+layout: null
+---
+{
+  "unit_label": "Digital Creativity I · I.4 Effects",
+  "final_event_theme": "Communicate and inspire: What is fashion for you?",
+  "media_selection": {
+    "unit_id": "I.4",
+    "project_id": "dc",
+    "collection": "pending-review",
+    "strategy": "review-state-assigned",
+    "description": "Accepted/ranked Profield review-state assets for dc/I.4.",
+    "media_overrides": {}
+  },
+  "assets": [
+    {
+      "media_slot_id": "I.4.still.profield-1",
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(48).JPG",
+      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 5,
+      "selection_rank": 5,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.4.still.profield-2",
+      "asset_id": "wikimedia:File:Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Anna_Miller%27s_uniform_%28pink%29_in_Second_Life_%282012-01-22_22.36.22_by_Ramona_Forcella%29_clip.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Anna_Miller%27s_uniform_(pink)_in_Second_Life_(2012-01-22_22.36.22_by_Ramona_Forcella)_clip.jpg",
+      "alt_text": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "title": "Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "artist"
+    }
+  ],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "profield",
+      "fallback_background_kind": "geometrical",
+      "heading": "I.4 · Effects",
+      "sentence": "An effect is a transformation with a before, a purpose, and a trace.",
+      "prompt": "CONTENIDOS: Efectos",
+      "media_slot_id": "I.4.still.profield-1"
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "From session 3, two students defend an exhibition image for 15 minutes each."
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "profield",
+      "fallback_background_kind": "geometrical",
+      "heading": "Read the transformation",
+      "sentence": "Ask what changed, what stayed, and what the image now claims.",
+      "media_slot_id": "I.4.still.profield-2"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "fallback_background_kind": "geometrical",
+      "heading": "1 · Keep the before",
+      "sentence": "A reversible stack preserves the source, mask, adjustment, and decision."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "fallback_background_kind": "geometrical",
+      "heading": "2 · A filter is an argument",
+      "sentence": "Choose an effect for what it makes legible, not because it is available."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "fallback_background_kind": "geometrical",
+      "heading": "3 · Disclosure is part of craft",
+      "sentence": "Name the operation when the transformation changes how a garment, body, place, or history is read."
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Make the trace visible",
+      "sentence": "Save today's two exercises in your portfolio index."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "fallback_background_kind": "geometrical",
+      "heading": "Lab 1 · Before → after",
+      "sentence": "Make one purposeful transformation and retain the editable before.",
+      "media_slot_id": "I.4.still.profield-1",
+      "portfolio_bound": true,
+      "portfolio_trace": "Portfolio trace: piece ID, before, after, and editable source."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "fallback_background_kind": "geometrical",
+      "heading": "Lab 2 · Write the disclosure",
+      "sentence": "Add one sentence that says what changed, why, and what you refused to change.",
+      "media_slot_id": "I.4.still.profield-2",
+      "portfolio_bound": true,
+      "portfolio_trace": "Portfolio trace: attach the disclosure to the same piece ID."
+    },
+    {
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Carry transformation into D2 / D3",
+      "sentence": "Use the workshop only for the image transposition and final-event progress."
+    },
+    {
+      "slide_role": "workshop_work",
+      "background_kind": "profield",
+      "fallback_background_kind": "geometrical",
+      "heading": "Workshop · Test the claim",
+      "sentence": "Choose one effect that strengthens your image series without hiding its source or authorship.",
+      "media_slot_id": "I.4.still.profield-1"
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Bring one before/after pair, its disclosure, and one decision you would revise."
+    }
+  ]
+}

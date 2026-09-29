@@ -6,6 +6,8 @@ permalink: /evaluation/
 description: 'Assessment weights, five deliverables, and studio evidence bands for Creación Digital I–II (UEM).'
 ---
 
+<div class="evaluation-page prose prose-lg prose-slate dark:prose-invert max-w-none">
+
 # Evaluation
 
 Assessment for Digital Creativity I–II. Official weights come from the UEM guía (see track How-to-Pass decks). Studio choreography is parallel with Creativity Techniques: Masterclass → Lab (portfolio) → Workshop (deliverable). This page does **not** rewrite guía percentages.
@@ -68,3 +70,5 @@ AI declarations, project critiques, and oral defences use the same bands. Polish
 
 - [How to Pass CD I]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }})
 - [How to Pass CD II]({{ '/tracks/dcii/how-to-pass-this-track/' | relative_url }})
+
+</div>

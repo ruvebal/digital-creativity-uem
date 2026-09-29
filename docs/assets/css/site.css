@@ -577,7 +577,8 @@ html.dark,
 	display: block; /* intrinsic: allow horizontal scrolling if needed */
 	inline-size: max-content;
 	min-inline-size: 100%;
-	max-inline-size: none;
+	/* Never let a markdown table widen the page. It may scroll internally. */
+	max-inline-size: 100%;
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 	border: 1px solid var(--border-light);
@@ -602,6 +603,12 @@ html.dark,
 	overflow-wrap: normal;
 	hyphens: none;
 	white-space: normal;
+}
+
+/* Global table safety rule: long labels wrap rather than creating viewport overflow. */
+.prose table th,
+.prose table td {
+	overflow-wrap: anywhere;
 }
 .prose table th {
 	font-weight: 700;
@@ -2719,3 +2726,19 @@ main#main:has(.lesson-wrapper) {
 }
 .dark .locale-link { color: #34d399; border-color: #34d399; }
 .dark .locale-link:hover, .dark .locale-link:focus { background: #34d399; color: #1a1a1a; }
+/* Default-layout evaluation pages use the same readable measure as lesson content. */
+.evaluation-page {
+	width: min(100%, 1120px);
+	margin-inline: auto;
+	padding: clamp(1.5rem, 3vw, 3rem) clamp(1rem, 3vw, 2rem) 4rem;
+}
+
+.evaluation-page > :first-child {
+	margin-top: 0;
+}
+
+@media (max-width: 640px) {
+	.evaluation-page {
+		padding-inline: 1rem;
+	}
+}

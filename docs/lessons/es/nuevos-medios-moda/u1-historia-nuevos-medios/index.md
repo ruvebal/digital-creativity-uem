@@ -10,6 +10,7 @@ permalink: /lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/
 description: 'Internet y las plataformas no son un fondo técnico: reconfiguran la relación marca–público; la historia es un mapa de poder mediático.'
 status: forged
 tags: [nuevos-medios-moda, u1, moda-digital, rrss]
+themes: [historia-internet-medios-digitales, transformacion-redes-sociales, plataformas-virtuales-comunicacion]
 master_idea: 'Internet y las plataformas no son un fondo técnico: reconfiguran la relación marca–público; la historia es un mapa de poder mediático.'
 practice_anchor: 'Recursos: glosario de términos clave + línea de tiempo marca–público'
 deck_url: /tracks/es/uem/2627-nm/u1-historia-nuevos-medios/

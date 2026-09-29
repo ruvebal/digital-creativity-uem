@@ -10,6 +10,7 @@ permalink: /lessons/es/nuevos-medios-moda/u3-marketing-publicidad/
 description: 'La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — y a veces vende posición moral sin mostrar la prenda.'
 status: forged
 tags: [nuevos-medios-moda, u3, plataformas, moda, publicidad]
+themes: [marketing-redes-sociales, campanas-publicitarias, publicidad-plataformas-virtuales]
 master_idea: 'La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — y a veces vende posición moral sin mostrar la prenda.'
 practice_anchor: 'Análisis crítico de campaña de moda en RRSS — actividad Canvas 10 ptos'
 deck_url: /tracks/es/uem/2627-nm/u3-marketing-publicidad/

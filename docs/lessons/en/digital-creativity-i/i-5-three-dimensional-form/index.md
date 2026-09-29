@@ -10,6 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-5-three-dimensional-form/
 description: 'Three-dimensional form as spatial literacy — geometry and perception plus a verified 2D→3D course sequence, with an honest gap on validated form understanding.'
 status: scaffold
 tags: [digital-creativity-i, 3d-form, spatial-reasoning, fashion-education]
+deck_url: /tracks/dci/i-5-three-dimensional-form/
 ---
 
 <!-- prettier-ignore-start -->

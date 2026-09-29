@@ -10,7 +10,7 @@
 			{% if page.lang == 'es' or page.lang == 'es' %}Saltar al contenido{% else %}Skip to main content{% endif %}
 		</a>
 		{% include header.html %}
-		<main id="main" class="min-h-screen prose-slate dark:prose-invert w-full max-w-none">
+		<main id="main" class="min-h-screen prose prose-lg prose-slate dark:prose-invert w-full max-w-none">
 			{% unless page.layout == 'lesson' %}
 			{% assign archive_cover = site.data.archive_covers[page.url] %}
 			{% if archive_cover and page.layout == 'default' %}

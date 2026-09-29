@@ -8,10 +8,17 @@ layout: null
     "unit_id": "ML-FIA",
     "project_id": "ml",
     "collection": "unit-accepted",
+    "promote_high_ranked": true,
     "strategy": "geometrical-first",
     "description": "Master lecture (transversal): geometrical openers; Masterclass quotes from Shinkle 2008 + Eckersall 2017."
   },
   "assets": [],
+  "promoted_assets": [
+    {"asset_id":"wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/324922ac305a2043.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/d/d8/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg","title":"News kiosk — exhibition of fashion magazines","alt_text":"A news kiosk displaying fashion and craft magazines","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":10,"priority":10},
+    {"asset_id":"wikimedia:File:Astronaut Riding a Horse (SD3.5).webp","asset_url":"/digital-creativity-uem/assets/images/profield-cache/14efab1e027565fc.webp","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/0/0f/Astronaut_Riding_a_Horse_(SD3.5).webp","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp","title":"Astronaut riding a horse","alt_text":"A digitally generated astronaut riding a horse","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":10,"priority":10},
+    {"asset_id":"wikimedia:File:Work in Progress.JPG","asset_url":"/digital-creativity-uem/assets/images/profield-cache/9d962140d44bf914.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Work_in_Progress.JPG","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG","title":"Work in Progress","alt_text":"A work-in-progress creative process","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
+    {"asset_id":"wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/bf651ca6c925cff0.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/4/4d/Lautrec_the_photographer_sescau_(poster)_1894.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Lautrec_the_photographer_sescau_(poster)_1894.jpg","title":"Lautrec — The photographer Sescau","alt_text":"A 1894 poster depicting the photographer Sescau","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9}
+  ],
   "slides": [
     {
       "slide_role": "unit_cover",

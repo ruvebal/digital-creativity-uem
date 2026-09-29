@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-4-efectos/
 description: 'Un efecto es una transformación con un antes — operaciones de filtrado y composición más conciencia ética de la imagen retocada en moda, con una laguna honesta sobre pedagogía de efectos.'
 status: scaffold
 tags: [creacion-digital-i, efectos, filtros, divulgacion]
+deck_url: /tracks/dci/i-4-effects/
 ---
 
 <!-- prettier-ignore-start -->

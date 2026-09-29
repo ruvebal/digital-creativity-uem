@@ -101,6 +101,19 @@ Detalle B1/B2/B3: [`UNIT-PLAN-NUEVOS-MEDIOS.md`](./UNIT-PLAN-NUEVOS-MEDIOS.md).
 | U6 Futuro de la comunicación digital | 4 Presente y futuro… | CON4 · COMP8 · HAB5 |
 | Transversal | 5 Globalización y consumo interconectado | CON4 · COMP2 |
 
+### 5.3 Desglose fino de temas (Canvas → lesson)
+
+La unidad Canvas es la **lesson contenedora**; cada unidad contiene tres temas de temario. Por tanto, en este track **1 lesson = 1 unidad = 3 temas**, no una lesson independiente por tema. Los adjuntos de Temario del export Canvas son los tres anchors finos que deben aparecer como subsecciones dentro de la lesson y como tarjetas/diapositivas del deck.
+
+| Unidad / lesson | Tema 1 | Tema 2 | Tema 3 |
+|---|---|---|---|
+| U1 · Historia y evolución de los nuevos medios | Historia de Internet y los medios digitales | Transformación de las redes sociales | Impacto de las plataformas virtuales en la comunicación |
+| U2 · Estrategias de comunicación digital | Diseño de estrategias digitales | Uso de herramientas y métricas digitales | Posicionamiento de marcas en plataformas virtuales |
+| U3 · Marketing y publicidad en nuevos medios | Estrategias de marketing en redes sociales | Creación de campañas publicitarias | Publicidad efectiva en plataformas virtuales |
+| U4 · Creatividad y contenido digital | Diseño de contenido creativo | Narrativa de marca y storytelling | Estrategias de engagement con contenido digital |
+| U5 · Herramientas digitales y análisis de datos | Herramientas digitales para el análisis de datos | Uso de big data en estrategias de comunicación | Medición y optimización de resultados |
+| U6 · Futuro de la comunicación digital | Impacto de la inteligencia artificial en la comunicación digital | Realidad aumentada en el marketing | Futuro de las plataformas interactivas |
+
 ## 6. Metodologías
 
 Del PDF §5 / JSON `methodologies.General`:
@@ -145,16 +158,17 @@ El Campus Virtual detalla fechas, rúbricas y nota mínima por actividad (PDF §
 
 ### 8.2 Entregables Canvas observados (operativos · no sustituyen §8.1)
 
-Extracto LMS 2026-09-22 (puntos sobre 70). Mapeo provisional a pesos oficiales — **confirmar
-en Canvas** con la coordinadora:
+Parametrización XLS/Canvas promovida por coordinación (fechas y pesos operativos):
 
-| Canvas | Puntos | Encaje tentativo en §8.1 |
-| --- | ---: | --- |
-| U2 Estrategia digital marca moda | 10 | Investigaciones y proyectos / Caso |
-| U3 Análisis crítico campaña RRSS | 10 | Caso/problema · Cuaderno |
-| U4 Propuesta creativa contenido | 10 | Investigaciones y proyectos · Cuaderno |
-| U6 Tecnologías emergentes moda | 10 | Investigaciones y proyectos · Cuaderno |
-| Prueba final de conocimientos | 30 | Pruebas de evaluación virtuales (parcial; el 50 % oficial puede incluir más ítems) |
+| Actividad | Peso | Entrega | Modifica |
+| --- | ---: | --- | --- |
+| U2 Estrategia digital marca moda | 5 % | 28/11/2026 | No |
+| U3 Análisis crítico campaña RRSS | 5 % | 25/11/2026 | No |
+| U4 Propuesta creativa contenido | 10 % | 12/01/2027 | No |
+| U6 Tecnologías emergentes moda | 20 % | 02/02/2027 | No |
+| Caso/problema transversal | 10 % | 02/02/2027 | Sí |
+
+La prueba final se mantiene dentro del bloque oficial de pruebas virtuales (50 %); su parametrización no forma parte de esta tabla de actividades.
 
 ## 9. Nota pedagógica / investigación
 

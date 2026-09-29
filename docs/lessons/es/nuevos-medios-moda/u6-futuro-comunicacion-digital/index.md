@@ -10,6 +10,7 @@ permalink: /lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/
 description: 'Tecnologías emergentes aplicadas a la moda — actividad Canvas 10 ptos.'
 status: scaffold
 tags: [nuevos-medios-moda, u6, plataformas, moda]
+themes: [ia-comunicacion-digital, realidad-aumentada-marketing, plataformas-interactivas]
 master_idea: 'IA y R.A. cambian la escena; autenticidad y divulgación son problemas de estudio.'
 ---
 

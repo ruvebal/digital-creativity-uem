@@ -10,6 +10,7 @@ permalink: /lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/
 description: 'Una estrategia digital de moda es un sistema de presencia — voz, formatos, métricas e hipótesis — no un calendario de posts.'
 status: forged
 tags: [nuevos-medios-moda, u2, moda-digital, rrss]
+themes: [diseno-estrategias-digitales, herramientas-metricas, posicionamiento-plataformas]
 master_idea: 'Una estrategia digital de moda es un sistema de presencia — voz, formatos, métricas e hipótesis — no un calendario de posts.'
 practice_anchor: 'Actividad 10 ptos — Diseño y análisis de una estrategia digital para marca de moda'
 deck_url: /tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/

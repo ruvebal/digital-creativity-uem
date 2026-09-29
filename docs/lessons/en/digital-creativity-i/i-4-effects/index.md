@@ -10,6 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-4-effects/
 description: 'An effect is a transformation with a before — filtering and compositing operations plus ethical awareness of retouched fashion imagery, with an honest gap on effects pedagogy.'
 status: scaffold
 tags: [digital-creativity-i, effects, filters, disclosure]
+deck_url: /tracks/dci/i-4-effects/
 ---
 
 <!-- prettier-ignore-start -->
