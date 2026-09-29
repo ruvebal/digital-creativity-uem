@@ -12,3 +12,5 @@ _site_test/
 
 # Optional: never commit Ahmes PDF dumps if dropped here by mistake
 digital-creativity-pedagogy/**/pdfs/
+
+*.~lock.*

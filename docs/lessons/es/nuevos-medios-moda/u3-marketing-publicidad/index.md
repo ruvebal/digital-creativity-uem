@@ -58,10 +58,10 @@ Al final de esta unidad podrás:
 
 | Idea | Claim corto | Evidencia SAFE / pública | Caso vivo (rank · Track) | Qué no hace |
 | --- | --- | --- | --- | --- |
-| 1 | La publicidad puede borrar la prenda | URL pública Vogue/COLORS (sin Ahmes aún) | **Benetton / COLORS** rank **5** · **A** | No inventar cita de vault |
+| 1 | La publicidad puede borrar la prenda | URL pública Vogue/COLORS (verificación pendiente) | **Benetton / COLORS** rank **5** · **A** | No inventar cita |
 | 2 | Shock ≠ prueba de impacto | (UNEP 2023, 27) brainprint | Benetton(5) vs **PayUp**(1 · **C**) | UNEP no evalúa Benetton |
 | 3 | El green claim es apuesta reputacional | (UNEP 2023, 26) | **Levi’s** rank **8** · **A** | No es veredicto legal |
-| 4 | Presionar la marca ≠ ser la marca | Primaria Ropa Limpia (URL) | **Ropa Limpia × Inditex** rank **7** · **B/C** | No Ahmes aún para SETEM |
+| 4 | Presionar la marca ≠ ser la marca | Primaria Ropa Limpia (URL) | **Ropa Limpia × Inditex** rank **7** · **B/C** | Verificación bibliográfica pendiente para SETEM |
 
 Banco: `CANONICAL.md` → `TEACHING-CAMPAIGN-LEDGER.md` (20260925T200000Z).
 
@@ -71,7 +71,7 @@ Banco: `CANONICAL.md` → `TEACHING-CAMPAIGN-LEDGER.md` (20260925T200000Z).
 
 ### 1. La publicidad puede borrar la prenda
 
-United Colors of Benetton (Oliviero Toscani) y la revista **COLORS** (con Tibor Kalman desde 1991) enseñan un giro histórico: el anuncio de moda puede **no mostrar la ropa** y aun así construir marca mediante raza, sida, religión, guerra o migración. Eso no es “RRSS moderno”: es la genealogía del *shockvertising* y del purpose antes de TikTok. ¿Qué compra el público — jersey o posición moral? *(studio stance — cite pública / ledger rank 5; Ahmes pendiente.)*
+United Colors of Benetton (Oliviero Toscani) y la revista **COLORS** (con Tibor Kalman desde 1991) enseñan un giro histórico: el anuncio de moda puede **no mostrar la ropa** y aun así construir marca mediante raza, sida, religión, guerra o migración. Eso no es “RRSS moderno”: es la genealogía del *shockvertising* y del purpose antes de TikTok. ¿Qué compra el público — jersey o posición moral? *(studio stance — cite fuente pública / ledger rank 5; verificación bibliográfica pendiente.)*
 
 ### 2. Shock ≠ prueba de impacto social
 
@@ -130,10 +130,10 @@ En dos frases: ¿por qué **PayUp** y **Benetton** no pueden compartir la misma 
 
 United Nations Environment Programme. 2023. *The Sustainable Fashion Communication Playbook*. Nairobi: UNEP. https://doi.org/10.59117/20.500.11822/42819.
 
-Profield teaching ledger (no Chicago quote bank): `fashion-exemplary-social-campaigns` · `20260925T200000Z` · ranks 5 / 1 / 8 / 7.
+Teaching campaign ledger (no Chicago quote bank): ranks 5 / 1 / 8 / 7.
 
 ---
 
 ## Nota editorial
 
-**Work in progress.** Cold B1 Thessia para U3 ideas 1 y 4 sigue opcional (`NM-COLD-REVIEW-U1-U3.md`). Reveal deck shipped 2026-09-26. Benetton sin nodo Ahmes: solo nombre + URL pública hasta ingest.
+**Work in progress.** Cold B1 para U3 ideas 1 y 4 sigue opcional. Reveal deck shipped 2026-09-26. Benetton queda citado solo por nombre y URL pública hasta completar la verificación bibliográfica.

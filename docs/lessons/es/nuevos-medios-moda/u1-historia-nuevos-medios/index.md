@@ -60,9 +60,9 @@ Al final de esta unidad podrás:
 | 1 | La historia de medios es mapa de poder | (Nobile 2021, 294) · (Lamerichs 2024, 3) | **PayUp** rank 1 · **Track C** — (UNEP 2023, 80) | No es una crónica general de Internet |
 | 2 | La transformación digital toca toda la moda | (Nobile 2021, 294) | **Action Works** rank 6 · **Track A** — (UNEP 2023, 79) | No prescribe un roadmap de marca |
 | 3 | El medio reescribe marca–público | (Abidin 2016, 1) · (UNEP 2023, 27) | **Levi’s** rank 8 · **Track A** — (UNEP 2023, 55) | Abidin = Instagram; UNEP = brainprint + caso Levi’s |
-| 4 | Glosario activo | (Abidin 2016, 2) + postura de estudio | Banco ranks: PayUp(1) · **Benetton/COLORS(5)** · Action Works(6) · Levi’s(8) · Project Earth(9) | Lexicografía pedagógica aún abierta; Benetton sin Ahmes aún |
+| 4 | Glosario activo | (Abidin 2016, 2) + postura de estudio | Banco ranks: PayUp(1) · **Benetton/COLORS(5)** · Action Works(6) · Levi’s(8) · Project Earth(9) | Lexicografía pedagógica aún abierta; Benetton pendiente de verificación bibliográfica |
 
-Banco canónico: Profield `fashion-exemplary-social-campaigns` → `CANONICAL.md` → `20260925T200000Z/TEACHING-CAMPAIGN-LEDGER.md` (Ahmes subset: `VERIFIED-CAMPAIGNS.md`).
+Banco canónico de campañas: ledger docente de casos verificados; consultar las fuentes públicas enlazadas en cada entrada.
 
 ---
 
@@ -184,7 +184,7 @@ Cada plataforma redefine quién habla, quién amplifica y quién mide. En Instag
 
 ### 4. Glosario activo, no lista muerta
 
-Un término del glosario solo cuenta si lo anclas a un caso vivo. “Advertorial”, “#OOTD” o “visibility labour” no son decoración: nombran trabajo y circulación en campañas ancladas a seguidores (Abidin 2016, 2). Banco vivo de este curso (Track A, Ahmes-safe): **PayUp** · **Action Works** · **Levi’s Buy Better, Wear Longer** · **Selfridges Project Earth** (United Nations Environment Programme 2023, 56, 55, 79, 80). Si la definición oficial y la marca real divergen, ese desfase es material de estudio — no un error a ocultar. *(Postura de estudio: la pedagogía del glosario como instrumento crítico sigue abierta en el corpus del curso.)*
+Un término del glosario solo cuenta si lo anclas a un caso vivo. “Advertorial”, “#OOTD” o “visibility labour” no son decoración: nombran trabajo y circulación en campañas ancladas a seguidores (Abidin 2016, 2). Banco vivo de este curso: **PayUp** · **Action Works** · **Levi’s Buy Better, Wear Longer** · **Selfridges Project Earth** (United Nations Environment Programme 2023, 56, 55, 79, 80). Si la definición oficial y la marca real divergen, ese desfase es material de estudio — no un error a ocultar. *(Postura de estudio: la pedagogía del glosario como instrumento crítico sigue abierta.)*
 
 > This article turns to focus on Influencers' followers and the labour in which they engage in tandem with Influencers' advertorial posts. … the products of followers' labour are also publicly utilised with little to no remuneration, compensation or acknowledgement.
 >
@@ -214,7 +214,7 @@ Un término del glosario solo cuenta si lo anclas a un caso vivo. “Advertorial
 
 ### Perspectiva crítica
 
-La crítica de plataforma (poder, datos, trabajo, divulgación, sostenibilidad) atraviesa esta unidad; no se aplaza a un módulo ético separado. Distingue siempre **tres pistas**: (A) campaña de marca/diseñador · (B) marco España–Ibero · (C) activismo de movimiento (boicot, ocupación, carnaval/costume) — no son intercambiables. Casos B/C (p. ej. presión a Inditex, Carnaval de Gualeguaychú) se nombran como investigación; solo entran como cita cuando haya nodo Ahmes seguro.
+La crítica de plataforma (poder, datos, trabajo, divulgación, sostenibilidad) atraviesa esta unidad; no se aplaza a un módulo ético separado. Distingue siempre **tres pistas**: (A) campaña de marca/diseñador · (B) marco España–Ibero · (C) activismo de movimiento (boicot, ocupación, carnaval/costume) — no son intercambiables. Casos B/C (p. ej. presión a Inditex, Carnaval de Gualeguaychú) se nombran como investigación y solo entran como cita cuando exista una fuente pública verificable.
 
 ---
 

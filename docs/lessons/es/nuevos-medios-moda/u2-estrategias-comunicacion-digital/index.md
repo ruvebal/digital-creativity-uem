@@ -216,7 +216,7 @@ Si el claim no aguanta evidencia, no es estrategia: es riesgo. A escala UE, más
 
 ### Perspectiva crítica
 
-La crítica de plataforma atraviesa la estrategia: no hay “capa ética” al final del calendario. Clasifica cada ejemplo como Track **A** (marca/diseñador), **B** (España–Ibero) o **C** (movimiento: boicot, ocupación, carnaval). Casos B/C se investigan por nombre; citas solo con nodo Ahmes.
+La crítica de plataforma atraviesa la estrategia: no hay “capa ética” al final del calendario. Clasifica cada ejemplo como Track **A** (marca/diseñador), **B** (España–Ibero) o **C** (movimiento: boicot, ocupación, carnaval). Casos B/C se investigan por nombre y se citan solo con fuentes públicas verificables.
 
 ---
 
