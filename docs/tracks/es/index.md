@@ -25,8 +25,11 @@ permalink: /tracks/es/
     <li>
       <a href="{{ '/tracks/es/nuevos-medios-moda/' | relative_url }}">
         <strong>Nuevos medios — RRSS y plataformas virtuales (moda)</strong>
-        <span>Online · ES · 6 unidades Canvas + prueba final — andamiaje</span>
+        <span>Online · ES · U1–U3 forjadas + decks · U4–U6 andamiaje</span>
       </a>
+      <p style="margin:0.35rem 0 0 1.5rem;font-size:0.875rem">
+        <a href="{{ '/lessons/es/nuevos-medios-moda/' | relative_url }}">Índice de lecciones U1–U6 →</a>
+      </p>
     </li>
   </ul>
 

@@ -13,5 +13,5 @@ Shared **analysis methods** used across tracks. Not official CONTENIDOS unit IDs
 
 | Master Lecture | Lesson | Slideshow |
 | --- | --- | --- |
-| **Image morphology** | [Lesson]({{ '/lessons/en/master-lectures/image-morphology/' \| relative_url }}) | [Deck]({{ '/master-lectures/image-morphology/' \| relative_url }}) |
-| **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' \| relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' \| relative_url }}) |
+| **Image morphology** | [Lesson]({{ '/lessons/en/master-lectures/image-morphology/' | relative_url }}) | [Deck]({{ '/master-lectures/image-morphology/' | relative_url }}) |
+| **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |

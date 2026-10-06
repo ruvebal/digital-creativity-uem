@@ -66,15 +66,17 @@ Tres capas en cada unidad:
 
 ## Unidades (contrato Canvas)
 
-| U | Lección | Idea maestra | Canvas |
-| --- | --- | --- | --- |
-| **1** | [Historia y evolución de los nuevos medios]({{ '/lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | Internet y las plataformas reconfiguran la relación marca–consumidor; la historia es un mapa de poder mediático. | Glosario / recursos |
-| **2** | [Estrategias de comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | Una estrategia digital es un sistema de presencia, no un calendario de posts. | **Tarea 10 ptos** |
-| **3** | [Marketing y publicidad en nuevos medios]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — a veces sin mostrar la prenda. | **Tarea 10 ptos** |
-| **4** | [Creatividad y contenido digital]({{ '/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | El contenido alineado a marca exige oficio narrativo y criterio de engagement. | **Tarea 10 ptos** |
-| **5** | [Herramientas digitales y análisis de datos]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | Cada métrica es una decisión sobre qué cuenta como éxito. | Actividades (sin peso listado) |
-| **6** | [Futuro de la comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | IA y R.A. cambian la escena; autenticidad y divulgación son problemas de estudio. | **Tarea 10 ptos** |
-| **—** | Prueba de conocimientos | Cierra el arco U1–U6. | **Examen 30 ptos** |
+Índice compacto de lecciones: [`/lessons/es/nuevos-medios-moda/`]({{ '/lessons/es/nuevos-medios-moda/' | relative_url }}).
+
+| U | Lección | Diapositivas | Idea maestra | Canvas |
+| --- | --- | --- | --- | --- |
+| **1** | [Historia y evolución…]({{ '/lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/' | relative_url }}) | Internet y las plataformas reconfiguran la relación marca–consumidor; la historia es un mapa de poder mediático. | Glosario / recursos |
+| **2** | [Estrategias de comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/' | relative_url }}) | Una estrategia digital es un sistema de presencia, no un calendario de posts. | **Tarea 10 ptos** |
+| **3** | [Marketing y publicidad…]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u3-marketing-publicidad/' | relative_url }}) | La campaña de moda en red es trabajo de visibilidad, divulgación y confianza — a veces sin mostrar la prenda. | **Tarea 10 ptos** |
+| **4** | [Creatividad y contenido digital]({{ '/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | — | El contenido alineado a marca exige oficio narrativo y criterio de engagement. | **Tarea 10 ptos** |
+| **5** | [Herramientas digitales y datos]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | — | Cada métrica es una decisión sobre qué cuenta como éxito. | Actividades (sin peso listado) |
+| **6** | [Futuro de la comunicación digital]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | — | IA y R.A. cambian la escena; autenticidad y divulgación son problemas de estudio. | **Tarea 10 ptos** |
+| **—** | Prueba de conocimientos | — | Cierra el arco U1–U6. | **Examen 30 ptos** |
 
 ### Tres temas dentro de cada unidad
 

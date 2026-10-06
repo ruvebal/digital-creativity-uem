@@ -24,12 +24,18 @@ description: 'English lesson hub for Digital Creativity I–II, New Media, and m
       </a>
     </li>
     <li>
-      <a href="{{ '/tracks/en/nuevos-medios-moda/' | relative_url }}">
+      <a href="{{ '/lessons/en/nuevos-medios-moda/' | relative_url }}">
         <strong>New Media — Fashion Platforms &amp; Social Networks</strong>
-        <span>Online · Spanish is the teaching language — EN twin available</span>
+        <span>Online · Spanish teaching language · EN twin hub + unit links</span>
       </a>
     </li>
   </ul>
+  <p class="hc-lead" style="margin-top:0;margin-bottom:2rem">
+    Course track:
+    <a href="{{ '/tracks/es/nuevos-medios-moda/' | relative_url }}">Pass this track (ES · teaching)</a>
+    ·
+    <a href="{{ '/tracks/en/nuevos-medios-moda/' | relative_url }}">EN twin</a>
+  </p>
 
   <h2>Master Lectures</h2>
   <p class="hc-lead" style="margin-top:0">Transversal analysis methods — usable from any track.</p>

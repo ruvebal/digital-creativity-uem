@@ -32,3 +32,7 @@ Forged ES Masterclass (Thessia cold B1 + review). EN twin carries no second rese
 ## Evidence map
 
 See the Spanish lesson for the per-idea SAFE evidence table and verbatim extracts (Abidin, Lamerichs / Alkkiomäki, Nobile, UNEP). This EN twin does not duplicate the research spine.
+
+## AI-assisted authorship
+
+Canonical authorship declaration lives on the [Spanish lesson]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}). This EN page is a navigation twin only (*Forge date: 2026-09-25*).

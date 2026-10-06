@@ -30,3 +30,7 @@ Fashion campaigns on networks are visibility, disclosure, and trust work — and
 ## Track
 
 Back to [Nuevos medios track (EN)]({{ '/tracks/en/nuevos-medios-moda/' | relative_url }}).
+
+## AI-assisted authorship
+
+Canonical authorship declaration lives on the [Spanish lesson]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}). This EN page is a navigation twin only (*Forge date: 2026-09-26*).

@@ -25,8 +25,13 @@ permalink: /tracks/en/
     <li>
       <a href="{{ '/tracks/en/nuevos-medios-moda/' | relative_url }}">
         <strong>New Media — Fashion Platforms &amp; Social Networks</strong>
-        <span>Online · Spanish is the teaching language — EN twin for S./E. switch · Canvas 6-unit scaffold</span>
+        <span>Online · Spanish teaching language · U1–U3 forged + decks</span>
       </a>
+      <p style="margin:0.35rem 0 0 1.5rem;font-size:0.875rem">
+        <a href="{{ '/lessons/es/nuevos-medios-moda/' | relative_url }}">Lessons hub (ES teaching) →</a>
+        ·
+        <a href="{{ '/lessons/en/nuevos-medios-moda/' | relative_url }}">EN hub</a>
+      </p>
     </li>
   </ul>
 

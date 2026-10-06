@@ -37,15 +37,17 @@ Canvas assessment (70 + 30):
 
 ## Units (Canvas contract)
 
-| U | Lesson | Master idea | Canvas |
-| --- | --- | --- | --- |
-| 1 | [History and evolution of new media]({{ '/lessons/en/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | Platforms reconfigure brand–consumer relations; history is a power map. | Glossary / resources |
-| 2 | [Digital communication strategies]({{ '/lessons/en/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | Strategy is a presence system, not a posting calendar. | **10 pt activity** |
-| 3 | [Marketing and advertising in new media]({{ '/lessons/en/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | Fashion campaigns = visibility labour + disclosure + trust. | **10 pt activity** |
-| 4 | [Creativity and digital content]({{ '/lessons/en/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | Brand-aligned content needs craft *and* critique. | **10 pt activity** |
-| 5 | [Digital tools and data analysis]({{ '/lessons/en/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | Metrics are decisions about what counts as success. | Activities (no listed score) |
-| 6 | [Future of digital communication]({{ '/lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | AI/AR change the stage; authenticity and disclosure are studio problems. | **10 pt activity** |
-| — | Knowledge test | Closes U1–U6 | **30 pt exam** |
+Teaching hub (ES): [`/lessons/es/nuevos-medios-moda/`]({{ '/lessons/es/nuevos-medios-moda/' | relative_url }}) · EN twin hub: [`/lessons/en/nuevos-medios-moda/`]({{ '/lessons/en/nuevos-medios-moda/' | relative_url }}).
+
+| U | Lesson (EN twin) | Lesson (ES) | Deck (ES) | Canvas |
+| --- | --- | --- | --- | --- |
+| 1 | [History…]({{ '/lessons/en/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/' | relative_url }}) | Glossary / resources |
+| 2 | [Strategies…]({{ '/lessons/en/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/' | relative_url }}) | **10 pt activity** |
+| 3 | [Marketing…]({{ '/lessons/en/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u3-marketing-publicidad/' | relative_url }}) | **10 pt activity** |
+| 4 | [Creativity…]({{ '/lessons/en/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | — | **10 pt activity** |
+| 5 | [Tools / data…]({{ '/lessons/en/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | — | Activities (no listed score) |
+| 6 | [Future…]({{ '/lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | — | **10 pt activity** |
+| — | Knowledge test | — | — | **30 pt exam** |
 
 ## Master Lectures (transversal · English)
 

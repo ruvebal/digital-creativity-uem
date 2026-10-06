@@ -131,3 +131,20 @@ If these boxes are not complete, teach normally and produce **no research datase
 - **Ready to study:** all P0-R gates complete before data collection.
 - **Ready to exhibit:** signed piece-specific S1/S2, plus any cross-institutional approval.
 - **Evidence-complete:** not required and probably unattainable; declared pilots remain legitimate when their boundaries are explicit.
+
+## 5. Nuevos medios (RRSS · moda) — readiness snapshot (2026-10-06)
+
+Separate online track; teaching language **ES**. Does **not** inherit CD I–II contact-hour tables.
+
+| Surface | State |
+| --- | --- |
+| Official guía + CV + unit plan | ✅ PDF REF `4d3415b1` · `2-nuevos-medios-rrss.json` · `uem-ruvebal-nuevos-medios-moda-cv.md` |
+| Site indexes (home, tracks, lessons hubs) | ✅ `/lessons/{es,en}/nuevos-medios-moda/` + homepage card |
+| Campaign prescription | ✅ `fashion-exemplary-social-campaigns/CANONICAL.md` → `20260925T200000Z` wired in U1–U3 |
+| U1–U3 lessons (ES) + Reveal decks | ✅ forged; AI-assisted authorship present |
+| U1–U3 EN twins | ✅ navigation only (no second research spine) |
+| U4–U6 lessons + decks | ✗ scaffold only — **not teach-ready as forged pack** |
+| Activity sheets / exam bank (N4) | ✗ deferred |
+| Canvas dates / rubrics | external (Campus Virtual) — do not invent here |
+
+**Verdict for first teaching day:** ready to open with **U1** (and U2/U3 when the calendar reaches them). Not ready to claim a complete six-unit forged track. Master Lecture *Fashion image analysis* (EN) is available as transversal method.

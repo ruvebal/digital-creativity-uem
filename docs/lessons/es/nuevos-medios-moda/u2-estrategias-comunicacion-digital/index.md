@@ -243,6 +243,12 @@ Mini-caso o quiz en Canvas. Evidencia individual.
 
 ---
 
-## Nota editorial
+## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-Trabajo en progreso. Práctica de innovación docente. HTML estudiantil sin nombres de herramientas internas. Ver `/ai-declaration/`.
+HTML estudiantil sin nombres de herramientas internas. Campañas de estudio ancladas al ledger docente `20260925T200000Z`. Ver [declaración de IA]({{ '/ai-declaration/' | relative_url }}).
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U2 unit forge, teaching-campaign ledger adjudication (`fashion-exemplary-social-campaigns` · `20260925T200000Z`), and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
+
+*Forge date: 2026-09-25 · Studio: <span class="domain">crea-comm.net</span>*

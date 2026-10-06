@@ -24,12 +24,16 @@ description: 'Índice de lecciones en español para Creación Digital I–II, Nu
       </a>
     </li>
     <li>
-      <a href="{{ '/tracks/es/nuevos-medios-moda/' | relative_url }}">
+      <a href="{{ '/lessons/es/nuevos-medios-moda/' | relative_url }}">
         <strong>Nuevos Medios — Plataformas de moda y redes sociales</strong>
-        <span>Online · español como lengua de docencia</span>
+        <span>Online · ES · índice de unidades U1–U6 + decks · <em>track</em> también en Tracks</span>
       </a>
     </li>
   </ul>
+  <p class="hc-lead" style="margin-top:0;margin-bottom:2rem">
+    Track del curso:
+    <a href="{{ '/tracks/es/nuevos-medios-moda/' | relative_url }}">Cómo aprobar · Nuevos medios</a>
+  </p>
 
   <h2>Master Lectures</h2>
   <p class="hc-lead" style="margin-top:0">Métodos de análisis transversales — utilizables desde cualquier track.</p>
