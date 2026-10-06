@@ -228,6 +228,7 @@
         section.setAttribute('data-background-color', '#0b1220');
         if (slide.slide_role) section.setAttribute('data-slide-role', slide.slide_role);
         if (slide.portfolio_bound) section.setAttribute('data-portfolio-bound', 'true');
+        if (slide.card_link?.href) section.setAttribute('data-card-href', citationHref(slide.card_link.href));
         // Prefer structured body blocks / sentence lists for dense teaching slides.
         // Falls back to a single sentence paragraph for all existing decks.
         const bodyBlocks = Array.isArray(slide.body) && slide.body.length
@@ -252,11 +253,13 @@
           <div class="student-media-slide">
             <p class="student-media-slide__unit">${escapeHtml(data.unit_label)}</p>
             <h1>${escapeHtml(slide.heading)}</h1>
+            ${slide.figure?.src ? `<img class="student-media-slide__figure" src="${escapeHtml(deckAssetHref(slide.figure.src))}" alt="${escapeHtml(slide.figure.alt || '')}">` : ''}
             ${bodyBlocks}
             ${slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : ''}
             ${slide.citation ? `<p class="student-media-slide__citation"><a href="${escapeHtml(citationHref(slide.citation.href))}">${escapeHtml(slide.citation.label)}</a></p>` : ''}
             ${slide.external_link?.href ? `<p class="student-media-slide__external"><a href="${escapeHtml(slide.external_link.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(slide.external_link.label || 'Open related media')}</a></p>` : ''}
             ${slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : ''}
+            ${slide.card_link?.href ? `<p class="student-media-slide__card"><a href="${escapeHtml(citationHref(slide.card_link.href))}">${escapeHtml(slide.card_link.label || 'Printable card')}</a></p>` : ''}
             ${slide.portfolio_trace ? `<p class="student-media-slide__prompt">${escapeHtml(slide.portfolio_trace)}</p>` : ''}
           </div>`;
         if (fileUrl) backgroundUrlBySection.set(section, fileUrl);
@@ -278,10 +281,18 @@
         });
       }
 
+      const lessonUrl = body.dataset.lessonUrl || '';
+      const backLink = document.getElementById('deck-back');
       const updateCaption = () => {
         const current = Reveal.getCurrentSlide();
         captionRoot.innerHTML = (current && captionsBySection.get(current)) || '';
         captionRoot.hidden = !captionRoot.innerHTML;
+        if (backLink) {
+          const cardHref = current?.getAttribute('data-card-href') || '';
+          backLink.href = cardHref || lessonUrl;
+          backLink.textContent = cardHref ? '← Printable card' : '← Back to master lecture';
+          backLink.setAttribute('aria-label', cardHref ? 'Back to printable card' : 'Back to lesson');
+        }
         paintBackgrounds();
       };
       Reveal.on('ready', updateCaption);

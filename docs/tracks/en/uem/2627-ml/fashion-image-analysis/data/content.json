@@ -172,7 +172,15 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "ML-FIA.lab.catalogue-1890",
       "heading": "Exercise 1 · Shared image",
-      "sentence": "Fill the 8-step card on the image the professor models (Lens A + Lens B).",
+      "sentence": "Fill the printable eight-step card on the image the professor models (Lens A + Lens B).",
+      "figure": {
+        "src": "/assets/images/master-lectures/fia-reading-order.svg",
+        "alt": "Reading order: morphology evidence, then eight steps. Step 7, Critical, is marked."
+      },
+      "card_link": {
+        "label": "Open the printable card",
+        "href": "/lessons/en/master-lectures/fashion-image-analysis/#quick-card-printable"
+      },
       "portfolio_bound": true,
       "portfolio_trace": "Save the card in Canvas / portfolio index."
     },

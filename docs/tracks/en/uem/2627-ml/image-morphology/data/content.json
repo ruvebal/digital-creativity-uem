@@ -158,7 +158,15 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "ML-IM.lab.mercade",
       "heading": "Exercise 1 · Shared image",
-      "sentence": "Fill the morphology card on the image the professor models.",
+      "sentence": "Fill the printable morphology card on the image the professor models.",
+      "figure": {
+        "src": "/assets/images/master-lectures/im-reading-order.svg",
+        "alt": "Morphology order from dot to space, then a stop before meaning."
+      },
+      "card_link": {
+        "label": "Open the printable card",
+        "href": "/lessons/en/master-lectures/image-morphology/#quick-card-printable"
+      },
       "portfolio_bound": true,
       "portfolio_trace": "Save the card in Canvas / portfolio index."
     },

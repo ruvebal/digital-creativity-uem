@@ -146,16 +146,26 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 
 ## Quick card (printable)
 
-```
-Image / URL / capture: _______________________
-1 Dot / line:
-2 Plane / shape:
-3 Form / light:
-4 Colour relations:
-5 Composition / crop:
-6 Space / perspective:
-Visible evidence (where?): _______________________
-```
+<div class="quick-card not-prose" markdown="0">
+<p class="quick-card__nav"><a href="{{ '/master-lectures/image-morphology/' | relative_url }}#/10">Open slide 10</a> <button type="button" class="quick-card__print">Print this card</button></p>
+<p class="quick-card__title">Morphology card</p>
+<figure class="quick-card__graph">
+<img src="{{ '/assets/images/master-lectures/im-reading-order.svg' | relative_url }}" alt="Morphology order: dot, line, plane, shape, then form, colour, composition, and space. A closing bar says to stop before meaning." width="720" height="196">
+</figure>
+<p class="quick-card__caption">One visible observation per term. Stop before genre, meaning, or circulation.</p>
+<ol class="quick-card__fields">
+<li><span>Image / URL</span><span class="quick-card__line"></span></li>
+<li><span>1 · Dot</span><span class="quick-card__line"></span></li>
+<li><span>2 · Line</span><span class="quick-card__line"></span></li>
+<li><span>3 · Plane</span><span class="quick-card__line"></span></li>
+<li><span>4 · Shape</span><span class="quick-card__line"></span></li>
+<li><span>5 · Form</span><span class="quick-card__line"></span></li>
+<li><span>6 · Colour</span><span class="quick-card__line"></span></li>
+<li><span>7 · Composition</span><span class="quick-card__line"></span></li>
+<li><span>8 · Space</span><span class="quick-card__line"></span></li>
+<li><span>Where is the evidence?</span><span class="quick-card__line"></span></li>
+</ol>
+</div>
 
 ---
 
@@ -177,4 +187,4 @@ Visible evidence (where?): _______________________
 
 ## AI-assisted authorship
 
-Vault counts this cycle: **4** public sources cited (Kandinsky 1946; Kandinsky 2012; Shinkle 2008; Eckersall 2017) · date **2026-09-29** · guide prose author-edited. See site AI declaration when published.
+Vault counts this cycle: **4** public sources cited (Kandinsky 1946; Kandinsky 2012; Shinkle 2008; Eckersall 2017) · date **2026-09-29** · guide prose author-edited. [See site AI declaration when published]({{ '/ai-declaration/#AI-assisted-authorship' | relative_url }}).

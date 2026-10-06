@@ -195,18 +195,35 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 
 ## Quick card (printable)
 
-```
-Image / URL / capture: _______________________
-1 Describe:
-2 Inventory:
-3 Forms:
-4 Origin (genre/codes):
-5 Context of production:
-6 Meaning (hypothesis + evidence):
-7 Critical:
-8 Circulation — Language: ____ Medium: ____ Support: ____
-   Production → reception → what could it produce next?
-```
+<div class="quick-card not-prose" markdown="0">
+<p class="quick-card__nav"><a href="{{ '/master-lectures/fashion-image-analysis/' | relative_url }}#/10">Open slide 10</a> <button type="button" class="quick-card__print">Print this card</button></p>
+<p class="quick-card__title">Eight-step card</p>
+<figure class="quick-card__graph">
+<img src="{{ '/assets/images/master-lectures/fia-reading-order.svg' | relative_url }}" alt="Reading order: dot, line, plane, shape, then form, colour, composition, and space. Then eight steps from describe to circulation. Step 7, Critical, is marked. Lens A is language, medium, and support. Lens B is production, reception, and what the image produces next." width="720" height="308">
+</figure>
+<p class="quick-card__caption">Read the top band before the steps. The marked box is step 7: without it, the card fails.</p>
+<ol class="quick-card__fields">
+<li><span>Image / URL</span><span class="quick-card__line"></span></li>
+<li><span>1 · Describe</span><span class="quick-card__line"></span></li>
+<li><span>2 · Inventory</span><span class="quick-card__line"></span></li>
+<li><span>3 · Forms</span><span class="quick-card__line"></span></li>
+<li><span>4 · Origin</span><span class="quick-card__line"></span></li>
+<li><span>5 · Production</span><span class="quick-card__line"></span></li>
+<li><span>6 · Meaning</span><span class="quick-card__line"></span></li>
+<li class="quick-card__critical"><span>7 · Critical</span><span class="quick-card__line"></span></li>
+<li><span>8 · Circulation</span><span class="quick-card__line"></span></li>
+</ol>
+<p class="quick-card__group">Lens A</p>
+<ol class="quick-card__fields">
+<li><span>Language</span><span class="quick-card__line"></span></li>
+<li><span>Medium</span><span class="quick-card__line"></span></li>
+<li><span>Support</span><span class="quick-card__line"></span></li>
+</ol>
+<p class="quick-card__group">Lens B</p>
+<ol class="quick-card__fields">
+<li><span>What it produces next</span><span class="quick-card__line"></span></li>
+</ol>
+</div>
 
 ---
 
@@ -227,4 +244,4 @@ Image / URL / capture: _______________________
 
 ## AI-assisted authorship
 
-Vault counts this cycle: **2** public sources cited (Shinkle 2008; Eckersall 2017) · date **2026-09-27** · guide prose author-edited. See site AI declaration when published.
+Vault counts this cycle: **2** public sources cited (Shinkle 2008; Eckersall 2017) · date **2026-09-27** · guide prose author-edited. [See site AI declaration when published]({{ '/ai-declaration/#AI-assisted-authorship' | relative_url }}).

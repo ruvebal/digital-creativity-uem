@@ -16,6 +16,18 @@
 	document.addEventListener('DOMContentLoaded', function () {
 		// Add copy button to all pre blocks
 		const codeBlocks = document.querySelectorAll('.prose pre');
+		document.querySelectorAll('.quick-card__print').forEach(function (button) {
+			button.addEventListener('click', function () {
+				document.body.classList.add('printing-quick-card');
+				var done = function () {
+					document.body.classList.remove('printing-quick-card');
+					window.removeEventListener('afterprint', done);
+				};
+				window.addEventListener('afterprint', done);
+				window.print();
+			});
+		});
+
 		codeBlocks.forEach(function (pre) {
 			// Skip if already has copy button
 			if (pre.querySelector('.copy-code-btn')) return;

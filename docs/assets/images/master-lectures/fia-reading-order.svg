@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 308" role="img">
+  <title>Reading order for a fashion image</title>
+  <rect width="720" height="308" fill="#F7F2E8"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="12" y="12" width="696" height="112" rx="4" fill="#EFE6D6"/>
+    <text x="24" y="34" fill="#6B645C" font-size="12">Evidence, in order</text>
+    <g fill="#FFFCF7" stroke="#111111" stroke-width="1.25">
+      <rect x="24" y="42" width="156" height="30" rx="4"/>
+      <rect x="196" y="42" width="156" height="30" rx="4"/>
+      <rect x="368" y="42" width="156" height="30" rx="4"/>
+      <rect x="540" y="42" width="156" height="30" rx="4"/>
+      <rect x="24" y="86" width="156" height="30" rx="4"/>
+      <rect x="196" y="86" width="156" height="30" rx="4"/>
+      <rect x="368" y="86" width="156" height="30" rx="4"/>
+      <rect x="540" y="86" width="156" height="30" rx="4"/>
+    </g>
+    <g fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M183 53 L191 57 L183 61"/>
+      <path d="M355 53 L363 57 L355 61"/>
+      <path d="M527 53 L535 57 L527 61"/>
+      <path d="M98 74 L102 82 L106 74"/>
+      <path d="M183 97 L191 101 L183 105"/>
+      <path d="M355 97 L363 101 L355 105"/>
+      <path d="M527 97 L535 101 L527 105"/>
+    </g>
+    <text x="114" y="81" fill="#6B645C" font-size="11">then</text>
+    <g fill="#111111" font-size="13" text-anchor="middle">
+      <text x="102" y="62">Dot</text>
+      <text x="274" y="62">Line</text>
+      <text x="446" y="62">Plane</text>
+      <text x="618" y="62">Shape</text>
+      <text x="102" y="106">Form</text>
+      <text x="274" y="106">Colour</text>
+      <text x="446" y="106">Composition</text>
+      <text x="618" y="106">Space</text>
+    </g>
+
+    <rect x="12" y="136" width="696" height="160" rx="4" fill="#EFE6D6"/>
+    <text x="24" y="156" fill="#6B645C" font-size="12">Eight steps � the accent box is required</text>
+    <g fill="#FFFCF7" stroke="#111111" stroke-width="1.25">
+      <rect x="24" y="166" width="156" height="30" rx="4"/>
+      <rect x="196" y="166" width="156" height="30" rx="4"/>
+      <rect x="368" y="166" width="156" height="30" rx="4"/>
+      <rect x="540" y="166" width="156" height="30" rx="4"/>
+      <rect x="24" y="210" width="156" height="30" rx="4"/>
+      <rect x="196" y="210" width="156" height="30" rx="4"/>
+      <rect x="540" y="210" width="156" height="30" rx="4"/>
+    </g>
+    <rect x="368" y="210" width="156" height="30" rx="4" fill="#8E2A1E" stroke="#8E2A1E" stroke-width="1.25"/>
+    <g fill="none" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M183 177 L191 181 L183 185"/>
+      <path d="M355 177 L363 181 L355 185"/>
+      <path d="M527 177 L535 181 L527 185"/>
+      <path d="M98 198 L102 206 L106 198"/>
+      <path d="M183 221 L191 225 L183 229"/>
+      <path d="M355 221 L363 225 L355 229"/>
+      <path d="M527 221 L535 225 L527 229"/>
+    </g>
+    <text x="114" y="205" fill="#6B645C" font-size="11">then</text>
+    <g fill="#111111" font-size="13" text-anchor="middle">
+      <text x="102" y="186">1 Describe</text>
+      <text x="274" y="186">2 Inventory</text>
+      <text x="446" y="186">3 Forms</text>
+      <text x="618" y="186">4 Origin</text>
+      <text x="102" y="230">5 Production</text>
+      <text x="274" y="230">6 Meaning</text>
+      <text x="618" y="230">8 Circulation</text>
+    </g>
+    <text x="446" y="230" fill="#F7F2E8" font-size="13" text-anchor="middle">7 Critical</text>
+    <g fill="#FFFCF7" stroke="#111111" stroke-width="1.25">
+      <rect x="24" y="252" width="328" height="32" rx="4"/>
+      <rect x="368" y="252" width="328" height="32" rx="4"/>
+    </g>
+    <g fill="#111111" font-size="12" text-anchor="middle">
+      <text x="188" y="272">Lens A � language / medium / support</text>
+      <text x="532" y="272">Lens B � production � reception � next</text>
+    </g>
+  </g>
+</svg>

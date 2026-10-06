@@ -315,6 +315,40 @@
 		height: auto !important;
 	}
 
+	.quick-card {
+		background: #f7f2e8 !important;
+		color: #111111 !important;
+		border: 1px solid #111111 !important;
+		box-shadow: none !important;
+	}
+
+	.quick-card__nav {
+		display: none !important;
+	}
+
+	.quick-card__graph,
+	.quick-card__fields li {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
+
+	/* The print button isolates the sheet from the rest of the lesson. */
+	body.printing-quick-card * {
+		visibility: hidden;
+	}
+
+	body.printing-quick-card .quick-card,
+	body.printing-quick-card .quick-card * {
+		visibility: visible;
+	}
+
+	body.printing-quick-card .quick-card {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+
 	figure {
 		margin: 0.4em 0 !important;
 		text-align: center;
