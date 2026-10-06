@@ -1,0 +1,17 @@
+---
+description: Whole-word HTML tables — never shatter Markdown→HTML labels
+globs: docs/**/*.{md,html,css}
+alwaysApply: false
+---
+
+# Jekyll prose tables — whole words only
+
+When Markdown becomes student HTML, **never cut words mid-syllable** to squeeze a layout.
+
+## Law
+
+1. **Tables scroll; words do not shatter.** Prefer horizontal scroll on wide tables over `overflow-wrap: anywhere` / `word-break: break-all` on `th`/`td`.
+2. **Cell CSS default:** `word-break: normal; overflow-wrap: normal; hyphens: none`.
+3. **Authoring:** keep cell labels short (`Lección` / `Deck`); put long titles in their own column, not inside a jammed multi-link cell.
+4. **Exceptions:** long unbroken strings only (permalinks, hashes) may use targeted classes — never global prose/table cells.
+5. **Sibling contract:** match `creativity-techniques-uem` table CSS unless a deliberate, documented exception.

@@ -577,8 +577,8 @@ html.dark,
 	display: block; /* intrinsic: allow horizontal scrolling if needed */
 	inline-size: max-content;
 	min-inline-size: 100%;
-	/* Never let a markdown table widen the page. It may scroll internally. */
-	max-inline-size: 100%;
+	/* Wide tables scroll; never squeeze cells until words shatter mid-syllable. */
+	max-inline-size: none;
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 	border: 1px solid var(--border-light);
@@ -603,12 +603,6 @@ html.dark,
 	overflow-wrap: normal;
 	hyphens: none;
 	white-space: normal;
-}
-
-/* Global table safety rule: long labels wrap rather than creating viewport overflow. */
-.prose table th,
-.prose table td {
-	overflow-wrap: anywhere;
 }
 .prose table th {
 	font-weight: 700;
@@ -2235,11 +2229,23 @@ html.dark,
 	scroll-margin-top: calc(var(--site-header-height) + 1rem);
 }
 
-/* Improve paragraph readability and prevent overflow in narrow viewports */
+/* Improve paragraph readability without mid-word cuts in student HTML.
+   Never hyphenate domains/emails into crea-com-m.net — soft wraps only at
+   normal word boundaries; protect known studio domains. */
 :where(.prose) p {
 	max-width: 75ch;
-	hyphens: auto;
-	overflow-wrap: anywhere;
+	hyphens: manual;
+	overflow-wrap: break-word;
+	word-break: normal;
+}
+
+:where(.prose) code,
+:where(.prose) .nowrap,
+:where(.prose) .domain {
+	hyphens: none;
+	overflow-wrap: normal;
+	word-break: keep-all;
+	white-space: nowrap;
 }
 
 /* Tighter vertical rhythm for lists */
