@@ -9,9 +9,10 @@ layout: null
     "project_id": "nm",
     "collection": "unit-accepted",
     "strategy": "geometrical-first",
-    "description": "NM decks: geometrical openers; campaign Caso: from MAIN-IDEAS / ledger ranks."
+    "description": "NM decks: geometrical openers; campaign Caso: from MAIN-IDEAS / ledger ranks. Pending: naturalistic Masterclass photo from lesson PHOTO comment (u1-historia-nuevos-medios) — wire background_kind=photo + background_url after rights/contrast review."
   },
   "assets": [],
+  "_editor_note": "Replace masterclass background_kind diagram with reviewed photo asset when lesson-deck-photo-slot ships; keep geometrical for analysis/lab/outro.",
   "slides": [
     {
       "slide_role": "unit_cover",

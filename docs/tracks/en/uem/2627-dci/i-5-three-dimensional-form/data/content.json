@@ -45,6 +45,21 @@ layout: null
     },
     {
       "media_slot_id": "I.5.still.profield-3",
+      "asset_id": "nypl:5a950250-c629-012f-852b-58d385a7bc34",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/6d87fb61fcb1d4de.jpg",
+      "source_file_url": "https://images.nypl.org/index.php?id=1131088&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/5a950250-c629-012f-852b-58d385a7bc34",
+      "alt_text": "Indienne, représentant Minerve Péruvienne.",
+      "title": "Indienne, représentant Minerve Péruvienne.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.5.still.profield-4",
       "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/37ef9f5bda8f9a93.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/AK_ER_Exhibition_Poster_2014.jpg",
@@ -59,7 +74,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.5.still.profield-4",
+      "media_slot_id": "I.5.still.profield-5",
       "asset_id": "wikimedia:File:CosmicBloom.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c371d709f1773132.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/CosmicBloom.jpg",
@@ -74,7 +89,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.5.still.profield-5",
+      "media_slot_id": "I.5.still.profield-6",
       "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/3e1406d573d0b92f.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
@@ -89,7 +104,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.5.still.profield-6",
+      "media_slot_id": "I.5.still.profield-7",
       "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f4786040093c9e0d.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg",
@@ -104,7 +119,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.5.still.profield-7",
+      "media_slot_id": "I.5.still.profield-8",
       "asset_id": "wikimedia:File:1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f30519b35796f439.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/1890_silhouette_-_DPLA_-_8df7f808914dce4eee6250dc2f06f783.jpg",
@@ -119,7 +134,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.5.still.profield-8",
+      "media_slot_id": "I.5.still.profield-9",
       "asset_id": "wikimedia:File:Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/5440d18f70034583.tif",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Affiche_voor_tentoonstelling_%27SHANGHAI_GESTURE%2C_curated_by_Alexander_van_Slobbe%27%2C_objectnr_480.tif",
@@ -134,7 +149,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.5.still.profield-9",
+      "media_slot_id": "I.5.still.profield-10",
       "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
@@ -149,7 +164,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "I.5.still.profield-10",
+      "media_slot_id": "I.5.still.profield-11",
       "asset_id": "wikimedia:File:Anna Miller's uniform (pink) in Second Life (2012-01-22 22.36.22 by Ramona Forcella) clip.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/18311c5e93975eea.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Anna_Miller%27s_uniform_%28pink%29_in_Second_Life_%282012-01-22_22.36.22_by_Ramona_Forcella%29_clip.jpg",
@@ -164,7 +179,7 @@ layout: null
       "collection": "artist"
     },
     {
-      "media_slot_id": "I.5.still.profield-11",
+      "media_slot_id": "I.5.still.profield-12",
       "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c8acd44e8f333198.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg",
@@ -176,6 +191,21 @@ layout: null
       "licence": "",
       "priority": 4,
       "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "I.5.still.profield-13",
+      "asset_id": "nypl:510d47dd-d8b6-a3d9-e040-e00a18064a99",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/34bdd043f3739168.jpg",
+      "source_file_url": "https://images.nypl.org/index.php?id=1131088&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47dd-d8b6-a3d9-e040-e00a18064a99",
+      "alt_text": "Indienne, représentant Minerve Péruvienne.",
+      "title": "Indienne, représentant Minerve Péruvienne.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 999,
+      "selection_rank": 999,
       "collection": "unit-accepted"
     }
   ],

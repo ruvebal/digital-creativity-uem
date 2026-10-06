@@ -50,19 +50,29 @@ A **scaffold** lesson (frontmatter + stub B1) is not done. Done means CT/CD pari
    `(United Nations Environment Programme 2023, p.)` + gated
    `curriculum-internal` (`ahmes_coat` · `node_id` · `evaluator_safe`).  
 5. Emit full lesson ES under `docs/lessons/es/nuevos-medios-moda/<slug>/`.  
-6. **Cold B1** — one Thessia pass per Masterclass idea via `lesson-scribe`
+6. **Mandatory media slots** (same law as `dc-unit-forge` §3b): after opener,
+   include `lesson-conceptual-graph-slot.html` + `lesson-deck-photo-slot.html`
+   with HTML comments for (a) `grounding-graph` → `visual-forger` generative
+   request tied to the Master idea, and (b) naturalistic photo prompt for
+   Masterclass deck backgrounds. Editorial note must name both slots as
+   addressed-to-editor until assets ship. AI links →
+   `/ai-declaration/#ai-assisted-authorship`.  
+7. **Cold B1** — one Thessia pass per Masterclass idea via `lesson-scribe`
    (`thessia_generate.py`); six-axis cold review → amend → integrate.  
-7. B2 = Canvas activity brief; B3 = individual problem/quiz.  
-8. Ship Reveal deck at `docs/tracks/es/uem/2627-nm/<slug>/` (cover → analysis →
+8. B2 = Canvas activity brief; B3 = individual problem/quiz.  
+9. Ship Reveal deck at `docs/tracks/es/uem/2627-nm/<slug>/` (cover → analysis →
    ≤6 masterclass → lab opener → 2 labs → outro; geometrical openers from
    `assets/images/fractal-pass-track/`). Slideshow sentences never Thessia.
    Masterclass slides carry a one-line **Caso:** under the human sentence when
-   a campaign exemplifies the pod (not a second invented quote).  
-9. Optional strategy/graph figure via `visual-forger` when the unit needs a
-   presence-system or timeline diagram (U2/U5).  
-10. Register `lessons.yml`; link lesson + deck from track page; write Thessia
+   a campaign exemplifies the pod (not a second invented quote). When the
+   photographic slot ships, prefer it as Masterclass `background_url` (text
+   contrast checked); keep geometrical for lab/workshop openers.  
+10. Conceptual graph via `visual-forger` + `grounding-graph` is **required** for
+    forge-complete (not optional); U2/U5 may add a second strategy/timeline
+    figure.  
+11. Register `lessons.yml`; link lesson + deck from track page; write Thessia
     performance receipt under `forge/`.  
-11. EN twin: structure + teaching-language notice only.
+12. EN twin: structure + teaching-language notice only.
 
 ## Real campaigns as theory pods (always)
 

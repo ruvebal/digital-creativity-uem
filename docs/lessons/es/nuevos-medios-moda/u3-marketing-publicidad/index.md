@@ -136,9 +136,10 @@ Teaching campaign ledger (no Chicago quote bank): ranks 5 / 1 / 8 / 7.
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-Cold B1 para U3 ideas 1 y 4 sigue opcional. Reveal deck shipped 2026-09-26. Benetton queda citado solo por nombre y URL pública hasta completar la verificación bibliográfica. Preferencia de laboratorio: ranks **5, 8, 1, 7** del ledger `20260925T200000Z`. Ver [declaración de IA]({{ '/ai-declaration/' | relative_url }}).
+Cold B1 para U3 ideas 1 y 4 sigue opcional. Reveal deck shipped 2026-09-26. Benetton queda citado solo por nombre y URL pública hasta completar la verificación bibliográfica. Preferencia de laboratorio: ranks **5, 8, 1, 7** del ledger `20260925T200000Z`. Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
 
 ## AI-assisted authorship
+{: #ai-assisted-authorship }
 
 Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U3 unit forge, teaching-campaign ledger adjudication (`fashion-exemplary-social-campaigns` · `20260925T200000Z`), and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
 

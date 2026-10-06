@@ -44,6 +44,44 @@ grounding_pass: 2026-09-25-refs-expansion
 
 </div>
 
+{% include lesson-conceptual-graph-slot.html
+  lang="es"
+  narrative="El gráfico debe hacer visible el mapa de poder mediático: quién habla, quién amplifica y quién mide cuando el medio pasa de canal a plataforma — y situar PayUp / Action Works / Levi’s / Project Earth como nodos de caso, no como adorno."
+%}
+
+<!--
+  FORGE · generative_request (grounding-graph → visual-forger imagine/diagram):
+  Build a conceptual graph for NM U1 whose narrative purpose is: "Internet and
+  platforms reconfigure brand–public power; history is a media-power map."
+  Nodes (student-facing labels only): Medium / Platform · Brand · Public ·
+  Visibility labour · Campaign spillover · Metric of success.
+  Edges: Medium reshapes Brand↔Public; Public produces Visibility labour;
+  Campaign spillover feeds Metric; Metric feeds back into Platform power.
+  Attach case leaves (not quote boxes): PayUp (Track C), Action Works (A),
+  Levi’s BBWL (A), Project Earth (A). Prefer SVG from visual-forger; cite only
+  via lesson Chicago when a label needs a page. Publication firewall: no Ahmes
+  IDs in the figure.
+-->
+
+{% include lesson-deck-photo-slot.html
+  lang="es"
+  purpose="Fondo fotográfico naturalista para diapositivas Masterclass del deck U1 (bajo contraste bajo el texto). Sustituye backgrounds_kind diagram cuando el asset esté revisado."
+%}
+
+<!--
+  PHOTO · naturalistic generator prompt (deck Masterclass backgrounds · U1):
+  Documentary-style photograph, natural window light, no logo, no readable UI,
+  no brand marks. A city fashion-district sidewalk at dusk seen from slightly
+  above: several pedestrians mid-stride, one person glancing at a phone whose
+  screen glow is visible but not legible, a shop window reflecting the street
+  rather than a campaign poster. Shallow depth of field, cool blue-hour sky,
+  warm shop interiors as soft bokeh. Photorealistic, 35mm look, muted colour,
+  generous negative space in the upper third for white slide titles. Mood:
+  ordinary platform power — attention moving through public space — not a
+  product ad. Avoid: neon cyberpunk, floating holograms, celebrity faces,
+  watermarks, text overlays.
+-->
+
 ## Objetivos de aprendizaje
 
 Al final de esta unidad podrás:
@@ -245,10 +283,17 @@ Mini-caso o quiz de cierre en Canvas. Evidencia individual.
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-B1 frío revisado; HTML estudiantil sin nombres de herramientas internas. Banco de campañas = ledger docente `20260925T200000Z` (no banco de citas Chicago). Ver [declaración de IA]({{ '/ai-declaration/' | relative_url }}).
+B1 frío revisado; HTML estudiantil sin nombres de herramientas internas. Banco de campañas = ledger docente `20260925T200000Z` (no banco de citas Chicago).
+
+**Addressed-to-editor — media slots:** ship the conceptual graph via `visual-forger` (diagram) after a `grounding-graph` narrative brief (comment above the slot). Commission the naturalistic photo with the generator prompt in the HTML comment; review rights + text contrast before wiring `background_url` on Masterclass slides in `docs/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/data/content.json`. Until then, keep the student-facing placeholders.
+
+Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
 
 ## AI-assisted authorship
+{: #ai-assisted-authorship }
 
 Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U1 unit forge, teaching-campaign ledger adjudication (`fashion-exemplary-social-campaigns` · `20260925T200000Z`), and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
 
 *Forge date: 2026-09-25 · Studio: <span class="domain">crea-comm.net</span>*
+
+See also the course [AI-assisted authorship declaration]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).

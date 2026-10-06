@@ -10,8 +10,8 @@ When Markdown becomes student HTML, **never cut words mid-syllable** to squeeze 
 
 ## Law
 
-1. **Tables scroll; words do not shatter.** Prefer horizontal scroll on wide tables over `overflow-wrap: anywhere` / `word-break: break-all` on `th`/`td`.
-2. **Cell CSS default:** `word-break: normal; overflow-wrap: normal; hyphens: none`.
+1. **Never overflow the lesson column.** Tables live inside a `container-type: inline-size` prose box (`lesson-prose`). Prefer `@container` card-stack rows under ~42rem; otherwise horizontal scroll *inside* `max-inline-size: 100%`.
+2. **Words do not shatter.** Never use `overflow-wrap: anywhere` / `word-break: break-all` on `th`/`td`. Default: `word-break: normal; overflow-wrap: normal; hyphens: none`.
 3. **Authoring:** keep cell labels short (`Lección` / `Deck`); put long titles in their own column, not inside a jammed multi-link cell.
 4. **Exceptions:** long unbroken strings only (permalinks, hashes) may use targeted classes — never global prose/table cells.
 5. **Sibling contract:** match `creativity-techniques-uem` table CSS unless a deliberate, documented exception.

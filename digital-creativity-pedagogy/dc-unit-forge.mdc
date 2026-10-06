@@ -289,7 +289,7 @@ course weighting by assertion.
 - Every lesson ships `## Conclusion` (gaps as invitation) before `## References`, then
   `## Editorial note. Work in progress. Teaching Innovation Practice` (epistemic limits —
   **never** mid-body), then `## AI-assisted authorship` with forge metadata + link to
-  `/ai-declaration/`.
+  `/ai-declaration/#ai-assisted-authorship` (hash required).
   Authorship: Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) **wrote** the
   lesson in the crea-comm.net studio (local agentic harness, MCP retrieval,
   RAG over the curriculum vault, scholar-voice model fine-tuned on his writing).
@@ -306,7 +306,11 @@ Student lessons follow this visible order after YAML + TOC:
 3. **Opening block** — wrap in `<div class="lesson-opener" markdown="1">`:
    - one TTOD epigraph (`{: .tao-development-quote }`)
    - `{% include lesson-semantic-graphic.html %}` (Master idea + Practice anchor + semantic graphic)
-4. **Learning objectives** → B1 Analysis → Masterclass → B2 Lab → B3 Workshop → Conclusion → References → Editorial note → AI declaration.
+4. **Media slots (mandatory until assets ship)** — immediately after the opener:
+   - `{% include lesson-conceptual-graph-slot.html narrative="…" %}` — student-visible placeholder for the unit conceptual graph. Agents: write an HTML comment `FORGE · generative_request` that feeds **`grounding-graph`** (narrative purpose / who talks to whom) then **`visual-forger`** imagine/diagram mode. The graph must serve the Master idea, not decorate.
+   - `{% include lesson-deck-photo-slot.html purpose="…" %}` — placeholder for naturalistic photographic **Masterclass deck backgrounds**. Agents: put a full diffusion prompt in an HTML comment `PHOTO · naturalistic generator prompt`; after rights + contrast review, wire `background_kind: "photo"` + `background_url` on Masterclass slides in the unit `content.json` (see STUDENT-SLIDESHOW-FORGE).
+5. **Learning objectives** → B1 Analysis → Masterclass → B2 Lab → B3 Workshop → Conclusion → References → Editorial note → AI declaration.
+   - AI declaration link target: `{{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship` (never a lesson-local `#:~:text=` fragment).
 
 **Cover is agentic, not visible.** Do **not** ship a visible `## Cover — …` heading. Put CONTENIDOS, competencies, evaluation feeds, session rhythm, and one-line stake inside a Liquid/HTML comment (or `{% comment %}…{% endcomment %}`) keyed for agents, e.g.:
 
