@@ -59,8 +59,8 @@ grounding_pass: 2026-09-25-refs-expansion
   Campaign spillover feeds Metric; Metric feeds back into Platform power.
   Attach case leaves (not quote boxes): PayUp (Track C), Action Works (A),
   Levi’s BBWL (A), Project Earth (A). Prefer SVG from visual-forger; cite only
-  via lesson Chicago when a label needs a page. Publication firewall: no Ahmes
-  IDs in the figure.
+  via lesson Chicago when a label needs a page. Publication firewall: no
+  internal identifiers in the figure.
 -->
 
 {% include lesson-deck-photo-slot.html
