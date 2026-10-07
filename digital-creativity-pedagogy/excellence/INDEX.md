@@ -65,7 +65,7 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 | 8 | [PHASE-EX8.md](PHASE-EX8.md) | Lab redesign Wave-1 units + exercise cards aligned to ACT1–2 | DONE (EX7 DONE) |
 | 9 | [PHASE-EX9.md](PHASE-EX9.md) | Lesson structure, exemplars, lesson images (Wave-1) | DONE (EX8 DONE) |
 | 10 | [PHASE-EX10.md](PHASE-EX10.md) | Assessment: practice quizzes, D2=ACT3 lock, consent drafts | DONE |
-| 11 | [PHASE-EX11.md](PHASE-EX11.md) | Closing audit vs EX0 baseline + CD II / NM handoff seed | READY (EX10 DONE) |
+| 11 | [PHASE-EX11.md](PHASE-EX11.md) | Closing audit vs EX0 baseline + CD II / NM handoff seed | DONE (EX10 DONE) |
 
 ## Live snapshot (2026-10-07)
 
