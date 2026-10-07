@@ -229,29 +229,42 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "fallback_background_kind": "geometrical",
-      "heading": "Lab 1 · Fold the projections",
-      "sentence": "Identify one impossible volume in a three-view set and name the contradiction.",
+      "heading": "Exercise 1 · Flat → elevation → volume strip",
+      "sentence": "Sketch flat → side elevation → simple volume for one garment region. Mark one ambiguity only 3D can resolve.",
       "media_slot_id": "I.5.lab-1",
       "portfolio_bound": true,
-      "portfolio_trace": "Portfolio trace: annotated front, side, and top views.",
+      "portfolio_trace": "Three-sketch strip + one sentence naming the 3D test you will run next (no CLO required).",
       "slide_id": "lab-1",
       "image_brief": "Historical costume plate with multiple figures: fold the projections by comparing front and three-quarter views on one sheet.",
       "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-      "notes": "- Lab task: Lab 1 · Fold the projections.\n- Brief: Identify one impossible volume in a three-view set and name the contradiction.\n- Portfolio: Portfolio trace: annotated front, side, and top views.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 20 minutes. Individual. Selected I.5 Lab — spatial craft feeding later cartel/workshop work.\n- Sketch flat → side elevation → simple volume for one garment region.\n- Mark one ambiguity that only 3D can resolve.\n- State what you will test in digital volume next (tool of choice; CLO not required).\n- Keep the three sketches as one strip.\nSource: sequenced 2D→3D teaching structure in programmes (Papahristou and Zolota Tatsi 2024, 3, 5); steps are classroom adaptation.\nAsk: Which plane lied first?",
+      "prompt": "Practises Masterclass 1 (start with the axis) and 2 (planes make volume testable).",
+      "method_id": "2d-to-3d-sequence-sketch",
+      "practises": [
+        "masterclass-1",
+        "masterclass-2"
+      ],
+      "timer_seconds": 1200
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "fallback_background_kind": "geometrical",
-      "heading": "Lab 2 · Sketch → primitive → digital",
-      "sentence": "Make the same idea legible in a sketch, a primitive volume, and a simple digital form.",
+      "heading": "Exercise 2 · Silhouette from volume (not from polish)",
+      "sentence": "Block the garment as 2–4 volumes, shade only mass, then trace the outer silhouette — compare to a flat of the same design.",
       "media_slot_id": "I.5.lab-2",
       "portfolio_bound": true,
-      "portfolio_trace": "Portfolio trace: the three studies and one sentence on what changed.",
+      "portfolio_trace": "Volume block + silhouette trace + flat comparison + one sentence on what the render would have hidden.",
       "slide_id": "lab-2",
       "image_brief": "Hand drawing on a graphic tablet: the digital step after a paper sketch and a simple volume primitive — sketch → primitive → digital.",
       "asset_id": "wikimedia:File:Hand drawing on a graphic tablet.jpg",
-      "notes": "- Lab task: Lab 2 · Sketch → primitive → digital.\n- Brief: Make the same idea legible in a sketch, a primitive volume, and a simple digital form.\n- Portfolio: Portfolio trace: the three studies and one sentence on what changed.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 20 minutes. Individual.\n- Block a garment as 2–4 volumes (no surface detail).\n- Cast a single light; shade only mass.\n- Trace the outer silhouette; discard interior noise; compare to a flat of the same design.\nSource: Classroom adaptation (silhouette-from-volume held — Moritz & Youn spatial visualization gap).\nAsk: If the render looked “correct,” would your silhouette still match the flat?",
+      "prompt": "Practises Masterclass 3: a render is not understanding.",
+      "method_id": "silhouette-from-volume",
+      "practises": [
+        "masterclass-3"
+      ],
+      "timer_seconds": 1200
     },
     {
       "slide_role": "outro",

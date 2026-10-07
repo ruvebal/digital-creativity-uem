@@ -136,15 +136,65 @@ Covered above: relational colour claim, Roivainen platform styles, critical lens
 
 ---
 
-## B2 · Studio — talleres 1 h + investigaciones y proyectos 2 h
+## B2 · Lab (Portfolio) — talleres 1 h + investigaciones y proyectos 2 h
 
-**Deliverable:** a **colour comparison** — two palettes or colour-mode versions of the same fashion image — with a process note naming what changed, what remained legible, and which platform or cultural code you invoked.
+*A geometrical slide announces the Lab: **two** exercises follow. Traces go into the **portfolio index**. Labs practise Masterclass and feed **ACT2 Key visual** craft — they do not invent a second graded Campus Virtual channel.*
 
-**Definition of done:** piece ID; process folder; the trade-off note present and specific.
+### Exercise 1 — Lock the key-visual brief, then sample a palette {#lab-exercise-1}
+
+Practises Masterclass ideas **1** (colour is a relation) and **6** (correcting vs changing).
+
+**Time:** 20 minutes.
+
+**Group:** alone for craft; pairs OK for a 2-minute brief critique.
+
+**Materials:** laptop; one rights-clear garment/fabric photo; timer; notes app.
+
+**Steps:**
+
+1. Write **audience**, **channel**, and a **single claim** before opening the canvas.
+2. Sample five colours from the garment photo; build a palette strip (no moodboard tiles yet).
+3. Build one accessible alternate (contrast-aware) without inventing a second claim.
+4. Reject any swatch that does not serve the claim.
+5. Note one hierarchy decision the clash forced.
+
+**Portfolio trace:** brief text + five-colour strip + accessible alternate + hierarchy note.
+
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (key-visual / palette craft gap — no Wave-1 verified pedagogy sequence).
+
+### Exercise 2 — One Gestalt pass on a key-visual crop {#lab-exercise-2}
+
+Practises Masterclass ideas **2** (a bitmap has limits) and **4** (the display participates).
+
+**Time:** 20 minutes.
+
+**Group:** alone for the two crops; pairs for the peer vote.
+
+**Materials:** a key-visual or fashion crop; bitmap editor; timer.
+
+**Steps:**
+
+1. Name one Gestalt relation to test (proximity, similarity, closure, continuity, or figure–ground).
+2. Apply the relation once to the crop.
+3. Invert or break the relation in a second version; keep both.
+4. Peer names which version groups more clearly and why (one sentence).
+5. Record the chosen relation in the process note.
+
+**Portfolio trace:** two crops + peer sentence + process note naming the relation.
+
+**Judged by:** [Portfolio rubric — composition judgement]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (Gestalt pedagogy gap — Arnheim not in Wave-1 references).
+
+**Definition of done (studio slice):** piece ID; process folder; colour/Gestalt pair present and specific — the Lab traces are the cuaderno evidence.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 **Evidence:** Investigaciones y proyectos 20% (piece); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
+LAB_LINE: exercise=1; method_id=key-visual-brief-lock; practises=masterclass-1,masterclass-6; source=gap/classroom adaptation; ACT=ACT2
+LAB_LINE: exercise=2; method_id=gestalt-composition; practises=masterclass-2,masterclass-4; source=gap/classroom adaptation; ACT=ACT2
 -->
 {% endif %}
 

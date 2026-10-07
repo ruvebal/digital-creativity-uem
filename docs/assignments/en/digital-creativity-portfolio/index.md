@@ -110,7 +110,7 @@ Start the portfolio in the first class and update it every time Lab begins. A co
 
 If a Lab session produces several exercises, make separate entries or clearly separated subentries, but ensure that one selected exercise carries a complete account of the Lab time. Date and label files consistently. Keep the original working files in a private process archive even when the public-facing page presents a smaller selection.
 
-## Rubric
+## Rubric {#rubric}
 
 The rubric uses a 0–10 score for the assignment. The official guide remains the authority for institutional weighting: in Digital Creativity I and II, the portfolio is primarily evidence for **Cuaderno de prácticas de laboratorio/taller (10%)**, while selected project evidence may also support **Investigaciones y proyectos (20%)**. This rubric does not alter those official percentages.
 

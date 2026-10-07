@@ -117,9 +117,56 @@ Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical len
 
 ---
 
-## B2 · Studio — talleres 2 h + investigaciones y proyectos 2 h
+## B2 · Lab (Portfolio) — talleres 2 h + investigaciones y proyectos 2 h
 
-**Deliverable:** a small sequence of three-dimensional form studies — sketch, a primitive-volume study (simple geometric bodies, not a finished garment), and a simple digital 3D representation of the same idea — mirroring the sequenced 2D→3D structure named in B1.
+*A geometrical slide announces the Lab: **two** exercises follow. Traces go into the **portfolio index**. Selected I.5 Labs practise Masterclass spatial craft (feeds later cartel / workshop work) — not a new graded ACT.*
+
+### Exercise 1 — Flat → elevation → volume strip {#lab-exercise-1}
+
+Practises Masterclass ideas **1** (start with the axis) and **2** (planes make volume testable).
+
+**Time:** 20 minutes.
+
+**Group:** alone.
+
+**Materials:** paper or tablet; timer; optional simple 3D tool later (CLO not required).
+
+**Steps:**
+
+1. Sketch flat → side elevation → simple volume for one garment region.
+2. Mark one ambiguity that only 3D can resolve.
+3. State what you will test in digital volume next (without requiring CLO).
+4. Keep the three sketches as one strip.
+
+**Portfolio trace:** three-sketch strip + next-test sentence.
+
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Sequenced 2D→3D teaching structure in programmes [(Papahristou and Zolota Tatsi 2024, 5)](#ref-papahristou-2024); steps are classroom adaptation.
+
+### Exercise 2 — Silhouette from volume (not from polish) {#lab-exercise-2}
+
+Practises Masterclass idea **3** (a render is not understanding).
+
+**Time:** 20 minutes.
+
+**Group:** alone.
+
+**Materials:** sketch or simple digital volume; a flat of the same design; timer.
+
+**Steps:**
+
+1. Block the garment as 2–4 volumes (no surface detail).
+2. Cast a single light; shade only mass.
+3. Trace the outer silhouette; discard interior noise.
+4. Compare to a flat of the same design.
+5. Write one sentence on what a polished render would have hidden.
+
+**Portfolio trace:** volume block + silhouette trace + flat comparison + render-honesty sentence.
+
+**Judged by:** [Portfolio rubric — form understanding]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (silhouette-from-volume held — Moritz & Youn spatial visualization gap).
 
 **Definition of done:** piece ID; process folder; one-paragraph reflection naming what the 2D read predicted and what it missed once built in 3D.
 
@@ -127,6 +174,8 @@ Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical len
 <!-- curriculum-internal:
 **Evidence:** Investigaciones y proyectos 20% (piece); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
 Tool documentation referenced (any 2D drawing or 3D modelling package) is a dated platform note, not a citation — check versions before class.
+LAB_LINE: exercise=1; method_id=2d-to-3d-sequence-sketch; practises=masterclass-1,masterclass-2; source=papahristou-2024 pp.3,5 (verified) + classroom steps; selected I.5–I.9
+LAB_LINE: exercise=2; method_id=silhouette-from-volume; practises=masterclass-3; source=held/classroom adaptation; selected I.5–I.9
 -->
 {% endif %}
 

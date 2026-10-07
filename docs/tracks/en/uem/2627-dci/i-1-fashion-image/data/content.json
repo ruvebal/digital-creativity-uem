@@ -498,11 +498,11 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "media_slot_id": "I.1.lab-1",
-      "heading": "Exercise 1 · Place an image in the field",
-      "sentence": "Map one fashion image by practice, agents, venues, and interests — then say why a file type is not the answer.",
-      "prompt": "Portfolio: practice · agents/actors · venues · interests + one container-vs-practice sentence.",
+      "heading": "Exercise 1 · Read one fashion photograph for the field",
+      "sentence": "Choose one fashion image. Name practice, agents, venues, and interests — then say why a file type is not the answer.",
+      "prompt": "Practises Masterclass 1 and 3: field of practices, many genres at once.",
       "portfolio_bound": true,
-      "portfolio_trace": "Field map (practice · agents · venues · interests) + container-vs-practice sentence.",
+      "portfolio_trace": "Field map (practice · agents · venues · interests) + one container-vs-practice sentence.",
       "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -530,17 +530,23 @@ layout: null
       "slide_id": "lab-1",
       "image_brief": "Digital fashion garment still 'Miss Maquillage' rendered as a wearable file: place this image in the field between garment, avatar and commerce.",
       "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
-      "notes": "- Lab task: Exercise 1 · Place an image in the field.\n- Brief: Map one fashion image by practice, agents, venues, and interests — then say why a file type is not the answer.\n- Portfolio: Field map (practice · agents · venues · interests) + container-vs-practice sentence.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 15 minutes. Individual, then 3-minute pair share.\n- Choose one rights-clear or course-set fashion photograph (the image you will later use as a figurín reference).\n- Map practice / agents / venues / interests on paper or in a short note.\n- Write one sentence explaining why a container name (JPEG, RAW, PNG) is not an answer to “what kind of fashion image is this?”\n- Close: name one art/commerce tension the image carries.\nSource: fashion photographs as a wide array of practices with a permeable art/commerce boundary (Shinkle 2008); steps are classroom adaptation.\nAsk: Which pin on your map would change first if the image moved venue?",
+      "method_id": "fashion-photograph-reading",
+      "practises": [
+        "masterclass-1",
+        "masterclass-3"
+      ],
+      "timer_seconds": 900
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "media_slot_id": "I.1.lab-2",
-      "heading": "Exercise 2 · Picture yourself in the field",
-      "sentence": "Open the Field Directory. Pick one prize, one studio/lab, and one figure — then write where you picture yourself among them.",
-      "prompt": "Portfolio: three Directory pins + two sentences on your position. Link: /directory/en/",
+      "heading": "Exercise 2 · Start a digital figurín scaffold",
+      "sentence": "From the image you just read, block a proportion scaffold and a simple volume figure — garment detail comes later.",
+      "prompt": "Practises Masterclass 2: the image is not a file format — the figurín is a practice.",
       "portfolio_bound": true,
-      "portfolio_trace": "Three Directory pins + two-sentence field position.",
+      "portfolio_trace": "Scaffold-only export + one sentence naming the proportion decision that would survive a medium change.",
       "quote": "A field is not a mood board — it is a map of who consecrates whom.",
       "quote_origin": "tao_invented",
       "semantic_tags": {
@@ -566,7 +572,12 @@ layout: null
       "slide_id": "lab-2",
       "image_brief": "Barbie Dream Closet webcam social-shopper kiosk: a commercial fashion interface students can place on the art–commerce field map.",
       "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
-      "notes": "- Lab task: Exercise 2 · Picture yourself in the field.\n- Brief: Open the Field Directory. Pick one prize, one studio/lab, and one figure — then write where you picture yourself among them.\n- Portfolio: Three Directory pins + two-sentence field position.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 20 minutes. Individual. This is ACT1 craft practice, not a graded Campus Virtual submit.\n- Set a visible head-count or grid scaffold on a blank canvas.\n- Block the figure as simple volumes before any garment detail.\n- Export scaffold-only (keep a second layer or file for later finish in I.2).\n- Note one proportion decision that would survive hand → raster → vector.\nSource: Classroom adaptation (figurín pedagogy sequence held — Abling page cite open).\nAsk: If you deleted every “finish” stroke, would the pose still read?",
+      "method_id": "figurin-digital",
+      "practises": [
+        "masterclass-2"
+      ],
+      "timer_seconds": 1200
     },
     {
       "slide_role": "outro",

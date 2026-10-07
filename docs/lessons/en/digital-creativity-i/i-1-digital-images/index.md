@@ -120,26 +120,62 @@ VOICE_ANCHOR: CT U1 ideas 1–3 + CT U2 Masterclass register (lesson-scribe 2026
 
 ## B2 · Lab (Portfolio)
 
-**Announced by a geometrical slide first:** **two** exercises follow; everything you produce in Lab goes into your **portfolio index**.
+*Session block · A geometrical slide announces the Lab: **two** exercises follow. Everything you produce in Lab goes into your **portfolio index**. These Labs practise Masterclass ideas and feed ACT1 figurín craft — they are not a second graded Campus Virtual channel.*
 
-### Exercise 1 — Place an image in the field
+### Exercise 1 — Read one fashion photograph for the field {#lab-exercise-1}
 
-Pick **one** fashion image (found or your own). On paper or in a short note, place it in the field — not by file type:
+Practises Masterclass ideas **1** (field of practices) and **3** (many genres at once).
 
-1. **Practice** — editorial / advertising / beauty / portraiture / documentary (or your defended label)  
-2. **Agents / actors** — who made it or stands in for the crowd (photographer, stylist, model, editor, brand…)  
-3. **Venues** — where it shows or could show (gallery, campaign feed, runway, retail, exhibition…)  
-4. **Interests** — who paid, who is meant to look, what job the image is doing  
+**Time:** 15 minutes (12 alone, 3 pair share).
 
-Then write one sentence explaining why “it’s a JPEG” (or any container name) is **not** an answer to “what kind of fashion image is this?”
+**Group:** alone, then pairs for a short share.
 
-**Portfolio trace:** field map (practice · agents · venues · interests) + one container-vs-practice sentence.
+**Materials:** one rights-clear or course-set fashion photograph (the image you will later use as a figurín reference); paper or a laptop; timer.
 
-### Exercise 2 — Where do you picture yourself in the field?
+**Steps:**
 
-Open the course [Field Directory]({{ '/directory/en/' | relative_url }}). Stay on that page — jump by section. Pick **one prize or award**, **one studio or lab**, and **one figure**. Write two sentences on where you picture yourself among those three pins (practice aspiration, not a CV claim).
+1. Choose one fashion photograph you can attribute.
+2. Map **practice**, **agents/actors**, **venues**, and **interests** on paper or in a short note.
+3. Write one sentence explaining why a container name (JPEG, RAW, PNG) is **not** an answer to “what kind of fashion image is this?”
+4. Name one art/commerce tension the image carries.
+5. Keep this image as the reference for Exercise 2.
 
-**Portfolio trace:** three Directory pins (name + section) + two-sentence field position.
+**Portfolio trace:** field map (practice · agents · venues · interests) + container-vs-practice sentence + art/commerce note.
+
+**Judged by:** [Portfolio rubric — process evidence and critical judgement]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Fashion photographs as a wide array of practices with a permeable art/commerce boundary [(Shinkle 2008, 15)](#ref-shinkle-2008). The numbered steps are a classroom adaptation.
+
+### Exercise 2 — Start a digital figurín scaffold {#lab-exercise-2}
+
+Practises Masterclass idea **2** (not a file format — the figurín is a practice). Feeds **ACT1 Figurín** craft without inventing a graded submit here.
+
+**Time:** 20 minutes.
+
+**Group:** alone.
+
+**Materials:** drawing tablet or laptop with a drawing app; the photograph from Exercise 1; timer.
+
+**Steps:**
+
+1. Set a visible head-count or grid scaffold on a blank canvas.
+2. Block the figure as simple volumes before any garment detail.
+3. Keep garment finish for later (I.2) — stop at scaffold + volumes.
+4. Export a scaffold-only file (or a clearly named layer state).
+5. Write one sentence naming a proportion decision that would survive hand → raster → vector.
+
+**Portfolio trace:** scaffold-only export + proportion-survival sentence.
+
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (figurín pedagogy sequence held — Abling page cite open in the research manifest).
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+LAB_LINE: exercise=1; method_id=fashion-photograph-reading; practises=masterclass-1,masterclass-3; source=shinkle-2008 (verified); steps=classroom adaptation; ACT=ACT1-prep
+LAB_LINE: exercise=2; method_id=figurin-digital; practises=masterclass-2; source=held/classroom adaptation; ACT=ACT1
+-->
+{% endif %}
 
 ---
 
@@ -152,10 +188,12 @@ First lessons have **no Workshop block**. Lab ends the session.
 **Workshop time starts session 4:** ≈ half **D2 Transposition**, ≈ half **D3 final event**.
 
 **Definition of done (this week):**
-- Portfolio index started (**two** Lab traces: field map + Directory field pin).
+- Portfolio index started (**two** Lab traces: field map + figurín scaffold).
 - One written note: “D1 = Analysis defence — exhibition image TBD after Madrid brief.”
 
-**Not this week:** D1 slideshow, D2 transposition, D3 Atrium tech script, invented “studio piece” deliverables.
+**Not this week:** D1 slideshow, D2 transposition, D3 Atrium tech script, finished ACT1 figurín submit, invented off-book graded work.
+
+**Outside class (optional):** browse the [Field Directory]({{ '/directory/en/' | relative_url }}) and pin one prize, one studio/lab, and one figure — autonomous exploration, not Lab evidence.
 
 {% comment %}
 outcome-graphic-selection:

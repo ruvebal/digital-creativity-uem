@@ -110,25 +110,62 @@ VOICE_ANCHOR: DC I.1 Masterclass idea 1 (homogenized 2026-09-14) + CT U2 registe
 
 ## B2 · Lab (Portfolio)
 
-**Announced by a geometrical slide first:** three exercises follow; everything you produce in Lab goes into your **portfolio index**.
+*Session block · A geometrical slide announces the Lab: **two** exercises follow. Everything you produce in Lab goes into your **portfolio index**. Labs practise Masterclass and feed **ACT1 Figurín** craft — not a second graded Campus Virtual channel.*
 
-### Exercise 1 — Contour from primitives
+### Exercise 1 — Croquis proportion scaffold {#lab-exercise-1}
 
-Build one simple fashion silhouette from basic shapes and paths. Keep construction marks visible.
+Practises Masterclass ideas **1** (drawing as thinking) and **4** (fashion visual grammar).
 
-**Portfolio trace:** file + one sentence naming the hardest anchor-point decision.
+**Time:** 20 minutes.
 
-### Exercise 2 — Wrong curve handle
+**Group:** alone.
 
-Given a path with a visibly wrong curve handle, name what is wrong and what a correct handle would do.
+**Materials:** vector or raster drawing app; tablet or mouse; timer; your I.1 scaffold if you have it.
 
-**Portfolio trace:** diagnosis + corrected sketch (tool or paper).
+**Steps:**
 
-### Exercise 3 — Three alternatives
+1. Choose a head-count or grid scaffold and draw it alone first.
+2. Place landmarks (shoulder, waist, hip, knee) before contour.
+3. Trace a second pass for garment only on a separate layer.
+4. Compare scaffold vs finish; mark one collapsed decision.
+5. Keep construction marks visible in the export.
 
-Make three visibly different versions of the silhouette. Score novelty and fit (1–5). Rank and defend the winner.
+**Portfolio trace:** scaffold layer + garment layer pair; one sentence on the landmark that locked the pose.
 
-**Portfolio trace:** three versions + scoring sheet + one paragraph of defence.
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (croquis / Abling page cite held).
+
+### Exercise 2 — Three alternatives, then construction vs finish {#lab-exercise-2}
+
+Practises Masterclass ideas **6** (three alternatives) and **2** (vector as relationship).
+
+**Time:** 25 minutes (about 15 for alternatives, 10 for the audit + peer check).
+
+**Group:** alone for the alternatives; one peer for the hide-finish check.
+
+**Materials:** your silhouette file; colour for coding lines; timer.
+
+**Steps:**
+
+1. Make three visibly different versions of the silhouette.
+2. Score novelty and fit (1–5). Rank and defend the winner in one paragraph.
+3. On the winner, colour-code **construction** lines vs **finish** lines.
+4. Hide finish; ask a peer what garment they still understand.
+5. Restore finish only where it adds information. Write one sentence: which line type carried the silhouette.
+
+**Portfolio trace:** three versions + scoring sheet + construction/finish audit + defence paragraph.
+
+**Judged by:** [Portfolio rubric — selection and judgement]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation for the three-alternative drill; critical frame that imagination ≠ creativity ≠ fantasy [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009) — do not treat “more finish” as “more creative.”
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+LAB_LINE: exercise=1; method_id=croquis-proportion-scaffold; practises=masterclass-1,masterclass-4; source=held/classroom adaptation; ACT=ACT1
+LAB_LINE: exercise=2; method_id=construction-vs-finish-lines; practises=masterclass-2,masterclass-6; source=huppauf-wulf-2009 p.32 (critical frame, verified) + classroom steps; ACT=ACT1
+-->
+{% endif %}
 
 ---
 
@@ -141,12 +178,12 @@ Make three visibly different versions of the silhouette. Score novelty and fit (
 **Definition of done:** piece ID; process folder; process note specific (not "I drew a dress").
 
 **Done enough for this week if you have:**
-- Contour + three alternatives
-- Scoring sheet
-- Process note with at least one named handle decision
+- Scaffold + garment layer pair (Exercise 1)
+- Three alternatives + construction/finish audit (Exercise 2)
+- Process note with at least one named landmark or construction decision
 - Portfolio index updated
 
-**Not this week:** D2 transposition, D3 Atrium, full colour/bitmap stack (I.3).
+**Not this week:** D2 transposition, D3 Atrium, finished ACT1 Campus Virtual submit, full colour/bitmap stack (I.3).
 
 {% comment %}
 outcome-graphic-selection:
@@ -159,7 +196,7 @@ outcome-graphic-selection:
 
 ## Conclusion
 
-This unit trains a drawing rhythm — externalise, relate, revise, select — and it refuses to pretend the fashion-specific teaching sequence is already settled. First, assignment-driven digital drawing is a strong general model, but the page-verified fashion-HE sequence is still open procurement. Second, croquis grammar travels across media only if you keep construction decisions visible; software polish can hide that work. Third, imagination ≠ creativity ≠ fantasy [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009) — a “more creative” silhouette may only be freer fantasy, and Rubin’s taste/listening stance [(Rubin 2023, 123)](#ref-rubin-2023) contradicts tool-first literacy that treats handle fluency as authorship. Fourth, the question the debate prompt leaves standing is whether vector-first changes what you notice about silhouette — and your three alternatives this week are the only fashion-specific data in the room. What will you do with that gap — run Exercise 3 twice at home, or write the access barrier you almost left unnamed? Closing those doors for you would make the tool look wiser than the judgement the CONTENIDOS actually ask for.
+This unit trains a drawing rhythm — externalise, relate, revise, select — and it refuses to pretend the fashion-specific teaching sequence is already settled. First, assignment-driven digital drawing is a strong general model, but the page-verified fashion-HE sequence is still open procurement. Second, croquis grammar travels across media only if you keep construction decisions visible; software polish can hide that work. Third, imagination ≠ creativity ≠ fantasy [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009) — a “more creative” silhouette may only be freer fantasy, and Rubin’s taste/listening stance [(Rubin 2023, 123)](#ref-rubin-2023) contradicts tool-first literacy that treats handle fluency as authorship. Fourth, the question the debate prompt leaves standing is whether vector-first changes what you notice about silhouette — and your three alternatives this week are the only fashion-specific data in the room. What will you do with that gap — run Exercise 2 twice at home, or write the access barrier you almost left unnamed? Closing those doors for you would make the tool look wiser than the judgement the CONTENIDOS actually ask for.
 
 ---
 

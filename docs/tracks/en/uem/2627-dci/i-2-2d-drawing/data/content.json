@@ -186,25 +186,6 @@ layout: null
     },
     {
       "media_slot_id": "I.2.lab-2",
-      "asset_id": "wikimedia:File:Surrealism (49679583271).jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/152b234ba400335e.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Surrealism_%2849679583271%29.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Surrealism_(49679583271).jpg",
-      "title": "Surrealism (49679583271)",
-      "alt_text": "Surrealism (49679583271).jpg",
-      "author": "Flickr photographer (2020 upload)",
-      "licence": "CC-BY-2.0",
-      "licence_url": "",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Flickr photographer (2020 upload) · Wikimedia Commons",
-      "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "licence not accepted: CC-BY-2.0; modern CC photo; may show identifiable art",
-      "rights_status": "flagged",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "I.2.lab-3",
       "asset_id": "wikimedia:File:Work in Progress.JPG",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/9d962140d44bf914.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG",
@@ -511,10 +492,10 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Exercise 1 · Contour from primitives",
-      "sentence": "Build one simple fashion silhouette from basic shapes and paths. Keep construction marks visible.",
+      "heading": "Exercise 1 · Croquis proportion scaffold",
+      "sentence": "Draw the scaffold alone first. Place landmarks before contour. Garment finish waits on a separate layer.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the file + one sentence naming the hardest anchor-point decision.",
+      "portfolio_trace": "Scaffold layer + garment layer pair; one sentence on the landmark that locked the pose.",
       "quote": "Label the practice before you name the file — JPEG never answered a venue.",
       "quote_origin": "tao_invented",
       "semantic_tags": {
@@ -541,15 +522,22 @@ layout: null
       "slide_id": "lab-1",
       "image_brief": "CosmicBloom vector-like floral form built from curves: a contour assembled from primitives students can reverse-engineer.",
       "asset_id": "wikimedia:File:CosmicBloom.jpg",
-      "notes": "- Lab task: Exercise 1 · Contour from primitives.\n- Brief: Build one simple fashion silhouette from basic shapes and paths. Keep construction marks visible.\n- Portfolio: Save the file + one sentence naming the hardest anchor-point decision.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 20 minutes. Individual. ACT1 figurín craft (proportion), not a second graded channel.\n- Choose a head-count or grid scaffold and draw it alone first.\n- Place landmarks (shoulder, waist, hip, knee) before contour.\n- Trace a second pass for garment only on a separate layer.\n- Compare scaffold vs finish; mark one collapsed decision.\nSource: Classroom adaptation (croquis / Abling page cite held).\nAsk: Which landmark would break first if you changed medium?",
+      "prompt": "Practises Masterclass 1 and 4: drawing as thinking; fashion visual grammar.",
+      "method_id": "croquis-proportion-scaffold",
+      "practises": [
+        "masterclass-1",
+        "masterclass-4"
+      ],
+      "timer_seconds": 1200
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Exercise 2 · Wrong curve handle",
-      "sentence": "Given a path with a visibly wrong curve handle, name what is wrong and what a correct handle would do.",
+      "heading": "Exercise 2 · Three alternatives, then construction vs finish",
+      "sentence": "Make three visibly different silhouette versions. On the winner, colour-code construction lines vs finish — hide finish and ask a peer what still reads.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save diagnosis + corrected sketch (tool or paper).",
+      "portfolio_trace": "Three versions + scoring sheet + construction/finish audit on the winner + one defence paragraph.",
       "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -574,44 +562,16 @@ layout: null
       },
       "media_slot_id": "I.2.lab-2",
       "slide_id": "lab-2",
-      "image_brief": "Surrealist collage photograph (2020 upload): curved forms that look 'wrong' on purpose — a visual cue for a bad Bézier handle.",
-      "asset_id": "wikimedia:File:Surrealism (49679583271).jpg",
-      "notes": "- Lab task: Exercise 2 · Wrong curve handle.\n- Brief: Given a path with a visibly wrong curve handle, name what is wrong and what a correct handle would do.\n- Portfolio: Save diagnosis + corrected sketch (tool or paper).\n- Start the timer; circulate; stop with one share-out."
-    },
-    {
-      "slide_role": "lab_exercise",
-      "background_kind": "curated",
-      "heading": "Exercise 3 · Three alternatives",
-      "sentence": "Make three visibly different versions of the silhouette. Score novelty and fit (1–5). Rank and defend the winner.",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save the three versions + scoring sheet + one paragraph of defence.",
-      "quote": "Everything got better for me when I made peace with the fact that it might not ever get easier. Creative work is hard.",
-      "quote_origin": "page_verified",
-      "semantic_tags": {
-        "themes": [
-          "alternatives",
-          "selection"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms",
-          "drawing (image-making)"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "citation": {
-        "label": "(Kleon 2019)",
-        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
-      },
-      "media_slot_id": "I.2.lab-3",
-      "slide_id": "lab-3",
-      "image_brief": "Work-in-progress drawing board with several unfinished figure studies: three alternatives kept open before one is chosen.",
+      "image_brief": "Work-in-progress drawing board with several unfinished figure studies: three alternatives kept open before one is chosen, then construction vs finish audited.",
       "asset_id": "wikimedia:File:Work in Progress.JPG",
-      "notes": "- Lab task: Exercise 3 · Three alternatives.\n- Brief: Make three visibly different versions of the silhouette. Score novelty and fit (1–5). Rank and defend the winner.\n- Portfolio: Save the three versions + scoring sheet + one paragraph of defence.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 25 minutes. Individual + one peer check.\n- Make three visibly different versions of the silhouette. Score novelty and fit (1–5); rank and defend the winner.\n- On the winner: colour-code construction lines vs finish lines.\n- Hide finish; ask a peer what garment they still understand.\n- Restore finish only where it adds information. One sentence: which line type carried the silhouette.\nSource: Classroom adaptation for the three-alternative drill; critical frame that imagination ≠ creativity ≠ fantasy (Hüppauf and Wulf 2009, 32) — do not treat “more finish” as “more creative.”\nAsk: Did your rarest alternative also carry the clearest construction?",
+      "prompt": "Practises Masterclass 6 (three alternatives) and 2 (vector as relationship).",
+      "method_id": "construction-vs-finish-lines",
+      "practises": [
+        "masterclass-2",
+        "masterclass-6"
+      ],
+      "timer_seconds": 1500
     },
     {
       "slide_role": "outro",
