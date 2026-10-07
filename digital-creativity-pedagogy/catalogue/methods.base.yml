@@ -400,7 +400,7 @@ methods:
   family: colour
   craft_mode: critical
   primary_source: aldahoul-2025
-  source_status: verified
+  source_status: held
   source_locator: Scientific Reports 15 — generative faces and racial homogenization (Wave-1 verified
     claim)
   profield_runs:
@@ -463,7 +463,7 @@ methods:
   family: composition
   craft_mode: critical
   primary_source: shinkle-2008
-  source_status: verified
+  source_status: held
   source_locator: Fashion as Photograph — fashion photography as discursive practices (Wave-1 verified
     field claim)
   profield_runs:
@@ -1487,7 +1487,7 @@ methods:
   family: critical-craft
   craft_mode: critical
   primary_source: shinkle-2008
-  source_status: verified
+  source_status: held
   source_locator: Fashion as Photograph — wide array of practices; permeable art/commerce boundary
   profield_runs:
   - digital-creativity
