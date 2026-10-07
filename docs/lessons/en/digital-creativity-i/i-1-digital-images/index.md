@@ -14,6 +14,7 @@ deck_url: /tracks/dci/i-1-fashion-image/
 master_idea: 'An image is a cultural and communicative system, not merely a file'
 practice_anchor: 'Place one image in the field (practice · agents · venues · interests) then pin yourself in the Field Directory — two Lab traces only'
 frontier_signal: 'Transmedia / algorithmic mediation and textbook-audit cites remain open procurement — named gaps, not settled classroom proof'
+references: [shinkle-2008, huppauf-wulf-2009, rubin-2023]
 ---
 
 <!-- prettier-ignore-start -->
@@ -105,9 +106,9 @@ Reference boards pretend to be neutral until you ask who never appears as the "n
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; source={document_coat=1936070c; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes; quote_candidates="wide array of practices" / "shifting and highly permeable"
-PROVENANCE_LINE: claim=I.1.field-tension.imagination-creativity-fantasy; status=VERIFIED; source={document_coat=94897108; node_id=edbc2759-0224-56a5-93fd-5bce9ac14b40; page_index=31; printed_page=32}; public_citation="(Hüppauf and Wulf 2009, 32)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=I.1.rubin-taste-counterpoint; status=VERIFIED; source={document_coat=574691eb; node_id=b9d0c0a0-7205-5571-aee0-10ec46a7d5c1; printed_page=123}; public_citation="(Rubin 2023, 123)"; evaluator_safe=yes; note=practitioner not peer-reviewed pedagogy
+PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; page_basis=printed; source={document_coat=1936070c; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes; quote_candidates="wide array of practices" / "shifting and highly permeable"
+PROVENANCE_LINE: claim=I.1.field-tension.imagination-creativity-fantasy; status=VERIFIED; page_basis=printed; source={document_coat=94897108; node_id=edbc2759-0224-56a5-93fd-5bce9ac14b40; page_index=31; printed_page=32}; public_citation="(Hüppauf and Wulf 2009, 32)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=I.1.rubin-taste-counterpoint; status=VERIFIED; page_basis=printed; source={document_coat=574691eb; node_id=b9d0c0a0-7205-5571-aee0-10ec46a7d5c1; printed_page=123}; public_citation="(Rubin 2023, 123)"; evaluator_safe=yes; note=practitioner not peer-reviewed pedagogy
 PROVENANCE_LINE: claim=I.1.gap.tool-pedagogy; status=NONE; public_citation=OMITTED
 PROVENANCE_LINE: claim=I.1.critical.mediatization; status=[BIBLIO-GAP]; ahmes_attempt=Rocamora 2017 not in scholar vault; public_citation named as frontier only
 PROVENANCE_LINE: claim=I.1.critical.textbook-audit; status=[BIBLIO-GAP]; ahmes_attempt=Reddy-Best 2018 not in scholar vault; public_citation named as critical prompt only
@@ -173,21 +174,13 @@ This unit trains a reading frame, not a software path — and it leaves doors op
 
 ## References
 
-- <span id="ref-shinkle-2008">Shinkle, Eugenie. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I. B. Tauris. ISBN 9781845115166.</span>
-- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936. — Page-verified for imagination / fantasy / creativity distinction.</span>
-- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Practitioner counterpoint (taste / listening) — not peer-reviewed image pedagogy.</span>
-- <span id="ref-rocamora-2017">Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. <a href="https://doi.org/10.1080/1362704X.2016.1173349" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2016.1173349</a>.</span>
-- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.</span>
-- <span id="ref-norman-2013">Norman, Donald A. 2013. *The Design of Everyday Things*. Revised and expanded edition. New York: Basic Books. ISBN 9780465050659.</span>
-- <span id="ref-kleon-2019">Kleon, Austin. 2019. *Keep Going: 10 Ways to Stay Creative in Good Times and Bad*. New York: Workman Publishing. ISBN 9781523507863.</span>
-- <span id="ref-monteiro-2019">Monteiro, Mike. 2019. *Ruined by Design: How Designers Destroyed the World, and What We Can Do to Fix It*. San Francisco: Mule Design. ISBN 9781090532084.</span>
-- <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination*. London: Routledge. ISBN 9780203259412. — Cultural/theological imagination frame — light gap fill, not required for I.1 body claims.</span>
+{% include references.html %}
 
 ---
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; discovery={service=DevIAC; project_slug=profield-digital-creativity; knowledge_scope=field_prospection}; source={document_coat=1936070c; extraction_db=ahmes-library/scholar/documents/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/extract/extraction.db; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; page_basis=printed; discovery={service=DevIAC; project_slug=profield-digital-creativity; knowledge_scope=field_prospection}; source={document_coat=1936070c; extraction_db=ahmes-library/scholar/documents/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/extract/extraction.db; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes
 MEDIA_RIGHTS_LINE: deck=I.1 accepted Profield cache slots; geometrical=uem-henon-pass-* SVG UUIDs in caption
 -->
 {% endif %}

@@ -14,6 +14,7 @@ deck_url: /tracks/dci/i-3-color-bitmaps/
 master_idea: 'El color es una relación — muestreado, mostrado, nombrado e interpretado — no una muestra fija'
 practice_anchor: 'Alfabetización de mapa de bits: modo, profundidad, gama, contraste y una paleta alternativa accesible visible en el registro de proceso'
 frontier_signal: 'Los estilos de edición en plataforma circulan rápido; las secuencias de gestión del color en HE de moda siguen sin validar'
+references: [roivainen-2025, aldahoul-2025]
 ---
 
 <!-- prettier-ignore-start -->
@@ -161,9 +162,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Albers, Josef. 2013. *Interaction of Color: 50th Anniversary Edition*. New Haven: Yale University Press. ISBN 9780300179354.
-- AlDahoul, Nouar, Talal Rahwan, and Yasir Zaki. 2025. "AI-Generated Faces Influence Gender Stereotypes and Racial Homogenization." *Scientific Reports* 15: 14449. <a href="https://doi.org/10.1038/s41598-025-99623-3" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41598-025-99623-3</a>.
-- Roivainen, Ida. 2025. "'How I Edit My Instagram Images': Investigating Skilled Vision in the Work of YouTube's Lifestyle-Content Creators." *Visual Studies* 40 (3): 569–585. <a href="https://doi.org/10.1080/1472586X.2024.2353689" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1472586X.2024.2353689</a>.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

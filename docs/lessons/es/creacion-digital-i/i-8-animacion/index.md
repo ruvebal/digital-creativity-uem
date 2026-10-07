@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-8-animacion/
 description: 'La animación implica movimiento a través de una secuencia de fijas — el oficio consiste en elegir cuáles conservar. Esta unidad declara, sin ocultarla, una excepción en la asignación de horas.'
 status: scaffold
 tags: [creacion-digital-i, animacion, movimiento, fotogramas]
+references: []
 ---
 
 <!-- prettier-ignore-start -->
@@ -146,11 +147,7 @@ Declarado como contenido, no omitido en silencio: la tabla de asignación da a e
 
 ## Referencias
 
-- Manovich, Lev. 2013. *Software Takes Command*. New York: Bloomsbury Academic. ISBN 9781623567453.
-- Shaw, Austin. 2015. *Design for Motion: Fundamentals and Techniques of Motion Design*. New York: Routledge. ISBN 9781138812093.
-- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2442183" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2442183</a>.
-
-**Brecha declarada — en claro.** Shaw (2015) y Manovich (2013) fundamentan vocabulario de movimiento y encuadre de hibridación software; **no** validan una secuencia de enseñanza de animación para moda HE. Esta unidad es un piloto de oficio declarado, no pedagogía establecida.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

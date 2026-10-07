@@ -1,8 +1,9 @@
 # PHASE-EX6: Research grounding + single bibliography source
 
 > **Track:** research
-> **Status:** BLOCKED (EX5 DONE)
+> **Status:** VERIFYING (PARTIAL — 10 verified / 36 gap; exit gate 0)
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
+> Implementer must not mark DONE — cold review + harness verify next.
 
 ## Goal
 

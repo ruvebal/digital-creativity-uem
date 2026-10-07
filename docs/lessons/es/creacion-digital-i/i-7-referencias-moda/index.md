@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-7-referencias-moda/
 description: 'Buscar una referencia compositiva no es un acto neutro de recolección — lo que devuelve una búsqueda ya carga una política de representación, evidenciado, de forma acotada, esta sesión.'
 status: scaffold
 tags: [creacion-digital-i, referencias, moodboard, etica-imagen, representacion-corporal]
+references: [campinho-2025]
 ---
 
 <!-- prettier-ignore-start -->
@@ -143,10 +144,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Campinho, M. I. S., C. V. Cardim da Silva, M. Dantas Soares y L. Amparo-Santos. 2025. “Corpos gordos e corpos obesos em telas digitais: um olhar analítico para imagens propagadas pelo Google.” <a href="https://doi.org/10.1590/s0104-12902025240894pt" target="_blank" rel="noopener noreferrer">https://doi.org/10.1590/s0104-12902025240894pt</a>.
-- Reddy-Best, Kelly L., Eunji Choi y Hangael Park. 2018. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36 (4): 281–295. <a href="https://doi.org/10.1177/0887302X18779140" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0887302X18779140</a>.
-
-**Brecha declarada — en claro.** Campinho et al. (2025) fundamenta la ética de la representación de lo que devuelve una búsqueda al buscar imágenes. **No** fundamenta un método de enseñanza para la búsqueda de referencias compositivas en sí — ninguna fuente aquí valida que la secuencia propia de esta unidad enseñe mejor que una alternativa.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

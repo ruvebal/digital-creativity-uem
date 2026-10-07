@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-9-bodegones/
 description: 'Un bodegón digital es donde convergen I.1–I.4 en una composición deliberadamente equilibrada — una unidad de síntesis y la novena lección andamiada de CD I.'
 status: scaffold
 tags: [creacion-digital-i, naturaleza-muerta, bodegon, composicion, sintesis]
+references: []
 ---
 
 <!-- prettier-ignore-start -->
@@ -143,9 +144,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers' Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia* 161 (1): 86–100. <a href="https://doi.org/10.1177/1329878X16665177" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/1329878X16665177</a>.
-
-**Brecha declarada — en claro.** Ninguna fuente revisada valida una secuencia para enseñar composición de bodegón; esta unidad es un ejercicio declarado de síntesis entre I.1 e I.4, no una técnica nueva establecida por investigación. Abidin (2016) fundamenta la lectura crítica de visibilidad y atención — no la eficacia compositiva de este aula.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

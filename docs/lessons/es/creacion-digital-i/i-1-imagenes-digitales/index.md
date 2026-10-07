@@ -14,6 +14,7 @@ deck_url: /tracks/dci/i-1-fashion-image/
 master_idea: 'Una imagen es un sistema cultural y comunicativo, no solo un archivo'
 practice_anchor: 'Etiqueta práctica · sede · audiencia · circulación antes de nombrar un formato; trata el límite arte/comercio como evidencia móvil'
 frontier_signal: 'Mediación algorítmica y auditoría de manuales siguen en adquisición abierta'
+references: [shinkle-2008, huppauf-wulf-2009, rubin-2023]
 ---
 
 <!-- prettier-ignore-start -->
@@ -187,11 +188,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Shinkle, Eugenie. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. Londres: I. B. Tauris. ISBN 9781845115166.
-- Rocamora, Agnès. 2017. "Mediatization and Digital Media in the Field of Fashion." *Fashion Theory* 21 (5): 505–522. <a href="https://doi.org/10.1080/1362704X.2016.1173349" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2016.1173349</a>.
-- Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.
-
-
+{% include references.html %}
 
 ---
 

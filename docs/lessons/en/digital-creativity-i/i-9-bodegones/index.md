@@ -10,6 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-9-bodegones/
 description: 'A digital bodegón is where I.1–I.4 converge into one deliberately balanced composition — a synthesis unit and CD I''s ninth scaffolded lesson.'
 status: scaffold
 tags: [digital-creativity-i, still-life, bodegon, composition, synthesis]
+references: []
 ---
 
 <!-- prettier-ignore-start -->
@@ -143,7 +144,7 @@ outcome-graphic-selection:
 
 ## References
 
-- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers' Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia* 161 (1): 86–100. <a href="https://doi.org/10.1177/1329878X16665177" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/1329878X16665177</a>.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

@@ -11,6 +11,7 @@ description: 'El dibujo exterioriza el pensamiento visual — pedagogía de tall
 status: scaffold
 tags: [creacion-digital-i, dibujo-2d, ilustracion-vectorial, croquis-moda]
 deck_url: /tracks/dci/i-2-2d-drawing/
+references: [huppauf-wulf-2009, rubin-2023]
 ---
 
 {% if site.publication.publish_internal_metadata %}
@@ -156,10 +157,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Abling, Bina. 2023. *Fashion Sketchbook*. 7.ª ed. Nueva York: Fairchild Books. ISBN 9781501387951.
-- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.
-- Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.
-- Yu, G.S. 2025. "With the Heart, the Mind, and the Sight: Cultivating Creativity in Fashion Pedagogy." In *Signature Pedagogies for Professional Arts and Design Education*. MIT Press.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
