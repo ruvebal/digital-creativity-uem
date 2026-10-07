@@ -21,7 +21,7 @@ EN twin — teaching language ES. Canonical lesson: /lessons/es/nuevos-medios-mo
 
 ## Teaching language
 
-This unit is taught in **Spanish**. Use the [ES lesson]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) as the learning path. This page is a structural twin only (nm-unit-forge).
+This unit is taught in **Spanish**. Use the [ES lesson]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) as the learning path. This page is a structural twin only.
 
 ## Master idea
 
@@ -33,4 +33,4 @@ Back to [Nuevos medios track (EN)]({{ '/tracks/en/nuevos-medios-moda/' | relativ
 
 ## AI-assisted authorship
 
-Canonical authorship declaration lives on the [Spanish lesson]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}). This EN page is a navigation twin only (*Forge date: 2026-09-26*).
+Canonical authorship declaration lives on the [Spanish lesson]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}). This EN page is a navigation twin only.

@@ -231,7 +231,7 @@
   lessons_hub:
     es: /lessons/es/nuevos-medios-moda/
     en: /lessons/en/nuevos-medios-moda/
-  campaign_ledger: 'profield/runs/fashion-exemplary-social-campaigns/20260925T200000Z'
+  campaign_ledger: 'internal'  # path redacted for publication firewall (EX2)
   source_note: 'Guía oficial PDF REF 4d3415b1 (2026-27) + JSON cv/guides/2-nuevos-medios-rrss.json. Canvas U1–U6 = delivery spine mapping to CONTENIDOS; eval oficial online 50/10/20/20. U1–U3 forged + Reveal decks 2026-09-25/26; U4–U6 scaffold.'
   evaluation_weights_official_online:
     pruebas_virtuales: 50

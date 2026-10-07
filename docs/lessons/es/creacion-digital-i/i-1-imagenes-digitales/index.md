@@ -50,7 +50,7 @@ cover-agentic:
 {% endcomment %}
 
 {% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
+<!--  curriculum-internal:
 **Resultados de aprendizaje:** la lista `learning_outcomes` de la guía está redactada pensando en I.5/I.6 (forma/volumen) y en I.2/I.3/I.4 (dibujo/efectos) específicamente; ninguna de sus seis frases nombra verbatim la introducción a la imagen digital. En vez de forzar un encaje, esta unidad se declara honestamente al servicio de las cuatro competencias anteriores sin una frase dedicada de `learning_outcomes` — una laguna real de la granularidad de la guía, no contenido inventado.
 -->
 {% endif %}
@@ -239,22 +239,11 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
-entorno de estudio crea-comm.net — un harness agentic local con recuperación
-vía MCP, contexto RAG del vault curricular y un modelo de voz académica
-afinado sobre su propia escritura. La forja consultó **5** fuentes del vault;
-cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
-Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
-posterior. El juicio editorial y la responsabilidad del texto final permanecen
-en el autor.
-
-Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: ccaa5029-7c1b-4bef-b471-2be160541cc6
+<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
+      lesson_uuid: ccaa5029-7c1b-4bef-b471-2be160541cc6
      vault_refs_consulted: 5
      forge_pass: editorial-ai-footer-law-2026-09-22
 -->

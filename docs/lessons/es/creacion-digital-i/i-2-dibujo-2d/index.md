@@ -14,7 +14,7 @@ deck_url: /tracks/dci/i-2-2d-drawing/
 ---
 
 {% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
+<!--  curriculum-internal:
 description: 'El dibujo vectorial como disciplina de describir la forma como relación, no como píxeles — unidad de laguna declarada: ninguna fuente del vault valida una secuencia de enseñanza de herramientas de dibujo.'
 -->
 {% endif %}
@@ -190,22 +190,11 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
-entorno de estudio crea-comm.net — un harness agentic local con recuperación
-vía MCP, contexto RAG del vault curricular y un modelo de voz académica
-afinado sobre su propia escritura. La forja consultó **4** fuentes del vault;
-cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
-Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
-posterior. El juicio editorial y la responsabilidad del texto final permanecen
-en el autor.
-
-Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: 460fdfe8-d4bb-4415-bdb1-ea1402d1c984
+<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
+      lesson_uuid: 460fdfe8-d4bb-4415-bdb1-ea1402d1c984
      vault_refs_consulted: 4
      forge_pass: editorial-ai-footer-law-2026-09-22
 -->

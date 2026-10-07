@@ -20,8 +20,7 @@ Estado (2026-09-25):
 - CONTENIDOS oficiales (6 anclas PDF) ≠ títulos Canvas; Canvas = delivery spine.
 - Eval oficial online: 50 pruebas / 10 caso / 20 investigaciones / 20 cuaderno.
 - XLS/Canvas promoted parametrization: U2 5%, U3 5%, U4 10%, U6 20%, transversal case 10%; final test remains in virtual-tests block.
-- Corpus: profield-nuevos-medios-moda-2026-27 · cite Ahmes only.
-- No publicar rutas Ahmes, UUIDs ni [BIBLIO-GAP] en HTML estudiantil.
+- Las páginas estudiantiles no publican rutas internas, identificadores de extracción ni estados de bibliografía.
 -->
 {% endif %}
 

@@ -65,7 +65,7 @@ By the end of this master lecture you can:
 
 ## Why this guide
 
-This lecture does not invent a new CONTENIDOS row. It is a **method workshop** — same spirit as the [Web Analysis Guide](https://ruvebal.github.io/web-atelier-udit/lessons/en/web-analysis/): numbered steps, one sitting, critical emphasis.
+This lecture does not invent a new CONTENIDOS row. It is a **method workshop** — same spirit as a numbered-step web analysis guide: one sitting, critical emphasis.
 
 It serves campaign analysis, portfolio image work, and any track session that needs a shared critique language.
 
@@ -244,4 +244,5 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 
 ## AI-assisted authorship
 
-Vault counts this cycle: **2** public sources cited (Shinkle 2008; Eckersall 2017) · date **2026-09-27** · guide prose author-edited. [See site AI declaration when published]({{ '/ai-declaration/#AI-assisted-authorship' | relative_url }}).
+This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+

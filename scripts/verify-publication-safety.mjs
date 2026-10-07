@@ -6,8 +6,13 @@ import { extname, join, relative, resolve } from 'node:path';
 const root = process.cwd();
 const citationMode = process.argv.includes('--citations');
 const publicRoot = resolve(root, '_site');
-const sourceRoot = resolve(root, 'docs/lessons');
+const sourceRoots = [resolve(root, 'docs/lessons'), resolve(root, 'docs/tracks')];
 const internalSwitch = 'site.publication.publish_internal_metadata';
+
+// Student disclosure page may name the harness once (EX2 one-sentence footers link here).
+function isDisclosurePath(relPath) {
+	return /(?:^|\/)ai-declaration(?:\/|$)/i.test(relPath.replace(/\\/g, '/'));
+}
 
 const forbidden = [
 	[/\bAhmes\b/i, 'internal corpus name'],
@@ -36,7 +41,26 @@ const forbidden = [
 	[/\b\.cursor\//i, 'local agent configuration'],
 	[/\b(?:dc-)?unit-forge\.mdc\b/i, 'local forge rule'],
 	[/\bCD-WAVE-4\.execute\.md\b/i, 'local execution plan'],
+	// EX2 (FINDINGS C1/E1): authoring machinery + sibling surfaces (DC-tuned).
+	// Asset dir `profield-cache/` is renamed in EX4; do not match path segments here.
+	[/\blesson-scribe\b/i, 'internal authoring agent'],
+	[/\bProfield\b/, 'internal media / campaign service'],
+	[/profield\/runs\b/i, 'internal Profield run path'],
+	[/\bThessia\b/, 'internal voice model'],
+	[/\bForge date\b/i, 'internal authoring stamp'],
+	[/\bFecha de forja\b/i, 'internal authoring stamp'],
+	[/\bnm-unit-forge\b/i, 'internal unit forge'],
+	[/(?<![A-Za-z0-9_-])UDIT(?![A-Za-z0-9_-])/, 'sibling institution (UDIT)'],
+	[/\bweb-atelier\b/i, 'sibling course site'],
+	[/\bcreativity-techniques-uem\b/i, 'sibling course site'],
+	[/\bahmes-library\b/i, 'local vault path'],
 ];
+
+const disclosureAllowed = new Set([
+	'internal authoring agent',
+	'internal authoring stamp',
+	'sibling course site',
+]);
 
 function filesUnder(directory, extensions) {
 	const result = [];
@@ -74,17 +98,24 @@ function leakAudit() {
 	const failures = [];
 	const extensions = new Set(['.html', '.xml', '.json', '.js', '.css', '.svg', '.md', '.txt', '.yml', '.yaml']);
 	for (const file of filesUnder(publicRoot, extensions)) {
+		const rel = relative(root, file);
+		const disclosure = isDisclosurePath(rel);
 		const content = readFileSync(file, 'utf8');
 		for (const [pattern, label] of forbidden) {
-			if (pattern.test(content)) failures.push(`${relative(root, file)}: ${label}`);
+			if (disclosure && disclosureAllowed.has(label)) continue;
+			if (pattern.test(content)) failures.push(`${rel}: ${label}`);
 		}
 	}
-	for (const file of filesUnder(sourceRoot, new Set(['.md', '.html']))) {
-		const raw = readFileSync(file, 'utf8');
-		if (!isPublished(raw)) continue;
-		const content = publicSource(raw);
-		for (const [pattern, label] of forbidden) {
-			if (pattern.test(content)) failures.push(`${relative(root, file)}: ungated ${label}`);
+	for (const sourceRoot of sourceRoots) {
+		if (!statSync(sourceRoot, { throwIfNoEntry: false })?.isDirectory()) continue;
+		for (const file of filesUnder(sourceRoot, new Set(['.md', '.html']))) {
+			const raw = readFileSync(file, 'utf8');
+			if (!isPublished(raw)) continue;
+			const content = publicSource(raw);
+			const rel = relative(root, file);
+			for (const [pattern, label] of forbidden) {
+				if (pattern.test(content)) failures.push(`${rel}: ungated ${label}`);
+			}
 		}
 	}
 	if (failures.length) {
@@ -96,7 +127,8 @@ function leakAudit() {
 
 function citationAudit() {
 	const failures = [];
-	for (const file of filesUnder(sourceRoot, new Set(['.md']))) {
+	const lessonRoot = resolve(root, 'docs/lessons');
+	for (const file of filesUnder(lessonRoot, new Set(['.md']))) {
 		const raw = readFileSync(file, 'utf8');
 		if (!isPublished(raw)) continue;
 		if (!raw.includes('lesson-semantic-graphic.html')) continue;
@@ -138,12 +170,8 @@ function citationAudit() {
 			if (!/\/ai-declaration\//.test(afterReferences) && !/\{\{\s*'\/ai-declaration\/'\s*\|\s*relative_url\s*\}\}/.test(afterReferences)) {
 				failures.push(`${relative(root, file)}: AI-assisted authorship footer must link to /ai-declaration/`);
 			}
-			if (!/\*[^*]*Forge date:|\*[^*]*Fecha de forja:/i.test(afterReferences)) {
-				failures.push(`${relative(root, file)}: AI footer missing Forge date / Fecha de forja line`);
-			}
-			if (!/lesson-scribe/i.test(afterReferences)) {
-				failures.push(`${relative(root, file)}: AI footer must name harness lesson-scribe`);
-			}
+			// EX2: public AI footer is one sentence + /ai-declaration/ link.
+			// Forge date / lesson-scribe stay in gated curriculum-internal metadata.
 		}
 	}
 	if (statSync(publicRoot, { throwIfNoEntry: false })) {

@@ -27,7 +27,7 @@ Una estrategia digital de moda es un sistema de presencia — voz, formatos, mé
 
 ## Status
 
-Forged ES Masterclass (Thessia cold B1 + review). EN twin carries no second research spine.
+ES Masterclass is the research spine. EN twin carries no second research spine.
 
 ## Evidence map
 
@@ -35,4 +35,4 @@ See the Spanish lesson for the per-idea SAFE evidence table and verbatim extract
 
 ## AI-assisted authorship
 
-Canonical authorship declaration lives on the [Spanish lesson]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}). This EN page is a navigation twin only (*Forge date: 2026-09-25*).
+Canonical authorship declaration lives on the [Spanish lesson]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}). This EN page is a navigation twin only.

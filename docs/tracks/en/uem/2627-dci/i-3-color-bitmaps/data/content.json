@@ -9,7 +9,7 @@ layout: null
     "project_id": "dc",
     "collection": "unit-accepted",
     "strategy": "review-state-assigned",
-    "description": "I.3 Profield stills. Excluded: Art+Feminism edit-a-thon and Barbie magazine (not colour/bitmap teaching stills for this deck).",
+    "description": "I.3 media library stills. Excluded: Art+Feminism edit-a-thon and Barbie magazine (not colour/bitmap teaching stills for this deck).",
     "media_overrides": {
       "I.3.still.cover": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
       "I.3.still.profield-8": "wikimedia:File:CMYK.png"
