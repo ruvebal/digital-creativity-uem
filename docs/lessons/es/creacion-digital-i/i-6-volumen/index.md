@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-6-volumen/
 description: 'El volumen construido iterando entre representación física y digital — un módulo didáctico híbrido analógico/digital, no un flujo de una sola herramienta.'
 status: scaffold
 tags: [creacion-digital-i, volumen, taller-hibrido, clo3d, educacion-moda]
+references: [coats-2026]
 ---
 
 <!-- prettier-ignore-start -->
@@ -151,11 +152,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Coats, M. 2026. “The Denim Project—A Hybrid Approach to Fashion Education Using CLO3D.” *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2026.2688308" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2026.2688308</a>.
-- Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
-- Farah, M. F., Z. Ramadan y Y. Nassereddine. 2025. “Mind the gap: virtual fashion shows and generational disparities.” *International Journal of Fashion Design, Technology and Education*. <a href="https://doi.org/10.1080/17543266.2025.2489380" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2025.2489380</a>.
-
-**Brecha declarada — en claro.** Coats (2026, 8) fundamenta un módulo híbrido real; **no** prueba que ese enfoque se generalice como método didáctico a otras herramientas, cohortes o instituciones. Ninguna fuente revisada valida la iteración híbrida analógica/digital como pedagogía universal de volumen en moda HE.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

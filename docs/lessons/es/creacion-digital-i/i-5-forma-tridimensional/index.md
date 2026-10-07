@@ -11,6 +11,7 @@ description: 'La forma tridimensional como alfabetización espacial — geometr�
 status: scaffold
 tags: [creacion-digital-i, forma-3d, razonamiento-espacial, educacion-moda]
 deck_url: /tracks/dci/i-5-three-dimensional-form/
+references: [papahristou-2024]
 ---
 
 <!-- prettier-ignore-start -->
@@ -150,11 +151,7 @@ outcome-graphic-selection:
 
 ## Referencias
 
-- Arnheim, Rudolf. 2004. *Art and Visual Perception: A Psychology of the Creative Eye*. 2nd ed. Berkeley: University of California Press. ISBN 9780520243835.
-- Entwistle, Joanne. 2015. *The Fashioned Body: Fashion, Dress and Modern Social Theory*. 2nd ed. Cambridge: Polity. ISBN 9780745649382.
-- Hughes, John F., Andries van Dam, Morgan McGuire, David F. Sklar, James D. Foley, Steven K. Feiner, and Kurt Akeley. 2013. *Computer Graphics: Principles and Practice*. 3rd ed. Upper Saddle River, NJ: Addison-Wesley. ISBN 9780321399526.
-- Moritz, Anna, and Song-yi Youn. 2022. "Spatial Ability of Transitioning 2D to 3D Designs in Virtual Environment: Understanding Spatial Ability in Apparel Design Education." *Fashion and Textiles* 9: 29. <a href="https://doi.org/10.1186/s40691-022-00293-w" target="_blank" rel="noopener noreferrer">https://doi.org/10.1186/s40691-022-00293-w</a>.
-- Papahristou, E., and N. Zolota Tatsi. 2024. "A Review of 3D Design Knowledge and Its Impact on Creativity in Fashion Design Education." *Communications in Development and Assembling of Textile Products* 5 (2): 266–277. <a href="https://doi.org/10.25367/cdatp.2024.5.p266-277" target="_blank" rel="noopener noreferrer">https://doi.org/10.25367/cdatp.2024.5.p266-277</a>.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

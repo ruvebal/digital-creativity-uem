@@ -10,6 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-8-animation/
 description: 'Animation implies motion through a sequence of stills — the craft is choosing which stills to keep. An hour-allocation exception is disclosed, not hidden, in this unit.'
 status: scaffold
 tags: [digital-creativity-i, animation, motion, stills]
+references: []
 ---
 
 <!-- prettier-ignore-start -->
@@ -146,9 +147,7 @@ Stated as content, not omitted silently: the allocation table gives this unit 0 
 
 ## References
 
-- Manovich, Lev. 2013. *Software Takes Command*. New York: Bloomsbury Academic. ISBN 9781623567453.
-- Shaw, Austin. 2015. *Design for Motion: Fundamentals and Techniques of Motion Design*. New York: Routledge. ISBN 9781138812093.
-- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2442183" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2442183</a>.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

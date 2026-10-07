@@ -28,3 +28,9 @@ Append-only. Format:
 2026-10-07 · EX5 · Port CT deck pre-renderer for Wave-1 (render-decks + deck-render.mjs); henon SVGs keep 12-hex content hashes; diagram fallback = fractal-triangles/uem-diagram-fallback-* · AUTOPILOT §2 / FINDINGS B4 B5 · alt: keep runtime fetch · undo: revert scripts/lib/deck-render.mjs + scripts/render-decks.mjs + includes
 2026-10-07 · EX5 · Speaker notes drafted for every Wave-1 masterclass/lab/opener/cover slide; enhancement-only student-media-deck.js (data-base-url, no Date.now, no hard-coded base) · FINDINGS B4 · alt: notes only on masterclass · undo: strip notes fields from content.json
 2026-10-07 · EX5 · Align CSS + forge golden rule 1 clamps (22px/2.6vw/38px · h1 2.15rem/6.6vw/3.15rem); layout recovery (no 62vh min-height, section overflow visible, lab skips duplicate prompt when portfolio_trace set); browser deck-layout.mjs in EX5 gate (Wave-1 only) · FINDINGS B4 · AUTOPILOT §2 · alt: weaken type floors · undo: revert pass-track-deck.css + forge golden-rule paragraph + deck-layout.mjs
+
+2026-10-07 · EX6 · Single bibliography: only Ahmes page-verified works in `references.yml`; gaps stay in `research-manifest.yml`; PARTIAL OK · AUTOPILOT §2 EX6 / FINDINGS C2 C3 C5 · alt: invent cites or leave hand-written spans · undo: revert references.yml + include + Wave-1 lesson front matter
+2026-10-07 · EX6 · Critical layer Steimberg 2013 / Werhane 2026 / Munari method = gap (held or wrong edition); no student cite until EX10 brief · AUTOPILOT conservative · alt: force unverified pin · undo: amend manifest + place claim
+2026-10-07 · EX6 · Kandinsky 2012 p.9 verified from Dover coat 5c285f15 page_index 9 · AUTOPILOT vault rule · alt: leave ML-FIA cite as gap · undo: demote key + remove from references.yml
+
+2026-10-07 · EX6 · Fix cold P1 F1 Rubin page 42→123 in I.1; F2 Coats sustainability public_citation 8→4 to match printed_page · AUTOPILOT conservative · alt: leave PARTIAL mismatches · undo: revert those two lines

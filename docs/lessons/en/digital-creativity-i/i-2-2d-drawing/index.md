@@ -14,6 +14,7 @@ deck_url: /tracks/dci/i-2-2d-drawing/
 master_idea: 'Drawing externalises visual thinking — not button fluency'
 practice_anchor: 'Anchor points, curves, revision, and export as durable drawing operations inside a silhouette problem — not isolated Pen-tool drills'
 frontier_signal: 'Fashion-specific 2D tool sequences and Curcic/Abling page cites remain open — do not treat vector-first as proven pedagogy'
+references: [huppauf-wulf-2009, rubin-2023]
 ---
 
 <!-- prettier-ignore-start -->
@@ -164,18 +165,7 @@ This unit trains a drawing rhythm — externalise, relate, revise, select — an
 
 ## References
 
-- <span id="ref-monteiro-2019">Monteiro, Mike. 2019. *Ruined by Design: How Designers Destroyed the World, and What We Can Do to Fix It*. San Francisco: Mule Design. ISBN 9781090532084.</span>
-
-- <span id="ref-kleon-2019">Kleon, Austin. 2019. *Keep Going: 10 Ways to Stay Creative in Good Times and Bad*. New York: Workman Publishing. ISBN 9781523507863.</span>
-
-- <span id="ref-norman-2013">Norman, Donald A. 2013. *The Design of Everyday Things*. Revised and expanded edition. New York: Basic Books. ISBN 9780465050659.</span>
-
-- <span id="ref-abling-2023">Abling, Bina. 2023. *Fashion Sketchbook*. 7th ed. New York: Fairchild Books. ISBN 9781501387951.</span>
-- <span id="ref-curcic-2024">Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.</span>
-- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination*. New York: Routledge. ISBN 9780415990936. — Carry from I.1 field tension.</span>
-- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Practitioner taste/listening counterpoint.</span>
-- <span id="ref-reddy-best-2018">Reddy-Best, Kelly L., Laura Kane, Jennifer Harmon, and Nika R. Gagliardi. 2018. "Critical Perspectives on Fashion Textbooks: Representations of Race, Gender, and Body." *International Journal of Fashion Design, Technology and Education* 11 (1): 63–75. <a href="https://doi.org/10.1080/17543266.2017.1299226" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2017.1299226</a>.</span>
-- <span id="ref-yu-2025">Yu, G.S. 2025. "With the Heart, the Mind, and the Sight: Cultivating Creativity in Fashion Pedagogy." In *Signature Pedagogies for Professional Arts and Design Education*. MIT Press.</span>
+{% include references.html %}
 
 ---
 

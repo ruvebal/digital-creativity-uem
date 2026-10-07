@@ -11,6 +11,7 @@ description: 'An effect is a transformation with a before — filtering and comp
 status: scaffold
 tags: [digital-creativity-i, effects, filters, disclosure]
 deck_url: /tracks/dci/i-4-effects/
+references: []
 ---
 
 <!-- prettier-ignore-start -->
@@ -153,14 +154,7 @@ outcome-graphic-selection:
 
 ## References
 
-- Rodriguez Schon, Victoria, and Julia Valle-Noronha. 2025. “Experiencing Digital Fashion Archives through a Decolonial Lens.” *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.14563" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.14563</a>.
-- Rizzi, Greta, and Paola Bertola. 2025. “Exploring the Generative AI Potential in the Fashion Design Process.” *European Journal of Cultural Management and Policy*. <a href="https://doi.org/10.3389/ejcmp.2025.13875" target="_blank" rel="noopener noreferrer">https://doi.org/10.3389/ejcmp.2025.13875</a>.
-
-- Crepax, Rosa. 2024. "Affective Fashion Trends: Aesthetic and Digital Transformations in the Fashion System." *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2389595" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2389595</a>.
-- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.
-- Gonzalez, Rafael C., and Richard E. Woods. 2018. *Digital Image Processing*. 4th ed. New York: Pearson. ISBN 9780133356724.
-- McBride, Caitlin, Nancy Costello, Suman Ambwani, and S. Bryn Austin. 2019. "Digital Manipulation of Images of Models' Appearance in Advertising: Strategies for Action Through Law and Corporate Social Responsibility Incentives to Protect Public Health." *American Journal of Law & Medicine* 45 (2–3): 201–225. <a href="https://doi.org/10.1177/0098858819849990" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0098858819849990</a>.
-- Park, H., et al. 2025. "Generative AI in Studio-Based Design Education: Human–AI Collaboration, Agency, and Assessment." IASDR 2025.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

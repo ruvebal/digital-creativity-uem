@@ -1,0 +1,444 @@
+# PHASE-EX6 research manifest — Digital Creativity Wave-1 (CD I I.1–I.9 + ML-FIA).
+# Generated 2026-10-07 (autopilot; AUTOPILOT.md §2 EX6: vault / open access only;
+# else gap; PARTIAL allowed).
+#
+# status: verified = page- or section-verified against an Ahmes-held copy;
+#           cited in the listed unit(s) through docs/_data/references.yml.
+#         gap      = no verified claim in student References. Named frontiers in
+#           student prose may still acknowledge the work as open procurement.
+# unit:   I.1 … I.9, ML-FIA, D2 (critical layer for transposition brief).
+# page_basis: printed | section (required on verified entries).
+# Internal file: not published (digital-creativity-pedagogy/ is excluded from Pages).
+# Discovery: DevIAC project_slug=profield-digital-creativity (+ broadcast
+# profield-creativity-techniques for Steimberg/Werhane/Munari). Cite Ahmes only.
+
+lessons:
+  I.1: docs/lessons/en/digital-creativity-i/i-1-digital-images/index.md
+  I.2: docs/lessons/en/digital-creativity-i/i-2-2d-drawing/index.md
+  I.3: docs/lessons/en/digital-creativity-i/i-3-color-bitmaps/index.md
+  I.4: docs/lessons/en/digital-creativity-i/i-4-effects/index.md
+  I.5: docs/lessons/en/digital-creativity-i/i-5-three-dimensional-form/index.md
+  I.6: docs/lessons/en/digital-creativity-i/i-6-volume/index.md
+  I.7: docs/lessons/en/digital-creativity-i/i-7-fashion-references/index.md
+  I.8: docs/lessons/en/digital-creativity-i/i-8-animation/index.md
+  I.9: docs/lessons/en/digital-creativity-i/i-9-bodegones/index.md
+  ML-FIA: docs/lessons/en/master-lectures/fashion-image-analysis/index.md
+
+profield_corpora:
+  - run: digital-creativity
+    units: [I.1, I.3, I.4, all]
+  - run: dc-2d-image-craft-pedagogy
+    units: [I.2]
+  - run: dc-3d-form-volume-pedagogy
+    units: [I.5, I.6]
+  - run: dc-fashion-composition-references-pedagogy
+    units: [I.7]
+  - run: dc-fashion-motion-still-pedagogy
+    units: [I.8, I.9]
+  - run: dc-curriculum-gap-harvest
+    units: [all]
+  - run: digital-creativity/03-temario-critica
+    units: [critical]
+  - broadcast: profield-creativity-techniques
+    units: [D2]
+
+works:
+  # ------------------------------------------------------------------ I.1
+  - key: shinkle-2008
+    work: "Shinkle, Eugenie, ed. 2008. Fashion as Photograph. London: I. B. Tauris."
+    unit: I.1, ML-FIA
+    claim: "Fashion photography as a wide array of practices; permeable art/commerce boundary; discursive space for reading fashion images."
+    status: verified
+    page_basis: printed
+    provenance: "I.1 I.1.claim.field-of-practices; ML-FIA ML-FIA.discursive-space … ML-FIA.wide-practices"
+    vault: "coat 1936070c"
+    discovery_slug: profield-digital-creativity
+
+  - key: huppauf-wulf-2009
+    work: "Hüppauf and Wulf, eds. 2009. The Dynamics and Performativity of Imagination."
+    unit: I.1, I.2
+    claim: "Imagination, fantasy, and creativity as related but non-identical terms (p. 32)."
+    status: verified
+    page_basis: printed
+    provenance: "I.1 I.1.field-tension.imagination-creativity-fantasy; I.2 carry"
+    vault: "coat 94897108"
+    discovery_slug: profield-creativity-techniques
+
+  - key: rubin-2023
+    work: "Rubin, Rick. 2023. The Creative Act. New York: Penguin Press."
+    unit: I.1, I.2
+    claim: "Practitioner taste/listening counterpoint (not peer-reviewed image pedagogy)."
+    status: verified
+    page_basis: printed
+    provenance: "I.1 I.1.rubin-taste-counterpoint; I.2 carry"
+    vault: "coat 574691eb"
+    discovery_slug: broadcast
+
+  - key: rocamora-2017
+    work: "Rocamora, Agnès. 2017. Mediatization and Digital Media in the Field of Fashion. Fashion Theory 21 (5)."
+    unit: I.1
+    claim: "Mediatization / circulation critical frame."
+    status: gap
+    gap_reason: "Not in scholar vault; named as open procurement / frontier only."
+    procurement: "Acquire PDF into bibliographies/fashion + ahmes ingest."
+
+  - key: reddy-best-2018
+    work: "Reddy-Best et al. 2018. Critical Perspectives on Fashion Textbooks. IJFDTE 11 (1)."
+    unit: I.1, I.2
+    claim: "Textbook representation audit (race, gender, body)."
+    status: gap
+    gap_reason: "Not in scholar vault."
+    procurement: "Acquire publisher/OA PDF + ingest."
+
+  - key: norman-2013
+    work: "Norman, Donald A. 2013. The Design of Everyday Things. Rev. ed."
+    unit: I.1, I.2
+    claim: "General design literacy (was listed without Wave-1 body pin)."
+    status: gap
+    gap_reason: "Held (coat f31e7737) but no page-verified claim placed in Wave-1 DC lessons this phase."
+    vault: "coat f31e7737"
+    note: "Available for EX9 exemplars; not in student References until cited."
+
+  - key: kleon-2019
+    work: "Kleon, Austin. 2019. Keep Going."
+    unit: I.1, I.2
+    claim: "Practitioner keep-going advice."
+    status: gap
+    gap_reason: "Not in vault; was uncited filler in hand-written References."
+
+  - key: monteiro-2019
+    work: "Monteiro, Mike. 2019. Ruined by Design."
+    unit: I.1, I.2
+    claim: "Design ethics manifesto tone."
+    status: gap
+    gap_reason: "Not in vault; was uncited filler in hand-written References."
+
+  - key: avis-2013
+    work: "Avis, Paul. 2013. God and the Creative Imagination."
+    unit: I.1
+    claim: "Theological imagination frame."
+    status: gap
+    gap_reason: "Not in vault; light gap fill only."
+
+  # ------------------------------------------------------------------ I.2
+  - key: curcic-2024
+    work: "Curcic, Dimitrije. 2024. Enhancing Digital Drawing Proficiency. IJTES 8 (4)."
+    unit: I.2, I.4
+    claim: "Assignment-driven digital drawing; effects not an autonomous catalogue."
+    status: gap
+    gap_reason: "DOI known; not ingested / no page-verified Ahmes node."
+    procurement: "Confirm OA at doi:10.46328/ijtes.576; ingest if legitimate OA."
+
+  - key: abling-2023
+    work: "Abling, Bina. 2023. Fashion Sketchbook. 7th ed."
+    unit: I.2
+    claim: "Croquis / visual grammar."
+    status: gap
+    gap_reason: "Not in vault (commercial textbook)."
+
+  - key: yu-2025
+    work: "Yu, G.S. 2025. Cultivating Creativity in Fashion Pedagogy. MIT Press chapter."
+    unit: I.2
+    claim: "Fashion pedagogy creativity."
+    status: gap
+    gap_reason: "Not in vault; was uncited list filler."
+
+  # ------------------------------------------------------------------ I.3
+  - key: roivainen-2025
+    work: "Roivainen, Ida. 2025. How I Edit My Instagram Images. Visual Studies 40 (3)."
+    unit: I.3
+    claim: "Time-bound platform colour/tonal editing conventions (p. 8)."
+    status: verified
+    page_basis: printed
+    provenance: "I.3 I.3.claim.platform-editing-styles"
+    vault: "coat 47ce5b17"
+    discovery_slug: profield-digital-creativity
+
+  - key: aldahoul-2025
+    work: "AlDahoul, Rahwan, and Zaki. 2025. AI-Generated Faces… Scientific Reports 15."
+    unit: I.3
+    claim: "Generative faces show racial homogenization; tools not representationally neutral."
+    status: verified
+    page_basis: printed
+    provenance: "I.3 I.3.critical.generative-bias"
+    vault: "coat fe54fc54"
+    discovery_slug: profield-digital-creativity
+
+  - key: albers-2013
+    work: "Albers, Josef. 2013. Interaction of Color. 50th anniversary ed."
+    unit: I.3
+    claim: "Relational / perceptual colour teaching."
+    status: gap
+    gap_reason: "Not in scholar vault; was cited in student body without Ahmes node — cite removed from References; named as open procurement."
+    procurement: "Yale Press / library PDF + ingest."
+
+  - key: nobile-2021
+    work: "Nobile et al. 2021. A Review of Digital Fashion Research. IJFDTE."
+    unit: I.3
+    claim: "Digital fashion research review."
+    status: gap
+    gap_reason: "Not page-verified in vault this phase; removed from student References."
+
+  - key: balasubramanian-2026
+    work: "Balasubramanian, Mahendran. 2026. Implementing Generative AI in Fashion Design Curriculum. Frontiers in Education."
+    unit: I.3
+    claim: "GenAI in fashion curriculum."
+    status: gap
+    gap_reason: "Not page-verified this phase; removed from student References."
+    procurement: "Confirm OA Frontiers PDF + ingest."
+
+  # ------------------------------------------------------------------ I.4
+  - key: gonzalez-woods-2018
+    work: "Gonzalez and Woods. 2018. Digital Image Processing. 4th ed."
+    unit: I.4
+    claim: "Bitmap filtering / enhancement operations."
+    status: gap
+    gap_reason: "Not in vault (commercial textbook)."
+
+  - key: mcbride-2019
+    work: "McBride et al. 2019. Digital Manipulation of Images of Models' Appearance… AJLM."
+    unit: I.4
+    claim: "Retouch / advertising ethics."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: park-2025
+    work: "Park et al. 2025. Generative AI in Studio-Based Design Education. IASDR 2025."
+    unit: I.4
+    claim: "GenAI opacity in studio critique."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: crepax-2024
+    work: "Crepax, Rosa. 2024. Affective Fashion Trends. Fashion Theory."
+    unit: I.4
+    claim: "Affect / platform aesthetics organise trends."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: rizzi-2025
+    work: "Rizzi and Bertola. 2025. Exploring the Generative AI Potential in the Fashion Design Process. EJCMP."
+    unit: I.4
+    claim: "GenAI can augment human perception and creativity (critical bank candidate)."
+    status: gap
+    gap_reason: "Held (coat 167816a4) but I.4 body name lacked page-verified PROVENANCE_LINE this phase; not in student References."
+    vault: "coat 167816a4"
+    procurement: "Place page-checked claim (CRITICAL-FIELD-LAYER quote p. 10) in EX9/EX10."
+
+  - key: rodriguez-schon-2025
+    work: "Rodriguez Schon and Valle-Noronha. 2025. Experiencing Digital Fashion Archives… EJCMP."
+    unit: I.4
+    claim: "Decolonial digital-fashion archives."
+    status: gap
+    gap_reason: "Listed without verified pin; not in student References."
+
+  # ------------------------------------------------------------------ I.5
+  - key: papahristou-2024
+    work: "Papahristou and Zolota Tatsi. 2024. A Review of 3D Design Knowledge… CDATP 5 (2)."
+    unit: I.5
+    claim: "Sequenced 2D→3D teaching structure in real programmes (pp. 3, 5)."
+    status: verified
+    page_basis: printed
+    provenance: "I.5 I.5.claim.sequenced-2d-3d-structure; I.5.claim.amfi-integration"
+    vault: "coat 20e79483"
+    discovery_slug: profield-digital-creativity
+
+  - key: hughes-2013
+    work: "Hughes et al. 2013. Computer Graphics: Principles and Practice. 3rd ed."
+    unit: I.5
+    claim: "3D pipeline vocabulary."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: arnheim-2004
+    work: "Arnheim, Rudolf. 2004. Art and Visual Perception. 2nd ed."
+    unit: I.5
+    claim: "Perceptual form."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: moritz-youn-2022
+    work: "Moritz and Youn. 2022. Spatial Ability… Fashion and Textiles 9:29."
+    unit: I.5
+    claim: "Apparel spatial visualization measurable."
+    status: gap
+    gap_reason: "Not ingested this phase (may be OA)."
+    procurement: "Confirm Springer OA + ingest."
+
+  - key: entwistle-2015
+    work: "Entwistle, Joanne. 2015. The Fashioned Body. 2nd ed."
+    unit: I.5, I.6
+    claim: "Fashioned body / default mannequin critical lens."
+    status: gap
+    gap_reason: "Not in vault."
+
+  # ------------------------------------------------------------------ I.6
+  - key: coats-2026
+    work: "Coats, M. 2026. The Denim Project—A Hybrid Approach… IJFDTE."
+    unit: I.6
+    claim: "Hybrid analogue/digital iteration; digital tools alone cannot overcome overproduction drivers (p. 8)."
+    status: verified
+    page_basis: printed
+    provenance: "I.6 I.6.claim.hybrid-iteration-module; I.6.claim.sustainability-caveat"
+    vault: "coat 6d1a7b81"
+    discovery_slug: profield-digital-creativity
+
+  - key: farah-2025
+    work: "Farah, Ramadan, and Nassereddine. 2025. Mind the gap: virtual fashion shows…"
+    unit: I.6
+    claim: "Virtual show accessibility friction."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: anwar-2025
+    work: "Anwar, Raza, and Marzouk. 2025. Generative AI in Studio-Based Fashion Education (SLR)."
+    unit: I.6
+    claim: "GenAI should strengthen, not weaken, student voice (critical bank candidate)."
+    status: gap
+    gap_reason: "Held (coat 0598ec0e); no Wave-1 student cite this phase."
+    vault: "coat 0598ec0e"
+    procurement: "Place page-checked claim from CRITICAL-FIELD-LAYER in EX9/EX10."
+
+  # ------------------------------------------------------------------ I.7
+  - key: campinho-2025
+    work: "Campinho et al. 2025. Corpos gordos… telas digitais."
+    unit: I.7
+    claim: "Search results carry representational politics (p. 2)."
+    status: verified
+    page_basis: printed
+    provenance: "I.7 I.7.claim.search-representational-politics"
+    vault: "coat 31a9a359"
+    discovery_slug: profield-digital-creativity
+
+  - key: reddy-best-choi-park-2018
+    work: "Reddy-Best, Choi, and Park. 2018. Race, Colorism… Fashion Illustration Textbooks. CTRJ."
+    unit: I.7
+    claim: "Illustration textbook bias."
+    status: gap
+    gap_reason: "Not in vault; distinct from reddy-best-2018 IJFDTE article."
+
+  # ------------------------------------------------------------------ I.8
+  - key: shaw-2015
+    work: "Shaw, Austin. 2015. Design for Motion."
+    unit: I.8
+    claim: "Motion design technical families."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: manovich-2013
+    work: "Manovich, Lev. 2013. Software Takes Command."
+    unit: I.8
+    claim: "Software hybridity / compositing media."
+    status: gap
+    gap_reason: "Not in vault."
+
+  - key: skjulstad-2025
+    work: "Skjulstad, Synne. 2025. Backstage Matters… Fashion Theory."
+    unit: I.8
+    claim: "Invisible media labour in fashion."
+    status: gap
+    gap_reason: "Not in vault."
+
+  # ------------------------------------------------------------------ I.9
+  - key: abidin-2016
+    work: "Abidin, Crystal. 2016. Visibility Labour… Media International Australia."
+    unit: I.9
+    claim: "Visibility labour / #OOTD."
+    status: gap
+    gap_reason: "Not in vault."
+
+  # ------------------------------------------------------------------ ML-FIA
+  - key: eckersall-2017
+    work: "Eckersall, Grehan, and Scheer. 2017. New Media Dramaturgy."
+    unit: ML-FIA
+    claim: "Agency in reception; art vs media functions (pp. 218–219)."
+    status: verified
+    page_basis: printed
+    provenance: "ML-FIA ML-FIA.agency-reception; ML-FIA.art-vs-media-functions"
+    vault: "coat 43fc4273"
+    discovery_slug: broadcast
+
+  - key: kandinsky-2012
+    work: "Kandinsky, Wassily. 2012. Point and Line to Plane. Dover."
+    unit: ML-FIA
+    claim: "Point / line / plane looking order (p. 9)."
+    status: verified
+    page_basis: printed
+    provenance: "ML-FIA body cite + coat 5c285f15 page_index 9"
+    vault: "coat 5c285f15"
+    discovery_slug: broadcast
+
+  - key: shawcross-1997
+    work: "Shawcross, Nancy M. 1997. Roland Barthes on Photography."
+    unit: ML-FIA
+    claim: "Barthes photography reception (professor brief)."
+    status: gap
+    gap_reason: "Related coat held (03498f83) but confidence/use deferred; editorial gap."
+    vault: "coat 03498f83 (related)"
+
+  - key: ricoeur-1977
+    work: "Ricoeur, Paul. 1977. (hermeneutics / metaphor — professor brief)."
+    unit: ML-FIA
+    claim: "Hermeneutic frame for image reading."
+    status: gap
+    gap_reason: "Not procured for Wave-1."
+
+  - key: bay-cheng-2010
+    work: "Bay-Cheng et al. 2010. Mapping Intermediality in Performance."
+    unit: ML-FIA
+    claim: "Intermedial performance frame."
+    status: gap
+    gap_reason: "Not in vault for Wave-1."
+
+  # ------------------------------------------------------------------ D2 critical layer (FINDINGS C5)
+  - key: steimberg-2013
+    work: "Steimberg, Oscar. 2013. Semióticas… de la transposición. Eterna Cadencia."
+    unit: D2, ML-FIA
+    claim: "Transposition across languages / media / supports (D2 ≡ ACT3)."
+    status: gap
+    gap_reason: "Held (coat d639c32d) but no page-verified student claim this phase; 1993 Atuel not held."
+    vault: "coat d639c32d"
+    discovery_slug: profield-creativity-techniques
+    procurement: "Pick passage for EX10 transposition brief; confirm printed folio."
+
+  - key: steimberg-1993
+    work: "Steimberg, Oscar. 1993. Semióticas de los géneros… Atuel."
+    unit: D2
+    claim: "Earlier Atuel edition of transposition essays."
+    status: gap
+    gap_reason: "Not held; use 2013 edition when claim is placed."
+
+  - key: werhane-2026
+    work: "Werhane and Bevan. 2026. Moral Imagination in the Twenty-First Century. Cambridge."
+    unit: D2
+    claim: "Moral imagination for technology / organisational ethics (D2 critical layer)."
+    status: gap
+    gap_reason: "Held (coat 96302b7e) but no Wave-1 student claim; place in EX10 D2 brief."
+    vault: "coat 96302b7e"
+    discovery_slug: profield-creativity-techniques
+    procurement: "Page-check a short passage for the transposition ethics slide."
+
+  - key: munari-design-method
+    work: "Munari — Design as Art / design method-manifesto (required for D2 method/manifest thread)."
+    unit: D2
+    claim: "Method / manifesto for making; visual language without aesthetic prejudice."
+    status: gap
+    gap_reason: "Design as Art / Da cosa nasce cosa not in vault. Circle (84c0fd33) and anthology fragment (65912961) held but not the method/manifest teaching text."
+    vault: "partial: coats 84c0fd33, 65912961 (wrong works for D2 pin)"
+    procurement: "Acquire Munari Design as Art (or authorised ES equivalent) + ingest; do not invent from Circle alone."
+
+procurement_priority:
+  free_quick:
+    - "Curcic 2024 (confirm OA) — I.2 / I.4 studio pedagogy"
+    - "Moritz and Youn 2022 (Springer OA check) — I.5 spatial visualization"
+    - "Balasubramanian 2026 (Frontiers OA) — I.3 GenAI curriculum"
+    - "Place Steimberg 2013 + Werhane 2026 page pins for EX10 D2 (already held)"
+  purchase_or_library:
+    - "Albers 2013 Interaction of Color — I.3 perceptual anchor"
+    - "Abling Fashion Sketchbook — I.2 croquis grammar"
+    - "Entwistle 2015 The Fashioned Body — I.5 / I.6 critical"
+    - "Shaw 2015 Design for Motion; Manovich 2013 — I.8"
+    - "Munari Design as Art (or Da cosa nasce cosa) — D2 method/manifest"
+    - "Rocamora 2017; Reddy-Best 2018 (both articles) — I.1 / I.7 critical"
+  held_place_claim:
+    - "Rizzi 2025 (167816a4); Anwar 2025 (0598ec0e); Norman 2013 (f31e7737)"

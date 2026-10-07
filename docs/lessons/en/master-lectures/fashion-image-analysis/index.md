@@ -13,6 +13,7 @@ tags: [master-lecture, analysis, fashion-image, guide, transversal]
 master_idea: 'Read the image from dot to perspective before asking where it comes from, what it means with evidence, whom it serves, and how it circulates.'
 practice_anchor: '8-step card + Lens A (triad) + Lens B (circulation) on one fashion image'
 deck_url: /master-lectures/fashion-image-analysis/
+references: [shinkle-2008, eckersall-2017, kandinsky-2012]
 ---
 
 <!-- prettier-ignore-start -->
@@ -34,13 +35,14 @@ surface: master-lecture (EN canonical; not a track CONTENIDOS row)
 cycle: 2
 forged: 2026-09-27
 evaluator_safe_public: Shinkle 2008 (1936070c) + Eckersall 2017 (43fc4273)
-PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=14}; public="(Shinkle 2008, 14)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=17}; public="(Shinkle 2008, 17)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=69}; public="(Shinkle 2008, 69)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=78}; public="(Shinkle 2008, 78)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=15}; public="(Shinkle 2008, 15)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=218}; public="(Eckersall 2017, 218)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=14}; public="(Shinkle 2008, 14)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=17}; public="(Shinkle 2008, 17)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=69}; public="(Shinkle 2008, 69)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=78}; public="(Shinkle 2008, 78)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=15}; public="(Shinkle 2008, 15)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.kandinsky-point-line-plane; status=VERIFIED; page_basis=printed; source={document_coat=5c285f15; node_id=017a3864-6f07-5c36-8991-bd0350aef4fd; page_index=9; printed_page=9}; public_citation="(Kandinsky 2012, 9)"; evaluator_safe=yes; quote_candidates="star of straight lines" / point-line-plane vocabulary
+PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=218}; public="(Eckersall 2017, 218)"; evaluator_safe=yes
 -->
 {% endif %}
 
@@ -228,11 +230,8 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 ---
 
 ## References
-{:#references}
 
-- <span id="ref-eckersall-2017">Eckersall, Peter, Helena Grehan, and Edward Scheer. 2017. *New Media Dramaturgy: Performance, Media and New-Materialism*. London: Palgrave Macmillan. DOI <a href="https://doi.org/10.1057/978-1-137-55604-2" target="_blank" rel="noopener noreferrer">10.1057/978-1-137-55604-2</a>. ISBN 9781137556035.</span>
-- <span id="ref-kandinsky-2012">Kandinsky, Wassily. 2012. *Point and Line to Plane*. Translated by Howard Dearstyne and Hilla Rebay. Dover Publications.</span>
-- <span id="ref-shinkle-2008">Shinkle, Eugenie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I.B. Tauris. ISBN 9781845115166.</span>
+{% include references.html %}
 
 ---
 
