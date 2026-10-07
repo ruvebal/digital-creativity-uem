@@ -58,7 +58,7 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 | 1 | [PHASE-EX1.md](PHASE-EX1.md) | Contract and factual hotfix (weights, How to Pass, EN/ES, ACT↔D map) | DONE (EX0 DONE) |
 | 2 | [PHASE-EX2.md](PHASE-EX2.md) | Publication firewall (leak terms, AI footers, no sibling-institution names) | DONE (EX1 DONE) |
 | 3 | [PHASE-EX3.md](PHASE-EX3.md) | Image/media pipeline rules + tests + deck validator | DONE (EX2 DONE) |
-| 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks (Wave-1 decks) | READY (EX3 DONE) |
+| 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks (Wave-1 decks) | VERIFYING (EX3 DONE) |
 | 5 | [PHASE-EX5.md](PHASE-EX5.md) | Deck renderer: pre-render, alt, captions, notes, layouts, browser check | BLOCKED (EX4 DONE) |
 | 6 | [PHASE-EX6.md](PHASE-EX6.md) | Research grounding + single bibliography (broadcast Ahmes / Athanor) | BLOCKED (EX5 DONE) |
 | 7 | [PHASE-EX7.md](PHASE-EX7.md) | Canonical fashion-craft method catalogue (studio methods, not CT techniques) | BLOCKED (EX6 DONE) |

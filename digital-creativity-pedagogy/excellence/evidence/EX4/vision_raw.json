@@ -1,0 +1,373 @@
+{
+ "I.1|cover|File:Astronaut Riding a Horse (SD3.5).webp": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a digital composite or manipulated photograph, not a traditional painting, drawing, or diagram. It depicts an astronaut in a white NASA spacesuit with an American flag patch riding a white horse across a barren, gray lunar-like surface, with Earth’s blue atmosphere and clouds visible in the background against the blackness of space. No person’s face is clearly identifiable — the astronaut’s helmet visor is reflective gold and obscures any facial features. There is no visible text in the image.",
+  "prompt_tokens": 1090,
+  "output_tokens": 99,
+  "wall_s": 23.9
+ },
+ "I.1|analysis-model|File:Dirty and damaged fashion doll.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a small doll with a bald head, painted facial features including blue eyeshadow and defined eyebrows, and wispy gray hair. The doll wears a pink knitted top and is positioned in front of a white lace-trimmed garment or fabric, with a thin green stem crossing diagonally in the foreground. No person’s face is clearly identifiable as human; the subject is an artificial doll. There is no visible text in the image.",
+  "prompt_tokens": 738,
+  "output_tokens": 94,
+  "wall_s": 11.4
+ },
+ "I.1|masterclass-1|File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage black-and-white print advertisement featuring a photograph of a smiling woman with dark, curled hair wearing a leopard-print coat, seated next to a man whose face is partially visible in profile. The ad contains extensive text promoting \"Woodbury Complete Beauty Cream,\" including the headline \"this One Complete Cream is all you need!\" and a caption identifying the woman as \"Dorothy Lamour soon to be seen in 'ROAD TO UTOPIA,' a Paramount Picture.\" A small inset image shows a hand holding a jar of the cream, and the brand name \"Woodbury\" is prominently displayed in script at the bottom.",
+  "prompt_tokens": 1548,
+  "output_tokens": 128,
+  "wall_s": 16.9
+ },
+ "I.1|masterclass-2|File:Lautrec the photographer sescau (poster) 1894.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage printed advertisement or poster, likely from the late 19th or early 20th century, featuring stylized line art and flat color blocks on a pale yellow-green background. It depicts a woman in an elaborate red dress with a mask on the left, and a man operating a large box camera on a tripod on the right, with a small figure of a woman walking a dog in the far background. The visible text includes “9. Place Pigalle” at the top, “P. Sescau” in large red letters below the camera, and “Photographe” beneath that, along with a small black elephant logo next to the name. No person’s face is clearly identifiable — the woman wears a mask, and the man’s face is obscured by the camera he is looking through.",
+  "prompt_tokens": 786,
+  "output_tokens": 168,
+  "wall_s": 17.4
+ },
+ "I.1|masterclass-3|File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a black-and-white printed page, likely from a vintage catalog or advertisement, featuring six illustrated women in formal 19th-century dresses. The image is divided into two sections with the headings \"READY MADE WASH SUITS\" and \"READY MADE WHITE SUITS,\" each showing three figures labeled with figure numbers (Fig. 63 through Fig. 68) and detailed descriptions of the garments along with prices. The illustrations are detailed line drawings, not photographs, and while the women's faces are depicted, they are stylized and not clearly identifiable as specific individuals.",
+  "prompt_tokens": 4116,
+  "output_tokens": 119,
+  "wall_s": 33.7
+ },
+ "I.1|masterclass-4|File:Beauty is my business, says Anne Piron, 1950.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage print advertisement, likely from a magazine, featuring a color illustration of a smiling woman with red hair and a green headband, wearing a light-colored dress. The ad contains prominent text including the headline \"Beauty is my business,\" the brand name \"SweetHeart Soap,\" and phrases like \"Adorable Cover Girl\" and \"9 out of 10 Cover Girls use SWEETHEART's new Large Bath Size.\" While the woman’s face is clearly depicted and stylized, she is not identifiable as a specific real person; the ad also includes small illustrations of two babies in a tub and handwritten-style script elements.",
+  "prompt_tokens": 443,
+  "output_tokens": 129,
+  "wall_s": 12.1
+ },
+ "I.1|masterclass-5|File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph showing a person holding a book titled \"Rising to the Occasion\" by Rebecca Belmore, published by Vancouver Art Gallery. The book cover features an image of a figure wrapped in red fabric. In the background, another person is using a laptop computer at a desk with a coffee cup visible. No faces are clearly identifiable in the image.",
+  "prompt_tokens": 4122,
+  "output_tokens": 74,
+  "wall_s": 30.5
+ },
+ "I.1|masterclass-6|File:Fan SAAM-1935.8.20 1.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a traditional Japanese folding fan (sensu) with a painted design. The fan features a light green and cream-colored paper surface decorated with delicate purple and white flowers, possibly irises or similar blooms, along with green leaves and stems. The wooden ribs of the fan are visible at the bottom, fanning out from a central pivot point, and the edges of the paper appear to be gilded or have a golden trim. There is no visible text on the fan, and no person's face is identifiable in the image.",
+  "prompt_tokens": 4094,
+  "output_tokens": 111,
+  "wall_s": 33.0
+ },
+ "I.1|lab-1|File:Miss Maquillage Digital Fashion Garment example.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a side-by-side comparison of two photographs featuring the same woman in different outfits, standing outdoors against a backdrop of green trees and a paved area. The left photo shows her in a casual green top and white denim shorts, while the right photo displays her in a more elaborate outfit with a pink striped blouse, a patterned skirt, and a bow accessory. Her face is clearly visible and identifiable in both images.",
+  "prompt_tokens": 3075,
+  "output_tokens": 85,
+  "wall_s": 23.6
+ },
+ "I.1|lab-2|File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "**Description of the Image:**\n\nThis is a photograph depicting a vibrant, pink-themed retail or promotional space, likely for a doll brand, featuring multiple Barbie dolls displayed on shelves and a large screen showing a doll in a white dress. A woman stands near the displays, and another person’s arm is visible on the right side of the frame. No faces are clearly identifiable due to distance, angle, or image quality, and there is no legible text visible in the scene.",
+  "prompt_tokens": 366,
+  "output_tokens": 97,
+  "wall_s": 10.5
+ },
+ "I.2|cover|File:Fashion Sketch Design.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a hand-drawn pencil sketch on a spiral-bound sketchbook page. The drawing depicts a figure in a flowing gown, viewed from the back, with a signature visible to the left of the figure. A mechanical pencil rests diagonally across the top right of the sketch. No person's face is clearly identifiable in the image.",
+  "prompt_tokens": 4081,
+  "output_tokens": 71,
+  "wall_s": 29.7
+ },
+ "I.2|analysis-model|File:Hand drawing on a graphic tablet.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph showing a person's right hand holding a white stylus over a white Wacom Bamboo graphics tablet, which rests on a light wooden surface. The tablet features a central blue-lit circular navigation dial flanked by four gray buttons labeled \"FN1,\" \"FN2,\" and directional arrows, with the brand name \"BAMBOO\" printed in gray text at the bottom center of the device. No person's face is visible in the image.",
+  "prompt_tokens": 1966,
+  "output_tokens": 95,
+  "wall_s": 18.4
+ },
+ "I.2|masterclass-1|File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a colorized historical print or diagram titled \"COSTUMES CIVILS\" at the top, which displays numerous figures in period clothing arranged in horizontal rows to illustrate the evolution of French civilian fashion from the reign of Louis XIV through the early 20th century. The image includes labels for different eras and social classes, such as \"Gens de qualité,\" \"Révolution,\" and \"Second Empire,\" along with specific years like 1815, 1830, and 1925. No individual's face is clearly identifiable as a specific, known person; they are generic representations of the styles of their time.",
+  "prompt_tokens": 4094,
+  "output_tokens": 136,
+  "wall_s": 35.7
+ },
+ "I.2|masterclass-2|File:Vector graphic scaling 2.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This image is a digital illustration or graphic design, not a photograph, painting, or document. It features a stylized, abstract composition with four quadrants: the top-left shows a yellow circle with an orange crescent and a small brownish oval shape; the top-right displays a large, ornate, egg-like form with a white border and brown interior against a yellow background with radiating lines; the bottom-left contains angular brown and tan shapes resembling cracked earth or rock; and the bottom-right shows a dark brown curved shape over an orange field. There is no visible text, and no person’s face is identifiable in any part of the image.",
+  "prompt_tokens": 162,
+  "output_tokens": 132,
+  "wall_s": 12.5
+ },
+ "I.2|masterclass-3|The composite capital in perspective.": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a black-and-white architectural drawing or print, likely from a book or technical manual, illustrating the design of a Corinthian capital. It features multiple views including a front elevation, a plan view (top-down), and a three-dimensional perspective rendering of the ornate column top with its characteristic acanthus leaves and volutes. Visible text includes \"FIG. XXV.\" in the upper right corner and labels such as \"M2\" and \"P2\" near the diagrams. No person's face is identifiable in the image.",
+  "prompt_tokens": 450,
+  "output_tokens": 109,
+  "wall_s": 11.0
+ },
+ "I.2|masterclass-4|File:The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage magazine cover, likely a printed publication, featuring a painted illustration of a woman in profile wearing an ornate, light-colored dress, seated outdoors at night with a dark blue sky and trees in the background. The visible text includes “The DESIGNER and The Woman’s Magazine” at the top, “JULY 1922” in the bottom left corner, “THE DESIGNER PUBLISHING CO., NEW YORK, N.Y.” centered at the bottom, and “$1.00 a Copy—$10.00 a Year” in the bottom right. The woman’s face is shown in profile but is not clearly identifiable as a specific individual; it is stylized and artistic rather than photographic or realistic.",
+  "prompt_tokens": 440,
+  "output_tokens": 154,
+  "wall_s": 14.0
+ },
+ "I.2|masterclass-6|File:Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a digital pixel art image, not a photograph, drawing, print, painting, diagram, or document. It displays a large, symmetrical blue shape with pink and white accents on a grid background, resembling a stylized heart or abstract form composed of square pixels. There is no visible text, and no person's face is identifiable in the image.",
+  "prompt_tokens": 4146,
+  "output_tokens": 73,
+  "wall_s": 30.2
+ },
+ "I.2|lab-1|File:CosmicBloom.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of an art installation featuring several mannequins dressed in elaborate, avant-garde garments, including one with a large, circular, wire-frame skirt and another with a voluminous blue ruffled dress. The display is set against a dark background with hanging metallic disc sculptures and includes a wall panel with the visible text \"10 COSMIC BLOOM.\" No real person's face is clearly identifiable, as all figures are mannequins.",
+  "prompt_tokens": 4081,
+  "output_tokens": 95,
+  "wall_s": 31.9
+ },
+ "I.2|lab-2|File:Surrealism (49679583271).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a black-and-white photograph of an abstract, geometric sculpture composed of interlocking rectangular blocks. The image captures the sharp angles and strong contrasts between light and shadow on the matte surfaces of the structure, set against a cloudy sky background. There is no visible text, and no person's face is identifiable in the image.",
+  "prompt_tokens": 4094,
+  "output_tokens": 66,
+  "wall_s": 28.9
+ },
+ "I.2|lab-3|File:Work in Progress.JPG": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a digital illustration or drawing that depicts an anime-style female character with pink hair, blue eyes, and fox-like ears and tail, wearing a dark blue outfit with white frills and a pink patterned top, sitting next to a small white cat with a red bow. The image also includes a pencil sketch of a hand holding a pen on the left side, suggesting a work-in-progress or concept art layout. There is no visible text other than a small signature \"LS\" in the bottom right corner, and no real person's face is identifiable as the character is stylized and fictional.",
+  "prompt_tokens": 4116,
+  "output_tokens": 121,
+  "wall_s": 34.9
+ },
+ "I.3|cover|File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a glass-fronted display case filled with magazines and craft supplies. The shelves are packed with various publications, including titles like \"Amigurumi,\" \"Uncinetto,\" \"Vogue,\" \"Bazaar,\" and \"MFF,\" alongside balls of yarn in colors like blue, orange, and white. Several magazine covers feature the faces of models, but none are clearly identifiable as specific public figures.",
+  "prompt_tokens": 4146,
+  "output_tokens": 86,
+  "wall_s": 31.2
+ },
+ "I.3|analysis-model|File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of an art installation or exhibition display featuring five mannequins dressed in elaborate, avant-garde black garments with sculptural headpieces. The pieces are mounted on white stands against a minimalist white background, suggesting a gallery setting. No visible text is present, and no human faces are identifiable — all mannequins have blank, featureless heads.",
+  "prompt_tokens": 756,
+  "output_tokens": 76,
+  "wall_s": 9.6
+ },
+ "I.3|masterclass-1|File:CMYK.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a digital graphic or print design, not a photograph, painting, or document. It features a 2x2 grid of solid color blocks—cyan (top-left), magenta (top-right), yellow (bottom-left), and black (bottom-right)—each containing a large, bold, white or black capital letter: “C” on cyan, “M” on magenta, “Y” on yellow, and “K” on black. No person’s face is visible, and the image contains only these four letters as text.",
+  "prompt_tokens": 427,
+  "output_tokens": 111,
+  "wall_s": 10.5
+ },
+ "I.3|masterclass-2|File:Nokia 8-display pixel pattern PNr°0495.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a digital image or photograph of a close-up view of an LED display screen, showing a grid of individual red, green, and blue pixels against a black background. There is no visible text, and no person's face is identifiable in the image.",
+  "prompt_tokens": 2182,
+  "output_tokens": 53,
+  "wall_s": 15.6
+ },
+ "I.3|masterclass-3|Fashion illustration": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a stylized illustration or print, likely from the early 20th century, depicting two women in elegant, patterned dresses standing on a balcony overlooking a body of water with a distant ship and swirling smoke or steam. The artwork features bold black outlines, flat areas of color (primarily blues, greens, and off-white), and decorative Art Deco or Art Nouveau influences in the railing design and flowing lines. There is no clearly identifiable person’s face — both figures are rendered with simplified, profile-like features — and the only visible text is a small monogram “R” in the lower right corner.",
+  "prompt_tokens": 618,
+  "output_tokens": 126,
+  "wall_s": 13.2
+ },
+ "I.3|masterclass-4|Fashion illustration": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a fashion illustration, likely a print or lithograph, depicting a woman in a long, flowing evening gown with a colorful, abstract floral pattern. The woman has short dark hair and is posed in profile, looking back over her shoulder. Visible text at the bottom right reads \"LE POUF\", \"ROBE DU SOIR, DE PAUL POIRET\", \"N° 7 de la Gazette. Année 1924 Planche 58\", and \"Modèle déposé. Reproduction interdite.\" The woman's face is stylized and not clearly identifiable as a specific real person.",
+  "prompt_tokens": 498,
+  "output_tokens": 127,
+  "wall_s": 12.5
+ },
+ "I.3|masterclass-5|File:AK ER Exhibition Poster 2014.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a promotional poster or flyer, likely a digital print or graphic design, featuring a photograph of a person in a black coat walking on a city street. The image includes overlaid text in both English and Korean, advertising an \"AK-ER 사진전\" (photo exhibition) and an \"Exhibition PARTY\" with dates, location, and entrance fee details. The person's face is clearly visible and identifiable as an individual, though their specific identity is not provided.",
+  "prompt_tokens": 2946,
+  "output_tokens": 96,
+  "wall_s": 24.4
+ },
+ "I.3|masterclass-6|File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a digital bar chart diagram comparing the file sizes (in KB) of the same image exported in various formats, such as TGA, PNG, JPEG, and SVG. The chart includes a title, \"Comparison between different file format export sizes of the same image,\" and displays numerical values for each format's size, with an inset showing the original test image containing simple shapes, gradients, and a cartoon cat. No person's face is visible in the image.",
+  "prompt_tokens": 4122,
+  "output_tokens": 95,
+  "wall_s": 30.9
+ },
+ "I.3|lab-1|File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a colorized historical print or diagram titled \"COSTUMES CIVILS\" at the top, which displays numerous figures in period clothing arranged in rows across different eras, from the 17th century to the early 20th century. The image includes labels in French identifying the social classes and time periods, such as \"Gens de qualité,\" \"Révolution,\" and \"Second Empire.\" No individual's face is clearly identifiable as a specific known person; they are generic representations of the styles of the times.",
+  "prompt_tokens": 4094,
+  "output_tokens": 110,
+  "wall_s": 10.1
+ },
+ "I.3|lab-2|File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage black-and-white print advertisement, likely from a magazine, featuring a photograph of a smiling woman in a leopard-print coat seated next to a man whose face is partially visible in profile. The ad promotes \"Woodbury Complete Beauty Cream\" and includes text identifying the woman as Dorothy Lamour, who is clearly identifiable by her facial features and the name printed below her photo. The layout combines photographic imagery with typographic elements, including headlines, product descriptions, pricing, and branding.",
+  "prompt_tokens": 1548,
+  "output_tokens": 99,
+  "wall_s": 16.5
+ },
+ "I.4|cover|File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of an art installation featuring a mannequin torso dressed in a crumpled, golden-brown fabric garment with exaggerated puffed sleeves and a ruffled front. The mannequin has a white head topped with a black, textured, star-shaped headdress made of what appears to be twisted wire or yarn. The piece is displayed on a simple white stand against a minimalist gallery background with curved gray walls and a dark floor; the number “2.1” is visible on the base of the stand, and no person’s face is identifiable.",
+  "prompt_tokens": 966,
+  "output_tokens": 115,
+  "wall_s": 14.2
+ },
+ "I.4|analysis-model|File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of an art installation or exhibition display featuring three mannequins dressed in vibrant red garments. The two central mannequins wear sculptural, heavily pleated red dresses with yellow head coverings, while the partially visible mannequin on the right wears a different style of red dress with a sheer overlay and a light purple headpiece. The mannequins are mounted on black poles against a plain white wall, standing on a dark gray tiled floor. No human faces are visible, as all figures are represented by featureless mannequin heads. There is no visible text in the image.",
+  "prompt_tokens": 966,
+  "output_tokens": 126,
+  "wall_s": 15.7
+ },
+ "I.4|masterclass-1|File:Fashion Sketch Design.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a pencil sketch drawn on a spiral-bound sketchbook page. The drawing depicts a figure in a flowing gown, viewed from the back, with a signature visible to the left of the figure. A mechanical pencil rests diagonally across the top right corner of the sketch. No person's face is clearly identifiable in the image.",
+  "prompt_tokens": 4081,
+  "output_tokens": 70,
+  "wall_s": 29.9
+ },
+ "I.4|masterclass-2|File:Jun Takahashi dress for Undercover (51492).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a photograph of a conceptual art piece or installation featuring a mannequin torso covered in a translucent, pleated white fabric that glows from an internal light source. The lower portion of the garment is filled with numerous pink roses and greenery, visible through the sheer material. The background is a solid, neutral gray, and there is no visible text or identifiable human face in the image.",
+  "prompt_tokens": 1916,
+  "output_tokens": 97,
+  "wall_s": 17.4
+ },
+ "I.4|masterclass-3|File:AK ER Exhibition Poster 2014.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a promotional poster or print featuring a photograph of a person with short dark hair, wearing a black coat and holding a cigarette, standing on a city street. The image includes overlaid text in both English and Korean, advertising an \"AK-ER 사진전\" (photo exhibition) and an \"Exhibition PARTY\" with dates, location, and entrance fee details. The person's face is clearly visible and identifiable.",
+  "prompt_tokens": 2946,
+  "output_tokens": 86,
+  "wall_s": 6.8
+ },
+ "I.4|lab-1|File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage black-and-white print advertisement featuring a photograph of a smiling woman with dark, curled hair wearing a leopard-print coat, seated next to a man whose face is partially visible in profile. The ad contains extensive text promoting \"Woodbury Complete Beauty Cream,\" including the headline \"this One Complete Cream is all you need!\" and a caption identifying the woman as \"Dorothy Lamour soon to be seen in 'ROAD TO UTOPIA,' a Paramount Picture.\" A small inset image shows a hand holding a jar of the cream, and the brand name \"Woodbury COMPLETE BEAUTY CREAM\" is prominently displayed at the bottom.",
+  "prompt_tokens": 1548,
+  "output_tokens": 132,
+  "wall_s": 9.2
+ },
+ "I.4|lab-2|File:Drapery study for figure of Sculpture LCCN2004662299.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a graphite drawing on aged, yellowed paper, depicting a seated, draped female figure rendered with detailed shading and form. The drawing is overlaid with a faint grid of horizontal and vertical lines, suggesting it is a study or preparatory work. Visible handwritten text includes \"Drawing Study for Figure of Sculpture\" at the top right, \"Library of Congress\" below it, and a signature that appears to read \"Kenyon Cox\" near the bottom right. No person's face is clearly identifiable in the drawing.",
+  "prompt_tokens": 4081,
+  "output_tokens": 106,
+  "wall_s": 32.8
+ },
+ "I.4|workshop-1|File:Fashion Shooting - Photo Video Expo - Image Craft - Netaji Indoor Stadium - Kolkata 2014-08-25 7554.JPG": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph capturing a live event, likely a fashion show or product launch, inside a large indoor arena or stadium. A woman in a blue dress and high heels walks down a runway while being photographed by a crowd of people holding cameras and phones. The background shows tiered seating and some banners with partially visible text like \"Canon\" and \"COLOR LAB,\" but no individual faces are clearly identifiable due to distance, angle, or motion blur.",
+  "prompt_tokens": 4122,
+  "output_tokens": 91,
+  "wall_s": 31.5
+ },
+ "I.5|cover|File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of an art installation or exhibition display featuring five mannequins dressed in elaborate, avant-garde black garments with sculptural headpieces. The pieces are arranged on white pedestals against a minimalist white background, suggesting a gallery setting. No visible text is present, and no human faces are identifiable — the mannequins have blank, featureless heads.",
+  "prompt_tokens": 756,
+  "output_tokens": 77,
+  "wall_s": 5.9
+ },
+ "I.5|analysis-model|File:1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a black-and-white line drawing or diagram illustrating a woman's fashion from the 1890s, specifically a walking skirt and shirtwaist. The image includes descriptive text on the left detailing fashion trends of the era, such as sleeve styles and neckline heights, and is titled \"Typical Fashion Details of the 19th Century 1890's Walking Skirt and Shirtwaist.\" The figure depicted has no facial features, making it impossible to identify any specific person.",
+  "prompt_tokens": 1158,
+  "output_tokens": 103,
+  "wall_s": 13.2
+ },
+ "I.5|masterclass-1|Indienne, représentant Minerve Péruvienne.": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a colored print or illustration depicting a figure in elaborate, historical-style costume, including a large yellow skirt, a white lace top, a helmet with a striped plume, and holding a shield and a small axe. The figure is shown in profile, walking, and casts a distinct shadow on the plain background. Below the figure, there is French text that reads \"Indienne, représentant Minerve Péruvienne.\" (Indian woman, representing Peruvian Minerva). The face of the person depicted is visible but not identifiable as a specific, known individual.",
+  "prompt_tokens": 546,
+  "output_tokens": 131,
+  "wall_s": 12.7
+ },
+ "I.5|masterclass-3|File:Drapery study for figure of Sculpture LCCN2004662299.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a graphite or charcoal drawing on aged, yellowed paper, depicting a seated, draped female figure from a three-quarter rear view, with her head turned slightly away and her face not clearly identifiable. The figure is rendered with soft shading and detailed folds in the fabric, set against a faint grid of construction lines. Visible handwritten text includes \"Drawing Study for Figure of Sculpture\" at the top right, \"Library of Congress\" below it, and a signature that appears to read \"Kenyon Cox\" near the bottom right.",
+  "prompt_tokens": 4081,
+  "output_tokens": 108,
+  "wall_s": 10.0
+ },
+ "I.5|lab-1|File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a color lithograph or printed illustration, not a photograph, depicting a chronological timeline of French civilian fashion from the 17th century through 1925. The image is organized into horizontal rows, each labeled with a historical period or reign (e.g., \"RÈGNE DE LOUIS XIV,\" \"RÉVOLUTION,\" \"SECOND EMPIRE\") and specific years (e.g., 1815, 1870, 1925), showing men and women in period-appropriate attire. The title at the top reads \"COSTUMES CIVILS,\" and a note at the bottom directs the viewer to see other military uniforms. No individual’s face is clearly identifiable as a specific historical person; all figures are generic representations of their era's dress.",
+  "prompt_tokens": 4094,
+  "output_tokens": 168,
+  "wall_s": 13.2
+ },
+ "I.5|lab-2|File:Hand drawing on a graphic tablet.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a white Bamboo brand graphics tablet resting on a wooden surface, with a hand holding a stylus poised over the drawing area. The tablet features a central circular control dial with blue LED lighting, flanked by four gray buttons labeled “<”, “>”, “FN1”, and “FN2”. The word “BAMBOO” is printed in gray text at the bottom center of the tablet’s surface. No person’s face is visible — only the hand and forearm are shown, with a black hair tie on the wrist.",
+  "prompt_tokens": 1966,
+  "output_tokens": 113,
+  "wall_s": 18.9
+ },
+ "ML-FIA|cover|File:Leonardo da vinci, Garment study for a seated figure.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a painting depicting a draped, voluminous piece of fabric—likely silk or satin—arranged in soft, flowing folds that create deep shadows and highlights. The composition is monochromatic, rendered in shades of gray and brown, emphasizing texture and form over color. There are no visible people, faces, text, or identifiable objects other than the cloth itself; the background is dark and indistinct, focusing attention entirely on the play of light across the material.",
+  "prompt_tokens": 766,
+  "output_tokens": 96,
+  "wall_s": 11.6
+ },
+ "ML-FIA|analysis-model|File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of an art installation or exhibition display featuring five mannequins dressed in elaborate, avant-garde black garments with sculptural headpieces. The pieces are mounted on white stands against a minimalist white background, with small numbered labels (e.g., “0.14”, “0.15”) visible at the base of some stands. No human faces are identifiable — all mannequin heads are either featureless white forms or covered by abstract, non-representational structures.",
+  "prompt_tokens": 756,
+  "output_tokens": 102,
+  "wall_s": 8.2
+ },
+ "ML-FIA|masterclass-1|File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a sculptural art installation featuring a mannequin torso dressed in a voluminous, crumpled gold-colored garment with exaggerated puffed sleeves and layered ruffles. The mannequin has a white head topped with a chaotic, dark, textured mass resembling hair or fiber. A small white label at the base of the stand reads “2.1,” and no person’s face is visible or identifiable.",
+  "prompt_tokens": 966,
+  "output_tokens": 87,
+  "wall_s": 7.3
+ },
+ "ML-FIA|masterclass-2|File:Fashion Sketch Design.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a pencil sketch drawn on a spiral-bound sketchbook page. The drawing depicts a figure in a flowing gown, viewed from the back, with a signature visible to the left of the figure. A mechanical pencil rests diagonally across the top right corner of the sketch. No person's face is clearly identifiable in the image.",
+  "prompt_tokens": 4081,
+  "output_tokens": 70,
+  "wall_s": 6.3
+ },
+ "ML-FIA|masterclass-3|File:AK ER Exhibition Poster 2014.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a promotional poster or print featuring a photograph of a person with short dark hair, wearing a black coat and holding a cigarette, standing on a city street. The image includes overlaid text in English and Korean, advertising an \"AK-ER 사진전\" (photo exhibition) and an \"Exhibition PARTY\" with dates, location, and entrance fee details. The person's face is clearly visible and identifiable.",
+  "prompt_tokens": 2946,
+  "output_tokens": 85,
+  "wall_s": 6.7
+ },
+ "ML-FIA|masterclass-4|File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage black-and-white print advertisement featuring a photograph of a smiling woman with dark, curled hair wearing a leopard-print coat, seated next to a man whose face is partially visible in profile. The ad includes prominent text promoting \"Woodbury Complete Beauty Cream,\" with the headline \"this One Complete Cream is all you need!\" and mentions of actress Dorothy Lamour, who is clearly identifiable by her facial features and the caption beneath her photo. Additional text describes the product’s benefits, usage instructions, and pricing, along with a small inset image of a hand holding the cream jar.",
+  "prompt_tokens": 1548,
+  "output_tokens": 118,
+  "wall_s": 9.1
+ },
+ "ML-FIA|masterclass-5|File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a fashion show taking place outdoors on an airport tarmac, with a large yellow and red airplane in the background. A model walks down the runway wearing an elaborate black gown with a dramatic feathered headpiece, while seated spectators on both sides watch and take photos with their phones. No visible text is present in the image, and while several faces are visible among the audience, none are clearly identifiable as specific public figures.",
+  "prompt_tokens": 4122,
+  "output_tokens": 90,
+  "wall_s": 32.3
+ },
+ "ML-FIA|masterclass-6|File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a photograph of a woman with dark hair and bangs, wearing bright red lipstick, heavy eye makeup, and large diamond earrings, seated inside a car. She is looking over her shoulder at the camera with one hand near her chin, wearing a green top and a ring on her finger. The background shows a blurred view through the car window, including part of a truck or vehicle outside. No visible text is present in the image, and while the person's face is clearly shown, it cannot be definitively identified as a specific public figure without additional context.",
+  "prompt_tokens": 4122,
+  "output_tokens": 115,
+  "wall_s": 35.2
+ },
+ "ML-FIA|lab-1|File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "description": "This is a vintage black-and-white print, likely from a 19th-century catalog or advertisement, featuring six illustrated women in formal dresses. The image is divided into two sections titled \"READY MADE WASH SUITS\" and \"READY MADE WHITE SUITS,\" with each dress labeled by figure number (Fig. 63–68) and accompanied by descriptive text and prices. The faces of the women are stylized and not clearly identifiable as specific individuals.",
+  "prompt_tokens": 4116,
+  "output_tokens": 95,
+  "wall_s": 32.7
+ }
+}

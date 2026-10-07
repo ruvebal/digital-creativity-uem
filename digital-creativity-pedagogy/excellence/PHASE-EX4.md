@@ -1,7 +1,7 @@
 # PHASE-EX4: Slide-bound image curation with rights checks
 
 > **Track:** curation
-> **Status:** BLOCKED (EX3 DONE)
+> **Status:** VERIFYING
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
 
 ## Goal

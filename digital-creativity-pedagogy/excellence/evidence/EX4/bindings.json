@@ -1,0 +1,406 @@
+{
+  "I.1": {
+    "cover": {
+      "asset_id": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp",
+      "brief": "Stable Diffusion 3.5 still of an astronaut on a horse (2024 demo image): a generative digital image that makes the unit's claim visible — fashion and commercial images are now also machine-made files.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Astronaut Riding a Horse (SD3.5).webp"
+    },
+    "analysis-model": {
+      "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
+      "brief": "A dirty, damaged fashion doll photographed as an object: material wear and staging that students can describe before interpreting fashion's ideal body.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Dirty and damaged fashion doll.jpg"
+    },
+    "masterclass-1": {
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "brief": "1945 Woodbury Complete Beauty Cream advertisement with Dorothy Lamour: a commercial beauty still showing how fashion imagery sells a practice, not only a garment.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "A historical beauty advertisement"
+    },
+    "masterclass-2": {
+      "asset_id": "wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg",
+      "brief": "Toulouse-Lautrec, poster for photographer Sescau, 1894: a print that already treats photography as a commercial service — the fashion image is not 'just a file format'.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Lautrec the photographer sescau (poster) 1894.jpg"
+    },
+    "masterclass-3": {
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "brief": "Illustrated fashion catalogue page, summer 1890: several garment genres (day, promenade, evening) printed side by side on one plate — many fashion genres at once.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Illustrated fashion catalogue page from summer 1890"
+    },
+    "masterclass-4": {
+      "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
+      "brief": "1950 magazine still 'Beauty is my business, says Anne Piron': a working beauty professional framed for commerce — art and commerce share the same page.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Beauty is my business, says Anne Piron, 1950.jpg"
+    },
+    "masterclass-5": {
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "brief": "Art+Feminism Wikipedia Edit-A-Thon 2015, Banff: editors gathered around screens, a public circulation moment where who writes the image record becomes visible.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG"
+    },
+    "masterclass-6": {
+      "asset_id": "wikimedia:File:Fan SAAM-1935.8.20 1.jpg",
+      "brief": "Smithsonian American Art Museum Chinese export fan (SAAM 1935.8.20): an object whose painted scene and museum credit line force the question of who counts in the archive.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Fan SAAM-1935.8.20 1.jpg"
+    },
+    "lab-1": {
+      "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
+      "brief": "Digital fashion garment still 'Miss Maquillage' rendered as a wearable file: place this image in the field between garment, avatar and commerce.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Miss Maquillage Digital Fashion Garment example.png"
+    },
+    "lab-2": {
+      "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
+      "brief": "Barbie Dream Closet webcam social-shopper kiosk: a commercial fashion interface students can place on the art–commerce field map.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg"
+    }
+  },
+  "I.2": {
+    "cover": {
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "brief": "Fashion sketch design: a flat figure and garment outline on paper — the unit's entry into 2D drawing as a fashion tool.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "A fashion sketch design study"
+    },
+    "analysis-model": {
+      "asset_id": "wikimedia:File:Hand drawing on a graphic tablet.jpg",
+      "brief": "Hand drawing on a graphic tablet: stylus, screen and line in one frame — a drawing decision made digitally.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Hand drawing on a graphic tablet.jpg"
+    },
+    "masterclass-1": {
+      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "brief": "Historical French civilian costume plates (Costumes civils): engraved fashion figures that treat drawing as a way to think clothing structure.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg"
+    },
+    "masterclass-2": {
+      "asset_id": "wikimedia:File:Vector graphic scaling 2.png",
+      "brief": "Vector graphic scaling comparison: the same drawing enlarged without pixel break-up — vector as relationship, not raster cells.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Vector graphic scaling 2.png"
+    },
+    "masterclass-3": {
+      "asset_id": "nypl:510d47e3-34d7-a3d9-e040-e00a18064a99",
+      "brief": "Composite capital drawn in perspective (NYPL plate): a technique taught inside a concrete architectural problem, not as abstract skill.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "The composite capital in perspective."
+    },
+    "masterclass-4": {
+      "asset_id": "wikimedia:File:The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
+      "brief": "The Designer Women's Magazine cover, July 1922, illustration by Ethel Blaine: period fashion visual grammar — silhouette, drape and page design as one system.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png"
+    },
+    "masterclass-5": {
+      "asset_id": "wikimedia:File:Vector graphic design made with Inkscape.svg",
+      "brief": "Vector graphic design made with Inkscape: abstract path construction that students can audit for the 'reference body' hidden in default curves.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Vector graphic design made with Inkscape.svg"
+    },
+    "masterclass-6": {
+      "asset_id": "wikimedia:File:Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "brief": "Raster vs vector fish scaling diagram: three size comparisons that make alternatives visible — pick one construction, keep two rivals.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png"
+    },
+    "lab-1": {
+      "asset_id": "wikimedia:File:CosmicBloom.jpg",
+      "brief": "CosmicBloom vector-like floral form built from curves: a contour assembled from primitives students can reverse-engineer.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "CosmicBloom.jpg"
+    },
+    "lab-2": {
+      "asset_id": "wikimedia:File:Surrealism (49679583271).jpg",
+      "brief": "Surrealist collage photograph (2020 upload): curved forms that look 'wrong' on purpose — a visual cue for a bad Bézier handle.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Surrealism (49679583271).jpg"
+    },
+    "lab-3": {
+      "asset_id": "wikimedia:File:Work in Progress.JPG",
+      "brief": "Work-in-progress drawing board with several unfinished figure studies: three alternatives kept open before one is chosen.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Work in Progress.JPG"
+    }
+  },
+  "I.3": {
+    "cover": {
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "brief": "News kiosk exhibiting crochet, knitting and fashion magazines: a wall of printed colour covers — colour arrives as a public bitmap display.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg"
+    },
+    "analysis-model": {
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "brief": "Rei Kawakubo / Comme des Garçons dresses photographed by Sarah Stierch: colour blocks and black fabric as a deliberate relation, not decoration.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg"
+    },
+    "masterclass-1": {
+      "asset_id": "wikimedia:File:CMYK.png",
+      "brief": "CMYK colour model diagram: cyan, magenta, yellow and black separations that show colour as a printing relation.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "This is a digital graphic or print design, not a photograph, painting, or document. It features a 2x2 grid of solid color blocks—cyan (top-left), magenta (top-right), yellow (bottom-left), and black (bottom-right)—each containing a large, bold, white or black capital letter: “C” "
+    },
+    "masterclass-2": {
+      "asset_id": "wikimedia:File:Nokia 8-display pixel pattern PNr°0495.jpg",
+      "brief": "Nokia 8 display pixel pattern close-up: a bitmap's physical limit — cells you can count when the image is enlarged.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Nokia 8-display pixel pattern PNr°0495.jpg"
+    },
+    "masterclass-3": {
+      "asset_id": "nypl:ecd58340-c606-012f-96ca-58d385a7bc34",
+      "brief": "NYPL fashion illustration plate with period colouring: a historical 'platform tone' for fashion print before RGB screens.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Fashion illustration"
+    },
+    "masterclass-4": {
+      "asset_id": "nypl:ed252fa0-c606-012f-d3ed-58d385a7bc34",
+      "brief": "Second NYPL fashion illustration with different wash: the display (paper, ink) participates in how tone is read.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Fashion illustration"
+    },
+    "masterclass-5": {
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "brief": "AK ER exhibition poster 2014: high-contrast graphic with a default viewer assumed by layout — who is centred?",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "An exhibition poster composition"
+    },
+    "masterclass-6": {
+      "asset_id": "wikimedia:File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
+      "brief": "Jpeg vs Png vs Jpeg XL vs Heic size comparison test chart: correcting compression vs changing the file's colour claim.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png"
+    },
+    "lab-1": {
+      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "brief": "Historical French costume plate with coloured garments: a palette students can remake as an accessible alternate.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg"
+    },
+    "lab-2": {
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "brief": "1945 Dorothy Lamour beauty cream advert: crop and contrast audit on a commercial bitmap with strong mid-tones.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "A historical beauty advertisement"
+    }
+  },
+  "I.4": {
+    "cover": {
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "brief": "Rei Kawakubo dress photograph (Stierch 02): a transformed silhouette that still keeps the garment readable — effects as craft, not erasure.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Dresses by Rei Kawakubo in an exhibition view"
+    },
+    "analysis-model": {
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg",
+      "brief": "Rei Kawakubo dress photograph (Stierch 03): another view of the same collection so students read what the transformation changed.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Dresses by Rei Kawakubo in a second exhibition view"
+    },
+    "masterclass-1": {
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "brief": "Fashion sketch kept as a before-state drawing: the unfiltered line that an effect must not destroy.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "A fashion sketch design study"
+    },
+    "masterclass-2": {
+      "asset_id": "wikimedia:File:Jun Takahashi dress for Undercover (51492).jpg",
+      "brief": "Jun Takahashi / Undercover dress: a filter-like surface treatment that argues a mood — the effect is the claim.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Jun Takahashi dress for Undercover (51492).jpg"
+    },
+    "masterclass-3": {
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "brief": "AK ER exhibition poster: loud graphic treatment that must be disclosed as designed, not 'natural' photography.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "An exhibition poster composition"
+    },
+    "lab-1": {
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "brief": "Beauty cream advert (1945): a retouched commercial face — before/after ethics live in the polish.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "A historical beauty advertisement"
+    },
+    "lab-2": {
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
+      "brief": "Drapery study for a sculpture figure (LoC): a drawn transformation of cloth that still discloses its construction lines.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "A drapery study for a figure of Sculpture"
+    },
+    "workshop-1": {
+      "asset_id": "wikimedia:File:Fashion Shooting - Photo Video Expo - Image Craft - Netaji Indoor Stadium - Kolkata 2014-08-25 7554.JPG",
+      "brief": "Fashion shooting at Photo Video Expo (Image Craft): a production set where lighting and grading claims can be tested aloud.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Fashion Shooting - Photo Video Expo - Image Craft - Netaji Indoor Stadium - Kolkata 2014-08-25 7554.JPG"
+    }
+  },
+  "I.5": {
+    "cover": {
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "brief": "Rei Kawakubo sculptural dress (Stierch 01): volume worn on the body — three-dimensional form as fashion, not only CAD.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg"
+    },
+    "analysis-model": {
+      "asset_id": "wikimedia:File:1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg",
+      "brief": "1890 silhouette fashion print (DPLA): a side-view contour that trains reading form across one projection.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg"
+    },
+    "masterclass-1": {
+      "asset_id": "nypl:5a950250-c629-012f-852b-58d385a7bc34",
+      "brief": "Indienne print representing Minerve Péruvienne (NYPL): a figure whose vertical axis organises drapery and stance.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Indienne, représentant Minerve Péruvienne."
+    },
+    "masterclass-2": {
+      "asset_id": "wikimedia:File:Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif",
+      "brief": "Shanghai Gesture exhibition poster: planes and cropped volumes that make space testable on a flat sheet.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif"
+    },
+    "masterclass-3": {
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
+      "brief": "Drapery study for sculpture: cloth planes that prove a render is not yet understanding of fold and gravity.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "A drapery study for a figure of Sculpture"
+    },
+    "lab-1": {
+      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "brief": "Historical costume plate with multiple figures: fold the projections by comparing front and three-quarter views on one sheet.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg"
+    },
+    "lab-2": {
+      "asset_id": "wikimedia:File:Hand drawing on a graphic tablet.jpg",
+      "brief": "Hand drawing on a graphic tablet: the digital step after a paper sketch and a simple volume primitive — sketch → primitive → digital.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Hand drawing on a graphic tablet.jpg"
+    }
+  },
+  "ML-FIA": {
+    "cover": {
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "brief": "Leonardo da Vinci, garment study for a seated figure: folds observed before interpretation — the master lecture's evidence-first habit.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Leonardo da Vinci garment study for a seated figure"
+    },
+    "analysis-model": {
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "brief": "Rei Kawakubo dresses (Stierch 01): look first at cut, volume and black/colour blocks before naming a theory.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg"
+    },
+    "masterclass-1": {
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "brief": "Rei Kawakubo dresses (Stierch 02): a second view used only to describe what is seen — describe before you interpret.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Dresses by Rei Kawakubo in an exhibition view"
+    },
+    "masterclass-2": {
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "brief": "Fashion sketch design on paper: language (sketch), medium (ink/paper) and support (page) held apart for analysis.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "A fashion sketch design study"
+    },
+    "masterclass-3": {
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "brief": "AK ER exhibition poster: photography and layout organising how fashion is shown in public.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "An exhibition poster composition"
+    },
+    "masterclass-4": {
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "brief": "1945 Dorothy Lamour beauty advert: one more genre (beauty commerce) beside runway and catalogue — no single fashion genre.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "A historical beauty advertisement"
+    },
+    "masterclass-5": {
+      "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020.jpg",
+      "brief": "Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020: a living designer-model on a public catwalk — agency and reception in one frame.",
+      "fit": 5,
+      "background_kind": "curated",
+      "alt_text": "Jessica Minh Anh on a runway fashion and sustainability show, 2020"
+    },
+    "masterclass-6": {
+      "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2).jpg",
+      "brief": "Jessica Minh Anh runway still (alternate angle, same 2020 show): desire and the critical gaze share the same photographed body.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Jessica Minh Anh on a runway fashion and sustainability show, 2020 — second view"
+    },
+    "lab-1": {
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "brief": "Illustrated fashion catalogue — summer, 1890: a shared historical plate for the class's evidence pass.",
+      "fit": 4,
+      "background_kind": "curated",
+      "alt_text": "Illustrated fashion catalogue page from summer 1890"
+    },
+    "lab-2": {
+      "asset_id": null,
+      "brief": "Students' own image (diagram fallback until a cleared student upload exists): keep the Lab on a geometrical/diagram field rather than inventing a private photograph.",
+      "fit": 0,
+      "background_kind": "diagram",
+      "alt_text": null
+    }
+  }
+}
