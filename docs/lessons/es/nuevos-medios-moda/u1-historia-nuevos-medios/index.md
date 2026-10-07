@@ -289,11 +289,8 @@ B1 frío revisado; HTML estudiantil sin nombres de herramientas internas. Banco 
 
 Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
 
-## AI-assisted authorship
-{: #ai-assisted-authorship }
+## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U1 unit forge, teaching-campaign ledger adjudication (`fashion-exemplary-social-campaigns` · `20260925T200000Z`), and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
-
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 See also the course [AI-assisted authorship declaration]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
