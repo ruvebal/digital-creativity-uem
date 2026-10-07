@@ -21,7 +21,8 @@ body {
 
 .reveal {
   color: rgb(var(--foreground));
-  font-size: clamp(18px, 2.15vw, 31px);
+  /* PHASE-EX5 / forge golden rule 1 — floors checked by npm run test:browser */
+  font-size: clamp(22px, 2.6vw, 38px);
 }
 
 .reveal .slides {
@@ -185,10 +186,12 @@ body {
 .student-media-slide {
   display: grid;
   align-content: start;
-  min-height: min(62vh, 34rem);
-  max-width: min(46rem, 76%);
-  gap: 0.7rem;
-  padding: clamp(1.1rem, 3vw, 2rem);
+  /* EX5: no forced tall min-height — forge type floors already fill the card;
+     a 62vh floor pushed long masterclass cards outside the section (B4). */
+  min-height: 0;
+  max-width: min(46rem, 72%);
+  gap: 0.45rem;
+  padding: clamp(0.95rem, 2.6vw, 1.65rem);
   border: 1px solid rgb(var(--foreground) / 0.18);
   border-radius: var(--radius);
   background: linear-gradient(135deg, rgb(var(--card) / 0.9), rgb(var(--background) / 0.68));
@@ -199,6 +202,9 @@ body {
 	border: 0;
 	background: transparent;
 	box-shadow: none;
+	/* Reveal owns the 720px slide; section must not clip the reading card. */
+	max-height: none;
+	overflow: visible;
 }
 
 /* Reading mode: the image bleeds behind the card. */
@@ -221,16 +227,19 @@ body {
   transform: scale(0.98);
 }
 
-.student-media-card-hidden .student-media-caption {
+.student-media-card-hidden .student-media-caption,
+.student-media-card-hidden .slide-caption {
 	opacity: 0;
 	visibility: hidden;
 	pointer-events: none;
 }
 
 .student-media-controls {
+  /* Bottom right, left of Reveal's arrows: clear of in-slide caption (top right),
+     card (left) and Lab timer (bottom left). EX5 / FINDINGS B4. */
   position: fixed;
-  top: 1rem;
-  right: 1rem;
+  bottom: max(0.75rem, env(safe-area-inset-bottom));
+  right: 7.5rem;
   z-index: 60;
   display: flex;
   gap: 0.45rem;
@@ -324,9 +333,18 @@ body {
 
 .student-media-slide__body {
   margin: 0;
-  font-size: 0.92em;
+  /* Match sentence size so print/browser type floors apply to body blocks (FIA analysis-model). */
+  font-size: 1em;
   line-height: 1.35;
   color: rgb(var(--foreground) / 0.9);
+}
+
+.student-media-slide__quote {
+  margin: 0.15rem 0 0;
+  padding-left: 0.75rem;
+  border-left: 3px solid rgb(var(--accent) / 0.7);
+  font-size: 0.72em;
+  line-height: 1.35;
 }
 
 .student-media-slide__prompt {
@@ -378,9 +396,9 @@ body {
   line-height: 1.08;
 }
 
-.reveal h1 { font-size: clamp(1.85rem, 5.8vw, 2.7rem); }
-.reveal h2 { font-size: clamp(1.4rem, 4.8vw, 2.1rem); }
-.reveal h3 { font-size: clamp(1.08rem, 3.8vw, 1.55rem); }
+.reveal h1 { font-size: clamp(2.15rem, 6.6vw, 3.15rem); }
+.reveal h2 { font-size: clamp(1.65rem, 5.5vw, 2.5rem); }
+.reveal h3 { font-size: clamp(1.25rem, 4.4vw, 1.85rem); }
 
 .reveal a { color: rgb(var(--accent)); }
 .reveal table {
@@ -468,4 +486,187 @@ body {
     bottom: 3.45rem;
     max-width: calc(100% - 1.4rem);
   }
+}
+
+/* -------------------------------------------------------------------------
+   PHASE-EX5 — pre-rendered decks: alt text, in-slide caption, layouts,
+   Lab timer, reading view without JavaScript, print.
+   The base clamp on .reveal (golden rule 1) is unchanged; sizes below are em
+   relative to it. Caption and card never overlap (VISUAL-READABILITY-LAW):
+   the caption holds the right-hand 24%; cards stay left of it (image_argument
+   64%, quote and split 72%, exercise 74% of the slide width).
+   ------------------------------------------------------------------------- */
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.student-media-deck .reveal .slides section .slide-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  box-sizing: border-box;
+  width: 24%;
+  margin: 0;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid rgb(var(--foreground) / 0.2);
+  border-radius: var(--radius);
+  background: rgb(var(--background) / 0.62);
+  font-size: 0.42em;
+  line-height: 1.35;
+  letter-spacing: 0.015em;
+  text-align: right;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+  backdrop-filter: blur(6px) saturate(120%);
+}
+
+.slide-caption a { color: rgb(var(--accent)); }
+.slide-caption__title { font-weight: 600; color: rgb(var(--foreground)); }
+.slide-caption__hash { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+.student-media-slide__sentence { margin: 0; }
+
+.student-media-slide--image_argument { max-width: min(42rem, 64%); }
+
+.student-media-slide--quote { max-width: min(48rem, 72%); }
+.student-media-slide--quote .student-media-slide__quote {
+  max-width: none;
+  font-size: 1em;
+  border-left-width: 5px;
+}
+.student-media-slide--quote .student-media-slide__sentence { font-size: 0.8em; }
+
+.student-media-slide--split {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  column-gap: 1.4rem;
+  align-items: start;
+  max-width: min(52rem, 72%);
+  min-height: 0;
+}
+.student-media-slide--split > .student-media-slide__unit,
+.student-media-slide--split > h1 { grid-column: 1; }
+.student-media-slide--split > :not(h1):not(.student-media-slide__unit) { grid-column: 2; }
+.student-media-slide--split > h1 { grid-row: 2 / span 4; align-self: start; }
+
+.student-media-deck .reveal .slides section[data-layout="exercise"] {
+  max-height: none;
+  overflow: visible;
+  padding-top: 1.25rem;
+  padding-bottom: 3.5rem;
+}
+.student-media-slide--exercise > .student-media-slide__unit { display: none; }
+.student-media-slide--exercise {
+  box-sizing: border-box;
+  max-width: 74%;
+  min-height: 0;
+  max-height: calc(720px - 4.75rem);
+  overflow-y: auto;
+  gap: 0.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.student-media-slide--exercise .student-media-slide__trace {
+  padding: 0.25em 0.55em;
+  border: 1px dashed rgb(var(--accent) / 0.7);
+  border-radius: var(--radius);
+  font-style: normal;
+}
+
+.student-media-slide__questions {
+  margin: 0.2em 0 0;
+  padding-left: 1.4em;
+  font-size: 0.76em;
+  line-height: 1.3;
+}
+.student-media-slide__questions li { margin: 0 0 0.3em; }
+.student-media-slide__questions li:last-child { margin-bottom: 0; }
+
+.student-media-deck .reveal .slides section > .slide-timer {
+  position: absolute;
+  left: clamp(1.15rem, 3.8vw, 2rem);
+  bottom: 0.4rem;
+  z-index: 2;
+}
+.slide-timer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7em;
+}
+.slide-timer button {
+  border: 1px solid rgb(var(--foreground) / 0.3);
+  border-radius: 999px;
+  padding: 0.25em 0.8em;
+  background: rgb(var(--card) / 0.8);
+  color: rgb(var(--foreground));
+  font: inherit;
+  cursor: pointer;
+}
+.slide-timer button:focus-visible {
+  outline: 2px solid rgb(var(--accent) / 0.8);
+  outline-offset: 2px;
+}
+.slide-timer__time {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  min-width: 3.5em;
+}
+.slide-timer--done .slide-timer__time { color: rgb(var(--accent)); }
+
+.no-js .reveal {
+  height: auto;
+  overflow: visible;
+}
+.no-js .reveal .slides {
+  position: static;
+  width: auto;
+  height: auto;
+  max-width: 1280px;
+  margin: 4rem auto 2rem;
+  transform: none;
+  pointer-events: auto;
+  inset: auto;
+}
+.no-js .reveal .slides > section {
+  display: block;
+  position: relative;
+  max-height: none;
+  min-height: 0;
+  margin: 0 1rem 2rem;
+  padding: 1rem;
+  border: 1px solid rgb(var(--border));
+  border-radius: var(--radius);
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+.no-js .reveal .slides > section .slide-caption {
+  position: static;
+  width: auto;
+  margin-top: 0.75rem;
+  text-align: left;
+}
+.no-js .student-media-slide { max-width: none; min-height: 0; max-height: none; overflow: visible; }
+
+.reveal .speaker-notes,
+.reveal aside.notes { color: #111; }
+
+.reveal-print .slide-timer,
+.reveal-print .track-back,
+.reveal-print .student-media-controls { display: none !important; }
+
+.reveal-print .student-media-slide--exercise {
+  max-height: none;
+  overflow: visible;
 }

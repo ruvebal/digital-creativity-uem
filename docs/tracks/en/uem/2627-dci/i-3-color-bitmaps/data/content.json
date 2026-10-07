@@ -240,14 +240,16 @@ layout: null
       "media_slot_id": "I.3.cover",
       "slide_id": "cover",
       "image_brief": "News kiosk exhibiting crochet, knitting and fashion magazines: a wall of printed colour covers — colour arrives as a public bitmap display.",
-      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg"
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "notes": "- Open the unit with the cover claim: I.3 · Colour, bitmap images.\n- Land one sentence: Colour is a relation — sampled, displayed, named, and interpreted — not a fixed swatch.\n- Point at the image; name why this picture belongs on the cover."
     },
     {
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
       "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each.",
-      "slide_id": "analysis-opener"
+      "slide_id": "analysis-opener",
+      "notes": "- Mark the Analysis block: modelled first, then student defences from session 3.\n- Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
     },
     {
       "slide_role": "analysis_model",
@@ -279,7 +281,8 @@ layout: null
       "slide_id": "analysis-model",
       "image_brief": "Josef Albers–style nested colour squares (Homage to the Square study graphic): one hue set against another so the eye reads colour as relation — how a colour decision changes what neighbours do.",
       "asset_id": "wikimedia:File:Grafik nach Josef Albers1.jpg",
-      "media_slot_id": "I.3.analysis-model"
+      "media_slot_id": "I.3.analysis-model",
+      "notes": "- Model the reading on this slide: How to read a colour decision.\n- Script: Source → profile/space → display/export → viewer. Ask what each step forecloses.\n- Ask one student to restate the path the picture travels."
     },
     {
       "slide_role": "masterclass",
@@ -312,7 +315,8 @@ layout: null
       "media_slot_id": "I.3.masterclass-1",
       "slide_id": "masterclass-1",
       "image_brief": "CMYK colour model diagram: cyan, magenta, yellow and black separations that show colour as a printing relation.",
-      "asset_id": "wikimedia:File:CMYK.png"
+      "asset_id": "wikimedia:File:CMYK.png",
+      "notes": "- Beat: 1 · Colour is a relation.\n- Core line: Teach palettes through interaction, contrast, and context — not isolated RGB sliders.\n- Read the quote once; pause: “Colour answers to its neighbours before it answers to a number.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -345,7 +349,8 @@ layout: null
       "media_slot_id": "I.3.masterclass-2",
       "slide_id": "masterclass-2",
       "image_brief": "Nokia 8 display pixel pattern close-up: a bitmap's physical limit — cells you can count when the image is enlarged.",
-      "asset_id": "wikimedia:File:Nokia 8-display pixel pattern PNr°0495.jpg"
+      "asset_id": "wikimedia:File:Nokia 8-display pixel pattern PNr°0495.jpg",
+      "notes": "- Beat: 2 · A bitmap has limits.\n- Core line: A bitmap is a fixed grid of colour values — mode, depth, and gamut close later options.\n- Read the quote once; pause: “Every bit you spend on colour is a door you may not reopen later.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -378,7 +383,8 @@ layout: null
       "media_slot_id": "I.3.masterclass-3",
       "slide_id": "masterclass-3",
       "image_brief": "NYPL fashion illustration plate with period colouring: a historical 'platform tone' for fashion print before RGB screens.",
-      "asset_id": "nypl:ecd58340-c606-012f-96ca-58d385a7bc34"
+      "asset_id": "nypl:ecd58340-c606-012f-96ca-58d385a7bc34",
+      "notes": "- Beat: 3 · Platform tones are historical.\n- Core line: Creator tools circulate lighting, colour trends, and tones that look “professional” for a season — treat them as signals to compare, not defaults to copy.\n- Read the quote once; pause: “Sharing expertise and using specific technologies result in visuality that reflect certain editing styles that are popul…”\n- Source cue: (Roivainen 2025, 8)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -411,7 +417,8 @@ layout: null
       "media_slot_id": "I.3.masterclass-4",
       "slide_id": "masterclass-4",
       "image_brief": "Second NYPL fashion illustration with different wash: the display (paper, ink) participates in how tone is read.",
-      "asset_id": "nypl:ed252fa0-c606-012f-d3ed-58d385a7bc34"
+      "asset_id": "nypl:ed252fa0-c606-012f-d3ed-58d385a7bc34",
+      "notes": "- Beat: 4 · The display participates.\n- Core line: The same palette on two screens can be two designs — name the display assumption you export under.\n- Read the quote once; pause: “The screen is not a mirror; it is a second author of the colour.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -445,7 +452,8 @@ layout: null
       "media_slot_id": "I.3.masterclass-5",
       "slide_id": "masterclass-5",
       "image_brief": "AK ER exhibition poster 2014: high-contrast graphic with a default viewer assumed by layout — who is centred?",
-      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg"
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "notes": "- Beat: 5 · Critical · Who is the default viewer?.\n- Core line: When a palette is called accurate or fashionable, ask whose body, display, and cultural code count as neutral — generative tools are not representationally neutral.\n- Read the quote once; pause: “This analysis reveals significant racial homogenization, e.g., depicting nearly all Middle Eastern men as bearded, brown…”\n- Source cue: (AlDahoul et al. 2025)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -478,7 +486,8 @@ layout: null
       "media_slot_id": "I.3.masterclass-6",
       "slide_id": "masterclass-6",
       "image_brief": "Jpeg vs Png vs Jpeg XL vs Heic size comparison test chart: correcting compression vs changing the file's colour claim.",
-      "asset_id": "wikimedia:File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png"
+      "asset_id": "wikimedia:File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
+      "notes": "- Beat: 6 · Correcting vs changing.\n- Core line: When does “correcting” a colour become “changing” the garment it depicts? Decide together — then keep the decision visible.\n- Read the quote once; pause: “Correction without disclosure is a redesign with an alibi.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "lab_opener",
@@ -487,7 +496,8 @@ layout: null
       "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
       "portfolio_bound": true,
       "portfolio_trace": "Open or update the portfolio index before you leave.",
-      "slide_id": "lab-opener"
+      "slide_id": "lab-opener",
+      "notes": "- Bridge into Lab: two portfolio-bound exercises follow.\n- Exercises come next. Everything you make in Lab goes into your portfolio index."
     },
     {
       "slide_role": "lab_exercise",
@@ -522,7 +532,8 @@ layout: null
       "media_slot_id": "I.3.lab-1",
       "slide_id": "lab-1",
       "image_brief": "Historical French costume plate with coloured garments: a palette students can remake as an accessible alternate.",
-      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg"
+      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "notes": "- Lab task: Exercise 1 · Palette + accessible alternate.\n- Brief: Build a five-colour fashion palette and one accessible alternate. Log format, profile assumption, and one uncertainty.\n- Portfolio: Save palette sheet + alternate + colour decision log (one sentence on what another display would change).\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "lab_exercise",
@@ -557,14 +568,16 @@ layout: null
       "media_slot_id": "I.3.lab-2",
       "slide_id": "lab-2",
       "image_brief": "1945 Dorothy Lamour beauty cream advert: crop and contrast audit on a commercial bitmap with strong mid-tones.",
-      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg"
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "notes": "- Lab task: Exercise 2 · Bitmap crop + contrast audit.\n- Brief: Export a 1600px bitmap crop and audit two palettes for legibility, hierarchy, and mood on the screen in front of you.\n- Portfolio: Save crop + contrast notes + one sentence distinguishing colour correction from colour change.\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
       "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and does not get Workshop time. From session 4: Workshop splits half Transposition, half final event.",
-      "slide_id": "outro"
+      "slide_id": "outro",
+      "notes": "- Close: name what carries to the next session / deliverable.\n- No Workshop in first lessons — Lab ends the session. D1 Analysis is next and does not get Workshop time. From session 4: Workshop splits half Transposition, half final event."
     }
   ],
   "schema_version": 2

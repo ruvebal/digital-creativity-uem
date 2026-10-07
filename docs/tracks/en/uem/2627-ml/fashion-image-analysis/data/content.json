@@ -204,7 +204,8 @@ layout: null
       "slide_id": "cover",
       "image_brief": "Leonardo da Vinci, garment study for a seated figure: folds observed before interpretation — the master lecture's evidence-first habit.",
       "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
-      "media_slot_id": "ML-FIA.cover"
+      "media_slot_id": "ML-FIA.cover",
+      "notes": "- Open the unit with the cover claim: Master Lecture · Fashion image analysis.\n- Land one sentence: Morphology first: dot, line, plane, form, colour, composition. Then eight steps. Critical always.\n- Point at the image; name why this picture belongs on the cover."
     },
     {
       "slide_role": "analysis_opener",
@@ -213,7 +214,8 @@ layout: null
       "heading": "Analysis · two lenses",
       "sentence": "Lens A: language / medium / support. Lens B: production → reception → next production.",
       "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa",
-      "slide_id": "analysis-opener"
+      "slide_id": "analysis-opener",
+      "notes": "- Mark the Analysis block: modelled first, then student defences from session 3.\n- Lens A: language / medium / support. Lens B: production → reception → next production."
     },
     {
       "slide_role": "analysis_model",
@@ -233,7 +235,8 @@ layout: null
       "prompt": "Do not jump from impression to message. Evidence first; then claim.",
       "slide_id": "analysis-model",
       "image_brief": "Rei Kawakubo dresses (Stierch 01): look first at cut, volume and black/colour blocks before naming a theory.",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg"
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "notes": "- Model the reading on this slide: Two passes: evidence → analysis.\n- Ask one student to restate the path the picture travels."
     },
     {
       "slide_role": "masterclass",
@@ -244,7 +247,8 @@ layout: null
       "prompt": "Start with observable evidence; postpone the message.",
       "slide_id": "masterclass-1",
       "image_brief": "Rei Kawakubo dresses (Stierch 02): a second view used only to describe what is seen — describe before you interpret.",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg"
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "notes": "- Beat: 1 · Describe before you interpret.\n- Core line: Say what is there: bodies, clothes, light, text, crop. Not yet what it means.\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -255,7 +259,8 @@ layout: null
       "prompt": "Do not call the screen the medium when you mean the JPEG.",
       "slide_id": "masterclass-2",
       "image_brief": "Fashion sketch design on paper: language (sketch), medium (ink/paper) and support (page) held apart for analysis.",
-      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg"
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "notes": "- Beat: 2 · Language ≠ medium ≠ support.\n- Core line: Separate code, channel or genre, and material or file.\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -271,7 +276,8 @@ layout: null
       },
       "slide_id": "masterclass-3",
       "image_brief": "AK ER exhibition poster: photography and layout organising how fashion is shown in public.",
-      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg"
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "notes": "- Beat: 3 · The photo organises fashion.\n- Core line: The image is not decoration: it charts fashion’s discursive space.\n- Read the quote once; pause: “Photographic images play a key role in defining global fashion culture and in charting its discursive space.”\n- Source cue: (Shinkle 2008, 14)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -287,7 +293,8 @@ layout: null
       },
       "slide_id": "masterclass-4",
       "image_brief": "1945 Dorothy Lamour beauty advert: one more genre (beauty commerce) beside runway and catalogue — no single fashion genre.",
-      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg"
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "notes": "- Beat: 4 · No single genre.\n- Core line: Editorial, advertising, beauty, documentary: do not use one method for all.\n- Read the quote once; pause: “there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is…”\n- Source cue: (Shinkle 2008, 17)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -308,7 +315,8 @@ layout: null
       "slide_id": "masterclass-5",
       "image_brief": "Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020: a living designer-model on a public catwalk — agency and reception in one frame.",
       "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020.jpg",
-      "media_slot_id": "ML-FIA.masterclass-5"
+      "media_slot_id": "ML-FIA.masterclass-5",
+      "notes": "- Beat: 5 · Agency, reception, experience.\n- Core line: Circulation is not only views: who acts, who receives, what is felt?\n- Read the quote once; pause: “The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.”\n- Source cue: (Eckersall 2017, 219)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -325,7 +333,8 @@ layout: null
       "slide_id": "masterclass-6",
       "image_brief": "Jessica Minh Anh runway still (alternate angle, same 2020 show): desire and the critical gaze share the same photographed body.",
       "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2).jpg",
-      "media_slot_id": "ML-FIA.masterclass-6"
+      "media_slot_id": "ML-FIA.masterclass-6",
+      "notes": "- Beat: 6 · Desire + critical gaze.\n- Core line: Creating desire is the craft; asking whom it serves is your analytic duty.\n- Read the quote once; pause: “Fashion photography is about creating desire.”\n- Source cue: (Shinkle 2008, 78)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "lab_opener",
@@ -334,7 +343,8 @@ layout: null
       "heading": "Lab",
       "sentence": "Two exercises. Everything you produce enters your portfolio index / Canvas.",
       "caption": "Geometrical · uem-pass-04-practice.svg#4a190e098ca6",
-      "slide_id": "lab-opener"
+      "slide_id": "lab-opener",
+      "notes": "- Bridge into Lab: two portfolio-bound exercises follow.\n- Two exercises. Everything you produce enters your portfolio index / Canvas."
     },
     {
       "slide_role": "lab_exercise",
@@ -354,7 +364,8 @@ layout: null
       "portfolio_trace": "Save the card in Canvas / portfolio index.",
       "slide_id": "lab-1",
       "image_brief": "Illustrated fashion catalogue — summer, 1890: a shared historical plate for the class's evidence pass.",
-      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg"
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "notes": "- Lab task: Exercise 1 · Shared image.\n- Brief: Fill the printable eight-step card on the image the professor models (Lens A + Lens B).\n- Portfolio: Save the card in Canvas / portfolio index.\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "lab_exercise",
@@ -364,7 +375,8 @@ layout: null
       "portfolio_bound": true,
       "portfolio_trace": "Save image + card; link to any track unit that needs visual critique.",
       "slide_id": "lab-2",
-      "image_brief": "Students' own image (diagram fallback until a cleared student upload exists): keep the Lab on a geometrical/diagram field rather than inventing a private photograph."
+      "image_brief": "Students' own image (diagram fallback until a cleared student upload exists): keep the Lab on a geometrical/diagram field rather than inventing a private photograph.",
+      "notes": "- Lab task: Exercise 2 · Your image.\n- Brief: Choose a fashion image (campaign, lookbook, or feed). Eight steps + one critical sentence + one circulation claim.\n- Portfolio: Save image + card; link to any track unit that needs visual critique.\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "outro",
@@ -373,7 +385,8 @@ layout: null
       "heading": "Carry forward",
       "sentence": "What changes when the same image moves from editorial to feed — language, medium, or support?",
       "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79",
-      "slide_id": "outro"
+      "slide_id": "outro",
+      "notes": "- Close: name what carries to the next session / deliverable.\n- What changes when the same image moves from editorial to feed — language, medium, or support?"
     }
   ],
   "schema_version": 2
