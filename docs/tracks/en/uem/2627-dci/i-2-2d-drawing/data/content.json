@@ -480,6 +480,21 @@ layout: null
       "notes": "- Beat: 6 · Three alternatives.\n- Core line: One silhouette is not enough — make three visible versions, then defend the choice you keep.\n- Read the quote once; pause: “Whether you’re burned out, starting out, starting over, or wildly successful, the question is always the same: How to ke…”\n- Source cue: (Kleon 2019)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "What is a vector path in this unit’s terms?",
+        "I.2’s creativity check distinguishes which three terms?",
+        "How many silhouette alternatives does Lab 2 require?",
+        "What literacy trap does Rubin push against here?",
+        "Lab 1: a proportion decision must survive which media chain?"
+      ],
+      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. Relations among points, handles, and fills — not a pixel grid.\n- 2. Fantasy, imagination, and creative fit to brief (Hüppauf and Wulf 2009, 32).\n- 3. Three visibly different versions, then a defended winner.\n- 4. Tool worship — taste shows in listening/curation (Rubin 2023, 123).\n- 5. Hand → raster → vector (proportion-survival sentence).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+    },
+    {
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",

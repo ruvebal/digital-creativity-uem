@@ -250,6 +250,9 @@ This unit trains a reading frame, not a software path — and it leaves doors op
 
 ---
 
+
+**Practice:** five recall questions with answers on click — [i-1-digital-images practice quiz]({{ '/practice/en/i-1-digital-images/' | relative_url }}). Not graded; nothing recorded.
+
 ## Tao of the Image {#tao-of-the-image}
 
 Unit epigraph (studio Tao register — not a scholarly quotation):

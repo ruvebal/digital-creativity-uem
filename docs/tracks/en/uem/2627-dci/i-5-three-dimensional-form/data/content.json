@@ -218,6 +218,21 @@ layout: null
       "notes": "- Beat: 3 · A render is not understanding.\n- Core line: A convincing output still needs a visible account of how the 2D idea became form.\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "At IHU, when is 3D prototyping taught relative to 2D?",
+        "IHU 3D course halves?",
+        "Name one item on I.5’s form-understanding evidence trail.",
+        "Papahristou proves validated volume understanding — true/false?",
+        "3D prototyping: replace physical making or teach alongside?"
+      ],
+      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. Third year, alongside 2D CAD, after traditional patternmaking basics (Papahristou 2024, 5).\n- 2. Theoretical half and practical/laboratory half (Papahristou 2024, 5).\n- 3. 2D read before build; sketch→volume→digital sequence; or a divergence sentence.\n- 4. False — it reports structures/tool adoption, not validated volume measures (Papahristou 2024).\n- 5. Alongside — sequenced with 2D/physical literacy, not automatic replacement.\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+    },
+    {
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Build the spatial trace",

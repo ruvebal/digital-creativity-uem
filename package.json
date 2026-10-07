@@ -26,9 +26,10 @@
 		"media:rehydrate": "node scripts/rehydrate-student-media.mjs --rights=flag",
 		"predevelop": "bash scripts/kill-dev-ports.sh && npm run hydrate && npm run media:refresh && npm run media:rehydrate && npm run render:decks",
 		"develop": "npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35730} --config _config.yml --port ${PORT:-4002}",
-		"prebuild": "npm run hydrate && npm run media:rehydrate && npm run render:decks",
+		"prebuild": "npm run hydrate && npm run media:rehydrate && npm run render:decks && npm run build:practice",
 		"build": "npm run postcss:build && npm run validate:decks && bundle exec jekyll build --source docs --destination _site --config _config.yml && npm run verify:publication && npm run verify:citations",
-		"validate:yaml": "find docs/_data -name '*.yml' -exec yamllint {} \\;"
+		"validate:yaml": "find docs/_data -name '*.yml' -exec yamllint {} \\;",
+		"build:practice": "node scripts/build-practice-quizzes.mjs"
 	},
 	"devDependencies": {
 		"@tailwindcss/typography": "^0.5.19",

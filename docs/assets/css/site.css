@@ -3072,3 +3072,28 @@ html.dark .lesson-media-slot__body,
 .lesson-figure__missing {
   color: #b45309;
 }
+
+
+/* EX10 — practice quizzes (answers on click; printable) */
+.practice-quiz__question {
+	margin: 1rem 0;
+	padding: 0.9rem 1.1rem;
+	border: 1px solid rgb(148 163 184 / 0.6);
+	border-radius: 0.5rem;
+	break-inside: avoid;
+	page-break-inside: avoid;
+}
+.practice-quiz__options {
+	margin: 0.4rem 0;
+	padding-left: 1.8rem;
+	list-style: upper-alpha;
+}
+.practice-quiz__stem { margin: 0; }
+.practice-quiz__question details { margin-top: 0.6rem; }
+.practice-quiz__question summary { cursor: pointer; font-weight: 600; }
+@media print {
+	.practice-quiz * {
+		color: #111 !important;
+		background: transparent !important;
+	}
+}

@@ -490,6 +490,21 @@ layout: null
       "notes": "- Beat: 6 · Correcting vs changing.\n- Core line: When does “correcting” a colour become “changing” the garment it depicts? Decide together — then keep the decision visible.\n- Read the quote once; pause: “Correction without disclosure is a redesign with an alibi.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "What is a bitmap here — grid or infinite path?",
+        "Roivainen names what about platform colour styles?",
+        "AlDahoul et al.: are generative tools representationally neutral?",
+        "Treat trending tones as what, not as defaults?",
+        "Colour teaching here: fixed swatches or relational?"
+      ],
+      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. A fixed grid of colour values; mode/depth/gamut foreclose later options.\n- 2. Time-bound, platform-native editing conventions (Roivainen 2025, 8).\n- 3. No — they can reproduce intersectional gender and racial bias (AlDahoul et al. 2025).\n- 4. Historical signals to compare (Roivainen 2025 platform-style point).\n- 5. Relational — interaction, contrast, context (not isolated swatches).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+    },
+    {
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",

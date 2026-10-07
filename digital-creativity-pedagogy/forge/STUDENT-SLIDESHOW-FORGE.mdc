@@ -187,7 +187,11 @@ schema_version: 2                    # Wave-1 required (PHASE-EX3); see SCHEMA-V
 course_id: dci | dcii
 unit_id: I.1 | II.4
 slide_id: stable-unit-purpose-id
-slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+slide_role: unit_cover | analysis_opener | analysis_model | masterclass | retrieval | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+
+**Retrieval slide (EX10, optional on Wave-1 decks):** exactly one `slide_role: retrieval` after the last Masterclass idea and before `lab_opener`. Five recall questions (<= 80 characters); answers only in `notes`. Geometrical background. Drawn from `excellence/assessment/question-bank.yml` retrieval fields.
+
+
 background_kind: curated | geometrical | diagram | none   # v2: "profield" retired
 image_brief: "One sentence: what the image shows and why."  # curated | diagram
 asset_id: "wikimedia:File:Example.jpg"                     # curated only
