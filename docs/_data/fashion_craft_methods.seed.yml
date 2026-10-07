@@ -1,0 +1,341 @@
+schema: dc-fashion-craft-method-cards-seed/v1
+phase: EX7
+publication_note: Seed only. EX10 may build printable cards under docs/methods/en/cards/. Do not dump
+  CT technique ids. Gap attributions must not appear as student-facing Source lines.
+cards:
+- id: figurin-digital
+  title: Digital figurín (fashion croquis figure)
+  family: drawing
+  units:
+  - I.1
+  - I.2
+  sandra_acts:
+  - ACT1
+  summary: Proportion-first digital fashion figure for ACT1 craft.
+  steps:
+  - Set a visible proportion scaffold (head-count or grid) on a blank canvas.
+  - Block the figure as simple volumes before any garment detail.
+  - Add garment silhouette with construction lines distinct from finish lines.
+  - 'Export a process pair: scaffold-only + finished figurín.'
+  - Note one proportion decision that would survive a medium change (hand → raster → vector).
+  time_min: 45
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation (studio craft).
+  source_status: held
+  card_ready: false
+  built_by_phase: EX10
+- id: photobash-integration
+  title: Photobash integration (key-visual collage craft)
+  family: bitmap
+  units:
+  - I.3
+  - I.4
+  sandra_acts:
+  - ACT2
+  summary: Layered photographic integration for ACT2 key visual.
+  steps:
+  - Collect a short, attributed contact sheet (≤12 stills) for one key-visual brief.
+  - Cut and layer fragments so seams are intentional, not accidental.
+  - Unify light/colour with adjustment layers only (keep originals recoverable).
+  - 'Check Gestalt grouping: what reads as one figure vs background noise?'
+  - Export flat + layered file; list three integration decisions in a process note.
+  time_min: 60
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation (studio craft).
+  source_status: gap
+  card_ready: false
+  built_by_phase: EX10
+- id: gestalt-composition
+  title: Gestalt composition pass (grouping / figure–ground)
+  family: composition
+  units:
+  - I.3
+  - I.4
+  - I.7
+  - I.9
+  sandra_acts:
+  - ACT2
+  summary: One intentional Gestalt law applied to fashion image layout.
+  steps:
+  - Name one Gestalt relation to test (proximity, similarity, closure, continuity, or figure–ground).
+  - Apply the relation once to a key visual or bodegón draft.
+  - Invert or break the relation in a second version; keep both.
+  - Peer names which version groups more clearly and why (one sentence).
+  - Record the chosen relation in the process note for portfolio.
+  time_min: 25
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation (studio craft).
+  source_status: gap
+  card_ready: false
+  built_by_phase: EX10
+- id: construction-vs-finish-lines
+  title: Construction vs finish line audit
+  family: drawing
+  units:
+  - I.2
+  sandra_acts:
+  - ACT1
+  summary: Separate scaffold information from cosmetic finish.
+  steps:
+  - Colour-code construction lines vs finish lines on one drawing.
+  - Hide finish; ask a peer what garment they still understand.
+  - Restore finish only where it adds information.
+  - 'Write one sentence: which line type carried the silhouette.'
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `huppauf-wulf-2009` once EX10 cards hydrate
+    references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: platform-tonal-edit-study
+  title: Platform tonal/colour edit study
+  family: colour
+  units:
+  - I.3
+  sandra_acts: []
+  summary: Study platform colour conventions as time-bound craft.
+  steps:
+  - Pick one own image and apply a time-bound platform look (not a brand template claim).
+  - List the tonal moves (contrast, warmth, saturation) without vendor myth.
+  - Compare to an unedited proof; mark what the edit sells.
+  - Write whether the edit is corrective or stylistic for this brief.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `roivainen-2025` once EX10 cards hydrate
+    references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: generative-face-bias-pause
+  title: Generative-face bias pause
+  family: colour
+  units:
+  - I.3
+  - I.4
+  sandra_acts: []
+  summary: Mandatory pause before generative face tiles enter a key visual.
+  steps:
+  - If using a generative face or skin tile, stop before compositing.
+  - Compare three outputs for homogenization patterns you can name.
+  - Either discard generative faces or document the bias risk in the process note.
+  - Prefer photographed or drawn faces you can attribute.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `aldahoul-2025` once EX10 cards hydrate
+    references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: point-line-plane-looking
+  title: Point / line / plane looking order
+  family: composition
+  units:
+  - I.4
+  - I.9
+  - ML-FIA
+  sandra_acts:
+  - ACT2
+  summary: Compositional looking order via point, line, plane.
+  steps:
+  - On a still image, mark one point, one line, one plane that organise the read.
+  - Reorder emphasis (enlarge/reduce) once without changing content.
+  - Ask a peer which looking order they followed.
+  - Keep the annotated overlays with the deliverable.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `kandinsky-2012` once EX10 cards hydrate
+    references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: crop-as-argument
+  title: Crop as argument
+  family: composition
+  units:
+  - I.4
+  - I.7
+  sandra_acts: []
+  summary: Treat cropping as a claim, not a tidy-up.
+  steps:
+  - Make three crops of the same source with different claims (product, body, context).
+  - Caption each crop's claim in ≤8 words.
+  - Choose one; reject the others with a reason that is not 'looks better'.
+  - Archive rejects as process evidence.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `shinkle-2008` once EX10 cards hydrate references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: 2d-to-3d-sequence-sketch
+  title: 2D→3D sequence sketch
+  family: form-volume
+  units:
+  - I.5
+  - I.6
+  sandra_acts: []
+  summary: Sketch the 2D→3D handoff before software volume.
+  steps:
+  - Sketch flat → side elevation → simple volume for one garment region.
+  - Mark one ambiguity that only 3D can resolve.
+  - State what you will test in digital volume next (without requiring CLO).
+  - Keep the three sketches as one strip.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `papahristou-2024` once EX10 cards hydrate
+    references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: hybrid-analogue-digital-iteration
+  title: Hybrid analogue/digital iteration
+  family: form-volume
+  units:
+  - I.6
+  sandra_acts: []
+  summary: Force one analogue step inside a digital volume brief.
+  steps:
+  - Make one analogue move (paper fold, tape, chalk) related to the brief.
+  - Photograph it; continue digitally without pretending the photo is final.
+  - State what digital could not invent without the analogue step.
+  - Keep both stages in the process trail.
+  time_min: 40
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `coats-2026` once EX10 cards hydrate references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: search-politics-audit
+  title: Search-politics audit
+  family: research
+  units:
+  - I.7
+  sandra_acts: []
+  summary: Audit search grids before moodboard capture.
+  steps:
+  - Run the same query in two engines or filters; capture first-screen grids.
+  - Name whose bodies/contexts dominate.
+  - Change one query term to surface missing contexts.
+  - Keep both grids as process evidence.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `campinho-2025` once EX10 cards hydrate
+    references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: taste-listening-counterpoint
+  title: Taste / listening counterpoint
+  family: presentation
+  units:
+  - I.1
+  - I.2
+  sandra_acts: []
+  summary: Re-centre judgement over tool fluency.
+  steps:
+  - Before tool polish, state what you are listening for in the work (material, mood, audience).
+  - Do one silent look at peer work without commenting on software.
+  - Return to your piece; change one decision that tools cannot make for you.
+  - Note the change without brand-tool language.
+  time_min: 20
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `rubin-2023` once EX10 cards hydrate references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: fashion-photograph-reading
+  title: Fashion photograph discursive reading
+  family: critical-craft
+  units:
+  - I.1
+  - ML-FIA
+  sandra_acts: []
+  summary: Read fashion photographs as discursive practices before remaking them.
+  steps:
+  - Choose one fashion photograph (rights-clear or course set).
+  - Name art/commerce tensions and who the image addresses.
+  - List three practices the image participates in (editorial, advertising, vernacular…).
+  - Connect one observation to your own making this week.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `shinkle-2008` once EX10 cards hydrate references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10
+- id: agency-in-reception-note
+  title: Agency in reception note
+  family: critical-craft
+  units:
+  - ML-FIA
+  - I.1
+  sandra_acts: []
+  summary: Account for viewer agency in fashion-image craft.
+  steps:
+  - Describe who acts when your image is viewed (author, platform, viewer).
+  - Mark one place where reception can refuse your intended claim.
+  - Adjust the craft once to leave room for that agency — or document why not.
+  - Keep the note with the critique sheet.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  source_line: Classroom adaptation; source line may cite `eckersall-2017` once EX10 cards hydrate
+    references.
+  source_status: verified
+  card_ready: false
+  built_by_phase: EX10

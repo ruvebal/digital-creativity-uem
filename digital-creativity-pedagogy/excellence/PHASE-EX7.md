@@ -1,7 +1,7 @@
 # PHASE-EX7: Canonical fashion-craft method catalogue
 
 > **Track:** catalogue
-> **Status:** BLOCKED (EX6 DONE)
+> **Status:** VERIFYING (EX6 DONE)
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
 
 ## Goal
