@@ -2,22 +2,27 @@
 
 **Run by:** cascade-harness.sh (runner process, not the implementing session)
 **Worktree:** /Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem-integration-excellence-2
-**Commit:** 400ce62426055f5f70a41503ccc28d0402b01f88
-**Started:** 2026-10-07T13:39:39Z
+**Commit:** d61156ba871a9b5285a1dcb8ecd3cf16a4a63ee6
+**Started:** 2026-10-07T13:46:44Z
 
 ```
 PASS: jekyll build
 PASS: publication safety
-PASS: no forge-date lesson-scribe in CD I EN public source
+PASS: no Forge date lesson-scribe in CD I EN public source
+PASS: no Fecha de forja in CD I ES public source
+PASS: no MCP/RAG vault footer in CD I ES public source
 PASS: probe Wave-1 infra vocab is 0
-PASS: no Ahmes in built CD I HTML
-PASS: no Athanor in built CD I HTML
+PASS: no Ahmes in built CD I EN HTML
+PASS: no Ahmes in built CD I ES HTML
+PASS: no Athanor in built CD I EN HTML
+PASS: no Fecha de forja in built CD I ES HTML
 PASS: safety script has pattern: lesson-scribe
 PASS: safety script has pattern: Profield
 PASS: safety script has pattern: UDIT
 PASS: safety script has pattern: web-atelier
 PASS: safety script has pattern: ahmes-library
 PASS: safety script has pattern: Thessia
+PASS: safety script has pattern: Fecha de forja
 PASS: fixture with Ahmes fails safety
 PASS: publication safety
 ----
