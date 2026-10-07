@@ -62,35 +62,42 @@ puts bad.first(30)
 exit(bad.empty? ? 0 : 1)
 RB
 
-# Optional retrieval slides: exactly one per bank unit that names a deck path
-BANK_YML="$A/question-bank.yml" node <<'NODE' && pass "retrieval slides (optional, consistent)" || fail "retrieval slides"
-const fs = require('fs');
-const path = require('path');
-const yaml = require('js-yaml');
-const bank = yaml.load(fs.readFileSync(process.env.BANK_YML, 'utf8'));
-const bad = [];
-for (const [unit, info] of Object.entries(bank.units || {})) {
-  const deck = info.deck;
-  if (!deck) continue;
-  const p = path.join(deck, 'data', 'content.json');
-  if (!fs.existsSync(p)) { bad.push(`missing deck ${p}`); continue; }
-  const text = fs.readFileSync(p, 'utf8').replace(/^---[\s\S]*?---\s*/, '');
-  const d = JSON.parse(text);
-  const slides = d.slides || [];
-  const idxs = slides.map((s, i) => (s.slide_role === 'retrieval' ? i : -1)).filter((i) => i >= 0);
-  if (idxs.length !== 1) { bad.push(`${p}: ${idxs.length} retrieval slides (need 1)`); continue; }
-  const i = idxs[0];
-  if (!slides[i + 1] || slides[i + 1].slide_role !== 'lab_opener') {
-    bad.push(`${p}: retrieval not immediately before lab_opener`);
-  }
-  const qs = slides[i].questions || [];
-  if (qs.length !== 5) bad.push(`${p}: ${qs.length} retrieval questions`);
-  if (!/answer/i.test(slides[i].notes || '')) bad.push(`${p}: retrieval notes missing answers`);
-  if (slides[i].background_kind !== 'geometrical') bad.push(`${p}: retrieval background_kind`);
-}
-if (bad.length) console.error(bad.join('\n'));
-process.exit(bad.length ? 1 : 0);
-NODE
+# Optional retrieval slides: exactly one per bank unit that names a deck path.
+# Ruby YAML only — land regression runs on the integration worktree, which may
+# have no node_modules (js-yaml would fail there even when the cascade WT passes).
+ruby - "$A/question-bank.yml" <<'RB' && pass "retrieval slides (optional, consistent)" || fail "retrieval slides"
+require "yaml"
+require "json"
+bank = YAML.load_file(ARGV[0])
+bad = []
+(bank["units"] || {}).each do |_unit, info|
+  deck = info.is_a?(Hash) ? info["deck"] : nil
+  next if deck.to_s.empty?
+  p = File.join(deck, "data", "content.json")
+  unless File.exist?(p)
+    bad << "missing deck #{p}"
+    next
+  end
+  text = File.read(p).sub(/\A---[\s\S]*?---\s*/, "")
+  d = JSON.parse(text)
+  slides = d["slides"] || []
+  idxs = slides.each_with_index.select { |s, _i| s["slide_role"] == "retrieval" }.map { |_s, i| i }
+  if idxs.length != 1
+    bad << "#{p}: #{idxs.length} retrieval slides (need 1)"
+    next
+  end
+  i = idxs[0]
+  unless slides[i + 1] && slides[i + 1]["slide_role"] == "lab_opener"
+    bad << "#{p}: retrieval not immediately before lab_opener"
+  end
+  qs = slides[i]["questions"] || []
+  bad << "#{p}: #{qs.length} retrieval questions" if qs.length != 5
+  bad << "#{p}: retrieval notes missing answers" unless /answer/i.match?(slides[i]["notes"].to_s)
+  bad << "#{p}: retrieval background_kind" unless slides[i]["background_kind"] == "geometrical"
+end
+warn bad.join("\n") unless bad.empty?
+exit(bad.empty? ? 0 : 1)
+RB
 
 jekyll_build_ok
 publication_safety_ok
