@@ -16,3 +16,6 @@ Append-only. Format:
 2026-10-07 · EX2 · Rewrite AI footers to one-sentence form; gate PROVENANCE/VOICE into publish_internal comments; firewall CD II lessons · AUTOPILOT §2 · alt: leave footers · undo: revert lesson index.md batch
 2026-10-07 · EX2 · Expand safety patterns (lesson-scribe, Profield prose, UDIT, web-atelier, Thessia, vault); strip UDIT archive_covers; redact tracks campaign_ledger; gate PROVENANCE; one-sentence AI footers; Ahmes fixture proves fail-closed · AUTOPILOT §2 / FINDINGS C1 E1 · alt: leave NM redesign · undo: revert safety script + lesson/track scrub
 
+2026-10-07 · EX3 · Port CT media-rules + validate-decks; Wave-1 schema_version 2 contract documented but decks stay legacy until EX4; profield-cache orphans warn-only (do not delete); deck-media orphans error; outside Wave-1 always warn · AUTOPILOT §0/§2 · FINDINGS B2 B3 · alt: delete orphans / migrate all decks now · undo: revert scripts/ + forge pointers + curation/
+2026-10-07 · EX3 · EX3 exit gate focused on validator+tests (no Jekyll) so harness stays light; `npm run build` still runs validate:decks · AUTOPILOT §2 · alt: keep jekyll in EX3 gate · undo: amend PHASE-EX3.exit-gate.sh
+
