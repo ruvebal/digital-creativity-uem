@@ -240,6 +240,9 @@ This unit trains a drawing rhythm — externalise, relate, revise, select — an
 
 ---
 
+
+**Practice:** five recall questions with answers on click — [i-2-2d-drawing practice quiz]({{ '/practice/en/i-2-2d-drawing/' | relative_url }}). Not graded; nothing recorded.
+
 ## Tao of the Image {#tao-of-the-image}
 
 Unit epigraph (studio Tao register — not a scholarly quotation):

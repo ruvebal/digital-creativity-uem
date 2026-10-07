@@ -267,6 +267,9 @@ This unit leaves named gaps on purpose: what the vault can page-verify stays in 
 
 ---
 
+
+**Practice:** five recall questions with answers on click — [fashion-image-analysis practice quiz]({{ '/practice/en/fashion-image-analysis/' | relative_url }}). Not graded; nothing recorded.
+
 ## References
 
 {% include references.html %}

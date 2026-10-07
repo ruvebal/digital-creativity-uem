@@ -47,3 +47,7 @@ Append-only. Format:
 2026-10-07 · EX9 · I.6–I.9 Labs = structural placeholders (no 2627-dci decks); I.1–I.5 ES B2 cards ported from EN with EX8 English field labels · EX8 deferral / AUTOPILOT conservative · alt: forge I.6–I.9 decks now (out of EX9) · undo: restore prior ES Lab bodies
 2026-10-07 · EX9 · Example traces are illustrative professor-made drafts (not student work); flagged for FINAL-REVIEW P0 · AUTOPILOT §2 EX8-style · alt: leave Labs without traces · undo: strip **Example trace:** blocks
 2026-10-07 · EX9 · Lesson figures reuse EX4/EX5 deck assets via lesson_figures.json + lesson-figure.html; hreflang emits es only when built page exists and differs · CT EX9 A5 pattern · alt: keep always-on es alternate · undo: revert head-hreflang.html
+
+2026-10-07 · EX10 · Consent + bank + transposition brief = drafts only; measurement never starts · AUTOPILOT §2 EX10 / FINDINGS D3 D4 E6 A2 C5 · alt: invent DPO clearance (forbidden) · undo: revert assessment/ + consent forms + practice pages
+2026-10-07 · EX10 · Bank covers I1–I3, I5–I7, FIA only; I4/I8/I9 empty lesson refs → gap (no invented cites) · AUTOPILOT conservative · alt: invent refs for empty lessons · undo: amend question-bank.yml gaps
+2026-10-07 · EX10 · Lock TRANSPOSITION-BRIEF EN+ES ≡ ACT3 cartel from another language; divergence table filed · COORDINATION-SANDRA §3 / A2 · alt: English-only competing brief (forbidden) · undo: revert assessment/TRANSPOSITION-BRIEF.md

@@ -240,6 +240,9 @@ This unit leaves named gaps on purpose: what the vault can page-verify stays in 
 
 ---
 
+
+**Practice:** five recall questions with answers on click — [i-5-three-dimensional-form practice quiz]({{ '/practice/en/i-5-three-dimensional-form/' | relative_url }}). Not graded; nothing recorded.
+
 ## Tao of the Image {#tao-of-the-image}
 
 Unit epigraph (studio Tao register — not a scholarly quotation):

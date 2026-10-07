@@ -84,6 +84,7 @@ AI declarations, project critiques, and oral defences use the same bands. Polish
 
 ## Links
 
+- [Practice quizzes]({{ '/practice/en/' | relative_url }}) — retrieval practice for the knowledge-test bucket (not graded)
 - [How to Pass CD I]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }})
 - [How to Pass CD II]({{ '/tracks/dcii/how-to-pass-this-track/' | relative_url }})
 

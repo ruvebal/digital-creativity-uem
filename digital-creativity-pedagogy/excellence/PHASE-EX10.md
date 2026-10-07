@@ -1,7 +1,7 @@
 # PHASE-EX10: Assessment layer + D2≡ACT3 lock + consent drafts
 
 > **Track:** didactics
-> **Status:** BLOCKED (EX9 DONE)
+> **Status:** VERIFYING
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
 
 ## Goal
