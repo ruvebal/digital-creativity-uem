@@ -3,6 +3,7 @@
 **Stack:** Jekyll (`docs/`) + Tailwind/PostCSS + GitHub Pages.  
 **Emancipation model:** `hc-app-design` (standalone repo) — lean Jekyll site, not a nested multi-course monorepo stack.  
 **Research home:** `digital-creativity-pedagogy/` (excluded from Pages).  
+**Excellence cascade (EX0–EX11):** `digital-creativity-pedagogy/excellence/` — CT-pattern autopilot pack (gitflow on `excellence/integration`, never `main` until professor release). Coordination with Sandra Jiménez Duarte Plan de trabajo (D2 ≡ ACT3 Transposición). Start: `INDEX.md` + `AUTOPILOT.md`. Sibling pattern: `creativity-techniques-uem/…/excellence` (COMPLETE).  
 **Official contract:** live UEM PDFs, cloned at `digital-creativity-pedagogy/cv/guides/{1-creacion-digital-i,3-creacion-digital-ii}.json` + `oficial-guia-framework.mdc` — **mandatory** for hours (150/150 presencial), evaluation, competencies, CONTENIDOS. CD I and CD II = current 2026-27 PDFs (CD II live URL rollover checked 2026-08-23). `tracks.yml` course totals close; pedagogical session rows allocate the 80/80 contact buckets, while institutional dates/procedures remain external.
 **Special analysis unit (fashion image):** `digital-creativity-pedagogy/forge/FASHION-IMAGE-ANALYSIS-FORGE.mdc` + `FASHION-IMAGE-ANALYSIS.execute.md` — shared frame `~/src/profield/runs/curriculum-analysis-guides/20260927-special-analysis/SHARED-ANALYSIS-FRAME.md` (sibling: CT creative-process analysis forge).
 

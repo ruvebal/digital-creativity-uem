@@ -14,3 +14,5 @@ _site_test/
 digital-creativity-pedagogy/**/pdfs/
 
 *.~lock.*
+# Cascade harness per-worktree lane marker
+.cascade-lane

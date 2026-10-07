@@ -1,0 +1,36 @@
+{
+  "measured_at": "2026-10-07T12:37:19.174Z",
+  "root": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem",
+  "wave1": {
+    "lessons_en_cd_i": 9,
+    "decks_content_json": 6,
+    "profield_cache_files": 79,
+    "php_cache_files": 0,
+    "lesson_infra_vocab_files": 9,
+    "lesson_infra_vocab_sample": [
+      "docs/lessons/en/digital-creativity-i/i-1-digital-images/index.md",
+      "docs/lessons/en/digital-creativity-i/i-2-2d-drawing/index.md",
+      "docs/lessons/en/digital-creativity-i/i-3-color-bitmaps/index.md",
+      "docs/lessons/en/digital-creativity-i/i-4-effects/index.md",
+      "docs/lessons/en/digital-creativity-i/i-5-three-dimensional-form/index.md",
+      "docs/lessons/en/digital-creativity-i/i-6-volume/index.md",
+      "docs/lessons/en/digital-creativity-i/i-7-fashion-references/index.md",
+      "docs/lessons/en/digital-creativity-i/i-8-animation/index.md",
+      "docs/lessons/en/digital-creativity-i/i-9-bodegones/index.md"
+    ]
+  },
+  "guia_weights_expected": {
+    "tests": 55,
+    "caso": 15,
+    "proyectos": 20,
+    "cuaderno": 10
+  },
+  "sandra_act_weights_expected": {
+    "each_percent": 11.2,
+    "count": 4
+  },
+  "coordination": {
+    "d2_equals_act3": true,
+    "plan_pdf": "digital-creativity-pedagogy/cv/sources/Plan_de_trabajo_2026-27_Creacion_Digital_I-Sandra_Jimenez.pdf"
+  }
+}
