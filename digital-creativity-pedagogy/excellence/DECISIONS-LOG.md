@@ -51,3 +51,5 @@ Append-only. Format:
 2026-10-07 · EX10 · Consent + bank + transposition brief = drafts only; measurement never starts · AUTOPILOT §2 EX10 / FINDINGS D3 D4 E6 A2 C5 · alt: invent DPO clearance (forbidden) · undo: revert assessment/ + consent forms + practice pages
 2026-10-07 · EX10 · Bank covers I1–I3, I5–I7, FIA only; I4/I8/I9 empty lesson refs → gap (no invented cites) · AUTOPILOT conservative · alt: invent refs for empty lessons · undo: amend question-bank.yml gaps
 2026-10-07 · EX10 · Lock TRANSPOSITION-BRIEF EN+ES ≡ ACT3 cartel from another language; divergence table filed · COORDINATION-SANDRA §3 / A2 · alt: English-only competing brief (forbidden) · undo: revert assessment/TRANSPOSITION-BRIEF.md
+2026-10-07 · EX11 · Harden probe --targets (strip deck YAML; Wave-1 media labs=2; firewall/catalogue/bank/consent keys); file final-EX11.json + CLOSING-AUDIT + NEXT-CASCADE-CD-II · AUTOPILOT §2 / FINDINGS B1 deferred · alt: weaken targets · undo: revert probe + audit docs
+2026-10-07 · EX11 · Forge/AGENTS pointers: references.yml + NEXT-CASCADE in dc-unit-forge; FINAL-REVIEW §4–§6 · AUTOPILOT §5 · alt: leave handoff oral · undo: revert forge/AGENTS/FINAL-REVIEW

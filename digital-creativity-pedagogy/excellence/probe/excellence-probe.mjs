@@ -79,9 +79,27 @@ function countMatches(files, re) {
   return { n, hits };
 }
 
+/** Deck JSON may carry Jekyll YAML front matter — strip before parse. */
+function readDeckJson(contentPath) {
+  let text = fs.readFileSync(contentPath, "utf8");
+  if (text.startsWith("---")) {
+    const end = text.indexOf("\n---", 3);
+    if (end >= 0) text = text.slice(end + 4).replace(/^\s+/, "");
+  }
+  return JSON.parse(text);
+}
+
+/** Wave-1 media decks that must carry exactly two lab_exercise slides (EX8/EX11). */
+const WAVE1_MEDIA_DECK_RE =
+  /\/(i-[1-5]-[^/]+|fashion-image-analysis)\/data\/content\.json$/;
+
+function isWave1MediaDeck(contentPath) {
+  return WAVE1_MEDIA_DECK_RE.test(contentPath.replace(/\\/g, "/"));
+}
+
 function labSlideCount(contentPath) {
   try {
-    const j = JSON.parse(fs.readFileSync(contentPath, "utf8"));
+    const j = readDeckJson(contentPath);
     const slides = j.slides || j.deck?.slides || [];
     const labs = slides.filter(
       (s) =>
@@ -96,7 +114,7 @@ function labSlideCount(contentPath) {
 
 function danglingSlots(contentPath) {
   try {
-    const j = JSON.parse(fs.readFileSync(contentPath, "utf8"));
+    const j = readDeckJson(contentPath);
     const slides = j.slides || [];
     const assets = new Set((j.assets || []).map((a) => a.id || a.asset_id).filter(Boolean));
     const dang = [];
@@ -140,16 +158,24 @@ function measure() {
     ? countMatches([specialEn], leakRe)
     : { n: 0, hits: [] };
 
+  const mediaDecks = allDecks.filter(isWave1MediaDeck);
   const labs_by_deck = {};
   const dangling_by_deck = {};
+  const labs_by_wave1_media = {};
   let decks_ne_2_labs = [];
-  for (const d of decks) {
-    const key = path.basename(path.dirname(path.dirname(d))) || rel(d);
+  let wave1_media_ne_2_labs = [];
+  for (const d of allDecks) {
     const n = labSlideCount(d);
     labs_by_deck[rel(d)] = n;
-    if (n !== null && n !== 2) decks_ne_2_labs.push({ deck: rel(d), labs: n });
     dangling_by_deck[rel(d)] = danglingSlots(d);
+    if (isWave1MediaDeck(d)) {
+      labs_by_wave1_media[rel(d)] = n;
+      if (n !== 2) wave1_media_ne_2_labs.push({ deck: rel(d), labs: n });
+    } else if (n !== null && n !== 0 && n !== 2) {
+      decks_ne_2_labs.push({ deck: rel(d), labs: n });
+    }
   }
+  const wave1_dangling = mediaDecks.flatMap((d) => danglingSlots(d));
 
   const planPdf = path.join(
     ROOT,
@@ -193,6 +219,19 @@ function measure() {
       decks_ne_2_labs,
       dangling_by_deck,
       dangling_total: Object.values(dangling_by_deck).reduce((a, b) => a + b.length, 0),
+      wave1_media_deck_count: mediaDecks.length,
+      labs_by_wave1_media,
+      wave1_media_ne_2_labs,
+      wave1_dangling_total: wave1_dangling.length,
+      catalogue_present: fs.existsSync(
+        path.join(ROOT, "digital-creativity-pedagogy/catalogue/CANONICAL-METHODS.yml"),
+      ),
+      references_yml_present: fs.existsSync(path.join(ROOT, "docs/_data/references.yml")),
+      research_manifest_present: fs.existsSync(path.join(CASCADE, "research-manifest.yml")),
+      consent_drafts_present:
+        fs.existsSync(path.join(ROOT, "digital-creativity-pedagogy/consent/CONSENT-FORM-EN.md")) &&
+        fs.existsSync(path.join(ROOT, "digital-creativity-pedagogy/consent/CONSENT-FORM-ES.md")),
+      question_bank_present: fs.existsSync(path.join(CASCADE, "assessment/question-bank.yml")),
     },
     contract: {
       guia_i_path: rel(guiaI),
@@ -205,8 +244,17 @@ function measure() {
       coordination_md_present: fs.existsSync(path.join(CASCADE, "COORDINATION-SANDRA.md")),
       d2_equals_act3: true,
       sandra_act_weights_expected: { each_percent: 11.2, count: 4 },
+      weights_match_55_15_20_10: (() => {
+        if (!guia_weights) return false;
+        const vals = Object.values(guia_weights).map(Number);
+        return vals.includes(55) && vals.includes(15) && vals.includes(20) && vals.includes(10);
+      })(),
     },
-    findings_refs: ["A1", "A2", "A3", "A5", "B1", "B2", "C1", "E3"],
+    findings_refs: [
+      "A1", "A2", "A3", "A4", "A5", "B1", "B2", "B3", "B4", "B5",
+      "C1", "C2", "C3", "C4", "C5", "D1", "D2", "D3", "D4",
+      "E1", "E2", "E3", "E4", "E5", "E6", "E7",
+    ],
   };
 }
 
@@ -235,16 +283,31 @@ const writeAs = argVal("--write");
 if (writeAs) writeEvidence(path.basename(writeAs), out);
 
 if (flag("--targets")) {
+  // EX11 hardened Wave-1 targets (A1 scope: CD I I.1–I.5 media + fashion-image-analysis).
   const unmet = [];
   if (out.wave1.php_cache_files !== 0) unmet.push("php_cache_files");
+  if (out.wave1.lesson_infra_vocab_files !== 0) unmet.push("lesson_infra_vocab_files");
+  if (out.wave1.special_infra_vocab) unmet.push("special_infra_vocab");
+  if (out.wave1.en_es_parity_delta !== 0) unmet.push("en_es_parity_delta");
+  if (!out.wave1.fashion_image_analysis_en) unmet.push("fashion_image_analysis_en");
+  if (out.wave1.wave1_media_deck_count < 6) unmet.push("wave1_media_deck_count");
+  if ((out.wave1.wave1_media_ne_2_labs || []).length) unmet.push("wave1_media_ne_2_labs");
+  if (out.wave1.wave1_dangling_total !== 0) unmet.push("wave1_dangling_total");
+  if (!out.wave1.catalogue_present) unmet.push("catalogue_present");
+  if (!out.wave1.references_yml_present) unmet.push("references_yml_present");
+  if (!out.wave1.research_manifest_present) unmet.push("research_manifest_present");
+  if (!out.wave1.consent_drafts_present) unmet.push("consent_drafts_present");
+  if (!out.wave1.question_bank_present) unmet.push("question_bank_present");
   if (!out.contract.sandra_plan_pdf_present) unmet.push("sandra_plan_pdf");
   if (!out.contract.coordination_md_present) unmet.push("coordination_md");
   if (!out.contract.guia_i_weights) unmet.push("guia_i_weights");
+  if (!out.contract.weights_match_55_15_20_10) unmet.push("weights_match_55_15_20_10");
+  if (!out.contract.evaluation_page_mentions_55) unmet.push("evaluation_page_mentions_55");
   const result = {
     targets_met: unmet.length === 0,
     unmet_count: unmet.length,
     unmet,
-    note: "EX0 soft targets; EX11 hardens Wave-1 content targets",
+    note: "EX11 Wave-1 hardened targets (CD I I.1–I.5 + fashion-image-analysis; I.6–I.9 / CD II / NM deferred)",
   };
   console.log(JSON.stringify(result, null, 2));
   process.exit(unmet.length === 0 ? 0 : 1);
