@@ -8,7 +8,16 @@ as phases land. Professor reads this **once** before merging
 
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
-| EX0–EX11 | not started | — | Pack authored 2026-10-07; INDEX Gate EX0 = READY |
+| EX0 | landing | — | Probe + 55/15/20/10 + D2≡ACT3 lock; cold review PASS (1 P2) |
+| EX1–EX11 | pending | — | Autopilot loop |
+
+## 3 · EX0 — probe and decision
+
+- Probe measures Wave-1 lessons/decks/leaks/guía/Sandra PDF; baseline+head JSON filed.
+- `DECISION-EX0-GUIA.md` locks official weights and transposition coordination.
+- Local Ollama/Athanor/Thessia helpers added.
+- Gate + harness verify exit 0; cold review PASS.
+- Rollback after land: `gitflow.sh rollback 0`.
 
 ## 2 · P0 decisions for you
 
