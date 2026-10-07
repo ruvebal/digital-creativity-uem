@@ -1200,10 +1200,6 @@
         {
           "project_id": "ml",
           "unit_id": "ML-FIA"
-        },
-        {
-          "project_id": "dc",
-          "unit_id": "I.3"
         }
       ],
       "title": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
@@ -1442,6 +1438,39 @@
       "vision_description": "This is a photograph of a woman with dark hair and bangs, wearing bright red lipstick, heavy eye makeup, and large diamond earrings, seated inside a car. She is looking over her shoulder at the camera with one hand near her chin, wearing a green top and a ring on her finger. The background shows a blurred view through the car window, including part of a truck or vehicle outside. No visible text is present in the image, and while the person's face is clearly shown, it cannot be definitively identified as a specific public figure without additional context.",
       "origin": "EX4 autopilot pick for ML-FIA masterclass-6",
       "asset_url": "/digital-creativity-uem/assets/images/profield-cache/17d4597b7ae3a41e.jpg"
+    },
+    {
+      "asset_id": "wikimedia:File:Grafik nach Josef Albers1.jpg",
+      "assignments": [
+        {
+          "project_id": "dc",
+          "unit_id": "I.3"
+        }
+      ],
+      "title": "Grafik nach Josef Albers1.jpg",
+      "raw_title": "File:Grafik nach Josef Albers1.jpg",
+      "alt_text": "Four concentric squares in orange, light orange, mustard yellow and dark brown, nested so each colour changes how the next is read.",
+      "author": "Anonymous graphic after Josef Albers (CC0 upload)",
+      "author_death_year": null,
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Grafik_nach_Josef_Albers1.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Grafik_nach_Josef_Albers1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "provider": "wikimedia_commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (Commons file page); publication relies on the licence, not an expired term.",
+      "rights_status": "ok",
+      "flag_reason": null,
+      "commons_licence": "CC0",
+      "cropped": false,
+      "rights_checked_on": "2026-10-07",
+      "rights_source": "Commons API imageinfo extmetadata; CC0 holder licence",
+      "approved_by": "autopilot (final review pending)",
+      "brief": "Josef Albers–style nested colour squares (Homage to the Square study graphic): one hue set against another so the eye reads colour as relation — how a colour decision changes what neighbours do.",
+      "vision_fit_score": 5,
+      "vision_model": "qwen3.8:27b (think:false)",
+      "vision_description": "This is a digital graphic or print featuring four concentric squares, each with a distinct color: the outermost square is bright orange, followed by a lighter orange, then a mustard yellow, and finally a dark brown square at the center. The image is geometric and abstract, with no visible text, people, or identifiable faces. It appears to be a flat, two-dimensional design rather than a photograph, painting, or diagram.",
+      "origin": "EX4 cold-review P0 F1 fix: replace Kawakubo fit-2 with Albers CC0 fit-5"
     }
   ]
 }

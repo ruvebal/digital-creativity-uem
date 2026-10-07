@@ -3,16 +3,16 @@
   "mode": "flag",
   "policy": "AUTOPILOT.md §0: rights recorded and flagged, not blocking; rightsVerdict stays strict. Professor reviews every flagged asset before release.",
   "year": 2026,
-  "generated_at": "2026-10-07T14:27:12.962Z",
+  "generated_at": "2026-10-07T14:35:09.394Z",
   "summary": {
     "assets": 77,
-    "pass": 12,
-    "flagged": 65,
-    "curator_flagged": 43,
-    "v2_flagged": 43,
+    "pass": 13,
+    "flagged": 64,
+    "curator_flagged": 42,
+    "v2_flagged": 42,
     "legacy_flagged": 22,
-    "wave1_flagged": 43,
-    "v2_curator_flagged": 43
+    "wave1_flagged": 42,
+    "v2_curator_flagged": 42
   },
   "assets": [
     {
@@ -520,20 +520,18 @@
       "slide_id": "analysis-model",
       "heading": "How to read a colour decision",
       "media_slot_id": "I.3.analysis-model",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
-      "title": "Dresses by Rei Kawakubo - Sarah Stierch 01",
-      "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
-      "licence": "CC-BY-4.0",
-      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
+      "asset_id": "wikimedia:File:Grafik nach Josef Albers1.jpg",
+      "title": "Grafik nach Josef Albers1",
+      "author": "Anonymous graphic after Josef Albers (CC0 upload)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Grafik_nach_Josef_Albers1.jpg",
       "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
-      "rights_status": "flagged",
-      "verdict": "fail",
-      "reasons": [
-        "EU term not verified"
-      ]
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (Commons file page); publication relies on the licence, not an expired term.",
+      "rights_status": "ok",
+      "verdict": "pass",
+      "reasons": []
     },
     {
       "deck": "docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json",

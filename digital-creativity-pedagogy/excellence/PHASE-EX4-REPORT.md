@@ -56,3 +56,8 @@
 ## Resume point
 
 `cascade-harness.sh verify` → cold reviewer → `PHASE-EX4-COLD-REVIEW.md` → only then DONE / land.
+
+## Cold-review fix (P0 F1) — 2026-10-07
+
+I.3 `analysis-model` had Kawakubo Stierch 01 bound while `evidence/EX4/vision.json` recorded fit **2** (bindings/shortlist falsely claimed 4). Unbound; rebound to `wikimedia:File:Grafik nach Josef Albers1.jpg` after local vision (**fit 5**, CC0). Kawakubo fit-2 left in vision log as evidence. Exit gate re-run after fix.
+

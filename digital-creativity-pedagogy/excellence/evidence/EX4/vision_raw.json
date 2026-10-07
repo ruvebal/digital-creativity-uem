@@ -369,5 +369,38 @@
   "prompt_tokens": 4116,
   "output_tokens": 95,
   "wall_s": 32.7
+ },
+ "I.3|analysis-model|File:Farbkreis Itten RVB.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "I.3",
+  "slide": "analysis-model",
+  "title": "File:Farbkreis Itten RVB.png",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a digital diagram or chart illustrating a color wheel, featuring a segmented outer ring of hues and a geometric, multi-colored shape in the center. The image is not a photograph, painting, or document, but rather a technical graphic. Visible text includes numerical values such as \"210\", \"240\", \"270\", \"300\", and \"330\" along the bottom arc, as well as the letter \"M\" repeated near the bottom right. No person's face is visible in the image.",
+  "prompt_tokens": 389,
+  "output_tokens": 127,
+  "wall_s": 17.8,
+  "brief": "Johannes Itten colour circle (Farbkreis): primary, secondary and tertiary hues arranged as adjacent relations — a teaching diagram for reading a colour decision as contrast and kinship, not as decoration."
+ },
+ "I.3|analysis-model|File:Grafik nach Josef Albers1.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "I.3",
+  "slide": "analysis-model",
+  "title": "File:Grafik nach Josef Albers1.jpg",
+  "description": "This is a digital graphic or print featuring four concentric squares, each with a distinct color: the outermost square is bright orange, followed by a lighter orange, then a mustard yellow, and finally a dark brown square at the center. The image is geometric and abstract, with no visible text, people, or identifiable faces. It appears to be a flat, two-dimensional design rather than a photograph, painting, or diagram.",
+  "prompt_tokens": 322,
+  "output_tokens": 87,
+  "wall_s": 8.1,
+  "brief": "Josef Albers–style nested colour squares (Homage to the Square study graphic): one hue set against another so the eye reads colour as relation — how a colour decision changes what neighbours do."
+ },
+ "I.3|analysis-model|File:Kontrast 3 Komplementärkontrast.svg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "I.3",
+  "slide": "analysis-model",
+  "title": "File:Kontrast 3 Komplementärkontrast.svg",
+  "description": "The image is a digital graphic or print showing two vertical rectangular panels side by side. The left panel is solid red, and the right panel is solid green. There are no visible texts, people, or other elements in the image.",
+  "prompt_tokens": 966,
+  "output_tokens": 48,
+  "wall_s": 8.3,
+  "brief": "Johannes Itten colour circle (Farbkreis): primary, secondary and tertiary hues arranged as adjacent relations — a teaching diagram for reading a colour decision as contrast and kinship, not as decoration."
  }
 }

@@ -9,10 +9,13 @@ Autopilot EX4 · 2026-10-07 · `approved_by: autopilot (final review pending)`
 - candidate: `File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg`
 
 ## analysis-model
-**Brief:** Rei Kawakubo / Comme des Garçons dresses photographed by Sarah Stierch: colour blocks and black fabric as a deliberate relation, not decoration.
-**Decision:** `curated` · fit 4/5 · `wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg`
+**Brief:** Josef Albers–style nested colour squares (Homage to the Square study graphic): one hue set against another so the eye reads colour as relation — how a colour decision changes what neighbours do.
+**Decision:** `curated` · fit 5/5 · `wikimedia:File:Grafik nach Josef Albers1.jpg`
 
-- candidate: `File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg`
+- candidate (rejected, vision fit 2/5): `File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg` — all-black mannequin installation; colour-relation brief not legible
+- candidate (bound): `File:Grafik nach Josef Albers1.jpg` — nested orange/yellow/brown squares; local vision fit 5/5
+- also scored: `File:Farbkreis Itten RVB.png` fit 5/5 (Itten d.1967 EU-term risk on PD claim); `File:Kontrast 3 Komplementärkontrast.svg` fit 2/5
+
 
 ## masterclass-1
 **Brief:** CMYK colour model diagram: cyan, magenta, yellow and black separations that show colour as a printing relation.
