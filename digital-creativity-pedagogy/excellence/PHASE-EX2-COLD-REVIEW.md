@@ -100,3 +100,7 @@ Built `_site/lessons/es/creacion-digital-i`: no `Fecha de forja` / `vía MCP` / 
 | --- | --- |
 
 No open P0. Residual **P1:** NM ES u2 ledger path tokens in AI footer (F3). **P2:** nested Liquid if (F4).
+
+## Round-3 note (orchestrator)
+
+P1 closed: NM ES u1/u2/u3 long English AI footers replaced with one-sentence ES form; path tokens removed. Re-verified at HEAD after scrub.
