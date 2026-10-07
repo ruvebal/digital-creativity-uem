@@ -21,7 +21,7 @@
 		"media:refresh": "bash scripts/media-refresh.sh",
 		"media:refresh:i1": "bash scripts/media-refresh.sh",
 		"hydrate": "node scripts/hydrate-directory.mjs",
-		"media:rehydrate": "node scripts/rehydrate-student-media.mjs",
+		"media:rehydrate": "node scripts/rehydrate-student-media.mjs --rights=flag",
 		"predevelop": "bash scripts/kill-dev-ports.sh && npm run hydrate && npm run media:refresh && npm run media:rehydrate",
 		"develop": "npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35730} --config _config.yml --port ${PORT:-4002}",
 		"prebuild": "npm run hydrate && npm run media:rehydrate",
@@ -39,6 +39,7 @@
 		"js-yaml": "^4.1.0",
 		"postcss": "^8.5.6",
 		"postcss-cli": "^11.0.1",
+		"sharp": "^0.35.5",
 		"slugify": "^1.6.6",
 		"tailwindcss": "^3.4.18",
 		"yaml-lint": "^1.7.0"

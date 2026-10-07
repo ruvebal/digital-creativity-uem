@@ -19,3 +19,8 @@ Append-only. Format:
 2026-10-07 · EX3 · Port CT media-rules + validate-decks; Wave-1 schema_version 2 contract documented but decks stay legacy until EX4; profield-cache orphans warn-only (do not delete); deck-media orphans error; outside Wave-1 always warn · AUTOPILOT §0/§2 · FINDINGS B2 B3 · alt: delete orphans / migrate all decks now · undo: revert scripts/ + forge pointers + curation/
 2026-10-07 · EX3 · EX3 exit gate focused on validator+tests (no Jekyll) so harness stays light; `npm run build` still runs validate:decks · AUTOPILOT §2 · alt: keep jekyll in EX3 gate · undo: amend PHASE-EX3.exit-gate.sh
 
+
+2026-10-07 · EX4 · Auto-pick best-fitting Commons/NYPL/Profield candidates per Wave-1 slide (brief ≥ 4/5 via local qwen3.8:27b think:false); doubt → rights_status flagged; approved_by autopilot (final review pending) · AUTOPILOT §2 EX4 · alt: leave legacy rank-deal · undo: revert Wave-1 content.json + curation/ + rehydrate
+2026-10-07 · EX4 · Migrate rehydrate off rankCursor → bindSlides; schema_version 2 on I.1–I.5 + ML-FIA; keep profield-cache orphans (warn only) · EX3 cold-review F2 / FINDINGS B2 B3 · alt: keep rank dealing · undo: restore legacy rehydrate
+2026-10-07 · EX4 · ML-FIA lab-2 stays diagram (no cleared student-owned image); I.3 analysis-model rebound to Kawakubo 01 after vision floor miss · AUTOPILOT conservative · alt: invent student photo · undo: re-bind from bindings.json
+2026-10-07 · EX4 · P0 F1 fix: I.3 analysis-model unbound Kawakubo (vision fit 2) → Albers CC0 nested squares (vision fit 5); shortlist/bindings/registry aligned to vision.json · AUTOPILOT §2 brief≥4/5 · alt: diagram fallback · undo: restore Kawakubo binding from prior commit

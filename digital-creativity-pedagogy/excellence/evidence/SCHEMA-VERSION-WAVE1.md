@@ -9,12 +9,12 @@ Until a deck is migrated, the validator treats it as **legacy** (warnings only u
 
 | Deck path | Current `schema_version` | Notes |
 | --- | --- | --- |
-| `docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json` | missing (legacy) | Migrate in EX4 with rights + image briefs |
-| `docs/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json` | missing (legacy) | same |
-| `docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json` | missing (legacy) | same |
-| `docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json` | missing (legacy) | same |
-| `docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form/data/content.json` | missing (legacy) | same |
-| `docs/tracks/en/uem/2627-ml/fashion-image-analysis/data/content.json` | missing (legacy) | Wave-1 special |
+| `docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json` | 2 (EX4) | Migrate in EX4 with rights + image briefs |
+| `docs/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json` | 2 (EX4) | same |
+| `docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json` | 2 (EX4) | same |
+| `docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json` | 2 (EX4) | same |
+| `docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form/data/content.json` | 2 (EX4) | same |
+| `docs/tracks/en/uem/2627-ml/fashion-image-analysis/data/content.json` | 2 (EX4) | Wave-1 special |
 | `docs/tracks/en/uem/2627-dci/how-to-pass-this-track/data/content.json` | n/a | Not a media deck (`slide_role` absent) — skipped |
 
 I.6–I.9 decks, when forged, must ship as `schema_version: 2` from the first commit.
@@ -32,3 +32,8 @@ See `forge/STUDENT-SLIDESHOW-FORGE.mdc` §"Deck schema version 2".
 ## FINDINGS
 
 Closes discipline for **B2** (orphan/rights/reuse hooks) and **B3** (CT-grade validator port) at the tooling layer; slide-bound curation itself is **EX4**.
+
+
+## EX4 (2026-10-07)
+
+Wave-1 decks above migrated to `schema_version: 2` with slide-bound `asset_id` + `image_brief`; rehydrate uses `bindSlides` (EX3 cold-review F2). Closes FINDINGS **B2** / **B3** at the curation layer.
