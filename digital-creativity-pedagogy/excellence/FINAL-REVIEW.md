@@ -18,7 +18,7 @@ before merging `excellence/integration` → `main`.
 | EX8 | DONE | excellence/ex8 | Wave-1 Labs I.1–I.5 + FIA |
 | EX9 | DONE | excellence/ex9 | Lesson spine / exemplars / figures |
 | EX10 | DONE | excellence/ex10 | Assessment bank + consent drafts |
-| EX11 | landing | excellence/ex11 | Closing audit + CD II/NM seed |
+| EX11 | DONE | excellence/ex11 | Closing audit + CD II/NM seed |
 
 ## 2 · P0 decisions for you
 

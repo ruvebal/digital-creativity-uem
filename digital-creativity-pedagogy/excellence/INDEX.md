@@ -8,7 +8,7 @@ Departing point: creativity-techniques-uem/…/excellence (COMPLETE).
 
 # Digital Creativity — Excellence cascade (EX0–EX11)
 
-**Status:** READY (pack authored; not started). Same git strategy as CT
+**Status:** COMPLETE on `excellence/integration` (EX0–EX11 DONE). Awaiting professor final review before `main`. Same git strategy as CT
 Excellence: land on `excellence/integration`, never on `main` until
 professor release.
 **Author:** Rubén Vega Balbás, PhD · 2026-10-07
