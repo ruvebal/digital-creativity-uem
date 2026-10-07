@@ -48,6 +48,7 @@ include:
  - bibliography
  - tao
  - lexicum
+ - methods
 
 exclude:
  - node_modules

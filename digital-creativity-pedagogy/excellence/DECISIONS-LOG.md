@@ -34,3 +34,7 @@ Append-only. Format:
 2026-10-07 · EX6 · Kandinsky 2012 p.9 verified from Dover coat 5c285f15 page_index 9 · AUTOPILOT vault rule · alt: leave ML-FIA cite as gap · undo: demote key + remove from references.yml
 
 2026-10-07 · EX6 · Fix cold P1 F1 Rubin page 42→123 in I.1; F2 Coats sustainability public_citation 8→4 to match printed_page · AUTOPILOT conservative · alt: leave PARTIAL mismatches · undo: revert those two lines
+
+2026-10-07 · EX7 · Fashion-craft catalogue (60 methods) under pedagogy/catalogue; public seed at methods/en/cards + fashion_craft_methods.seed.yml; ACT1/ACT2 anchors required; no CT technique IDs · AUTOPILOT §2 / FINDINGS C4 · alt: copy CT techniques (forbidden) · undo: revert catalogue/ + docs/methods + seed data + EX7 gate
+2026-10-07 · EX7 · Verified sources only when already in references.yml (11); held/gap honest for Gestalt/photobash/figurín pedagogy blanks · AUTOPILOT conservative · alt: invent Arnheim/Abling pages · undo: demote verified keys in emit_catalogue.py
+2026-10-07 · EX7 · Include `methods` in _config.yml so seed path builds; SEED.md avoids local path strings for publication safety · AUTOPILOT · alt: leave seed private-only · undo: revert _config include + SEED.md
