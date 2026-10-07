@@ -126,3 +126,7 @@ PARTIAL procurement (Albers, Curcic, Entwistle, Munari method, Steimberg/Werhane
 | **verdict** | PASS |
 
 Eligible for product-owner promotion to DONE / land on `excellence/integration` after triage of P1 F1–F2 (locator/provenance hygiene; non-blocking for exit gate). PARTIAL standing is intentional under AUTOPILOT §2. Do not mark DONE in this review; do not land from the cold-reviewer session.
+
+## Round-2 note
+
+P1 F1/F2 fixed on phase branch (Rubin 123; Coats sustainability public_citation p.4). Re-verified.
