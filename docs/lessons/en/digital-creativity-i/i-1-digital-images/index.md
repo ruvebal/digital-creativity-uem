@@ -57,7 +57,7 @@ cover-agentic:
 -->
 {% endif %}
 
-## 🎯 Learning objectives
+## Learning objectives
 
 By the end of this unit, you will be able to:
 
@@ -68,7 +68,7 @@ By the end of this unit, you will be able to:
 
 ---
 
-## B1 · Analysis (this lives in the lesson, not only on slides)
+## Analysis
 
 Analysis opens the class. Sessions 1–2 model the method; from session 3, two students × ~15 minutes each defend a D1 piece. Before you open any software, read a fashion image with four moves: **practice · venue · audience · circulation** — then ask where the art/commerce boundary sits.
 
@@ -76,31 +76,62 @@ Analysis opens the class. Sessions 1–2 model the method; from session 3, two s
 
 **Debate prompt (rolling):** If the same image reads as "art" in a gallery caption and "commerce" in an advertisement, whose intent decides which it is — the maker's, the venue's, or the viewer's?
 
-### Masterclass ideas (plain wording)
+## Masterclass
+
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/50123c6eb70f0276.webp' | relative_url }}" alt="A historical beauty advertisement" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-1" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/bf651ca6c925cff0.webp' | relative_url }}" alt="Lautrec the photographer sescau (poster) 1894.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/affb13f5f7c9d0f8.webp' | relative_url }}" alt="Illustrated fashion catalogue page from summer 1890" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-4" markdown="0">
+<img src="{{ '/assets/images/deck-media/e16150afa0636624.webp' | relative_url }}" alt="Beauty is my business, says Anne Piron, 1950.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-4" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-5" markdown="0">
+<img src="{{ '/assets/images/deck-media/9783673c60ce2f5e.webp' | relative_url }}" alt="Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-5" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-6" markdown="0">
+<img src="{{ '/assets/images/deck-media/ae43d3487632fd88.webp' | relative_url }}" alt="Fan SAAM-1935.8.20 1.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-6" %}</figcaption>
+</figure>
+
 
 These six ideas are the Masterclass core. Paragraphs are drafted through the studio's lesson harness and hand-edited toward the Creativity Techniques U1/U2 register. `(Author, Year)` links resolve to `## References`; where cites are still pending page-verified resolution the paragraph names its status openly.
 
-#### 1 · Field of practices
+### 1 · Field of practices
 
 A fashion image that looks "finished" on a phone is usually the residue of a temporary crowd — photographer, stylist, model, editor, producer — held together by a brief, not by a file extension. Shinkle maps that crowd as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals and contexts [(Shinkle 2008, 15)](#ref-shinkle-2008); that is why Lab later this session keeps that habit: label a practice before you name a format. Pick one image you already saved this week and write the practice label you would defend in two sentences — then ask whether a classmate would give the same label. The field itself refuses a single fixed genre; if your two sentences need a tool name to make sense, the claim has already slipped, and that slip is still open.
 
-#### 2 · Not a file format
+### 2 · Not a file format
 
 Calling an image "a JPEG" answers the wrong question the way calling a garment "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to map practice, agents, venues, and interests before you mention an extension. Open one of your own downloads and write what kind of fashion image it is *without* naming the file type — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
 
-#### 3 · Many genres at once
+### 3 · Many genres at once
 
 The temptation is to force every fashion picture into one tidy box — editorial *or* advertising — as if the room were a filing cabinet. Shinkle's own list puts beauty, portraiture, and documentary beside those two [(Shinkle 2008, 15)](#ref-shinkle-2008), which is why Lab may land on images that refuse a clean single label. Try sorting three found images into the five named practices; where does the third refuse the grid? The counter-critic is fair — without categories you cannot teach — and the same page that gives us the array does not tell us how many boxes a beginner should be allowed to invent; that line is still open.
 
-#### 4 · Art and commerce
+### 4 · Art and commerce
 
 A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to name venues and interests as movable evidence, not a software setting. Take one ambiguous image and list who paid, where it shows, and who is meant to look — what changed when you treat it as gallery work versus campaign work? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
 
-#### 5 · Read the circulation
+### 5 · Read the circulation
 
 An image that looked editorial on a runway screen can read as brand inventory once it lands in a shop window — the pixels did not move; the venue did. This unit treats circulation as a reading skill before any filter demo: runway, retail, editorial, feed, exhibition. In Lab, add one circulation note to an image you already have — where did you find it, and where else could it travel this week? That note is portfolio practice, not D1. Mediatization arguments in fashion theory (Rocamora 2017) are named here as a frontier signal — page cite still open in our vault — so do not treat that name as settled evidence yet.
 
-#### 6 · Audit who counts
+### 6 · Audit who counts
 
 Reference boards pretend to be neutral until you ask who never appears as the "normal" body or the legitimate designer. Before you finish collecting images for the studio piece, audit your own set for who is present and who is missing — one sentence is enough if it is honest. Textbook and mood-board bias in fashion education (Reddy-Best et al. 2018) is a named critical prompt here — page cite still open — so the audit stands as studio practice, not as a claim we can already page-verify in the vault.
 
@@ -118,7 +149,7 @@ VOICE_ANCHOR: CT U1 ideas 1–3 + CT U2 Masterclass register (lesson-scribe 2026
 
 ---
 
-## B2 · Lab (Portfolio)
+## Lab (Portfolio)
 
 *Session block · A geometrical slide announces the Lab: **two** exercises follow. Everything you produce in Lab goes into your **portfolio index**. These Labs practise Masterclass ideas and feed ACT1 figurín craft — they are not a second graded Campus Virtual channel.*
 
@@ -146,6 +177,9 @@ Practises Masterclass ideas **1** (field of practices) and **3** (many genres at
 
 **Source:** Fashion photographs as a wide array of practices with a permeable art/commerce boundary [(Shinkle 2008, 15)](#ref-shinkle-2008). The numbered steps are a classroom adaptation.
 
+**Example trace:** *(Illustrative · not student work.)* Practice: editorial. Agents: photographer + stylist. Venue: lookbook PDF. Interests: brand launch. Sentence: “JPEG is storage; the job is editorial circulation.” Art/commerce: gallery reprint of the same frame.
+
+
 ### Exercise 2 — Start a digital figurín scaffold {#lab-exercise-2}
 
 Practises Masterclass idea **2** (not a file format — the figurín is a practice). Feeds **ACT1 Figurín** craft without inventing a graded submit here.
@@ -170,6 +204,9 @@ Practises Masterclass idea **2** (not a file format — the figurín is a practi
 
 **Source:** Classroom adaptation (figurín pedagogy sequence held — Abling page cite open in the research manifest).
 
+**Example trace:** *(Illustrative · not student work.)* Head-count scaffold on blank canvas; blocked torso as three volumes; export named `figurin-scaffold-only.png`; proportion sentence: “Eight-head grid survives if waist landmark stays before finish.”
+
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 LAB_LINE: exercise=1; method_id=fashion-photograph-reading; practises=masterclass-1,masterclass-3; source=shinkle-2008 (verified); steps=classroom adaptation; ACT=ACT1-prep
@@ -179,7 +216,10 @@ LAB_LINE: exercise=2; method_id=figurin-digital; practises=masterclass-2; source
 
 ---
 
-## B3 · Carry forward (no Workshop this week)
+## Workshop
+
+No Workshop in sessions 1–2: first lessons end after Lab.
+
 
 First lessons have **no Workshop block**. Lab ends the session.
 
@@ -207,6 +247,16 @@ outcome-graphic-selection:
 ## Conclusion
 
 This unit trains a reading frame, not a software path — and it leaves doors open on purpose. First, the line between "genuinely different practices" and "same practice, new caption" is where every beginner taxonomy breaks, and Shinkle's own permeable boundary [(Shinkle 2008, 15)](#ref-shinkle-2008) refuses to close it for you. Second, circulation and textbook-audit claims that matter for critique (Rocamora; Reddy-Best et al.) are still in open procurement in our vault — you are practising the *habit* before we can hand you every *page*. Third, imagination / fantasy / creativity remain distinct in the field [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009), and Rubin’s taste-and-listening stance [(Rubin 2023, 123)](#ref-rubin-2023) *contradicts* any tool-first literacy that treats software fluency as creativity itself — that contradiction is retained on purpose. Fourth, the honest question the unit cannot answer for you is whether *your* favourite saved image last month was a practice you could name, or only a file you liked. What will you do with those gaps this week — keep Lab traces honest in the portfolio index, or start inventing a deliverable that How to Pass does not ask for? Resolving that choice for you would defeat the point of a course that begins by refusing the tidy container — and by keeping **D1 Analysis** as the first graded stake.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"The path to mastery begins with reading. The path to enlightenment continues with practice."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

@@ -42,3 +42,8 @@ Append-only. Format:
 2026-10-07 · EX8 · I.1 Directory Lab → optional outside-class; I.2 drops lab-3 (forge: exactly two lab_exercise) · AUTOPILOT conservative / D2 · alt: keep three Labs · undo: restore lab-3 + Directory as Lab 2
 2026-10-07 · EX8 · I.6–I.9 Labs deferred to EX9 (no DCI decks yet) · AUTOPILOT scope · alt: forge decks early · undo: amend LAB-SIGNOFF selection note
 2026-10-07 · EX8 · I.2 lab-3 curated asset rebound to lab-2; orphan deck-media 152b234… removed · validator orphan rule · alt: keep third Lab · undo: restore lab-3 slide + asset
+
+2026-10-07 · EX9 · Wave-1 lesson spine = Learning objectives → Analysis → Masterclass → Lab → Workshop → Conclusion → Tao of the Image → References (B1/B2/B3 labels dropped); Workshop first line states session timing · AUTOPILOT §2 / forge SESSION-RHYTHM + dc-unit-forge · FINDINGS A3 · alt: keep B-labels · undo: revert lesson H2 renames
+2026-10-07 · EX9 · I.6–I.9 Labs = structural placeholders (no 2627-dci decks); I.1–I.5 ES B2 cards ported from EN with EX8 English field labels · EX8 deferral / AUTOPILOT conservative · alt: forge I.6–I.9 decks now (out of EX9) · undo: restore prior ES Lab bodies
+2026-10-07 · EX9 · Example traces are illustrative professor-made drafts (not student work); flagged for FINAL-REVIEW P0 · AUTOPILOT §2 EX8-style · alt: leave Labs without traces · undo: strip **Example trace:** blocks
+2026-10-07 · EX9 · Lesson figures reuse EX4/EX5 deck assets via lesson_figures.json + lesson-figure.html; hreflang emits es only when built page exists and differs · CT EX9 A5 pattern · alt: keep always-on es alternate · undo: revert head-hreflang.html

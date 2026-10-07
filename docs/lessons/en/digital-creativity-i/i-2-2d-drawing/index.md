@@ -51,7 +51,7 @@ cover-agentic:
   how_to_pass: "/tracks/dci/how-to-pass-this-track/"
 {% endcomment %}
 
-## 🎯 Learning objectives
+## Learning objectives
 
 - **Describe vector drawing as a relationship** (anchor points, curves, fills) rather than a grid of pixels.
 - **Explain studio-based, assignment-driven digital drawing** as embedding software technique inside visual problems rather than isolated commands.
@@ -60,7 +60,7 @@ cover-agentic:
 
 ---
 
-## B1 · Analysis (this lives in the lesson, not only on slides)
+## Analysis
 
 Analysis opens the class. Keep I.1's practice · venue · audience · circulation habit, then add one drawing axis: **line · layer · revision · export**. Ask what the silhouette needed that the tool alone cannot decide.
 
@@ -68,31 +68,62 @@ Analysis opens the class. Keep I.1's practice · venue · audience · circulatio
 
 **Debate prompt (rolling):** Does starting from vector-first (rather than freehand-raster-first) change what a beginner notices about garment silhouette?
 
-### Masterclass ideas (plain wording)
+## Masterclass
+
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/3e1406d573d0b92f.webp' | relative_url }}" alt="Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-2-2d-drawing" slide="masterclass-1" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/a9a618606b3c129a.webp' | relative_url }}" alt="Vector graphic scaling 2.png" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-2-2d-drawing" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/6b29a718e96503e0.webp' | relative_url }}" alt="The composite capital in perspective." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-2-2d-drawing" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-4" markdown="0">
+<img src="{{ '/assets/images/deck-media/c394ec960555ef46.webp' | relative_url }}" alt="The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-2-2d-drawing" slide="masterclass-4" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-5" markdown="0">
+<img src="{{ '/assets/images/deck-media/57d691cb5d3028d5.webp' | relative_url }}" alt="Vector graphic design made with Inkscape.svg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-2-2d-drawing" slide="masterclass-5" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-6" markdown="0">
+<img src="{{ '/assets/images/deck-media/a8e81ebc3c86799c.webp' | relative_url }}" alt="Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-2-2d-drawing" slide="masterclass-6" %}</figcaption>
+</figure>
+
 
 These six ideas follow I.1's homogenized voice. Where pedagogy sources lack page-verified nodes, paragraphs name **studio stance — page cite still open** rather than inventing verified pages.
 
-#### 1 · Drawing as thinking
+### 1 · Drawing as thinking
 
 A silhouette that only exists in your head cannot be argued with — a path on screen can. Drawing in this unit is treated as externalised visual thinking: you put a contour where others can see it, then revise before polish. [Exercise 1](#exercise-1--contour-from-primitives) forces that visibility by building one fashion silhouette from primitives with construction marks left on. Tonight, redraw one sleeve twice and keep both versions side by side — which decision became visible only after the second path? The counter-critic is real — some designers sketch better on paper first — and this unit does not claim vector-first is universally superior; that fashion-specific sequence claim remains open.
 
-#### 2 · Vector is relationship
+### 2 · Vector is relationship
 
 Pixels are a grid; a vector path is a set of relations — where points sit, how handles pull, what fills close. That distinction is why "I drew it in a raster app" cannot satisfy this unit's CONTENIDOS anchor by itself. In [Exercise 2](#exercise-2--wrong-curve-handle) you diagnose a visibly wrong curve handle and say what a correct handle would do — the language is relational, not brand-loyal. Open any path you made today and name one handle that is doing real work and one that is noise. Tool documentation can tell you *how* a handle moves; it cannot tell you which relation the silhouette needed — that judgement stays with you, and no vault page yet closes the fashion-specific teaching sequence.
 
-#### 3 · Technique inside problems
+### 3 · Technique inside problems
 
 Button drills produce students who remember menus and forget silhouettes. The strongest contemporary model this unit borrows is studio-based, assignment-driven learning: software technique lives inside a visual problem, not beside it (Curcic 2024 — page cite still open). That is why the Lab never asks you to "practise the Pen tool" in the abstract — it asks for a contour, a diagnosis, three alternatives. Redesign your own practice tonight: replace one isolated command drill with one silhouette problem that requires the same command — what changed in what you noticed? Higher-education digital-drawing studies support assignment redesign in general; they do **not** yet give us a validated fashion-HE sequence, and that gap stays named.
 
-#### 4 · Fashion visual grammar
+### 4 · Fashion visual grammar
 
 A croquis is not software — it is a proportion habit that survives hand, raster, and vector. Fashion drawing conventions (proportion, croquis, flats) are the transferable grammar this unit leans on (Abling 2023 — page cite still open). When you build [Exercise 1](#exercise-1--contour-from-primitives), ask which lines are construction and which are finish — that distinction is the grammar, not the brand of the app. Compare one flat and one croqui of the same garment from your notes: which decisions travelled, which died in the medium change? Manual literacy does not prove digital-tool pedagogy; treating the grammar as settled software method would overclaim what we can page-verify.
 
-#### 5 · Audit the reference body
+### 5 · Audit the reference body
 
 The manuals that teach fashion drawing can already decide who counts as a "normal" body before you open a file. Before you lock your silhouette brief, audit one reference you nearly treated as neutral — who is present, who is missing, whose proportions became default (Reddy-Best et al. 2018 — page cite still open). Write one sentence into the process note naming a low-tech alternative or access barrier your workflow assumes. Tool fluency often rewards prior access to hardware and studio conventions; naming that is studio practice, not a claim we can already page-verify as classroom efficacy.
 
-#### 6 · Three alternatives
+### 6 · Three alternatives
 
 One polished silhouette is usually a first idea wearing better clothes. [Exercise 3](#exercise-3--three-alternatives) requires three visibly different versions, scored on novelty and fit, then a defended winner — the scoring is the design act. Bring the three files and the sheet into Workshop; if you cannot say what each alternative refused, you are not done. Selection without named criteria just reinstalls the room's taste; whether vector-first changes what beginners notice about silhouette is exactly the debate this unit leaves standing.
 
@@ -108,7 +139,7 @@ VOICE_ANCHOR: DC I.1 Masterclass idea 1 (homogenized 2026-09-14) + CT U2 registe
 
 ---
 
-## B2 · Lab (Portfolio)
+## Lab (Portfolio)
 
 *Session block · A geometrical slide announces the Lab: **two** exercises follow. Everything you produce in Lab goes into your **portfolio index**. Labs practise Masterclass and feed **ACT1 Figurín** craft — not a second graded Campus Virtual channel.*
 
@@ -136,6 +167,9 @@ Practises Masterclass ideas **1** (drawing as thinking) and **4** (fashion visua
 
 **Source:** Classroom adaptation (croquis / Abling page cite held).
 
+**Example trace:** *(Illustrative · not student work.)* Scaffold layer with shoulder/waist/hip landmarks; garment layer only on a second pass; sentence: “Hip landmark locked the pose before any sleeve finish.”
+
+
 ### Exercise 2 — Three alternatives, then construction vs finish {#lab-exercise-2}
 
 Practises Masterclass ideas **6** (three alternatives) and **2** (vector as relationship).
@@ -160,6 +194,9 @@ Practises Masterclass ideas **6** (three alternatives) and **2** (vector as rela
 
 **Source:** Classroom adaptation for the three-alternative drill; critical frame that imagination ≠ creativity ≠ fantasy [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009) — do not treat “more finish” as “more creative.”
 
+**Example trace:** *(Illustrative · not student work.)* Three silhouettes scored 3/4/5 on novelty·fit; winner colour-coded construction (blue) vs finish (black); peer: “I still read a coat when finish is hidden.”
+
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 LAB_LINE: exercise=1; method_id=croquis-proportion-scaffold; practises=masterclass-1,masterclass-4; source=held/classroom adaptation; ACT=ACT1
@@ -169,7 +206,10 @@ LAB_LINE: exercise=2; method_id=construction-vs-finish-lines; practises=mastercl
 
 ---
 
-## B3 · Workshop (Deliverable) — vector silhouette piece
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 **Workshop opener (geometrical):** protected time on your studio piece.
 
@@ -197,6 +237,16 @@ outcome-graphic-selection:
 ## Conclusion
 
 This unit trains a drawing rhythm — externalise, relate, revise, select — and it refuses to pretend the fashion-specific teaching sequence is already settled. First, assignment-driven digital drawing is a strong general model, but the page-verified fashion-HE sequence is still open procurement. Second, croquis grammar travels across media only if you keep construction decisions visible; software polish can hide that work. Third, imagination ≠ creativity ≠ fantasy [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009) — a “more creative” silhouette may only be freer fantasy, and Rubin’s taste/listening stance [(Rubin 2023, 123)](#ref-rubin-2023) contradicts tool-first literacy that treats handle fluency as authorship. Fourth, the question the debate prompt leaves standing is whether vector-first changes what you notice about silhouette — and your three alternatives this week are the only fashion-specific data in the room. What will you do with that gap — run Exercise 2 twice at home, or write the access barrier you almost left unnamed? Closing those doors for you would make the tool look wiser than the judgement the CONTENIDOS actually ask for.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"The SVG scales infinitely, yet remains exactly what it is. Be like the SVG."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

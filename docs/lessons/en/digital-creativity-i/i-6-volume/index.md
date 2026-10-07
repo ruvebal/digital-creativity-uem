@@ -45,7 +45,7 @@ references: [coats-2026]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Build volume by iterating between physical and digital passes**, not by committing to one representation and discarding the other.
 - **Name what each representation revealed** that the other one didn't — the core evidence trail this unit asks for.
@@ -54,19 +54,8 @@ references: [coats-2026]
 
 ---
 
-## Why this unit exists — volume is built by iterating, not by picking a medium
-
-**Claim:** volume is built by moving back and forth between physical and digital representations of the same piece, each pass correcting or extending the other — not by choosing analogue *or* digital and treating the choice as final.
-
-This is not an abstract preference — it is a documented, theorised teaching module. "The Denim Project," a published 2026 case study, describes a hybrid physical/digital studio in which students worked a denim garment across both material and CLO3D form. The module is explicitly framed within a constructivist model of experiential learning (citing Biggs and Tang 2011; Kolb 1984): students iterated across analogue and digital workflows, which fostered technical proficiency *and* critical reflection — not efficiency alone [(Coats 2026, 8)](#ref-coats-2026).
-
-**What this supports, and what it does not.** Coats (2026, 8) supports that a real, theorised hybrid analogue/digital teaching module for volume exists and how it was framed pedagogically. It does **not** establish that hybrid iteration generalises beyond one module, one cohort, and one specific tool (CLO3D) — a strong existence proof, not a validated method across contexts. The same paper is explicit that while CLO3D helped reduce muslin (sampling) waste through virtual prototyping, students in the study expressed scepticism about its *wider* sustainability impact — a caveat about the tool's broader industry effect, not a critique of the pedagogy; it supports a classroom discussion prompt, not a claim about teaching effectiveness [(Coats 2026, 8)](#ref-coats-2026). Tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** drape, tension, fold, void, scale, gravity, and material behaviour as durable volume variables — separate from any one application's simulation defaults.
-
-**Frontier signal (field lens):** hybrid prototyping may reduce physical samples while relocating energy, labour, expertise, and overproduction pressures elsewhere; treat any "sustainability gain" as a question to audit, not a settled outcome.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 The dressed body is not a biological support prior to fashion, but a socially produced body — a theoretical counterweight to volume systems that treat measurements, gender, pose, or silhouette as merely technical parameters (Entwistle 2015).
 
@@ -105,7 +94,7 @@ Use Coats's own caveat directly: **if a hybrid tool like CLO3D reduces physical 
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Covered above: Coats hybrid framing, sustainability caveat, critical lens, debate, and placeholders.
 
@@ -118,22 +107,81 @@ Covered above: Coats hybrid framing, sustainability caveat, critical lens, debat
 
 ---
 
-## B2 · Studio — talleres 2 h + investigaciones y proyectos 2 h
+## Masterclass
 
-**Deliverable:** one small garment-adjacent volume study built by iterating between a physical maquette/muslin pass and a digital 3D representation — mirroring Coats's hybrid workflow structurally, at CD I's introductory scale. This is not a finished garment and does not require CLO3D specifically; any available 3D representation tool may stand in for the digital pass, labelled as such.
+**Claim:** volume is built by moving back and forth between physical and digital representations of the same piece, each pass correcting or extending the other — not by choosing analogue *or* digital and treating the choice as final.
 
-**Definition of done:** piece ID; process folder documenting at least one physical→digital (or digital→physical) iteration; one-paragraph reflection on what each representation revealed that the other didn't.
+This is not an abstract preference — it is a documented, theorised teaching module. "The Denim Project," a published 2026 case study, describes a hybrid physical/digital studio in which students worked a denim garment across both material and CLO3D form. The module is explicitly framed within a constructivist model of experiential learning (citing Biggs and Tang 2011; Kolb 1984): students iterated across analogue and digital workflows, which fostered technical proficiency *and* critical reflection — not efficiency alone [(Coats 2026, 8)](#ref-coats-2026).
+
+**What this supports, and what it does not.** Coats (2026, 8) supports that a real, theorised hybrid analogue/digital teaching module for volume exists and how it was framed pedagogically. It does **not** establish that hybrid iteration generalises beyond one module, one cohort, and one specific tool (CLO3D) — a strong existence proof, not a validated method across contexts. The same paper is explicit that while CLO3D helped reduce muslin (sampling) waste through virtual prototyping, students in the study expressed scepticism about its *wider* sustainability impact — a caveat about the tool's broader industry effect, not a critique of the pedagogy; it supports a classroom discussion prompt, not a claim about teaching effectiveness [(Coats 2026, 8)](#ref-coats-2026). Tool docs ground operations only — label `[PLATFORM]`, never research.
+
+**Practice anchor (field lens):** drape, tension, fold, void, scale, gravity, and material behaviour as durable volume variables — separate from any one application's simulation defaults.
+
+**Frontier signal (field lens):** hybrid prototyping may reduce physical samples while relocating energy, labour, expertise, and overproduction pressures elsewhere; treat any "sustainability gain" as a question to audit, not a settled outcome.
+
+## Lab (Portfolio)
+
+*Structural placeholder (EX9) — no DCI deck `lab_exercise` slides yet for this unit. Two illustrative exercises keep the Lab rhythm; replace when EX11 / deck wave lands.*
+
+### Exercise 1 — Name the CONTENIDOS move {#lab-exercise-1}
+
+**Time:** 15 minutes.
+
+**Group:** alone.
+
+**Materials:** notebook or laptop; timer; one rights-clear reference image for this unit's CONTENIDOS.
+
+**Steps:**
+
+1. Restate the unit CONTENIDOS anchor in one sentence (no tool brand).
+2. Name one craft decision this unit asks you to leave visible in a process note.
+3. Write one sentence on what a single-tool workflow would hide.
+4. Keep the note for the portfolio index.
+
+**Portfolio trace:** CONTENIDOS sentence + craft-visibility sentence + single-tool caution.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* CONTENIDOS: “Volume by hybrid iteration.” Craft left visible: physical maquette fold vs CLO pass. Caution: a CLO-only export would hide the drape correction the hand pass forced.
+
+### Exercise 2 — One process evidence pair {#lab-exercise-2}
+
+**Time:** 20 minutes.
+
+**Group:** alone; optional 2-minute peer share.
+
+**Materials:** the Exercise 1 note; one before/after or physical/digital pair; timer.
+
+**Steps:**
+
+1. Capture one before and one after (or physical vs digital) for the same piece.
+2. Write one sentence naming what the second pass revealed that the first did not.
+3. Reject any polish that erases the evidence of the pass.
+4. File both stills (or photos) under the piece ID.
+
+**Portfolio trace:** before/after pair + revelation sentence.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* Before: paper maquette crease at waist. After: digital pass exaggerates the crease. Sentence: “The screen invented tension the cloth did not have — keep the physical photo in the index.”
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (piece); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
-Tool documentation referenced (any 3D garment/volume tool) is a dated platform note, not a citation — check versions before class.
+LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
+LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 1. **Diagnostic.** Given a described hybrid workflow (which step used a physical pass, which used a digital pass), identify which step was probably analogue and which digital, and justify the likely reason for that choice.
 2. Identify what a flat digital render of a garment cannot show about volume that a physical or rotating 3D view can — name the specific limitation, not a general "digital is different."
@@ -147,6 +195,22 @@ outcome-graphic-selection:
   visual-grammar: "hybrid-volume — material weave and digital wire volume meet at an explicit transfer point"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"To bump wisely is to keep truth in two places: the manifest and the module."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

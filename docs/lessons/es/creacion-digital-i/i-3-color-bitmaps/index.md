@@ -62,7 +62,7 @@ cover-agentic:
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 - **Describir una imagen de mapa de bits como una cuadrícula fija de valores de color** — y explicar qué cierra una decisión de color dada (modo, profundidad, gama) para más adelante.
 - **Explicar el color como relacional y perceptivo** — paletas digitales enseñadas mediante interacción, contraste y contexto, no sliders RGB aislados (Albers 2013).
@@ -72,19 +72,8 @@ cover-agentic:
 
 ---
 
-## Por qué existe esta unidad — el color como relación, no como paleta única
-
-**Afirmación:** el color es relacional y perceptivo, por lo que las paletas digitales deben enseñarse mediante interacción, contraste y contexto — no como muestras fijas ni valores RGB aislados (Albers 2013).
-
-Una imagen de mapa de bits es una cuadrícula fija de valores de color; cada decisión sobre modo, profundidad de bits o gama es también una decisión sobre lo que la imagen no podrá volver a ser sin pérdida. El trabajo digital experto produce visualidades que reflejan estilos de edición populares en un momento dado — iluminación, tendencias cromáticas y tonos que hacen que las imágenes parezcan «profesionales» o «únicas» (Roivainen 2025, 8).
-
-**Qué sostiene esto y qué no.** Albers (2013) sostiene la enseñanza perceptiva del color más allá de los menús de herramienta. Roivainen (2025) sostiene nombrar convenciones de edición nativas de plataforma y ligadas al tiempo — adyacente a la moda, no un temario de color de moda validado. Ninguno valida una **secuencia de enseñanza de gestión del color** para moda en educación superior; la documentación de herramienta fundamenta operaciones — etiqueta `[PLATFORM]`, nunca investigación.
-
-**Anclaje de práctica (perspectiva de campo):** color relacional y alfabetización en mapa de bits (Albers 2013; operaciones técnicas de color en T1).
-
-**Señal de frontera (perspectiva de campo):** los estilos de edición nativos de plataforma circulan con rapidez; trata los tonos en tendencia como señales históricas a comparar, no como valores por defecto a copiar.
-
-## Perspectiva crítica
+## Análisis
+### Perspectiva crítica
 
 Los sistemas contemporáneos de generación y clasificación visual pueden reproducir desigualdades interseccionales de género y racialización — las herramientas empleadas para producir imágenes de moda no deben tratarse como infraestructuras representacionales neutrales (AlDahoul et al. 2025).
 
@@ -123,27 +112,129 @@ Los sistemas contemporáneos de generación y clasificación visual pueden repro
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Cubierto arriba: afirmación de color relacional, estilos Roivainen, perspectiva crítica, debate y marcadores.
 
 ---
 
-## B2 · Taller — talleres 1 h + investigaciones y proyectos 2 h
+## Masterclass
 
-**Entregable:** una **comparación de color** — dos paletas o versiones de modo de color de la misma imagen de moda — con una nota de proceso que nombre qué cambió, qué siguió legible y qué código de plataforma o cultural invocaste.
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/750f32a08550dcff.webp' | relative_url }}" alt="This is a digital graphic or print design, not a photograph, painting, or document. It features a 2x2 grid of solid color blocks—cyan (top-left), magenta (top-right), yellow (bottom-left), and black (bottom-right)—each containing a large, bold, white or black capital letter: “C”" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-1" %}</figcaption>
+</figure>
 
-**Definición de terminado:** ID de pieza; carpeta de proceso; la nota de comparación presente y específica.
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/7a2791f63dcc1d31.webp' | relative_url }}" alt="Nokia 8-display pixel pattern PNr°0495.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/67e8367fb0719e25.webp' | relative_url }}" alt="Fashion illustration" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-4" markdown="0">
+<img src="{{ '/assets/images/deck-media/c425a4f37ec39601.webp' | relative_url }}" alt="Fashion illustration" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-4" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-5" markdown="0">
+<img src="{{ '/assets/images/deck-media/37ef9f5bda8f9a93.webp' | relative_url }}" alt="An exhibition poster composition" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-5" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-6" markdown="0">
+<img src="{{ '/assets/images/deck-media/9399010fa60a83d5.webp' | relative_url }}" alt="Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-6" %}</figcaption>
+</figure>
+
+
+**Afirmación:** el color es relacional y perceptivo, por lo que las paletas digitales deben enseñarse mediante interacción, contraste y contexto — no como muestras fijas ni valores RGB aislados (Albers 2013).
+
+Una imagen de mapa de bits es una cuadrícula fija de valores de color; cada decisión sobre modo, profundidad de bits o gama es también una decisión sobre lo que la imagen no podrá volver a ser sin pérdida. El trabajo digital experto produce visualidades que reflejan estilos de edición populares en un momento dado — iluminación, tendencias cromáticas y tonos que hacen que las imágenes parezcan «profesionales» o «únicas» (Roivainen 2025, 8).
+
+**Qué sostiene esto y qué no.** Albers (2013) sostiene la enseñanza perceptiva del color más allá de los menús de herramienta. Roivainen (2025) sostiene nombrar convenciones de edición nativas de plataforma y ligadas al tiempo — adyacente a la moda, no un temario de color de moda validado. Ninguno valida una **secuencia de enseñanza de gestión del color** para moda en educación superior; la documentación de herramienta fundamenta operaciones — etiqueta `[PLATFORM]`, nunca investigación.
+
+**Anclaje de práctica (perspectiva de campo):** color relacional y alfabetización en mapa de bits (Albers 2013; operaciones técnicas de color en T1).
+
+**Señal de frontera (perspectiva de campo):** los estilos de edición nativos de plataforma circulan con rapidez; trata los tonos en tendencia como señales históricas a comparar, no como valores por defecto a copiar.
+
+## Lab (Portfolio)
+
+*Bloque de sesión · Una diapositiva geométrica anuncia el Lab: **dos** ejercicios. Todo lo que produzcas en Lab entra en tu **índice de portfolio**. Los Labs practican ideas de Masterclass y alimentan el oficio ACT — no son un segundo canal evaluable de Campus Virtual.*
+
+### Ejercicio 1 — Lock the key-visual brief, then sample a palette {#lab-exercise-1}
+
+Practises Masterclass ideas **1** (colour is a relation) and **6** (correcting vs changing).
+
+**Time:** 20 minutes.
+
+**Group:** alone for craft; pairs OK for a 2-minute brief critique.
+
+**Materials:** laptop; one rights-clear garment/fabric photo; timer; notes app.
+
+**Steps:**
+
+1. Write **audience**, **channel**, and a **single claim** before opening the canvas.
+2. Sample five colours from the garment photo; build a palette strip (no moodboard tiles yet).
+3. Build one accessible alternate (contrast-aware) without inventing a second claim.
+4. Reject any swatch that does not serve the claim.
+5. Note one hierarchy decision the clash forced.
+
+**Portfolio trace:** brief text + five-colour strip + accessible alternate + hierarchy note.
+
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (key-visual / palette craft gap — no Wave-1 verified pedagogy sequence).
+
+**Example trace:** *(Illustrative · not student work.)* Brief: audience = campus drop, channel = Instagram square, claim = “denim reads cooler under tungsten.” Five-swatch strip + one high-contrast alternate; hierarchy note: “Claim forced the mid-blue to lose saturation.”
+
+
+### Ejercicio 2 — One Gestalt pass on a key-visual crop {#lab-exercise-2}
+
+Practises Masterclass ideas **2** (a bitmap has limits) and **4** (the display participates).
+
+**Time:** 20 minutes.
+
+**Group:** alone for the two crops; pairs for the peer vote.
+
+**Materials:** a key-visual or fashion crop; bitmap editor; timer.
+
+**Steps:**
+
+1. Name one Gestalt relation to test (proximity, similarity, closure, continuity, or figure–ground).
+2. Apply the relation once to the crop.
+3. Invert or break the relation in a second version; keep both.
+4. Peer names which version groups more clearly and why (one sentence).
+5. Record the chosen relation in the process note.
+
+**Portfolio trace:** two crops + peer sentence + process note naming the relation.
+
+**Judged by:** [Portfolio rubric — composition judgement]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (Gestalt pedagogy gap — Arnheim not in Wave-1 references).
+
+**Example trace:** *(Illustrative · not student work.)* Relation = proximity. Crop A clusters buttons; crop B spreads them. Peer: “A groups as a placket; B reads as scatter.”
+
+
+**Definition of done (studio slice):** piece ID; process folder; colour/Gestalt pair present and specific — the Lab traces are the cuaderno evidence.
 
 {% if site.publication.publish_internal_metadata %}
-<!--  curriculum-internal:
-**Evidencia:** Investigaciones y proyectos 20% (pieza); Cuaderno 10% (nota). Sin S1/S2 — ROL DE ARTEFACTO ninguno.
+<!-- curriculum-internal:
+**Evidence:** Investigaciones y proyectos 20% (piece); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
+LAB_LINE: exercise=1; method_id=key-visual-brief-lock; practises=masterclass-1,masterclass-6; source=gap/classroom adaptation; ACT=ACT2
+LAB_LINE: exercise=2; method_id=gestalt-composition; practises=masterclass-2,masterclass-4; source=gap/classroom adaptation; ACT=ACT2
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, descontextualizada
+## Workshop
+
+Desde la sesión 4: el Workshop es tiempo de estudio protegido para D2 Transposición y D3 evento final (≈ mitad / mitad) — no es reloj de D1 Análisis.
+
 
 1. **Diagnóstico.** Dadas dos versiones del mismo mapa de bits con distinta profundidad de bits, identifica qué artefacto muestra cada una y por qué.
 2. Describe a mano, sin herramienta abierta, la diferencia visual entre una paleta limitada y una completa para una imagen descrita. **Sin IA — declarado como tal.**
@@ -157,6 +248,22 @@ outcome-graphic-selection:
   visual-grammar: "palette-depth — campos de píxel restringido y matizado separados por un umbral de corrección"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusión
+
+Esta unidad deja lagunas nombradas a propósito: lo que el vault puede verificar con página queda en Referencias; lo abierto queda en la Nota editorial. Mantén las trazas de Lab honestas en el índice de portfolio. No inventes un entregable evaluable que How to Pass no pide. La siguiente apuesta es el ritmo de sesión ya nombrado — defensa de Análisis (D1) desde la sesión 3; Workshop desde la sesión 4 para Transposición y el evento final.
+
+---
+
+## Tao de la imagen {#tao-of-the-image}
+
+Epígrafe de la unidad (registro Tao de estudio — no es cita académica):
+
+> _"La imagen de trama teme el zoom. El SVG lo recibe con los brazos abiertos."_
+
+Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
 
 ---
 

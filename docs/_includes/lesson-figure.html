@@ -1,0 +1,11 @@
+{% comment %}
+  Lesson figure caption (PHASE-EX9). Reuses deck assets from docs/_data/lesson_figures.json
+  (written by `npm run render:decks`) with the same rights-safe caption fields as the deck.
+
+  Usage:
+
+    <figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+    <img src="{{ '/assets/images/deck-media/HASH.webp' | relative_url }}" alt="…" loading="lazy" decoding="async">
+    <figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-1" %}</figcaption>
+    </figure>
+{% endcomment %}{% assign lesson_figure = site.data.lesson_figures[include.deck][include.slide] %}{% if lesson_figure %}{{ lesson_figure.caption_html }}{% else %}<span class="lesson-figure__missing">Image caption missing: {{ include.deck }} / {{ include.slide }}</span>{% endif %}

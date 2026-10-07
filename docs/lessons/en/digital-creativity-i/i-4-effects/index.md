@@ -46,7 +46,7 @@ references: []
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Name filtering, enhancement, colour transformation, and correction** as core bitmap operations behind digital post-processing (Gonzalez and Woods 2018).
 - **Treat effects as embedded in visual problems**, not an autonomous filter catalogue (Curcic 2024).
@@ -56,19 +56,8 @@ references: []
 
 ---
 
-## Why this unit exists — transformation with a traceable before
-
-**Claim:** filtering, enhancement, colour transformation, and correction are core bitmap operations behind digital post-processing — the technical families this unit names before any brand-specific filter menu (Gonzalez and Woods 2018).
-
-Contemporary digital-drawing curricula combine expressive work with foundational image variables including value, lighting, texture, and colour, rather than treating effects as an autonomous catalogue (Curcic 2024). An effect applied to an image is always a transformation with a **before**; the craft risk is losing track of that before, not mastering any single preset.
-
-**What this supports, and what it does not.** Gonzalez and Woods (2018) support explaining pixels, channels, filters, and correction at a technical level. Curcic (2024) supports assignment-driven studio pedagogy where effects serve visual problems. McBride et al. (2019) support ethical awareness of manipulated advertising images — adjacent to fashion disclosure, not a classroom policy prescription. **No reviewed source validates an effects/filter teaching sequence** for fashion HE; tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** non-destructive editing, compositing, masking, and tonal correction as durable operation classes — separate from any one application's UI.
-
-**Frontier signal (field lens):** generative pixels may obscure the visual decisions and craft processes on which studio critique traditionally depends (Park et al. 2025). Treat any AI-assisted fill as input to judgement, not a substitute for naming what changed.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 Recent fashion-design research frames generative systems as collaborators in
 ideation and prototyping, but also calls for checks on bias, appropriation, and
@@ -115,13 +104,51 @@ Fashion and beauty retouching require technical literacy plus ethical awareness 
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Covered above: Gonzalez/Curcic technical framing, McBride ethics, critical lens, debate, and placeholders.
 
 ---
 
-## B2 · Lab (Portfolio) — talleres 1 h + investigaciones y proyectos 2 h
+## Masterclass
+
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/684484de753f97f5.webp' | relative_url }}" alt="A fashion sketch design study" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="masterclass-1" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/c2c1b5e1ab5b5c82.webp' | relative_url }}" alt="Jun Takahashi dress for Undercover (51492).jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/37ef9f5bda8f9a93.webp' | relative_url }}" alt="An exhibition poster composition" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-analysis-model" markdown="0">
+<img src="{{ '/assets/images/deck-media/4e655e0f068fdc07.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in a second exhibition view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="analysis-model" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-cover" markdown="0">
+<img src="{{ '/assets/images/deck-media/8243faeb5945da08.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in an exhibition view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="cover" %}</figcaption>
+</figure>
+
+
+**Claim:** filtering, enhancement, colour transformation, and correction are core bitmap operations behind digital post-processing — the technical families this unit names before any brand-specific filter menu (Gonzalez and Woods 2018).
+
+Contemporary digital-drawing curricula combine expressive work with foundational image variables including value, lighting, texture, and colour, rather than treating effects as an autonomous catalogue (Curcic 2024). An effect applied to an image is always a transformation with a **before**; the craft risk is losing track of that before, not mastering any single preset.
+
+**What this supports, and what it does not.** Gonzalez and Woods (2018) support explaining pixels, channels, filters, and correction at a technical level. Curcic (2024) supports assignment-driven studio pedagogy where effects serve visual problems. McBride et al. (2019) support ethical awareness of manipulated advertising images — adjacent to fashion disclosure, not a classroom policy prescription. **No reviewed source validates an effects/filter teaching sequence** for fashion HE; tool docs ground operations only — label `[PLATFORM]`, never research.
+
+**Practice anchor (field lens):** non-destructive editing, compositing, masking, and tonal correction as durable operation classes — separate from any one application's UI.
+
+**Frontier signal (field lens):** generative pixels may obscure the visual decisions and craft processes on which studio critique traditionally depends (Park et al. 2025). Treat any AI-assisted fill as input to judgement, not a substitute for naming what changed.
+
+## Lab (Portfolio)
 
 *A geometrical slide announces the Lab: **two** exercises follow. Traces go into the **portfolio index**. Labs practise Masterclass and feed **ACT2 Key visual** (photobash + disclosure) — not a second graded Campus Virtual channel.*
 
@@ -149,6 +176,9 @@ Practises Masterclass ideas **1** (keep the before) and **2** (a filter is an ar
 
 **Source:** Classroom adaptation (photobash craft gap — no Wave-1 verified primary pedagogy source).
 
+**Example trace:** *(Illustrative · not student work.)* Before/after of one local adjustment with layer named `fx-dodge-cheek`; process note: “Effect is recoverable; flattened export discarded.”
+
+
 ### Exercise 2 — Before → after strip + disclosure {#lab-exercise-2}
 
 Practises Masterclass ideas **1** (keep the before) and **3** (disclosure is part of craft).
@@ -173,6 +203,9 @@ Practises Masterclass ideas **1** (keep the before) and **3** (disclosure is par
 
 **Source:** Classroom adaptation (effects disclosure craft).
 
+**Example trace:** *(Illustrative · not student work.)* Photobash seam marked; one sentence on light direction mismatch kept visible in the index.
+
+
 **Definition of done:** before/after strip saved; disclosure line present; piece ID; process folder.
 
 {% if site.publication.publish_internal_metadata %}
@@ -185,7 +218,10 @@ LAB_LINE: exercise=2; method_id=compositing-before-after-strip; practises=master
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 1. **Diagnostic.** Given an "after" image with no "before" kept, name what's missing from an honest effects workflow.
 2. Write the one-line disclosure by hand for a described effect, no tool open. **No AI — declared as such.**
@@ -199,6 +235,22 @@ outcome-graphic-selection:
   visual-grammar: "traceable-transform — each changed state remains attached to a disclosure trace"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"Offset is not mathematics—it is empathy. You must remember what came before."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

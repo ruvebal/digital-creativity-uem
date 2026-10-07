@@ -45,7 +45,7 @@ references: []
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Describe a digital bodegón as a synthesis exercise** drawing on I.1's practice-framing, I.2's arrangement literacy, I.3's colour decisions, and I.4's effects discipline.
 - **State plainly that no reviewed source validates a bodegón-composition teaching sequence.**
@@ -54,17 +54,8 @@ references: []
 
 ---
 
-## Why this unit exists — synthesis with an honest limit
-
-**Claim:** a digital bodegón is where the field-of-practices frame (I.1), drawing/arrangement literacy (I.2), colour decisions (I.3), and effects discipline (I.4) converge into one deliberately balanced image — a synthesis exercise, not a new technique.
-
-**What this supports, and what it does not.** Prior units supply craft disciplines this piece must genuinely reuse — not name-drop. No reviewed source validates a **bodegón-composition teaching sequence**, digital or otherwise — stated plainly rather than assumed. Tool documentation grounds *how* any given compositing tool works — label `[PLATFORM]`, never research. No exhibition claim is made in this unit, so public showcase consent (S1/S2) stays explicitly out of scope.
-
-**Practice anchor (field lens):** hierarchy, negative space, scale, overlap, value, material, and focal path as durable compositional constructs — separate from any one application's filter stack.
-
-**Frontier signal (field lens):** still-life composition turns objects, materials, and value into a hierarchy of attention and desire; name what labour or material history disappears behind the calm surface.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 Visibility labour expands who counts as a producer of value in digital fashion communication by including follower and community activity within the attention economy — a still life's calm arrangement may conceal the negotiation required to make objects desirable online (Abidin 2016).
 
@@ -103,29 +94,85 @@ Which objects become desirable or disposable through the frame, and who benefits
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 3 h + debates 1 h
+
 
 Covered above: synthesis claim, Abidin critical lens, debate, and placeholders.
 
 ---
 
-## B2 · Studio — talleres 2 h + investigaciones y proyectos 3 h
+## Masterclass
 
-**Deliverable:** one digital bodegón composition — arranged fashion objects/accessories, digitally composited or drawn — with a process note explaining the balance decisions made (what was added, removed, or resized, and why), explicitly cross-referencing at least one decision each from I.1–I.4 where applicable.
+**Claim:** a digital bodegón is where the field-of-practices frame (I.1), drawing/arrangement literacy (I.2), colour decisions (I.3), and effects discipline (I.4) converge into one deliberately balanced image — a synthesis exercise, not a new technique.
 
-**Definition of done:** piece ID; process folder; process note present, and the cross-references to I.1–I.4 must be genuine (a real decision traced back), not decorative name-drops.
+**What this supports, and what it does not.** Prior units supply craft disciplines this piece must genuinely reuse — not name-drop. No reviewed source validates a **bodegón-composition teaching sequence**, digital or otherwise — stated plainly rather than assumed. Tool documentation grounds *how* any given compositing tool works — label `[PLATFORM]`, never research. No exhibition claim is made in this unit, so public showcase consent (S1/S2) stays explicitly out of scope.
 
-**No exhibition claim, so no S1/S2 this unit.**
+**Practice anchor (field lens):** hierarchy, negative space, scale, overlap, value, material, and focal path as durable compositional constructs — separate from any one application's filter stack.
+
+**Frontier signal (field lens):** still-life composition turns objects, materials, and value into a hierarchy of attention and desire; name what labour or material history disappears behind the calm surface.
+
+## Lab (Portfolio)
+
+*Structural placeholder (EX9) — no DCI deck `lab_exercise` slides yet for this unit. Two illustrative exercises keep the Lab rhythm; replace when EX11 / deck wave lands.*
+
+### Exercise 1 — Name the CONTENIDOS move {#lab-exercise-1}
+
+**Time:** 15 minutes.
+
+**Group:** alone.
+
+**Materials:** notebook or laptop; timer; one rights-clear reference image for this unit's CONTENIDOS.
+
+**Steps:**
+
+1. Restate the unit CONTENIDOS anchor in one sentence (no tool brand).
+2. Name one craft decision this unit asks you to leave visible in a process note.
+3. Write one sentence on what a single-tool workflow would hide.
+4. Keep the note for the portfolio index.
+
+**Portfolio trace:** CONTENIDOS sentence + craft-visibility sentence + single-tool caution.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* CONTENIDOS: “Volume by hybrid iteration.” Craft left visible: physical maquette fold vs CLO pass. Caution: a CLO-only export would hide the drape correction the hand pass forced.
+
+### Exercise 2 — One process evidence pair {#lab-exercise-2}
+
+**Time:** 20 minutes.
+
+**Group:** alone; optional 2-minute peer share.
+
+**Materials:** the Exercise 1 note; one before/after or physical/digital pair; timer.
+
+**Steps:**
+
+1. Capture one before and one after (or physical vs digital) for the same piece.
+2. Write one sentence naming what the second pass revealed that the first did not.
+3. Reject any polish that erases the evidence of the pass.
+4. File both stills (or photos) under the piece ID.
+
+**Portfolio trace:** before/after pair + revelation sentence.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* Before: paper maquette crease at waist. After: digital pass exaggerates the crease. Sentence: “The screen invented tension the cloth did not have — keep the physical photo in the index.”
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (composition); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
+LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
+LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 1. **Diagnostic.** Given a bodegón description that reads as visually "too heavy" per img-070's framing, name what a rebalancing pass should remove or lighten.
 2. Write, by hand, the balance-decision process note for a described arrangement. **No AI — declared as such.**
@@ -139,6 +186,22 @@ outcome-graphic-selection:
   visual-grammar: "compositional-balance — unequal objects redistribute light and visual weight around a calibrated fulcrum"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"The way of the image is the way of balance. Too heavy, and the user departs. Too light, and meaning is lost. Too many, and the message drowns. Too few, and the page speaks in monotone."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

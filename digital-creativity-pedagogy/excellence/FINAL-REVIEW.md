@@ -47,3 +47,11 @@ See `gitflow.sh release-notes` after `gitflow.sh init` and the full run.
 
 - Published 55/15/20/10 and D2≡ACT3 on evaluation + How-to-Pass.
 - Cold review PASS.
+
+### EX9 — lesson structure / exemplars / figures
+
+- Spine pass: I.1–I.9 EN/ES + fashion-image-analysis; Workshop/Tao/Conclusion order per forge laws.
+- Gate: `PHASE-EX9.exit-gate.sh` failures 0 (structure, B2 cards, provenance non-regression, jekyll, publication safety, hreflang).
+- **P0 for professor — exemplars:** every `**Example trace:**` (and any Masterclass design example) is an autopilot illustrative draft labelled *not student work*. Approve, rewrite, or replace before release. Priority scan: I.1–I.2 EN Labs, then I.3–I.5, then I.6–I.9 placeholders.
+- I.6–I.9 still await DCI decks (Lab placeholders only).
+- Rollback after land: `gitflow.sh rollback 9`.

@@ -56,7 +56,7 @@ This is a **Master Lecture** — a transversal analysis method. Use it from Digi
 
 </div>
 
-## Learning outcomes
+## Learning objectives
 
 By the end of this master lecture you can:
 
@@ -73,7 +73,7 @@ It serves campaign analysis, portfolio image work, and any track session that ne
 
 ---
 
-## B1 · Analysis (in the lesson, not only on slides)
+## Analysis
 
 This is the critical analysis class, not the morphology class. Complete the separate [Image morphology master lecture]({{ '/lessons/en/master-lectures/image-morphology/' | relative_url }}) first when students need formal vocabulary. Here, morphology is the evidence pass that analysis uses; it is not the endpoint.
 
@@ -170,7 +170,37 @@ When you analyse shared cultural codes (style, genre, “what everyone understan
 
 ---
 
-## Masterclass ideas (six)
+## Masterclass
+
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/8243faeb5945da08.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in an exhibition view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-1" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/684484de753f97f5.webp' | relative_url }}" alt="A fashion sketch design study" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/37ef9f5bda8f9a93.webp' | relative_url }}" alt="An exhibition poster composition" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-4" markdown="0">
+<img src="{{ '/assets/images/deck-media/50123c6eb70f0276.webp' | relative_url }}" alt="A historical beauty advertisement" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-4" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-5" markdown="0">
+<img src="{{ '/assets/images/deck-media/5dc077b6251755e2.webp' | relative_url }}" alt="Jessica Minh Anh on a runway fashion and sustainability show, 2020" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-5" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-6" markdown="0">
+<img src="{{ '/assets/images/deck-media/17d4597b7ae3a41e.webp' | relative_url }}" alt="Jessica Minh Anh on a runway fashion and sustainability show, 2020 — second view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-6" %}</figcaption>
+</figure>
 
 1. Describe before you interpret.
 2. Language ≠ medium ≠ support.
@@ -181,7 +211,9 @@ When you analyse shared cultural codes (style, genre, “what everyone understan
 
 ---
 
-## B2 · Lab (portfolio)
+## Lab (Portfolio)
+
+*Illustrative traces below are professor-made examples — not student work.*
 
 ### Exercise 1 — Shared image
 
@@ -226,6 +258,12 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 <li><span>What it produces next</span><span class="quick-card__line"></span></li>
 </ol>
 </div>
+
+---
+
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
 
 ---
 

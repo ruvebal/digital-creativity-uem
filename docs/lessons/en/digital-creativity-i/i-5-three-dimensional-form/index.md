@@ -46,7 +46,7 @@ references: [papahristou-2024]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Name geometry, transforms, surfaces, lighting, rendering, and display pipelines** as the technical families behind 3D representation (Hughes et al. 2013).
 - **Treat spatial visualization as the core pedagogical construct** — mentally transforming flat patterns and sketches into three-dimensional forms and back (Moritz and Youn 2022).
@@ -56,21 +56,8 @@ references: [papahristou-2024]
 
 ---
 
-## Why this unit exists — form is taught in a sequence, not absorbed by exposure
-
-**Claim:** three-dimensional representation depends on geometry, transforms, surfaces, lighting, rendering, and display pipelines — the technical substrate this unit names before any brand-specific 3D menu (Hughes et al. 2013).
-
-Perception of shape, balance, depth, and volume is a psychological foundation for representing three-dimensional form — digital tools do not replace that perceptual work (Arnheim 2004). Fashion education treats the capacity to mentally transform flat patterns, sketches, and garment components into three-dimensional forms — and back again — as a domain-specific form of spatial visualization (Moritz and Youn 2022).
-
-**Verified course-structure evidence.** At the International Hellenic University, 3D virtual prototyping is taught in the third year alongside a 2D CAD patternmaking course — after students already know traditional patternmaking, basic construction, and 2D design software. The course is split into a theoretical half and a practical/laboratory half [(Papahristou and Zolota Tatsi 2024, 5)](#ref-papahristou-2024). A second independent case reports AMFI integrating 3D prototyping progressively across the curriculum — initially in the final prototyping phase, later extended to the conceptual phase [(Papahristou and Zolota Tatsi 2024, 3)](#ref-papahristou-2024).
-
-**What this supports, and what it does not.** Hughes et al. (2013) and Arnheim (2004) support technical and perceptual vocabulary. Moritz and Youn (2022) support naming apparel-specific spatial visualization as measurable, not assumed. Papahristou and Zolota Tatsi (2024) support that a sequenced 2D→3D structure exists in real programmes — **not** that it produces validated spatial-form understanding; their review reports tool-adoption outcomes rather than validated volume-understanding measures [(Papahristou and Zolota Tatsi 2024, 1)](#ref-papahristou-2024). Tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** spatial visualization and orthographic/perspective literacy as durable design-education constructs — separate from interface fluency.
-
-**Frontier signal (field lens):** generative 3D and AI-assisted form tools may accelerate output faster than pedagogical validation; treat any generated volume as input to judgement, not proof of spatial understanding.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 The dressed body is not a biological support prior to fashion, but a socially produced body — a theoretical counterweight to 3D systems that treat measurements, gender, pose, or silhouette as merely technical parameters (Entwistle 2015).
 
@@ -109,7 +96,7 @@ Avatar libraries and mannequin defaults are not neutral representations of the b
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical lens, debate, and placeholders.
 
@@ -117,7 +104,47 @@ Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical len
 
 ---
 
-## B2 · Lab (Portfolio) — talleres 2 h + investigaciones y proyectos 2 h
+## Masterclass
+
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/6d87fb61fcb1d4de.webp' | relative_url }}" alt="Indienne, représentant Minerve Péruvienne." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-1" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/5440d18f70034583.webp' | relative_url }}" alt="Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/f4786040093c9e0d.webp' | relative_url }}" alt="A drapery study for a figure of Sculpture" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-analysis-model" markdown="0">
+<img src="{{ '/assets/images/deck-media/f30519b35796f439.webp' | relative_url }}" alt="1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="analysis-model" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-cover" markdown="0">
+<img src="{{ '/assets/images/deck-media/a7fe225309618a85.webp' | relative_url }}" alt="Dresses by Rei Kawakubo - Sarah Stierch 01.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="cover" %}</figcaption>
+</figure>
+
+
+**Claim:** three-dimensional representation depends on geometry, transforms, surfaces, lighting, rendering, and display pipelines — the technical substrate this unit names before any brand-specific 3D menu (Hughes et al. 2013).
+
+Perception of shape, balance, depth, and volume is a psychological foundation for representing three-dimensional form — digital tools do not replace that perceptual work (Arnheim 2004). Fashion education treats the capacity to mentally transform flat patterns, sketches, and garment components into three-dimensional forms — and back again — as a domain-specific form of spatial visualization (Moritz and Youn 2022).
+
+**Verified course-structure evidence.** At the International Hellenic University, 3D virtual prototyping is taught in the third year alongside a 2D CAD patternmaking course — after students already know traditional patternmaking, basic construction, and 2D design software. The course is split into a theoretical half and a practical/laboratory half [(Papahristou and Zolota Tatsi 2024, 5)](#ref-papahristou-2024). A second independent case reports AMFI integrating 3D prototyping progressively across the curriculum — initially in the final prototyping phase, later extended to the conceptual phase [(Papahristou and Zolota Tatsi 2024, 3)](#ref-papahristou-2024).
+
+**What this supports, and what it does not.** Hughes et al. (2013) and Arnheim (2004) support technical and perceptual vocabulary. Moritz and Youn (2022) support naming apparel-specific spatial visualization as measurable, not assumed. Papahristou and Zolota Tatsi (2024) support that a sequenced 2D→3D structure exists in real programmes — **not** that it produces validated spatial-form understanding; their review reports tool-adoption outcomes rather than validated volume-understanding measures [(Papahristou and Zolota Tatsi 2024, 1)](#ref-papahristou-2024). Tool docs ground operations only — label `[PLATFORM]`, never research.
+
+**Practice anchor (field lens):** spatial visualization and orthographic/perspective literacy as durable design-education constructs — separate from interface fluency.
+
+**Frontier signal (field lens):** generative 3D and AI-assisted form tools may accelerate output faster than pedagogical validation; treat any generated volume as input to judgement, not proof of spatial understanding.
+
+## Lab (Portfolio)
 
 *A geometrical slide announces the Lab: **two** exercises follow. Traces go into the **portfolio index**. Selected I.5 Labs practise Masterclass spatial craft (feeds later cartel / workshop work) — not a new graded ACT.*
 
@@ -144,6 +171,9 @@ Practises Masterclass ideas **1** (start with the axis) and **2** (planes make v
 
 **Source:** Sequenced 2D→3D teaching structure in programmes [(Papahristou and Zolota Tatsi 2024, 5)](#ref-papahristou-2024); steps are classroom adaptation.
 
+**Example trace:** *(Illustrative · not student work.)* Two orthographic views + one perspective thumbnail; note: “Form read fails when the silhouette alone is trusted.”
+
+
 ### Exercise 2 — Silhouette from volume (not from polish) {#lab-exercise-2}
 
 Practises Masterclass idea **3** (a render is not understanding).
@@ -168,6 +198,9 @@ Practises Masterclass idea **3** (a render is not understanding).
 
 **Source:** Classroom adaptation (silhouette-from-volume held — Moritz & Youn spatial visualization gap).
 
+**Example trace:** *(Illustrative · not student work.)* Clay vs screen pass of the same volume; sentence: “The hand pass revealed underarm void the mesh smoothed away.”
+
+
 **Definition of done:** piece ID; process folder; one-paragraph reflection naming what the 2D read predicted and what it missed once built in 3D.
 
 {% if site.publication.publish_internal_metadata %}
@@ -181,7 +214,10 @@ LAB_LINE: exercise=2; method_id=silhouette-from-volume; practises=masterclass-3;
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 1. **Diagnostic.** Given three 2D projections of the same object (front, side, top), identify which stated 3D volume they could *not* actually fold into, and say what's inconsistent.
 2. Given a rendered 3D mock-up with a visible form/volume error, name the specific inconsistency — not "it looks wrong," but which dimension or projection fails.
@@ -195,6 +231,22 @@ outcome-graphic-selection:
   visual-grammar: "projection-fold — orthographic planes converge on one coherent volume while an inconsistency is excluded"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"Practice in the dojo, perform in the arena."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 
