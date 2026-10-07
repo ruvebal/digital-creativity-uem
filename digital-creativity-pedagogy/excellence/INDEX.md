@@ -59,8 +59,8 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 | 2 | [PHASE-EX2.md](PHASE-EX2.md) | Publication firewall (leak terms, AI footers, no sibling-institution names) | DONE (EX1 DONE) |
 | 3 | [PHASE-EX3.md](PHASE-EX3.md) | Image/media pipeline rules + tests + deck validator | DONE (EX2 DONE) |
 | 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks (Wave-1 decks) | DONE (EX3 DONE) |
-| 5 | [PHASE-EX5.md](PHASE-EX5.md) | Deck renderer: pre-render, alt, captions, notes, layouts, browser check | VERIFYING (EX4 DONE) |
-| 6 | [PHASE-EX6.md](PHASE-EX6.md) | Research grounding + single bibliography (broadcast Ahmes / Athanor) | BLOCKED (EX5 DONE) |
+| 5 | [PHASE-EX5.md](PHASE-EX5.md) | Deck renderer: pre-render, alt, captions, notes, layouts, browser check | DONE (EX4 DONE) |
+| 6 | [PHASE-EX6.md](PHASE-EX6.md) | Research grounding + single bibliography (broadcast Ahmes / Athanor) | READY (EX5 DONE) |
 | 7 | [PHASE-EX7.md](PHASE-EX7.md) | Canonical fashion-craft method catalogue (studio methods, not CT techniques) | BLOCKED (EX6 DONE) |
 | 8 | [PHASE-EX8.md](PHASE-EX8.md) | Lab redesign Wave-1 units + exercise cards aligned to ACT1–2 | BLOCKED (EX7 DONE) |
 | 9 | [PHASE-EX9.md](PHASE-EX9.md) | Lesson structure, exemplars, lesson images (Wave-1) | BLOCKED (EX8 DONE) |
