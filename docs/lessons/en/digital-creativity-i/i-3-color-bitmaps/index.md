@@ -62,7 +62,7 @@ cover-agentic:
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Describe a bitmap image as a fixed grid of colour values** — and explain what a given colour decision (mode, depth, gamut) forecloses for later.
 - **Explain colour as relational and perceptual** — digital palettes taught through interaction, contrast, and context, not isolated RGB sliders (Albers 2013).
@@ -72,19 +72,8 @@ cover-agentic:
 
 ---
 
-## Why this unit exists — colour as relation, not a one-time palette
-
-**Claim:** colour is relational and perceptual, so digital palettes must be taught through interaction, contrast, and context — not as fixed swatches or isolated RGB values (Albers 2013).
-
-A bitmap image is a fixed grid of colour values; every decision about mode, bit depth, or gamut is also a decision about what the image cannot later become without loss. Skilled digital image work produces visualities that reflect editing styles popular at a given moment — lighting, colour trends, and tones that make images look "professional" or "unique" [(Roivainen 2025, 8)](#ref-roivainen-2025).
-
-**What this supports, and what it does not.** Albers (2013) supports perceptual colour teaching beyond tool menus. Roivainen (2025) supports naming platform-native, time-bound editing conventions — adjacent to fashion, not a validated fashion-colour syllabus. Neither validates a **colour-management teaching sequence** for fashion HE; tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** relational colour and bitmap literacy (Albers 2013); T1 technical colour operations.
-
-**Frontier signal (field lens):** platform-native editing styles circulate quickly; treat trending tones as historical signals to compare, not defaults to copy.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 Computational fashion research can extract palettes and forecast colour, while
 fashion-design teaching can ask students to specify palettes in HEX or Pantone
@@ -130,13 +119,56 @@ Who is treated as the default viewer when a palette is called accurate, beautifu
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Covered above: relational colour claim, Roivainen platform styles, critical lens, debate, and placeholders.
 
 ---
 
-## B2 · Lab (Portfolio) — talleres 1 h + investigaciones y proyectos 2 h
+## Masterclass
+
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/750f32a08550dcff.webp' | relative_url }}" alt="This is a digital graphic or print design, not a photograph, painting, or document. It features a 2x2 grid of solid color blocks—cyan (top-left), magenta (top-right), yellow (bottom-left), and black (bottom-right)—each containing a large, bold, white or black capital letter: “C”" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-1" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/7a2791f63dcc1d31.webp' | relative_url }}" alt="Nokia 8-display pixel pattern PNr°0495.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/67e8367fb0719e25.webp' | relative_url }}" alt="Fashion illustration" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-4" markdown="0">
+<img src="{{ '/assets/images/deck-media/c425a4f37ec39601.webp' | relative_url }}" alt="Fashion illustration" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-4" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-5" markdown="0">
+<img src="{{ '/assets/images/deck-media/37ef9f5bda8f9a93.webp' | relative_url }}" alt="An exhibition poster composition" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-5" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-6" markdown="0">
+<img src="{{ '/assets/images/deck-media/9399010fa60a83d5.webp' | relative_url }}" alt="Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-3-color-bitmaps" slide="masterclass-6" %}</figcaption>
+</figure>
+
+
+**Claim:** colour is relational and perceptual, so digital palettes must be taught through interaction, contrast, and context — not as fixed swatches or isolated RGB values (Albers 2013).
+
+A bitmap image is a fixed grid of colour values; every decision about mode, bit depth, or gamut is also a decision about what the image cannot later become without loss. Skilled digital image work produces visualities that reflect editing styles popular at a given moment — lighting, colour trends, and tones that make images look "professional" or "unique" [(Roivainen 2025, 8)](#ref-roivainen-2025).
+
+**What this supports, and what it does not.** Albers (2013) supports perceptual colour teaching beyond tool menus. Roivainen (2025) supports naming platform-native, time-bound editing conventions — adjacent to fashion, not a validated fashion-colour syllabus. Neither validates a **colour-management teaching sequence** for fashion HE; tool docs ground operations only — label `[PLATFORM]`, never research.
+
+**Practice anchor (field lens):** relational colour and bitmap literacy (Albers 2013); T1 technical colour operations.
+
+**Frontier signal (field lens):** platform-native editing styles circulate quickly; treat trending tones as historical signals to compare, not defaults to copy.
+
+## Lab (Portfolio)
 
 *A geometrical slide announces the Lab: **two** exercises follow. Traces go into the **portfolio index**. Labs practise Masterclass and feed **ACT2 Key visual** craft — they do not invent a second graded Campus Virtual channel.*
 
@@ -164,6 +196,9 @@ Practises Masterclass ideas **1** (colour is a relation) and **6** (correcting v
 
 **Source:** Classroom adaptation (key-visual / palette craft gap — no Wave-1 verified pedagogy sequence).
 
+**Example trace:** *(Illustrative · not student work.)* Brief: audience = campus drop, channel = Instagram square, claim = “denim reads cooler under tungsten.” Five-swatch strip + one high-contrast alternate; hierarchy note: “Claim forced the mid-blue to lose saturation.”
+
+
 ### Exercise 2 — One Gestalt pass on a key-visual crop {#lab-exercise-2}
 
 Practises Masterclass ideas **2** (a bitmap has limits) and **4** (the display participates).
@@ -188,6 +223,9 @@ Practises Masterclass ideas **2** (a bitmap has limits) and **4** (the display p
 
 **Source:** Classroom adaptation (Gestalt pedagogy gap — Arnheim not in Wave-1 references).
 
+**Example trace:** *(Illustrative · not student work.)* Relation = proximity. Crop A clusters buttons; crop B spreads them. Peer: “A groups as a placket; B reads as scatter.”
+
+
 **Definition of done (studio slice):** piece ID; process folder; colour/Gestalt pair present and specific — the Lab traces are the cuaderno evidence.
 
 {% if site.publication.publish_internal_metadata %}
@@ -200,7 +238,10 @@ LAB_LINE: exercise=2; method_id=gestalt-composition; practises=masterclass-2,mas
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 1. **Diagnostic.** Given two versions of the same bitmap at different bit depths, identify which artifact each shows and why.
 2. Describe by hand, no tool open, the visual difference between a limited and a full palette for a described image. **No AI — declared as such.**
@@ -214,6 +255,22 @@ outcome-graphic-selection:
   visual-grammar: "palette-depth — restricted and nuanced pixel fields divided by a correction threshold"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"The raster image fears the zoom. The SVG welcomes it."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

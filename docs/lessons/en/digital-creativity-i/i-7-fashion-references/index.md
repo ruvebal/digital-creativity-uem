@@ -45,7 +45,7 @@ references: [campinho-2025]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Explain, with a real citation, why sourcing a compositional reference is not a neutral act of collection.**
 - **State precisely what that citation grounds and what it does not** — a representation-ethics finding, not a sourcing-pedagogy finding.
@@ -54,19 +54,8 @@ references: [campinho-2025]
 
 ---
 
-## Why this unit exists — a real citation, a narrow one
-
-**Claim:** sourcing a compositional reference is not a neutral act of collection — *what a search surfaces* already carries a representational politics, before a student has chosen which image to reference at all.
-
-Campinho, Cardim da Silva, Dantas Soares, and Amparo-Santos (2025) studied Google Images searches for “fat body” and “obese body.” They found contrasting patterns of empowerment and medicalised fragmentation that shape collective perceptions of bodies [(Campinho 2025, 2)](#ref-campinho-2025).
-
-**What this supports, and what it does not.** Campinho et al. (2025, 2) grounds the *ethics of the images students will encounter while sourcing* — a real demonstration that a search's own results carry a representational pattern before any creative choice. It does **not** ground a validated *teaching method for compositional-reference-sourcing* itself — no source here studies how to teach mood-boarding, visual research, or reference-attribution practice as a classroom sequence. Tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** source hierarchy, visual function, citation, transformation, and provenance as durable research-studio constructs — separate from any one search interface.
-
-**Frontier signal (field lens):** reference boards can turn archives and cultural knowledge into uncredited extraction; treat every tile as a provenance decision, not a mood.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 Fashion representation teaching materials can simultaneously naturalise whiteness, colourism, thinness, and sexualisation — bias appears not only in final advertising but in the reference sets from which students learn to produce images (Reddy-Best, Choi, and Park 2018).
 
@@ -105,27 +94,87 @@ Whose context, agency, and right not to be reused are missing when a source beco
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Covered above: the sourcing-is-not-neutral claim, Campinho with its precise boundary, Reddy-Best critical lens, debate, and placeholders.
 
 ---
 
-## B2 · Studio — talleres 2 h + investigaciones y proyectos 2 h
+## Masterclass
 
-**Deliverable:** a small compositional-reference board (3–6 images) for one fashion concept, with a one-paragraph note naming what each reference contributes *and* one sentence reflecting on whether the sourcing process itself surfaced any representational pattern worth naming, per B1.
+**Claim:** sourcing a compositional reference is not a neutral act of collection — *what a search surfaces* already carries a representational politics, before a student has chosen which image to reference at all.
 
-**Definition of done:** board exists; note present; piece ID; process folder.
+Campinho, Cardim da Silva, Dantas Soares, and Amparo-Santos (2025) studied Google Images searches for “fat body” and “obese body.” They found contrasting patterns of empowerment and medicalised fragmentation that shape collective perceptions of bodies [(Campinho 2025, 2)](#ref-campinho-2025).
+
+**What this supports, and what it does not.** Campinho et al. (2025, 2) grounds the *ethics of the images students will encounter while sourcing* — a real demonstration that a search's own results carry a representational pattern before any creative choice. It does **not** ground a validated *teaching method for compositional-reference-sourcing* itself — no source here studies how to teach mood-boarding, visual research, or reference-attribution practice as a classroom sequence. Tool docs ground operations only — label `[PLATFORM]`, never research.
+
+**Practice anchor (field lens):** source hierarchy, visual function, citation, transformation, and provenance as durable research-studio constructs — separate from any one search interface.
+
+**Frontier signal (field lens):** reference boards can turn archives and cultural knowledge into uncredited extraction; treat every tile as a provenance decision, not a mood.
+
+## Lab (Portfolio)
+
+*Structural placeholder (EX9) — no DCI deck `lab_exercise` slides yet for this unit. Two illustrative exercises keep the Lab rhythm; replace when EX11 / deck wave lands.*
+
+### Exercise 1 — Name the CONTENIDOS move {#lab-exercise-1}
+
+**Time:** 15 minutes.
+
+**Group:** alone.
+
+**Materials:** notebook or laptop; timer; one rights-clear reference image for this unit's CONTENIDOS.
+
+**Steps:**
+
+1. Restate the unit CONTENIDOS anchor in one sentence (no tool brand).
+2. Name one craft decision this unit asks you to leave visible in a process note.
+3. Write one sentence on what a single-tool workflow would hide.
+4. Keep the note for the portfolio index.
+
+**Portfolio trace:** CONTENIDOS sentence + craft-visibility sentence + single-tool caution.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* CONTENIDOS: “Volume by hybrid iteration.” Craft left visible: physical maquette fold vs CLO pass. Caution: a CLO-only export would hide the drape correction the hand pass forced.
+
+### Exercise 2 — One process evidence pair {#lab-exercise-2}
+
+**Time:** 20 minutes.
+
+**Group:** alone; optional 2-minute peer share.
+
+**Materials:** the Exercise 1 note; one before/after or physical/digital pair; timer.
+
+**Steps:**
+
+1. Capture one before and one after (or physical vs digital) for the same piece.
+2. Write one sentence naming what the second pass revealed that the first did not.
+3. Reject any polish that erases the evidence of the pass.
+4. File both stills (or photos) under the piece ID.
+
+**Portfolio trace:** before/after pair + revelation sentence.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* Before: paper maquette crease at waist. After: digital pass exaggerates the crease. Sentence: “The screen invented tension the cloth did not have — keep the physical photo in the index.”
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (board); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none (compositional referencing is not on the vShowroom-eligible CONTENIDOS list).
+LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
+LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 1. **Diagnostic.** Given a reference board with no attribution and no reflection note, name what's missing from an honest sourcing practice.
 2. Write, by hand, the one-sentence representational-pattern reflection for a described board. **No AI — declared as such.**
@@ -139,6 +188,22 @@ outcome-graphic-selection:
   visual-grammar: "reference-lineage — distinct source fragments remain traceable as they become a transformed composite"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"Free as in freedom, stable as in tested. The Tao asks not for payment, only for proper attribution."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

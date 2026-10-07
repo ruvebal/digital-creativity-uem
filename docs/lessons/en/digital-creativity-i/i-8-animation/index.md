@@ -47,7 +47,7 @@ references: []
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Describe animation as implied motion through a sequence of stills** — and name the craft as choosing which stills to keep.
 - **Name timing, sequencing, transitions, and visual continuity** as core motion-design families before any brand-specific animation menu (Shaw 2015).
@@ -57,19 +57,8 @@ references: []
 
 ---
 
-## Why this unit exists — motion through chosen stills
-
-**Claim:** an animated image implies motion through a deliberately chosen sequence of stills, and the craft is deciding which stills to keep — not which effect or plug-in to add.
-
-Motion design requires timing, sequencing, transitions, typography, compositing, and visual continuity — the technical families this unit names before any tool-specific timeline (Shaw 2015). Software reshapes media authorship by hybridising older media languages into editable, compositable, animated forms; digital animation and motion graphics are languages of software and compositing, not autonomous effects (Manovich 2013).
-
-**What this supports, and what it does not.** Shaw (2015) and Manovich (2013) support technical and theoretical vocabulary for building animated images. They do **not** validate a fashion-HE **animation teaching sequence** for this classroom — no reviewed source establishes one here. Tool documentation grounds *how* any given animation tool works — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** frame, interval, keyframe, easing, anticipation, repetition, and loop as durable temporal constructs — separate from any one application's UI.
-
-**Frontier signal (field lens):** motion attracts attention but can accelerate consumption, hide labour, or exclude viewers sensitive to movement; treat any loop as a rhythm designed for someone — and offer a reduced-motion alternative.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 A substantial share of the media work performed by independent designers remains invisible even though it is indispensable for circulation and recognition on Instagram and other digital environments — negotiation, garment circulation, networking, and communication labour sit behind the apparent immediacy of platform fashion imagery (Skjulstad 2025).
 
@@ -108,7 +97,7 @@ The `img-002` epigraph's paradox — a loop that implies motion is, frame by fra
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h
+
 
 Covered above: Shaw/Manovich framing, Skjulstad critical lens, reflective prompt, and placeholders.
 
@@ -116,32 +105,99 @@ No debate slot this unit (0 h allocated, stated above).
 
 ---
 
-## B2 · Studio — talleres 1 h + investigaciones y proyectos 2 h
+## Masterclass
 
-**Deliverable:** one short animated sequence (GIF, sprite sheet, or simple loop) of a fashion detail — fabric drape, an accessory turn, a garment's silhouette shift — with a process note listing the stills chosen and why, plus a static or reduced-motion fallback where movement would exclude a viewer.
+**Claim:** an animated image implies motion through a deliberately chosen sequence of stills, and the craft is deciding which stills to keep — not which effect or plug-in to add.
 
-**Note on this unit's evidence channel:** because B3 carries 0 h this unit, the process note doubles as the individual-evidence artefact the resolución-de-problemas hours would otherwise carry. This collapsing is the one departure from "B2 ≠ B3" in this wave, disclosed here rather than silently absorbed.
+Motion design requires timing, sequencing, transitions, typography, compositing, and visual continuity — the technical families this unit names before any tool-specific timeline (Shaw 2015). Software reshapes media authorship by hybridising older media languages into editable, compositable, animated forms; digital animation and motion graphics are languages of software and compositing, not autonomous effects (Manovich 2013).
 
-**Definition of done:** sequence exists; process note present and specific; piece ID; static fallback noted where relevant.
+**What this supports, and what it does not.** Shaw (2015) and Manovich (2013) support technical and theoretical vocabulary for building animated images. They do **not** validate a fashion-HE **animation teaching sequence** for this classroom — no reviewed source establishes one here. Tool documentation grounds *how* any given animation tool works — label `[PLATFORM]`, never research.
+
+**Practice anchor (field lens):** frame, interval, keyframe, easing, anticipation, repetition, and loop as durable temporal constructs — separate from any one application's UI.
+
+**Frontier signal (field lens):** motion attracts attention but can accelerate consumption, hide labour, or exclude viewers sensitive to movement; treat any loop as a rhythm designed for someone — and offer a reduced-motion alternative.
+
+## Lab (Portfolio)
+
+*Structural placeholder (EX9) — no DCI deck `lab_exercise` slides yet for this unit. Two illustrative exercises keep the Lab rhythm; replace when EX11 / deck wave lands.*
+
+### Exercise 1 — Name the CONTENIDOS move {#lab-exercise-1}
+
+**Time:** 15 minutes.
+
+**Group:** alone.
+
+**Materials:** notebook or laptop; timer; one rights-clear reference image for this unit's CONTENIDOS.
+
+**Steps:**
+
+1. Restate the unit CONTENIDOS anchor in one sentence (no tool brand).
+2. Name one craft decision this unit asks you to leave visible in a process note.
+3. Write one sentence on what a single-tool workflow would hide.
+4. Keep the note for the portfolio index.
+
+**Portfolio trace:** CONTENIDOS sentence + craft-visibility sentence + single-tool caution.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* CONTENIDOS: “Volume by hybrid iteration.” Craft left visible: physical maquette fold vs CLO pass. Caution: a CLO-only export would hide the drape correction the hand pass forced.
+
+### Exercise 2 — One process evidence pair {#lab-exercise-2}
+
+**Time:** 20 minutes.
+
+**Group:** alone; optional 2-minute peer share.
+
+**Materials:** the Exercise 1 note; one before/after or physical/digital pair; timer.
+
+**Steps:**
+
+1. Capture one before and one after (or physical vs digital) for the same piece.
+2. Write one sentence naming what the second pass revealed that the first did not.
+3. Reject any polish that erases the evidence of the pass.
+4. File both stills (or photos) under the piece ID.
+
+**Portfolio trace:** before/after pair + revelation sentence.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* Before: paper maquette crease at waist. After: digital pass exaggerates the crease. Sentence: “The screen invented tension the cloth did not have — keep the physical photo in the index.”
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (sequence); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
+LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
+LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
 -->
 {% endif %}
 
-{% comment %}
-outcome-graphic-selection:
-  source-section: "B2 · Studio"
-  visual-grammar: "temporal-loop — changing frames close into a loop while a parallel evidence trace preserves timing choices"
-{% endcomment %}
-{% include lesson-outcome-graphic.html %}
+---
+
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
+
+Stated as content, not omitted silently: the allocation table gives this unit 0 h resolución de problemas. B2's process note carries the individual-evidence weight instead (see the note above).
 
 ---
 
-## B3 · Resolución de problemas — 0 h · none this unit
+## Conclusion
 
-Stated as content, not omitted silently: the allocation table gives this unit 0 h resolución de problemas. B2's process note carries the individual-evidence weight instead (see the note above).
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"A GIF that loops forever teaches us: motion without movement is still life."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 ---
 

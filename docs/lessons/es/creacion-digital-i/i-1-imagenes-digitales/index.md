@@ -56,7 +56,7 @@ cover-agentic:
 -->
 {% endif %}
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 Al final de esta unidad podrás:
 
@@ -67,30 +67,8 @@ Al final de esta unidad podrás:
 
 ---
 
-## Por qué existe esta unidad: una imagen es un campo de prácticas, no un formato de archivo
-
-**Afirmación:** una imagen digital de moda se define por las prácticas que la rodean — quién la hizo, para qué medio, bajo qué objetivos compartidos — no por su formato de píxeles. Shinkle documenta la fotografía de moda como un abanico que abarca trabajo editorial, publicitario, de belleza, retrato y documental, producido por muchos colaboradores cualificados en contextos compartidos, con una tensión característica entre fines artísticos y comerciales que el propio campo describe como «móvil y altamente permeable» (Shinkle 2008, 15).
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-**Afirmación:** una imagen digital de moda se define por las prácticas que la rodean — quién la hizo, para qué medio, bajo qué objetivos compartidos — no por su formato de píxeles. No es un encuadre estilístico; es un rasgo documentado del propio campo. La fotografía de moda "comprende un amplio abanico de prácticas (editorial y publicitaria, belleza, retrato y fotografía documental…) e implica a un conjunto de creativos y profesionales cualificados… reunidos por objetivos y contextos compartidos", y si hay una característica compartida por todas las fotografías de moda es "su colocación simultánea en los ámbitos artístico y comercial" — una frontera que el propio campo trata como "móvil y altamente permeable", no fija (Shinkle 2008, 15 — coat Ahmes `1936070c`, nodo `cca1472b-b0c6-594c-8e13-ed87d6b73897`).
--->
-{% endif %}
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-**Qué fundamenta esto, y qué no.** Shinkle (2008) fundamenta el marco de *campo de prácticas* con el que abre esta unidad — un relato revisado por pares, genuino, de cómo el propio discurso de la fotografía de moda resiste un género o frontera única y fija. **No** fundamenta Photoshop, Illustrator, ni la pedagogía de ninguna herramienta concreta: ninguna fuente del vault valida *cómo enseñar mejor* la alfabetización en imagen digital como secuencia de aula. Esa laguna queda abierta y se nombra aquí en vez de disimularse.
--->
-{% endif %}
-
-### La pregunta de debate
-
-Plantea esto al grupo antes de la pieza de taller: **si la misma imagen se lee como "arte" en el pie de una galería y como "comercio" en el pie de un anuncio, ¿de quién es la intención que decide cuál es — de quien la hizo, del medio, o de quien la mira?** El propio planteamiento de Shinkle sugiere que la frontera es "móvil y altamente permeable" en vez de estar resuelta por ninguno de los tres — ¿responde eso a la pregunta, o solo la traslada?
-
-**Anclaje de práctica (perspectiva de campo):** el marco de campo de prácticas de Shinkle — editorial, publicitaria, retrato, documental — es el anclaje académico establecido de esta unidad.
-
-**Señal de frontera (perspectiva de campo):** las imágenes de moda circulan cada vez más como un sistema de marca distribuido entre publicaciones, vídeo breve, web y medios inmersivos. Esta unidad nombra esa frontera; la evidencia sobre mediación algorítmica en educación de moda sigue siendo una laguna abierta — no un temario transmedia prescrito.
-
-## Perspectiva crítica
+## Análisis
+### Perspectiva crítica
 
 La mediatización digital alcanza no solo la comunicación de la moda sino el diseño de desfile, el retail y las prácticas cotidianas mediante las que se produce el yo visible — por eso una unidad introductoria debe leer circulación y medio, no solo formato de archivo (Rocamora 2017).
 
@@ -125,45 +103,139 @@ Antes de que el alumnado recopile imágenes de referencia, conviene auditar qui�
 
 ---
 
-## B1 · Conceptual — magistral 2 h + seminarios 3 h + debates 1 h
+
 
 Cubierto arriba: la afirmación del campo de prácticas, la cita de Shinkle, la pregunta de debate y los marcadores de proyección. Sin código ni secuencia de herramienta en esta unidad — CD I se abre con orientación antes que con técnica.
 
 ---
 
-## B2 · Lab (Portfolio)
+## Masterclass
 
-**Anunciado primero por una diapositiva geométrica:** **dos** ejercicios; todo lo que produzcas en Lab entra en tu **índice de portfolio**.
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/50123c6eb70f0276.webp' | relative_url }}" alt="A historical beauty advertisement" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-1" %}</figcaption>
+</figure>
 
-### Ejercicio 1 — Coloca una imagen en el campo
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/bf651ca6c925cff0.webp' | relative_url }}" alt="Lautrec the photographer sescau (poster) 1894.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-2" %}</figcaption>
+</figure>
 
-Elige **una** imagen de moda (encontrada o propia). En papel o en una nota breve, colócala en el campo — no por tipo de archivo:
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/affb13f5f7c9d0f8.webp' | relative_url }}" alt="Illustrated fashion catalogue page from summer 1890" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-3" %}</figcaption>
+</figure>
 
-1. **Práctica** — editorial / publicidad / belleza / retrato / documental (o tu etiqueta defendida)  
-2. **Agentes / actores** — quién la hizo o representa al equipo (fotógrafo, estilista, modelo, editor, marca…)  
-3. **Sedes / venues** — dónde se muestra o podría mostrarse (galería, campaña, pasarela, retail, exposición…)  
-4. **Intereses** — quién pagó, a quién se dirige la mirada, qué trabajo hace la imagen  
+<figure class="lesson-figure" id="figure-masterclass-4" markdown="0">
+<img src="{{ '/assets/images/deck-media/e16150afa0636624.webp' | relative_url }}" alt="Beauty is my business, says Anne Piron, 1950.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-4" %}</figcaption>
+</figure>
 
-Luego escribe una frase explicando por qué «es un JPEG» (u otro nombre de contenedor) **no** responde a «¿qué tipo de imagen de moda es esta?»
+<figure class="lesson-figure" id="figure-masterclass-5" markdown="0">
+<img src="{{ '/assets/images/deck-media/9783673c60ce2f5e.webp' | relative_url }}" alt="Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-5" %}</figcaption>
+</figure>
 
-**Huella de portfolio:** mapa de campo (práctica · agentes · sedes · intereses) + una frase contenedor-vs-práctica.
+<figure class="lesson-figure" id="figure-masterclass-6" markdown="0">
+<img src="{{ '/assets/images/deck-media/ae43d3487632fd88.webp' | relative_url }}" alt="Fan SAAM-1935.8.20 1.jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-1-fashion-image" slide="masterclass-6" %}</figcaption>
+</figure>
 
-### Ejercicio 2 — ¿Dónde te imaginas en el campo?
 
-Abre el [Directorio de campo]({{ '/directory/en/' | relative_url }}) del curso. Quédate en esa página — salta por secciones. Elige **un premio**, **un estudio o lab** y **una figura**. Escribe dos frases sobre dónde te imaginas entre esos tres pines (aspiración de práctica, no un CV).
-
-**Huella de portfolio:** tres pines del Directorio (nombre + sección) + posición en dos frases.
+**Afirmación:** una imagen digital de moda se define por las prácticas que la rodean — quién la hizo, para qué medio, bajo qué objetivos compartidos — no por su formato de píxeles. Shinkle documenta la fotografía de moda como un abanico que abarca trabajo editorial, publicitario, de belleza, retrato y documental, producido por muchos colaboradores cualificados en contextos compartidos, con una tensión característica entre fines artísticos y comerciales que el propio campo describe como «móvil y altamente permeable» (Shinkle 2008, 15).
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+**Afirmación:** una imagen digital de moda se define por las prácticas que la rodean — quién la hizo, para qué medio, bajo qué objetivos compartidos — no por su formato de píxeles. No es un encuadre estilístico; es un rasgo documentado del propio campo. La fotografía de moda "comprende un amplio abanico de prácticas (editorial y publicitaria, belleza, retrato y fotografía documental…) e implica a un conjunto de creativos y profesionales cualificados… reunidos por objetivos y contextos compartidos", y si hay una característica compartida por todas las fotografías de moda es "su colocación simultánea en los ámbitos artístico y comercial" — una frontera que el propio campo trata como "móvil y altamente permeable", no fija (Shinkle 2008, 15 — coat Ahmes `1936070c`, nodo `cca1472b-b0c6-594c-8e13-ed87d6b73897`).
+-->
+{% endif %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-Sin S1/S2 en esta unidad — el ROL DE ARTEFACTO es **ninguno** (la introducción a la imagen digital no está en la lista de anclajes CONTENIDOS elegibles para vShowroom).
-Lab = exactamente dos ejercicios (forja 2026-09-16); no reintroducir Boundary / JPEG / Directory como tres tareas separadas.
+**Qué fundamenta esto, y qué no.** Shinkle (2008) fundamenta el marco de *campo de prácticas* con el que abre esta unidad — un relato revisado por pares, genuino, de cómo el propio discurso de la fotografía de moda resiste un género o frontera única y fija. **No** fundamenta Photoshop, Illustrator, ni la pedagogía de ninguna herramienta concreta: ninguna fuente del vault valida *cómo enseñar mejor* la alfabetización en imagen digital como secuencia de aula. Esa laguna queda abierta y se nombra aquí en vez de disimularse.
+-->
+{% endif %}
+
+### La pregunta de debate
+
+Plantea esto al grupo antes de la pieza de taller: **si la misma imagen se lee como "arte" en el pie de una galería y como "comercio" en el pie de un anuncio, ¿de quién es la intención que decide cuál es — de quien la hizo, del medio, o de quien la mira?** El propio planteamiento de Shinkle sugiere que la frontera es "móvil y altamente permeable" en vez de estar resuelta por ninguno de los tres — ¿responde eso a la pregunta, o solo la traslada?
+
+**Anclaje de práctica (perspectiva de campo):** el marco de campo de prácticas de Shinkle — editorial, publicitaria, retrato, documental — es el anclaje académico establecido de esta unidad.
+
+**Señal de frontera (perspectiva de campo):** las imágenes de moda circulan cada vez más como un sistema de marca distribuido entre publicaciones, vídeo breve, web y medios inmersivos. Esta unidad nombra esa frontera; la evidencia sobre mediación algorítmica en educación de moda sigue siendo una laguna abierta — no un temario transmedia prescrito.
+
+## Lab (Portfolio)
+
+*Bloque de sesión · Una diapositiva geométrica anuncia el Lab: **dos** ejercicios. Todo lo que produzcas en Lab entra en tu **índice de portfolio**. Los Labs practican ideas de Masterclass y alimentan el oficio ACT — no son un segundo canal evaluable de Campus Virtual.*
+
+### Ejercicio 1 — Read one fashion photograph for the field {#lab-exercise-1}
+
+Practises Masterclass ideas **1** (field of practices) and **3** (many genres at once).
+
+**Time:** 15 minutes (12 alone, 3 pair share).
+
+**Group:** alone, then pairs for a short share.
+
+**Materials:** one rights-clear or course-set fashion photograph (the image you will later use as a figurín reference); paper or a laptop; timer.
+
+**Steps:**
+
+1. Choose one fashion photograph you can attribute.
+2. Map **practice**, **agents/actors**, **venues**, and **interests** on paper or in a short note.
+3. Write one sentence explaining why a container name (JPEG, RAW, PNG) is **not** an answer to “what kind of fashion image is this?”
+4. Name one art/commerce tension the image carries.
+5. Keep this image as the reference for Exercise 2.
+
+**Portfolio trace:** field map (practice · agents · venues · interests) + container-vs-practice sentence + art/commerce note.
+
+**Judged by:** [Portfolio rubric — process evidence and critical judgement]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Fashion photographs as a wide array of practices with a permeable art/commerce boundary [(Shinkle 2008, 15)](#ref-shinkle-2008). The numbered steps are a classroom adaptation.
+
+**Example trace:** *(Illustrative · not student work.)* Practice: editorial. Agents: photographer + stylist. Venue: lookbook PDF. Interests: brand launch. Sentence: “JPEG is storage; the job is editorial circulation.” Art/commerce: gallery reprint of the same frame.
+
+
+### Ejercicio 2 — Start a digital figurín scaffold {#lab-exercise-2}
+
+Practises Masterclass idea **2** (not a file format — the figurín is a practice). Feeds **ACT1 Figurín** craft without inventing a graded submit here.
+
+**Time:** 20 minutes.
+
+**Group:** alone.
+
+**Materials:** drawing tablet or laptop with a drawing app; the photograph from Exercise 1; timer.
+
+**Steps:**
+
+1. Set a visible head-count or grid scaffold on a blank canvas.
+2. Block the figure as simple volumes before any garment detail.
+3. Keep garment finish for later (I.2) — stop at scaffold + volumes.
+4. Export a scaffold-only file (or a clearly named layer state).
+5. Write one sentence naming a proportion decision that would survive hand → raster → vector.
+
+**Portfolio trace:** scaffold-only export + proportion-survival sentence.
+
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (figurín pedagogy sequence held — Abling page cite open in the research manifest).
+
+**Example trace:** *(Illustrative · not student work.)* Head-count scaffold on blank canvas; blocked torso as three volumes; export named `figurin-scaffold-only.png`; proportion sentence: “Eight-head grid survives if waist landmark stays before finish.”
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+LAB_LINE: exercise=1; method_id=fashion-photograph-reading; practises=masterclass-1,masterclass-3; source=shinkle-2008 (verified); steps=classroom adaptation; ACT=ACT1-prep
+LAB_LINE: exercise=2; method_id=figurin-digital; practises=masterclass-2; source=held/classroom adaptation; ACT=ACT1
 -->
 {% endif %}
 
 ---
 
-## B3 · Continuación (sin Workshop esta semana)
+## Workshop
+
+Sin Workshop en las sesiones 1–2: las primeras lecciones terminan tras el Lab.
+
+Sin Workshop en las sesiones 1–2: las primeras lecciones terminan tras el Lab.
+
 
 Las primeras lecciones **no** tienen bloque Workshop. Lab cierra la sesión.
 
@@ -183,6 +255,22 @@ outcome-graphic-selection:
   visual-grammar: "practice-boundary — un campo de imagen clasificado atraviesa un umbral artístico-comercial móvil"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusión
+
+Esta unidad deja lagunas nombradas a propósito: lo que el vault puede verificar con página queda en Referencias; lo abierto queda en la Nota editorial. Mantén las trazas de Lab honestas en el índice de portfolio. No inventes un entregable evaluable que How to Pass no pide. La siguiente apuesta es el ritmo de sesión ya nombrado — defensa de Análisis (D1) desde la sesión 3; Workshop desde la sesión 4 para Transposición y el evento final.
+
+---
+
+## Tao de la imagen {#tao-of-the-image}
+
+Epígrafe de la unidad (registro Tao de estudio — no es cita académica):
+
+> _"El camino a la maestría empieza con la lectura. El camino a la iluminación continúa con la práctica."_
+
+Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
 
 ---
 

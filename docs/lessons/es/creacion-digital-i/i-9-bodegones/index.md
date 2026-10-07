@@ -45,7 +45,7 @@ references: []
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 - **Describir un bodegón digital como un ejercicio de síntesis** que se apoya en el marco de prácticas de I.1, la alfabetización de disposición de I.2, las decisiones de color de I.3 y la disciplina de efectos de I.4.
 - **Declarar con claridad que ninguna fuente revisada valida una secuencia de enseñanza de composición de bodegón.**
@@ -54,17 +54,8 @@ references: []
 
 ---
 
-## Por qué existe esta unidad — síntesis con un límite honesto
-
-**Afirmación:** un bodegón digital es donde el marco de campo de prácticas (I.1), la alfabetización de dibujo/disposición (I.2), las decisiones de color (I.3) y la disciplina de efectos (I.4) convergen en una imagen deliberadamente equilibrada — un ejercicio de síntesis, no una técnica nueva.
-
-**Qué fundamenta esto, y qué no.** Las unidades previas aportan disciplinas de oficio que esta pieza debe reutilizar de verdad — no como menciones decorativas. Ninguna fuente revisada valida una **secuencia de enseñanza de composición de bodegón**, digital o de otro tipo — declarado con claridad en vez de suponerlo. La documentación de herramienta fundamenta *cómo* funciona una herramienta de composición dada — etiqueta `[PLATFORM]`, nunca investigación. No se hace afirmación de exposición en esta unidad, así que el consentimiento de vitrina pública (S1/S2) queda explícitamente fuera de alcance.
-
-**Anclaje de práctica (lente de campo):** jerarquía, espacio negativo, escala, solapamiento, valor, material y recorrido focal como constructos compositivos duraderos — separados del stack de filtros de cualquier aplicación.
-
-**Señal de frontera (lente de campo):** la composición de bodegón convierte objetos, materiales y valor en una jerarquía de atención y deseo; nombra qué trabajo o historia material desaparece detrás de la superficie calmada.
-
-## Perspectiva crítica
+## Análisis
+### Perspectiva crítica
 
 La economía influencer obtiene valor no solo del contenido de los creadores sino también del trabajo de visibilidad realizado por audiencias y seguidores — la disposición calmada de un bodegón puede ocultar la negociación necesaria para hacer deseables los objetos online (Abidin 2016).
 
@@ -103,29 +94,85 @@ La economía influencer obtiene valor no solo del contenido de los creadores sin
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 3 h + debates 1 h
+
 
 Cubierto arriba: afirmación de síntesis, lente crítica Abidin, debate y marcadores de posición.
 
 ---
 
-## B2 · Taller — talleres 2 h + investigaciones y proyectos 3 h
+## Masterclass
 
-**Entregable:** una composición de bodegón digital — objetos/accesorios de moda dispuestos, compuestos digitalmente o dibujados — con una nota de proceso que explique las decisiones de equilibrio tomadas (qué se añadió, quitó o redimensionó, y por qué), referenciando explícitamente al menos una decisión de cada una de I.1–I.4 donde sea aplicable.
+**Afirmación:** un bodegón digital es donde el marco de campo de prácticas (I.1), la alfabetización de dibujo/disposición (I.2), las decisiones de color (I.3) y la disciplina de efectos (I.4) convergen en una imagen deliberadamente equilibrada — un ejercicio de síntesis, no una técnica nueva.
 
-**Definición de terminado:** ID de pieza; carpeta de proceso; nota de proceso presente, y las referencias a I.1–I.4 deben ser genuinas (una decisión real rastreada), no menciones decorativas.
+**Qué fundamenta esto, y qué no.** Las unidades previas aportan disciplinas de oficio que esta pieza debe reutilizar de verdad — no como menciones decorativas. Ninguna fuente revisada valida una **secuencia de enseñanza de composición de bodegón**, digital o de otro tipo — declarado con claridad en vez de suponerlo. La documentación de herramienta fundamenta *cómo* funciona una herramienta de composición dada — etiqueta `[PLATFORM]`, nunca investigación. No se hace afirmación de exposición en esta unidad, así que el consentimiento de vitrina pública (S1/S2) queda explícitamente fuera de alcance.
 
-**Sin afirmación de exposición, así que sin S1/S2 en esta unidad.**
+**Anclaje de práctica (lente de campo):** jerarquía, espacio negativo, escala, solapamiento, valor, material y recorrido focal como constructos compositivos duraderos — separados del stack de filtros de cualquier aplicación.
+
+**Señal de frontera (lente de campo):** la composición de bodegón convierte objetos, materiales y valor en una jerarquía de atención y deseo; nombra qué trabajo o historia material desaparece detrás de la superficie calmada.
+
+## Lab (Portfolio)
+
+*Marcador estructural (EX9) — aún no hay slides `lab_exercise` de deck DCI para esta unidad. Dos ejercicios ilustrativos mantienen el ritmo de Lab; se sustituyen cuando llegue la ola de decks.*
+
+### Ejercicio 1 — Nombra el movimiento de CONTENIDOS {#lab-exercise-1}
+
+**Time:** 15 minutes.
+
+**Group:** individual.
+
+**Materials:** cuaderno o portátil; temporizador; una imagen de referencia con derechos claros para el CONTENIDOS de esta unidad.
+
+**Steps:**
+
+1. Reformula el ancla de CONTENIDOS en una frase (sin marca de herramienta).
+2. Nombra una decisión de oficio que esta unidad pide dejar visible en la nota de proceso.
+3. Escribe una frase sobre lo que ocultaría un flujo de una sola herramienta.
+4. Guarda la nota para el índice de portfolio.
+
+**Portfolio trace:** frase CONTENIDOS + frase de visibilidad de oficio + cautela mono-herramienta.
+
+**Judged by:** [Rúbrica de portfolio — evidencia de proceso]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Adaptación de aula (Labs de deck pendientes — marcador estructural).
+
+**Example trace:** *(Ilustrativo · no es trabajo de estudiante.)* CONTENIDOS: «Volumen por iteración híbrida.» Oficio visible: pliegue de maqueta física vs pase CLO. Cautela: un export solo CLO ocultaría la corrección de drapeo que forzó la mano.
+
+### Ejercicio 2 — Un par de evidencia de proceso {#lab-exercise-2}
+
+**Time:** 20 minutes.
+
+**Group:** individual; compartir opcional 2 minutos.
+
+**Materials:** la nota del Ejercicio 1; un par antes/después o físico/digital; temporizador.
+
+**Steps:**
+
+1. Captura un antes y un después (o físico vs digital) de la misma pieza.
+2. Escribe una frase nombrando lo que el segundo pase reveló que el primero no.
+3. Rechaza cualquier pulido que borre la evidencia del pase.
+4. Archiva ambas imágenes bajo el ID de pieza.
+
+**Portfolio trace:** par antes/después + frase de revelación.
+
+**Judged by:** [Rúbrica de portfolio — evidencia de proceso]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Adaptación de aula (Labs de deck pendientes — marcador estructural).
+
+**Example trace:** *(Ilustrativo · no es trabajo de estudiante.)* Antes: pliegue de maqueta en papel en la cintura. Después: el pase digital exagera el pliegue. Frase: «La pantalla inventó una tensión que la tela no tenía — conserva la foto física en el índice.»
 
 {% if site.publication.publish_internal_metadata %}
-<!--  curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (composition); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
+<!-- curriculum-internal:
+LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
+LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, descontextualizada
+## Workshop
+
+Desde la sesión 4: el Workshop es tiempo de estudio protegido para D2 Transposición y D3 evento final (≈ mitad / mitad) — no es reloj de D1 Análisis.
+
 
 1. **Diagnóstico.** Dada la descripción de un bodegón que se lee como visualmente "demasiado pesado" según el marco de img-070, nombra qué debería quitar o aligerar un pase de reequilibrio.
 2. Escribe a mano la nota de proceso de decisión de equilibrio para una disposición descrita. **Sin IA — declarado como tal.**
@@ -139,6 +186,22 @@ outcome-graphic-selection:
   visual-grammar: "compositional-balance — objetos desiguales redistribuyen luz y peso visual alrededor de un fulcro calibrado"
 {% endcomment %}
 {% include lesson-outcome-graphic.html %}
+
+---
+
+## Conclusión
+
+Esta unidad deja lagunas nombradas a propósito: lo que el vault puede verificar con página queda en Referencias; lo abierto queda en la Nota editorial. Mantén las trazas de Lab honestas en el índice de portfolio. No inventes un entregable evaluable que How to Pass no pide. La siguiente apuesta es el ritmo de sesión ya nombrado — defensa de Análisis (D1) desde la sesión 3; Workshop desde la sesión 4 para Transposición y el evento final.
+
+---
+
+## Tao de la imagen {#tao-of-the-image}
+
+Epígrafe de la unidad (registro Tao de estudio — no es cita académica):
+
+> _"El camino de la imagen es el camino del equilibrio. Demasiado pesada, y el usuario se va. Demasiado ligera, y el sentido se pierde. Demasiadas, y el mensaje se ahoga. Muy pocas, y la página habla en monotonía."_
+
+Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
 
 ---
 
