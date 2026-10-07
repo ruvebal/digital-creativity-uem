@@ -41,6 +41,24 @@ function gitHead() {
   }
 }
 
+/** Strip Liquid-gated internal metadata (same switch as publication safety). */
+function publicSource(markdown) {
+  const out = [];
+  let depth = 0;
+  for (const line of markdown.split(/\r?\n/)) {
+    if (line.includes("{% if site.publication.publish_internal_metadata %}")) {
+      depth += 1;
+      continue;
+    }
+    if (depth && line.includes("{% endif %}")) {
+      depth -= 1;
+      continue;
+    }
+    if (!depth) out.push(line);
+  }
+  return out.join("\n");
+}
+
 function countMatches(files, re) {
   let n = 0;
   const hits = [];
@@ -52,6 +70,7 @@ function countMatches(files, re) {
     } catch {
       continue;
     }
+    if (f.endsWith(".md")) text = publicSource(text);
     if (re.test(text)) {
       n += 1;
       if (hits.length < 20) hits.push(rel(f));

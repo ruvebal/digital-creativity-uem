@@ -57,14 +57,14 @@ Al final de esta unidad podrás:
 
 ## Mapa de evidencias (por idea)
 
-| Idea | Claim corto | Evidencia SAFE | Caso vivo (Profield rank · Track) | Qué no hace esta fuente |
+| Idea | Claim corto | Evidencia SAFE | Caso vivo (campaña · Track) | Qué no hace esta fuente |
 | --- | --- | --- | --- | --- |
 | 1 | Sistema de presencia, no calendario | (Nobile 2021, 294) · (Abidin 2016, 2) | **Action Works** rank 6 · **Track A** — (UNEP 2023, 79) | Nobile mapea; Abidin = trabajo de visibilidad |
 | 2 | Atractivo ≠ solo información | (UNEP 2023, 49) | **Project Earth** rank 9 · **Track A** — (UNEP 2023, 56) | No es un manual de copy |
 | 3 | Las métricas son decisiones | (UNEP 2023, 27) | **Levi’s** rank 8 · **A** vs **PayUp** rank 1 · **C** — (UNEP 2023, 55 · 80) | No valida un KPI concreto de marca |
 | 4 | Transparencia bajo presión de claims | (UNEP 2023, 26) · (Alkkiomäki 2024, 2) | Audita Levi’s(8) o Project Earth(9); Alkkiomäki = H&M/Lindex | UNEP = claims UE; Alkkiomäki = CDA Instagram |
 
-Banco canónico: Profield `CANONICAL.md` → `20260925T200000Z/TEACHING-CAMPAIGN-LEDGER.md`.
+Banco canónico: ledger de campañas docentes del curso.
 
 ---
 
@@ -252,4 +252,4 @@ HTML estudiantil sin nombres de herramientas internas. Campañas de estudio ancl
 
 Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U2 unit forge, teaching-campaign ledger adjudication (`fashion-exemplary-social-campaigns` · `20260925T200000Z`), and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
 
-*Forge date: 2026-09-25 · Studio: <span class="domain">crea-comm.net</span>*
+

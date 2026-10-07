@@ -23,7 +23,7 @@ Track: [Nuevos medios — RRSS y plataformas]({{ '/tracks/es/nuevos-medios-moda/
 | U5 | Herramientas digitales y análisis de datos | [Lección]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | — *(andamiaje)* |
 | U6 | Futuro de la comunicación digital | [Lección]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | — *(andamiaje)* |
 
-**Estado:** U1–U3 forjadas (Masterclass + deck Reveal · ledger de campañas). U4–U6 andamiaje hasta forja `nm-unit-forge`.
+**Estado:** U1–U3 publicadas (Masterclass + deck Reveal · ledger de campañas). U4–U6 siguen en andamiaje hasta la autoría completa de unidad.
 
 ## Master Lectures (transversal · inglés)
 

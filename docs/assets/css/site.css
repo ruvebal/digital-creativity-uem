@@ -1,4 +1,4 @@
-/* ATELIER UDIT – minimal prose + layout */
+/* Digital Creativity – minimal prose + layout */
 :root {
 	/* Layout scale */
 	--max: clamp(66ch, 2.5vw + 78ch, 104ch); /* Harmonic readable measure for prose (wider) */

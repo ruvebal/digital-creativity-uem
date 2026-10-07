@@ -23,7 +23,7 @@ Track twin: [New Media (EN)]({{ '/tracks/en/nuevos-medios-moda/' | relative_url 
 | U5 | Digital tools and data analysis | [EN]({{ '/lessons/en/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | — *(scaffold)* |
 | U6 | Future of digital communication | [EN]({{ '/lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | — *(scaffold)* |
 
-**Status:** U1–U3 forged (Masterclass + Reveal deck · campaign ledger). U4–U6 scaffold until `nm-unit-forge`.
+**Status:** U1–U3 published (Masterclass + Reveal deck · campaign ledger). U4–U6 remain scaffold until full unit authoring.
 
 ## Master Lectures (transversal · English)
 

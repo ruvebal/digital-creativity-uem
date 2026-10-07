@@ -143,4 +143,4 @@ Cold B1 para U3 ideas 1 y 4 sigue opcional. Reveal deck shipped 2026-09-26. Bene
 
 Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U3 unit forge, teaching-campaign ledger adjudication (`fashion-exemplary-social-campaigns` · `20260925T200000Z`), and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
 
-*Forge date: 2026-09-26 · Studio: <span class="domain">crea-comm.net</span>*
+

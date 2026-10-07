@@ -73,32 +73,26 @@ These six ideas follow I.1's homogenized voice. Where pedagogy sources lack page
 
 #### 1 · Drawing as thinking
 
-<!-- thessia:dc-i2-idea1 -->
 A silhouette that only exists in your head cannot be argued with — a path on screen can. Drawing in this unit is treated as externalised visual thinking: you put a contour where others can see it, then revise before polish. [Exercise 1](#exercise-1--contour-from-primitives) forces that visibility by building one fashion silhouette from primitives with construction marks left on. Tonight, redraw one sleeve twice and keep both versions side by side — which decision became visible only after the second path? The counter-critic is real — some designers sketch better on paper first — and this unit does not claim vector-first is universally superior; that fashion-specific sequence claim remains open.
 
 #### 2 · Vector is relationship
 
-<!-- thessia:dc-i2-idea2 -->
 Pixels are a grid; a vector path is a set of relations — where points sit, how handles pull, what fills close. That distinction is why "I drew it in a raster app" cannot satisfy this unit's CONTENIDOS anchor by itself. In [Exercise 2](#exercise-2--wrong-curve-handle) you diagnose a visibly wrong curve handle and say what a correct handle would do — the language is relational, not brand-loyal. Open any path you made today and name one handle that is doing real work and one that is noise. Tool documentation can tell you *how* a handle moves; it cannot tell you which relation the silhouette needed — that judgement stays with you, and no vault page yet closes the fashion-specific teaching sequence.
 
 #### 3 · Technique inside problems
 
-<!-- thessia:dc-i2-idea3 -->
 Button drills produce students who remember menus and forget silhouettes. The strongest contemporary model this unit borrows is studio-based, assignment-driven learning: software technique lives inside a visual problem, not beside it (Curcic 2024 — page cite still open). That is why the Lab never asks you to "practise the Pen tool" in the abstract — it asks for a contour, a diagnosis, three alternatives. Redesign your own practice tonight: replace one isolated command drill with one silhouette problem that requires the same command — what changed in what you noticed? Higher-education digital-drawing studies support assignment redesign in general; they do **not** yet give us a validated fashion-HE sequence, and that gap stays named.
 
 #### 4 · Fashion visual grammar
 
-<!-- thessia:dc-i2-idea4 -->
 A croquis is not software — it is a proportion habit that survives hand, raster, and vector. Fashion drawing conventions (proportion, croquis, flats) are the transferable grammar this unit leans on (Abling 2023 — page cite still open). When you build [Exercise 1](#exercise-1--contour-from-primitives), ask which lines are construction and which are finish — that distinction is the grammar, not the brand of the app. Compare one flat and one croqui of the same garment from your notes: which decisions travelled, which died in the medium change? Manual literacy does not prove digital-tool pedagogy; treating the grammar as settled software method would overclaim what we can page-verify.
 
 #### 5 · Audit the reference body
 
-<!-- thessia:dc-i2-idea5 -->
 The manuals that teach fashion drawing can already decide who counts as a "normal" body before you open a file. Before you lock your silhouette brief, audit one reference you nearly treated as neutral — who is present, who is missing, whose proportions became default (Reddy-Best et al. 2018 — page cite still open). Write one sentence into the process note naming a low-tech alternative or access barrier your workflow assumes. Tool fluency often rewards prior access to hardware and studio conventions; naming that is studio practice, not a claim we can already page-verify as classroom efficacy.
 
 #### 6 · Three alternatives
 
-<!-- thessia:dc-i2-idea6 -->
 One polished silhouette is usually a first idea wearing better clothes. [Exercise 3](#exercise-3--three-alternatives) requires three visibly different versions, scored on novelty and fit, then a defended winner — the scoring is the design act. Bring the three files and the sheet into Workshop; if you cannot say what each alternative refused, you are not done. Selection without named criteria just reinstalls the room's taste; whether vector-first changes what beginners notice about silhouette is exactly the debate this unit leaves standing.
 
 {% if site.publication.publish_internal_metadata %}
@@ -209,17 +203,7 @@ This note is part of an ongoing *Práctica de Innovación docente* — epistemic
 
 ## AI-assisted authorship
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
-crea-comm.net studio environment — a local agentic harness with MCP-backed
-retrieval, RAG context from the curriculum vault, and a scholar-voice model
-fine-tuned on his own writing. Forging consulted **9** vault sources; every
-public `(Author, Year)` was checked against that vault before acceptance.
-Prompts, model drafts, and human amendments are archived for later evaluation.
-Editorial judgment and responsibility for the final text remain with the author.
-
-Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

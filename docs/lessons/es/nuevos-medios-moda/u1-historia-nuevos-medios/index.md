@@ -93,7 +93,7 @@ Al final de esta unidad podrás:
 
 ## Mapa de evidencias (por idea)
 
-| Idea | Claim corto | Evidencia SAFE | Caso vivo (Profield rank · Track) | Qué no hace esta fuente |
+| Idea | Claim corto | Evidencia SAFE | Caso vivo (campaña · Track) | Qué no hace esta fuente |
 | --- | --- | --- | --- | --- |
 | 1 | La historia de medios es mapa de poder | (Nobile 2021, 294) · (Lamerichs 2024, 3) | **PayUp** rank 1 · **Track C** — (UNEP 2023, 80) | No es una crónica general de Internet |
 | 2 | La transformación digital toca toda la moda | (Nobile 2021, 294) | **Action Works** rank 6 · **Track A** — (UNEP 2023, 79) | No prescribe un roadmap de marca |
@@ -294,6 +294,6 @@ Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_u
 
 Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U1 unit forge, teaching-campaign ledger adjudication (`fashion-exemplary-social-campaigns` · `20260925T200000Z`), and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
 
-*Forge date: 2026-09-25 · Studio: <span class="domain">crea-comm.net</span>*
+
 
 See also the course [AI-assisted authorship declaration]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).

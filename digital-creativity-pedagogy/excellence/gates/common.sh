@@ -45,13 +45,18 @@ check() {
 absent() {
   local label="$1" regex="$2"; shift 2
   local hits
-  hits="$(grep -rniE -- "$regex" "$@" 2>/dev/null | head -5)"
+  # grep exit 1 = no match; must not abort under set -e / pipefail
+  hits="$(grep -rniE -- "$regex" "$@" 2>/dev/null | head -5 || true)"
   if [ -z "$hits" ]; then pass "$label"; else fail "$label"; echo "$hits"; fi
 }
 
 present() {
   local label="$1" regex="$2"; shift 2
-  if grep -rqiE -- "$regex" "$@" 2>/dev/null; then pass "$label"; else fail "$label"; fi
+  if grep -rqiE -- "$regex" "$@" 2>/dev/null; then
+    pass "$label"
+  else
+    fail "$label"
+  fi
 }
 
 build_site() {

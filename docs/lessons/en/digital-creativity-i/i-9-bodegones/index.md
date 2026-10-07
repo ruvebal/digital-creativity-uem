@@ -173,17 +173,7 @@ This note is part of an ongoing *Práctica de Innovación docente* — epistemic
 
 ## AI-assisted authorship
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
-crea-comm.net studio environment — a local agentic harness with MCP-backed
-retrieval, RAG context from the curriculum vault, and a scholar-voice model
-fine-tuned on his own writing. Forging consulted **1** vault sources; every
-public `(Author, Year)` was checked against that vault before acceptance.
-Prompts, model drafts, and human amendments are archived for later evaluation.
-Editorial judgment and responsibility for the final text remain with the author.
-
-Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

@@ -12,3 +12,7 @@ Append-only. Format:
 2026-10-07 · EX0 · gitflow init already done (excellence/base @ 98ef567); start opened cascade/excellence-0 · AUTOPILOT §3 · n/a · gitflow.sh rollback 0 after land if needed
 
 2026-10-07 · EX1 · Publish 55/15/20/10 + D2≡ACT3 cartel lock on evaluation + How-to-Pass decks; Workshop from s4 · AUTOPILOT §2 EX1 / DECISION-EX0 · alt: keep vague "see guía" · undo: revert evaluation + how-to-pass JSON
+
+2026-10-07 · EX2 · Rewrite AI footers to one-sentence form; gate PROVENANCE/VOICE into publish_internal comments; firewall CD II lessons · AUTOPILOT §2 · alt: leave footers · undo: revert lesson index.md batch
+2026-10-07 · EX2 · Expand safety patterns (lesson-scribe, Profield prose, UDIT, web-atelier, Thessia, vault); strip UDIT archive_covers; redact tracks campaign_ledger; gate PROVENANCE; one-sentence AI footers; Ahmes fixture proves fail-closed · AUTOPILOT §2 / FINDINGS C1 E1 · alt: leave NM redesign · undo: revert safety script + lesson/track scrub
+

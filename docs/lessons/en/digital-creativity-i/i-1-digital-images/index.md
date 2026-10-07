@@ -81,32 +81,26 @@ These six ideas are the Masterclass core. Paragraphs are drafted through the stu
 
 #### 1 · Field of practices
 
-<!-- thessia:dc-i1-idea1 -->
 A fashion image that looks "finished" on a phone is usually the residue of a temporary crowd — photographer, stylist, model, editor, producer — held together by a brief, not by a file extension. Shinkle maps that crowd as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals and contexts [(Shinkle 2008, 15)](#ref-shinkle-2008); that is why Lab later this session keeps that habit: label a practice before you name a format. Pick one image you already saved this week and write the practice label you would defend in two sentences — then ask whether a classmate would give the same label. The field itself refuses a single fixed genre; if your two sentences need a tool name to make sense, the claim has already slipped, and that slip is still open.
 
 #### 2 · Not a file format
 
-<!-- thessia:dc-i1-idea2 -->
 Calling an image "a JPEG" answers the wrong question the way calling a garment "a zip file" would — the container is real, the job is elsewhere. File formats describe technical storage; they do not tell you what a fashion image *does* when it circulates, which is why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to map practice, agents, venues, and interests before you mention an extension. Open one of your own downloads and write what kind of fashion image it is *without* naming the file type — what evidence did you actually use? Some briefs really do need the extension (print production, colour management), and that practical need does not cancel the reading frame; where the two claims should meet in a first-year studio is still open.
 
 #### 3 · Many genres at once
 
-<!-- thessia:dc-i1-idea3 -->
 The temptation is to force every fashion picture into one tidy box — editorial *or* advertising — as if the room were a filing cabinet. Shinkle's own list puts beauty, portraiture, and documentary beside those two [(Shinkle 2008, 15)](#ref-shinkle-2008), which is why Lab may land on images that refuse a clean single label. Try sorting three found images into the five named practices; where does the third refuse the grid? The counter-critic is fair — without categories you cannot teach — and the same page that gives us the array does not tell us how many boxes a beginner should be allowed to invent; that line is still open.
 
 #### 4 · Art and commerce
 
-<!-- thessia:dc-i1-idea4 -->
 A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to name venues and interests as movable evidence, not a software setting. Take one ambiguous image and list who paid, where it shows, and who is meant to look — what changed when you treat it as gallery work versus campaign work? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
 
 #### 5 · Read the circulation
 
-<!-- thessia:dc-i1-idea5 -->
 An image that looked editorial on a runway screen can read as brand inventory once it lands in a shop window — the pixels did not move; the venue did. This unit treats circulation as a reading skill before any filter demo: runway, retail, editorial, feed, exhibition. In Lab, add one circulation note to an image you already have — where did you find it, and where else could it travel this week? That note is portfolio practice, not D1. Mediatization arguments in fashion theory (Rocamora 2017) are named here as a frontier signal — page cite still open in our vault — so do not treat that name as settled evidence yet.
 
 #### 6 · Audit who counts
 
-<!-- thessia:dc-i1-idea6 -->
 Reference boards pretend to be neutral until you ask who never appears as the "normal" body or the legitimate designer. Before you finish collecting images for the studio piece, audit your own set for who is present and who is missing — one sentence is enough if it is honest. Textbook and mood-board bias in fashion education (Reddy-Best et al. 2018) is a named critical prompt here — page cite still open — so the audit stands as studio practice, not as a claim we can already page-verify in the vault.
 
 {% if site.publication.publish_internal_metadata %}
@@ -215,17 +209,7 @@ This note is part of an ongoing *Práctica de Innovación docente* — epistemic
 
 ## AI-assisted authorship
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
-crea-comm.net studio environment — a local agentic harness with MCP-backed
-retrieval, RAG context from the curriculum vault, and a scholar-voice model
-fine-tuned on his own writing. Forging consulted **9** vault sources; every
-public `(Author, Year)` was checked against that vault before acceptance.
-Prompts, model drafts, and human amendments are archived for later evaluation.
-Editorial judgment and responsibility for the final text remain with the author.
-
-Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

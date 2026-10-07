@@ -1,5 +1,5 @@
 (() => {
-  // Digital Creativity student deck — Profield-backed Reveal slides.
+  // Digital Creativity student deck — Reveal slides for Digital Creativity.
   // Spine: unit_cover → analysis → masterclass ≤6 → geometrical lab_opener → lab
   // → geometrical workshop_opener → workshop → geometrical outro.
   // Captions: clean title · human credit · Commons source page · original file.
@@ -213,11 +213,11 @@
             credit_line: humanProvider(selectedAsset.credit_line || selectedAsset.provider),
           };
         } else {
-          // Missing Profield asset: solid stage — never organic-pixel-drift (“circle dancing”).
+          // Missing media asset: solid stage — never organic-pixel-drift (“circle dancing”).
           fileUrl = '';
           captionAsset = {
             title: 'Image pending review',
-            credit_line: 'Profield assignment incomplete',
+            credit_line: 'Media assignment incomplete',
             licence: 'No decorative fallback — geometrical backgrounds are reserved for transition slides',
             url: '',
             svg_uuid: '',

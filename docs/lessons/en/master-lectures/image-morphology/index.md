@@ -65,7 +65,7 @@ By the end of this master lecture you can:
 
 ## Why this guide
 
-This lecture does not invent a new CONTENIDOS row. It is a **method workshop** — same spirit as the [Web Analysis Guide](https://ruvebal.github.io/web-atelier-udit/lessons/en/web-analysis/): numbered steps, one sitting, critical emphasis.
+This lecture does not invent a new CONTENIDOS row. It is a **method workshop** — same spirit as a numbered-step web analysis guide: one sitting, critical emphasis.
 
 It serves campaign analysis, portfolio image work, and any track session that needs a shared critique language.
 

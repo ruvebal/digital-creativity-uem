@@ -32,8 +32,7 @@ AI/AR change the stage; authenticity and disclosure are studio problems.
 
 ## Status
 
-**Scaffold.** Forged temario, cold B1 (Thessia), Canvas B2 and B3 follow
-`nm-unit-forge` + `lesson-scribe`. Submission lives in **Canvas**.
+**Scaffold.** Unit outline and Canvas B1–B3 follow the course plan. Submission lives in **Canvas**.
 
 | Block | Content |
 | --- | --- |

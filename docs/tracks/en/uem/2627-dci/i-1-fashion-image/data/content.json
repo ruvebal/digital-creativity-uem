@@ -9,7 +9,7 @@ layout: null
     "project_id": "dc",
     "collection": "unit-accepted",
     "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets for dc/I.1; cover override = Commons Astronaut Riding a Horse (SD3.5).",
+    "description": "Accepted/ranked review-state media assets for dc/I.1; cover override = Commons Astronaut Riding a Horse (SD3.5).",
     "media_overrides": {
       "I.1.cover.astronaut": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp"
     }

@@ -9,7 +9,7 @@ layout: null
     "project_id": "dc",
     "collection": "pending-review",
     "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets for dc/I.4.",
+    "description": "Accepted/ranked review-state media assets for dc/I.4.",
     "media_overrides": {}
   },
   "assets": [
