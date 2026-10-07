@@ -42,3 +42,8 @@ bash digital-creativity-pedagogy/excellence/gitflow.sh release-notes
 ## 6 · Release or roll back
 
 See `gitflow.sh release-notes` after `gitflow.sh init` and the full run.
+
+### EX1 — contract
+
+- Published 55/15/20/10 and D2≡ACT3 on evaluation + How-to-Pass.
+- Cold review PASS.

@@ -10,21 +10,35 @@ description: 'Assessment weights, five deliverables, and studio evidence bands f
 
 # Evaluation
 
-Assessment for Digital Creativity I–II. Official weights come from the UEM guía (see track How-to-Pass decks). Studio choreography is parallel with Creativity Techniques: Masterclass → Lab (portfolio) → Workshop (deliverable). This page does **not** rewrite guía percentages.
+Assessment for Digital Creativity I–II. Official weights come from the UEM guía (2026–27). Studio choreography is parallel with Creativity Techniques: Masterclass → Lab (portfolio) → Workshop (deliverable). This page does **not** invent CONTENIDOS or replace Campus Virtual dates.
 
 **Final event theme:** *Communicate and inspire: What is fashion for you?*
 
-## Official weights
+## Official weights (presencial · CD I and CD II)
 
-Use the current subject guía tables for CD I and CD II (knowledge / case / projects / notebook as published). Studio deliverables below map onto those instruments.
+Locked from the official 2026–27 subject guides for Creación Digital I and II:
+
+| Instrument | Weight |
+| --- | ---: |
+| Knowledge tests (*Pruebas de evaluación*) | **55%** |
+| Case / problem (*Caso/problema*) | **15%** |
+| Research and projects (*Investigaciones y proyectos*) | **20%** |
+| Lab / studio notebook (*Cuaderno de prácticas*) | **10%** |
+
+Studio deliverables **D1–D5** map onto these instruments. They do not change the four percentages.
+
+### Coordinated Spanish continuous strip (informational)
+
+The Spanish-cohort Plan de trabajo (Sandra Jiménez Duarte) runs four continuous activities at **11.2% each** (Figurín, Key visual, Transposición cartel, revista project). That strip is **compatible** with this site’s D/Lab map; it does **not** replace the guía table above. See [How to Pass CD I]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).
 
 ## Session rhythm (every ordinary class)
 
 1. **Analysis strip** — sessions 1–2: modelled analysis; from session 3: **2 × 15 min** student defences  
 2. **Masterclass** — ideas + images (accepted course media packs)  
 3. **Lab (Portfolio)** — exercises + debates → portfolio index  
-4. **Workshop (Deliverable)** — protected time on the next graded deliverable  
+4. **Workshop (from session 4)** — ≈ half **D2 Transposition** · ≈ half **D3 final event**  
 
+**First lessons (sessions 1–3):** no Workshop block — session ends after Lab.  
 **Lab ≠ Workshop.** Names are not swapped.
 
 ## Five deliverables
@@ -32,10 +46,12 @@ Use the current subject guía tables for CD I and CD II (knowledge / case / proj
 | ID | Task | Course fork |
 | --- | --- | --- |
 | **D1 Analysis** | 15 min defence · slideshow · 2 students/session from s3 | Fashion image related to a **Madrid exhibition** piece (coordinated visit) |
-| **D2 Transposition** | Critical review / palimpsest / discursive circulation | Output **into an image** |
+| **D2 Transposition** | **Same task as the Spanish ACT3 Transposición:** a **cartel** (image series OK) transposed from another language (song, film, poem, literary work, theatre, …) — composition, colour, hierarchy, type; source + process trail | Output **into an image** |
 | **D3 Atrium** | Tech script + live defence | Theme: *What is fashion for you?* |
 | **D4 Portfolio index** | Lab exercises + D1–D3 | Same for both subjects |
 | **D5 Exam** | Critical demonstration of course understanding + final self-review of portfolio process | Same |
+
+There is **one** transposition deliverable across the bilingual cohort — do not invent a second, competing brief.
 
 ## D4 · Final Digital Portfolio Notebook
 
