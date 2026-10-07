@@ -37,6 +37,11 @@ unit forged, run `npm run validate:decks` (`scripts/validate-decks.mjs --strict
 --rights=flag`). Rights land in `excellence/curation/rights-report.json`; curator
 registry is `excellence/curation/autopilot-assets.json` (filled in EX4).
 
+**Bibliography (PHASE-EX6+):** student References resolve only through
+`docs/_data/references.yml` (verified Ahmes keys). Gaps stay in
+`excellence/research-manifest.yml`. Do not invent cites. Follow-on CD II / NM
+forge: `excellence/NEXT-CASCADE-CD-II.md`.
+
 ---
 
 ## 0. Architecture — three logics, kept apart
