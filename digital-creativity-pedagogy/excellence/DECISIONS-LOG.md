@@ -32,3 +32,5 @@ Append-only. Format:
 2026-10-07 · EX6 · Single bibliography: only Ahmes page-verified works in `references.yml`; gaps stay in `research-manifest.yml`; PARTIAL OK · AUTOPILOT §2 EX6 / FINDINGS C2 C3 C5 · alt: invent cites or leave hand-written spans · undo: revert references.yml + include + Wave-1 lesson front matter
 2026-10-07 · EX6 · Critical layer Steimberg 2013 / Werhane 2026 / Munari method = gap (held or wrong edition); no student cite until EX10 brief · AUTOPILOT conservative · alt: force unverified pin · undo: amend manifest + place claim
 2026-10-07 · EX6 · Kandinsky 2012 p.9 verified from Dover coat 5c285f15 page_index 9 · AUTOPILOT vault rule · alt: leave ML-FIA cite as gap · undo: demote key + remove from references.yml
+
+2026-10-07 · EX6 · Fix cold P1 F1 Rubin page 42→123 in I.1; F2 Coats sustainability public_citation 8→4 to match printed_page · AUTOPILOT conservative · alt: leave PARTIAL mismatches · undo: revert those two lines
