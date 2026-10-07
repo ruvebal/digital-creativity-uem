@@ -54,8 +54,8 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 
 | Step | File | Deliverable | Gate |
 | ---- | ---- | ----------- | ---- |
-| 0 | [PHASE-EX0.md](PHASE-EX0.md) | Live probe + baseline + guía weights + Sandra coordination lock | READY |
-| 1 | [PHASE-EX1.md](PHASE-EX1.md) | Contract and factual hotfix (weights, How to Pass, EN/ES, ACT↔D map) | BLOCKED (EX0 DONE) |
+| 0 | [PHASE-EX0.md](PHASE-EX0.md) | Live probe + baseline + guía weights + Sandra coordination lock | DONE |
+| 1 | [PHASE-EX1.md](PHASE-EX1.md) | Contract and factual hotfix (weights, How to Pass, EN/ES, ACT↔D map) | READY (EX0 DONE) |
 | 2 | [PHASE-EX2.md](PHASE-EX2.md) | Publication firewall (leak terms, AI footers, no sibling-institution names) | BLOCKED (EX1 DONE) |
 | 3 | [PHASE-EX3.md](PHASE-EX3.md) | Image/media pipeline rules + tests + deck validator | BLOCKED (EX2 DONE) |
 | 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks (Wave-1 decks) | BLOCKED (EX3 DONE) |
