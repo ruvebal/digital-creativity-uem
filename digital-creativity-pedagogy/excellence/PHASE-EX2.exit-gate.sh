@@ -9,7 +9,9 @@ cd "$ROOT"
 jekyll_build_ok
 publication_safety_ok
 
-absent "no forge-date lesson-scribe in CD I EN public source" 'Forge date:.*lesson-scribe' docs/lessons/en/digital-creativity-i
+absent "no Forge date lesson-scribe in CD I EN public source" 'Forge date:.*lesson-scribe' docs/lessons/en/digital-creativity-i
+absent "no Fecha de forja in CD I ES public source" 'Fecha de forja' docs/lessons/es/creacion-digital-i
+absent "no MCP/RAG vault footer in CD I ES public source" 'vía MCP|contexto RAG del vault' docs/lessons/es/creacion-digital-i
 
 # Probe counts only ungated markdown (publication switch stripped)
 check "probe Wave-1 infra vocab is 0" bash -c '
@@ -17,12 +19,14 @@ check "probe Wave-1 infra vocab is 0" bash -c '
   test "$n" -eq 0
 '
 
-# Built HTML must not contain Ahmes/Athanor
-absent "no Ahmes in built CD I HTML" '\bAhmes\b' _site/lessons/en/digital-creativity-i
-absent "no Athanor in built CD I HTML" '\bAthanor\b' _site/lessons/en/digital-creativity-i
+# Built HTML must not contain Ahmes/Athanor (EN + ES Wave-1)
+absent "no Ahmes in built CD I EN HTML" '\bAhmes\b' _site/lessons/en/digital-creativity-i
+absent "no Ahmes in built CD I ES HTML" '\bAhmes\b' _site/lessons/es/creacion-digital-i
+absent "no Athanor in built CD I EN HTML" '\bAthanor\b' _site/lessons/en/digital-creativity-i
+absent "no Fecha de forja in built CD I ES HTML" 'Fecha de forja' _site/lessons/es/creacion-digital-i
 
 # EX2 patterns present in safety script (FINDINGS E1)
-for p in lesson-scribe 'Profield' UDIT web-atelier ahmes-library Thessia; do
+for p in lesson-scribe 'Profield' UDIT web-atelier ahmes-library Thessia 'Fecha de forja'; do
   present "safety script has pattern: $p" "$p" scripts/verify-publication-safety.mjs
 done
 
@@ -35,7 +39,6 @@ else
   pass "fixture with Ahmes fails safety"
 fi
 rm -f "$FIXTURE"
-# Re-confirm clean tree still passes after fixture removed
 publication_safety_ok
 
 finish

@@ -145,7 +145,7 @@ Por defecto: **atribuido** (nombre como lo escribe el estudiante).
 S2 sin S1 no hace nada. S1 sin S2 se atribuye por defecto.
 
 {% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
+<!--  curriculum-internal:
 **Evidencia:** Investigaciones y proyectos 20% (brief de puesta en escena); Cuaderno 10% (justificación). S1/S2 opcionales para exhibición en vShowroom — adjuntar borradores sin firmar únicamente; no es un instrumento de consentimiento activo.
 Cualquier referencia a herramientas de plataforma es una nota fechada, no una cita de investigación — comprueba las versiones antes de clase.
 -->
@@ -206,22 +206,11 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
-entorno de estudio crea-comm.net — un harness agentic local con recuperación
-vía MCP, contexto RAG del vault curricular y un modelo de voz académica
-afinado sobre su propia escritura. La forja consultó **4** fuentes del vault;
-cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
-Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
-posterior. El juicio editorial y la responsabilidad del texto final permanecen
-en el autor.
-
-Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1*
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: ce934cab-3a2a-4bc6-a033-c9a80d8dbab7
+<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
+      lesson_uuid: ce934cab-3a2a-4bc6-a033-c9a80d8dbab7
      vault_refs_consulted: 4
      forge_pass: editorial-ai-footer-law-2026-09-22
 -->

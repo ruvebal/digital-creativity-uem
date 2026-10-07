@@ -245,7 +245,7 @@ Mini-caso o quiz en Canvas. Evidencia individual.
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-HTML estudiantil sin nombres de herramientas internas. Campañas de estudio ancladas al ledger docente `20260925T200000Z`. Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
+HTML estudiantil sin nombres de herramientas internas. Campañas de estudio ancladas al ledger docente del curso. Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
 
 ## AI-assisted authorship
 {: #ai-assisted-authorship }

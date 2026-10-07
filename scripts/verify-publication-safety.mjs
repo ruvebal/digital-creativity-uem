@@ -48,6 +48,7 @@ const forbidden = [
 	[/profield\/runs\b/i, 'internal Profield run path'],
 	[/\bThessia\b/, 'internal voice model'],
 	[/\bForge date\b/i, 'internal authoring stamp'],
+	[/\bFecha de forja\b/i, 'internal authoring stamp'],
 	[/\bnm-unit-forge\b/i, 'internal unit forge'],
 	[/(?<![A-Za-z0-9_-])UDIT(?![A-Za-z0-9_-])/, 'sibling institution (UDIT)'],
 	[/\bweb-atelier\b/i, 'sibling course site'],

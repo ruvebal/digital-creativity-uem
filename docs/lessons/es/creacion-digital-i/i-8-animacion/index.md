@@ -124,7 +124,7 @@ Sin espacio de debate esta unidad (0 h asignadas, declarado arriba).
 **Definición de terminado:** secuencia existente; nota de proceso presente y específica; ID de pieza; fallback estático anotado donde corresponda.
 
 {% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
+<!--  curriculum-internal:
 **Evidence:** Investigaciones y proyectos 20% (sequence); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
 -->
 {% endif %}
@@ -179,22 +179,11 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
-entorno de estudio crea-comm.net — un harness agentic local con recuperación
-vía MCP, contexto RAG del vault curricular y un modelo de voz académica
-afinado sobre su propia escritura. La forja consultó **3** fuentes del vault;
-cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
-Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
-posterior. El juicio editorial y la responsabilidad del texto final permanecen
-en el autor.
-
-Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1*
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: c3e3bc78-3901-4285-bb1f-85519a541eb9
+<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
+      lesson_uuid: c3e3bc78-3901-4285-bb1f-85519a541eb9
      vault_refs_consulted: 3
      forge_pass: editorial-ai-footer-law-2026-09-22
 -->
