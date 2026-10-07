@@ -248,29 +248,43 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "fallback_background_kind": "geometrical",
-      "heading": "Lab 1 · Before → after",
-      "sentence": "Make one purposeful transformation and retain the editable before.",
+      "heading": "Exercise 1 · Contact sheet, then one photobash integration",
+      "sentence": "Grid ≤12 attributed stills. Only then cut and layer fragments so seams are intentional — keep originals recoverable.",
       "media_slot_id": "I.4.lab-1",
       "portfolio_bound": true,
-      "portfolio_trace": "Portfolio trace: piece ID, before, after, and editable source.",
+      "portfolio_trace": "Attributed contact sheet + flat export + layered file + three integration decisions.",
       "slide_id": "lab-1",
       "image_brief": "Beauty cream advert (1945): a retouched commercial face — before/after ethics live in the polish.",
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
-      "notes": "- Lab task: Lab 1 · Before → after.\n- Brief: Make one purposeful transformation and retain the editable before.\n- Portfolio: Portfolio trace: piece ID, before, after, and editable source.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 25 minutes. Pairs allowed for contact-sheet rights check. ACT2 key-visual craft.\n- Grid candidate stills with attribution visible; strike anything you cannot attribute.\n- Cut and layer so seams are intentional; unify light/colour with adjustment layers only.\n- Check Gestalt grouping: what reads as one figure vs background noise?\n- Export flat + layered; list three integration decisions.\nSource: Classroom adaptation (photobash craft gap — no Wave-1 verified primary source).\nAsk: Which seam would fail first if someone flattened your file?",
+      "prompt": "Practises Masterclass 1 (keep the before) and 2 (a filter is an argument).",
+      "method_id": "photobash-integration",
+      "practises": [
+        "masterclass-1",
+        "masterclass-2"
+      ],
+      "timer_seconds": 1500
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "fallback_background_kind": "geometrical",
-      "heading": "Lab 2 · Write the disclosure",
-      "sentence": "Add one sentence that says what changed, why, and what you refused to change.",
+      "heading": "Exercise 2 · Before → after strip + disclosure",
+      "sentence": "Save a dated before. After one purposeful effect, build a before|after strip and write what changed, why, and what you refused.",
       "media_slot_id": "I.4.lab-2",
       "portfolio_bound": true,
-      "portfolio_trace": "Portfolio trace: attach the disclosure to the same piece ID.",
+      "portfolio_trace": "Before|after strip (≤12-word caption) + one-sentence disclosure of change / why / refusal.",
       "slide_id": "lab-2",
       "image_brief": "Drapery study for a sculpture figure (LoC): a drawn transformation of cloth that still discloses its construction lines.",
       "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
-      "notes": "- Lab task: Lab 2 · Write the disclosure.\n- Brief: Add one sentence that says what changed, why, and what you refused to change.\n- Portfolio: Portfolio trace: attach the disclosure to the same piece ID.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 15 minutes. Individual.\n- Save a dated before flat at the start.\n- Apply one purposeful transformation; build a horizontal before|after strip.\n- Caption ≤12 words without hype; add one disclosure sentence (what changed, why, what you refused).\n- Submit strip with the master — this feeds portfolio, not a new graded ACT.\nSource: Classroom adaptation (effects disclosure craft).\nAsk: Would a stranger know what you refused without reading the sentence?",
+      "prompt": "Practises Masterclass 1 and 3: keep the before; disclosure is part of craft.",
+      "method_id": "compositing-before-after-strip",
+      "practises": [
+        "masterclass-1",
+        "masterclass-3"
+      ],
+      "timer_seconds": 900
     },
     {
       "slide_role": "workshop_opener",

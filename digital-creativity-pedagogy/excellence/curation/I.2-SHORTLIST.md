@@ -68,3 +68,8 @@ Autopilot EX4 · 2026-10-07 · `approved_by: autopilot (final review pending)`
 
 - candidate: `File:Work in Progress.JPG`
 
+
+
+## EX8 note
+
+`lab-3` removed (forge: exactly two Labs). Curated asset `Work in Progress.JPG` rebound to `lab-2` (three alternatives + construction/finish).

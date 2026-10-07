@@ -121,15 +121,65 @@ Covered above: Gonzalez/Curcic technical framing, McBride ethics, critical lens,
 
 ---
 
-## B2 · Studio — talleres 1 h + investigaciones y proyectos 2 h
+## B2 · Lab (Portfolio) — talleres 1 h + investigaciones y proyectos 2 h
 
-**Deliverable:** one before/after pair showing a deliberately applied effect, with the "before" kept and a one-line disclosure of what changed.
+*A geometrical slide announces the Lab: **two** exercises follow. Traces go into the **portfolio index**. Labs practise Masterclass and feed **ACT2 Key visual** (photobash + disclosure) — not a second graded Campus Virtual channel.*
 
-**Definition of done:** before/after pair saved; disclosure line present; piece ID; process folder.
+### Exercise 1 — Contact sheet, then one photobash integration {#lab-exercise-1}
+
+Practises Masterclass ideas **1** (keep the before) and **2** (a filter is an argument).
+
+**Time:** 25 minutes.
+
+**Group:** alone for integration; pairs OK for the rights/attribution check on the contact sheet.
+
+**Materials:** ≤12 candidate stills you can attribute; bitmap editor with layers; timer.
+
+**Steps:**
+
+1. Grid candidate stills with attribution lines visible; strike anything you cannot attribute.
+2. Only then enter the photobash canvas.
+3. Cut and layer fragments so seams are intentional; unify light/colour with adjustment layers only (keep originals recoverable).
+4. Check Gestalt grouping: what reads as one figure vs background noise?
+5. Export flat + layered; list three integration decisions.
+
+**Portfolio trace:** attributed contact sheet + flat export + layered file + three integration decisions.
+
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (photobash craft gap — no Wave-1 verified primary pedagogy source).
+
+### Exercise 2 — Before → after strip + disclosure {#lab-exercise-2}
+
+Practises Masterclass ideas **1** (keep the before) and **3** (disclosure is part of craft).
+
+**Time:** 15 minutes.
+
+**Group:** alone.
+
+**Materials:** your photobash or another effects master; timer.
+
+**Steps:**
+
+1. Save a dated before flat at the start of effects work (if you skipped it, restart from a recoverable layer).
+2. Apply one purposeful transformation.
+3. Build a horizontal before|after strip.
+4. Caption the transformation in ≤12 words without hype.
+5. Add one disclosure sentence: what changed, why, and what you refused to do.
+
+**Portfolio trace:** before|after strip + disclosure sentence.
+
+**Judged by:** [Portfolio rubric — authorship and disclosure]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (effects disclosure craft).
+
+**Definition of done:** before/after strip saved; disclosure line present; piece ID; process folder.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 **Evidence:** Investigaciones y proyectos 20% (pair); Cuaderno 10% (disclosure). No S1/S2 — ARTEFACT ROLE none.
+LAB_LINE: exercise=1; method_id=photobash-integration; practises=masterclass-1,masterclass-2; source=gap/classroom adaptation; ACT=ACT2
+LAB_LINE: exercise=2; method_id=compositing-before-after-strip; practises=masterclass-1,masterclass-3; source=gap/classroom adaptation; ACT=ACT2
 -->
 {% endif %}
 

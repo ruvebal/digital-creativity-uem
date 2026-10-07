@@ -113,7 +113,10 @@ await send('Page.enable');
 const PROBE = `(async () => {
   const CLAMPS = ${CLAMPS};
   const wait = () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
-  for (let i = 0; i < 100 && !(window.Reveal && Reveal.isReady && Reveal.isReady()); i++) await new Promise((r) => setTimeout(r, 100));
+  for (let i = 0; i < 150 && !(window.Reveal && typeof Reveal.isReady === 'function' && Reveal.isReady()); i++) await new Promise((r) => setTimeout(r, 100));
+  if (!(window.Reveal && typeof Reveal.isReady === 'function' && Reveal.isReady())) {
+    throw new Error('Reveal.js did not become ready (script missing or init failed)');
+  }
   Reveal.configure({ transition: 'none', backgroundTransition: 'none' });
   const box = (el) => { if (!el) return null; const r = el.getBoundingClientRect(); return r.width && r.height ? { l: r.left, t: r.top, r: r.right, b: r.bottom } : null; };
   const hit = (a, b) => a && b && a.l < b.r - 0.5 && b.l < a.r - 0.5 && a.t < b.b - 0.5 && b.t < a.b - 0.5;
@@ -212,7 +215,7 @@ for (const [w, h] of sizes) {
     if (shots && (w === 1280 || (w === 1920 && slug.startsWith('u-2-')))) {
       mkdirSync(shots, { recursive: true });
       for (const r of results.filter((x) => x.timer)) {
-        await evaluate(`(async () => { Reveal.slide(${r.i}); await new Promise((r) => setTimeout(r, 400)); })()`);
+        await evaluate(`(async () => { if (!window.Reveal) throw new Error('Reveal missing'); Reveal.slide(${r.i}); await new Promise((r) => setTimeout(r, 400)); })()`);
         const shot = await send('Page.captureScreenshot', { format: 'jpeg', quality: 70 });
         writeFileSync(join(shots, `${w}-${slug}-${r.id}.jpg`), Buffer.from(shot.result.data, 'base64'));
       }

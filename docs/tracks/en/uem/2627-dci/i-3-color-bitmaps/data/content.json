@@ -502,10 +502,10 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Exercise 1 · Palette + accessible alternate",
-      "sentence": "Build a five-colour fashion palette and one accessible alternate. Log format, profile assumption, and one uncertainty.",
+      "heading": "Exercise 1 · Lock the key-visual brief, then sample a palette",
+      "sentence": "Write audience, channel, and one claim before opening the canvas. Sample five colours from a rights-clear garment photo — then build one accessible alternate.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save palette sheet + alternate + colour decision log (one sentence on what another display would change).",
+      "portfolio_trace": "Brief text + five-colour strip + accessible alternate + one hierarchy note.",
       "quote": "Name the viewer before you name the hex.",
       "quote_origin": "tao_invented",
       "semantic_tags": {
@@ -533,15 +533,22 @@ layout: null
       "slide_id": "lab-1",
       "image_brief": "Historical French costume plate with coloured garments: a palette students can remake as an accessible alternate.",
       "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-      "notes": "- Lab task: Exercise 1 · Palette + accessible alternate.\n- Brief: Build a five-colour fashion palette and one accessible alternate. Log format, profile assumption, and one uncertainty.\n- Portfolio: Save palette sheet + alternate + colour decision log (one sentence on what another display would change).\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 20 minutes. Pairs OK for brief critique; craft is individual. ACT2 key-visual practice.\n- Write audience, channel, and single claim before opening the canvas.\n- Sample five colours from a garment/fabric photo you own or that is rights-clear; build a palette strip.\n- Build one accessible alternate (contrast-aware) without inventing a second claim.\n- Reject any swatch that does not serve the claim.\nSource: Classroom adaptation (key-visual / palette craft gap — no Wave-1 verified pedagogy sequence).\nAsk: Which colour would you drop first if the channel shrank to a phone crop?",
+      "prompt": "Practises Masterclass 1 (colour is a relation) and 6 (correcting vs changing).",
+      "method_id": "key-visual-brief-lock",
+      "practises": [
+        "masterclass-1",
+        "masterclass-6"
+      ],
+      "timer_seconds": 1200
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Exercise 2 · Bitmap crop + contrast audit",
-      "sentence": "Export a 1600px bitmap crop and audit two palettes for legibility, hierarchy, and mood on the screen in front of you.",
+      "heading": "Exercise 2 · One Gestalt pass on a key-visual crop",
+      "sentence": "Name one Gestalt relation. Apply it once to a key-visual crop; break it in a second version; keep both.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save crop + contrast notes + one sentence distinguishing colour correction from colour change.",
+      "portfolio_trace": "Two crops (relation / broken relation) + peer one-sentence vote + process note naming the relation.",
       "quote": "These styles can emphasise lighting, colour trends, and tones that make images look 'professional' or 'unique'.",
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -569,7 +576,14 @@ layout: null
       "slide_id": "lab-2",
       "image_brief": "1945 Dorothy Lamour beauty cream advert: crop and contrast audit on a commercial bitmap with strong mid-tones.",
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
-      "notes": "- Lab task: Exercise 2 · Bitmap crop + contrast audit.\n- Brief: Export a 1600px bitmap crop and audit two palettes for legibility, hierarchy, and mood on the screen in front of you.\n- Portfolio: Save crop + contrast notes + one sentence distinguishing colour correction from colour change.\n- Start the timer; circulate; stop with one share-out."
+      "notes": "- Timer: 20 minutes. Pairs for the peer vote. ACT2 composition craft.\n- Name one Gestalt relation (proximity, similarity, closure, continuity, or figure–ground).\n- Apply it once to a key-visual or fashion crop; invert or break it in a second version.\n- Peer names which version groups more clearly and why (one sentence).\n- Record the chosen relation in the process note.\nSource: Classroom adaptation (Gestalt pedagogy gap — Arnheim not in Wave-1 references).\nAsk: Did the display (zoom, crop, phone) change which version won?",
+      "prompt": "Practises Masterclass 2 (bitmap has limits) and 4 (the display participates).",
+      "method_id": "gestalt-composition",
+      "practises": [
+        "masterclass-2",
+        "masterclass-4"
+      ],
+      "timer_seconds": 1200
     },
     {
       "slide_role": "outro",
