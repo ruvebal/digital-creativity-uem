@@ -176,6 +176,10 @@ Official weights stay in the UEM guía. Studio choreography (TC ∥ DC):
 
 D1 intra-rubric: presentation **70%** · deliverable support **20%** · peer debate **10%**.
 
+## Golden rules (typography + layout floors)
+
+1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally (`h1` `clamp(2.15rem, 6.6vw, 3.15rem)`, as in `pass-track-deck.css`). These are floors for every slide layout, Lab exercise slides included; `npm run test:browser` checks them **on screen and in the print pass** (PHASE-EX5 / FINDINGS B4). Secondary type keeps these **ratios of the base floor** (documented here so tests do not invent constants): quote **0.72×**, prompt/trace **0.76×**, Lab timer **0.70×**. Do **not** revert to smaller clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
+
 ## Required student-deck fields
 
 ```yaml

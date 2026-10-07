@@ -241,14 +241,16 @@ layout: null
       },
       "slide_id": "cover",
       "image_brief": "Stable Diffusion 3.5 still of an astronaut on a horse (2024 demo image): a generative digital image that makes the unit's claim visible — fashion and commercial images are now also machine-made files.",
-      "asset_id": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp"
+      "asset_id": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp",
+      "notes": "- Open the unit with the cover claim: I.1 · Digital images.\n- Land one sentence: An image is a decision about where meaning lands — format comes later.\n- Point at the image; name why this picture belongs on the cover."
     },
     {
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
       "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each.",
-      "slide_id": "analysis-opener"
+      "slide_id": "analysis-opener",
+      "notes": "- Mark the Analysis block: modelled first, then student defences from session 3.\n- Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
     },
     {
       "slide_role": "analysis_model",
@@ -281,7 +283,8 @@ layout: null
       "media_slot_id": "I.1.analysis-model",
       "slide_id": "analysis-model",
       "image_brief": "A dirty, damaged fashion doll photographed as an object: material wear and staging that students can describe before interpreting fashion's ideal body.",
-      "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg"
+      "asset_id": "wikimedia:File:Dirty and damaged fashion doll.jpg",
+      "notes": "- Model the reading on this slide: How to read a fashion image.\n- Script: Name the practice, the venue, the audience, then the path the picture travels.\n- Ask one student to restate the path the picture travels."
     },
     {
       "slide_role": "masterclass",
@@ -313,7 +316,8 @@ layout: null
       },
       "slide_id": "masterclass-1",
       "image_brief": "1945 Woodbury Complete Beauty Cream advertisement with Dorothy Lamour: a commercial beauty still showing how fashion imagery sells a practice, not only a garment.",
-      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg"
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "notes": "- Beat: 1 · Field of practices.\n- Core line: Who made it, for what venue, under which shared goals — that is the image.\n- Read the quote once; pause: “Compress not the soul of the image, only its weight.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -344,7 +348,8 @@ layout: null
       },
       "slide_id": "masterclass-2",
       "image_brief": "Toulouse-Lautrec, poster for photographer Sescau, 1894: a print that already treats photography as a commercial service — the fashion image is not 'just a file format'.",
-      "asset_id": "wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg"
+      "asset_id": "wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg",
+      "notes": "- Beat: 2 · Not a file format.\n- Core line: JPEG and PNG are containers. They do not tell you what the image does in the world.\n- Read the quote once; pause: “To choose the right format is wisdom. To not choose at all is a 5MB hero image.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -376,7 +381,8 @@ layout: null
       },
       "slide_id": "masterclass-3",
       "image_brief": "Illustrated fashion catalogue page, summer 1890: several garment genres (day, promenade, evening) printed side by side on one plate — many fashion genres at once.",
-      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg"
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "notes": "- Beat: 3 · Many genres at once.\n- Core line: Editorial, advertising, beauty, portraiture, and documentary can all be fashion photography.\n- Read the quote once; pause: “Signifiers. Effective use of signifiers ensures discoverability and that the feedback is well communicated and intelligi…”\n- Source cue: (Shinkle 2008, 15)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -409,7 +415,8 @@ layout: null
       },
       "slide_id": "masterclass-4",
       "image_brief": "1950 magazine still 'Beauty is my business, says Anne Piron': a working beauty professional framed for commerce — art and commerce share the same page.",
-      "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg"
+      "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
+      "notes": "- Beat: 4 · Art and commerce.\n- Core line: Fashion images can sit in both realms at once — the boundary moves with venue and intent.\n- Read the quote once; pause: “Every human being on this planet is obligated to do their best to leave this planet in better shape than we found it. De…”\n- Source cue: (Monteiro 2019)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -441,7 +448,8 @@ layout: null
       },
       "slide_id": "masterclass-5",
       "image_brief": "Art+Feminism Wikipedia Edit-A-Thon 2015, Banff: editors gathered around screens, a public circulation moment where who writes the image record becomes visible.",
-      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG"
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "notes": "- Beat: 5 · Read the circulation.\n- Core line: The same picture can change when it moves from runway to retail to feed to gallery.\n- Read the quote once; pause: “Whether you’re burned out, starting out, starting over, or wildly successful, the question is always the same: How to ke…”\n- Source cue: (Kleon 2019)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -473,7 +481,8 @@ layout: null
       },
       "slide_id": "masterclass-6",
       "image_brief": "Smithsonian American Art Museum Chinese export fan (SAAM 1935.8.20): an object whose painted scene and museum credit line force the question of who counts in the archive.",
-      "asset_id": "wikimedia:File:Fan SAAM-1935.8.20 1.jpg"
+      "asset_id": "wikimedia:File:Fan SAAM-1935.8.20 1.jpg",
+      "notes": "- Beat: 6 · Audit who counts.\n- Core line: Before you collect references, ask who appears as the normal body and legitimate designer.\n- Read the quote once; pause: “A designer keeps their ego in check, knows when to shut up and listen, is aware of their own biases and welcomes having …”\n- Source cue: (Monteiro 2019)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "lab_opener",
@@ -482,7 +491,8 @@ layout: null
       "sentence": "Two exercises come next. Everything you make in Lab goes into your portfolio index — a field map for one image, then a Directory pin for yourself.",
       "portfolio_bound": true,
       "portfolio_trace": "Open or update the portfolio index before you leave.",
-      "slide_id": "lab-opener"
+      "slide_id": "lab-opener",
+      "notes": "- Bridge into Lab: two portfolio-bound exercises follow.\n- Two exercises come next. Everything you make in Lab goes into your portfolio index — a field map for one image, then a Directory pin for yourself."
     },
     {
       "slide_role": "lab_exercise",
@@ -519,7 +529,8 @@ layout: null
       },
       "slide_id": "lab-1",
       "image_brief": "Digital fashion garment still 'Miss Maquillage' rendered as a wearable file: place this image in the field between garment, avatar and commerce.",
-      "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png"
+      "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
+      "notes": "- Lab task: Exercise 1 · Place an image in the field.\n- Brief: Map one fashion image by practice, agents, venues, and interests — then say why a file type is not the answer.\n- Portfolio: Field map (practice · agents · venues · interests) + container-vs-practice sentence.\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "lab_exercise",
@@ -554,14 +565,16 @@ layout: null
       },
       "slide_id": "lab-2",
       "image_brief": "Barbie Dream Closet webcam social-shopper kiosk: a commercial fashion interface students can place on the art–commerce field map.",
-      "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg"
+      "asset_id": "wikimedia:File:Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
+      "notes": "- Lab task: Exercise 2 · Picture yourself in the field.\n- Brief: Open the Field Directory. Pick one prize, one studio/lab, and one figure — then write where you picture yourself among them.\n- Portfolio: Three Directory pins + two-sentence field position.\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
       "sentence": "No Workshop block in first lessons. Next graded stake is D1 Analysis (from session 3) — it has no Workshop clock. Workshop time starts session 4: half Transposition, half final event.",
-      "slide_id": "outro"
+      "slide_id": "outro",
+      "notes": "- Close: name what carries to the next session / deliverable.\n- No Workshop block in first lessons. Next graded stake is D1 Analysis (from session 3) — it has no Workshop clock. Workshop time starts session 4: half Transposition, half final event."
     }
   ],
   "schema_version": 2
