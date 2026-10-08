@@ -10,6 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-7-fashion-references/
 description: 'Sourcing a compositional reference is not a neutral act of collection — what a search surfaces already carries a representational politics, evidenced, narrowly, this session.'
 status: scaffold
 tags: [digital-creativity-i, references, mood-board, image-ethics, body-representation]
+references: [campinho-2025]
 ---
 
 <!-- prettier-ignore-start -->
@@ -44,7 +45,7 @@ tags: [digital-creativity-i, references, mood-board, image-ethics, body-represen
 
 ---
 
-## 🎯 Learning Objectives
+## Learning objectives
 
 - **Explain, with a real citation, why sourcing a compositional reference is not a neutral act of collection.**
 - **State precisely what that citation grounds and what it does not** — a representation-ethics finding, not a sourcing-pedagogy finding.
@@ -53,19 +54,8 @@ tags: [digital-creativity-i, references, mood-board, image-ethics, body-represen
 
 ---
 
-## Why this unit exists — a real citation, a narrow one
-
-**Claim:** sourcing a compositional reference is not a neutral act of collection — *what a search surfaces* already carries a representational politics, before a student has chosen which image to reference at all.
-
-Campinho, Cardim da Silva, Dantas Soares, and Amparo-Santos (2025) studied Google Images searches for “fat body” and “obese body.” They found contrasting patterns of empowerment and medicalised fragmentation that shape collective perceptions of bodies (Campinho 2025, 2).
-
-**What this supports, and what it does not.** Campinho et al. (2025, 2) grounds the *ethics of the images students will encounter while sourcing* — a real demonstration that a search's own results carry a representational pattern before any creative choice. It does **not** ground a validated *teaching method for compositional-reference-sourcing* itself — no source here studies how to teach mood-boarding, visual research, or reference-attribution practice as a classroom sequence. Tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** source hierarchy, visual function, citation, transformation, and provenance as durable research-studio constructs — separate from any one search interface.
-
-**Frontier signal (field lens):** reference boards can turn archives and cultural knowledge into uncredited extraction; treat every tile as a provenance decision, not a mood.
-
-## Critical perspective
+## Analysis
+### Critical perspective
 
 Fashion representation teaching materials can simultaneously naturalise whiteness, colourism, thinness, and sexualisation — bias appears not only in final advertising but in the reference sets from which students learn to produce images (Reddy-Best, Choi, and Park 2018).
 
@@ -104,27 +94,87 @@ Whose context, agency, and right not to be reused are missing when a source beco
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Covered above: the sourcing-is-not-neutral claim, Campinho with its precise boundary, Reddy-Best critical lens, debate, and placeholders.
 
 ---
 
-## B2 · Studio — talleres 2 h + investigaciones y proyectos 2 h
+## Masterclass
 
-**Deliverable:** a small compositional-reference board (3–6 images) for one fashion concept, with a one-paragraph note naming what each reference contributes *and* one sentence reflecting on whether the sourcing process itself surfaced any representational pattern worth naming, per B1.
+**Claim:** sourcing a compositional reference is not a neutral act of collection — *what a search surfaces* already carries a representational politics, before a student has chosen which image to reference at all.
 
-**Definition of done:** board exists; note present; piece ID; process folder.
+Campinho, Cardim da Silva, Dantas Soares, and Amparo-Santos (2025) studied Google Images searches for “fat body” and “obese body.” They found contrasting patterns of empowerment and medicalised fragmentation that shape collective perceptions of bodies [(Campinho 2025, 2)](#ref-campinho-2025).
+
+**What this supports, and what it does not.** Campinho et al. (2025, 2) grounds the *ethics of the images students will encounter while sourcing* — a real demonstration that a search's own results carry a representational pattern before any creative choice. It does **not** ground a validated *teaching method for compositional-reference-sourcing* itself — no source here studies how to teach mood-boarding, visual research, or reference-attribution practice as a classroom sequence. Tool docs ground operations only — label `[PLATFORM]`, never research.
+
+**Practice anchor (field lens):** source hierarchy, visual function, citation, transformation, and provenance as durable research-studio constructs — separate from any one search interface.
+
+**Frontier signal (field lens):** reference boards can turn archives and cultural knowledge into uncredited extraction; treat every tile as a provenance decision, not a mood.
+
+## Lab (Portfolio)
+
+*Structural placeholder (EX9) — no DCI deck `lab_exercise` slides yet for this unit. Two illustrative exercises keep the Lab rhythm; replace when EX11 / deck wave lands.*
+
+### Exercise 1 — Name the CONTENIDOS move {#lab-exercise-1}
+
+**Time:** 15 minutes.
+
+**Group:** alone.
+
+**Materials:** notebook or laptop; timer; one rights-clear reference image for this unit's CONTENIDOS.
+
+**Steps:**
+
+1. Restate the unit CONTENIDOS anchor in one sentence (no tool brand).
+2. Name one craft decision this unit asks you to leave visible in a process note.
+3. Write one sentence on what a single-tool workflow would hide.
+4. Keep the note for the portfolio index.
+
+**Portfolio trace:** CONTENIDOS sentence + craft-visibility sentence + single-tool caution.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* CONTENIDOS: “Volume by hybrid iteration.” Craft left visible: physical maquette fold vs CLO pass. Caution: a CLO-only export would hide the drape correction the hand pass forced.
+
+### Exercise 2 — One process evidence pair {#lab-exercise-2}
+
+**Time:** 20 minutes.
+
+**Group:** alone; optional 2-minute peer share.
+
+**Materials:** the Exercise 1 note; one before/after or physical/digital pair; timer.
+
+**Steps:**
+
+1. Capture one before and one after (or physical vs digital) for the same piece.
+2. Write one sentence naming what the second pass revealed that the first did not.
+3. Reject any polish that erases the evidence of the pass.
+4. File both stills (or photos) under the piece ID.
+
+**Portfolio trace:** before/after pair + revelation sentence.
+
+**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+
+**Example trace:** *(Illustrative · not student work.)* Before: paper maquette crease at waist. After: digital pass exaggerates the crease. Sentence: “The screen invented tension the cloth did not have — keep the physical photo in the index.”
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (board); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none (compositional referencing is not on the vShowroom-eligible CONTENIDOS list).
+LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
+LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, decontextualised
+## Workshop
+
+From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
+
 
 1. **Diagnostic.** Given a reference board with no attribution and no reflection note, name what's missing from an honest sourcing practice.
 2. Write, by hand, the one-sentence representational-pattern reflection for a described board. **No AI — declared as such.**
@@ -141,16 +191,34 @@ outcome-graphic-selection:
 
 ---
 
+## Conclusion
+
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+
+**Practice:** five recall questions with answers on click — [i-7-fashion-references practice quiz]({{ '/practice/en/i-7-fashion-references/' | relative_url }}). Not graded; nothing recorded.
+
+## Tao of the Image {#tao-of-the-image}
+
+Unit epigraph (studio Tao register — not a scholarly quotation):
+
+> _"Free as in freedom, stable as in tested. The Tao asks not for payment, only for proper attribution."_
+
+Deck and lesson links that target `#tao-of-the-image` resolve here.
+
+---
+
 ## References
 
-- Campinho, M. I. S., C. V. Cardim da Silva, M. Dantas Soares, and L. Amparo-Santos. 2025. “Corpos gordos e corpos obesos em telas digitais: um olhar analítico para imagens propagadas pelo Google.” <a href="https://doi.org/10.1590/s0104-12902025240894pt" target="_blank" rel="noopener noreferrer">https://doi.org/10.1590/s0104-12902025240894pt</a>.
-- Reddy-Best, Kelly L., Eunji Choi, and Hangael Park. 2018. “Race, Colorism, Body Size, Body Position, and Sexiness: Critically Analyzing Women in Fashion Illustration Textbooks.” *Clothing and Textiles Research Journal* 36 (4): 281–295. <a href="https://doi.org/10.1177/0887302X18779140" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0887302X18779140</a>.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 PROFIELD_ROUTING: unit=I.7; temario=T1-image-2d-volume.pass1.resultant.mdc § compositional references; subfield_runs=dc-2d-image-craft-pedagogy/pass1.edited.md § visual research
 CRITICAL_ROUTING: unit=I.7; critica=C3 Reddy-Best illustration textbooks L89; session source-context refusal prompt
-PROVENANCE_LINE: claim=I.7.claim.search-representational-politics; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="Google Images fat body obese body empowerment fragmentation"; source_locator=grounding matrix I.7; similarity=null; proposed_use="representation-ethics anchor"}; source={document_coat=31a9a359; extraction_db=ahmes-library/scholar/documents/campinho_et_al_corpos_gordos_telas_digitais_2025_31a9a359/extract/extraction.db; node_id=29e0b3cf-bd30-5373-bfbe-d208de8c3a3b; page_index=1; printed_page=2}; resolver="ahmes query --cite extraction.db:29e0b3cf-bd30-5373-bfbe-d208de8c3a3b --require-evaluator-safe evaluator_safe=yes"; quote="images of the fat body show an expression of empowerment"; public_citation="(Campinho 2025, 2)"; supports="search results carry representational politics before student choice"; does_not_support="mood-board teaching sequence efficacy"
+PROVENANCE_LINE: claim=I.7.claim.search-representational-politics; status=VERIFIED; page_basis=printed; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="Google Images fat body obese body empowerment fragmentation"; source_locator=grounding matrix I.7; similarity=null; proposed_use="representation-ethics anchor"}; source={document_coat=31a9a359; extraction_db=ahmes-library/scholar/documents/campinho_et_al_corpos_gordos_telas_digitais_2025_31a9a359/extract/extraction.db; node_id=29e0b3cf-bd30-5373-bfbe-d208de8c3a3b; page_index=1; printed_page=2}; resolver="ahmes query --cite extraction.db:29e0b3cf-bd30-5373-bfbe-d208de8c3a3b --require-evaluator-safe evaluator_safe=yes"; quote="images of the fat body show an expression of empowerment"; public_citation="[(Campinho 2025, 2)](#ref-campinho-2025)"; supports="search results carry representational politics before student choice"; does_not_support="mood-board teaching sequence efficacy"
 PROVENANCE_LINE: claim=I.7.gap.sourcing-pedagogy; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="compositional reference sourcing teaching sequence validated"; source_locator=i-7-fashion-references.md § Grounding note; similarity=null; proposed_use="honest gap"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="validated mood-board pedagogy"
 PROVENANCE_LINE: claim=I.7.critical.textbook-bias; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="fashion illustration textbooks race colorism body size Reddy-Best"; source_locator=C3-gender-minorities-silences.pass1.resultant.mdc L89; similarity=null; proposed_use="critical pedagogical materials"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Reddy-Best 2018 not in scholar vault; quote=none; public_citation="(Reddy-Best, Choi, and Park 2018)"; supports="reference sets naturalise whiteness colourism thinness sexualisation"; does_not_support="which references students must use"
 PROVENANCE_LINE: claim=I.7.critical.source-context; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="reference context agency refusal moodboard"; source_locator=i-7-fashion-references.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming missing context in reference boards"; does_not_support="empirical claim about cohort"
@@ -173,17 +241,7 @@ This note is part of an ongoing *Práctica de Innovación docente* — epistemic
 
 ## AI-assisted authorship
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
-crea-comm.net studio environment — a local agentic harness with MCP-backed
-retrieval, RAG context from the curriculum vault, and a scholar-voice model
-fine-tuned on his own writing. Forging consulted **2** vault sources; every
-public `(Author, Year)` was checked against that vault before acceptance.
-Prompts, model drafts, and human amendments are archived for later evaluation.
-Editorial judgment and responsibility for the final text remain with the author.
-
-Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Forge date: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
+This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

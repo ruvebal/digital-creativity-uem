@@ -1,0 +1,12 @@
+{
+  "method_count": 60,
+  "verified": 11,
+  "held": 14,
+  "gap": 35,
+  "seed_cards": 14,
+  "required_ids_present": [
+    "figurin-digital",
+    "photobash-integration",
+    "gestalt-composition"
+  ]
+}

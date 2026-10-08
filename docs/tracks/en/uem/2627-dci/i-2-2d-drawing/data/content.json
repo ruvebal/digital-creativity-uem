@@ -8,256 +8,206 @@ layout: null
     "unit_id": "I.2",
     "project_id": "dc",
     "collection": "unit-accepted",
-    "strategy": "review-state-assigned",
-    "description": "I.2: majors on cover/analysis/masterclass only; transitions geometrical+UUID; lab/workshop content wait for more accepted assets (never steal majors; never organic-pixel-drift).",
+    "strategy": "slide-bound-asset_id",
+    "description": "EX4: slides bind by asset_id; rehydrate uses bindSlides (no rank dealing).",
     "media_overrides": {}
   },
   "assets": [
     {
-      "media_slot_id": "I.2.still.profield-1",
+      "media_slot_id": "I.2.cover",
       "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/684484de753f97f5.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fashion_Sketch_Design.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg",
-      "alt_text": "Fashion Sketch Design.jpg",
-      "title": "Fashion Sketch Design.jpg",
+      "title": "Fashion Sketch Design",
+      "alt_text": "A fashion sketch design study",
+      "author": "Unknown fashion illustrator / Commons upload",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 10,
-      "selection_rank": 10,
-      "collection": "unit-accepted"
+      "credit_line": "Unknown fashion illustrator / Commons upload · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "modern upload of sketch; licence from file page",
+      "rights_status": "flagged",
+      "cropped": false
     },
     {
-      "media_slot_id": "I.2.still.profield-2",
+      "media_slot_id": "I.2.analysis-model",
       "asset_id": "wikimedia:File:Hand drawing on a graphic tablet.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/fd86a630773ba048.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/fd86a630773ba048.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hand_drawing_on_a_graphic_tablet.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hand_drawing_on_a_graphic_tablet.jpg",
+      "title": "Hand drawing on a graphic tablet",
       "alt_text": "Hand drawing on a graphic tablet.jpg",
-      "title": "Hand drawing on a graphic tablet.jpg",
+      "author": "Photograph uploader on Commons",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 10,
-      "selection_rank": 10,
-      "collection": "unit-accepted"
+      "credit_line": "Photograph uploader on Commons · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "modern photograph of tablet drawing",
+      "rights_status": "flagged",
+      "cropped": false
     },
     {
-      "media_slot_id": "I.2.still.profield-3",
+      "media_slot_id": "I.2.masterclass-1",
       "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/3e1406d573d0b92f.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/3e1406d573d0b92f.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "title": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932",
       "alt_text": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-      "title": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "author": "19th-century French costume plate engraver",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
+      "credit_line": "19th-century French costume plate engraver · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC0; publication relies on the licence.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "I.2.still.profield-4",
-      "asset_id": "wikimedia:File:Work in Progress.JPG",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9d962140d44bf914.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG",
-      "alt_text": "Work in Progress.JPG",
-      "title": "Work in Progress.JPG",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-5",
-      "asset_id": "nypl:510d47e3-34d7-a3d9-e040-e00a18064a99",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/6b29a718e96503e0.jpg",
-      "source_file_url": "https://images.nypl.org/index.php?id=1576291&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47e3-34d7-a3d9-e040-e00a18064a99",
-      "alt_text": "The composite capital in perspective.",
-      "title": "The composite capital in perspective.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-6",
-      "asset_id": "wikimedia:File:Nokia 8-display pixel pattern PNr°0495.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/7a2791f63dcc1d31.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Nokia_8-display_pixel_pattern_PNr%C2%B00495.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8-display_pixel_pattern_PNr%C2%B00495.jpg",
-      "alt_text": "Nokia 8-display pixel pattern PNr°0495.jpg",
-      "title": "Nokia 8-display pixel pattern PNr°0495.jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-7",
-      "asset_id": "wikimedia:File:Vector graphic design made with Inkscape.svg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/57d691cb5d3028d5.svg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vector_graphic_design_made_with_Inkscape.svg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vector_graphic_design_made_with_Inkscape.svg",
-      "alt_text": "Vector graphic design made with Inkscape.svg",
-      "title": "Vector graphic design made with Inkscape.svg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-8",
+      "media_slot_id": "I.2.masterclass-2",
       "asset_id": "wikimedia:File:Vector graphic scaling 2.png",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a9a618606b3c129a.png",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/a9a618606b3c129a.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Vector_graphic_scaling_2.png",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vector_graphic_scaling_2.png",
+      "title": "Vector graphic scaling 2",
       "alt_text": "Vector graphic scaling 2.png",
-      "title": "Vector graphic scaling 2.png",
+      "author": "Diagram author on Commons",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
+      "credit_line": "Diagram author on Commons · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "EU term not fully verified",
+      "rights_status": "flagged",
+      "cropped": false
     },
     {
-      "media_slot_id": "I.2.still.profield-9",
-      "asset_id": "wikimedia:File:Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a8e81ebc3c86799c.png",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png",
-      "alt_text": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
-      "title": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 7,
-      "selection_rank": 7,
-      "collection": "unit-accepted"
+      "media_slot_id": "I.2.masterclass-3",
+      "asset_id": "nypl:510d47e3-34d7-a3d9-e040-e00a18064a99",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/6b29a718e96503e0.webp",
+      "source_file_url": "https://images.nypl.org/index.php?id=1576291&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47e3-34d7-a3d9-e040-e00a18064a99",
+      "title": "The composite capital in perspective.",
+      "alt_text": "The composite capital in perspective.",
+      "author": "The New York Public Library (digital scan)",
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://digitalcollections.nypl.org/",
+      "provider": "The New York Public Library",
+      "credit_line": "The New York Public Library (digital scan) · The New York Public Library",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "NYPL public-domain claim is US-centric; EU term not independently verified — flagged",
+      "rights_status": "flagged",
+      "cropped": false
     },
     {
-      "media_slot_id": "I.2.still.profield-10",
-      "asset_id": "wikimedia:File:Surrealism (49679583271).jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/152b234ba400335e.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Surrealism_%2849679583271%29.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Surrealism_(49679583271).jpg",
-      "alt_text": "Surrealism (49679583271).jpg",
-      "title": "Surrealism (49679583271).jpg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 7,
-      "selection_rank": 7,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-11",
-      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9783673c60ce2f5e.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2848%29.JPG",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(48).JPG",
-      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
-      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 5,
-      "selection_rank": 5,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-12",
-      "asset_id": "wikimedia:File:Svg image.svg",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/b9cc7615e728547e.svg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Svg_image.svg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Svg_image.svg",
-      "alt_text": "Svg image.svg",
-      "title": "Svg image.svg",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 5,
-      "selection_rank": 5,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-13",
-      "asset_id": "internet_archive:barbie-magazine-2003",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/981b83ad35094cf3.jpg",
-      "source_file_url": "https://dn721906.ca.archive.org/0/items/barbie-magazine-2003/barbie%20mag%202003.jpg",
-      "canonical_source_url": "https://archive.org/details/barbie-magazine-2003",
-      "alt_text": "Barbie Magazine 2003",
-      "title": "Barbie Magazine 2003",
-      "provider": "Internet Archive",
-      "credit_line": "Internet Archive",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-14",
-      "asset_id": "wikimedia:File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9399010fa60a83d5.png",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Test_-_image_size_comparison_%28Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic%29.png",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Test_-_image_size_comparison_(Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic).png",
-      "alt_text": "Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
-      "title": "Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "I.2.still.profield-15",
+      "media_slot_id": "I.2.masterclass-4",
       "asset_id": "wikimedia:File:The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c394ec960555ef46.png",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/c394ec960555ef46.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_The_Designer_Women%E2%80%99s_Magazine%2C_July_1922_cover%2C_illustration_by_Edward_Mason_Eggleston.png",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_The_Designer_Women%E2%80%99s_Magazine,_July_1922_cover,_illustration_by_Edward_Mason_Eggleston.png",
+      "title": "The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston",
       "alt_text": "The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
-      "title": "The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
+      "author": "Ethel Blaine (illustration, 1922)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
+      "credit_line": "Ethel Blaine (illustration, 1922) · Wikimedia Commons",
+      "author_death_year": 1922,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1922; 1922+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "I.2.still.profield-16",
-      "asset_id": "wikimedia:File:Umbrella Nearest Neigbor.png",
-      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/22d13e2ce1b849cb.png",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Umbrella_Nearest_Neigbor.png",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Umbrella_Nearest_Neigbor.png",
-      "alt_text": "Umbrella Nearest Neigbor.png",
-      "title": "Umbrella Nearest Neigbor.png",
+      "media_slot_id": "I.2.masterclass-5",
+      "asset_id": "wikimedia:File:Vector graphic design made with Inkscape.svg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/57d691cb5d3028d5.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vector_graphic_design_made_with_Inkscape.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vector_graphic_design_made_with_Inkscape.svg",
+      "title": "Vector graphic design made with Inkscape",
+      "alt_text": "Vector graphic design made with Inkscape.svg",
+      "author": "Diagram author on Commons",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
+      "credit_line": "Diagram author on Commons · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-SA-4.0; publication relies on the licence.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.2.masterclass-6",
+      "asset_id": "wikimedia:File:Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/a8e81ebc3c86799c.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png",
+      "title": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example",
+      "alt_text": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "author": "Diagram author on Commons",
+      "licence": "CC-BY-SA-2.5",
+      "licence_url": "",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Diagram author on Commons · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "licence not accepted: CC-BY-SA-2.5",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.2.lab-1",
+      "asset_id": "wikimedia:File:CosmicBloom.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/c371d709f1773132.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/CosmicBloom.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:CosmicBloom.jpg",
+      "title": "CosmicBloom",
+      "alt_text": "CosmicBloom.jpg",
+      "author": "Unknown",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "author missing or unresolved",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.2.lab-2",
+      "asset_id": "wikimedia:File:Work in Progress.JPG",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/9d962140d44bf914.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG",
+      "title": "Work in Progress",
+      "alt_text": "Work in Progress.JPG",
+      "author": "Photograph uploader on Commons",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Photograph uploader on Commons · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "modern studio photograph",
+      "rights_status": "flagged",
+      "cropped": false
     }
   ],
   "slides": [
     {
       "slide_role": "unit_cover",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "I.2 · 2D drawing tools",
       "sentence": "Drawing externalises visual thinking — technique lives inside the problem, not beside it.",
       "prompt": "CONTENIDOS: Tecnología digital 2D: Herramientas de dibujo",
@@ -283,17 +233,23 @@ layout: null
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
       },
-      "media_slot_id": "I.2.still.profield-1"
+      "media_slot_id": "I.2.cover",
+      "slide_id": "cover",
+      "image_brief": "Fashion sketch design: a flat figure and garment outline on paper — the unit's entry into 2D drawing as a fashion tool.",
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "notes": "- Open the unit with the cover claim: I.2 · 2D drawing tools.\n- Land one sentence: Drawing externalises visual thinking — technique lives inside the problem, not beside it.\n- Point at the image; name why this picture belongs on the cover."
     },
     {
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
-      "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
+      "sentence": "Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each.",
+      "slide_id": "analysis-opener",
+      "notes": "- Mark the Analysis block: modelled first, then student defences from session 3.\n- Sessions 1–2: modelled analysis. From session 3: two students × 15 min defence each."
     },
     {
       "slide_role": "analysis_model",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "How to read a drawing decision",
       "sentence": "Line · layer · revision · export. Ask what the silhouette needed that the tool alone cannot decide.",
       "quote": "Affordances, signifiers, mappings, and constraints can simplify our encounters with everyday objects.",
@@ -318,11 +274,15 @@ layout: null
         "label": "(Norman 2013)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
       },
-      "media_slot_id": "I.2.still.profield-2"
+      "media_slot_id": "I.2.analysis-model",
+      "slide_id": "analysis-model",
+      "image_brief": "Hand drawing on a graphic tablet: stylus, screen and line in one frame — a drawing decision made digitally.",
+      "asset_id": "wikimedia:File:Hand drawing on a graphic tablet.jpg",
+      "notes": "- Model the reading on this slide: How to read a drawing decision.\n- Script: Line · layer · revision · export. Ask what the silhouette needed that the tool alone cannot decide.\n- Ask one student to restate the path the picture travels."
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "1 · Drawing as thinking",
       "sentence": "A path on screen is a visible thought — you can revise it before you polish it.",
       "quote": "Compress not the soul of the image, only its weight.",
@@ -346,11 +306,15 @@ layout: null
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
       },
-      "media_slot_id": "I.2.still.profield-3"
+      "media_slot_id": "I.2.masterclass-1",
+      "slide_id": "masterclass-1",
+      "image_brief": "Historical French civilian costume plates (Costumes civils): engraved fashion figures that treat drawing as a way to think clothing structure.",
+      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "notes": "- Beat: 1 · Drawing as thinking.\n- Core line: A path on screen is a visible thought — you can revise it before you polish it.\n- Read the quote once; pause: “Compress not the soul of the image, only its weight.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "2 · Vector is relationship",
       "sentence": "Anchor points, curves, and fills describe shape as relation — not a grid of pixels.",
       "quote": "Vector is relationship — points remember each other when the canvas scales.",
@@ -375,11 +339,15 @@ layout: null
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
       },
-      "media_slot_id": "I.2.still.profield-4"
+      "media_slot_id": "I.2.masterclass-2",
+      "slide_id": "masterclass-2",
+      "image_brief": "Vector graphic scaling comparison: the same drawing enlarged without pixel break-up — vector as relationship, not raster cells.",
+      "asset_id": "wikimedia:File:Vector graphic scaling 2.png",
+      "notes": "- Beat: 2 · Vector is relationship.\n- Core line: Anchor points, curves, and fills describe shape as relation — not a grid of pixels.\n- Read the quote once; pause: “Vector is relationship — points remember each other when the canvas scales.”\n- Source cue: (Tao of the Image)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "3 · Technique inside problems",
       "sentence": "Studio assignments embed software skill in visual problems, not in isolated button drills.",
       "prompt": "Curcic 2024 — page cite still open",
@@ -405,11 +373,15 @@ layout: null
         "label": "(Norman 2013)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
       },
-      "media_slot_id": "I.2.still.profield-5"
+      "media_slot_id": "I.2.masterclass-3",
+      "slide_id": "masterclass-3",
+      "image_brief": "Composite capital drawn in perspective (NYPL plate): a technique taught inside a concrete architectural problem, not as abstract skill.",
+      "asset_id": "nypl:510d47e3-34d7-a3d9-e040-e00a18064a99",
+      "notes": "- Beat: 3 · Technique inside problems.\n- Core line: Studio assignments embed software skill in visual problems, not in isolated button drills.\n- Read the quote once; pause: “Anyone using a product should always be able to determine the answers to all seven questions. This puts the burden on th…”\n- Source cue: (Norman 2013)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "4 · Fashion visual grammar",
       "sentence": "Proportion, croquis, and flats travel across hand, raster, and vector — the grammar stays.",
       "prompt": "Abling 2023 — page cite still open",
@@ -434,11 +406,15 @@ layout: null
         "label": "(Norman 2013)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-norman-2013"
       },
-      "media_slot_id": "I.2.still.profield-6"
+      "media_slot_id": "I.2.masterclass-4",
+      "slide_id": "masterclass-4",
+      "image_brief": "The Designer Women's Magazine cover, July 1922, illustration by Ethel Blaine: period fashion visual grammar — silhouette, drape and page design as one system.",
+      "asset_id": "wikimedia:File:The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
+      "notes": "- Beat: 4 · Fashion visual grammar.\n- Core line: Proportion, croquis, and flats travel across hand, raster, and vector — the grammar stays.\n- Read the quote once; pause: “Signifiers. Effective use of signifiers ensures discoverability and that the feedback is well communicated and intelligi…”\n- Source cue: (Norman 2013)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "5 · Audit the reference body",
       "sentence": "Before you fix a brief, ask who counts as the normal body in the manuals you treat as neutral.",
       "prompt": "Reddy-Best et al. 2018 — page cite still open",
@@ -464,11 +440,15 @@ layout: null
         "label": "(Monteiro 2019)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-monteiro-2019"
       },
-      "media_slot_id": "I.2.still.profield-7"
+      "media_slot_id": "I.2.masterclass-5",
+      "slide_id": "masterclass-5",
+      "image_brief": "Vector graphic design made with Inkscape: abstract path construction that students can audit for the 'reference body' hidden in default curves.",
+      "asset_id": "wikimedia:File:Vector graphic design made with Inkscape.svg",
+      "notes": "- Beat: 5 · Audit the reference body.\n- Core line: Before you fix a brief, ask who counts as the normal body in the manuals you treat as neutral.\n- Read the quote once; pause: “A designer keeps their ego in check, knows when to shut up and listen, is aware of their own biases and welcomes having …”\n- Source cue: (Monteiro 2019)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "6 · Three alternatives",
       "sentence": "One silhouette is not enough — make three visible versions, then defend the choice you keep.",
       "quote": "Whether you’re burned out, starting out, starting over, or wildly successful, the question is always the same: How to keep going?",
@@ -493,7 +473,26 @@ layout: null
         "label": "(Kleon 2019)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
       },
-      "media_slot_id": "I.2.still.profield-8"
+      "media_slot_id": "I.2.masterclass-6",
+      "slide_id": "masterclass-6",
+      "image_brief": "Raster vs vector fish scaling diagram: three size comparisons that make alternatives visible — pick one construction, keep two rivals.",
+      "asset_id": "wikimedia:File:Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "notes": "- Beat: 6 · Three alternatives.\n- Core line: One silhouette is not enough — make three visible versions, then defend the choice you keep.\n- Read the quote once; pause: “Whether you’re burned out, starting out, starting over, or wildly successful, the question is always the same: How to ke…”\n- Source cue: (Kleon 2019)\n- Debate prompt: what changes if the venue or audience shifts?"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "What is a vector path in this unit’s terms?",
+        "I.2’s creativity check distinguishes which three terms?",
+        "How many silhouette alternatives does Lab 2 require?",
+        "What literacy trap does Rubin push against here?",
+        "Lab 1: a proportion decision must survive which media chain?"
+      ],
+      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. Relations among points, handles, and fills — not a pixel grid.\n- 2. Fantasy, imagination, and creative fit to brief (Hüppauf and Wulf 2009, 32).\n- 3. Three visibly different versions, then a defended winner.\n- 4. Tool worship — taste shows in listening/curation (Rubin 2023, 123).\n- 5. Hand → raster → vector (proportion-survival sentence).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
     },
     {
       "slide_role": "lab_opener",
@@ -501,15 +500,17 @@ layout: null
       "heading": "Lab · Portfolio",
       "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
       "portfolio_bound": true,
-      "portfolio_trace": "Open or update the portfolio index before you leave."
+      "portfolio_trace": "Open or update the portfolio index before you leave.",
+      "slide_id": "lab-opener",
+      "notes": "- Bridge into Lab: two portfolio-bound exercises follow.\n- Exercises come next. Everything you make in Lab goes into your portfolio index."
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "heading": "Exercise 1 · Contour from primitives",
-      "sentence": "Build one simple fashion silhouette from basic shapes and paths. Keep construction marks visible.",
+      "background_kind": "curated",
+      "heading": "Exercise 1 · Croquis proportion scaffold",
+      "sentence": "Draw the scaffold alone first. Place landmarks before contour. Garment finish waits on a separate layer.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the file + one sentence naming the hardest anchor-point decision.",
+      "portfolio_trace": "Scaffold layer + garment layer pair; one sentence on the landmark that locked the pose.",
       "quote": "Label the practice before you name the file — JPEG never answered a venue.",
       "quote_origin": "tao_invented",
       "semantic_tags": {
@@ -532,15 +533,26 @@ layout: null
         "label": "(Tao of the Image)",
         "href": "/digital-creativity-uem/tao/"
       },
-      "media_slot_id": "I.2.still.profield-9"
+      "media_slot_id": "I.2.lab-1",
+      "slide_id": "lab-1",
+      "image_brief": "CosmicBloom vector-like floral form built from curves: a contour assembled from primitives students can reverse-engineer.",
+      "asset_id": "wikimedia:File:CosmicBloom.jpg",
+      "notes": "- Timer: 20 minutes. Individual. ACT1 figurín craft (proportion), not a second graded channel.\n- Choose a head-count or grid scaffold and draw it alone first.\n- Place landmarks (shoulder, waist, hip, knee) before contour.\n- Trace a second pass for garment only on a separate layer.\n- Compare scaffold vs finish; mark one collapsed decision.\nSource: Classroom adaptation (croquis / Abling page cite held).\nAsk: Which landmark would break first if you changed medium?",
+      "prompt": "Practises Masterclass 1 and 4: drawing as thinking; fashion visual grammar.",
+      "method_id": "croquis-proportion-scaffold",
+      "practises": [
+        "masterclass-1",
+        "masterclass-4"
+      ],
+      "timer_seconds": 1200
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "heading": "Exercise 2 · Wrong curve handle",
-      "sentence": "Given a path with a visibly wrong curve handle, name what is wrong and what a correct handle would do.",
+      "background_kind": "curated",
+      "heading": "Exercise 2 · Three alternatives, then construction vs finish",
+      "sentence": "Make three visibly different silhouette versions. On the winner, colour-code construction lines vs finish — hide finish and ask a peer what still reads.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save diagnosis + corrected sketch (tool or paper).",
+      "portfolio_trace": "Three versions + scoring sheet + construction/finish audit on the winner + one defence paragraph.",
       "quote": "The phone gives us a lot but it takes away three key elements of discovery: loneliness, uncertainty, and boredom.",
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -563,44 +575,27 @@ layout: null
         "label": "(Kleon 2019)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
       },
-      "media_slot_id": "I.2.still.profield-10"
-    },
-    {
-      "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "heading": "Exercise 3 · Three alternatives",
-      "sentence": "Make three visibly different versions of the silhouette. Score novelty and fit (1–5). Rank and defend the winner.",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save the three versions + scoring sheet + one paragraph of defence.",
-      "quote": "Everything got better for me when I made peace with the fact that it might not ever get easier. Creative work is hard.",
-      "quote_origin": "page_verified",
-      "semantic_tags": {
-        "themes": [
-          "alternatives",
-          "selection"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms",
-          "drawing (image-making)"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "citation": {
-        "label": "(Kleon 2019)",
-        "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-2-2d-drawing/#ref-kleon-2019"
-      },
-      "media_slot_id": "I.2.still.profield-11"
+      "media_slot_id": "I.2.lab-2",
+      "slide_id": "lab-2",
+      "image_brief": "Work-in-progress drawing board with several unfinished figure studies: three alternatives kept open before one is chosen, then construction vs finish audited.",
+      "asset_id": "wikimedia:File:Work in Progress.JPG",
+      "notes": "- Timer: 25 minutes. Individual + one peer check.\n- Make three visibly different versions of the silhouette. Score novelty and fit (1–5); rank and defend the winner.\n- On the winner: colour-code construction lines vs finish lines.\n- Hide finish; ask a peer what garment they still understand.\n- Restore finish only where it adds information. One sentence: which line type carried the silhouette.\nSource: Classroom adaptation for the three-alternative drill; critical frame that imagination ≠ creativity ≠ fantasy (Hüppauf and Wulf 2009, 32) — do not treat “more finish” as “more creative.”\nAsk: Did your rarest alternative also carry the clearest construction?",
+      "prompt": "Practises Masterclass 6 (three alternatives) and 2 (vector as relationship).",
+      "method_id": "construction-vs-finish-lines",
+      "practises": [
+        "masterclass-2",
+        "masterclass-6"
+      ],
+      "timer_seconds": 1500
     },
     {
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and does not get Workshop time. From session 4: Workshop splits half Transposition, half final event."
+      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and does not get Workshop time. From session 4: Workshop splits half Transposition, half final event.",
+      "slide_id": "outro",
+      "notes": "- Close: name what carries to the next session / deliverable.\n- No Workshop in first lessons — Lab ends the session. D1 Analysis is next and does not get Workshop time. From session 4: Workshop splits half Transposition, half final event."
     }
-  ]
+  ],
+  "schema_version": 2
 }

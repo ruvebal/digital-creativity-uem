@@ -1,0 +1,106 @@
+schema: dc-fashion-craft-profield-map/v1
+phase: EX7
+note: Maps catalogue method ids → Profield runs named in PROFIELD-AND-INFRA.md. Discovery only; citations
+  still need Ahmes.
+by_profield_run:
+  dc-2d-image-craft-pedagogy:
+  - blend-mode-as-light
+  - colourway-swap-test
+  - compositing-before-after-strip
+  - construction-vs-finish-lines
+  - contrast-accessibility-pass
+  - croquis-proportion-scaffold
+  - figurin-digital
+  - flat-sketch-tech-pack-lite
+  - gesture-line-pass
+  - line-weight-hierarchy
+  - mask-precision-ladder
+  - non-destructive-layer-discipline
+  - palette-from-garment
+  - productive-struggle-scaffold
+  - rgb-cmyk-intent-check
+  - vector-vs-raster-silhouette
+  dc-3d-form-volume-pedagogy:
+  - 2d-to-3d-sequence-sketch
+  - avatar-fit-sanity
+  - drape-observation-lite
+  - hybrid-analogue-digital-iteration
+  - negative-space-garment
+  - silhouette-from-volume
+  dc-avatar-digital-fashion-pedagogy:
+  - avatar-fit-sanity
+  dc-curriculum-gap-harvest:
+  - drape-observation-lite
+  dc-fashion-composition-references-pedagogy:
+  - contact-sheet-before-bash
+  - critical-image-selection
+  - crop-as-argument
+  - figure-ground-reversal
+  - gestalt-composition
+  - iconic-vs-graphic-code
+  - moodboard-as-research
+  - palette-from-garment
+  - photobash-integration
+  - search-politics-audit
+  - texture-sample-board
+  - trend-signal-to-board
+  - visual-citation-block
+  - visual-hierarchy-three-beats
+  dc-fashion-motion-still-pedagogy:
+  - bodegon-balance-pass
+  - motion-accessibility-check
+  - scale-consistency-pass
+  - solid-drawing-in-motion-frame
+  - still-life-lighting-transfer
+  - timing-vs-polish-split
+  dc-fashion-portfolio-web-ux:
+  - export-for-channel
+  - portfolio-sequence-of-three
+  - web-portfolio-chunking
+  dc-fashion-retouch-pedagogy:
+  - authorship-declaration-strip
+  - beauty-vs-product-retouch-split
+  - disclosure-label-skepticism
+  - dodge-burn-discipline
+  - non-destructive-layer-discipline
+  - provenance-aware-export
+  - refuse-harmful-ideal-edit
+  - retouch-ethics-threshold
+  digital-creativity:
+  - agency-in-reception-note
+  - authorship-declaration-strip
+  - effects-disclosure-threshold
+  - fashion-photograph-reading
+  - figurin-digital
+  - generative-face-bias-pause
+  - key-visual-brief-lock
+  - photobash-integration
+  - platform-tonal-edit-study
+  - point-line-plane-looking
+  - rgb-cmyk-intent-check
+  - seam-honesty-check
+  - taste-listening-counterpoint
+sandra_act_methods:
+  ACT1:
+  - construction-vs-finish-lines
+  - croquis-proportion-scaffold
+  - figurin-digital
+  - flat-sketch-tech-pack-lite
+  - line-weight-hierarchy
+  - productive-struggle-scaffold
+  ACT2:
+  - compositing-before-after-strip
+  - contact-sheet-before-bash
+  - effects-disclosure-threshold
+  - figure-ground-reversal
+  - gestalt-composition
+  - key-visual-brief-lock
+  - mask-precision-ladder
+  - photobash-integration
+  - point-line-plane-looking
+  - seam-honesty-check
+  - visual-hierarchy-three-beats
+findings_closed:
+- C4
+findings_partial:
+- C3

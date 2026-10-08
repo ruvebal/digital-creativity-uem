@@ -1,7 +1,7 @@
 # PHASE-EX9: Lesson structure, exemplars, lesson images
 
 > **Track:** lessons
-> **Status:** BLOCKED (EX8 DONE)
+> **Status:** VERIFYING (implementer gate failures 0; harness + cold review next)
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
 
 ## Goal

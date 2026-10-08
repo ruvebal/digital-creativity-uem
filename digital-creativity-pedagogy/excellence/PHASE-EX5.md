@@ -1,7 +1,7 @@
 # PHASE-EX5: Deck renderer: pre-render, alt, captions, notes, layouts
 
 > **Track:** renderer
-> **Status:** BLOCKED (EX4 DONE)
+> **Status:** VERIFYING (EX4 DONE)
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
 
 ## Goal

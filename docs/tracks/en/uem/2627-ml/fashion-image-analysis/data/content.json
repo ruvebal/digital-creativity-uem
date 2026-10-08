@@ -9,56 +9,203 @@ layout: null
     "project_id": "ml",
     "collection": "unit-accepted",
     "promote_high_ranked": true,
-    "strategy": "geometrical-first",
-    "description": "Master lecture (transversal): geometrical openers; Masterclass quotes from Shinkle 2008 + Eckersall 2017."
+    "strategy": "slide-bound-asset_id",
+    "description": "EX4: slides bind by asset_id; rehydrate uses bindSlides (no rank dealing)."
   },
   "assets": [
-    {"media_slot_id":"ML-FIA.morphology.dot","asset_id":"generated:morphology-dot","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-dot.png","title":"Morphology · dot","alt_text":"A single dot with concentric attention rings on warm paper","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Scientific-educational visual for a fashion image analysis masterclass: a single black dot on a warm off-white paper field, with subtle concentric attention rings and generous negative space, editorial art-school aesthetic, no text, no labels, no border, high contrast, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.line","asset_id":"generated:morphology-line","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-line.png","title":"Morphology · line","alt_text":"A black line moving from straight to curved across warm paper","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"One elegant black line crossing warm off-white paper, straight to curved, with visible changes in direction and force, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.plane","asset_id":"generated:morphology-plane","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-plane.png","title":"Morphology · plane","alt_text":"Layered translucent planes organising figure and ground","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Layered translucent planes in ochre, cobalt, and charcoal forming figure-ground relations on warm paper, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.form","asset_id":"generated:morphology-form","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-form.png","title":"Morphology · form","alt_text":"A geometric silhouette unfolding into a volumetric form","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Flat geometric silhouette unfolding into a volumetric form with clear light and shadow, fashion-design study, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.colour","asset_id":"generated:morphology-colour","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-colour.png","title":"Morphology · colour","alt_text":"Four colour fields contrasting hue, value, saturation, and temperature","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Relational colour study with four fields showing hue, value, saturation, and warm-cool contrast, editorial art-school aesthetic, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.composition","asset_id":"generated:morphology-composition","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-composition.png","title":"Morphology · composition","alt_text":"An asymmetrical fashion-image composition with scale, crop, rhythm, and depth","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Balanced fashion-image composition with asymmetrical scale, crop, rhythm, and a receding perspective grid, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.vf.dot","asset_id":"visual-forger:vf-dot","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-dot.svg","title":"Visual-forger · dot","alt_text":"A single dot with concentric attention rings","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.line","asset_id":"visual-forger:vf-line","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-line.svg","title":"Visual-forger · line","alt_text":"A line moving from straight to curved","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.plane","asset_id":"visual-forger:vf-plane","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-plane.svg","title":"Visual-forger · plane","alt_text":"Layered planes organising figure and ground","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.form","asset_id":"visual-forger:vf-form","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-form.svg","title":"Visual-forger · form","alt_text":"A geometric silhouette unfolding into volume","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.colour","asset_id":"visual-forger:vf-colour","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-colour.svg","title":"Visual-forger · colour","alt_text":"Four fields comparing colour relations","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.composition","asset_id":"visual-forger:vf-composition","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-composition.svg","title":"Visual-forger · composition","alt_text":"An asymmetrical composition with grid and depth","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.i4.1","asset_id":"wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/8243faeb5945da08.jpg","title":"Dresses by Rei Kawakubo · I4 accepted","alt_text":"Dresses by Rei Kawakubo in an exhibition view","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 10","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-FIA.i4.2","asset_id":"wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/4e655e0f068fdc07.jpg","title":"Dresses by Rei Kawakubo · I4 accepted","alt_text":"Dresses by Rei Kawakubo in a second exhibition view","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 10","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-FIA.i4.3","asset_id":"wikimedia:File:Fashion Sketch Design.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg","title":"Fashion sketch design · I4 accepted","alt_text":"A fashion sketch design study","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-FIA.i4.4","asset_id":"wikimedia:File:AK ER Exhibition Poster 2014.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/37ef9f5bda8f9a93.jpg","title":"Exhibition poster · I4 accepted","alt_text":"An exhibition poster composition","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-FIA.i4.5","asset_id":"wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg","title":"Beauty advertisement · I4 accepted","alt_text":"A historical beauty advertisement","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-FIA.i4.6","asset_id":"wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/f4786040093c9e0d.jpg","title":"Drapery study · I4 accepted","alt_text":"A drapery study for a figure of Sculpture","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-FIA.cover.leonardo","asset_id":"wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/76f4b32ceaeb1364.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/2/25/Leonardo_da_vinci%2C_Garment_study_for_a_seated_figure.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg","title":"Leonardo da Vinci — Garment study for a seated figure","alt_text":"Leonardo da Vinci garment study for a seated figure","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · public domain","licence":"Public domain","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-FIA.runway.jessica-1","asset_id":"wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/5dc077b6251755e2.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020.jpg","title":"Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020","alt_text":"Jessica Minh Anh on a runway fashion and sustainability show, 2020","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","licence":"CC BY-SA (Commons)","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-FIA.runway.jessica-2","asset_id":"wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2).jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/17d4597b7ae3a41e.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/c/c2/Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020_%282%29.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020_(2).jpg","title":"Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2)","alt_text":"Jessica Minh Anh on a runway fashion and sustainability show, 2020 — second view","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","licence":"CC BY-SA (Commons)","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-FIA.lab.catalogue-1890","asset_id":"wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/affb13f5f7c9d0f8.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Illustrated_fashion_catalogue_-_summer%2C_1890_%281890%29_%2814803821793%29.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14803821793).jpg","title":"Illustrated fashion catalogue — summer, 1890","alt_text":"Illustrated fashion catalogue page from summer 1890","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · public domain","licence":"Public domain","selection_rank":10,"priority":10}
-  ],
-  "promoted_assets": [
-    {"asset_id":"wikimedia:File:Astronaut Riding a Horse (SD3.5).webp","asset_url":"/digital-creativity-uem/assets/images/profield-cache/14efab1e027565fc.webp","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp","title":"Astronaut riding a horse","alt_text":"A digitally generated astronaut riding a horse","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":10,"priority":10},
-    {"asset_id":"wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/324922ac305a2043.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/d/d8/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg","title":"News kiosk — exhibition of fashion magazines","alt_text":"A news kiosk displaying fashion and craft magazines","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":10,"priority":10},
-    {"asset_id":"wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/bf651ca6c925cff0.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/f/f2/Lautrec_the_photographer_sescau_%28poster%29_1894.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Lautrec_the_photographer_sescau_(poster)_1894.jpg","title":"Lautrec — The photographer Sescau","alt_text":"A 1894 poster depicting the photographer Sescau","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Work in Progress.JPG","asset_url":"/digital-creativity-uem/assets/images/profield-cache/9d962140d44bf914.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG","title":"Work in Progress","alt_text":"A work-in-progress creative process","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"nypl:ecd58340-c606-012f-96ca-58d385a7bc34","asset_url":"/digital-creativity-uem/assets/images/profield-cache/67e8367fb0719e25.jpg","source_file_url":"https://images.nypl.org/index.php?id=1634206&t=w","canonical_source_url":"http://digitalcollections.nypl.org/items/ecd58340-c606-012f-96ca-58d385a7bc34","title":"Fashion illustration","alt_text":"Fashion illustration","provider":"nypl","credit_line":"nypl","selection_rank":9,"priority":9},
-    {"asset_id":"nypl:ed252fa0-c606-012f-d3ed-58d385a7bc34","asset_url":"/digital-creativity-uem/assets/images/profield-cache/c425a4f37ec39601.jpg","source_file_url":"https://images.nypl.org/index.php?id=1634205&t=w","canonical_source_url":"http://digitalcollections.nypl.org/items/ed252fa0-c606-012f-d3ed-58d385a7bc34","title":"Fashion illustration","alt_text":"Fashion illustration","provider":"nypl","credit_line":"nypl","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/f4786040093c9e0d.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/8/80/Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg","title":"Drapery study for figure of Sculpture","alt_text":"A drapery study for a figure of Sculpture","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/a7fe225309618a85.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/0/07/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg","title":"Dresses by Rei Kawakubo","alt_text":"Dresses by Rei Kawakubo","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Fashion Sketch Design.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/8/8b/Fashion_Sketch_Design.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg","title":"Fashion Sketch Design","alt_text":"Fashion sketch design","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/3e1406d573d0b92f.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg","title":"Historical clothing of France","alt_text":"Historical French clothing illustration","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9}
+    {
+      "media_slot_id": "ML-FIA.cover",
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Leonardo_da_vinci%2C_Garment_study_for_a_seated_figure.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg",
+      "title": "Leonardo da vinci, Garment study for a seated figure",
+      "alt_text": "Leonardo da Vinci garment study for a seated figure",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; 1519+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.analysis-model",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/a7fe225309618a85.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
+      "title": "Dresses by Rei Kawakubo - Sarah Stierch 01",
+      "alt_text": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Sarah Stierch (photograph); Rei Kawakubo (garments) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.masterclass-1",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/8243faeb5945da08.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg",
+      "title": "Dresses by Rei Kawakubo - Sarah Stierch 02",
+      "alt_text": "Dresses by Rei Kawakubo in an exhibition view",
+      "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Sarah Stierch (photograph); Rei Kawakubo (garments) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.masterclass-2",
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/684484de753f97f5.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fashion_Sketch_Design.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg",
+      "title": "Fashion Sketch Design",
+      "alt_text": "A fashion sketch design study",
+      "author": "Unknown fashion illustrator / Commons upload",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown fashion illustrator / Commons upload · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "modern upload of sketch; licence from file page",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.masterclass-3",
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/37ef9f5bda8f9a93.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/AK_ER_Exhibition_Poster_2014.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:AK_ER_Exhibition_Poster_2014.jpg",
+      "title": "AK ER Exhibition Poster 2014",
+      "alt_text": "An exhibition poster composition",
+      "author": "Poster designer / photographer",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Poster designer / photographer · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "2014 poster; modern rights",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.masterclass-4",
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/50123c6eb70f0276.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
+      "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945",
+      "alt_text": "A historical beauty advertisement",
+      "author": "Woodbury / advertiser (1945 publication)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Woodbury / advertiser (1945 publication) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "US advert 1945; EU anonymous/corporate publication term doubtful — flagged; EU term not fully verified",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.masterclass-5",
+      "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/5dc077b6251755e2.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020.jpg",
+      "title": "Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020",
+      "alt_text": "Jessica Minh Anh on a runway fashion and sustainability show, 2020",
+      "author": "Photograph uploader (2018)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Photograph uploader (2018) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "living person identifiable on runway — flagged",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.masterclass-6",
+      "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/17d4597b7ae3a41e.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020_%282%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020_(2).jpg",
+      "title": "Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2)",
+      "alt_text": "Jessica Minh Anh on a runway fashion and sustainability show, 2020 — second view",
+      "author": "Photograph uploader (2018)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Photograph uploader (2018) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "living person identifiable on runway — flagged",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-FIA.lab-1",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/affb13f5f7c9d0f8.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Illustrated_fashion_catalogue_-_summer%2C_1890_%281890%29_%2814803821793%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14803821793).jpg",
+      "title": "Illustrated fashion catalogue - summer, 1890 (1890) (14803821793)",
+      "alt_text": "Illustrated fashion catalogue page from summer 1890",
+      "author": "Unknown catalogue illustrator (1890)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown catalogue illustrator (1890) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous US catalogue 1890; EU term from publication expired",
+      "rights_status": "ok",
+      "cropped": false
+    }
   ],
   "slides": [
     {
       "slide_role": "unit_cover",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.cover.leonardo",
+      "background_kind": "curated",
       "heading": "Master Lecture · Fashion image analysis",
       "sentence": "Morphology first: dot, line, plane, form, colour, composition. Then eight steps. Critical always.",
       "prompt": "Transversal analysis guide · language / medium / support + circulation",
       "quote": "Eight steps. Two lenses. One image. Critical always.",
       "quote_origin": "tao_invented",
-      "semantic_tags": { "themes": ["master-lecture", "analysis", "fashion-image"] }
+      "semantic_tags": {
+        "themes": [
+          "master-lecture",
+          "analysis",
+          "fashion-image"
+        ]
+      },
+      "slide_id": "cover",
+      "image_brief": "Leonardo da Vinci, garment study for a seated figure: folds observed before interpretation — the master lecture's evidence-first habit.",
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "media_slot_id": "ML-FIA.cover",
+      "notes": "- Open the unit with the cover claim: Master Lecture · Fashion image analysis.\n- Land one sentence: Morphology first: dot, line, plane, form, colour, composition. Then eight steps. Critical always.\n- Point at the image; name why this picture belongs on the cover."
     },
     {
       "slide_role": "analysis_opener",
@@ -66,12 +213,14 @@ layout: null
       "background_url": "/assets/images/fractal-pass-track/uem-pass-01-structure-5218b595b4fa.svg",
       "heading": "Analysis · two lenses",
       "sentence": "Lens A: language / medium / support. Lens B: production → reception → next production.",
-      "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa"
+      "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa",
+      "slide_id": "analysis-opener",
+      "notes": "- Mark the Analysis block: modelled first, then student defences from session 3.\n- Lens A: language / medium / support. Lens B: production → reception → next production."
     },
     {
       "slide_role": "analysis_model",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.i4.1",
+      "background_kind": "curated",
+      "media_slot_id": "ML-FIA.analysis-model",
       "heading": "Two passes: evidence → analysis",
       "body": [
         {
@@ -83,28 +232,40 @@ layout: null
           "text": "Describe → inventory → origin → production → meaning → power → circulation."
         }
       ],
-      "prompt": "Do not jump from impression to message. Evidence first; then claim."
+      "prompt": "Do not jump from impression to message. Evidence first; then claim.",
+      "slide_id": "analysis-model",
+      "image_brief": "Rei Kawakubo dresses (Stierch 01): look first at cut, volume and black/colour blocks before naming a theory.",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "notes": "- Model the reading on this slide: Two passes: evidence → analysis.\n- Ask one student to restate the path the picture travels."
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.i4.2",
+      "background_kind": "curated",
+      "media_slot_id": "ML-FIA.masterclass-1",
       "heading": "1 · Describe before you interpret",
       "sentence": "Say what is there: bodies, clothes, light, text, crop. Not yet what it means.",
-      "prompt": "Start with observable evidence; postpone the message."
+      "prompt": "Start with observable evidence; postpone the message.",
+      "slide_id": "masterclass-1",
+      "image_brief": "Rei Kawakubo dresses (Stierch 02): a second view used only to describe what is seen — describe before you interpret.",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "notes": "- Beat: 1 · Describe before you interpret.\n- Core line: Say what is there: bodies, clothes, light, text, crop. Not yet what it means.\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.i4.3",
+      "background_kind": "curated",
+      "media_slot_id": "ML-FIA.masterclass-2",
       "heading": "2 · Language ≠ medium ≠ support",
       "sentence": "Separate code, channel or genre, and material or file.",
-      "prompt": "Do not call the screen the medium when you mean the JPEG."
+      "prompt": "Do not call the screen the medium when you mean the JPEG.",
+      "slide_id": "masterclass-2",
+      "image_brief": "Fashion sketch design on paper: language (sketch), medium (ink/paper) and support (page) held apart for analysis.",
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "notes": "- Beat: 2 · Language ≠ medium ≠ support.\n- Core line: Separate code, channel or genre, and material or file.\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.i4.4",
+      "background_kind": "curated",
+      "media_slot_id": "ML-FIA.masterclass-3",
       "heading": "3 · The photo organises fashion",
       "sentence": "The image is not decoration: it charts fashion’s discursive space.",
       "quote": "Photographic images play a key role in defining global fashion culture and in charting its discursive space.",
@@ -112,12 +273,16 @@ layout: null
       "citation": {
         "label": "(Shinkle 2008, 14)",
         "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
-      }
+      },
+      "slide_id": "masterclass-3",
+      "image_brief": "AK ER exhibition poster: photography and layout organising how fashion is shown in public.",
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "notes": "- Beat: 3 · The photo organises fashion.\n- Core line: The image is not decoration: it charts fashion’s discursive space.\n- Read the quote once; pause: “Photographic images play a key role in defining global fashion culture and in charting its discursive space.”\n- Source cue: (Shinkle 2008, 14)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.i4.5",
+      "background_kind": "curated",
+      "media_slot_id": "ML-FIA.masterclass-4",
       "heading": "4 · No single genre",
       "sentence": "Editorial, advertising, beauty, documentary: do not use one method for all.",
       "quote": "there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is best suited to its analysis",
@@ -125,12 +290,15 @@ layout: null
       "citation": {
         "label": "(Shinkle 2008, 17)",
         "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
-      }
+      },
+      "slide_id": "masterclass-4",
+      "image_brief": "1945 Dorothy Lamour beauty advert: one more genre (beauty commerce) beside runway and catalogue — no single fashion genre.",
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "notes": "- Beat: 4 · No single genre.\n- Core line: Editorial, advertising, beauty, documentary: do not use one method for all.\n- Read the quote once; pause: “there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is…”\n- Source cue: (Shinkle 2008, 17)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.runway.jessica-1",
+      "background_kind": "curated",
       "heading": "5 · Agency, reception, experience",
       "sentence": "Circulation is not only views: who acts, who receives, what is felt?",
       "quote": "The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.",
@@ -143,12 +311,16 @@ layout: null
         "label": "Watch · solar-powered catwalk (Seville)",
         "href": "https://www.facebook.com/watch/?v=2210954472797185"
       },
-      "prompt": "Lens B: reception can feed the next production."
+      "prompt": "Lens B: reception can feed the next production.",
+      "slide_id": "masterclass-5",
+      "image_brief": "Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020: a living designer-model on a public catwalk — agency and reception in one frame.",
+      "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020.jpg",
+      "media_slot_id": "ML-FIA.masterclass-5",
+      "notes": "- Beat: 5 · Agency, reception, experience.\n- Core line: Circulation is not only views: who acts, who receives, what is felt?\n- Read the quote once; pause: “The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.”\n- Source cue: (Eckersall 2017, 219)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.runway.jessica-2",
+      "background_kind": "curated",
       "heading": "6 · Desire + critical gaze",
       "sentence": "Creating desire is the craft; asking whom it serves is your analytic duty.",
       "quote": "Fashion photography is about creating desire.",
@@ -157,7 +329,27 @@ layout: null
         "label": "(Shinkle 2008, 78)",
         "href": "/lessons/en/master-lectures/fashion-image-analysis/#references"
       },
-      "prompt": "Step 7: who appears, who is missing, what labour is hidden?"
+      "prompt": "Step 7: who appears, who is missing, what labour is hidden?",
+      "slide_id": "masterclass-6",
+      "image_brief": "Jessica Minh Anh runway still (alternate angle, same 2020 show): desire and the critical gaze share the same photographed body.",
+      "asset_id": "wikimedia:File:Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2).jpg",
+      "media_slot_id": "ML-FIA.masterclass-6",
+      "notes": "- Beat: 6 · Desire + critical gaze.\n- Core line: Creating desire is the craft; asking whom it serves is your analytic duty.\n- Read the quote once; pause: “Fashion photography is about creating desire.”\n- Source cue: (Shinkle 2008, 78)\n- Debate prompt: what changes if the venue or audience shifts?"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "Kandinsky: point, line, plane — looking order or total geometry claim?",
+        "Name the first three steps of the morphological chain.",
+        "Shinkle 2008, 17: single genre/method?",
+        "Which step must appear or the analysis card fails?",
+        "Eckersall 2017 is pinned here for agency in what?"
+      ],
+      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. Looking order for attention/relation — not that every image is geometric (Kandinsky 2012, 9).\n- 2. Dot → line → plane (then shape, form, colour, composition, space).\n- 3. No single genre, no single method (Shinkle 2008, 17).\n- 4. Step 7 critical — description alone is not analysis.\n- 5. Reception / how meaning is negotiated in reception (Eckersall 2017, 219).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
     },
     {
       "slide_role": "lab_opener",
@@ -165,12 +357,14 @@ layout: null
       "background_url": "/assets/images/fractal-pass-track/uem-pass-04-practice-4a190e098ca6.svg",
       "heading": "Lab",
       "sentence": "Two exercises. Everything you produce enters your portfolio index / Canvas.",
-      "caption": "Geometrical · uem-pass-04-practice.svg#4a190e098ca6"
+      "caption": "Geometrical · uem-pass-04-practice.svg#4a190e098ca6",
+      "slide_id": "lab-opener",
+      "notes": "- Bridge into Lab: two portfolio-bound exercises follow.\n- Two exercises. Everything you produce enters your portfolio index / Canvas."
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.lab.catalogue-1890",
+      "background_kind": "curated",
+      "media_slot_id": "ML-FIA.lab-1",
       "heading": "Exercise 1 · Shared image",
       "sentence": "Fill the printable eight-step card on the image the professor models (Lens A + Lens B).",
       "figure": {
@@ -182,16 +376,22 @@ layout: null
         "href": "/lessons/en/master-lectures/fashion-image-analysis/#quick-card-printable"
       },
       "portfolio_bound": true,
-      "portfolio_trace": "Save the card in Canvas / portfolio index."
+      "portfolio_trace": "Save the card in Canvas / portfolio index.",
+      "slide_id": "lab-1",
+      "image_brief": "Illustrated fashion catalogue — summer, 1890: a shared historical plate for the class's evidence pass.",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "notes": "- Lab task: Exercise 1 · Shared image.\n- Brief: Fill the printable eight-step card on the image the professor models (Lens A + Lens B).\n- Portfolio: Save the card in Canvas / portfolio index.\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "ML-FIA.vf.composition",
+      "background_kind": "diagram",
       "heading": "Exercise 2 · Your image",
       "sentence": "Choose a fashion image (campaign, lookbook, or feed). Eight steps + one critical sentence + one circulation claim.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save image + card; link to any track unit that needs visual critique."
+      "portfolio_trace": "Save image + card; link to any track unit that needs visual critique.",
+      "slide_id": "lab-2",
+      "image_brief": "Students' own image (diagram fallback until a cleared student upload exists): keep the Lab on a geometrical/diagram field rather than inventing a private photograph.",
+      "notes": "- Lab task: Exercise 2 · Your image.\n- Brief: Choose a fashion image (campaign, lookbook, or feed). Eight steps + one critical sentence + one circulation claim.\n- Portfolio: Save image + card; link to any track unit that needs visual critique.\n- Start the timer; circulate; stop with one share-out."
     },
     {
       "slide_role": "outro",
@@ -199,7 +399,10 @@ layout: null
       "background_url": "/assets/images/fractal-pass-track/uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
       "heading": "Carry forward",
       "sentence": "What changes when the same image moves from editorial to feed — language, medium, or support?",
-      "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79"
+      "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79",
+      "slide_id": "outro",
+      "notes": "- Close: name what carries to the next session / deliverable.\n- What changes when the same image moves from editorial to feed — language, medium, or support?"
     }
-  ]
+  ],
+  "schema_version": 2
 }

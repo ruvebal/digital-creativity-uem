@@ -1,0 +1,110 @@
+{
+  "measured_at": "2026-10-07T16:44:39.566Z",
+  "commit": "350ef786b866018ddd3fb2dcc5d8f6c575bb43db",
+  "root": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem-integration-excellence-11",
+  "wave1": {
+    "lessons_en_cd_i": 9,
+    "lessons_es_cd_i": 9,
+    "en_es_parity_delta": 0,
+    "fashion_image_analysis_en": true,
+    "decks_dci_content_json": 6,
+    "decks_ml_content_json": 2,
+    "profield_cache_files": 79,
+    "php_cache_files": 0,
+    "lesson_infra_vocab_files": 0,
+    "lesson_infra_vocab_sample": [],
+    "special_infra_vocab": false,
+    "labs_by_deck": {
+      "docs/tracks/en/uem/2627-dci/how-to-pass-this-track/data/content.json": 0,
+      "docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form/data/content.json": 2,
+      "docs/tracks/en/uem/2627-ml/fashion-image-analysis/data/content.json": 2,
+      "docs/tracks/en/uem/2627-ml/image-morphology/data/content.json": 2
+    },
+    "decks_ne_2_labs": [],
+    "dangling_by_deck": {
+      "docs/tracks/en/uem/2627-dci/how-to-pass-this-track/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form/data/content.json": [],
+      "docs/tracks/en/uem/2627-ml/fashion-image-analysis/data/content.json": [],
+      "docs/tracks/en/uem/2627-ml/image-morphology/data/content.json": []
+    },
+    "dangling_total": 0,
+    "wave1_media_deck_count": 6,
+    "labs_by_wave1_media": {
+      "docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json": 2,
+      "docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form/data/content.json": 2,
+      "docs/tracks/en/uem/2627-ml/fashion-image-analysis/data/content.json": 2
+    },
+    "wave1_media_ne_2_labs": [],
+    "wave1_dangling_total": 0,
+    "catalogue_present": true,
+    "references_yml_present": true,
+    "research_manifest_present": true,
+    "consent_drafts_present": true,
+    "question_bank_present": true
+  },
+  "contract": {
+    "guia_i_path": "digital-creativity-pedagogy/cv/guides/1-creacion-digital-i.json",
+    "guia_ii_path": "digital-creativity-pedagogy/cv/guides/3-creacion-digital-ii.json",
+    "guia_i_weights": {
+      "Pruebas de evaluación presenciales": 55,
+      "Caso/problema": 15,
+      "Investigaciones y proyectos": 20,
+      "Cuaderno de prácticas de laboratorio/taller": 10
+    },
+    "guia_weights_expected": {
+      "tests": 55,
+      "caso": 15,
+      "proyectos": 20,
+      "cuaderno": 10
+    },
+    "evaluation_page_mentions_55": true,
+    "sandra_plan_pdf_present": true,
+    "sandra_plan_pdf": "digital-creativity-pedagogy/cv/sources/Plan_de_trabajo_2026-27_Creacion_Digital_I-Sandra_Jimenez.pdf",
+    "coordination_md_present": true,
+    "d2_equals_act3": true,
+    "sandra_act_weights_expected": {
+      "each_percent": 11.2,
+      "count": 4
+    },
+    "weights_match_55_15_20_10": true
+  },
+  "findings_refs": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7"
+  ]
+}

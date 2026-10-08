@@ -1,0 +1,1155 @@
+# Knowledge-test question bank — Digital Creativity Wave-1 (PHASE-EX10). PRIVATE: never publish.
+#
+# STATUS: DRAFT under AUTOPILOT §2 (EX10 row) — approved_by: autopilot (drafts — not for use
+# before professor approval). See APPROVAL.md. Not for any exam or graded use until the
+# professor approves the bank. Measurement never starts under autopilot (FINDINGS D4).
+#
+# Rules:
+# - Every `ref` is a key in docs/_data/references.yml AND appears in that unit lesson's
+#   front-matter `references:` list (bank refs ⊆ lesson references).
+# - Units I4 / I8 / I9 have empty lesson references in Wave-1 → **no bank items** until EX6-style
+#   verified keys are added (honest gap; do not invent cites).
+# - `ra`: guía learning_outcomes LO1–LO6 (Creación Digital I JSON).
+# - `bloom`: remember | understand | apply | analyse | evaluate | create.
+# - `public_quiz: true`: one of five questions on docs/practice/en/<slug>/ (built by
+#   scripts/build-practice-quizzes.mjs).
+# - `retrieval` / `retrieval_answer`: optional deck recall slide (I.1–I.5 content.json).
+# - Answers must be derivable from student-visible lesson text + the cited verified work.
+schema: dc-question-bank/v1
+phase: EX10
+status: draft
+units:
+  I1:
+    slug: i-1-digital-images
+    lesson: /lessons/en/digital-creativity-i/i-1-digital-images/
+    deck: docs/tracks/en/uem/2627-dci/i-1-fashion-image
+  I2:
+    slug: i-2-2d-drawing
+    lesson: /lessons/en/digital-creativity-i/i-2-2d-drawing/
+    deck: docs/tracks/en/uem/2627-dci/i-2-2d-drawing
+  I3:
+    slug: i-3-color-bitmaps
+    lesson: /lessons/en/digital-creativity-i/i-3-color-bitmaps/
+    deck: docs/tracks/en/uem/2627-dci/i-3-color-bitmaps
+  I5:
+    slug: i-5-three-dimensional-form
+    lesson: /lessons/en/digital-creativity-i/i-5-three-dimensional-form/
+    deck: docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form
+  I6:
+    slug: i-6-volume
+    lesson: /lessons/en/digital-creativity-i/i-6-volume/
+    deck: null
+  I7:
+    slug: i-7-fashion-references
+    lesson: /lessons/en/digital-creativity-i/i-7-fashion-references/
+    deck: null
+  FIA:
+    slug: fashion-image-analysis
+    lesson: /lessons/en/master-lectures/fashion-image-analysis/
+    deck: docs/tracks/en/uem/2627-ml/fashion-image-analysis
+gaps:
+  - unit: I4
+    reason: lesson front-matter references empty — no cite-safe bank items
+  - unit: I8
+    reason: lesson front-matter references empty — no cite-safe bank items
+  - unit: I9
+    reason: lesson front-matter references empty — no cite-safe bank items
+questions:
+  - id: I1-01
+    unit: I1
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Shinkle maps fashion photography as a wide array of practices. Which list matches that page?
+    answer: Editorial, advertising, beauty, portraiture, and documentary, among others.
+    distractors:
+      - Only editorial and advertising.
+      - Only runway and e-commerce catalog shots.
+      - Only gallery prints and museum loans.
+    ref: shinkle-2008
+    where: Masterclass, "1 · Field of practices"
+    anchor: masterclass
+    drafted: hand
+    retrieval: Shinkle lists which kinds of fashion-image practices?
+    retrieval_answer: Editorial, advertising, beauty, portraiture, documentary, among others (Shinkle 2008, 15).
+    public_quiz: true
+  - id: I1-02
+    unit: I1
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: According to Shinkle (2008, 15), what gathers the wide array of fashion-image practices?
+    answer: Shared goals and contexts (not a single file format).
+    ref: shinkle-2008
+    where: Masterclass, "1 · Field of practices"
+    anchor: masterclass
+    drafted: hand
+  - id: I1-03
+    unit: I1
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Why does this unit refuse to define a fashion image by its file extension?
+    answer: Formats describe storage; they do not say what the image does when it circulates.
+    distractors:
+      - JPEG files are illegal in fashion schools.
+      - Only RAW files count as fashion images.
+      - File extensions decide art versus commerce automatically.
+    ref: shinkle-2008
+    where: Masterclass, "2 · Not a file format"
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I1-04
+    unit: I1
+    ra: LO5
+    type: case
+    bloom: apply
+    stem: >-
+      A classmate calls a lookbook PDF "just a JPEG pack." Using I.1, write one sentence that
+      corrects the claim without denying that files matter for production.
+    answer: >-
+      The JPEG is the container; the job is naming practice, agents, venues, and interests that make
+      the pack circulate as fashion imagery.
+    ref: shinkle-2008
+    where: Masterclass, "2 · Not a file format" / Lab Exercise 1
+    anchor: lab-exercise-1
+    drafted: hand
+  - id: I1-05
+    unit: I1
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Shinkle treats fashion photography’s place in artistic and commercial realms as…
+    answer: Shifting and highly permeable.
+    distractors:
+      - Fixed once the client pays.
+      - Impossible to discuss in class.
+      - Settled by the camera brand.
+    ref: shinkle-2008
+    where: Masterclass, "4 · Art and commerce"
+    anchor: masterclass
+    drafted: hand
+    retrieval: How does Shinkle describe the art/commerce boundary?
+    retrieval_answer: Shifting and highly permeable (Shinkle 2008, 15).
+  - id: I1-06
+    unit: I1
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: Name three of the five practice labels Shinkle’s array puts beside editorial and advertising.
+    answer: Beauty, portraiture, and documentary (among others).
+    ref: shinkle-2008
+    where: Masterclass, "3 · Many genres at once"
+    anchor: masterclass
+    drafted: hand
+  - id: I1-07
+    unit: I1
+    ra: LO5
+    type: mcq
+    bloom: analyse
+    stem: >-
+      Hüppauf and Wulf (2009, 32) keep imagination, fantasy, and creativity related but
+      non-identical. Which classroom move matches that distinction?
+    answer: Refuse to call a freer fantasy “more creative” until it fits a brief’s value claim.
+    distractors:
+      - Treat every fantasy as creativity by definition.
+      - Drop imagination from the vocabulary.
+      - Grade creativity by how many filters were used.
+    ref: huppauf-wulf-2009
+    where: Analysis / field tension
+    anchor: analysis
+    drafted: hand
+    retrieval: Imagination, fantasy, creativity — identical or distinct?
+    retrieval_answer: Related but non-identical; do not collapse them (Hüppauf and Wulf 2009, 32).
+    public_quiz: true
+  - id: I1-08
+    unit: I1
+    ra: LO5
+    type: case
+    bloom: evaluate
+    stem: >-
+      A student presents a highly imaginative re-staging of an absent garment that ignores the
+      client brief. Using Hüppauf/Wulf + Shinkle’s practice frame, is it creative work yet? Explain
+      in two sentences.
+    answer: >-
+      It may be imaginative (re-presenting what is absent) without yet being a creative contribution
+      to the brief; creativity here needs fit to shared goals/contexts, not only freer fantasy.
+    ref: huppauf-wulf-2009
+    where: Analysis / field tension
+    anchor: analysis
+    drafted: hand
+  - id: I1-09
+    unit: I1
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Rubin’s practitioner counterpoint (2023, 123) puts taste where?
+    answer: In listening and curation, not in tool worship.
+    distractors:
+      - In owning the newest plugin pack.
+      - In never naming a venue or audience.
+      - In deleting all process notes.
+    ref: rubin-2023
+    where: Analysis / field tension
+    anchor: analysis
+    drafted: hand
+    retrieval: Where does Rubin locate taste (practitioner voice)?
+    retrieval_answer: In listening and curation, not tool worship (Rubin 2023, 123).
+    public_quiz: true
+  - id: I1-10
+    unit: I1
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: Lab Exercise 1 asks you to map four things before naming a file type. List them.
+    answer: Practice, agents, venues, and interests.
+    ref: shinkle-2008
+    where: Lab Exercise 1
+    anchor: lab-exercise-1
+    drafted: hand
+    retrieval: Lab 1 maps which four labels before file type?
+    retrieval_answer: Practice, agents, venues, and interests (classroom habit from Shinkle 2008, 15).
+    public_quiz: true
+  - id: I1-11
+    unit: I1
+    ra: LO5
+    type: case
+    bloom: apply
+    stem: >-
+      The same photograph appears on a gallery wall and in a campaign feed. Using Shinkle (2008,
+      15), what changed if the pixels did not?
+    answer: Venue, interests, and how art/commerce is read — the permeable boundary, not the file bits.
+    ref: shinkle-2008
+    where: Masterclass, "4 · Art and commerce"
+    anchor: masterclass
+    drafted: hand
+  - id: I1-12
+    unit: I1
+    ra: LO5
+    type: mcq
+    bloom: analyse
+    stem: Which statement matches I.1’s refusal to invent off-book graded work this week?
+    answer: D1 Analysis is the first graded stake; Lab traces feed the portfolio, not a secret second ACT.
+    distractors:
+      - Every Lab is secretly 11.2% of the grade.
+      - Workshop replaces Analysis from session 1.
+      - File-format quizzes replace D1.
+    ref: shinkle-2008
+    where: Workshop / definition of done
+    anchor: workshop
+    drafted: hand
+  - id: I2-01
+    unit: I2
+    ra: LO6
+    type: mcq
+    bloom: understand
+    stem: In this unit, what is a vector path primarily treated as?
+    answer: A set of relations (points, handles, fills) — not a pixel grid.
+    distractors:
+      - A random brush stamp.
+      - A camera RAW container.
+      - A printed pantone chip only.
+    ref: huppauf-wulf-2009
+    where: Masterclass, "2 · Vector is relationship"
+    anchor: masterclass
+    drafted: hand
+    retrieval: What is a vector path in this unit’s terms?
+    retrieval_answer: Relations among points, handles, and fills — not a pixel grid.
+    public_quiz: true
+  - id: I2-02
+    unit: I2
+    ra: LO6
+    type: short
+    bloom: remember
+    stem: Name the four reading moves Analysis adds for drawing after I.1’s practice frame.
+    answer: Line, layer, revision, and export.
+    ref: rubin-2023
+    where: Analysis
+    anchor: analysis
+    drafted: hand
+  - id: I2-03
+    unit: I2
+    ra: LO6
+    type: mcq
+    bloom: understand
+    stem: Why does the unit refuse isolated “Pen tool” button drills as the CONTENIDOS stake?
+    answer: Technique must live inside a silhouette problem, not beside it.
+    distractors:
+      - Because pens are obsolete.
+      - Because only raster tools count for fashion.
+      - Because tutorials forbid naming handles.
+    ref: rubin-2023
+    where: Masterclass, "3 · Technique inside problems"
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I2-04
+    unit: I2
+    ra: LO6
+    type: case
+    bloom: apply
+    stem: >-
+      A student scores high on menu recall but cannot say which handle is doing work on a sleeve.
+      Using I.2, what failed?
+    answer: >-
+      Relational vector literacy — judging which relation the silhouette needs, not brand-loyal menu
+      memory.
+    ref: huppauf-wulf-2009
+    where: Masterclass, "2 · Vector is relationship"
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I2-05
+    unit: I2
+    ra: LO6
+    type: mcq
+    bloom: analyse
+    stem: >-
+      When a peer says a contour is “more creative,” which Hüppauf/Wulf check does I.2 carry from
+      I.1?
+    answer: >-
+      Ask whether they mean freer fantasy, sharper imaginative re-presentation, or creative fit to
+      brief.
+    distractors:
+      - Count the number of anchor points.
+      - Prefer whatever used AI fill.
+      - Accept the praise without distinctions.
+    ref: huppauf-wulf-2009
+    where: Analysis / field tension
+    anchor: analysis
+    drafted: hand
+    retrieval: I.2’s creativity check distinguishes which three terms?
+    retrieval_answer: Fantasy, imagination, and creative fit to brief (Hüppauf and Wulf 2009, 32).
+  - id: I2-06
+    unit: I2
+    ra: LO6
+    type: short
+    bloom: remember
+    stem: Lab Exercise 2 requires how many visibly different silhouette alternatives before defence?
+    answer: Three.
+    ref: rubin-2023
+    where: Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+    retrieval: How many silhouette alternatives does Lab 2 require?
+    retrieval_answer: Three visibly different versions, then a defended winner.
+    public_quiz: true
+  - id: I2-07
+    unit: I2
+    ra: LO6
+    type: case
+    bloom: evaluate
+    stem: >-
+      A student keeps one polished silhouette and deletes the other two “to look professional.”
+      Evaluate against I.2’s three-alternatives rule.
+    answer: >-
+      Failing the design act: selection without named alternatives reinstalls the room’s taste;
+      process evidence needs the three versions and scoring.
+    ref: rubin-2023
+    where: Masterclass, "6 · Three alternatives" / Lab 2
+    anchor: lab-exercise-2
+    drafted: hand
+  - id: I2-08
+    unit: I2
+    ra: LO6
+    type: mcq
+    bloom: understand
+    stem: Rubin’s practitioner stance in this unit pushes against which literacy trap?
+    answer: Treating handle fluency / tool worship as authorship or taste.
+    distractors:
+      - Listening to references before drawing.
+      - Leaving construction marks visible.
+      - Naming export decisions.
+    ref: rubin-2023
+    where: Analysis / field tension
+    anchor: analysis
+    drafted: hand
+    retrieval: What literacy trap does Rubin push against here?
+    retrieval_answer: Tool worship — taste shows in listening/curation (Rubin 2023, 123).
+  - id: I2-09
+    unit: I2
+    ra: LO6
+    type: short
+    bloom: remember
+    stem: What survival test does Lab 1 ask for a proportion decision?
+    answer: A landmark/proportion decision that would survive hand → raster → vector.
+    ref: huppauf-wulf-2009
+    where: Lab Exercise 1
+    anchor: lab-exercise-1
+    drafted: hand
+    retrieval: 'Lab 1: a proportion decision must survive which media chain?'
+    retrieval_answer: Hand → raster → vector (proportion-survival sentence).
+  - id: I2-10
+    unit: I2
+    ra: LO6
+    type: case
+    bloom: apply
+    stem: >-
+      Replace one isolated command drill with a silhouette problem that needs the same command. What
+      should change in what you notice?
+    answer: >-
+      You notice garment decisions the command serves, not only how the menu moves — technique
+      inside a visual problem.
+    ref: rubin-2023
+    where: Masterclass, "3 · Technique inside problems"
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I2-11
+    unit: I2
+    ra: LO6
+    type: mcq
+    bloom: analyse
+    stem: 'Construction vs finish: which lines should survive a hide-finish peer check?'
+    answer: Construction lines that still carry the silhouette when finish is hidden.
+    distractors:
+      - Only decorative stitch noise.
+      - Only the export filename.
+      - Only AI upscales.
+    ref: huppauf-wulf-2009
+    where: Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+  - id: I2-12
+    unit: I2
+    ra: LO6
+    type: short
+    bloom: understand
+    stem: Why is a croquis called grammar rather than software in this unit?
+    answer: Proportion habits travel across hand, raster, and vector; the app brand is not the grammar.
+    ref: rubin-2023
+    where: Masterclass, "4 · Fashion visual grammar"
+    anchor: masterclass
+    drafted: hand
+  - id: I3-01
+    unit: I3
+    ra: LO4
+    type: mcq
+    bloom: understand
+    stem: What is a bitmap image in this unit’s definition?
+    answer: A fixed grid of colour values — mode, depth, and gamut also foreclose later options.
+    distractors:
+      - An infinite resolution vector path.
+      - A text-only HTML table.
+      - A 3D mesh with UVs only.
+    ref: roivainen-2025
+    where: Masterclass claim / bitmap limits
+    anchor: masterclass
+    drafted: hand
+    retrieval: What is a bitmap here — grid or infinite path?
+    retrieval_answer: A fixed grid of colour values; mode/depth/gamut foreclose later options.
+    public_quiz: true
+  - id: I3-02
+    unit: I3
+    ra: LO4
+    type: short
+    bloom: remember
+    stem: Roivainen (2025) supports naming what kind of colour/tonal conventions on platforms?
+    answer: Time-bound, platform-native editing styles (lighting, colour trends, tones).
+    ref: roivainen-2025
+    where: Masterclass / Roivainen
+    anchor: masterclass
+    drafted: hand
+    retrieval: Roivainen names what about platform colour styles?
+    retrieval_answer: Time-bound, platform-native editing conventions (Roivainen 2025, 8).
+  - id: I3-03
+    unit: I3
+    ra: LO4
+    type: mcq
+    bloom: understand
+    stem: AlDahoul et al. (2025) warn that image-generation/classification systems can…
+    answer: >-
+      Reproduce intersectional gender and racial bias — not representationally neutral
+      infrastructure.
+    distractors:
+      - Guarantee fair fashion imagery automatically.
+      - Replace all human colour judgement.
+      - Only affect black-and-white scans.
+    ref: aldahoul-2025
+    where: Critical perspective
+    anchor: analysis
+    drafted: hand
+    retrieval: 'AlDahoul et al.: are generative tools representationally neutral?'
+    retrieval_answer: No — they can reproduce intersectional gender and racial bias (AlDahoul et al. 2025).
+    public_quiz: true
+  - id: I3-04
+    unit: I3
+    ra: LO4
+    type: case
+    bloom: apply
+    stem: >-
+      You “correct” a garment’s hue until it matches a trending feed look but no longer matches the
+      physical sample. Name the debate stake I.3 sets.
+    answer: >-
+      When correcting colour becomes changing the garment — disclosure and relational colour, not
+      silent trend copy.
+    ref: roivainen-2025
+    where: Debate prompt
+    anchor: analysis
+    drafted: hand
+    public_quiz: true
+  - id: I3-05
+    unit: I3
+    ra: LO4
+    type: mcq
+    bloom: analyse
+    stem: Why must trending tones be treated as historical signals rather than defaults?
+    answer: >-
+      Platform styles circulate quickly; copying them as defaults erases time-bound convention as
+      evidence.
+    distractors:
+      - Because trends are illegal.
+      - Because only Pantone forever is allowed.
+      - Because bitmaps cannot hold trends.
+    ref: roivainen-2025
+    where: Frontier signal
+    anchor: masterclass
+    drafted: hand
+    retrieval: Treat trending tones as what, not as defaults?
+    retrieval_answer: Historical signals to compare (Roivainen 2025 platform-style point).
+  - id: I3-06
+    unit: I3
+    ra: LO4
+    type: short
+    bloom: remember
+    stem: Lab Exercise 1 asks for a five-colour strip plus what accessibility-minded alternate?
+    answer: An accessible alternate (high-contrast / readable alternate to the strip).
+    ref: roivainen-2025
+    where: Lab Exercise 1
+    anchor: lab-exercise-1
+    drafted: hand
+    public_quiz: true
+  - id: I3-07
+    unit: I3
+    ra: LO4
+    type: case
+    bloom: evaluate
+    stem: >-
+      A key-visual crop uses Gestalt grouping but the colour mode choice destroys later print
+      recovery. Evaluate the bitmap literacy claim.
+    answer: >-
+      Composition skill without mode/gamut awareness still fails bitmap literacy — the grid decision
+      forecloses later without loss.
+    ref: roivainen-2025
+    where: Masterclass / Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+  - id: I3-08
+    unit: I3
+    ra: LO4
+    type: mcq
+    bloom: understand
+    stem: Colour is taught in this unit as…
+    answer: Relational and perceptual — interaction, contrast, context — not isolated RGB swatches alone.
+    distractors:
+      - A single universal RGB triple for all briefs.
+      - Only brand hex codes without context.
+      - Irrelevant once Gestalt is named.
+    ref: roivainen-2025
+    where: Masterclass claim
+    anchor: masterclass
+    drafted: hand
+    retrieval: 'Colour teaching here: fixed swatches or relational?'
+    retrieval_answer: Relational — interaction, contrast, context (not isolated swatches).
+  - id: I3-09
+    unit: I3
+    ra: LO4
+    type: short
+    bloom: remember
+    stem: Name one Gestalt relation Lab Exercise 2 may test.
+    answer: 'Any of: proximity, similarity, closure, continuity, or figure–ground.'
+    ref: roivainen-2025
+    where: Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+  - id: I3-10
+    unit: I3
+    ra: LO4
+    type: case
+    bloom: apply
+    stem: >-
+      You use an AI fill that lightens skin tones toward a “professional” feed look. Which verified
+      critical lens must enter the process note?
+    answer: >-
+      AlDahoul et al. (2025): generative/classification tools can reproduce gender and racial bias —
+      declare and question the neutrality claim.
+    ref: aldahoul-2025
+    where: Critical perspective
+    anchor: analysis
+    drafted: hand
+    public_quiz: true
+  - id: I3-11
+    unit: I3
+    ra: LO4
+    type: mcq
+    bloom: analyse
+    stem: Which claim does Roivainen (2025) support for this course?
+    answer: >-
+      Skilled digital image work produces visualities that reflect editing styles popular at a given
+      moment.
+    distractors:
+      - A full validated fashion-colour HE syllabus.
+      - That Instagram filters are illegal.
+      - That bitmaps never lose data.
+    ref: roivainen-2025
+    where: Masterclass
+    anchor: masterclass
+    drafted: hand
+  - id: I3-12
+    unit: I3
+    ra: LO4
+    type: short
+    bloom: understand
+    stem: What does the unit refuse to treat tool documentation as?
+    answer: Research — tool docs ground operations only; label [PLATFORM], never as scholarly evidence.
+    ref: roivainen-2025
+    where: Masterclass / what this supports
+    anchor: masterclass
+    drafted: hand
+  - id: I5-01
+    unit: I5
+    ra: LO1
+    type: mcq
+    bloom: understand
+    stem: Papahristou and Zolota Tatsi (2024, 5) report IHU teaching 3D virtual prototyping when?
+    answer: >-
+      In the third year, alongside 2D CAD patternmaking, after traditional patternmaking and basic
+      construction.
+    distractors:
+      - In week one before any 2D literacy.
+      - Only as a replacement for all physical making.
+      - Never alongside 2D courses.
+    ref: papahristou-2024
+    where: Masterclass / verified course-structure
+    anchor: masterclass
+    drafted: hand
+    retrieval: At IHU, when is 3D prototyping taught relative to 2D?
+    retrieval_answer: Third year, alongside 2D CAD, after traditional patternmaking basics (Papahristou 2024, 5).
+    public_quiz: true
+  - id: I5-02
+    unit: I5
+    ra: LO2
+    type: short
+    bloom: remember
+    stem: What two halves does the IHU course split into, per Papahristou (2024, 5)?
+    answer: A theoretical half and a practical/laboratory half.
+    ref: papahristou-2024
+    where: Masterclass / verified course-structure
+    anchor: masterclass
+    drafted: hand
+    retrieval: IHU 3D course halves?
+    retrieval_answer: Theoretical half and practical/laboratory half (Papahristou 2024, 5).
+  - id: I5-03
+    unit: I5
+    ra: LO1
+    type: mcq
+    bloom: understand
+    stem: AMFI’s progressive integration of 3D prototyping (Papahristou 2024, 3) moved from…
+    answer: Initially the final prototyping phase, later extended toward the conceptual phase.
+    distractors:
+      - Only marketing PDFs with no form work.
+      - Deleting all 2D from year one.
+      - Banishing physical muslins forever on day one.
+    ref: papahristou-2024
+    where: Masterclass / AMFI case
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I5-04
+    unit: I5
+    ra: LO1
+    type: case
+    bloom: evaluate
+    stem: >-
+      A render looks correct; the student claims they “understand form.” What minimum evidence trail
+      does I.5 require?
+    answer: >-
+      (1) 2D read before building; (2) sketch → primitive-volume → digital sequence visible; (3) one
+      sentence on where 2D and 3D diverged (or matched).
+    ref: papahristou-2024
+    where: Masterclass / understanding form
+    anchor: masterclass
+    drafted: hand
+    retrieval: Name one item on I.5’s form-understanding evidence trail.
+    retrieval_answer: 2D read before build; sketch→volume→digital sequence; or a divergence sentence.
+    public_quiz: true
+  - id: I5-05
+    unit: I5
+    ra: LO2
+    type: mcq
+    bloom: analyse
+    stem: What does Papahristou’s review support — and what does it not?
+    answer: >-
+      Supports that sequenced 2D→3D structures exist in real programmes; does not prove validated
+      volume-understanding outcomes.
+    distractors:
+      - Proves CLO alone creates spatial genius.
+      - Denies any 2D→3D sequence exists.
+      - Replaces all CONTENIDOS with VTON.
+    ref: papahristou-2024
+    where: What this supports, and what it does not
+    anchor: masterclass
+    drafted: hand
+    retrieval: Papahristou proves validated volume understanding — true/false?
+    retrieval_answer: False — it reports structures/tool adoption, not validated volume measures (Papahristou 2024).
+  - id: I5-06
+    unit: I5
+    ra: LO1
+    type: short
+    bloom: remember
+    stem: Lab Exercise 1 asks for which three-sketch strip order?
+    answer: Flat → elevation → volume (then a next-test sentence).
+    ref: papahristou-2024
+    where: Lab Exercise 1
+    anchor: lab-exercise-1
+    drafted: hand
+    public_quiz: true
+  - id: I5-07
+    unit: I5
+    ra: LO2
+    type: case
+    bloom: apply
+    stem: >-
+      You polish a mesh until the underarm void disappears, then trace the silhouette. What does Lab
+      2 ask you to notice?
+    answer: >-
+      Silhouette from volume honesty — what the hand/volume pass reveals that polish smoothed away;
+      compare to the flat.
+    ref: papahristou-2024
+    where: Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+  - id: I5-08
+    unit: I5
+    ra: LO1
+    type: mcq
+    bloom: understand
+    stem: The debate prompt asks whether 3D virtual prototyping should…
+    answer: Be taught alongside physical model-making, not treated as an automatic replacement.
+    distractors:
+      - Delete all physical making from week 1.
+      - Ignore 2D literacy entirely.
+      - Only happen after graduation.
+    ref: papahristou-2024
+    where: Debate prompt
+    anchor: analysis
+    drafted: hand
+    retrieval: '3D prototyping: replace physical making or teach alongside?'
+    retrieval_answer: Alongside — sequenced with 2D/physical literacy, not automatic replacement.
+    public_quiz: true
+  - id: I5-09
+    unit: I5
+    ra: LO2
+    type: short
+    bloom: remember
+    stem: Selected I.5 Labs feed which later Workshop stake (without inventing a new graded ACT)?
+    answer: Later cartel / D2 transposition spatial craft (compositional feed), not a new ACT.
+    ref: papahristou-2024
+    where: Lab opener note
+    anchor: lab
+    drafted: hand
+  - id: I5-10
+    unit: I5
+    ra: LO1
+    type: case
+    bloom: apply
+    stem: >-
+      A classmate skips the 2D read and jumps to a generative volume. Using I.5, what portfolio
+      sentence is missing?
+    answer: >-
+      What the 2D read predicted and what it missed once built — generative output is input to
+      judgement, not proof of spatial understanding.
+    ref: papahristou-2024
+    where: Frontier signal / Lab definition of done
+    anchor: lab-exercise-1
+    drafted: hand
+  - id: I6-01
+    unit: I6
+    ra: LO3
+    type: mcq
+    bloom: understand
+    stem: Coats (2026) frames “The Denim Project” hybrid studio within which learning model?
+    answer: A constructivist / experiential learning model (iterating across analogue and digital).
+    distractors:
+      - Pure lecture with no studio.
+      - Exam-only colour theory.
+      - VTON product shipping as the only lab.
+    ref: coats-2026
+    where: Masterclass claim
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I6-02
+    unit: I6
+    ra: LO3
+    type: short
+    bloom: remember
+    stem: What did students iterate across in Coats (2026, 8)?
+    answer: Analogue and digital workflows (material denim and CLO3D form).
+    ref: coats-2026
+    where: Masterclass
+    anchor: masterclass
+    drafted: hand
+  - id: I6-03
+    unit: I6
+    ra: LO3
+    type: mcq
+    bloom: analyse
+    stem: What does Coats (2026) support for this course — and what not?
+    answer: >-
+      Supports that a theorised hybrid volume module exists; does not generalise beyond that
+      module/tool/cohort.
+    distractors:
+      - Proves CLO is mandatory worldwide.
+      - Denies hybrid studios exist.
+      - Approves collecting student data without consent.
+    ref: coats-2026
+    where: What this supports
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I6-04
+    unit: I6
+    ra: LO3
+    type: case
+    bloom: evaluate
+    stem: >-
+      Students reduced muslin waste via virtual prototyping but expressed scepticism about wider
+      sustainability impact (Coats 2026, 4/8). How should class treat that?
+    answer: >-
+      As a discussion prompt about tool claims vs industry effect — not as proof of pedagogy
+      effectiveness.
+    ref: coats-2026
+    where: Sustainability caveat
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I6-05
+    unit: I6
+    ra: LO3
+    type: mcq
+    bloom: understand
+    stem: Volume in this unit is built by…
+    answer: Moving back and forth between physical and digital representations of the same piece.
+    distractors:
+      - Choosing analogue or digital once and freezing the choice.
+      - Only screenshotting influencer posts.
+      - Skipping all process notes.
+    ref: coats-2026
+    where: Masterclass claim
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I6-06
+    unit: I6
+    ra: LO3
+    type: short
+    bloom: remember
+    stem: Besides technical proficiency, what else did hybrid iteration foster in Coats’s framing?
+    answer: Critical reflection (not efficiency alone).
+    ref: coats-2026
+    where: Masterclass
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I6-07
+    unit: I6
+    ra: LO3
+    type: case
+    bloom: apply
+    stem: You finish only in CLO and never touch a physical pass. Using I.6’s claim, what is missing?
+    answer: >-
+      The corrective/extending dialogue between material and digital representations of the same
+      piece.
+    ref: coats-2026
+    where: Masterclass claim
+    anchor: masterclass
+    drafted: hand
+  - id: I6-08
+    unit: I6
+    ra: LO3
+    type: mcq
+    bloom: analyse
+    stem: Why must tool docs stay labelled [PLATFORM] here?
+    answer: They ground operations only — they are not research evidence for volume pedagogy.
+    distractors:
+      - Because platforms are secret.
+      - Because Coats forbids naming tools.
+      - Because YAML cannot store names.
+    ref: coats-2026
+    where: What this supports
+    anchor: masterclass
+    drafted: hand
+  - id: I7-01
+    unit: I7
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Campinho et al. (2025) studied Google Images searches for which paired queries?
+    answer: “Fat body” and “obese body.”
+    distractors:
+      - Only “runway couture.”
+      - Only “stock mannequin.”
+      - Only “CMYK swatch.”
+    ref: campinho-2025
+    where: Masterclass claim
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I7-02
+    unit: I7
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: >-
+      What contrasting patterns did Campinho et al. find that shape collective perceptions of
+      bodies?
+    answer: Empowerment expressions versus medicalised fragmentation (among the patterns reported).
+    ref: campinho-2025
+    where: Masterclass
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I7-03
+    unit: I7
+    ra: LO5
+    type: mcq
+    bloom: analyse
+    stem: Why is sourcing a compositional reference “not a neutral act of collection” in I.7?
+    answer: >-
+      What a search surfaces already carries representational politics before the student chooses an
+      image.
+    distractors:
+      - Because Google is banned on campus.
+      - Because only museums may be referenced.
+      - Because colour modes forbid references.
+    ref: campinho-2025
+    where: Masterclass claim
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I7-04
+    unit: I7
+    ra: LO5
+    type: case
+    bloom: apply
+    stem: >-
+      Your mood board is built from the first page of an unchecked image search. Write the
+      process-note move I.7 requires.
+    answer: >-
+      Audit who is present/missing and name the representational politics the search already
+      performed — before treating the board as neutral.
+    ref: campinho-2025
+    where: Masterclass / Lab habits
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I7-05
+    unit: I7
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Campinho (2025, 2) is used here as…
+    answer: >-
+      A representation-ethics anchor for search results — not a full mood-board teaching-sequence
+      proof.
+    distractors:
+      - A licence to scrape any paywalled archive.
+      - Proof that search is always empowering.
+      - A substitute for D2 cartel craft.
+    ref: campinho-2025
+    where: Editorial / supports line
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: I7-06
+    unit: I7
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: 'Fill the gap: search results carry __________ politics before student choice.'
+    answer: Representational.
+    ref: campinho-2025
+    where: Masterclass claim
+    anchor: masterclass
+    drafted: hand
+  - id: I7-07
+    unit: I7
+    ra: LO5
+    type: case
+    bloom: evaluate
+    stem: >-
+      A peer says “the algorithm showed empowering fat-body images, so the other query is
+      irrelevant.” Evaluate with Campinho’s contrast.
+    answer: >-
+      The study’s point is contrasting patterns across queries (empowerment vs medicalised
+      fragmentation); one reassuring page does not cancel the politics of the other surface.
+    ref: campinho-2025
+    where: Masterclass
+    anchor: masterclass
+    drafted: hand
+  - id: I7-08
+    unit: I7
+    ra: LO5
+    type: mcq
+    bloom: analyse
+    stem: Which studio habit follows from I.7 before locking a reference for the cartel?
+    answer: Audit the set for who never appears as the “normal” body or legitimate designer.
+    distractors:
+      - Download without notes because speed wins.
+      - Prefer only filtered beauty defaults.
+      - Hide the search terms from the process trail.
+    ref: campinho-2025
+    where: Masterclass / critical habit
+    anchor: masterclass
+    drafted: hand
+  - id: FIA-01
+    unit: FIA
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Kandinsky’s teaching shorthand (2012, 9) treats point, line, and plane as…
+    answer: 'A looking order: point as smallest attention event, line as movement, plane as their relation.'
+    distractors:
+      - A claim that every fashion image is pure geometry.
+      - A Photoshop preset pack.
+      - A grading formula for D5.
+    ref: kandinsky-2012
+    where: Morphological evidence
+    anchor: masterclass
+    drafted: hand
+    retrieval: 'Kandinsky: point, line, plane — looking order or total geometry claim?'
+    retrieval_answer: Looking order for attention/relation — not that every image is geometric (Kandinsky 2012, 9).
+    public_quiz: true
+  - id: FIA-02
+    unit: FIA
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: List the morphological chain this lecture keeps visible before semantics.
+    answer: Dot → line → plane → shape → form → colour → composition → space/perspective.
+    ref: kandinsky-2012
+    where: Morphological evidence
+    anchor: masterclass
+    drafted: hand
+    retrieval: Name the first three steps of the morphological chain.
+    retrieval_answer: Dot → line → plane (then shape, form, colour, composition, space).
+  - id: FIA-03
+    unit: FIA
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Shinkle (2008, 14) is cited for fashion photography charting…
+    answer: Fashion’s discursive space.
+    distractors:
+      - Only seam allowances.
+      - Only GPU benchmarks.
+      - Only Pantone seasons.
+    ref: shinkle-2008
+    where: Why the fashion image matters
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: FIA-04
+    unit: FIA
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: 'Shinkle (2008, 17): fashion photography has…'
+    answer: No single genre and no single method.
+    distractors:
+      - Exactly one correct genre forever.
+      - Only advertising as legitimate.
+      - Only documentary as legitimate.
+    ref: shinkle-2008
+    where: Why the fashion image matters
+    anchor: masterclass
+    drafted: hand
+    retrieval: 'Shinkle 2008, 17: single genre/method?'
+    retrieval_answer: No single genre, no single method (Shinkle 2008, 17).
+    public_quiz: true
+  - id: FIA-05
+    unit: FIA
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: Without which analysis step does the lecture say the card fails?
+    answer: Step 7 — critical (description alone is not analysis).
+    ref: shinkle-2008
+    where: Eight steps
+    anchor: masterclass
+    drafted: hand
+    retrieval: Which step must appear or the analysis card fails?
+    retrieval_answer: Step 7 critical — description alone is not analysis.
+  - id: FIA-06
+    unit: FIA
+    ra: LO5
+    type: case
+    bloom: apply
+    stem: >-
+      A student jumps to meaning before naming plane, form, colour relation, and depth cue. Correct
+      the order using this lecture.
+    answer: >-
+      Keep morphological vocabulary visible first; compare plane/form/colour/depth before a semantic
+      hypothesis — then critical step 7.
+    ref: kandinsky-2012
+    where: Teaching move
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: FIA-07
+    unit: FIA
+    ra: LO5
+    type: mcq
+    bloom: analyse
+    stem: Eckersall (2017, 219) is used for agency in…
+    answer: Reception — meaning negotiated in how work is received, not only authored.
+    distractors:
+      - Only printer DPI settings.
+      - Only CLO stitch maps.
+      - Only Campus Virtual passwords.
+    ref: eckersall-2017
+    where: Meaning and reception
+    anchor: masterclass
+    drafted: hand
+    retrieval: Eckersall 2017 is pinned here for agency in what?
+    retrieval_answer: Reception / how meaning is negotiated in reception (Eckersall 2017, 219).
+    public_quiz: true
+  - id: FIA-08
+    unit: FIA
+    ra: LO5
+    type: short
+    bloom: remember
+    stem: Shinkle (2008, 78) is cited under critical step 7 for fashion photography’s role in…
+    answer: Creating desire (course emphasis for the critical step).
+    ref: shinkle-2008
+    where: Critical (step 7)
+    anchor: masterclass
+    drafted: hand
+  - id: FIA-09
+    unit: FIA
+    ra: LO5
+    type: case
+    bloom: evaluate
+    stem: 'Evaluate: “I described every colour; therefore I analysed the image.”'
+    answer: Fail — without critical step 7, description alone is not analysis (lecture law).
+    ref: shinkle-2008
+    where: Eight steps / without step 7
+    anchor: masterclass
+    drafted: hand
+  - id: FIA-10
+    unit: FIA
+    ra: LO5
+    type: mcq
+    bloom: understand
+    stem: Eckersall (2017, 218) helps keep which distinction from collapsing?
+    answer: Art functions versus media functions (do not collapse the two lenses).
+    distractors:
+      - Raster versus vector file sizes only.
+      - Spanish versus English captions only.
+      - ACT1 versus ACT2 weights only.
+    ref: eckersall-2017
+    where: Two lenses
+    anchor: masterclass
+    drafted: hand

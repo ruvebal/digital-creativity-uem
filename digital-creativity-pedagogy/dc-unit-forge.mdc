@@ -30,6 +30,18 @@ claims and exactly two portfolio-bound lab exercises, following
 `forge/STUDENT-SLIDESHOW-FORGE.mdc`. No deck is complete until its accepted
 media pack exists.
 
+**Media / deck gate (PHASE-EX3):** Wave-1 decks use `"schema_version": 2` (see
+`excellence/evidence/SCHEMA-VERSION-WAVE1.md`). Slide binding is `asset_id` only
+(`scripts/lib/media-rules.mjs` · `bindSlides` — no rank dealing). Before claiming a
+unit forged, run `npm run validate:decks` (`scripts/validate-decks.mjs --strict
+--rights=flag`). Rights land in `excellence/curation/rights-report.json`; curator
+registry is `excellence/curation/autopilot-assets.json` (filled in EX4).
+
+**Bibliography (PHASE-EX6+):** student References resolve only through
+`docs/_data/references.yml` (verified Ahmes keys). Gaps stay in
+`excellence/research-manifest.yml`. Do not invent cites. Follow-on CD II / NM
+forge: `excellence/NEXT-CASCADE-CD-II.md`.
+
 ---
 
 ## 0. Architecture — three logics, kept apart

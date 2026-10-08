@@ -1,0 +1,81 @@
+{
+  "measured_at": "2026-10-07T13:26:03.857Z",
+  "commit": "98ef567fe6a90118ab1af3f2e55a0c7ecc22dd9e",
+  "root": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem-integration-excellence-0",
+  "wave1": {
+    "lessons_en_cd_i": 9,
+    "lessons_es_cd_i": 9,
+    "en_es_parity_delta": 0,
+    "fashion_image_analysis_en": true,
+    "decks_dci_content_json": 6,
+    "decks_ml_content_json": 2,
+    "profield_cache_files": 79,
+    "php_cache_files": 0,
+    "lesson_infra_vocab_files": 9,
+    "lesson_infra_vocab_sample": [
+      "docs/lessons/en/digital-creativity-i/i-1-digital-images/index.md",
+      "docs/lessons/en/digital-creativity-i/i-2-2d-drawing/index.md",
+      "docs/lessons/en/digital-creativity-i/i-3-color-bitmaps/index.md",
+      "docs/lessons/en/digital-creativity-i/i-4-effects/index.md",
+      "docs/lessons/en/digital-creativity-i/i-5-three-dimensional-form/index.md",
+      "docs/lessons/en/digital-creativity-i/i-6-volume/index.md",
+      "docs/lessons/en/digital-creativity-i/i-7-fashion-references/index.md",
+      "docs/lessons/en/digital-creativity-i/i-8-animation/index.md",
+      "docs/lessons/en/digital-creativity-i/i-9-bodegones/index.md"
+    ],
+    "special_infra_vocab": false,
+    "labs_by_deck": {
+      "docs/tracks/en/uem/2627-dci/how-to-pass-this-track/data/content.json": null,
+      "docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json": null,
+      "docs/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json": null,
+      "docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json": null,
+      "docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json": null,
+      "docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form/data/content.json": null
+    },
+    "decks_ne_2_labs": [],
+    "dangling_by_deck": {
+      "docs/tracks/en/uem/2627-dci/how-to-pass-this-track/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-3-color-bitmaps/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json": [],
+      "docs/tracks/en/uem/2627-dci/i-5-three-dimensional-form/data/content.json": []
+    },
+    "dangling_total": 0
+  },
+  "contract": {
+    "guia_i_path": "digital-creativity-pedagogy/cv/guides/1-creacion-digital-i.json",
+    "guia_ii_path": "digital-creativity-pedagogy/cv/guides/3-creacion-digital-ii.json",
+    "guia_i_weights": {
+      "Pruebas de evaluación presenciales": 55,
+      "Caso/problema": 15,
+      "Investigaciones y proyectos": 20,
+      "Cuaderno de prácticas de laboratorio/taller": 10
+    },
+    "guia_weights_expected": {
+      "tests": 55,
+      "caso": 15,
+      "proyectos": 20,
+      "cuaderno": 10
+    },
+    "evaluation_page_mentions_55": false,
+    "sandra_plan_pdf_present": true,
+    "sandra_plan_pdf": "digital-creativity-pedagogy/cv/sources/Plan_de_trabajo_2026-27_Creacion_Digital_I-Sandra_Jimenez.pdf",
+    "coordination_md_present": true,
+    "d2_equals_act3": true,
+    "sandra_act_weights_expected": {
+      "each_percent": 11.2,
+      "count": 4
+    }
+  },
+  "findings_refs": [
+    "A1",
+    "A2",
+    "A3",
+    "A5",
+    "B1",
+    "B2",
+    "C1",
+    "E3"
+  ]
+}

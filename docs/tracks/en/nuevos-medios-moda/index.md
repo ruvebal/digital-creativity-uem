@@ -15,7 +15,7 @@ status: draft
 <!-- curriculum-internal:
 EN twin only. Teaching language = ES. Canonical structure = Canvas 6 units.
 Primary page: /tracks/es/nuevos-medios-moda/
-Evidence discovery: Athanor/DevIAC project profield-nuevos-medios-moda-2026-27. Cite only via Ahmes nodes. See Profield forge-enrichment/FORGE-SCHEDULE.md for the research→Canvas map.
+Evidence for this track is page-verified against the course bibliography before it reaches Canvas.
 -->
 {% endif %}
 

@@ -1,0 +1,338 @@
+{
+  "fashion-image-analysis": {
+    "cover": {
+      "src": "/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "alt": "Leonardo da Vinci garment study for a seated figure",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo da vinci, Garment study for a seated figure</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/a7fe225309618a85.webp",
+      "alt": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 01</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
+      "alt": "Dresses by Rei Kawakubo in an exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/684484de753f97f5.webp",
+      "alt": "A fashion sketch design study",
+      "caption_html": "<span class=\"slide-caption__title\">Fashion Sketch Design</span> · <span class=\"slide-caption__author\">Unknown fashion illustrator / Commons upload</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/37ef9f5bda8f9a93.webp",
+      "alt": "An exhibition poster composition",
+      "caption_html": "<span class=\"slide-caption__title\">AK ER Exhibition Poster 2014</span> · <span class=\"slide-caption__author\">Poster designer / photographer</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:AK_ER_Exhibition_Poster_2014.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/50123c6eb70f0276.webp",
+      "alt": "A historical beauty advertisement",
+      "caption_html": "<span class=\"slide-caption__title\">Dorothy Lamour - Woodbury Complete Beauty Cream, 1945</span> · <span class=\"slide-caption__author\">Woodbury / advertiser (1945 publication)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/5dc077b6251755e2.webp",
+      "alt": "Jessica Minh Anh on a runway fashion and sustainability show, 2020",
+      "caption_html": "<span class=\"slide-caption__title\">Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020</span> · <span class=\"slide-caption__author\">Photograph uploader (2018)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/17d4597b7ae3a41e.webp",
+      "alt": "Jessica Minh Anh on a runway fashion and sustainability show, 2020 — second view",
+      "caption_html": "<span class=\"slide-caption__title\">Jessica Minh Anh at Runway on the Runway Fashion and Sustainability Show 2020 (2)</span> · <span class=\"slide-caption__author\">Photograph uploader (2018)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020_(2).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/affb13f5f7c9d0f8.webp",
+      "alt": "Illustrated fashion catalogue page from summer 1890",
+      "caption_html": "<span class=\"slide-caption__title\">Illustrated fashion catalogue - summer, 1890 (1890) (14803821793)</span> · <span class=\"slide-caption__author\">Unknown catalogue illustrator (1890)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14803821793).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    }
+  },
+  "i-1-fashion-image": {
+    "cover": {
+      "src": "/assets/images/deck-media/14efab1e027565fc.webp",
+      "alt": "Astronaut Riding a Horse (SD3.5).webp",
+      "caption_html": "<span class=\"slide-caption__title\">Astronaut Riding a Horse (SD3.5)</span> · <span class=\"slide-caption__author\">Stability AI (demo still) / Wikimedia upload</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/66e54dae6e9921a1.webp",
+      "alt": "Dirty and damaged fashion doll.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Dirty and damaged fashion doll</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <span>CC BY-SA 2.0</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Dirty_and_damaged_fashion_doll.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/50123c6eb70f0276.webp",
+      "alt": "A historical beauty advertisement",
+      "caption_html": "<span class=\"slide-caption__title\">Dorothy Lamour - Woodbury Complete Beauty Cream, 1945</span> · <span class=\"slide-caption__author\">Woodbury / advertiser (1945 publication)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/bf651ca6c925cff0.webp",
+      "alt": "Lautrec the photographer sescau (poster) 1894.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Lautrec the photographer sescau (poster) 1894</span> · <span class=\"slide-caption__author\">Henri de Toulouse-Lautrec</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Lautrec_the_photographer_sescau_(poster)_1894.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/affb13f5f7c9d0f8.webp",
+      "alt": "Illustrated fashion catalogue page from summer 1890",
+      "caption_html": "<span class=\"slide-caption__title\">Illustrated fashion catalogue - summer, 1890 (1890) (14803821793)</span> · <span class=\"slide-caption__author\">Unknown catalogue illustrator (1890)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14803821793).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/e16150afa0636624.webp",
+      "alt": "Beauty is my business, says Anne Piron, 1950.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Beauty is my business, says Anne Piron, 1950</span> · <span class=\"slide-caption__author\">Magazine photographer / Anne Piron feature (1950)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Beauty_is_my_business,_says_Anne_Piron,_1950.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/9783673c60ce2f5e.webp",
+      "alt": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48).JPG",
+      "caption_html": "<span class=\"slide-caption__title\">Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (48)</span> · <span class=\"slide-caption__author\">Upload photographer (2015)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(48).JPG\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/ae43d3487632fd88.webp",
+      "alt": "Fan SAAM-1935.8.20 1.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Fan SAAM-1935.8.20 1</span> · <span class=\"slide-caption__author\">Unknown Chinese export artist; SAAM photograph</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Fan_SAAM-1935.8.20_1.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/eb30c35e179aae54.webp",
+      "alt": "Miss Maquillage Digital Fashion Garment example.png",
+      "caption_html": "<span class=\"slide-caption__title\">Miss Maquillage Digital Fashion Garment example</span> · <span class=\"slide-caption__author\">Digital fashion author / Commons upload</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/c8acd44e8f333198.webp",
+      "alt": "Barbie Dream Closet Kiosk Example Of Webcam Social Shopper.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Barbie Dream Closet Kiosk Example Of Webcam Social Shopper</span> · <span class=\"slide-caption__author\">Unknown</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Barbie_Dream_Closet_Kiosk_Example_Of_Webcam_Social_Shopper.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    }
+  },
+  "i-2-2d-drawing": {
+    "cover": {
+      "src": "/assets/images/deck-media/684484de753f97f5.webp",
+      "alt": "A fashion sketch design study",
+      "caption_html": "<span class=\"slide-caption__title\">Fashion Sketch Design</span> · <span class=\"slide-caption__author\">Unknown fashion illustrator / Commons upload</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/fd86a630773ba048.webp",
+      "alt": "Hand drawing on a graphic tablet.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Hand drawing on a graphic tablet</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Hand_drawing_on_a_graphic_tablet.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/3e1406d573d0b92f.webp",
+      "alt": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932</span> · <span class=\"slide-caption__author\">19th-century French costume plate engraver</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/a9a618606b3c129a.webp",
+      "alt": "Vector graphic scaling 2.png",
+      "caption_html": "<span class=\"slide-caption__title\">Vector graphic scaling 2</span> · <span class=\"slide-caption__author\">Diagram author on Commons</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Vector_graphic_scaling_2.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/6b29a718e96503e0.webp",
+      "alt": "The composite capital in perspective.",
+      "caption_html": "<span class=\"slide-caption__title\">The composite capital in perspective.</span> · <span class=\"slide-caption__author\">The New York Public Library (digital scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"http://digitalcollections.nypl.org/items/510d47e3-34d7-a3d9-e040-e00a18064a99\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/c394ec960555ef46.webp",
+      "alt": "The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston.png",
+      "caption_html": "<span class=\"slide-caption__title\">The The Designer Women’s Magazine, July 1922 cover, illustration by Edward Mason Eggleston</span> · <span class=\"slide-caption__author\">Ethel Blaine (illustration, 1922)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:The_The_Designer_Women%E2%80%99s_Magazine,_July_1922_cover,_illustration_by_Edward_Mason_Eggleston.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/57d691cb5d3028d5.webp",
+      "alt": "Vector graphic design made with Inkscape.svg",
+      "caption_html": "<span class=\"slide-caption__title\">Vector graphic design made with Inkscape</span> · <span class=\"slide-caption__author\">Diagram author on Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Vector_graphic_design_made_with_Inkscape.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/a8e81ebc3c86799c.webp",
+      "alt": "Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example.png",
+      "caption_html": "<span class=\"slide-caption__title\">Raster graphic fish 40x46 20x23 overlay hdtv-sdtv-example</span> · <span class=\"slide-caption__author\">Diagram author on Commons</span> · <span>CC BY-SA 2.5</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Raster_graphic_fish_40x46_20x23_overlay_hdtv-sdtv-example.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/c371d709f1773132.webp",
+      "alt": "CosmicBloom.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">CosmicBloom</span> · <span class=\"slide-caption__author\">Unknown</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:CosmicBloom.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/9d962140d44bf914.webp",
+      "alt": "Work in Progress.JPG",
+      "caption_html": "<span class=\"slide-caption__title\">Work in Progress</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    }
+  },
+  "i-3-color-bitmaps": {
+    "cover": {
+      "src": "/assets/images/deck-media/324922ac305a2043.webp",
+      "alt": "News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">News kiosk -Exhibition of magazines for crochet and knitting and fashion in general</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/bbc4b22ecca173d2.webp",
+      "alt": "Four concentric squares in orange, light orange, mustard yellow and dark brown, nested so each colour changes how the next is read.",
+      "caption_html": "<span class=\"slide-caption__title\">Grafik nach Josef Albers1</span> · <span class=\"slide-caption__author\">Anonymous graphic after Josef Albers (CC0 upload)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Grafik_nach_Josef_Albers1.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/750f32a08550dcff.webp",
+      "alt": "This is a digital graphic or print design, not a photograph, painting, or document. It features a 2x2 grid of solid color blocks—cyan (top-left), magenta (top-right), yellow (bottom-left), and black (bottom-right)—each containing a large, bold, white or black capital letter: “C”",
+      "caption_html": "<span class=\"slide-caption__title\">CMYK</span> · <span class=\"slide-caption__author\">Diagram author on Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:CMYK.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/7a2791f63dcc1d31.webp",
+      "alt": "Nokia 8-display pixel pattern PNr°0495.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Nokia 8-display pixel pattern PNr°0495</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <span>CC-BY-SA-3.0-at</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Nokia_8-display_pixel_pattern_PNr%C2%B00495.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/67e8367fb0719e25.webp",
+      "alt": "Fashion illustration",
+      "caption_html": "<span class=\"slide-caption__title\">Fashion illustration</span> · <span class=\"slide-caption__author\">The New York Public Library (digital scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"http://digitalcollections.nypl.org/items/ecd58340-c606-012f-96ca-58d385a7bc34\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/c425a4f37ec39601.webp",
+      "alt": "Fashion illustration",
+      "caption_html": "<span class=\"slide-caption__title\">Fashion illustration</span> · <span class=\"slide-caption__author\">The New York Public Library (digital scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"http://digitalcollections.nypl.org/items/ed252fa0-c606-012f-d3ed-58d385a7bc34\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/37ef9f5bda8f9a93.webp",
+      "alt": "An exhibition poster composition",
+      "caption_html": "<span class=\"slide-caption__title\">AK ER Exhibition Poster 2014</span> · <span class=\"slide-caption__author\">Poster designer / photographer</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:AK_ER_Exhibition_Poster_2014.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/9399010fa60a83d5.webp",
+      "alt": "Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png",
+      "caption_html": "<span class=\"slide-caption__title\">Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic)</span> · <span class=\"slide-caption__author\">Diagram author on Commons</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Test_-_image_size_comparison_(Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic).png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/3e1406d573d0b92f.webp",
+      "alt": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932</span> · <span class=\"slide-caption__author\">19th-century French costume plate engraver</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/50123c6eb70f0276.webp",
+      "alt": "A historical beauty advertisement",
+      "caption_html": "<span class=\"slide-caption__title\">Dorothy Lamour - Woodbury Complete Beauty Cream, 1945</span> · <span class=\"slide-caption__author\">Woodbury / advertiser (1945 publication)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    }
+  },
+  "i-4-effects": {
+    "cover": {
+      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
+      "alt": "Dresses by Rei Kawakubo in an exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/4e655e0f068fdc07.webp",
+      "alt": "Dresses by Rei Kawakubo in a second exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 03</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/684484de753f97f5.webp",
+      "alt": "A fashion sketch design study",
+      "caption_html": "<span class=\"slide-caption__title\">Fashion Sketch Design</span> · <span class=\"slide-caption__author\">Unknown fashion illustrator / Commons upload</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/c2c1b5e1ab5b5c82.webp",
+      "alt": "Jun Takahashi dress for Undercover (51492).jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Jun Takahashi dress for Undercover (51492)</span> · <span class=\"slide-caption__author\">Photograph uploader; Jun Takahashi / Undercover</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Jun_Takahashi_dress_for_Undercover_(51492).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/37ef9f5bda8f9a93.webp",
+      "alt": "An exhibition poster composition",
+      "caption_html": "<span class=\"slide-caption__title\">AK ER Exhibition Poster 2014</span> · <span class=\"slide-caption__author\">Poster designer / photographer</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:AK_ER_Exhibition_Poster_2014.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/50123c6eb70f0276.webp",
+      "alt": "A historical beauty advertisement",
+      "caption_html": "<span class=\"slide-caption__title\">Dorothy Lamour - Woodbury Complete Beauty Cream, 1945</span> · <span class=\"slide-caption__author\">Woodbury / advertiser (1945 publication)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
+      "alt": "A drapery study for a figure of Sculpture",
+      "caption_html": "<span class=\"slide-caption__title\">Drapery study for figure of Sculpture LCCN2004662299</span> · <span class=\"slide-caption__author\">Unknown draughtsperson; Library of Congress scan</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "workshop-1": {
+      "src": "/assets/images/deck-media/2e6375e758132054.webp",
+      "alt": "Fashion Shooting - Photo Video Expo - Image Craft - Netaji Indoor Stadium - Kolkata 2014-08-25 7554.JPG",
+      "caption_html": "<span class=\"slide-caption__title\">Fashion Shooting - Photo Video Expo - Image Craft - Netaji Indoor Stadium - Kolkata 2014-08-25 7554</span> · <span class=\"slide-caption__author\">Photograph uploader at Image Craft expo</span> · <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Fashion_Shooting_-_Photo_Video_Expo_-_Image_Craft_-_Netaji_Indoor_Stadium_-_Kolkata_2014-08-25_7554.JPG\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    }
+  },
+  "i-5-three-dimensional-form": {
+    "cover": {
+      "src": "/assets/images/deck-media/a7fe225309618a85.webp",
+      "alt": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 01</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/f30519b35796f439.webp",
+      "alt": "1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783</span> · <span class=\"slide-caption__author\">Unknown 1890 illustrator; DPLA aggregate</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:1890_silhouette_-_DPLA_-_8df7f808914dce4eee6250dc2f06f783.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/6d87fb61fcb1d4de.webp",
+      "alt": "Indienne, représentant Minerve Péruvienne.",
+      "caption_html": "<span class=\"slide-caption__title\">Indienne, représentant Minerve Péruvienne.</span> · <span class=\"slide-caption__author\">The New York Public Library (digital scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"http://digitalcollections.nypl.org/items/5a950250-c629-012f-852b-58d385a7bc34\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/5440d18f70034583.webp",
+      "alt": "Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif",
+      "caption_html": "<span class=\"slide-caption__title\">Affiche voor tentoonstelling &#39;SHANGHAI GESTURE, curated by Alexander van Slobbe&#39;, objectnr 480</span> · <span class=\"slide-caption__author\">Stedelijk Museum Amsterdam / poster designer</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Affiche_voor_tentoonstelling_%27SHANGHAI_GESTURE,_curated_by_Alexander_van_Slobbe%27,_objectnr_480.tif\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
+      "alt": "A drapery study for a figure of Sculpture",
+      "caption_html": "<span class=\"slide-caption__title\">Drapery study for figure of Sculpture LCCN2004662299</span> · <span class=\"slide-caption__author\">Unknown draughtsperson; Library of Congress scan</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/3e1406d573d0b92f.webp",
+      "alt": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932</span> · <span class=\"slide-caption__author\">19th-century French costume plate engraver</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/fd86a630773ba048.webp",
+      "alt": "Hand drawing on a graphic tablet.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Hand drawing on a graphic tablet</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Hand_drawing_on_a_graphic_tablet.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    }
+  }
+}

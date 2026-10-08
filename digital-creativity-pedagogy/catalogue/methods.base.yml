@@ -1,0 +1,1838 @@
+schema: dc-fashion-craft-methods/v1
+phase: EX7
+publication_allowed: false
+note: Hand-authored fashion-craft studio methods for Creación Digital. NOT Creativity Techniques.
+  Edit via emit_catalogue.py METHODS list or this file, then run build.py.
+families:
+- drawing
+- colour
+- composition
+- bitmap
+- form-volume
+- retouch
+- still-motion
+- research
+- presentation
+- critical-craft
+craft_modes:
+- constructive
+- synthetic
+- critical
+- workflow
+required_ids:
+- figurin-digital
+- photobash-integration
+- gestalt-composition
+methods:
+- id: figurin-digital
+  name: Digital figurín (fashion croquis figure)
+  family: drawing
+  craft_mode: constructive
+  primary_source: gap
+  source_status: held
+  gap_work: Abling 2023 (manifest key abling-2023; fashion drawing conventions; page cite open)
+  held_note: Lesson I.2 already flags Abling page cite as open procurement.
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  - digital-creativity
+  didactics: []
+  sandra_acts:
+  - ACT1
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Set a visible proportion scaffold (head-count or grid) on a blank canvas.
+  - Block the figure as simple volumes before any garment detail.
+  - Add garment silhouette with construction lines distinct from finish lines.
+  - 'Export a process pair: scaffold-only + finished figurín.'
+  - Note one proportion decision that would survive a medium change (hand → raster → vector).
+  time_min: 45
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.1
+  - I.2
+  evidence: 'gap: fashion-HE figurín sequence not page-verified in Wave-1 references'
+  accessibility: Accept typed proportion notes or photo of a paper croquis as equivalent evidence.
+  summary: Proportion-first digital fashion figure for ACT1 craft.
+- id: photobash-integration
+  name: Photobash integration (key-visual collage craft)
+  family: bitmap
+  craft_mode: synthetic
+  primary_source: gap
+  source_status: gap
+  gap_work: Practitioner/commercial photobash craft; no Wave-1 verified primary pedagogy source
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  - digital-creativity
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Collect a short, attributed contact sheet (≤12 stills) for one key-visual brief.
+  - Cut and layer fragments so seams are intentional, not accidental.
+  - Unify light/colour with adjustment layers only (keep originals recoverable).
+  - 'Check Gestalt grouping: what reads as one figure vs background noise?'
+  - Export flat + layered file; list three integration decisions in a process note.
+  time_min: 60
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.4
+  evidence: untested — classroom craft aligned to Sandra ACT2 key visual
+  accessibility: Pair roles may split cutting vs colour-match; spoken process notes accepted.
+  summary: Layered photographic integration for ACT2 key visual.
+- id: gestalt-composition
+  name: Gestalt composition pass (grouping / figure–ground)
+  family: composition
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  gap_work: Arnheim 2004 (manifest key arnheim-2004) — not in references.yml; Gestalt laws as classroom
+    craft until procured
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Name one Gestalt relation to test (proximity, similarity, closure, continuity, or figure–ground).
+  - Apply the relation once to a key visual or bodegón draft.
+  - Invert or break the relation in a second version; keep both.
+  - Peer names which version groups more clearly and why (one sentence).
+  - Record the chosen relation in the process note for portfolio.
+  time_min: 25
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.4
+  - I.7
+  - I.9
+  evidence: 'gap: Arnheim / Gestalt pedagogy not Wave-1 verified'
+  accessibility: Oral peer response OK; diagram annotation may replace redraw.
+  summary: One intentional Gestalt law applied to fashion image layout.
+- id: croquis-proportion-scaffold
+  name: Croquis proportion scaffold
+  family: drawing
+  craft_mode: constructive
+  primary_source: gap
+  source_status: held
+  gap_work: Abling 2023 (abling-2023)
+  held_note: I.2 text treats croquis as proportion habit across media.
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT1
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Choose a head-count or grid scaffold and draw it alone first.
+  - Place landmarks (shoulder, waist, hip, knee) before contour.
+  - Trace a second pass for garment only on a separate layer.
+  - Compare scaffold vs finish; mark one collapsed decision.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.2
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Scaffold-first croquis before garment finish.
+- id: flat-sketch-tech-pack-lite
+  name: Flat sketch (tech-pack lite)
+  family: drawing
+  craft_mode: constructive
+  primary_source: gap
+  source_status: held
+  gap_work: Abling 2023 / industry flats practice (page cite open)
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT1
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Draw front flat with seams and closures as readable symbols.
+  - Add one callout (pocket, placket, hem) with a short label.
+  - Check symmetry and scale against a figurín from the same brief.
+  - Export PNG + note one construction ambiguity left unresolved.
+  time_min: 35
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.2
+  - I.5
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Orthographic garment flat with one technical callout.
+- id: gesture-line-pass
+  name: Gesture line pass
+  family: drawing
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Set a 60-second timer; draw the pose as continuous line only.
+  - Repeat three poses; keep all three without erasing.
+  - Circle the pass with clearest weight/axis.
+  - Use that axis under a slower figurín on a new layer.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.2
+  evidence: untested
+  accessibility: Voice-timed session or longer timer on request.
+  summary: Timed gesture lines to recover pose axis.
+- id: construction-vs-finish-lines
+  name: Construction vs finish line audit
+  family: drawing
+  craft_mode: critical
+  primary_source: huppauf-wulf-2009
+  source_status: verified
+  source_locator: p. 32 (imagination / creativity / fantasy as non-identical — used as critical frame
+    for what 'more creative' finish may only be freer fantasy)
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT1
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Colour-code construction lines vs finish lines on one drawing.
+  - Hide finish; ask a peer what garment they still understand.
+  - Restore finish only where it adds information.
+  - 'Write one sentence: which line type carried the silhouette.'
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.2
+  evidence: Hüppauf and Wulf 2009, 32 — framing only; not a drawing-sequence study
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Separate scaffold information from cosmetic finish.
+- id: vector-vs-raster-silhouette
+  name: Vector vs raster silhouette test
+  family: drawing
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Draw the same silhouette once in raster and once in vector.
+  - List three decisions that died in the medium change.
+  - Keep the version that preserves proportion landmarks.
+  - Archive both with a two-line medium note.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.2
+  - I.3
+  evidence: untested — mirrors I.2 debate prompt without inventing efficacy claims
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Same silhouette across raster and vector to expose medium loss.
+- id: rgb-cmyk-intent-check
+  name: RGB/CMYK intent check
+  family: colour
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  gap_work: Platform colour-management docs [PLATFORM]; Profield colour literacy map
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  - digital-creativity
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - State the output intent (screen campaign vs print swatch).
+  - Convert or soft-proof once; screenshot before/after.
+  - Name one colour that shifted and whether the brief still holds.
+  - Save with profile noted in the filename or sidecar.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  evidence: gap — technical literacy from field map, not a verified HE sequence
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Output-intent colour check before polish.
+- id: platform-tonal-edit-study
+  name: Platform tonal/colour edit study
+  family: colour
+  craft_mode: critical
+  primary_source: roivainen-2025
+  source_status: verified
+  source_locator: p. 8 (time-bound platform colour/tonal editing conventions)
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Pick one own image and apply a time-bound platform look (not a brand template claim).
+  - List the tonal moves (contrast, warmth, saturation) without vendor myth.
+  - Compare to an unedited proof; mark what the edit sells.
+  - Write whether the edit is corrective or stylistic for this brief.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  evidence: Roivainen 2025, 8
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Study platform colour conventions as time-bound craft.
+- id: palette-from-garment
+  name: Palette from garment (not from trend tile)
+  family: colour
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Sample five colours from a garment or fabric photo you own/rights-clear.
+  - Build a palette strip; forbid adding colours from moodboard tiles yet.
+  - Test the palette on a flat and on a key-visual crop.
+  - Note one clash that forced a hierarchy decision.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.7
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Derive palette from material evidence first.
+- id: contrast-accessibility-pass
+  name: Contrast / use-of-colour accessibility pass
+  family: colour
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  gap_work: WCAG 2.2 [PLATFORM/standard]; Profield colour accessibility map
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Check text-on-image or label contrast against WCAG-minded thresholds for the deliverable class.
+  - Fix one failure without flattening the whole palette.
+  - State whether colour alone carries meaning; add a non-colour cue if yes.
+  - Record the check in the process note.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.4
+  evidence: gap — standards literacy, not fashion-HE efficacy study
+  accessibility: This method is itself an accessibility checkpoint.
+  summary: Accessibility pass that separates contrast from colour-meaning.
+- id: generative-face-bias-pause
+  name: Generative-face bias pause
+  family: colour
+  craft_mode: critical
+  primary_source: aldahoul-2025
+  source_status: held
+  source_locator: Scientific Reports 15 — generative faces and racial homogenization (Wave-1 verified
+    claim)
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - If using a generative face or skin tile, stop before compositing.
+  - Compare three outputs for homogenization patterns you can name.
+  - Either discard generative faces or document the bias risk in the process note.
+  - Prefer photographed or drawn faces you can attribute.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.4
+  evidence: AlDahoul et al. 2025 — tools not representationally neutral
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Mandatory pause before generative face tiles enter a key visual.
+- id: point-line-plane-looking
+  name: Point / line / plane looking order
+  family: composition
+  craft_mode: constructive
+  primary_source: kandinsky-2012
+  source_status: verified
+  source_locator: p. 9 (point / line / plane looking order)
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - On a still image, mark one point, one line, one plane that organise the read.
+  - Reorder emphasis (enlarge/reduce) once without changing content.
+  - Ask a peer which looking order they followed.
+  - Keep the annotated overlays with the deliverable.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  - I.9
+  - ML-FIA
+  evidence: Kandinsky 2012, 9
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Compositional looking order via point, line, plane.
+- id: crop-as-argument
+  name: Crop as argument
+  family: composition
+  craft_mode: critical
+  primary_source: shinkle-2008
+  source_status: held
+  source_locator: Fashion as Photograph — fashion photography as discursive practices (Wave-1 verified
+    field claim)
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Make three crops of the same source with different claims (product, body, context).
+  - Caption each crop's claim in ≤8 words.
+  - Choose one; reject the others with a reason that is not 'looks better'.
+  - Archive rejects as process evidence.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  - I.7
+  evidence: Shinkle 2008 — framing crop as discursive choice
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Treat cropping as a claim, not a tidy-up.
+- id: figure-ground-reversal
+  name: Figure–ground reversal test
+  family: composition
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  gap_work: Gestalt figure–ground (arnheim-2004 gap)
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Produce version A where the garment is figure; B where the setting is figure.
+  - Flip only masks/layers — do not redraw content if avoidable.
+  - Name which version serves the brief.
+  - Keep both for critique.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  - I.9
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Swap figure and ground to test hierarchy.
+- id: visual-hierarchy-three-beats
+  name: Visual hierarchy — three beats
+  family: composition
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Mark first / second / third read on a key visual with numbers.
+  - Force a reordering by changing scale or contrast once.
+  - Peer times the order with a finger-trace (no talking).
+  - Lock hierarchy that matches the brief's priority.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  - I.7
+  - I.9
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Explicit first/second/third read for fashion images.
+- id: iconic-vs-graphic-code
+  name: Iconic vs graphic code split
+  family: composition
+  craft_mode: critical
+  primary_source: gap
+  source_status: held
+  gap_work: Torri, Rodriguez Schon & Celi 2025 moodboard guideline (manifest gap keys nearby; not
+    Wave-1 verified)
+  held_note: Profield composition run marks iconic/graphic split as emerging HE teaching aid.
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - On a moodboard/key visual, label iconic meaning (what it depicts) vs graphic code (layout, type,
+    format).
+  - Change only the graphic code once; keep iconic tiles fixed.
+  - State what the graphic change argued.
+  - Cite source tiles with creator/date/URL where known.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.7
+  evidence: held — Torri et al. 2025 not in references.yml
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Separate depicted meaning from layout code on boards.
+- id: non-destructive-layer-discipline
+  name: Non-destructive layer discipline
+  family: bitmap
+  craft_mode: workflow
+  primary_source: gap
+  source_status: held
+  gap_work: FIT photographic post-production learning objectives / Adobe [PLATFORM] — Profield retouch
+    map
+  held_note: 'Profield retouch run: non-destructive editing is HE learning objective language, not
+    a page-verified sequence here.'
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Forbid flattening until export; keep source layers named.
+  - Use adjustment layers / masks for every tonal move.
+  - Demonstrate undo of one local edit without affecting global grade.
+  - Hand in layered file + flat proof.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.4
+  - II.1
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Reversible layer workflow before any retouch claim.
+- id: mask-precision-ladder
+  name: Mask precision ladder
+  family: bitmap
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - 'Cut the same subject with three mask qualities: rough, medium, precise.'
+  - Composite each on an identical background.
+  - Pick the coarsest mask that still serves the brief.
+  - Note when precision became vanity.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Stop masking past the brief's required precision.
+- id: blend-mode-as-light
+  name: Blend mode as light, not effect salad
+  family: bitmap
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Apply at most two blend modes with a stated lighting intent.
+  - Disable each to show contribution.
+  - Reject any mode you cannot explain in one sentence.
+  - Export with before/after strip.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Limit blend modes to explainable light intent.
+- id: contact-sheet-before-bash
+  name: Contact sheet before photobash
+  family: bitmap
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Grid all candidate stills with attribution lines visible.
+  - Strike images you cannot attribute or that fail rights.
+  - Only then enter the photobash canvas.
+  - Keep the contact sheet in the process folder.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  - I.7
+  evidence: untested — supports visual citation discipline from Profield map
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Attributed contact sheet gate before collage.
+- id: seam-honesty-check
+  name: Seam honesty check
+  family: bitmap
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Zoom to every photobash seam at 100%.
+  - Either craft the seam or leave it visible as collage grammar.
+  - Forbid 'auto-heal everything' as a default.
+  - Peer spots one dishonest seam; you fix or own it.
+  time_min: 15
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Own collage seams instead of hiding authorship.
+- id: 2d-to-3d-sequence-sketch
+  name: 2D→3D sequence sketch
+  family: form-volume
+  craft_mode: constructive
+  primary_source: papahristou-2024
+  source_status: verified
+  source_locator: pp. 3, 5 (sequenced 2D→3D teaching structure in programmes)
+  profield_runs:
+  - dc-3d-form-volume-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Sketch flat → side elevation → simple volume for one garment region.
+  - Mark one ambiguity that only 3D can resolve.
+  - State what you will test in digital volume next (without requiring CLO).
+  - Keep the three sketches as one strip.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.5
+  - I.6
+  evidence: Papahristou and Zolota Tatsi 2024, 3–5
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Sketch the 2D→3D handoff before software volume.
+- id: silhouette-from-volume
+  name: Silhouette from volume study
+  family: form-volume
+  craft_mode: constructive
+  primary_source: gap
+  source_status: held
+  gap_work: Moritz & Youn 2022 spatial visualization (manifest gap moritz-youn-2022)
+  held_note: 'Profield 3D map: spatial visualization / silhouette as durable terms.'
+  profield_runs:
+  - dc-3d-form-volume-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Block a garment as 2–4 volumes (no surface detail).
+  - Cast a single light; shade only mass.
+  - Trace the outer silhouette; discard interior noise.
+  - Compare to a flat of the same design.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.5
+  - I.6
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Read silhouette from mass before detail.
+- id: drape-observation-lite
+  name: Drape observation (lite)
+  family: form-volume
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-3d-form-volume-pedagogy
+  - dc-curriculum-gap-harvest
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Photograph or observe one fabric fold on a real object (rights-clear).
+  - Draw the fold as volume, then as line.
+  - Note stretch vs compression regions in one sentence each.
+  - Transfer one fold insight into a digital figurín sleeve or skirt.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.5
+  - I.6
+  evidence: gap — still-life→volume pipeline blank in Profield map
+  accessibility: Use a scarf on a chair if no dress form; photos OK.
+  summary: Observe real drape once before digital cloth claims.
+- id: hybrid-analogue-digital-iteration
+  name: Hybrid analogue/digital iteration
+  family: form-volume
+  craft_mode: workflow
+  primary_source: coats-2026
+  source_status: verified
+  source_locator: p. 8 (hybrid analogue/digital iteration; digital alone caveat)
+  profield_runs:
+  - dc-3d-form-volume-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Make one analogue move (paper fold, tape, chalk) related to the brief.
+  - Photograph it; continue digitally without pretending the photo is final.
+  - State what digital could not invent without the analogue step.
+  - Keep both stages in the process trail.
+  time_min: 40
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.6
+  evidence: Coats 2026, 8
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Force one analogue step inside a digital volume brief.
+- id: negative-space-garment
+  name: Negative-space garment read
+  family: form-volume
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-3d-form-volume-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Fill only the background around a garment silhouette.
+  - Judge volume from the leftover air.
+  - Correct the silhouette where negative space lies.
+  - Restore interior only after the air reads.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.5
+  - I.9
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Use negative space to correct silhouette mass.
+- id: retouch-ethics-threshold
+  name: Retouch ethics threshold
+  family: retouch
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  gap_work: McBride et al. 2019 (manifest mcbride-2019 gap); Profield retouch ethics map
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - List every planned body/skin/garment alteration before editing.
+  - Mark each as corrective, stylistic, or identity-altering.
+  - Refuse or disclose identity-altering edits for this brief.
+  - Peer challenges one borderline item.
+  time_min: 20
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  - II.1
+  evidence: gap — ethics awareness without invented syllabus efficacy
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Classify retouch intent before pixels move.
+- id: beauty-vs-product-retouch-split
+  name: Beauty vs product retouch split
+  family: retouch
+  craft_mode: workflow
+  primary_source: gap
+  source_status: held
+  held_note: 'Profield retouch map: beauty/product as practice descriptors, not settled pedagogy terms.'
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - 'Separate layers: product geometry vs skin/beauty vs background.'
+  - Complete product legibility first.
+  - Only then decide whether beauty retouch is needed for the brief.
+  - Export with layer groups intact.
+  time_min: 35
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - II.1
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Sequence product legibility before beauty polish.
+- id: dodge-burn-discipline
+  name: Dodge-and-burn discipline (local light)
+  family: retouch
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  gap_work: Professional craft; Profield notes no HE comparative sequence for dodge-burn vs frequency
+    separation
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - On a soft-light grey layer, paint local light/shadow only.
+  - No liquify or generative fill in this pass.
+  - Toggle layer to prove contribution.
+  - Stop when form reads; do not chase skin perfection.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - II.1
+  - I.4
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Local light modelling without body reshape tools.
+- id: disclosure-label-skepticism
+  name: Disclosure-label skepticism drill
+  family: retouch
+  craft_mode: critical
+  primary_source: gap
+  source_status: held
+  gap_work: Danthinne et al. 2020 Body Image review (cited in Profield retouch map; not Wave-1 references.yml)
+  held_note: 'Profield: little support for disclaimer labels as protection — transfer boundary to
+    studio practice.'
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Write a one-line 'retouched' disclaimer for your image.
+  - Argue why a disclaimer may not protect viewers (classroom discussion).
+  - Replace disclaimer-only thinking with a concrete edit refusal or redesign.
+  - Document the redesign choice.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - II.1
+  - I.4
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Do not treat disclaimer text as ethical completion.
+- id: bodegon-balance-pass
+  name: Digital bodegón balance pass
+  family: still-motion
+  craft_mode: synthetic
+  primary_source: gap
+  source_status: gap
+  gap_work: Lesson I.9 declared gap; Profield still-life map
+  profield_runs:
+  - dc-fashion-motion-still-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Arrange 3–7 fashion objects; photograph or composite one frame.
+  - Name the heaviest visual weight and lighten or counter it once.
+  - Cross-reference one decision each from I.1–I.4 in the process note.
+  - 'Declare the gap: no verified bodegón teaching sequence.'
+  time_min: 50
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.9
+  evidence: gap — synthesis exercise across prior units
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Balanced digital still-life as CD I synthesis craft.
+- id: still-life-lighting-transfer
+  name: Still-life lighting transfer
+  family: still-motion
+  craft_mode: constructive
+  primary_source: gap
+  source_status: held
+  held_note: 'Profield motion/still map: lighting/composition durable; transfer to digital blank.'
+  profield_runs:
+  - dc-fashion-motion-still-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Light a physical object with one key + fill (phone lights OK).
+  - Match the light direction in a digital composite of related products.
+  - List mismatches you could not solve in post.
+  - Prefer re-light over fake glow when possible.
+  time_min: 40
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.9
+  - I.8
+  evidence: held
+  accessibility: Use window light if no lamps; document direction with a photo.
+  summary: Match physical light before digital glow.
+- id: solid-drawing-in-motion-frame
+  name: Solid drawing check on a motion frame
+  family: still-motion
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  gap_work: Animation 'solid drawing' principle as classroom craft; fashion animation pedagogy blank
+    in Profield
+  profield_runs:
+  - dc-fashion-motion-still-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Export one frame from a short fashion motion test.
+  - Redraw volume/weight/light on a tracing layer.
+  - Fix the motion pose where volume collapses.
+  - Reinsert the corrected still as a timing reference.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.8
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Restore volume on a single motion frame.
+- id: timing-vs-polish-split
+  name: Timing vs polish split
+  family: still-motion
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-motion-still-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Lock timing/holds on a rough pass with ugly placeholders.
+  - Only then replace placeholders with finished assets.
+  - Forbid polishing frames that will be cut.
+  - Show tutor the rough timing cut first.
+  time_min: 35
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.8
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Separate motion timing from asset polish.
+- id: moodboard-as-research
+  name: Moodboard as research (not collage décor)
+  family: research
+  craft_mode: critical
+  primary_source: gap
+  source_status: held
+  gap_work: Garner & McDonagh-Philp 2001; Cassidy 2011; de Wet 2017 (Profield composition run)
+  held_note: 'Profield ESTABLISHED: moodboard as qualitative design-research tool.'
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - State a research question the board must answer.
+  - Select images that argue; reject pretty-but-mute tiles.
+  - Annotate each tile with why it earns its place.
+  - Write a five-line synthesis that the board alone cannot say.
+  time_min: 40
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.7
+  evidence: held — primary articles not yet in references.yml
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Force research question before moodboard aesthetics.
+- id: critical-image-selection
+  name: Critical image selection drill
+  family: research
+  craft_mode: critical
+  primary_source: gap
+  source_status: held
+  gap_work: de Wet 2017 fashion moodboard action research (Profield)
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Gather 20 candidates; keep 6 with written selection criteria.
+  - Name one surface-learning trap you avoided (familiarity, trend copy).
+  - Peer challenges one keep.
+  - Log rejected notables with reasons.
+  time_min: 30
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.7
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Criteria-led selection against surface collage.
+- id: visual-citation-block
+  name: Visual citation block
+  family: research
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  gap_work: ACRL visual literacy standards (Profield); fashion consensus rubric blank
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics:
+  - didactics
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - For every tile, record creator, title/desc, date, source URL/repo, license if known.
+  - Flag missing fields; replace or drop the tile.
+  - Print a citation block beside the board or in a sidecar file.
+  - No anonymous screenshots.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.7
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Bibliographic integrity for image tiles.
+- id: search-politics-audit
+  name: Search-politics audit
+  family: research
+  craft_mode: critical
+  primary_source: campinho-2025
+  source_status: verified
+  source_locator: p. 2 (search results carry representational politics)
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Run the same query in two engines or filters; capture first-screen grids.
+  - Name whose bodies/contexts dominate.
+  - Change one query term to surface missing contexts.
+  - Keep both grids as process evidence.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.7
+  evidence: Campinho et al. 2025, 2
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Audit search grids before moodboard capture.
+- id: trend-signal-to-board
+  name: Trend signal → board translation
+  family: research
+  craft_mode: synthetic
+  primary_source: gap
+  source_status: held
+  gap_work: Torri et al. 2025 Metadesign/trend→moodboard (Profield)
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Name one cultural signal (not a brand drop).
+  - Collect evidence tiles that support or complicate it.
+  - Translate into colour/material/finish cues on the board.
+  - Write what remains speculation.
+  time_min: 35
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.7
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Translate a cultural signal into visual research, not logo hunting.
+- id: key-visual-brief-lock
+  name: Key-visual brief lock
+  family: presentation
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Write audience, channel, and single claim before opening the canvas.
+  - Reject any layer that does not serve the claim.
+  - Export at channel size with margin/safe area checked.
+  - Attach the brief text to the submission.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.4
+  evidence: untested — studio process for Sandra ACT2
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Lock key-visual brief before craft begins.
+- id: export-for-channel
+  name: Export for channel (web/print/social)
+  family: presentation
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-portfolio-web-ux
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Name target channel and max dimension/colour mode.
+  - Export proof; open on a second device or viewer.
+  - Fix one readability failure found off-canvas.
+  - Keep master layered file separate from delivery flat.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.4
+  - II.5
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Channel-specific export with off-canvas check.
+- id: portfolio-sequence-of-three
+  name: Portfolio sequence of three
+  family: presentation
+  craft_mode: synthetic
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-portfolio-web-ux
+  didactics:
+  - didactics
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Pick three process artefacts that show decision, not only finish.
+  - Order them so a stranger can reconstruct the argument.
+  - Write a 40-word caption for the set.
+  - Remove any image that only flatters.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.9
+  - II.5
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Process-led portfolio trio for critique.
+- id: taste-listening-counterpoint
+  name: Taste / listening counterpoint
+  family: presentation
+  craft_mode: critical
+  primary_source: rubin-2023
+  source_status: verified
+  source_locator: p. 123 (practitioner taste/listening counterpoint — Wave-1 verified locator)
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Before tool polish, state what you are listening for in the work (material, mood, audience).
+  - Do one silent look at peer work without commenting on software.
+  - Return to your piece; change one decision that tools cannot make for you.
+  - Note the change without brand-tool language.
+  time_min: 20
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.1
+  - I.2
+  evidence: Rubin 2023, 123 — practitioner counterpoint, not peer-reviewed pedagogy
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Re-centre judgement over tool fluency.
+- id: authorship-declaration-strip
+  name: Authorship declaration strip
+  family: critical-craft
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  - digital-creativity
+  didactics:
+  - didactics
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - List human decisions, automated assists, and generative assists used.
+  - Attach the strip to the deliverable footer or sidecar.
+  - Update the strip whenever the pipeline changes.
+  - Refuse empty 'AI-assisted' as a substitute for the list.
+  time_min: 10
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.1
+  - I.4
+  - II.1
+  evidence: untested — aligns with course AI declaration practice
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Concrete authorship strip for craft pipelines.
+- id: provenance-aware-export
+  name: Provenance-aware export note
+  family: critical-craft
+  craft_mode: workflow
+  primary_source: gap
+  source_status: held
+  gap_work: C2PA technical specs [PLATFORM/standard]
+  held_note: 'Profield retouch map: C2PA Content Credentials as emerging adjacent term.'
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - When tools offer Content Credentials / edit history, enable or document why not.
+  - Export a short edit ledger (manual is fine).
+  - State what a viewer cannot see from the flat alone.
+  - File the ledger with the master.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - II.1
+  - I.4
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Leave an inspectable edit ledger with the flat.
+- id: refuse-harmful-ideal-edit
+  name: Refuse harmful ideal edit
+  family: critical-craft
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  gap_work: Body-image transfer literature in Profield retouch map (not a studio efficacy RCT)
+  profield_runs:
+  - dc-fashion-retouch-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Identify one edit that would slim/idealise a body beyond the brief's product need.
+  - Refuse it in writing; propose an alternative art direction.
+  - Peer confirms the refusal is real (not postponed).
+  - Keep the refusal note in process evidence.
+  time_min: 15
+  group_size: pairs
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - II.1
+  - I.4
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Practise refusal of harmful idealisation as craft skill.
+- id: fashion-photograph-reading
+  name: Fashion photograph discursive reading
+  family: critical-craft
+  craft_mode: critical
+  primary_source: shinkle-2008
+  source_status: held
+  source_locator: "Shinkle 2008, p. 15 — wide array of practices; permeable art/commerce boundary (held classroom adaptation)"
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Choose one fashion photograph (rights-clear or course set).
+  - Name art/commerce tensions and who the image addresses.
+  - List three practices the image participates in (editorial, advertising, vernacular…).
+  - Connect one observation to your own making this week.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.1
+  - ML-FIA
+  evidence: Shinkle 2008 — Wave-1 verified field claim
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Read fashion photographs as discursive practices before remaking them.
+- id: agency-in-reception-note
+  name: Agency in reception note
+  family: critical-craft
+  craft_mode: critical
+  primary_source: eckersall-2017
+  source_status: verified
+  source_locator: pp. 218–219 (agency in reception; art vs media functions)
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Describe who acts when your image is viewed (author, platform, viewer).
+  - Mark one place where reception can refuse your intended claim.
+  - Adjust the craft once to leave room for that agency — or document why not.
+  - Keep the note with the critique sheet.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - ML-FIA
+  - I.1
+  evidence: Eckersall, Grehan, and Scheer 2017, 218–219
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Account for viewer agency in fashion-image craft.
+- id: texture-sample-board
+  name: Texture sample board
+  family: research
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-composition-references-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Photograph or scan three fabric textures you control rights for.
+  - Place them at equal scale; note weave/knit differences.
+  - Map each to a possible garment region on a flat.
+  - Forbid downloads of unlabeled texture packs.
+  time_min: 25
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  - I.7
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Rights-clear texture samples for digital material claims.
+- id: line-weight-hierarchy
+  name: Line-weight hierarchy
+  family: drawing
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT1
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - 'Assign three line weights: structure, seam, surface.'
+  - Apply consistently across one flat + figurín pair.
+  - Peer identifies structure without colour.
+  - Correct any weight that fights hierarchy.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.2
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Consistent line weights as readable craft grammar.
+- id: colourway-swap-test
+  name: Colourway swap test
+  family: colour
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Duplicate a finished flat; change only the colourway once.
+  - Check whether seams and logos still read.
+  - Decide which colourway carries the brief's claim.
+  - Archive both colourways.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.3
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Swap colourways without redesigning construction.
+- id: compositing-before-after-strip
+  name: Compositing before/after strip
+  family: bitmap
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Save a dated before flat at the start of effects work.
+  - After compositing, build a horizontal before|after strip.
+  - Caption the transformation in ≤12 words without hype.
+  - Submit strip with the master.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Mandatory before/after strip for effects accountability.
+- id: scale-consistency-pass
+  name: Scale consistency pass
+  family: composition
+  craft_mode: constructive
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-motion-still-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Place a known reference (hand, card, mannequin) in frame or as overlay.
+  - Check every object against that scale.
+  - Fix or intentionally break scale with a written reason.
+  - Remove the reference for final only after the check.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  - I.9
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Scale audit before photoreal claims.
+- id: avatar-fit-sanity
+  name: Avatar fit sanity check
+  family: form-volume
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  gap_work: Wave-1 firewall for CD II; method seeded for II.2 handoff
+  profield_runs:
+  - dc-avatar-digital-fashion-pedagogy
+  - dc-3d-form-volume-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - On a digital avatar/body form, list three fit risks visible from silhouette alone.
+  - Mark which risks need pattern change vs camera cheat.
+  - Refuse camera cheat for at least one risk; redesign instead.
+  - Document the choice.
+  time_min: 20
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - II.2
+  - I.5
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Fit risks before avatar glamour shots (CD II handoff seed).
+- id: web-portfolio-chunking
+  name: Web portfolio chunking
+  family: presentation
+  craft_mode: workflow
+  primary_source: gap
+  source_status: gap
+  profield_runs:
+  - dc-fashion-portfolio-web-ux
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Chunk one project into problem → process → outcome on three scroll sections.
+  - One image hero per section maximum.
+  - Check mobile width once.
+  - Remove decorative carousels that hide process.
+  time_min: 30
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - II.5
+  evidence: untested
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Process-visible portfolio chunking for web (CD II handoff seed).
+- id: motion-accessibility-check
+  name: Motion accessibility check
+  family: still-motion
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  gap_work: WCAG 2.2 time-based media (Profield motion map)
+  profield_runs:
+  - dc-fashion-motion-still-pedagogy
+  didactics: []
+  sandra_acts: []
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Verify pause/stop control for any looping motion.
+  - Check flash/strobe risk; reduce if unsure.
+  - Add captions or a still alternative for narrative motion.
+  - Record the WCAG-minded checks you ran.
+  time_min: 15
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.8
+  evidence: gap
+  accessibility: This method is an accessibility checkpoint.
+  summary: Accessibility gate for fashion motion deliverables.
+- id: productive-struggle-scaffold
+  name: Productive-struggle scaffold (assignment-driven drawing)
+  family: drawing
+  craft_mode: workflow
+  primary_source: gap
+  source_status: held
+  gap_work: Curcic 2024 studio drawing pedagogy (manifest curcic-2024 gap); Studio Thinking Engage
+    & Persist (Profield 2D map)
+  held_note: 'Profield 2D map: scaffolding / differentiated assignment as durable terms.'
+  profield_runs:
+  - dc-2d-image-craft-pedagogy
+  didactics: []
+  sandra_acts:
+  - ACT1
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - State the hard part of the brief before opening advanced tools.
+  - Complete a low-tool attempt that must fail informatively.
+  - Only then unlock one advanced tool that addresses the failure.
+  - 'Reflect: what did struggle teach that demos hid?'
+  time_min: 35
+  group_size: individual
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.2
+  evidence: held
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Scaffold struggle before tool demos erase judgement.
+- id: effects-disclosure-threshold
+  name: Effects disclosure threshold
+  family: bitmap
+  craft_mode: critical
+  primary_source: gap
+  source_status: gap
+  gap_work: I.4 McBride ethics gap; lesson declared effects-sequence gap
+  profield_runs:
+  - digital-creativity
+  didactics: []
+  sandra_acts:
+  - ACT2
+  steps_basis: classroom adaptation in course wording; not quoted from, and not a claim that the source
+    prescribes this sequence
+  steps:
+  - Name the before state of the image (capture or base composite).
+  - List each effect as treatment vs claim-about-reality.
+  - Group decides a disclosure threshold for the cohort brief.
+  - Apply the threshold to your piece; document compliance.
+  time_min: 20
+  group_size: small group
+  materials:
+  - laptop or tablet
+  - drawing/photo app
+  - timer
+  units:
+  - I.4
+  evidence: gap
+  accessibility: Keyboard and typed alternatives accepted where mark-making is required.
+  summary: Cohort threshold for when effects become claims.

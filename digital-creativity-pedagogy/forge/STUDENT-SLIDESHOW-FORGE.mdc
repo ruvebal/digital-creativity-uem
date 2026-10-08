@@ -121,13 +121,37 @@ the sibling runtime.
 
 | Role | Background |
 | --- | --- |
-| `unit_cover` | Profield still (I.1 opening: astronaut EVA still unless a later override is reviewed) |
-| Masterclass content | Accepted Profield media or course diagram |
-| `analysis_model` · `lab_exercise` · `workshop_work` | **Profield image background** when a unit asset exists — not `none` / not flat diagram |
+| `unit_cover` | Curated still (I.1 opening: astronaut EVA still unless a later override is reviewed) |
+| Masterclass content | Accepted curated media or course diagram |
+| `analysis_model` · `lab_exercise` · `workshop_work` | **Curated image background** when a unit asset exists — not `none` / not flat diagram |
 | `lab_opener` · `workshop_opener` · `outro` · `analysis_opener` | **Geometrical only** |
 | Never | Invented images; geometrical BG replacing a required Masterclass media slot |
 | Never | `organic-pixel-drift` / “circle dancing” (or any non-henon decorative SVG) as a slide background — transitions use **henon geometrical** only, and the forge caption **must** include the SVG content-hash UUID from the filename |
-| Lab/Workshop content without an accepted asset | `background_kind: none` (solid stage) until Profield assigns a slot — do **not** steal Masterclass images onto slides 10–12 |
+| Lab/Workshop content without an accepted asset | `background_kind: diagram` (or `none`) until EX4 binds a curated asset — do **not** steal Masterclass images onto slides 10–12 |
+
+### Deck schema version 2 (PHASE-EX3, 2026-10-07)
+
+Wave-1 decks (`2627-dci` + `fashion-image-analysis`) adopt `"schema_version": 2`.
+Inventory and migration status:
+[`../excellence/evidence/SCHEMA-VERSION-WAVE1.md`](../excellence/evidence/SCHEMA-VERSION-WAVE1.md).
+The validator (`scripts/validate-decks.mjs --strict --rights=flag`) is **strict on v2
+Wave-1** and only **warns** on legacy decks and on everything outside Wave-1 (CD II / NM).
+
+| Gate | Command / path |
+| --- | --- |
+| Rules module | `scripts/lib/media-rules.mjs` (`extensionFor`, `rightsVerdict`, `bindSlides`, `deckProblems`) |
+| Validator | `npm run validate:decks` → `--strict --rights=flag` |
+| Rights report | `excellence/curation/rights-report.json` (flag mode; EX4 fills curator picks) |
+| Private registry | `excellence/curation/autopilot-assets.json` (raw_title authority) |
+| Tests | `npm test` → `scripts/tests/{media-rules,validate-decks,validate-cli-modes}.test.mjs` |
+
+- **`slide_id`** on every slide (stable: `cover`, `masterclass-1…`, `lab-1`, `lab-2`, `outro`, …).
+- **`background_kind`**: `curated` \| `diagram` \| `geometrical` \| `none`. The value `profield` is **retired** on v2 (publication firewall).
+- **`image_brief`** on every image slide; `TODO: …` allowed only until EX4.
+- **`asset_id`** on a `curated` slide is the **only** binding — no rank dealing, no wrap-around reuse, no asset on two slides of one deck (`bindSlides`).
+- **`media_slot_id`** = `<unit>.<slide_id>` on curated slides only.
+- **Files:** prefer `docs/assets/images/deck-media/` renditions (≤ 600 KB; no raw SVG). `profield-cache/` may keep files still referenced by legacy decks; orphans there **warn**, are not deleted in EX3.
+- **Rights:** `rightsVerdict` whitelist + EU term; AUTOPILOT publishes failing assets as `rights_status: flagged` under `--rights=flag`.
 
 ### Quote hierarchy (revised 2026-09-15 · ∥ CT slideshow forge)
 
@@ -152,17 +176,28 @@ Official weights stay in the UEM guía. Studio choreography (TC ∥ DC):
 
 D1 intra-rubric: presentation **70%** · deliverable support **20%** · peer debate **10%**.
 
+## Golden rules (typography + layout floors)
+
+1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally (`h1` `clamp(2.15rem, 6.6vw, 3.15rem)`, as in `pass-track-deck.css`). These are floors for every slide layout, Lab exercise slides included; `npm run test:browser` checks them **on screen and in the print pass** (PHASE-EX5 / FINDINGS B4). Secondary type keeps these **ratios of the base floor** (documented here so tests do not invent constants): quote **0.72×**, prompt/trace **0.76×**, Lab timer **0.70×**. Do **not** revert to smaller clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
+
 ## Required student-deck fields
 
 ```yaml
+schema_version: 2                    # Wave-1 required (PHASE-EX3); see SCHEMA-VERSION-WAVE1.md
 course_id: dci | dcii
 unit_id: I.1 | II.4
 slide_id: stable-unit-purpose-id
-slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
-background_kind: profield | geometrical | diagram | none
+slide_role: unit_cover | analysis_opener | analysis_model | masterclass | retrieval | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+
+**Retrieval slide (EX10, optional on Wave-1 decks):** exactly one `slide_role: retrieval` after the last Masterclass idea and before `lab_opener`. Five recall questions (<= 80 characters); answers only in `notes`. Geometrical background. Drawn from `excellence/assessment/question-bank.yml` retrieval fields.
+
+
+background_kind: curated | geometrical | diagram | none   # v2: "profield" retired
+image_brief: "One sentence: what the image shows and why."  # curated | diagram
+asset_id: "wikimedia:File:Example.jpg"                     # curated only
 heading: "Short student-facing heading"
 sentence: "One sentence only — teenager voice; one idea."
-media_slot_id: I.1.still.editorial-vs-commercial  # when background_kind: profield
+media_slot_id: I.1.masterclass-1   # curated: <unit>.<slide_id>
 portfolio_bound: true | false
 portfolio_trace: "Save the annotated comparison in your portfolio index."
 quote: "Brief Ahmes verbatim OR Tao of the Image invent (≤ ~40 words)."
@@ -177,8 +212,9 @@ citation:
   href: "#ref-… | /digital-creativity-uem/tao/"
 ```
 
-No Profield-backed slide is published until `media_slot_id` resolves to an accepted MP5 record
-or the slide is a course-generated diagram / geometrical structural slide with accessible text.
+No curated slide is published until `asset_id` + `media_slot_id` resolve to an accepted
+registry/MP5 record (or the slide is a course diagram / geometrical structural slide).
+Validate with `npm run validate:decks` before claiming a unit forged.
 
 ## Publish gate — track + lesson links (fail-closed)
 

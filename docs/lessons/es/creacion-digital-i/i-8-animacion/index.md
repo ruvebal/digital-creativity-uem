@@ -10,6 +10,7 @@ permalink: /lessons/es/creacion-digital-i/i-8-animacion/
 description: 'La animación implica movimiento a través de una secuencia de fijas — el oficio consiste en elegir cuáles conservar. Esta unidad declara, sin ocultarla, una excepción en la asignación de horas.'
 status: scaffold
 tags: [creacion-digital-i, animacion, movimiento, fotogramas]
+references: []
 ---
 
 <!-- prettier-ignore-start -->
@@ -46,7 +47,7 @@ tags: [creacion-digital-i, animacion, movimiento, fotogramas]
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 - **Describir la animación como movimiento implícito a través de una secuencia de fijas** — y nombrar el oficio como la elección de cuáles conservar.
 - **Nombrar timing, secuencia, transiciones y continuidad visual** como familias técnicas del motion design antes de cualquier menú de animación de marca (Shaw 2015).
@@ -56,19 +57,8 @@ tags: [creacion-digital-i, animacion, movimiento, fotogramas]
 
 ---
 
-## Por qué existe esta unidad — movimiento a través de fijas elegidas
-
-**Afirmación:** una imagen animada implica movimiento a través de una secuencia deliberadamente elegida de fijas, y el oficio consiste en decidir cuáles conservar — no qué efecto o plugin añadir.
-
-El motion design requiere timing, secuencia, transiciones, tipografía, composición y continuidad visual — las familias técnicas que nombra esta unidad antes de cualquier línea de tiempo específica de herramienta (Shaw 2015). El software reconfigura la autoría mediática hibridando lenguajes mediáticos anteriores en formas editables, componibles y animadas; la animación digital y el motion graphics son lenguajes de software y composición, no efectos autónomos (Manovich 2013).
-
-**Qué fundamenta esto, y qué no.** Shaw (2015) y Manovich (2013) fundamentan vocabulario técnico y teórico para construir imágenes animadas. **No** validan una **secuencia de enseñanza de animación** para este aula — ninguna fuente revisada establece una aquí. La documentación de herramienta fundamenta *cómo* funciona una herramienta de animación dada — etiqueta `[PLATFORM]`, nunca investigación.
-
-**Anclaje de práctica (lente de campo):** fotograma, intervalo, keyframe, easing, anticipación, repetición y bucle como constructos temporales duraderos — separados de la interfaz de cualquier aplicación.
-
-**Señal de frontera (lente de campo):** el movimiento atrae atención pero puede acelerar el consumo, ocultar trabajo o excluir a quienes son sensibles al movimiento; trata cualquier bucle como un ritmo diseñado para alguien — y ofrece una alternativa de movimiento reducido.
-
-## Perspectiva crítica
+## Análisis
+### Perspectiva crítica
 
 Una parte sustantiva del trabajo mediático realizado por diseñadores independientes permanece invisible aunque sea indispensable para obtener circulación y reconocimiento en Instagram y otros entornos digitales — negociación, circulación de prendas, mantenimiento de redes y trabajo comunicativo hay detrás de la aparente inmediatez de la imagen de moda en plataformas (Skjulstad 2025).
 
@@ -107,7 +97,7 @@ La paradoja del epígrafe `img-002` — un bucle que implica movimiento es, foto
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h
+
 
 Cubierto arriba: encuadre Shaw/Manovich, lente crítica Skjulstad, estímulo de reflexión y marcadores de posición.
 
@@ -115,42 +105,105 @@ Sin espacio de debate esta unidad (0 h asignadas, declarado arriba).
 
 ---
 
-## B2 · Taller — talleres 1 h + investigaciones y proyectos 2 h
+## Masterclass
 
-**Entregable:** una secuencia animada breve (GIF, hoja de sprites, o bucle sencillo) de un detalle de moda — la caída de un tejido, el giro de un accesorio, el cambio de silueta de una prenda — con una nota de proceso que liste las fijas elegidas y por qué, más un fallback estático o de movimiento reducido donde el movimiento excluiría a un espectador.
+**Afirmación:** una imagen animada implica movimiento a través de una secuencia deliberadamente elegida de fijas, y el oficio consiste en decidir cuáles conservar — no qué efecto o plugin añadir.
 
-**Nota sobre el canal de evidencia de esta unidad:** como B3 lleva 0 h esta unidad, la nota de proceso duplica como el artefacto de evidencia individual que de otro modo llevarían las horas de resolución de problemas. Este colapso es la única desviación de "B2 ≠ B3" en esta oleada, declarada aquí en vez de absorbida en silencio.
+El motion design requiere timing, secuencia, transiciones, tipografía, composición y continuidad visual — las familias técnicas que nombra esta unidad antes de cualquier línea de tiempo específica de herramienta (Shaw 2015). El software reconfigura la autoría mediática hibridando lenguajes mediáticos anteriores en formas editables, componibles y animadas; la animación digital y el motion graphics son lenguajes de software y composición, no efectos autónomos (Manovich 2013).
 
-**Definición de terminado:** secuencia existente; nota de proceso presente y específica; ID de pieza; fallback estático anotado donde corresponda.
+**Qué fundamenta esto, y qué no.** Shaw (2015) y Manovich (2013) fundamentan vocabulario técnico y teórico para construir imágenes animadas. **No** validan una **secuencia de enseñanza de animación** para este aula — ninguna fuente revisada establece una aquí. La documentación de herramienta fundamenta *cómo* funciona una herramienta de animación dada — etiqueta `[PLATFORM]`, nunca investigación.
+
+**Anclaje de práctica (lente de campo):** fotograma, intervalo, keyframe, easing, anticipación, repetición y bucle como constructos temporales duraderos — separados de la interfaz de cualquier aplicación.
+
+**Señal de frontera (lente de campo):** el movimiento atrae atención pero puede acelerar el consumo, ocultar trabajo o excluir a quienes son sensibles al movimiento; trata cualquier bucle como un ritmo diseñado para alguien — y ofrece una alternativa de movimiento reducido.
+
+## Lab (Portfolio)
+
+*Marcador estructural (EX9) — aún no hay slides `lab_exercise` de deck DCI para esta unidad. Dos ejercicios ilustrativos mantienen el ritmo de Lab; se sustituyen cuando llegue la ola de decks.*
+
+### Ejercicio 1 — Nombra el movimiento de CONTENIDOS {#lab-exercise-1}
+
+**Time:** 15 minutes.
+
+**Group:** individual.
+
+**Materials:** cuaderno o portátil; temporizador; una imagen de referencia con derechos claros para el CONTENIDOS de esta unidad.
+
+**Steps:**
+
+1. Reformula el ancla de CONTENIDOS en una frase (sin marca de herramienta).
+2. Nombra una decisión de oficio que esta unidad pide dejar visible en la nota de proceso.
+3. Escribe una frase sobre lo que ocultaría un flujo de una sola herramienta.
+4. Guarda la nota para el índice de portfolio.
+
+**Portfolio trace:** frase CONTENIDOS + frase de visibilidad de oficio + cautela mono-herramienta.
+
+**Judged by:** [Rúbrica de portfolio — evidencia de proceso]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Adaptación de aula (Labs de deck pendientes — marcador estructural).
+
+**Example trace:** *(Ilustrativo · no es trabajo de estudiante.)* CONTENIDOS: «Volumen por iteración híbrida.» Oficio visible: pliegue de maqueta física vs pase CLO. Cautela: un export solo CLO ocultaría la corrección de drapeo que forzó la mano.
+
+### Ejercicio 2 — Un par de evidencia de proceso {#lab-exercise-2}
+
+**Time:** 20 minutes.
+
+**Group:** individual; compartir opcional 2 minutos.
+
+**Materials:** la nota del Ejercicio 1; un par antes/después o físico/digital; temporizador.
+
+**Steps:**
+
+1. Captura un antes y un después (o físico vs digital) de la misma pieza.
+2. Escribe una frase nombrando lo que el segundo pase reveló que el primero no.
+3. Rechaza cualquier pulido que borre la evidencia del pase.
+4. Archiva ambas imágenes bajo el ID de pieza.
+
+**Portfolio trace:** par antes/después + frase de revelación.
+
+**Judged by:** [Rúbrica de portfolio — evidencia de proceso]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Adaptación de aula (Labs de deck pendientes — marcador estructural).
+
+**Example trace:** *(Ilustrativo · no es trabajo de estudiante.)* Antes: pliegue de maqueta en papel en la cintura. Después: el pase digital exagera el pliegue. Frase: «La pantalla inventó una tensión que la tela no tenía — conserva la foto física en el índice.»
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (sequence); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
+LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
+LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
 -->
 {% endif %}
 
-{% comment %}
-outcome-graphic-selection:
-  source-section: "B2 · Taller"
-  visual-grammar: "temporal-loop — fotogramas cambiantes cierran un bucle y una traza paralela conserva las decisiones temporales"
-{% endcomment %}
-{% include lesson-outcome-graphic.html %}
-
 ---
 
-## B3 · Resolución de problemas — 0 h · ninguna en esta unidad
+## Workshop
+
+Desde la sesión 4: el Workshop es tiempo de estudio protegido para D2 Transposición y D3 evento final (≈ mitad / mitad) — no es reloj de D1 Análisis.
+
 
 Declarado como contenido, no omitido en silencio: la tabla de asignación da a esta unidad 0 h de resolución de problemas. La nota de proceso de B2 lleva en su lugar el peso de evidencia individual (ver la nota arriba).
 
 ---
 
+## Conclusión
+
+Esta unidad deja lagunas nombradas a propósito: lo que el vault puede verificar con página queda en Referencias; lo abierto queda en la Nota editorial. Mantén las trazas de Lab honestas en el índice de portfolio. No inventes un entregable evaluable que How to Pass no pide. La siguiente apuesta es el ritmo de sesión ya nombrado — defensa de Análisis (D1) desde la sesión 3; Workshop desde la sesión 4 para Transposición y el evento final.
+
+---
+
+## Tao de la imagen {#tao-of-the-image}
+
+Epígrafe de la unidad (registro Tao de estudio — no es cita académica):
+
+> _"Un GIF que se repite para siempre nos enseña: movimiento sin desplazamiento sigue siendo naturaleza muerta."_
+
+Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
+
+---
+
 ## Referencias
 
-- Manovich, Lev. 2013. *Software Takes Command*. New York: Bloomsbury Academic. ISBN 9781623567453.
-- Shaw, Austin. 2015. *Design for Motion: Fundamentals and Techniques of Motion Design*. New York: Routledge. ISBN 9781138812093.
-- Skjulstad, Synne. 2025. “Backstage Matters: Designer's Invisible Media Work in Contemporary Fashion.” *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2442183" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2442183</a>.
-
-**Brecha declarada — en claro.** Shaw (2015) y Manovich (2013) fundamentan vocabulario de movimiento y encuadre de hibridación software; **no** validan una secuencia de enseñanza de animación para moda HE. Esta unidad es un piloto de oficio declarado, no pedagogía establecida.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -179,22 +232,11 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
-entorno de estudio crea-comm.net — un harness agentic local con recuperación
-vía MCP, contexto RAG del vault curricular y un modelo de voz académica
-afinado sobre su propia escritura. La forja consultó **3** fuentes del vault;
-cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
-Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
-posterior. El juicio editorial y la responsabilidad del texto final permanecen
-en el autor.
-
-Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: c3e3bc78-3901-4285-bb1f-85519a541eb9
+<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
+      lesson_uuid: c3e3bc78-3901-4285-bb1f-85519a541eb9
      vault_refs_consulted: 3
      forge_pass: editorial-ai-footer-law-2026-09-22
 -->

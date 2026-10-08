@@ -126,7 +126,7 @@ Cubierto arriba: marco MacCallum/McLean, perspectiva crítica, debate y marcador
 **Sin S1/S2 en esta unidad.** El retoque (anclaje CONTENIDOS 1) no está en la lista de anclajes elegibles para vShowroom del framework (`oficial-guia-framework.mdc` §2 solo nombra los anclajes 2·3·5·6) — este entregable no se plantea como una pieza exhibible en el showroom.
 
 {% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
+<!--  curriculum-internal:
 **Evidencia:** Investigaciones y proyectos 20% (pieza antes/después); Cuaderno 10% (línea de declaración). Sin S1/S2 — ROL DE ARTEFACTO ninguno.
 Las referencias a herramientas (cualquier editor raster/fotográfico) son notas de plataforma fechadas, no citas de investigación — comprueba las versiones antes de clase.
 -->
@@ -189,22 +189,11 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
-entorno de estudio crea-comm.net — un harness agentic local con recuperación
-vía MCP, contexto RAG del vault curricular y un modelo de voz académica
-afinado sobre su propia escritura. La forja consultó **4** fuentes del vault;
-cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
-Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
-posterior. El juicio editorial y la responsabilidad del texto final permanecen
-en el autor.
-
-Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: 90959874-ad5a-411b-8abe-2d59d30ca455
+<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
+      lesson_uuid: 90959874-ad5a-411b-8abe-2d59d30ca455
      vault_refs_consulted: 4
      forge_pass: editorial-ai-footer-law-2026-09-22
 -->

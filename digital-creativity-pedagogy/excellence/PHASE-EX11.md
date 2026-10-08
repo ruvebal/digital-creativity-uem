@@ -1,7 +1,7 @@
 # PHASE-EX11: Closing audit against EX0 baseline + handoff
 
 > **Track:** measurement + handoff
-> **Status:** BLOCKED (EX10 DONE)
+> **Status:** VERIFYING
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
 
 ## Goal

@@ -4,7 +4,7 @@ permalink: /tracks/dci/i-2-2d-drawing/
 sitemap: false
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,10 +14,13 @@ sitemap: false
 </head>
 <body
   class="student-media-deck"
+  data-base-url="{{ site.baseurl }}"
   data-content-url="{{ '/tracks/en/uem/2627-dci/i-2-2d-drawing/data/content.json' | relative_url }}"
   data-lesson-url="{{ '/lessons/en/digital-creativity-i/i-2-2d-drawing/' | relative_url }}">
   <a class="track-back" id="deck-back" href="{{ '/lessons/en/digital-creativity-i/i-2-2d-drawing/' | relative_url }}" aria-label="Back to lesson">← Back to lesson</a>
-  <div class="reveal"><div class="slides" id="slides"></div></div>
+  <div class="reveal"><div class="slides" id="slides">
+{% include decks/i-2-2d-drawing.html %}
+  </div></div>
   <script src="{{ '/assets/js/reveal.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/student-media-deck.js' | relative_url }}"></script>
 </body>

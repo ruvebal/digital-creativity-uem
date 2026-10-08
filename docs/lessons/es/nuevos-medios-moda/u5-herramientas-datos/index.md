@@ -15,11 +15,13 @@ master_idea: 'Cada métrica es una decisión sobre qué cuenta como éxito.'
 ---
 
 {% if site.publication.publish_internal_metadata %}
+{% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 Scaffold only — cold B1 via lesson-scribe/Thessia pending (nm-unit-forge).
 Track: /tracks/es/nuevos-medios-moda/ · Canvas U5.
 Cite Ahmes only; project_slug profield-nuevos-medios-moda-2026-27.
 -->
+{% endif %}
 {% endif %}
 
 ## Idea maestra
@@ -28,8 +30,7 @@ Cada métrica es una decisión sobre qué cuenta como éxito.
 
 ## Estado
 
-**Andamiaje.** El temario forjado, B1 frío (Thessia), B2 Canvas y B3 se completan
-con `nm-unit-forge` + `lesson-scribe`. Entrega y rúbricas viven en **Canvas**.
+**Andamiaje.** El temario y las entregas B1–B3 siguen el plan de la asignatura. Entrega y rúbricas viven en **Canvas**.
 
 | Bloque | Contenido |
 | --- | --- |

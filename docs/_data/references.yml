@@ -1,0 +1,96 @@
+# Single bibliography source for Digital Creativity lessons (PHASE-EX6).
+#
+# One canonical Chicago author-date entry per work, keyed `surname-year`.
+# Lessons list keys in front matter (`references: [...]`) and render with
+# `_includes/references.html`. In-text links are `#ref-<key>`.
+# Only page- or section-verified works belong here; unresolved works stay in
+# research-manifest.yml (gap). No internal store names, ids, or paths.
+
+aldahoul-2025:
+  sort: "AlDahoul Rahwan Zaki 2025"
+  year: 2025
+  edition_used: "Scientific Reports open-access PDF (printed article pages)."
+  chicago: >-
+    AlDahoul, Nouar, Talal Rahwan, and Yasir Zaki. 2025. “AI-Generated Faces Influence Gender
+    Stereotypes and Racial Homogenization.” *Scientific Reports* 15:14449.
+    [https://doi.org/10.1038/s41598-025-99623-3](https://doi.org/10.1038/s41598-025-99623-3).
+
+campinho-2025:
+  sort: "Campinho Cardim da Silva Dantas Soares Amparo-Santos 2025"
+  year: 2025
+  edition_used: "Revista de Saúde Pública open-access PDF (Portuguese)."
+  chicago: >-
+    Campinho, M. I. S., C. V. Cardim da Silva, M. Dantas Soares, and L. Amparo-Santos. 2025.
+    “Corpos gordos e corpos obesos em telas digitais: um olhar analítico para imagens propagadas
+    pelo Google.” *Revista de Saúde Pública*.
+    [https://doi.org/10.1590/s0104-12902025240894pt](https://doi.org/10.1590/s0104-12902025240894pt).
+
+coats-2026:
+  sort: "Coats 2026"
+  year: 2026
+  edition_used: "IJFDTE article PDF (printed pages)."
+  chicago: >-
+    Coats, M. 2026. “The Denim Project—A Hybrid Approach to Fashion Education Using CLO3D.”
+    *International Journal of Fashion Design, Technology and Education*.
+    [https://doi.org/10.1080/17543266.2026.2688308](https://doi.org/10.1080/17543266.2026.2688308).
+
+eckersall-2017:
+  sort: "Eckersall Grehan Scheer 2017"
+  year: 2017
+  edition_used: "Palgrave Macmillan PDF (printed folios)."
+  chicago: >-
+    Eckersall, Peter, Helena Grehan, and Edward Scheer. 2017. *New Media Dramaturgy: Performance,
+    Media and New-Materialism*. London: Palgrave Macmillan.
+    [https://doi.org/10.1057/978-1-137-55604-2](https://doi.org/10.1057/978-1-137-55604-2).
+
+huppauf-wulf-2009:
+  sort: "Huppauf Wulf 2009"
+  year: 2009
+  edition_used: "Routledge PDF (printed folios)."
+  chicago: >-
+    Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination:
+    The Image between the Visible and the Invisible*. New York: Routledge.
+
+kandinsky-2012:
+  sort: "Kandinsky 2012"
+  year: 2012
+  edition_note: "Dover reprint of the Bauhaus-era Point and Line to Plane text."
+  edition_used: "Dover Publications PDF (page indexes used as printed locators for this edition)."
+  chicago: >-
+    Kandinsky, Wassily. 2012. *Point and Line to Plane*. Translated by Howard Dearstyne and Hilla
+    Rebay. Mineola, NY: Dover Publications.
+
+papahristou-2024:
+  sort: "Papahristou Zolota Tatsi 2024"
+  year: 2024
+  edition_used: "CDATP open-access PDF (printed pages 266–277)."
+  chicago: >-
+    Papahristou, E., and N. Zolota Tatsi. 2024. “A Review of 3D Design Knowledge and Its Impact on
+    Creativity in Fashion Design Education.” *Communications in Development and Assembling of Textile
+    Products* 5 (2): 266–277.
+    [https://doi.org/10.25367/cdatp.2024.5.p266-277](https://doi.org/10.25367/cdatp.2024.5.p266-277).
+
+roivainen-2025:
+  sort: "Roivainen 2025"
+  year: 2025
+  edition_used: "Visual Studies article PDF (printed pages)."
+  chicago: >-
+    Roivainen, Ida. 2025. “‘How I Edit My Instagram Images’: Investigating Skilled Vision in the Work
+    of YouTube’s Lifestyle-Content Creators.” *Visual Studies* 40 (3): 569–585.
+    [https://doi.org/10.1080/1472586X.2024.2353689](https://doi.org/10.1080/1472586X.2024.2353689).
+
+rubin-2023:
+  sort: "Rubin 2023"
+  year: 2023
+  edition_note: "Penguin Press hardcover; EPUB page-list used where cited."
+  edition_used: "Penguin Press EPUB with print page-list (ISBN 9780593652886)."
+  chicago: >-
+    Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press.
+
+shinkle-2008:
+  sort: "Shinkle 2008"
+  year: 2008
+  edition_used: "I. B. Tauris PDF (printed folios)."
+  chicago: >-
+    Shinkle, Eugenie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*.
+    London: I. B. Tauris.

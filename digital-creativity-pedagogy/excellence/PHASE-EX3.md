@@ -1,7 +1,7 @@
 # PHASE-EX3: Image/media pipeline rules + tests + deck validator
 
 > **Track:** media engineering
-> **Status:** BLOCKED (EX2 DONE)
+> **Status:** VERIFYING (implementation complete; await harness + cold review)
 > **Autopilot:** human gates replaced by AUTOPILOT.md §2; log in DECISIONS-LOG.md.
 
 ## Goal

@@ -13,6 +13,7 @@ tags: [master-lecture, analysis, fashion-image, guide, transversal]
 master_idea: 'Read the image from dot to perspective before asking where it comes from, what it means with evidence, whom it serves, and how it circulates.'
 practice_anchor: '8-step card + Lens A (triad) + Lens B (circulation) on one fashion image'
 deck_url: /master-lectures/fashion-image-analysis/
+references: [shinkle-2008, eckersall-2017, kandinsky-2012]
 ---
 
 <!-- prettier-ignore-start -->
@@ -34,13 +35,14 @@ surface: master-lecture (EN canonical; not a track CONTENIDOS row)
 cycle: 2
 forged: 2026-09-27
 evaluator_safe_public: Shinkle 2008 (1936070c) + Eckersall 2017 (43fc4273)
-PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=14}; public="(Shinkle 2008, 14)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=17}; public="(Shinkle 2008, 17)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=69}; public="(Shinkle 2008, 69)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=78}; public="(Shinkle 2008, 78)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=15}; public="(Shinkle 2008, 15)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=218}; public="(Eckersall 2017, 218)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=14}; public="(Shinkle 2008, 14)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=17}; public="(Shinkle 2008, 17)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=69}; public="(Shinkle 2008, 69)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=78}; public="(Shinkle 2008, 78)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=15}; public="(Shinkle 2008, 15)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.kandinsky-point-line-plane; status=VERIFIED; page_basis=printed; source={document_coat=5c285f15; node_id=017a3864-6f07-5c36-8991-bd0350aef4fd; page_index=9; printed_page=9}; public_citation="(Kandinsky 2012, 9)"; evaluator_safe=yes; quote_candidates="star of straight lines" / point-line-plane vocabulary
+PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=218}; public="(Eckersall 2017, 218)"; evaluator_safe=yes
 -->
 {% endif %}
 
@@ -54,7 +56,7 @@ This is a **Master Lecture** — a transversal analysis method. Use it from Digi
 
 </div>
 
-## Learning outcomes
+## Learning objectives
 
 By the end of this master lecture you can:
 
@@ -65,13 +67,13 @@ By the end of this master lecture you can:
 
 ## Why this guide
 
-This lecture does not invent a new CONTENIDOS row. It is a **method workshop** — same spirit as the [Web Analysis Guide](https://ruvebal.github.io/web-atelier-udit/lessons/en/web-analysis/): numbered steps, one sitting, critical emphasis.
+This lecture does not invent a new CONTENIDOS row. It is a **method workshop** — same spirit as a numbered-step web analysis guide: one sitting, critical emphasis.
 
 It serves campaign analysis, portfolio image work, and any track session that needs a shared critique language.
 
 ---
 
-## B1 · Analysis (in the lesson, not only on slides)
+## Analysis
 
 This is the critical analysis class, not the morphology class. Complete the separate [Image morphology master lecture]({{ '/lessons/en/master-lectures/image-morphology/' | relative_url }}) first when students need formal vocabulary. Here, morphology is the evidence pass that analysis uses; it is not the endpoint.
 
@@ -168,7 +170,37 @@ When you analyse shared cultural codes (style, genre, “what everyone understan
 
 ---
 
-## Masterclass ideas (six)
+## Masterclass
+
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/8243faeb5945da08.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in an exhibition view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-1" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/684484de753f97f5.webp' | relative_url }}" alt="A fashion sketch design study" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/37ef9f5bda8f9a93.webp' | relative_url }}" alt="An exhibition poster composition" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-4" markdown="0">
+<img src="{{ '/assets/images/deck-media/50123c6eb70f0276.webp' | relative_url }}" alt="A historical beauty advertisement" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-4" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-5" markdown="0">
+<img src="{{ '/assets/images/deck-media/5dc077b6251755e2.webp' | relative_url }}" alt="Jessica Minh Anh on a runway fashion and sustainability show, 2020" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-5" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-6" markdown="0">
+<img src="{{ '/assets/images/deck-media/17d4597b7ae3a41e.webp' | relative_url }}" alt="Jessica Minh Anh on a runway fashion and sustainability show, 2020 — second view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="fashion-image-analysis" slide="masterclass-6" %}</figcaption>
+</figure>
 
 1. Describe before you interpret.
 2. Language ≠ medium ≠ support.
@@ -179,7 +211,9 @@ When you analyse shared cultural codes (style, genre, “what everyone understan
 
 ---
 
-## B2 · Lab (portfolio)
+## Lab (Portfolio)
+
+*Illustrative traces below are professor-made examples — not student work.*
 
 ### Exercise 1 — Shared image
 
@@ -227,12 +261,18 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 
 ---
 
-## References
-{:#references}
+## Conclusion
 
-- <span id="ref-eckersall-2017">Eckersall, Peter, Helena Grehan, and Edward Scheer. 2017. *New Media Dramaturgy: Performance, Media and New-Materialism*. London: Palgrave Macmillan. DOI <a href="https://doi.org/10.1057/978-1-137-55604-2" target="_blank" rel="noopener noreferrer">10.1057/978-1-137-55604-2</a>. ISBN 9781137556035.</span>
-- <span id="ref-kandinsky-2012">Kandinsky, Wassily. 2012. *Point and Line to Plane*. Translated by Howard Dearstyne and Hilla Rebay. Dover Publications.</span>
-- <span id="ref-shinkle-2008">Shinkle, Eugenie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I.B. Tauris. ISBN 9781845115166.</span>
+This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+
+---
+
+
+**Practice:** five recall questions with answers on click — [fashion-image-analysis practice quiz]({{ '/practice/en/fashion-image-analysis/' | relative_url }}). Not graded; nothing recorded.
+
+## References
+
+{% include references.html %}
 
 ---
 
@@ -244,4 +284,5 @@ Everything goes to the portfolio index / Canvas. It can feed campaign analysis o
 
 ## AI-assisted authorship
 
-Vault counts this cycle: **2** public sources cited (Shinkle 2008; Eckersall 2017) · date **2026-09-27** · guide prose author-edited. [See site AI declaration when published]({{ '/ai-declaration/#AI-assisted-authorship' | relative_url }}).
+This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+

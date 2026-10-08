@@ -11,6 +11,7 @@ description: 'Un efecto es una transformación con un antes — operaciones de f
 status: scaffold
 tags: [creacion-digital-i, efectos, filtros, divulgacion]
 deck_url: /tracks/dci/i-4-effects/
+references: []
 ---
 
 <!-- prettier-ignore-start -->
@@ -45,7 +46,7 @@ deck_url: /tracks/dci/i-4-effects/
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 - **Nombrar filtrado, mejora, transformación del color y corrección** como operaciones bitmap centrales del postprocesado digital (Gonzalez y Woods 2018).
 - **Tratar los efectos como parte de problemas visuales**, no como un catálogo autónomo de filtros (Curcic 2024).
@@ -55,19 +56,8 @@ deck_url: /tracks/dci/i-4-effects/
 
 ---
 
-## Por qué existe esta unidad — transformación con un antes rastreable
-
-**Afirmación:** el filtrado, la mejora, la transformación del color y la corrección son operaciones bitmap centrales del postprocesado digital — las familias técnicas que nombra esta unidad antes de cualquier menú de filtros de marca (Gonzalez y Woods 2018).
-
-Los currículos contemporáneos de dibujo digital combinan trabajo expresivo con variables de imagen fundamentales — valor, luz, textura y color — en lugar de tratar los efectos como un catálogo autónomo (Curcic 2024). Un efecto aplicado a una imagen es siempre una transformación con un **antes**; el riesgo de oficio es perder la pista de ese antes, no dominar un preset concreto.
-
-**Qué sostiene y qué no.** Gonzalez y Woods (2018) sostienen la explicación técnica de píxeles, canales, filtros y corrección. Curcic (2024) sostiene pedagogía de taller basada en encargos donde los efectos sirven a problemas visuales. McBride et al. (2019) sostienen conciencia ética de imágenes publicitarias manipuladas — adyacente a la divulgación en moda, no una prescripción de política de aula. **Ninguna fuente revisada valida una secuencia de enseñanza de efectos o filtros** para moda en educación superior; la documentación de herramienta fundamenta operaciones — etiqueta `[PLATFORM]`, nunca investigación.
-
-**Ancla de práctica (perspectiva de campo):** edición no destructiva, composición, máscaras y corrección tonal como clases de operación duraderas — separadas de la interfaz de cualquier aplicación.
-
-**Señal de frontera (perspectiva de campo):** los píxeles generativos pueden oscurecer las decisiones visuales y los procesos de oficio en los que tradicionalmente descansa la crítica de taller (Park et al. 2025). Trata cualquier relleno asistido por IA como entrada al juicio, no como sustituto de nombrar qué cambió.
-
-## Perspectiva crítica
+## Análisis
+### Perspectiva crítica
 
 TikTok, ASMR, nostalgia, realidad aumentada y otras formas de circulación digital muestran cómo las tendencias de moda contemporáneas se organizan crecientemente en torno al afecto y la experiencia audiovisual (Crepax 2024) — un efecto que "aclara el estado de ánimo" puede también fabricar un mundo más deseable mientras parece meramente técnico.
 
@@ -106,27 +96,124 @@ El retoque en moda y belleza requiere alfabetización técnica más conciencia �
 
 ---
 
-## B1 · Conceptual — magistral 1 h + seminarios 2 h + debates 1 h
+
 
 Cubierto arriba: marco técnico Gonzalez/Curcic, ética McBride, perspectiva crítica, debate y marcadores.
 
 ---
 
-## B2 · Taller — talleres 1 h + investigaciones y proyectos 2 h
+## Masterclass
 
-**Entregable:** un par antes/después que muestre un efecto aplicado deliberadamente, con el "antes" conservado y una línea de divulgación de qué cambió.
+<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/deck-media/684484de753f97f5.webp' | relative_url }}" alt="A fashion sketch design study" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="masterclass-1" %}</figcaption>
+</figure>
 
-**Definición de terminado:** par antes/después guardado; línea de divulgación presente; ID de pieza; carpeta de proceso.
+<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/deck-media/c2c1b5e1ab5b5c82.webp' | relative_url }}" alt="Jun Takahashi dress for Undercover (51492).jpg" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="masterclass-2" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/deck-media/37ef9f5bda8f9a93.webp' | relative_url }}" alt="An exhibition poster composition" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="masterclass-3" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-analysis-model" markdown="0">
+<img src="{{ '/assets/images/deck-media/4e655e0f068fdc07.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in a second exhibition view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="analysis-model" %}</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-cover" markdown="0">
+<img src="{{ '/assets/images/deck-media/8243faeb5945da08.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in an exhibition view" loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="i-4-effects" slide="cover" %}</figcaption>
+</figure>
+
+
+**Afirmación:** el filtrado, la mejora, la transformación del color y la corrección son operaciones bitmap centrales del postprocesado digital — las familias técnicas que nombra esta unidad antes de cualquier menú de filtros de marca (Gonzalez y Woods 2018).
+
+Los currículos contemporáneos de dibujo digital combinan trabajo expresivo con variables de imagen fundamentales — valor, luz, textura y color — en lugar de tratar los efectos como un catálogo autónomo (Curcic 2024). Un efecto aplicado a una imagen es siempre una transformación con un **antes**; el riesgo de oficio es perder la pista de ese antes, no dominar un preset concreto.
+
+**Qué sostiene y qué no.** Gonzalez y Woods (2018) sostienen la explicación técnica de píxeles, canales, filtros y corrección. Curcic (2024) sostiene pedagogía de taller basada en encargos donde los efectos sirven a problemas visuales. McBride et al. (2019) sostienen conciencia ética de imágenes publicitarias manipuladas — adyacente a la divulgación en moda, no una prescripción de política de aula. **Ninguna fuente revisada valida una secuencia de enseñanza de efectos o filtros** para moda en educación superior; la documentación de herramienta fundamenta operaciones — etiqueta `[PLATFORM]`, nunca investigación.
+
+**Ancla de práctica (perspectiva de campo):** edición no destructiva, composición, máscaras y corrección tonal como clases de operación duraderas — separadas de la interfaz de cualquier aplicación.
+
+**Señal de frontera (perspectiva de campo):** los píxeles generativos pueden oscurecer las decisiones visuales y los procesos de oficio en los que tradicionalmente descansa la crítica de taller (Park et al. 2025). Trata cualquier relleno asistido por IA como entrada al juicio, no como sustituto de nombrar qué cambió.
+
+## Lab (Portfolio)
+
+*Bloque de sesión · Una diapositiva geométrica anuncia el Lab: **dos** ejercicios. Todo lo que produzcas en Lab entra en tu **índice de portfolio**. Los Labs practican ideas de Masterclass y alimentan el oficio ACT — no son un segundo canal evaluable de Campus Virtual.*
+
+### Ejercicio 1 — Contact sheet, then one photobash integration {#lab-exercise-1}
+
+Practises Masterclass ideas **1** (keep the before) and **2** (a filter is an argument).
+
+**Time:** 25 minutes.
+
+**Group:** alone for integration; pairs OK for the rights/attribution check on the contact sheet.
+
+**Materials:** ≤12 candidate stills you can attribute; bitmap editor with layers; timer.
+
+**Steps:**
+
+1. Grid candidate stills with attribution lines visible; strike anything you cannot attribute.
+2. Only then enter the photobash canvas.
+3. Cut and layer fragments so seams are intentional; unify light/colour with adjustment layers only (keep originals recoverable).
+4. Check Gestalt grouping: what reads as one figure vs background noise?
+5. Export flat + layered; list three integration decisions.
+
+**Portfolio trace:** attributed contact sheet + flat export + layered file + three integration decisions.
+
+**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (photobash craft gap — no Wave-1 verified primary pedagogy source).
+
+**Example trace:** *(Illustrative · not student work.)* Before/after of one local adjustment with layer named `fx-dodge-cheek`; process note: “Effect is recoverable; flattened export discarded.”
+
+
+### Ejercicio 2 — Before → after strip + disclosure {#lab-exercise-2}
+
+Practises Masterclass ideas **1** (keep the before) and **3** (disclosure is part of craft).
+
+**Time:** 15 minutes.
+
+**Group:** alone.
+
+**Materials:** your photobash or another effects master; timer.
+
+**Steps:**
+
+1. Save a dated before flat at the start of effects work (if you skipped it, restart from a recoverable layer).
+2. Apply one purposeful transformation.
+3. Build a horizontal before|after strip.
+4. Caption the transformation in ≤12 words without hype.
+5. Add one disclosure sentence: what changed, why, and what you refused to do.
+
+**Portfolio trace:** before|after strip + disclosure sentence.
+
+**Judged by:** [Portfolio rubric — authorship and disclosure]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation (effects disclosure craft).
+
+**Example trace:** *(Illustrative · not student work.)* Photobash seam marked; one sentence on light direction mismatch kept visible in the index.
+
+
+**Definition of done:** before/after strip saved; disclosure line present; piece ID; process folder.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-**Evidencia:** Investigaciones y proyectos 20% (par); Cuaderno 10% (divulgación). Sin S1/S2 — ROL DE ARTEFACTO ninguno.
+**Evidence:** Investigaciones y proyectos 20% (pair); Cuaderno 10% (disclosure). No S1/S2 — ARTEFACT ROLE none.
+LAB_LINE: exercise=1; method_id=photobash-integration; practises=masterclass-1,masterclass-2; source=gap/classroom adaptation; ACT=ACT2
+LAB_LINE: exercise=2; method_id=compositing-before-after-strip; practises=masterclass-1,masterclass-3; source=gap/classroom adaptation; ACT=ACT2
 -->
 {% endif %}
 
 ---
 
-## B3 · Resolución de problemas — 1 h · individual, descontextualizada
+## Workshop
+
+Desde la sesión 4: el Workshop es tiempo de estudio protegido para D2 Transposición y D3 evento final (≈ mitad / mitad) — no es reloj de D1 Análisis.
+
 
 1. **Diagnóstico.** Dada una imagen "después" sin "antes" conservado, nombra qué falta para un flujo de efectos honesto.
 2. Escribe a mano la línea de divulgación para un efecto descrito, sin herramienta abierta. **Sin IA — declarado como tal.**
@@ -143,13 +230,25 @@ outcome-graphic-selection:
 
 ---
 
+## Conclusión
+
+Esta unidad deja lagunas nombradas a propósito: lo que el vault puede verificar con página queda en Referencias; lo abierto queda en la Nota editorial. Mantén las trazas de Lab honestas en el índice de portfolio. No inventes un entregable evaluable que How to Pass no pide. La siguiente apuesta es el ritmo de sesión ya nombrado — defensa de Análisis (D1) desde la sesión 3; Workshop desde la sesión 4 para Transposición y el evento final.
+
+---
+
+## Tao de la imagen {#tao-of-the-image}
+
+Epígrafe de la unidad (registro Tao de estudio — no es cita académica):
+
+> _"El offset no es matemática — es empatía. Debes recordar lo que vino antes."_
+
+Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
+
+---
+
 ## Referencias
 
-- Crepax, Rosa. 2024. "Affective Fashion Trends: Aesthetic and Digital Transformations in the Fashion System." *Fashion Theory*. <a href="https://doi.org/10.1080/1362704X.2024.2389595" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/1362704X.2024.2389595</a>.
-- Curcic, Dimitrije. 2024. "Enhancing Digital Drawing Proficiency: An Examination of Assignment Redesign and Instructional Approaches in Higher Education Contexts." *International Journal of Technology in Education and Science* 8 (4). <a href="https://doi.org/10.46328/ijtes.576" target="_blank" rel="noopener noreferrer">https://doi.org/10.46328/ijtes.576</a>.
-- Gonzalez, Rafael C., and Richard E. Woods. 2018. *Digital Image Processing*. 4th ed. New York: Pearson. ISBN 9780133356724.
-- McBride, Caitlin, Nancy Costello, Suman Ambwani, and S. Bryn Austin. 2019. "Digital Manipulation of Images of Models' Appearance in Advertising: Strategies for Action Through Law and Corporate Social Responsibility Incentives to Protect Public Health." *American Journal of Law & Medicine* 45 (2–3): 201–225. <a href="https://doi.org/10.1177/0098858819849990" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/0098858819849990</a>.
-- Park, H., et al. 2025. "Generative AI in Studio-Based Design Education: Human–AI Collaboration, Agency, and Assessment." IASDR 2025.
+{% include references.html %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -181,22 +280,11 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) escribió esta lección en el
-entorno de estudio crea-comm.net — un harness agentic local con recuperación
-vía MCP, contexto RAG del vault curricular y un modelo de voz académica
-afinado sobre su propia escritura. La forja consultó **5** fuentes del vault;
-cada `(Autor, Año)` público se comprobó contra ese vault antes de aceptarlo.
-Prompts, borradores del modelo y enmiendas humanas se archivan para evaluación
-posterior. El juicio editorial y la responsabilidad del texto final permanecen
-en el autor.
-
-Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
-
-*Fecha de forja: 2026-09-22 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1 · prompt-v2.1*
-
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: 91dab705-35c9-48e8-ae51-c0c9cd9f705a
+<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
+      lesson_uuid: 91dab705-35c9-48e8-ae51-c0c9cd9f705a
      vault_refs_consulted: 5
      forge_pass: editorial-ai-footer-law-2026-09-22
 -->
