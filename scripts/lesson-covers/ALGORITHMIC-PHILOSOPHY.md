@@ -26,11 +26,11 @@ critical judgment. Every apparent variation comes from a fixed seed and a small,
 inspectable parameter set—the result of a carefully tuned, master-level rule system
 rather than an opaque image-synthesis prompt.
 
-The semantic graphics follow a fit-first text rule. A hexagon may contain a short
-label only when the line count and estimated width stay inside the cell's safe
-area. When a master idea or field lens exceeds that space, the text moves to a
-readable callout above or below the hexagon instead of being compressed, clipped,
-or allowed to overflow.
+Semantic moments use **concept-network graphs** (I.1 regimes lineage): labelled
+nodes, cubic edges, and a footer claim that names the unit's relation. Node
+titles stay short; subtitles carry the question students should rehearse. The
+hexagonal Hexaform field remains the lesson *cover*; the semantic graphic is the
+conceptual map at the opening of the page.
 
 Hexaform's visual impact is therefore a threshold, not a verdict. It opens a lesson
 with a question: what relation is this unit asking the student to notice, test, or

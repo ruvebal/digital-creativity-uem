@@ -11,7 +11,7 @@ description: 'An effect is a transformation with a before — filtering and comp
 status: scaffold
 tags: [digital-creativity-i, effects, filters, disclosure]
 deck_url: /tracks/dci/i-4-effects/
-references: []
+references: [shinkle-2008, roivainen-2025, aldahoul-2025]
 ---
 
 <!-- prettier-ignore-start -->
@@ -48,10 +48,10 @@ references: []
 
 ## Learning objectives
 
-- **Name filtering, enhancement, colour transformation, and correction** as core bitmap operations behind digital post-processing (Gonzalez and Woods 2018).
-- **Treat effects as embedded in visual problems**, not an autonomous filter catalogue (Curcic 2024).
+- **Name filtering, enhancement, colour transformation, and correction** as core bitmap operation *families* behind digital post-processing — tool docs may illustrate menus; they are not research.
+- **Treat effects as embedded in visual problems**, not an autonomous filter catalogue (studio craft rule for this unit).
 - **Produce a before/after pair** with the "before" kept and a one-line disclosure of what changed.
-- **Connect post-processing to critical reading** of retouched fashion, beauty, and advertising imagery (McBride et al. 2019).
+- **Connect post-processing to critical reading** of fashion and platform imagery, including how edited faces circulate stereotypes ([AlDahoul et al. 2025](#ref-aldahoul-2025)).
 - **Distinguish "effect" (disclosed stylisation) from "manipulation" (undisclosed deception).**
 
 ---
@@ -59,17 +59,17 @@ references: []
 ## Analysis
 ### Critical perspective
 
-Recent fashion-design research frames generative systems as collaborators in
-ideation and prototyping, but also calls for checks on bias, appropriation, and
-environmental cost (Rizzi and Bertola 2025). A decolonial digital-fashion
-archive route, including cases connecting Bogotá and Spain, makes the stakes
-of reconstruction visible: an effect may reactivate a history or flatten it
-(Rodriguez Schon and Valle-Noronha 2025). These are critical routes, not a
-mandate to use a particular tool.
+An effect never floats free of the image's field of practices — who made it,
+where it acts, and who reads it ([Shinkle 2008](#ref-shinkle-2008)). Platform
+editing cultures train a *skilled vision*: creators learn which transformations
+count as competent taste ([Roivainen 2025](#ref-roivainen-2025)). That skill
+can also naturalise homogenising face and body codes when generative or heavily
+retouched imagery circulates without disclosure ([AlDahoul et al. 2025](#ref-aldahoul-2025)).
 
-TikTok, ASMR, nostalgia, augmented reality, and other forms of digital circulation show how contemporary fashion trends are increasingly organised around affect and audiovisual experience (Crepax 2024) — an effect that "clarifies mood" may also be manufacturing a more desirable world while appearing merely technical.
-
-Fashion and beauty retouching require technical literacy plus ethical awareness of manipulated advertising images (McBride et al. 2019). At what point does transformation become a claim about a person, garment, or reality rather than a visual treatment — and who has authority to decide that threshold?
+An effect that "clarifies mood" may therefore also manufacture a more desirable
+world while appearing merely technical. At what point does transformation become
+a claim about a person, garment, or reality rather than a visual treatment — and
+who has authority to decide that threshold?
 
 ### The debate prompt
 
@@ -106,7 +106,7 @@ Fashion and beauty retouching require technical literacy plus ethical awareness 
 
 
 
-Covered above: Gonzalez/Curcic technical framing, McBride ethics, critical lens, debate, and placeholders.
+Covered above: Shinkle / Roivainen / AlDahoul framing, disclosure craft, debate, and placeholders.
 
 ---
 
@@ -138,15 +138,13 @@ Covered above: Gonzalez/Curcic technical framing, McBride ethics, critical lens,
 </figure>
 
 
-**Claim:** filtering, enhancement, colour transformation, and correction are core bitmap operations behind digital post-processing — the technical families this unit names before any brand-specific filter menu (Gonzalez and Woods 2018).
+**Claim:** filtering, enhancement, colour transformation, and correction are core bitmap *operation families* behind digital post-processing — named before any brand-specific filter menu. An effect applied to an image is always a transformation with a **before**; the craft risk is losing track of that before, not mastering any single preset.
 
-Contemporary digital-drawing curricula combine expressive work with foundational image variables including value, lighting, texture, and colour, rather than treating effects as an autonomous catalogue (Curcic 2024). An effect applied to an image is always a transformation with a **before**; the craft risk is losing track of that before, not mastering any single preset.
-
-**What this supports, and what it does not.** Gonzalez and Woods (2018) support explaining pixels, channels, filters, and correction at a technical level. Curcic (2024) supports assignment-driven studio pedagogy where effects serve visual problems. McBride et al. (2019) support ethical awareness of manipulated advertising images — adjacent to fashion disclosure, not a classroom policy prescription. **No reviewed source validates an effects/filter teaching sequence** for fashion HE; tool docs ground operations only — label `[PLATFORM]`, never research.
+**What this supports, and what it does not.** [Shinkle 2008](#ref-shinkle-2008) supports situating effects inside fashion-image practices rather than as neutral pixels. [Roivainen 2025](#ref-roivainen-2025) supports reading editing as skilled, teachable vision on platforms. [AlDahoul et al. 2025](#ref-aldahoul-2025) support critical awareness of how generated or homogenised faces circulate stereotypes. **No page-verified source in this vault validates an effects/filter teaching sequence** for fashion HE; textbook filter catalogues and platform UI docs remain `[BIBLIO-GAP]` / `[PLATFORM]` — never presented as research.
 
 **Practice anchor (field lens):** non-destructive editing, compositing, masking, and tonal correction as durable operation classes — separate from any one application's UI.
 
-**Frontier signal (field lens):** generative pixels may obscure the visual decisions and craft processes on which studio critique traditionally depends (Park et al. 2025). Treat any AI-assisted fill as input to judgement, not a substitute for naming what changed.
+**Frontier signal (field lens):** generative pixels may obscure the visual decisions on which studio critique depends. Treat any AI-assisted fill as input to judgement, not a substitute for naming what changed.
 
 ## Lab (Portfolio)
 
@@ -280,7 +278,7 @@ MEDIA_RIGHTS_LINE: slot=I.4.graphic.layer-stack; status=PENDING; licence=none; c
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-**Declared gap — stated plainly.** No reviewed source validates a fashion-HE **effects/filter teaching sequence**. Gonzalez and Curcic support technical and studio framing; McBride supports ethical reading of retouched imagery; they do not prove this classroom workflow teaches better than an alternative.
+**Declared gap — stated plainly.** No page-verified source in this vault validates a fashion-HE **effects/filter teaching sequence**. Gonzalez and Woods (textbook operations), Curcic (assignment pedagogy), McBride (advertising retouch ethics), Crepax / Park / Rizzi (platform affect and GenAI studio critique) remain procurement gaps — useful names for the Editorial note, not student References until Ahmes-verified.
 
 This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 

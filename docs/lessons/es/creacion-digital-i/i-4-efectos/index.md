@@ -11,7 +11,7 @@ description: 'Un efecto es una transformación con un antes — operaciones de f
 status: scaffold
 tags: [creacion-digital-i, efectos, filtros, divulgacion]
 deck_url: /tracks/dci/i-4-effects/
-references: []
+references: [shinkle-2008, roivainen-2025, aldahoul-2025]
 ---
 
 <!-- prettier-ignore-start -->

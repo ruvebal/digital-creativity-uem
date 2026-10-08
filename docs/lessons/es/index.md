@@ -12,7 +12,7 @@ description: 'Índice de lecciones en español para Creación Digital I–II, Nu
 
   <ul class="hc-track-list">
     <li>
-      <a href="{{ '/tracks/es/creacion-digital-i/' | relative_url }}">
+      <a href="{{ '/lessons/es/creacion-digital-i/' | relative_url }}">
         <strong>Creación Digital I</strong>
         <span>S1 · 6 ECTS — imagen digital hasta volumen y bodegón</span>
       </a>

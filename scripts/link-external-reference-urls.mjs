@@ -13,7 +13,10 @@ import { join, resolve } from 'node:path';
 const siteRoot = resolve(process.cwd(), '_site');
 const EXTERNAL_ATTRS = 'target="_blank" rel="noopener noreferrer"';
 const LINK_CLASS = 'external-ref-link';
-const URL_RE = /https?:\/\/[^\s<>"']+/g;
+// Stop at whitespace, markup delimiters, quotes, AND \u0000 tag placeholders
+// (tags are stashed as \u0000N\u0000 before bare-URL linking; matching through
+// the placeholder used to swallow restored </li> into the href).
+const URL_RE = /https?:\/\/[^\s<>"'\u0000]+/g;
 const TRAILING_PUNCT_RE = /[.,;:!?)\]]+$/;
 
 function filesUnder(directory) {
@@ -28,6 +31,31 @@ function splitTrailingPunctuation(url) {
 	const match = url.match(TRAILING_PUNCT_RE);
 	if (!match) return { href: url, trailing: '' };
 	return { href: url.slice(0, -match[0].length), trailing: match[0] };
+}
+
+/**
+ * Heal anchors whose href/text swallowed a restored tag placeholder
+ * (e.g. href="https://doi.org/….</li>"). Must not use [^>]* attribute
+ * parsers — the embedded </li> contains `>`, which breaks those.
+ */
+function sanitizeBrokenExternalHrefs(html) {
+	// href="https://….</li>" → href="https://…"
+	let next = html.replace(
+		/\bhref=(["'])(https?:\/\/[^"'<>]+)\.?(<\/[a-zA-Z][\w:-]*>)\1/gi,
+		(_m, quote, url, _tag) => {
+			const { href } = splitTrailingPunctuation(url);
+			return `href=${quote}${href}${quote}`;
+		},
+	);
+	// >https://….</li></a> → >https://…</a>.</li>
+	next = next.replace(
+		/(>)(https?:\/\/[^<]+?)(\.?)(<\/[a-zA-Z][\w:-]*>)(<\/a>)/gi,
+		(_m, gt, url, punct, tag, close) => {
+			const { href, trailing } = splitTrailingPunctuation(url);
+			return `${gt}${href}${close}${trailing || punct}${tag}`;
+		},
+	);
+	return next;
 }
 
 /**
@@ -83,7 +111,8 @@ function ensureExternalAnchorTargets(html) {
 
 function processFile(path) {
 	const before = readFileSync(path, 'utf8');
-	let after = linkBareUrls(before);
+	let after = sanitizeBrokenExternalHrefs(before);
+	after = linkBareUrls(after);
 	after = ensureExternalAnchorTargets(after);
 	if (after === before) return false;
 	writeFileSync(path, after, 'utf8');

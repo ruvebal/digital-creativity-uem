@@ -353,60 +353,343 @@ function renderCover(id, cover) {
 </svg>`;
 }
 
+/**
+ * Concept-network semantic graphs (I.1 regimes style): labelled nodes +
+ * cubic edges + footer claim. Prefer cover.semantic_graph; else CONCEPT_GRAPHS[id].
+ */
+const CONCEPT_GRAPHS = {
+	'i-1-imagenes-digitales': {
+		title: 'Digital fashion image regimes',
+		footer: 'circulation changes the art / commerce boundary',
+		alt: 'Semantic graph connecting practice, venue, audience, circulation, and the changing boundary between art and commerce.',
+		nodes: [
+			{ id: 'practice', label: 'PRACTICE', sub: 'who makes it?', x: 330, y: 310, r: 126, colour: 'accent' },
+			{ id: 'image', label: 'IMAGE', sub: 'what is made visible?', x: 760, y: 310, r: 142, colour: 'accent2' },
+			{ id: 'venue', label: 'VENUE', sub: 'where does it act?', x: 1270, y: 230, r: 112, colour: 'accent3' },
+			{ id: 'audience', label: 'AUDIENCE', sub: 'who reads it?', x: 1270, y: 390, r: 112, colour: 'accent3' },
+		],
+		edges: [
+			['practice', 'image', 'up'],
+			['image', 'venue', 'up'],
+			['image', 'audience', 'down'],
+			['practice', 'image', 'down'],
+		],
+	},
+	'i-2-dibujo-2d': {
+		title: 'Drawing as externalised thought',
+		footer: 'anchors and curves hold decisions the hand made visible',
+		alt: 'Semantic graph linking intention, mark, curve construction, critique, and revision in digital drawing.',
+		nodes: [
+			{ id: 'intent', label: 'INTENT', sub: 'what must be seen?', x: 280, y: 300, r: 118, colour: 'accent' },
+			{ id: 'mark', label: 'MARK', sub: 'line as thought', x: 620, y: 220, r: 110, colour: 'accent2' },
+			{ id: 'curve', label: 'CURVE', sub: 'anchors · handles', x: 980, y: 220, r: 118, colour: 'accent3' },
+			{ id: 'critique', label: 'CRITIQUE', sub: 'what fails?', x: 620, y: 420, r: 110, colour: 'accent2' },
+			{ id: 'revise', label: 'REVISE', sub: 'rebuild the path', x: 980, y: 420, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['intent', 'mark', 'up'],
+			['mark', 'curve', 'flat'],
+			['curve', 'critique', 'down'],
+			['critique', 'revise', 'flat'],
+			['revise', 'intent', 'up'],
+		],
+	},
+	'i-3-color-bitmaps': {
+		title: 'Colour as relation in time',
+		footer: 'mode · gamut · display — each choice closes later options',
+		alt: 'Semantic graph connecting sample, palette relation, display context, export, and accessibility check.',
+		nodes: [
+			{ id: 'sample', label: 'SAMPLE', sub: 'pixel as decision', x: 260, y: 310, r: 118, colour: 'accent' },
+			{ id: 'relation', label: 'RELATION', sub: 'hue against hue', x: 580, y: 220, r: 126, colour: 'accent2' },
+			{ id: 'display', label: 'DISPLAY', sub: 'where it will be seen', x: 940, y: 220, r: 118, colour: 'accent3' },
+			{ id: 'export', label: 'EXPORT', sub: 'mode · depth · gamut', x: 580, y: 420, r: 118, colour: 'accent3' },
+			{ id: 'access', label: 'ACCESS', sub: 'alternate palette', x: 940, y: 420, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['sample', 'relation', 'up'],
+			['relation', 'display', 'flat'],
+			['sample', 'export', 'down'],
+			['export', 'access', 'flat'],
+			['display', 'access', 'down'],
+		],
+	},
+	'i-4-efectos': {
+		title: 'Effect as traceable transformation',
+		footer: 'keep the before · name the change · refuse silent deception',
+		alt: 'Semantic graph linking source, transform, disclosure, before/after evidence, and the effect vs manipulation threshold.',
+		nodes: [
+			{ id: 'source', label: 'SOURCE', sub: 'recoverable before', x: 260, y: 310, r: 120, colour: 'accent' },
+			{ id: 'transform', label: 'TRANSFORM', sub: 'mask · tone · composite', x: 620, y: 230, r: 128, colour: 'accent2' },
+			{ id: 'disclose', label: 'DISCLOSE', sub: 'what changed, why', x: 1000, y: 230, r: 118, colour: 'accent3' },
+			{ id: 'trace', label: 'TRACE', sub: 'before | after', x: 620, y: 420, r: 110, colour: 'accent3' },
+			{ id: 'threshold', label: 'THRESHOLD', sub: 'effect ≠ deception', x: 1000, y: 420, r: 128, colour: 'accent' },
+		],
+		edges: [
+			['source', 'transform', 'up'],
+			['transform', 'disclose', 'flat'],
+			['source', 'trace', 'down'],
+			['trace', 'threshold', 'flat'],
+			['disclose', 'threshold', 'down'],
+		],
+	},
+	'i-5-forma-tridimensional': {
+		title: 'Spatial literacy before volume',
+		footer: 'orthographic honesty before seductive perspective',
+		alt: 'Semantic graph from 2D literacy through axis, silhouette, orthographic views, to blockout volume.',
+		nodes: [
+			{ id: 'literacy', label: '2D LITERACY', sub: 'line that holds space', x: 280, y: 300, r: 122, colour: 'accent' },
+			{ id: 'axis', label: 'AXIS', sub: 'up · depth · width', x: 620, y: 220, r: 110, colour: 'accent2' },
+			{ id: 'silhouette', label: 'SILHOUETTE', sub: 'outer readable form', x: 980, y: 220, r: 118, colour: 'accent3' },
+			{ id: 'views', label: 'VIEWS', sub: 'front · side · top', x: 620, y: 420, r: 118, colour: 'accent3' },
+			{ id: 'blockout', label: 'BLOCKOUT', sub: 'volume as mass', x: 980, y: 420, r: 122, colour: 'accent' },
+		],
+		edges: [
+			['literacy', 'axis', 'up'],
+			['axis', 'silhouette', 'flat'],
+			['literacy', 'views', 'down'],
+			['views', 'blockout', 'flat'],
+			['silhouette', 'blockout', 'down'],
+		],
+	},
+	'i-6-volumen': {
+		title: 'Volume across media',
+		footer: 'neither physical nor digital is final alone',
+		alt: 'Semantic graph cycling physical mock-up, capture, digital volume, and material critique.',
+		nodes: [
+			{ id: 'physical', label: 'PHYSICAL', sub: 'mock-up · drape', x: 300, y: 300, r: 122, colour: 'accent' },
+			{ id: 'capture', label: 'CAPTURE', sub: 'what the camera keeps', x: 700, y: 220, r: 118, colour: 'accent2' },
+			{ id: 'digital', label: 'DIGITAL', sub: 'editable volume', x: 1100, y: 300, r: 128, colour: 'accent3' },
+			{ id: 'critique', label: 'CRITIQUE', sub: 'fit · behaviour · time', x: 700, y: 420, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['physical', 'capture', 'up'],
+			['capture', 'digital', 'up'],
+			['digital', 'critique', 'down'],
+			['critique', 'physical', 'down'],
+		],
+	},
+	'i-7-referencias-moda': {
+		title: 'Reference as situated lineage',
+		footer: 'credit the source · transform without erasing politics',
+		alt: 'Semantic graph from search surface through selection, provenance, transformation, and credited composition.',
+		nodes: [
+			{ id: 'search', label: 'SEARCH', sub: 'what surfaces first?', x: 260, y: 300, r: 118, colour: 'accent' },
+			{ id: 'select', label: 'SELECT', sub: 'why this fragment?', x: 580, y: 220, r: 110, colour: 'accent2' },
+			{ id: 'provenance', label: 'PROVENANCE', sub: 'who · when · where', x: 940, y: 220, r: 122, colour: 'accent3' },
+			{ id: 'transform', label: 'TRANSFORM', sub: 'recontextualise', x: 580, y: 420, r: 118, colour: 'accent3' },
+			{ id: 'credit', label: 'CREDIT', sub: 'composition + cite', x: 940, y: 420, r: 122, colour: 'accent' },
+		],
+		edges: [
+			['search', 'select', 'up'],
+			['select', 'provenance', 'flat'],
+			['select', 'transform', 'down'],
+			['transform', 'credit', 'flat'],
+			['provenance', 'credit', 'down'],
+		],
+	},
+	'i-8-animacion': {
+		title: 'Motion as chosen time',
+		footer: 'which stills survive decides what the loop says',
+		alt: 'Semantic graph of setup, anticipation, action, settle, and readable loop.',
+		nodes: [
+			{ id: 'setup', label: 'SETUP', sub: 'pose zero', x: 220, y: 310, r: 108, colour: 'accent' },
+			{ id: 'anticipation', label: 'ANTICIPATE', sub: 'prepare the eye', x: 480, y: 230, r: 112, colour: 'accent2' },
+			{ id: 'action', label: 'ACTION', sub: 'the readable beat', x: 800, y: 230, r: 122, colour: 'accent3' },
+			{ id: 'settle', label: 'SETTLE', sub: 'release energy', x: 1120, y: 230, r: 112, colour: 'accent2' },
+			{ id: 'loop', label: 'LOOP', sub: 'still frames kept', x: 800, y: 420, r: 128, colour: 'accent' },
+		],
+		edges: [
+			['setup', 'anticipation', 'up'],
+			['anticipation', 'action', 'flat'],
+			['action', 'settle', 'flat'],
+			['settle', 'loop', 'down'],
+			['loop', 'setup', 'down'],
+		],
+	},
+	'i-9-bodegones': {
+		title: 'Still life as material attention',
+		footer: 'object · light · frame · viewer — one balanced field',
+		alt: 'Semantic graph balancing object, light, frame, and viewer in a digital still life.',
+		nodes: [
+			{ id: 'object', label: 'OBJECT', sub: 'matter in place', x: 300, y: 300, r: 122, colour: 'accent' },
+			{ id: 'light', label: 'LIGHT', sub: 'reveals surface', x: 700, y: 220, r: 118, colour: 'accent2' },
+			{ id: 'frame', label: 'FRAME', sub: 'what is cut', x: 1100, y: 300, r: 122, colour: 'accent3' },
+			{ id: 'viewer', label: 'VIEWER', sub: 'where attention rests', x: 700, y: 420, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['object', 'light', 'up'],
+			['light', 'frame', 'up'],
+			['frame', 'viewer', 'down'],
+			['viewer', 'object', 'down'],
+		],
+	},
+	'ii-1-retoque-moda': {
+		title: 'Retouch as accountable authorship',
+		footer: 'before · after · audit — undisclosed distortion stays outside',
+		alt: 'Semantic graph of before state, edit decision, audit trail, after state, and refusal.',
+		nodes: [
+			{ id: 'before', label: 'BEFORE', sub: 'recoverable original', x: 280, y: 300, r: 118, colour: 'accent' },
+			{ id: 'edit', label: 'EDIT', sub: 'named intervention', x: 620, y: 220, r: 118, colour: 'accent2' },
+			{ id: 'audit', label: 'AUDIT', sub: 'what / why / refuse', x: 980, y: 220, r: 122, colour: 'accent3' },
+			{ id: 'after', label: 'AFTER', sub: 'published plane', x: 620, y: 420, r: 118, colour: 'accent3' },
+			{ id: 'refuse', label: 'REFUSE', sub: 'out of bounds', x: 980, y: 420, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['before', 'edit', 'up'],
+			['edit', 'audit', 'flat'],
+			['before', 'after', 'down'],
+			['audit', 'after', 'down'],
+			['audit', 'refuse', 'flat'],
+		],
+	},
+	'ii-2-avatares': {
+		title: 'Avatar as identity system',
+		footer: 'defaults are politics — parameters must be chosen, not absorbed',
+		alt: 'Semantic graph of identity, body parameters, pose, garment, camera, and provenance.',
+		nodes: [
+			{ id: 'identity', label: 'IDENTITY', sub: 'who is claimed?', x: 280, y: 280, r: 118, colour: 'accent' },
+			{ id: 'body', label: 'BODY PARAMS', sub: 'defaults vs choice', x: 620, y: 200, r: 118, colour: 'accent2' },
+			{ id: 'pose', label: 'POSE', sub: 'stance · gaze', x: 980, y: 200, r: 110, colour: 'accent3' },
+			{ id: 'garment', label: 'GARMENT', sub: 'worn system', x: 620, y: 400, r: 118, colour: 'accent3' },
+			{ id: 'camera', label: 'CAMERA', sub: 'framing power', x: 980, y: 400, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['identity', 'body', 'up'],
+			['body', 'pose', 'flat'],
+			['identity', 'garment', 'down'],
+			['garment', 'camera', 'flat'],
+			['pose', 'camera', 'down'],
+		],
+	},
+	'ii-3-experiencias-digitales': {
+		title: 'Experience as audience journey',
+		footer: 'enter · orient · inspect · reflect · exit',
+		alt: 'Semantic graph of a staged digital fashion experience journey for an audience.',
+		nodes: [
+			{ id: 'enter', label: 'ENTER', sub: 'threshold', x: 220, y: 310, r: 108, colour: 'accent' },
+			{ id: 'orient', label: 'ORIENT', sub: 'where am I?', x: 500, y: 230, r: 112, colour: 'accent2' },
+			{ id: 'inspect', label: 'INSPECT', sub: 'close looking', x: 800, y: 230, r: 118, colour: 'accent3' },
+			{ id: 'reflect', label: 'REFLECT', sub: 'what changed?', x: 1100, y: 230, r: 112, colour: 'accent2' },
+			{ id: 'exit', label: 'EXIT', sub: 'leave with a trace', x: 800, y: 420, r: 122, colour: 'accent' },
+		],
+		edges: [
+			['enter', 'orient', 'up'],
+			['orient', 'inspect', 'flat'],
+			['inspect', 'reflect', 'flat'],
+			['reflect', 'exit', 'down'],
+			['exit', 'enter', 'down'],
+		],
+	},
+	'ii-4-video': {
+		title: 'Fashion video as narrative system',
+		footer: 'shot · cut · pace · brand claim — sequence is authorship',
+		alt: 'Semantic graph of shot, cut, pace, brand narrative, and accessibility.',
+		nodes: [
+			{ id: 'shot', label: 'SHOT', sub: 'framed instant', x: 260, y: 300, r: 118, colour: 'accent' },
+			{ id: 'cut', label: 'CUT', sub: 'join with meaning', x: 580, y: 220, r: 110, colour: 'accent2' },
+			{ id: 'pace', label: 'PACE', sub: 'time felt', x: 940, y: 220, r: 118, colour: 'accent3' },
+			{ id: 'brand', label: 'NARRATIVE', sub: 'brand claim', x: 580, y: 420, r: 118, colour: 'accent3' },
+			{ id: 'access', label: 'ACCESS', sub: 'caption · consent', x: 940, y: 420, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['shot', 'cut', 'up'],
+			['cut', 'pace', 'flat'],
+			['shot', 'brand', 'down'],
+			['brand', 'access', 'flat'],
+			['pace', 'access', 'down'],
+		],
+	},
+	'ii-5-web-portfolio': {
+		title: 'Portfolio as evidence architecture',
+		footer: 'home · case · process · authorship declaration',
+		alt: 'Semantic graph of portfolio home, case study, process evidence, and authorship declaration.',
+		nodes: [
+			{ id: 'home', label: 'HOME', sub: 'entry claim', x: 280, y: 300, r: 118, colour: 'accent' },
+			{ id: 'case', label: 'CASE', sub: 'one problem solved', x: 640, y: 220, r: 122, colour: 'accent2' },
+			{ id: 'process', label: 'PROCESS', sub: 'traces kept', x: 1020, y: 220, r: 118, colour: 'accent3' },
+			{ id: 'author', label: 'AUTHORSHIP', sub: 'AI · credit · rights', x: 820, y: 420, r: 128, colour: 'accent' },
+		],
+		edges: [
+			['home', 'case', 'up'],
+			['case', 'process', 'flat'],
+			['process', 'author', 'down'],
+			['home', 'author', 'down'],
+		],
+	},
+	'ii-6-hologramas-ra': {
+		title: 'AR / hologram as situated overlay',
+		footer: 'pilot scope · place · body · refuse VTON as teaching product',
+		alt: 'Semantic graph of place, overlay, body relation, pilot limit, and refusal of try-on product scope.',
+		nodes: [
+			{ id: 'place', label: 'PLACE', sub: 'where it appears', x: 280, y: 300, r: 118, colour: 'accent' },
+			{ id: 'overlay', label: 'OVERLAY', sub: 'digital on real', x: 640, y: 220, r: 122, colour: 'accent2' },
+			{ id: 'body', label: 'BODY REL', sub: 'proximity · consent', x: 1020, y: 220, r: 118, colour: 'accent3' },
+			{ id: 'pilot', label: 'PILOT', sub: 'bounded experiment', x: 640, y: 420, r: 118, colour: 'accent3' },
+			{ id: 'refuse', label: 'REFUSE', sub: 'no VTON product', x: 1020, y: 420, r: 118, colour: 'accent' },
+		],
+		edges: [
+			['place', 'overlay', 'up'],
+			['overlay', 'body', 'flat'],
+			['place', 'pilot', 'down'],
+			['pilot', 'refuse', 'flat'],
+			['body', 'refuse', 'down'],
+		],
+	},
+};
+
+function colourOf(palette, token) {
+	if (token === 'accent2') return palette.accent2;
+	if (token === 'accent3') return palette.accent3;
+	if (token === 'ink') return palette.ink;
+	return palette.accent;
+}
+
+function cubicEdge(a, b, via, stroke) {
+	const midX = (a.x + b.x) / 2;
+	const lift = via === 'up' ? -140 : via === 'down' ? 140 : 0;
+	const c1y = a.y + lift;
+	const c2y = b.y + lift;
+	return `<path d="M${a.x} ${a.y} C${midX} ${c1y} ${midX} ${c2y} ${b.x} ${b.y}" fill="none" stroke="${stroke}" stroke-width="4" stroke-opacity=".55"/>`;
+}
+
+function renderConceptNode(node, palette) {
+	const fill = colourOf(palette, node.colour);
+	const labelSize = node.label.length > 10 ? 22 : node.label.length > 7 ? 26 : 28;
+	return `<g transform="translate(${node.x} ${node.y})">
+    <circle r="${node.r}" fill="${fill}" fill-opacity=".2" stroke="${fill}" stroke-width="4"/>
+    <text y="-16" text-anchor="middle" fill="${palette.ink}" font-family="Inter,Arial,sans-serif" font-size="${labelSize}" font-weight="700">${escapeXml(node.label)}</text>
+    <text y="22" text-anchor="middle" fill="${palette.ink}" font-family="Inter,Arial,sans-serif" font-size="19">${escapeXml(node.sub)}</text>
+  </g>`;
+}
+
 function renderSemanticGraphic(id, cover) {
 	const palette = palettes[cover.family];
 	if (!palette) throw new Error(`Unknown cover family "${cover.family}" for ${id}`);
 
-	const [frequency, drift, pulse] = modeProfile[cover.mode] || modeProfile.lattice;
-	const random = randomFactory(hash32(`semantic-${cover.seed}-${id}-${cover.mode}`));
-	const width = 1600;
-	const height = 560;
-	const centreY = height / 2;
-	const lens = cover.field_lens || fieldLensByMode[cover.mode] || 'Field lens';
-	const idea = cover.master_idea || 'Master idea';
-	const alt = cover.semantic_alt_en || `Semantic hexagonal diagram linking the master idea "${idea}" with the field lens "${lens}".`;
-	const nodes = [];
-	const connectors = [];
-	const labels = [
-		{ key: 'MASTER IDEA', value: idea, x: 420, y: centreY, size: 118, colour: palette.accent },
-		{ key: 'FIELD LENS', value: lens, x: 1180, y: centreY, size: 118, colour: palette.accent2 },
-		{ key: cover.mode.toUpperCase(), value: 'studio decision', x: 800, y: 160, size: 72, colour: palette.accent3 },
-		{ key: 'EVIDENCE', value: 'process trace', x: 800, y: 400, size: 72, colour: palette.ink },
-	];
-
-	for (let index = 0; index < 18; index += 1) {
-		const t = index / 17;
-		const x = 430 + t * 740 + Math.sin(index * frequency) * 32;
-		const y = centreY + Math.sin(index * drift * 3.8 + cover.seed * 0.01) * (82 + pulse * 32);
-		const opacity = (0.1 + t * (1 - t) * 0.32).toFixed(3);
-		const colour = index % 3 === 0 ? palette.accent3 : index % 2 === 0 ? palette.accent2 : palette.accent;
-		connectors.push(`<line x1="${x.toFixed(2)}" y1="${y.toFixed(2)}" x2="${(x + 38).toFixed(2)}" y2="${(centreY + (random() - 0.5) * 160).toFixed(2)}" stroke="${colour}" stroke-opacity="${opacity}" stroke-width="2"/>`);
-		nodes.push(
-			hex(x, y, 10 + random() * 16, {
-				fill: colour,
-				'fill-opacity': (0.18 + random() * 0.32).toFixed(3),
-				stroke: colour,
-				'stroke-opacity': '0.55',
-				'stroke-width': '1.1',
-			}),
-		);
+	const graph = cover.semantic_graph || CONCEPT_GRAPHS[id];
+	if (!graph) {
+		throw new Error(`No concept graph for ${id} — add CONCEPT_GRAPHS entry or cover.semantic_graph`);
 	}
 
-	const labelGroups = labels.map((label) => {
-		const labelFill = label.key === 'EVIDENCE' ? palette.paper : palette.ink;
-		const valueSize = label.value.length > 46 ? 22 : label.value.length > 32 ? 25 : 30;
-		const lines = wrapWords(label.value, label.key === 'MASTER IDEA' ? 24 : 20);
-		const valueText = semanticValueText(label, lines, valueSize, labelFill, palette);
-		return `<g transform="translate(${label.x} ${label.y})">
-    ${hex(0, 0, label.size, { fill: label.colour, 'fill-opacity': label.key === 'EVIDENCE' ? '0.88' : '0.24', stroke: label.colour, 'stroke-opacity': '0.9', 'stroke-width': '2.4' })}
-    <text x="0" y="-20" text-anchor="middle" fill="${labelFill}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="500" letter-spacing="2" opacity="0.88">${escapeXml(label.key)}</text>
-    ${valueText}
-  </g>`;
-	});
+	const width = 1600;
+	const height = 620;
+	const byId = Object.fromEntries(graph.nodes.map((n) => [n.id, n]));
+	const edges = (graph.edges || [])
+		.map(([from, to, via]) => {
+			const a = byId[from];
+			const b = byId[to];
+			if (!a || !b) return '';
+			return cubicEdge(a, b, via || 'flat', colourOf(palette, 'accent3'));
+		})
+		.join('');
+	const nodes = graph.nodes.map((n) => renderConceptNode(n, palette)).join('');
+	const alt = cover.semantic_alt_en || graph.alt || `Semantic graph for ${cover.master_idea}`;
+	const title = graph.title || `${cover.course} · ${cover.master_idea}`;
+	const footer = graph.footer || cover.master_idea;
 
 	return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title-${id}-semantic desc-${id}-semantic">
-  <title id="title-${id}-semantic">${escapeXml(cover.course)} · semantic graphic</title>
+  <title id="title-${id}-semantic">${escapeXml(title)}</title>
   <desc id="desc-${id}-semantic">${escapeXml(alt)}</desc>
   <defs>
     <linearGradient id="semantic-ground-${id}" x1="0" y1="0" x2="1" y2="1">
@@ -414,10 +697,11 @@ function renderSemanticGraphic(id, cover) {
       <stop offset="1" stop-color="#070A11"/>
     </linearGradient>
   </defs>
-  <rect width="${width}" height="${height}" fill="url(#semantic-ground-${id})"/>
-  <g aria-hidden="true">${connectors.join('')}</g>
-  <g aria-hidden="true">${nodes.join('')}</g>
-  ${labelGroups.join('\n  ')}
+  <rect width="${width}" height="${height}" rx="34" fill="url(#semantic-ground-${id})"/>
+  <g fill="none">${edges}</g>
+  <g font-family="Inter,Arial,sans-serif">${nodes}
+    <text x="800" y="575" text-anchor="middle" fill="${palette.accent}" font-size="24">${escapeXml(footer)}</text>
+  </g>
 </svg>`;
 }
 
@@ -707,9 +991,10 @@ function renderOutcomeGraphic(id, cover) {
 }
 
 function assertSemanticTextWeights(svg, asset) {
+	// 400/500 = body; 700 = concept-node titles (regimes-graph lineage)
 	const invalid = [...svg.matchAll(/font-weight=\"(\d+)\"/g)]
 		.map((match) => Number(match[1]))
-		.filter((weight) => weight !== 400 && weight !== 500);
+		.filter((weight) => weight !== 400 && weight !== 500 && weight !== 700);
 	if (invalid.length) throw new Error('Semantic graphic ' + asset + ' uses invalid text weights: ' + invalid.join(', '));
 }
 
@@ -746,11 +1031,17 @@ for (const [id, cover] of Object.entries(covers)) {
 	if (converted.status !== 0) {
 		throw new Error(`PNG export failed for ${cover.asset}: ${converted.stderr || converted.error || 'unknown error'}`);
 	}
-	const semanticConverted = spawnSync('rsvg-convert', ['--width', '1600', '--height', '560', '--output', semanticPngPath, semanticSvgPath], {
+	const semanticConverted = spawnSync('rsvg-convert', ['--width', '1600', '--height', '620', '--output', semanticPngPath, semanticSvgPath], {
 		encoding: 'utf8',
 	});
 	if (semanticConverted.status !== 0) {
 		throw new Error(`Semantic PNG export failed for ${cover.asset}: ${semanticConverted.stderr || semanticConverted.error || 'unknown error'}`);
+	}
+	// Keep I.1 regimes alias in sync with the generated concept graph.
+	if (id === 'i-1-imagenes-digitales') {
+		const regimesSvg = resolve(outputDir, 'dc-i-01-image-regimes-graph.svg');
+		archiveExisting(regimesSvg);
+		copyFileSync(semanticSvgPath, regimesSvg);
 	}
 	const outcomeConverted = spawnSync('rsvg-convert', ['--width', '1600', '--height', '720', '--output', outcomePngPath, outcomeSvgPath], {
 		encoding: 'utf8',

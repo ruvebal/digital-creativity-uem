@@ -196,8 +196,12 @@ function citationAudit() {
 				const externalAnchors = [...refs.matchAll(/<a\b([^>]*)href=(["'])(https?:\/\/[^"']+)\2([^>]*)>/gi)];
 				for (const match of externalAnchors) {
 					const attrs = `${match[1]} ${match[4]}`;
+					const href = match[3];
+					if (/<|\u0000/.test(href)) {
+						failures.push(`${relative(root, file)}: external reference href embeds markup (${href})`);
+					}
 					if (!/\btarget\s*=\s*(["'])_blank\1/i.test(attrs)) {
-						failures.push(`${relative(root, file)}: external reference URL missing target="_blank" (${match[3]})`);
+						failures.push(`${relative(root, file)}: external reference URL missing target="_blank" (${href})`);
 					}
 				}
 			}

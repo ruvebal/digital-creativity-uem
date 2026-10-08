@@ -12,9 +12,9 @@ description: 'English lesson hub for Digital Creativity I–II, New Media, and m
 
   <ul class="hc-track-list">
     <li>
-      <a href="{{ '/tracks/en/digital-creativity-i/' | relative_url }}">
+      <a href="{{ '/lessons/en/digital-creativity-i/' | relative_url }}">
         <strong>Digital Creativity I</strong>
-        <span>S1 · 6 ECTS — digital image through volume and still life</span>
+        <span>S1 · 6 ECTS — lesson pages · <em>track &amp; slideshows</em> → /tracks/en/digital-creativity-i/</span>
       </a>
     </li>
     <li>
