@@ -84,29 +84,29 @@ Los sistemas contemporáneos de generación y clasificación visual pueden repro
 **¿Cuándo "corregir" un color se convierte en "cambiar" la prenda que representa?** Es la misma pregunta de divulgación que la unidad de retoque de CD II (II.1) plantea sobre los cuerpos — planteada aquí a nivel del color. El grupo decide junto y declara la decisión.
 
 <figure class="lesson-media lesson-media--placeholder" data-media-slot="I.3.video.colour-workflow" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-relations-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador abstracto para demostración de flujo de color; no representa personas ni prendas." loading="lazy" />
+<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-viewing-conditions-20261013-r1.jpg' | relative_url }}" width="1536" height="1024" alt="Una persona diseñadora compara una muestra textil azul cobalto con su primer plano en una pantalla, junto a una tarjeta neutra y una tira de referencia cromática." loading="lazy" />
 <figcaption>
-<p><strong>Por qué está aquí:</strong> un clip breve se detiene cada vez que cambia un perfil, espacio o supuesto de exportación.</p>
-<p><strong>Qué observar:</strong> puntos de conversión y qué cierra cada paso.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+<p><strong>Por qué está aquí:</strong> el cartel hace tangible el recorrido de la muestra física a la pantalla y a las condiciones de observación mientras el clip de la lección está pendiente.</p>
+<p><strong>Qué observar:</strong> compara el tejido, la pantalla y la luz ambiente; pregunta dónde podría percibir un cambio quien observa.</p>
+<p class="media-note">Marcador didáctico generado con IA; el tejido y la representación en pantalla son ilustrativos, no una referencia de calibración cromática. Vídeo con derechos revisados pendiente.</p>
 </figcaption>
 </figure>
 
 <figure class="lesson-media lesson-media--placeholder" data-media-slot="I.3.still.palette-contrast" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-relations-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador para ejemplos de contraste de paleta; no representa personas ni prendas." loading="lazy" />
+<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-correction-change-triptych-20261013-r1.jpg' | relative_url }}" width="1672" height="944" alt="Tres vistas de la misma chaqueta azul cobalto: una fuente neutra, una versión con un tratamiento cromático intenso que conserva el cierre marfil y una versión pulida con el cierre eliminado y la silueta estrechada." loading="lazy" />
 <figcaption>
-<p><strong>Por qué está aquí:</strong> paletas en paralelo prueban legibilidad, jerarquía y atmósfera.</p>
-<p><strong>Qué observar:</strong> pares que fallan el contraste en una pantalla pero pasan en otra.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+<p><strong>Por qué está aquí:</strong> esta comparación construida distingue un tratamiento cromático expresivo de una edición que cambia lo que parece ser la prenda.</p>
+<p><strong>Qué observar:</strong> compara si el cierre y la silueta se mantienen; debate cuándo corregir el color se convierte en cambiarlo.</p>
+<p class="media-note">Marcador ilustrativo generado con IA; la chaqueta es ficticia y no documenta un producto real.</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.3.graphic.colour-chain" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-relations-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador de diagrama para cadena color fuente-exportación; no representa personas ni prendas." loading="lazy" />
+<figure class="lesson-media" data-media-slot="I.3.graphic.colour-chain" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i3-colour-context-20261013-r1.svg' | relative_url }}" width="680" height="360" alt="La misma muestra azul cobalto aparece sobre campos coral cálido y verde azulado frío; debajo, la cadena pasa por perfil, pantalla y exportación hasta quien observa." loading="lazy" aria-describedby="i3-colour-context-caption" />
 <figcaption>
-<p><strong>Por qué está aquí:</strong> mapea color fuente → perfil/espacio → pantalla/exportación → espectador.</p>
-<p><strong>Qué observar:</strong> dónde se rompe la cadena si cambia un dispositivo.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+<p id="i3-colour-context-caption"><strong>Por qué está aquí:</strong> el diagrama conecta la percepción relacional del color con el recorrido digital de un valor muestreado hasta quien lo observa.</p>
+<p><strong>Qué observar:</strong> mantén fija la muestra e identifica dónde el entorno, el perfil, la pantalla o la exportación cambian su lectura.</p>
+<p class="media-note">Diagrama didáctico conceptual; las condiciones de pantalla y el contexto de quien observa también influyen en la lectura.</p>
 </figcaption>
 </figure>
 
@@ -299,7 +299,7 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Se generaron dos imágenes ilustrativas con OpenAI ImageGen y se creó un diagrama semántico con visual-forger 1.2.0. El autor revisó los tres recursos didácticos. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
 <!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1

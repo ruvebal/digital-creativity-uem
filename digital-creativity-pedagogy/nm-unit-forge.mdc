@@ -23,6 +23,7 @@ alwaysApply: false
 | Competencies | CON4 · HAB5 · HAB12 · COMP2 · COMP8 |
 | `project_slug` | `profield-nuevos-medios-moda-2026-27` |
 | Campaign exemplars (canonical) | `~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md` |
+| Course-wide campaign allocation | [`forge/NM-CAMPAIGN-ALLOCATION-INDEX.md`](./forge/NM-CAMPAIGN-ALLOCATION-INDEX.md) |
 | Language | ES canonical lesson; EN twin for switch |
 
 ## STEP A → D (raised floor — no bare scaffold)
@@ -38,8 +39,16 @@ A **scaffold** lesson (frontmatter + stub B1) is not done. Done means CT/CD pari
    labs, open
    [`~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md`](file:///Users/ruvebal/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md)
    → run `20260925T200000Z` **`TEACHING-CAMPAIGN-LEDGER.md`** (ranked) +
-   `SUMMARY.md`. Attach **≥1 ranked campaign** per theoretical pod with its
-   **canonical URL**. Prefer ranks 1–12 for core pods. Prefer Ahmes rows in
+   `SUMMARY.md`. Check the course-wide allocation index first: **a campaign
+   belongs to one lesson only across U1–U6**. Never reuse its name, alias, or
+   canonical case source in another unit's lesson, deck, lab, or assignment.
+   Add new cases to the index and that lesson's `campaign_ids` front matter
+   before drafting. Attach **≥1 ranked campaign** per theoretical pod with its
+   **canonical URL**. Prefer ranks 1–12 for core pods. If Profield's ranked
+   bank lacks a critical/adverse advertising example, add a supplemental case
+   from a primary regulator or reliable consumer research; mark it
+   **supplemental / unranked**, keep the evidence claim narrow, and do not
+   portray it as a Profield selection or settled moral verdict. Prefer Ahmes rows in
    `VERIFIED-CAMPAIGNS.md` (UNEP Playbook) only when the slide needs a vault
    quote. Contested Zara/BDS cases (`CONTESTED` in the ledger) are seminar
    material — never present as unlabelled “ethical” brand wins. Classify each
@@ -79,9 +88,19 @@ A **scaffold** lesson (frontmatter + stub B1) is not done. Done means CT/CD pari
 Theoretical claims (brainprint, presence system, power map, claims audit…)
 must be illustrated with **named, ranked campaigns** from Profield
 `fashion-exemplary-social-campaigns` (`TEACHING-CAMPAIGN-LEDGER.md`) — not
-generic “una marca X”. Refresh the bank from `CANONICAL.md` on every forge
-wave; when the operator adds internet research, merge into that field’s next
-pass and re-rank before treating new names as canonical.
+generic “una marca X”. A pod may also use an explicitly supplemental,
+unranked critical case when the ranked bank lacks that perspective; support it
+with a primary/regulatory source or reliable consumer research and scope the
+claim to what that source establishes. Refresh the bank from `CANONICAL.md` on
+every forge wave; when the operator adds internet research, merge into that
+field’s next pass and re-rank before treating new names as Profield selections.
+
+**No-repeat law (course-wide):** each campaign ID in
+[`forge/NM-CAMPAIGN-ALLOCATION-INDEX.md`](./forge/NM-CAMPAIGN-ALLOCATION-INDEX.md)
+is exclusive to one lesson. U1–U3 already forged cases count as allocated.
+Every forged lesson must declare its campaign IDs in front matter and pass
+`npm run verify:nm-campaigns`, which checks the index, assignment metadata,
+lesson prose, and deck copy. No unit-routing recommendation overrides this law.
 
 ## Cite law — lessons only (fail-closed)
 

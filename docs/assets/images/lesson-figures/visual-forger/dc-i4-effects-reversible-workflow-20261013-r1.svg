@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-labelledby="title desc">
+  <title id="title">A reversible workflow for bitmap effects</title>
+  <desc id="desc">Keep the source image, isolate the intended area with an editable mask, apply an effect on a separate layer, compare the result with the source, then export with a one-line disclosure. A review loop returns from comparison to adjustment.</desc>
+  <rect width="680" height="360" rx="20" fill="#FBF8F1"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#202438">
+    <text x="24" y="38" font-size="19" font-weight="500">Keep the source. Make each edit inspectable.</text>
+    <text x="24" y="60" font-size="12" fill="#626879">A reversible bitmap-effects workflow</text>
+    <g fill="none" stroke="#667085" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M136 182h13m-5-5 5 5-5 5M266 182h13m-5-5 5 5-5 5M396 182h13m-5-5 5 5-5 5M526 182h13m-5-5 5 5-5 5"/>
+    </g>
+    <g>
+      <rect x="20" y="91" width="116" height="179" rx="12" fill="#FFFFFF" stroke="#D7D9E0"/>
+      <rect x="32" y="104" width="92" height="67" rx="7" fill="#E8EEF7"/>
+      <path d="M39 159 58 137l13 14 13-19 32 27" fill="none" stroke="#3559A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="99" cy="120" r="6" fill="#E7BD53"/>
+      <text x="32" y="195" font-size="12" font-weight="500">1 · SOURCE</text>
+      <text x="32" y="216" font-size="11" fill="#626879">Retain source</text>
+      <text x="32" y="231" font-size="11" fill="#626879">as a safe copy.</text>
+    </g>
+    <g>
+      <rect x="150" y="91" width="116" height="179" rx="12" fill="#FFFFFF" stroke="#D7D9E0"/>
+      <rect x="162" y="104" width="92" height="67" rx="7" fill="#F7E8E3"/>
+      <path d="M169 159 188 137l13 14 13-19 32 27" fill="none" stroke="#A9483B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M186 147c-5-16 5-28 18-27 14 1 24 12 19 27-3 11-31 11-37 0Z" fill="#E98B74" fill-opacity=".35" stroke="#A9483B" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="162" y="195" font-size="12" font-weight="500">2 · MASK</text>
+      <text x="162" y="216" font-size="11" fill="#626879">Select target area</text>
+      <text x="162" y="231" font-size="11" fill="#626879">keep mask editable</text>
+    </g>
+    <g>
+      <rect x="280" y="91" width="116" height="179" rx="12" fill="#FFFFFF" stroke="#D7D9E0"/>
+      <rect x="292" y="104" width="92" height="67" rx="7" fill="#E6F1ED"/>
+      <path d="M300 119h54M300 137h42M300 155h49" stroke="#347B68" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="361" cy="119" r="4" fill="#D2A52E"/><circle cx="347" cy="137" r="4" fill="#D2A52E"/><circle cx="354" cy="155" r="4" fill="#D2A52E"/>
+      <text x="292" y="195" font-size="11" font-weight="500">3 · EFFECT LAYER</text>
+      <text x="292" y="216" font-size="11" fill="#626879">Apply on a new</text>
+      <text x="292" y="231" font-size="11" fill="#626879">editable layer.</text>
+    </g>
+    <g>
+      <rect x="410" y="91" width="116" height="179" rx="12" fill="#FFFFFF" stroke="#D7D9E0"/>
+      <rect x="422" y="104" width="40" height="67" rx="6" fill="#E8EEF7"/>
+      <rect x="474" y="104" width="40" height="67" rx="6" fill="#F7E8E3"/>
+      <path d="M428 159 438 145l7 8 9-13M480 159 490 145l7 8 9-13" fill="none" stroke="#3559A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="422" y="195" font-size="12" font-weight="500">4 · COMPARE</text>
+      <text x="422" y="216" font-size="11" fill="#626879">Check detail</text>
+      <text x="422" y="231" font-size="11" fill="#626879">and image claim.</text>
+    </g>
+    <g>
+      <rect x="540" y="91" width="116" height="179" rx="12" fill="#FFFFFF" stroke="#D7D9E0"/>
+      <path d="M568 111h28l13 13v35h-41Z" fill="#F5F0DD" stroke="#A77A20" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M596 111v14h13M577 138h22M577 147h22" fill="none" stroke="#A77A20" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="552" y="195" font-size="12" font-weight="500">5 · EXPORT</text>
+      <text x="552" y="216" font-size="11" fill="#626879">Name the change</text>
+      <text x="552" y="231" font-size="11" fill="#626879">in one clear line.</text>
+    </g>
+    <path d="M467 283v20H338v-20" fill="none" stroke="#A9483B" stroke-width="1.5" stroke-dasharray="4 4" stroke-linecap="round"/>
+    <path d="m333 289 5-6 5 6" fill="none" stroke="#A9483B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="402" y="324" text-anchor="middle" font-size="11" fill="#626879">If comparison fails the brief, return to the effect layer.</text>
+  </g>
+</svg>

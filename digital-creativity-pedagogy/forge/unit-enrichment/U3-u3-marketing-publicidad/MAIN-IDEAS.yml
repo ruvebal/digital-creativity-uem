@@ -3,7 +3,7 @@
 unit_id: U3
 title_es: U3 · Marketing y publicidad en nuevos medios
 max_ideas: 6
-note: "2026-09-26 — Benetton/COLORS (rank 5) + Levi’s (8) + PayUp (1) + Ropa Limpia (7); tracks corrected"
+note: "2026-10-13 allocation — U3 owns ranks 3, 4, 5, 7 plus the supplemental critical Jigsaw AW21 case; campaign IDs are exclusive across the NM curriculum."
 voice: late-secondary / first-year clear Spanish
 teaching_language: es
 campaign_bank_ref: "~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md"
@@ -22,19 +22,19 @@ ideas:
   - id: 2
     heading: Shock ≠ prueba de impacto social
     sentence: "La controversia mide atención; no demuestra salarios pagados ni emisiones bajadas."
-    case: "Caso: Benetton (rank 5) vs PayUp (rank 1) — debate vs USD/firmas."
+    case: "Caso: Benetton (rank 5) vs Carnaval de Gualeguaychú (rank 3) — publicidad de marca vs activismo de vestuario."
     case_track: A_vs_C
-    case_rank: "5+1"
+    case_rank: "5+3"
     quote: "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption…"
     chicago: "(United Nations Environment Programme 2023, 27)"
   - id: 3
-    heading: El green claim es una apuesta reputacional
-    sentence: "Si tu claim no aguanta evidencia, no es marketing inteligente: es deuda de confianza."
-    case: "Caso: Levi’s Buy Better, Wear Longer (rank 8) — suficiencia vs incentivos de venta."
+    heading: La representación también necesita contexto
+    sentence: "Una campaña puede declarar una causa y también decidir quién aparece, habla y mira."
+    case: "Caso: Fashion to be Free (rank 4) — representación, libertad de vestir y mirada poscolonial."
     case_track: A
-    case_rank: 8
-    quote: "Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in the EU at large were v…"
-    chicago: "(United Nations Environment Programme 2023, 26)"
+    case_rank: 4
+    quote: null
+    chicago: null
   - id: 4
     heading: Presionar la marca no es ser la marca
     sentence: "Ropa Limpia en la junta no es un purpose film de Inditex: es conflicto mediático organizado."
@@ -44,3 +44,12 @@ ideas:
     case_url: "https://ropalimpia.org/noticias/accionistas-y-entidades-sociales-exigen-responsabilidad-climatica-y-social-a-inditex-durante-la-junta-de-accionistas/"
     chicago: null
     stance: studio_hypothesis
+  - id: 5
+    heading: Cuando el cuerpo desplaza al producto
+    sentence: "Relaciona encuadre, producto anunciado y representación antes de juzgar el estereotipo."
+    case: "Caso crítico suplementario: Jigsaw AW21 “Into the Woods” — ASA encontró objetificación y estereotipo sexual en un email concreto y ordenó no volver a publicarlo en esa forma."
+    case_track: A
+    case_rank: supplemental
+    case_url: "https://www.asa.org.uk/rulings/robinson-webster--holdings--ltd-g21-1127608-robinson-webster--holdings--ltd.html"
+    chicago: null
+    stance: regulator_finding

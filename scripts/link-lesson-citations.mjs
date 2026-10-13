@@ -36,9 +36,10 @@ function referenceKey(reference) {
 
 function processFile(path) {
   const before = readFileSync(path, 'utf8');
-  const heading = before.match(/<h2 id="(?:references|referencias)">(?:References|Referencias)<\/h2>\s*<ul>([\s\S]*?)<\/ul>/i);
+	const heading = before.match(/<h2 id="(?:references|referencias)">(?:References|Referencias)<\/h2>\s*<ul\b[^>]*>([\s\S]*?)<\/ul>/i);
   if (!heading) return false;
   const keys = new Set();
+	for (const match of heading[1].matchAll(/<li\b[^>]*\bid="ref-([^"]+)"/gi)) keys.add(match[1]);
   const list = heading[1].replace(/<li(?![^>]*\bid=)([^>]*)>([\s\S]*?)<\/li>/gi, (match, attrs, entry) => {
     const key = referenceKey(entry);
     if (!key || keys.has(key)) return match;
@@ -48,13 +49,20 @@ function processFile(path) {
   let after = before.replace(heading[0], heading[0].replace(heading[1], list));
   const [body, references] = after.split(heading[0].replace(heading[1], list));
   if (references === undefined) return false;
-  const linkedBody = body.replace(/\(([^()\n]{1,80}?)\s+((?:19|20)\d{2})(,\s*\d+(?:[–-]\d+)?)?\)/g, (match, authors, year, pages = '') => {
+	const linkedBody = body.replace(/\(([^()\n]{1,80}?)\s+((?:19|20)\d{2})(,\s*\d+(?:[–-]\d+)?)?\)/g, (match, authors, year, pages = '') => {
     if (authors.includes('<') || authors.includes('>')) return match;
     const firstAuthor = authors.trim().split(/[\s,;&]/)[0];
     const key = `${slug(firstAuthor)}-${year}`;
     return keys.has(key) ? `<a class="citation-link" href="#ref-${key}" aria-label="Jump to ${authors} ${year} in the reference list">${match}</a>` : match;
   });
-  after = `${linkedBody}${heading[0].replace(heading[1], list)}${references}`;
+	const decoratedBody = linkedBody.replace(/<a\b([^>]*)>/gi, (tag, attrs) => {
+		if (!attrs.includes('#ref-') || !/\bhref=/i.test(attrs)) return tag;
+		if (attrs.includes('citation-link')) return tag;
+		const classAttribute = attrs.match(/\bclass=(['"])(.*?)\1/i);
+		if (!classAttribute) return tag.replace('<a', '<a class="citation-link"');
+		return tag.replace(classAttribute[0], `class=${classAttribute[1]}${classAttribute[2]} citation-link${classAttribute[1]}`);
+	});
+	after = `${decoratedBody}${heading[0].replace(heading[1], list)}${references}`;
   if (after === before) return false;
   writeFileSync(path, after, 'utf8');
   return true;

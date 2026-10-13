@@ -60,9 +60,9 @@ UNITS = {
             "marca–público; la historia es un mapa de poder mediático."
         ),
         "contenidos": "Historia de Internet",
-        "theme": "¿Qué campaña reescribió más el mapa de poder: PayUp o Levi’s — y por qué?",
-        "lab1": "Línea de tiempo: ≥2 campañas del banco (ranks 1,5,6,8,9) + hitos de medios.",
-        "lab2": "5 términos del glosario, cada uno anclado a una campaña del ledger (no apps sueltas).",
+        "theme": "¿Cómo cambian los medios quién puede hablar en público — de PayUp a Project Earth?",
+        "lab1": "Línea de tiempo: ≥2 casos de U1 (ranks 1,6,8,9) + hitos de medios.",
+        "lab2": "5 términos del glosario, cada uno anclado a un caso asignado a U1.",
         "history_quote_for_idea": 1,
     },
     "U2": {
@@ -74,8 +74,8 @@ UNITS = {
         ),
         "contenidos": "Comunicación digital",
         "theme": "¿Qué cuenta como éxito de marca en tu dashboard — y qué queda invisible?",
-        "lab1": "Boceto de sistema de presencia: voz · formatos · KPI · hipótesis de fallo (modelo Action Works).",
-        "lab2": "Audita un claim (Levi’s rank 8 o Project Earth rank 9): ¿evidencia UNEP o sentimiento?",
+        "lab1": "Boceto de sistema de presencia: voz · formatos · KPI · hipótesis, usando Fashion Revolution (rank 2).",
+        "lab2": "Audita Good Clothes, Fair Pay (rank 12), Moda Livre (rank 11) o SHEIN Creator Center / hauls: ¿qué evidencia cada formato e incentivo?",
         "history_quote_for_idea": None,
     },
     "U3": {
@@ -86,9 +86,9 @@ UNITS = {
             "— y a veces vende posición moral sin mostrar la prenda."
         ),
         "contenidos": "Marketing y publicidad en nuevos medios.",
-        "theme": "¿Qué métrica eliges — impresiones Benetton o firmas/USD PayUp — y por qué?",
-        "lab1": "Elige ranks 5, 8, 1 o 7: Track A/B/C + URL canónica del ledger + métrica vs métrica exigida.",
-        "lab2": "En dos frases: ¿por qué PayUp y Benetton no comparten la misma rúbrica de «campaña ética»?",
+        "theme": "¿Qué pregunta y evidencia exige cada campaña — y qué hace responsable a un anuncio?",
+        "lab1": "Elige ranks 3, 4, 5 o 7, o el caso ASA de Jigsaw AW21: fuente + evidencia + relación entre imagen y producto.",
+        "lab2": "En dos frases, explica qué imagen concreta motivó el fallo de ASA sobre Jigsaw AW21.",
         "history_quote_for_idea": None,
     },
 }
@@ -203,7 +203,7 @@ def write_deck(unit_id: str) -> Path:
             "project_id": "nm",
             "collection": "unit-accepted",
             "strategy": "geometrical-first",
-            "description": "NM decks: geometrical openers; campaign Caso: from MAIN-IDEAS / ledger ranks.",
+            "description": "NM decks: geometrical openers; exclusive campaign cases from the course allocation index.",
         },
         "assets": [],
         "slides": slides,

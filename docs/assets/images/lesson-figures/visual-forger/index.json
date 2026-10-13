@@ -1,0 +1,84 @@
+{
+  "current_release": "lesson-semantics-20261013-r2",
+  "releases": [
+    {
+      "release_id": "lesson-semantics-20261013-r1",
+      "created": "2026-10-13",
+      "skill": "visual-forger",
+      "skill_version": "1.2.0",
+      "assets": [
+        {
+          "id": "dc-i3-colour-context-20261013-r1",
+          "title": "One sample, two readings",
+          "description": "An identical cobalt sample sits in warm and cool surrounds, then travels through source, profile, display or export, and viewer.",
+          "svg": "dc-i3-colour-context-20261013-r1.svg",
+          "png": "dc-i3-colour-context-20261013-r1.png",
+          "lesson": "I.3 · colour",
+          "media_slot_id": "I.3.graphic.colour-chain",
+          "visual_grammar": "Hold one sampled colour constant; vary its surround, then map the digital chain to the viewer."
+        },
+        {
+          "id": "dc-i4-effects-disclosure-lens-20261013-r1",
+          "title": "A working lens for judging effects",
+          "description": "A disclosure-by-claim-change matrix separates disclosed stylisation, declared alteration, context-dependent judgment, and deception risk.",
+          "svg": "dc-i4-effects-disclosure-lens-20261013-r1.svg",
+          "png": "dc-i4-effects-disclosure-lens-20261013-r1.png",
+          "lesson": "I.4 · effects",
+          "media_slot_id": "I.4.still.before-after",
+          "visual_grammar": "Map how much an edit shifts the image's claim against whether the shift is disclosed; leave the threshold open to context."
+        },
+        {
+          "id": "dc-i3-colour-correction-change-triptych-20261013-r1",
+          "title": "Colour treatment and garment claim",
+          "description": "A fictional jacket appears as neutral source, expressive colour treatment, and a polished version with a garment detail removed.",
+          "source_png": "../../lesson-covers/dc-i-03-colour-correction-change-triptych-20261013-r1.png",
+          "display_jpeg": "../../lesson-covers/dc-i-03-colour-correction-change-triptych-20261013-r1.jpg",
+          "lesson": "I.3 · colour",
+          "media_slot_id": "I.3.still.palette-contrast",
+          "created_with": "OpenAI ImageGen",
+          "visual_grammar": "Hold the fictional garment and framing constant; distinguish mood styling from an edit that changes the represented garment."
+        }
+      ]
+    },
+    {
+      "release_id": "lesson-semantics-20261013-r2",
+      "created": "2026-10-13",
+      "skill": "visual-forger",
+      "skill_version": "1.2.0",
+      "assets": [
+        {
+          "id": "dc-i4-effects-reversible-workflow-20261013-r1",
+          "title": "Keep the source; make each edit inspectable",
+          "description": "A five-step workflow preserves the source, isolates an editable mask, applies effects on a separate layer, compares the result, and exports with a one-line disclosure.",
+          "svg": "dc-i4-effects-reversible-workflow-20261013-r1.svg",
+          "png": "dc-i4-effects-reversible-workflow-20261013-r1.png",
+          "lesson": "I.4 · effects",
+          "media_slot_id": "I.4.graphic.layer-stack",
+          "visual_grammar": "Preserve the before; isolate the target; keep effect editable; compare intent and claim; disclose what changed."
+        },
+        {
+          "id": "dc-i3-colour-viewing-conditions-20261013-r1",
+          "title": "A textile colour moves from sample to screen",
+          "description": "A fictional design-studio still places a cobalt textile sample beside its screen rendering, a neutral card, and a colour reference strip to prompt questions about viewing conditions.",
+          "source_png": "../../lesson-covers/dc-i-03-colour-viewing-conditions-20261013-r1.png",
+          "display_jpeg": "../../lesson-covers/dc-i-03-colour-viewing-conditions-20261013-r1.jpg",
+          "lesson": "I.3 · colour",
+          "media_slot_id": "I.3.video.colour-workflow",
+          "created_with": "OpenAI ImageGen",
+          "visual_grammar": "Set a physical sample beside a screen and reference materials; invite comparison across display and ambient viewing conditions without claiming calibration accuracy."
+        },
+        {
+          "id": "dc-i4-effects-mask-workflow-20261013-r1",
+          "title": "A masked treatment that keeps the garment intact",
+          "description": "Three aligned fictional fashion-still frames show the source, an editable mask, and a background treatment while retaining the garment's structure.",
+          "source_png": "../../lesson-covers/dc-i-04-effects-mask-workflow-20261013-r1.png",
+          "display_jpeg": "../../lesson-covers/dc-i-04-effects-mask-workflow-20261013-r1.jpg",
+          "lesson": "I.4 · effects",
+          "media_slot_id": "I.4.video.effect-breakdown",
+          "created_with": "OpenAI ImageGen",
+          "visual_grammar": "Align one fictional source, an editable mask, and a restrained selective treatment; keep garment shape and detail stable so process logic stays visible."
+        }
+      ]
+    }
+  ]
+}

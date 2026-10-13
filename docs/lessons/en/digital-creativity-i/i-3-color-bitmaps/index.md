@@ -91,29 +91,29 @@ Who is treated as the default viewer when a palette is called accurate, beautifu
 **When does "correcting" a colour become "changing" the garment it depicts?** This is the same disclosure question CD II's retouching unit (II.1) asks about bodies — asked here at the level of colour. The group decides together and states the decision.
 
 <figure class="lesson-media lesson-media--placeholder" data-media-slot="I.3.video.colour-workflow" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-relations-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for a colour workflow demonstration; no people or garments depicted." loading="lazy" />
+<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-viewing-conditions-20261013-r1.jpg' | relative_url }}" width="1536" height="1024" alt="A designer compares a cobalt textile swatch with its close-up on a desktop display, with a neutral card and colour reference strip nearby." loading="lazy" />
 <figcaption>
-<p><strong>Why this is here:</strong> A short clip pauses whenever a profile, space, or export assumption changes.</p>
-<p><strong>Look for:</strong> Conversion points and what each step forecloses.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p><strong>Why this is here:</strong> The poster makes the route from physical sample to screen and viewing conditions concrete while the lesson's clip is pending.</p>
+<p><strong>Look for:</strong> Compare textile, display, and ambient light; ask where a viewer might encounter a shift.</p>
+<p class="media-note">AI-generated teaching placeholder; the textile and screen rendering are illustrative, not a colour-calibration reference. Rights-cleared video pending.</p>
 </figcaption>
 </figure>
 
 <figure class="lesson-media lesson-media--placeholder" data-media-slot="I.3.still.palette-contrast" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-relations-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for palette contrast exemplar and counterexample; no people or garments depicted." loading="lazy" />
+<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-correction-change-triptych-20261013-r1.jpg' | relative_url }}" width="1672" height="944" alt="Three views of the same cobalt jacket: a neutral source, a strongly colour-graded version that keeps its ivory closure, and a polished version with the closure removed and silhouette narrowed." loading="lazy" />
 <figcaption>
-<p><strong>Why this is here:</strong> Side-by-side palettes test legibility, hierarchy, and mood.</p>
-<p><strong>Look for:</strong> Pairs that fail contrast on one display but pass on another.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p><strong>Why this is here:</strong> This constructed comparison separates an expressive colour treatment from an edit that changes what the garment appears to be.</p>
+<p><strong>Look for:</strong> Compare whether the closure and silhouette remain stable; discuss when colour correction becomes colour change.</p>
+<p class="media-note">AI-generated placeholder illustration; the jacket is fictional and is not product evidence.</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.3.graphic.colour-chain" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-03-colour-relations-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract diagram placeholder for source-colour to display-export chain; no people or garments depicted." loading="lazy" />
+<figure class="lesson-media" data-media-slot="I.3.graphic.colour-chain" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i3-colour-context-20261013-r1.svg' | relative_url }}" width="680" height="360" alt="The same cobalt sample sits against warm coral and cool teal fields, followed by a source-to-viewer chain through profile, display, and export." loading="lazy" aria-describedby="i3-colour-context-caption" />
 <figcaption>
-<p><strong>Why this is here:</strong> Maps source colour → profile/space → display/export → viewer.</p>
-<p><strong>Look for:</strong> Where the chain breaks if one device changes.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p id="i3-colour-context-caption"><strong>Why this is here:</strong> The diagram connects relational colour perception with the digital path that carries a sampled value to a viewer.</p>
+<p><strong>Look for:</strong> Hold the sample constant; identify where surround, profile, display, or export changes its reading.</p>
+<p class="media-note">Conceptual teaching diagram; screen conditions and viewer context remain part of the reading.</p>
 </figcaption>
 </figure>
 
@@ -309,7 +309,7 @@ This note is part of an ongoing *Práctica de Innovación docente* — epistemic
 
 ## AI-assisted authorship
 
-This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+This lesson was written with local AI-assisted drafting under the author's editorial control. Two illustrative images were generated with OpenAI ImageGen, and one semantic diagram was made with visual-forger 1.2.0. The author reviewed all three teaching visuals. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

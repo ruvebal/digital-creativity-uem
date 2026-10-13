@@ -51,7 +51,7 @@ references: [shinkle-2008, roivainen-2025, aldahoul-2025]
 - **Name filtering, enhancement, colour transformation, and correction** as core bitmap operation *families* behind digital post-processing — tool docs may illustrate menus; they are not research.
 - **Treat effects as embedded in visual problems**, not an autonomous filter catalogue (studio craft rule for this unit).
 - **Produce a before/after pair** with the "before" kept and a one-line disclosure of what changed.
-- **Connect post-processing to critical reading** of fashion and platform imagery, including how edited faces circulate stereotypes ([AlDahoul et al. 2025](#ref-aldahoul-2025)).
+- **Connect post-processing to critical reading** of fashion and platform imagery, including how edited faces circulate stereotypes (AlDahoul et al. 2025).
 - **Distinguish "effect" (disclosed stylisation) from "manipulation" (undisclosed deception).**
 
 ---
@@ -59,12 +59,7 @@ references: [shinkle-2008, roivainen-2025, aldahoul-2025]
 ## Analysis
 ### Critical perspective
 
-An effect never floats free of the image's field of practices — who made it,
-where it acts, and who reads it ([Shinkle 2008](#ref-shinkle-2008)). Platform
-editing cultures train a *skilled vision*: creators learn which transformations
-count as competent taste ([Roivainen 2025](#ref-roivainen-2025)). That skill
-can also naturalise homogenising face and body codes when generative or heavily
-retouched imagery circulates without disclosure ([AlDahoul et al. 2025](#ref-aldahoul-2025)).
+An effect never floats free of the image's field of practices. Who made it, where it acts, and who reads it matter (Shinkle 2008). Platform editing cultures train a *skilled vision*: creators learn which transformations count as competent taste (Roivainen 2025). That skill can also naturalise homogenising face and body codes when generative or heavily retouched imagery circulates without disclosure (AlDahoul et al. 2025).
 
 An effect that "clarifies mood" may therefore also manufacture a more desirable
 world while appearing merely technical. At what point does transformation become
@@ -76,29 +71,29 @@ who has authority to decide that threshold?
 **Is there a meaningful line between an "effect" (stylisation, disclosed) and a "manipulation" (deception, undisclosed) — and does the line move depending on context (editorial vs. advertising)?** No source settles this for your cohort; state the group's working line rather than assuming one.
 
 <figure class="lesson-media lesson-media--placeholder" data-media-slot="I.4.video.effect-breakdown" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-meaning-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for an effect breakdown demonstration; no people or garments depicted." loading="lazy" />
+<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-mask-workflow-20261013-r1.jpg' | relative_url }}" width="1536" height="1024" alt="Three aligned views of the same fictional paper garment: an untouched source, a translucent editable mask, and a warm background treatment that preserves the garment." loading="lazy" />
 <figcaption>
-<p><strong>Why this is here:</strong> A short breakdown pauses before the reveal so students predict layer logic.</p>
-<p><strong>Look for:</strong> Source, mask, transformation, and what each step forecloses.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p><strong>Why this is here:</strong> The poster turns source, mask, and selective treatment into a visible sequence while the lesson's moving breakdown is pending.</p>
+<p><strong>Look for:</strong> Check that the garment's structure stays stable as the background treatment changes; identify which layer can be revised.</p>
+<p class="media-note">AI-generated teaching placeholder; the garment and edit are fictional. Rights-cleared video pending.</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.4.still.before-after" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-meaning-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for purposeful effect exemplar and over-effected counterexample; no people or garments depicted." loading="lazy" />
+<figure class="lesson-media" data-media-slot="I.4.still.before-after" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i4-effects-disclosure-lens-20261013-r1.svg' | relative_url }}" width="680" height="392" alt="A matrix relates disclosure to how much an edit changes the image's claim: disclosed stylisation, declared alteration, context-dependent judgment, and deception risk." loading="lazy" aria-describedby="i4-effects-disclosure-caption" />
 <figcaption>
-<p><strong>Why this is here:</strong> Paired stills test legibility, restraint, and what remains readable after transformation.</p>
-<p><strong>Look for:</strong> Expressive purpose versus decorative excess.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p id="i4-effects-disclosure-caption"><strong>Why this is here:</strong> The matrix makes the lesson's effects-versus-manipulation debate discussable without treating one threshold as universal.</p>
+<p><strong>Look for:</strong> Test an editorial and an advertising case; ask how purpose, audience, claim, and disclosure change the judgment.</p>
+<p class="media-note">Working discussion lens; the cohort states its own threshold.</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.4.graphic.layer-stack" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-meaning-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract diagram placeholder for source-mask-transformation-export layer stack; no people or garments depicted." loading="lazy" />
+<figure class="lesson-media" data-media-slot="I.4.graphic.layer-stack" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i4-effects-reversible-workflow-20261013-r1.svg' | relative_url }}" width="680" height="360" alt="Five-step reversible workflow: retain the source, select a target area with an editable mask, apply an effect on a separate layer, compare details and claims, then export with a one-line disclosure." loading="lazy" aria-describedby="i4-effects-workflow-caption" />
 <figcaption>
-<p><strong>Why this is here:</strong> Maps source → mask → transformation → compositing → verification → export.</p>
-<p><strong>Look for:</strong> Where a destructive step could be replaced with a reversible one.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
+<p id="i4-effects-workflow-caption"><strong>Why this is here:</strong> The diagram makes the lesson's "before kept" rule operational: each effect remains inspectable and revisable.</p>
+<p><strong>Look for:</strong> Follow the review loop back to the effect layer, then state the change in one line before export.</p>
+<p class="media-note">Semantic teaching diagram; the sequence is a studio proposal, not a validated universal method.</p>
 </figcaption>
 </figure>
 
@@ -133,14 +128,14 @@ Covered above: Shinkle / Roivainen / AlDahoul framing, disclosure craft, debate,
 </figure>
 
 <figure class="lesson-figure" id="figure-cover" markdown="0">
-<img src="{{ '/assets/images/deck-media/8243faeb5945da08.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in an exhibition view" loading="lazy" decoding="async">
+<img src="{{ '/assets/images/deck-media/a7fe225309618a85.webp' | relative_url }}" alt="Dresses by Rei Kawakubo in an exhibition view" loading="lazy" decoding="async">
 <figcaption>{% include lesson-figure.html deck="i-4-effects" slide="cover" %}</figcaption>
 </figure>
 
 
 **Claim:** filtering, enhancement, colour transformation, and correction are core bitmap *operation families* behind digital post-processing — named before any brand-specific filter menu. An effect applied to an image is always a transformation with a **before**; the craft risk is losing track of that before, not mastering any single preset.
 
-**What this supports, and what it does not.** [Shinkle 2008](#ref-shinkle-2008) supports situating effects inside fashion-image practices rather than as neutral pixels. [Roivainen 2025](#ref-roivainen-2025) supports reading editing as skilled, teachable vision on platforms. [AlDahoul et al. 2025](#ref-aldahoul-2025) support critical awareness of how generated or homogenised faces circulate stereotypes. **No page-verified source in this vault validates an effects/filter teaching sequence** for fashion HE; textbook filter catalogues and platform UI docs remain `[BIBLIO-GAP]` / `[PLATFORM]` — never presented as research.
+**What this supports, and what it does not.** Situating effects inside fashion-image practices rather than as neutral pixels is supported by the field lens (Shinkle 2008). Reading editing as skilled, teachable vision on platforms draws on research on platform creators (Roivainen 2025). Critical awareness of how generated or homogenised faces circulate stereotypes is supported by research on AI-generated faces (AlDahoul et al. 2025). **The sources cited here do not establish a validated effects/filter teaching sequence** for fashion higher education; the lesson presents its workflow as a critical studio proposal, not a proven method.
 
 **Practice anchor (field lens):** non-destructive editing, compositing, masking, and tonal correction as durable operation classes — separate from any one application's UI.
 
@@ -238,7 +233,7 @@ outcome-graphic-selection:
 
 ## Conclusion
 
-This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+This unit names the evidence it can support in References and keeps unresolved questions in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
 
 ---
 
@@ -278,7 +273,7 @@ MEDIA_RIGHTS_LINE: slot=I.4.graphic.layer-stack; status=PENDING; licence=none; c
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-**Declared gap — stated plainly.** No page-verified source in this vault validates a fashion-HE **effects/filter teaching sequence**. Gonzalez and Woods (textbook operations), Curcic (assignment pedagogy), McBride (advertising retouch ethics), Crepax / Park / Rizzi (platform affect and GenAI studio critique) remain procurement gaps — useful names for the Editorial note, not student References until Ahmes-verified.
+**Declared gap — stated plainly.** The sources cited here do not validate an **effects/filter teaching sequence** for fashion higher education. This lesson presents a critical studio proposal and makes no claim that its sequence is a proven teaching method.
 
 This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 
@@ -286,7 +281,7 @@ This note is part of an ongoing *Práctica de Innovación docente* — epistemic
 
 ## AI-assisted authorship
 
-This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+This lesson was written with local AI-assisted drafting under the author's editorial control. One illustrative image was generated with OpenAI ImageGen; two semantic diagrams were made with visual-forger 1.2.0. The author reviewed all three teaching visuals. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

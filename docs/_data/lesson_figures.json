@@ -242,22 +242,10 @@
     }
   },
   "i-4-effects": {
-    "cover": {
-      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
-      "alt": "Dresses by Rei Kawakubo in an exhibition view",
-      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
-    },
     "analysis-model": {
       "src": "/assets/images/deck-media/4e655e0f068fdc07.webp",
       "alt": "Dresses by Rei Kawakubo in a second exhibition view",
       "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 03</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
-    },
-    "masterclass-1": {
-      "src": "/assets/images/deck-media/684484de753f97f5.webp",
-      "alt": "A fashion sketch design study",
-      "caption_html": "<span class=\"slide-caption__title\">Fashion Sketch Design</span> · <span class=\"slide-caption__author\">Unknown fashion illustrator / Commons upload</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "masterclass-2": {
@@ -270,12 +258,6 @@
       "src": "/assets/images/deck-media/37ef9f5bda8f9a93.webp",
       "alt": "An exhibition poster composition",
       "caption_html": "<span class=\"slide-caption__title\">AK ER Exhibition Poster 2014</span> · <span class=\"slide-caption__author\">Poster designer / photographer</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:AK_ER_Exhibition_Poster_2014.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
-    },
-    "lab-1": {
-      "src": "/assets/images/deck-media/50123c6eb70f0276.webp",
-      "alt": "A historical beauty advertisement",
-      "caption_html": "<span class=\"slide-caption__title\">Dorothy Lamour - Woodbury Complete Beauty Cream, 1945</span> · <span class=\"slide-caption__author\">Woodbury / advertiser (1945 publication)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "lab-2": {

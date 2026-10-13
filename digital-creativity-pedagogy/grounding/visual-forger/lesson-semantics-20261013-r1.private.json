@@ -1,0 +1,37 @@
+{
+  "release_id": "lesson-semantics-20261013-r1",
+  "created": "2026-10-13",
+  "base_commit": "825c4970b368093a88cf4d44a6d4509d7db80eb8",
+  "skill": {
+    "name": "visual-forger",
+    "version": "1.2.0",
+    "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+    "sha256": "eaa2d06b9c176c1ec8eb66fc62e76812d4596672ef6edccb050a06208a070fe9"
+  },
+  "toolchain": {
+    "source": "authored SVG",
+    "png_export": "rsvg-convert 2.61.4",
+    "mode": "visual-forger imagine / diagram"
+  },
+  "assets": [
+    {
+      "id": "dc-i3-colour-context-20261013-r1",
+      "svg_sha256": "bd8286069cb53550e4d5fb87aa48b7be1de3c524fd762ba3f9334b7fcde32999",
+      "png_sha256": "eaa335eea4120e07ce1e5eab9aa9de8d313629f74fc838f10ee3733b7efad2c8",
+      "prompt": "Create a sparse relational-colour diagram: one identical cobalt sample placed in warm coral and cool teal surrounds, then a four-stage source-to-viewer chain through profile/space and display/export. Encode context as the variable and keep text concise."
+    },
+    {
+      "id": "dc-i4-effects-disclosure-lens-20261013-r1",
+      "svg_sha256": "02b4f0023fe9628c040a476210aa66fe3149bdda84b0473c4edc0ac5500f8c5d",
+      "png_sha256": "c1239ec4201dd11eb4cfedbb1aae9fee7a1a5564a4e9b212fe8447f7aa0ca004",
+      "prompt": "Create a working discussion matrix with disclosure on the vertical axis and change to the image's claim on the horizontal axis. Show disclosed stylisation, declared alteration, context and purpose, and deception risk. State visually that audience, purpose, and context move the threshold; do not imply a universal rule."
+    },
+    {
+      "id": "dc-i3-colour-correction-change-triptych-20261013-r1",
+      "created_with": "OpenAI ImageGen",
+      "source_png_sha256": "5d7908ffc8d95da680bc2b6a53f6d15f4f9d0a727af82fe55d6afcf05d66f485",
+      "display_jpeg_sha256": "2e1179cc154051b09023d84bcf75aed4bed20518f287fc8977f3980ba0a2bd1c",
+      "prompt": "Use case: scientific-educational. Asset type: university lesson visual about effects and disclosure. Create a polished, text-free 16:9 triptych on warm paper, with three equal panels showing the same headless tailor mannequin wearing the same cobalt jacket in the same pose and camera view. The jacket has one unmistakable diagonal ivory closure strap and one pocket. Panel 1: neutral source image, true fabric texture, all features visible. Panel 2: expressive editorial stylisation with coral/amber ground and cyan light; strongly changed mood, but preserve strap, pocket, silhouette, and material texture; include a small open blank disclosure card with color swatches, no text. Panel 3: polished advertising treatment; silently remove the closure and subtly narrow the silhouette; include a small closed blank disclosure card. Sophisticated fashion-atelier illustration, no writing, logos, or watermark."
+    }
+  ]
+}

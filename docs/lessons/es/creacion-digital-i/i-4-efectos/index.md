@@ -57,6 +57,8 @@ references: [shinkle-2008, roivainen-2025, aldahoul-2025]
 ---
 
 ## Análisis
+Leer los efectos dentro de las prácticas de la imagen de moda ayuda a situar la transformación, su contexto y sus lectores (Shinkle 2008).
+
 ### Perspectiva crítica
 
 TikTok, ASMR, nostalgia, realidad aumentada y otras formas de circulación digital muestran cómo las tendencias de moda contemporáneas se organizan crecientemente en torno al afecto y la experiencia audiovisual (Crepax 2024) — un efecto que "aclara el estado de ánimo" puede también fabricar un mundo más deseable mientras parece meramente técnico.
@@ -68,29 +70,29 @@ El retoque en moda y belleza requiere alfabetización técnica más conciencia �
 **¿Hay una línea con sentido entre un "efecto" (estilización, divulgada) y una "manipulación" (engaño, no divulgado) — y se mueve esa línea según el contexto (editorial frente a publicitario)?** Ninguna fuente lo resuelve para vuestra cohorte; declara la línea de trabajo propia del grupo en vez de asumir una.
 
 <figure class="lesson-media lesson-media--placeholder" data-media-slot="I.4.video.effect-breakdown" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-meaning-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador abstracto para demostración de desglose de efectos; no representa personas ni prendas." loading="lazy" />
+<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-mask-workflow-20261013-r1.jpg' | relative_url }}" width="1536" height="1024" alt="Tres vistas alineadas de la misma prenda ficticia de papel: una fuente intacta, una máscara editable translúcida y un tratamiento cálido del fondo que conserva la prenda." loading="lazy" />
 <figcaption>
-<p><strong>Por qué está aquí:</strong> un desglose breve hace una pausa antes de la revelación para que el estudiantado prediga la lógica de capas.</p>
-<p><strong>Qué observar:</strong> fuente, máscara, transformación y qué cierra cada paso.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+<p><strong>Por qué está aquí:</strong> el cartel convierte la fuente, la máscara y el tratamiento selectivo en una secuencia visible mientras el vídeo de desglose está pendiente.</p>
+<p><strong>Qué observar:</strong> comprueba que la estructura de la prenda permanece estable mientras cambia el tratamiento del fondo; identifica qué capa puede revisarse.</p>
+<p class="media-note">Marcador didáctico generado con IA; la prenda y la edición son ficticias. Vídeo con derechos revisados pendiente.</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.4.still.before-after" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-meaning-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador para ejemplo de efecto intencional y contraejemplo sobreprocesado; no representa personas ni prendas." loading="lazy" />
+<figure class="lesson-media" data-media-slot="I.4.still.before-after" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i4-effects-disclosure-lens-20261013-r1.svg' | relative_url }}" width="680" height="392" alt="Matriz que relaciona la divulgación con cuánto cambia una edición lo que afirma la imagen: estilización divulgada, alteración declarada, juicio contextual y riesgo de engaño." loading="lazy" aria-describedby="i4-effects-disclosure-caption" />
 <figcaption>
-<p><strong>Por qué está aquí:</strong> imágenes en paralelo prueban legibilidad, contención y qué sigue siendo legible tras la transformación.</p>
-<p><strong>Qué observar:</strong> propósito expresivo frente a exceso decorativo.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+<p id="i4-effects-disclosure-caption"><strong>Por qué está aquí:</strong> la matriz permite debatir efectos y manipulación sin presentar un umbral como universal.</p>
+<p><strong>Qué observar:</strong> contrasta un caso editorial y otro publicitario; pregunta cómo cambian el juicio el propósito, el público, la afirmación y la divulgación.</p>
+<p class="media-note">Lente para el debate; el grupo declara su propio umbral.</p>
 </figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.4.graphic.layer-stack" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-04-effects-meaning-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador de diagrama para pila de capas fuente-máscara-transformación-exportación; no representa personas ni prendas." loading="lazy" />
+<figure class="lesson-media" data-media-slot="I.4.graphic.layer-stack" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i4-effects-reversible-workflow-20261013-r1.svg' | relative_url }}" width="680" height="360" alt="Flujo reversible en cinco pasos: conservar la fuente, seleccionar un área con una máscara editable, aplicar un efecto en una capa aparte, comparar detalles y afirmaciones, y exportar con una divulgación en una línea." loading="lazy" aria-describedby="i4-effects-workflow-caption" />
 <figcaption>
-<p><strong>Por qué está aquí:</strong> mapea fuente → máscara → transformación → composición → verificación → exportación.</p>
-<p><strong>Qué observar:</strong> dónde un paso destructivo podría sustituirse por uno reversible.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
+<p id="i4-effects-workflow-caption"><strong>Por qué está aquí:</strong> el diagrama convierte en operación la regla de conservar el «antes»: cada efecto puede inspeccionarse y revisarse.</p>
+<p><strong>Qué observar:</strong> sigue el ciclo de revisión hasta la capa del efecto y declara el cambio en una línea antes de exportar.</p>
+<p class="media-note">Diagrama didáctico semántico; la secuencia es una propuesta de taller, no un método universal validado.</p>
 </figcaption>
 </figure>
 
@@ -280,7 +282,7 @@ Esta nota forma parte de una *Práctica de Innovación docente* en curso — los
 
 ## Autoría asistida por IA
 
-Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Se generó una imagen ilustrativa con OpenAI ImageGen y se crearon dos diagramas semánticos con visual-forger 1.2.0. El autor revisó los tres recursos didácticos. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
 <!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1

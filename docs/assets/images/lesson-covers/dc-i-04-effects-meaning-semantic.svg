@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title-i-4-efectos-semantic desc-i-4-efectos-semantic">
-  <title id="title-i-4-efectos-semantic">Effect as traceable transformation</title>
-  <desc id="desc-i-4-efectos-semantic">Semantic graph linking source, transform, disclosure, before/after evidence, and the effect vs manipulation threshold.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="title-i-4-breakdown desc-i-4-breakdown">
+  <title id="title-i-4-breakdown">Effect breakdown placeholder</title>
+  <desc id="desc-i-4-breakdown">Three empty visual stages show a source image placeholder, an editable mask, and a transformed preview, linked by numbered steps for a demonstration.</desc>
   <defs>
-    <linearGradient id="semantic-ground-i-4-efectos" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#18141D"/>
-      <stop offset="1" stop-color="#070A11"/>
-    </linearGradient>
+    <linearGradient id="ground-i-4-breakdown" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18141D"/><stop offset="1" stop-color="#070A11"/></linearGradient>
+    <pattern id="grid-i-4-breakdown" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#FFF7EC" stroke-opacity=".06" stroke-width="1"/></pattern>
   </defs>
-  <rect width="1600" height="620" rx="34" fill="url(#semantic-ground-i-4-efectos)"/>
-  <g fill="none"><path d="M260 310 C440 170 440 90 620 230" fill="none" stroke="#9BE2D1" stroke-width="4" stroke-opacity=".55"/><path d="M620 230 C810 230 810 230 1000 230" fill="none" stroke="#9BE2D1" stroke-width="4" stroke-opacity=".55"/><path d="M260 310 C440 450 440 560 620 420" fill="none" stroke="#9BE2D1" stroke-width="4" stroke-opacity=".55"/><path d="M620 420 C810 420 810 420 1000 420" fill="none" stroke="#9BE2D1" stroke-width="4" stroke-opacity=".55"/><path d="M1000 230 C1000 370 1000 560 1000 420" fill="none" stroke="#9BE2D1" stroke-width="4" stroke-opacity=".55"/></g>
-  <g font-family="Inter,Arial,sans-serif"><g transform="translate(260 310)">
-    <circle r="120" fill="#E8C56C" fill-opacity=".2" stroke="#E8C56C" stroke-width="4"/>
-    <text y="-16" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">SOURCE</text>
-    <text y="22" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="19">recoverable before</text>
-  </g><g transform="translate(620 230)">
-    <circle r="128" fill="#F07C63" fill-opacity=".2" stroke="#F07C63" stroke-width="4"/>
-    <text y="-16" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700">TRANSFORM</text>
-    <text y="22" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="19">mask · tone · composite</text>
-  </g><g transform="translate(1000 230)">
-    <circle r="118" fill="#9BE2D1" fill-opacity=".2" stroke="#9BE2D1" stroke-width="4"/>
-    <text y="-16" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700">DISCLOSE</text>
-    <text y="22" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="19">what changed, why</text>
-  </g><g transform="translate(620 420)">
-    <circle r="110" fill="#9BE2D1" fill-opacity=".2" stroke="#9BE2D1" stroke-width="4"/>
-    <text y="-16" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">TRACE</text>
-    <text y="22" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="19">before | after</text>
-  </g><g transform="translate(1000 420)">
-    <circle r="128" fill="#E8C56C" fill-opacity=".2" stroke="#E8C56C" stroke-width="4"/>
-    <text y="-16" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700">THRESHOLD</text>
-    <text y="22" text-anchor="middle" fill="#FFF7EC" font-family="Inter,Arial,sans-serif" font-size="19">effect ≠ deception</text>
-  </g>
-    <text x="800" y="575" text-anchor="middle" fill="#E8C56C" font-size="24">keep the before · name the change · refuse silent deception</text>
+  <rect width="1600" height="560" rx="30" fill="url(#ground-i-4-breakdown)"/>
+  <g font-family="Inter,Arial,sans-serif" fill="#FFF7EC">
+    <text x="76" y="70" font-size="18" font-weight="700" letter-spacing="3" fill="#E8C56C">DEMONSTRATION PLACEHOLDER</text>
+    <text x="76" y="110" font-size="28" font-weight="600">Predict the layer logic before the reveal</text>
+    <g transform="translate(76 148)">
+      <rect width="424" height="300" rx="20" fill="#10131C" stroke="#E8C56C" stroke-width="2"/>
+      <rect x="16" y="16" width="392" height="224" rx="12" fill="url(#grid-i-4-breakdown)" stroke="#FFF7EC" stroke-opacity=".18" stroke-dasharray="8 8"/>
+      <path d="M172 195V120c0-16 12-28 28-28s28 12 28 28v75m-56-45h56" fill="none" stroke="#E8C56C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+      <circle cx="200" cy="148" r="76" fill="none" stroke="#E8C56C" stroke-opacity=".26" stroke-width="2" stroke-dasharray="4 8"/>
+      <text x="36" y="276" font-size="16" font-weight="700" letter-spacing="2" fill="#E8C56C">01 / SOURCE</text>
+      <text x="388" y="276" text-anchor="end" font-size="15" opacity=".65">keep a recoverable before</text>
+    </g>
+    <path d="M520 300h74m-16-16 16 16-16 16" fill="none" stroke="#9BE2D1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(610 148)">
+      <rect width="424" height="300" rx="20" fill="#10131C" stroke="#F07C63" stroke-width="2"/>
+      <rect x="16" y="16" width="392" height="224" rx="12" fill="#151923" stroke="#FFF7EC" stroke-opacity=".18" stroke-dasharray="8 8"/>
+      <path d="M90 142h244M212 56v172" stroke="#FFF7EC" stroke-opacity=".12" stroke-width="2"/>
+      <path d="M146 176c-34-46 1-91 61-103 60 12 95 57 61 103-25 34-97 34-122 0Z" fill="#F07C63" fill-opacity=".25" stroke="#F07C63" stroke-width="3" stroke-dasharray="8 6"/>
+      <path d="M146 176c-34-46 1-91 61-103 60 12 95 57 61 103" fill="none" stroke="#F07C63" stroke-width="5" stroke-linecap="round"/>
+      <text x="36" y="276" font-size="16" font-weight="700" letter-spacing="2" fill="#F07C63">02 / MASK</text>
+      <text x="388" y="276" text-anchor="end" font-size="15" opacity=".65">select what changes</text>
+    </g>
+    <path d="M1054 300h74m-16-16 16 16-16 16" fill="none" stroke="#9BE2D1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(1144 148)">
+      <rect width="380" height="300" rx="20" fill="#10131C" stroke="#9BE2D1" stroke-width="2"/>
+      <rect x="16" y="16" width="348" height="224" rx="12" fill="url(#grid-i-4-breakdown)" stroke="#FFF7EC" stroke-opacity=".18" stroke-dasharray="8 8"/>
+      <circle cx="190" cy="128" r="66" fill="#9BE2D1" fill-opacity=".13" stroke="#9BE2D1" stroke-opacity=".8" stroke-width="3"/>
+      <path d="M146 144c20-34 32-36 48-9 20-38 35-38 53-5" fill="none" stroke="#E8C56C" stroke-width="7" stroke-linecap="round"/>
+      <path d="M138 185h104" stroke="#FFF7EC" stroke-opacity=".28" stroke-width="2" stroke-dasharray="6 7"/>
+      <text x="36" y="276" font-size="16" font-weight="700" letter-spacing="2" fill="#9BE2D1">03 / PREVIEW</text>
+      <text x="344" y="276" text-anchor="end" font-size="15" opacity=".65">name the visible change</text>
+    </g>
   </g>
 </svg>

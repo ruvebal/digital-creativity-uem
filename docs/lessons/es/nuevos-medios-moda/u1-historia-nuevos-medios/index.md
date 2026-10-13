@@ -9,6 +9,7 @@ lang: es
 permalink: /lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/
 description: 'Internet y las plataformas no son un fondo técnico: reconfiguran la relación marca–público; la historia es un mapa de poder mediático.'
 status: forged
+campaign_ids: [payup, patagonia-action-works, levis-buy-better-wear-longer, selfridges-project-earth]
 tags: [nuevos-medios-moda, u1, moda-digital, rrss]
 themes: [historia-internet-medios-digitales, transformacion-redes-sociales, plataformas-virtuales-comunicacion]
 master_idea: 'Internet y las plataformas no son un fondo técnico: reconfiguran la relación marca–público; la historia es un mapa de poder mediático.'
@@ -46,7 +47,7 @@ grounding_pass: 2026-09-25-refs-expansion
 
 {% include lesson-conceptual-graph-slot.html
   lang="es"
-  narrative="El gráfico debe hacer visible el mapa de poder mediático: quién habla, quién amplifica y quién mide cuando el medio pasa de canal a plataforma — y situar PayUp / Action Works / Levi’s / Project Earth como nodos de caso, no como adorno."
+  narrative="El gráfico debe hacer visible el mapa de poder mediático: quién habla, quién amplifica y quién mide cuando el medio pasa de canal a plataforma — con PayUp, Action Works, Levi’s Buy Better, Wear Longer y Project Earth como casos propios de U1."
 %}
 
 <!--
@@ -57,8 +58,9 @@ grounding_pass: 2026-09-25-refs-expansion
   Visibility labour · Campaign spillover · Metric of success.
   Edges: Medium reshapes Brand↔Public; Public produces Visibility labour;
   Campaign spillover feeds Metric; Metric feeds back into Platform power.
-  Attach case leaves (not quote boxes): PayUp (Track C), Action Works (A),
-  Levi’s BBWL (A), Project Earth (A). Prefer SVG from visual-forger; cite only
+  Attach case leaves (not quote boxes): PayUp (Track C), Action Works (Track A),
+  Levi’s Buy Better, Wear Longer (Track A), Project Earth (Track A).
+  Prefer SVG from visual-forger; cite only
   via lesson Chicago when a label needs a page. Publication firewall: no
   internal identifiers in the figure.
 -->
@@ -98,9 +100,9 @@ Al final de esta unidad podrás:
 | 1 | La historia de medios es mapa de poder | (Nobile 2021, 294) · (Lamerichs 2024, 3) | **PayUp** rank 1 · **Track C** — (UNEP 2023, 80) | No es una crónica general de Internet |
 | 2 | La transformación digital toca toda la moda | (Nobile 2021, 294) | **Action Works** rank 6 · **Track A** — (UNEP 2023, 79) | No prescribe un roadmap de marca |
 | 3 | El medio reescribe marca–público | (Abidin 2016, 1) · (UNEP 2023, 27) | **Levi’s** rank 8 · **Track A** — (UNEP 2023, 55) | Abidin = Instagram; UNEP = brainprint + caso Levi’s |
-| 4 | Glosario activo | (Abidin 2016, 2) + postura de estudio | Banco ranks: PayUp(1) · **Benetton/COLORS(5)** · Action Works(6) · Levi’s(8) · Project Earth(9) | Lexicografía pedagógica aún abierta; Benetton pendiente de verificación bibliográfica |
+| 4 | Glosario activo | (Abidin 2016, 2) + postura de estudio | PayUp(1) · Action Works(6) · Levi’s(8) · Project Earth(9) | Lexicografía pedagógica aún abierta |
 
-Banco canónico de campañas: ledger docente de casos verificados; consultar las fuentes públicas enlazadas en cada entrada.
+Banco de casos de U1: PayUp · Patagonia Action Works · Levi’s Buy Better, Wear Longer · Selfridges Project Earth.
 
 ---
 
@@ -108,7 +110,7 @@ Banco canónico de campañas: ledger docente de casos verificados; consultar las
 
 ### 1. La historia es un mapa de poder
 
-La historia de la moda no es una línea de fechas: cada salto técnico cambia **quién** puede definir lo visible — vapor, electricidad, pantalla, feed (Nobile 2021, 294). Hoy ese mapa no se cierra en la fábrica: la *platformization* circula y monetiza cuerpos digitales en mundos online (Lamerichs 2024, 3). Un caso vivo de redistribución de poder *fuera* del escaparate: **PayUp / #PayUp** (Remake, 2020) — coalición viral por salarios y contratos cancelados en la pandemia, no un spot de producto (United Nations Environment Programme 2023, 80). ¿Quién gana visibilidad cuando el “nuevo medio” es un algoritmo y no un canal de televisión? La respuesta no es “todos publican”: es una redistribución de poder con nuevas exclusiones.
+La historia de la moda no es una línea de fechas: cada salto técnico cambia **quién** puede definir lo visible — vapor, electricidad, pantalla, feed (Nobile 2021, 294). Hoy ese mapa no se cierra en la fábrica: la *platformization* circula y monetiza cuerpos digitales en mundos online (Lamerichs 2024, 3). Un caso vivo de redistribución de poder *fuera* del escaparate: **PayUp / #PayUp** (Remake, 2020) — coalición viral por salarios y contratos cancelados durante la pandemia, no un spot de producto (United Nations Environment Programme 2023, 80). ¿Quién gana visibilidad cuando el “nuevo medio” es un algoritmo y no un canal de televisión? La respuesta no es “todos publican”: es una redistribución de poder con nuevas exclusiones.
 
 > Throughout history, technological advancements have shaped the nature of fashion: the first industrial revolution contributed to the mechanisation of fashion manufacture by exploiting water and steam power, the second revolution accelerated fashion production through the invention of electricity
 >
@@ -134,19 +136,19 @@ La historia de la moda no es una línea de fechas: cada salto técnico cambia **
 -->
 {% endif %}
 
-> PayUp was a campaign launched by global advocacy organisation Remake in 2020 to recover the USD 40 billion owed by brands to suppliers for clothing already in production or completed prior to the COVID-19 pandemic.
->
-> — (United Nations Environment Programme 2023, 80)
-
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
   ahmes_coat: 08e2ea03
   node_id: b0be3bfd-7087-513a-8a90-427b60761ff0
   evaluator_safe: true
   campaign: PayUp
-  track: A
+  track: C
 -->
 {% endif %}
+
+> PayUp was a campaign launched by global advocacy organisation Remake in 2020 to recover the USD 40 billion owed by brands to suppliers for clothing already in production or completed prior to the COVID-19 pandemic.
+>
+> — (United Nations Environment Programme 2023, 80)
 
 ### 2. La transformación digital toca toda la moda
 
@@ -164,10 +166,6 @@ Comunicación y marketing digitales no son un anexo al catálogo: rehacen la rel
 -->
 {% endif %}
 
-> Patagonia Action Works is a platform from outerwear brand Patagonia that aims to connect individuals with grassroots groups so they can help take action on some of the most pressing issues facing the world today. It invites the public to participate through events, petitions, skilled volunteer opportunities and donations.
->
-> — (United Nations Environment Programme 2023, 79)
-
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
   ahmes_coat: 08e2ea03
@@ -177,6 +175,10 @@ Comunicación y marketing digitales no son un anexo al catálogo: rehacen la rel
   track: A
 -->
 {% endif %}
+
+> Patagonia Action Works is a platform from outerwear brand Patagonia that aims to connect individuals with grassroots groups so they can help take action on some of the most pressing issues facing the world today. It invites the public to participate through events, petitions, skilled volunteer opportunities and donations.
+>
+> — (United Nations Environment Programme 2023, 79)
 
 ### 3. El medio reescribe la relación marca–público
 
@@ -252,7 +254,7 @@ Un término del glosario solo cuenta si lo anclas a un caso vivo. “Advertorial
 
 ### Perspectiva crítica
 
-La crítica de plataforma (poder, datos, trabajo, divulgación, sostenibilidad) atraviesa esta unidad; no se aplaza a un módulo ético separado. Distingue siempre **tres pistas**: (A) campaña de marca/diseñador · (B) marco España–Ibero · (C) activismo de movimiento (boicot, ocupación, carnaval/costume) — no son intercambiables. Casos B/C (p. ej. presión a Inditex, Carnaval de Gualeguaychú) se nombran como investigación y solo entran como cita cuando exista una fuente pública verificable.
+La crítica de plataforma (poder, datos, trabajo, divulgación, sostenibilidad) atraviesa esta unidad; no se aplaza a un módulo ético separado. Distingue siempre **tres pistas**: (A) campaña de marca/diseñador · (B) marco España–Ibero · (C) activismo de movimiento (boicot, ocupación, carnaval/costume) — no son intercambiables.
 
 ---
 
@@ -262,7 +264,7 @@ Modalidad **online**. Entrega en Campus Virtual.
 
 **Actividad:** glosario de términos clave + línea de tiempo marca–público.
 
-Tres capas: **estrategia · crítica · estudio**. En la línea de tiempo, incluye al menos **dos campañas del banco** (PayUp, Action Works, Levi’s, Project Earth) con año y spillover — más un hito con (Abidin 2016) o (Lamerichs 2024) y otro con (Nobile 2021). No solo nombres de apps.
+Tres capas: **estrategia · crítica · estudio**. En la línea de tiempo, incluye al menos **dos campañas de U1** (PayUp, Action Works, Levi’s o Project Earth) con año y spillover — más un hito con (Abidin 2016) o (Lamerichs 2024) y otro con (Nobile 2021). No solo nombres de apps.
 
 ---
 
@@ -274,16 +276,26 @@ Mini-caso o quiz de cierre en Canvas. Evidencia individual.
 
 ## Referencias
 
-- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers’ Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia*. https://doi.org/10.1177/1329878X16665177.
-- Lamerichs, Nicolle. 2024. “Towards a Responsible Metaverse.” In *The Metaverse Experience*, transcript Verlag. https://doi.org/10.14361/9783839474624-013.
-- Nobile, Tekila Harley, Alice Noris, Nadzeya Kalbaska, and Lorenzo Cantoni. 2021. “A Review of Digital Fashion Research: Before and Beyond Communication and Marketing.” *International Journal of Fashion Design, Technology and Education* 14 (3): 293–301. https://doi.org/10.1080/17543266.2021.1931476.
-- United Nations Environment Programme. 2023. *The Sustainable Fashion Communication Playbook*. Nairobi: UNEP. https://doi.org/10.59117/20.500.11822/42819.
+### Fuentes de casos de campaña
+
+- **#PayUp** (Remake, 2020–): [balance de la campaña a dos años](https://remake.world/stories/payup-two-years-later/){:target="_blank" rel="noopener noreferrer"} — presión pública y compromisos de pago tras las cancelaciones de pedidos.
+- **Patagonia Action Works** (2018–): [anuncio de lanzamiento](https://www.patagoniaworks.com/press/2018/2/6/patagonia-gives-customers-a-way-to-fight-for-the-planet){:target="_blank" rel="noopener noreferrer"} — plataforma que conecta al público con organizaciones y acciones.
+- **Levi’s Buy Better, Wear Longer** (2021–): [presentación de la campaña](https://www.levistrauss.com/2021/04/22/levis-launches-buy-better-wear-longer-campaign/){:target="_blank" rel="noopener noreferrer"} — mensaje de consumo responsable que la unidad contrasta con los incentivos de venta.
+- **Selfridges Project Earth** (2020–): [anuncio de lanzamiento](https://selfridgespress.com/2020/08/17/selfridges-unveils-transformational-sustainability-initiative-project-earth/){:target="_blank" rel="noopener noreferrer"} — iniciativa de reparación, reventa y alquiler usada como caso de comunicación circular.
+
+### Bibliografía académica
+
+- United Nations Environment Programme. 2023. *The Sustainable Fashion Communication Playbook*. Nairobi: UNEP. <a href="https://doi.org/10.59117/20.500.11822/42819" target="_blank" rel="noopener noreferrer">https://doi.org/10.59117/20.500.11822/42819</a>.
+
+- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers’ Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia*. <a href="https://doi.org/10.1177/1329878X16665177" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/1329878X16665177</a>.
+- Lamerichs, Nicolle. 2024. “Towards a Responsible Metaverse.” In *The Metaverse Experience*, transcript Verlag. <a href="https://doi.org/10.14361/9783839474624-013" target="_blank" rel="noopener noreferrer">https://doi.org/10.14361/9783839474624-013</a>.
+- Nobile, Tekila Harley, Alice Noris, Nadzeya Kalbaska, and Lorenzo Cantoni. 2021. “A Review of Digital Fashion Research: Before and Beyond Communication and Marketing.” *International Journal of Fashion Design, Technology and Education* 14 (3): 293–301. <a href="https://doi.org/10.1080/17543266.2021.1931476" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2021.1931476</a>.
 
 ---
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-B1 frío revisado; HTML estudiantil sin nombres de herramientas internas. Banco de campañas = ledger docente `20260925T200000Z` (no banco de citas Chicago).
+B1 frío revisado; HTML estudiantil sin nombres de herramientas internas. Las fuentes públicas de los casos de campaña se recogen en Referencias.
 
 **Addressed-to-editor — media slots:** ship the conceptual graph via `visual-forger` (diagram) after a `grounding-graph` narrative brief (comment above the slot). Commission the naturalistic photo with the generator prompt in the HTML comment; review rights + text contrast before wiring `background_url` on Masterclass slides in `docs/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/data/content.json`. Until then, keep the student-facing placeholders.
 

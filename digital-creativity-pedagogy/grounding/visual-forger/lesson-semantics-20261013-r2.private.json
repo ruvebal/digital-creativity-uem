@@ -1,0 +1,65 @@
+{
+  "release_id": "lesson-semantics-20261013-r2",
+  "created": "2026-10-13",
+  "base_commit": "825c4970b368093a88cf4d44a6d4509d7db80eb8",
+  "curriculum_basis": {
+    "institutional_forge": "digital-creativity-pedagogy/dc-cv-forge.mdc",
+    "lesson_forge": "digital-creativity-pedagogy/dc-unit-forge.mdc",
+    "lesson_source": [
+      "docs/lessons/en/digital-creativity-i/i-3-color-bitmaps/index.md",
+      "docs/lessons/en/digital-creativity-i/i-4-effects/index.md"
+    ],
+    "note": "The CV forge governs course-guide contracts; the image prompts were constrained by the actual lesson outcomes and media-placeholder contract, rather than treating the CV forge as an image-prompt generator."
+  },
+  "skills": [
+    {
+      "name": "curriculum-forger",
+      "version": "1.1.0",
+      "role": "Curriculum and lesson objectives provide the semantic boundaries for each visual."
+    },
+    {
+      "name": "visual-forger",
+      "version": "1.2.0",
+      "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+      "sha256": "eaa2d06b9c176c1ec8eb66fc62e76812d4596672ef6edccb050a06208a070fe9",
+      "role": "Authored the reproducible vector workflow and public SVG/PNG release."
+    },
+    {
+      "name": "imagegen",
+      "role": "Generated two illustrative raster assets from lesson-bounded prompts."
+    }
+  ],
+  "toolchain": {
+    "vector_source": "authored SVG",
+    "png_export": "rsvg-convert 2.61.4",
+    "imagegen_originals_preserved": true
+  },
+  "assets": [
+    {
+      "id": "dc-i3-colour-viewing-conditions-20261013-r1",
+      "source_png_sha256": "dac07f34c73023adcdb8ad8a6b51bd6a8270f89c92f6849c92371b5ed3df1ca1",
+      "display_jpeg_sha256": "53823c785f5de2f16835a7abedbfe8dab83e5422cb54995c575e71a301d4f338",
+      "created_with": "OpenAI ImageGen",
+      "lesson": "I.3 · colour",
+      "media_slot_id": "I.3.video.colour-workflow",
+      "prompt": "Premium editorial documentary photograph, landscape 3:2, for a university lesson about digital bitmap colour. In a calm fashion-design studio, only an adult designer's hands are visible comparing one cobalt-blue woven textile swatch beside an unbranded calibrated desktop display showing a close-up of the same textile. A neutral grey card and a small physical colour reference strip rest nearby, with no readable writing. Let the physical fabric, luminous screen, and warm ambient studio reflection suggest that a colour is encountered through different viewing conditions; keep the swatch the visual anchor. Tactile fibres, precise natural light, restrained warm-paper and deep-cobalt palette, elegant negative space, sophisticated documentary realism. The image should invite questions about the path from object to screen to viewer, without claiming one rendering is objectively correct. No logos, legible text, UI labels, charts, extra swatches, gradients, or advertising treatment."
+    },
+    {
+      "id": "dc-i4-effects-mask-workflow-20261013-r1",
+      "source_png_sha256": "6c80a4d6ea3536eab49691e481aa2d3f10ac467ffa9f18cafd9c89b379fa6a26",
+      "display_jpeg_sha256": "7479178dd65c314ec91bbfd11e7325d6de79c3245ee73122063fa95f33a6ba63",
+      "created_with": "OpenAI ImageGen",
+      "lesson": "I.4 · effects",
+      "media_slot_id": "I.4.video.effect-breakdown",
+      "prompt": "Create a premium editorial teaching illustration, wide landscape 3:2, for a university lesson about non-destructive image effects. Show one carefully aligned three-stage contact sheet of the same fictional fashion still-life: a sculptural ivory paper garment on a headless mannequin against a quiet studio backdrop. Left frame: neutral source photograph, all details intact. Center frame: the same photograph on a separate translucent acetate sheet with a precise cut-out mask around only the backdrop and soft directional marks; visibly preserve the original print underneath. Right frame: the same composition after a restrained warm tonal grade and fine film grain applied only to the backdrop, while the garment shape, seam, hem, and mannequin remain unchanged. The three images must align and depict the identical garment and camera framing. A few physical layers of transparent acetate and photo paper can float above a clean worktable, making the mask and source separation tangible without looking like a software screenshot. Sophisticated fashion editorial art direction, tactile paper fibers, soft museum light, limited warm white, charcoal, and muted coral palette, excellent detail, generous negative space, legible at lesson-page width. No text, labels, interface, logos, extra garment, people, before/after arrows, or false brand/product claims. The visual should teach that an effect can alter mood while retaining the represented object and that an editable mask keeps the decision inspectable."
+    },
+    {
+      "id": "dc-i4-effects-reversible-workflow-20261013-r1",
+      "svg_sha256": "c34184b5cf1f9cfb3288dad38e13c858b84338676bb32b91f1841b840cda36c6",
+      "png_sha256": "6f3e3a663f08c1f533291e63802d0a235b1d2b7c761b47d3ca65ec8b31d392bd",
+      "lesson": "I.4 · effects",
+      "media_slot_id": "I.4.graphic.layer-stack",
+      "prompt": "Create a compact, student-readable five-step vector workflow: preserve the source image; select only the intended region with an editable mask; apply the effect on a separate editable layer; compare detail and image claim with the source; export with a one-line disclosure. Include a visible review loop from comparison back to the effect layer. Use concise labels, accessible contrast, no universal ethical threshold, and make the diagram add operational information beyond the lesson prose."
+    }
+  ]
+}

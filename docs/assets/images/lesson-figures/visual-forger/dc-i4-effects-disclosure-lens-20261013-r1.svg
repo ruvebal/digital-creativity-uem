@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 392" role="img" aria-labelledby="title desc">
+  <title id="title">A working lens for judging image effects</title>
+  <desc id="desc">A two-axis matrix compares how much an edit changes the image's claim with whether that change is disclosed. Disclosure and a changed claim still require contextual judgment; an undisclosed claim change carries deception risk.</desc>
+  <style>
+    .ink{fill:#111111}.muted{fill:#444441}.axis{stroke:#5F5E5A}.neutral{fill:#F1EFE8}.teal{fill:#9FE1CB}.coral{fill:#F5C4B3}.paper{fill:#F7F2E8}
+    @media(prefers-color-scheme:dark){.ink{fill:#F7F2E8}.muted{fill:#D3D1C7}.axis{stroke:#888780}.neutral{fill:#444441}.teal{fill:#085041}.coral{fill:#712B13}.paper{fill:#2C2C2A}}
+  </style>
+  <rect class="paper" width="680" height="392"/>
+  <text class="ink" x="40" y="34" font-family="Arial,sans-serif" font-size="18" font-weight="500">A working lens for judging effects</text>
+  <text class="muted" x="40" y="58" font-family="Arial,sans-serif" font-size="13" font-weight="400">The amount of editing alone does not settle the question.</text>
+
+  <g transform="translate(178 86)">
+    <rect class="teal" x="0" y="0" width="198" height="112" rx="4"/>
+    <rect class="teal" x="198" y="0" width="198" height="112" rx="4"/>
+    <rect class="neutral" x="0" y="112" width="198" height="112" rx="4"/>
+    <rect class="coral" x="198" y="112" width="198" height="112" rx="4"/>
+    <path d="M198 0v224M0 112h396" fill="none" stroke="#5F5E5A" stroke-width="1" opacity=".55"/>
+    <g font-family="Arial,sans-serif">
+      <text class="ink" x="16" y="37" font-size="14" font-weight="500">Disclosed stylisation</text>
+      <text class="muted" x="16" y="59" font-size="12" font-weight="400">mood changes; facts hold</text>
+      <text class="ink" x="214" y="37" font-size="14" font-weight="500">Declared alteration</text>
+      <text class="muted" x="214" y="59" font-size="12" font-weight="400">claim changes; named openly</text>
+      <text class="ink" x="16" y="149" font-size="14" font-weight="500">Context + purpose</text>
+      <text class="muted" x="16" y="171" font-size="12" font-weight="400">claim shifts little</text>
+      <text class="ink" x="214" y="149" font-size="14" font-weight="500">Deception risk</text>
+      <text class="muted" x="214" y="171" font-size="12" font-weight="400">claim shifts silently</text>
+    </g>
+  </g>
+
+  <g class="axis" fill="none" stroke-width="1.5" stroke-linecap="round">
+    <path d="M160 310V91m-6 7 6-7 6 7M178 328h404m-7-6 7 6-7 6"/>
+  </g>
+  <g class="muted" font-family="Arial,sans-serif" font-size="12" font-weight="400">
+    <text x="178" y="352">Little change to the image's claim</text>
+    <text x="582" y="352" text-anchor="end">Much change</text>
+    <text x="40" y="78">Disclosure</text>
+    <text x="154" y="94" text-anchor="end">Yes</text>
+    <text x="154" y="308" text-anchor="end">No</text>
+  </g>
+  <text class="muted" x="378" y="382" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="400">Audience, purpose, and context move the working threshold.</text>
+</svg>

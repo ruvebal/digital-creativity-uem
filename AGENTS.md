@@ -8,6 +8,7 @@
 **Special analysis unit (fashion image):** `digital-creativity-pedagogy/forge/FASHION-IMAGE-ANALYSIS-FORGE.mdc` + `FASHION-IMAGE-ANALYSIS.execute.md` — shared frame `~/src/profield/runs/curriculum-analysis-guides/20260927-special-analysis/SHARED-ANALYSIS-FRAME.md` (sibling: CT creative-process analysis forge).
 
 **Unit forge:** `dc-unit-forge.mdc` · **Session + D1–D5 (∥ TC):** `forge/SESSION-RHYTHM-AND-DELIVERABLES.mdc` · **Slideshow:** `forge/STUDENT-SLIDESHOW-FORGE.mdc` (`lab_opener` geometrical before portfolio Lab) · **CV forge:** `dc-cv-forge.mdc`.  
+**NM campaign allocation law:** campaign examples may appear in only one lesson across U1–U6; maintain `digital-creativity-pedagogy/forge/NM-CAMPAIGN-ALLOCATION-INDEX.md`. If Profield's ranked bank lacks a critical advertising case, supplement with an explicitly unranked case supported by primary/regulatory or reliable consumer research. Never fabricate a Profield rank or repeat a case across lessons. Run `npm run verify:nm-campaigns` after each NM forge.
 **Execute Wave 1:** `digital-creativity-pedagogy/forge/CD-II-II.5.execute.md` (filled; do not re-template).  
 **Readiness:** `TEACHING-READINESS.mdc`. **Forge-ready:** unit IDs + evidence matrix + consent drafts; DPO still open.  
 **Consent:** `digital-creativity-pedagogy/consent/` (unpublished).  

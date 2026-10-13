@@ -3,13 +3,13 @@ layout: null
 ---
 {
   "unit_label": "Nuevos medios · U3",
-  "final_event_theme": "¿Qué métrica eliges — impresiones Benetton o firmas/USD PayUp — y por qué?",
+  "final_event_theme": "¿Qué pregunta y evidencia exige cada campaña: Benetton o Gualeguaychú?",
   "media_selection": {
     "unit_id": "U3",
     "project_id": "nm",
     "collection": "unit-accepted",
     "strategy": "geometrical-first",
-    "description": "NM decks: geometrical openers; campaign Caso: from MAIN-IDEAS / ledger ranks."
+    "description": "NM decks: geometrical openers; exclusive campaign cases from the course allocation index."
   },
   "assets": [],
   "slides": [
@@ -49,8 +49,8 @@ layout: null
       "slide_role": "masterclass",
       "background_kind": "diagram",
       "heading": "Shock ≠ prueba de impacto social",
-      "sentence": "La controversia mide atención; no demuestra salarios pagados ni emisiones bajadas.",
-      "prompt": "Caso: Benetton (rank 5) vs PayUp (rank 1) — debate vs USD/firmas.",
+      "sentence": "La controversia mide atención; no demuestra por sí sola un cambio social.",
+      "prompt": "Caso: Benetton (rank 5 · Track A) vs Carnaval de Gualeguaychú (rank 3 · Track C) — publicidad de marca vs activismo de vestuario.",
       "quote": "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption",
       "quote_origin": "page_verified",
       "citation": {
@@ -61,15 +61,9 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "diagram",
-      "heading": "El green claim es una apuesta reputacional",
-      "sentence": "Si tu claim no aguanta evidencia, no es marketing inteligente: es deuda de confianza.",
-      "prompt": "Caso: Levi’s Buy Better, Wear Longer (rank 8) — suficiencia vs incentivos de venta.",
-      "quote": "Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in…",
-      "quote_origin": "page_verified",
-      "citation": {
-        "label": "(United Nations Environment Programme 2023, 26)",
-        "href": "/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/#referencias"
-      }
+      "heading": "La representación también necesita contexto",
+      "sentence": "Una campaña puede declarar una causa y también decidir quién aparece, habla y mira.",
+      "prompt": "Caso: Fashion to be Free (rank 4) — libertad de vestir y mirada poscolonial."
     },
     {
       "slide_role": "masterclass",
@@ -78,6 +72,15 @@ layout: null
       "sentence": "Ropa Limpia en la junta no es un purpose film de Inditex: es conflicto mediático organizado.",
       "prompt": "Caso: SETEM / Ropa Limpia × Inditex AGM (rank 7) — Track B/C.",
       "quote": "Ropa Limpia en la junta no es un purpose film de Inditex: es conflicto mediático organizado.",
+      "quote_origin": "tao_invented"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Cuando el cuerpo desplaza al producto",
+      "sentence": "Relaciona encuadre, producto anunciado y representación antes de juzgar el estereotipo.",
+      "prompt": "Caso crítico suplementario: Jigsaw AW21 “Into the Woods”. ASA encontró objetificación y estereotipo sexual en un email concreto y ordenó no volver a publicarlo en esa forma.",
+      "quote": "Relaciona encuadre, producto anunciado y representación antes de juzgar el estereotipo.",
       "quote_origin": "tao_invented"
     },
     {
@@ -92,7 +95,7 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "none",
       "heading": "Ejercicio 1",
-      "sentence": "Elige ranks 5, 8, 1 o 7: Track A/B/C + URL canónica del ledger + métrica vs métrica exigida.",
+      "sentence": "Elige ranks 3, 4, 5 o 7, o el caso ASA de Jigsaw AW21: fuente + evidencia + relación entre imagen y producto.",
       "portfolio_bound": true,
       "portfolio_trace": "Guarda el boceto / análisis en Canvas."
     },
@@ -100,7 +103,7 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "none",
       "heading": "Ejercicio 2",
-      "sentence": "En dos frases: ¿por qué PayUp y Benetton no comparten la misma rúbrica de «campaña ética»?",
+      "sentence": "En dos frases, explica qué imagen concreta motivó el fallo de ASA sobre Jigsaw AW21.",
       "portfolio_bound": true,
       "portfolio_trace": "Guarda la ficha en Canvas."
     },
@@ -109,7 +112,7 @@ layout: null
       "background_kind": "geometrical",
       "background_url": "/assets/images/fractal-pass-track/uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
       "heading": "Para llevar",
-      "sentence": "¿Qué métrica eliges — impresiones Benetton o firmas/USD PayUp — y por qué?",
+      "sentence": "¿Qué pregunta y evidencia exige cada campaña — y qué hace responsable a un anuncio?",
       "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79"
     }
   ]

@@ -9,6 +9,7 @@ lang: es
 permalink: /lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/
 description: 'Una estrategia digital de moda es un sistema de presencia — voz, formatos, métricas e hipótesis — no un calendario de posts.'
 status: forged
+campaign_ids: [fashion-revolution, good-clothes-fair-pay, moda-livre, compartir-momentos, shein-creator-haul-marketing]
 tags: [nuevos-medios-moda, u2, moda-digital, rrss]
 themes: [diseno-estrategias-digitales, herramientas-metricas, posicionamiento-plataformas]
 master_idea: 'Una estrategia digital de moda es un sistema de presencia — voz, formatos, métricas e hipótesis — no un calendario de posts.'
@@ -59,10 +60,11 @@ Al final de esta unidad podrás:
 
 | Idea | Claim corto | Evidencia SAFE | Caso vivo (campaña · Track) | Qué no hace esta fuente |
 | --- | --- | --- | --- | --- |
-| 1 | Sistema de presencia, no calendario | (Nobile 2021, 294) · (Abidin 2016, 2) | **Action Works** rank 6 · **Track A** — (UNEP 2023, 79) | Nobile mapea; Abidin = trabajo de visibilidad |
-| 2 | Atractivo ≠ solo información | (UNEP 2023, 49) | **Project Earth** rank 9 · **Track A** — (UNEP 2023, 56) | No es un manual de copy |
-| 3 | Las métricas son decisiones | (UNEP 2023, 27) | **Levi’s** rank 8 · **A** vs **PayUp** rank 1 · **C** — (UNEP 2023, 55 · 80) | No valida un KPI concreto de marca |
-| 4 | Transparencia bajo presión de claims | (UNEP 2023, 26) · (Alkkiomäki 2024, 2) | Audita Levi’s(8) o Project Earth(9); Alkkiomäki = H&M/Lindex | UNEP = claims UE; Alkkiomäki = CDA Instagram |
+| 1 | Sistema de presencia, no calendario | (Nobile 2021, 294) · (Abidin 2016, 2) | **Fashion Revolution** rank 2 · **Track C** | Transparencia no equivale a justicia laboral |
+| 2 | Movilizar no equivale a legislar | Registro oficial de la ECI | **Good Clothes, Fair Pay** rank 12 · **Track C** | La agenda pública no equivale a una ley aprobada |
+| 3 | Las métricas son decisiones | (UNEP 2023, 27) | **#CompartirMomentos** rank 13 · **A/B** vs **Moda Livre** rank 11 · **B** | Alcance comunicado y descargas son cifras atribuidas, no impacto independiente |
+| 4 | Transparencia bajo presión de claims | (UNEP 2023, 26) · (Alkkiomäki 2024, 2) | **Moda Livre** rank 11 · **Track B**; Alkkiomäki analiza H&M/Lindex | UNEP = claims UE; Alkkiomäki = CDA Instagram |
+| 5 | Influencia no equivale a recomendación independiente | BEUC (2025), seguimiento de publicaciones de moda | **SHEIN Creator Center / haul influencer marketing** · caso crítico suplementario | La evidencia documenta ejemplos concretos; no permite afirmar que todo haul sea pagado ni que toda publicación oculte publicidad |
 
 Banco canónico: ledger de campañas docentes del curso.
 
@@ -72,7 +74,7 @@ Banco canónico: ledger de campañas docentes del curso.
 
 ### 1. Sistema de presencia, no calendario
 
-Antes de programar posts, escribe voz, formatos, hipótesis de fallo y cómo sabrás que fallan. La transformación digital rehízo comunicación y marketing de moda como relación con el público (Nobile 2021, 294). Una estrategia seria también cuenta el trabajo de visibilidad que influencers y seguidores producen en campañas ancladas — amplificación poco remunerada (Abidin 2016, 2). **Patagonia Action Works** fuerza la pregunta de presencia: formatos = eventos, peticiones, voluntariado cualificado y donaciones — no un calendario de outfits (United Nations Environment Programme 2023, 79). ¿Qué parte de tu “presencia” es calendario y qué parte es sistema que otros trabajan por ti?
+Antes de programar posts, escribe voz, formatos, hipótesis de fallo y cómo sabrás que fallan. La transformación digital rehízo comunicación y marketing de moda como relación con el público (Nobile 2021, 294). Una estrategia seria también cuenta el trabajo de visibilidad que influencers y seguidores producen en campañas ancladas — amplificación poco remunerada (Abidin 2016, 2). **Fashion Revolution / #WhoMadeMyClothes** convierte una pregunta sobre producción en una llamada pública de transparencia; su índice permite observar divulgación, pero revelar información no demuestra por sí solo salarios justos. ¿Qué parte de tu “presencia” hace visible una cadena y qué parte permite comprobar sus condiciones?
 
 > The digital transformation has impacted all the facets of fashion. First of all fashion communication and marketing, through the adoption of digital tools creates a fertile ground for the improvement of business and customer relationships
 >
@@ -98,53 +100,13 @@ Antes de programar posts, escribe voz, formatos, hipótesis de fallo y cómo sab
 -->
 {% endif %}
 
-> Patagonia Action Works is a platform from outerwear brand Patagonia that aims to connect individuals with grassroots groups so they can help take action on some of the most pressing issues facing the world today. It invites the public to participate through events, petitions, skilled volunteer opportunities and donations.
->
-> — (United Nations Environment Programme 2023, 79)
+### 2. Movilizar no equivale a legislar
 
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-  ahmes_coat: 08e2ea03
-  node_id: b1986114-5852-5023-b085-9cd2f654912c
-  evaluator_safe: true
-  campaign: Patagonia Action Works
-  track: A
--->
-{% endif %}
-
-### 2. Atractivo ≠ solo información
-
-Una opción más sostenible que nadie desea es un fracaso de comunicación, no solo un debate ético. Los comunicadores deben usar oficio y presupuesto para hacer atractiva la opción mejor — más allá del mensaje informativo (United Nations Environment Programme 2023, 49). **Selfridges Project Earth** (2020) traduce eso a retail: Materials · Models · Mindsets y ecosistema Reselfridges (resale, rental, refill, repair) — circularidad como oferta deseable, no solo panfleto (United Nations Environment Programme 2023, 56). ¿Quién decide qué cuenta como “atractivo” en tu público, y qué queda fuera del feed?
-
-> this is about communicators using their skills and budgets to make the more sustainable option the most attractive one
->
-> — (United Nations Environment Programme 2023, 49)
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-  ahmes_coat: 08e2ea03
-  node_id: 6f29a6c4-c6a8-53ed-b61c-9c59e558d887
-  evaluator_safe: true
--->
-{% endif %}
-
-> U.K retailer Selfridges launched Project Earth in 2020 to change the way people shop and the way it does business, and to create a more sustainable future for people and planet.
->
-> — (United Nations Environment Programme 2023, 56)
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-  ahmes_coat: 08e2ea03
-  node_id: 39af4abd-c51a-5399-9207-1916ae5ae9fb
-  evaluator_safe: true
-  campaign: Selfridges Project Earth
-  track: A
--->
-{% endif %}
+**Good Clothes, Fair Pay** llevó la demanda de salarios dignos a una Iniciativa Ciudadana Europea: reunió alrededor de 240.000 firmas, pero no alcanzó el millón necesario para superar el umbral. La iniciativa puso una propuesta en la agenda pública; no aprobó una ley ni consiguió un cambio legislativo por esa vía. En una estrategia digital, explica con precisión qué puede lograr una firma y qué depende de las instituciones después.
 
 ### 3. Las métricas son decisiones
 
-Cada KPI elige qué cuenta como éxito y qué queda invisible. A escala sectorial, la moda mueve *brainprint*: la influencia de lo que pone en el mundo sobre el consumo (United Nations Environment Programme 2023, 27). Compara dos éxitos distintos: **Levi’s Buy Better, Wear Longer** reporta alza de menciones y sentimiento (United Nations Environment Programme 2023, 55); **PayUp** mide USD recuperados y firmas de petición (United Nations Environment Programme 2023, 80). Si tu dashboard premia solo clics, ¿qué hipótesis de marca estás dejando de poner a prueba?
+Cada KPI elige qué cuenta como éxito y qué queda invisible. A escala sectorial, la moda mueve *brainprint*: la influencia de lo que pone en el mundo sobre el consumo (United Nations Environment Programme 2023, 27). **#CompartirMomentos** permite preguntar quién comunica el alcance de una campaña de salud pública; **Moda Livre** convierte la información sobre prácticas laborales en una herramienta para comparar marcas. La investigación disponible atribuye las cifras de alcance a portavoces y las descargas de la app a sus responsables: son señales de actividad, no pruebas independientes de impacto. Si tu dashboard premia solo clics, ¿qué hipótesis estás dejando de poner a prueba?
 
 > Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption
 >
@@ -158,37 +120,9 @@ Cada KPI elige qué cuenta como éxito y qué queda invisible. A escala sectoria
 -->
 {% endif %}
 
-> The multi-platform Buy Better, Wear Longer campaign from denim brand Levi's was unveiled in 2021 focused on responsible production, reduced consumption and less waste.
->
-> — (United Nations Environment Programme 2023, 55)
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-  ahmes_coat: 08e2ea03
-  node_id: 4e533bfb-e976-5dea-baa7-24892ba4a56b
-  evaluator_safe: true
-  campaign: Buy Better Wear Longer
-  track: A
--->
-{% endif %}
-
-> PayUp was a campaign launched by global advocacy organisation Remake in 2020 to recover the USD 40 billion owed by brands to suppliers for clothing already in production or completed prior to the COVID-19 pandemic.
->
-> — (United Nations Environment Programme 2023, 80)
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-  ahmes_coat: 08e2ea03
-  node_id: b0be3bfd-7087-513a-8a90-427b60761ff0
-  evaluator_safe: true
-  campaign: PayUp
-  track: A
--->
-{% endif %}
-
 ### 4. Transparencia bajo presión de claims
 
-Si el claim no aguanta evidencia, no es estrategia: es riesgo. A escala UE, más de la mitad de los claims ambientales analizados eran vagos, engañosos o sin fundamento (United Nations Environment Programme 2023, 26). En Instagram, marcas de fast fashion movilizan claims de sostenibilidad para legitimar un modelo controvertido — autorización, racionalización, evaluación moral, mitopoiesis (Alkkiomäki 2024, 2). Practica la distinción con **Levi’s** o **Project Earth** (casos UNEP con impacto reportado) frente a la legitimación visual de H&M/Lindex en Alkkiomäki. ¿Cómo distinguirías un claim con pruebas de una estrategia de legitimación visual?
+Si el claim no aguanta evidencia, no es estrategia: es riesgo. A escala UE, más de la mitad de los claims ambientales analizados eran vagos, engañosos o sin fundamento (United Nations Environment Programme 2023, 26). En Instagram, marcas de fast fashion movilizan claims de sostenibilidad para legitimar un modelo controvertido — autorización, racionalización, evaluación moral, mitopoiesis (Alkkiomäki 2024, 2). Practica la distinción con **Moda Livre**, que organiza información comparativa sobre marcas, frente a la legitimación visual de H&M/Lindex analizada por Alkkiomäki. ¿Cómo distinguirías un claim con pruebas de una estrategia de legitimación visual?
 
 > Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in the EU at large were vague, misleading or unfounded
 >
@@ -201,6 +135,10 @@ Si el claim no aguanta evidencia, no es estrategia: es riesgo. A escala UE, más
   evaluator_safe: true
 -->
 {% endif %}
+
+### 5. Influencia no equivale a recomendación independiente
+
+El **SHEIN Creator Center** es un programa oficial que invita a creadores a participar en colaboraciones de marca, publicar según pautas y recibir regalos o recompensas. El informe de BEUC documenta ejemplos concretos de vídeos haul de SHEIN en España y Portugal con códigos de descuento y sin una declaración clara de colaboración pagada. El problema de análisis no es que todo haul sea engañoso: es cómo se presenta la recomendación, qué incentivos recibe quien publica y si el formato convierte la compra repetida en entretenimiento. BEUC también analiza apelaciones emocionales que pueden normalizar compras impulsivas. ¿Qué señales permitirían distinguir una recomendación espontánea de una comunicación comercial, y qué KPI premia cada formato?
 
 > In this article, we examine how fast fashion companies attempt to build legitimacy for their actions through social media marketing communications. The data are sourced from Lindex's and H&M's Instagram posts to explore how sustainability claims are related to the discursive legitimation strategies of authorization, rationalization, moral evaluation, and mythopoesis.
 >
@@ -224,7 +162,7 @@ La crítica de plataforma atraviesa la estrategia: no hay “capa ética” al f
 
 **Actividad (10 ptos):** diseño y análisis de una estrategia digital para marca de moda.
 
-Entrega con las cuatro cajas del sistema de presencia (puedes modelar formatos como **Action Works**) + una auditoría de un claim sobre **Levi’s** o **Project Earth** (cita UNEP) o contraste Alkkiomäki. Tres capas: **estrategia · crítica · estudio**.
+Entrega con las cuatro cajas del sistema de presencia + una auditoría del claim y las métricas de **Good Clothes, Fair Pay** (distingue firmas de efecto jurídico), contraste de **Moda Livre** con Alkkiomäki, o auditoría del flujo de incentivos y divulgación en el caso crítico de **SHEIN Creator Center / haul influencer marketing**. Tres capas: **estrategia · crítica · estudio**.
 
 ---
 
@@ -236,16 +174,26 @@ Mini-caso o quiz en Canvas. Evidencia individual.
 
 ## Referencias
 
-- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers’ Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia*. https://doi.org/10.1177/1329878X16665177.
-- Alkkiomäki, Tiia, Henna Syrjälä, Hanna Leipämaa-Leskinen, and Elina Ellonen. 2024. “Critical Discourse Analysis of Fast Fashion Companies’ Legitimation Strategies on Instagram.” *Consumption Markets & Culture* 27 (4): 364–380. https://doi.org/10.1080/10253866.2024.2390864.
-- Nobile, Tekila Harley, Alice Noris, Nadzeya Kalbaska, and Lorenzo Cantoni. 2021. “A Review of Digital Fashion Research: Before and Beyond Communication and Marketing.” *International Journal of Fashion Design, Technology and Education* 14 (3): 293–301. https://doi.org/10.1080/17543266.2021.1931476.
-- United Nations Environment Programme. 2023. *The Sustainable Fashion Communication Playbook*. Nairobi: UNEP. https://doi.org/10.59117/20.500.11822/42819.
+### Fuentes de casos de campaña
+
+- **Fashion Revolution / #WhoMadeMyClothes** · **Caso:** [recursos oficiales de campaña](https://www.fashionrevolution.org/resources/all-resources/){:target="_blank" rel="noopener noreferrer"} · **Vídeo:** [“The 2 Euro T-Shirt” (YouTube oficial)](https://www.youtube.com/watch?v=KfANs2y_frk){:target="_blank" rel="noopener noreferrer"} · **Lectura complementaria:** [Fashion Transparency Index](https://www.fashionrevolution.org/fashion-transparency-index/){:target="_blank" rel="noopener noreferrer"}. Relevancia: el experimento convierte el precio bajo en una pregunta sobre quién asume el coste laboral; el índice mide divulgación, no justicia laboral.
+- **Good Clothes, Fair Pay** (ECI 2022–23) · **Caso:** [registro oficial de la Iniciativa Ciudadana Europea](https://citizens-initiative.europa.eu/initiatives/details/2022/000004_en){:target="_blank" rel="noopener noreferrer"} · **Vídeo:** [corto de campaña de Fashion Revolution (YouTube)](https://www.youtube.com/watch?v=nslsIeCjpsU){:target="_blank" rel="noopener noreferrer"}. Relevancia: el vídeo explica la demanda de legislación de salarios dignos; la iniciativa reunió alrededor de 240.000 firmas y no alcanzó el umbral de un millón.
+- **Moda Livre** (Brasil, app 2013 / web app 2019) · **Caso:** [herramienta oficial](https://modalivre.org.br/){:target="_blank" rel="noopener noreferrer"} · **Vídeos:** [ficha de producción con vídeo de lanzamiento y bumper](https://agenciapiu.com.br/cases/app-moda-livre/){:target="_blank" rel="noopener noreferrer"}. Relevancia: promociona una herramienta comparativa para investigar prácticas laborales de marcas; las cifras de descargas son autodeclaradas.
+- **#CompartirMomentos** (Janssen/CESIDA, 2015–18) · **Caso:** [ficha de campaña y colaboración de David Delfín](https://cesida.org/campanas/david-delfin-disena-el-nuevo-logo-de-la-campana-de-prevencion-del-vih-compartir-momentos/){:target="_blank" rel="noopener noreferrer"} · **Vídeo:** [corto “Después también”, dirigido por Carla Simón (YouTube, enlazado desde CESIDA)](https://www.youtube.com/watch?v=UxIWeOKumlk){:target="_blank" rel="noopener noreferrer"}. Relevancia: muestra cómo la campaña trasladó información preventiva sobre VIH a identidad visual, eventos y ficción audiovisual; sus cifras de alcance proceden de portavoces.
+- **SHEIN Creator Center / haul influencer marketing** (caso crítico suplementario; ecosistema de colaboraciones, no campaña única) · **Caso:** [programa oficial para creadores](https://m.shein.com/eur/help-center-a-3173.html){:target="_blank" rel="noopener noreferrer"} · **Evidencia videográfica:** [informe de BEUC](https://www.beuc.eu/reports/influencer-marketing-unboxed-exposing-how-fast-fashion-and-food-sectors-hook-consumers){:target="_blank" rel="noopener noreferrer"} y [anexo con ejemplos documentados de vídeos haul](https://www.beuc.eu/sites/default/files/publications/BEUC-X-2025-115_Influencer_Marketing_Unboxed_Annex.pdf){:target="_blank" rel="noopener noreferrer"}. Relevancia: permite auditar incentivos, códigos de descuento, divulgación comercial y consumo impulsivo; el informe no enlaza cada publicación original y sus hallazgos no describen todos los hauls.
+
+### Bibliografía académica
+
+- Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers’ Fashion Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International Australia*. <a href="https://doi.org/10.1177/1329878X16665177" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/1329878X16665177</a>.
+- Alkkiomäki, Tiia, Henna Syrjälä, Hanna Leipämaa-Leskinen, and Elina Ellonen. 2024. “Critical Discourse Analysis of Fast Fashion Companies’ Legitimation Strategies on Instagram.” *Consumption Markets & Culture* 27 (4): 364–380. <a href="https://doi.org/10.1080/10253866.2024.2390864" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/10253866.2024.2390864</a>.
+- Nobile, Tekila Harley, Alice Noris, Nadzeya Kalbaska, and Lorenzo Cantoni. 2021. “A Review of Digital Fashion Research: Before and Beyond Communication and Marketing.” *International Journal of Fashion Design, Technology and Education* 14 (3): 293–301. <a href="https://doi.org/10.1080/17543266.2021.1931476" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/17543266.2021.1931476</a>.
+- United Nations Environment Programme. 2023. *The Sustainable Fashion Communication Playbook*. Nairobi: UNEP. <a href="https://doi.org/10.59117/20.500.11822/42819" target="_blank" rel="noopener noreferrer">https://doi.org/10.59117/20.500.11822/42819</a>.
 
 ---
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-HTML estudiantil sin nombres de herramientas internas. Campañas de estudio ancladas al ledger docente del curso. Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
+HTML estudiantil sin nombres de herramientas internas. Cada campaña queda asignada a esta unidad en el índice docente; las fuentes públicas están en Referencias. Ver [declaración de IA · autoría asistida]({{ '/ai-declaration/' | relative_url }}#ai-assisted-authorship).
 
 ## Autoría asistida por IA
 

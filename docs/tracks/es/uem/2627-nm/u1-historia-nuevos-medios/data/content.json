@@ -3,13 +3,13 @@ layout: null
 ---
 {
   "unit_label": "Nuevos medios · U1",
-  "final_event_theme": "¿Qué campaña reescribió más el mapa de poder: PayUp o Levi’s — y por qué?",
+  "final_event_theme": "¿Cómo cambian los medios quién puede hablar en público — de PayUp a Project Earth?",
   "media_selection": {
     "unit_id": "U1",
     "project_id": "nm",
     "collection": "unit-accepted",
     "strategy": "geometrical-first",
-    "description": "NM decks: geometrical openers; campaign Caso: from MAIN-IDEAS / ledger ranks. Pending: naturalistic Masterclass photo from lesson PHOTO comment (u1-historia-nuevos-medios) — wire background_kind=photo + background_url after rights/contrast review."
+    "description": "NM decks: geometrical openers; exclusive campaign cases from the course allocation index. Pending: naturalistic Masterclass photo from lesson PHOTO comment (u1-historia-nuevos-medios) — wire background_kind=photo + background_url after rights/contrast review."
   },
   "assets": [],
   "_editor_note": "Replace masterclass background_kind diagram with reviewed photo asset when lesson-deck-photo-slot ships; keep geometrical for analysis/lab/outro.",
@@ -42,7 +42,7 @@ layout: null
       "background_kind": "diagram",
       "heading": "La historia es un mapa de poder",
       "sentence": "No memorices fechas: dibuja quién gana visibilidad cuando cambia el medio.",
-      "prompt": "Caso: PayUp / #PayUp (Remake, 2020 · rank 1 · Track C) — derechos laborales, no anuncio de producto.",
+      "prompt": "Caso: #PayUp (rank 1 · Track C) — presión pública por salarios y contratos cancelados.",
       "quote": "Throughout history, technological advancements have shaped the nature of fashion: the first industrial revolution contributed to the mechanisation of fashion…",
       "quote_origin": "page_verified",
       "citation": {
@@ -55,7 +55,7 @@ layout: null
       "background_kind": "diagram",
       "heading": "La transformación digital toca toda la moda",
       "sentence": "Comunicación y marketing digitales no son un anexo: cambian el negocio y la relación con el público.",
-      "prompt": "Caso: Patagonia Action Works (rank 6 · Track A) — presencia = peticiones, voluntariado y donaciones.",
+      "prompt": "Caso: Patagonia Action Works (rank 6 · Track A) — plataforma que conecta con acciones de base.",
       "quote": "The digital transformation has impacted all the facets of fashion. First of all fashion communication and marketing, through the adoption of digital tools…",
       "quote_origin": "page_verified",
       "citation": {
@@ -68,7 +68,7 @@ layout: null
       "background_kind": "diagram",
       "heading": "El medio reescribe la relación marca–público",
       "sentence": "Cada plataforma nueva no solo añade un canal: cambia quién habla, quién escucha y quién mide.",
-      "prompt": "Caso: Levi’s Buy Better, Wear Longer (rank 8 · Track A) — brainprint / consumo intencional.",
+      "prompt": "Caso: Levi’s Buy Better, Wear Longer (rank 8 · Track A) — suficiencia y venta en tensión.",
       "quote": "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption",
       "quote_origin": "page_verified",
       "citation": {
@@ -81,7 +81,7 @@ layout: null
       "background_kind": "diagram",
       "heading": "Glosario activo, no lista muerta",
       "sentence": "Define cada término con un ejemplo de marca viva — o no lo has aprendido.",
-      "prompt": "Banco vivo (ranks): PayUp(1) · Benetton/COLORS(5) · Action Works(6) · Levi’s(8) · Project Earth(9).",
+      "prompt": "Casos de U1: PayUp(1) · Action Works(6) · Levi’s(8) · Project Earth(9).",
       "quote": "Define cada término con un ejemplo de marca viva — o no lo has aprendido.",
       "quote_origin": "tao_invented"
     },
@@ -97,7 +97,7 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "none",
       "heading": "Ejercicio 1",
-      "sentence": "Línea de tiempo: ≥2 campañas del banco (ranks 1,5,6,8,9) + hitos de medios.",
+      "sentence": "Línea de tiempo: ≥2 casos de U1 (ranks 1,6,8,9) + hitos de medios.",
       "portfolio_bound": true,
       "portfolio_trace": "Guarda el boceto / análisis en Canvas."
     },
@@ -105,7 +105,7 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "none",
       "heading": "Ejercicio 2",
-      "sentence": "5 términos del glosario, cada uno anclado a una campaña del ledger (no apps sueltas).",
+      "sentence": "5 términos del glosario, cada uno anclado a un caso asignado a U1.",
       "portfolio_bound": true,
       "portfolio_trace": "Guarda la ficha en Canvas."
     },
@@ -114,7 +114,7 @@ layout: null
       "background_kind": "geometrical",
       "background_url": "/assets/images/fractal-pass-track/uem-lsystem-pass-06-coherence-9a61a10b6e79.svg",
       "heading": "Para llevar",
-      "sentence": "¿Qué campaña reescribió más el mapa de poder: PayUp o Levi’s — y por qué?",
+      "sentence": "¿Cómo cambian los medios quién puede hablar en público — de PayUp a Project Earth?",
       "caption": "Geometrical · uem-lsystem-pass-06-coherence.svg#9a61a10b6e79"
     }
   ]
