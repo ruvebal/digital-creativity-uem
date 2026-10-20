@@ -1535,6 +1535,9 @@ video {
 .flex {
   display: flex;
 }
+.inline-flex {
+  display: inline-flex;
+}
 .table {
   display: table;
 }
@@ -1684,6 +1687,10 @@ video {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1752,6 +1759,9 @@ video {
 }
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+.text-\[var\(--primary\)\] {
+  color: var(--primary);
 }
 .text-amber-700 {
   --tw-text-opacity: 1;
@@ -1948,6 +1958,10 @@ video {
   background-color: #171717;
 }
 
+.hover\:text-\[var\(--primary\)\]:hover {
+  color: var(--primary);
+}
+
 .hover\:text-amber-700:hover {
   --tw-text-opacity: 1;
   color: rgb(180 83 9 / var(--tw-text-opacity, 1));
@@ -2005,11 +2019,6 @@ video {
   color: rgb(252 211 77 / var(--tw-text-opacity, 1));
 }
 
-.dark\:text-amber-400:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(251 191 36 / var(--tw-text-opacity, 1));
-}
-
 .dark\:text-blue-400:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity, 1));
@@ -2054,10 +2063,6 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:gap-6 {
-    gap: 1.5rem;
   }
 
   .md\:text-5xl {

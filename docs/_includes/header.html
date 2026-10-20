@@ -1,26 +1,38 @@
 <header
 	id="site-header"
 	class="site-chrome-header bg-white dark:bg-neutral-950 border-b border-slate-200 dark:border-neutral-800 sticky top-0 z-40 backdrop-blur-sm bg-opacity-95 dark:bg-opacity-95 shadow-sm dark:shadow-neutral-900/50">
-	<nav class="mx-auto px-4 py-4" aria-label="Main navigation">
-		<div class="flex items-center justify-between">
-			<a
-				href="{{ site.baseurl }}/"
-				class="brand flex items-center gap-2 font-bold text-xl text-slate-900 dark:text-neutral-100 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
-				<img src="{{ '/assets/icons/favicon.svg' | relative_url }}" alt="" class="brand-logo w-8 h-8" aria-hidden="true" />
-				<span>Digital Creativity</span>
-			</a>
-			<ul class="flex flex-wrap gap-4 md:gap-6 text-sm">
+	<nav class="site-main-nav mx-auto px-4 py-3" aria-label="{% if page.lang == 'es' %}Navegación principal{% else %}Main navigation{% endif %}">
+		<div class="site-main-nav__inner">
+			<div class="site-main-nav__bar">
+				<a
+					href="{{ site.baseurl }}/"
+					class="brand flex items-center gap-2 font-bold text-xl text-slate-900 dark:text-neutral-100 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+					<img src="{{ '/assets/icons/favicon.svg' | relative_url }}" alt="" class="brand-logo w-8 h-8" aria-hidden="true" />
+					<span>Digital Creativity</span>
+				</a>
+				<button
+					type="button"
+					class="site-menu-toggle"
+					aria-expanded="false"
+					aria-controls="primary-navigation"
+					aria-label="{% if page.lang == 'es' %}Abrir menú{% else %}Open menu{% endif %}"
+					data-open-label="{% if page.lang == 'es' %}Abrir menú{% else %}Open menu{% endif %}"
+					data-close-label="{% if page.lang == 'es' %}Cerrar menú{% else %}Close menu{% endif %}">
+					<span class="site-menu-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+				</button>
+			</div>
+			<ul id="primary-navigation" class="site-primary-navigation text-sm">
 				<li>
 					{% if page.lang == 'es' %}
 					<a
 						href="{{ site.baseurl }}/tracks/es/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Cursos
 					</a>
 					{% else %}
 					<a
 						href="{{ site.baseurl }}/tracks/en/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Tracks
 					</a>
 					{% endif %}
@@ -29,13 +41,13 @@
 					{% if page.lang == 'es' %}
 					<a
 						href="{{ site.baseurl }}/methodology/es/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Metodología
 					</a>
 					{% else %}
 					<a
 						href="{{ site.baseurl }}/methodology/en/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Methodology
 					</a>
 					{% endif %}
@@ -43,63 +55,63 @@
 				<li>
 					<a
 						href="{{ site.baseurl }}/lessons/en/master-lectures/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Master Lectures
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}/assignments/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Assignments
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}/tao/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Tao
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}{% if page.lang == 'es' %}/dignity/es/{% else %}/dignity/en/{% endif %}"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						{% if page.lang == 'es' %}Dignidad{% else %}Dignity{% endif %}
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}/directory/en/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Directory
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}/lexicum/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Lexicum
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}/practice/en/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Practice
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}/evaluation/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						Evaluation
 					</a>
 				</li>
 				<li>
 					<a
 						href="{{ site.baseurl }}/ai-declaration/"
-						class="text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
 						AI declaration
 					</a>
 				</li>
