@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">A flat reading becomes a testable volume</title>
+  <desc id="desc">Three aligned studies follow one abstract garment panel from flat pattern through side elevation to a simple volume. A shared axis and proportion marks reveal what changes and what remains stable across representations.</desc>
+  <rect width="1600" height="900" fill="#F7F2E8"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#111827">
+    <text x="72" y="92" font-size="34" font-weight="500">A flat reading becomes a testable volume</text>
+    <text x="72" y="132" font-size="20" fill="#596579">Keep one form in view as its representation changes.</text>
+    <path d="M520 480h90m-18-18 18 18-18 18M1030 480h90m-18-18 18 18-18 18" fill="none" stroke="#627087" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(115 190)">
+      <rect width="390" height="510" rx="24" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+      <text x="34" y="58" font-size="20" font-weight="500" fill="#334155">01 · FLAT READ</text>
+      <path d="M195 145 290 190 270 438 195 405 120 438 100 190Z" fill="#E7D6C5" stroke="#24344D" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M195 145v260M120 438l75-33 75 33M100 190l95 45 95-45" fill="none" stroke="#B45B43" stroke-width="3" stroke-dasharray="8 8"/>
+      <path d="M72 145v295M61 145h22M61 440h22" stroke="#64748B" stroke-width="2"/>
+      <text x="38" y="468" font-size="16" fill="#596579">Silhouette, grain, and seam direction</text>
+      <text x="195" y="490" text-anchor="middle" font-size="15" fill="#596579">Axis stays visible</text>
+    </g>
+    <g transform="translate(605 190)">
+      <rect width="390" height="510" rx="24" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+      <text x="34" y="58" font-size="20" font-weight="500" fill="#334155">02 · SIDE ELEVATION</text>
+      <path d="M137 177c32-26 83-25 116 0l26 48-18 170c-38 26-93 26-132 0l-18-170Z" fill="#E7D6C5" stroke="#24344D" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M195 152v268M139 225h112M129 395h132" fill="none" stroke="#B45B43" stroke-width="3" stroke-dasharray="8 8"/>
+      <path d="M195 143v-25m-8 8 8-8 8 8" fill="none" stroke="#B45B43" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="195" y="468" text-anchor="middle" font-size="16" fill="#596579">Depth has to be proposed</text>
+      <text x="195" y="490" text-anchor="middle" font-size="15" fill="#596579">What cannot be read from the flat?</text>
+    </g>
+    <g transform="translate(1095 190)">
+      <rect width="390" height="510" rx="24" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+      <text x="34" y="58" font-size="20" font-weight="500" fill="#334155">03 · VOLUME TEST</text>
+      <path d="M195 142 300 201 280 410 195 458 110 410 90 201Z" fill="#E7D6C5" stroke="#24344D" stroke-width="4" stroke-linejoin="round"/>
+      <path d="m195 142 0 316m0-316 105 59-20 209-85 48m0-316-105 59 20 209 85 48" fill="none" stroke="#B45B43" stroke-width="3"/>
+      <path d="M304 235h28M304 235l-9-8m9 8-9 8" fill="none" stroke="#C49337" stroke-width="4" stroke-linecap="round"/>
+      <text x="195" y="486" text-anchor="middle" font-size="16" fill="#596579">Turn the form; test the hidden side</text>
+    </g>
+  </g>
+</svg>

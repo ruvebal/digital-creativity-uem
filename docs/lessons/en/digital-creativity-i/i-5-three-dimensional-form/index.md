@@ -67,38 +67,11 @@ Avatar libraries and mannequin defaults are not neutral representations of the b
 
 **Is 3D virtual prototyping a replacement for physical model-making in learning form, or a different representation that must be taught alongside it, not instead of it?** The IHU/AMFI structures above answer "alongside" by sequencing 2D before 3D — does that settle the question for your cohort, or only describe one institution's choice?
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.5.video.2d-to-3d-process" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-05-spatial-literacy-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for a 2D-to-3D spatial demonstration; no people or garments depicted." loading="lazy" />
-<figcaption>
-<p><strong>Why this is here:</strong> A short process clip marks when a representation becomes testable from another view.</p>
-<p><strong>Look for:</strong> Axis, proportion, silhouette, and what each step forecloses.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
-</figcaption>
-</figure>
-
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.5.still.orthographic-exemplar" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-05-spatial-literacy-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for orthographic exemplar and ambiguous drawing counterexample; no people or garments depicted." loading="lazy" />
-<figcaption>
-<p><strong>Why this is here:</strong> Paired stills separate aligned three-view drawings from contradictory ones.</p>
-<p><strong>Look for:</strong> Spatial evidence versus decorative polish.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
-</figcaption>
-</figure>
-
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.5.graphic.reference-to-blockout" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-05-spatial-literacy-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract diagram placeholder for reference-axis-silhouette-views-blockout chain; no people or garments depicted." loading="lazy" />
-<figcaption>
-<p><strong>Why this is here:</strong> Maps reference → axis → silhouette → planes → views → blockout.</p>
-<p><strong>Look for:</strong> Where spatial information is lost between steps.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
-</figcaption>
-</figure>
-
 ---
 
 
 
-Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical lens, debate, and placeholders.
+Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical lens, and debate. The three concept illustrations appear with their teaching moves below.
 
 **What "understanding form" means here:** a rendered volume that looks correct is not proof of understanding. Minimum evidence trail: (1) the 2D read before building; (2) a visible sketch → primitive-volume → digital sequence; (3) one sentence naming where 2D reading and 3D result diverged — "they matched" is valid if stated.
 
@@ -107,18 +80,18 @@ Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical len
 ## Masterclass
 
 <figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
-<img src="{{ '/assets/images/deck-media/6d87fb61fcb1d4de.webp' | relative_url }}" alt="Indienne, représentant Minerve Péruvienne." loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-1" %}</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations." loading="lazy" decoding="async" aria-describedby="i5-spatial-reading-caption">
+<figcaption id="i5-spatial-reading-caption"><strong>From flat reading to volume.</strong> Follow the shared axis, then name what the side elevation has to propose that the flat cannot show. Original semantic teaching illustration; garment geometry is schematic.</figcaption>
 </figure>
 
 <figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
-<img src="{{ '/assets/images/deck-media/5440d18f70034583.webp' | relative_url }}" alt="Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-2" %}</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain." loading="lazy" decoding="async" aria-describedby="i5-views-agree-caption">
+<figcaption id="i5-views-agree-caption"><strong>Planes make volume testable.</strong> Trace one level across front and side; identify where the dashed mismatch fails to fit the shared volume. Original semantic teaching illustration for projection reasoning.</figcaption>
 </figure>
 
 <figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
-<img src="{{ '/assets/images/deck-media/f4786040093c9e0d.webp' | relative_url }}" alt="A drapery study for a figure of Sculpture" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-3" %}</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test." loading="lazy" decoding="async" aria-describedby="i5-render-evidence-caption">
+<figcaption id="i5-render-evidence-caption"><strong>A render is not understanding.</strong> Find where the prediction diverges, then name the test that justified the revision. Original semantic teaching illustration; the evidence trail is a classroom proposal, not a validated assessment instrument.</figcaption>
 </figure>
 
 <figure class="lesson-figure" id="figure-analysis-model" markdown="0">
@@ -288,7 +261,7 @@ This note is part of an ongoing *Práctica de Innovación docente* — epistemic
 
 ## AI-assisted authorship
 
-This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+This lesson was written with local AI-assisted drafting under the author's editorial control. Six original semantic illustrations were authored as SVG with visual-forger 1.3.0: three lesson diagrams and three distinct companion slide illustrations. The author reviewed them for spatial consistency and slide legibility. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

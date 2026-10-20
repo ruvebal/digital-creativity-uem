@@ -1,0 +1,45 @@
+[
+  {
+    "command": [
+      "node",
+      "scripts/verify-publication-safety.mjs",
+      "--site-dir",
+      "/private/tmp/dignity-course-site"
+    ],
+    "returncode": 0,
+    "stdout": "Publication safety passed: no internal corpus or local-architecture metadata is publishable.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "scripts/verify-publication-safety.mjs",
+      "--citations",
+      "--site-dir",
+      "/private/tmp/dignity-course-site"
+    ],
+    "returncode": 0,
+    "stdout": "Citation conformance passed for canonical lessons.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "verify:nm-campaigns"
+    ],
+    "returncode": 0,
+    "stdout": "\n> digital-creativity-uem@0.1.0 verify:nm-campaigns\n> node scripts/verify-nm-campaign-uniqueness.mjs\n\nNM campaign allocation passed: 19 unique cases assigned across 4 canonical teaching pages; no cross-unit lesson/deck/guide reuse found.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

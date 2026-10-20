@@ -3,19 +3,20 @@ layout: lesson
 title: 'I.6 · Volumen'
 title_en: 'I.6 · Volume'
 slug: i-6-volumen
-date: 2026-08-20
+date: 2026-10-20
 author: 'Rubén Vega Balbás, PhD'
 lang: es
 permalink: /lessons/es/creacion-digital-i/i-6-volumen/
-description: 'El volumen construido iterando entre representación física y digital — un módulo didáctico híbrido analógico/digital, no un flujo de una sola herramienta.'
-status: scaffold
-tags: [creacion-digital-i, volumen, taller-hibrido, clo3d, educacion-moda]
+description: 'Un estudio de volumen material contrasta representaciones físicas y digitales mediante una comparación y una revisión visibles.'
+status: pilot
+tags: [digital-creativity-i, volume, material-study, spatial-representation]
+deck_url: /tracks/dci/i-6-volumen/
 references: [coats-2026]
 ---
 
 <!-- prettier-ignore-start -->
 
-## 📋 Tabla de contenidos
+## Tabla de contenidos
 {: .no_toc }
 - TOC
 {:toc}
@@ -24,193 +25,104 @@ references: [coats-2026]
 
 ---
 
-> _"Actualizar con sabiduría es mantener la verdad en dos lugares: el manifiesto y el módulo."_
-<!-- Ajuste TTDO: usado de forma analógica aquí — su campo `teaches` propio trata de sincronización de versiones de software entre fuentes de verdad, no de creación de volumen en moda; el ajuste está en mantener sincronizados una maqueta física y un pase digital mediante iteración, B1/B2 más abajo. -->
-> — Tao of Development, `qa-013`
+> _“Un pliegue se vuelve volumen cuando sus bordes se encuentran en el espacio.”_
+<!-- Aforismo original de taller; no es una cita académica. -->
 {: .tao-development-quote }
 
----
+## Empieza aquí
 
-{% include lesson-semantic-graphic.html %}
+**Presentación en clase:** [I.6 · presentación de volumen]({{ '/tracks/dci/i-6-volumen/' | relative_url }}). **Ritmo de clase:** Análisis → clase magistral → dos ejercicios de Lab; esta sesión inicial no incluye taller de proyecto.
 
-## Dónde se sitúa — CONTENIDOS y competencias
+## Lugar oficial en la asignatura
 
-**Anclaje CONTENIDOS (verbatim, guía oficial):** *Volumen.*
+**CONTENIDOS:** *Volumen.* Esta unidad continúa *Fundamentos y representación de la forma tridimensional* y se centra en el comportamiento y la interpretación del volumen.
 
-**Competencias que sirve:** `CON1`, `HAB9`, `COMP8`, `COMP9` — el mismo subconjunto que I.5; esta unidad continúa el hilo de forma espacial.
+**Competencias de la guía:** `CON1`, `HAB9`, `COMP8`, `COMP9`.
 
-**Resultados de aprendizaje:** *"Diferenciar los diferentes recursos técnicos para realizar modelos digitales tridimensionales."* · *"Reconocer las técnicas de representación tridimensional."*
+**Resultados de aprendizaje pertinentes:** *Diferenciar los diferentes recursos técnicos para realizar modelos digitales tridimensionales* · *Reconocer las técnicas de representación tridimensional*.
 
-**Pesos de evaluación:** Investigaciones y proyectos 20% (pieza de taller); Cuaderno 10% (nota de proceso).
-
----
+**Pesos oficiales de evaluación:** Pruebas de evaluación 55% · Caso/problema 15% · Investigaciones y proyectos 20% · Cuaderno de prácticas de laboratorio/taller 10%.
 
 ## Objetivos de aprendizaje
 
-- **Construir volumen iterando entre pases físicos y digitales**, no eligiendo una representación y descartando la otra.
-- **Nombrar qué reveló cada representación** que la otra no — el rastro de evidencia central que pide esta unidad.
-- **Reconocer los límites de un caso único documentado** — un módulo, una cohorte, una herramienta; declarado con claridad.
-- **Abordar la salvedad de sostenibilidad nombrada por la propia fuente de la unidad** — las herramientas híbridas pueden reducir el desperdicio de muestreo pero no, por sí solas, alterar la lógica de sobreproducción de la moda.
-
----
+- Construir un estudio de volumen pequeño y representar la misma forma en otro medio.
+- Comparar dos vistas a la misma escala e identificar una diferencia material o espacial.
+- Hacer una revisión controlada y conservar la evidencia del antes/después con una explicación breve.
 
 ## Análisis
-### Perspectiva crítica
 
-El cuerpo vestido no es un soporte biológico previo a la moda, sino un cuerpo socialmente producido; esta tesis sigue siendo fundamental para cuestionar la supuesta neutralidad del avatar como "maniquí digital" (Entwistle 2015).
+Empieza con una forma plegada sencilla, no con un render de moda pulido. Compara su perfil, sus apoyos y los pliegues visibles con una interpretación digital. Mantén estables el punto de vista y la escala aproximada para que la comparación examine la representación, no un cambio de cámara.
 
-Las pasarelas virtuales pueden ampliar ciertas formas de acceso pero también generar fricción y diferencias generacionales; la "innovación" de formato no garantiza una experiencia igualmente legible para todos los públicos (Farah, Ramadan y Nassereddine 2025). Los ejercicios de volumen híbrido asumen cuerpos y materiales que encajan en plantillas digitales por defecto. ¿Qué revela tu pase físico que la pantalla no puede, y quién queda excluido cuando el volumen se enseña solo digitalmente?
-
-### El debate
-
-Usa la salvedad de Coats directamente: **si una herramienta híbrida como CLO3D reduce el desperdicio físico de muestreo en el taller, ¿hace eso que la práctica de moda sea más sostenible en general, o corre el riesgo de normalizar ciclos de diseño más rápidos y desechables al abaratar la iteración?** El artículo reporta que las propias estudiantes del estudio fueron escépticas — no resuelvas el debate por ellas; deja que el grupo llegue a su propia postura por escrito.
-
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.6.video.hybrid-handoff" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador de posición abstracto para una demostración híbrida físico-digital de volumen; no representa personas ni prendas." loading="lazy" />
-<figcaption>
-<p><strong>Por qué está aquí:</strong> Un clip breve pausa en el traspaso analógico/digital para que el estudiantado nombre qué gana o pierde cada pase.</p>
-<p><strong>Busca:</strong> Evidencia material, escala, pliegue y lo que la pantalla no puede probar sola.</p>
-<p class="media-note">Visual provisional — medios con licencia pendientes de revisión.</p>
-</figcaption>
+<figure class="lesson-figure" id="figure-material-memory" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un material plegado y su malla digital aparecen en paralelo; un contorno discontinuo señala dónde divergen sus formas." loading="lazy" decoding="async" />
+<figcaption><strong>Un pliegue en dos representaciones.</strong> El pliegue físico y la cuadrícula digital conservan evidencias distintas. El contorno discontinuo señala una diferencia que merece comprobarse; no se disimula. Ilustración original de la asignatura · visual-forger 1.3.0 · derechos reservados.</figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.6.still.material-exemplar" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador de posición abstracto para volumen material ejemplar y contraejemplo digital imposible; no representa personas ni prendas." loading="lazy" />
-<figcaption>
-<p><strong>Por qué está aquí:</strong> Pares de imágenes separan volumen material convincente de renders pulidos pero físicamente imposibles.</p>
-<p><strong>Busca:</strong> Pliegue, vacío y evidencia de gravedad frente a pulido decorativo.</p>
-<p class="media-note">Visual provisional — medios con licencia pendientes de revisión.</p>
-</figcaption>
+**Observa:** el contorno del pliegue, los puntos que sostienen el material, la escala del estudio y lo que oculta la vista elegida. Un render uniforme puede describir una forma propuesta; por sí solo, no verifica cómo cae un material concreto.
+
+## Clase magistral
+
+### Un objeto, varias vistas
+
+Las vistas frontal, lateral y de tres cuartos responden preguntas distintas sobre un mismo volumen. Mantenlas alineadas e indica qué aporta cada una: silueta, profundidad, dirección del pliegue o contacto con un apoyo.
+
+### El material condiciona el contorno
+
+La gravedad, los apoyos, la tensión y el grosor del material influyen en una forma drapeada. Una simulación digital es una representación que se compara con el estudio físico; una superficie verosímil no demuestra que el material vaya a comportarse igual.
+
+<figure class="lesson-figure" id="figure-support-and-drape" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un tramo de material entre dos apoyos muestra un contorno estable y una caída mayor bajo carga." loading="lazy" decoding="async" />
+<figcaption><strong>La gravedad curva el material.</strong> El mismo tramo de material se representa entre dos apoyos. Los dos contornos hacen visibles la gravedad y el punto de suspensión. Ilustración original de la asignatura · visual-forger 1.3.0 · derechos reservados.</figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.6.graphic.mockup-loop" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador de posición abstracto para bucle maqueta-captura-volumen digital-crítica; no representa personas ni prendas." loading="lazy" />
-<figcaption>
-<p><strong>Por qué está aquí:</strong> Mapea maqueta → captura → volumen digital → crítica → revisión.</p>
-<p><strong>Busca:</strong> Dónde se pierde información espacial o material entre pases.</p>
-<p class="media-note">Visual provisional — medios con licencia pendientes de revisión.</p>
-</figcaption>
+### Revisar donde las vistas no coinciden
+
+Elige una diferencia, como un pliegue sin apoyo, una línea de tensión poco verosímil o una silueta alterada. Ajusta una sola variable, conserva el primer pase y anota por qué el cambio mejora la representación. La comparación resulta más clara si mantienes la escala y el punto de vista.
+
+<figure class="lesson-figure" id="figure-evidence-pair" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="El origen material, la interpretación digital y una corrección local aparecen juntos como registro comparativo." loading="lazy" decoding="async" />
+<figcaption><strong>Una comparación que conserva su cambio.</strong> Un fragmento de origen, su interpretación digital y una corrección local permanecen juntos para poder revisar el cambio. Ilustración original de la asignatura · visual-forger 1.3.0 · derechos reservados.</figcaption>
 </figure>
 
----
+Un caso publicado describe un módulo híbrido de enseñanza con denim en el que el alumnado trabajó mediante procesos analógicos y digitales. Es un ejemplo acotado para discutir la iteración, no una prueba de que la misma secuencia funcione en otras cohortes, con otras herramientas o en otras instituciones (Coats 2026, 8). El artículo también recoge el escepticismo del alumnado ante afirmaciones más amplias sobre sostenibilidad; úsalo como pregunta para el debate, no como prueba de un resultado medioambiental (Coats 2026, 4).
 
+## Lab · Portfolio
 
+Estos dos ejercicios dejan rastros de proceso comparables. Se admite una alternativa táctil o de baja tecnología; no hace falta una aplicación 3D concreta. Usa marcas grandes y de alto contraste, y acompaña las imágenes de una descripción oral o escrita breve cuando resulte útil.
 
-Cubierto arriba: encuadre híbrido de Coats, salvedad de sostenibilidad, lente crítica, debate y marcadores de posición.
+### Ejercicio 1 · Construir un pliegue {#lab-exercise-1}
 
-**Qué significa "iterar entre representaciones", en concreto:**
+**Tiempo:** 15 minutos · **Formato:** individual.
 
-1. **El pase físico** — una maqueta, un estudio en muselina, o un estudio de volumen hecho a mano, por pequeño que sea.
-2. **El pase digital** — una representación digital 3D de la misma idea de volumen.
-3. **La corrección** — al menos una instancia documentada donde una representación reveló algo que la otra no captó, y qué cambió como resultado.
-4. **La declaración** — qué herramienta(s) se usaron, fechadas, etiquetadas como notas de plataforma, no como citas de investigación.
+Construye un volumen pequeño con papel, tela u otro material disponible; fotografía dos vistas y marca dónde cambia el pliegue.
 
----
+**Rastro para el portfolio:** Dos vistas y una nota sobre el cambio de contorno, apoyo o caída.
 
-## Masterclass
+### Ejercicio 2 · Contrastar y revisar {#lab-exercise-2}
 
-**Afirmación:** el volumen se construye moviéndose entre representaciones físicas y digitales de la misma pieza, cada pase corrigiendo o extendiendo al otro — no eligiendo lo analógico *o* lo digital y tratando esa elección como definitiva.
+**Tiempo:** 15 minutos · **Formato:** individual.
 
-Esto no es una preferencia abstracta — es un módulo didáctico documentado y teorizado. "The Denim Project", un caso de estudio publicado en 2026, describe un taller híbrido físico/digital en el que estudiantes trabajaron una prenda vaquera tanto en forma material como en CLO3D. El módulo está explícitamente enmarcado en un modelo constructivista de aprendizaje experiencial (citando a Biggs y Tang 2011; Kolb 1984): los estudiantes iteraron entre flujos de trabajo analógicos y digitales, lo que fomentó la competencia técnica *y* la reflexión crítica — no solo la eficiencia (Coats 2026, 8).
+Compara el estudio físico con una interpretación digital sencilla; cambia una variable y conserva la vista anterior.
 
-**Qué fundamenta esto, y qué no.** Coats (2026, 8) fundamenta *que* existe un módulo didáctico híbrido analógico/digital real y teorizado para el volumen, y cómo se enmarcó pedagógicamente. **No** establece que la iteración híbrida se generalice más allá de un módulo, una cohorte y una herramienta específica (CLO3D) — una prueba de existencia sólida, no un método validado en contextos diversos. El mismo artículo es explícito: aunque CLO3D ayudó a reducir el desperdicio de muselina mediante prototipado virtual, las estudiantes expresaron escepticismo sobre su impacto *más amplio* en sostenibilidad — una salvedad sobre el efecto industrial de la herramienta, no una crítica a la pedagogía; fundamenta un tema de debate, no una afirmación sobre eficacia didáctica (Coats 2026, 8). La documentación de herramienta fundamenta operaciones — etiqueta `[PLATFORM]`, nunca investigación.
+**Rastro para el portfolio:** Par antes/después y una frase que explique el cambio.
 
-**Anclaje de práctica (lente de campo):** caída, tensión, pliegue, vacío, escala, gravedad y comportamiento material como variables de volumen duraderas — separadas de los valores por defecto de cualquier simulador.
+## Comprobación de resolución de problemas
 
-**Señal de frontera (lente de campo):** el prototipado híbrido puede reducir muestras físicas mientras desplaza energía, trabajo, pericia y presiones de sobreproducción; trata cualquier "ganancia de sostenibilidad" como una pregunta de auditoría, no como un resultado cerrado.
-
-## Lab (Portfolio)
-
-*Marcador estructural (EX9) — aún no hay slides `lab_exercise` de deck DCI para esta unidad. Dos ejercicios ilustrativos mantienen el ritmo de Lab; se sustituyen cuando llegue la ola de decks.*
-
-### Ejercicio 1 — Nombra el movimiento de CONTENIDOS {#lab-exercise-1}
-
-**Time:** 15 minutes.
-
-**Group:** individual.
-
-**Materials:** cuaderno o portátil; temporizador; una imagen de referencia con derechos claros para el CONTENIDOS de esta unidad.
-
-**Steps:**
-
-1. Reformula el ancla de CONTENIDOS en una frase (sin marca de herramienta).
-2. Nombra una decisión de oficio que esta unidad pide dejar visible en la nota de proceso.
-3. Escribe una frase sobre lo que ocultaría un flujo de una sola herramienta.
-4. Guarda la nota para el índice de portfolio.
-
-**Portfolio trace:** frase CONTENIDOS + frase de visibilidad de oficio + cautela mono-herramienta.
-
-**Judged by:** [Rúbrica de portfolio — evidencia de proceso]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
-
-**Source:** Adaptación de aula (Labs de deck pendientes — marcador estructural).
-
-**Example trace:** *(Ilustrativo · no es trabajo de estudiante.)* CONTENIDOS: «Volumen por iteración híbrida.» Oficio visible: pliegue de maqueta física vs pase CLO. Cautela: un export solo CLO ocultaría la corrección de drapeo que forzó la mano.
-
-### Ejercicio 2 — Un par de evidencia de proceso {#lab-exercise-2}
-
-**Time:** 20 minutes.
-
-**Group:** individual; compartir opcional 2 minutos.
-
-**Materials:** la nota del Ejercicio 1; un par antes/después o físico/digital; temporizador.
-
-**Steps:**
-
-1. Captura un antes y un después (o físico vs digital) de la misma pieza.
-2. Escribe una frase nombrando lo que el segundo pase reveló que el primero no.
-3. Rechaza cualquier pulido que borre la evidencia del pase.
-4. Archiva ambas imágenes bajo el ID de pieza.
-
-**Portfolio trace:** par antes/después + frase de revelación.
-
-**Judged by:** [Rúbrica de portfolio — evidencia de proceso]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
-
-**Source:** Adaptación de aula (Labs de deck pendientes — marcador estructural).
-
-**Example trace:** *(Ilustrativo · no es trabajo de estudiante.)* Antes: pliegue de maqueta en papel en la cintura. Después: el pase digital exagera el pliegue. Frase: «La pantalla inventó una tensión que la tela no tenía — conserva la foto física en el índice.»
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
-LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
--->
-{% endif %}
-
----
-
-## Workshop
-
-Desde la sesión 4: el Workshop es tiempo de estudio protegido para D2 Transposición y D3 evento final (≈ mitad / mitad) — no es reloj de D1 Análisis.
-
-
-1. **Diagnóstico.** Dado un flujo de trabajo híbrido descrito (qué paso usó un pase físico, cuál usó uno digital), identifica qué paso fue probablemente analógico y cuál digital, y justifica la razón probable de esa elección.
-2. Identifica qué no puede mostrar un render digital plano de una prenda sobre el volumen que sí puede mostrar una vista física o 3D rotable — nombra la limitación específica, no un "lo digital es distinto" genérico.
-3. **Sin herramienta, declarado:** sin ninguna herramienta digital o física, describe por escrito cómo cambia la caída al aumentar la cantidad de volumen en una pieza — nombra al menos una consecuencia estructural (p. ej. cómo debe ajustarse la holgura o el hilo). **Sin IA — declarado como tal.**
-
-Los bocetos de respuesta del profesor no se publican en esta página.
-
-{% comment %}
-outcome-graphic-selection:
-  source-section: "B3 · Resolución de problemas"
-  visual-grammar: "hybrid-volume — tejido material y volumen digital se encuentran en un punto explícito de transferencia"
-{% endcomment %}
-{% include lesson-outcome-graphic.html %}
-
----
+1. Identifica un detalle visible en la vista física que falte o cambie en el pase digital.
+2. Nombra una variable que mantendrías constante para que la comparación sea justa.
+3. Explica qué cambió tu revisión y señala la evidencia conservada.
 
 ## Conclusión
 
-Esta unidad deja lagunas nombradas a propósito: lo que el vault puede verificar con página queda en Referencias; lo abierto queda en la Nota editorial. Mantén las trazas de Lab honestas en el índice de portfolio. No inventes un entregable evaluable que How to Pass no pide. La siguiente apuesta es el ritmo de sesión ya nombrado — defensa de Análisis (D1) desde la sesión 3; Workshop desde la sesión 4 para Transposición y el evento final.
+El volumen se puede discutir mejor cuando el estudio material, la representación digital y una revisión razonada permanecen visibles juntos. Lleva la diferencia pendiente al siguiente ejercicio de forma espacial.
 
----
+**Práctica:** cinco preguntas de repaso con respuestas al pulsar — [I.6 Volumen cuestionario de práctica]({{ '/practice/es/i-6-volumen/' | relative_url }}). No es evaluable; no se registra ninguna respuesta.
 
-## Tao de la imagen {#tao-of-the-image}
+## Tao de la Imagen {#tao-of-the-image}
 
-Epígrafe de la unidad (registro Tao de estudio — no es cita académica):
+Aforismo de taller; no es una cita académica.
 
-> _"Actualizar con sabiduría es mantener la verdad en dos lugares: el manifiesto y el módulo."_
-
-Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
+> _“Un pliegue se vuelve volumen cuando sus bordes se encuentran en el espacio.”_
 
 ---
 
@@ -221,16 +133,13 @@ Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 PROFIELD_ROUTING: unit=I.6; temario=T1-image-2d-volume.pass1.resultant.mdc § volume; subfield_runs=dc-3d-form-volume-pedagogy/20260820/digest.md § hybrid CLO3D
-CRITICAL_ROUTING: unit=I.6; critica=C2 Entwistle fashioned body L29; C2 Farah virtual accessibility L195; session sustainability relocated-costs prompt
-PROVENANCE_LINE: claim=I.6.claim.hybrid-iteration-module; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="Denim Project hybrid CLO3D constructivist experiential learning"; source_locator=dc-3d-form-volume-pedagogy digest p1-c010; similarity=null; proposed_use="course-structure anchor"}; source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=b3ded30f-381e-5425-80b1-cf125b52449f; page_index=7; printed_page=8}; resolver="ahmes query --cite extraction.db:b3ded30f-381e-5425-80b1-cf125b52449f --require-evaluator-safe evaluator_safe=yes"; quote="students iterated across analogue and digital workflows"; public_citation="(Coats 2026, 8)"; supports="real theorised hybrid volume teaching module"; does_not_support="generalisable method across tools and institutions"
-PROVENANCE_LINE: claim=I.6.claim.sustainability-caveat; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="CLO3D sustainability scepticism overproduction"; source_locator=same coat Coats; similarity=null; proposed_use="debate prompt only"}; source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=e4ea7122-7e03-5c1e-b82d-0416b553bc7b; page_index=3; printed_page=4}; resolver="ahmes query --cite extraction.db:e4ea7122-7e03-5c1e-b82d-0416b553bc7b --require-evaluator-safe evaluator_safe=yes"; quote=none; public_citation="(Coats 2026, 8)"; supports="student scepticism about broader sustainability claims"; does_not_support="pedagogy effectiveness or classroom policy"
-PROVENANCE_LINE: claim=I.6.gap.generalisation; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="hybrid volume pedagogy generalises beyond one module"; source_locator=i-6-volume.md § Grounding note; similarity=null; proposed_use="honest gap"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="universal hybrid volume teaching prescription"
-PROVENANCE_LINE: claim=I.6.critical.fashioned-body; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="fashioned body avatar neutral mannequin Entwistle"; source_locator=C2-fashion-virtuality.pass1.resultant.mdc L29; similarity=null; proposed_use="critical theoretical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Entwistle 2015 not in scholar vault; quote=none; public_citation="(Entwistle 2015)"; supports="body as socially produced not technical default"; does_not_support="which mannequin students must use"
-PROVENANCE_LINE: claim=I.6.critical.virtual-accessibility; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="virtual fashion shows accessibility friction Farah"; source_locator=C2-fashion-virtuality.pass1.resultant.mdc L195; similarity=null; proposed_use="accessibility corrective"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Farah 2025 not in scholar vault; quote=none; public_citation="(Farah, Ramadan, and Nassereddine 2025)"; supports="virtualization does not guarantee accessibility"; does_not_support="abandoning digital volume passes"
-PROVENANCE_LINE: claim=I.6.critical.relocated-costs; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="physical sample digital relocated labour energy"; source_locator=i-6-volume.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming relocated sustainability costs"; does_not_support="empirical claim about cohort"
-MEDIA_RIGHTS_LINE: slot=I.6.video.hybrid-handoff; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.6.still.material-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.6.graphic.mockup-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+CRITICAL_ROUTING: unit=I.6; retain as internal [BIBLIO-GAP] only; Entwistle (2015) and Farah et al. (2025) were not resolved to evaluator-safe Ahmes nodes and are not student-facing citations.
+PROVENANCE_LINE: claim=I.6.claim.hybrid-iteration-module; status=VERIFIED (prior canonical resolver record; live DB unavailable in current filesystem); source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=b3ded30f-381e-5425-80b1-cf125b52449f; page_index=7; printed_page=8}; supports="one theorised hybrid teaching case"; does_not_support="generalised teaching effectiveness"; public_citation="(Coats 2026, 8)"
+PROVENANCE_LINE: claim=I.6.claim.sustainability-caveat; status=VERIFIED (prior canonical resolver record); source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=e4ea7122-7e03-5c1e-b82d-0416b553bc7b; page_index=3; printed_page=4}; supports="student scepticism about broader sustainability claims"; does_not_support="measured environmental outcome"; public_citation="(Coats 2026, 4)"
+PROVENANCE_LINE: claim=I.6.gap.generalisation; status=NONE; supports=none; does_not_support="validated universal method"
+PROVENANCE_LINE: claim=I.6.critical.fashioned-body; status=[BIBLIO-GAP]; public_citation=OMITTED
+PROVENANCE_LINE: claim=I.6.critical.virtual-accessibility; status=[BIBLIO-GAP]; public_citation=OMITTED
+MEDIA_RIGHTS_LINE: slots=course-authored-svg; status=ORIGINAL; license=all-rights-reserved; raster_derivative=png; no external media
 -->
 {% endif %}
 
@@ -239,18 +148,19 @@ MEDIA_RIGHTS_LINE: slot=I.6.graphic.mockup-loop; status=PENDING; licence=none; c
 ## Nota editorial. Trabajo en curso. Práctica de Innovación docente
 {: .lesson-editorial-note }
 
-Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+La evidencia revisada sostiene un caso docente híbrido; no demuestra que el mismo método funcione en todas las cohortes, herramientas o instituciones. La salvedad de sostenibilidad queda abierta a debate.
 
 ---
 
 ## Autoría asistida por IA
 
-Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+Esta lección se redactó con asistencia de IA bajo control editorial del autor.
+
+Declaración de uso de IA: [leer la declaración completa]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
-<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
-      lesson_uuid: 13eb3a18-ea89-4303-95f1-28f6f6b2d814
-     vault_refs_consulted: 3
-     forge_pass: editorial-ai-footer-law-2026-09-22
+<!-- lesson_uuid: 13eb3a18-ea89-4303-95f1-28f6f6b2d814
+     vault_refs_consulted: 2
+     forge_date: 2026-10-20 · harness: lesson-scribe
 -->
 {% endif %}

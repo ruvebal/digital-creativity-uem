@@ -1,5 +1,5 @@
 {
-  "current_release": "lesson-semantics-20261013-r2",
+  "current_release": "i6-volume-illustrations-20261020-r1",
   "releases": [
     {
       "release_id": "lesson-semantics-20261013-r1",
@@ -77,6 +77,170 @@
           "media_slot_id": "I.4.video.effect-breakdown",
           "created_with": "OpenAI ImageGen",
           "visual_grammar": "Align one fictional source, an editable mask, and a restrained selective treatment; keep garment shape and detail stable so process logic stays visible."
+        }
+      ]
+    },
+    {
+      "release_id": "i5-spatial-form-20261020-r1",
+      "created": "2026-10-20",
+      "skill": "visual-forger",
+      "skill_version": "1.3.0",
+      "assets": [
+        {
+          "id": "dc-i5-spatial-reading-20261020-r1",
+          "title": "A flat reading becomes a testable volume",
+          "description": "One schematic garment panel is tracked from flat read through side elevation to a simple volume with shared axis and proportion cues.",
+          "svg": "dc-i5-spatial-reading-20261020-r1.svg",
+          "png": "dc-i5-spatial-reading-20261020-r1.png",
+          "lesson": "I.5 · three-dimensional form",
+          "media_slot_id": "I.5.lesson.masterclass-1",
+          "visual_grammar": "Keep one form and its axis in view while its representation changes; make the depth proposal visible."
+        },
+        {
+          "id": "dc-i5-views-agree-20261020-r1",
+          "title": "Three views constrain one coherent volume",
+          "description": "Front, side, and top orthographic views connect to one axonometric volume while a contradictory contour remains visibly marked.",
+          "svg": "dc-i5-views-agree-20261020-r1.svg",
+          "png": "dc-i5-views-agree-20261020-r1.png",
+          "lesson": "I.5 · three-dimensional form",
+          "media_slot_id": "I.5.lesson.masterclass-2",
+          "visual_grammar": "Projection guides constrain the form; a mismatch remains inspectable rather than being polished away."
+        },
+        {
+          "id": "dc-i5-render-evidence-20261020-r1",
+          "title": "A convincing render still needs a process trail",
+          "description": "A smooth final volume is contrasted with a 2D read, a blockout with a marked ambiguity, and a revision that records its test.",
+          "svg": "dc-i5-render-evidence-20261020-r1.svg",
+          "png": "dc-i5-render-evidence-20261020-r1.png",
+          "lesson": "I.5 · three-dimensional form",
+          "media_slot_id": "I.5.lesson.masterclass-3",
+          "visual_grammar": "Separate polished appearance from the visible evidence trail that explains a spatial decision."
+        }
+      ]
+    },
+    {
+      "release_id": "i5-spatial-slides-20261020-r1",
+      "created": "2026-10-20",
+      "skill": "visual-forger",
+      "skill_version": "1.3.0",
+      "assets": [
+        {
+          "id": "dc-i5-axis-studio-20261020-r1",
+          "title": "The axis holds a volume readable",
+          "description": "A simplified garment shell wraps a vertical axis; cross-axis and measured offsets make direction and proportion inspectable.",
+          "svg": "dc-i5-axis-studio-20261020-r1.svg",
+          "png": "dc-i5-axis-studio-20261020-r1.png",
+          "lesson": "I.5 · three-dimensional form",
+          "media_slot_id": "I.5.masterclass-1",
+          "visual_grammar": "Hold a single volume stable while axis and measured offsets reveal proportion before surface polish."
+        },
+        {
+          "id": "dc-i5-section-plane-20261020-r1",
+          "title": "A section makes interior form inspectable",
+          "description": "A translucent cut plane reveals an interior contour in a faceted form.",
+          "svg": "dc-i5-section-plane-20261020-r1.svg",
+          "png": "dc-i5-section-plane-20261020-r1.png",
+          "lesson": "I.5 · three-dimensional form",
+          "media_slot_id": "I.5.masterclass-2",
+          "visual_grammar": "Cut one volume with a visible plane; let the resulting section expose hidden form."
+        },
+        {
+          "id": "dc-i5-output-or-explanation-20261020-r1",
+          "title": "Output and explanation answer different questions",
+          "description": "A polished surface is compared with a construction view of the same schematic volume.",
+          "svg": "dc-i5-output-or-explanation-20261020-r1.svg",
+          "png": "dc-i5-output-or-explanation-20261020-r1.png",
+          "lesson": "I.5 · three-dimensional form",
+          "media_slot_id": "I.5.masterclass-3",
+          "visual_grammar": "Hold the object constant; change the view to show whether construction can be explained."
+        }
+      ]
+    },
+    {
+      "release_id": "i6-volume-illustrations-20261020-r1",
+      "created": "2026-10-20",
+      "skill": "visual-forger",
+      "skill_version": "1.3.0",
+      "assets": [
+        {
+          "id": "dc-i6-material-memory-20261020-r1",
+          "title": "Material Memory",
+          "description": "A material fold and a digital mesh diverge at one visible contour; the difference is preserved for comparison.",
+          "svg": "dc-i6-material-memory-20261020-r1.svg",
+          "png": "dc-i6-material-memory-20261020-r1.png",
+          "lesson": "I.6 · volume / I.6 · volum",
+          "media_slot_id": null,
+          "visual_grammar": "A material fold and a digital mesh diverge at one visible contour; the difference is preserved for comparison."
+        },
+        {
+          "id": "dc-i6-support-and-drape-20261020-r1",
+          "title": "Support And Drape",
+          "description": "A material span between two supports shows a stable contour and a deeper fall under load.",
+          "svg": "dc-i6-support-and-drape-20261020-r1.svg",
+          "png": "dc-i6-support-and-drape-20261020-r1.png",
+          "lesson": "I.6 · volume / I.6 · volum",
+          "media_slot_id": null,
+          "visual_grammar": "A material span between two supports shows a stable contour and a deeper fall under load."
+        },
+        {
+          "id": "dc-i6-evidence-pair-20261020-r1",
+          "title": "Evidence Pair",
+          "description": "A source fragment, a digital interpretation, and a local correction remain visible in one process record.",
+          "svg": "dc-i6-evidence-pair-20261020-r1.svg",
+          "png": "dc-i6-evidence-pair-20261020-r1.png",
+          "lesson": "I.6 · volume / I.6 · volum",
+          "media_slot_id": null,
+          "visual_grammar": "A source fragment, a digital interpretation, and a local correction remain visible in one process record."
+        },
+        {
+          "id": "dc-i6-three-views-20261020-r1",
+          "title": "Three Views",
+          "description": "Three projections reveal different contours of one draped volume.",
+          "svg": "dc-i6-three-views-20261020-r1.svg",
+          "png": "dc-i6-three-views-20261020-r1.png",
+          "lesson": "I.6 · volume slideshow / presentación I.6 · volumen",
+          "media_slot_id": null,
+          "visual_grammar": "Three projections reveal different contours of one draped volume."
+        },
+        {
+          "id": "dc-i6-revision-cycle-20261020-r1",
+          "title": "Revision Cycle",
+          "description": "A bounded loop links a physical study, digital pass, critique, and one recorded revision.",
+          "svg": "dc-i6-revision-cycle-20261020-r1.svg",
+          "png": "dc-i6-revision-cycle-20261020-r1.png",
+          "lesson": "I.6 · volume slideshow / presentación I.6 · volumen",
+          "media_slot_id": null,
+          "visual_grammar": "A bounded loop links a physical study, digital pass, critique, and one recorded revision."
+        },
+        {
+          "id": "dc-i6-simulation-break-20261020-r1",
+          "title": "Simulation Break",
+          "description": "A virtual mesh continues beyond the fold supported by the physical material.",
+          "svg": "dc-i6-simulation-break-20261020-r1.svg",
+          "png": "dc-i6-simulation-break-20261020-r1.png",
+          "lesson": "I.6 · volume slideshow / presentación I.6 · volumen",
+          "media_slot_id": null,
+          "visual_grammar": "A virtual mesh continues beyond the fold supported by the physical material."
+        },
+        {
+          "id": "dc-i6-volume-study-20261020-r1",
+          "title": "Volume Study",
+          "description": "Three stepped forms increase in depth while retaining a shared section direction.",
+          "svg": "dc-i6-volume-study-20261020-r1.svg",
+          "png": "dc-i6-volume-study-20261020-r1.png",
+          "lesson": "I.6 · volume slideshow / presentación I.6 · volumen",
+          "media_slot_id": null,
+          "visual_grammar": "Three stepped forms increase in depth while retaining a shared section direction."
+        },
+        {
+          "id": "dc-i6-local-correction-20261020-r1",
+          "title": "Local Correction",
+          "description": "One changed contour is compared with its retained source trace.",
+          "svg": "dc-i6-local-correction-20261020-r1.svg",
+          "png": "dc-i6-local-correction-20261020-r1.png",
+          "lesson": "I.6 · volume slideshow / presentación I.6 · volumen",
+          "media_slot_id": null,
+          "visual_grammar": "One changed contour is compared with its retained source trace."
         }
       ]
     }

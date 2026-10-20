@@ -1,0 +1,591 @@
+[
+  {
+    "knowledge_id": "4efc2f38-a0e8-5856-b9f6-353b01ce5569",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=6",
+    "content": "RECONOCER NUESTRA PROPIA DIGNIDAD, VALOR Y AUTOESTIMA NOS PERMITE:",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7764553820161305,
+    "metadata": {
+      "node_id": "4efc2f38-a0e8-5856-b9f6-353b01ce5569",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 6,
+      "document_metadata": {
+        "title": {
+          "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "1cd64966-124e-5e9c-aacc-10af5361ba08",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=2",
+    "content": "Todos nacemos con dignidad. Es nuestro valor inherente. La dignidad es una parte inherente de nuestra condición de ser humano. Hay muchas cosas que nos diferencian: etnias, religiones, colores de piel, géneros, políticas, fronteras y estatus. Pero la dignidad es el gran igualador. Se antepone a todas las divisiones y nos une en torno a la humanidad que compartimos.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7650483537199474,
+    "metadata": {
+      "node_id": "1cd64966-124e-5e9c-aacc-10af5361ba08",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 2,
+      "document_metadata": {
+        "title": {
+          "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "d80641fd-f272-5f42-98d5-08905d8c60cf",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=15",
+    "content": "Hemos cubierto las dos primeras áreas de dignidad: reconocer nuestro propio valor inherente y la dignidad y el valor de todos los demás. Ahora es el momento de trabajar juntos para crear culturas de dignidad mediante nuestras acciones.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7508909192267859,
+    "metadata": {
+      "node_id": "d80641fd-f272-5f42-98d5-08905d8c60cf",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 15,
+      "document_metadata": {
+        "title": {
+          "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "31defdf9-a715-5234-9370-0613184119e8",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=4",
+    "content": "La dignidad comienza con el reconocimiento de nuestro propio valor inherente y del valor fundamental de los demás. Reconocer la dignidad de todos afecta en la forma en que nos tratamos a nosotros mismos y a los demás y nos motiva a construir culturas de dignidad en nuestras organizaciones, lugares de trabajo y comunidades. Al más alto nivel, los principios de la dignidad crearían nuevas políticas y sistemas económicos y, en última instancia, sociedades y naciones más justas, abiertas y pacíficas. Para transformar verdaderamente a nosotros mismos y a nuestras comunidades, es importante que los principios de la dignidad se manifiesten en cuatro áreas. Comienza con el reconocimiento de nuestra propia dignidad inherente. A continuación, es esencial que también reconozcamos el valor fundamental de los demás, y que nuestra humanidad individual esté ligada a la humanidad de todas las personas. Luego, podemos construir culturas de dignidad en nuestras organizaciones, escuelas, lugares de trabajo y comunidades. Al más alto nivel, los principios de la dignidad conducen a la creación de nuevas políticas y sistemas económicos y, en última instancia, sociedades y naciones más justas, abiertas y pacíficas.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7458127743416271,
+    "metadata": {
+      "node_id": "31defdf9-a715-5234-9370-0613184119e8",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 4,
+      "document_metadata": {
+        "title": {
+          "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "c1cb13c3-c245-5218-965c-5a7066a14476",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "a38d7c59-241d-572e-98bd-fbf5cb927f27#page=19",
+    "content": "La actividad aborda cómo respetar la dignidad propia y ajena en las relaciones y contribuir a un entorno más respetuoso y solidario.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7310237744853463,
+    "metadata": {
+      "node_id": "c1cb13c3-c245-5218-965c-5a7066a14476",
+      "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+      "document_title": "Infografías sobre incidentes de odio",
+      "file_name": "Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+      "source_hash": "e0df4a8e02ba586182ed1760d2b34e775be8535ac89097ce2ae71e85a487d93a",
+      "library": "scholar",
+      "page_index": 19,
+      "document_metadata": {
+        "date": {
+          "value": "2026-06-21",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Infografías sobre incidentes de odio",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Lara Martínez de Aragón López",
+              "role": "author",
+              "given": "Lara",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Laura Nuño Gómez",
+              "role": "author",
+              "given": "Laura",
+              "family": "Nuño"
+            },
+            {
+              "kind": "person",
+              "name": "José Luis Martín Sáez",
+              "role": "author",
+              "given": "José Luis",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Noemí Gómez Posada",
+              "role": "author",
+              "given": "Noemí",
+              "family": "Gómez"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "infografías",
+            "incidentes de odio",
+            "dignidad",
+            "educación",
+            "periodismo",
+            "arte",
+            "desigualdades",
+            "comunicación",
+            "periodismo gráfico",
+            "dignidad humana"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "f0c0c764-2afe-523b-aac6-1875cce4b0ea",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "aff66163-ad0a-54e0-ac49-bd4d13d5b081#page=1",
+    "content": "Entendieron que tanto la falta de comprensión del concepto dignidad - cada persona posee un valor inherente e igualitario como la del reconocimiento como miembros de la humanidad, son la causa del conflicto y polarización en todo el mundo.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7189403989970317,
+    "metadata": {
+      "node_id": "f0c0c764-2afe-523b-aac6-1875cce4b0ea",
+      "document_id": "aff66163-ad0a-54e0-ac49-bd4d13d5b081",
+      "document_title": "1. presentación  del facilitador + Revisión término Dignidad / 3 min",
+      "file_name": "Guía para Facilitadores_Programa de Líderes de la Dignidad.pdf",
+      "source_hash": "88d96ce7d666f2f3fd137acfb408b4e11421ac5238ce62ac097633cd6fa77f92",
+      "library": "scholar",
+      "page_index": 1,
+      "document_metadata": {
+        "title": {
+          "value": "1. presentación  del facilitador + Revisión término Dignidad / 3 min",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "organization",
+              "name": "Global Dignity",
+              "role": "author",
+              "given": null,
+              "family": "Global Dignity"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "Global Dignity",
+            "Workshop Dignidad",
+            "Dignidad",
+            "Respeto",
+            "Comunidad Global Dignity",
+            "Violencia",
+            "Intolerancia",
+            "Educación",
+            "Comprendimiento",
+            "Compasión",
+            "Amor",
+            "Odiar",
+            "Intolerancia"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "6328e182-7264-5936-9730-ac999d549549",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=0",
+    "content": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7162982383164538,
+    "metadata": {
+      "node_id": "6328e182-7264-5936-9730-ac999d549549",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 0,
+      "document_metadata": {
+        "title": {
+          "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "3650e637-130a-5893-aa3b-a3e1f7e1859a",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=3",
+    "content": "DIGNIDAD: LO ESCENCIAL 'LA LIBERTAD, LA JUSTICIA Y LA PAZ EN EL MUNDO TIENEN POR BASE EL RECONOCIMIENTO DE LA DIGNIDAD INTRÍNSECA Y DE LOS DERECHOS IGUALES E INALIENABLES DE TODOS LOS MIEMBROS DE LA FAMILIA HUMANA.'",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7160531304499681,
+    "metadata": {
+      "node_id": "3650e637-130a-5893-aa3b-a3e1f7e1859a",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 3,
+      "document_metadata": {
+        "title": {
+          "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  }
+]

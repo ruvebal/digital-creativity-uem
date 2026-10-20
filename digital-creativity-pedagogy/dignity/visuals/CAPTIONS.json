@@ -1,0 +1,104 @@
+[
+  {
+    "number": 1,
+    "id": "01-worth",
+    "corner": "left",
+    "en": {
+      "alt": "Fashion professionals meet at an accessible casting table while other adult models wait beside a garment rack.",
+      "question": "Casting: which criteria can be justified by the brief, and which turn a person into a hierarchy of bodies?",
+      "image_prompt": "Compare framing and relative scale.",
+      "media_prompt": "Who sees the casting brief, and who can challenge its criteria?"
+    },
+    "es": {
+      "alt": "Profesionales de moda conversan en una mesa de casting accesible mientras otras modelos adultas esperan junto a un perchero.",
+      "question": "Casting: ¿qué criterios se justifican por el encargo y cuáles convierten a las personas en una jerarquía de cuerpos?",
+      "image_prompt": "Compara encuadre y escala relativa.",
+      "media_prompt": "¿Quién recibe el brief de casting y quién puede cuestionar sus criterios?"
+    }
+  },
+  {
+    "number": 2,
+    "id": "02-agency",
+    "corner": "right",
+    "en": {
+      "alt": "A fully clothed model pauses a studio photo shoot to discuss a pose with a photographer and stylist.",
+      "question": "Photo shoot: who can propose a pose, pause the session or refuse a decision? What would you need to know beyond this frame?",
+      "image_prompt": "Compare gesture, pose and camera position.",
+      "media_prompt": "Whose voice explains the image when it circulates?"
+    },
+    "es": {
+      "alt": "Una modelo vestida detiene una sesión fotográfica para hablar sobre una pose con el fotógrafo y una estilista.",
+      "question": "Sesión fotográfica: ¿quién puede proponer una pose, detener la sesión o rechazar una decisión? ¿Qué necesitarías saber fuera del encuadre?",
+      "image_prompt": "Compara gesto, pose y posición de cámara.",
+      "media_prompt": "¿Qué voz explica la imagen cuando circula?"
+    }
+  },
+  {
+    "number": 3,
+    "id": "03-history",
+    "corner": "left",
+    "en": {
+      "alt": "Backstage near a runway, a textile designer, model and stylist discuss a woven garment panel and a fabric sample.",
+      "question": "Runway: what history, authorship and context would you investigate before turning a textile into a styling device?",
+      "image_prompt": "Identify the contextual cues that remain in the frame.",
+      "media_prompt": "What context could be lost in a cropped repost or translated voiceover?"
+    },
+    "es": {
+      "alt": "Entre bastidores de una pasarela, una diseñadora textil, una modelo y una estilista comentan un tejido y una muestra.",
+      "question": "Pasarela: ¿qué historia, autoría y contexto investigarías antes de convertir un tejido en un recurso de estilismo?",
+      "image_prompt": "Identifica las pistas de contexto que conserva el encuadre.",
+      "media_prompt": "¿Qué contexto puede perderse al republicar un recorte o traducir la voz en off?"
+    }
+  },
+  {
+    "number": 4,
+    "id": "04-labour",
+    "corner": "left",
+    "en": {
+      "alt": "Two skilled garment makers work in the foreground of an atelier, connected by a cutting table to a fashion shoot in the next room.",
+      "question": "Atelier: whose work is visible in the finished image? Which claim about production would require evidence outside the picture?",
+      "image_prompt": "Trace how the composition connects making and display.",
+      "media_prompt": "How could a campaign credit the labour behind its image?"
+    },
+    "es": {
+      "alt": "Dos profesionales confeccionan una prenda en un taller conectado por una mesa de corte con una sesión fotográfica al fondo.",
+      "question": "Atelier: ¿qué trabajo se ve en la imagen final? ¿Qué afirmación sobre la producción necesitaría pruebas fuera de la imagen?",
+      "image_prompt": "Observa cómo la composición conecta confección y exhibición.",
+      "media_prompt": "¿Cómo podría una campaña reconocer el trabajo que produce su imagen?"
+    }
+  },
+  {
+    "number": 5,
+    "id": "05-citizen",
+    "corner": "right",
+    "en": {
+      "alt": "A client and tailor examine a repaired jacket during a fitting while another adult sorts garments for repair.",
+      "question": "Fitting and repair: can the next action be care, reuse or a collective decision? Who has the time, skills and access to choose it?",
+      "image_prompt": "Read how materials and gestures make care visible.",
+      "media_prompt": "Propose a call to action beyond another purchase."
+    },
+    "es": {
+      "alt": "Una persona y su sastre examinan una chaqueta reparada durante una prueba mientras otra persona organiza prendas para arreglar.",
+      "question": "Prueba y reparación: ¿puede la siguiente acción ser cuidar, reutilizar o decidir colectivamente? ¿Quién dispone del tiempo, los conocimientos y el acceso para hacerlo?",
+      "image_prompt": "Lee cómo los materiales y los gestos hacen visible el cuidado.",
+      "media_prompt": "Propón una llamada a la acción que abra una opción distinta de comprar."
+    }
+  },
+  {
+    "number": 6,
+    "id": "06-dialogue",
+    "corner": "right",
+    "en": {
+      "alt": "A model, image editor and creative director seated at the same height discuss a fully clothed fashion portrait on a monitor.",
+      "question": "Retouching critique: whose objection could change the edit? What evidence would make you revise your own judgement?",
+      "image_prompt": "Identify an edit that would need discussion and approval.",
+      "media_prompt": "Who can approve publication, request a correction or reply?"
+    },
+    "es": {
+      "alt": "Una modelo, una persona que edita imágenes y una directora creativa, sentadas a la misma altura, comentan un retrato de moda en una pantalla.",
+      "question": "Crítica del retoque: ¿qué objeción podría cambiar la edición? ¿Qué prueba te haría revisar tu propio juicio?",
+      "image_prompt": "Identifica una edición que exigiría discusión y aprobación.",
+      "media_prompt": "¿Quién puede aprobar la publicación, pedir una corrección o responder?"
+    }
+  }
+]

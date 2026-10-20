@@ -1,0 +1,94 @@
+{
+  "dry_run": false,
+  "summary": {
+    "processed_ok": 5,
+    "unique_document_ids": 5,
+    "twin_extras": 0,
+    "injected": 0,
+    "skipped_twins": 0,
+    "skipped_noop": 5,
+    "missing": 0,
+    "invalid": 0,
+    "failed": 0
+  },
+  "plan": {
+    "manifest_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/.ahmes/batch-manifest.json",
+    "processed_ok": 5,
+    "unique_document_ids": 5,
+    "twin_extras": 0,
+    "documents": [
+      {
+        "document_id": "2be6c1e1-132d-594f-b4eb-413fd0a55b1f",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Enlace a Recogida de Experiencias GD.pdf",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "4ce5cab8-8770-5a32-b76a-31c4bd162d8e",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/gd_presentacion_general_490bbfbe/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/GD Presentación_general.pdf",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/dignity_the_essentials_espanol_5f0338c2/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Dignity the Essentials. ESPAÑOL.pdf",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "aff66163-ad0a-54e0-ac49-bd4d13d5b081",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Guía para Facilitadores_Programa de Líderes de la Dignidad.pdf",
+        "twin_source_paths": []
+      }
+    ],
+    "missing": [],
+    "invalid": []
+  },
+  "injected": [],
+  "skipped_twins": [],
+  "skipped_noop": [
+    {
+      "document_id": "2be6c1e1-132d-594f-b4eb-413fd0a55b1f",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Enlace a Recogida de Experiencias GD.pdf",
+      "injection_id": "20cdb591-4f2a-46a9-a274-79535420f53b",
+      "status": "completed"
+    },
+    {
+      "document_id": "4ce5cab8-8770-5a32-b76a-31c4bd162d8e",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/gd_presentacion_general_490bbfbe/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/GD Presentación_general.pdf",
+      "injection_id": "2b2d35c7-d80a-405a-8900-21db51ad4d7c",
+      "status": "completed"
+    },
+    {
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/dignity_the_essentials_espanol_5f0338c2/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Dignity the Essentials. ESPAÑOL.pdf",
+      "injection_id": "a513e884-56ce-4510-b6d7-da56e57d7721",
+      "status": "completed"
+    },
+    {
+      "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+      "injection_id": "c14845bd-2aaf-4f74-8bd3-0c4d26e03175",
+      "status": "completed"
+    },
+    {
+      "document_id": "aff66163-ad0a-54e0-ac49-bd4d13d5b081",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Guía para Facilitadores_Programa de Líderes de la Dignidad.pdf",
+      "injection_id": "76e5f4af-e3c2-43d0-a50a-8ec3ce099285",
+      "status": "completed"
+    }
+  ],
+  "failed": []
+}

@@ -8,6 +8,9 @@ const indexPath = path.join(
 );
 const lessonRoot = path.join(root, "docs/lessons/es/nuevos-medios-moda");
 const deckRoot = path.join(root, "docs/tracks/es/uem/2627-nm");
+const guideFiles = ["docs/dignity/index.md", "docs/dignity/es/index.md"]
+  .map((file) => path.join(root, file))
+  .filter((file) => fs.existsSync(file));
 
 function fail(message) {
   console.error(`NM campaign allocation failed: ${message}`);
@@ -26,7 +29,7 @@ function parseIndex(markdown) {
       continue;
     }
     const [id, unit, , labelText] = cells;
-    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) || !/^U[1-6]$/.test(unit)) {
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) || !/^(?:U[1-6]|DIGNITY)$/.test(unit)) {
       continue;
     }
     if (rows.has(id)) fail(`campaign ID “${id}” appears more than once in the allocation index.`);
@@ -62,6 +65,20 @@ function lessonRecords() {
     if (!ids.length) fail(`${file} is forged but has no campaign_ids allocation.`);
     records.push({ unit: `U${unit}`, file, ids, content });
   }
+  if (guideFiles.length) {
+    const content = fs.readFileSync(guideFiles[0], "utf8");
+    const campaignLine = content.match(/^campaign_ids:\s*\[([^\]]*)\]\s*$/m);
+    const ids = campaignLine ? campaignLine[1].split(",").map((id) => id.trim()).filter(Boolean) : [];
+    if (!ids.length) fail("The shared dignity guide must declare its reserved campaign_ids.");
+    for (const file of guideFiles.slice(1)) {
+      const mirrorLine = fs.readFileSync(file, "utf8").match(/^campaign_ids:\s*\[([^\]]*)\]\s*$/m);
+      const mirrorIds = mirrorLine ? mirrorLine[1].split(",").map((id) => id.trim()).filter(Boolean) : [];
+      if (JSON.stringify([...ids].sort()) !== JSON.stringify([...mirrorIds].sort())) {
+        fail(`${file} must mirror the canonical dignity guide's case ownership.`);
+      }
+    }
+    records.push({ unit: "DIGNITY", file: guideFiles[0], ids, content });
+  }
   return records;
 }
 
@@ -96,6 +113,7 @@ for (const [id, row] of index) {
 for (const row of index.values()) {
   const unitNumber = row.unit.slice(1);
   const otherUnitFiles = [];
+  if (row.unit !== "DIGNITY") otherUnitFiles.push(...guideFiles);
   for (let n = 1; n <= 6; n += 1) {
     if (String(n) === unitNumber) continue;
     const lessonDir = fs
@@ -125,5 +143,5 @@ for (const row of index.values()) {
 
 if (process.exitCode) process.exit(process.exitCode);
 console.log(
-  `NM campaign allocation passed: ${index.size} unique cases assigned across ${lessons.length} forged lessons; no cross-unit lesson/deck reuse found.`,
+  `NM campaign allocation passed: ${index.size} unique cases assigned across ${lessons.length} canonical teaching pages; no cross-unit lesson/deck/guide reuse found.`,
 );

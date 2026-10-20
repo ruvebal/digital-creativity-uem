@@ -1,0 +1,868 @@
+[
+  {
+    "knowledge_id": "078615f2-38a2-5127-9633-be8320e9ed7b",
+    "collection_name": "project_b3b41228860f4d74bb0414db1a107e8c",
+    "source_locator": "dc53c3c7-a885-5aba-bdc6-f8ba5cebf8aa#page=10",
+    "content": "Ahmedtelba, E.: Critical integration of generative ai in higher education: Cognitive, pedagogical, and ethical perspectives. London Journal of Research In Humanities and Social Sciences 25 (13), 1-12 (Sep 2025), https://journalspress.uk/index. php/LJRHSS/article/view/1601",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-stem-code-ai-epistemology-critique",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6359672660613496,
+    "metadata": {
+      "node_id": "078615f2-38a2-5127-9633-be8320e9ed7b",
+      "document_id": "dc53c3c7-a885-5aba-bdc6-f8ba5cebf8aa",
+      "document_title": "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
+      "file_name": "2603.07834.pdf",
+      "source_hash": "7e38e20f87a00096af99e8beae1a4b896ad9d63bd31522c12374118cae27ff64",
+      "library": "scholar",
+      "page_index": 10,
+      "document_metadata": {
+        "doi": {
+          "value": "10.48550/arxiv.2603.07834",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "title": {
+          "value": "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Eduardo",
+              "family": "Davalos"
+            },
+            {
+              "kind": "person",
+              "given": "Yike",
+              "family": "Zhang"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.48550/arxiv.2603.07834",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "AI in Education",
+            "Learning Visibility",
+            "Cognitive Offloading",
+            "Learning Analytics",
+            "AI Ethics"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "arXiv",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "datacite",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_raw_hash": {
+          "value": "b2fc14050423bedeebf64e14293b64e9f2932c6b73250408e20dcda53c8d29d7",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "e99806ee-1777-5049-a193-51b0680d7b62",
+    "collection_name": "project_b3b41228860f4d74bb0414db1a107e8c",
+    "source_locator": "18368f59-c06c-5854-80b2-04b4de63aec3#page=32",
+    "content": "Suarez, Marcela et al. (2025). Critical AI Literacy: Beyond hegemonic perspectives on sustainability . doi: 10.5281/zenodo.15677840 .",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-stem-code-ai-epistemology-critique",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6289235983344549,
+    "metadata": {
+      "node_id": "e99806ee-1777-5049-a193-51b0680d7b62",
+      "document_id": "18368f59-c06c-5854-80b2-04b4de63aec3",
+      "document_title": "3 Higher education, critical thinking, expertise, & academic freedom",
+      "file_name": "guest-et-al-2025-https-hcommons-b1ae62f9.pdf",
+      "source_hash": "a6b7110889822b6361907057d2eee89312b275448c9a7f668caf6f4c936a283f",
+      "library": "scholar",
+      "page_index": 32,
+      "document_metadata": {
+        "date": {
+          "value": "2025-06-01",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "3 Higher education, critical thinking, expertise, & academic freedom",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Olivia Guest",
+              "role": "author",
+              "given": null,
+              "family": "Guest"
+            },
+            {
+              "kind": "person",
+              "name": "Marcela Suarez",
+              "role": "author",
+              "given": null,
+              "family": "Suarez"
+            },
+            {
+              "kind": "person",
+              "name": "Barbara C. N. Müller",
+              "role": "author",
+              "given": null,
+              "family": "Müller"
+            },
+            {
+              "kind": "person",
+              "name": "Edwin van Meerkerk",
+              "role": "author",
+              "given": null,
+              "family": "van Meerkerk"
+            },
+            {
+              "kind": "person",
+              "name": "Arnoud Oude Groote Beverborg",
+              "role": "author",
+              "given": null,
+              "family": "Oude Groote Beverborg"
+            },
+            {
+              "kind": "person",
+              "name": "Ronald de Haan",
+              "role": "author",
+              "given": null,
+              "family": "de Haan"
+            },
+            {
+              "kind": "person",
+              "name": "Arnoud Oude Groote Elizondo",
+              "role": "author",
+              "given": null,
+              "family": "Elizondo"
+            },
+            {
+              "kind": "person",
+              "name": "Mark Blokpoel",
+              "role": "author",
+              "given": null,
+              "family": "Blokpoel"
+            },
+            {
+              "kind": "person",
+              "name": "Natalia Scharfenberg",
+              "role": "author",
+              "given": null,
+              "family": "Scharfenberg"
+            },
+            {
+              "kind": "person",
+              "name": "Annelies Kleinherenbrink",
+              "role": "author",
+              "given": null,
+              "family": "Kleinherenbrink"
+            },
+            {
+              "kind": "person",
+              "name": "Ileana Camerino",
+              "role": "author",
+              "given": null,
+              "family": "Camerino"
+            },
+            {
+              "kind": "person",
+              "name": "Marieke Woensdregt",
+              "role": "author",
+              "given": null,
+              "family": "Woensdregt"
+            },
+            {
+              "kind": "person",
+              "name": "Dagmar Monett",
+              "role": "author",
+              "given": null,
+              "family": "Monett"
+            },
+            {
+              "kind": "person",
+              "name": "Jed Brown",
+              "role": "author",
+              "given": null,
+              "family": "Brown"
+            },
+            {
+              "kind": "person",
+              "name": "Lucy Avraamidou",
+              "role": "author",
+              "given": null,
+              "family": "Avraamidou"
+            },
+            {
+              "kind": "person",
+              "name": "Juliette Alenda-Demoutiez",
+              "role": "author",
+              "given": null,
+              "family": "Demoutiez"
+            },
+            {
+              "kind": "person",
+              "name": "Felienne Hermans",
+              "role": "author",
+              "given": null,
+              "family": "Hermans"
+            },
+            {
+              "kind": "person",
+              "name": "Iris van Rooij",
+              "role": "author",
+              "given": null,
+              "family": "van Rooij"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "higher education",
+            "critical thinking",
+            "expertise",
+            "academic freedom",
+            "AI technology"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "706e079f-0b10-577b-8664-8e34ce9d4ce3",
+    "collection_name": "project_b3b41228860f4d74bb0414db1a107e8c",
+    "source_locator": "18368f59-c06c-5854-80b2-04b4de63aec3#page=3",
+    "content": "3 Higher education, critical thinking, expertise, & academic freedom",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-stem-code-ai-epistemology-critique",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6265520438251118,
+    "metadata": {
+      "node_id": "706e079f-0b10-577b-8664-8e34ce9d4ce3",
+      "document_id": "18368f59-c06c-5854-80b2-04b4de63aec3",
+      "document_title": "3 Higher education, critical thinking, expertise, & academic freedom",
+      "file_name": "guest-et-al-2025-https-hcommons-b1ae62f9.pdf",
+      "source_hash": "a6b7110889822b6361907057d2eee89312b275448c9a7f668caf6f4c936a283f",
+      "library": "scholar",
+      "page_index": 3,
+      "document_metadata": {
+        "date": {
+          "value": "2025-06-01",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "3 Higher education, critical thinking, expertise, & academic freedom",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Olivia Guest",
+              "role": "author",
+              "given": null,
+              "family": "Guest"
+            },
+            {
+              "kind": "person",
+              "name": "Marcela Suarez",
+              "role": "author",
+              "given": null,
+              "family": "Suarez"
+            },
+            {
+              "kind": "person",
+              "name": "Barbara C. N. Müller",
+              "role": "author",
+              "given": null,
+              "family": "Müller"
+            },
+            {
+              "kind": "person",
+              "name": "Edwin van Meerkerk",
+              "role": "author",
+              "given": null,
+              "family": "van Meerkerk"
+            },
+            {
+              "kind": "person",
+              "name": "Arnoud Oude Groote Beverborg",
+              "role": "author",
+              "given": null,
+              "family": "Oude Groote Beverborg"
+            },
+            {
+              "kind": "person",
+              "name": "Ronald de Haan",
+              "role": "author",
+              "given": null,
+              "family": "de Haan"
+            },
+            {
+              "kind": "person",
+              "name": "Arnoud Oude Groote Elizondo",
+              "role": "author",
+              "given": null,
+              "family": "Elizondo"
+            },
+            {
+              "kind": "person",
+              "name": "Mark Blokpoel",
+              "role": "author",
+              "given": null,
+              "family": "Blokpoel"
+            },
+            {
+              "kind": "person",
+              "name": "Natalia Scharfenberg",
+              "role": "author",
+              "given": null,
+              "family": "Scharfenberg"
+            },
+            {
+              "kind": "person",
+              "name": "Annelies Kleinherenbrink",
+              "role": "author",
+              "given": null,
+              "family": "Kleinherenbrink"
+            },
+            {
+              "kind": "person",
+              "name": "Ileana Camerino",
+              "role": "author",
+              "given": null,
+              "family": "Camerino"
+            },
+            {
+              "kind": "person",
+              "name": "Marieke Woensdregt",
+              "role": "author",
+              "given": null,
+              "family": "Woensdregt"
+            },
+            {
+              "kind": "person",
+              "name": "Dagmar Monett",
+              "role": "author",
+              "given": null,
+              "family": "Monett"
+            },
+            {
+              "kind": "person",
+              "name": "Jed Brown",
+              "role": "author",
+              "given": null,
+              "family": "Brown"
+            },
+            {
+              "kind": "person",
+              "name": "Lucy Avraamidou",
+              "role": "author",
+              "given": null,
+              "family": "Avraamidou"
+            },
+            {
+              "kind": "person",
+              "name": "Juliette Alenda-Demoutiez",
+              "role": "author",
+              "given": null,
+              "family": "Demoutiez"
+            },
+            {
+              "kind": "person",
+              "name": "Felienne Hermans",
+              "role": "author",
+              "given": null,
+              "family": "Hermans"
+            },
+            {
+              "kind": "person",
+              "name": "Iris van Rooij",
+              "role": "author",
+              "given": null,
+              "family": "van Rooij"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "higher education",
+            "critical thinking",
+            "expertise",
+            "academic freedom",
+            "AI technology"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "9390fe6d-c7e4-5a7f-bdea-c394790fe702",
+    "collection_name": "project_b3b41228860f4d74bb0414db1a107e8c",
+    "source_locator": "8c0a1ba6-3bc2-5a44-814d-72af0d3dc1c0#page=30",
+    "content": "Education is another domain where Agentic RAG systems are making significant strides. These systems enable adaptive learning by generating explanations, study materials, and feedback tailored to the learner's progress and preferences.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-stem-code-ai-epistemology-critique",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.624845215289091,
+    "metadata": {
+      "node_id": "9390fe6d-c7e4-5a7f-bdea-c394790fe702",
+      "document_id": "8c0a1ba6-3bc2-5a44-814d-72af0d3dc1c0",
+      "document_title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+      "file_name": "2501.09136.pdf",
+      "source_hash": "e1041580a2fecec215b203f5232d558cd6e2802af3d4f5f04fe8bff5080460f8",
+      "library": "scholar",
+      "page_index": 30,
+      "document_metadata": {
+        "doi": {
+          "value": "10.48550/arxiv.2501.09136",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2025,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "year": {
+          "value": 2025,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "title": {
+          "value": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Aditi",
+              "family": "Singh"
+            },
+            {
+              "kind": "person",
+              "given": "Abul",
+              "family": "Ehtesham"
+            },
+            {
+              "kind": "person",
+              "given": "Saket",
+              "family": "Kumar"
+            },
+            {
+              "kind": "person",
+              "given": "Tala Talaei",
+              "family": "Khoei"
+            },
+            {
+              "kind": "person",
+              "given": "Athanasios V.",
+              "family": "Vasilakos"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.48550/arxiv.2501.09136",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "Large Language Models (LLMs)",
+            "Artificial Intelligence",
+            "Retrieval-Augmented Generation (RAG)",
+            "Agentic RAG",
+            "Agent Design Patterns",
+            "Multi-Agent Collaboration"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "arXiv",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "datacite",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_raw_hash": {
+          "value": "abc262ab992225d800731492daa678569c41f0d9f9546fc671404f0fd63aa384",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "f59997f7-d19e-51e0-8094-7fd015462d43",
+    "collection_name": "project_b3b41228860f4d74bb0414db1a107e8c",
+    "source_locator": "dc53c3c7-a885-5aba-bdc6-f8ba5cebf8aa#page=0",
+    "content": "Keywords: AI in Education · Learning Visibility · Cognitive Offloading · Learning Analytics · AI Ethics",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-stem-code-ai-epistemology-critique",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6236462003786368,
+    "metadata": {
+      "node_id": "f59997f7-d19e-51e0-8094-7fd015462d43",
+      "document_id": "dc53c3c7-a885-5aba-bdc6-f8ba5cebf8aa",
+      "document_title": "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
+      "file_name": "2603.07834.pdf",
+      "source_hash": "7e38e20f87a00096af99e8beae1a4b896ad9d63bd31522c12374118cae27ff64",
+      "library": "scholar",
+      "page_index": 0,
+      "document_metadata": {
+        "doi": {
+          "value": "10.48550/arxiv.2603.07834",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "title": {
+          "value": "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Eduardo",
+              "family": "Davalos"
+            },
+            {
+              "kind": "person",
+              "given": "Yike",
+              "family": "Zhang"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.48550/arxiv.2603.07834",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "AI in Education",
+            "Learning Visibility",
+            "Cognitive Offloading",
+            "Learning Analytics",
+            "AI Ethics"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "arXiv",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "datacite",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_raw_hash": {
+          "value": "b2fc14050423bedeebf64e14293b64e9f2932c6b73250408e20dcda53c8d29d7",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "2d9af79c-e53f-5053-911b-9a645f83cbcf",
+    "collection_name": "project_b3b41228860f4d74bb0414db1a107e8c",
+    "source_locator": "dc53c3c7-a885-5aba-bdc6-f8ba5cebf8aa#page=10",
+    "content": "Rather than attempting to eliminate all types of academic misconduct, the framework seeks to reduce ambiguity, support meta-cognitive engagement, and preserve trust between students and educators. Visibility is not a surveillance mechanism but a socio-technical strategy for aligning ethical AI use with longstanding educational values and well-grounded learning theory. As AI systems continue to evolve, institutions must move beyond reactive enforcement toward principled integration. Ultimately, the ethical use of AI in education depends not only on what students produce, but on how they actively learn.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-stem-code-ai-epistemology-critique",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6228701194493478,
+    "metadata": {
+      "node_id": "2d9af79c-e53f-5053-911b-9a645f83cbcf",
+      "document_id": "dc53c3c7-a885-5aba-bdc6-f8ba5cebf8aa",
+      "document_title": "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
+      "file_name": "2603.07834.pdf",
+      "source_hash": "7e38e20f87a00096af99e8beae1a4b896ad9d63bd31522c12374118cae27ff64",
+      "library": "scholar",
+      "page_index": 10,
+      "document_metadata": {
+        "doi": {
+          "value": "10.48550/arxiv.2603.07834",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "title": {
+          "value": "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Eduardo",
+              "family": "Davalos"
+            },
+            {
+              "kind": "person",
+              "given": "Yike",
+              "family": "Zhang"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.48550/arxiv.2603.07834",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "AI in Education",
+            "Learning Visibility",
+            "Cognitive Offloading",
+            "Learning Analytics",
+            "AI Ethics"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "arXiv",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "datacite",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_raw_hash": {
+          "value": "b2fc14050423bedeebf64e14293b64e9f2932c6b73250408e20dcda53c8d29d7",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  }
+]

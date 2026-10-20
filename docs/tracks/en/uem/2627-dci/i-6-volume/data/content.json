@@ -1,0 +1,336 @@
+---
+layout: null
+---
+{
+  "unit_label": "Digital Creativity I · I.6 Volume",
+  "final_event_theme": "Communicate and inspire: What is fashion for you?",
+  "media_selection": {
+    "unit_id": "I.6",
+    "project_id": "dc",
+    "collection": "course-diagrams",
+    "strategy": "authored-diagram-backgrounds",
+    "description": "Original course diagrams; no external media rights are asserted.",
+    "media_overrides": {}
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "geometrical",
+      "heading": "I.6 · Volume",
+      "sentence": "Volume is tested across material, projection, and revision.",
+      "notes": [
+        "Open with the official CONTENIDOS anchor: Volumen."
+      ],
+      "prompt": "CONTENIDOS: Volumen",
+      "quote": "A fold becomes volume when its edges meet in space.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "geometry"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Read the volume",
+      "sentence": "Which part of a fold survives the move to screen, and which part changes?",
+      "notes": [
+        "Model one material-to-screen comparison before the Lab."
+      ]
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "Compare three views",
+      "sentence": "Each projection makes a different contour of the same drape visible.",
+      "notes": [
+        "Model how each projection reveals a different contour of the same drape."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
+      "diagram_alt": "Three views reveal different contours of one draped volume.",
+      "diagram_caption": "One fold, three projections",
+      "image_brief": "Three views reveal different contours of one draped volume.",
+      "quote": "One object can cast several honest views.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "projection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Iterate between representations",
+      "sentence": "Let one physical study and one digital pass correct each other.",
+      "notes": [
+        "Let one physical study and one digital pass correct each other."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
+      "diagram_alt": "A physical study and digital pass return through critique and revision.",
+      "diagram_caption": "A loop with a visible reason",
+      "image_brief": "A physical study and digital pass return through critique and revision.",
+      "quote": "Let each pass ask the next a sharper question.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "iteration"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Test the simulated fold",
+      "sentence": "A plausible digital contour still needs a material check.",
+      "notes": [
+        "A plausible digital contour still needs a material check."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
+      "diagram_alt": "A virtual contour continues where the supported material form does not.",
+      "diagram_caption": "A discrepancy worth testing",
+      "image_brief": "A virtual contour continues where the supported material form does not.",
+      "quote": "A convincing surface still owes the material a test.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "simulation"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · Change one variable",
+      "sentence": "Keep scale and viewpoint stable while revising one mismatch.",
+      "notes": [
+        "Keep scale and viewpoint stable while revising one mismatch."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
+      "diagram_alt": "Three bounded studies increase depth and retain a shared section.",
+      "diagram_caption": "Depth changed in one step",
+      "image_brief": "Three bounded studies increase depth and retain a shared section.",
+      "quote": "A revision matters when its reason remains visible.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "evidence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Answer from memory, then check the ideas in the lesson.",
+      "notes": [
+        "Answer cues: depth profile; drape/tension/fold; keep scale and viewpoint constant; before/after pair with changed region marked; a final image alone does not verify support, gravity, or material."
+      ],
+      "questions": [
+        "What can a side view show that the front view hides?",
+        "Name one possible mismatch between cloth and simulation.",
+        "What will you hold constant when comparing two passes?",
+        "What evidence makes a revision legible?",
+        "Why does a polished render not prove material behaviour by itself?"
+      ]
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Leave a process trace",
+      "sentence": "Save both exercises in your portfolio index.",
+      "notes": [
+        "Two portfolio-bound exercises follow."
+      ]
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "diagram",
+      "heading": "Exercise 1 · Build one fold",
+      "sentence": "Build a small volume from paper, cloth, or another available material; photograph two views and mark where the fold changes.",
+      "notes": [
+        "Individual, 15 minutes. A tactile or static equivalent is welcome.",
+        "Portfolio trace: Two views and one note on the changed contour, support, or drape."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
+      "diagram_alt": "A folded material and digital mesh are compared at a marked mismatch.",
+      "diagram_caption": "Build enough depth to test a fold",
+      "image_brief": "A folded material and digital mesh are compared at a marked mismatch.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Two views and one note on the changed contour, support, or drape.",
+      "timer_seconds": 900,
+      "method_id": "i6-volume-lab-1",
+      "practises": [
+        "masterclass-1",
+        "masterclass-2"
+      ],
+      "prompt": "Save one labelled comparison in the portfolio index.",
+      "quote": "Build only enough volume to test one fold.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "craft"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "diagram",
+      "heading": "Exercise 2 · Compare and revise",
+      "sentence": "Compare the physical study with a simple digital interpretation; change one variable and keep the earlier view.",
+      "notes": [
+        "Individual, 15 minutes. A tactile or static equivalent is welcome.",
+        "Portfolio trace: Before/after pair and one sentence explaining the change."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
+      "diagram_alt": "One local revision is checked against its retained source contour.",
+      "diagram_caption": "Keep the source beside the revision",
+      "image_brief": "One local revision is checked against its retained source contour.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Before/after pair and one sentence explaining the change.",
+      "timer_seconds": 900,
+      "method_id": "i6-volume-lab-2",
+      "practises": [
+        "masterclass-2",
+        "masterclass-3"
+      ],
+      "prompt": "Save one labelled comparison in the portfolio index.",
+      "quote": "Keep the first contour beside the correction.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of the Image)",
+        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "process"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Bring the mismatch that still needs a test, not only the most polished view.",
+      "notes": [
+        "Carry the unresolved mismatch forward as a question to test."
+      ]
+    }
+  ],
+  "schema_version": 2,
+  "locale": "en"
+}

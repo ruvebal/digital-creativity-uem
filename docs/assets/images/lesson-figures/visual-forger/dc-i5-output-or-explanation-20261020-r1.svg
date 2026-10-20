@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Output and explanation answer different questions</title>
+  <desc id="desc">Two views of the same schematic sleeve volume contrast a smooth final render with a cutaway diagram that exposes the shaping plane, a hollow underarm, and the direction of tension. The image asks what each representation lets the maker explain.</desc>
+  <rect width="1600" height="900" fill="#F7F2E8"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#111827">
+    <text x="72" y="92" font-size="34" font-weight="500">Output and explanation answer different questions</text>
+    <text x="72" y="132" font-size="20" fill="#596579">Keep the object constant; change what the view lets you explain.</text>
+    <g>
+      <rect x="72" y="190" width="690" height="550" rx="24" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+      <rect x="838" y="190" width="690" height="550" rx="24" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+      <text x="112" y="245" font-size="20" font-weight="500" fill="#334155">SURFACE VIEW</text>
+      <text x="878" y="245" font-size="20" font-weight="500" fill="#334155">CONSTRUCTION VIEW</text>
+    </g>
+    <path d="M350 305c-72 15-106 57-100 113l28 241c51 34 130 34 180 0l28-241c7-56-28-98-100-113Z" fill="#C8B69E" stroke="#24344D" stroke-width="4"/>
+    <path d="M291 358c-26 82-18 176-1 250M444 358c26 82 18 176 1 250" fill="none" stroke="#F3E8D9" stroke-width="14" stroke-linecap="round"/>
+    <path d="M1045 305c-72 15-106 57-100 113l28 241c51 34 130 34 180 0l28-241c7-56-28-98-100-113Z" fill="#E7D6C5" stroke="#24344D" stroke-width="4"/>
+    <path d="M1045 305v354m0-354-100 113m100-113 100 113" fill="none" stroke="#B45B43" stroke-width="3" stroke-dasharray="9 8"/>
+    <path d="M949 495c38-28 64-27 96 0 30 25 60 26 96 0" fill="none" stroke="#347B68" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1045 520v82m-10-12 10 12 10-12" fill="none" stroke="#C49337" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1039" cy="477" r="9" fill="#B45B43"/><circle cx="1052" cy="477" r="9" fill="#B45B43"/>
+    <text x="417" y="700" text-anchor="middle" font-size="17" fill="#596579">Can the form be recognised?</text>
+    <text x="1183" y="700" text-anchor="middle" font-size="17" fill="#596579">Can the maker explain the shaping?</text>
+    <path d="M763 463h75m-18-18 18 18-18 18" fill="none" stroke="#627087" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="800" y="818" text-anchor="middle" font-size="18" fill="#596579">A render demonstrates appearance; a construction view supports an explanation.</text>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+{
+  "dry_run": false,
+  "summary": {
+    "processed_ok": 9,
+    "unique_document_ids": 9,
+    "twin_extras": 0,
+    "injected": 1,
+    "skipped_twins": 0,
+    "skipped_noop": 8,
+    "missing": 0,
+    "invalid": 0,
+    "failed": 0
+  },
+  "plan": {
+    "manifest_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/.ahmes/batch-manifest.json",
+    "processed_ok": 9,
+    "unique_document_ids": 9,
+    "twin_extras": 0,
+    "documents": [
+      {
+        "document_id": "146aadd5-8a9c-5d18-9801-2ed7edea4b24",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_gucci_2016_91a2446f/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-gucci-2016.md",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "1514f8a2-986d-5e8e-8a6a-ec3e4a842f79",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_calvin_klein_2024_2883507d/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-calvin-klein-2024.md",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "168a5b83-7b0a-5896-bc2f-541829097c34",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/pantano_2021_772a899c/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/pantano-2021.md",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "27f07b3c-7492-5e91-a06e-859e65f70ba1",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/spain_advertising_1988_4aec5f72/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/spain-advertising-1988.md",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "40849d06-64d3-53f6-ace0-cc764d8b623c",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/acm_hm_2022_695f1503/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/acm-hm-2022.md",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "4eb2ebca-3360-5d7d-baa9-9573e71774f3",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_articles_1948_5d5d2238/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/udhr-articles-1948.md",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "590bded5-a3d6-5568-9f76-dea199ec3e41",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/srivastava_2022_e4e5e9cc/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/srivastava-2022.pdf",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "f18e073d-43a7-534b-b496-9eb197eb720f",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_1948_40159888/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/udhr-1948.md",
+        "twin_source_paths": []
+      },
+      {
+        "document_id": "fdb93934-2db6-5597-90bf-836290dd7bf6",
+        "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_boohoo_2022_c7d17a41/extract/extraction.db",
+        "primary_source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-boohoo-2022.md",
+        "twin_source_paths": []
+      }
+    ],
+    "missing": [],
+    "invalid": []
+  },
+  "injected": [
+    {
+      "document_id": "4eb2ebca-3360-5d7d-baa9-9573e71774f3",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_articles_1948_5d5d2238/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/udhr-articles-1948.md",
+      "injection_id": "a77c4431-bc0f-476d-a1d1-0ac18ca3ff92",
+      "status": "completed"
+    }
+  ],
+  "skipped_twins": [],
+  "skipped_noop": [
+    {
+      "document_id": "146aadd5-8a9c-5d18-9801-2ed7edea4b24",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_gucci_2016_91a2446f/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-gucci-2016.md",
+      "injection_id": "676567ab-a3f8-4d5e-a736-839a2b0f53c7",
+      "status": "completed"
+    },
+    {
+      "document_id": "1514f8a2-986d-5e8e-8a6a-ec3e4a842f79",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_calvin_klein_2024_2883507d/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-calvin-klein-2024.md",
+      "injection_id": "ddd32241-15ff-48bb-a045-e422d621810c",
+      "status": "completed"
+    },
+    {
+      "document_id": "168a5b83-7b0a-5896-bc2f-541829097c34",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/pantano_2021_772a899c/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/pantano-2021.md",
+      "injection_id": "47c5ff0d-6b92-4acf-b20e-32148ecfecdd",
+      "status": "completed"
+    },
+    {
+      "document_id": "27f07b3c-7492-5e91-a06e-859e65f70ba1",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/spain_advertising_1988_4aec5f72/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/spain-advertising-1988.md",
+      "injection_id": "92b17ab4-6700-4b6d-a0a8-6b3ab4873d37",
+      "status": "completed"
+    },
+    {
+      "document_id": "40849d06-64d3-53f6-ace0-cc764d8b623c",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/acm_hm_2022_695f1503/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/acm-hm-2022.md",
+      "injection_id": "492f6c72-836a-4e32-99dc-5e83eaabc4c6",
+      "status": "completed"
+    },
+    {
+      "document_id": "590bded5-a3d6-5568-9f76-dea199ec3e41",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/srivastava_2022_e4e5e9cc/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/srivastava-2022.pdf",
+      "injection_id": "ee53ae6b-de7a-4d87-a124-6c3bba56171c",
+      "status": "completed"
+    },
+    {
+      "document_id": "f18e073d-43a7-534b-b496-9eb197eb720f",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_1948_40159888/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/udhr-1948.md",
+      "injection_id": "cc8afd36-8175-4d5c-a6ea-18928c9ac80b",
+      "status": "completed"
+    },
+    {
+      "document_id": "fdb93934-2db6-5597-90bf-836290dd7bf6",
+      "extraction_db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_boohoo_2022_c7d17a41/extract/extraction.db",
+      "source_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-boohoo-2022.md",
+      "injection_id": "7c01b8cd-b7fe-448d-8d3e-565a135abcea",
+      "status": "completed"
+    }
+  ],
+  "failed": []
+}

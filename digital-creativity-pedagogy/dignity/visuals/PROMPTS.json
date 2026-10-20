@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "mode": "built-in image_gen",
+  "requested_aspect_ratio": "2.39:1",
+  "shared_style": "Fictional adult fashion setting, cinematic realist, anamorphic 35mm classic cinema look, natural skin and believable environments, no brands, no embedded wording, quiet upper corner reserved for a future lema.",
+  "positive_scenes": [
+    {
+      "id": "01-worth",
+      "brief": "Casting studio where a casting director discusses a garment with an adult wheelchair-using model while adult applicants with different body shapes wait professionally. Frame as equal human worth and defensible selection criteria."
+    },
+    {
+      "id": "02-agency",
+      "brief": "A fully clothed adult model pauses a studio photo shoot to discuss a pose with photographer and stylist. Make the model visibly active in the decision."
+    },
+    {
+      "id": "03-history",
+      "brief": "At a contemporary runway backstage, adult textile designer, model and stylist discuss a woven jacket panel and sample. Show authorship and context without exotic props; dress the textile designer in a saturated teal jacket that clearly contrasts with the rust, cream and navy textile."
+    },
+    {
+      "id": "04-labour",
+      "brief": "In an atelier, skilled adult garment makers work in foreground, physically connected by a long cutting table to a fashion shoot in the next room."
+    },
+    {
+      "id": "05-citizen",
+      "brief": "In a fitting and alterations studio, adult client and tailor examine a repaired jacket while another adult sorts clothes for repair; show care and options beyond purchase."
+    },
+    {
+      "id": "06-dialogue",
+      "brief": "An adult model, image editor and creative director sit at equal height in an editing suite to discuss a fully clothed portrait. Show disagreement and shared review."
+    }
+  ]
+}

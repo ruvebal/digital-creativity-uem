@@ -1,0 +1,28 @@
+[
+  {
+    "page": "dignity/index.html",
+    "h1_count": 1,
+    "references": 13,
+    "internal_link_errors": [],
+    "case_headings": [
+      "Boohoo: what is the image selling?",
+      "Gucci Cruise 2016: presentation is an editorial decision",
+      "H&M Conscious: can the audience check the promise?",
+      "Dolce & Gabbana: who is the object of the joke?",
+      "Calvin Klein / FKA twigs: change your reading when the evidence changes"
+    ]
+  },
+  {
+    "page": "dignity/es/index.html",
+    "h1_count": 1,
+    "references": 13,
+    "internal_link_errors": [],
+    "case_headings": [
+      "Boohoo: ¿qué vende la imagen?",
+      "Gucci Cruise 2016: presentar también es decidir",
+      "H&M Conscious: ¿se puede comprobar la promesa?",
+      "Dolce & Gabbana: ¿quién es objeto de la broma?",
+      "Calvin Klein / FKA twigs: revisar el juicio"
+    ]
+  }
+]

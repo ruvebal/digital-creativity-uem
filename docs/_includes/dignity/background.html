@@ -1,0 +1,21 @@
+{% assign backgrounds = site.data.dignity_visuals.backgrounds %}
+<figure markdown="0" class="dignity-day-figure">
+<section markdown="0" class="dignity-day" aria-labelledby="dignity-day-title" style="--dignity-day-light: url('{{ backgrounds.light | relative_url }}'); --dignity-day-dark: url('{{ backgrounds.dark | relative_url }}');">
+<div class="dignity-day__message">
+<img class="dignity-day__logo" src="https://globaldignity.org/wp-content/uploads/2017/12/header-logo.svg" alt="Global Dignity" width="208" height="56" loading="lazy" decoding="async">
+{% if page.lang == 'es' %}
+<h2 id="dignity-day-title">Día Mundial de la Dignidad</h2>
+<p class="dignity-day__date">21 de octubre de 2026</p>
+{% else %}
+<h2 id="dignity-day-title">Global Dignity Day</h2>
+<p class="dignity-day__date">October 21, 2026</p>
+{% endif %}
+<p class="dignity-day__hashtags">#GlobalDignity · #GlobalDignityDay · #ThisIsDignity</p>
+</div>
+</section>
+{% if page.lang == 'es' %}
+<figcaption>Geometría recursiva original · @ruvebal · visual-forger y fractal-architect</figcaption>
+{% else %}
+<figcaption>Original recursive geometry · @ruvebal · visual-forger and fractal-architect</figcaption>
+{% endif %}
+</figure>

@@ -41,3 +41,28 @@ U4–U6 have no campaign allocation until their lessons are forged. A case is
 assigned when its ID is added to a lesson; do not copy an existing case merely
 because the Profield unit-routing note recommends it. If no unassigned case
 fits, return to Profield research for a new verified case before proceeding.
+
+## Shared dignity guide — reserved cases
+
+The English `/dignity/` guide and Spanish `/dignity/es/` mirror form **one
+canonical teaching owner**, `DIGNITY`. The following seven supplemental cases
+are unranked. Their analyses live in that guide and must not be copied into
+U1–U6, their decks, labs or assignments. Unit lessons may link to the guide.
+These reservations preserve the existing U1–U3 sets, including U1 unchanged.
+The campaign validator checks both the unit allocations and this reservation.
+
+| campaign_id | Unit | Profield rank | Campaign labels / aliases | Canonical case source |
+| --- | --- | ---: | --- | --- |
+| boohoo-tshirt-2021 | DIGNITY | — (supplemental; unranked) | Boohoo T-shirt listing; Boohoo; Boohoo.com UK Ltd | [ASA ruling, 16 February 2022](https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html) |
+| gucci-cruise-2016 | DIGNITY | — (supplemental; unranked) | Gucci Cruise 2016; Guccio Gucci SpA | [ASA ruling, 6 April 2016](https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html) |
+| hm-conscious-2022 | DIGNITY | — (supplemental; unranked) | H&M Conscious; H&M's Conscious; H&M Conscious claims | [ACM commitments, 13 September 2022](https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers) |
+| dg-chopsticks-2018 | DIGNITY | — (supplemental; unranked) | Dolce & Gabbana; Dolce y Gabbana; D&G chopsticks | [Pantano research article](https://doi.org/10.1016/j.jbusres.2020.09.049) |
+| dg-ss2007-print | DIGNITY | — (supplemental; unranked) | Dolce & Gabbana Spring/Summer 2007 print ad; D&G 2007 coercion controversy | [El País contemporaneous report](https://elpais.com/sociedad/2007/02/19/actualidad/1171839604_850215.html) · [Sociological Images discussion](https://thesocietypages.org/socimages/2011/01/21/re-thinking-the-famous-dolce-and-gabbana-gang-rape-ad/) |
+| calvin-klein-fka-twigs-2023 | DIGNITY | — (supplemental; unranked) | Calvin Klein; FKA twigs; FKA Twigs | [Revised ASA ruling, 6 March 2024](https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html) |
+| calvin-klein-ss2016 | DIGNITY | — (supplemental; unranked) | Calvin Klein Spring/Summer 2016; Calvin Klein SS 2016; #mycalvins 2016 | [Vogue España campaign coverage, 9 May 2016](https://www.vogue.es/moda/news/articulos/polemica-campana-calvin-klein-primavera-verano-2016-demasido-sexual/25627) · [Official campaign film](https://www.youtube.com/watch?v=bb--k_Xv2MQ) |
+
+Research pack: `digital-creativity-pedagogy/dignity/MASTER-CASCADE.md` and
+`RESEARCH-SYNTHESIS.md`. Campaign images remain on source hosts and are shown
+as optional linked evidence; this reservation is not permission to copy or
+redistribute them. The linked official Gucci brand film is related media and
+is not asserted to preserve the exact version adjudicated by the regulator.

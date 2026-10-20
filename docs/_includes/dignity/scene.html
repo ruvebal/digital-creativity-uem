@@ -1,0 +1,20 @@
+{% assign scene = site.data.dignity_visuals.scenes | where: 'number', include.number | first %}
+{% assign locale = page.lang | default: 'en' %}
+{% assign words = scene[locale] %}
+{% if scene %}
+<figure markdown="0" class="dignity-scene" id="dignity-scene-{{ scene.number }}">
+<div class="dignity-scene__stage">
+<img id="dignity-scene-image-{{ scene.number }}" src="{{ scene.negative_asset | relative_url }}" width="{{ scene.width }}" height="{{ scene.height }}" loading="lazy" decoding="async" alt="{{ words.negative_alt | escape }}" aria-describedby="dignity-scene-caption-{{ scene.number }}" data-positive-src="{{ scene.asset | relative_url }}" data-positive-alt="{{ words.alt | escape }}" data-negative-src="{{ scene.negative_asset | relative_url }}" data-negative-alt="{{ words.negative_alt | escape }}" />
+</div>
+<button type="button" class="dignity-flip" aria-controls="dignity-scene-image-{{ scene.number }}" aria-describedby="dignity-scene-caption-{{ scene.number }}" aria-pressed="false" data-caption-id="dignity-scene-state-{{ scene.number }}" data-caption-critical="{{ words.caption_critical | escape }}" data-caption-alternative="{{ words.caption_alternative | escape }}" data-label-positive="{{ words.flip_positive | escape }}" data-label-negative="{{ words.flip_negative | escape }}">{{ words.flip_positive }}</button>
+<figcaption id="dignity-scene-caption-{{ scene.number }}"><span class="dignity-scene-state" id="dignity-scene-state-{{ scene.number }}">{{ words.caption_critical }}</span>
+{{ words.question }}
+<span class="dignity-track-prompt">{% if locale == 'es' %}Imagen{% else %}Image{% endif %}: {{ words.image_prompt }}</span>
+<span class="dignity-track-prompt">{% if locale == 'es' %}Medios{% else %}Media{% endif %}: {{ words.media_prompt }}</span>
+<span class="dignity-scene-credit">{{ words.credit }}</span></figcaption>
+<details class="dignity-answer">
+<summary>{{ words.answer_label }}</summary>
+<p>{{ words.answer }}</p>
+</details>
+</figure>
+{% endif %}

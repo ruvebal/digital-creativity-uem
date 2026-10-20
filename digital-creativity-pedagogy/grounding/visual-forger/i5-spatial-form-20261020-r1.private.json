@@ -1,0 +1,37 @@
+{
+  "release_id": "i5-spatial-form-20261020-r1",
+  "lesson": "I.5 \u00b7 three-dimensional form",
+  "skill": {
+    "name": "visual-forger",
+    "version": "1.3.0",
+    "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+    "sha256": "813d25dd0430b93fded7a03e2c2d1642c2f76046fee0830949c140f7e5cd9c49",
+    "project_commit_at_forge": "23baa27b33a5a7dc6fcac2a2f46286c15319a50d"
+  },
+  "assets": {
+    "dc-i5-spatial-reading-20261020-r1": {
+      "svg": "21d91735c66bec68113aa1bd4c3f1c882b48fe1bb9afed0d00beb337af7e146e",
+      "png": "dc88aa72f0eb1678d11dce676a90b5bc5b1b481c5b28ad28522640af2c7444fc"
+    },
+    "dc-i5-views-agree-20261020-r1": {
+      "svg": "838809baf9fa1b2d016264a0337bdb740e438d04a5e808b0f788b55ba4e0d199",
+      "png": "fd42d5328d71ce866284d1faf9068833f8745722213c35017a75c44d68df0405"
+    },
+    "dc-i5-render-evidence-20261020-r1": {
+      "svg": "b69f127bc5d21600d0e8767ecad76b3d5d0758df72a741156db7b16d23027a07",
+      "png": "3802828e4568c850f1a5524f1af0c72ed54760eee30712eba2e2f394894d8c86"
+    },
+    "dc-i5-axis-studio-20261020-r1": {
+      "svg": "7b5bd059d01eb4045e89ef07448cb3c56d806611eaa2c91f0ca0da5fec5e2268",
+      "png": "7643b33bb4b4fc456ba24145f7c7fae5eb337dc6e02e4258c3e02f2c2f83d3dd"
+    },
+    "dc-i5-section-plane-20261020-r1": {
+      "svg": "e56561f91a330872712ef43015376816517b15c5a66bff810d027b878d3d35e5",
+      "png": "75062586e39a493d673e020c6ac47d8c0434a8468c44b05c89cacf11d16602cd"
+    },
+    "dc-i5-output-or-explanation-20261020-r1": {
+      "svg": "5ebe2d982f706ea5a3b36cc8be814b1c914d25e09eeb4d9e1dbb71e5890d37f8",
+      "png": "e3d424e5d774a167a86bc812fc51b72ed2f9a5378bc2f45c6404cba1e5911255"
+    }
+  }
+}

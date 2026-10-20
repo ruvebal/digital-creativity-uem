@@ -1,0 +1,382 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4418729,
+    "items": [
+      {
+        "DOI": "10.1007/978-94-010-0047-5_35",
+        "title": [
+          "Human Dignity and the Objectification of the Human Being"
+        ],
+        "author": [
+          {
+            "given": "J. J.",
+            "family": "Venter",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2004
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1007/978-94-010-0047-5_35",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-94-010-0047-5_35",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1080/20932685.2015.1032317",
+        "title": [
+          "Offensive advertising in the fashion industry: Sexual objectification and ethical judgments of consumers"
+        ],
+        "author": [
+          {
+            "given": "Su Yun",
+            "family": "Bae",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nancy",
+            "family": "Rudd",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Anil",
+            "family": "Bilgihan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              6,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1080/20932685.2015.1032317",
+        "type": "journal-article",
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.1080/20932685.2015.1032317",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/978-3-030-02967-8_2",
+        "title": [
+          "Dignity, Respect, and Objectification"
+        ],
+        "author": [
+          {
+            "given": "Meredith Celene",
+            "family": "Schwartz",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1007/978-3-030-02967-8_2",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-030-02967-8_2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.4324/9781003449157-4",
+        "title": [
+          "The advertising agency"
+        ],
+        "author": [
+          {
+            "given": "Olga",
+            "family": "Mitterfellner",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              28
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4324/9781003449157-4",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.5871/bacad/9780197265642.003.0034",
+        "title": [
+          "Dignity as Perception: Recognition of the Human Individual and the Individual Animal in Legal Thought"
+        ],
+        "author": [
+          {
+            "given": "Joseph",
+            "family": "Vining",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              11,
+              21
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.5871/bacad/9780197265642.003.0034",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.2307/j.ctv22d4t3k.11",
+        "title": [
+          "TWO CONCEPTS OF DIGNITY:"
+        ],
+        "author": [
+          {
+            "given": "Åsbjørn",
+            "family": "Melkevik",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Bjarne",
+            "family": "Melkevik",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              15
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.2307/j.ctv22d4t3k.11",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.31274/etd-180810-1518",
+        "title": [
+          "Getting out of the kitchen and into the bedroom: The objectification of women in advertising through the use of design elements Exploring the perception of sexual imagery and objectification in advertising amongst graphic design undergraduates"
+        ],
+        "author": [
+          {
+            "given": "Melissa",
+            "family": "McDonald",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Iowa State University"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "URL": "https://doi.org/10.31274/etd-180810-1518",
+        "type": "dissertation"
+      },
+      {
+        "DOI": "10.1017/cbo9781316106327.012",
+        "title": [
+          "Recognition of the constitutional right to human dignity and its content"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              26
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1017/cbo9781316106327.012",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/09CD27413BBA30F00222E6071DDA8337",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1353/asr.2022.0018",
+        "title": [
+          "Key Concepts in Advertising: Objectification"
+        ],
+        "author": [
+          {
+            "given": "Jacqueline",
+            "family": "Lambiase",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Carolyn",
+            "family": "Bronstein",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1353/asr.2022.0018",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.5871/bacad/9780197265642.003.0025",
+        "title": [
+          "From Imago Dei to Mutual Recognition: The Evolution of the Concept of Human Dignity in the Light of the Defence of Religious Freedom"
+        ],
+        "author": [
+          {
+            "given": "Sergio",
+            "family": "Dellavalle",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              11,
+              21
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.5871/bacad/9780197265642.003.0025",
+        "type": "book-chapter"
+      }
+    ],
+    "items-per-page": 10,
+    "query": {
+      "start-index": 0,
+      "search-terms": "human dignity fashion advertising objectification recognition agency"
+    }
+  }
+}

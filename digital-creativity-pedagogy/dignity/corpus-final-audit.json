@@ -1,0 +1,197 @@
+[
+  {
+    "source": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Enlace a Recogida de Experiencias GD.pdf",
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/extract/extraction.db",
+    "status": "PROCESSED_OK",
+    "nodes": 17,
+    "semantic_anchors": 2,
+    "metadata": {
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    }
+  },
+  {
+    "source": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Dignity the Essentials. ESPAÑOL.pdf",
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/dignity_the_essentials_espanol_5f0338c2/extract/extraction.db",
+    "status": "PROCESSED_OK",
+    "nodes": 111,
+    "semantic_anchors": 51,
+    "metadata": {
+      "authors": {
+        "value": "[{\"family\": \"Oscae\", \"given\": \"Yohane\", \"name\": \"Oscae Yohane\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"dignidad\", \"compasi\\u00f3n\", \"amabilidad\", \"amor\", \"perd\\u00f3n\", \"reconocimiento\", \"valor\", \"humanidad\", \"pol\\u00edtica\", \"derechos humanos\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Dignidad: Lo esencial",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    }
+  },
+  {
+    "source": "/Users/ruvebal/projects/ruvebal/scholar/dignity/GD Presentación_general.pdf",
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/gd_presentacion_general_490bbfbe/extract/extraction.db",
+    "status": "PROCESSED_OK",
+    "nodes": 174,
+    "semantic_anchors": 28,
+    "metadata": {
+      "authors": {
+        "value": "[{\"family\": \"Nieto\", \"given\": \"Juan Jos\\u00e9\", \"name\": \"Juan Jos\\u00e9 Nieto\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"embaudadores\", \"dignidad\", \"educaci\\u00f3n\", \"actividad\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    }
+  },
+  {
+    "source": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+    "status": "PROCESSED_OK",
+    "nodes": 366,
+    "semantic_anchors": 117,
+    "metadata": {
+      "authors": {
+        "value": "[{\"family\": \"Mart\\u00ednez\", \"given\": \"Lara\", \"name\": \"Lara Mart\\u00ednez de Arag\\u00f3n L\\u00f3pez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Nu\\u00f1o\", \"given\": \"Laura\", \"name\": \"Laura Nu\\u00f1o G\\u00f3mez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Mart\\u00ednez\", \"given\": \"Jos\\u00e9 Luis\", \"name\": \"Jos\\u00e9 Luis Mart\\u00edn S\\u00e1ez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"G\\u00f3mez\", \"given\": \"Noem\\u00ed\", \"name\": \"Noem\\u00ed G\\u00f3mez Posada\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2026-06-21",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"infograf\\u00edas\", \"incidentes de odio\", \"dignidad\", \"educaci\\u00f3n\", \"periodismo\", \"arte\", \"desigualdades\", \"comunicaci\\u00f3n\", \"periodismo gr\\u00e1fico\", \"dignidad humana\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Dignidad e innovación educativa: Banco de buenas prácticas",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity España and Fundación AYO",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2026",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    }
+  },
+  {
+    "source": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Guía para Facilitadores_Programa de Líderes de la Dignidad.pdf",
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/extract/extraction.db",
+    "status": "PROCESSED_OK",
+    "nodes": 104,
+    "semantic_anchors": 77,
+    "metadata": {
+      "authors": {
+        "value": "[{\"family\": \"Global Dignity\", \"given\": null, \"name\": \"Global Dignity\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"Workshop Dignidad\", \"Dignidad\", \"Respeto\", \"Comunidad Global Dignity\", \"Violencia\", \"Intolerancia\", \"Educaci\\u00f3n\", \"Comprendimiento\", \"Compasi\\u00f3n\", \"Amor\", \"Odiar\", \"Intolerancia\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Guía del facilitador: Workshop Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    }
+  }
+]

@@ -24,6 +24,9 @@ frontier_signal: 'Generative fill may accelerate polish faster than pedagogical 
 
 <!-- prettier-ignore-end -->
 
+**Shared guide:** [Dignity in fashion image and media]({{ '/dignity/' | relative_url }}) — documented cases and activities for revising image and communication decisions.
+
+
 ---
 
 <div class="lesson-opener" markdown="1">

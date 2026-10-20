@@ -1,0 +1,681 @@
+{
+  "field_id": "dignity-fashion-ideas",
+  "run_id": "20261020",
+  "generated_at": "2026-10-20T12:20:04Z",
+  "template_versions": {
+    "pass1": "v1",
+    "pass2": "v1",
+    "pass3": "v1"
+  },
+  "counts": {
+    "rows": 12,
+    "claims": 12,
+    "citations": 8,
+    "unverified_rows": 0,
+    "evaluator_safe_citations": 8,
+    "unmatched_verdicts": 0,
+    "confirmed": 9,
+    "disputed": 2,
+    "unverifiable": 1,
+    "missing": 0
+  },
+  "reconciliation": [],
+  "rows": [
+    {
+      "claim": {
+        "id": "p1-c001",
+        "area": "normative-framework",
+        "text": "I01: The Universal Declaration grounds equal dignity and rights independently of distinctions named in Article 2. This is a normative framework, not a campaign-effect estimate. Source: [United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2.](https://www.un.org/en/about-us/universal-declaration-of-human-rights)",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Normative framework",
+        "citations": [
+          {
+            "key": "united-nations-1948-universal-de-be32fae4",
+            "raw": "United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2.",
+            "provenance": {
+              "asserted_by_pass": 1,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "title": "United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2.",
+            "year": 1948,
+            "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+          }
+        ]
+      },
+      "citation": {
+        "key": "united-nations-1948-universal-de-be32fae4",
+        "raw": "United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2.",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "title": "United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2.",
+        "year": 1948,
+        "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+      },
+      "identifier": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I01: The Universal Declaration grounds equal dignity and rights independently of distinctions named in Article 2. This is a normative framework, not a campaign-effect estimate. Boundary retained. Source audit: United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2. https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I01: The Universal Declaration grounds equal dignity and rights independently of distinctions named in Article 2. This is a normative framework, not a campaign-effect estimate. Checked against primary source / local full-node evidence / acquisition receipt as applicable. United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2. https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c002",
+        "area": "normative-framework",
+        "text": "I02: Spain’s General Advertising Law Article 3(a) explicitly addresses advertising that attacks dignity; its consolidated text was checked on 2026-10-20, last update shown 2023-03-01. Application to a case requires jurisdictional and factual analysis. Source: [España. 1988. Ley 34/1988, General de Publicidad, art. 3(a).](https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3)",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Normative framework",
+        "citations": [
+          {
+            "key": "espa-a-1988-ley-34-1988-general-da8ca38a",
+            "raw": "España. 1988. Ley 34/1988, General de Publicidad, art. 3(a).",
+            "provenance": {
+              "asserted_by_pass": 1,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "title": "España. 1988. Ley 34/1988, General de Publicidad, art. 3(a).",
+            "year": 1988,
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3"
+          }
+        ]
+      },
+      "citation": {
+        "key": "espa-a-1988-ley-34-1988-general-da8ca38a",
+        "raw": "España. 1988. Ley 34/1988, General de Publicidad, art. 3(a).",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "title": "España. 1988. Ley 34/1988, General de Publicidad, art. 3(a).",
+        "year": 1988,
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3"
+      },
+      "identifier": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I02: Spain’s General Advertising Law Article 3(a) explicitly addresses advertising that attacks dignity; its consolidated text was checked on 2026-10-20, last update shown 2023-03-01. Application to a case requires jurisdictional and factual analysis. Boundary retained. Source audit: España. 1988. Ley 34/1988, General de Publicidad, art. 3(a). https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3"
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I02: Spain’s General Advertising Law Article 3(a) explicitly addresses advertising that attacks dignity; its consolidated text was checked on 2026-10-20, last update shown 2023-03-01. Application to a case requires jurisdictional and factual analysis. Checked against primary source / local full-node evidence / acquisition receipt as applicable. España. 1988. Ley 34/1988, General de Publicidad, art. 3(a). https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3"
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c003",
+        "area": "visual-agency",
+        "text": "I03: A visual discourse analysis of 15 Nordic fast-fashion advertisements identifies complex portrayals that need not dislodge stereotypes. This bounded sample is not an industry-wide prevalence measure. Source: [Srivastava, Sonali, Terhi-Anna Wilska, and Johanna Sjöberg. 2022. Girls’ portrayals in fast fashion advertisements. Consumption Markets & Culture 25(6):501–524.](https://doi.org/10.1080/10253866.2022.2067149)",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Visual agency",
+        "citations": [
+          {
+            "key": "10-1080-10253866-2022-2067149",
+            "raw": "I03: A visual discourse analysis of 15 Nordic fast-fashion advertisements identifies complex portrayals that need not dislodge stereotypes. This bounded sample is not an industry-wide prevalence measure. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Srivastava, Sonali, Terhi-Anna Wilska, and Johanna Sjöberg. 2022. Girls’ portrayals in fast fashion advertisements. Consumption Markets & Culture 25(6):501–524. https://doi.org/10.1080/10253866.2022.2067149",
+            "provenance": {
+              "asserted_by_pass": 3,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "year": 2022,
+            "doi": "10.1080/10253866.2022.2067149",
+            "url": "https://doi.org/10.1080/10253866.2022.2067149"
+          }
+        ]
+      },
+      "citation": {
+        "key": "10-1080-10253866-2022-2067149",
+        "raw": "I03: A visual discourse analysis of 15 Nordic fast-fashion advertisements identifies complex portrayals that need not dislodge stereotypes. This bounded sample is not an industry-wide prevalence measure. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Srivastava, Sonali, Terhi-Anna Wilska, and Johanna Sjöberg. 2022. Girls’ portrayals in fast fashion advertisements. Consumption Markets & Culture 25(6):501–524. https://doi.org/10.1080/10253866.2022.2067149",
+        "provenance": {
+          "asserted_by_pass": 3,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "year": 2022,
+        "doi": "10.1080/10253866.2022.2067149",
+        "url": "https://doi.org/10.1080/10253866.2022.2067149"
+      },
+      "identifier": "10.1080/10253866.2022.2067149",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I03: A visual discourse analysis of 15 Nordic fast-fashion advertisements identifies complex portrayals that need not dislodge stereotypes. This bounded sample is not an industry-wide prevalence measure. Boundary retained. Source audit: Srivastava, Sonali, Terhi-Anna Wilska, and Johanna Sjöberg. 2022. Girls’ portrayals in fast fashion advertisements. Consumption Markets & Culture 25(6):501–524. https://doi.org/10.1080/10253866.2022.2067149"
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I03: A visual discourse analysis of 15 Nordic fast-fashion advertisements identifies complex portrayals that need not dislodge stereotypes. This bounded sample is not an industry-wide prevalence measure. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Srivastava, Sonali, Terhi-Anna Wilska, and Johanna Sjöberg. 2022. Girls’ portrayals in fast fashion advertisements. Consumption Markets & Culture 25(6):501–524. https://doi.org/10.1080/10253866.2022.2067149"
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c004",
+        "area": "visual-agency",
+        "text": "I04: Browne’s historical discussion of commodity spectacle connects visual consumption to racialisation. Its transfer to a contemporary advertisement is a situated interpretive question. Source: [Browne, Simone. 2015. Dark Matters: On the Surveillance of Blackness. Duke University Press.](https://doi.org/10.1215/9780822375302)",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Visual agency",
+        "citations": [
+          {
+            "key": "10-1215-9780822375302",
+            "raw": "I04: Browne’s historical discussion of commodity spectacle connects visual consumption to racialisation. Its transfer to a contemporary advertisement is a situated interpretive question. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Browne, Simone. 2015. Dark Matters: On the Surveillance of Blackness. Duke University Press. https://doi.org/10.1215/9780822375302",
+            "provenance": {
+              "asserted_by_pass": 3,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "year": 2015,
+            "doi": "10.1215/9780822375302",
+            "url": "https://doi.org/10.1215/9780822375302"
+          }
+        ]
+      },
+      "citation": {
+        "key": "10-1215-9780822375302",
+        "raw": "I04: Browne’s historical discussion of commodity spectacle connects visual consumption to racialisation. Its transfer to a contemporary advertisement is a situated interpretive question. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Browne, Simone. 2015. Dark Matters: On the Surveillance of Blackness. Duke University Press. https://doi.org/10.1215/9780822375302",
+        "provenance": {
+          "asserted_by_pass": 3,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "year": 2015,
+        "doi": "10.1215/9780822375302",
+        "url": "https://doi.org/10.1215/9780822375302"
+      },
+      "identifier": "10.1215/9780822375302",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I04: Browne’s historical discussion of commodity spectacle connects visual consumption to racialisation. Its transfer to a contemporary advertisement is a situated interpretive question. Boundary retained. Source audit: Browne, Simone. 2015. Dark Matters: On the Surveillance of Blackness. Duke University Press. https://doi.org/10.1215/9780822375302"
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I04: Browne’s historical discussion of commodity spectacle connects visual consumption to racialisation. Its transfer to a contemporary advertisement is a situated interpretive question. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Browne, Simone. 2015. Dark Matters: On the Surveillance of Blackness. Duke University Press. https://doi.org/10.1215/9780822375302"
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c005",
+        "area": "political-economy-and-media",
+        "text": "I05: Abidin’s study describes under-compensated and underacknowledged gendered visibility labour in follower-anchored Instagram fashion advertorials. It does not measure current platform prevalence. Source: [Abidin, Crystal. 2016. Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram. Media International Australia 161(1):86–100.](https://doi.org/10.1177/1329878X16665177)",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Political economy and media",
+        "citations": [
+          {
+            "key": "10-1177-1329878x16665177",
+            "raw": "I05: Abidin’s study describes under-compensated and underacknowledged gendered visibility labour in follower-anchored Instagram fashion advertorials. It does not measure current platform prevalence. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Abidin, Crystal. 2016. Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram. Media International Australia 161(1):86–100. https://doi.org/10.1177/1329878X16665177",
+            "provenance": {
+              "asserted_by_pass": 3,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "year": 2016,
+            "doi": "10.1177/1329878X16665177",
+            "url": "https://doi.org/10.1177/1329878X16665177"
+          }
+        ]
+      },
+      "citation": {
+        "key": "10-1177-1329878x16665177",
+        "raw": "I05: Abidin’s study describes under-compensated and underacknowledged gendered visibility labour in follower-anchored Instagram fashion advertorials. It does not measure current platform prevalence. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Abidin, Crystal. 2016. Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram. Media International Australia 161(1):86–100. https://doi.org/10.1177/1329878X16665177",
+        "provenance": {
+          "asserted_by_pass": 3,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "year": 2016,
+        "doi": "10.1177/1329878X16665177",
+        "url": "https://doi.org/10.1177/1329878X16665177"
+      },
+      "identifier": "10.1177/1329878X16665177",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I05: Abidin’s study describes under-compensated and underacknowledged gendered visibility labour in follower-anchored Instagram fashion advertorials. It does not measure current platform prevalence. Boundary retained. Source audit: Abidin, Crystal. 2016. Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram. Media International Australia 161(1):86–100. https://doi.org/10.1177/1329878X16665177"
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I05: Abidin’s study describes under-compensated and underacknowledged gendered visibility labour in follower-anchored Instagram fashion advertorials. It does not measure current platform prevalence. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Abidin, Crystal. 2016. Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram. Media International Australia 161(1):86–100. https://doi.org/10.1177/1329878X16665177"
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c006",
+        "area": "political-economy-and-media",
+        "text": "I06: UNEP’s Playbook recommends reducing messages of overconsumption and supporting citizens’ demands for wider change. This is practitioner guidance, not measured campaign impact. Source: [United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook.](https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook)",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Political economy and media",
+        "citations": [
+          {
+            "key": "united-nations-environment-progr-c05b0fc8",
+            "raw": "United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook.",
+            "provenance": {
+              "asserted_by_pass": 1,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "title": "United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook.",
+            "year": 2023,
+            "url": "https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook"
+          }
+        ]
+      },
+      "citation": {
+        "key": "united-nations-environment-progr-c05b0fc8",
+        "raw": "United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook.",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "title": "United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook.",
+        "year": 2023,
+        "url": "https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook"
+      },
+      "identifier": "https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I06: UNEP’s Playbook recommends reducing messages of overconsumption and supporting citizens’ demands for wider change. This is practitioner guidance, not measured campaign impact. Boundary retained. Source audit: United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook. https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook"
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I06: UNEP’s Playbook recommends reducing messages of overconsumption and supporting citizens’ demands for wider change. This is practitioner guidance, not measured campaign impact. Checked against primary source / local full-node evidence / acquisition receipt as applicable. United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook. https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook"
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c007",
+        "area": "political-economy-and-media",
+        "text": "I07: Pantano models online diffusion around a particular luxury campaign using negative stereotypes. The issue year is 2021, with online-first publication in 2020; the event does not provide a universal causal law. Source: [Pantano, Eleonora. 2021. When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate. Journal of Business Research 123:117–125.](https://doi.org/10.1016/j.jbusres.2020.09.049)",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Political economy and media",
+        "citations": [
+          {
+            "key": "10-1016-j-jbusres-2020-09-049",
+            "raw": "I07: Pantano models online diffusion around a particular luxury campaign using negative stereotypes. The issue year is 2021, with online-first publication in 2020; the event does not provide a universal causal law. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Pantano, Eleonora. 2021. When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate. Journal of Business Research 123:117–125. https://doi.org/10.1016/j.jbusres.2020.09.049",
+            "provenance": {
+              "asserted_by_pass": 3,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "year": 2021,
+            "doi": "10.1016/j.jbusres.2020.09.049",
+            "url": "https://doi.org/10.1016/j.jbusres.2020.09.049"
+          }
+        ]
+      },
+      "citation": {
+        "key": "10-1016-j-jbusres-2020-09-049",
+        "raw": "I07: Pantano models online diffusion around a particular luxury campaign using negative stereotypes. The issue year is 2021, with online-first publication in 2020; the event does not provide a universal causal law. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Pantano, Eleonora. 2021. When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate. Journal of Business Research 123:117–125. https://doi.org/10.1016/j.jbusres.2020.09.049",
+        "provenance": {
+          "asserted_by_pass": 3,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "year": 2021,
+        "doi": "10.1016/j.jbusres.2020.09.049",
+        "url": "https://doi.org/10.1016/j.jbusres.2020.09.049"
+      },
+      "identifier": "10.1016/j.jbusres.2020.09.049",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I07: Pantano models online diffusion around a particular luxury campaign using negative stereotypes. The issue year is 2021, with online-first publication in 2020; the event does not provide a universal causal law. Boundary retained. Source audit: Pantano, Eleonora. 2021. When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate. Journal of Business Research 123:117–125. https://doi.org/10.1016/j.jbusres.2020.09.049"
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I07: Pantano models online diffusion around a particular luxury campaign using negative stereotypes. The issue year is 2021, with online-first publication in 2020; the event does not provide a universal causal law. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Pantano, Eleonora. 2021. When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate. Journal of Business Research 123:117–125. https://doi.org/10.1016/j.jbusres.2020.09.049"
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c008",
+        "area": "teaching-inquiry",
+        "text": "I08: The supplied 2026 practice bank case GD16 connects textile production location, fair working conditions, materials and communication. This is a documented practice, not an effectiveness study. Source: Global Dignity España and Fundación AYO. 2026. Dignidad e innovación educativa: Banco de buenas prácticas, GD16, PDF p.17. Local supplied source; no public edition URL verified.",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Teaching inquiry"
+      },
+      "citation": null,
+      "identifier": "—",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I08: The supplied 2026 practice bank case GD16 connects textile production location, fair working conditions, materials and communication. This is a documented practice, not an effectiveness study. Boundary retained. Source audit: Global Dignity España and Fundación AYO. 2026. Dignidad e innovación educativa: Banco de buenas prácticas, GD16, PDF p.17. Local supplied source; no public edition URL verified."
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I08: The supplied 2026 practice bank case GD16 connects textile production location, fair working conditions, materials and communication. This is a documented practice, not an effectiveness study. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Global Dignity España and Fundación AYO. 2026. Dignidad e innovación educativa: Banco de buenas prácticas, GD16, PDF p.17. Local supplied source; no public edition URL verified."
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c009",
+        "area": "teaching-inquiry",
+        "text": "I09: Freire’s problem-posing relation treats teacher and learners as investigators of a shared object. Our fashion tasks are a pedagogical adaptation, not an intervention validated by that text. Source: Freire, Paulo. 2000. Pedagogy of the Oppressed. 30th anniversary edition. Continuum. ISBN 9781501305313. Supplied vault edition verified on title and copyright pages.",
+        "confidence": "ESTABLISHED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "section": "Teaching inquiry",
+        "citations": [
+          {
+            "key": "i09-freire-s-problem-posing-rela-beb0636f",
+            "raw": "I09: Freire’s problem-posing relation treats teacher and learners as investigators of a shared object. Our fashion tasks are a pedagogical adaptation, not an intervention validated by that text. Source: Freire, Paulo. 2000. Pedagogy of the Oppressed. 30th anniversary edition. Continuum. ISBN 9781501305313. Supplied vault edition verified on title and copyright pages.",
+            "provenance": {
+              "asserted_by_pass": 1,
+              "surface_label": "codex-primary-tool-verification",
+              "verified_by_pass": 3,
+              "state": "confirmed"
+            },
+            "year": 2000,
+            "isbn": "9781501305313"
+          }
+        ]
+      },
+      "citation": {
+        "key": "i09-freire-s-problem-posing-rela-beb0636f",
+        "raw": "I09: Freire’s problem-posing relation treats teacher and learners as investigators of a shared object. Our fashion tasks are a pedagogical adaptation, not an intervention validated by that text. Source: Freire, Paulo. 2000. Pedagogy of the Oppressed. 30th anniversary edition. Continuum. ISBN 9781501305313. Supplied vault edition verified on title and copyright pages.",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "confirmed"
+        },
+        "year": 2000,
+        "isbn": "9781501305313"
+      },
+      "identifier": "9781501305313",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "confirmed",
+          "text": "I09: Freire’s problem-posing relation treats teacher and learners as investigators of a shared object. Our fashion tasks are a pedagogical adaptation, not an intervention validated by that text. Boundary retained. Source audit: Freire, Paulo. 2000. Pedagogy of the Oppressed. 30th anniversary edition. Continuum. ISBN 9781501305313. Supplied vault edition verified on title and copyright pages."
+        },
+        {
+          "pass": 3,
+          "state": "confirmed",
+          "text": "I09: Freire’s problem-posing relation treats teacher and learners as investigators of a shared object. Our fashion tasks are a pedagogical adaptation, not an intervention validated by that text. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Freire, Paulo. 2000. Pedagogy of the Oppressed. 30th anniversary edition. Continuum. ISBN 9781501305313. Supplied vault edition verified on title and copyright pages."
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c010",
+        "area": "unresolved-claims",
+        "text": "I10: Removing identity labels from a campaign guarantees equal recognition and eliminates discrimination. No verified source establishes this guarantee. Source: No verifiable source found; presented as a rejected proposition, not a finding.",
+        "confidence": "UNVERIFIED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "disputed"
+        },
+        "section": "Unresolved claims"
+      },
+      "citation": null,
+      "identifier": "—",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "disputed",
+          "text": "I10: Removing identity labels from a campaign guarantees equal recognition and eliminates discrimination. No verified source establishes this guarantee. Boundary retained. Source audit: No verifiable source found; presented as a rejected proposition, not a finding."
+        },
+        {
+          "pass": 3,
+          "state": "disputed",
+          "text": "I10: Removing identity labels from a campaign guarantees equal recognition and eliminates discrimination. No verified source establishes this guarantee. Checked against primary source / local full-node evidence / acquisition receipt as applicable. No verifiable source found; presented as a rejected proposition, not a finding."
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c011",
+        "area": "unresolved-claims",
+        "text": "I11: These proposed classroom activities improve wellbeing or reduce discriminatory behaviour. No classroom evaluation was performed. Source: No verifiable outcome study for these activities.",
+        "confidence": "UNVERIFIED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "unverifiable"
+        },
+        "section": "Unresolved claims"
+      },
+      "citation": null,
+      "identifier": "—",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "unverifiable",
+          "text": "I11: These proposed classroom activities improve wellbeing or reduce discriminatory behaviour. No classroom evaluation was performed. Boundary retained. Source audit: No verifiable outcome study for these activities."
+        },
+        {
+          "pass": 3,
+          "state": "unverifiable",
+          "text": "I11: These proposed classroom activities improve wellbeing or reduce discriminatory behaviour. No classroom evaluation was performed. Checked against primary source / local full-node evidence / acquisition receipt as applicable. No verifiable outcome study for these activities."
+        }
+      ]
+    },
+    {
+      "claim": {
+        "id": "p1-c012",
+        "area": "unresolved-claims",
+        "text": "I12: All five supplied PDFs have complete evaluator-safe author-year metadata. Four do not have a verified publication year. Source: bibliography audit and source-page inspection, 2026-10-20.",
+        "confidence": "UNVERIFIED",
+        "provenance": {
+          "asserted_by_pass": 1,
+          "surface_label": "codex-primary-tool-verification",
+          "verified_by_pass": 3,
+          "state": "disputed"
+        },
+        "section": "Unresolved claims"
+      },
+      "citation": null,
+      "identifier": "—",
+      "verdicts": [
+        {
+          "pass": 2,
+          "state": "disputed",
+          "text": "I12: All five supplied PDFs have complete evaluator-safe author-year metadata. Four do not have a verified publication year. Boundary retained. Source audit: bibliography audit and source-page inspection, 2026-10-20."
+        },
+        {
+          "pass": 3,
+          "state": "disputed",
+          "text": "I12: All five supplied PDFs have complete evaluator-safe author-year metadata. Four do not have a verified publication year. Checked against primary source / local full-node evidence / acquisition receipt as applicable. bibliography audit and source-page inspection, 2026-10-20."
+        }
+      ]
+    }
+  ],
+  "unmatched_verdicts": [],
+  "pending_oa": [
+    {
+      "key": "united-nations-1948-universal-de-be32fae4",
+      "raw": "United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2.",
+      "provenance": {
+        "asserted_by_pass": 1,
+        "surface_label": "codex-primary-tool-verification",
+        "verified_by_pass": 3,
+        "state": "confirmed"
+      },
+      "title": "United Nations. 1948. Universal Declaration of Human Rights, arts. 1–2.",
+      "year": 1948,
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+    },
+    {
+      "key": "espa-a-1988-ley-34-1988-general-da8ca38a",
+      "raw": "España. 1988. Ley 34/1988, General de Publicidad, art. 3(a).",
+      "provenance": {
+        "asserted_by_pass": 1,
+        "surface_label": "codex-primary-tool-verification",
+        "verified_by_pass": 3,
+        "state": "confirmed"
+      },
+      "title": "España. 1988. Ley 34/1988, General de Publicidad, art. 3(a).",
+      "year": 1988,
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3"
+    },
+    {
+      "key": "10-1080-10253866-2022-2067149",
+      "raw": "I03: A visual discourse analysis of 15 Nordic fast-fashion advertisements identifies complex portrayals that need not dislodge stereotypes. This bounded sample is not an industry-wide prevalence measure. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Srivastava, Sonali, Terhi-Anna Wilska, and Johanna Sjöberg. 2022. Girls’ portrayals in fast fashion advertisements. Consumption Markets & Culture 25(6):501–524. https://doi.org/10.1080/10253866.2022.2067149",
+      "provenance": {
+        "asserted_by_pass": 3,
+        "surface_label": "codex-primary-tool-verification",
+        "verified_by_pass": 3,
+        "state": "confirmed"
+      },
+      "year": 2022,
+      "doi": "10.1080/10253866.2022.2067149",
+      "url": "https://doi.org/10.1080/10253866.2022.2067149"
+    },
+    {
+      "key": "10-1215-9780822375302",
+      "raw": "I04: Browne’s historical discussion of commodity spectacle connects visual consumption to racialisation. Its transfer to a contemporary advertisement is a situated interpretive question. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Browne, Simone. 2015. Dark Matters: On the Surveillance of Blackness. Duke University Press. https://doi.org/10.1215/9780822375302",
+      "provenance": {
+        "asserted_by_pass": 3,
+        "surface_label": "codex-primary-tool-verification",
+        "verified_by_pass": 3,
+        "state": "confirmed"
+      },
+      "year": 2015,
+      "doi": "10.1215/9780822375302",
+      "url": "https://doi.org/10.1215/9780822375302"
+    },
+    {
+      "key": "10-1177-1329878x16665177",
+      "raw": "I05: Abidin’s study describes under-compensated and underacknowledged gendered visibility labour in follower-anchored Instagram fashion advertorials. It does not measure current platform prevalence. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Abidin, Crystal. 2016. Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram. Media International Australia 161(1):86–100. https://doi.org/10.1177/1329878X16665177",
+      "provenance": {
+        "asserted_by_pass": 3,
+        "surface_label": "codex-primary-tool-verification",
+        "verified_by_pass": 3,
+        "state": "confirmed"
+      },
+      "year": 2016,
+      "doi": "10.1177/1329878X16665177",
+      "url": "https://doi.org/10.1177/1329878X16665177"
+    },
+    {
+      "key": "united-nations-environment-progr-c05b0fc8",
+      "raw": "United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook.",
+      "provenance": {
+        "asserted_by_pass": 1,
+        "surface_label": "codex-primary-tool-verification",
+        "verified_by_pass": 3,
+        "state": "confirmed"
+      },
+      "title": "United Nations Environment Programme. 2023. The Sustainable Fashion Communication Playbook.",
+      "year": 2023,
+      "url": "https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook"
+    },
+    {
+      "key": "10-1016-j-jbusres-2020-09-049",
+      "raw": "I07: Pantano models online diffusion around a particular luxury campaign using negative stereotypes. The issue year is 2021, with online-first publication in 2020; the event does not provide a universal causal law. Checked against primary source / local full-node evidence / acquisition receipt as applicable. Pantano, Eleonora. 2021. When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate. Journal of Business Research 123:117–125. https://doi.org/10.1016/j.jbusres.2020.09.049",
+      "provenance": {
+        "asserted_by_pass": 3,
+        "surface_label": "codex-primary-tool-verification",
+        "verified_by_pass": 3,
+        "state": "confirmed"
+      },
+      "year": 2021,
+      "doi": "10.1016/j.jbusres.2020.09.049",
+      "url": "https://doi.org/10.1016/j.jbusres.2020.09.049"
+    }
+  ]
+}

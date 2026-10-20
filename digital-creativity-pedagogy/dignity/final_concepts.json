@@ -1,0 +1,38 @@
+{
+  "worth": {
+    "key": "united-nations-1948",
+    "en": "A person's worth does not rise with a campaign's production budget. The Universal Declaration begins from equal dignity and rights and names differences that must not cancel that equality (United Nations 1948). What does your image invite a viewer to value: the person's choices, the garment, or a hierarchy of bodies? Treat this as a starting principle for inquiry; a declaration alone does not settle whether a particular advertisement broke the law.",
+    "es": "El valor de una persona no aumenta con el presupuesto de una campaña. La Declaración Universal parte de la igualdad en dignidad y derechos y reconoce diferencias que no deben anular esa igualdad (United Nations 1948). ¿Qué invita a valorar tu imagen: las decisiones de la persona, la prenda o una jerarquía de cuerpos? Tómalo como principio para investigar; una declaración por sí sola no resuelve si un anuncio concreto infringió la ley.",
+    "amendment": "Removed unsupported direct legal effect, excess quotation and leading punctuation; distinguished a normative declaration from an advertising adjudication."
+  },
+  "agency": {
+    "key": "srivastava-2022",
+    "en": "An empowering caption can sit on top of a familiar stereotype. A visual discourse study of 15 Nordic fast-fashion advertisements found complex portrayals that did not necessarily dislodge stereotypes (Srivastava et al. 2022). Who acts, looks, speaks, or is reduced to a role in the image you are analysing? These cues support a reading of representation; they do not establish a model's intentions, health, consent, or an effect on every audience.",
+    "es": "Un texto de empoderamiento puede acompañar un estereotipo conocido. Un análisis del discurso visual de 15 anuncios nórdicos de moda rápida encontró representaciones complejas que no necesariamente desactivaban los estereotipos (Srivastava et al. 2022). ¿Quién actúa, mira, habla o queda reducido a un papel en la imagen que analizas? Estas pistas permiten una lectura de la representación; no demuestran las intenciones, la salud o el consentimiento de la modelo, ni un efecto en todas las audiencias.",
+    "amendment": "Removed the notion that dignity itself is distributed, an unsupported victim label and redundant questions; restored the study's bounded sample and one clear question."
+  },
+  "difference": {
+    "key": "browne-2015",
+    "en": "An image can make a difference visible while stripping it of history. Browne's discussion of commodity spectacle shows why histories of racialisation belong in a visual analysis (Browne 2015). What history would you need to understand before using a person, garment or cultural practice as the object of a visual joke? The historical lens opens that question; it does not prove that every contemporary image repeats the same mechanism or that everyone reads it alike.",
+    "es": "Una imagen puede hacer visible una diferencia y vaciarla de historia. La discusión de Browne sobre el espectáculo de las mercancías muestra por qué las historias de racialización tienen un lugar en el análisis visual (Browne 2015). ¿Qué historia necesitarías conocer antes de convertir una persona, una prenda o una práctica cultural en objeto de una broma visual? La perspectiva histórica abre esa pregunta; no demuestra que toda imagen actual repita el mismo mecanismo ni que todas las personas la interpreten igual.",
+    "amendment": "Removed sweeping historical and intentional claims, excess questions and polemical language; retained a clearly bounded transfer of Browne's historical lens."
+  },
+  "labour": {
+    "key": "global-dignity-2026",
+    "en": "A respectful-looking poster cannot tell you whether the garment was made under fair conditions. The supplied practice bank's textile-company exercise connects production location, working conditions, materials and communication decisions (Global Dignity España and Fundación AYO 2026). Which promise in your campaign would require evidence from outside the picture? This is a documented teaching practice, not proof that a better poster improves working conditions or that the exercise changes students' behaviour.",
+    "es": "Un cartel que parece respetuoso no permite saber si la prenda se produjo en condiciones justas. El ejercicio de empresa textil del banco de prácticas relaciona el lugar de producción, las condiciones laborales, los materiales y las decisiones de comunicación (Global Dignity España and Fundación AYO 2026). ¿Qué promesa de tu campaña necesitaría pruebas que están fuera de la imagen? Es una práctica docente documentada, no una demostración de que mejorar un cartel transforme las condiciones laborales o el comportamiento del alumnado.",
+    "amendment": "Extensive amendment: removed invented outsourcing motives, fair-trade details not in the cited node, repeated paragraphs, unsupported generalisations and missing-author aside. Retained only the documented GD16 production/communication relation."
+  },
+  "consumption": {
+    "key": "unep-2023",
+    "en": "A call to action can offer something besides another purchase. The Sustainable Fashion Communication Playbook recommends reducing messages of overconsumption and recognising people's capacity to demand wider change as citizens (United Nations Environment Programme 2023). Could your image or media plan make room for repair, reuse, reflection or collective action? This is practitioner guidance; whether your proposed message changes consumption or production remains a separate question requiring evidence.",
+    "es": "Una llamada a la acción puede ofrecer algo además de otra compra. El manual de comunicación de moda sostenible recomienda reducir los mensajes de sobreconsumo y reconocer la capacidad de las personas para exigir cambios como ciudadanas (United Nations Environment Programme 2023). ¿Podría tu imagen o tu plan de medios abrir espacio para reparar, reutilizar, reflexionar o actuar colectivamente? Es una orientación profesional; demostrar que tu propuesta modifica el consumo o la producción exige otras pruebas.",
+    "amendment": "Condensed multiple questions and repetitive explanation into four sentences; separated practitioner recommendation from measured effects and course alternatives."
+  },
+  "dialogue": {
+    "key": "freire-2000",
+    "en": "A classroom critique loses its point if the teacher's verdict cannot be questioned. Freire describes problem-posing education through a shared object of inquiry rather than the transfer of ready-made answers (Freire 2000). What evidence would make you revise your judgement of the campaign, including a judgement you share with the teacher? This guide adapts that relation to fashion communication; it does not claim that the proposed activities have measured learning benefits.",
+    "es": "Una crítica en el aula pierde sentido si no se puede cuestionar el veredicto del docente. Freire describe una educación problematizadora mediante un objeto compartido de investigación, en lugar de la transmisión de respuestas ya resueltas (Freire 2000). ¿Qué prueba te haría revisar tu juicio de una campaña, incluso cuando coincida con el del docente? Esta guía adapta esa relación a la comunicación de moda; no atribuye a sus actividades beneficios de aprendizaje ya medidos.",
+    "amendment": "Extensive amendment: removed a long polemical list, unsupported claims about fashion institutions' motives and promised democratic effects; kept the shared-object relation and a testable revision question."
+  }
+}

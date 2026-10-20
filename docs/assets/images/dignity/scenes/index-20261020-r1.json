@@ -1,0 +1,174 @@
+{
+  "schema": "dignity.visual-pack/1",
+  "release": "2026-10-20.1",
+  "display_aspect_ratio": "2.39:1",
+  "native_files": "Unmodified; open each image for its complete native frame.",
+  "backgrounds": {
+    "light": "/assets/images/dignity/backgrounds/dignity-dc-folds-light-c27a722d8d12.svg",
+    "dark": "/assets/images/dignity/backgrounds/dignity-dc-folds-dark-aa8cf2a51fc8.svg"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "id": "01-worth",
+      "corner": "left",
+      "en": {
+        "alt": "Fashion professionals meet at an accessible casting table while other adult models wait beside a garment rack.",
+        "question": "Casting: which criteria can be justified by the brief, and which turn a person into a hierarchy of bodies?",
+        "image_prompt": "Compare framing and relative scale.",
+        "media_prompt": "Who sees the casting brief, and who can challenge its criteria?",
+        "open": "Open the original image",
+        "credit": "Fictional scene generated with AI · @ruvebal · 2026. This image is a discussion prompt, not documentary evidence."
+      },
+      "es": {
+        "alt": "Profesionales de moda conversan en una mesa de casting accesible mientras otras modelos adultas esperan junto a un perchero.",
+        "question": "Casting: ¿qué criterios se justifican por el encargo y cuáles convierten a las personas en una jerarquía de cuerpos?",
+        "image_prompt": "Compara encuadre y escala relativa.",
+        "media_prompt": "¿Quién recibe el brief de casting y quién puede cuestionar sus criterios?",
+        "open": "Abrir la imagen original",
+        "credit": "Escena ficticia generada con IA · @ruvebal · 2026. Imagen para el debate, no prueba documental."
+      },
+      "asset": "/assets/images/dignity/scenes/dignity-01-worth-6c7eaadde839.png",
+      "width": 1935,
+      "height": 813,
+      "sha256": "6c7eaadde839be49fc93945b819d5cdf81bd11af9608d86a3e3dc16d5432c896",
+      "authorship": "AI-generated fictional illustration under @ruvebal art direction",
+      "created": "2026-10-20"
+    },
+    {
+      "number": 2,
+      "id": "02-agency",
+      "corner": "right",
+      "en": {
+        "alt": "A fully clothed model pauses a studio photo shoot to discuss a pose with a photographer and stylist.",
+        "question": "Photo shoot: who can propose a pose, pause the session or refuse a decision? What would you need to know beyond this frame?",
+        "image_prompt": "Compare gesture, pose and camera position.",
+        "media_prompt": "Whose voice explains the image when it circulates?",
+        "open": "Open the original image",
+        "credit": "Fictional scene generated with AI · @ruvebal · 2026. This image is a discussion prompt, not documentary evidence."
+      },
+      "es": {
+        "alt": "Una modelo vestida detiene una sesión fotográfica para hablar sobre una pose con el fotógrafo y una estilista.",
+        "question": "Sesión fotográfica: ¿quién puede proponer una pose, detener la sesión o rechazar una decisión? ¿Qué necesitarías saber fuera del encuadre?",
+        "image_prompt": "Compara gesto, pose y posición de cámara.",
+        "media_prompt": "¿Qué voz explica la imagen cuando circula?",
+        "open": "Abrir la imagen original",
+        "credit": "Escena ficticia generada con IA · @ruvebal · 2026. Imagen para el debate, no prueba documental."
+      },
+      "asset": "/assets/images/dignity/scenes/dignity-02-agency-7782e6bde926.png",
+      "width": 1930,
+      "height": 815,
+      "sha256": "7782e6bde92604219a7da6d9a466766b07e591fba08f8bacbd60b056ef729a7f",
+      "authorship": "AI-generated fictional illustration under @ruvebal art direction",
+      "created": "2026-10-20"
+    },
+    {
+      "number": 3,
+      "id": "03-history",
+      "corner": "left",
+      "en": {
+        "alt": "Backstage near a runway, a textile designer, model and stylist discuss a woven garment panel and a fabric sample.",
+        "question": "Runway: what history, authorship and context would you investigate before turning a textile into a styling device?",
+        "image_prompt": "Identify the contextual cues that remain in the frame.",
+        "media_prompt": "What context could be lost in a cropped repost or translated voiceover?",
+        "open": "Open the original image",
+        "credit": "Fictional scene generated with AI · @ruvebal · 2026. This image is a discussion prompt, not documentary evidence."
+      },
+      "es": {
+        "alt": "Entre bastidores de una pasarela, una diseñadora textil, una modelo y una estilista comentan un tejido y una muestra.",
+        "question": "Pasarela: ¿qué historia, autoría y contexto investigarías antes de convertir un tejido en un recurso de estilismo?",
+        "image_prompt": "Identifica las pistas de contexto que conserva el encuadre.",
+        "media_prompt": "¿Qué contexto puede perderse al republicar un recorte o traducir la voz en off?",
+        "open": "Abrir la imagen original",
+        "credit": "Escena ficticia generada con IA · @ruvebal · 2026. Imagen para el debate, no prueba documental."
+      },
+      "asset": "/assets/images/dignity/scenes/dignity-03-history-438a95deea70.png",
+      "width": 1933,
+      "height": 813,
+      "sha256": "438a95deea7026b11e3320a80e0e72597b004a5a2a99fbc25a284dadcf74120d",
+      "authorship": "AI-generated fictional illustration under @ruvebal art direction",
+      "created": "2026-10-20"
+    },
+    {
+      "number": 4,
+      "id": "04-labour",
+      "corner": "left",
+      "en": {
+        "alt": "Two skilled garment makers work in the foreground of an atelier, connected by a cutting table to a fashion shoot in the next room.",
+        "question": "Atelier: whose work is visible in the finished image? Which claim about production would require evidence outside the picture?",
+        "image_prompt": "Trace how the composition connects making and display.",
+        "media_prompt": "How could a campaign credit the labour behind its image?",
+        "open": "Open the original image",
+        "credit": "Fictional scene generated with AI · @ruvebal · 2026. This image is a discussion prompt, not documentary evidence."
+      },
+      "es": {
+        "alt": "Dos profesionales confeccionan una prenda en un taller conectado por una mesa de corte con una sesión fotográfica al fondo.",
+        "question": "Atelier: ¿qué trabajo se ve en la imagen final? ¿Qué afirmación sobre la producción necesitaría pruebas fuera de la imagen?",
+        "image_prompt": "Observa cómo la composición conecta confección y exhibición.",
+        "media_prompt": "¿Cómo podría una campaña reconocer el trabajo que produce su imagen?",
+        "open": "Abrir la imagen original",
+        "credit": "Escena ficticia generada con IA · @ruvebal · 2026. Imagen para el debate, no prueba documental."
+      },
+      "asset": "/assets/images/dignity/scenes/dignity-04-labour-15ed34e37372.png",
+      "width": 1934,
+      "height": 813,
+      "sha256": "15ed34e3737268b6af051c8aabfc095a29083e1c00aabffdaa9913d3c4d91342",
+      "authorship": "AI-generated fictional illustration under @ruvebal art direction",
+      "created": "2026-10-20"
+    },
+    {
+      "number": 5,
+      "id": "05-citizen",
+      "corner": "right",
+      "en": {
+        "alt": "A client and tailor examine a repaired jacket during a fitting while another adult sorts garments for repair.",
+        "question": "Fitting and repair: can the next action be care, reuse or a collective decision? Who has the time, skills and access to choose it?",
+        "image_prompt": "Read how materials and gestures make care visible.",
+        "media_prompt": "Propose a call to action beyond another purchase.",
+        "open": "Open the original image",
+        "credit": "Fictional scene generated with AI · @ruvebal · 2026. This image is a discussion prompt, not documentary evidence."
+      },
+      "es": {
+        "alt": "Una persona y su sastre examinan una chaqueta reparada durante una prueba mientras otra persona organiza prendas para arreglar.",
+        "question": "Prueba y reparación: ¿puede la siguiente acción ser cuidar, reutilizar o decidir colectivamente? ¿Quién dispone del tiempo, los conocimientos y el acceso para hacerlo?",
+        "image_prompt": "Lee cómo los materiales y los gestos hacen visible el cuidado.",
+        "media_prompt": "Propón una llamada a la acción que abra una opción distinta de comprar.",
+        "open": "Abrir la imagen original",
+        "credit": "Escena ficticia generada con IA · @ruvebal · 2026. Imagen para el debate, no prueba documental."
+      },
+      "asset": "/assets/images/dignity/scenes/dignity-05-citizen-da0dacdf868e.png",
+      "width": 1933,
+      "height": 813,
+      "sha256": "da0dacdf868effafc776faaea05b67cf659eee6b68b507332337377418124e6f",
+      "authorship": "AI-generated fictional illustration under @ruvebal art direction",
+      "created": "2026-10-20"
+    },
+    {
+      "number": 6,
+      "id": "06-dialogue",
+      "corner": "right",
+      "en": {
+        "alt": "A model, image editor and creative director seated at the same height discuss a fully clothed fashion portrait on a monitor.",
+        "question": "Retouching critique: whose objection could change the edit? What evidence would make you revise your own judgement?",
+        "image_prompt": "Identify an edit that would need discussion and approval.",
+        "media_prompt": "Who can approve publication, request a correction or reply?",
+        "open": "Open the original image",
+        "credit": "Fictional scene generated with AI · @ruvebal · 2026. This image is a discussion prompt, not documentary evidence."
+      },
+      "es": {
+        "alt": "Una modelo, una persona que edita imágenes y una directora creativa, sentadas a la misma altura, comentan un retrato de moda en una pantalla.",
+        "question": "Crítica del retoque: ¿qué objeción podría cambiar la edición? ¿Qué prueba te haría revisar tu propio juicio?",
+        "image_prompt": "Identifica una edición que exigiría discusión y aprobación.",
+        "media_prompt": "¿Quién puede aprobar la publicación, pedir una corrección o responder?",
+        "open": "Abrir la imagen original",
+        "credit": "Escena ficticia generada con IA · @ruvebal · 2026. Imagen para el debate, no prueba documental."
+      },
+      "asset": "/assets/images/dignity/scenes/dignity-06-dialogue-286d0710a11c.png",
+      "width": 1934,
+      "height": 813,
+      "sha256": "286d0710a11c317ee402e439a67fb6b4ad1a8a82ac6e8b1da1d03e2f5a1cf337",
+      "authorship": "AI-generated fictional illustration under @ruvebal art direction",
+      "created": "2026-10-20"
+    }
+  ]
+}

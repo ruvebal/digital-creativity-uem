@@ -1,0 +1,17 @@
+{
+  "sentence": "El ejercicio de empresa textil del banco de prácticas relaciona el lugar de producción, las condiciones laborales, los materiales y las decisiones de comunicación (Global Dignity España and Fundación AYO 2026)",
+  "citation": "(Global Dignity España and Fundación AYO 2026)",
+  "db_path": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+  "node_id": "4b69cc6a-f576-5134-a5ac-85b55003aab8",
+  "passage": "En equipos de 4-6, el alumnado asume la dirección de una empresa textil. Decide dónde producir, cómo garantizar condiciones laborales justas, qué materiales usar y cómo comunicar sus valores. Cada equipo presenta su propuesta y participa en una reflexión final.",
+  "overlap_score": 0.7742155968115554,
+  "overlap_threshold": 0.68,
+  "overlap_flag": null,
+  "quoted_text": null,
+  "quote_match_ratio": null,
+  "quote_threshold": 0.9,
+  "quote_flag": null,
+  "flags": [],
+  "status": "PASS",
+  "manual_disposition": "English sentence checked directly against Spanish source and the visually inspected GD16 page: production location, working conditions, materials and communication are all explicit. English diagnostic LOW_OVERLAP retained; accepted by bilingual source review, not by lowering the threshold."
+}

@@ -1,0 +1,104 @@
+{
+  "run_id": "20261020",
+  "field_id": "dignity-fashion-images",
+  "created_at": "2026-10-20T12:20:04Z",
+  "engine_version": "0.1.0",
+  "field_spec_sha256": "7f71cdf123211e5e0125125106294b933fc7e4716079719223049af84a95f3fe",
+  "map_captured_at": "2026-10-20T12:21:29Z",
+  "template_versions": {
+    "pass1": "v1",
+    "pass2": "v1",
+    "pass3": "v1"
+  },
+  "artifacts": [
+    {
+      "path": "digest.json",
+      "sha256": "fb7820aa9df277787ba4fe3c1af08600418c741697d31b826cf35786c76077ea",
+      "kind": "digest",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    },
+    {
+      "path": "digest.md",
+      "sha256": "4cb574a7d665310b0897a17419606f1fc231d9b444744ef10318e2023d7b4320",
+      "kind": "digest",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    },
+    {
+      "path": "pass1.json",
+      "sha256": "28c99a78282f7ec378ccd149ec43d5383b5f7e6a613b4c65749396fe4805fad9",
+      "kind": "parse",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    },
+    {
+      "path": "pass1.raw.md",
+      "sha256": "6144fd80c9b4f056b7b25f7867a06c00ae7e288260e81568d52bda59d0b877d4",
+      "kind": "paste",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    },
+    {
+      "path": "pass2.json",
+      "sha256": "3d9d3e4232293c5479a87c3a51e5c0aa91cd291b62c6b5155388ccfafcfa8aa7",
+      "kind": "parse",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    },
+    {
+      "path": "pass2.raw.md",
+      "sha256": "b661acaf1f2734c0b8db8ae9c5deb89fd1d6bedc396b927db8391a9cf3ac2b82",
+      "kind": "paste",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    },
+    {
+      "path": "pass3.json",
+      "sha256": "f97ab90935fcbea086b37465fc3d42a8b99e214a32c473f29b3e891329b90832",
+      "kind": "parse",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    },
+    {
+      "path": "pass3.raw.md",
+      "sha256": "b317392566aa8d00e2277c19c73e37ac43049e90f98cb15058b04024a459e1bf",
+      "kind": "paste",
+      "recorded_at": "2026-10-20T12:21:29Z"
+    }
+  ],
+  "passes": [
+    {
+      "pass_no": 1,
+      "source_sha256": "6144fd80c9b4f056b7b25f7867a06c00ae7e288260e81568d52bda59d0b877d4",
+      "n_claims": 10,
+      "n_citations": 7,
+      "surface_label": "codex-source-grounded-map",
+      "ingested_at": "2026-10-20T12:21:29Z",
+      "needs_review": 0,
+      "template_version": "v1"
+    },
+    {
+      "pass_no": 2,
+      "source_sha256": "b661acaf1f2734c0b8db8ae9c5deb89fd1d6bedc396b927db8391a9cf3ac2b82",
+      "n_claims": 10,
+      "n_citations": 2,
+      "surface_label": "codex-same-agent-adversarial-audit",
+      "ingested_at": "2026-10-20T12:21:29Z",
+      "needs_review": 0,
+      "template_version": "v1"
+    },
+    {
+      "pass_no": 3,
+      "source_sha256": "b317392566aa8d00e2277c19c73e37ac43049e90f98cb15058b04024a459e1bf",
+      "n_claims": 10,
+      "n_citations": 2,
+      "surface_label": "codex-primary-tool-verification",
+      "ingested_at": "2026-10-20T12:21:29Z",
+      "needs_review": 0,
+      "template_version": "v1"
+    }
+  ],
+  "ledger": {
+    "paste_count": 4,
+    "wall_clock_seconds": 0.0,
+    "claims_by_pass": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+    }
+  }
+}

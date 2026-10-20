@@ -1,0 +1,783 @@
+[
+  {
+    "knowledge_id": "6a0d047c-4f08-5630-8fe2-1ebac5fd2344",
+    "collection_name": "project_1b81c226946445eaaf181b1191245395",
+    "source_locator": "120d7ec5-beed-5054-99fa-41ce91169c1a#page=173",
+    "content": "Bozdag, E. (2013). Bias in Algorithmic Filtering and Personalization. Ethics  and  Information  Technology , 15 (3), 209-27.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-ai-criticism",
+    "knowledge_scope": null,
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6508257436749313,
+    "metadata": {
+      "node_id": "6a0d047c-4f08-5630-8fe2-1ebac5fd2344",
+      "document_id": "120d7ec5-beed-5054-99fa-41ce91169c1a",
+      "document_title": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+      "file_name": "Massimo Airoldi - Machine Habitus_ Toward a Sociology of Algorithms (2022, Polity).pdf",
+      "source_hash": "ab6d8e4f94c21e99fe08831893d52b12878e95b8c0c84c5ce6287a3893728d68",
+      "library": "scholar",
+      "page_index": 173,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2022,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "isbn": {
+          "value": 9781509543274,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": "978-1-5095-4328-1",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Airoldi, Massimo",
+              "role": "author",
+              "given": "Massimo",
+              "family": "Airoldi"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781509543274",
+            "9781509543281"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "algorithms",
+            "sociology",
+            "machine",
+            "habitus",
+            "intelligence",
+            "organization",
+            "culture",
+            "white men",
+            "AI",
+            "AI Now Institute"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Polity Press",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "31060c5d03cba130096cf0b8b1540223fe6763bdf7350baf7316a0f3b9860ecd",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "af0685b4-9cbd-5ae4-aac1-7b9b9344372a",
+    "collection_name": "project_1b81c226946445eaaf181b1191245395",
+    "source_locator": "9a382ffc-3508-56be-a22b-a42093a53377#page=277",
+    "content": ".    Crawford et al., 'Problem with Bias'; and Fourcade and Healy, 'Classifi   cation  Situations,'  570.  For  a  vivid  example  of  how  racially  shaped  input  data (general referrals to social services) can distort a well-meaning attempt at an algorithmic warning system against actual child-abuse risk, see Eubanks, Automating Inequality , 153-55.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-ai-criticism",
+    "knowledge_scope": null,
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6504672564739048,
+    "metadata": {
+      "node_id": "af0685b4-9cbd-5ae4-aac1-7b9b9344372a",
+      "document_id": "9a382ffc-3508-56be-a22b-a42093a53377",
+      "document_title": "ADVANCE PRAISE FOR THE COSTS OF CONNECTION",
+      "file_name": "couldry-mejias-2019-costs-of-connection-stanford.pdf",
+      "source_hash": "94f4dc300c7645fd88f898a64d31b2d93cac6b656c2cfeeab9efe5c371f25826",
+      "library": "scholar",
+      "page_index": 277,
+      "document_metadata": {
+        "doi": {
+          "value": "10.48550/arxiv.1605.09757",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn": {
+          "value": 9781503609754,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "title": {
+          "value": "ADVANCE PRAISE FOR THE COSTS OF CONNECTION",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.48550/arxiv.1605.09757",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781503609754",
+            "9781503603660",
+            "9781503609747"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "data",
+            "connection",
+            "colonization",
+            "capitalism",
+            "technology",
+            "society",
+            "freedom",
+            "surveillance",
+            "behavior",
+            "inequality"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "datacite",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_raw_hash": {
+          "value": "99cef72786d9eac3604a340e23363d355a8f7cea2a75bcef5a0fbda108a8fd37",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "52c242df-db9a-5974-85b0-c9b88f6abab5",
+    "collection_name": "project_1b81c226946445eaaf181b1191245395",
+    "source_locator": "120d7ec5-beed-5054-99fa-41ce91169c1a#page=56",
+    "content": "Algorithms' design features are only one source of bias - the easiest to correct, and one that machine creators are clearly responsible for (Roselli, Matthews and Talagala 2019; Danks and London 2017; Pedreschi et al. 2018). What stands out in the computer science literature is that deliberate or unconscious  actions,  intentions  and  assumptions  crystallized  as deus in machina account for only a minor part of the possible errors  and  misbehaviours  of  platform  algorithms  and  AI agents  (Campolo  et  al.  2017).  When  a  machine  learning system becomes racist, sexist or classist, another category of bias is often involved, broadly called 'data bias' (Baeza-Yates 2018; Olteanu et al. 2019; Buolamwini and Gebru 2018) or 'training data bias' (Danks and London 2017). This encompasses the unfair inclinations and flaws inductively acquired from machine trainers (Cavazos et al. 2020; Caliskan, Bryson and Narayanan 2017; Bozdag 2013). Olteanu and colleagues (2019) have conceptualized different sub-categories of data bias peculiar to datasets extracted from social media - such as those due to the socio-demographic composition, practices and cultural norms of the user/trainers (i.e. population biases,",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-ai-criticism",
+    "knowledge_scope": null,
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.647390809225215,
+    "metadata": {
+      "node_id": "52c242df-db9a-5974-85b0-c9b88f6abab5",
+      "document_id": "120d7ec5-beed-5054-99fa-41ce91169c1a",
+      "document_title": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+      "file_name": "Massimo Airoldi - Machine Habitus_ Toward a Sociology of Algorithms (2022, Polity).pdf",
+      "source_hash": "ab6d8e4f94c21e99fe08831893d52b12878e95b8c0c84c5ce6287a3893728d68",
+      "library": "scholar",
+      "page_index": 56,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2022,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "isbn": {
+          "value": 9781509543274,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": "978-1-5095-4328-1",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Airoldi, Massimo",
+              "role": "author",
+              "given": "Massimo",
+              "family": "Airoldi"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781509543274",
+            "9781509543281"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "algorithms",
+            "sociology",
+            "machine",
+            "habitus",
+            "intelligence",
+            "organization",
+            "culture",
+            "white men",
+            "AI",
+            "AI Now Institute"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Polity Press",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "31060c5d03cba130096cf0b8b1540223fe6763bdf7350baf7316a0f3b9860ecd",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "5de42a25-426e-5afc-b5a6-d563d360f2a3",
+    "collection_name": "project_1b81c226946445eaaf181b1191245395",
+    "source_locator": "120d7ec5-beed-5054-99fa-41ce91169c1a#page=58",
+    "content": "As  Fuchs  notes,  'learned  biases  formed  on  human-related data  frequently  resemble  human-like  biases  towards  race, sex, religion' (2018: 1). According to the computer scientist Baeza-Yates, 'our inherent human tendency of favoring one thing or opinion over another' creates 'both latent and overt biases  toward  everything  we  see,  hear,  and  do',  which  are 'intrinsically embedded in culture and history' (2018: 54) - and then learned by algorithms.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-ai-criticism",
+    "knowledge_scope": null,
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6442417315952743,
+    "metadata": {
+      "node_id": "5de42a25-426e-5afc-b5a6-d563d360f2a3",
+      "document_id": "120d7ec5-beed-5054-99fa-41ce91169c1a",
+      "document_title": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+      "file_name": "Massimo Airoldi - Machine Habitus_ Toward a Sociology of Algorithms (2022, Polity).pdf",
+      "source_hash": "ab6d8e4f94c21e99fe08831893d52b12878e95b8c0c84c5ce6287a3893728d68",
+      "library": "scholar",
+      "page_index": 58,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2022,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "isbn": {
+          "value": 9781509543274,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": "978-1-5095-4328-1",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Airoldi, Massimo",
+              "role": "author",
+              "given": "Massimo",
+              "family": "Airoldi"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781509543274",
+            "9781509543281"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "algorithms",
+            "sociology",
+            "machine",
+            "habitus",
+            "intelligence",
+            "organization",
+            "culture",
+            "white men",
+            "AI",
+            "AI Now Institute"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Polity Press",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "31060c5d03cba130096cf0b8b1540223fe6763bdf7350baf7316a0f3b9860ecd",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "b923f0c4-8ed5-512c-a1e0-b79bd0bccd26",
+    "collection_name": "project_1b81c226946445eaaf181b1191245395",
+    "source_locator": "4b37b2ce-e5f6-5b35-a2f3-3236e8c95c15#page=14",
+    "content": "Bozdag, E. (2013), “Bias in algorithmic filtering and personalization”,Ethics and Information Technology, 15(3), pp. 209-227.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-ai-criticism",
+    "knowledge_scope": null,
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6427571302246631,
+    "metadata": {
+      "node_id": "b923f0c4-8ed5-512c-a1e0-b79bd0bccd26",
+      "document_id": "4b37b2ce-e5f6-5b35-a2f3-3236e8c95c15",
+      "document_title": "[Koinè] Massimo Airoldi - Machine habitus. Sociologia degli algoritmi (2024, Luiss University Press).epub",
+      "file_name": "[Koinè] Massimo Airoldi - Machine habitus. Sociologia degli algoritmi (2024, Luiss University Press).epub",
+      "source_hash": "988212f1c7eea2aea578833ee5dcd64b6c04f4b5e914fffc050f4c8ac380276b",
+      "library": "scholar",
+      "page_index": 14,
+      "document_metadata": {
+        "doi": {
+          "value": "10.48550/arxiv.1810.11116",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": "2024-02-01",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Machine Habitus",
+          "confidence": 0.6,
+          "provenance": "front_matter"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Airoldi, Massimo",
+              "role": "author",
+              "given": "Massimo",
+              "family": "Airoldi"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.48550/arxiv.1810.11116",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "Koinè",
+            "Sociologia degli algoritmi",
+            "Machine Habitus",
+            "Habitus",
+            "Società",
+            "Algoritmi",
+            "Società digitale",
+            "Società informatica"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "it",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "datacite",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_raw_hash": {
+          "value": "86e093684be50d159dbd650466ae942bfd3b6bcaeefb7cb2c4075fcab13a5f6e",
+          "confidence": 0.95,
+          "provenance": "datacite"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "dcdf5576-e7ce-50a4-b94b-d0e86b211713",
+    "collection_name": "project_1b81c226946445eaaf181b1191245395",
+    "source_locator": "120d7ec5-beed-5054-99fa-41ce91169c1a#page=32",
+    "content": "The  main  way  in  which  the  critical  literature  surveyed above  has  dealt  with  these  cases  is  through  the  notion of  bias.  Originated  in  psychology,  this  notion  indicates  a flawed,  distorted  and  'unfair'  form  of  reasoning,  implicitly opposed  to  an  ideal  'neutral'  and  'fair'  one  (Friedman and  Nissenbaum  1996).  Researchers  have  rushed  to  find practical recipes for 'unbiasing' machine learning systems and datasets, aiming to address instances of algorithmic discrimination.  Still,  these  attempts  are  often ex  post interventions that  ignore  the  cultural  roots  of  bias  in  AI  (Mullainathan 2019),  and  risk  paradoxically  giving  rise  to  new  forms  of algorithmic censorship. As Završnik puts it: 'algorithms are 'fed  with'  data  that  is  not  'clean'  of  social,  cultural  and economic  circumstances  […].  However,  cleaning  data  of such  historical  and  cultural  baggage  and  dispositions  may not  be  either  possible  or  even  desirable'  (2019:  11).  While the  normative  idea  of  bias  has  in  many  cases  served  to  fix real-life  cases  of  algorithmic  discrimination  and  advance data  policies  and  regulations,  it  hardly  fits  the  sociological study of machine learning systems as social agents. In fact, from a cultural and anthropological perspective, the worldviews of any social group - from a national community to a music subculture - are necessarily biased in some way, since the  socially  constructed  criteria  for  ultimately  evaluating and valuating the world vary from culture to culture (Barth 1981; Latour and Woolgar 1986; Bourdieu 1977). Hence, the abstract  idea  of  a  'bias-free'  machine  learning  algorithm  is logically at odds with this fundamental premise. 'Intelligent' machines  inductively  learn  from  culturally  shaped  humangenerated  data  (Mühlhoff  2020).  As  humans  undergo  a cultural learning process to become competent social agents - a process also known as 'socialization' 5  - it can be argued",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-ai-criticism",
+    "knowledge_scope": null,
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6418495904682726,
+    "metadata": {
+      "node_id": "dcdf5576-e7ce-50a4-b94b-d0e86b211713",
+      "document_id": "120d7ec5-beed-5054-99fa-41ce91169c1a",
+      "document_title": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+      "file_name": "Massimo Airoldi - Machine Habitus_ Toward a Sociology of Algorithms (2022, Polity).pdf",
+      "source_hash": "ab6d8e4f94c21e99fe08831893d52b12878e95b8c0c84c5ce6287a3893728d68",
+      "library": "scholar",
+      "page_index": 32,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2022,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "isbn": {
+          "value": 9781509543274,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": "978-1-5095-4328-1",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "MASSIMO AIROLDI MACHINE HABITUS Toward a Sociology of Algorithms",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Airoldi, Massimo",
+              "role": "author",
+              "given": "Massimo",
+              "family": "Airoldi"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1080/1369118X.2019.1657162",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781509543274",
+            "9781509543281"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "algorithms",
+            "sociology",
+            "machine",
+            "habitus",
+            "intelligence",
+            "organization",
+            "culture",
+            "white men",
+            "AI",
+            "AI Now Institute"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Polity Press",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "31060c5d03cba130096cf0b8b1540223fe6763bdf7350baf7316a0f3b9860ecd",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  }
+]

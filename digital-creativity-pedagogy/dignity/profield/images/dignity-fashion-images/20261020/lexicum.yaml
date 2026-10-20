@@ -1,0 +1,25 @@
+# Emergent lexicum for dignity-fashion-images
+# Generated: 2026-10-20T12:20:04Z
+# Seeds: 4, Pass 1: 0, Pass 2: 0
+
+terms:
+  - term: critical fashion campaign visual analysis agency framing gaze
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true
+  - term: fashion advertising dignity objectification regulatory rulings
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true
+  - term: fashion film advertising stereotypes counter advertising redesign
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true
+  - term: fashion image racial stereotypes sexualisation body image retouching
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true

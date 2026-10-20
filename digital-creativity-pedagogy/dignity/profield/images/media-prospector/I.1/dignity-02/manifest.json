@@ -1,0 +1,478 @@
+{
+  "schema_version": "media-manifest-v1",
+  "manifest_id": "dignity-02",
+  "unit_id": "I.1",
+  "course": "CD I",
+  "field": "fashion image",
+  "subfield": "image practices, circulation, editorial/commercial boundary",
+  "query": {
+    "course": "CD I",
+    "unit_id": "I.1",
+    "field": "fashion image",
+    "subfield": "image practices, circulation, editorial/commercial boundary",
+    "media_type": "image",
+    "semantics": [
+      "object"
+    ],
+    "language": null,
+    "duration_max": null,
+    "licence_actions": [],
+    "slot": null,
+    "max_results": 8,
+    "collection": null,
+    "search_text": "fashion diversity representation portrait"
+  },
+  "generated_at": "2026-10-20T12:01:42Z",
+  "engine_version": "0.1.0",
+  "assets": [
+    {
+      "asset_id": "wikimedia:File:A descriptive and classified catalogue of portraits of Queen Elizabeth (IA descriptiveclass00odon).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:A_descriptive_and_classified_catalogue_of_portraits_of_Queen_Elizabeth_(IA_descriptiveclass00odon).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/A_descriptive_and_classified_catalogue_of_portraits_of_Queen_Elizabeth_%28IA_descriptiveclass00odon%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "O'Donoghue, Freeman M. (Freeman Marius)",
+      "date": "2020-10-11 20:48:42",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "O'Donoghue, Freeman M. (Freeman Marius) — File:A descriptive and classified catalogue of portraits of Queen Elizabeth (IA descriptiveclass00odon).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:A_descriptive_and_classified_catalogue_of_portraits_of_Queen_Elizabeth_(IA_descriptiveclass00odon).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Costume, fanciful, historical, and theatrical (1906).djvu",
+      "media_type": "image",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Costume,_fanciful,_historical,_and_theatrical_(1906).djvu",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Costume%2C_fanciful%2C_historical%2C_and_theatrical_%281906%29.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Mrs Eliza Davis Aria, 1866-1931",
+      "date": "2014-10-02 10:21:53",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Mrs Eliza Davis Aria, 1866-1931 — File:Costume, fanciful, historical, and theatrical (1906).djvu [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Costume,_fanciful,_historical,_and_theatrical_(1906).djvu — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Essays on Shakespeare's dramatic characters- with an illustration of Shakespeare's representation of national characters, in that of Fluellen (IA essaysonshakespe00richiala).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Essays_on_Shakespeare%27s_dramatic_characters-_with_an_illustration_of_Shakespeare%27s_representation_of_national_characters,_in_that_of_Fluellen_(IA_essaysonshakespe00richiala).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Essays_on_Shakespeare%27s_dramatic_characters-_with_an_illustration_of_Shakespeare%27s_representation_of_national_characters%2C_in_that_of_Fluellen_%28IA_essaysonshakespe00richiala%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Richardson, William, 1743-1814",
+      "date": "2020-10-18 03:45:12",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Richardson, William, 1743-1814 — File:Essays on Shakespeare's dramatic characters- with an illustration of Shakespeare's representation of national characters, in that of Fluellen (IA essaysonshakespe00richiala).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Essays_on_Shakespeare%27s_dramatic_characters-_with_an_illustration_of_Shakespeare%27s_representation_of_national_characters,_in_that_of_Fluellen_(IA_essaysonshakespe00richiala).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Essays on Shakespeare's dramatic characters. With an illus. of Shakespeare's representation of national characters in that of Fluellen (IA essaysonshakespe00richuoft).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Essays_on_Shakespeare%27s_dramatic_characters._With_an_illus._of_Shakespeare%27s_representation_of_national_characters_in_that_of_Fluellen_(IA_essaysonshakespe00richuoft).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Essays_on_Shakespeare%27s_dramatic_characters._With_an_illus._of_Shakespeare%27s_representation_of_national_characters_in_that_of_Fluellen_%28IA_essaysonshakespe00richuoft%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Richardson, William, 1743-1814",
+      "date": "2026-10-18 00:22:44",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Richardson, William, 1743-1814 — File:Essays on Shakespeare's dramatic characters. With an illus. of Shakespeare's representation of national characters in that of Fluellen (IA essaysonshakespe00richuoft).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Essays_on_Shakespeare%27s_dramatic_characters._With_an_illus._of_Shakespeare%27s_representation_of_national_characters_in_that_of_Fluellen_(IA_essaysonshakespe00richuoft).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Representation and race in America's volunteer military (IA representationra00eite).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Representation_and_race_in_America%27s_volunteer_military_(IA_representationra00eite).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Representation_and_race_in_America%27s_volunteer_military_%28IA_representationra00eite%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Eitelberg, Mark J.",
+      "date": "2020-07-01 14:58:09",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Eitelberg, Mark J. — File:Representation and race in America's volunteer military (IA representationra00eite).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Representation_and_race_in_America%27s_volunteer_military_(IA_representationra00eite).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:The Education of Henry Adams (1907).djvu",
+      "media_type": "image",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Education_of_Henry_Adams_(1907).djvu",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/The_Education_of_Henry_Adams_%281907%29.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Henry Adams (1838–1918)",
+      "date": "2012-12-27 14:15:29",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Henry Adams (1838–1918) — File:The Education of Henry Adams (1907).djvu [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:The_Education_of_Henry_Adams_(1907).djvu — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:The Harvard Classics Vol. 19.djvu",
+      "media_type": "image",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Harvard_Classics_Vol._19.djvu",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/The_Harvard_Classics_Vol._19.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Christopher Marlowe / Johann Wolfgang von Goethe / Johann Wolfgang von Goethe / Johann Wolfgang von Goethe",
+      "date": "2020-02-27 18:25:02",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Christopher Marlowe / Johann Wolfgang von Goethe / Johann Wolfgang von Goethe / Johann Wolfgang von Goethe — File:The Harvard Classics Vol. 19.djvu [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:The_Harvard_Classics_Vol._19.djvu — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:The Maclise Portrait-Gallery.djvu",
+      "media_type": "image",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Maclise_Portrait-Gallery.djvu",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Maclise_Portrait-Gallery.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "William Bates",
+      "date": "2011-10-07 22:15:57",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "William Bates — File:The Maclise Portrait-Gallery.djvu [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:The_Maclise_Portrait-Gallery.djvu — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,415 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2096656,
+    "items": [
+      {
+        "DOI": "10.4018/979-8-3373-7143-6.ch017",
+        "title": [
+          "Standardization and Certification Pathways for Sustainable and Ethical Fashion Supply Chains"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5739-144X",
+            "authenticated-orcid": true,
+            "given": "Sushila",
+            "family": "Sahani",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Lovely Professional University, Phagwara, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-2882-2708",
+            "authenticated-orcid": true,
+            "given": "Nanita",
+            "family": "Sangwan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Lovely Professional University, Phagwara, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              16
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4018/979-8-3373-7143-6.ch017",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://www.igi-global.com/viewtitle.aspx?TitleId=417060",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.4324/9781003145783-1",
+        "title": [
+          "Fashion supply chains"
+        ],
+        "author": [
+          {
+            "given": "Virginia",
+            "family": "Grose",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nicola",
+            "family": "Mansfield",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              22
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4324/9781003145783-1",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.5040/9781350136373.ch-1",
+        "title": [
+          "Sustainable Supply Chains in the Global Fashion Industry"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.5040/9781350136373.ch-1",
+        "type": "other"
+      },
+      {
+        "DOI": "10.1017/9781009118644.027",
+        "title": [
+          "Labour Rights in Global Supply Chains"
+        ],
+        "author": [
+          {
+            "given": "Dirk Ulrich",
+            "family": "Gilbert",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kristin",
+            "family": "Apffelstaedt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              30
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1017/9781009118644.027",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1017/9781316335529.027",
+        "title": [
+          "Labour Rights in Global Supply Chains"
+        ],
+        "author": [
+          {
+            "given": "Dirk Ulrich",
+            "family": "Gilbert",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kristin",
+            "family": "Huber",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "URL": "https://doi.org/10.1017/9781316335529.027",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.4324/9781003145783-7",
+        "title": [
+          "Innovation and the future of fashion supply chains"
+        ],
+        "author": [
+          {
+            "given": "Virginia",
+            "family": "Grose",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nicola",
+            "family": "Mansfield",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              22
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4324/9781003145783-7",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1515/9783111384771-011",
+        "title": [
+          "14510 Refugee Workers in Global Fashion Supply Chains"
+        ],
+        "author": [
+          {
+            "given": "Rosanna",
+            "family": "Cole",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              25
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1515/9783111384771-011",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://www.degruyterbrill.com/document/doi/10.1515/9783111384771-011/xml",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.degruyterbrill.com/document/doi/10.1515/9783111384771-011/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.54394/gefk1936",
+        "title": [
+          "Gender equality in supply chains"
+        ],
+        "author": [
+          {
+            "name": "International Labour Organization",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "International Labour Organization,",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.54394/gefk1936",
+        "type": "book"
+      },
+      {
+        "DOI": "10.4324/9781003145783-3",
+        "title": [
+          "Relationships in supply chains"
+        ],
+        "author": [
+          {
+            "given": "Virginia",
+            "family": "Grose",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nicola",
+            "family": "Mansfield",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              22
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4324/9781003145783-3",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.32920/ryerson.14653197.v1",
+        "title": [
+          "Modeling environmentally responsible supply chains"
+        ],
+        "author": [
+          {
+            "given": "Ehab A.",
+            "family": "Bazan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              23
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.32920/ryerson.14653197.v1",
+        "type": "posted-content"
+      }
+    ],
+    "items-per-page": 10,
+    "query": {
+      "start-index": 0,
+      "search-terms": "dignity labour fashion supply chains responsible communication"
+    }
+  }
+}

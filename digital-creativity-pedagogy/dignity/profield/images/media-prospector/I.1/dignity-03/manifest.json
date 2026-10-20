@@ -1,0 +1,478 @@
+{
+  "schema_version": "media-manifest-v1",
+  "manifest_id": "dignity-03",
+  "unit_id": "I.1",
+  "course": "CD I",
+  "field": "fashion image",
+  "subfield": "image practices, circulation, editorial/commercial boundary",
+  "query": {
+    "course": "CD I",
+    "unit_id": "I.1",
+    "field": "fashion image",
+    "subfield": "image practices, circulation, editorial/commercial boundary",
+    "media_type": "image",
+    "semantics": [
+      "object"
+    ],
+    "language": null,
+    "duration_max": null,
+    "licence_actions": [],
+    "slot": null,
+    "max_results": 8,
+    "collection": null,
+    "search_text": "garment workers fashion advertising"
+  },
+  "generated_at": "2026-10-20T12:01:51Z",
+  "engine_version": "0.1.0",
+  "assets": [
+    {
+      "asset_id": "wikimedia:File:0002 00 11 1971 - Workers Vanguard.pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:0002_00_11_1971_-_Workers_Vanguard.pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/0002_00_11_1971_-_Workers_Vanguard.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Spartacist League / Workers Vanguard",
+      "date": "1971",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Spartacist League / Workers Vanguard — File:0002 00 11 1971 - Workers Vanguard.pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:0002_00_11_1971_-_Workers_Vanguard.pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:A BILL TO PROVIDE PROTECTION FOR FASHION DESIGN (IA gov.gpo.fdsys.CHRG-109hhrg28908).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:A_BILL_TO_PROVIDE_PROTECTION_FOR_FASHION_DESIGN_(IA_gov.gpo.fdsys.CHRG-109hhrg28908).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/A_BILL_TO_PROVIDE_PROTECTION_FOR_FASHION_DESIGN_%28IA_gov.gpo.fdsys.CHRG-109hhrg28908%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Committee on the Judiciary",
+      "date": "2020-06-22 21:51:12",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Committee on the Judiciary — File:A BILL TO PROVIDE PROTECTION FOR FASHION DESIGN (IA gov.gpo.fdsys.CHRG-109hhrg28908).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:A_BILL_TO_PROVIDE_PROTECTION_FOR_FASHION_DESIGN_(IA_gov.gpo.fdsys.CHRG-109hhrg28908).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:About Advertising And Printing.pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:About_Advertising_And_Printing.pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/About_Advertising_And_Printing.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Nathaniel Clark Fowler",
+      "date": "1889-01-01",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Nathaniel Clark Fowler — File:About Advertising And Printing.pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:About_Advertising_And_Printing.pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Successful advertising, how to accomplish it; a practical work for advertisers and business men (IA successfuladvert00macdrich).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Successful_advertising,_how_to_accomplish_it;_a_practical_work_for_advertisers_and_business_men_(IA_successfuladvert00macdrich).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Successful_advertising%2C_how_to_accomplish_it%3B_a_practical_work_for_advertisers_and_business_men_%28IA_successfuladvert00macdrich%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "MacDonald, J. Angus (John Angus), b. 1868",
+      "date": "2020-11-23 10:56:53",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "MacDonald, J. Angus (John Angus), b. 1868 — File:Successful advertising, how to accomplish it; a practical work for advertisers and business men (IA successfuladvert00macdrich).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Successful_advertising,_how_to_accomplish_it;_a_practical_work_for_advertisers_and_business_men_(IA_successfuladvert00macdrich).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Work and workers (IA workworkers00park).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Work_and_workers_(IA_workworkers00park).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Work_and_workers_%28IA_workworkers00park%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Parkhurst, Frederick S. [from old catalog]",
+      "date": "2020-07-24 17:35:09",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Parkhurst, Frederick S. [from old catalog] — File:Work and workers (IA workworkers00park).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Work_and_workers_(IA_workworkers00park).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:You're on camera in color A television handbook for extension workers (IA CAT70294027).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:You%27re_on_camera_in_color_A_television_handbook_for_extension_workers_(IA_CAT70294027).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/You%27re_on_camera_in_color_A_television_handbook_for_extension_workers_%28IA_CAT70294027%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Tonkin, Joe",
+      "date": "2020-08-25 00:29:02",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Tonkin, Joe — File:You're on camera in color A television handbook for extension workers (IA CAT70294027).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:You%27re_on_camera_in_color_A_television_handbook_for_extension_workers_(IA_CAT70294027).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Zone policeman 88; a close range study of the Panama canal and its workers (IA zonepoliceman88c00franiala).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Zone_policeman_88;_a_close_range_study_of_the_Panama_canal_and_its_workers_(IA_zonepoliceman88c00franiala).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Zone_policeman_88%3B_a_close_range_study_of_the_Panama_canal_and_its_workers_%28IA_zonepoliceman88c00franiala%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Franck, Harry A. (Harry Alverson), 1881-",
+      "date": "2020-11-30 04:51:44",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Franck, Harry A. (Harry Alverson), 1881- — File:Zone policeman 88; a close range study of the Panama canal and its workers (IA zonepoliceman88c00franiala).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Zone_policeman_88;_a_close_range_study_of_the_Panama_canal_and_its_workers_(IA_zonepoliceman88c00franiala).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:Zone policeman 88; a close range study of the Panama canal and its workers (IA zonepoliceman88c00franrich).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Zone_policeman_88;_a_close_range_study_of_the_Panama_canal_and_its_workers_(IA_zonepoliceman88c00franrich).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Zone_policeman_88%3B_a_close_range_study_of_the_Panama_canal_and_its_workers_%28IA_zonepoliceman88c00franrich%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Franck, Harry Alverson, 1881-",
+      "date": "2020-11-30 04:52:17",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Franck, Harry Alverson, 1881- — File:Zone policeman 88; a close range study of the Panama canal and its workers (IA zonepoliceman88c00franrich).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Zone_policeman_88;_a_close_range_study_of_the_Panama_canal_and_its_workers_(IA_zonepoliceman88c00franrich).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    }
+  ],
+  "rejected": []
+}

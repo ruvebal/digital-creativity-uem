@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">A convincing render still needs a process trail</title>
+  <desc id="desc">A polished shaded volume sits beside a three-part evidence trail: the original flat read, a simple blockout with a marked underarm ambiguity, and a revised view that records what changed. The comparison distinguishes appearance from demonstrated spatial reasoning.</desc>
+  <rect width="1600" height="900" fill="#F7F2E8"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#111827">
+    <text x="72" y="92" font-size="34" font-weight="500">A convincing render still needs a process trail</text>
+    <text x="72" y="132" font-size="20" fill="#596579">Appearance is an outcome; understanding leaves inspectable evidence.</text>
+    <rect x="72" y="190" width="600" height="540" rx="24" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+    <text x="112" y="242" font-size="20" font-weight="500" fill="#334155">THE POLISHED OUTPUT</text>
+    <path d="M373 300c-73 6-113 51-109 112l23 210c49 43 145 43 194 0l23-210c4-61-36-106-109-112Z" fill="#C8B69E" stroke="#24344D" stroke-width="4"/>
+    <path d="M264 412c35 24 67 30 117 29 50 1 82-5 117-29M288 550c53 22 133 22 186 0" fill="none" stroke="#8D7965" stroke-width="3" opacity=".85"/>
+    <path d="M301 340c-23 55-27 121-13 191M445 340c23 55 27 121 13 191" fill="none" stroke="#F2E7D6" stroke-width="14" opacity=".9"/>
+    <text x="372" y="682" text-anchor="middle" font-size="17" fill="#596579">Smooth surface; hidden construction</text>
+    <g transform="translate(730 190)">
+      <rect width="800" height="540" rx="24" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+      <text x="40" y="52" font-size="20" font-weight="500" fill="#334155">THE EVIDENCE TRAIL</text>
+      <g fill="#F7F2E8" stroke="#D7D2C6" stroke-width="2">
+        <rect x="35" y="100" width="210" height="300" rx="16"/><rect x="295" y="100" width="210" height="300" rx="16"/><rect x="555" y="100" width="210" height="300" rx="16"/>
+      </g>
+      <g fill="#334155" font-size="15" font-weight="500">
+        <text x="55" y="136">01 · READ</text><text x="315" y="136">02 · BLOCK</text><text x="575" y="136">03 · REVISE</text>
+      </g>
+      <g fill="#E7D6C5" stroke="#24344D" stroke-width="3" stroke-linejoin="round">
+        <path d="M103 187 153 211 143 342 103 326 63 342 53 211Z"/>
+        <path d="M400 187 452 218 440 336 400 357 360 336 348 218Z"/>
+        <path d="M660 187 712 218 700 336 660 357 620 336 608 218Z"/>
+      </g>
+      <g fill="none" stroke="#B45B43" stroke-width="3" stroke-dasharray="7 7">
+        <path d="M103 187v139m0-139-50 24 10 131 40 14"/>
+        <path d="M400 187v170m0-170 52 31-12 118-40 21"/>
+        <path d="M660 187v170m0-170 52 31-12 118-40 21"/>
+      </g>
+      <circle cx="438" cy="300" r="25" fill="#F2E0D7" stroke="#B45B43" stroke-width="3"/>
+      <text x="438" y="306" text-anchor="middle" font-size="17" fill="#9A4538">?</text>
+      <path d="M245 255h50m-13-13 13 13-13 13M505 255h50m-13-13 13 13-13 13" fill="none" stroke="#627087" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <g fill="#596579" font-size="14">
+        <text x="140" y="435" text-anchor="middle">2D prediction</text><text x="400" y="435" text-anchor="middle">mark divergence</text><text x="660" y="435" text-anchor="middle">show the test</text>
+      </g>
+      <path d="M85 482h620" stroke="#C49337" stroke-width="3"/>
+      <text x="400" y="518" text-anchor="middle" font-size="16" fill="#596579">What changed between the prediction and the build?</text>
+    </g>
+    <text x="800" y="815" text-anchor="middle" font-size="18" fill="#596579">Keep the flat, the blockout, and one honest note beside the final surface.</text>
+  </g>
+</svg>

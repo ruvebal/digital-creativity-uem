@@ -1,0 +1,171 @@
+[
+  {
+    "id": "cross-recognition",
+    "query": "dignity recognition difference humiliation instrumentalization ethics",
+    "returncode": 0,
+    "command": [
+      "python3",
+      "/Users/ruvebal/src/.cursor/skills/grounding-graph/scripts/cross_project_neural_search.py",
+      "dignity recognition difference humiliation instrumentalization ethics",
+      "--top",
+      "15",
+      "--json"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "cross-critical-thinking",
+    "query": "critical thinking dialogue problem posing education Freire hooks",
+    "returncode": 0,
+    "command": [
+      "python3",
+      "/Users/ruvebal/src/.cursor/skills/grounding-graph/scripts/cross_project_neural_search.py",
+      "critical thinking dialogue problem posing education Freire hooks",
+      "--top",
+      "15",
+      "--json"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "cross-objectification",
+    "query": "objectification agency autonomy denial subjectivity women advertising Nussbaum",
+    "returncode": 0,
+    "command": [
+      "python3",
+      "/Users/ruvebal/src/.cursor/skills/grounding-graph/scripts/cross_project_neural_search.py",
+      "objectification agency autonomy denial subjectivity women advertising Nussbaum",
+      "--top",
+      "15",
+      "--json"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "cross-decolonial",
+    "query": "colonial gaze racial stereotypes fashion advertising cultural appropriation",
+    "returncode": 0,
+    "command": [
+      "python3",
+      "/Users/ruvebal/src/.cursor/skills/grounding-graph/scripts/cross_project_neural_search.py",
+      "colonial gaze racial stereotypes fashion advertising cultural appropriation",
+      "--top",
+      "15",
+      "--json"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "cross-labour",
+    "query": "fashion garment workers dignity living wages consumer responsibility",
+    "returncode": 0,
+    "command": [
+      "python3",
+      "/Users/ruvebal/src/.cursor/skills/grounding-graph/scripts/cross_project_neural_search.py",
+      "fashion garment workers dignity living wages consumer responsibility",
+      "--top",
+      "15",
+      "--json"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "cross-media",
+    "query": "influencer advertising autonomy manipulation overconsumption fashion body image",
+    "returncode": 0,
+    "command": [
+      "python3",
+      "/Users/ruvebal/src/.cursor/skills/grounding-graph/scripts/cross_project_neural_search.py",
+      "influencer advertising autonomy manipulation overconsumption fashion body image",
+      "--top",
+      "15",
+      "--json"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "profield-digital-creativity",
+    "query": "fashion image retouching ethics body agency authorship",
+    "returncode": 0,
+    "command": [
+      "/Users/ruvebal/src/athanor/.venv/bin/athanor",
+      "search",
+      "fashion image retouching ethics body agency authorship",
+      "--project-slug",
+      "profield-digital-creativity",
+      "--library",
+      "scholar",
+      "--top-k",
+      "6"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "profield-nuevos-medios-moda-2026-27",
+    "query": "gender stereotypes objectification advertising social media fashion",
+    "returncode": 0,
+    "command": [
+      "/Users/ruvebal/src/athanor/.venv/bin/athanor",
+      "search",
+      "gender stereotypes objectification advertising social media fashion",
+      "--project-slug",
+      "profield-nuevos-medios-moda-2026-27",
+      "--library",
+      "scholar",
+      "--top-k",
+      "6"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "profield-creativity-techniques",
+    "query": "critical thinking dignity education ethics dialogue",
+    "returncode": 0,
+    "command": [
+      "/Users/ruvebal/src/athanor/.venv/bin/athanor",
+      "search",
+      "critical thinking dignity education ethics dialogue",
+      "--project-slug",
+      "profield-creativity-techniques",
+      "--library",
+      "scholar",
+      "--top-k",
+      "6"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "profield-stem-code-ai-epistemology-critique",
+    "query": "critical pedagogy power agency ethics",
+    "returncode": 0,
+    "command": [
+      "/Users/ruvebal/src/athanor/.venv/bin/athanor",
+      "search",
+      "critical pedagogy power agency ethics",
+      "--project-slug",
+      "profield-stem-code-ai-epistemology-critique",
+      "--library",
+      "scholar",
+      "--top-k",
+      "6"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  },
+  {
+    "id": "scholar-ai-criticism",
+    "query": "human agency dignity recognition bias critique",
+    "returncode": 0,
+    "command": [
+      "/Users/ruvebal/src/athanor/.venv/bin/athanor",
+      "search",
+      "human agency dignity recognition bias critique",
+      "--project-slug",
+      "scholar-ai-criticism",
+      "--library",
+      "scholar",
+      "--top-k",
+      "6"
+    ],
+    "role": "discovery only; resolve pages and citation before use"
+  }
+]

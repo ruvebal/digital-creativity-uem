@@ -26,6 +26,9 @@ deck_url: /tracks/es/uem/2627-nm/u3-marketing-publicidad/
 
 <!-- prettier-ignore-end -->
 
+**Guía compartida:** [Dignidad en la imagen y los medios de moda]({{ '/dignity/es/' | relative_url }}) — lectura crítica de casos y actividades para revisar decisiones de imagen y comunicación.
+
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 status: forged-structure-2026-09-26

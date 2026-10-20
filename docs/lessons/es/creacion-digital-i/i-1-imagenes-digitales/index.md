@@ -26,6 +26,9 @@ references: [shinkle-2008, huppauf-wulf-2009, rubin-2023]
 
 <!-- prettier-ignore-end -->
 
+**Guía compartida:** [Dignidad en la imagen y los medios de moda]({{ '/dignity/es/' | relative_url }}) — lectura crítica de casos y actividades para revisar decisiones de imagen y comunicación.
+
+
 ---
 
 <div class="lesson-opener" markdown="1">

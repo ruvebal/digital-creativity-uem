@@ -1,0 +1,10 @@
+{
+  "schema": "dignity.background-release-index/1",
+  "releases": [
+    {
+      "release": "2026-10-20.1",
+      "manifest": "figcaption-data-f0a29cfba723.json"
+    }
+  ],
+  "current": "figcaption-data-f0a29cfba723.json"
+}

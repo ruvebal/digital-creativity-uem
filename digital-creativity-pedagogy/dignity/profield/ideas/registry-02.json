@@ -1,0 +1,401 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7036267,
+    "items": [
+      {
+        "DOI": "10.1163/9781848880078_024",
+        "title": [
+          "Moral Education and Visual Literacy"
+        ],
+        "author": [
+          {
+            "given": "Yael",
+            "family": "Krimerman-Naveh",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              4,
+              15
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1163/9781848880078_024",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://brill.com/view/book/edcoll/9781848880078/BP000024.xml",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://brill.com/downloadpdf/title/54853",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1017/cbo9781139026611.022",
+        "title": [
+          "Innovations in Teacher Education"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              8,
+              27
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1017/cbo9781139026611.022",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D67DB09A070DB82C8213F826A4732E24",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/978-3-031-34702-3_18",
+        "title": [
+          "Gender and Visual Representation in Moroccan ELT Textbook Discourse"
+        ],
+        "author": [
+          {
+            "given": "Fatimazahrae",
+            "family": "Moutia",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1007/978-3-031-34702-3_18",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-34702-3_18",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1163/9781848880078_025",
+        "title": [
+          "Comics in Education: Advocating Visual Literacy, Reinforcing Intercultural Discourse"
+        ],
+        "author": [
+          {
+            "given": "Evangelia",
+            "family": "Moula",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              4,
+              15
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1163/9781848880078_025",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://brill.com/view/book/edcoll/9781848880078/BP000025.xml",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://brill.com/downloadpdf/title/54853",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1017/cbo9781139026611.011",
+        "title": [
+          "The Rationale for Implementing Explicit Visual Education for Teachers"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              8,
+              27
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1017/cbo9781139026611.011",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F39FD4255CBE5E29B0EFF5678B3CACF4",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.36253/fh-3176",
+        "title": [
+          "Mutual Contribution of Visual Epistemology, Visual Literacy and Eco Fashion Design to the Building of Prosperity Fashion"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5050-9276",
+            "authenticated-orcid": false,
+            "given": "Magdalena",
+            "family": "Germek",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              14
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.36253/fh-3176",
+        "type": "journal-article",
+        "link": [
+          {
+            "URL": "https://riviste.fupress.net/index.php/fh/article/download/3176/2186",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://riviste.fupress.net/index.php/fh/article/download/3176/2186",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1080/1051144x.2026.2710032",
+        "title": [
+          "Assembled visual creativity: generative AI, symbiotic authorship, and critical visual literacy in higher education"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9393-6964",
+            "authenticated-orcid": false,
+            "given": "Kimmel",
+            "family": "Chamat Garcés",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Escuela de Arquitectura, Universidad del Valle",
+                "place": [
+                  "Cali, Colombia"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1456-8057",
+            "authenticated-orcid": false,
+            "given": "Fernando",
+            "family": "Flórez González",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Departamento de Artes Visuales, Universidad del Valle",
+                "place": [
+                  "Cali, Colombia"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              28
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1080/1051144x.2026.2710032",
+        "type": "journal-article",
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/1051144X.2026.2710032",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.tandfonline.com/doi/full-xml/10.1080/1051144X.2026.2710032",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/1051144X.2026.2710032",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.23860/jmle-2023-15-1-3",
+        "title": [
+          "Intercultural film literacy education against cultural mis-representation: Finnish visual art teachers’ perspectives"
+        ],
+        "author": [
+          {
+            "given": "Sergei",
+            "family": "Glotov",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              4
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.23860/jmle-2023-15-1-3",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1017/cbo9781139026611.009",
+        "title": [
+          "The Emergence of Visual Literacy and the Global Visual Culture"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              8,
+              27
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1017/cbo9781139026611.009",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8D34903C25225B14BE609FF1CD37B95B",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1017/cbo9781139026611.012",
+        "title": [
+          "Integration of VRs into Teacher Education Programs"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              8,
+              27
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1017/cbo9781139026611.012",
+        "type": "book-chapter",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D527C1A54270C476C83D06274FE56101",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 10,
+    "query": {
+      "start-index": 0,
+      "search-terms": "critical visual literacy fashion education ethics representation"
+    }
+  }
+}

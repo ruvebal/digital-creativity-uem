@@ -21,6 +21,9 @@ tags: [creacion-digital-ii, retoque, edicion-imagen, representacion, declaracion
 
 <!-- prettier-ignore-end -->
 
+**Guía compartida:** [Dignidad en la imagen y los medios de moda]({{ '/dignity/es/' | relative_url }}) — lectura crítica de casos y actividades para revisar decisiones de imagen y comunicación.
+
+
 ---
 
 > _"El desarrollador sabio sabe: la imagen más pequeña lleva el significado más pesado."_

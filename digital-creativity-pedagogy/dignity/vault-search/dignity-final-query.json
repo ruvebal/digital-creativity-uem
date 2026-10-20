@@ -1,0 +1,540 @@
+[
+  {
+    "knowledge_id": "4b69cc6a-f576-5134-a5ac-85b55003aab8",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "a38d7c59-241d-572e-98bd-fbf5cb927f27#page=16",
+    "content": "En equipos de 4-6, el alumnado asume la dirección de una empresa textil. Decide dónde producir, cómo garantizar condiciones laborales justas, qué materiales usar y cómo comunicar sus valores. Cada equipo presenta su propuesta y participa en una reflexión final.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7915298781938527,
+    "metadata": {
+      "node_id": "4b69cc6a-f576-5134-a5ac-85b55003aab8",
+      "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+      "document_title": "Dignidad e innovación educativa: Banco de buenas prácticas",
+      "file_name": "Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+      "source_hash": "e0df4a8e02ba586182ed1760d2b34e775be8535ac89097ce2ae71e85a487d93a",
+      "library": "scholar",
+      "page_index": 16,
+      "document_metadata": {
+        "date": {
+          "value": "2026-06-21",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "title": {
+          "value": "Dignidad e innovación educativa: Banco de buenas prácticas",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Lara Martínez de Aragón López",
+              "role": "author",
+              "given": "Lara",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Laura Nuño Gómez",
+              "role": "author",
+              "given": "Laura",
+              "family": "Nuño"
+            },
+            {
+              "kind": "person",
+              "name": "José Luis Martín Sáez",
+              "role": "author",
+              "given": "José Luis",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Noemí Gómez Posada",
+              "role": "author",
+              "given": "Noemí",
+              "family": "Gómez"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "infografías",
+            "incidentes de odio",
+            "dignidad",
+            "educación",
+            "periodismo",
+            "arte",
+            "desigualdades",
+            "comunicación",
+            "periodismo gráfico",
+            "dignidad humana"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "organization": {
+          "value": "Global Dignity España and Fundación AYO",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "31defdf9-a715-5234-9370-0613184119e8",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=4",
+    "content": "La dignidad comienza con el reconocimiento de nuestro propio valor inherente y del valor fundamental de los demás. Reconocer la dignidad de todos afecta en la forma en que nos tratamos a nosotros mismos y a los demás y nos motiva a construir culturas de dignidad en nuestras organizaciones, lugares de trabajo y comunidades. Al más alto nivel, los principios de la dignidad crearían nuevas políticas y sistemas económicos y, en última instancia, sociedades y naciones más justas, abiertas y pacíficas. Para transformar verdaderamente a nosotros mismos y a nuestras comunidades, es importante que los principios de la dignidad se manifiesten en cuatro áreas. Comienza con el reconocimiento de nuestra propia dignidad inherente. A continuación, es esencial que también reconozcamos el valor fundamental de los demás, y que nuestra humanidad individual esté ligada a la humanidad de todas las personas. Luego, podemos construir culturas de dignidad en nuestras organizaciones, escuelas, lugares de trabajo y comunidades. Al más alto nivel, los principios de la dignidad conducen a la creación de nuevas políticas y sistemas económicos y, en última instancia, sociedades y naciones más justas, abiertas y pacíficas.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.702350401259695,
+    "metadata": {
+      "node_id": "31defdf9-a715-5234-9370-0613184119e8",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "Dignidad: Lo esencial",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 4,
+      "document_metadata": {
+        "title": {
+          "value": "Dignidad: Lo esencial",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "organization": {
+          "value": "Global Dignity",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "d80641fd-f272-5f42-98d5-08905d8c60cf",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "7164a369-38f9-53cc-878a-0a970532040e#page=15",
+    "content": "Hemos cubierto las dos primeras áreas de dignidad: reconocer nuestro propio valor inherente y la dignidad y el valor de todos los demás. Ahora es el momento de trabajar juntos para crear culturas de dignidad mediante nuestras acciones.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7018499733371433,
+    "metadata": {
+      "node_id": "d80641fd-f272-5f42-98d5-08905d8c60cf",
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "document_title": "Dignidad: Lo esencial",
+      "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+      "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+      "library": "scholar",
+      "page_index": 15,
+      "document_metadata": {
+        "title": {
+          "value": "Dignidad: Lo esencial",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Oscae Yohane",
+              "role": "author",
+              "given": "Yohane",
+              "family": "Oscae"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "organization": {
+          "value": "Global Dignity",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "ed2be11f-ab3f-5ae4-8f9d-e9c7da398e63",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "4ce5cab8-8770-5a32-b76a-31c4bd162d8e#page=8",
+    "content": "SÉ EL CAMBIO: CÓMO PARTICIPAR (EMPRESAS)",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.688998066397862,
+    "metadata": {
+      "node_id": "ed2be11f-ab3f-5ae4-8f9d-e9c7da398e63",
+      "document_id": "4ce5cab8-8770-5a32-b76a-31c4bd162d8e",
+      "document_title": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+      "file_name": "GD Presentación_general.pdf",
+      "source_hash": "490bbfbeac1b046138f331ec9c45c6e6a3d2eddc5ee8a313c76081ff78bf6b6d",
+      "library": "scholar",
+      "page_index": 8,
+      "document_metadata": {
+        "title": {
+          "value": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Juan José Nieto",
+              "role": "author",
+              "given": "Juan José",
+              "family": "Nieto"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "Global Dignity",
+            "embaudadores",
+            "dignidad",
+            "educación",
+            "actividad"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "organization": {
+          "value": "Global Dignity",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "9716ea5e-1bd0-5412-8845-ddc3c72ba4c1",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "a38d7c59-241d-572e-98bd-fbf5cb927f27#page=8",
+    "content": "El tema invita a examinar cómo la comunicación puede respetar la dignidad de los grupos humanos.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.684093157074778,
+    "metadata": {
+      "node_id": "9716ea5e-1bd0-5412-8845-ddc3c72ba4c1",
+      "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+      "document_title": "Dignidad e innovación educativa: Banco de buenas prácticas",
+      "file_name": "Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+      "source_hash": "e0df4a8e02ba586182ed1760d2b34e775be8535ac89097ce2ae71e85a487d93a",
+      "library": "scholar",
+      "page_index": 8,
+      "document_metadata": {
+        "date": {
+          "value": "2026-06-21",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "title": {
+          "value": "Dignidad e innovación educativa: Banco de buenas prácticas",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Lara Martínez de Aragón López",
+              "role": "author",
+              "given": "Lara",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Laura Nuño Gómez",
+              "role": "author",
+              "given": "Laura",
+              "family": "Nuño"
+            },
+            {
+              "kind": "person",
+              "name": "José Luis Martín Sáez",
+              "role": "author",
+              "given": "José Luis",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Noemí Gómez Posada",
+              "role": "author",
+              "given": "Noemí",
+              "family": "Gómez"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "infografías",
+            "incidentes de odio",
+            "dignidad",
+            "educación",
+            "periodismo",
+            "arte",
+            "desigualdades",
+            "comunicación",
+            "periodismo gráfico",
+            "dignidad humana"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "organization": {
+          "value": "Global Dignity España and Fundación AYO",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "92705cee-7da0-5707-90cb-5b2daf7f7d0e",
+    "collection_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+    "source_locator": "a38d7c59-241d-572e-98bd-fbf5cb927f27#page=6",
+    "content": "URJC · Facultad de Ciencias de la Comunicación Lengua Española y Lenguaje en la Publicidad y la Empresa",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "scholar-dignity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.680858261963423,
+    "metadata": {
+      "node_id": "92705cee-7da0-5707-90cb-5b2daf7f7d0e",
+      "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+      "document_title": "Dignidad e innovación educativa: Banco de buenas prácticas",
+      "file_name": "Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+      "source_hash": "e0df4a8e02ba586182ed1760d2b34e775be8535ac89097ce2ae71e85a487d93a",
+      "library": "scholar",
+      "page_index": 6,
+      "document_metadata": {
+        "date": {
+          "value": "2026-06-21",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "title": {
+          "value": "Dignidad e innovación educativa: Banco de buenas prácticas",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Lara Martínez de Aragón López",
+              "role": "author",
+              "given": "Lara",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Laura Nuño Gómez",
+              "role": "author",
+              "given": "Laura",
+              "family": "Nuño"
+            },
+            {
+              "kind": "person",
+              "name": "José Luis Martín Sáez",
+              "role": "author",
+              "given": "José Luis",
+              "family": "Martínez"
+            },
+            {
+              "kind": "person",
+              "name": "Noemí Gómez Posada",
+              "role": "author",
+              "given": "Noemí",
+              "family": "Gómez"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "infografías",
+            "incidentes de odio",
+            "dignidad",
+            "educación",
+            "periodismo",
+            "arte",
+            "desigualdades",
+            "comunicación",
+            "periodismo gráfico",
+            "dignidad humana"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "organization": {
+          "value": "Global Dignity España and Fundación AYO",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  }
+]

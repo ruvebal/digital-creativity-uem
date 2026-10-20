@@ -1,0 +1,72 @@
+[
+  {
+    "idea": "worth",
+    "title": "Equal worth, different lives",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-9b98d36a-ed7e-4bb3-b964-dc3b73417f2e-dc-dignity-worth",
+    "returncode": 2,
+    "citation": "(United Nations 1948)"
+  },
+  {
+    "idea": "worth",
+    "title": "Equal worth, different lives",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-4f85c711-cfce-4508-bf38-ef1e3e4b182f-dc-dignity-worth",
+    "returncode": 2,
+    "citation": "(United Nations 1948)"
+  },
+  {
+    "idea": "worth",
+    "title": "Equal worth, different lives",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-2a5f303b-1699-4b0b-8adc-ae8969b2c9db-dc-dignity-worth",
+    "returncode": 2,
+    "citation": "(United Nations 1948)"
+  },
+  {
+    "idea": "worth",
+    "title": "Equal worth, different lives",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-16b271cc-3a7d-4c1e-a7b4-bf76b82a34ee-dc-dignity-worth",
+    "returncode": 0,
+    "citation": "(United Nations 1948)"
+  },
+  {
+    "idea": "agency",
+    "title": "An image distributes agency",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-0ffccef0-548a-4b3f-976a-f93ca60ee4bd-dc-dignity-agency",
+    "returncode": 0,
+    "citation": "(Srivastava et al. 2022)"
+  },
+  {
+    "idea": "difference",
+    "title": "Shared dignity does not erase history",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-4fc8e656-5e1f-4ed4-b8ce-b7fbcd14f733-dc-dignity-difference",
+    "returncode": 2,
+    "citation": "(Browne 2015)"
+  },
+  {
+    "idea": "difference",
+    "title": "Shared dignity does not erase history",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-ab1adaf3-7add-476b-947f-421a966fa142-dc-dignity-difference",
+    "returncode": 0,
+    "citation": "(Browne 2015)"
+  },
+  {
+    "idea": "labour",
+    "title": "The person outside the frame",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-a07e45ac-7ae1-43c3-b9b3-e5383ce2f8fd-dc-dignity-labour",
+    "returncode": 0,
+    "citation": "(Global Dignity España and Fundación AYO 2026)"
+  },
+  {
+    "idea": "consumption",
+    "title": "A viewer can also be a citizen",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-cd24ed16-9132-485c-8066-bdec150c1c88-dc-dignity-consumption",
+    "returncode": 0,
+    "citation": "(United Nations Environment Programme 2023)"
+  },
+  {
+    "idea": "dialogue",
+    "title": "A critique must be answerable",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-aeb8aaff-5ce1-48de-86ef-f33b260f5238-dc-dignity-dialogue",
+    "returncode": 0,
+    "citation": "(Freire 2000)"
+  }
+]

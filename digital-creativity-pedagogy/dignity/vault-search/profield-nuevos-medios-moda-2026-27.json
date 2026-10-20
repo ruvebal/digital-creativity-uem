@@ -1,0 +1,811 @@
+[
+  {
+    "knowledge_id": "4361cb20-2b4f-5bb8-887f-6a78a0da13f4",
+    "collection_name": "project_8a4fa61a8c484b65aa09645f735277ed",
+    "source_locator": "72f1c664-6d63-5333-93a1-dc8cf9af5358#page=8",
+    "content": "In follower-anchored Instagram campaigns, followers partake in under-compensated and underacknowledged highly gendered visibility labour through advertorial dissemination, advertorial aggregation and advertorial instigation. In the genre of #OOTD posts, established tropes include purchasing,  wearing,  photographing,  promoting  and  conversing  about  products,  and  the",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-nuevos-medios-moda-2026-27",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7482494333960142,
+    "metadata": {
+      "node_id": "4361cb20-2b4f-5bb8-887f-6a78a0da13f4",
+      "document_id": "72f1c664-6d63-5333-93a1-dc8cf9af5358",
+      "document_title": "Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram",
+      "file_name": "abidin-2016-visibility-labour-engaging-with-influencers-fashion-brands-and-ootd-advertorial-campaigns-on-instagram.pdf",
+      "source_hash": "f13f6ee0651d1460d52d978405050180e1f86c04d3a792c73d2cd24951ca6079",
+      "library": "scholar",
+      "page_index": 8,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1177/1329878X16665177",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2016,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "issn": {
+          "value": "1329878X",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 2016,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "title": {
+          "value": "Visibility labour: Engaging with Influencers’ fashion brands and #OOTD advertorial campaigns on Instagram",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Crystal",
+              "family": "Abidin"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1177/1329878X16665177",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "advertorials",
+            "followers",
+            "Influencers",
+            "Instagram",
+            "OOTD",
+            "social media"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "SAGE Publications",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "document_type": {
+          "value": "research-article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Media International Australia",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "d356007c7d32b736a56c2f1d5612081e5bf0cbf1248f193e5b6dede52a20d8ce",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "37691001-8996-50af-aae6-76365d38a682",
+    "collection_name": "project_8a4fa61a8c484b65aa09645f735277ed",
+    "source_locator": "6107af96-af8d-5565-93b9-86aae6e8b99b#page=9",
+    "content": "Rose, J., Mackey-Kallis, S., Shyles, L., Barry, K., Biagini, D., Hart, C., Jack, L., 2012. Face it: the impact of gender on social media images. Commun. Q. 60 (5), 588 -607. https://doi.org/10.1080/01463373.2012.725005.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-nuevos-medios-moda-2026-27",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.715181991016127,
+    "metadata": {
+      "node_id": "37691001-8996-50af-aae6-76365d38a682",
+      "document_id": "6107af96-af8d-5565-93b9-86aae6e8b99b",
+      "document_title": "Artificial intelligence-generated virtual influencer: Examining the effects of emotional display on user engagement",
+      "file_name": "1-s2.0-S0969698923003119-main.pdf",
+      "source_hash": "24acfd6329d8ad8009a936a5819078aaea69e03bfe5a0373c7714db4806af29a",
+      "library": "scholar",
+      "page_index": 9,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1016/j.jretconser.2023.103560",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2024,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "isbn": {
+          "value": 9781220190665,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": 15252019,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 2024,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "title": {
+          "value": "Artificial intelligence-generated virtual influencer: Examining the effects of emotional display on user engagement",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Joanne",
+              "family": "Yu"
+            },
+            {
+              "kind": "person",
+              "given": "Astrid",
+              "family": "Dickinger"
+            },
+            {
+              "kind": "person",
+              "given": "Kevin Kam Fung",
+              "family": "So"
+            },
+            {
+              "kind": "person",
+              "given": "Roman",
+              "family": "Egger"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1016/j.jretconser.2023.103560",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781220190665"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "virtual influencer",
+            "emotional display",
+            "user engagement",
+            "artificial intelligence",
+            "computer-generated imagery",
+            "facial recognition",
+            "emotion analysis",
+            "social actor framework"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "Elsevier BV",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Journal of Retailing and Consumer Services",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "de3eddfe139e95fcc9bb3b6d266e105d4ac56ef8cdb0eee2a8522d250da157b7",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "1811ffaa-2334-543b-be11-9f28766cd6cd",
+    "collection_name": "project_8a4fa61a8c484b65aa09645f735277ed",
+    "source_locator": "eb980bd2-ff10-5dbb-bf65-dea06ebe0932#page=60",
+    "content": "Gender equality and fashion communication",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-nuevos-medios-moda-2026-27",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7071414914173313,
+    "metadata": {
+      "node_id": "1811ffaa-2334-543b-be11-9f28766cd6cd",
+      "document_id": "eb980bd2-ff10-5dbb-bf65-dea06ebe0932",
+      "document_title": "The Sustainable Fashion Communication Playbook - Shifting the narrative: A Guide to Aligning Fashion Communication to the 1.5-Degree Climate Target and Wider Sustainability Goals",
+      "file_name": "sustainable_fashion_communication_playbook.pdf",
+      "source_hash": "08e2ea03bf703037f0c60874ed28779f47cb79d77faa1e104f1bc916cec758bd",
+      "library": "scholar",
+      "page_index": 60,
+      "document_metadata": {
+        "doi": {
+          "value": "10.59117/20.500.11822/42819",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2023,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "isbn": {
+          "value": 9789280740486,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 2023,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "title": {
+          "value": "The Sustainable Fashion Communication Playbook - Shifting the narrative: A Guide to Aligning Fashion Communication to the 1.5-Degree Climate Target and Wider Sustainability Goals",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "organization",
+              "name": "United Nations Environment Programme"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.59117/20.500.11822/42819",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9789280740486",
+            "9789264290587"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "sustainable fashion",
+            "climate change",
+            "sustainability goals",
+            "communication",
+            "1.5-degree target",
+            "environmental impact",
+            "sustainable development",
+            "climate action",
+            "fashion industry",
+            "sustainability communication"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "United Nations Environment Programme",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "58468b2dbbd8a621545c827ba36d7651438c4a5adf695f10a4d045ee4a15e7d5",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "d0b218bc-f370-54aa-ae32-2da17416ef8d",
+    "collection_name": "project_8a4fa61a8c484b65aa09645f735277ed",
+    "source_locator": "8c3cfbbb-e6cb-5c09-8310-c6b1938bdcba#page=0",
+    "content": "Keywords: Virtual influencers Social media marketing Perceived authenticity Para-social interaction Perceived homophily",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-nuevos-medios-moda-2026-27",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7031528990146765,
+    "metadata": {
+      "node_id": "d0b218bc-f370-54aa-ae32-2da17416ef8d",
+      "document_id": "8c3cfbbb-e6cb-5c09-8310-c6b1938bdcba",
+      "document_title": "Virtual vs. Human influencers: The battle for consumer hearts and minds",
+      "file_name": "1-s2.0-S2949882124000197-mainext.pdf",
+      "source_hash": "a48e08560ae524a9185e2d5af634f96291ea0a9302cf736df97278ad6d59f5ee",
+      "library": "scholar",
+      "page_index": 0,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1080/00332747.1956.11023049",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": "00913367",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "title": {
+          "value": "Virtual vs. Human influencers: The battle for consumer hearts and minds",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Abhishek Dondapati",
+              "role": "author",
+              "given": "Abhishek",
+              "family": "Dondapati"
+            },
+            {
+              "kind": "person",
+              "name": "Ranjit Kumar Dehury",
+              "role": "author",
+              "given": "Ranjit Kumar",
+              "family": "Dehury"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1080/00332747.1956.11023049",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "influencer marketing",
+            "virtual influencers",
+            "human influencers",
+            "consumer attitudes",
+            "purchase intent",
+            "para-social relationships",
+            "perceived authenticity",
+            "product type",
+            "hedonic vs. utilitarian",
+            "digital marketing"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Computers in Human Behavior",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "52902ae2b3cd03f0dcb00b15e38f4243f328aab566f49838ca10c29d2d019aae",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "d26164a6-69be-5372-865e-84bc0fb2e12a",
+    "collection_name": "project_8a4fa61a8c484b65aa09645f735277ed",
+    "source_locator": "eaee103c-3c57-5adf-a958-a8f1b6d20a0d#page=2",
+    "content": "We regard social media as an institutional mediator that wields significant influence within the broader fashion system, shaping its underlying socio-cultural discourses, which encompass established societal norms and stereotypes (Srivastava, Wilska, and Sjöberg 2022). The importance of social media is underscored by studies such as Retail Dive's (2017) survey, which found that 72% of  consumers  acknowledged  being  influenced  by  Instagram  content  in  their  fashion,  style,  and beauty  product  purchases.  Despite  the  growing  scholarly  attention,  there  persists  a  need  for more rigorous analyses of how fast fashion companies leverage social media from a sustainability perspective. Specifically, we contend that without a detailed understanding of how these companies use social media while seeking to legitimize their operations, we are not able to critically evaluate the fashion system.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-nuevos-medios-moda-2026-27",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6959472186394717,
+    "metadata": {
+      "node_id": "d26164a6-69be-5372-865e-84bc0fb2e12a",
+      "document_id": "eaee103c-3c57-5adf-a958-a8f1b6d20a0d",
+      "document_title": "Critical discourse analysis of fast fashion companies' legitimation strategies on Instagram",
+      "file_name": "Critical discourse analysis of fast fashion companies legitimation strategies on Instagram.pdf",
+      "source_hash": "9785a241a2d4963c055e5bb5aefe6e0542f5b3a7624589390f0c598e2ce96aa2",
+      "library": "scholar",
+      "page_index": 2,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1080/10253866.2024.2390864",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2024,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "issn": {
+          "value": 10253866,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 2024,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "title": {
+          "value": "Critical discourse analysis of fast fashion companies' legitimation strategies on Instagram",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Alkkiomäki",
+              "family": "Tiia"
+            },
+            {
+              "kind": "person",
+              "given": "Syrjälä",
+              "family": "Henna"
+            },
+            {
+              "kind": "person",
+              "given": "Hanna",
+              "family": "Leipämaa-Leskinen"
+            },
+            {
+              "kind": "person",
+              "given": "Elina",
+              "family": "Ellonen"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1080/10253866.2024.2390864",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "critical discourse analysis",
+            "fast fashion",
+            "Instagram",
+            "legitimation strategies",
+            "sustainability claims",
+            "social media",
+            "discursive legitimation",
+            "visual and verbal components",
+            "market institution",
+            "harmful practices"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "Informa UK Limited",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Consumption Markets &amp; Culture",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "69013e4eaf858f1e56b97f8a82b078b3c1ca0d25c19b37335f701adeecf47cac",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "eaa20ed7-115a-577d-98a9-beba34a7bc2c",
+    "collection_name": "project_8a4fa61a8c484b65aa09645f735277ed",
+    "source_locator": "8c3cfbbb-e6cb-5c09-8310-c6b1938bdcba#page=10",
+    "content": "Gupta, P., Burton, J. L., & Costa Barros, L. (2023). Gender of the online influencer and follower: The differential persuasive impact of homophily, attractiveness and product-match. Internet Research, 33 (2), 720 -740.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-nuevos-medios-moda-2026-27",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6904195335045836,
+    "metadata": {
+      "node_id": "eaa20ed7-115a-577d-98a9-beba34a7bc2c",
+      "document_id": "8c3cfbbb-e6cb-5c09-8310-c6b1938bdcba",
+      "document_title": "Virtual vs. Human influencers: The battle for consumer hearts and minds",
+      "file_name": "1-s2.0-S2949882124000197-mainext.pdf",
+      "source_hash": "a48e08560ae524a9185e2d5af634f96291ea0a9302cf736df97278ad6d59f5ee",
+      "library": "scholar",
+      "page_index": 10,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1080/00332747.1956.11023049",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": "00913367",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "title": {
+          "value": "Virtual vs. Human influencers: The battle for consumer hearts and minds",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Abhishek Dondapati",
+              "role": "author",
+              "given": "Abhishek",
+              "family": "Dondapati"
+            },
+            {
+              "kind": "person",
+              "name": "Ranjit Kumar Dehury",
+              "role": "author",
+              "given": "Ranjit Kumar",
+              "family": "Dehury"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1080/00332747.1956.11023049",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "influencer marketing",
+            "virtual influencers",
+            "human influencers",
+            "consumer attitudes",
+            "purchase intent",
+            "para-social relationships",
+            "perceived authenticity",
+            "product type",
+            "hedonic vs. utilitarian",
+            "digital marketing"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Computers in Human Behavior",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "52902ae2b3cd03f0dcb00b15e38f4243f328aab566f49838ca10c29d2d019aae",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  }
+]

@@ -9,6 +9,7 @@
 
 **Unit forge:** `dc-unit-forge.mdc` · **Session + D1–D5 (∥ TC):** `forge/SESSION-RHYTHM-AND-DELIVERABLES.mdc` · **Slideshow:** `forge/STUDENT-SLIDESHOW-FORGE.mdc` (`lab_opener` geometrical before portfolio Lab) · **CV forge:** `dc-cv-forge.mdc`.  
 **NM campaign allocation law:** campaign examples may appear in only one lesson across U1–U6; maintain `digital-creativity-pedagogy/forge/NM-CAMPAIGN-ALLOCATION-INDEX.md`. If Profield's ranked bank lacks a critical advertising case, supplement with an explicitly unranked case supported by primary/regulatory or reliable consumer research. Never fabricate a Profield rank or repeat a case across lessons. Run `npm run verify:nm-campaigns` after each NM forge.
+**Dignity cascade (2026-10-20):** `digital-creativity-pedagogy/dignity/MASTER-CASCADE.md` + `STATUS.md` retain extraction/index receipts, evidence, gaps, two Profield strands and activity proposals. `/dignity/` (EN) and `/dignity/es/` share one case owner, `DIGNITY`; its five unranked cases are reserved in the NM campaign index and must not be copied into U1–U6. TC adaptation is a research handoff, not yet implemented.
 **Execute Wave 1:** `digital-creativity-pedagogy/forge/CD-II-II.5.execute.md` (filled; do not re-template).  
 **Readiness:** `TEACHING-READINESS.mdc`. **Forge-ready:** unit IDs + evidence matrix + consent drafts; DPO still open.  
 **Consent:** `digital-creativity-pedagogy/consent/` (unpublished).  

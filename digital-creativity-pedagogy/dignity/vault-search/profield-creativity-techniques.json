@@ -1,0 +1,501 @@
+[
+  {
+    "knowledge_id": "a96a65d8-c39c-585a-998e-cbc0baebb446",
+    "collection_name": "project_4db668b5189749a49a15a1674ad66b3c",
+    "source_locator": "b24c10da-dfb8-5217-afed-bea6f6061f03#page=11",
+    "content": "Second, how we choose to think about and confront conflict is an ethical concern. In the spirit of John Durham Peters:",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-creativity-techniques",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7183477960378181,
+    "metadata": {
+      "node_id": "a96a65d8-c39c-585a-998e-cbc0baebb446",
+      "document_id": "b24c10da-dfb8-5217-afed-bea6f6061f03",
+      "document_title": "# Creativity and Conflict in the Cultural Industries",
+      "file_name": "Creativity and Conflict in the Cultural Industries{Lucas, Christopher, Knotts, Erica}(2026, Routledge)[10.4324_9781003504429]{116463004}.epub",
+      "source_hash": "33f9e8673232abfce038bbce6cf17d279fd25d7d7537199a1eefbbd8040a0879",
+      "library": "scholar",
+      "page_index": 11,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1177/0263276408097794.https://doi.org/10.1177/0263276408097794Return",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn": {
+          "value": 9781032824222,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 9781,
+          "confidence": 0.6,
+          "provenance": "slug"
+        },
+        "title": {
+          "value": "# Creativity and Conflict in the Cultural Industries",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "family": "Creativity and Conflict in the Cultural Industries{Lucas, Christopher, Knotts, Erica}(2026, Routledge)[10.4324"
+            }
+          ],
+          "confidence": 0.6,
+          "provenance": "slug"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1177/0263276408097794.https://doi.org/10.1177/0263276408097794Return",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781032824222",
+            "9781032824208",
+            "9781003504429",
+            "9781412976176",
+            "9780252037801",
+            "9783319567297",
+            "9783031495762",
+            "9798765107317",
+            "9780199340378",
+            "9781315103761"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "creativity",
+            "conflict",
+            "cultural industries",
+            "creative industries",
+            "media industries",
+            "media management",
+            "creative ability in business",
+            "conflict management",
+            "artistic collaboration",
+            "creation"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "openlibrary",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_raw_hash": {
+          "value": "c511d7dfa554de49a0648fdd83594adf18f6ec4edd2ea242e3480c040515ac59",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_cache_hit": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "7a1c5f89-21f2-5eb7-a638-44ed7f068af4",
+    "collection_name": "project_4db668b5189749a49a15a1674ad66b3c",
+    "source_locator": "b24c10da-dfb8-5217-afed-bea6f6061f03#page=19",
+    "content": "### Ethical Dilemmas and Narratives of Conflict",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-creativity-techniques",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6937516060399912,
+    "metadata": {
+      "node_id": "7a1c5f89-21f2-5eb7-a638-44ed7f068af4",
+      "document_id": "b24c10da-dfb8-5217-afed-bea6f6061f03",
+      "document_title": "# Creativity and Conflict in the Cultural Industries",
+      "file_name": "Creativity and Conflict in the Cultural Industries{Lucas, Christopher, Knotts, Erica}(2026, Routledge)[10.4324_9781003504429]{116463004}.epub",
+      "source_hash": "33f9e8673232abfce038bbce6cf17d279fd25d7d7537199a1eefbbd8040a0879",
+      "library": "scholar",
+      "page_index": 19,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1177/0263276408097794.https://doi.org/10.1177/0263276408097794Return",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn": {
+          "value": 9781032824222,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 9781,
+          "confidence": 0.6,
+          "provenance": "slug"
+        },
+        "title": {
+          "value": "# Creativity and Conflict in the Cultural Industries",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "family": "Creativity and Conflict in the Cultural Industries{Lucas, Christopher, Knotts, Erica}(2026, Routledge)[10.4324"
+            }
+          ],
+          "confidence": 0.6,
+          "provenance": "slug"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1177/0263276408097794.https://doi.org/10.1177/0263276408097794Return",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9781032824222",
+            "9781032824208",
+            "9781003504429",
+            "9781412976176",
+            "9780252037801",
+            "9783319567297",
+            "9783031495762",
+            "9798765107317",
+            "9780199340378",
+            "9781315103761"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "creativity",
+            "conflict",
+            "cultural industries",
+            "creative industries",
+            "media industries",
+            "media management",
+            "creative ability in business",
+            "conflict management",
+            "artistic collaboration",
+            "creation"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "openlibrary",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_raw_hash": {
+          "value": "c511d7dfa554de49a0648fdd83594adf18f6ec4edd2ea242e3480c040515ac59",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_cache_hit": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "23a8eb55-6ef8-5f1f-8e66-ed1462e2d5b2",
+    "collection_name": "project_4db668b5189749a49a15a1674ad66b3c",
+    "source_locator": "657eb0bc-467f-5511-b152-ecd6ec314c3b#page=17",
+    "content": "Advanced strategies and ethical considerations",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-creativity-techniques",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6816135349717137,
+    "metadata": {
+      "node_id": "23a8eb55-6ef8-5f1f-8e66-ed1462e2d5b2",
+      "document_id": "657eb0bc-467f-5511-b152-ecd6ec314c3b",
+      "document_title": "# About the Authors",
+      "file_name": "Generative AI Essentials _ Unlocking creativity and innovation with generative AI{Singh, Priyanka_Singh, Hariom__ Hariom Singh}(2025, BPB Publications){107960719}.epub",
+      "source_hash": "bc16e1ffe44a2f2d897b1e5cdfd31da67f5c4a7ab8d727013c46078e1b6b53ef",
+      "library": "scholar",
+      "page_index": 17,
+      "document_metadata": {
+        "date": {
+          "value": 2025,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "isbn": {
+          "value": 9789365897074,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "title": {
+          "value": "# About the Authors",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "isbn_all": {
+          "value": [
+            "9789365897074"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "38eb9a52-08dd-5cf8-a501-a8d8d8c8f3bb",
+    "collection_name": "project_4db668b5189749a49a15a1674ad66b3c",
+    "source_locator": "f3c6e48b-981c-5708-92fa-ac2eb0ced267#page=178",
+    "content": "1 For more on philosophical discussion with children see www.sapere.net www.dialogueworks.co.uk and www.teachingthinking.net.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-creativity-techniques",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6709067221373938,
+    "metadata": {
+      "node_id": "38eb9a52-08dd-5cf8-a501-a8d8d8c8f3bb",
+      "document_id": "f3c6e48b-981c-5708-92fa-ac2eb0ced267",
+      "document_title": "British Library Cataloguing in Publication Data",
+      "file_name": "Robert Fisher_ Mary Williams - Unlocking Creativity_ A Teacher's Guide to Creativity Across the Curriculum.pdf",
+      "source_hash": "25b9cc1b969ce3db0cf4d5ef81a051514445ff0ce242ac8dbb9f97db978400d8",
+      "library": "scholar",
+      "page_index": 178,
+      "document_metadata": {
+        "date": {
+          "value": 2004,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "isbn": {
+          "value": 9781853466526,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "title": {
+          "value": "British Library Cataloguing in Publication Data",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "isbn_all": {
+          "value": [
+            "9781853466526",
+            "9781853468353",
+            "9781853468506",
+            "9781843120926",
+            "9784990046224",
+            "9780954469528"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "creativity",
+            "education",
+            "teaching",
+            "curriculum",
+            "literacy",
+            "numeracy",
+            "writing",
+            "design",
+            "technology",
+            "religion",
+            "science",
+            "geography",
+            "early years",
+            "mathematics",
+            "music",
+            "art",
+            "ICT",
+            "education research"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "openlibrary",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_raw_hash": {
+          "value": "83ad25deb191be6b3929b8d15fb57747c3eb2461ee57cd7142f4a6bc9dc9f762",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_cache_hit": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "cbef010c-d51c-576f-adcf-8d496d90f230",
+    "collection_name": "project_4db668b5189749a49a15a1674ad66b3c",
+    "source_locator": "19695e45-845a-5f40-a4e1-3a82cbc230d0#page=34",
+    "content": "Most advocates of moral development argue that ethics can be taught to adults -that one can improve the moral development, and",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-creativity-techniques",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.669273115685492,
+    "metadata": {
+      "node_id": "cbef010c-d51c-576f-adcf-8d496d90f230",
+      "document_id": "19695e45-845a-5f40-a4e1-3a82cbc230d0",
+      "document_title": "Moral Imagination in the Twenty-first Century_ Individuals and Organizations{Patricia H. Werhane (author)_ David J. Bevan (author)}(2026, Cambridge University Press)[10.1017_9781009565875]{11.pdf",
+      "file_name": "Moral Imagination in the Twenty-first Century_ Individuals and Organizations{Patricia H. Werhane (author)_ David J. Bevan (author)}(2026, Cambridge University Press)[10.1017_9781009565875]{11.pdf",
+      "source_hash": "96302b7ea4992f1147685e577430db3dd12439af690da21ee5c656a9b863e085",
+      "library": "scholar",
+      "page_index": 34,
+      "document_metadata": {}
+    }
+  },
+  {
+    "knowledge_id": "27b45da6-e55e-5eaa-8e29-652c3961d70f",
+    "collection_name": "project_4db668b5189749a49a15a1674ad66b3c",
+    "source_locator": "19695e45-845a-5f40-a4e1-3a82cbc230d0#page=220",
+    "content": "' Moral Imagination and Systems Thinking. ' Journal of Business Ethics , 38: 33 -42.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-creativity-techniques",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.6677630492071333,
+    "metadata": {
+      "node_id": "27b45da6-e55e-5eaa-8e29-652c3961d70f",
+      "document_id": "19695e45-845a-5f40-a4e1-3a82cbc230d0",
+      "document_title": "Moral Imagination in the Twenty-first Century_ Individuals and Organizations{Patricia H. Werhane (author)_ David J. Bevan (author)}(2026, Cambridge University Press)[10.1017_9781009565875]{11.pdf",
+      "file_name": "Moral Imagination in the Twenty-first Century_ Individuals and Organizations{Patricia H. Werhane (author)_ David J. Bevan (author)}(2026, Cambridge University Press)[10.1017_9781009565875]{11.pdf",
+      "source_hash": "96302b7ea4992f1147685e577430db3dd12439af690da21ee5c656a9b863e085",
+      "library": "scholar",
+      "page_index": 220,
+      "document_metadata": {}
+    }
+  }
+]

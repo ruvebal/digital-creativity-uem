@@ -6,6 +6,161 @@
 # Only page- or section-verified works belong here; unresolved works stay in
 # research-manifest.yml (gap). No internal store names, ids, or paths.
 
+global-dignity-2026:
+  sort: "Global Dignity España Fundación AYO 2026"
+  year: 2026
+  chicago: >-
+    Global Dignity España and Fundación AYO. 2026. *Dignidad e innovación educativa:
+    Banco de buenas prácticas*. 21 fichas, actualización junio 2026. Teaching
+    materials supplied for the course. Case GD16, “Dignidad en la industria textil,”
+    by Belén María Moreno Cabezalí, PDF page 17. No public edition URL verified.
+
+united-nations-1948:
+  sort: "United Nations 1948"
+  year: 1948
+  chicago: >-
+    United Nations. 1948. *Universal Declaration of Human Rights*. Articles 1–2.
+    <a href="https://www.un.org/en/about-us/universal-declaration-of-human-rights" target="_blank" rel="noopener noreferrer">Official text</a>.
+
+freire-2000:
+  sort: "Freire Paulo 2000"
+  year: 2000
+  chicago: >-
+    Freire, Paulo. 2000. *Pedagogy of the Oppressed*. 30th anniversary edition.
+    Translated by Myra Bergman Ramos. New York: Continuum. Later Bloomsbury reprint
+    consulted; anniversary-edition date verified on its copyright page.
+
+browne-2015:
+  sort: "Browne Simone 2015"
+  year: 2015
+  chicago: >-
+    Browne, Simone. 2015. *Dark Matters: On the Surveillance of Blackness*.
+    Durham, NC: Duke University Press.
+    <a href="https://doi.org/10.1215/9780822375302" target="_blank" rel="noopener noreferrer">Publisher DOI</a>.
+
+abidin-2016:
+  sort: "Abidin Crystal 2016"
+  year: 2016
+  chicago: >-
+    Abidin, Crystal. 2016. “Visibility Labour: Engaging with Influencers’ Fashion
+    Brands and #OOTD Advertorial Campaigns on Instagram.” *Media International
+    Australia* 161 (1): 86–100.
+    <a href="https://doi.org/10.1177/1329878X16665177" target="_blank" rel="noopener noreferrer">Article DOI</a>.
+
+unep-2023:
+  sort: "United Nations Environment Programme 2023"
+  year: 2023
+  chicago: >-
+    United Nations Environment Programme. 2023. *The Sustainable Fashion
+    Communication Playbook: Shifting the Narrative*. Practitioner guidance.
+    <a href="https://www.unep.org/resources/publication/sustainable-fashion-communication-playbook" target="_blank" rel="noopener noreferrer">Official publication record</a>.
+
+srivastava-2022:
+  sort: "Srivastava Sonali Wilska Sjöberg 2022"
+  year: 2022
+  chicago: >-
+    Srivastava, Sonali, Terhi-Anna Wilska, and Johanna Sjöberg. 2022. “Girls’
+    Portrayals in Fast Fashion Advertisements.” *Consumption Markets & Culture*
+    25 (6): 501–524.
+    <a href="https://doi.org/10.1080/10253866.2022.2067149" target="_blank" rel="noopener noreferrer">Article DOI</a>.
+
+pantano-2021:
+  sort: "Pantano Eleonora 2021"
+  year: 2021
+  chicago: >-
+    Pantano, Eleonora. 2021. “When a Luxury Brand Bursts: Modelling the Social Media
+    Viral Effects of Negative Stereotypes Adoption Leading to Brand Hate.”
+    *Journal of Business Research* 123: 117–125. Published online in 2020.
+    <a href="https://doi.org/10.1016/j.jbusres.2020.09.049" target="_blank" rel="noopener noreferrer">Article DOI</a>.
+
+asa-gucci-2016:
+  sort: "Advertising Standards Authority 2016 Gucci"
+  year: 2016
+  chicago: >-
+    Advertising Standards Authority. 2016. “ASA Ruling on Guccio Gucci SpA.”
+    April 6. UK self-regulatory decision, A15-321743.
+    <a href="https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html" target="_blank" rel="noopener noreferrer">Primary ruling</a>.
+
+asa-boohoo-2022:
+  sort: "Advertising Standards Authority 2022 Boohoo"
+  year: 2022
+  chicago: >-
+    Advertising Standards Authority. 2022. “ASA Ruling on Boohoo.com UK Ltd.”
+    February 16. UK self-regulatory decision, A21-1136109.
+    <a href="https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html" target="_blank" rel="noopener noreferrer">Primary ruling</a>.
+
+elpais-dg-2007:
+  sort: "El País 2007 Dolce Gabbana"
+  year: 2007
+  chicago: >-
+    El País. 2007. “El Instituto de la Mujer solicita la retirada de un anuncio
+    de Dolce Gabbana.” February 19. Contemporaneous reporting on the Spanish
+    controversy and call for withdrawal.
+    <a href="https://elpais.com/sociedad/2007/02/19/actualidad/1171839604_850215.html" target="_blank" rel="noopener noreferrer">Article</a>.
+
+socimages-dg-2011:
+  sort: "Wade Lisa 2011 Dolce Gabbana"
+  year: 2011
+  chicago: >-
+    Wade, Lisa. 2011. “Re-Thinking the Famous Dolce and Gabbana Gang Rape Ad.”
+    *Sociological Images*, January 21. Includes a student analysis and a
+    discussion of alternative interpretations.
+    <a href="https://thesocietypages.org/socimages/2011/01/21/re-thinking-the-famous-dolce-and-gabbana-gang-rape-ad/" target="_blank" rel="noopener noreferrer">Article</a>.
+
+cbs-dg-2018:
+  sort: "CBS AP 2018 Dolce Gabbana"
+  year: 2018
+  chicago: >-
+    CBS News. 2018. “Dolce &amp; Gabbana Founders Issue Video Apology after
+    Offending Some Chinese.” November 23. Associated Press report on the
+    chopsticks campaign videos, backlash and cancelled Shanghai show.
+    <a href="https://www.cbsnews.com/news/dolce-gabbana-ad-video-apology-sent-to-china-for-racially-insensitive-ad/" target="_blank" rel="noopener noreferrer">Article</a>.
+
+asa-calvin-klein-2024:
+  sort: "Advertising Standards Authority 2024 Calvin Klein"
+  year: 2024
+  chicago: >-
+    Advertising Standards Authority. 2024. “ASA Ruling on Calvin Klein Inc.”
+    March 6. Revised UK self-regulatory decision, replacing January 10 ruling.
+    <a href="https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html" target="_blank" rel="noopener noreferrer">Revised primary ruling</a>.
+
+itv-fka-twigs-2024:
+  sort: "ITV News 2024 FKA twigs Calvin Klein"
+  year: 2024
+  chicago: >-
+    ITV News. 2024. “Watchdog Reverses Ruling That Calvin Klein Poster
+    Objectified FKA twigs.” March 6. Report on the revised ASA ruling and
+    FKA twigs’s public response.
+    <a href="https://www.itv.com/news/2024-03-06/watchdog-reverses-ruling-that-calvin-klein-poster-objectified-fka-twigs" target="_blank" rel="noopener noreferrer">Article</a>.
+
+vogue-calvin-klein-2016:
+  sort: "Vogue España 2016 Calvin Klein campaign"
+  year: 2016
+  chicago: >-
+    Vogue España. 2016. “La campaña de la polémica: Calvin Klein SS 2016 y su
+    efecto viral.” May 9. Contemporary commentary on the campaign’s sexual
+    imagery and circulation.
+    <a href="https://www.vogue.es/moda/news/articulos/polemica-campana-calvin-klein-primavera-verano-2016-demasido-sexual/25627" target="_blank" rel="noopener noreferrer">Article</a>.
+
+acm-2022:
+  sort: "Netherlands Authority for Consumers and Markets 2022"
+  year: 2022
+  chicago: >-
+    Netherlands Authority for Consumers and Markets. 2022. “Going Forward,
+    Decathlon and H&M Will Provide Better Information about Sustainability to
+    Consumers.” September 13. Commitments concerning sustainability claims.
+    <a href="https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers" target="_blank" rel="noopener noreferrer">Authority’s case record</a>.
+
+espana-1988:
+  sort: "España 1988"
+  year: 1988
+  chicago: >-
+    España. 1988. *Ley 34/1988, de 11 de noviembre, General de Publicidad*,
+    artículo 3(a). BOE, November 15. Consolidated text consulted October 20, 2026;
+    latest update shown March 1, 2023. The consolidation is informational;
+    consult the official publications for legal purposes.
+    <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3" target="_blank" rel="noopener noreferrer">BOE text</a>.
+
 aldahoul-2025:
   sort: "AlDahoul Rahwan Zaki 2025"
   year: 2025

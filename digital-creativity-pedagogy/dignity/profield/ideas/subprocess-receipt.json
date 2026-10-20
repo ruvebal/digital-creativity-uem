@@ -1,0 +1,39 @@
+{
+  "strand": "ideas",
+  "completed_at": "2026-10-20T12:01:33.023130+00:00",
+  "receipts": [
+    {
+      "operation": "profield prompt pass1",
+      "returncode": 0
+    },
+    {
+      "query": "human dignity fashion advertising objectification recognition agency",
+      "url": "https://api.crossref.org/works?query=human+dignity+fashion+advertising+objectification+recognition+agency&rows=10&select=DOI%2Ctitle%2Cauthor%2Cpublished%2CURL%2Ctype%2Clink",
+      "status": "retrieved",
+      "count": 10,
+      "evidence_status": "discovery only"
+    },
+    {
+      "query": "critical visual literacy fashion education ethics representation",
+      "url": "https://api.crossref.org/works?query=critical+visual+literacy+fashion+education+ethics+representation&rows=10&select=DOI%2Ctitle%2Cauthor%2Cpublished%2CURL%2Ctype%2Clink",
+      "status": "retrieved",
+      "count": 10,
+      "evidence_status": "discovery only"
+    },
+    {
+      "query": "gender stereotypes advertising consumer dignity racial discrimination",
+      "url": "https://api.crossref.org/works?query=gender+stereotypes+advertising+consumer+dignity+racial+discrimination&rows=10&select=DOI%2Ctitle%2Cauthor%2Cpublished%2CURL%2Ctype%2Clink",
+      "status": "retrieved",
+      "count": 10,
+      "evidence_status": "discovery only"
+    },
+    {
+      "query": "dignity labour fashion supply chains responsible communication",
+      "url": "https://api.crossref.org/works?query=dignity+labour+fashion+supply+chains+responsible+communication&rows=10&select=DOI%2Ctitle%2Cauthor%2Cpublished%2CURL%2Ctype%2Clink",
+      "status": "retrieved",
+      "count": 10,
+      "evidence_status": "discovery only"
+    }
+  ],
+  "independent_review": false
+}

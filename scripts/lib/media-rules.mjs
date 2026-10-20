@@ -294,7 +294,7 @@ export function deckProblems(content, ctx = {}) {
       }
       const long = qs.filter((q) => String(q).length > RETRIEVAL_MAX_CHARS);
       if (long.length) issue(`${label}: retrieval question longer than ${RETRIEVAL_MAX_CHARS} characters`);
-      if (!/answers?/i.test(Array.isArray(slide.notes) ? slide.notes.join('\n') : String(slide.notes || ''))) {
+      if (!/(answers?|respuestas?)/i.test(Array.isArray(slide.notes) ? slide.notes.join('\n') : String(slide.notes || ''))) {
         issue(`${label}: retrieval slide notes must carry the answers`);
       }
       if (slide.background_kind !== 'geometrical') issue(`${label}: retrieval slide background_kind must be geometrical`);

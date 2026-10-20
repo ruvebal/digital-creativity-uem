@@ -26,6 +26,9 @@ deck_url: /tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/
 
 <!-- prettier-ignore-end -->
 
+**Guía compartida:** [Dignidad en la imagen y los medios de moda]({{ '/dignity/es/' | relative_url }}) — lectura crítica de casos y actividades para revisar decisiones de imagen y comunicación.
+
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 tuning_records: [2026-09-25-2b573c10-nm-u2-idea1, 2026-09-25-2c2bd0c6-nm-u2-idea2, 2026-09-25-d0da5218-nm-u2-idea3, 2026-09-25-9d830d7f-nm-u2-idea4]

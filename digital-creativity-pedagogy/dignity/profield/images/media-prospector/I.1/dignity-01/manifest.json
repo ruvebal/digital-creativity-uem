@@ -1,0 +1,310 @@
+{
+  "schema_version": "media-manifest-v1",
+  "manifest_id": "dignity-01",
+  "unit_id": "I.1",
+  "course": "CD I",
+  "field": "fashion image",
+  "subfield": "image practices, circulation, editorial/commercial boundary",
+  "query": {
+    "course": "CD I",
+    "unit_id": "I.1",
+    "field": "fashion image",
+    "subfield": "image practices, circulation, editorial/commercial boundary",
+    "media_type": "image",
+    "semantics": [
+      "object"
+    ],
+    "language": null,
+    "duration_max": null,
+    "licence_actions": [],
+    "slot": null,
+    "max_results": 8,
+    "collection": null,
+    "search_text": "fashion advertising women objectification"
+  },
+  "generated_at": "2026-10-20T12:01:32Z",
+  "engine_version": "0.1.0",
+  "assets": [
+    {
+      "asset_id": "wikimedia:File:Journalism versus art (IA journalismversus00east 0).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Journalism_versus_art_(IA_journalismversus00east_0).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Journalism_versus_art_%28IA_journalismversus00east_0%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Eastman, Max, 1883-1969",
+      "date": "2020-10-21 20:39:26",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Eastman, Max, 1883-1969 — File:Journalism versus art (IA journalismversus00east 0).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Journalism_versus_art_(IA_journalismversus00east_0).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:MODELING POLICY CHANGE FOR THE SEX TRAFFICKING MARKET IN LAS VEGAS, NEVADA (IA modelingpolicych1094563993).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:MODELING_POLICY_CHANGE_FOR_THE_SEX_TRAFFICKING_MARKET_IN_LAS_VEGAS,_NEVADA_(IA_modelingpolicych1094563993).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/MODELING_POLICY_CHANGE_FOR_THE_SEX_TRAFFICKING_MARKET_IN_LAS_VEGAS%2C_NEVADA_%28IA_modelingpolicych1094563993%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "King, Jeremiah D.",
+      "date": "2020-07-23 01:57:45",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "King, Jeremiah D. — File:MODELING POLICY CHANGE FOR THE SEX TRAFFICKING MARKET IN LAS VEGAS, NEVADA (IA modelingpolicych1094563993).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:MODELING_POLICY_CHANGE_FOR_THE_SEX_TRAFFICKING_MARKET_IN_LAS_VEGAS,_NEVADA_(IA_modelingpolicych1094563993).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:The commedia dell'arte. a study in Italian popular comedy (IA commediadellarte00smit).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_commedia_dell%27arte._a_study_in_Italian_popular_comedy_(IA_commediadellarte00smit).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/The_commedia_dell%27arte._a_study_in_Italian_popular_comedy_%28IA_commediadellarte00smit%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Smith, Winifred, b. 1879",
+      "date": "2026-08-03 14:04:32",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Smith, Winifred, b. 1879 — File:The commedia dell'arte. a study in Italian popular comedy (IA commediadellarte00smit).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:The_commedia_dell%27arte._a_study_in_Italian_popular_comedy_(IA_commediadellarte00smit).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:The commedia dell'arte. a study in Italian popular comedy (IA cu31924027470073).pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_commedia_dell%27arte._a_study_in_Italian_popular_comedy_(IA_cu31924027470073).pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/The_commedia_dell%27arte._a_study_in_Italian_popular_comedy_%28IA_cu31924027470073%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Smith, Winifred, 1879-",
+      "date": "2020-12-21 10:51:44",
+      "rights": {
+        "class": "conforming_public",
+        "spdx": null,
+        "source_statement": "Public domain",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Smith, Winifred, 1879- — File:The commedia dell'arte. a study in Italian popular comedy (IA cu31924027470073).pdf [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:The_commedia_dell%27arte._a_study_in_Italian_popular_comedy_(IA_cu31924027470073).pdf — Public Domain",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 1.0
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    },
+    {
+      "asset_id": "wikimedia:File:OFLC 2016 annual report.pdf",
+      "media_type": "graphic",
+      "media_slot_id": null,
+      "unit_id": "I.1",
+      "field": "fashion image",
+      "subfield": "image practices, circulation, editorial/commercial boundary",
+      "studio_semantics": [
+        "object"
+      ],
+      "semantic_rationale": null,
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:OFLC_2016_annual_report.pdf",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/OFLC_2016_annual_report.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Office of Film and Literature Classification",
+      "date": "2016",
+      "rights": {
+        "class": "conforming_attribution",
+        "spdx": null,
+        "source_statement": "Creative Commons Attribution 3.0 nz",
+        "retrieved_at": "2026-10-20",
+        "credit_line": "Office of Film and Literature Classification — File:OFLC 2016 annual report.pdf [modern_rights_review_required] — https://commons.wikimedia.org/wiki/File:OFLC_2016_annual_report.pdf",
+        "actions": {
+          "embed": true,
+          "download": true,
+          "crop": true,
+          "remix": true,
+          "subtitle": true,
+          "transcode": true
+        }
+      },
+      "accessibility": {
+        "captions": false,
+        "transcript": null,
+        "alt_text": null,
+        "static_fallback": null
+      },
+      "provenance": {
+        "adapter": "wikimedia_commons",
+        "source_hash": null
+      },
+      "confidence": {
+        "semantic": 0.1,
+        "rights": 0.5
+      },
+      "review": {
+        "status": "needs_human_review",
+        "notes": [
+          "accessibility: missing transcript",
+          "accessibility: missing static_fallback",
+          "accessibility: missing alt_text",
+          "semantics: needs_review — heuristic or low-confidence result used"
+        ],
+        "accepted_at": null,
+        "accepted_by": null
+      }
+    }
+  ],
+  "rejected": []
+}

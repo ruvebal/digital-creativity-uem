@@ -5,8 +5,10 @@ import { extname, join, relative, resolve } from 'node:path';
 
 const root = process.cwd();
 const citationMode = process.argv.includes('--citations');
-const publicRoot = resolve(root, '_site');
-const sourceRoots = [resolve(root, 'docs/lessons'), resolve(root, 'docs/tracks')];
+const siteDirFlag = process.argv.indexOf('--site-dir');
+const publicRoot = resolve(root, siteDirFlag >= 0 ? process.argv[siteDirFlag + 1] : '_site');
+const guideRoot = resolve(root, 'docs/dignity');
+const sourceRoots = [resolve(root, 'docs/lessons'), resolve(root, 'docs/tracks'), guideRoot];
 const internalSwitch = 'site.publication.publish_internal_metadata';
 
 // Student disclosure page may name the harness once (EX2 one-sentence footers link here).
@@ -128,10 +130,13 @@ function leakAudit() {
 function citationAudit() {
 	const failures = [];
 	const lessonRoot = resolve(root, 'docs/lessons');
-	for (const file of filesUnder(lessonRoot, new Set(['.md']))) {
+	const citationSources = [lessonRoot, guideRoot]
+		.filter((directory) => statSync(directory, { throwIfNoEntry: false })?.isDirectory())
+		.flatMap((directory) => filesUnder(directory, new Set(['.md'])));
+	for (const file of citationSources) {
 		const raw = readFileSync(file, 'utf8');
 		if (!isPublished(raw)) continue;
-		if (!raw.includes('lesson-semantic-graphic.html')) continue;
+		if (!raw.includes('lesson-semantic-graphic.html') && !file.startsWith(`${guideRoot}/`)) continue;
 		const content = publicSource(raw);
 		const body = content.replace(/^---[\s\S]*?---\s*/m, '');
 		const inlineCitations = body.match(/\([A-ZÁÉÍÓÚÑ][^()\n]{0,90}\s(?:19|20)\d{2}(?:,\s*\d+(?:[–-]\d+)?)?\)/g) || [];
@@ -175,9 +180,13 @@ function citationAudit() {
 		}
 	}
 	if (statSync(publicRoot, { throwIfNoEntry: false })) {
-		for (const file of filesUnder(resolve(publicRoot, 'lessons'), new Set(['.html']))) {
+		const citationOutputs = ['lessons', 'dignity']
+			.map((directory) => resolve(publicRoot, directory))
+			.filter((directory) => statSync(directory, { throwIfNoEntry: false })?.isDirectory())
+			.flatMap((directory) => filesUnder(directory, new Set(['.html'])));
+		for (const file of citationOutputs) {
 			const body = readFileSync(file, 'utf8');
-			const citationLinks = [...body.matchAll(/<a class="citation-link" href="#(ref-[^"]+)"[^>]*>\([^<]+\)<\/a>/g)];
+			const citationLinks = [...body.matchAll(/<a\b[^>]*href="#(ref-[^"]+)"[^>]*>\([^<]+\)<\/a>/g)];
 			for (const match of citationLinks) {
 				if (!body.includes(`id="${match[1]}"`)) failures.push(`${relative(root, file)}: citation link points to a missing reference anchor (${match[1]})`);
 			}

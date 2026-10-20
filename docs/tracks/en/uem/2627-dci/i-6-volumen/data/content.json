@@ -1,0 +1,348 @@
+---
+layout: null
+---
+{
+  "unit_label": "Creación Digital I · I.6 Volumen",
+  "final_event_theme": "Comunicar e inspirar: ¿qué es la moda para ti?",
+  "media_selection": {
+    "unit_id": "I.6",
+    "project_id": "dc",
+    "collection": "course-diagrams",
+    "strategy": "authored-diagram-backgrounds",
+    "description": "Ilustraciones originales de la asignatura; no se atribuyen derechos de medios externos.",
+    "media_overrides": {}
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "geometrical",
+      "heading": "I.6 · Volumen",
+      "sentence": "El volumen se contrasta entre materia, proyección y revisión.",
+      "notes": [
+        "Open with the official CONTENIDOS anchor: Volumen."
+      ],
+      "prompt": "CONTENIDOS: Volumen",
+      "quote": "Un pliegue se vuelve volumen cuando sus bordes se encuentran en el espacio.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao de la Imagen)",
+        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "geometry"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      }
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Leer el volumen",
+      "sentence": "¿Qué parte del pliegue se mantiene al pasar a la pantalla y cuál cambia?",
+      "notes": [
+        "Modela una comparación entre materia y pantalla antes del Lab."
+      ]
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "Compara tres vistas",
+      "sentence": "Cada proyección hace visible un contorno distinto del mismo drapeado.",
+      "notes": [
+        "Modela cómo cada proyección revela un contorno distinto del mismo drapeado."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
+      "diagram_alt": "Un pliegue drapeado aparece con contornos distintos en tres proyecciones.",
+      "diagram_caption": "Un pliegue, tres proyecciones",
+      "image_brief": "Tres proyecciones revelan contornos distintos de un mismo volumen drapeado.",
+      "quote": "Un objeto puede proyectar varias vistas honestas.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao de la Imagen)",
+        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "projection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
+      "diagram_rights": "Ilustración original · todos los derechos reservados"
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Iterar entre representaciones",
+      "sentence": "Deja que un estudio físico y un pase digital se corrijan mutuamente.",
+      "notes": [
+        "Deja que un estudio físico y un pase digital se corrijan mutuamente."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
+      "diagram_alt": "El estudio físico y el pase digital vuelven tras la crítica y la revisión.",
+      "diagram_caption": "Un ciclo con un motivo visible",
+      "image_brief": "Un ciclo acotado conecta estudio físico, pase digital, crítica y una revisión registrada.",
+      "quote": "Deja que cada pase plantee una pregunta más precisa al siguiente.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao de la Imagen)",
+        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "iteration"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
+      "diagram_rights": "Ilustración original · todos los derechos reservados"
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Comprobar el pliegue simulado",
+      "sentence": "Un contorno digital verosímil todavía necesita comprobarse con el material.",
+      "notes": [
+        "Un contorno digital verosímil todavía necesita comprobarse con el material."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
+      "diagram_alt": "El contorno virtual continúa donde el material apoyado no lo hace.",
+      "diagram_caption": "Una diferencia que merece comprobarse",
+      "image_brief": "La malla virtual continúa más allá del pliegue sostenido por el material físico.",
+      "quote": "Una superficie convincente todavía debe ponerse a prueba con el material.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao de la Imagen)",
+        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "simulation"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
+      "diagram_rights": "Ilustración original · todos los derechos reservados"
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · Cambiar una variable",
+      "sentence": "Mantén la escala y el punto de vista mientras revisas una diferencia.",
+      "notes": [
+        "Mantén la escala y el punto de vista mientras revisas una diferencia."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
+      "diagram_alt": "Tres estudios acotados aumentan la profundidad y conservan una sección común.",
+      "diagram_caption": "Profundidad cambiada en un paso",
+      "image_brief": "Tres estudios escalonados aumentan la profundidad y conservan una dirección de sección común.",
+      "quote": "Una revisión importa si su motivo sigue visible.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao de la Imagen)",
+        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "evidence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
+      "diagram_rights": "Ilustración original · todos los derechos reservados"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recuperación rápida",
+      "sentence": "Responde de memoria y comprueba después las ideas en la lección.",
+      "notes": [
+        "Respuestas posibles: perfil de profundidad; caída/tensión/pliegue; escala y punto de vista constantes; par antes/después con la zona marcada; una imagen final no verifica apoyo, gravedad ni material."
+      ],
+      "questions": [
+        "¿Qué muestra la vista lateral que oculta la frontal?",
+        "Nombra una diferencia posible entre tela y simulación.",
+        "¿Qué mantendrás constante al comparar dos pases?",
+        "¿Qué evidencia hace comprensible una revisión?",
+        "¿Por qué un render pulido no prueba el comportamiento material?"
+      ]
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Dejar rastro del proceso",
+      "sentence": "Guarda los dos ejercicios en el índice de portfolio.",
+      "notes": [
+        "A continuación hay dos ejercicios para el portfolio."
+      ]
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "diagram",
+      "heading": "Ejercicio 1 · Construir un pliegue",
+      "sentence": "Construye un volumen pequeño con papel, tela u otro material disponible; fotografía dos vistas y marca dónde cambia el pliegue.",
+      "notes": [
+        "Individual, 15 minutos. Se admite una alternativa táctil o estática.",
+        "Rastro para el portfolio: Dos vistas y una nota sobre el cambio de contorno, apoyo o caída."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
+      "diagram_alt": "Un material plegado y su malla digital se comparan en una diferencia señalada.",
+      "diagram_caption": "Construir profundidad para probar un pliegue",
+      "image_brief": "Un material plegado y su malla digital se comparan en una diferencia visible.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Dos vistas y una nota sobre el cambio de contorno, apoyo o caída.",
+      "timer_seconds": 900,
+      "method_id": "i6-volume-lab-1",
+      "practises": [
+        "masterclass-1",
+        "masterclass-2"
+      ],
+      "prompt": "Guarda una comparación etiquetada en el índice de portfolio.",
+      "quote": "Construye solo el volumen necesario para probar un pliegue.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao de la Imagen)",
+        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "craft"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
+      "diagram_rights": "Ilustración original · todos los derechos reservados"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "diagram",
+      "heading": "Ejercicio 2 · Contrastar y revisar",
+      "sentence": "Compara el estudio físico con una interpretación digital sencilla; cambia una variable y conserva la vista anterior.",
+      "notes": [
+        "Individual, 15 minutos. Se admite una alternativa táctil o estática.",
+        "Rastro para el portfolio: Par antes/después y una frase que explique el cambio."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
+      "diagram_alt": "Una revisión local se comprueba frente al contorno de origen conservado.",
+      "diagram_caption": "Conservar el origen junto a la revisión",
+      "image_brief": "Un contorno modificado se compara con su trazo de origen conservado.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Par antes/después y una frase que explique el cambio.",
+      "timer_seconds": 900,
+      "method_id": "i6-volume-lab-2",
+      "practises": [
+        "masterclass-2",
+        "masterclass-3"
+      ],
+      "prompt": "Guarda una comparación etiquetada en el índice de portfolio.",
+      "quote": "Conserva el primer contorno junto a la corrección.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao de la Imagen)",
+        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
+      },
+      "semantic_tags": {
+        "themes": [
+          "fashion",
+          "volume",
+          "process"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
+      "diagram_rights": "Ilustración original · todos los derechos reservados"
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Llevar al siguiente estudio",
+      "sentence": "Trae la diferencia que aún necesita comprobarse, no solo la vista más pulida.",
+      "notes": [
+        "Conserva la diferencia pendiente como pregunta para comprobar."
+      ]
+    }
+  ],
+  "schema_version": 2,
+  "locale": "es"
+}

@@ -3,19 +3,20 @@ layout: lesson
 title: 'I.6 · Volume'
 title_es: 'I.6 · Volumen'
 slug: i-6-volumen
-date: 2026-08-20
+date: 2026-10-20
 author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /lessons/en/digital-creativity-i/i-6-volume/
-description: 'Volume built by iterating between physical and digital representation — a hybrid analogue/digital teaching module, not a single-tool workflow.'
-status: scaffold
-tags: [digital-creativity-i, volume, hybrid-studio, clo3d, fashion-education]
+description: 'A material volume study tests physical and digital representations through one visible comparison and revision.'
+status: pilot
+tags: [digital-creativity-i, volume, material-study, spatial-representation]
+deck_url: /tracks/dci/i-6-volume/
 references: [coats-2026]
 ---
 
 <!-- prettier-ignore-start -->
 
-## 📋 Table of Contents
+## Table of contents
 {: .no_toc }
 - TOC
 {:toc}
@@ -24,196 +25,104 @@ references: [coats-2026]
 
 ---
 
-> _"To bump wisely is to keep truth in two places: the manifest and the module."_
-<!-- TTDO fit: used analogically here — its own `teaches` field is about software version sync across sources of truth, not fashion volume-making; the fit is keeping a physical maquette and a digital pass in sync through iteration, B1/B2 below. -->
-> — Tao of Development, `qa-013`
+> _“A fold becomes volume when its edges meet in space.”_
+<!-- Original studio aphorism; not a scholarly quotation. -->
 {: .tao-development-quote }
 
----
+## Start here
 
-{% include lesson-semantic-graphic.html %}
+**In-class deck:** [I.6 · Volume slideshow]({{ '/tracks/dci/i-6-volume/' | relative_url }}). **Class rhythm:** Analysis → Masterclass → two Lab exercises; no Workshop in this early session.
 
-## Where this sits — CONTENIDOS and competencies
+## Official place in the course
 
-**CONTENIDOS anchor (verbatim, official guía):** *Volumen.*
+**CONTENIDOS:** *Volumen.* This unit follows *Fundamentos y representación de la forma tridimensional* and focuses on the behaviour and interpretation of volume.
 
-**Competencies served:** `CON1`, `HAB9`, `COMP8`, `COMP9` — same subset as I.5; this unit continues the spatial-form strand.
+**Guide competencies:** `CON1`, `HAB9`, `COMP8`, `COMP9`.
 
-**Learning outcomes:** *"Diferenciar los diferentes recursos técnicos para realizar modelos digitales tridimensionales."* · *"Reconocer las técnicas de representación tridimensional."*
+**Relevant learning outcomes:** *Diferenciar los diferentes recursos técnicos para realizar modelos digitales tridimensionales* · *Reconocer las técnicas de representación tridimensional*.
 
-**Evaluation weights:** Investigaciones y proyectos 20% (studio piece); Cuaderno 10% (process note).
+**Official evaluation weights:** Pruebas de evaluación 55% · Caso/problema 15% · Investigaciones y proyectos 20% · Cuaderno de prácticas de laboratorio/taller 10%.
 
----
+## Learning aims
 
-## Learning objectives
-
-- **Build volume by iterating between physical and digital passes**, not by committing to one representation and discarding the other.
-- **Name what each representation revealed** that the other one didn't — the core evidence trail this unit asks for.
-- **Recognise the limits of a single documented case** — one module, one cohort, one tool; stated plainly.
-- **Engage the sustainability caveat named by the unit's own source** — hybrid tools may reduce sampling waste but do not, by themselves, disrupt fashion's overproduction logic.
-
----
+- Build a small volume study and represent the same form in a second medium.
+- Compare two views at the same scale and identify one material or spatial mismatch.
+- Make one controlled revision and retain before/after evidence with a short explanation.
 
 ## Analysis
-### Critical perspective
 
-The dressed body is not a biological support prior to fashion, but a socially produced body — a theoretical counterweight to volume systems that treat measurements, gender, pose, or silhouette as merely technical parameters (Entwistle 2015).
+Start with a simple folded form, not a polished garment render. Compare its profile, support points, and visible folds with a digital interpretation. Keep the viewing position and approximate scale stable so the comparison tests the representation rather than a change in camera.
 
-Virtual fashion formats may expand certain forms of access but also generate friction and generational differences — a useful corrective to automatically equating virtualization with accessibility or improved experience (Farah, Ramadan, and Nassereddine 2025). Hybrid volume exercises assume bodies and materials that fit default digital templates. What does your physical pass reveal that the screen cannot, and who is excluded when volume is taught only digitally?
-
-### The debate prompt
-
-Use Coats's own caveat directly: **if a hybrid tool like CLO3D reduces physical sampling waste in the studio, does that make fashion practice more sustainable overall, or does it risk normalising faster, more disposable design cycles by making iteration cheaper?** The paper reports the study's own students were sceptical — do not resolve the debate for them; let the group reach its own position in writing.
-
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.6.video.hybrid-handoff" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for a hybrid physical-to-digital volume demonstration; no people or garments depicted." loading="lazy" />
-<figcaption>
-<p><strong>Why this is here:</strong> A short process clip pauses at the analogue/digital handoff so students name what each pass gains or loses.</p>
-<p><strong>Look for:</strong> Material evidence, scale, fold, and what the screen cannot prove alone.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
-</figcaption>
+<figure class="lesson-figure" id="figure-material-memory" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A folded material and its digital mesh are paired; a dashed contour marks where their forms diverge." loading="lazy" decoding="async" />
+<figcaption><strong>A fold across two representations.</strong> The physical fold and the digital grid retain different evidence. The dashed contour marks a mismatch worth checking; it is not smoothed away. Original course illustration · visual-forger 1.3.0 · all rights reserved.</figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.6.still.material-exemplar" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract placeholder for material volume exemplar and polished-but-impossible digital counterexample; no people or garments depicted." loading="lazy" />
-<figcaption>
-<p><strong>Why this is here:</strong> Paired stills separate convincing material volume from polished but physically impossible renders.</p>
-<p><strong>Look for:</strong> Fold, void, and gravity evidence versus decorative polish.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
-</figcaption>
-</figure>
-
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.6.graphic.mockup-loop" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic.svg' | relative_url }}" width="1600" height="560" alt="Abstract diagram placeholder for mock-up capture digital volume critique loop; no people or garments depicted." loading="lazy" />
-<figcaption>
-<p><strong>Why this is here:</strong> Maps mock-up → capture → digital volume → critique → revision.</p>
-<p><strong>Look for:</strong> Where spatial or material information is lost between passes.</p>
-<p class="media-note">Placeholder visual — licensed media pending review.</p>
-</figcaption>
-</figure>
-
----
-
-
-
-Covered above: Coats hybrid framing, sustainability caveat, critical lens, debate, and placeholders.
-
-**What "iterating between representations" means, concretely:**
-
-1. **The physical pass** — a maquette, muslin study, or hand-built volume study, however small.
-2. **The digital pass** — a digital 3D representation of the same volume idea.
-3. **The correction** — at least one documented instance where one representation revealed something the other missed, and what changed as a result.
-4. **The declaration** — which tool(s) were used, dated, labelled as platform notes, not research citations.
-
----
+**Look for:** the contour at the fold, the points carrying the material, the scale of the study, and what the chosen view hides. A smooth render can describe a proposed shape; by itself, it cannot verify how a particular material hangs.
 
 ## Masterclass
 
-**Claim:** volume is built by moving back and forth between physical and digital representations of the same piece, each pass correcting or extending the other — not by choosing analogue *or* digital and treating the choice as final.
+### One object, several views
 
-This is not an abstract preference — it is a documented, theorised teaching module. "The Denim Project," a published 2026 case study, describes a hybrid physical/digital studio in which students worked a denim garment across both material and CLO3D form. The module is explicitly framed within a constructivist model of experiential learning (citing Biggs and Tang 2011; Kolb 1984): students iterated across analogue and digital workflows, which fostered technical proficiency *and* critical reflection — not efficiency alone [(Coats 2026, 8)](#ref-coats-2026).
+Front, side, and three-quarter views answer different questions about the same volume. Keep them aligned and state what each contributes: outline, depth, fold direction, or contact with a support.
 
-**What this supports, and what it does not.** Coats (2026, 8) supports that a real, theorised hybrid analogue/digital teaching module for volume exists and how it was framed pedagogically. It does **not** establish that hybrid iteration generalises beyond one module, one cohort, and one specific tool (CLO3D) — a strong existence proof, not a validated method across contexts. The same paper is explicit that while CLO3D helped reduce muslin (sampling) waste through virtual prototyping, students in the study expressed scepticism about its *wider* sustainability impact — a caveat about the tool's broader industry effect, not a critique of the pedagogy; it supports a classroom discussion prompt, not a claim about teaching effectiveness [(Coats 2026, 8)](#ref-coats-2026). Tool docs ground operations only — label `[PLATFORM]`, never research.
+### Material constrains the contour
 
-**Practice anchor (field lens):** drape, tension, fold, void, scale, gravity, and material behaviour as durable volume variables — separate from any one application's simulation defaults.
+Gravity, support, tension, and material thickness influence a draped form. A digital simulation is a representation to compare with the physical study; do not treat a plausible surface as proof that the material will behave identically.
 
-**Frontier signal (field lens):** hybrid prototyping may reduce physical samples while relocating energy, labour, expertise, and overproduction pressures elsewhere; treat any "sustainability gain" as a question to audit, not a settled outcome.
+<figure class="lesson-figure" id="figure-support-and-drape" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A material span between two supports shows a stable contour and a deeper fall under load." loading="lazy" decoding="async" />
+<figcaption><strong>Gravity curves the material.</strong> The same material span is drawn between two supports. The two contours make the role of gravity and the point of suspension visible. Original course illustration · visual-forger 1.3.0 · all rights reserved.</figcaption>
+</figure>
 
-## Lab (Portfolio)
+### Revise where the views disagree
 
-*Structural placeholder (EX9) — no DCI deck `lab_exercise` slides yet for this unit. Two illustrative exercises keep the Lab rhythm; replace when EX11 / deck wave lands.*
+Choose one mismatch—such as an unsupported fold, an implausible tension line, or a changed silhouette. Adjust one variable, keep the first pass, and record why the change improves the representation. The comparison is more informative when the scale and viewpoint remain fixed.
 
-### Exercise 1 — Name the CONTENIDOS move {#lab-exercise-1}
+<figure class="lesson-figure" id="figure-evidence-pair" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A material source, digital interpretation, and local correction sit together as a small comparison record." loading="lazy" decoding="async" />
+<figcaption><strong>A comparison that records its change.</strong> A source fragment, its digital interpretation, and one local correction stay together so the change can be inspected. Original course illustration · visual-forger 1.3.0 · all rights reserved.</figcaption>
+</figure>
 
-**Time:** 15 minutes.
+A published case describes a hybrid denim teaching module in which students worked across analogue and digital processes. It is a bounded example for discussing iteration, not evidence that the same sequence is effective across other cohorts, tools, or institutions (Coats 2026, 8). The paper also reports student scepticism about wider sustainability claims; use that as a discussion prompt, not as proof of an environmental outcome (Coats 2026, 4).
 
-**Group:** alone.
+## Lab · Portfolio
 
-**Materials:** notebook or laptop; timer; one rights-clear reference image for this unit's CONTENIDOS.
+These two exercises leave comparable process traces. A low-tech or tactile equivalent is acceptable; no specific 3D application is required. Use large, high-contrast marks and provide a short verbal or written description alongside images when useful.
 
-**Steps:**
+### Exercise 1 · Build one fold {#lab-exercise-1}
 
-1. Restate the unit CONTENIDOS anchor in one sentence (no tool brand).
-2. Name one craft decision this unit asks you to leave visible in a process note.
-3. Write one sentence on what a single-tool workflow would hide.
-4. Keep the note for the portfolio index.
+**Time:** 15 minutes · **Format:** individual.
 
-**Portfolio trace:** CONTENIDOS sentence + craft-visibility sentence + single-tool caution.
+Build a small volume from paper, cloth, or another available material; photograph two views and mark where the fold changes.
 
-**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+**Portfolio trace:** Two views and one note on the changed contour, support, or drape.
 
-**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
+### Exercise 2 · Compare and revise {#lab-exercise-2}
 
-**Example trace:** *(Illustrative · not student work.)* CONTENIDOS: “Volume by hybrid iteration.” Craft left visible: physical maquette fold vs CLO pass. Caution: a CLO-only export would hide the drape correction the hand pass forced.
+**Time:** 15 minutes · **Format:** individual.
 
-### Exercise 2 — One process evidence pair {#lab-exercise-2}
+Compare the physical study with a simple digital interpretation; change one variable and keep the earlier view.
 
-**Time:** 20 minutes.
+**Portfolio trace:** Before/after pair and one sentence explaining the change.
 
-**Group:** alone; optional 2-minute peer share.
+## Problem-solving check
 
-**Materials:** the Exercise 1 note; one before/after or physical/digital pair; timer.
-
-**Steps:**
-
-1. Capture one before and one after (or physical vs digital) for the same piece.
-2. Write one sentence naming what the second pass revealed that the first did not.
-3. Reject any polish that erases the evidence of the pass.
-4. File both stills (or photos) under the piece ID.
-
-**Portfolio trace:** before/after pair + revelation sentence.
-
-**Judged by:** [Portfolio rubric — process evidence]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
-
-**Source:** Classroom adaptation (deck Labs pending — structural placeholder).
-
-**Example trace:** *(Illustrative · not student work.)* Before: paper maquette crease at waist. After: digital pass exaggerates the crease. Sentence: “The screen invented tension the cloth did not have — keep the physical photo in the index.”
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-LAB_LINE: exercise=1; method_id=placeholder-contenidos-move; practises=pending-deck; source=EX9 structural placeholder; ACT=none
-LAB_LINE: exercise=2; method_id=placeholder-process-pair; practises=pending-deck; source=EX9 structural placeholder; ACT=none
--->
-{% endif %}
-
----
-
-## Workshop
-
-From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
-
-
-1. **Diagnostic.** Given a described hybrid workflow (which step used a physical pass, which used a digital pass), identify which step was probably analogue and which digital, and justify the likely reason for that choice.
-2. Identify what a flat digital render of a garment cannot show about volume that a physical or rotating 3D view can — name the specific limitation, not a general "digital is different."
-3. **No-tool, declared:** without any digital or physical tool, describe in writing how draping changes as the amount of volume in a piece increases — name at least one structural consequence (e.g. how ease or grain must adjust). **No AI — declared as such.**
-
-Professor answer sketches are not published on this page.
-
-{% comment %}
-outcome-graphic-selection:
-  source-section: "B3 · Resolución de problemas"
-  visual-grammar: "hybrid-volume — material weave and digital wire volume meet at an explicit transfer point"
-{% endcomment %}
-{% include lesson-outcome-graphic.html %}
-
----
+1. Identify one detail that appears in the physical view but is absent or different in the digital pass.
+2. Name one variable you would hold constant to make the comparison fair.
+3. Explain what your revision changed and point to the retained evidence.
 
 ## Conclusion
 
-This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+Volume is easier to discuss when the material study, the digital representation, and one reasoned revision remain visible together. Carry the unresolved mismatch into the next spatial-form exercise.
 
----
-
-
-**Practice:** five recall questions with answers on click — [i-6-volume practice quiz]({{ '/practice/en/i-6-volume/' | relative_url }}). Not graded; nothing recorded.
+**Practice:** five recall questions with answers on click — [I.6 Volume practice quiz]({{ '/practice/en/i-6-volume/' | relative_url }}). Not graded; nothing is recorded.
 
 ## Tao of the Image {#tao-of-the-image}
 
-Unit epigraph (studio Tao register — not a scholarly quotation):
+Studio aphorism; not a scholarly quotation.
 
-> _"To bump wisely is to keep truth in two places: the manifest and the module."_
-
-Deck and lesson links that target `#tao-of-the-image` resolve here.
+> _“A fold becomes volume when its edges meet in space.”_
 
 ---
 
@@ -224,16 +133,13 @@ Deck and lesson links that target `#tao-of-the-image` resolve here.
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 PROFIELD_ROUTING: unit=I.6; temario=T1-image-2d-volume.pass1.resultant.mdc § volume; subfield_runs=dc-3d-form-volume-pedagogy/20260820/digest.md § hybrid CLO3D
-CRITICAL_ROUTING: unit=I.6; critica=C2 Entwistle fashioned body L29; C2 Farah virtual accessibility L195; session sustainability relocated-costs prompt
-PROVENANCE_LINE: claim=I.6.claim.hybrid-iteration-module; status=VERIFIED; page_basis=printed; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="Denim Project hybrid CLO3D constructivist experiential learning"; source_locator=dc-3d-form-volume-pedagogy digest p1-c010; similarity=null; proposed_use="course-structure anchor"}; source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=b3ded30f-381e-5425-80b1-cf125b52449f; page_index=7; printed_page=8}; resolver="ahmes query --cite extraction.db:b3ded30f-381e-5425-80b1-cf125b52449f --require-evaluator-safe evaluator_safe=yes"; quote="students iterated across analogue and digital workflows"; public_citation="[(Coats 2026, 8)](#ref-coats-2026)"; supports="real theorised hybrid volume teaching module"; does_not_support="generalisable method across tools and institutions"
-PROVENANCE_LINE: claim=I.6.claim.sustainability-caveat; status=VERIFIED; page_basis=printed; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="CLO3D sustainability scepticism overproduction"; source_locator=same coat Coats; similarity=null; proposed_use="debate prompt only"}; source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=e4ea7122-7e03-5c1e-b82d-0416b553bc7b; page_index=3; printed_page=4}; resolver="ahmes query --cite extraction.db:e4ea7122-7e03-5c1e-b82d-0416b553bc7b --require-evaluator-safe evaluator_safe=yes"; quote=none; public_citation="[(Coats 2026, 4)](#ref-coats-2026)"; supports="student scepticism about broader sustainability claims"; does_not_support="pedagogy effectiveness or classroom policy"
-PROVENANCE_LINE: claim=I.6.gap.generalisation; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="hybrid volume pedagogy generalises beyond one module"; source_locator=i-6-volume.md § Grounding note; similarity=null; proposed_use="honest gap"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports=none; does_not_support="universal hybrid volume teaching prescription"
-PROVENANCE_LINE: claim=I.6.critical.fashioned-body; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="fashioned body avatar neutral mannequin Entwistle"; source_locator=C2-fashion-virtuality.pass1.resultant.mdc L29; similarity=null; proposed_use="critical theoretical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Entwistle 2015 not in scholar vault; quote=none; public_citation="(Entwistle 2015)"; supports="body as socially produced not technical default"; does_not_support="which mannequin students must use"
-PROVENANCE_LINE: claim=I.6.critical.virtual-accessibility; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="virtual fashion shows accessibility friction Farah"; source_locator=C2-fashion-virtuality.pass1.resultant.mdc L195; similarity=null; proposed_use="accessibility corrective"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Farah 2025 not in scholar vault; quote=none; public_citation="(Farah, Ramadan, and Nassereddine 2025)"; supports="virtualization does not guarantee accessibility"; does_not_support="abandoning digital volume passes"
-PROVENANCE_LINE: claim=I.6.critical.relocated-costs; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="physical sample digital relocated labour energy"; source_locator=i-6-volume.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming relocated sustainability costs"; does_not_support="empirical claim about cohort"
-MEDIA_RIGHTS_LINE: slot=I.6.video.hybrid-handoff; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.6.still.material-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.6.graphic.mockup-loop; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+CRITICAL_ROUTING: unit=I.6; retain as internal [BIBLIO-GAP] only; Entwistle (2015) and Farah et al. (2025) were not resolved to evaluator-safe Ahmes nodes and are not student-facing citations.
+PROVENANCE_LINE: claim=I.6.claim.hybrid-iteration-module; status=VERIFIED (prior canonical resolver record; live DB unavailable in current filesystem); source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=b3ded30f-381e-5425-80b1-cf125b52449f; page_index=7; printed_page=8}; supports="one theorised hybrid teaching case"; does_not_support="generalised teaching effectiveness"; public_citation="(Coats 2026, 8)"
+PROVENANCE_LINE: claim=I.6.claim.sustainability-caveat; status=VERIFIED (prior canonical resolver record); source={document_coat=6d1a7b81; extraction_db=ahmes-library/scholar/documents/ijfdte_coats_denim_6d1a7b81/extract/extraction.db; node_id=e4ea7122-7e03-5c1e-b82d-0416b553bc7b; page_index=3; printed_page=4}; supports="student scepticism about broader sustainability claims"; does_not_support="measured environmental outcome"; public_citation="(Coats 2026, 4)"
+PROVENANCE_LINE: claim=I.6.gap.generalisation; status=NONE; supports=none; does_not_support="validated universal method"
+PROVENANCE_LINE: claim=I.6.critical.fashioned-body; status=[BIBLIO-GAP]; public_citation=OMITTED
+PROVENANCE_LINE: claim=I.6.critical.virtual-accessibility; status=[BIBLIO-GAP]; public_citation=OMITTED
+MEDIA_RIGHTS_LINE: slots=course-authored-svg; status=ORIGINAL; license=all-rights-reserved; raster_derivative=png; no external media
 -->
 {% endif %}
 
@@ -242,20 +148,19 @@ MEDIA_RIGHTS_LINE: slot=I.6.graphic.mockup-loop; status=PENDING; licence=none; c
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-**Declared gap — stated plainly.** Coats (2026, 8) supports one real hybrid volume module; it does **not** prove that approach generalises as a teaching method across other tools, cohorts, or institutions. No reviewed source validates hybrid analogue/digital iteration as universal fashion-HE volume pedagogy.
-
-This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+The reviewed evidence supports one hybrid teaching case; it does not show that the same method works across all cohorts, tools, or institutions. The sustainability caveat remains open for discussion.
 
 ---
 
 ## AI-assisted authorship
 
-This lesson was written with local AI-assisted drafting under the author's editorial control. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+This lesson was drafted with AI assistance under the author’s editorial control.
 
+AI-assisted authorship declaration: [read the full disclosure]({{ '/ai-declaration/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
 <!-- lesson_uuid: c2db34c2-8e2f-4aaa-8cef-4e057f26668f
-     vault_refs_consulted: 3
-     forge_pass: editorial-ai-footer-law-2026-09-22
+     vault_refs_consulted: 2
+     forge_date: 2026-10-20 · harness: lesson-scribe
 -->
 {% endif %}

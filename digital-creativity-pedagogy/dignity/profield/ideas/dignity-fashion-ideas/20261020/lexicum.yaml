@@ -1,0 +1,25 @@
+# Emergent lexicum for dignity-fashion-ideas
+# Generated: 2026-10-20T12:19:32Z
+# Seeds: 4, Pass 1: 0, Pass 2: 0
+
+terms:
+  - term: critical visual literacy fashion education ethics representation
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true
+  - term: dignity labour fashion supply chains responsible communication
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true
+  - term: gender stereotypes advertising consumer dignity racial discrimination
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true
+  - term: human dignity fashion advertising objectification recognition agency
+    source_pass: 0
+    confidence: ESTABLISHED
+    volatility: foundational
+    is_seed: true

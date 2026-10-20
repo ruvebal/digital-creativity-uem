@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-20",
+  "mode": "built-in image_gen",
+  "taxonomy": "photorealistic-natural",
+  "ratio": "2.39:1",
+  "shared_constraints": "Fictional paired critical scene, adult bachelor's-level fashion media lesson. Use prior positive image only as composition reference; preserve fictional adults, environment, camera position and reserved corner while changing the ethical decision/consequences. Classic cinematic 35mm anamorphic look, realistic adults and natural skin; critique production choices and structures, never shame, sexualize, dehumanize or blame affected people. No legible text, slogans, logos, watermarks, or black bars. Keep important action and people within a centered 16:9 crop-safe area.",
+  "scenes": [
+    {
+      "id": "01-worth",
+      "brief": "Casting system bias: selectors rely on one narrow silhouette/contact sheet and an inaccessible desk interrupts participation. Varied adult applicants wait professionally and exchange questioning looks. Critique selection criteria, never appearance; nobody distressed, shamed, comic or defective. Abstract silhouettes only; no words, scores, brands."
+    },
+    {
+      "id": "02-agency",
+      "brief": "Restricted photo-shoot agency: camera viewfinder/monitor crops the adult model's face and raised hand out, while the fully clothed model stands beside camera asking to pause and decision makers focus on the cropped frame. Critique the crop and ignored intervention, no nudity, revealing clothes or humiliation."
+    },
+    {
+      "id": "03-history",
+      "brief": "Postcolonial extraction and missing attribution: an adult textile maker holds the original woven sample and provenance sketchbook; a stylist transfers that visibly matching motif onto a runway jacket and trend board while the maker's context notes are set aside. Make the pattern-to-garment connection legible and the omission of authorship visible. No real or named culture, caricature, costumes, sacred symbols, exoticizing props, stereotypes or denial of agency. Dress the textile maker in a saturated teal jacket that separates her clearly from the dark studio and textile. No readable words."
+    },
+    {
+      "id": "04-labour",
+      "brief": "Invisible garment labour: a large studio monitor shows a glossy campaign image of a finished gown and gives it the spotlight; skilled adult makers are clearly working around the monitor but cropped out of the campaign image or left only faintly reflected. Make the communication failure explicit: the product is visible and celebrated while its makers are outside the frame. Show capable adults, not victims. No sweatshop clichés, poverty spectacle, exhausted caricatures or helpless subjects."
+    },
+    {
+      "id": "05-citizen",
+      "brief": "Consumerist pressure over repair: same adult client, tailor and room now crowded with newly packaged garments, identical hangers and abstract retail screens; urgency lighting crowds out repair table. Client thoughtful, tailor skilled. No price labels, legible copy, logos, guilt, waste landfill or body shaming."
+    },
+    {
+      "id": "06-dialogue",
+      "brief": "Postfeminist empowerment/retouching contradiction: adult model, editor and creative director at equal height; monitor compares editorial portrait to a subtly narrowed waist, smoothed skin and enlarged eyes. The model is absent from the in-person review; two editors make decisions while her portrait appears only on the monitor, with an empty chair where she would sit. Fully clothed portrait, no grotesque deformation, legible text, brand or slogan."
+    }
+  ]
+}

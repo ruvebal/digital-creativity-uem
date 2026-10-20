@@ -1,0 +1,26 @@
+{
+  "strand": "images",
+  "completed_at": "2026-10-20T12:01:51.407961+00:00",
+  "receipts": [
+    {
+      "operation": "profield prompt pass1",
+      "returncode": 0
+    },
+    {
+      "query": "fashion advertising women objectification",
+      "returncode": 0,
+      "evidence_status": "unaccepted discovery; rights not cleared"
+    },
+    {
+      "query": "fashion diversity representation portrait",
+      "returncode": 0,
+      "evidence_status": "unaccepted discovery; rights not cleared"
+    },
+    {
+      "query": "garment workers fashion advertising",
+      "returncode": 0,
+      "evidence_status": "unaccepted discovery; rights not cleared"
+    }
+  ],
+  "independent_review": false
+}

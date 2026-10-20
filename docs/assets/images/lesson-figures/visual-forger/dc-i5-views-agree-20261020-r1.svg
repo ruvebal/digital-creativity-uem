@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Three views constrain one coherent volume</title>
+  <desc id="desc">Front, side, and top orthographic views connect by matching projection guides to an axonometric garment block. A dashed red contour marks a side-view mismatch that the proposed volume cannot explain.</desc>
+  <rect width="1600" height="900" fill="#F7F2E8"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#111827">
+    <text x="72" y="92" font-size="34" font-weight="500">Three views constrain one coherent volume</text>
+    <text x="72" y="132" font-size="20" fill="#596579">A drawing is spatial evidence only when its projections agree.</text>
+    <g fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2">
+      <rect x="80" y="190" width="270" height="255" rx="20"/><rect x="380" y="190" width="270" height="255" rx="20"/><rect x="80" y="480" width="270" height="255" rx="20"/>
+    </g>
+    <g fill="#334155" font-size="18" font-weight="500">
+      <text x="110" y="230">FRONT</text><text x="410" y="230">SIDE</text><text x="110" y="520">TOP</text>
+    </g>
+    <g fill="none" stroke="#24344D" stroke-width="4" stroke-linejoin="round">
+      <path d="M171 276h88l24 38-17 100H164l-17-100Z"/><path d="M469 276h50l24 38-8 100H446l-8-100Z"/><path d="M152 591 214 557l63 34-63 34Z"/>
+    </g>
+    <g fill="none" stroke="#B45B43" stroke-width="3" stroke-dasharray="8 8">
+      <path d="M147 314h136M147 414h136M438 314h105M438 414h105M152 591h125"/>
+    </g>
+    <g fill="none" stroke="#627087" stroke-width="2" stroke-dasharray="6 7" opacity=".8">
+      <path d="M350 314h30M350 414h30M214 445v35M650 314h74M650 414h74"/>
+    </g>
+    <g transform="translate(770 220)">
+      <path d="M180 24 385 138 385 408 180 522-25 408-25 138Z" fill="#E9DDCB" stroke="#24344D" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M180 24v270m0 228V294m0 0 205-156v270L180 522m0-228L-25 138v270l205 114" fill="none" stroke="#B45B43" stroke-width="3"/>
+      <path d="M385 139 455 98M385 408l70-41" stroke="#C49337" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(1280 255)">
+      <circle cx="92" cy="125" r="72" fill="#F2E0D7" stroke="#B45B43" stroke-width="3"/>
+      <path d="M55 140c15-42 57-58 83-31 17 18 12 47-7 66-21 21-58 11-76-35Z" fill="none" stroke="#B45B43" stroke-width="4" stroke-dasharray="9 8"/>
+      <path d="M39 235h116" stroke="#24344D" stroke-width="3"/>
+      <text x="97" y="278" text-anchor="middle" font-size="17" fill="#334155">Mismatch</text>
+      <text x="97" y="306" text-anchor="middle" font-size="15" fill="#596579">Name the view</text>
+      <text x="97" y="328" text-anchor="middle" font-size="15" fill="#596579">that cannot fit.</text>
+    </g>
+    <path d="M1230 394h62" stroke="#B45B43" stroke-width="3" stroke-dasharray="7 7"/>
+    <text x="800" y="815" text-anchor="middle" font-size="18" fill="#596579">Aligned guides make proportion testable; a contradiction stays visible.</text>
+  </g>
+</svg>

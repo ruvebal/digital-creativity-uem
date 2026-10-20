@@ -12,6 +12,7 @@ import { fileURLToPath } from 'node:url';
 
 import {
   captionHtml,
+  backgroundFor,
   diagramCaptionHtml,
   escapeHtml,
   geometricCaptionHtml,
@@ -21,6 +22,7 @@ import {
   parseHashedSvgName,
   questionsHtml,
   renderDeck,
+  lessonFigures,
   timerFor,
   withBase,
 } from '../lib/deck-render.mjs';
@@ -79,6 +81,8 @@ test('uem-henon geometric captions carry the content hash', () => {
   });
   assert.equal(parseHashedSvgName('uem-henon-pass-01-structure.svg'), null);
   assert.match(geometricCaptionHtml(name), /#2fc3613c22a1/);
+  assert.match(geometricCaptionHtml(name, 'es'), /Fondo geométrico del curso · estructura/);
+  assert.match(geometricCaptionHtml(name, 'es'), /SVG original de la asignatura/);
   assert.match(diagramCaptionHtml('uem-diagram-fallback-2fc3613c22a1.svg'), /#2fc3613c22a1/);
 });
 
@@ -140,4 +144,22 @@ test('committed deck includes match the renderer', () => {
 test('diagram fallback exists', () => {
   const meta = JSON.parse(readFileSync(join(root, 'docs/assets/images/fractal-triangles/current.json'), 'utf8'));
   assert.ok(existsSync(join(root, 'docs/assets/images/fractal-triangles', `${meta.asset}.svg`)));
+});
+
+test('authored diagram backgrounds retain their local image and accessible description', () => {
+  const slide = {
+    slide_id: 'masterclass-1',
+    background_kind: 'diagram',
+    diagram_src: '/assets/images/lesson-figures/visual-forger/dc-i6-volume-transfer-20261020-r1.svg',
+    diagram_alt: 'A cloth fold and a digital mesh are compared at a marked mismatch.',
+    diagram_caption: 'Where a material fold changes in the digital pass',
+  };
+  const result = backgroundFor(slide, new Map(), { base: '/digital-creativity-uem', geometric: [], koch: 'fallback.svg' }, { geometricIndex: 0 });
+  assert.equal(result.url, '/digital-creativity-uem/assets/images/lesson-figures/visual-forger/dc-i6-volume-transfer-20261020-r1.svg');
+  assert.match(result.alt, /cloth fold and a digital mesh/);
+  assert.match(result.captionHtml, /Where a material fold changes/);
+  const figures = lessonFigures({ slides: [slide], assets: [] }, { base: '/digital-creativity-uem' });
+  assert.equal(figures['masterclass-1'].src, slide.diagram_src);
+  assert.equal(figures['masterclass-1'].alt, slide.diagram_alt);
+  assert.match(figures['masterclass-1'].caption_html, /Where a material fold changes/);
 });

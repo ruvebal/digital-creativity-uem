@@ -1,0 +1,2049 @@
+{
+  "project_slug": "scholar-dignity",
+  "reason": "Synchronise verified bibliography corrections after idempotent CLI skipped metadata-only changes",
+  "documents": [
+    {
+      "document_id": "2be6c1e1-132d-594f-b4eb-413fd0a55b1f",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/extract/extraction.db",
+      "before": {
+        "document_id": "2be6c1e1-132d-594f-b4eb-413fd0a55b1f",
+        "source_id": "42275571-0d52-5faf-9c85-487184d7ca68",
+        "source_hash": "2b540bce6007130f518736e769d9c191a3a82f5cb0e94c6fbc77b31e27da0ba2",
+        "file_name": "Enlace a Recogida de Experiencias GD.pdf",
+        "format": "pdf",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "Accede al formulario AQUÍ",
+        "metadata": {
+          "title": {
+            "value": "Accede al formulario AQUÍ",
+            "confidence": 0.85,
+            "provenance": "heading"
+          },
+          "language": {
+            "value": "es",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "host_title_mismatch": {
+            "value": true,
+            "confidence": 1.0,
+            "provenance": "host_guard"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Enlace a Recogida de Experiencias GD.pdf",
+        "library_original_rel_path": "scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/source/original/Enlace a Recogida de Experiencias GD.pdf",
+        "injected_at": "2026-10-20 12:07:10.479006+00:00"
+      },
+      "after_title": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia",
+      "after_metadata": {
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/dignity_the_essentials_espanol_5f0338c2/extract/extraction.db",
+      "before": {
+        "document_id": "7164a369-38f9-53cc-878a-0a970532040e",
+        "source_id": "3ff088f3-83f4-5ac1-91bb-62998bb8b69f",
+        "source_hash": "5f0338c2a74f3a7da224102ce6433592cc805fadd6131cb450aabfafbec23758",
+        "file_name": "Dignity the Essentials. ESPAÑOL.pdf",
+        "format": "pdf",
+        "page_count": 20,
+        "lang_code": null,
+        "title": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+        "metadata": {
+          "title": {
+            "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+            "confidence": 0.85,
+            "provenance": "heading"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "person",
+                "name": "Oscae Yohane",
+                "role": "author",
+                "given": "Yohane",
+                "family": "Oscae"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "dignidad",
+              "compasión",
+              "amabilidad",
+              "amor",
+              "perdón",
+              "reconocimiento",
+              "valor",
+              "humanidad",
+              "política",
+              "derechos humanos"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "es",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "document_type": {
+            "value": "article",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Dignity the Essentials. ESPAÑOL.pdf",
+        "library_original_rel_path": "scholar/documents/dignity_the_essentials_espanol_5f0338c2/source/original/Dignity the Essentials. ESPAÑOL.pdf",
+        "injected_at": "2026-10-20 12:07:20.277298+00:00"
+      },
+      "after_title": "Dignidad: Lo esencial",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "Oscae",
+              "given": "Yohane",
+              "name": "Oscae Yohane",
+              "kind": "person",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "dignidad",
+            "compasión",
+            "amabilidad",
+            "amor",
+            "perdón",
+            "reconocimiento",
+            "valor",
+            "humanidad",
+            "política",
+            "derechos humanos"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Dignidad: Lo esencial",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Global Dignity",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "4ce5cab8-8770-5a32-b76a-31c4bd162d8e",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/gd_presentacion_general_490bbfbe/extract/extraction.db",
+      "before": {
+        "document_id": "4ce5cab8-8770-5a32-b76a-31c4bd162d8e",
+        "source_id": "645a3041-397c-51a4-a873-e45963842315",
+        "source_hash": "490bbfbeac1b046138f331ec9c45c6e6a3d2eddc5ee8a313c76081ff78bf6b6d",
+        "file_name": "GD Presentación_general.pdf",
+        "format": "pdf",
+        "page_count": 10,
+        "lang_code": null,
+        "title": "ACTIVIDAD 2: EMBAJADORAS Y EMBAJADORES DE LA DIGNIDAD",
+        "metadata": {
+          "title": {
+            "value": "ACTIVIDAD 2: EMBAJADORAS Y EMBAJADORES DE LA DIGNIDAD",
+            "confidence": 0.85,
+            "provenance": "heading"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "person",
+                "name": "Juan José Nieto",
+                "role": "author",
+                "given": "Juan José",
+                "family": "Nieto"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "Global Dignity",
+              "embaudadores",
+              "dignidad",
+              "educación",
+              "actividad"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "es",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/GD Presentación_general.pdf",
+        "library_original_rel_path": "scholar/documents/gd_presentacion_general_490bbfbe/source/original/GD Presentación_general.pdf",
+        "injected_at": "2026-10-20 12:07:12.369823+00:00"
+      },
+      "after_title": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "Nieto",
+              "given": "Juan José",
+              "name": "Juan José Nieto",
+              "kind": "person",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "Global Dignity",
+            "embaudadores",
+            "dignidad",
+            "educación",
+            "actividad"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Global Dignity",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+      "before": {
+        "document_id": "a38d7c59-241d-572e-98bd-fbf5cb927f27",
+        "source_id": "bfc51ac3-1ce9-5bda-bad4-c7975b4edf1c",
+        "source_hash": "e0df4a8e02ba586182ed1760d2b34e775be8535ac89097ce2ae71e85a487d93a",
+        "file_name": "Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+        "format": "pdf",
+        "page_count": 22,
+        "lang_code": null,
+        "title": "Infografías sobre incidentes de odio",
+        "metadata": {
+          "date": {
+            "value": "2026-06-21",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "title": {
+            "value": "Infografías sobre incidentes de odio",
+            "confidence": 0.85,
+            "provenance": "heading"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "person",
+                "name": "Lara Martínez de Aragón López",
+                "role": "author",
+                "given": "Lara",
+                "family": "Martínez"
+              },
+              {
+                "kind": "person",
+                "name": "Laura Nuño Gómez",
+                "role": "author",
+                "given": "Laura",
+                "family": "Nuño"
+              },
+              {
+                "kind": "person",
+                "name": "José Luis Martín Sáez",
+                "role": "author",
+                "given": "José Luis",
+                "family": "Martínez"
+              },
+              {
+                "kind": "person",
+                "name": "Noemí Gómez Posada",
+                "role": "author",
+                "given": "Noemí",
+                "family": "Gómez"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "infografías",
+              "incidentes de odio",
+              "dignidad",
+              "educación",
+              "periodismo",
+              "arte",
+              "desigualdades",
+              "comunicación",
+              "periodismo gráfico",
+              "dignidad humana"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "es",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+        "library_original_rel_path": "scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/source/original/Fichas con Buenas Practicas - GD_e Innovación Educativa.pdf",
+        "injected_at": "2026-10-20 12:07:28.195867+00:00"
+      },
+      "after_title": "Dignidad e innovación educativa: Banco de buenas prácticas",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "Martínez",
+              "given": "Lara",
+              "name": "Lara Martínez de Aragón López",
+              "kind": "person",
+              "role": "author"
+            },
+            {
+              "family": "Nuño",
+              "given": "Laura",
+              "name": "Laura Nuño Gómez",
+              "kind": "person",
+              "role": "author"
+            },
+            {
+              "family": "Martínez",
+              "given": "José Luis",
+              "name": "José Luis Martín Sáez",
+              "kind": "person",
+              "role": "author"
+            },
+            {
+              "family": "Gómez",
+              "given": "Noemí",
+              "name": "Noemí Gómez Posada",
+              "kind": "person",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "date": {
+          "value": "2026-06-21",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "infografías",
+            "incidentes de odio",
+            "dignidad",
+            "educación",
+            "periodismo",
+            "arte",
+            "desigualdades",
+            "comunicación",
+            "periodismo gráfico",
+            "dignidad humana"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Dignidad e innovación educativa: Banco de buenas prácticas",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Global Dignity España and Fundación AYO",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "aff66163-ad0a-54e0-ac49-bd4d13d5b081",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/extract/extraction.db",
+      "before": {
+        "document_id": "aff66163-ad0a-54e0-ac49-bd4d13d5b081",
+        "source_id": "7020eabe-f216-5bfc-8079-29b97204a842",
+        "source_hash": "88d96ce7d666f2f3fd137acfb408b4e11421ac5238ce62ac097633cd6fa77f92",
+        "file_name": "Guía para Facilitadores_Programa de Líderes de la Dignidad.pdf",
+        "format": "pdf",
+        "page_count": 11,
+        "lang_code": null,
+        "title": "1. presentación  del facilitador + Revisión término Dignidad / 3 min",
+        "metadata": {
+          "title": {
+            "value": "1. presentación  del facilitador + Revisión término Dignidad / 3 min",
+            "confidence": 0.85,
+            "provenance": "heading"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "organization",
+                "name": "Global Dignity",
+                "role": "author",
+                "given": null,
+                "family": "Global Dignity"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "Global Dignity",
+              "Workshop Dignidad",
+              "Dignidad",
+              "Respeto",
+              "Comunidad Global Dignity",
+              "Violencia",
+              "Intolerancia",
+              "Educación",
+              "Comprendimiento",
+              "Compasión",
+              "Amor",
+              "Odiar",
+              "Intolerancia"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "es",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/dignity/Guía para Facilitadores_Programa de Líderes de la Dignidad.pdf",
+        "library_original_rel_path": "scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/source/original/Guía para Facilitadores_Programa de Líderes de la Dignidad.pdf",
+        "injected_at": "2026-10-20 12:07:47.866978+00:00"
+      },
+      "after_title": "Guía del facilitador: Workshop Dignity",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "Global Dignity",
+              "given": null,
+              "name": "Global Dignity",
+              "kind": "organization",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "Global Dignity",
+            "Workshop Dignidad",
+            "Dignidad",
+            "Respeto",
+            "Comunidad Global Dignity",
+            "Violencia",
+            "Intolerancia",
+            "Educación",
+            "Comprendimiento",
+            "Compasión",
+            "Amor",
+            "Odiar",
+            "Intolerancia"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Guía del facilitador: Workshop Dignity",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Global Dignity",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "40849d06-64d3-53f6-ace0-cc764d8b623c",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/acm_hm_2022_695f1503/extract/extraction.db",
+      "before": {
+        "document_id": "40849d06-64d3-53f6-ace0-cc764d8b623c",
+        "source_id": "d3fb0df0-8f24-5a3f-a841-52eea38ded72",
+        "source_hash": "695f150391bbef1b311a687a7bba38613b4c1e70417a14684572864d39af4ea5",
+        "file_name": "acm-hm-2022.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+        "metadata": {
+          "year": {
+            "value": 2022,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "person",
+                "name": "Cateautje Hijmans van den Bergh",
+                "role": "author",
+                "given": "Cateautje Hijmans",
+                "family": "van den Bergh"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "Decathlon",
+              "H&M",
+              "sustainability",
+              "ACM",
+              "sustainability claims",
+              "consumer information",
+              "sustainable causes",
+              "verifiable claims",
+              "Ecodesign",
+              "Conscious"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "organization": {
+            "value": "Netherlands Authority for Consumers and Markets",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "container_title": {
+            "value": "ACM",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/acm-hm-2022.md",
+        "library_original_rel_path": "scholar/documents/acm_hm_2022_695f1503/source/original/acm-hm-2022.md",
+        "injected_at": "2026-10-20 12:20:17.172400+00:00"
+      },
+      "after_title": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "van den Bergh",
+              "given": "Cateautje Hijmans",
+              "name": "Cateautje Hijmans van den Bergh",
+              "kind": "person",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "Decathlon",
+            "H&M",
+            "sustainability",
+            "ACM",
+            "sustainability claims",
+            "consumer information",
+            "sustainable causes",
+            "verifiable claims",
+            "Ecodesign",
+            "Conscious"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "ACM",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Netherlands Authority for Consumers and Markets",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 2022,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "fdb93934-2db6-5597-90bf-836290dd7bf6",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_boohoo_2022_c7d17a41/extract/extraction.db",
+      "before": {
+        "document_id": "fdb93934-2db6-5597-90bf-836290dd7bf6",
+        "source_id": "9a9704ba-313f-5d3f-a84f-676dfc121a86",
+        "source_hash": "c7d17a41606aaac2d31e1ea2b4ed4bbca14322202357e479fa283b42525b1631",
+        "file_name": "asa-boohoo-2022.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "ASA Ruling on Boohoo.com UK Ltd",
+        "metadata": {
+          "date": {
+            "value": 2022,
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "year": {
+            "value": 2022,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "ASA Ruling on Boohoo.com UK Ltd",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "organization",
+                "name": "Advertising Standards Authority",
+                "role": "author",
+                "given": null,
+                "family": "ASA"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "Boohoo.com UK Ltd",
+              "Advertising Standards Authority",
+              "sexualisation",
+              "objectification",
+              "women"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "organization": {
+            "value": "Advertising Standards Authority",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "container_title": {
+            "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-boohoo-2022.md",
+        "library_original_rel_path": "scholar/documents/asa_boohoo_2022_c7d17a41/source/original/asa-boohoo-2022.md",
+        "injected_at": "2026-10-20 12:20:37.938796+00:00"
+      },
+      "after_title": "ASA Ruling on Boohoo.com UK Ltd",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "ASA",
+              "given": null,
+              "name": "Advertising Standards Authority",
+              "kind": "organization",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "date": {
+          "value": 2022,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "Boohoo.com UK Ltd",
+            "Advertising Standards Authority",
+            "sexualisation",
+            "objectification",
+            "women"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "ASA Ruling on Boohoo.com UK Ltd",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Advertising Standards Authority",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 2022,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "1514f8a2-986d-5e8e-8a6a-ec3e4a842f79",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_calvin_klein_2024_2883507d/extract/extraction.db",
+      "before": {
+        "document_id": "1514f8a2-986d-5e8e-8a6a-ec3e4a842f79",
+        "source_id": "87e614d2-208e-54eb-8dbb-08b7bf65b7d5",
+        "source_hash": "2883507dfc4d9a410779390fce8b7e38a37e79324bf8a286edcf9768c9da96de",
+        "file_name": "asa-calvin-klein-2024.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+        "metadata": {
+          "date": {
+            "value": 2024,
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "year": {
+            "value": 2024,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "organization",
+                "name": "unknown",
+                "role": "author",
+                "given": null,
+                "family": "unknown"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "organization": {
+            "value": "Advertising Standards Authority",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "container_title": {
+            "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-calvin-klein-2024.md",
+        "library_original_rel_path": "scholar/documents/asa_calvin_klein_2024_2883507d/source/original/asa-calvin-klein-2024.md",
+        "injected_at": "2026-10-20 12:20:11.561906+00:00"
+      },
+      "after_title": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "unknown",
+              "given": null,
+              "name": "unknown",
+              "kind": "organization",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "date": {
+          "value": 2024,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Advertising Standards Authority",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 2024,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "146aadd5-8a9c-5d18-9801-2ed7edea4b24",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_gucci_2016_91a2446f/extract/extraction.db",
+      "before": {
+        "document_id": "146aadd5-8a9c-5d18-9801-2ed7edea4b24",
+        "source_id": "11cab7ee-9cd4-5c3e-8a1e-a7fd1f4eabff",
+        "source_hash": "91a2446f84b80b989afcacb422b752c7f2e0eb2a8a7540850066b4552572d537",
+        "file_name": "asa-gucci-2016.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "ASA Ruling on Guccio Gucci SpA",
+        "metadata": {
+          "date": {
+            "value": 2016,
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "year": {
+            "value": 2016,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "ASA Ruling on Guccio Gucci SpA",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "keywords": {
+            "value": [
+              "ASA",
+              "Guccio Gucci SpA",
+              "Advertising Standards Authority",
+              "ruling",
+              "model",
+              "thin",
+              "image"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "organization": {
+            "value": "Advertising Standards Authority",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "host_title_mismatch": {
+            "value": true,
+            "confidence": 1.0,
+            "provenance": "host_guard"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/asa-gucci-2016.md",
+        "library_original_rel_path": "scholar/documents/asa_gucci_2016_91a2446f/source/original/asa-gucci-2016.md",
+        "injected_at": "2026-10-20 12:20:09.797113+00:00"
+      },
+      "after_title": "ASA Ruling on Guccio Gucci SpA",
+      "after_metadata": {
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        },
+        "date": {
+          "value": 2016,
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "ASA",
+            "Guccio Gucci SpA",
+            "Advertising Standards Authority",
+            "ruling",
+            "model",
+            "thin",
+            "image"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "ASA Ruling on Guccio Gucci SpA",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "Advertising Standards Authority",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 2016,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "168a5b83-7b0a-5896-bc2f-541829097c34",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/pantano_2021_772a899c/extract/extraction.db",
+      "before": {
+        "document_id": "168a5b83-7b0a-5896-bc2f-541829097c34",
+        "source_id": "d255f5b8-ac6c-59a7-878a-58d9e609f55c",
+        "source_hash": "772a899c2298a77d10072b87e7ddb564da3c46b4a145a7df028b24f3602b2059",
+        "file_name": "pantano-2021.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+        "metadata": {
+          "doi": {
+            "value": "10.1016/j.jbusres.2020.09.049",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "date": {
+            "value": 2021,
+            "confidence": 0.95,
+            "provenance": "crossref"
+          },
+          "year": {
+            "value": 2021,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "person",
+                "given": "Eleonora",
+                "family": "Pantano"
+              }
+            ],
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "doi_url": {
+            "value": "https://doi.org/10.1016/j.jbusres.2020.09.049",
+            "confidence": 1.0,
+            "provenance": "regex"
+          },
+          "keywords": {
+            "value": [
+              "luxury brand",
+              "negative stereotypes",
+              "social media",
+              "information diffusion",
+              "burst model",
+              "brand hate",
+              "informed by recent studies",
+              "social media marketing",
+              "luxury brand management",
+              "methodology of research"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "publisher": {
+            "value": "Elsevier BV",
+            "confidence": 0.95,
+            "provenance": "crossref"
+          },
+          "source_url": {
+            "value": "https://research-information.bris.ac.uk/files/250098384/burst_paper_accepted_.pdf",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "article",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "container_title": {
+            "value": "Journal of Business Research",
+            "confidence": 0.95,
+            "provenance": "crossref"
+          },
+          "registry_source": {
+            "value": "crossref",
+            "confidence": 0.95,
+            "provenance": "crossref"
+          },
+          "registry_raw_hash": {
+            "value": "a25176522ff035df484ff5fca3267732d5ad37c92225a5a61ce42342af2c3709",
+            "confidence": 0.95,
+            "provenance": "crossref"
+          },
+          "registry_cache_hit": {
+            "value": false,
+            "confidence": 1.0,
+            "provenance": "cache"
+          },
+          "host_registry_match": {
+            "value": true,
+            "confidence": 0.95,
+            "provenance": "host_validator"
+          },
+          "host_registry_reason": {
+            "value": "registry title agrees with host first_heading",
+            "confidence": 1.0,
+            "provenance": "host_validator"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/pantano-2021.md",
+        "library_original_rel_path": "scholar/documents/pantano_2021_772a899c/source/original/pantano-2021.md",
+        "injected_at": "2026-10-20 12:20:13.259399+00:00"
+      },
+      "after_title": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+      "after_metadata": {
+        "doi_url": {
+          "value": "https://doi.org/10.1016/j.jbusres.2020.09.049",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "date": {
+          "value": 2021,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "container_title": {
+          "value": "Journal of Business Research",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "publisher": {
+          "value": "Elsevier BV",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "a25176522ff035df484ff5fca3267732d5ad37c92225a5a61ce42342af2c3709",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "luxury brand",
+            "negative stereotypes",
+            "social media",
+            "information diffusion",
+            "burst model",
+            "brand hate",
+            "informed by recent studies",
+            "social media marketing",
+            "luxury brand management",
+            "methodology of research"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Eleonora",
+              "family": "Pantano"
+            }
+          ],
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 2021,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "doi": {
+          "value": "10.1016/j.jbusres.2020.09.049",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://research-information.bris.ac.uk/files/250098384/burst_paper_accepted_.pdf",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "f18e073d-43a7-534b-b496-9eb197eb720f",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_1948_40159888/extract/extraction.db",
+      "before": {
+        "document_id": "f18e073d-43a7-534b-b496-9eb197eb720f",
+        "source_id": "d3a82fae-e168-51bc-9792-d348368a4bcb",
+        "source_hash": "4015988842fe30905fb4fce08654eb7e81cbc8634250869656af363c13515fa7",
+        "file_name": "udhr-1948.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "Universal Declaration of Human Rights",
+        "metadata": {
+          "year": {
+            "value": 1948,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "Universal Declaration of Human Rights",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "organization",
+                "name": "United Nations",
+                "role": "author",
+                "given": null,
+                "family": "United Nations"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "human rights",
+              "freedom",
+              "equality",
+              "dignity",
+              "justice",
+              "peace",
+              "freedom of speech",
+              "freedom from fear and want",
+              "rebellion",
+              "friendship"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "organization": {
+            "value": "United Nations",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "other",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/udhr-1948.md",
+        "library_original_rel_path": "scholar/documents/udhr_1948_40159888/source/original/udhr-1948.md",
+        "injected_at": "2026-10-20 12:20:34.786654+00:00"
+      },
+      "after_title": "Universal Declaration of Human Rights",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "United Nations",
+              "given": null,
+              "name": "United Nations",
+              "kind": "organization",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "other",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "human rights",
+            "freedom",
+            "equality",
+            "dignity",
+            "justice",
+            "peace",
+            "freedom of speech",
+            "freedom from fear and want",
+            "rebellion",
+            "friendship"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Universal Declaration of Human Rights",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "United Nations",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 1948,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "590bded5-a3d6-5568-9f76-dea199ec3e41",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/srivastava_2022_e4e5e9cc/extract/extraction.db",
+      "before": {
+        "document_id": "590bded5-a3d6-5568-9f76-dea199ec3e41",
+        "source_id": "eac7230f-b95d-5048-b6d7-5b0720b91c05",
+        "source_hash": "e4e5e9cc5007e3735c7ce02453645b49782cbeb779c8277a2ed00e6908de16a8",
+        "file_name": "srivastava-2022.pdf",
+        "format": "pdf",
+        "page_count": 25,
+        "lang_code": null,
+        "title": "Girls’ portrayals in fast fashion advertisements",
+        "metadata": {
+          "doi": {
+            "value": "10.1080/10253866.2022.2067149",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "date": {
+            "value": "2022-04-12",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "isbn": {
+            "value": 9783030049331,
+            "confidence": 1.0,
+            "provenance": "regex"
+          },
+          "issn": {
+            "value": 10253866,
+            "confidence": 1.0,
+            "provenance": "regex"
+          },
+          "year": {
+            "value": 2022,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "Girls’ portrayals in fast fashion advertisements",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "person",
+                "given": "Sonali",
+                "family": "Srivastava"
+              },
+              {
+                "kind": "person",
+                "given": "Terhi-Anna",
+                "family": "Wilska"
+              },
+              {
+                "kind": "person",
+                "given": "Johanna",
+                "family": "Sjöberg"
+              }
+            ],
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "doi_url": {
+            "value": "https://doi.org/10.1080/09718923.1999.11892220",
+            "confidence": 1.0,
+            "provenance": "regex"
+          },
+          "isbn_all": {
+            "value": [
+              "9783030049331"
+            ],
+            "confidence": 1.0,
+            "provenance": "regex"
+          },
+          "keywords": {
+            "value": [
+              "girls",
+              "fast fashion",
+              "advertisements",
+              "visual analysis",
+              "young femininities",
+              "stereotypes",
+              "postfeminism",
+              "visual discourse analysis"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://liu.diva-portal.org/smash/get/diva2%3A1657350/FULLTEXT01.pdf",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "article",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "registry_source": {
+            "value": "crossref",
+            "confidence": 0.95,
+            "provenance": "crossref"
+          },
+          "registry_raw_hash": {
+            "value": "8334282989af8283db78d5d7ff5c843c44466ab23be9b55403e3a626f8efaad2",
+            "confidence": 0.95,
+            "provenance": "crossref"
+          },
+          "registry_cache_hit": {
+            "value": false,
+            "confidence": 1.0,
+            "provenance": "cache"
+          },
+          "host_registry_match": {
+            "value": false,
+            "confidence": 0.35,
+            "provenance": "host_validator"
+          },
+          "host_title_mismatch": {
+            "value": true,
+            "confidence": 1.0,
+            "provenance": "host_guard"
+          },
+          "host_registry_reason": {
+            "value": "registry title disagrees with host heading/pdf_title/slug",
+            "confidence": 1.0,
+            "provenance": "host_validator"
+          },
+          "host_registry_mismatch": {
+            "value": true,
+            "confidence": 1.0,
+            "provenance": "host_validator"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/srivastava-2022.pdf",
+        "library_original_rel_path": "scholar/documents/srivastava_2022_e4e5e9cc/source/original/srivastava-2022.pdf",
+        "injected_at": "2026-10-20 12:20:18.861706+00:00"
+      },
+      "after_title": "Girls’ portrayals in fast fashion advertisements",
+      "after_metadata": {
+        "doi_url": {
+          "value": "https://doi.org/10.1080/09718923.1999.11892220",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn": {
+          "value": 9783030049331,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9783030049331"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": 10253866,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": false,
+          "confidence": 0.35,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title disagrees with host heading/pdf_title/slug",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "host_registry_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "8334282989af8283db78d5d7ff5c843c44466ab23be9b55403e3a626f8efaad2",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        },
+        "date": {
+          "value": "2022-04-12",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "girls",
+            "fast fashion",
+            "advertisements",
+            "visual analysis",
+            "young femininities",
+            "stereotypes",
+            "postfeminism",
+            "visual discourse analysis"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Girls’ portrayals in fast fashion advertisements",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Sonali",
+              "family": "Srivastava"
+            },
+            {
+              "kind": "person",
+              "given": "Terhi-Anna",
+              "family": "Wilska"
+            },
+            {
+              "kind": "person",
+              "given": "Johanna",
+              "family": "Sjöberg"
+            }
+          ],
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 2022,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "doi": {
+          "value": "10.1080/10253866.2022.2067149",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://liu.diva-portal.org/smash/get/diva2%3A1657350/FULLTEXT01.pdf",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "27f07b3c-7492-5e91-a06e-859e65f70ba1",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/spain_advertising_1988_4aec5f72/extract/extraction.db",
+      "before": {
+        "document_id": "27f07b3c-7492-5e91-a06e-859e65f70ba1",
+        "source_id": "21b59105-943c-5685-94f3-a7fd31ea5824",
+        "source_hash": "4aec5f72129860093d8b9de9ade66bcc47744d6155b12fade2c4494e68e060b5",
+        "file_name": "spain-advertising-1988.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "Ley 34/1988, de 11 de noviembre, General de Publicidad: artículo 3",
+        "metadata": {
+          "date": {
+            "value": "2023-03-01",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "year": {
+            "value": 1988,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "Ley 34/1988, de 11 de noviembre, General de Publicidad: artículo 3",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "organization",
+                "name": "unknown",
+                "role": "author",
+                "given": "unknown",
+                "family": "unknown"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "keywords": {
+            "value": [
+              "publicidad",
+              "dignidad",
+              "derechos constitucionales",
+              "violencia de género",
+              "discriminación",
+              "menores",
+              "prostitución",
+              "competencia desleal",
+              "publicidad engañosa",
+              "publicidad desleal",
+              "publicidad agresiva"
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "es",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "organization": {
+            "value": "España",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "other",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/spain-advertising-1988.md",
+        "library_original_rel_path": "scholar/documents/spain_advertising_1988_4aec5f72/source/original/spain-advertising-1988.md",
+        "injected_at": "2026-10-20 12:20:15.495900+00:00"
+      },
+      "after_title": "Ley 34/1988, de 11 de noviembre, General de Publicidad: artículo 3",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "unknown",
+              "given": "unknown",
+              "name": "unknown",
+              "kind": "organization",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "date": {
+          "value": "2023-03-01",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "es",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "other",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "publicidad",
+            "dignidad",
+            "derechos constitucionales",
+            "violencia de género",
+            "discriminación",
+            "menores",
+            "prostitución",
+            "competencia desleal",
+            "publicidad engañosa",
+            "publicidad desleal",
+            "publicidad agresiva"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Ley 34/1988, de 11 de noviembre, General de Publicidad: artículo 3",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "España",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 1988,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    },
+    {
+      "document_id": "4eb2ebca-3360-5d7d-baa9-9573e71774f3",
+      "db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_articles_1948_5d5d2238/extract/extraction.db",
+      "before": {
+        "document_id": "4eb2ebca-3360-5d7d-baa9-9573e71774f3",
+        "source_id": "ea6a4374-b807-58d5-a066-f6288dd255ba",
+        "source_hash": "5d5d2238156f2acf86f37f04c8d499117616e19d8c5b51fb3ba6c3ca0e093be9",
+        "file_name": "udhr-articles-1948.md",
+        "format": "md",
+        "page_count": 1,
+        "lang_code": null,
+        "title": "Universal Declaration of Human Rights: articles 1 and 2",
+        "metadata": {
+          "year": {
+            "value": 1948,
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "title": {
+            "value": "Universal Declaration of Human Rights: articles 1 and 2",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "authors": {
+            "value": [
+              {
+                "kind": "organization",
+                "name": "United Nations",
+                "role": "author",
+                "given": null,
+                "family": "UN"
+              }
+            ],
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "language": {
+            "value": "en",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "source_url": {
+            "value": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "organization": {
+            "value": "United Nations",
+            "confidence": 1.0,
+            "provenance": "human"
+          },
+          "document_type": {
+            "value": "web",
+            "confidence": 0.7,
+            "provenance": "llm"
+          },
+          "container_title": {
+            "value": "United Nations",
+            "confidence": 0.7,
+            "provenance": "llm"
+          }
+        },
+        "original_observed_path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/source-snapshots/udhr-articles-1948.md",
+        "library_original_rel_path": "scholar/documents/udhr_articles_1948_5d5d2238/source/original/udhr-articles-1948.md",
+        "injected_at": "2026-10-20 12:35:03.900559+00:00"
+      },
+      "after_title": "Universal Declaration of Human Rights: articles 1 and 2",
+      "after_metadata": {
+        "authors": {
+          "value": [
+            {
+              "family": "UN",
+              "given": null,
+              "name": "United Nations",
+              "kind": "organization",
+              "role": "author"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "web",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "United Nations",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Universal Declaration of Human Rights: articles 1 and 2",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "organization": {
+          "value": "United Nations",
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "year": {
+          "value": 1948,
+          "confidence": 1.0,
+          "provenance": "human"
+        },
+        "source_url": {
+          "value": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+          "confidence": 1.0,
+          "provenance": "human"
+        }
+      }
+    }
+  ]
+}

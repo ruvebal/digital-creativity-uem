@@ -1,0 +1,540 @@
+[
+  {
+    "knowledge_id": "d1cf514f-bf0a-5f11-8fe1-178515908495",
+    "collection_name": "project_6a04def407f04c709573821e59b571bb",
+    "source_locator": "ba52187e-624a-5278-bd81-df0fa7ee36f9#page=351",
+    "content": "trend in fashion marketing raises ethical questions about the sustainability of commercialized  authenticity  and  the  true  impact  of  such  campaigns  on  body  image discourse.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-digital-creativity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7450045416610537,
+    "metadata": {
+      "node_id": "d1cf514f-bf0a-5f11-8fe1-178515908495",
+      "document_id": "ba52187e-624a-5278-bd81-df0fa7ee36f9",
+      "document_title": "Fashion Communication in the Digital Age",
+      "file_name": "978-3-031-99481-4.pdf",
+      "source_hash": "72e535d7f9202f43cf1021f504a9c048a722edf63ada776a93b15402ccf78967",
+      "library": "scholar",
+      "page_index": 351,
+      "document_metadata": {
+        "doi": {
+          "value": "10.1007/978-3-031-99481-4",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "date": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "isbn": {
+          "value": 9783031994807,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "issn": {
+          "value": "2198-7246",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 2026,
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "title": {
+          "value": "Fashion Communication in the Digital Age",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Paula von Wachenfeldt",
+              "role": "author",
+              "given": null,
+              "family": "von Wachenfeldt"
+            },
+            {
+              "kind": "person",
+              "name": "Lorenzo Cantoni",
+              "role": "author",
+              "given": null,
+              "family": "Cantoni"
+            },
+            {
+              "kind": "person",
+              "name": "Nadzeya Sabatini",
+              "role": "author",
+              "given": null,
+              "family": "Sabatini"
+            },
+            {
+              "kind": "person",
+              "name": "Teresa Sádaba",
+              "role": "editor",
+              "given": null,
+              "family": "Sádaba"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "doi_url": {
+          "value": "https://doi.org/10.1007/978-3-031-99481-4",
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "isbn_all": {
+          "value": [
+            "9783031994807",
+            "9783031994814"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "Fashion Communication",
+            "Digital Age",
+            "Conference Proceedings",
+            "FACTUM 25",
+            "Stockholm, Sweden"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "Springer Nature Switzerland",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "container_title": {
+          "value": "Springer Proceedings in Business and Economics",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_source": {
+          "value": "crossref",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_raw_hash": {
+          "value": "b9188f26e20ed6e1d2107d73f8b482aea6116104f7d34c0f9cc1040533e5b190",
+          "confidence": 0.95,
+          "provenance": "crossref"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "1572e671-f5bb-554a-939b-e8e693d32fa4",
+    "collection_name": "project_6a04def407f04c709573821e59b571bb",
+    "source_locator": "a79f3811-a033-5ab6-86df-b6e9dc4d718f#page=25",
+    "content": "criticisms  levelled  against  fashion  photography  reflect  the  anxiety  of  early critics  of  postmodern  art, who  applauded  artwork  that  acknowledged  its complicity with forms of power and domination, but panned work which did not comprise 'any effective theory of agency that enables a move into political action' (Hutcheon 1988: 3). The following chapters question the assumption that fashion photography necessarily denies agency to its subject, or to those who consume it. Images of fashion shape the body by addressing it as a social agent. The fashion image is an interface between lived body and the visible, public body. Like the garments it depicts, it mediates between private experience and public address, and the essays that follow examine this mediating function from a number of different angles. Focusing on both the address and denial of the body, on the ways that the body is shaped by images, and on the ways that it  exceeds  capture  in  images, these  essays  show  that  the  creation  and  consumption of fashion images is also a means of expressing and performing an embodied self.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-digital-creativity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7280382217975983,
+    "metadata": {
+      "node_id": "1572e671-f5bb-554a-939b-e8e693d32fa4",
+      "document_id": "a79f3811-a033-5ab6-86df-b6e9dc4d718f",
+      "document_title": "Fashion as Photograph",
+      "file_name": "Eugenie Shinkle - Fashion as Photograph_ Viewing and Reviewing Images of Fashion (2008, I. B. Tauris).pdf",
+      "source_hash": "1936070c4126b3ded06f615752e2776aa6e3fab8d62b2a82b9afbd50f1f14113",
+      "library": "scholar",
+      "page_index": 25,
+      "document_metadata": {
+        "date": {
+          "value": 2008,
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "isbn": {
+          "value": 9781845115166,
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "year": {
+          "value": 2008,
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "title": {
+          "value": "Fashion as Photograph",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "given": "Eugenie",
+              "family": "Shinkle"
+            }
+          ],
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "isbn_all": {
+          "value": [
+            "9781845115166",
+            "9781845115173"
+          ],
+          "confidence": 1.0,
+          "provenance": "regex"
+        },
+        "keywords": {
+          "value": [
+            "fashion photography",
+            "images of fashion",
+            "photography and fiction",
+            "market commodity",
+            "research tool",
+            "Lee Miller",
+            "Inter-war Vogue"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "publisher": {
+          "value": "I. B. Tauris",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "document_type": {
+          "value": "book",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "registry_source": {
+          "value": "openlibrary",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_raw_hash": {
+          "value": "75cdae2dd59ea08fade8bff807409e661f9f0c33a9b03ec31f2f81c5fe9018ef",
+          "confidence": 0.95,
+          "provenance": "openlibrary"
+        },
+        "registry_cache_hit": {
+          "value": false,
+          "confidence": 1.0,
+          "provenance": "cache"
+        },
+        "host_registry_match": {
+          "value": true,
+          "confidence": 0.95,
+          "provenance": "host_validator"
+        },
+        "host_registry_reason": {
+          "value": "registry title agrees with host first_heading",
+          "confidence": 1.0,
+          "provenance": "host_validator"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "ddaab58f-6ca6-59a7-b509-1d3ece354ee0",
+    "collection_name": "project_6a04def407f04c709573821e59b571bb",
+    "source_locator": "88accdb6-5587-583b-8f45-2e858d2703b9#page=8",
+    "content": "An  additional  contribution  of  this  study  is  its  analysis  of  ethical  governance  in  the  adoption  of  fashion  AI.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-digital-creativity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7227954588575173,
+    "metadata": {
+      "node_id": "ddaab58f-6ca6-59a7-b509-1d3ece354ee0",
+      "document_id": "88accdb6-5587-583b-8f45-2e858d2703b9",
+      "document_title": "Abstract",
+      "file_name": "10.1007_s43681-026-01185-1__Ethical_implications_of_AI_in_the_fashion_industry_for_trend.pdf",
+      "source_hash": "398b3d2fb3b7998d193fd7e0da5789f39cf0519968a92df882b77cf664bddbf8",
+      "library": "scholar",
+      "page_index": 8,
+      "document_metadata": {
+        "date": {
+          "value": "2026-05-15",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Abstract",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "keywords": {
+          "value": [
+            "AI",
+            "Ethical implications",
+            "Trend forecasting",
+            "Fashion garment design",
+            "Fashion product development"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "7d4be082-a247-55fa-ab19-b6c1bde66b5c",
+    "collection_name": "project_6a04def407f04c709573821e59b571bb",
+    "source_locator": "88accdb6-5587-583b-8f45-2e858d2703b9#page=8",
+    "content": "Participants  consistently  highlighted  the  lack  of  industryspecific  ethical  standards  addressing  transparency,  inclu -sivity,  accountability,  labour  transformation,  and  cultural representation. Although ethical AI governance frameworks are  increasingly  discussed  in  broader  technology  sectors, the  findings  indicate  that  fashion  presents  unique  ethical challenges due to its symbolic, cultural, and creative characteristics. These results underscore the necessity for governance models that extend beyond technical regulation to include  social,  cultural,  and  creative  considerations  in AI implementation. The study thus advocates for collaborative governance approaches involving fashion organisations, AI developers,  policymakers,  and  educational  institutions  to establish context-sensitive ethical standards for AI adoption in the fashion sector.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-digital-creativity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7124041706368308,
+    "metadata": {
+      "node_id": "7d4be082-a247-55fa-ab19-b6c1bde66b5c",
+      "document_id": "88accdb6-5587-583b-8f45-2e858d2703b9",
+      "document_title": "Abstract",
+      "file_name": "10.1007_s43681-026-01185-1__Ethical_implications_of_AI_in_the_fashion_industry_for_trend.pdf",
+      "source_hash": "398b3d2fb3b7998d193fd7e0da5789f39cf0519968a92df882b77cf664bddbf8",
+      "library": "scholar",
+      "page_index": 8,
+      "document_metadata": {
+        "date": {
+          "value": "2026-05-15",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Abstract",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "keywords": {
+          "value": [
+            "AI",
+            "Ethical implications",
+            "Trend forecasting",
+            "Fashion garment design",
+            "Fashion product development"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "a7646b9a-78b8-58e0-86ff-dc21fbf8ab35",
+    "collection_name": "project_6a04def407f04c709573821e59b571bb",
+    "source_locator": "5e7b3648-99b6-55b8-b5ea-1b0c2f9ceb33#page=0",
+    "content": "Keywords Beauty ideals \u0001 Digital modification \u0001 Body image \u0001 Media",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-digital-creativity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7075548187959112,
+    "metadata": {
+      "node_id": "a7646b9a-78b8-58e0-86ff-dc21fbf8ab35",
+      "document_id": "5e7b3648-99b6-55b8-b5ea-1b0c2f9ceb33",
+      "document_title": "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations",
+      "file_name": "10.1007_s10728-016-0327-1__Altered_Images_Understanding_the_Influence_of_Unrealistic_Im.pdf",
+      "source_hash": "984f4f11342d00c99233ef6ea534898c35d2d8161f195e9dce722b9e62d67597",
+      "library": "scholar",
+      "page_index": 0,
+      "document_metadata": {
+        "date": {
+          "value": "2016-07-18",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "Altered Images: Understanding the Influence of Unrealistic Images and Beauty Aspirations",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "authors": {
+          "value": [
+            {
+              "kind": "person",
+              "name": "Fiona MacCallum",
+              "role": "author",
+              "given": "Fiona",
+              "family": "MacCallum"
+            },
+            {
+              "kind": "person",
+              "name": "Heather Widdows",
+              "role": "author",
+              "given": "Heather",
+              "family": "Widdows"
+            }
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "keywords": {
+          "value": [
+            "Beauty ideals",
+            "Digital modification",
+            "Body image",
+            "Media"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        }
+      }
+    }
+  },
+  {
+    "knowledge_id": "ad3e3065-e6e4-5a5f-8ee4-ed9cf72c3ae2",
+    "collection_name": "project_6a04def407f04c709573821e59b571bb",
+    "source_locator": "c020b383-6676-5f73-bd84-ec11d30fc53a#page=5",
+    "content": "Technology ethics asks about the relationship between technology and beauty, specifically the generation of beauty. Media ethics investigates the perfection of images and the role of the agencies and media involved. Business ethics examines the possibilities and consequences of including avatars and (pseudo or quasi) holograms.",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "project_slug": "profield-digital-creativity",
+    "knowledge_scope": "field_prospection",
+    "user_slug": null,
+    "source_type": "fission_node",
+    "authority_level": "canonical",
+    "origin_system": "ahmes",
+    "similarity": 0.7015488317922863,
+    "metadata": {
+      "node_id": "ad3e3065-e6e4-5a5f-8ee4-ed9cf72c3ae2",
+      "document_id": "c020b383-6676-5f73-bd84-ec11d30fc53a",
+      "document_title": "MAIN PAPER",
+      "file_name": "10.1007_s00146-023-01780-4__Image_synthesis_from_an_ethical_perspective.pdf",
+      "source_hash": "71d6c25ffca399a4cb6ea4b3d6612141ee5b4a6e2301687a4e58df128223348d",
+      "library": "scholar",
+      "page_index": 5,
+      "document_metadata": {
+        "date": {
+          "value": "2023-09-27",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "title": {
+          "value": "MAIN PAPER",
+          "confidence": 0.85,
+          "provenance": "heading"
+        },
+        "keywords": {
+          "value": [
+            "Generative AI",
+            "Image Synthesis",
+            "Ethics",
+            "Applied Ethics"
+          ],
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "language": {
+          "value": "en",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "document_type": {
+          "value": "article",
+          "confidence": 0.7,
+          "provenance": "llm"
+        },
+        "host_title_mismatch": {
+          "value": true,
+          "confidence": 1.0,
+          "provenance": "host_guard"
+        }
+      }
+    }
+  }
+]

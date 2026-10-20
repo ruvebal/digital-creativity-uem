@@ -107,12 +107,16 @@ export function parseHashedSvgName(fileName) {
 }
 
 /** Caption of a geometric course background: always shows the SVG content hash. */
-export function geometricCaptionHtml(fileName) {
+export function geometricCaptionHtml(fileName, locale = 'en') {
   const parsed = parseHashedSvgName(fileName);
   if (!parsed) throw new Error(`geometric SVG without a content hash: ${fileName}`);
-  return `<span class="slide-caption__title">Course geometric background · ${escapeHtml(parsed.name)}</span>`
+  const es = String(locale).toLowerCase().startsWith('es');
+  const name = es ? ({ structure: 'estructura', threshold: 'umbral', branching: 'ramificación', practice: 'práctica' }[parsed.name] || parsed.name) : parsed.name;
+  const title = es ? 'Fondo geométrico del curso' : 'Course geometric background';
+  const original = es ? 'SVG original de la asignatura' : 'Original course SVG';
+  return `<span class="slide-caption__title">${title} · ${escapeHtml(name)}</span>`
     + ` · <span class="slide-caption__hash">#${escapeHtml(parsed.hash)}</span>`
-    + ' · <span>Original course SVG</span>';
+    + ` · <span>${original}</span>`;
 }
 
 /** Caption of the course diagram fallback, with its content hash. */
@@ -210,7 +214,19 @@ export function backgroundFor(slide, assetsBySlot, ctx, state) {
       file = ctx.geometric[state.geometricIndex % ctx.geometric.length];
     }
     state.geometricIndex += 1;
-    return { url: `${base}/assets/images/fractal-pass-track/${file}`, captionHtml: geometricCaptionHtml(file), alt: '' };
+    return { url: `${base}/assets/images/fractal-pass-track/${file}`, captionHtml: geometricCaptionHtml(file, ctx.locale), alt: '' };
+  }
+  if (slide.background_kind === 'diagram' && slide.diagram_src) {
+    const src = String(slide.diagram_src);
+    const allowed = /^\/assets\/images\/lesson-figures\/visual-forger\/[a-z0-9-]+\.svg$/i.test(src);
+    if (!allowed) throw new Error(`diagram background must use a published visual-forger SVG: ${src}`);
+    return {
+      url: withBase(src, base),
+      captionHtml: `<span class="slide-caption__title">${escapeHtml(slide.diagram_caption || (ctx.locale === 'es' ? 'Ilustración original de la asignatura' : 'Original course illustration'))}</span>`
+        + ` · <span class="slide-caption__author">${escapeHtml(slide.diagram_credit || 'Rubén Vega Balbás · visual-forger 1.3.0')}</span>`
+        + ` · <span>${escapeHtml(slide.diagram_rights || (ctx.locale === 'es' ? 'Ilustración original · todos los derechos reservados' : 'Original course illustration · all rights reserved'))}</span>`,
+      alt: String(slide.diagram_alt || '').trim(),
+    };
   }
   const asset = slide.background_kind === 'curated' && slide.media_slot_id ? assetsBySlot.get(slide.media_slot_id) : null;
   if (asset?.asset_url) {
@@ -289,7 +305,8 @@ export function renderDeck(content, ctx) {
   const slides = Array.isArray(content?.slides) ? content.slides : [];
   const assetsBySlot = new Map((content?.assets || []).map((a) => [a.media_slot_id, a]));
   const state = { geometricIndex: 0 };
-  const sections = slides.map((slide) => renderSlide(slide, content, backgroundFor(slide, assetsBySlot, ctx, state), ctx));
+  const renderContext = { ...ctx, locale: content.locale || ctx.locale };
+  const sections = slides.map((slide) => renderSlide(slide, content, backgroundFor(slide, assetsBySlot, renderContext, state), renderContext));
   const header = '<!-- Pre-rendered from this deck\'s data/content.json (npm run render:decks). Do not edit by hand. -->';
   return `${header}\n${sections.join('\n')}\n`;
 }
@@ -303,6 +320,17 @@ export function lessonFigures(content, { base = '' } = {}) {
   const out = {};
   for (const slide of content?.slides || []) {
     const asset = slide.background_kind === 'curated' && slide.media_slot_id ? assetsBySlot.get(slide.media_slot_id) : null;
+    if (slide.background_kind === 'diagram' && slide.diagram_src) {
+      out[slide.slide_id] = {
+        src: String(slide.diagram_src),
+        alt: String(slide.diagram_alt || '').trim(),
+        caption_html: `<span class="slide-caption__title">${escapeHtml(slide.diagram_caption || (content.locale === 'es' ? 'Ilustración original de la asignatura' : 'Original course illustration'))}</span>`
+          + ` · <span class="slide-caption__author">${escapeHtml(slide.diagram_credit || 'Rubén Vega Balbás · visual-forger 1.3.0')}</span>`
+          + ` · <span>${escapeHtml(slide.diagram_rights || (content.locale === 'es' ? 'Ilustración original · todos los derechos reservados' : 'Original course illustration · all rights reserved'))}</span>`,
+        rights_status: 'ok',
+      };
+      continue;
+    }
     if (!asset?.asset_url) continue;
     const url = String(asset.asset_url);
     out[slide.slide_id] = {

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-20",
+  "generator_version": "1.0.0",
+  "generator_sha256": "340534990a4179695dfc5806419b18dfca2b0f8ec74261085771b6e0a49eef0e",
+  "git_commit": "23baa27b33a5a7dc6fcac2a2f46286c15319a50d",
+  "seed": 20261020,
+  "maximum_depth": 5,
+  "stop_rule": "Stop each recursion at depth 5; DC 32 bands, TC 64 leaf triangles.",
+  "evidence_status": "geometry_only; no borrowed canonical formula or bibliographic citation is claimed",
+  "skills": {
+    "visual-forger": {
+      "path": "/Users/ruvebal/src/.cursor/skills/visual-forger/SKILL.md",
+      "sha256": "813d25dd0430b93fded7a03e2c2d1642c2f76046fee0830949c140f7e5cd9c49",
+      "version": "1.3.0"
+    },
+    "fractal-architect": {
+      "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/.cursor/skills/fractal-architect/SKILL.md",
+      "sha256": "6fa0ed5006e4ef483d57a8d703eed6e4b82608bb16148e30a90f545856d16784",
+      "version": "1.2.1"
+    }
+  },
+  "exports": [
+    {
+      "uuid": "b3b20551-549c-516d-a99f-2d6c78f7b968",
+      "svg_sha256": "c27a722d8d125c6c4a0bd1323ab8f12168728038f179be1b39d1eb4915d099dc",
+      "png_sha256": "cb6248a66970f100e03ec73cb2f28d009878eef9b40cbc8baf258b4179cfc779",
+      "source": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/visuals/fractal-source-releases/c27a722d8d125c6c4a0bd1323ab8f12168728038f179be1b39d1eb4915d099dc",
+      "delivery_directory": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/docs/assets/images/dignity/backgrounds",
+      "source_delivery_identical": true
+    },
+    {
+      "uuid": "c491a33c-6b66-5caa-89ee-5c93882a7cde",
+      "svg_sha256": "aa8cf2a51fc8cd428406cbfcec366d5f5f8b46c66279c21b2eeb8e2c53fe9a2b",
+      "png_sha256": "f78907ee34fc190e3d6dad4552dc17140b168e5764a3d4e460d99feaadee63b6",
+      "source": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/visuals/fractal-source-releases/aa8cf2a51fc8cd428406cbfcec366d5f5f8b46c66279c21b2eeb8e2c53fe9a2b",
+      "delivery_directory": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/docs/assets/images/dignity/backgrounds",
+      "source_delivery_identical": true
+    },
+    {
+      "uuid": "7bae2fe1-0ec3-5b36-a152-0b20a8475963",
+      "svg_sha256": "e777c9e4ba5fb39a539810d624d8c6f9c9fa2c0f6c409233b1c27c3915eead6a",
+      "png_sha256": "b43636efe3b4025ac118173d07b3a5c2e2cd92116f19087be9306ed34d6caca2",
+      "source": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/visuals/fractal-source-releases/e777c9e4ba5fb39a539810d624d8c6f9c9fa2c0f6c409233b1c27c3915eead6a",
+      "delivery_directory": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/docs/assets/images/dignity/backgrounds",
+      "source_delivery_identical": true
+    },
+    {
+      "uuid": "681a5130-e921-5062-b0d1-161029688bf4",
+      "svg_sha256": "882a40b196a5356ada863e545c0119ef7c079d71d394cc1d50896fbacbaed7ab",
+      "png_sha256": "c196f0307d59d7c96bdd8719ce1c2b29f7d5a37be939ddc1cf133ab7a05ffff6",
+      "source": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/digital-creativity-pedagogy/dignity/visuals/fractal-source-releases/882a40b196a5356ada863e545c0119ef7c079d71d394cc1d50896fbacbaed7ab",
+      "delivery_directory": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/digital-creativity-uem/docs/assets/images/dignity/backgrounds",
+      "source_delivery_identical": true
+    }
+  ],
+  "review": {
+    "machine_rendered": true,
+    "human_review": false
+  }
+}

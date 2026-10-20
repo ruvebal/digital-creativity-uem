@@ -1,0 +1,56 @@
+[
+  {
+    "idea": "worth",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-16b271cc-3a7d-4c1e-a7b4-bf76b82a34ee-dc-dignity-worth",
+    "rejected_attempts": 3,
+    "amendment": "Removed unsupported direct legal effect, excess quotation and leading punctuation; distinguished a normative declaration from an advertising adjudication.",
+    "public_reference_key": "united-nations-1948",
+    "source_node": "6c5d1be3-2689-59c7-8a94-418361fdf80c",
+    "final_editorial_status": "reviewed; professor release pending"
+  },
+  {
+    "idea": "agency",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-0ffccef0-548a-4b3f-976a-f93ca60ee4bd-dc-dignity-agency",
+    "rejected_attempts": 0,
+    "amendment": "Removed the notion that dignity itself is distributed, an unsupported victim label and redundant questions; restored the study's bounded sample and one clear question.",
+    "public_reference_key": "srivastava-2022",
+    "source_node": "3d9ac8ed-446c-5ca1-bb19-880639ae0f25",
+    "final_editorial_status": "reviewed; professor release pending"
+  },
+  {
+    "idea": "difference",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-ab1adaf3-7add-476b-947f-421a966fa142-dc-dignity-difference",
+    "rejected_attempts": 1,
+    "amendment": "Removed sweeping historical and intentional claims, excess questions and polemical language; retained a clearly bounded transfer of Browne's historical lens.",
+    "public_reference_key": "browne-2015",
+    "source_node": "57e89038-7393-552d-981f-432dce0ebe7c",
+    "final_editorial_status": "reviewed; professor release pending"
+  },
+  {
+    "idea": "labour",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-a07e45ac-7ae1-43c3-b9b3-e5383ce2f8fd-dc-dignity-labour",
+    "rejected_attempts": 0,
+    "amendment": "Extensive amendment: removed invented outsourcing motives, fair-trade details not in the cited node, repeated paragraphs, unsupported generalisations and missing-author aside. Retained only the documented GD16 production/communication relation.",
+    "public_reference_key": "global-dignity-2026",
+    "source_node": "4b69cc6a-f576-5134-a5ac-85b55003aab8",
+    "final_editorial_status": "reviewed; professor release pending"
+  },
+  {
+    "idea": "consumption",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-cd24ed16-9132-485c-8066-bdec150c1c88-dc-dignity-consumption",
+    "rejected_attempts": 0,
+    "amendment": "Condensed multiple questions and repetitive explanation into four sentences; separated practitioner recommendation from measured effects and course alternatives.",
+    "public_reference_key": "unep-2023",
+    "source_node": "898f3365-fd0d-5720-942c-4ac95c014cd7",
+    "final_editorial_status": "reviewed; professor release pending"
+  },
+  {
+    "idea": "dialogue",
+    "record": "/Users/ruvebal/src/deviac/fine-tuning/thessia-tuning-memory/2026-10-20-aeb8aaff-5ce1-48de-86ef-f33b260f5238-dc-dignity-dialogue",
+    "rejected_attempts": 0,
+    "amendment": "Extensive amendment: removed a long polemical list, unsupported claims about fashion institutions' motives and promised democratic effects; kept the shared-object relation and a testable revision question.",
+    "public_reference_key": "freire-2000",
+    "source_node": "a381d3a9-43e9-511e-a0f7-37431665bd6b",
+    "final_editorial_status": "reviewed; professor release pending"
+  }
+]

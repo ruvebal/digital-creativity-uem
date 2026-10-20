@@ -13,6 +13,9 @@ tags: [nuevos-medios-moda, u3, twin]
 master_idea: 'Fashion campaigns on networks are visibility, disclosure, and trust work — and sometimes sell a moral stance without showing the garment.'
 ---
 
+**Shared guide:** [Dignity in fashion image and media]({{ '/dignity/' | relative_url }}) — documented cases and activities for revising image and communication decisions.
+
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 EN twin — teaching language ES. Canonical lesson: /lessons/es/nuevos-medios-moda/u3-marketing-publicidad/

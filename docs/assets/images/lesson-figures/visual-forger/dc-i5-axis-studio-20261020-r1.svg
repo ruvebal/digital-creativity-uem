@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The axis holds a volume readable</title>
+  <desc id="desc">A simplified asymmetric garment shell wraps a vertical axis. A horizontal cross-axis and two measured offsets show how direction and proportion can be checked before surface polish.</desc>
+  <rect width="1600" height="900" fill="#F7F2E8"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#111827">
+    <text x="72" y="92" font-size="34" font-weight="500">The axis holds a volume readable</text>
+    <text x="72" y="132" font-size="20" fill="#596579">Direction and proportion remain testable before the surface is polished.</text>
+    <path d="M740 235c-91 18-165 84-181 171l-32 260c107 108 346 125 496 0l-32-260c-16-87-90-153-181-171Z" fill="#E7D6C5" stroke="#24344D" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M800 200v510M565 436h470" fill="none" stroke="#B45B43" stroke-width="4" stroke-dasharray="11 11"/>
+    <path d="M800 202v-67m-12 14 12-14 12 14M800 707v65m-12-12 12 12 12-12" fill="none" stroke="#B45B43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M565 436 420 350M1035 436l145-86" fill="none" stroke="#64748B" stroke-width="3"/>
+    <path d="M420 350h-86m86 0v-70M1180 350h86m-86 0v-70" stroke="#64748B" stroke-width="3"/>
+    <circle cx="565" cy="436" r="10" fill="#C49337"/><circle cx="1035" cy="436" r="10" fill="#C49337"/>
+    <rect x="118" y="335" width="255" height="118" rx="16" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+    <text x="146" y="382" font-size="18" font-weight="500" fill="#334155">A stable axis</text>
+    <text x="146" y="415" font-size="16" fill="#596579">anchors proportion</text>
+    <path d="M373 394h112l80 42" fill="none" stroke="#64748B" stroke-width="2"/>
+    <rect x="1227" y="335" width="255" height="118" rx="16" fill="#FFFDF8" stroke="#D7D2C6" stroke-width="2"/>
+    <text x="1254" y="382" font-size="18" font-weight="500" fill="#334155">A second direction</text>
+    <text x="1254" y="415" font-size="16" fill="#596579">reveals depth</text>
+    <path d="M1227 394h-95l-97 42" fill="none" stroke="#64748B" stroke-width="2"/>
+    <text x="800" y="820" text-anchor="middle" font-size="18" fill="#596579">If the axis tilts, the silhouette and balance must answer for it.</text>
+  </g>
+</svg>

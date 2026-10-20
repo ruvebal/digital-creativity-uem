@@ -1,0 +1,2365 @@
+[
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "Accede al formulario AQUÍ",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia"
+    },
+    "basis": "Single-page heading; no verified publication year or intellectual author. June 2027 event date is not publication date.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/dignity_the_essentials_espanol_5f0338c2/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "DIGNIDAD: LO ESCENCIAL DIGNIDAD: LO ESENCIAL",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"Oscae\", \"given\": \"Yohane\", \"name\": \"Oscae Yohane\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"dignidad\", \"compasi\\u00f3n\", \"amabilidad\", \"amor\", \"perd\\u00f3n\", \"reconocimiento\", \"valor\", \"humanidad\", \"pol\\u00edtica\", \"derechos humanos\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Dignidad: Lo esencial",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF cover and final Global Dignity branding; publication year absent. Creation timestamp is not a publication date.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/gd_presentacion_general_490bbfbe/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "ACTIVIDAD 2: EMBAJADORAS Y EMBAJADORES DE LA DIGNIDAD",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"Nieto\", \"given\": \"Juan Jos\\u00e9\", \"name\": \"Juan Jos\\u00e9 Nieto\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"embaudadores\", \"dignidad\", \"educaci\\u00f3n\", \"actividad\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF page 1 title; publication year absent. Historical dates in the body do not date the edition.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "Infografías sobre incidentes de odio",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"Mart\\u00ednez\", \"given\": \"Lara\", \"name\": \"Lara Mart\\u00ednez de Arag\\u00f3n L\\u00f3pez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Nu\\u00f1o\", \"given\": \"Laura\", \"name\": \"Laura Nu\\u00f1o G\\u00f3mez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Mart\\u00ednez\", \"given\": \"Jos\\u00e9 Luis\", \"name\": \"Jos\\u00e9 Luis Mart\\u00edn S\\u00e1ez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"G\\u00f3mez\", \"given\": \"Noem\\u00ed\", \"name\": \"Noem\\u00ed G\\u00f3mez Posada\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2026-06-21",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"infograf\\u00edas\", \"incidentes de odio\", \"dignidad\", \"educaci\\u00f3n\", \"periodismo\", \"arte\", \"desigualdades\", \"comunicaci\\u00f3n\", \"periodismo gr\\u00e1fico\", \"dignidad humana\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Dignidad e innovación educativa: Banco de buenas prácticas",
+      "organization": "Global Dignity España and Fundación AYO",
+      "year": "2026"
+    },
+    "basis": "PDF cover: 21 fichas · Actualización junio 2026; repeated footer: Global Dignity España · Fundación AYO. PDF page 17 visually inspected (case GD16).",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "1. presentación  del facilitador + Revisión término Dignidad / 3 min",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"Global Dignity\", \"given\": null, \"name\": \"Global Dignity\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"Workshop Dignidad\", \"Dignidad\", \"Respeto\", \"Comunidad Global Dignity\", \"Violencia\", \"Intolerancia\", \"Educaci\\u00f3n\", \"Comprendimiento\", \"Compasi\\u00f3n\", \"Amor\", \"Odiar\", \"Intolerancia\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Guía del facilitador: Workshop Dignity",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF cover and welcome identify the workshop and organization; publication year absent. PDF template author is not promoted to intellectual author.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/freire_2000_untitled_f6c6d412/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "OVER A MILLION COPIES SOLD",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"Bloomsbury\", \"given\": null, \"name\": \"Bloomsbury\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "book",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Pedagogy of the Oppressed",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Paulo",
+          "family": "Freire"
+        }
+      ],
+      "year": "2000"
+    },
+    "basis": "PDF index 4: PAULO FREIRE, PEDAGOGY of the OPPRESSED, 30TH ANNIVERSARY EDITION. PDF index 5: First published in 2000 by the Continuum International Publishing Group Inc; later reprint dates retained as edition history. Bloomsbury was wrongly treated as author.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/acm_hm_2022_695f1503/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "# Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"van den Bergh\", \"given\": \"Cateautje Hijmans\", \"name\": \"Cateautje Hijmans van den Bergh\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Decathlon\", \"H&M\", \"sustainability\", \"ACM\", \"sustainability claims\", \"consumer information\", \"sustainable causes\", \"verifiable claims\", \"Ecodesign\", \"Conscious\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "ACM",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+      "organization": "Netherlands Authority for Consumers and Markets",
+      "year": 2022,
+      "source_url": "https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_boohoo_2022_c7d17a41/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "## Assessment — exact primary-source excerpt",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"ASA\", \"given\": null, \"name\": \"Advertising Standards Authority\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2022",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Boohoo.com UK Ltd\", \"Advertising Standards Authority\", \"sexualisation\", \"objectification\", \"women\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Boohoo.com UK Ltd",
+      "organization": "Advertising Standards Authority",
+      "year": 2022,
+      "source_url": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_calvin_klein_2024_2883507d/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "## Assessment — exact primary-source excerpt",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"unknown\", \"given\": null, \"name\": \"unknown\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2024",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+      "organization": "Advertising Standards Authority",
+      "year": 2024,
+      "source_url": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_gucci_2016_91a2446f/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "## Assessment — exact primary-source excerpt",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "date": {
+        "value": "2016",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"ASA\", \"Guccio Gucci SpA\", \"Advertising Standards Authority\", \"ruling\", \"model\", \"thin\", \"image\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Guccio Gucci SpA",
+      "organization": "Advertising Standards Authority",
+      "year": 2016,
+      "source_url": "https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/pantano_2021_772a899c/extract/extraction.db",
+    "before": {
+      "doi": {
+        "value": "10.1016/j.jbusres.2020.09.049",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "doi_url": {
+        "value": "https://doi.org/10.1016/j.jbusres.2020.09.049",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "registry_cache_hit": {
+        "value": "false",
+        "confidence": 1.0,
+        "method": "cache"
+      },
+      "host_registry_match": {
+        "value": "true",
+        "confidence": 0.95,
+        "method": "host_validator"
+      },
+      "host_registry_reason": {
+        "value": "registry title agrees with host first_heading",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "title": {
+        "value": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "authors": {
+        "value": "[{\"kind\":\"person\",\"family\":\"Pantano\",\"given\":\"Eleonora\"}]",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "year": {
+        "value": "2021",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "date": {
+        "value": "2021",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "container_title": {
+        "value": "Journal of Business Research",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "publisher": {
+        "value": "Elsevier BV",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_source": {
+        "value": "crossref",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_raw_hash": {
+        "value": "a25176522ff035df484ff5fca3267732d5ad37c92225a5a61ce42342af2c3709",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"luxury brand\", \"negative stereotypes\", \"social media\", \"information diffusion\", \"burst model\", \"brand hate\", \"informed by recent studies\", \"social media marketing\", \"luxury brand management\", \"methodology of research\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Eleonora",
+          "family": "Pantano"
+        }
+      ],
+      "year": 2021,
+      "doi": "10.1016/j.jbusres.2020.09.049",
+      "source_url": "https://research-information.bris.ac.uk/files/250098384/burst_paper_accepted_.pdf"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_1948_40159888/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "# Universal Declaration of Human Rights",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "editors": {
+        "value": "[{\"name\": \"ucation shall be directed to the full development of the human personality\", \"role\": \"editor\"}, {\"name\": \"to the strengthening of respect for human rights\", \"role\": \"editor\"}, {\"name\": \"fundamental freedoms. It shall promote understanding\", \"role\": \"editor\"}, {\"name\": \"tolerance\", \"role\": \"editor\"}, {\"name\": \"friendship among all nations\", \"role\": \"editor\"}, {\"name\": \"racial or religious groups\", \"role\": \"editor\"}, {\"name\": \"and shall further the activities of the United Nations for the maintenance of peace.\", \"role\": \"editor\"}]",
+        "confidence": 0.7,
+        "method": "front_matter"
+      },
+      "authors": {
+        "value": "[{\"family\": \"United Nations\", \"given\": null, \"name\": \"United Nations\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "other",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"human rights\", \"freedom\", \"equality\", \"dignity\", \"justice\", \"peace\", \"freedom of speech\", \"freedom from fear and want\", \"rebellion\", \"friendship\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Universal Declaration of Human Rights",
+      "organization": "United Nations",
+      "year": 1948,
+      "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/srivastava_2022_e4e5e9cc/extract/extraction.db",
+    "before": {
+      "doi": {
+        "value": "10.1080/09718923.1999.11892220",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "doi_url": {
+        "value": "https://doi.org/10.1080/09718923.1999.11892220",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "isbn": {
+        "value": "9783030049331",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "isbn_all": {
+        "value": "[\"9783030049331\"]",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "issn": {
+        "value": "10253866",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "registry_cache_hit": {
+        "value": "false",
+        "confidence": 1.0,
+        "method": "cache"
+      },
+      "host_registry_match": {
+        "value": "false",
+        "confidence": 0.35,
+        "method": "host_validator"
+      },
+      "host_registry_reason": {
+        "value": "registry title disagrees with host heading/pdf_title/slug",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "host_registry_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "registry_source": {
+        "value": "crossref",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_raw_hash": {
+        "value": "8334282989af8283db78d5d7ff5c843c44466ab23be9b55403e3a626f8efaad2",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "title": {
+        "value": "Traditional ideas on girls as heterosexual, caring, innocent and interested in appearance",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "date": {
+        "value": "2022-04-12",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"girls\", \"fast fashion\", \"advertisements\", \"visual analysis\", \"young femininities\", \"stereotypes\", \"postfeminism\", \"visual discourse analysis\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Girls’ portrayals in fast fashion advertisements",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Sonali",
+          "family": "Srivastava"
+        },
+        {
+          "kind": "person",
+          "given": "Terhi-Anna",
+          "family": "Wilska"
+        },
+        {
+          "kind": "person",
+          "given": "Johanna",
+          "family": "Sjöberg"
+        }
+      ],
+      "year": 2022,
+      "doi": "10.1080/10253866.2022.2067149",
+      "source_url": "https://liu.diva-portal.org/smash/get/diva2%3A1657350/FULLTEXT01.pdf"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/extract/extraction.db",
+    "before": {
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia"
+    },
+    "basis": "Single-page heading; no verified publication year or intellectual author. June 2027 event date is not publication date.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/dignity_the_essentials_espanol_5f0338c2/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Oscae\", \"given\": \"Yohane\", \"name\": \"Oscae Yohane\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"dignidad\", \"compasi\\u00f3n\", \"amabilidad\", \"amor\", \"perd\\u00f3n\", \"reconocimiento\", \"valor\", \"humanidad\", \"pol\\u00edtica\", \"derechos humanos\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Dignidad: Lo esencial",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Dignidad: Lo esencial",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF cover and final Global Dignity branding; publication year absent. Creation timestamp is not a publication date.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/gd_presentacion_general_490bbfbe/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Nieto\", \"given\": \"Juan Jos\\u00e9\", \"name\": \"Juan Jos\\u00e9 Nieto\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"embaudadores\", \"dignidad\", \"educaci\\u00f3n\", \"actividad\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF page 1 title; publication year absent. Historical dates in the body do not date the edition.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Mart\\u00ednez\", \"given\": \"Lara\", \"name\": \"Lara Mart\\u00ednez de Arag\\u00f3n L\\u00f3pez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Nu\\u00f1o\", \"given\": \"Laura\", \"name\": \"Laura Nu\\u00f1o G\\u00f3mez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Mart\\u00ednez\", \"given\": \"Jos\\u00e9 Luis\", \"name\": \"Jos\\u00e9 Luis Mart\\u00edn S\\u00e1ez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"G\\u00f3mez\", \"given\": \"Noem\\u00ed\", \"name\": \"Noem\\u00ed G\\u00f3mez Posada\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2026-06-21",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"infograf\\u00edas\", \"incidentes de odio\", \"dignidad\", \"educaci\\u00f3n\", \"periodismo\", \"arte\", \"desigualdades\", \"comunicaci\\u00f3n\", \"periodismo gr\\u00e1fico\", \"dignidad humana\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Dignidad e innovación educativa: Banco de buenas prácticas",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity España and Fundación AYO",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2026",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Dignidad e innovación educativa: Banco de buenas prácticas",
+      "organization": "Global Dignity España and Fundación AYO",
+      "year": "2026"
+    },
+    "basis": "PDF cover: 21 fichas · Actualización junio 2026; repeated footer: Global Dignity España · Fundación AYO. PDF page 17 visually inspected (case GD16).",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Global Dignity\", \"given\": null, \"name\": \"Global Dignity\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"Workshop Dignidad\", \"Dignidad\", \"Respeto\", \"Comunidad Global Dignity\", \"Violencia\", \"Intolerancia\", \"Educaci\\u00f3n\", \"Comprendimiento\", \"Compasi\\u00f3n\", \"Amor\", \"Odiar\", \"Intolerancia\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Guía del facilitador: Workshop Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Guía del facilitador: Workshop Dignity",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF cover and welcome identify the workshop and organization; publication year absent. PDF template author is not promoted to intellectual author.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/freire_2000_untitled_f6c6d412/extract/extraction.db",
+    "before": {
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "book",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Pedagogy of the Oppressed",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "authors": {
+        "value": "[{\"kind\": \"person\", \"given\": \"Paulo\", \"family\": \"Freire\"}]",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2000",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Pedagogy of the Oppressed",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Paulo",
+          "family": "Freire"
+        }
+      ],
+      "year": "2000"
+    },
+    "basis": "PDF index 4: PAULO FREIRE, PEDAGOGY of the OPPRESSED, 30TH ANNIVERSARY EDITION. PDF index 5: First published in 2000 by the Continuum International Publishing Group Inc; later reprint dates retained as edition history. Bloomsbury was wrongly treated as author.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/acm_hm_2022_695f1503/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"van den Bergh\", \"given\": \"Cateautje Hijmans\", \"name\": \"Cateautje Hijmans van den Bergh\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Decathlon\", \"H&M\", \"sustainability\", \"ACM\", \"sustainability claims\", \"consumer information\", \"sustainable causes\", \"verifiable claims\", \"Ecodesign\", \"Conscious\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "ACM",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Netherlands Authority for Consumers and Markets",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2022",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+      "organization": "Netherlands Authority for Consumers and Markets",
+      "year": 2022,
+      "source_url": "https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_boohoo_2022_c7d17a41/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"ASA\", \"given\": null, \"name\": \"Advertising Standards Authority\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2022",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Boohoo.com UK Ltd\", \"Advertising Standards Authority\", \"sexualisation\", \"objectification\", \"women\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "ASA Ruling on Boohoo.com UK Ltd",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Advertising Standards Authority",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2022",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Boohoo.com UK Ltd",
+      "organization": "Advertising Standards Authority",
+      "year": 2022,
+      "source_url": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_calvin_klein_2024_2883507d/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"unknown\", \"given\": null, \"name\": \"unknown\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2024",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Advertising Standards Authority",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2024",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+      "organization": "Advertising Standards Authority",
+      "year": 2024,
+      "source_url": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_gucci_2016_91a2446f/extract/extraction.db",
+    "before": {
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "date": {
+        "value": "2016",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"ASA\", \"Guccio Gucci SpA\", \"Advertising Standards Authority\", \"ruling\", \"model\", \"thin\", \"image\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "ASA Ruling on Guccio Gucci SpA",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Advertising Standards Authority",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2016",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Guccio Gucci SpA",
+      "organization": "Advertising Standards Authority",
+      "year": 2016,
+      "source_url": "https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/pantano_2021_772a899c/extract/extraction.db",
+    "before": {
+      "doi_url": {
+        "value": "https://doi.org/10.1016/j.jbusres.2020.09.049",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "registry_cache_hit": {
+        "value": "false",
+        "confidence": 1.0,
+        "method": "cache"
+      },
+      "host_registry_match": {
+        "value": "true",
+        "confidence": 0.95,
+        "method": "host_validator"
+      },
+      "host_registry_reason": {
+        "value": "registry title agrees with host first_heading",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "date": {
+        "value": "2021",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "container_title": {
+        "value": "Journal of Business Research",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "publisher": {
+        "value": "Elsevier BV",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_source": {
+        "value": "crossref",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_raw_hash": {
+        "value": "a25176522ff035df484ff5fca3267732d5ad37c92225a5a61ce42342af2c3709",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"luxury brand\", \"negative stereotypes\", \"social media\", \"information diffusion\", \"burst model\", \"brand hate\", \"informed by recent studies\", \"social media marketing\", \"luxury brand management\", \"methodology of research\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "authors": {
+        "value": "[{\"kind\": \"person\", \"given\": \"Eleonora\", \"family\": \"Pantano\"}]",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2021",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "doi": {
+        "value": "10.1016/j.jbusres.2020.09.049",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://research-information.bris.ac.uk/files/250098384/burst_paper_accepted_.pdf",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Eleonora",
+          "family": "Pantano"
+        }
+      ],
+      "year": 2021,
+      "doi": "10.1016/j.jbusres.2020.09.049",
+      "source_url": "https://research-information.bris.ac.uk/files/250098384/burst_paper_accepted_.pdf"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_1948_40159888/extract/extraction.db",
+    "before": {
+      "editors": {
+        "value": "[{\"name\": \"ucation shall be directed to the full development of the human personality\", \"role\": \"editor\"}, {\"name\": \"to the strengthening of respect for human rights\", \"role\": \"editor\"}, {\"name\": \"fundamental freedoms. It shall promote understanding\", \"role\": \"editor\"}, {\"name\": \"tolerance\", \"role\": \"editor\"}, {\"name\": \"friendship among all nations\", \"role\": \"editor\"}, {\"name\": \"racial or religious groups\", \"role\": \"editor\"}, {\"name\": \"and shall further the activities of the United Nations for the maintenance of peace.\", \"role\": \"editor\"}]",
+        "confidence": 0.7,
+        "method": "front_matter"
+      },
+      "authors": {
+        "value": "[{\"family\": \"United Nations\", \"given\": null, \"name\": \"United Nations\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "other",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"human rights\", \"freedom\", \"equality\", \"dignity\", \"justice\", \"peace\", \"freedom of speech\", \"freedom from fear and want\", \"rebellion\", \"friendship\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Universal Declaration of Human Rights",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "United Nations",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "1948",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Universal Declaration of Human Rights",
+      "organization": "United Nations",
+      "year": 1948,
+      "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/srivastava_2022_e4e5e9cc/extract/extraction.db",
+    "before": {
+      "doi_url": {
+        "value": "https://doi.org/10.1080/09718923.1999.11892220",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "isbn": {
+        "value": "9783030049331",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "isbn_all": {
+        "value": "[\"9783030049331\"]",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "issn": {
+        "value": "10253866",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "registry_cache_hit": {
+        "value": "false",
+        "confidence": 1.0,
+        "method": "cache"
+      },
+      "host_registry_match": {
+        "value": "false",
+        "confidence": 0.35,
+        "method": "host_validator"
+      },
+      "host_registry_reason": {
+        "value": "registry title disagrees with host heading/pdf_title/slug",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "host_registry_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "registry_source": {
+        "value": "crossref",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_raw_hash": {
+        "value": "8334282989af8283db78d5d7ff5c843c44466ab23be9b55403e3a626f8efaad2",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "date": {
+        "value": "2022-04-12",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"girls\", \"fast fashion\", \"advertisements\", \"visual analysis\", \"young femininities\", \"stereotypes\", \"postfeminism\", \"visual discourse analysis\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Girls’ portrayals in fast fashion advertisements",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "authors": {
+        "value": "[{\"kind\": \"person\", \"given\": \"Sonali\", \"family\": \"Srivastava\"}, {\"kind\": \"person\", \"given\": \"Terhi-Anna\", \"family\": \"Wilska\"}, {\"kind\": \"person\", \"given\": \"Johanna\", \"family\": \"Sjöberg\"}]",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2022",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "doi": {
+        "value": "10.1080/10253866.2022.2067149",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://liu.diva-portal.org/smash/get/diva2%3A1657350/FULLTEXT01.pdf",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Girls’ portrayals in fast fashion advertisements",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Sonali",
+          "family": "Srivastava"
+        },
+        {
+          "kind": "person",
+          "given": "Terhi-Anna",
+          "family": "Wilska"
+        },
+        {
+          "kind": "person",
+          "given": "Johanna",
+          "family": "Sjöberg"
+        }
+      ],
+      "year": 2022,
+      "doi": "10.1080/10253866.2022.2067149",
+      "source_url": "https://liu.diva-portal.org/smash/get/diva2%3A1657350/FULLTEXT01.pdf"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/spain_advertising_1988_4aec5f72/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "# Ley 34/1988, General de Publicidad: artículo 3",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"unknown\", \"given\": \"unknown\", \"name\": \"unknown\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2023-03-01",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "other",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"publicidad\", \"dignidad\", \"derechos constitucionales\", \"violencia de g\\u00e9nero\", \"discriminaci\\u00f3n\", \"menores\", \"prostituci\\u00f3n\", \"competencia desleal\", \"publicidad enga\\u00f1osa\", \"publicidad desleal\", \"publicidad agresiva\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Ley 34/1988, de 11 de noviembre, General de Publicidad: artículo 3",
+      "organization": "España",
+      "year": 1988,
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/enlace_a_recogida_de_experiencias_gd_2b540bce/extract/extraction.db",
+    "before": {
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Formación Embajadores y Embajadoras de la Dignidad: Cuéntanos tu experiencia"
+    },
+    "basis": "Single-page heading; no verified publication year or intellectual author. June 2027 event date is not publication date.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/dignity_the_essentials_espanol_5f0338c2/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Oscae\", \"given\": \"Yohane\", \"name\": \"Oscae Yohane\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"dignidad\", \"compasi\\u00f3n\", \"amabilidad\", \"amor\", \"perd\\u00f3n\", \"reconocimiento\", \"valor\", \"humanidad\", \"pol\\u00edtica\", \"derechos humanos\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Dignidad: Lo esencial",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Dignidad: Lo esencial",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF cover and final Global Dignity branding; publication year absent. Creation timestamp is not a publication date.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/gd_presentacion_general_490bbfbe/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Nieto\", \"given\": \"Juan Jos\\u00e9\", \"name\": \"Juan Jos\\u00e9 Nieto\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"embaudadores\", \"dignidad\", \"educaci\\u00f3n\", \"actividad\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Global Dignity: Red de Embajadores y Embajadoras de la Dignidad",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF page 1 title; publication year absent. Historical dates in the body do not date the edition.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/fichas_con_buenas_practicas_gd_e_innovacion_educativa_e0df4a8e/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Mart\\u00ednez\", \"given\": \"Lara\", \"name\": \"Lara Mart\\u00ednez de Arag\\u00f3n L\\u00f3pez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Nu\\u00f1o\", \"given\": \"Laura\", \"name\": \"Laura Nu\\u00f1o G\\u00f3mez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"Mart\\u00ednez\", \"given\": \"Jos\\u00e9 Luis\", \"name\": \"Jos\\u00e9 Luis Mart\\u00edn S\\u00e1ez\", \"kind\": \"person\", \"role\": \"author\"}, {\"family\": \"G\\u00f3mez\", \"given\": \"Noem\\u00ed\", \"name\": \"Noem\\u00ed G\\u00f3mez Posada\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2026-06-21",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"infograf\\u00edas\", \"incidentes de odio\", \"dignidad\", \"educaci\\u00f3n\", \"periodismo\", \"arte\", \"desigualdades\", \"comunicaci\\u00f3n\", \"periodismo gr\\u00e1fico\", \"dignidad humana\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Dignidad e innovación educativa: Banco de buenas prácticas",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity España and Fundación AYO",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2026",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Dignidad e innovación educativa: Banco de buenas prácticas",
+      "organization": "Global Dignity España and Fundación AYO",
+      "year": "2026"
+    },
+    "basis": "PDF cover: 21 fichas · Actualización junio 2026; repeated footer: Global Dignity España · Fundación AYO. PDF page 17 visually inspected (case GD16).",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/guia_para_facilitadores_programa_de_lideres_de_la_dignidad_88d96ce7/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"Global Dignity\", \"given\": null, \"name\": \"Global Dignity\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Global Dignity\", \"Workshop Dignidad\", \"Dignidad\", \"Respeto\", \"Comunidad Global Dignity\", \"Violencia\", \"Intolerancia\", \"Educaci\\u00f3n\", \"Comprendimiento\", \"Compasi\\u00f3n\", \"Amor\", \"Odiar\", \"Intolerancia\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Guía del facilitador: Workshop Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Global Dignity",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Guía del facilitador: Workshop Dignity",
+      "organization": "Global Dignity"
+    },
+    "basis": "PDF cover and welcome identify the workshop and organization; publication year absent. PDF template author is not promoted to intellectual author.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/freire_2000_untitled_f6c6d412/extract/extraction.db",
+    "before": {
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "book",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Pedagogy of the Oppressed",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "authors": {
+        "value": "[{\"kind\": \"person\", \"given\": \"Paulo\", \"family\": \"Freire\"}]",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2000",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Pedagogy of the Oppressed",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Paulo",
+          "family": "Freire"
+        }
+      ],
+      "year": "2000"
+    },
+    "basis": "PDF index 4: PAULO FREIRE, PEDAGOGY of the OPPRESSED, 30TH ANNIVERSARY EDITION. PDF index 5: First published in 2000 by the Continuum International Publishing Group Inc; later reprint dates retained as edition history. Bloomsbury was wrongly treated as author.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/acm_hm_2022_695f1503/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"van den Bergh\", \"given\": \"Cateautje Hijmans\", \"name\": \"Cateautje Hijmans van den Bergh\", \"kind\": \"person\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Decathlon\", \"H&M\", \"sustainability\", \"ACM\", \"sustainability claims\", \"consumer information\", \"sustainable causes\", \"verifiable claims\", \"Ecodesign\", \"Conscious\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "ACM",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Netherlands Authority for Consumers and Markets",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2022",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Going forward, Decathlon and H&M will provide better information about sustainability to consumers",
+      "organization": "Netherlands Authority for Consumers and Markets",
+      "year": 2022,
+      "source_url": "https://www.acm.nl/en/publications/going-forward-decathlon-and-handm-will-provide-better-information-about-sustainability-consumers"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_boohoo_2022_c7d17a41/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"ASA\", \"given\": null, \"name\": \"Advertising Standards Authority\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2022",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"Boohoo.com UK Ltd\", \"Advertising Standards Authority\", \"sexualisation\", \"objectification\", \"women\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "ASA Ruling on Boohoo.com UK Ltd",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Advertising Standards Authority",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2022",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Boohoo.com UK Ltd",
+      "organization": "Advertising Standards Authority",
+      "year": 2022,
+      "source_url": "https://www.asa.org.uk/rulings/boohoo-com-uk-ltd-a21-1136109-boohoo-com-uk-ltd.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_calvin_klein_2024_2883507d/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"unknown\", \"given\": null, \"name\": \"unknown\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2024",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Advertising Standards Authority",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2024",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Calvin Klein Inc (revised 6 March 2024)",
+      "organization": "Advertising Standards Authority",
+      "year": 2024,
+      "source_url": "https://www.asa.org.uk/rulings/calvin-klein-inc-g23-1194611-calvin-klein-inc-1.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/asa_gucci_2016_91a2446f/extract/extraction.db",
+    "before": {
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "date": {
+        "value": "2016",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"ASA\", \"Guccio Gucci SpA\", \"Advertising Standards Authority\", \"ruling\", \"model\", \"thin\", \"image\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "ASA Ruling on Guccio Gucci SpA",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "Advertising Standards Authority",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2016",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "ASA Ruling on Guccio Gucci SpA",
+      "organization": "Advertising Standards Authority",
+      "year": 2016,
+      "source_url": "https://www.asa.org.uk/rulings/guccio-gucci-spa-a15-321743.html"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/pantano_2021_772a899c/extract/extraction.db",
+    "before": {
+      "doi_url": {
+        "value": "https://doi.org/10.1016/j.jbusres.2020.09.049",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "registry_cache_hit": {
+        "value": "false",
+        "confidence": 1.0,
+        "method": "cache"
+      },
+      "host_registry_match": {
+        "value": "true",
+        "confidence": 0.95,
+        "method": "host_validator"
+      },
+      "host_registry_reason": {
+        "value": "registry title agrees with host first_heading",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "date": {
+        "value": "2021",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "container_title": {
+        "value": "Journal of Business Research",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "publisher": {
+        "value": "Elsevier BV",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_source": {
+        "value": "crossref",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_raw_hash": {
+        "value": "a25176522ff035df484ff5fca3267732d5ad37c92225a5a61ce42342af2c3709",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"luxury brand\", \"negative stereotypes\", \"social media\", \"information diffusion\", \"burst model\", \"brand hate\", \"informed by recent studies\", \"social media marketing\", \"luxury brand management\", \"methodology of research\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "authors": {
+        "value": "[{\"kind\": \"person\", \"given\": \"Eleonora\", \"family\": \"Pantano\"}]",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2021",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "doi": {
+        "value": "10.1016/j.jbusres.2020.09.049",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://research-information.bris.ac.uk/files/250098384/burst_paper_accepted_.pdf",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "When a luxury brand bursts: Modelling the social media viral effects of negative stereotypes adoption leading to brand hate",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Eleonora",
+          "family": "Pantano"
+        }
+      ],
+      "year": 2021,
+      "doi": "10.1016/j.jbusres.2020.09.049",
+      "source_url": "https://research-information.bris.ac.uk/files/250098384/burst_paper_accepted_.pdf"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_1948_40159888/extract/extraction.db",
+    "before": {
+      "editors": {
+        "value": "[{\"name\": \"ucation shall be directed to the full development of the human personality\", \"role\": \"editor\"}, {\"name\": \"to the strengthening of respect for human rights\", \"role\": \"editor\"}, {\"name\": \"fundamental freedoms. It shall promote understanding\", \"role\": \"editor\"}, {\"name\": \"tolerance\", \"role\": \"editor\"}, {\"name\": \"friendship among all nations\", \"role\": \"editor\"}, {\"name\": \"racial or religious groups\", \"role\": \"editor\"}, {\"name\": \"and shall further the activities of the United Nations for the maintenance of peace.\", \"role\": \"editor\"}]",
+        "confidence": 0.7,
+        "method": "front_matter"
+      },
+      "authors": {
+        "value": "[{\"family\": \"United Nations\", \"given\": null, \"name\": \"United Nations\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "other",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"human rights\", \"freedom\", \"equality\", \"dignity\", \"justice\", \"peace\", \"freedom of speech\", \"freedom from fear and want\", \"rebellion\", \"friendship\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Universal Declaration of Human Rights",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "United Nations",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "1948",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Universal Declaration of Human Rights",
+      "organization": "United Nations",
+      "year": 1948,
+      "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/srivastava_2022_e4e5e9cc/extract/extraction.db",
+    "before": {
+      "doi_url": {
+        "value": "https://doi.org/10.1080/09718923.1999.11892220",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "isbn": {
+        "value": "9783030049331",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "isbn_all": {
+        "value": "[\"9783030049331\"]",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "issn": {
+        "value": "10253866",
+        "confidence": 1.0,
+        "method": "regex"
+      },
+      "registry_cache_hit": {
+        "value": "false",
+        "confidence": 1.0,
+        "method": "cache"
+      },
+      "host_registry_match": {
+        "value": "false",
+        "confidence": 0.35,
+        "method": "host_validator"
+      },
+      "host_registry_reason": {
+        "value": "registry title disagrees with host heading/pdf_title/slug",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "host_registry_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_validator"
+      },
+      "registry_source": {
+        "value": "crossref",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "registry_raw_hash": {
+        "value": "8334282989af8283db78d5d7ff5c843c44466ab23be9b55403e3a626f8efaad2",
+        "confidence": 0.95,
+        "method": "crossref"
+      },
+      "host_title_mismatch": {
+        "value": "true",
+        "confidence": 1.0,
+        "method": "host_guard"
+      },
+      "date": {
+        "value": "2022-04-12",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "article",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"girls\", \"fast fashion\", \"advertisements\", \"visual analysis\", \"young femininities\", \"stereotypes\", \"postfeminism\", \"visual discourse analysis\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Girls’ portrayals in fast fashion advertisements",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "authors": {
+        "value": "[{\"kind\": \"person\", \"given\": \"Sonali\", \"family\": \"Srivastava\"}, {\"kind\": \"person\", \"given\": \"Terhi-Anna\", \"family\": \"Wilska\"}, {\"kind\": \"person\", \"given\": \"Johanna\", \"family\": \"Sjöberg\"}]",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "2022",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "doi": {
+        "value": "10.1080/10253866.2022.2067149",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://liu.diva-portal.org/smash/get/diva2%3A1657350/FULLTEXT01.pdf",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Girls’ portrayals in fast fashion advertisements",
+      "authors": [
+        {
+          "kind": "person",
+          "given": "Sonali",
+          "family": "Srivastava"
+        },
+        {
+          "kind": "person",
+          "given": "Terhi-Anna",
+          "family": "Wilska"
+        },
+        {
+          "kind": "person",
+          "given": "Johanna",
+          "family": "Sjöberg"
+        }
+      ],
+      "year": 2022,
+      "doi": "10.1080/10253866.2022.2067149",
+      "source_url": "https://liu.diva-portal.org/smash/get/diva2%3A1657350/FULLTEXT01.pdf"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/spain_advertising_1988_4aec5f72/extract/extraction.db",
+    "before": {
+      "authors": {
+        "value": "[{\"family\": \"unknown\", \"given\": \"unknown\", \"name\": \"unknown\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "date": {
+        "value": "2023-03-01",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "es",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "other",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "keywords": {
+        "value": "[\"publicidad\", \"dignidad\", \"derechos constitucionales\", \"violencia de g\\u00e9nero\", \"discriminaci\\u00f3n\", \"menores\", \"prostituci\\u00f3n\", \"competencia desleal\", \"publicidad enga\\u00f1osa\", \"publicidad desleal\", \"publicidad agresiva\"]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "title": {
+        "value": "Ley 34/1988, de 11 de noviembre, General de Publicidad: artículo 3",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "organization": {
+        "value": "España",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "year": {
+        "value": "1988",
+        "confidence": 1.0,
+        "method": "human"
+      },
+      "source_url": {
+        "value": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3",
+        "confidence": 1.0,
+        "method": "human"
+      }
+    },
+    "verified_values": {
+      "title": "Ley 34/1988, de 11 de noviembre, General de Publicidad: artículo 3",
+      "organization": "España",
+      "year": 1988,
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1988-26156#a3"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  },
+  {
+    "db": "/Users/ruvebal/ahmes-library/scholar/documents/udhr_articles_1948_5d5d2238/extract/extraction.db",
+    "before": {
+      "title": {
+        "value": "# Universal Declaration of Human Rights: articles 1 and 2",
+        "confidence": 0.85,
+        "method": "heading"
+      },
+      "authors": {
+        "value": "[{\"family\": \"UN\", \"given\": null, \"name\": \"United Nations\", \"kind\": \"organization\", \"role\": \"author\"}]",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "language": {
+        "value": "en",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "document_type": {
+        "value": "web",
+        "confidence": 0.7,
+        "method": "llm"
+      },
+      "container_title": {
+        "value": "United Nations",
+        "confidence": 0.7,
+        "method": "llm"
+      }
+    },
+    "verified_values": {
+      "title": "Universal Declaration of Human Rights: articles 1 and 2",
+      "organization": "United Nations",
+      "year": 1948,
+      "source_url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+    },
+    "basis": "Verified against primary source heading/date, DOI registry and publisher/repository record; primary-sources.json records acquisition limitations. ASA text snapshot is an explicitly identified short web-tool excerpt.",
+    "reviewer": "Codex source verification, 2026-10-20"
+  }
+]

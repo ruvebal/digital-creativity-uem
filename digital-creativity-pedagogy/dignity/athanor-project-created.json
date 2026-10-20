@@ -1,0 +1,14 @@
+{
+  "project_id": "b2d9d933-6ce6-4303-9b9d-bf1ee08a7329",
+  "owner_id": "ec857335-d625-5209-b882-e96ed00c337d",
+  "name": "Dignity — supplied educational corpus",
+  "schema_name": "project_b2d9d9336ce643039b9dbf1ee08a7329",
+  "slug": "scholar-dignity",
+  "library": "scholar",
+  "application": "studio",
+  "tenant": "default",
+  "scope": "field_prospection",
+  "metadata": {},
+  "description": null,
+  "created_at": "2026-10-20T12:07:10.030895+00:00"
+}

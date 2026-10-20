@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2390" height="1000" viewBox="0 0 2390 1000">
+<title>Relational folds</title>
+<desc>Original recursive geometric background with an uninterrupted upper-left field. No text or empirical claim.</desc>
+<defs>
+<linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080a0d"/><stop offset="1" stop-color="#a1caff" stop-opacity=".13"/></linearGradient>
+<linearGradient id="fold" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#a1caff" stop-opacity=".015"/><stop offset=".58" stop-color="#a1caff" stop-opacity=".13"/><stop offset="1" stop-color="#cdcd36" stop-opacity=".10"/></linearGradient>
+<linearGradient id="quiet"><stop offset="0" stop-color="white" stop-opacity="0"/><stop offset=".43" stop-color="white" stop-opacity="0"/><stop offset=".68" stop-color="white"/><stop offset="1" stop-color="white"/></linearGradient>
+<mask id="edge"><rect width="2390" height="1000" fill="url(#quiet)"/></mask>
+</defs>
+<rect width="2390" height="1000" fill="#080a0d"/>
+<rect width="2390" height="1000" fill="url(#surface)"/>
+<g mask="url(#edge)">
+<path d="M 780,-250.00 C 1200,-370.00 1480,641.62 2480,-400.00 L 2480,-351.56 C 1480,690.06 1200,-321.56 780,-201.56 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,-201.56 C 1200,-321.56 1480,662.71 2480,-351.56 L 2480,-303.12 C 1480,711.14 1200,-273.12 780,-153.12 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,-153.12 C 1200,-273.12 1480,684.97 2480,-303.12 L 2480,-254.69 C 1480,733.41 1200,-224.69 780,-104.69 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,-104.69 C 1200,-224.69 1480,708.15 2480,-254.69 L 2480,-206.25 C 1480,756.59 1200,-176.25 780,-56.25 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,-56.25 C 1200,-176.25 1480,731.95 2480,-206.25 L 2480,-157.81 C 1480,780.39 1200,-127.81 780,-7.81 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,-7.81 C 1200,-127.81 1480,756.09 2480,-157.81 L 2480,-109.38 C 1480,804.53 1200,-79.38 780,40.62 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,40.62 C 1200,-79.38 1480,780.28 2480,-109.38 L 2480,-60.94 C 1480,828.72 1200,-30.94 780,89.06 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,89.06 C 1200,-30.94 1480,804.23 2480,-60.94 L 2480,-12.50 C 1480,852.67 1200,17.50 780,137.50 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,137.50 C 1200,17.50 1480,827.64 2480,-12.50 L 2480,35.94 C 1480,876.07 1200,65.94 780,185.94 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,185.94 C 1200,65.94 1480,850.23 2480,35.94 L 2480,84.38 C 1480,898.66 1200,114.38 780,234.38 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,234.38 C 1200,114.38 1480,871.72 2480,84.38 L 2480,132.81 C 1480,920.16 1200,162.81 780,282.81 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,282.81 C 1200,162.81 1480,891.87 2480,132.81 L 2480,181.25 C 1480,940.31 1200,211.25 780,331.25 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,331.25 C 1200,211.25 1480,910.42 2480,181.25 L 2480,229.69 C 1480,958.85 1200,259.69 780,379.69 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,379.69 C 1200,259.69 1480,927.14 2480,229.69 L 2480,278.12 C 1480,975.58 1200,308.12 780,428.12 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,428.12 C 1200,308.12 1480,941.85 2480,278.12 L 2480,326.56 C 1480,990.29 1200,356.56 780,476.56 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,476.56 C 1200,356.56 1480,954.35 2480,326.56 L 2480,375.00 C 1480,1002.79 1200,405.00 780,525.00 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,525.00 C 1200,405.00 1480,964.50 2480,375.00 L 2480,423.44 C 1480,1012.94 1200,453.44 780,573.44 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,573.44 C 1200,453.44 1480,972.17 2480,423.44 L 2480,471.88 C 1480,1020.61 1200,501.88 780,621.88 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,621.88 C 1200,501.88 1480,977.28 2480,471.88 L 2480,520.31 C 1480,1025.72 1200,550.31 780,670.31 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,670.31 C 1200,550.31 1480,979.75 2480,520.31 L 2480,568.75 C 1480,1028.19 1200,598.75 780,718.75 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,718.75 C 1200,598.75 1480,979.57 2480,568.75 L 2480,617.19 C 1480,1028.00 1200,647.19 780,767.19 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,767.19 C 1200,647.19 1480,976.72 2480,617.19 L 2480,665.62 C 1480,1025.16 1200,695.62 780,815.62 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,815.62 C 1200,695.62 1480,971.26 2480,665.62 L 2480,714.06 C 1480,1019.69 1200,744.06 780,864.06 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,864.06 C 1200,744.06 1480,963.23 2480,714.06 L 2480,762.50 C 1480,1011.67 1200,792.50 780,912.50 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,912.50 C 1200,792.50 1480,952.74 2480,762.50 L 2480,810.94 C 1480,1001.18 1200,840.94 780,960.94 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,960.94 C 1200,840.94 1480,939.92 2480,810.94 L 2480,859.38 C 1480,988.36 1200,889.38 780,1009.38 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,1009.38 C 1200,889.38 1480,924.93 2480,859.38 L 2480,907.81 C 1480,973.36 1200,937.81 780,1057.81 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,1057.81 C 1200,937.81 1480,907.93 2480,907.81 L 2480,956.25 C 1480,956.37 1200,986.25 780,1106.25 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,1106.25 C 1200,986.25 1480,889.15 2480,956.25 L 2480,1004.69 C 1480,937.58 1200,1034.69 780,1154.69 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,1154.69 C 1200,1034.69 1480,868.80 2480,1004.69 L 2480,1053.12 C 1480,917.24 1200,1083.12 780,1203.12 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,1203.12 C 1200,1083.12 1480,847.13 2480,1053.12 L 2480,1101.56 C 1480,895.57 1200,1131.56 780,1251.56 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 780,1251.56 C 1200,1131.56 1480,824.41 2480,1101.56 L 2480,1150.00 C 1480,872.85 1200,1180.00 780,1300.00 Z" fill="url(#fold)" stroke="#a1caff" stroke-opacity=".075" stroke-width="1.1"/>
+<path d="M 1300,950 C 1710,450 2030,1150 2480,240" fill="none" stroke="#cdcd36" stroke-opacity=".28" stroke-width="1.5"/>
+<path d="M 1300,770 C 1710,270 2030,970 2480,60" fill="none" stroke="#cdcd36" stroke-opacity=".28" stroke-width="1.5"/>
+<path d="M 1300,590 C 1710,90 2030,790 2480,-120" fill="none" stroke="#cdcd36" stroke-opacity=".28" stroke-width="1.5"/>
+</g>
+</svg>

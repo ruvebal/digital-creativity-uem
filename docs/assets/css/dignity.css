@@ -1,0 +1,52 @@
+/* Dignity visual companion: keep the anamorphic frame intact inside 16:9. */
+.dignity-day-figure { margin: 1.5rem 0 2rem; }
+.dignity-day { display: flex; align-items: center; aspect-ratio: 2.39 / 1; min-height: 11rem; padding: clamp(1.25rem, 4vw, 3rem); color: #13243a; background-image: linear-gradient(90deg, rgb(250 250 248 / 88%) 0%, rgb(250 250 248 / 58%) 34%, rgb(250 250 248 / 0%) 72%), var(--dignity-day-light); background-size: cover; background-position: center; border-radius: .45rem; }
+.dignity-day__message { max-width: min(60%, 48rem); padding: 0; background: transparent; }
+.dignity-day__logo { display: block; width: clamp(8rem, 18vw, 13rem); max-height: 3.5rem; object-fit: contain; object-position: left center; margin: 0 0 .9rem; }
+.dignity-day__message h2 { margin: .15rem 0 .45rem; color: #102745; font-size: clamp(2.4rem, 6vw, 5.4rem); line-height: .98; text-wrap: balance; }
+.dignity-day__date { margin: .65rem 0 0; color: #244b70; font-size: clamp(1.25rem, 2.6vw, 2rem); font-weight: 700; letter-spacing: .035em; }
+.dignity-day__hashtags { margin: .85rem 0 0; color: #244b70; font-size: clamp(.7rem, 1.35vw, .9rem); font-weight: 700; letter-spacing: .045em; }
+.dignity-day-figure > figcaption { margin-top: .4rem; font-size: .75rem; line-height: 1.45; }
+@media (prefers-color-scheme: dark) { .dignity-day { color: #fff; background-image: linear-gradient(90deg, rgb(9 15 25 / 88%) 0%, rgb(9 15 25 / 65%) 38%, rgb(9 15 25 / 0%) 76%), var(--dignity-day-dark); } .dignity-day__message { background: transparent; } .dignity-day__message h2, .dignity-day__date, .dignity-day__hashtags { color: #f4f7fc; } }
+.dignity-day__video { width: 100%; max-width: 56rem; aspect-ratio: 16 / 9; margin: 1.5rem auto 2rem; background: #000; }
+.dignity-day__video iframe { display: block; width: 100%; height: 100%; border: 0; }
+.dignity-day__video figcaption { margin-top: .4rem; font-size: .75rem; line-height: 1.45; }
+.dignity-scene { margin: 1.75rem 0 2rem; }
+.dignity-scene__stage { display: grid; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #000; border-radius: .35rem; }
+.dignity-scene__stage img { grid-area: 1 / 1; display: block; align-self: center; width: 100%; height: auto; max-height: 100%; object-fit: contain; }
+.dignity-scene figcaption { margin-top: .5rem; font-size: .76rem; line-height: 1.5; max-width: 76ch; }
+.dignity-answer { margin-top: .65rem; max-width: 76ch; border-left: .22rem solid #c9c932; padding: .15rem 0 .15rem .75rem; font-size: .9rem; }
+.dignity-answer summary { width: fit-content; color: #244661; font-weight: 700; cursor: pointer; text-decoration: underline; text-decoration-color: #c9c932; text-underline-offset: .16em; }
+.dignity-answer p { margin: .55rem 0 .2rem; }
+@media (prefers-color-scheme: dark) { .dignity-answer summary { color: #edf4fa; } }
+.dignity-scene-state { display: block; margin-bottom: .25rem; font-weight: 600; color: #47698b; }
+.dignity-track-prompt { display: block; margin-top: .35rem; }
+.dignity-scene .dignity-scene-credit { display: block; margin-top: .3rem; opacity: .8; font-size: .72rem; }
+.dignity-flip { display: inline-flex; margin-top: .5rem; padding: .45rem .8rem; color: #fff; background: #284d73; border: 1px solid #51769b; border-radius: .25rem; cursor: pointer; font-size: .8rem; }
+.dignity-flip:hover, .dignity-flip:focus-visible { background: #183654; outline: 2px solid #8fb8e0; outline-offset: 2px; }
+.lesson-content strong.dignity-emphasis { color: #244661; background-image: linear-gradient(transparent 62%, rgb(201 201 50 / 42%) 62%); text-decoration: underline; text-decoration-color: #c9c932; text-decoration-thickness: .08em; text-underline-offset: .16em; }
+@media (prefers-color-scheme: dark) { .lesson-content strong.dignity-emphasis { color: #edf4fa; background-image: linear-gradient(transparent 58%, rgb(201 201 50 / 32%) 58%); text-decoration-color: #c9c932; } }
+@media (prefers-color-scheme: dark) { .dignity-scene-state { color: #9dc8ef; } }
+.dignity-video-placeholder { max-width: 56rem; aspect-ratio: 16 / 9; margin: 1.5rem auto 2rem; background: #000; }
+.dignity-video-placeholder iframe { display: block; width: 100%; height: 100%; border: 0; }
+.dignity-video-placeholder figcaption { margin-top: .4rem; font-size: .75rem; line-height: 1.45; }
+.dignity-case-image { margin: 1rem 0 1.5rem; }
+.dignity-case-image img { display: block; width: 100%; max-width: 56rem; max-height: 80vh; object-fit: contain; margin: 0 auto; background: #111; }
+.dignity-case-image figcaption, .dignity-case-gallery figcaption { max-width: 80ch; margin: .35rem auto 0; font-size: .75rem; line-height: 1.45; }
+.dignity-case-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
+.dignity-case-gallery figure { min-width: 0; margin: 0; }
+.dignity-case-gallery img { display: block; width: 100%; height: auto; background: #111; }
+.dignity-source-reveal { margin: 1rem 0 1.5rem; }
+.dignity-source-reveal summary { width: fit-content; cursor: pointer; color: #244661; font-weight: 700; }
+.dignity-campaign-card { position: relative; margin: clamp(1.1rem, 2.5vw, 1.8rem) 0; padding: clamp(1rem, 2.4vw, 1.65rem); overflow: hidden; border: 1px solid rgb(90 121 151 / 24%); border-radius: .85rem; background: linear-gradient(145deg, rgb(255 255 255 / 72%), rgb(240 246 250 / 42%)); box-shadow: 0 12px 32px rgb(19 36 58 / 7%), inset 0 1px 0 rgb(255 255 255 / 72%); -webkit-backdrop-filter: blur(14px) saturate(118%); backdrop-filter: blur(14px) saturate(118%); }
+.dignity-campaign-card > :first-child { margin-top: 0; }
+.dignity-campaign-card > :last-child { margin-bottom: 0; }
+.dignity-campaign-card h3 { margin-bottom: .8rem; scroll-margin-top: 5rem; }
+.dignity-campaign-card :target { scroll-margin-top: 5rem; }
+.lesson-content .references-list { font-size: .84rem; line-height: 1.55; }
+.lesson-content .references-list li { margin-bottom: .55rem; }
+.lesson-content .dignity-closing-copy { font-size: .84rem; line-height: 1.55; }
+@media (prefers-color-scheme: dark) { .dignity-campaign-card { border-color: rgb(174 201 224 / 20%); background: linear-gradient(145deg, rgb(28 40 54 / 76%), rgb(20 31 43 / 66%)); box-shadow: 0 14px 36px rgb(0 0 0 / 18%), inset 0 1px 0 rgb(255 255 255 / 8%); } }
+@media (max-width: 42rem) { .dignity-case-gallery { grid-template-columns: 1fr; } }
+@media print { .dignity-scene { break-inside: avoid; } }
+@media (max-width: 36rem) { .dignity-day { min-height: 10rem; padding: 1rem; } .dignity-day__message { max-width: 82%; } .dignity-day__message h2 { font-size: clamp(2rem, 10vw, 3.2rem); } }

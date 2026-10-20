@@ -287,22 +287,22 @@
       "rights_status": "flagged"
     },
     "masterclass-1": {
-      "src": "/assets/images/deck-media/6d87fb61fcb1d4de.webp",
-      "alt": "Indienne, représentant Minerve Péruvienne.",
-      "caption_html": "<span class=\"slide-caption__title\">Indienne, représentant Minerve Péruvienne.</span> · <span class=\"slide-caption__author\">The New York Public Library (digital scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"http://digitalcollections.nypl.org/items/5a950250-c629-012f-852b-58d385a7bc34\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-axis-studio-20261020-r1.svg",
+      "alt": "A simplified garment shell wraps a shared axis; measured offsets reveal how direction and proportion can be checked before surface polish.",
+      "caption_html": "<span class=\"slide-caption__title\">The axis holds a volume readable</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
     },
     "masterclass-2": {
-      "src": "/assets/images/deck-media/5440d18f70034583.webp",
-      "alt": "Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif",
-      "caption_html": "<span class=\"slide-caption__title\">Affiche voor tentoonstelling &#39;SHANGHAI GESTURE, curated by Alexander van Slobbe&#39;, objectnr 480</span> · <span class=\"slide-caption__author\">Stedelijk Museum Amsterdam / poster designer</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Affiche_voor_tentoonstelling_%27SHANGHAI_GESTURE,_curated_by_Alexander_van_Slobbe%27,_objectnr_480.tif\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-section-plane-20261020-r1.svg",
+      "alt": "A translucent section plane passes through a faceted volume and reveals an interior contour that its outer silhouette alone cannot show.",
+      "caption_html": "<span class=\"slide-caption__title\">A section makes interior form inspectable</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
     },
     "masterclass-3": {
-      "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
-      "alt": "A drapery study for a figure of Sculpture",
-      "caption_html": "<span class=\"slide-caption__title\">Drapery study for figure of Sculpture LCCN2004662299</span> · <span class=\"slide-caption__author\">Unknown draughtsperson; Library of Congress scan</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-output-or-explanation-20261020-r1.svg",
+      "alt": "The same schematic volume appears as a polished surface and a construction view that exposes shaping planes, a hollow, and tension direction.",
+      "caption_html": "<span class=\"slide-caption__title\">Output and explanation answer different questions</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
     },
     "lab-1": {
       "src": "/assets/images/deck-media/3e1406d573d0b92f.webp",
@@ -315,6 +315,82 @@
       "alt": "Hand drawing on a graphic tablet.jpg",
       "caption_html": "<span class=\"slide-caption__title\">Hand drawing on a graphic tablet</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Hand_drawing_on_a_graphic_tablet.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
+    }
+  },
+  "i-6-volume": {
+    "analysis-model": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
+      "alt": "Three views reveal different contours of one draped volume.",
+      "caption_html": "<span class=\"slide-caption__title\">One fold, three projections</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
+      "alt": "A physical study and digital pass return through critique and revision.",
+      "caption_html": "<span class=\"slide-caption__title\">A loop with a visible reason</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
+      "alt": "A virtual contour continues where the supported material form does not.",
+      "caption_html": "<span class=\"slide-caption__title\">A discrepancy worth testing</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
+      "alt": "Three bounded studies increase depth and retain a shared section.",
+      "caption_html": "<span class=\"slide-caption__title\">Depth changed in one step</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
+      "alt": "A folded material and digital mesh are compared at a marked mismatch.",
+      "caption_html": "<span class=\"slide-caption__title\">Build enough depth to test a fold</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
+      "alt": "One local revision is checked against its retained source contour.",
+      "caption_html": "<span class=\"slide-caption__title\">Keep the source beside the revision</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    }
+  },
+  "i-6-volumen": {
+    "analysis-model": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
+      "alt": "Un pliegue drapeado aparece con contornos distintos en tres proyecciones.",
+      "caption_html": "<span class=\"slide-caption__title\">Un pliegue, tres proyecciones</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
+      "alt": "El estudio físico y el pase digital vuelven tras la crítica y la revisión.",
+      "caption_html": "<span class=\"slide-caption__title\">Un ciclo con un motivo visible</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
+      "alt": "El contorno virtual continúa donde el material apoyado no lo hace.",
+      "caption_html": "<span class=\"slide-caption__title\">Una diferencia que merece comprobarse</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
+      "alt": "Tres estudios acotados aumentan la profundidad y conservan una sección común.",
+      "caption_html": "<span class=\"slide-caption__title\">Profundidad cambiada en un paso</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
+      "alt": "Un material plegado y su malla digital se comparan en una diferencia señalada.",
+      "caption_html": "<span class=\"slide-caption__title\">Construir profundidad para probar un pliegue</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
+      "alt": "Una revisión local se comprueba frente al contorno de origen conservado.",
+      "caption_html": "<span class=\"slide-caption__title\">Conservar el origen junto a la revisión</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "rights_status": "ok"
     }
   }
 }

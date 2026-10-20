@@ -1,0 +1,393 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1107703,
+    "items": [
+      {
+        "DOI": "10.12794/metadc3069",
+        "title": [
+          "Stereotypes in Retail Print Advertising: The Effects of Gender and Physical Appearance on Consumer Perceptions"
+        ],
+        "author": [
+          {
+            "given": "Charlotte",
+            "family": "Allen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "URL": "https://doi.org/10.12794/metadc3069",
+        "type": "dissertation"
+      },
+      {
+        "DOI": "10.4324/9781003336037-1",
+        "title": [
+          "Gender stereotypes"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5890-1704",
+            "authenticated-orcid": false,
+            "given": "David",
+            "family": "Davies",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4324/9781003336037-1",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.4324/9781003336037-4",
+        "title": [
+          "Theorising gender stereotypes"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5890-1704",
+            "authenticated-orcid": false,
+            "given": "David",
+            "family": "Davies",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4324/9781003336037-4",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.1108/rege-04-2025-0066",
+        "title": [
+          "Femvertising and consumer behavior: challenging gender stereotypes through feminist advertising in India"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-1660-2385",
+            "authenticated-orcid": true,
+            "given": "Anwesha",
+            "family": "Mazumder",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "National Institute of Technology Durgapur Department of Management Studies, , ,",
+                "place": [
+                  "Durgapur, India"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-9354-6654",
+            "authenticated-orcid": true,
+            "given": "Kaushik",
+            "family": "Mandal",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Institute of Technology Durgapur Department of Management Studies, , ,",
+                "place": [
+                  "Durgapur, India"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1108/rege-04-2025-0066",
+        "type": "journal-article",
+        "link": [
+          {
+            "URL": "https://www.emerald.com/rege/article-pdf/doi/10.1108/REGE-04-2025-0066/11814991/rege-04-2025-0066en.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://www.emerald.com/rege/article-pdf/doi/10.1108/REGE-04-2025-0066/11814991/rege-04-2025-0066en.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1080/08961530.2020.1820417",
+        "title": [
+          "Pushing for Gender Equality in Advertising: Gender Role Stereotypes in the United Arab Emirates"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4031-1543",
+            "authenticated-orcid": false,
+            "given": "Natasa",
+            "family": "Slak Valek",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Communication and Media Sciences, Zayed University",
+                "place": [
+                  "Abu Dhabi, UAE"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gaelle",
+            "family": "Picherit-Duthler",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Communication and Media Sciences, Zayed University",
+                "place": [
+                  "Abu Dhabi, UAE"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              15
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1080/08961530.2020.1820417",
+        "type": "journal-article",
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/08961530.2020.1820417",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.7228/manchester/9781784993047.003.0004",
+        "title": [
+          "Racial discrimination and gender justice"
+        ],
+        "author": [
+          {
+            "given": "Nozipho",
+            "family": "January-Bardill",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              12,
+              20
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.7228/manchester/9781784993047.003.0004",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.18297/etd/1136",
+        "title": [
+          "Gender role stereotypes in advertising : a test of the match-up hypothesis on advertising effectiveness."
+        ],
+        "author": [
+          {
+            "given": "Sara",
+            "family": "Picklesimer",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "URL": "https://doi.org/10.18297/etd/1136",
+        "type": "dissertation"
+      },
+      {
+        "DOI": "10.2139/ssrn.5042983",
+        "title": [
+          "Dignity, Discrimination, and Gender Identity"
+        ],
+        "author": [
+          {
+            "given": "Ryan T.",
+            "family": "Anderson",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.2139/ssrn.5042983",
+        "type": "posted-content"
+      },
+      {
+        "DOI": "10.4324/9781351213745-4",
+        "title": [
+          "Influence of gender stereotypes on advertising offensiveness and attitude toward advertising in general"
+        ],
+        "author": [
+          {
+            "given": "Bruce A.",
+            "family": "Huhmann",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yam B.",
+            "family": "Limbu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              14
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.4324/9781351213745-4",
+        "type": "book-chapter"
+      },
+      {
+        "DOI": "10.31274/td-20250603-132",
+        "title": [
+          "Gender advertising in the U.S. and Taiwan: Exporting cultural stereotypes"
+        ],
+        "author": [
+          {
+            "given": "Yi-Yun",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "URL": "https://doi.org/10.31274/td-20250603-132",
+        "type": "dissertation"
+      }
+    ],
+    "items-per-page": 10,
+    "query": {
+      "start-index": 0,
+      "search-terms": "gender stereotypes advertising consumer dignity racial discrimination"
+    }
+  }
+}
