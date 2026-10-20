@@ -26,7 +26,7 @@ references: [shinkle-2008, huppauf-wulf-2009, rubin-2023]
 
 <!-- prettier-ignore-end -->
 
-**Shared guide:** [Dignity in fashion image and media]({{ '/dignity/' | relative_url }}) — documented cases and activities for revising image and communication decisions.
+**Shared guide:** [Dignity in fashion image and media]({{ '/dignity/en/' | relative_url }}) — documented cases and activities for revising image and communication decisions.
 
 
 ---

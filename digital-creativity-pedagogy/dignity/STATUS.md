@@ -6,8 +6,9 @@ been committed, pushed or deployed. TC implementation is a later stage.
 
 ## Delivered
 
-- English guide: `docs/dignity/index.md`, route `/dignity/`.
+- English guide: `docs/dignity/en/index.md`, route `/dignity/en/`.
 - Spanish companion: `docs/dignity/es/index.md`, route `/dignity/es/`.
+- Root locale index: `docs/dignity/index.md`, route `/dignity/`.
 - Six source-grounded concepts, five distinct supplemental cases, two
   portfolio labs and eight shorter classroom activities.
 - Integration links in eight relevant image/media lesson pages and the

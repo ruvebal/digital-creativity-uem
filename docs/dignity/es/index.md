@@ -24,7 +24,7 @@ undated_source_gaps: [{"status": "[BIBLIO-GAP]", "db": "/Users/ruvebal/ahmes-lib
 {% include dignity/background.html %}
 
 **Guía compartida para Creación Digital I–II y Nuevos Medios.**
-[English version]({{ '/dignity/' | relative_url }}).
+[English version]({{ '/dignity/en/' | relative_url }}).
 
 ¿Cómo puede la comunicación de moda despertar deseo y reconocer a quienes
 aparecen en ella, la producen y la reciben? Investiga una

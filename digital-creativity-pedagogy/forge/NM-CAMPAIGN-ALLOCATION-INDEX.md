@@ -44,7 +44,7 @@ fits, return to Profield research for a new verified case before proceeding.
 
 ## Shared dignity guide — reserved cases
 
-The English `/dignity/` guide and Spanish `/dignity/es/` mirror form **one
+The English `/dignity/en/` guide and Spanish `/dignity/es/` mirror form **one
 canonical teaching owner**, `DIGNITY`. The following seven supplemental cases
 are unranked. Their analyses live in that guide and must not be copied into
 U1–U6, their decks, labs or assignments. Unit lessons may link to the guide.

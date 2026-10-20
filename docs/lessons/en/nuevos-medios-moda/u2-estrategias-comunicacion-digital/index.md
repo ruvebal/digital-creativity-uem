@@ -14,7 +14,7 @@ master_idea: 'Una estrategia digital de moda es un sistema de presencia — voz,
 deck_url: /tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/
 ---
 
-**Shared guide:** [Dignity in fashion image and media]({{ '/dignity/' | relative_url }}) — documented cases and activities for revising image and communication decisions.
+**Shared guide:** [Dignity in fashion image and media]({{ '/dignity/en/' | relative_url }}) — documented cases and activities for revising image and communication decisions.
 
 
 ## Teaching language

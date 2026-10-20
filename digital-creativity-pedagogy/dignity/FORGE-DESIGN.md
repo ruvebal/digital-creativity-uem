@@ -12,10 +12,10 @@ Read the three guía JSONs and attempt the live matching PDFs. Contract facts
 stay in those guides; the dignity activity menu has suggested durations,
 not newly allocated official contact hours.
 
-Canonical shared route: `/dignity/` in English, matching the shared
-master-lecture surfaces. Spanish companion: `/dignity/es/`, derived from the
-same evidence and editorial decisions. Existing NM Spanish lessons remain
-the primary unit surfaces; the two guide locales represent one case owner.
+The root route `/dignity/` is a locale index. English guide: `/dignity/en/`;
+Spanish companion: `/dignity/es/`. Both derive from the same evidence and
+editorial decisions. Existing NM Spanish lessons remain the primary unit
+surfaces; the two guide locales represent one case owner.
 
 ## Backward design
 

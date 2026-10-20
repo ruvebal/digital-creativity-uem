@@ -2,8 +2,9 @@
 
 Date: 2026-10-20. Branch: `codex/dignity-cascade`.
 Scope: five supplied Dignity PDFs; existing critical-thinking/ethics vaults;
-two distinct Profield investigations (ideas and images); a public `/dignity/`
-student guide with image and media pathways; a later TC handoff.
+two distinct Profield investigations (ideas and images); a public locale index
+at `/dignity/` with English and Spanish student guides at `/dignity/en/` and
+`/dignity/es/`; a later TC handoff.
 
 Execution result and review packet: [`STATUS.md`](STATUS.md).
 
@@ -28,7 +29,7 @@ Execution result and review packet: [`STATUS.md`](STATUS.md).
 | D3b | Profield images investigation: visual mechanisms, campaign evidence and media access | Separate run; source/rights status; linked evidence; no auto-publication of harmful images |
 | D4 | Cross-project neural search over existing vaults | Exact queries and scopes recorded; discovery hits promoted only after full Ahmes page + cite checks |
 | D5 | Evidence matrix and campaign ledger | Distinguish normative framework, empirical study, regulatory ruling and instructor hypothesis; respect U1–U6 exclusivity |
-| D6 | `/dignity/` guide and activity proposals | Skill-led structure and prose; bibliography; image/media pathways; assessable artefacts; voluntary participation |
+| D6 | `/dignity/` locale index, `/dignity/en/` and `/dignity/es/` guides and activity proposals | Skill-led structure and prose; bibliography; image/media pathways; assessable artefacts; voluntary participation |
 | D7 | Build, publication/citation/campaign gates and critical review | No private metadata in HTML; links and bibliography checked; unresolved limitations reported |
 | D8 | TC handoff | Transfer questions and design proposals only; TC curriculum changes remain a later stage |
 
@@ -41,7 +42,7 @@ independent reviewer or independent model pass.
 ## Publication and classroom decisions
 
 - One supplementary guide, not a change to official hours, weights or outcomes.
-- Root route `/dignity/`, English-first, with links to existing image and media lessons.
+- Root route `/dignity/` selects a locale; full English and Spanish guides live at `/dignity/en/` and `/dignity/es/`.
 - Existing allocated NM campaigns stay in their sole lesson; the guide links to
   those lesson sections instead of reproducing their campaign analyses.
 - Additional cases receive stable IDs and explicit supplemental/unranked status.

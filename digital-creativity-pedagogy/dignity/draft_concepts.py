@@ -65,7 +65,7 @@ Use plain words. No direct quotations, quoted slogans, invented examples, new so
 FINAL OUTPUT RULE: Output exactly four sentences in this literal order: [S1] statement. [S2] source example with {citation}. [S3] one question? [S4] boundary statement. No quotation marks. No author abbreviations. No additional question. No headings. All four markers are required.'''
   (record/'BRIEF.md').write_text(brief);(record/'prompt.md').write_text(prompt)
   (record/'verbatims.json').write_text(json.dumps([{'citation':citation,'db_path':row['db'],'node_id':row['node'],'verbatims':[row['content']]}],ensure_ascii=False))
-  (record/'provenance.json').write_text(json.dumps({'course':'DC image + NM media','guide':'/dignity/','idea':slug,'evidence':row,'harness':'lesson-scribe v0.1 / prompt-v2.1','independent_human_review':False},ensure_ascii=False,indent=2))
+  (record/'provenance.json').write_text(json.dumps({'course':'DC image + NM media','guide':'/dignity/en/','idea':slug,'evidence':row,'harness':'lesson-scribe v0.1 / prompt-v2.1','independent_human_review':False},ensure_ascii=False,indent=2))
   attempt=sum(r['idea']==slug for r in records)
   prompt+='\nBegin with the literal marker [S1]. Include [S2], [S3], [S4] exactly once each. This is a required output schema, not prose decoration.\n'
   (record/'prompt.md').write_text(prompt)

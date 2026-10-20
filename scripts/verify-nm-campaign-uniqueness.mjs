@@ -8,7 +8,7 @@ const indexPath = path.join(
 );
 const lessonRoot = path.join(root, "docs/lessons/es/nuevos-medios-moda");
 const deckRoot = path.join(root, "docs/tracks/es/uem/2627-nm");
-const guideFiles = ["docs/dignity/index.md", "docs/dignity/es/index.md"]
+const guideFiles = ["docs/dignity/en/index.md", "docs/dignity/es/index.md"]
   .map((file) => path.join(root, file))
   .filter((file) => fs.existsSync(file));
 
