@@ -243,46 +243,46 @@
       "id": "06-dialogue",
       "corner": "right",
       "en": {
-        "alt": "A model, image editor and creative director seated at the same height discuss a fully clothed fashion portrait on a monitor.",
+        "alt": "The model, wearing the same taupe blazer and slate-gray trousers as in the monitor portrait, sits at the review table and points to her image while two older male editors listen.",
         "question": "Retouching critique: whose objection could change the edit? What evidence would make you revise your own judgement?",
         "image_prompt": "Identify an edit that would need discussion and approval.",
         "media_prompt": "Who can approve publication, request a correction or reply?",
         "open": "Open the original image",
         "credit": "Fictional scene generated with AI · @ruvebal · 2026. This image is a discussion prompt, not documentary evidence.",
-        "negative_alt": "Two editors compare a natural fashion portrait with a subtly narrowed and smoothed version on a monitor; the model is absent from the room.",
+        "negative_alt": "Two older male editors review a subtly narrowed and smoothed version of the model’s portrait on a monitor; the model is absent from the room.",
         "flip_positive": "Flip to a dignity-affirming alternative",
         "flip_negative": "Show the critical framing",
         "caption_critical": "Critical framing — fictional scenario. Flip to compare a dignity-affirming alternative.",
         "caption_alternative": "Dignity-affirming alternative — fictional scenario. Flip back to compare the critical framing.",
         "answer_label": "Reveal one possible answer",
-        "answer": "The critical comparison treats a narrowed, smoothed portrait as the polished endpoint and gives the model little influence over the edit. The alternative shows the model and editors reviewing the image together, making the changes open to discussion and approval. The point is not that every retouch is wrong or every unretouched image is ethical; the question is who decides, with what brief, and with what right to revise or refuse."
+        "answer": "Both versions show the same model, two older male reviewers and the same retouching review. In the critical frame, the reviewers decide while she is absent; in the alternative, she is present and participates in reviewing her own portrait. The difference is her opportunity to take part in decisions about her image. This does not mean every retouch is wrong or that an unretouched image is automatically ethical; ask who decides, under what brief, and with what right to revise or refuse."
       },
       "es": {
-        "alt": "Una modelo, una persona que edita imágenes y una directora creativa, sentadas a la misma altura, comentan un retrato de moda en una pantalla.",
+        "alt": "La modelo, con la misma chaqueta color topo y pantalones gris pizarra que en el retrato de la pantalla, participa en la mesa de revisión y señala su imagen mientras dos editores mayores la escuchan.",
         "question": "Crítica del retoque: ¿qué objeción podría cambiar la edición? ¿Qué prueba te haría revisar tu propio juicio?",
         "image_prompt": "Identifica una edición que exigiría discusión y aprobación.",
         "media_prompt": "¿Quién puede aprobar la publicación, pedir una corrección o responder?",
         "open": "Abrir la imagen original",
         "credit": "Escena ficticia generada con IA · @ruvebal · 2026. Imagen para el debate, no prueba documental.",
-        "negative_alt": "Dos personas editoras comparan en una pantalla un retrato de moda natural con una versión sutilmente estrechada y suavizada; la modelo está ausente de la sala.",
+        "negative_alt": "Dos editores mayores revisan en una pantalla un retrato de la modelo sutilmente estrechado y suavizado; la modelo no está presente en la sala.",
         "flip_positive": "Ver alternativa centrada en la dignidad",
         "flip_negative": "Ver la lectura crítica",
         "caption_critical": "Lectura crítica — escena ficticia. Gira la imagen para compararla con una alternativa centrada en la dignidad.",
         "caption_alternative": "Alternativa centrada en la dignidad — escena ficticia. Vuelve a girar para comparar la lectura crítica.",
         "answer_label": "Ver una posible respuesta",
-        "answer": "La comparación crítica presenta el retrato estrechado y suavizado como resultado ideal y deja a la modelo poca influencia sobre la edición. La alternativa muestra a la modelo y al equipo revisando la imagen juntos, de modo que los cambios puedan discutirse y aprobarse. No se afirma que todo retoque sea incorrecto ni que una imagen sin retocar sea ética: importa quién decide, con qué encargo y con qué posibilidad de revisar o rechazar."
+        "answer": "Ambas versiones muestran a la misma modelo, los mismos dos editores mayores y la misma revisión del retoque. En la imagen crítica, los editores deciden mientras ella está ausente; en la alternativa, está presente y participa en la revisión de su propio retrato. La diferencia es su posibilidad de intervenir en las decisiones sobre su imagen. Esto no significa que todo retoque sea incorrecto ni que una imagen sin retocar sea automáticamente ética: pregunta quién decide, con qué encargo y con qué posibilidad de revisar o rechazar."
       },
-      "asset": "/assets/images/dignity/scenes/dignity-06-dialogue-286d0710a11c.png",
-      "width": 1934,
+      "asset": "/assets/images/dignity/scenes/dignity-06-dialogue-positive-9d220995c1c1.png",
+      "width": 1933,
       "height": 813,
-      "sha256": "286d0710a11c317ee402e439a67fb6b4ad1a8a82ac6e8b1da1d03e2f5a1cf337",
+      "sha256": "9d220995c1c15e7a04591b6653754c84da3b5bd95f1ccc5c0782458fb185178d",
       "authorship": "AI-generated fictional illustration under @ruvebal art direction",
-      "created": "2026-10-20",
-      "negative_asset": "/assets/images/dignity/scenes/dignity-06-dialogue-critical-ad5cb3d3fc48.png",
+      "created": "2026-10-21",
+      "negative_asset": "/assets/images/dignity/scenes/dignity-06-dialogue-critical-9160e378030a.png",
       "negative_width": 1933,
       "negative_height": 813,
-      "negative_sha256": "ad5cb3d3fc485c2264a863b59e62ed7acb581f6df9e530a0f597f658b3fd6d81",
-      "negative_authorship": "AI-generated fictional illustration, revised for visual clarity under @ruvebal art direction"
+      "negative_sha256": "9160e378030afcc403955a46076771e0bc3dace247fb8992abf420855f7a4f43",
+      "negative_authorship": "AI-generated fictional illustration, revised for matched reviewers under @ruvebal art direction"
     }
   ]
 }
