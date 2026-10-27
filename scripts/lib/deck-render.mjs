@@ -299,7 +299,7 @@ export function renderSlide(slide, deck, background, ctx = {}) {
       ? `<p class="student-media-slide__citation">${slide.citation.href ? `<a href="${escapeHtml(withBase(slide.citation.href, ctx.base))}">${escapeHtml(slide.citation.label)}</a>` : escapeHtml(slide.citation.label)}</p>`
       : '',
     slide.external_link?.href
-      ? `<p class="student-media-slide__external"><a href="${escapeHtml(slide.external_link.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(slide.external_link.label || 'Open related media')}</a></p>`
+      ? `<p class="student-media-slide__external"><a href="${escapeHtml(withBase(slide.external_link.href, ctx.base))}" target="_blank" rel="noopener noreferrer">${escapeHtml(slide.external_link.label || 'Open related media')}</a></p>`
       : '',
     // Lab cards: prefer portfolio_trace over a duplicate prompt (space for forge type floors).
     (slide.prompt && !slide.portfolio_trace)

@@ -173,3 +173,13 @@ test('inline emphasis: **key** → accent strong, ==tension== → mark, HTML sti
   assert.equal(inlineHtml('no marks here'), 'no marks here');
   assert.equal(inlineHtml('1 ** 2'), '1 ** 2');
 });
+
+test('external_link: site paths get the base path, absolute URLs stay untouched', () => {
+  const deck = { unit_label: 'U', slides: [
+    { slide_id: 'a', slide_role: 'masterclass', background_kind: 'none', heading: 'A', external_link: { href: '/lessons/en/x/#y', label: 'Lesson' } },
+    { slide_id: 'b', slide_role: 'masterclass', background_kind: 'none', heading: 'B', external_link: { href: 'https://example.org/p', label: 'Out' } },
+  ] };
+  const html = renderDeck(deck, { base: '/site', geometric: ['uem-henon-pass-01-structure-2fc3613c22a1.svg'], koch: 'k-12345678.svg' });
+  assert.match(html, /href="\/site\/lessons\/en\/x\/#y"/);
+  assert.match(html, /href="https:\/\/example\.org\/p"/);
+});
