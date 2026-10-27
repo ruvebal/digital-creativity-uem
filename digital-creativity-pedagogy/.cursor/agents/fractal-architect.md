@@ -1,7 +1,7 @@
 ---
 name: fractal-architect
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
 description: >-
   Mathematical visual-systems specialist for verified formulae, recursive
   geometry, seeded generative backgrounds, and formula-fidelity audits. Use

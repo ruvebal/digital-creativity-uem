@@ -1,7 +1,7 @@
 ---
 name: fractal-architect
 metadata:
-  version: "1.2.1"
+  version: "1.3.0"
 description: Design reproducible, formula-governed fractal and recursive visual systems for curriculum backgrounds and code art. Use when a visual-forger task needs verified mathematics, seeded variation, recursive geometry, or a formula-fidelity audit; do not use it to ingest a bibliography or to present decorative complexity as mathematical evidence.
 ---
 
@@ -57,6 +57,10 @@ publication checks. This skill owns the recursive system and its evidence.
   nested complete figures. Best for modular systems and spatial rhythm.
 - **DLA / stochastic growth:** seeded accretion with explicit bounds. Best for
   networks and organic formation; never imply that randomness is unseeded.
+- **Mondrian tree (geometry_only):** recursive binary branching for *early*
+  Mondrian tree atmosphere (pitch/course backgrounds). Read
+  [`references/mondrian-tree-mode.md`](references/mondrian-tree-mode.md).
+  Refuse conflating this with Neo-Plastic grids or authenticity scores.
 
 Combine at most two primary grammars in one background. Glitch and noise are
 surface operators, not substitutes for composition.
@@ -69,6 +73,8 @@ For extraction or provenance work, read
 [`references/slide-backgrounds.md`](references/slide-backgrounds.md).
 For public caption data, source/delivery separation, or cold development work,
 also read [`references/caption-manifests.md`](references/caption-manifests.md).
+For Mondrian Project pitch/course tree atmospheres, also read
+[`references/mondrian-tree-mode.md`](references/mondrian-tree-mode.md).
 For a multi-phase skill or pipeline change, begin at
 [`cascade/IGNITOR.md`](cascade/IGNITOR.md).
 

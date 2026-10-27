@@ -188,6 +188,15 @@ hierarchy, stranger but legible form, and fewer arbitrary effects.
 request and grounding request written; overnight run auditable; four deck
 background systems built and verified; no internal metadata published.
 
+## Related queue (Mondrian Project — do not start from this file alone)
+
+**Q-FA1** (external): **DONE** 26 Oct 2026 — Mondrian *tree* mode
+(`references/mondrian-tree-mode.md`, skill 1.3.0) + pitch/course backgrounds
+via `generate-mondrian-tree-backgrounds.mjs`. Grounded on Bountis et al. (2017)
+DOI `10.1504/ijart.2017.083902` (evaluator_safe). Tracked at
+`web-atelier-udit/frontend-pedagogy/forge/mondrian-project/WORK-QUEUE.md`.
+Trees remain prologue atmosphere — not the FE I neoplastic product grammar.
+
 ## Invocation later
 
 Use this exact prompt:
