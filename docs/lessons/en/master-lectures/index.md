@@ -16,3 +16,4 @@ Shared **analysis methods** used across tracks. Not official CONTENIDOS unit IDs
 | **Image morphology** | [Lesson]({{ '/lessons/en/master-lectures/image-morphology/' | relative_url }}) | [Deck]({{ '/master-lectures/image-morphology/' | relative_url }}) |
 | **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
 | **Dignity in fashion image and media** | [Guide and classroom activities]({{ '/dignity/en/' | relative_url }}) | Activity menu in the guide |
+| **Dance, cinema and fashion** | [Lesson (EN)]({{ '/lessons/en/master-lectures/dance-cinema-fashion/' | relative_url }}) · [Lección (ES)]({{ '/lessons/es/master-lectures/danza-cine-moda/' | relative_url }}) | Films, images and phone-camera Lab in the lesson |

@@ -328,3 +328,20 @@
   type: master-lecture
   track: master-lectures
   unit_id: ML-FIA
+
+- slug: dance-cinema-fashion
+  title:
+    en: 'Master Lecture · Dance, cinema and fashion'
+    es: 'Master Lecture · Danza, cine y moda'
+  path:
+    en: /lessons/en/master-lectures/dance-cinema-fashion/
+    es: /lessons/es/master-lectures/danza-cine-moda/
+  file:
+    en: lessons/en/master-lectures/dance-cinema-fashion/index.md
+    es: lessons/es/master-lectures/danza-cine-moda/index.md
+  status:
+    en: pilot
+    es: pilot
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-DCF
