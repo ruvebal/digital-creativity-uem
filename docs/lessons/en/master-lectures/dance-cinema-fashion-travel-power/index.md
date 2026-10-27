@@ -165,6 +165,11 @@ An American dancer presents herself as a Hindu goddess for Western audiences. **
 
 Fashion has long pushed the body away from “natural” proportion; Henri Focillon wrote that “fashion invents an artificial humanity” (Focillon, quoted in [de Perthuis 2008, 169](#ref-de-perthuis-2008)). Fashion images can also refuse grace on purpose: Shinkle describes a model “tossed about wildly like a crash-test dummy”, outside the usual lexicon of poses [(Shinkle 2008, 222)](#ref-shinkle-2008).
 
+<figure class="dcf-media" style="max-width: 520px" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/rival-artistes-hb-1832-nypl.webp' | relative_url }}" alt="An 1832 lithograph caricature (HB Sketches no. 213): two men dressed as ballerinas, one in a blue tunic and plumed hat, the other in pink, compete in arabesque; speech bubbles above them." loading="lazy" decoding="async">
+<figcaption><strong>Costume as ridicule.</strong> <em>The Rival Artistes</em>, John Doyle (“HB”), HB Sketches no. 213, published by Thomas McLean, London, 17 July 1832: two public men are made strange by being dressed as ballet dancers. <em>Look:</em> who gets the tutu, and who is the joke for? Public domain · <a href="https://digitalcollections.nypl.org/items/4bf32a50-f8d0-0132-2235-58d385a7b928" target="_blank" rel="noopener">The New York Public Library</a>.</figcaption>
+</figure>
+
 Spanish designers such as **David Delfín** and **Ana Locking** have been discussed in terms of provocation and the strange body; the Paris label **Matières Fécales** works with shock. *Abjection* is a theory about who is pushed out — **not** a synonym for “shocking image”. This session gives no verdict on them: in your own research, bring **evidence, not adjectives** — the designer's own statement, the press reception, who wore and who was made to look strange.
 
 The newest case is close to this room. **Matières Fécales** (French for “fecal matter”), founded in Montreal in 2014 by Hannah Rose Dalton and Steven Raj Bhaskaran, built its name on disgust and transformation — and in 2026 dressed a Hollywood star for the Met Gala, whose theme that year was “Costume Art”.

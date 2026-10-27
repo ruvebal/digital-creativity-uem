@@ -183,6 +183,11 @@ A camera does not simply record a dance. It chooses a frame, a distance and a cu
 </figure>
 </div>
 
+<figure class="dcf-media" style="max-width: 460px" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/a-lively-idea-1828-nypl.webp' | relative_url }}" alt="An 1828 hand-coloured etching: in a ballroom with arches, a couple waltz in a close hold — her pale ruffled gown pressed to his blue coat — while other couples watch from the sides." loading="lazy" decoding="async">
+<figcaption><strong>Before the camera, the print framed the couple.</strong> <em>A Lively Idea</em>, etched by T. Jones, published by S. W. Fores, London, February 1828: a satire of the waltz, still a scandal of close bodies and swinging skirts. <em>Look:</em> the printmaker chooses the frame — the couple centre stage, the watchers at the edges — as a camera would a century later. Public domain · <a href="https://digitalcollections.nypl.org/items/43627a60-fcdc-0132-442a-58d385a7bbd0" target="_blank" rel="noopener">The New York Public Library</a>.</figcaption>
+</figure>
+
 <div class="dcf-watch" markdown="1">
 **Watch at source (instructor screen, licensed copy):** the “Cheek to Cheek” number from *Top Hat* (1935). No verified official embed exists for this page, so the professor plays it from a licensed copy. **While it runs, count:** how many cuts? Are feet and hem in frame? When does the camera go closer, and what does it lose?
 </div>
