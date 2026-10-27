@@ -8,6 +8,11 @@ description: 'Índice de unidades Canvas y diapositivas para Nuevos medios — R
 
 # Lecciones — Nuevos medios
 
+<figure class="lesson-figure lesson-figure--hero" id="figure-index-hero" markdown="0">
+<img src="{{ '/assets/images/lesson-media/nm-index/lautrec-sescau-1896-bf651ca6c925cff0.webp' | relative_url }}" alt="Cartel litográfico de Toulouse-Lautrec para el fotógrafo Paul Sescau (9, Place Pigalle): a la derecha el fotógrafo se esconde bajo la tela de su cámara y apunta a una mujer con vestido rojo y antifaz que pasa a la izquierda." loading="eager" decoding="async">
+<figcaption><strong>Antes de las redes, la calle.</strong> Toulouse-Lautrec anunció en 1896 el estudio de un fotógrafo de París: una cámara, una mujer que pasa y un nombre comercial. Esta asignatura sigue esa misma pregunta en las plataformas: quién mira, quién es mirado y quién vende.<br><span class="slide-caption__title">Lautrec the photographer sescau (poster)</span> · <span class="slide-caption__author">Henri de Toulouse-Lautrec</span> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener">Dominio público</a> · <a href="https://commons.wikimedia.org/wiki/File:Lautrec_the_photographer_sescau_(poster)_1894.jpg" target="_blank" rel="noopener">Fuente</a></figcaption>
+</figure>
+
 Docencia **online** en español. Las entregas, rúbricas y fechas viven en **Canvas**; esta web es el material de apoyo (temario + decks).
 
 Track: [Nuevos medios — RRSS y plataformas]({{ '/tracks/es/nuevos-medios-moda/' | relative_url }}) · [Evaluación]({{ '/evaluation/' | relative_url }}).

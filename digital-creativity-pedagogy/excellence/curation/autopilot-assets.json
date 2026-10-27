@@ -89,6 +89,10 @@
         {
           "project_id": "ml",
           "unit_id": "ML-FIA"
+        },
+        {
+          "project_id": "nm",
+          "unit_id": "U3"
         }
       ],
       "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
@@ -96,21 +100,21 @@
       "alt_text": "A historical beauty advertisement",
       "author": "Woodbury / advertiser (1945 publication)",
       "author_death_year": null,
-      "licence": "PD-old-70",
+      "licence": "PD-EU",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream%2C_1945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "provider": "wikimedia_commons",
-      "eu_term_ok": false,
-      "eu_term_reason": "US advert 1945; EU anonymous/corporate publication term doubtful — flagged; EU term not fully verified",
-      "rights_status": "flagged",
-      "flag_reason": "US advert 1945; EU anonymous/corporate publication term doubtful — flagged; EU term not fully verified",
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate advertisement (Woodbury) published 1945: the EU term for anonymous works, 70 years from publication, expired in 2015; US copyright not renewed. Professor reviewed and cleared 2026-10-27.",
+      "rights_status": "ok",
+      "flag_reason": null,
       "commons_licence": "Public domain",
       "commons_artist": "Woodbury Soap Company",
       "cropped": false,
-      "rights_checked_on": "2026-10-07",
+      "rights_checked_on": "2026-10-27",
       "rights_source": "Commons API imageinfo extmetadata + curated death years / NYPL digitalcollections; AUTOPILOT flagged on doubt",
-      "approved_by": "autopilot (final review pending)",
+      "approved_by": "professor in-session instruction 2026-10-27 (was autopilot-flagged)",
       "brief": "1945 Woodbury Complete Beauty Cream advertisement with Dorothy Lamour: a commercial beauty still showing how fashion imagery sells a practice, not only a garment.",
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
@@ -197,6 +201,10 @@
         {
           "project_id": "dc",
           "unit_id": "I.1"
+        },
+        {
+          "project_id": "nm",
+          "unit_id": "U3"
         }
       ],
       "title": "Beauty is my business, says Anne Piron, 1950.jpg",
@@ -204,21 +212,21 @@
       "alt_text": "Beauty is my business, says Anne Piron, 1950.jpg",
       "author": "Magazine photographer / Anne Piron feature (1950)",
       "author_death_year": null,
-      "licence": "PD-old-70",
+      "licence": "PD-EU",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beauty_is_my_business,_says_Anne_Piron,_1950.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beauty_is_my_business%2C_says_Anne_Piron%2C_1950.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "provider": "wikimedia_commons",
-      "eu_term_ok": false,
-      "eu_term_reason": "1950 magazine still; identifiable sitter — flagged; EU term not fully verified",
-      "rights_status": "flagged",
-      "flag_reason": "1950 magazine still; identifiable sitter — flagged; EU term not fully verified",
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate advertisement (Sweetheart Soap) published 1950: the EU term for anonymous works, 70 years from publication, expired in 2020; US copyright not renewed. Professor reviewed and cleared 2026-10-27.",
+      "rights_status": "ok",
+      "flag_reason": null,
       "commons_licence": "Public domain",
       "commons_artist": "Sweetheart Soap",
       "cropped": false,
-      "rights_checked_on": "2026-10-07",
+      "rights_checked_on": "2026-10-27",
       "rights_source": "Commons API imageinfo extmetadata + curated death years / NYPL digitalcollections; AUTOPILOT flagged on doubt",
-      "approved_by": "autopilot (final review pending)",
+      "approved_by": "professor in-session instruction 2026-10-27 (was autopilot-flagged)",
       "brief": "1950 magazine still 'Beauty is my business, says Anne Piron': a working beauty professional framed for commerce — art and commerce share the same page.",
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
@@ -2876,6 +2884,147 @@
       "brief": "Faragó's 1902 Budapest fashion-store poster shows each dress from hat to hem: a frame that keeps body and product together.",
       "origin": "NM U3 marketing and advertising lesson + deck (historical/contextual analogues; no allocated-campaign imagery)",
       "curator_note": "Low-resolution scan (418×870): fine behind a lab card, not for a full-bleed cover."
+    },
+    {
+      "asset_id": "wikimedia:File:Camp - Notes on Fashion at the Met - Walter Van Beirendonck and Vivienne Westwood (73851).jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U3"
+        }
+      ],
+      "title": "Camp - Notes on Fashion at the Met - Walter Van Beirendonck and Vivienne Westwood (73851).jpg",
+      "raw_title": "File:Camp - Notes on Fashion at the Met - Walter Van Beirendonck and Vivienne Westwood (73851).jpg",
+      "alt_text": "Dos maniquíes sobre fondo rosa en la exposición «Camp: Notes on Fashion» del Met: a la izquierda un mono color carne de Walter Van Beirendonck con músculos y genitales dibujados; a la derecha un body de Vivienne Westwood con un corazón rojo; ambos llevan máscaras de corazón.",
+      "author": "Rhododendrites",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Camp_-_Notes_on_Fashion_at_the_Met_-_Walter_Van_Beirendonck_and_Vivienne_Westwood_(73851).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Camp_-_Notes_on_Fashion_at_the_Met_-_Walter_Van_Beirendonck_and_Vivienne_Westwood_%2873851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "provider": "wikimedia_commons",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-27",
+      "rights_source": "Commons API imageinfo extmetadata + file-page licence template; death years checked against Wikidata",
+      "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
+      "eu_term_reason": "Licence granted by the photographer (own work, CC BY-SA 4.0); validity does not rest on an expired term.",
+      "brief": "Trompe-l'oeil bodysuits by Van Beirendonck (SS 2009) and Westwood (AW 1989–90) at the Met, 2019: the garment prints the body, so the product and the body become the same image.",
+      "origin": "NM U3 masterclass-6 (professor pick 2026-10-27)",
+      "curator_note": "Photo licence is the photographer's; the garments are works by living/recent designers shown in a museum display — professor-approved for teaching commentary."
+    },
+    {
+      "asset_id": "wikimedia:File:Johannes Handschin - Poster Lindner Pelze.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U3"
+        }
+      ],
+      "title": "Johannes Handschin - Poster Lindner Pelze.jpg",
+      "raw_title": "File:Johannes Handschin - Poster Lindner Pelze.jpg",
+      "alt_text": "Cartel de 1929 de Johannes Handschin para Lindner Pelze: rostro femenino de labios rojos y melena pelirroja enmarcado por un gran cuello de piel blanca; abajo, el rótulo «Lindner Pelze, Falknerstr. 33».",
+      "author": "Johannes Handschin",
+      "author_death_year": 1948,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Handschin_-_Poster_Lindner_Pelze.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Johannes_Handschin_-_Poster_Lindner_Pelze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "provider": "wikimedia_commons",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-27",
+      "rights_source": "Commons API imageinfo extmetadata + file-page licence template; death years checked against Wikidata",
+      "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
+      "eu_term_reason": "Author died 1948; 1948+70 < 2026: public domain in the EU.",
+      "brief": "The same 1929 furrier, now selling through a face framed by fur.",
+      "origin": "NM U3 lesson gallery"
+    },
+    {
+      "asset_id": "wikimedia:File:The Ladies' home journal (1948) (14578727659).jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U3"
+        }
+      ],
+      "title": "The Ladies' home journal (1948) (14578727659).jpg",
+      "raw_title": "File:The Ladies' home journal (1948) (14578727659).jpg",
+      "alt_text": "Anuncio a página completa de 7-Up en The Ladies' Home Journal (enero de 1948): una familia juega con un tren eléctrico alrededor de una mesa con botellas verdes; lema «Fresh up with Seven-Up!».",
+      "author": "The Seven-Up Company (advertiser) · Internet Archive Book Images",
+      "author_death_year": null,
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Ladies%27_home_journal_(1948)_(14578727659).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Ladies%27_home_journal_%281948%29_%2814578727659%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "provider": "wikimedia_commons",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-27",
+      "rights_source": "Commons API imageinfo extmetadata + file-page licence template; death years checked against Wikidata",
+      "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
+      "eu_term_reason": "Anonymous corporate advertisement published in 1948: the EU term for anonymous works (70 years from publication) expired in 2018; Flickr Commons “no known copyright restrictions”.",
+      "brief": "A 1948 magazine advertisement that sells a soft drink as family togetherness.",
+      "origin": "NM U3 lesson gallery"
+    },
+    {
+      "asset_id": "nypl:43627a60-fcdc-0132-442a-58d385a7bbd0",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-DCF"
+        }
+      ],
+      "title": "A lively idea",
+      "raw_title": "A lively idea",
+      "alt_text": "Grabado coloreado de 1828: en un salón con arcos, una pareja baila un vals muy ceñida mientras otras parejas observan desde los lados.",
+      "author": "T. Jones (etcher) · S. W. Fores (publisher, London)",
+      "author_death_year": null,
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://digitalcollections.nypl.org/items/43627a60-fcdc-0132-442a-58d385a7bbd0",
+      "source_file_url": "https://images.nypl.org/index.php?id=5366883&t=w",
+      "provider": "nypl",
+      "eu_term_ok": true,
+      "eu_term_reason": "Etching published in London in February 1828 (imprint on the plate): any author is long dead; public domain in the EU. NYPL rights statement: public domain.",
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-27",
+      "rights_source": "Imprint read from the NYPL image; NYPL public-domain statement per discovery index (item page behind CAPTCHA, not reread)",
+      "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
+      "brief": "An 1828 satirical print of the waltz: the closed couple dance as a scandal of bodies and dress.",
+      "origin": "Dance–Cinema–Fashion masters: registered, not yet bound to a slide"
+    },
+    {
+      "asset_id": "nypl:4bf32a50-f8d0-0132-2235-58d385a7b928",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-DCF"
+        }
+      ],
+      "title": "The rival artistes",
+      "raw_title": "The rival artistes",
+      "alt_text": "Caricatura litográfica de 1832 («HB Sketches» n.º 213): dos figuras masculinas vestidas de bailarinas, una con túnica azul y sombrero de plumas, otra con túnica rosa, compiten en arabesque.",
+      "author": "John Doyle (“HB”), published by Thomas McLean",
+      "author_death_year": 1868,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://digitalcollections.nypl.org/items/4bf32a50-f8d0-0132-2235-58d385a7b928",
+      "source_file_url": "https://images.nypl.org/index.php?id=5371259&t=w",
+      "provider": "nypl",
+      "eu_term_ok": true,
+      "eu_term_reason": "Lithograph published by Thomas McLean, London, 17 July 1832 (HB Sketches 213); John Doyle died 1868; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-27",
+      "rights_source": "Imprint read from the NYPL image; NYPL public-domain statement per discovery index (item page behind CAPTCHA, not reread)",
+      "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
+      "brief": "An 1832 political caricature in which rivals perform as ballet dancers: costume and pose as public satire.",
+      "origin": "Dance–Cinema–Fashion masters: registered, not yet bound to a slide"
     }
   ]
 }

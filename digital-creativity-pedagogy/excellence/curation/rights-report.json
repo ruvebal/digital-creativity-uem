@@ -3,15 +3,15 @@
   "mode": "flag",
   "policy": "AUTOPILOT.md §0: rights recorded and flagged, not blocking; rightsVerdict stays strict. Professor reviews every flagged asset before release.",
   "year": 2026,
-  "generated_at": "2026-10-27T20:29:43.008Z",
+  "generated_at": "2026-10-27T21:13:47.846Z",
   "summary": {
     "assets": 108,
-    "pass": 48,
-    "flagged": 60,
+    "pass": 53,
+    "flagged": 55,
     "curator_flagged": 38,
-    "v2_flagged": 35,
-    "legacy_flagged": 25,
-    "wave1_flagged": 35,
+    "v2_flagged": 31,
+    "legacy_flagged": 24,
+    "wave1_flagged": 31,
     "v2_curator_flagged": 35
   },
   "assets": [
@@ -73,17 +73,15 @@
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
       "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945",
       "author": "Woodbury / advertiser (1945 publication)",
-      "licence": "PD-old-70",
+      "licence": "PD-EU",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
       "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "US advert 1945; EU anonymous/corporate publication term doubtful — flagged; EU term not fully verified",
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate advertisement (Woodbury) published 1945: the EU term for anonymous works, 70 years from publication, expired in 2015; US copyright not renewed. Professor reviewed and cleared 2026-10-27.",
       "rights_status": "flagged",
-      "verdict": "fail",
-      "reasons": [
-        "EU term not verified"
-      ]
+      "verdict": "pass",
+      "reasons": []
     },
     {
       "deck": "docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json",
@@ -138,17 +136,15 @@
       "asset_id": "wikimedia:File:Beauty is my business, says Anne Piron, 1950.jpg",
       "title": "Beauty is my business, says Anne Piron, 1950",
       "author": "Magazine photographer / Anne Piron feature (1950)",
-      "licence": "PD-old-70",
+      "licence": "PD-EU",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beauty_is_my_business,_says_Anne_Piron,_1950.jpg",
       "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "1950 magazine still; identifiable sitter — flagged; EU term not fully verified",
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate advertisement (Sweetheart Soap) published 1950: the EU term for anonymous works, 70 years from publication, expired in 2020; US copyright not renewed. Professor reviewed and cleared 2026-10-27.",
       "rights_status": "flagged",
-      "verdict": "fail",
-      "reasons": [
-        "EU term not verified"
-      ]
+      "verdict": "pass",
+      "reasons": []
     },
     {
       "deck": "docs/tracks/en/uem/2627-dci/i-1-fashion-image/data/content.json",
@@ -676,17 +672,15 @@
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
       "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945",
       "author": "Woodbury / advertiser (1945 publication)",
-      "licence": "PD-old-70",
+      "licence": "PD-EU",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
       "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "US advert 1945; EU anonymous/corporate publication term doubtful — flagged; EU term not fully verified",
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate advertisement (Woodbury) published 1945: the EU term for anonymous works, 70 years from publication, expired in 2015; US copyright not renewed. Professor reviewed and cleared 2026-10-27.",
       "rights_status": "flagged",
-      "verdict": "fail",
-      "reasons": [
-        "EU term not verified"
-      ]
+      "verdict": "pass",
+      "reasons": []
     },
     {
       "deck": "docs/tracks/en/uem/2627-dci/i-4-effects/data/content.json",
@@ -1654,17 +1648,15 @@
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
       "title": "Dorothy Lamour - Woodbury Complete Beauty Cream, 1945",
       "author": "Woodbury / advertiser (1945 publication)",
-      "licence": "PD-old-70",
+      "licence": "PD-EU",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
       "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "US advert 1945; EU anonymous/corporate publication term doubtful — flagged; EU term not fully verified",
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate advertisement (Woodbury) published 1945: the EU term for anonymous works, 70 years from publication, expired in 2015; US copyright not renewed. Professor reviewed and cleared 2026-10-27.",
       "rights_status": "flagged",
-      "verdict": "fail",
-      "reasons": [
-        "EU term not verified"
-      ]
+      "verdict": "pass",
+      "reasons": []
     },
     {
       "deck": "docs/tracks/en/uem/2627-ml/fashion-image-analysis/data/content.json",
@@ -2148,17 +2140,15 @@
       "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
       "title": "Beauty advertisement · I4 accepted",
       "author": "Woodbury / advertiser (1945 publication)",
-      "licence": "PD-old-70",
+      "licence": "PD-EU",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dorothy_Lamour_-_Woodbury_Complete_Beauty_Cream,_1945.jpg",
       "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "US advert 1945; EU anonymous/corporate publication term doubtful — flagged; EU term not fully verified",
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate advertisement (Woodbury) published 1945: the EU term for anonymous works, 70 years from publication, expired in 2015; US copyright not renewed. Professor reviewed and cleared 2026-10-27.",
       "rights_status": null,
-      "verdict": "fail",
-      "reasons": [
-        "EU term not verified"
-      ]
+      "verdict": "pass",
+      "reasons": []
     },
     {
       "deck": "docs/tracks/en/uem/2627-ml/image-morphology/data/content.json",
@@ -2394,15 +2384,15 @@
       "slide_id": "masterclass-6",
       "heading": "Cuando el cuerpo desplaza al producto",
       "media_slot_id": "U3.masterclass-6",
-      "asset_id": "wikimedia:File:Regate et chapeau à plumes, advertising poster, 1895.jpg",
-      "title": "Regate et chapeau à plumes, advertising poster, 1895",
-      "author": "Auguste Donnay",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Regate_et_chapeau_%C3%A0_plumes,_advertising_poster,_1895.jpg",
-      "author_death_year": 1921,
+      "asset_id": "wikimedia:File:Camp - Notes on Fashion at the Met - Walter Van Beirendonck and Vivienne Westwood (73851).jpg",
+      "title": "Camp - Notes on Fashion at the Met - Walter Van Beirendonck and Vivienne Westwood (73851)",
+      "author": "Rhododendrites",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Camp_-_Notes_on_Fashion_at_the_Met_-_Walter_Van_Beirendonck_and_Vivienne_Westwood_(73851).jpg",
+      "author_death_year": null,
       "eu_term_ok": true,
-      "eu_term_reason": "Author died 1921; 1921+70 < 2026: public domain in the EU.",
+      "eu_term_reason": "Licence granted by the photographer (own work, CC BY-SA 4.0); validity does not rest on an expired term.",
       "rights_status": "ok",
       "verdict": "pass",
       "reasons": []
