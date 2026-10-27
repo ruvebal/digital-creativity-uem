@@ -71,7 +71,7 @@ questions:
     anchor: masterclass
     drafted: hand
     retrieval: Shinkle lists which kinds of fashion-image practices?
-    retrieval_answer: Editorial, advertising, beauty, portraiture, documentary, among others (Shinkle 2008, 15).
+    retrieval_answer: Editorial, advertising, beauty, portraiture, documentary, among others (Shinkle 2008, 2).
     public_quiz: true
   - id: I1-02
     unit: I1
@@ -131,7 +131,7 @@ questions:
     anchor: masterclass
     drafted: hand
     retrieval: How does Shinkle describe the art/commerce boundary?
-    retrieval_answer: Shifting and highly permeable (Shinkle 2008, 15).
+    retrieval_answer: Shifting and highly permeable (Shinkle 2008, 2).
   - id: I1-06
     unit: I1
     ra: LO5
@@ -209,7 +209,7 @@ questions:
     anchor: lab-exercise-1
     drafted: hand
     retrieval: Lab 1 maps which four labels before file type?
-    retrieval_answer: Practice, agents, venues, and interests (classroom habit from Shinkle 2008, 15).
+    retrieval_answer: Practice, agents, venues, and interests (classroom habit from Shinkle 2008, 2).
     public_quiz: true
   - id: I1-11
     unit: I1
@@ -452,7 +452,7 @@ questions:
     anchor: masterclass
     drafted: hand
     retrieval: Roivainen names what about platform colour styles?
-    retrieval_answer: Time-bound, platform-native editing conventions (Roivainen 2025, 8).
+    retrieval_answer: Time-bound, platform-native editing conventions (Roivainen 2025, 575).
   - id: I3-03
     unit: I3
     ra: LO4
@@ -816,7 +816,7 @@ questions:
     bloom: evaluate
     stem: >-
       Students reduced muslin waste via virtual prototyping but expressed scepticism about wider
-      sustainability impact (Coats 2026, 4/8). How should class treat that?
+      sustainability impact (Coats 2026, 3/7). How should class treat that?
     answer: >-
       As a discussion prompt about tool claims vs industry effect — not as proof of pedagogy
       effectiveness.
@@ -1020,7 +1020,7 @@ questions:
     anchor: masterclass
     drafted: hand
     retrieval: 'Kandinsky: point, line, plane — looking order or total geometry claim?'
-    retrieval_answer: Looking order for attention/relation — not that every image is geometric (Kandinsky 2012, 9).
+    retrieval_answer: Looking order for attention/relation — not that every image is geometric (Kandinsky 2012, “Line”).
     public_quiz: true
   - id: FIA-02
     unit: FIA
@@ -1066,8 +1066,8 @@ questions:
     where: Why the fashion image matters
     anchor: masterclass
     drafted: hand
-    retrieval: 'Shinkle 2008, 17: single genre/method?'
-    retrieval_answer: No single genre, no single method (Shinkle 2008, 17).
+    retrieval: 'Shinkle 2008, 4: single genre/method?'
+    retrieval_answer: No single genre, no single method (Shinkle 2008, 4).
     public_quiz: true
   - id: FIA-05
     unit: FIA
@@ -1114,7 +1114,7 @@ questions:
     anchor: masterclass
     drafted: hand
     retrieval: Eckersall 2017 is pinned here for agency in what?
-    retrieval_answer: Reception / how meaning is negotiated in reception (Eckersall 2017, 219).
+    retrieval_answer: Reception / how meaning is negotiated in reception (Eckersall, Grehan, and Scheer 2017, 211).
     public_quiz: true
   - id: FIA-08
     unit: FIA

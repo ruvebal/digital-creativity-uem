@@ -116,7 +116,7 @@ These six ideas are the Masterclass core. Paragraphs are drafted through the stu
 
 ### 1 · Field of practices
 
-A fashion image that looks "finished" on a phone is usually the residue of a temporary crowd — photographer, stylist, model, editor, producer — held together by a brief, not by a file extension. Shinkle maps that crowd as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals and contexts [(Shinkle 2008, 15)](#ref-shinkle-2008); that is why Lab later this session keeps that habit: label a practice before you name a format. Pick one image you already saved this week and write the practice label you would defend in two sentences — then ask whether a classmate would give the same label. The field itself refuses a single fixed genre; if your two sentences need a tool name to make sense, the claim has already slipped, and that slip is still open.
+A fashion image that looks "finished" on a phone is usually the residue of a temporary crowd — photographer, stylist, model, editor, producer — held together by a brief, not by a file extension. Shinkle maps that crowd as a wide array of practices (editorial, advertising, beauty, portraiture, documentary) gathered by shared goals and contexts [(Shinkle 2008, 2)](#ref-shinkle-2008); that is why Lab later this session keeps that habit: label a practice before you name a format. Pick one image you already saved this week and write the practice label you would defend in two sentences — then ask whether a classmate would give the same label. The field itself refuses a single fixed genre; if your two sentences need a tool name to make sense, the claim has already slipped, and that slip is still open.
 
 ### 2 · Not a file format
 
@@ -124,11 +124,11 @@ Calling an image "a JPEG" answers the wrong question the way calling a garment "
 
 ### 3 · Many genres at once
 
-The temptation is to force every fashion picture into one tidy box — editorial *or* advertising — as if the room were a filing cabinet. Shinkle's own list puts beauty, portraiture, and documentary beside those two [(Shinkle 2008, 15)](#ref-shinkle-2008), which is why Lab may land on images that refuse a clean single label. Try sorting three found images into the five named practices; where does the third refuse the grid? The counter-critic is fair — without categories you cannot teach — and the same page that gives us the array does not tell us how many boxes a beginner should be allowed to invent; that line is still open.
+The temptation is to force every fashion picture into one tidy box — editorial *or* advertising — as if the room were a filing cabinet. Shinkle's own list puts beauty, portraiture, and documentary beside those two [(Shinkle 2008, 2)](#ref-shinkle-2008), which is why Lab may land on images that refuse a clean single label. Try sorting three found images into the five named practices; where does the third refuse the grid? The counter-critic is fair — without categories you cannot teach — and the same page that gives us the array does not tell us how many boxes a beginner should be allowed to invent; that line is still open.
 
 ### 4 · Art and commerce
 
-A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 15)](#ref-shinkle-2008) — which is exactly why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to name venues and interests as movable evidence, not a software setting. Take one ambiguous image and list who paid, where it shows, and who is meant to look — what changed when you treat it as gallery work versus campaign work? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
+A gallery wall and a campaign feed can host the same photograph without settling what it "is." Shinkle names fashion photography's simultaneous placement in artistic and commercial realms, and treats the boundary as shifting and highly permeable [(Shinkle 2008, 2)](#ref-shinkle-2008) — which is exactly why [Exercise 1](#exercise-1--place-an-image-in-the-field) asks you to name venues and interests as movable evidence, not a software setting. Take one ambiguous image and list who paid, where it shows, and who is meant to look — what changed when you treat it as gallery work versus campaign work? Some images really are commissioned as one or the other without drama, and the same page that gives us permeability does not tell us when the tension is real versus performed; that remains open.
 
 ### 5 · Read the circulation
 
@@ -140,7 +140,7 @@ Reference boards pretend to be neutral until you ask who never appears as the "n
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; page_basis=printed; source={document_coat=1936070c; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes; quote_candidates="wide array of practices" / "shifting and highly permeable"
+PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; page_basis=printed; source={document_coat=1936070c; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=2; pdf_seq=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 2)"; evaluator_safe=yes; quote_candidates="wide array of practices" / "shifting and highly permeable"
 PROVENANCE_LINE: claim=I.1.field-tension.imagination-creativity-fantasy; status=VERIFIED; page_basis=printed; source={document_coat=94897108; node_id=edbc2759-0224-56a5-93fd-5bce9ac14b40; page_index=31; printed_page=32}; public_citation="(Hüppauf and Wulf 2009, 32)"; evaluator_safe=yes
 PROVENANCE_LINE: claim=I.1.rubin-taste-counterpoint; status=VERIFIED; page_basis=printed; source={document_coat=574691eb; node_id=b9d0c0a0-7205-5571-aee0-10ec46a7d5c1; printed_page=123}; public_citation="(Rubin 2023, 123)"; evaluator_safe=yes; note=practitioner not peer-reviewed pedagogy
 PROVENANCE_LINE: claim=I.1.gap.tool-pedagogy; status=NONE; public_citation=OMITTED
@@ -178,7 +178,7 @@ Practises Masterclass ideas **1** (field of practices) and **3** (many genres at
 
 **Judged by:** [Portfolio rubric — process evidence and critical judgement]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
 
-**Source:** Fashion photographs as a wide array of practices with a permeable art/commerce boundary [(Shinkle 2008, 15)](#ref-shinkle-2008). The numbered steps are a classroom adaptation.
+**Source:** Fashion photographs as a wide array of practices with a permeable art/commerce boundary [(Shinkle 2008, 2)](#ref-shinkle-2008). The numbered steps are a classroom adaptation.
 
 **Example trace:** *(Illustrative · not student work.)* Practice: editorial. Agents: photographer + stylist. Venue: lookbook PDF. Interests: brand launch. Sentence: “JPEG is storage; the job is editorial circulation.” Art/commerce: gallery reprint of the same frame.
 
@@ -249,7 +249,7 @@ outcome-graphic-selection:
 
 ## Conclusion
 
-This unit trains a reading frame, not a software path — and it leaves doors open on purpose. First, the line between "genuinely different practices" and "same practice, new caption" is where every beginner taxonomy breaks, and Shinkle's own permeable boundary [(Shinkle 2008, 15)](#ref-shinkle-2008) refuses to close it for you. Second, circulation and textbook-audit claims that matter for critique (Rocamora; Reddy-Best et al.) are still in open procurement in our vault — you are practising the *habit* before we can hand you every *page*. Third, imagination / fantasy / creativity remain distinct in the field [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009), and Rubin’s taste-and-listening stance [(Rubin 2023, 123)](#ref-rubin-2023) *contradicts* any tool-first literacy that treats software fluency as creativity itself — that contradiction is retained on purpose. Fourth, the honest question the unit cannot answer for you is whether *your* favourite saved image last month was a practice you could name, or only a file you liked. What will you do with those gaps this week — keep Lab traces honest in the portfolio index, or start inventing a deliverable that How to Pass does not ask for? Resolving that choice for you would defeat the point of a course that begins by refusing the tidy container — and by keeping **D1 Analysis** as the first graded stake.
+This unit trains a reading frame, not a software path — and it leaves doors open on purpose. First, the line between "genuinely different practices" and "same practice, new caption" is where every beginner taxonomy breaks, and Shinkle's own permeable boundary [(Shinkle 2008, 2)](#ref-shinkle-2008) refuses to close it for you. Second, circulation and textbook-audit claims that matter for critique (Rocamora; Reddy-Best et al.) are still in open procurement in our vault — you are practising the *habit* before we can hand you every *page*. Third, imagination / fantasy / creativity remain distinct in the field [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009), and Rubin’s taste-and-listening stance [(Rubin 2023, 123)](#ref-rubin-2023) *contradicts* any tool-first literacy that treats software fluency as creativity itself — that contradiction is retained on purpose. Fourth, the honest question the unit cannot answer for you is whether *your* favourite saved image last month was a practice you could name, or only a file you liked. What will you do with those gaps this week — keep Lab traces honest in the portfolio index, or start inventing a deliverable that How to Pass does not ask for? Resolving that choice for you would defeat the point of a course that begins by refusing the tidy container — and by keeping **D1 Analysis** as the first graded stake.
 
 ---
 
@@ -274,7 +274,7 @@ Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; page_basis=printed; discovery={service=DevIAC; project_slug=profield-digital-creativity; knowledge_scope=field_prospection}; source={document_coat=1936070c; extraction_db=ahmes-library/scholar/documents/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/extract/extraction.db; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 15)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=I.1.claim.field-of-practices; status=VERIFIED; page_basis=printed; discovery={service=DevIAC; project_slug=profield-digital-creativity; knowledge_scope=field_prospection}; source={document_coat=1936070c; extraction_db=ahmes-library/scholar/documents/eugenie_shinkle_fashion_as_photograph_viewing_and_reviewing_images_of_fashion_2008_i_b_tauris_1936070c/extract/extraction.db; node_id=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed_page=2; pdf_seq=15}; resolver="ahmes query --cite"; public_citation="(Shinkle 2008, 2)"; evaluator_safe=yes
 MEDIA_RIGHTS_LINE: deck=I.1 accepted Profield cache slots; geometrical=uem-henon-pass-* SVG UUIDs in caption
 -->
 {% endif %}
@@ -310,7 +310,7 @@ This lesson was written with local AI-assisted drafting under the author's edito
       - 2026-09-14-6f8bdb95-dc-i1-idea4
       - 2026-09-14-6010c485-dc-i1-idea5
       - 2026-09-14-b313e281-dc-i1-idea6
-     verbatim_registry: registries/dc-i1-verbatims.json (Shinkle 2008, 15 verbatims populated)
+     verbatim_registry: registries/dc-i1-verbatims.json (Shinkle 2008, 2 verbatims populated)
      voice_anchor_for_later_dc: Masterclass idea 1 integrated paragraph
      harness: prompt-v2.1 + --verbatim-registry + --expected-sentences 4 + --brief (CI3 tabular coats)
      forger_versions: dc-unit-forge=teaching-week-override-2026-09, lesson-scribe=0.1, student-slideshow-forge=golden-rules-2026-09-14

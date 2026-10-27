@@ -99,6 +99,18 @@ articles on the projected lesson without leaving the page. See
 4. Internal records are switch-gated and public output has no metadata leaks.
 5. Any missing line, unsafe resolver, invented quote, or rights uncertainty
    blocks promotion and is recorded as `BLOCKED`, `[BIBLIO-GAP]`, or `NONE`.
+6. **Locator gate (2026-10-27).** The resolver's page is `scheme=pdf_order`
+   (PDF sequence = `page_index + 1`), not the printed folio. The public page
+   is the folio printed on that PDF page, read from the source PDF; record both
+   (`printed=<folio>; pdf_seq=<n>`). EPUB sources have no folio: cite by section
+   (`(Kandinsky 2012, “Line”)`), unless the edition carries a print page-list.
+   Run `forge/scripts/verify_printed_folios.py` before release; a `MISMATCH`
+   blocks promotion, `NO-FOLIO` needs an eye check.
+7. **Attribution gate.** `evaluator_safe=yes` does not check authorship. In an
+   edited volume, cite the chapter author (Sill, Maynard, de Perthuis, Pfeiffer),
+   not the editor the resolver returns; restore every co-author the resolver
+   truncates (Eckersall, Grehan, and Scheer; Mejias and Couldry; Díaz Soloaga
+   and García Guerrero).
 
 Media assets additionally require a `MEDIA_RIGHTS_LINE` from
 `PROFIELD-MEDIA-PROSPECTOR-REQUEST.md`; research provenance never substitutes

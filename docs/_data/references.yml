@@ -192,7 +192,7 @@ coats-2026:
 eckersall-2017:
   sort: "Eckersall Grehan Scheer 2017"
   year: 2017
-  edition_used: "Palgrave Macmillan PDF (printed folios)."
+  edition_used: "Palgrave Macmillan PDF (printed folios; PDF sequence = folio + 8 to + 10)."
   chicago: >-
     Eckersall, Peter, Helena Grehan, and Edward Scheer. 2017. *New Media Dramaturgy: Performance,
     Media and New-Materialism*. London: Palgrave Macmillan.
@@ -210,7 +210,7 @@ kandinsky-2012:
   sort: "Kandinsky 2012"
   year: 2012
   edition_note: "Dover reprint of the Bauhaus-era Point and Line to Plane text."
-  edition_used: "Dover Publications PDF (page indexes used as printed locators for this edition)."
+  edition_used: "Dover Publications EPUB (no print page-list; cite by section, e.g. “Line”)."
   chicago: >-
     Kandinsky, Wassily. 2012. *Point and Line to Plane*. Translated by Howard Dearstyne and Hilla
     Rebay. Mineola, NY: Dover Publications.
@@ -245,7 +245,68 @@ rubin-2023:
 shinkle-2008:
   sort: "Shinkle 2008"
   year: 2008
-  edition_used: "I. B. Tauris PDF (printed folios)."
+  edition_used: "I. B. Tauris PDF (printed folios; PDF sequence = folio + 13 in the body)."
   chicago: >-
     Shinkle, Eugenie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*.
     London: I. B. Tauris.
+
+maynard-2008:
+  sort: "Maynard 2008"
+  year: 2008
+  edition_used: "I. B. Tauris PDF (printed folios)."
+  chicago: >-
+    Maynard, Margaret. 2008. “The Fashion Photograph: An ‘Ecology’.” In *Fashion as Photograph:
+    Viewing and Reviewing Images of Fashion*, edited by Eugénie Shinkle, 54–69. London: I. B. Tauris.
+
+sill-2008:
+  sort: "Sill 2008"
+  year: 2008
+  edition_used: "I. B. Tauris PDF (printed folios)."
+  chicago: >-
+    Sill, Bärbel. 2008. “Stardom and Fashion: On the Representation of Female Movie Stars and Their
+    Fashion(able) Image in Magazines and Advertising Campaigns.” In *Fashion as Photograph: Viewing and
+    Reviewing Images of Fashion*, edited by Eugénie Shinkle, 127–40. London: I. B. Tauris.
+
+de-perthuis-2008:
+  sort: "Perthuis Karen de 2008"
+  year: 2008
+  edition_used: "I. B. Tauris PDF (printed folios)."
+  chicago: >-
+    de Perthuis, Karen. 2008. “Beyond Perfection: The Fashion Model in the Age of Digital Manipulation.”
+    In *Fashion as Photograph: Viewing and Reviewing Images of Fashion*, edited by Eugénie Shinkle,
+    168–84. London: I. B. Tauris.
+
+pfeiffer-2009:
+  sort: "Pfeiffer 2009"
+  year: 2009
+  edition_used: "Routledge PDF (printed folios)."
+  chicago: >-
+    Pfeiffer, K. Ludwig. 2009. “Media Images, Sports Rituals and the Imaginary.” In *The Dynamics and
+    Performativity of Imagination: The Image between the Visible and the Invisible*, edited by Bernd
+    Hüppauf and Christoph Wulf, 188–201. New York: Routledge.
+
+diaz-soloaga-2016:
+  sort: "Diaz Soloaga Garcia Guerrero 2016"
+  year: 2016
+  edition_used: "Communication & Society article PDF (printed pages 45–61)."
+  chicago: >-
+    Díaz Soloaga, Paloma, and Leticia García Guerrero. 2016. “Fashion Films as a New Communication
+    Format to Build Fashion Brands.” *Communication & Society* 29 (2): 45–61.
+    [https://doi.org/10.15581/003.29.2.45-61](https://doi.org/10.15581/003.29.2.45-61).
+
+navarro-gavino-2022:
+  sort: "Navarro Gavino 2022"
+  year: 2022
+  edition_used: "Estudios LGBTIQ+ article PDF (printed pages 189–201)."
+  chicago: >-
+    Navarro Gaviño, Álvaro. 2022. “Fashion films: la inclusividad queer entre los medios de moda y las
+    prácticas corporativas (2010–2020).” *Estudios LGBTIQ+, Comunicación y Cultura* 2 (2): 189–201.
+    [https://doi.org/10.5209/eslg.84968](https://doi.org/10.5209/eslg.84968).
+
+mejias-couldry-2024:
+  sort: "Mejias Couldry 2024"
+  year: 2024
+  edition_used: "University of Chicago Press EPUB (no print page-list; cite by section)."
+  chicago: >-
+    Mejias, Ulises A., and Nick Couldry. 2024. *Data Grab: The New Colonialism of Big Tech and How to
+    Fight Back*. Chicago: University of Chicago Press.

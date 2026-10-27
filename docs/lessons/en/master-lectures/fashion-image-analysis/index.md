@@ -13,7 +13,7 @@ tags: [master-lecture, analysis, fashion-image, guide, transversal]
 master_idea: 'Read the image from dot to perspective before asking where it comes from, what it means with evidence, whom it serves, and how it circulates.'
 practice_anchor: '8-step card + Lens A (triad) + Lens B (circulation) on one fashion image'
 deck_url: /master-lectures/fashion-image-analysis/
-references: [shinkle-2008, eckersall-2017, kandinsky-2012]
+references: [shinkle-2008, maynard-2008, eckersall-2017, kandinsky-2012]
 ---
 
 <!-- prettier-ignore-start -->
@@ -35,14 +35,14 @@ surface: master-lecture (EN canonical; not a track CONTENIDOS row)
 cycle: 2
 forged: 2026-09-27
 evaluator_safe_public: Shinkle 2008 (1936070c) + Eckersall 2017 (43fc4273)
-PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=14}; public="(Shinkle 2008, 14)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=17}; public="(Shinkle 2008, 17)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=69}; public="(Shinkle 2008, 69)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=78}; public="(Shinkle 2008, 78)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=15}; public="(Shinkle 2008, 15)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.kandinsky-point-line-plane; status=VERIFIED; page_basis=printed; source={document_coat=5c285f15; node_id=017a3864-6f07-5c36-8991-bd0350aef4fd; page_index=9; printed_page=9}; public_citation="(Kandinsky 2012, 9)"; evaluator_safe=yes; quote_candidates="star of straight lines" / point-line-plane vocabulary
-PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=218}; public="(Eckersall 2017, 218)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=1; pdf_seq=14}; public="(Shinkle 2008, 1)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=4; pdf_seq=17}; public="(Shinkle 2008, 4)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=56; pdf_seq=69}; public="(Maynard 2008, 56)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=65; pdf_seq=78}; public="(Maynard 2008, 65)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=2; pdf_seq=15}; public="(Shinkle 2008, 2)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=211; pdf_seq=219}; public="(Eckersall, Grehan, and Scheer 2017, 211)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.kandinsky-point-line-plane; status=VERIFIED; page_basis=section (EPUB); source={document_coat=5c285f15; node_id=017a3864-6f07-5c36-8991-bd0350aef4fd; page_index=9; section=Line}; public_citation="(Kandinsky 2012, “Line”)"; evaluator_safe=yes; quote_candidates="star of straight lines" / point-line-plane vocabulary
+PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; page_basis=printed; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=210; pdf_seq=218}; public="(Eckersall, Grehan, and Scheer 2017, 210)"; evaluator_safe=yes
 -->
 {% endif %}
 
@@ -96,7 +96,7 @@ Before asking what an image means, describe how it is built. Use the shared Digi
 
 Write one formal claim with visible evidence. Only then continue to origin, context, meaning, critique, and circulation. This is the same morphology pass that prepares I1–I5: image description in I1, drawing in I2, colour in I3, traceable transformation in I4, and perspective/volume in I5.
 
-Kandinsky’s teaching shorthand is useful here: the point is the smallest event of attention, the line records its movement, and the plane receives their relation [(Kandinsky 2012, 9)](#ref-kandinsky-2012). Treat this as a looking order, not a claim that every image is geometric.
+Kandinsky’s teaching shorthand is useful here: the point is the smallest event of attention, the line records its movement, and the plane receives their relation [(Kandinsky 2012, “Line”)](#ref-kandinsky-2012). Treat this as a looking order, not a claim that every image is geometric.
 
 **Teaching move:** keep the vocabulary visible while the image changes. Ask students to compare one plane, one form, one colour relation, and one depth cue before they write a semantic hypothesis. The same terms then travel cleanly into the I2 drawing, I3 colour, I4 transformation, and I5 three-dimensional-form labs.
 
@@ -127,40 +127,40 @@ Kandinsky’s teaching shorthand is useful here: the point is the smallest event
 Photographs are not product decoration: they organise how fashion is talked about worldwide.
 
 > “Photographic images play a key role in defining global fashion culture and in charting its discursive space.”  
-> — [(Shinkle 2008, 14)](#ref-shinkle-2008)
+> — [(Shinkle 2008, 1)](#ref-shinkle-2008)
 
 And there is no single genre. Editorial, advertising, beauty, documentary… each asks for a different method.
 
 > “there is no single and easily described genre of 'fashion photography'. Equally, there is no single methodology which is best suited to its analysis”  
-> — [(Shinkle 2008, 17)](#ref-shinkle-2008)
+> — [(Shinkle 2008, 4)](#ref-shinkle-2008)
 
-Fashion photography comprises a wide array of practices — editorial and advertising, beauty, portraiture and documentary, among others [(Shinkle 2008, 15)](#ref-shinkle-2008).
+Fashion photography comprises a wide array of practices — editorial and advertising, beauty, portraiture and documentary, among others [(Shinkle 2008, 2)](#ref-shinkle-2008).
 
 ### Meaning and reception
 
 Viewers do not read in a vacuum: they compare with other images.
 
 > “Their meaning is produced by viewer expectations from resemblance to other images.”  
-> — [(Shinkle 2008, 69)](#ref-shinkle-2008)
+> — [(Maynard 2008, 56)](#ref-maynard-2008)
 
 That is **Lens B** in plain wording: reception can become the next condition of production (another campaign, a meme, a reel).
 
 Contemporary media dramaturgy widens the question: not only “what does it mean,” but **agency, reception, and experience**.
 
 > “The question of dramaturgy has been expanded to include aspects of agency, reception and experience within its purview.”  
-> — [(Eckersall 2017, 219)](#ref-eckersall-2017)
+> — [(Eckersall, Grehan, and Scheer 2017, 211)](#ref-eckersall-2017)
 
 And remember: art and media (industry, social media, media culture, daily life) **do not share the same core function** — even when they share screens.
 
 > “The key assertion here is that art and media (as industry, social media, media culture, mass media, and daily life) have different core functions.”  
-> — [(Eckersall 2017, 218)](#ref-eckersall-2017)
+> — [(Eckersall, Grehan, and Scheer 2017, 210)](#ref-eckersall-2017)
 
 ### Critical (step 7) — course emphasis
 
 Fashion photography usually creates desire; your job is to ask *at whose cost*.
 
 > “Fashion photography is about creating desire.”  
-> — [(Shinkle 2008, 78)](#ref-shinkle-2008)
+> — [(Maynard 2008, 65)](#ref-maynard-2008)
 
 Minimum questions: who is centred? who is absent? which labour (sewing, modelling, retouching) is made invisible? class, gender, racism, ecology?
 
@@ -204,10 +204,10 @@ When you analyse shared cultural codes (style, genre, “what everyone understan
 
 1. Describe before you interpret.
 2. Language ≠ medium ≠ support.
-3. The photo charts fashion’s discursive space [(Shinkle 2008, 14)](#ref-shinkle-2008).
-4. No single genre, no single method [(Shinkle 2008, 17)](#ref-shinkle-2008).
-5. Agency, reception, experience [(Eckersall 2017, 219)](#ref-eckersall-2017).
-6. Desire + critical gaze [(Shinkle 2008, 78)](#ref-shinkle-2008).
+3. The photo charts fashion’s discursive space [(Shinkle 2008, 1)](#ref-shinkle-2008).
+4. No single genre, no single method [(Shinkle 2008, 4)](#ref-shinkle-2008).
+5. Agency, reception, experience [(Eckersall, Grehan, and Scheer 2017, 211)](#ref-eckersall-2017).
+6. Desire + critical gaze [(Maynard 2008, 65)](#ref-maynard-2008).
 
 ---
 

@@ -377,14 +377,14 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(Roivainen 2025, 8)",
+        "label": "(Roivainen 2025, 575)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-roivainen-2025"
       },
       "media_slot_id": "I.3.masterclass-3",
       "slide_id": "masterclass-3",
       "image_brief": "NYPL fashion illustration plate with period colouring: a historical 'platform tone' for fashion print before RGB screens.",
       "asset_id": "nypl:ecd58340-c606-012f-96ca-58d385a7bc34",
-      "notes": "- Beat: 3 · Platform tones are historical.\n- Core line: Creator tools circulate lighting, colour trends, and tones that look “professional” for a season — treat them as signals to compare, not defaults to copy.\n- Read the quote once; pause: “Sharing expertise and using specific technologies result in visuality that reflect certain editing styles that are popul…”\n- Source cue: (Roivainen 2025, 8)\n- Debate prompt: what changes if the venue or audience shifts?"
+      "notes": "- Beat: 3 · Platform tones are historical.\n- Core line: Creator tools circulate lighting, colour trends, and tones that look “professional” for a season — treat them as signals to compare, not defaults to copy.\n- Read the quote once; pause: “Sharing expertise and using specific technologies result in visuality that reflect certain editing styles that are popul…”\n- Source cue: (Roivainen 2025, 575)\n- Debate prompt: what changes if the venue or audience shifts?"
     },
     {
       "slide_role": "masterclass",
@@ -502,7 +502,7 @@ layout: null
         "Treat trending tones as what, not as defaults?",
         "Colour teaching here: fixed swatches or relational?"
       ],
-      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. A fixed grid of colour values; mode/depth/gamut foreclose later options.\n- 2. Time-bound, platform-native editing conventions (Roivainen 2025, 8).\n- 3. No — they can reproduce intersectional gender and racial bias (AlDahoul et al. 2025).\n- 4. Historical signals to compare (Roivainen 2025 platform-style point).\n- 5. Relational — interaction, contrast, context (not isolated swatches).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. A fixed grid of colour values; mode/depth/gamut foreclose later options.\n- 2. Time-bound, platform-native editing conventions (Roivainen 2025, 575).\n- 3. No — they can reproduce intersectional gender and racial bias (AlDahoul et al. 2025).\n- 4. Historical signals to compare (Roivainen 2025 platform-style point).\n- 5. Relational — interaction, contrast, context (not isolated swatches).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
     },
     {
       "slide_role": "lab_opener",
@@ -584,7 +584,7 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(Roivainen 2025, 8)",
+        "label": "(Roivainen 2025, 575)",
         "href": "/digital-creativity-uem/lessons/en/digital-creativity-i/i-3-color-bitmaps/#ref-roivainen-2025"
       },
       "media_slot_id": "I.3.lab-2",

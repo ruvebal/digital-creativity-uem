@@ -34,13 +34,13 @@ surface: master-lecture (EN canonical; not a track CONTENIDOS row)
 cycle: 2
 forged: 2026-09-27
 evaluator_safe_public: Shinkle 2008 (1936070c) + Eckersall 2017 (43fc4273)
-PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=14}; public="(Shinkle 2008, 14)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=17}; public="(Shinkle 2008, 17)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=69}; public="(Shinkle 2008, 69)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=78}; public="(Shinkle 2008, 78)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=15}; public="(Shinkle 2008, 15)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=218}; public="(Eckersall 2017, 218)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.discursive-space; status=VERIFIED; source={coat=1936070c; node=81820be3-40ea-5bcd-88e4-37d99d29744a; printed=1; pdf_seq=14}; public="(Shinkle 2008, 1)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.no-single-genre; status=VERIFIED; source={coat=1936070c; node=424654a2-9ae8-5acb-b8de-c21c10d566ca; printed=4; pdf_seq=17}; public="(Shinkle 2008, 4)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.meaning-in-reception; status=VERIFIED; source={coat=1936070c; node=0a8cf1fc-56e6-581a-bea7-56720be8e2df; printed=56; pdf_seq=69}; public="(Maynard 2008, 56)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.creating-desire; status=VERIFIED; source={coat=1936070c; node=369a37c3-1e08-5792-a8e9-e7ea581150fe; printed=65; pdf_seq=78}; public="(Maynard 2008, 65)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.wide-practices; status=VERIFIED; source={coat=1936070c; node=cca1472b-b0c6-594c-8e13-ed87d6b73897; printed=2; pdf_seq=15}; public="(Shinkle 2008, 2)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.agency-reception; status=VERIFIED; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; printed=211; pdf_seq=219}; public="(Eckersall, Grehan, and Scheer 2017, 211)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=ML-FIA.art-vs-media-functions; status=VERIFIED; source={coat=43fc4273; node=e6f75da5-a333-5e29-a87d-d38ea4fb1512; printed=210; pdf_seq=218}; public="(Eckersall, Grehan, and Scheer 2017, 210)"; evaluator_safe=yes
 -->
 {% endif %}
 
@@ -92,7 +92,7 @@ Before asking what an image means, describe how it is built. Use the shared Digi
 
 Write one formal claim with visible evidence. Only then continue to origin, context, meaning, critique, and circulation. This is the same morphology pass that prepares I1–I5: image description in I1, drawing in I2, colour in I3, traceable transformation in I4, and perspective/volume in I5.
 
-Kandinsky’s teaching shorthand is useful here: the point is the smallest event of attention, the line records its movement, and the plane receives their relation [(Kandinsky 2012, 9)](#ref-kandinsky-2012). Treat this as a looking order, not a claim that every image is geometric.
+Kandinsky’s teaching shorthand is useful here: the point is the smallest event of attention, the line records its movement, and the plane receives their relation [(Kandinsky 2012, “Line”)](#ref-kandinsky-2012). Treat this as a looking order, not a claim that every image is geometric.
 
 When the pass reaches **colour**, keep the same discipline: hue, value, temperature, and contrast act as forces that organise perception, not decoration. Kandinsky’s studio metaphor is exact enough for class — colour as keyboard, the eye as hammer, the soul as a piano of many strings [(Kandinsky 1946, 44)](#ref-kandinsky-1946) — provided students still name visible relations before assigning emotion.
 
