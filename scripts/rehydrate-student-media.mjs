@@ -20,7 +20,7 @@
  *
  * Env:
  *   PROFIELD_MEDIA_ROOT   default <home>/src/profield/runs/media-prospector
- *   DECK_ROOTS            comma-separated (default: 2627-dci,2627-ml)
+ *   DECK_ROOTS            comma-separated (default: 2627-dci,2627-ml,2627-nm)
  */
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, unlinkSync, writeFileSync } from 'node:fs';
@@ -44,7 +44,7 @@ const cacheSegment = 'deck-media';
 const legacyCacheSegment = 'profield-cache';
 const cacheDir = join(root, 'docs/assets/images', cacheSegment);
 const legacyCacheDir = join(root, 'docs/assets/images', legacyCacheSegment);
-const deckRoots = (process.env.DECK_ROOTS || 'docs/tracks/en/uem/2627-dci,docs/tracks/en/uem/2627-ml')
+const deckRoots = (process.env.DECK_ROOTS || 'docs/tracks/en/uem/2627-dci,docs/tracks/en/uem/2627-ml,docs/tracks/es/uem/2627-nm')
   .split(',').map((p) => p.trim()).filter(Boolean).map((p) => resolve(root, p));
 const siteBase = (readFileSync(join(root, '_config.yml'), 'utf8').match(/^baseurl:\s*['"]?([^'"\n]*)['"]?/m) || [])[1] ?? '';
 const FRONT_MATTER = '---\nlayout: null\n---\n';

@@ -1,0 +1,27 @@
+{
+  "release_date": "2026-10-27",
+  "figures": [
+    {
+      "uuid": "c02e1e6f-6102-4613-953a-db28304ca478",
+      "fractal_hash256": "94f7d2cb235661d51d362f3904feb877de25b5063d28c92670ab592f27cfd665",
+      "title": "De la imagen a la evidencia",
+      "description": "Mapa de lectura: una campaña formula un mensaje; atención, participación y divulgación son indicadores diferentes; los efectos requieren evidencia propia.",
+      "authorship": "Course-generated illustration, Digital Creativity UEM",
+      "date": "2026-10-27",
+      "delivery_svg": "/assets/images/lesson-media/u3-campaign/01-message-metric-outcome-94f7d2cb235661d5.svg",
+      "delivery_png": "/assets/images/lesson-media/u3-campaign/01-message-metric-outcome-94f7d2cb235661d5.png",
+      "formulas": []
+    },
+    {
+      "uuid": "e496f1a4-c194-46c2-a3c8-8cb256bdf74d",
+      "fractal_hash256": "51c3f47bc90e4f731dc22fb80e1628cc4162990047f380f08f66994025ed6ba6",
+      "title": "Cinco formas de comunicar y pedir evidencia",
+      "description": "Placa ilustrada de los cinco casos asignados a U3 y su pregunta crítica. Los esquemas son didácticos y no reproducen imágenes de campaña.",
+      "authorship": "Course-generated illustration, Digital Creativity UEM",
+      "date": "2026-10-27",
+      "delivery_svg": "/assets/images/lesson-media/u3-campaign/02-campaign-forms-51c3f47bc90e4f73.svg",
+      "delivery_png": "/assets/images/lesson-media/u3-campaign/02-campaign-forms-51c3f47bc90e4f73.png",
+      "formulas": []
+    }
+  ]
+}

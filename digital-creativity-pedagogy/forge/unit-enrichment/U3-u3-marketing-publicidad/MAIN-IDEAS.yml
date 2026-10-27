@@ -19,6 +19,16 @@ ideas:
     chicago: null
     stance: studio_hypothesis
     note: "Name Benetton in class; no Ahmes quote until vault ingest — cite public URL only in lab brief."
+    media:
+      priority: "video → cleared photo → course-generated diagram"
+      video: "https://vimeo.com/276410400"
+      video_title: "BENETTON ‘Colors’ — We kiss in black (Vertigo Barcelona)"
+      video_status: "Live page identifies it as the Benetton Colors Man launch digital campaign; embedding remains owner-controlled."
+      slide_line: "Una campaña puede vender posición moral incluso cuando no muestra la prenda."
+      archive_image:
+        asset_id: "wikimedia:File:Johannes Handschin - Pelz Jackets, Poster Lindner Pelze.jpg"
+        slot: "U3.masterclass-1"
+        use: "historical contrast: a 1929 poster that still sells the garment; not Benetton"
   - id: 2
     heading: Shock ≠ prueba de impacto social
     sentence: "La controversia mide atención; no demuestra salarios pagados ni emisiones bajadas."
@@ -27,6 +37,14 @@ ideas:
     case_rank: "5+3"
     quote: "Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption…"
     chicago: "(United Nations Environment Programme 2023, 27)"
+    media:
+      priority: "video → cleared photo → course-generated diagram"
+      slide_visual: "/assets/images/lesson-media/u3-campaign/01-message-metric-outcome-94f7d2cb235661d5.svg"
+      slide_visual_alt: "Mensaje e imagen; tres indicadores diferenciados; efectos sujetos a evidencia independiente."
+      archive_image:
+        asset_id: "wikimedia:File:Advertisement for Philadelphia Sunday Press- May 10, 1895 MET DP866320.jpg"
+        slot: "U3.masterclass-2"
+        use: "attention device: an 1895 street poster; attention is not impact"
   - id: 3
     heading: La representación también necesita contexto
     sentence: "Una campaña puede declarar una causa y también decidir quién aparece, habla y mira."
@@ -35,6 +53,16 @@ ideas:
     case_rank: 4
     quote: null
     chicago: null
+    media:
+      priority: "video → cleared photo → course-generated diagram"
+      video: "https://youtu.be/CbBOWHSrB0k"
+      video_title: "Fashion to be Free (campaign film)"
+      video_status: "ADG-FAD archive and contemporaneous reporting identify the film; transcript not confirmed."
+      slide_line: "¿Quién define la libertad y quién queda dentro del encuadre?"
+      archive_image:
+        asset_id: "wikimedia:File:Cover of Fashion Street Magazine SS 2019.jpg"
+        slot: "U3.masterclass-4"
+        use: "editorial representation: who appears and whom she looks at; not Fashion to be Free"
   - id: 4
     heading: Presionar la marca no es ser la marca
     sentence: "Ropa Limpia en la junta no es un purpose film de Inditex: es conflicto mediático organizado."
@@ -44,6 +72,13 @@ ideas:
     case_url: "https://ropalimpia.org/noticias/accionistas-y-entidades-sociales-exigen-responsabilidad-climatica-y-social-a-inditex-durante-la-junta-de-accionistas/"
     chicago: null
     stance: studio_hypothesis
+    media:
+      priority: "video → cleared photo → course-generated diagram"
+      fallback: "Al Borde Films documents a 2019 Ropa Limpia support film; it is not footage of the 2025 AGM intervention."
+      archive_image:
+        asset_id: "wikimedia:File:Ende Gelände November 2017 - Front banner of demonstration.jpg"
+        slot: "U3.masterclass-5"
+        use: "pressure-campaign form (climate march, 2017); not Ropa Limpia"
   - id: 5
     heading: Cuando el cuerpo desplaza al producto
     sentence: "Relaciona encuadre, producto anunciado y representación antes de juzgar el estereotipo."
@@ -53,3 +88,21 @@ ideas:
     case_url: "https://www.asa.org.uk/rulings/robinson-webster--holdings--ltd-g21-1127608-robinson-webster--holdings--ltd.html"
     chicago: null
     stance: regulator_finding
+    media:
+      priority: "rights-cleared photo → course-generated diagram; no campaign film located"
+      slide_visual: "/assets/images/lesson-media/u3-campaign/02-campaign-forms-51c3f47bc90e4f73.svg"
+      slide_visual_alt: "Esquema didáctico: qué evaluó la ASA en el email concreto."
+      archive_image:
+        asset_id: "wikimedia:File:Regate et chapeau à plumes, advertising poster, 1895.jpg"
+        slot: "U3.masterclass-6"
+        use: "framing practice: a figure carries an event poster; not Jigsaw"
+lab_media:
+  lab-1:
+    asset_id: "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14781648884).jpg"
+    use: "checkable product evidence (Bloomingdale's 1890 catalogue)"
+  lab-2:
+    asset_id: "wikimedia:File:Faragó, Géza - Poster for the Holzer Fashion Store (1902).jpg"
+    use: "body and product in one frame, to compare with the ASA-assessed crop"
+cover_media:
+  asset_id: "wikimedia:File:Advertising campaign womenswear.jpg"
+  use: "campaign as production work (backstage of a 2014 shoot)"

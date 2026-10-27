@@ -4,7 +4,8 @@
  *
  *   node scripts/render-decks.mjs [--check]
  *
- * Reads every v2 deck under docs/tracks/en/uem/2627-dci and 2627-ml and writes
+ * Reads every v2 deck under docs/tracks/en/uem/2627-dci, 2627-ml and
+ * docs/tracks/es/uem/2627-nm and writes
  * docs/_includes/decks/<slug>.html. Legacy decks (no schema_version 2) are skipped.
  *
  * Geometric backgrounds: docs/assets/images/fractal-pass-track/uem-henon-pass-NN-<name>-<hash>.svg
@@ -21,7 +22,7 @@ import { lessonFigures, parseHashedSvgName, renderDeck } from './lib/deck-render
 
 const root = process.cwd();
 const checkOnly = process.argv.includes('--check');
-const deckRoots = ['docs/tracks/en/uem/2627-dci', 'docs/tracks/en/uem/2627-ml'].map((p) => join(root, p));
+const deckRoots = ['docs/tracks/en/uem/2627-dci', 'docs/tracks/en/uem/2627-ml', 'docs/tracks/es/uem/2627-nm'].map((p) => join(root, p));
 const outDir = join(root, 'docs/_includes/decks');
 const geometricDir = join(root, 'docs/assets/images/fractal-pass-track');
 const diagramDir = join(root, 'docs/assets/images/fractal-triangles');
