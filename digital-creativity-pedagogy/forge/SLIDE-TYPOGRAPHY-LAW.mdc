@@ -32,16 +32,21 @@ Rules: never mark whole sentences; never mark proper names unless the name *is* 
 
 ## 3 · One reading path per card (CSS in `pass-track-deck.css`, “Slide typography law” block)
 
-Order and treatment are fixed; only design tokens are used (`--foreground`, `--muted-foreground`, `--accent`, `--primary`):
+Order and treatment are fixed; only design tokens are used (`--foreground`, `--muted-foreground`, `--accent`, `--primary`, `--link`):
 
 1. **Label** (`__unit`): spaced small caps, 0.5em, muted — orientation, not content.
 2. **Heading** (`h1`): foreground, tight leading, separated by a short accent bar — the claim in ≤ 8 words.
 3. **Sentence / body blocks**: foreground at the golden-rule floor (never below), line-height ≈ 1.38; key terms in accent.
 4. **Kickers** (`body[].kicker`): uppercase, letter-spaced, accent — they name the step (Describe · Production · Critical).
 5. **Evidence**: quote italic in muted foreground with accent rule; citation smaller and muted.
-6. **Action**: prompt / trace separated by a hairline, italic, muted; links in accent.
+6. **Action**: prompt / trace separated by a hairline, italic, muted.
+7. **Links**: their own token `--link` (soft lavender), always underlined, card links prefixed “↗”. **Never accent**: accent means *key word*, so a link in accent reads as emphasis and the two overlap.
 
 No size jumps inside a sentence; emphasis is colour and weight only. Retrieval list markers take the accent colour.
+
+**Spacing:** the card is a grid with `gap: 0.7rem`; paragraphs keep a 0.25em bottom margin and body blocks 0.55rem, so heading, sentence, evidence and action read as separate lines of thought. Do not compress spacing to fit more text — cut text instead (§1).
+
+**Colour roles (one meaning each):** `--accent` = key word · `--primary` = tension / critical word · `--link` = something that opens · `--muted-foreground` = orientation, evidence and action text · `--foreground` = the claim.
 
 ## 4 · Graphics are slides, not card furniture
 

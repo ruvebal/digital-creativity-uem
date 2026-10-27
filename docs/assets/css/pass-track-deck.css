@@ -3,6 +3,8 @@
   --foreground: 248 250 252;
   --primary: 255 59 48;
   --accent: 0 212 255;
+  /* Links get their own hue so they never read as emphasised key words (accent). */
+  --link: 196 181 253;
   --muted: 71 85 105;
   --muted-foreground: 203 213 225;
   --border: 51 65 85;
@@ -784,3 +786,44 @@ h1 .slide-key { font-weight: inherit; }
   color: rgb(var(--accent));
   font-weight: 700;
 }
+
+/* Links: own token, underlined, never the accent of key words. */
+.reveal a,
+.student-media-slide__citation a,
+.student-media-slide__external a,
+.student-media-slide__card a,
+.slide-caption a,
+.student-media-caption a {
+  color: rgb(var(--link));
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--link) / 0.55);
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.2em;
+}
+.student-media-slide__external a::before,
+.student-media-slide__card a::before {
+  content: "↗ ";
+  text-decoration: none;
+  display: inline-block;
+}
+.reveal a:hover,
+.reveal a:focus-visible {
+  text-decoration-color: rgb(var(--link));
+}
+
+/* Breathing room: each part of the card reads as its own line of thought. */
+.student-media-slide {
+  gap: 0.7rem;
+}
+.student-media-slide > p,
+.student-media-slide__block > p {
+  margin-bottom: 0.25em;
+}
+.student-media-slide__block {
+  gap: 0.35rem;
+  margin-bottom: 0.55rem;
+}
+.student-media-slide__quote { margin: 0.35rem 0 0.1rem; }
+.student-media-slide__citation,
+.student-media-slide__external,
+.student-media-slide__card { margin-top: 0.15rem; }
