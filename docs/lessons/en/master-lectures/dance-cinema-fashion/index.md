@@ -204,6 +204,11 @@ At the opposite pole, Oskar Schlemmer's *Triadic Ballet* (premiere, Stuttgart, 3
 </figure>
 </div>
 
+<figure class="dcf-media" markdown="0">
+<div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/y9fHayWO9bo" title="Martha Graham, Night Journey" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption><strong>YouTube.</strong> Martha Graham, <em>Night Journey</em> (1947), filmed performance. Upload “Martha Graham (03 - Night Journey)” on the channel of Benjamín Slavutzky — a third-party upload, not the Martha Graham Dance Company. <em>Watch:</em> when does the long skirt move with the body, and when does the dancer work against it? Compare with the <em>Lamentation</em> tube above.</figcaption>
+</figure>
+
 <figure class="dcf-media dcf-diagram" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-affordance-map.en.svg' | relative_url }}" alt="Course diagram, two-by-two. Axes: the garment follows or redesigns the body; it amplifies or restricts motion. Drape (Duncan tunic, Fortuny Delphos), Extension (Fuller: silk, wands, electric light), Tension (Graham's jersey tube), Reorganisation (Schlemmer's Triadic figures). Labelled as a course hypothesis to test against the clips." loading="lazy" decoding="async">
 <figcaption>Course diagram (CC BY-NC-SA 4.0). A map to argue with, not a fact: place each clip and image, then defend the placement with a frame.</figcaption>
@@ -243,6 +248,11 @@ Studios understood this. Hollywood used fashion photography to give stars a sign
 <source src="{{ '/assets/video/dance-cinema-fashion/chomon-serpentine-1908.mp4' | relative_url }}" type="video/mp4">
 </video>
 <figcaption><strong>Silent here (the upload's added soundtrack is removed), 113 s, excerpt of a coloured version.</strong> In a painted interior a performer conjures a dancer whose skirts open into yellow, pink and violet wings; dissolves and cuts make the cloth appear and vanish. Segundo de Chomón, <em>Création de la serpentine</em> (1908). Public domain · <a href="https://commons.wikimedia.org/wiki/File:Cr%C3%A9ation_de_la_serpentine_France_1908_Segundo_de_Chom%C3%B3n_(extrait_version_colorisl%C3%A9e)_-_Copie.webm" target="_blank" rel="noopener">Wikimedia Commons</a>. Here the edit, not the dancer, makes the costume transform.</figcaption>
+</figure>
+
+<figure class="dcf-media" markdown="0">
+<div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/I5RT3xhkeWo" title="Pina, official 3D trailer (2011)" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption><strong>YouTube.</strong> Wim Wenders, <em>Pina</em> (2011), official 3D trailer, with the dancers of Tanztheater Wuppertal Pina Bausch. Uploaded by the DanceOn channel. <em>Watch:</em> where does the camera stand — inside the dance or in front of it? Count how often you see a whole body, and what the long dresses do in the wind, the water, the street.</figcaption>
 </figure>
 
 **Ask:** How do framing, the dancers' labour, stardom and the credited photographer distribute our attention?
@@ -293,13 +303,31 @@ Fashion has long pushed the body away from “natural” proportion; Henri Focil
 
 Spanish designers such as **David Delfín** and **Ana Locking** have been discussed in terms of provocation and the strange body; the Paris label **Matières Fécales** works with shock. *Abjection* is a theory about who is pushed out — **not** a synonym for “shocking image”. This session gives no verdict on them: in your own research, bring **evidence, not adjectives** — the designer's own statement, the press reception, who wore and who was made to look strange.
 
+The newest case is close to this room. **Matières Fécales** (French for “fecal matter”), founded in Montreal in 2014 by Hannah Rose Dalton and Steven Raj Bhaskaran, built its name on disgust and transformation — and in 2026 dressed a Hollywood star for the Met Gala, whose theme that year was “Costume Art”.
+
+<figure class="dcf-media" style="max-width: 420px" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/met-gala-2026-paulson-matieres-fecales.webp' | relative_url }}" alt="Sarah Paulson on stone museum steps planted with moss, in a voluminous grey tulle ball gown with a feathered bodice, long white gloves and a metallic band over the eyes; men in black suits stand around her." loading="lazy" decoding="async">
+<figcaption>Sarah Paulson at the 2026 Met Gala, in a Matières Fécales Fall/Winter 2026 gown as reported by <a href="https://www.out.com/celebs/celebrity-outfits-met-gala-2026" target="_blank" rel="noopener">Out.com</a>. Photograph SWinxy, CC BY 4.0 · <a href="https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_354.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
+</figure>
+
+<div class="dcf-watch" markdown="1">
+**Open at source:** the label's resale shop on [Depop (@fecalmatter)](https://www.depop.com/fecalmatter/){:target="_blank" rel="noopener"}. Depop does not allow its pages to be embedded, so it opens in a new tab. **Look:** how is “shock” photographed, described and priced when it is for sale?
+</div>
+
+**Ask:** a label named after disgust, on the most exclusive red carpet in fashion — critique, or a new kind of luxury? Who profits from the provocation?
+
 Moving image can also open space: research on fashion films from 2010 to 2020 approaches queer representation through participation, experiences and discourses narrated through the format [(Navarro Gaviño 2022, 195)](#ref-navarro-gavino-2022).
 
 **Ask:** Does this provocation contest a norm — or turn excluded bodies into spectacle? Whose account, and which reception evidence, could tell the difference?
 
 ### 6 · Butoh has histories, not one look
 
-*Butō* began in post-war Japan (Tatsumi Hijikata, Kazuo Ohno) and spread in many directions, including a long reception in Argentina. Its best-known images — white body paint, slow distortion — are the easiest thing to copy and the least informative. **A pose alone cannot tell us where a movement came from.** Notice that Ohno's most famous solo, from idea 4, is a tribute to a Spanish dancer: the history crosses the look.
+*Butō* began in post-war Japan (Tatsumi Hijikata, Kazuo Ohno) and spread in many directions, including a long reception in Argentina. Its best-known images — white body paint, slow distortion — are the easiest thing to copy and the least informative.
+
+<figure class="dcf-media" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/sankai-juku-kagemi-2006.webp' | relative_url }}" alt="Dark stage: three dancers with shaved, whitened heads and bodies crouch in loincloths at the front, hands raised near their faces; behind them three whitened figures in long earth-coloured dresses stand with hands lifted to their eyes." loading="lazy" decoding="async">
+<figcaption>Sankai Juku, <em>Kagemi: Beyond the Metaphor of Mirrors</em>, Festival Internacional Cervantino, Guanajuato (Mexico), October 2006. Photograph Carlos de las Piedras, CC BY 2.0 · <a href="https://commons.wikimedia.org/wiki/File:Sankai_Juku.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>. A second-generation butoh company (founded by Ushio Amagatsu, 1975) on a Mexican stage: another reception history, not a timeless “look”.</figcaption>
+</figure> **A pose alone cannot tell us where a movement came from.** Notice that Ohno's most famous solo, from idea 4, is a tribute to a Spanish dancer: the history crosses the look.
 
 This is also what happens when an image generator learns from scraped pictures. Mejias and Couldry call large-scale data capture “extensive acts of appropriation” and argue that “the ‘cool’ factor of ‘generative AI’ is basically a device to distract from this” [(Mejias and Couldry 2024, introduction)](#ref-mejias-couldry-2024). You will test this in the Lab audit.
 
@@ -413,7 +441,7 @@ Three habits leave this room with you. Watch **what the cloth does after the bod
 
 ## Media credits
 
-All films and images above are public domain or openly licensed; each caption names the creator, licence and source page. Films are hosted as silent, re-encoded copies of the public-domain originals (one uploader-added soundtrack was removed). Diagrams are course-made (CC BY-NC-SA 4.0). Copyrighted works (*Top Hat*, *Admiring La Argentina*) are not embedded: watch them at source.
+All films and images above are public domain or openly licensed; each caption names the creator, licence and source page. Films are hosted as silent, re-encoded copies of the public-domain originals (one uploader-added soundtrack was removed). Diagrams are course-made (CC BY-NC-SA 4.0). *Top Hat* and *Admiring La Argentina* are not embedded: watch them at source. Two copyrighted clips (*Night Journey*, the *Pina* trailer) play in YouTube’s own player from third-party uploads named in their captions; the Depop shop does not allow embedding and opens in a new tab.
 
 ## References
 

@@ -97,3 +97,13 @@ Rights checked against each Commons file page (licence, author, source) on 2026-
 | st-denis-radha | Sarony / NYPL, no known restrictions | accepted |
 | fuller-scarf, fuller-butterfly-1895, duncan-dancers-genthe | PD | downloaded, **not used** (kept for a later deck) |
 | Wilkins reconstructions, Feist slide, LIFE gallery | as run 1 | still not used |
+
+### Owner-requested additions — 2026-10-27 (evening)
+
+| Asset | Check | Decision |
+| --- | --- | --- |
+| `sankai-juku-kagemi-2006` (File:Sankai_Juku.jpg) | Carlos de las Piedras via Flickr, CC BY 2.0; *Kagemi*, Festival Cervantino, Guanajuato, 2006-10-05 | accepted, idea 6 (Mexican reception of butoh) |
+| `met-gala-2026-paulson-matieres-fecales` (File:Guests_at_the_2026_Met_Gala_354.jpg) | SWinxy, CC BY 4.0. Commons describes Sarah Paulson, theme “Costume Art”; the Matières Fécales F/W 2026 attribution comes from en.wikipedia citing Out.com (Messman-Rucker 2026), not from the photo record | accepted, idea 5; caption links Out.com as the attribution source |
+| depop.com/fecalmatter | `x-frame-options: SAMEORIGIN` (and 403 to scripted requests) → browsers refuse framing | **iframe not possible**; link card, new tab |
+| YouTube I5RT3xhkeWo | oEmbed: “Pina - Official 3D Trailer 2011 (HD)”, uploader DanceOn (not the distributor) | embedded at owner's request via youtube-nocookie, uploader named; idea 3 |
+| YouTube y9fHayWO9bo | oEmbed: “Martha Graham (03 - Night Journey)”, uploader Benjamín Slavutzky (personal channel; uploader authority **not** established) | embedded at owner's request via youtube-nocookie, uploader named; idea 2. Replace with an authorized source if one is found; fallback = link only |

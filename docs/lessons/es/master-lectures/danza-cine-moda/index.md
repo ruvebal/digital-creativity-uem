@@ -183,6 +183,11 @@ En el polo opuesto, el *Ballet triádico* de Oskar Schlemmer (estreno en Stuttga
 </figure>
 </div>
 
+<figure class="dcf-media" markdown="0">
+<div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/y9fHayWO9bo" title="Martha Graham, Night Journey" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption><strong>YouTube.</strong> Martha Graham, <em>Night Journey</em> (1947), función filmada. Vídeo «Martha Graham (03 - Night Journey)» del canal de Benjamín Slavutzky — subida de un tercero, no de la Martha Graham Dance Company. <em>Mira:</em> ¿cuándo se mueve la falda larga con el cuerpo y cuándo trabaja la bailarina contra ella? Compara con el tubo de <em>Lamentation</em>.</figcaption>
+</figure>
+
 <figure class="dcf-media dcf-diagram" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-affordance-map.es.svg' | relative_url }}" alt="Diagrama del curso, dos por dos. Ejes: la prenda sigue o rediseña el cuerpo; amplifica o restringe el movimiento. Drapeado (túnica Duncan, Delphos de Fortuny), Extensión (Fuller: seda, varillas, luz eléctrica), Tensión (el tubo de punto de Graham), Reorganización (figuras triádicas de Schlemmer). Marcado como hipótesis del curso." loading="lazy" decoding="async">
 <figcaption>Diagrama del curso (CC BY-NC-SA 4.0). Un mapa para discutir, no un hecho: coloca cada vídeo e imagen y defiende la posición con un fotograma.</figcaption>
@@ -222,6 +227,11 @@ Los estudios lo sabían. Hollywood usó la fotografía de moda para dar a sus es
 <source src="{{ '/assets/video/dance-cinema-fashion/chomon-serpentine-1908.mp4' | relative_url }}" type="video/mp4">
 </video>
 <figcaption><strong>Muda aquí (se eliminó la banda sonora añadida por quien la subió), 113 s, fragmento de una versión coloreada.</strong> En un interior pintado, un ilusionista hace aparecer a una bailarina cuyas faldas se abren en alas amarillas, rosas y violetas; fundidos y cortes hacen que la tela aparezca y desaparezca. Segundo de Chomón, <em>Création de la serpentine</em> (1908). Dominio público · <a href="https://commons.wikimedia.org/wiki/File:Cr%C3%A9ation_de_la_serpentine_France_1908_Segundo_de_Chom%C3%B3n_(extrait_version_colorisl%C3%A9e)_-_Copie.webm" target="_blank" rel="noopener">Wikimedia Commons</a>. Aquí es el montaje, no la bailarina, lo que transforma el vestuario.</figcaption>
+</figure>
+
+<figure class="dcf-media" markdown="0">
+<div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/I5RT3xhkeWo" title="Pina, tráiler oficial 3D (2011)" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption><strong>YouTube.</strong> Wim Wenders, <em>Pina</em> (2011), tráiler oficial 3D, con los bailarines del Tanztheater Wuppertal Pina Bausch. Subido por el canal DanceOn. <em>Mira:</em> ¿dónde se coloca la cámara — dentro del baile o delante? Cuenta cuántas veces ves un cuerpo entero y qué hacen los vestidos largos con el viento, el agua, la calle.</figcaption>
 </figure>
 
 **Pregunta:** ¿Cómo reparten nuestra atención el encuadre, el trabajo de los bailarines, el estrellato y el fotógrafo acreditado?
@@ -272,13 +282,31 @@ La moda lleva mucho tiempo alejando el cuerpo de la proporción «natural»; Hen
 
 De diseñadores españoles como **David Delfín** o **Ana Locking** se ha hablado en términos de provocación y cuerpo extraño; la marca parisina **Matières Fécales** trabaja con el choque. La *abyección* es una teoría sobre a quién se expulsa — **no** un sinónimo de «imagen impactante». Esta sesión no da veredicto sobre ellos: en tu propia investigación, trae **evidencia, no adjetivos** — la declaración del diseñador, la recepción en prensa, quién vestía y a quién se hizo parecer extraño.
 
+El caso más reciente está muy cerca de esta clase. **Matières Fécales** («materia fecal» en francés), fundada en Montreal en 2014 por Hannah Rose Dalton y Steven Raj Bhaskaran, construyó su nombre sobre el asco y la transformación — y en 2026 vistió a una estrella de Hollywood para la Met Gala, cuyo tema ese año fue «Costume Art».
+
+<figure class="dcf-media" style="max-width: 420px" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/met-gala-2026-paulson-matieres-fecales.webp' | relative_url }}" alt="Sarah Paulson en las escaleras de piedra de un museo cubiertas de musgo, con un amplio vestido de baile de tul gris, cuerpo de plumas, guantes blancos largos y una banda metálica sobre los ojos; a su alrededor, hombres de traje negro." loading="lazy" decoding="async">
+<figcaption>Sarah Paulson en la Met Gala de 2026, con un vestido de Matières Fécales Otoño/Invierno 2026 según <a href="https://www.out.com/celebs/celebrity-outfits-met-gala-2026" target="_blank" rel="noopener">Out.com</a>. Fotografía SWinxy, CC BY 4.0 · <a href="https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_354.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
+</figure>
+
+<div class="dcf-watch" markdown="1">
+**Abrir en la fuente:** la tienda de reventa de la marca en [Depop (@fecalmatter)](https://www.depop.com/fecalmatter/){:target="_blank" rel="noopener"}. Depop no permite insertar sus páginas, así que se abre en otra pestaña. **Mira:** ¿cómo se fotografía, se describe y se pone precio al «choque» cuando está a la venta?
+</div>
+
+**Pregunta:** una marca con nombre de asco, en la alfombra roja más exclusiva de la moda — ¿crítica o un nuevo tipo de lujo? ¿Quién gana con la provocación?
+
 La imagen en movimiento también puede abrir espacio: una investigación sobre fashion films entre 2010 y 2020 aborda la representación *queer* a través de la participación, las experiencias y los discursos narrados en ese formato [(Navarro Gaviño 2022, 195)](#ref-navarro-gavino-2022).
 
 **Pregunta:** ¿Esta provocación discute una norma — o convierte cuerpos excluidos en espectáculo? ¿Qué relato y qué evidencia de recepción permitirían distinguirlo?
 
 ### 6 · El butoh tiene historias, no un *look*
 
-El *butō* nació en el Japón de posguerra (Tatsumi Hijikata, Kazuo Ohno) y se extendió en muchas direcciones, incluida una larga recepción en Argentina. Sus imágenes más conocidas — cuerpo pintado de blanco, distorsión lenta — son lo más fácil de copiar y lo que menos informa. **Una pose sola no puede decirnos de dónde viene un movimiento.** Fíjate en que el solo más famoso de Ohno, de la idea 4, es un homenaje a una bailarina española: la historia cruza el *look*.
+El *butō* nació en el Japón de posguerra (Tatsumi Hijikata, Kazuo Ohno) y se extendió en muchas direcciones, incluida una larga recepción en Argentina. Sus imágenes más conocidas — cuerpo pintado de blanco, distorsión lenta — son lo más fácil de copiar y lo que menos informa.
+
+<figure class="dcf-media" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/sankai-juku-kagemi-2006.webp' | relative_url }}" alt="Escenario oscuro: tres bailarines con cabeza rapada y cuerpo blanqueado, en taparrabos, agachados delante con las manos junto a la cara; detrás, tres figuras blanqueadas con vestidos largos color tierra se llevan las manos a los ojos." loading="lazy" decoding="async">
+<figcaption>Sankai Juku, <em>Kagemi: más allá de la metáfora de los espejos</em>, Festival Internacional Cervantino, Guanajuato (México), octubre de 2006. Fotografía Carlos de las Piedras, CC BY 2.0 · <a href="https://commons.wikimedia.org/wiki/File:Sankai_Juku.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>. Una compañía de butoh de segunda generación (fundada por Ushio Amagatsu en 1975) en un escenario mexicano: otra historia de recepción, no un «look» intemporal.</figcaption>
+</figure> **Una pose sola no puede decirnos de dónde viene un movimiento.** Fíjate en que el solo más famoso de Ohno, de la idea 4, es un homenaje a una bailarina española: la historia cruza el *look*.
 
 Es también lo que pasa cuando un generador de imágenes aprende de imágenes recolectadas en masa. Mejias y Couldry llaman a la captura masiva de datos «extensos actos de apropiación» y sostienen que el atractivo de la «IA generativa» es sobre todo un dispositivo para distraer de ello [(Mejias and Couldry 2024, introduction)](#ref-mejias-couldry-2024). Lo pondrás a prueba en la auditoría del Lab.
 
@@ -392,7 +420,7 @@ Tres hábitos salen contigo de esta aula. Mira **qué hace la tela después de q
 
 ## Créditos de medios
 
-Todas las películas e imágenes son de dominio público o con licencia abierta; cada pie nombra autor, licencia y página de origen. Las películas se alojan como copias mudas recodificadas de los originales de dominio público (se eliminó una banda sonora añadida por quien la subió). Los diagramas son del curso (CC BY-NC-SA 4.0). Las obras con derechos (*Top Hat*, *Admiring La Argentina*) no se insertan: se ven en la fuente.
+Todas las películas e imágenes son de dominio público o con licencia abierta; cada pie nombra autor, licencia y página de origen. Las películas se alojan como copias mudas recodificadas de los originales de dominio público (se eliminó una banda sonora añadida por quien la subió). Los diagramas son del curso (CC BY-NC-SA 4.0). *Top Hat* y *Admiring La Argentina* no se insertan: se ven en la fuente. Dos vídeos con derechos (*Night Journey*, el tráiler de *Pina*) se reproducen en el reproductor de YouTube desde subidas de terceros nombradas en sus pies; la tienda de Depop no permite inserción y se abre en otra pestaña.
 
 ## Referencias
 
