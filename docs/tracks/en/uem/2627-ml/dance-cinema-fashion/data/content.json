@@ -448,16 +448,24 @@ layout: null
       "notes": "- Open on the image: a costume that only exists when it moves.\n- Phones charged, a garment that moves, Adobe login ready.\n- Today: 15′ analysis · 40′ masterclass · 50′ lab · 10′ share."
     },
     {
+      "slide_id": "session-flow",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "120′ · how the session runs",
+      "figure": {
+        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow.en.svg",
+        "alt": "Session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 capture 60–85, exercise 2 transform 85–110, share 110–120.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Walk the clock once: analysis, masterclass, two Lab exercises, share."
+    },
+    {
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis · one still",
       "sentence": "Read before you watch: eight steps on one frozen image.",
-      "figure": {
-        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow.en.svg",
-        "alt": "Session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 capture 60–85, exercise 2 transform 85–110, share 110–120.",
-        "placement": "apart"
-      },
       "notes": "- Pairs, three minutes per block.\n- Use the eight-step card from the fashion image analysis lecture."
     },
     {
@@ -643,13 +651,21 @@ layout: null
       "asset_id": "wikimedia:File:Triadisches Ballett by Oskar Schlemmer - Staatsgalerie - Stuttgart - Germany 2017.jpg",
       "heading": "8 · What does the garment do to movement?",
       "sentence": "Drape, extension, tension, reorganisation: a map to argue with, not a fact.",
+      "image_brief": "Triadic Ballet figures on display in Stuttgart, 2017: costumes still, out of the dance.",
+      "notes": "- Place each clip and image on the map; defend with one frame.\n- Museum display ≠ performance."
+    },
+    {
+      "slide_id": "masterclass-8-map",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "What does the garment do to movement?",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-affordance-map.en.svg",
         "alt": "Two-by-two map: drape (Duncan, Fortuny), extension (Fuller), tension (Graham), reorganisation (Schlemmer).",
-        "placement": "apart"
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
       },
-      "image_brief": "Triadic Ballet figures on display in Stuttgart, 2017: costumes still, out of the dance.",
-      "notes": "- Place each clip and image on the map; defend with one frame.\n- Museum display ≠ performance."
+      "notes": "- Place each clip and image on the map; defend with one frame.\n- It is a course hypothesis, not a fact."
     },
     {
       "slide_id": "masterclass-9",
@@ -674,11 +690,6 @@ layout: null
       "asset_id": "wikimedia:File:Swing Time (1936).jpg",
       "heading": "10 · Same dance, different film",
       "sentence": "A camera chooses a frame, a distance and a cut — and still clings to the moving body.",
-      "figure": {
-        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-framing.en.svg",
-        "alt": "Full figure, medium and close-up frames over a dancer; one take versus six cuts of the same thirty seconds.",
-        "placement": "apart"
-      },
       "quote": "Cameras will, with all their complex technical possibilities, in most cases still cling to and follow concrete body movements.",
       "quote_origin": "page_verified",
       "citation": {
@@ -702,6 +713,19 @@ layout: null
       },
       "image_brief": "Swing Time still: the skirt flares wide — only a full-figure frame can show it.",
       "notes": "- Play Cheek to Cheek from the licensed copy. Count cuts; check feet and hem.\n- Then the Pina trailer in the lesson: where does Wenders' camera stand?"
+    },
+    {
+      "slide_id": "masterclass-10-framing",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Same dance, different film",
+      "figure": {
+        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-framing.en.svg",
+        "alt": "Full figure, medium and close-up frames over a dancer; one take versus six cuts of the same thirty seconds.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Count cuts while Cheek to Cheek runs; are feet and hem in frame?\n- What does the close-up sell: the dress or the star?"
     },
     {
       "slide_id": "masterclass-11",
@@ -779,13 +803,21 @@ layout: null
       "asset_id": "wikimedia:File:La Argentina dancing LOC agc.7a09934.jpg",
       "heading": "13 · Climb only as high as your evidence",
       "sentence": "Looks-like is rung 1. A title, a dated record, testimony climb higher.",
+      "image_brief": "Genthe photographs Antonia Mercé, La Argentina: a Spanish dancer whose name travelled to Tokyo.",
+      "notes": "- Forsythe × Miyake: costumes 1991/92 → Pleats Please 1993 (rung 3).\n- Appropriation: who is credited, paid, displaced?"
+    },
+    {
+      "slide_id": "masterclass-13-ladder",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "How do we know a movement travelled?",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-evidence-ladder.en.svg",
         "alt": "Evidence ladder: analogy, quotation, exchange, documented influence. Appropriation is a question of power, not a rung.",
-        "placement": "apart"
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
       },
-      "image_brief": "Genthe photographs Antonia Mercé, La Argentina: a Spanish dancer whose name travelled to Tokyo.",
-      "notes": "- Forsythe × Miyake: costumes 1991/92 → Pleats Please 1993 (rung 3).\n- Appropriation: who is credited, paid, displaced?"
+      "notes": "- Rung 1 needs only eyes; rung 4 needs testimony, dates and works.\n- Appropriation is a question of power, not a rung."
     },
     {
       "slide_id": "masterclass-14",
@@ -856,16 +888,24 @@ layout: null
       "notes": "Answers:\n- Drape, extension, tension, reorganisation.\n- The serpentine was copied: Annabelle, unnamed Lumière dancer, Pathé copy.\n- Feet, hem, the whole garment in motion.\n- Rung 1: visual analogy — never enough alone.\n- Antonia Mercé, La Argentina."
     },
     {
+      "slide_id": "lab-method",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Burst → layers → one image of time",
+      "figure": {
+        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-onion-skin.en.svg",
+        "alt": "Lab method: burst of twelve frames, keep six, stack as layers at 25% or Lighten, one image of time.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- C2 burst of about 12 frames → keep 6 → Photoshop layers at 25% or Lighten (T1)."
+    },
+    {
       "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab",
       "sentence": "Two exercises. Everything you make enters your portfolio index / Canvas.",
-      "figure": {
-        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-onion-skin.en.svg",
-        "alt": "Lab method: burst of twelve frames, keep six, stack as layers at 25% or Lighten, one image of time.",
-        "placement": "apart"
-      },
       "notes": "- Consent first: photograph a classmate only if they say yes; faces optional.\n- Never upload a classmate's image to cloud AI without explicit consent."
     },
     {

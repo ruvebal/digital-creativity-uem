@@ -257,16 +257,25 @@ export function renderSlide(slide, deck, background, ctx = {}) {
     ...(slide.portfolio_bound ? [['data-portfolio-bound', 'true']] : []),
     ...(timer ? [['data-timer', String(timer)]] : []),
     ...(cardHref ? [['data-card-href', cardHref]] : []),
-    ...(slide.figure?.src && slide.figure.placement === 'apart' ? [['data-figure', 'apart']] : []),
+    ...(slide.figure?.src && slide.figure.placement === 'full' ? [['data-figure', 'full']] : []),
   ].filter(([, v]) => v !== undefined && v !== null && v !== '');
   const open = `<section ${attrs.map(([k, v]) => `${k}="${escapeHtml(v)}"`).join(' ')}>`;
-  // figure.placement "apart": the course graphic sits beside the reading card,
-  // not inside it, so the card stays text-only and the graphic stays legible.
-  const figureApart = slide.figure?.src && slide.figure.placement === 'apart';
   const figureImg = slide.figure?.src
     ? `<img class="student-media-slide__figure" src="${escapeHtml(withBase(slide.figure.src, ctx.base))}" alt="${escapeHtml(slide.figure.alt || '')}">`
     : '';
-  const figure = figureApart ? '' : figureImg;
+  const notes = notesHtml(slide.notes);
+  // figure.placement "full": a course graphic is the whole slide — no reading
+  // card; the heading stays for screen readers and the slide overview.
+  if (slide.figure?.src && slide.figure.placement === 'full') {
+    return [
+      open,
+      `  <h1 class="sr-only">${escapeHtml(slide.heading)}</h1>`,
+      `  <figure class="student-media-figure-full">${figureImg}${slide.figure.caption ? `<figcaption>${escapeHtml(slide.figure.caption)}</figcaption>` : ''}</figure>`,
+      notes ? `  <aside class="notes">${notes}</aside>` : '',
+      '</section>',
+    ].filter(Boolean).join('\n');
+  }
+  const figure = figureImg;
   const body = [
     `<p class="student-media-slide__unit">${escapeHtml(deck.unit_label)}</p>`,
     `<h1>${escapeHtml(slide.heading)}</h1>`,
@@ -289,13 +298,11 @@ export function renderSlide(slide, deck, background, ctx = {}) {
       : '',
     slide.portfolio_trace ? `<p class="student-media-slide__prompt student-media-slide__trace">${escapeHtml(slide.portfolio_trace)}</p>` : '',
   ].filter(Boolean);
-  const notes = notesHtml(slide.notes);
   return [
     open,
     `  <div class="student-media-slide student-media-slide--${layout}">`,
     ...body.map((line) => `    ${line}`),
     '  </div>',
-    figureApart ? `  <figure class="student-media-figure-apart">${figureImg}</figure>` : '',
     background.alt ? `  <p class="sr-only">Image: ${escapeHtml(background.alt)}</p>` : '',
     background.captionHtml ? `  <p class="slide-caption">${background.captionHtml}</p>` : '',
     notes ? `  <aside class="notes">${notes}</aside>` : '',

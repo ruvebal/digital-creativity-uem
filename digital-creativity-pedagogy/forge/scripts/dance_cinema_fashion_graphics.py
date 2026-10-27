@@ -122,7 +122,7 @@ FRM = {
 
 
 def framing(L):
-    w, h = 760, 430
+    w, h = 760, 456
     b = [t(24, 36, L["head"], 20, INK, weight="700"), t(24, 58, L["sub"], 12, MUTED, style="italic")]
     # figure (abstract, garment-forward silhouette)
     fx, fy = 150, 92
