@@ -310,3 +310,25 @@ mejias-couldry-2024:
   chicago: >-
     Mejias, Ulises A., and Nick Couldry. 2024. *Data Grab: The New Colonialism of Big Tech and How to
     Fight Back*. Chicago: University of Chicago Press.
+
+laban-1987:
+  sort: "Laban 1987"
+  year: 1987
+  edition_used: "Fundamentos print edition (instructor transcription, printed pages)."
+  chicago: >-
+    Laban, Rudolf. 1987. *El dominio del movimiento*. Revised by Lisa Ullmann. Madrid: Fundamentos.
+
+schlemmer-1987:
+  sort: "Schlemmer 1987"
+  year: 1987
+  edition_used: "Paidós print edition (instructor transcription, printed pages)."
+  chicago: >-
+    Schlemmer, Oskar. 1987. *Escritos sobre arte: cartas y diarios*. Barcelona: Paidós.
+
+benjamin-1998:
+  sort: "Benjamin 1998"
+  year: 1998
+  edition_used: "Verso paperback (instructor transcription, printed pages)."
+  chicago: >-
+    Benjamin, Walter. 1998. “The Author as Producer.” In *Understanding Brecht*, translated by Anna
+    Bostock, 85–103. London: Verso.

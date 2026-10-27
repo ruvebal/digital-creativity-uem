@@ -13,7 +13,8 @@ tags: [master-lecture, danza, cine, vestuario, movimiento, fashion-film, camara-
 master_idea: 'Una prenda cambia lo que un cuerpo en movimiento puede mostrar y hacer; una cámara y un montaje cambian lo que vemos de ambos. Afirma solo hasta donde llegue tu evidencia.'
 practice_anchor: 'Capturar movimiento con la cámara del móvil, transformarlo en Photoshop o Firefly y auditar lo que inventó la máquina'
 frontier_signal: 'La influencia entre escena, pantalla y moda es fácil de ver y difícil de probar: hasta en casos famosos las fechas y los testimonios no coinciden.'
-references: [shinkle-2008, sill-2008, de-perthuis-2008, kandinsky-2012, eckersall-2017, pfeiffer-2009, diaz-soloaga-2016, navarro-gavino-2022, mejias-couldry-2024]
+deck_url: /master-lectures/dance-cinema-fashion/
+references: [shinkle-2008, laban-1987, schlemmer-1987, benjamin-1998, sill-2008, de-perthuis-2008, kandinsky-2012, eckersall-2017, pfeiffer-2009, diaz-soloaga-2016, navarro-gavino-2022, mejias-couldry-2024]
 ---
 
 <!-- prettier-ignore-start -->
@@ -54,6 +55,8 @@ forge: digital-creativity-pedagogy/forge/DANCE-CINEMA-FASHION-FORGE.mdc · ledge
 <div class="lesson-opener" markdown="1">
 
 > **Una prenda cambia lo que un cuerpo en movimiento puede mostrar y hacer. Una cámara y un montaje cambian lo que vemos de ambos.**
+
+**Presentación en clase:** [abrir presentación]({{ '/master-lectures/dance-cinema-fashion/' | relative_url }}) (en inglés)
 
 Esta es una **Master Lecture** de Creación Digital I. Su casa principal es el contenido oficial *Fuentes y referencias compositivas en el diseño de moda* (I.7): la danza, el cine y el vestuario escénico son fuentes compositivas para la moda. El ejercicio de animación del final (Ej 2 · T5) toca *Creación de imágenes digitales animadas* (I.8). **No** es una unidad, entrega ni nota nueva: lo que hagas va a tu portfolio como evidencia de Lab.
 
@@ -98,6 +101,11 @@ Antes de los vídeos, lee una imagen con la [tarjeta de ocho pasos]({{ '/lessons
 ### 1 · El cuerpo vestido en movimiento
 
 Una prenda no es vestuario hasta que se mueve. Mirar movimiento también es corporal: ante un cuerpo representado, «proyectamos esas posturas y gestos sobre nuestro propio cuerpo, sintiéndolos en nuestra piel y nuestros huesos» [(Shinkle 2008, 222)](#ref-shinkle-2008).
+
+El analista del movimiento Rudolf Laban lo dijo desde el lado del bailarín:
+
+> «Cada fase del movimiento, cada pequeña transferencia de peso, cada solitario gesto de una parte del cuerpo, revela algún rasgo de nuestra vida interior».  
+> — [(Laban 1987, 39)](#ref-laban-1987)
 
 <figure class="dcf-media" markdown="0">
 <video controls preload="none" playsinline muted loop poster="{{ '/assets/images/master-lectures/dance-cinema-fashion/muybridge-woman-dress-dancing-poster.webp' | relative_url }}">
@@ -160,6 +168,11 @@ El cuaderno de la Bauhaus de Kandinsky te da una herramienta para mirar estas pe
 
 En el polo opuesto, el *Ballet triádico* de Oskar Schlemmer (estreno en Stuttgart, 30 de septiembre de 1922) construyó **figuras rígidas y geométricas** que deciden cómo puede pisar y girar el cuerpo.
 
+Pero Schlemmer no partía de la geometría. Sus diarios parten del hecho sencillo de un cuerpo en escena:
+
+> «Partimos de la situación corporal, de la existencia, del estar de pié, de caminar y, luego, en último lugar, del saltar y del danzar. Puesto que dar un paso es un acontecimiento grandioso, mientras que levantar una mano, mover un dedo, no lo son menos».  
+> — [(Schlemmer 1987, 112)](#ref-schlemmer-1987)
+
 <div class="dcf-grid" markdown="0">
 <figure class="dcf-media" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/schlemmer-triadic-200.webp' | relative_url }}" alt="Fotografía en blanco y negro de figuras con vestuario en un escenario embaldosado: una con falda cónica de pinchos y un brazo como una maza, otra con forma oscura abombada; el vestuario oculta la anatomía." loading="lazy" decoding="async">
@@ -220,6 +233,13 @@ Una cámara no se limita a registrar un baile: elige un encuadre, una distancia 
 
 Los estudios lo sabían. Hollywood usó la fotografía de moda para dar a sus estrellas un *look* de marca y presentó a la estrella como referente de moda [(Sill 2008, 130)](#ref-sill-2008) — aunque «es el público quien hace a la estrella» [(Sill 2008, 127)](#ref-sill-2008).
 
+En 1934 Walter Benjamin sostuvo que la escena, ante el cine y la radio, podía competir o aprender. La posición que merece la pena es la de un teatro que hace lo segundo:
+
+> "Not so the position of a theatre which, instead of competing against the newer means of communication, tries to apply them and to learn from them - in short, to enter into a dialogue with them."  
+> — [(Benjamin 1998, 99)](#ref-benjamin-1998) · *Traducción del curso:* «No así la posición de un teatro que, en lugar de competir con los nuevos medios de comunicación, intenta aplicarlos y aprender de ellos; en suma, entrar en diálogo con ellos».
+
+Las películas de Chomón, abajo, son ese diálogo visto desde el cine; tu móvil y Firefly son la versión de esta sesión.
+
 **Un pionero español encuadra la serpentina.** Segundo de Chomón (Teruel 1871 – París 1929) coloreó películas a mano y con plantilla en Barcelona y París, y convirtió la serpentina en efectos especiales — la danza como animación.
 
 <figure class="dcf-media" markdown="0">
@@ -247,10 +267,6 @@ Las referencias viajan: de la escena al cine, del cine a la pasarela, de un paí
 **Caso · Madrid → Tokio.** Antonia Mercé, *La Argentina* (Buenos Aires, 1890 – 1936), llevó la danza española a escenarios internacionales. El bailarín japonés Kazuo Ohno la vio actuar de joven y, unos cincuenta años después, creó un solo con su nombre, *Admiring La Argentina* (1977, dirigido por Tatsumi Hijikata). El título es una **cita** comprobable; el año en que Ohno la vio no está claro — los archivos que puedes abrir dan 1926, 1927 y 1929.
 
 <div class="dcf-grid" markdown="0">
-<figure class="dcf-media" markdown="0">
-<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/la-argentina-bacarisas-poster.webp' | relative_url }}" alt="Cartel litográfico en color: una bailarina flamenca con vestido claro de volantes y mantón verde, brazos en alto, castañuelas; grandes letras «Antonia Mercé» y «Argentina»." loading="lazy" decoding="async">
-<figcaption>Gustavo Bacarisas, cartel para Antonia Mercé, <em>La Argentina</em>; impreso por Rivadeneyra, Madrid. Dominio público · Bibliothèque nationale de France vía <a href="https://commons.wikimedia.org/wiki/File:Antonia_Merc%C3%A9._Argentina_-_affiche_-_G._Bacarisas_-_btv1b53229920q.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
-</figure>
 <figure class="dcf-media" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/la-argentina-genthe.webp' | relative_url }}" alt="La Argentina bailando con bata de cola de volantes, un brazo en alto, sobre escenario oscuro." loading="lazy" decoding="async">
 <figcaption>Arnold Genthe, «La Argentina dancing» (entre 1928 y 1942). Dominio público · Library of Congress vía <a href="https://commons.wikimedia.org/wiki/File:La_Argentina_dancing_LOC_agc.7a09934.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
@@ -329,6 +345,8 @@ Dos ejercicios. Cada uno ofrece un **menú de propuestas** — elige; no las hag
 ### Ejercicio 1 · Capturar con la cámara del móvil (25′)
 
 Elige **dos** propuestas. Pared lisa, luz lateral (una ventana o la linterna del móvil de un compañero). Dispara mucho; quédate con poco.
+
+Mientras disparas, mira con los cuatro factores de Laban: «Peso, espacio, tiempo, y flujo» [(Laban 1987, 28)](#ref-laban-1987). Nombra cuál cambia más tu prenda.
 
 <div class="dcf-prompt" markdown="1">
 **C1 · Estudio serpentina (a partir de Fuller).** Gira con un pañuelo, camisa o abrigo extendido en los brazos o en dos bolígrafos como «varillas». Graba 5 segundos en **Cámara lenta** (iPhone *Slo-mo* / Android *Slow motion*). Oscurece la esquina y colorea la luz: pon un color a pantalla completa en otro móvil y úsalo como filtro.

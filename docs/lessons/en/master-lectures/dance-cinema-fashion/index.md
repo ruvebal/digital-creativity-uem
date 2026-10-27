@@ -13,7 +13,8 @@ tags: [master-lecture, dance, cinema, costume, movement, fashion-film, phone-cam
 master_idea: 'A garment changes what a moving body can show and do; a camera and an edit change what we can see of both. Claim only what your evidence can climb to.'
 practice_anchor: 'Capture movement with the phone camera, transform it in Photoshop or Firefly, then audit what the machine invented'
 frontier_signal: 'Influence between stage, screen and fashion is easy to see and hard to prove: dates and testimony disagree even in famous cases.'
-references: [shinkle-2008, sill-2008, de-perthuis-2008, kandinsky-2012, eckersall-2017, pfeiffer-2009, diaz-soloaga-2016, navarro-gavino-2022, mejias-couldry-2024]
+deck_url: /master-lectures/dance-cinema-fashion/
+references: [shinkle-2008, laban-1987, schlemmer-1987, benjamin-1998, sill-2008, de-perthuis-2008, kandinsky-2012, eckersall-2017, pfeiffer-2009, diaz-soloaga-2016, navarro-gavino-2022, mejias-couldry-2024]
 ---
 
 <!-- prettier-ignore-start -->
@@ -50,6 +51,11 @@ PROVENANCE_LINE: claim=ML-DCF.data-appropriation; status=VERIFIED; page_basis=se
 [BIBLIO-GAP] Barthes, The Fashion System — nodes 3d41765e (dress for dancing), 38c26041 (variant of movement): resolver BIBLIO-GAP, metadata title = publisher heading, no authors. Not cited publicly.
 [BIBLIO-GAP] Airoldi 2022 node b1ecfe23 (data-annotation micro-work): evaluator_safe=no (confidence 0.70). Not cited publicly.
 [BIBLIO-GAP] von Wachenfeldt 2026 (Fashion Communication in the Digital Age) nodes 8883a2e1, 2fff6888: evaluator_safe=no. Not cited publicly.
+QUOTATIONS-BANK (owner-authorised exception to hard rule 6, 2026-10-27): verbatim quotes transcribed by the instructor from print editions in ~/projects/ruvebal/scholar/quotations_bank/ — no Ahmes node exists for Laban, Schlemmer or Benjamin.
+PROVENANCE_LINE: claim=ML-DCF.laban-inner-life; status=INSTRUCTOR-TRANSCRIPTION; source={quotations_bank.txt; Laban, El dominio del movimiento, Fundamentos 1987, cap. II, p.39}; public="(Laban 1987, 39)"; evaluator_safe=n/a
+PROVENANCE_LINE: claim=ML-DCF.laban-effort-factors; status=INSTRUCTOR-TRANSCRIPTION; source={quotations_bank.txt; Laban 1987, cap. I, p.28}; public="(Laban 1987, 28)"; evaluator_safe=n/a
+PROVENANCE_LINE: claim=ML-DCF.schlemmer-step; status=INSTRUCTOR-TRANSCRIPTION; source={quotations_bank.txt; Schlemmer, Escritos sobre arte, Paidós 1987, p.112}; public="(Schlemmer 1987, 112)"; evaluator_safe=n/a
+PROVENANCE_LINE: claim=ML-DCF.benjamin-dialogue; status=INSTRUCTOR-TRANSCRIPTION; source={sketchpad.xml; Benjamin 1998, 98–99}; public="(Benjamin 1998, 99)"; evaluator_safe=n/a; edition=Understanding Brecht (Verso 1998) to confirm against the book
 OUT-OF-VAULT primary records linked, not cited: US Patent 518,347 (Fuller, 1894); Numeridanse / Maison de la Danse record of Admiring La Argentina (1986 recording); Commons file pages for every media item.
 S1–S15 of the research ledger remain outside the vault: no Duncan, Fuller, Schlemmer, Graham, butoh, abjection scholarship is page-verified yet.
 -->
@@ -75,6 +81,8 @@ S1–S15 of the research ledger remain outside the vault: no Duncan, Fuller, Sch
 <div class="lesson-opener" markdown="1">
 
 > **A garment changes what a moving body can show and do. A camera and an edit change what we can see of both.**
+
+**In-class slideshow:** [open deck]({{ '/master-lectures/dance-cinema-fashion/' | relative_url }})
 
 This is a **Master Lecture** for Digital Creativity I. Its principal home is the official content *Fuentes y referencias compositivas en el diseño de moda* (I.7): dance, film and stage costume are compositional sources for fashion. The animation exercise at the end (Ex 2 · T5) touches *Creación de imágenes digitales animadas* (I.8). It is **not** a new unit, deliverable or grade: what you make goes to your portfolio as Lab evidence.
 
@@ -119,6 +127,11 @@ Before the clips, read one still with the [eight-step card]({{ '/lessons/en/mast
 ### 1 · The moving, dressed body
 
 A garment is not a costume until it moves. Looking at movement is also bodily: when we look at a represented body, we “map these postures and gestures onto our own body, feeling them in our own skin and bones” [(Shinkle 2008, 222)](#ref-shinkle-2008).
+
+The movement analyst Rudolf Laban put the same idea from the dancer's side:
+
+> «Cada fase del movimiento, cada pequeña transferencia de peso, cada solitario gesto de una parte del cuerpo, revela algún rasgo de nuestra vida interior».  
+> — [(Laban 1987, 39)](#ref-laban-1987) · *Course translation:* “Every phase of movement, every small transfer of weight, every single gesture of any part of the body reveals some feature of our inner life.”
 
 <figure class="dcf-media" markdown="0">
 <video controls preload="none" playsinline muted loop poster="{{ '/assets/images/master-lectures/dance-cinema-fashion/muybridge-woman-dress-dancing-poster.webp' | relative_url }}">
@@ -181,6 +194,11 @@ Kandinsky's Bauhaus notebook gives you a looking tool for these films: “The en
 
 At the opposite pole, Oskar Schlemmer's *Triadic Ballet* (premiere, Stuttgart, 30 September 1922) built **rigid, geometric figures** that decide how the body can step and turn.
 
+Schlemmer did not start from geometry, though. His diaries start from the plain fact of a body on stage:
+
+> «Partimos de la situación corporal, de la existencia, del estar de pié, de caminar y, luego, en último lugar, del saltar y del danzar. Puesto que dar un paso es un acontecimiento grandioso, mientras que levantar una mano, mover un dedo, no lo son menos».  
+> — [(Schlemmer 1987, 112)](#ref-schlemmer-1987) · *Course translation:* “We start from the bodily situation, from existence, from standing, from walking, and only last of all from leaping and dancing. For taking a step is a grand event — and raising a hand or moving a finger no less.”
+
 <div class="dcf-grid" markdown="0">
 <figure class="dcf-media" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/schlemmer-triadic-200.webp' | relative_url }}" alt="Black-and-white photograph of costumed figures on a tiled stage: one with a spiked conical skirt and a club-like arm, another in a ballooning dark form; the costumes hide human anatomy." loading="lazy" decoding="async">
@@ -241,6 +259,13 @@ A camera does not simply record a dance. It chooses a frame, a distance and a cu
 
 Studios understood this. Hollywood used fashion photography to give stars a signature look and presented the star as a fashion reference [(Sill 2008, 130)](#ref-sill-2008) — yet “it's the public who makes the star” [(Sill 2008, 127)](#ref-sill-2008).
 
+In 1934 Walter Benjamin argued that the stage had a choice when film and radio arrived — compete, or learn. The position worth taking is that of a theatre that does the second:
+
+> "Not so the position of a theatre which, instead of competing against the newer means of communication, tries to apply them and to learn from them - in short, to enter into a dialogue with them."  
+> — [(Benjamin 1998, 99)](#ref-benjamin-1998)
+
+Chomón's films, below, are that dialogue seen from cinema's side; your phone and Firefly are this session's version of it.
+
 **A Spanish pioneer frames the serpentine.** Segundo de Chomón (Teruel 1871 – Paris 1929) coloured films by hand and by stencil in Barcelona and Paris, and turned the serpentine into special effects — the dance as animation.
 
 <figure class="dcf-media" markdown="0">
@@ -268,10 +293,6 @@ References travel: from stage to film, from film to runway, from one country to 
 **Case · Madrid → Tokyo.** Antonia Mercé, *La Argentina* (born Buenos Aires, 1890; died 1936), took Spanish dance onto international stages. The Japanese dancer Kazuo Ohno saw her perform as a young man, and some fifty years later made a solo titled after her, *Admiring La Argentina* (1977, directed by Tatsumi Hijikata). The title is a **quotation** you can check; the date Ohno saw her is not settled — the archives you can open give 1926, 1927 and 1929.
 
 <div class="dcf-grid" markdown="0">
-<figure class="dcf-media" markdown="0">
-<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/la-argentina-bacarisas-poster.webp' | relative_url }}" alt="Colour lithograph poster: a flamenco dancer in a pale ruffled dress with a green shawl, arms raised, castanets; large lettering 'Antonia Mercé' and 'Argentina'." loading="lazy" decoding="async">
-<figcaption>Gustavo Bacarisas, poster for Antonia Mercé, <em>La Argentina</em>; printed by Rivadeneyra, Madrid. Public domain · Bibliothèque nationale de France via <a href="https://commons.wikimedia.org/wiki/File:Antonia_Merc%C3%A9._Argentina_-_affiche_-_G._Bacarisas_-_btv1b53229920q.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
-</figure>
 <figure class="dcf-media" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/la-argentina-genthe.webp' | relative_url }}" alt="La Argentina mid-dance in a long ruffled bata de cola, one arm raised, photographed on a dark stage." loading="lazy" decoding="async">
 <figcaption>Arnold Genthe, “La Argentina dancing” (between 1928 and 1942). Public domain · Library of Congress via <a href="https://commons.wikimedia.org/wiki/File:La_Argentina_dancing_LOC_agc.7a09934.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
@@ -350,6 +371,8 @@ Two exercises. Each offers a **menu of prompts** — choose; do not do them all.
 ### Exercise 1 · Capture with the phone camera (25′)
 
 Choose **two** prompts. Plain wall, side light (a window, or a classmate's phone torch). Shoot many; keep few.
+
+While you shoot, watch with Laban's four motion factors: «Peso, espacio, tiempo, y flujo» — weight, space, time and flow [(Laban 1987, 28)](#ref-laban-1987). Name which one your garment changes most.
 
 <div class="dcf-prompt" markdown="1">
 **C1 · Serpentine study (after Fuller).** Spin with a scarf, shirt or coat held out on your arms or on two pens as “wands”. Film 5 seconds in **Slo-mo** (iPhone) or **Slow motion** (Android). Darken the corner and colour the light: put a full-screen colour on a second phone and use it as a gel.
