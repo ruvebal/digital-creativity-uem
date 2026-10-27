@@ -179,6 +179,7 @@ D1 intra-rubric: presentation **70%** · deliverable support **20%** · peer deb
 ## Golden rules (typography + layout floors)
 
 1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally (`h1` `clamp(2.15rem, 6.6vw, 3.15rem)`, as in `pass-track-deck.css`). These are floors for every slide layout, Lab exercise slides included; `npm run test:browser` checks them **on screen and in the print pass** (PHASE-EX5 / FINDINGS B4). Secondary type keeps these **ratios of the base floor** (documented here so tests do not invent constants): quote **0.72×**, prompt/trace **0.76×**, Lab timer **0.70×**. Do **not** revert to smaller clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
+2. **Quote reference tag (DH — lesson / assignment blockquotes).** Separate the extract from the Chicago pin. Prefer `<p class="quote-ref" markdown="1">— (<a href="#ref-…">Author Year, page</a>)</p>` or `<footer class="quote-ref">`. CSS right-aligns `.quote-ref` / last attribution `p` / `footer`. Decorative marks **frame the whole block**: open-quote before the first paragraph, close-quote after the latest (the pin). Sibling contract: CT `STUDENT-SLIDESHOW-FORGE` §4b.
 
 ## Required student-deck fields
 

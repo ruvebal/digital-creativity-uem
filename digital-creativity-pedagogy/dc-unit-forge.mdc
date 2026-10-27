@@ -393,6 +393,7 @@ Golden rules for slides (shared with CT): see
 [`forge/STUDENT-SLIDESHOW-FORGE.mdc`](./forge/STUDENT-SLIDESHOW-FORGE.mdc)
 §Golden rules — bigger type, 17-year-old register, Ahmes-only quotes with
 provenance in source comments, `(Author, Year)` as links to References,
+blockquote extract + right-aligned `quote-ref` pin (DH; open before first, close after latest),
 geometrical captions include SVG UUID.
 
 ## 4. Forge order (first-run)
