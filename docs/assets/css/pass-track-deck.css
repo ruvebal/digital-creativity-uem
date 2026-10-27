@@ -705,3 +705,82 @@ body {
   .student-media-figure-full { height: auto; }
   .student-media-figure-full .student-media-slide__figure { height: auto; }
 }
+
+/* ── Slide typography law (forge/SLIDE-TYPOGRAPHY-LAW.mdc) ──────────────────
+   One reading path per card, built only from the deck tokens:
+   label (muted, spaced caps) → heading (foreground, accent bar) → sentence
+   (foreground, key terms in accent) → evidence (quote + citation, muted) →
+   action (prompt / link, separated). Sizes never go below the golden-rule
+   floors; emphasis is colour + weight, never size jumps inside a sentence. */
+.student-media-slide__unit {
+  font-size: 0.5em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(var(--muted-foreground) / 0.85);
+}
+.student-media-slide > h1 {
+  position: relative;
+  margin: 0.1em 0 0.35em;
+  padding-bottom: 0.3em;
+  line-height: 1.08;
+}
+.student-media-slide > h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.4em;
+  height: 0.09em;
+  min-height: 3px;
+  border-radius: 2px;
+  background: rgb(var(--accent));
+}
+.student-media-slide__sentence,
+.student-media-slide__body {
+  line-height: 1.38;
+  color: rgb(var(--foreground) / 0.94);
+}
+.slide-key {
+  font-weight: 700;
+  color: rgb(var(--accent));
+}
+.slide-tension {
+  padding: 0 0.12em;
+  border-radius: 0.15em;
+  background: transparent;
+  color: rgb(var(--foreground));
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--primary));
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.18em;
+}
+h1 .slide-key { font-weight: inherit; }
+.student-media-slide__kicker {
+  margin-top: 0.5rem;
+  font-size: 0.56em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(var(--accent));
+}
+.student-media-slide__quote {
+  font-style: italic;
+  color: rgb(var(--muted-foreground));
+}
+.student-media-slide__citation {
+  font-size: 0.6em;
+  letter-spacing: 0.02em;
+  color: rgb(var(--muted-foreground) / 0.9);
+}
+.student-media-slide__prompt {
+  margin-top: 0.4rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid rgb(var(--foreground) / 0.16);
+  color: rgb(var(--muted-foreground));
+}
+.student-media-slide__questions li::marker {
+  color: rgb(var(--accent));
+  font-weight: 700;
+}

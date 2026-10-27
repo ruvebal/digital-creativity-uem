@@ -211,8 +211,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.cover",
       "asset_id": "wikimedia:File:Loie Fuller 1895.jpg",
-      "heading": "What does a garment do when the body moves?",
-      "sentence": "Part 1 of 3. A garment is not a costume until it moves.",
+      "heading": "What does a **garment** do when the body moves?",
+      "sentence": "Part 1 of 3. A garment is not a costume until it **moves**.",
       "prompt": "Master Lecture cycle · Dance, cinema and fashion · Digital Creativity I",
       "image_brief": "Loïe Fuller's butterfly costume, 1895: cloth that becomes an image only when it moves.",
       "notes": "- Phones charged; a garment that moves.\n- Today: analysis 15′ · masterclass 40′ · Lab 50′ · share 10′.",
@@ -256,7 +256,7 @@ layout: null
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis · one still",
-      "sentence": "Before any film, we read one frozen image in eight steps: in pairs, three minutes per block.",
+      "sentence": "Before any film, we read **one frozen image** in **eight steps**: in pairs, three minutes per block.",
       "notes": "- Use the eight-step card from the fashion image analysis lecture."
     },
     {
@@ -265,19 +265,19 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.analysis-model",
       "asset_id": "wikimedia:File:Top-Hat-Rogers-Astaire.jpg",
-      "heading": "A dance that never stops — stopped",
+      "heading": "A dance that never stops — **stopped**",
       "body": [
         {
           "kicker": "Describe",
-          "text": "Look at the bodies, the gown, the light and the crop. Follow the line of the dress: where does it go, and where does it stop?"
+          "text": "Look at the bodies, the gown, the light and the crop. Follow the **line of the dress**: where does it go, and where does it stop?"
         },
         {
           "kicker": "Production",
-          "text": "This is a studio publicity photograph from 1935, not a frame of the film. Who posed it, and for whom?"
+          "text": "This is a **studio publicity photograph** from 1935, not a frame of the film. Who posed it, and ==for whom==?"
         },
         {
           "kicker": "Critical",
-          "text": "She leans back and he holds her. What does the photograph freeze that the dance itself would never stop on?"
+          "text": "She leans back and he holds her. What does the photograph ==freeze== that the dance itself would never stop on?"
         }
       ],
       "image_brief": "Ginger Rogers and Fred Astaire in a Top Hat publicity still: the feathered sleeve spreads like a fan.",
@@ -289,9 +289,9 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.masterclass-1",
       "asset_id": "wikimedia:File:Isadora Duncan dancing LOC agc.7a09881.jpg",
-      "heading": "The cloth arrives after the body",
-      "sentence": "When a dancer moves, the fabric follows a moment later — and as we watch, we feel that movement in our own body.",
-      "prompt": "Very little film of Isadora Duncan dancing is known: her dance reaches us mostly through photographs.",
+      "heading": "The cloth arrives **after** the body",
+      "sentence": "When a dancer moves, the fabric follows **a moment later** — and as we watch, we feel that movement in **our own body**.",
+      "prompt": "Very little film of Isadora Duncan dancing is known: her dance reaches us mostly through **photographs**.",
       "image_brief": "Arnold Genthe's photograph of Isadora Duncan in a loose tunic, one arm raised.",
       "notes": "- Play the Muybridge loop in the lesson: the hem lands after the step.",
       "quote": "we map these postures and gestures onto our own body, feeling them in our own skin and bones",
@@ -322,9 +322,9 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.masterclass-2",
       "asset_id": "wikimedia:File:Museo del Traje - MT111885 - Vestido Delphos.jpg",
-      "heading": "Two artists borrow ancient Greece",
-      "sentence": "Isadora Duncan danced in loose “Greek” tunics, and the designer Mariano Fortuny, born in Granada, pleated silk into a column he called Delphos.",
-      "prompt": "This Delphos gown is in the Museo del Traje in Madrid. Whose “classical” body becomes the ideal — and who is left out?",
+      "heading": "Two artists borrow **ancient Greece**",
+      "sentence": "Isadora Duncan danced in loose “Greek” **tunics**, and the designer Mariano Fortuny, born in **Granada**, pleated silk into a column he called **Delphos**.",
+      "prompt": "This Delphos gown is in the Museo del Traje in Madrid. ==Whose== “classical” body becomes the ideal — and who is left out?",
       "image_brief": "Fortuny's black Delphos gown, Museo del Traje, Madrid: pleats that open only when a body moves.",
       "notes": "- A revival is not the ancient practice itself: what evidence would tell them apart?"
     },
@@ -334,13 +334,13 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.masterclass-3",
       "asset_id": "wikimedia:File:(Albi) - La Loïe Fuller aux-Folies-Bergère - Toulouse-Lautrec (1893) MTL.152.jpg",
-      "heading": "A patent for flying cloth",
-      "sentence": "In 1894 the dancer Loïe Fuller patented a “garment for dancers”: a huge skirt hung from the head and thrown into waves with light wands.",
+      "heading": "A **patent** for flying cloth",
+      "sentence": "In **1894** the dancer Loïe Fuller patented a **“garment for dancers”**: a huge skirt hung from the head and thrown into waves with light **wands**.",
       "external_link": {
         "href": "https://patents.google.com/patent/US518347A/en",
         "label": "Open Fuller's 1894 patent"
       },
-      "prompt": "Toulouse-Lautrec painted her in Paris in 1893 as swirling colour: the cloth, not the body.",
+      "prompt": "Toulouse-Lautrec painted her in Paris in 1893 as swirling colour: **the cloth, not the body**.",
       "image_brief": "Toulouse-Lautrec's sketch of Loïe Fuller at the Folies-Bergère: the body disappears into cloth.",
       "notes": "- Who gets the credit: dancer, maker, or the person who filed the patent?"
     },
@@ -350,8 +350,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.masterclass-4",
       "asset_id": "wikimedia:File:Loie Fuller dancing with scarf.jpg",
-      "heading": "Many films called “Loïe Fuller” show someone else",
-      "sentence": "Fuller's serpentine dance was copied everywhere, so early films sold under her name often show other dancers. Every old film is evidence to check.",
+      "heading": "Many films called “Loïe Fuller” show ==someone else==",
+      "sentence": "Fuller's serpentine dance was **copied everywhere**, so early films sold under her name often show other dancers. Every old film is **evidence to check**.",
       "external_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-body-cloth/#2--cloth-that-flies",
         "label": "Play the three serpentine films in the lesson"
@@ -365,8 +365,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.masterclass-5",
       "asset_id": "wikimedia:File:Isadora Duncan dancers LOC agc.7a10003.jpg",
-      "heading": "A dancing body draws lines",
-      "sentence": "The painter Wassily Kandinsky taught his Bauhaus students to look at a dancing body as a drawing made of lines.",
+      "heading": "A dancing body draws **lines**",
+      "sentence": "The painter Wassily Kandinsky taught his Bauhaus students to look at a dancing body as **a drawing made of lines**.",
       "image_brief": "Three of Isadora Duncan's dancers hold a veil above a seated figure: one line across three bodies.",
       "notes": "- Kandinsky credits the observation to the dancer Gret Palucca.",
       "quote": "The entire body of the dancer, right down to his finger tips, is at every moment an uninterrupted composition of lines",
@@ -397,9 +397,9 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-1.masterclass-6",
       "asset_id": "wikimedia:File:Das Triadische Ballett, Programmzettel 1922.jpg",
-      "heading": "Start from one step",
-      "sentence": "Oskar Schlemmer, who designed the Triadic Ballet in 1922, did not start from geometry. He started from a body standing on a stage.",
-      "prompt": "In English: taking a step is a grand event — and raising a hand or moving a finger no less.",
+      "heading": "Start from **one step**",
+      "sentence": "Oskar Schlemmer, who designed the Triadic Ballet in 1922, did not start from **geometry**. He started from **a body standing on a stage**.",
+      "prompt": "In English: taking a step is **a grand event** — and raising a hand or moving a finger no less.",
       "image_brief": "The printed programme of the Triadic Ballet premiere, Stuttgart, 1922: twelve dances in three colour series.",
       "notes": "- A document, not a photograph of the premiere.\n- Part 2 opens with what his costumes did to that step.",
       "quote": "Puesto que dar un paso es un acontecimiento grandioso, mientras que levantar una mano, mover un dedo, no lo son menos.",
@@ -432,7 +432,7 @@ layout: null
       "sentence": "Alone, from memory, three minutes. Then compare with a partner.",
       "notes": "Answers:\n- Behind it: the fabric follows a moment later.\n- Mariano Fortuny.\n- Loïe Fuller, 1894.\n- The dance was copied: other dancers appear under her name.\n- Taking a step is a grand event.",
       "questions": [
-        "Does the cloth move before or after the body?",
+        "Does the cloth move **before or after** the body?",
         "Which designer born in Granada made the Delphos gown?",
         "Who patented a “garment for dancers”, and when?",
         "Why should we doubt early films sold as “Loïe Fuller”?",
@@ -457,7 +457,7 @@ layout: null
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab",
-      "sentence": "Two exercises with your phone. Everything you make goes into your portfolio index on Canvas.",
+      "sentence": "**Two exercises** with your phone. Everything you make goes into your **portfolio index** on Canvas.",
       "notes": "- Consent first: photograph a classmate only if they say yes; faces are optional."
     },
     {
@@ -467,9 +467,9 @@ layout: null
       "media_slot_id": "ML-DCF-1.lab-1",
       "asset_id": "wikimedia:File:Eadweard Muybridge, Animal Locomotion, Woman Dancing (fancy), 1887, plate 187.gif",
       "heading": "Exercise 1 · Serpentine and light",
-      "sentence": "Spin with a scarf or coat and film five seconds in slow motion — or move a garment with a phone torch inside it and take a long exposure.",
+      "sentence": "Spin with a scarf or coat and film five seconds in **slow motion** — or move a garment with a phone torch inside it and take a **long exposure**.",
       "portfolio_bound": true,
-      "portfolio_trace": "Keep your best capture and write one sentence: did the garment change the weight, the space, the time or the flow of the movement?",
+      "portfolio_trace": "Keep your best capture and write one sentence: did the garment change the **weight**, the **space**, the **time** or the **flow** of the movement?",
       "card_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-body-cloth/#exercise-1--serpentine-and-light-25",
         "label": "Both prompts in the lesson"
@@ -506,9 +506,9 @@ layout: null
       "media_slot_id": "ML-DCF-1.lab-2",
       "asset_id": "wikimedia:File:Woman in dress dancing (1887).gif",
       "heading": "Exercise 2 · One image of time",
-      "sentence": "Shoot a burst of one turn, keep six frames, and stack them in Photoshop so a single image shows where the garment travelled.",
+      "sentence": "Shoot a **burst** of one turn, keep **six frames**, and stack them in Photoshop so a single image shows **where the garment travelled**.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save your image of time with one sentence on what the garment did after the body moved. No AI is needed today.",
+      "portfolio_trace": "Save your image of time with one sentence on what the garment did **after** the body moved. **No AI** is needed today.",
       "card_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-body-cloth/#exercise-2--one-image-of-time-25",
         "label": "Step by step in the lesson"
@@ -522,7 +522,7 @@ layout: null
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Watch what the cloth does after the body moves, and treat every old film as evidence. Part 2 asks who decides how a costume moves: the costume itself, or the camera?",
+      "sentence": "Watch what the cloth does **after the body moves**, and treat every old film as **evidence**. Part 2 asks who decides how a costume moves: ==the costume itself, or the camera==?",
       "notes": "- Portfolio entry before the next session."
     }
   ],

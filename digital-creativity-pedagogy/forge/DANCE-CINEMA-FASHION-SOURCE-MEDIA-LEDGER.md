@@ -133,3 +133,4 @@ Owner asked for an index + two parts, cloned from the CT cycle *Who Creates, Who
 - Deck diagrams: full-slide graphic fixed (figure takes the deck's 690 px height, drawing contained and centred, credit at 0.32em). Root cause of the wide margins was a **stale cached stylesheet**; deck pages now load `pass-track-deck.css?v=20261027d`.
 - Slide headings carry no idea numbers, so each slide reads on its own.
 - Butoh section: paragraph that had been glued after a figure's closing tag is re-joined before the figure (EN + ES).
+- **Slide typography law (2026-10-27):** all three decks rewritten per the new forge rule `forge/SLIDE-TYPOGRAPHY-LAW.mdc` — renderer `inlineHtml` (`**key**` → accent, `==tension==` → primary underline), token-only card hierarchy in `pass-track-deck.css`, 82 marks across the three decks (≤ 1 tension per slide). Stylesheet now `?v=20261027e`.

@@ -211,8 +211,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.cover",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 400.jpg",
-      "heading": "Who shapes a dance: the costume or the camera?",
-      "sentence": "Part 2 of 3. A costume can decide the step — and a camera decides how much of it we see.",
+      "heading": "Who shapes a dance: the **costume** or the **camera**?",
+      "sentence": "Part 2 of 3. A costume can **decide the step** — and a camera decides **how much of it we see**.",
       "prompt": "Master Lecture cycle · Dance, cinema and fashion · Digital Creativity I",
       "image_brief": "A Triadic Ballet figure, 1925: a glass sphere for a head, a ruffled skirt, striped legs ending in points.",
       "notes": "- Phones, paper, card, tape or a coat hanger.\n- Today: analysis 15′ · masterclass 40′ · Lab 50′ · share 10′.",
@@ -256,7 +256,7 @@ layout: null
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis · one costume drawing",
-      "sentence": "We read one costume drawing in eight steps: in pairs, three minutes per block.",
+      "sentence": "We read **one costume drawing** in **eight steps**: in pairs, three minutes per block.",
       "notes": "- Same eight-step card as Part 1; start with dot, line and plane."
     },
     {
@@ -265,19 +265,19 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.analysis-model",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 300.jpg",
-      "heading": "A dancer designed on paper",
+      "heading": "A dancer designed **on paper**",
       "body": [
         {
           "kicker": "Describe",
-          "text": "Name the dots, lines and planes: the rings, the disc, the stripes. Where is the human body inside this drawing?"
+          "text": "Name the **dots, lines and planes**: the rings, the disc, the stripes. Where is the **human body** inside this drawing?"
         },
         {
           "kicker": "Production",
-          "text": "Oskar Schlemmer drew this costume before anyone could move in it. What will a dancer have to do to wear it?"
+          "text": "Oskar Schlemmer drew this costume **before anyone could move in it**. What will a dancer have to do to wear it?"
         },
         {
           "kicker": "Critical",
-          "text": "Who is the author of the dance this costume allows — the designer or the dancer?"
+          "text": "Who is the ==author== of the dance this costume allows — the designer or the dancer?"
         }
       ],
       "image_brief": "Schlemmer's drawing for the Triadic Ballet: a figure wound in black-and-white spiral rings over a striped disc.",
@@ -289,8 +289,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.masterclass-1",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 200.jpg",
-      "heading": "Geometry decides the step",
-      "sentence": "Schlemmer's rigid costumes of cones, discs and spirals made some steps impossible and invented new ones.",
+      "heading": "**Geometry** decides the step",
+      "sentence": "Schlemmer's rigid costumes of **cones, discs and spirals** made some steps **impossible** and invented **new ones**.",
       "image_brief": "Triadic Ballet figures photographed for the 1925 Bauhaus stage book: a spiked cone skirt, a club-like arm.",
       "notes": "- Reorganisation: the costume writes the choreography.\n- Exercise 1 builds one of these in five minutes."
     },
@@ -300,8 +300,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.masterclass-2",
       "asset_id": "wikimedia:File:Triadisches Ballett by Oskar Schlemmer - Staatsgalerie - Stuttgart - Germany 2017.jpg",
-      "heading": "Four things a garment can do",
-      "sentence": "A garment can do four things to a moving body: drape it, extend it, hold it in tension, or reorganise it completely.",
+      "heading": "**Four things** a garment can do",
+      "sentence": "A garment can do four things to a moving body: **drape** it, **extend** it, hold it in **tension**, or **reorganise** it completely.",
       "image_brief": "Triadic Ballet figures on display in Stuttgart, 2017: costumes standing still, out of the dance.",
       "notes": "- A museum display is not a performance."
     },
@@ -324,8 +324,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.masterclass-3",
       "asset_id": "wikimedia:File:Janet Eilber Performing Martha Graham’s “Lamentation” in the East Room of the White House - NARA - 30805967.jpg",
-      "heading": "The body pushes against the cloth",
-      "sentence": "In Martha Graham's solo Lamentation, the dancer sits inside a tube of stretched jersey, and grief becomes visible as tension in the fabric.",
+      "heading": "The body **pushes against** the cloth",
+      "sentence": "In Martha Graham's solo Lamentation, the dancer sits inside a **tube of stretched jersey**, and grief becomes visible as **tension in the fabric**.",
       "external_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-costume-camera/#4--costume-makes-a-choreography",
         "label": "Watch Graham's Night Journey in the lesson"
@@ -339,8 +339,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.masterclass-4",
       "asset_id": "wikimedia:File:Swing Time (1936).jpg",
-      "heading": "Same dance, different film",
-      "sentence": "A camera chooses how close to stand and when to cut — and those choices decide whether we ever see the whole dress move.",
+      "heading": "Same dance, **different film**",
+      "sentence": "A camera chooses **how close to stand** and **when to cut** — and those choices decide whether we ever see ==the whole dress== move.",
       "image_brief": "Rogers and Astaire in Swing Time: the skirt flares wide, visible only in a full-figure shot.",
       "notes": "- Play Cheek to Cheek from a licensed copy: count the cuts; check feet and hem."
     },
@@ -363,8 +363,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.masterclass-5",
       "asset_id": "wikimedia:File:Ginger Rogers and Fred Astaire - Follow the Fleet (1936).jpg",
-      "heading": "The public makes the star",
-      "sentence": "Hollywood studios used fashion photographs to turn dancing stars into style models that audiences wanted to copy.",
+      "heading": "The **public** makes the star",
+      "sentence": "Hollywood studios used **fashion photographs** to turn dancing stars into **style models** that audiences wanted to copy.",
       "image_brief": "Rogers and Astaire in Follow the Fleet: a costume made to sell a star as much as a step.",
       "notes": "- Who is credited: the dancers, the costume designer, the photographer?",
       "quote": "it's the public who makes the star",
@@ -395,8 +395,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-2.masterclass-6",
       "asset_id": "wikimedia:File:Man and woman dancing a waltz (1887).gif",
-      "heading": "When the stage met cinema",
-      "sentence": "When film arrived, theatre could compete with it or learn from it. The Spanish film pioneer Segundo de Chomón turned the serpentine dance into special effects.",
+      "heading": "When the stage met **cinema**",
+      "sentence": "When film arrived, theatre could **compete** with it or **learn** from it. The Spanish film pioneer **Segundo de Chomón** turned the serpentine dance into special effects.",
       "external_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-costume-camera/#5--cinema-frames-the-moving-body",
         "label": "Play Chomón's film of 1908 in the lesson"
@@ -445,7 +445,7 @@ layout: null
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab",
-      "sentence": "Two exercises with your phone. Everything you make goes into your portfolio index on Canvas.",
+      "sentence": "**Two exercises** with your phone. Everything you make goes into your **portfolio index** on Canvas.",
       "notes": "- Consent first: film a classmate only if they say yes; faces are optional."
     },
     {
@@ -455,9 +455,9 @@ layout: null
       "media_slot_id": "ML-DCF-2.lab-1",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 100.jpg",
       "heading": "Exercise 1 · Constraint costume",
-      "sentence": "In five minutes, build one stiff extension — a paper cone, a card disc, a coat hanger — on an arm, the head or the hem, and film the movement it forces.",
+      "sentence": "In five minutes, build one **stiff extension** — a paper cone, a card disc, a coat hanger — on an arm, the head or the hem, and film the movement **it forces**.",
       "portfolio_bound": true,
-      "portfolio_trace": "Keep the film and write one sentence: which step became impossible, and which new step appeared?",
+      "portfolio_trace": "Keep the film and write one sentence: which step became **impossible**, and which **new step** appeared?",
       "card_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-costume-camera/#exercise-1--constraint-costume-25",
         "label": "The prompt in the lesson"
@@ -473,9 +473,9 @@ layout: null
       "media_slot_id": "ML-DCF-2.lab-2",
       "asset_id": "wikimedia:File:Irene Dunne, Fred Astaire and Ginger Rogers in Roberta.jpg",
       "heading": "Exercise 2 · Same dance, different film",
-      "sentence": "Film one short phrase twice: once as a single full-figure take, once as three close-ups cut together. Then read both with the movement card.",
+      "sentence": "Film one short phrase twice: once as **a single full-figure take**, once as **three close-ups** cut together. Then read both with the **movement card**.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save both versions with the filled movement card: what the garment does, the frame, and what each version hides.",
+      "portfolio_trace": "Save both versions with the filled movement card: what the garment does, the frame, and what each version ==hides==.",
       "card_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-costume-camera/#quick-card-printable",
         "label": "Printable movement card"
@@ -489,7 +489,7 @@ layout: null
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "A costume can decide the step, and a camera can decide what we see of it. Part 3 asks: when a movement travels, who owns it?",
+      "sentence": "A costume can **decide the step**, and a camera can **decide what we see** of it. Part 3 asks: when a movement travels, ==who owns it==?",
       "notes": "- Portfolio entry before the next session."
     }
   ],

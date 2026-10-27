@@ -15,6 +15,7 @@ import {
   backgroundFor,
   diagramCaptionHtml,
   escapeHtml,
+  inlineHtml,
   geometricCaptionHtml,
   layoutFor,
   licenceLabel,
@@ -162,4 +163,13 @@ test('authored diagram backgrounds retain their local image and accessible descr
   assert.equal(figures['masterclass-1'].src, slide.diagram_src);
   assert.equal(figures['masterclass-1'].alt, slide.diagram_alt);
   assert.match(figures['masterclass-1'].caption_html, /Where a material fold changes/);
+});
+
+test('inline emphasis: **key** → accent strong, ==tension== → mark, HTML still escaped', () => {
+  assert.equal(
+    inlineHtml('A **garment** is not a ==costume== <b>'),
+    'A <strong class="slide-key">garment</strong> is not a <mark class="slide-tension">costume</mark> &lt;b&gt;',
+  );
+  assert.equal(inlineHtml('no marks here'), 'no marks here');
+  assert.equal(inlineHtml('1 ** 2'), '1 ** 2');
 });

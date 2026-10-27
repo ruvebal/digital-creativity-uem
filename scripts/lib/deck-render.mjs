@@ -42,6 +42,18 @@ export function escapeHtml(value) {
     .replaceAll('}', '&#125;');
 }
 
+/**
+ * Slide text with the two emphasis marks of the slide typography law
+ * (forge/SLIDE-TYPOGRAPHY-LAW.mdc), escaped first so authors cannot inject HTML:
+ *   **key term**      → <strong class="slide-key">   (accent token)
+ *   ==tension word==  → <mark class="slide-tension">  (primary token)
+ */
+export function inlineHtml(value) {
+  return escapeHtml(value)
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="slide-key">$1</strong>')
+    .replace(/==(.+?)==/g, '<mark class="slide-tension">$1</mark>');
+}
+
 export const PUBLIC_DOMAIN = 'Public domain';
 /** Caption label of a flagged asset whose licence claims the public domain (A12/F8). */
 export const RIGHTS_UNDER_REVIEW = 'Rights under review';
@@ -171,7 +183,7 @@ export function notesHtml(notes) {
 export function questionsHtml(questions) {
   const items = (Array.isArray(questions) ? questions : []).map((q) => String(q ?? '').trim()).filter(Boolean);
   if (!items.length) return '';
-  return `<ol class="student-media-slide__questions">${items.map((q) => `<li>${escapeHtml(q)}</li>`).join('')}</ol>`;
+  return `<ol class="student-media-slide__questions">${items.map((q) => `<li>${inlineHtml(q)}</li>`).join('')}</ol>`;
 }
 
 const isStructural = (slide) => slide.background_kind === 'geometrical' || STRUCTURAL_ROLES.includes(slide.slide_role);
@@ -183,7 +195,7 @@ function bodyBlocksHtml(slide) {
         ? `<p class="student-media-slide__kicker">${escapeHtml(block.kicker)}</p>`
         : '';
       const text = block?.text
-        ? `<p class="student-media-slide__body">${escapeHtml(block.text)}</p>`
+        ? `<p class="student-media-slide__body">${inlineHtml(block.text)}</p>`
         : '';
       return `<div class="student-media-slide__block">${kicker}${text}</div>`;
     }).join('');
@@ -193,10 +205,10 @@ function bodyBlocksHtml(slide) {
       const text = String(line || '');
       const isKicker = /^pass\s*\d/i.test(text.trim());
       const cls = isKicker ? 'student-media-slide__kicker' : 'student-media-slide__body';
-      return `<p class="${cls}">${escapeHtml(text)}</p>`;
+      return `<p class="${cls}">${inlineHtml(text)}</p>`;
     }).join('');
   }
-  return slide.sentence ? `<p class="student-media-slide__sentence">${escapeHtml(slide.sentence)}</p>` : '';
+  return slide.sentence ? `<p class="student-media-slide__sentence">${inlineHtml(slide.sentence)}</p>` : '';
 }
 
 /**
@@ -269,7 +281,7 @@ export function renderSlide(slide, deck, background, ctx = {}) {
   if (slide.figure?.src && slide.figure.placement === 'full') {
     return [
       open,
-      `  <h1 class="sr-only">${escapeHtml(slide.heading)}</h1>`,
+      `  <h1 class="sr-only">${escapeHtml(String(slide.heading || '').replace(/\*\*|==/g, ''))}</h1>`,
       `  <figure class="student-media-figure-full">${figureImg}${slide.figure.caption ? `<figcaption>${escapeHtml(slide.figure.caption)}</figcaption>` : ''}</figure>`,
       notes ? `  <aside class="notes">${notes}</aside>` : '',
       '</section>',
@@ -278,7 +290,7 @@ export function renderSlide(slide, deck, background, ctx = {}) {
   const figure = figureImg;
   const body = [
     `<p class="student-media-slide__unit">${escapeHtml(deck.unit_label)}</p>`,
-    `<h1>${escapeHtml(slide.heading)}</h1>`,
+    `<h1>${inlineHtml(slide.heading)}</h1>`,
     figure,
     bodyBlocksHtml(slide),
     questionsHtml(slide.questions),
@@ -291,12 +303,12 @@ export function renderSlide(slide, deck, background, ctx = {}) {
       : '',
     // Lab cards: prefer portfolio_trace over a duplicate prompt (space for forge type floors).
     (slide.prompt && !slide.portfolio_trace)
-      ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>`
+      ? `<p class="student-media-slide__prompt">${inlineHtml(slide.prompt)}</p>`
       : '',
     cardHref
       ? `<p class="student-media-slide__card"><a href="${escapeHtml(cardHref)}">${escapeHtml(slide.card_link.label || 'Printable card')}</a></p>`
       : '',
-    slide.portfolio_trace ? `<p class="student-media-slide__prompt student-media-slide__trace">${escapeHtml(slide.portfolio_trace)}</p>` : '',
+    slide.portfolio_trace ? `<p class="student-media-slide__prompt student-media-slide__trace">${inlineHtml(slide.portfolio_trace)}</p>` : '',
   ].filter(Boolean);
   return [
     open,

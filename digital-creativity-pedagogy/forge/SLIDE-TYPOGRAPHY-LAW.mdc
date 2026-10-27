@@ -1,0 +1,62 @@
+---
+description: Slide reading-card text law — self-sufficient sentences, token-coloured key words, one reading path per card; for every student slideshow in any CV
+globs: 'docs/tracks/**,digital-creativity-pedagogy/forge/**,scripts/lib/deck-render.mjs,docs/assets/css/pass-track-deck.css'
+alwaysApply: false
+---
+
+# SLIDE TYPOGRAPHY LAW — reading cards that work read aloud
+
+Applies to every `student-media-slide` card in every course deck (CD I, CD II, NM, master lectures) and to sibling CV sites that reuse this deck pipeline. It complements [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc) (deck shape, media, rights) and [`VISUAL-READABILITY-LAW.mdc`](./VISUAL-READABILITY-LAW.mdc) (collisions, tokens). Reference implementation: the three *Dance, cinema and fashion* decks (`docs/tracks/en/uem/2627-ml/dance-cinema-fashion-*`, forged 2026-10-27).
+
+## 1 · Text that stands alone
+
+Every slide is read aloud by the professor and seen out of order by students. Write each `heading`, `sentence`, `body[].text`, `prompt` and `portfolio_trace` so it is understood **without** the lesson page or the previous slide.
+
+- **Name who and what.** “In 1894 the dancer Loïe Fuller patented…”, not “She patented…”. Give a date or place when it carries the argument.
+- **No pointers.** Never “below”, “above”, “the next slide”, “the map”, “this diagram”, “see lesson”. If a link is needed, its label says what opens (“Play the three serpentine films in the lesson”).
+- **One idea, one or two sentences, ≤ ~35 words.** If a sentence needs a semicolon list, it is two slides.
+- **Read-aloud test:** say it once at normal speed; a listener who did not see the screen can repeat the claim. If not, rewrite.
+- **Headings without numbers** (“Geometry decides the step”, not “7 · Geometry…”): decks are reordered and split; numbers belong to lesson headings only.
+- **Verbatim quotations are never edited or marked.** Translation goes in `prompt` (“In English: …”), labelled as course translation in the citation.
+
+## 2 · Two emphasis marks, token-coloured
+
+Authoring syntax in `content.json` text fields (rendered by `inlineHtml` in `scripts/lib/deck-render.mjs`; HTML is escaped first):
+
+| Mark | Renders | Token | Use for | Limit |
+| --- | --- | --- | --- | --- |
+| `**key term**` | `<strong class="slide-key">` | `--accent` + weight 700 | the concept, date, place or action the student must retain | 1–3 per sentence; a list of named factors (weight, space, time, flow) may mark each item |
+| `==tension==` | `<mark class="slide-tension">` | `--primary` underline, foreground text | the critical word: the question of power, doubt or limit (“==for whom==”, “==not evidence==”, “==who owns it==”) | **at most one per slide**; never in the heading and sentence of the same slide unless the heading is the question |
+
+Rules: never mark whole sentences; never mark proper names unless the name *is* the point (“**Segundo de Chomón**” as the Spanish pioneer); never mark inside a quotation, citation or link label; marks in `heading` keep the heading weight (colour only). Full-slide graphic headings are screen-reader text: marks are stripped automatically.
+
+## 3 · One reading path per card (CSS in `pass-track-deck.css`, “Slide typography law” block)
+
+Order and treatment are fixed; only design tokens are used (`--foreground`, `--muted-foreground`, `--accent`, `--primary`):
+
+1. **Label** (`__unit`): spaced small caps, 0.5em, muted — orientation, not content.
+2. **Heading** (`h1`): foreground, tight leading, separated by a short accent bar — the claim in ≤ 8 words.
+3. **Sentence / body blocks**: foreground at the golden-rule floor (never below), line-height ≈ 1.38; key terms in accent.
+4. **Kickers** (`body[].kicker`): uppercase, letter-spaced, accent — they name the step (Describe · Production · Critical).
+5. **Evidence**: quote italic in muted foreground with accent rule; citation smaller and muted.
+6. **Action**: prompt / trace separated by a hairline, italic, muted; links in accent.
+
+No size jumps inside a sentence; emphasis is colour and weight only. Retrieval list markers take the accent colour.
+
+## 4 · Graphics are slides, not card furniture
+
+Course diagrams (visual-forger or course SVG generators) never sit inside the reading card. Use `figure.placement: "full"`: the graphic is the whole slide, contained and centred at full deck height, with a one-line credit at 0.32em (“Course diagram · author · licence”). Place the graphic slide **immediately after** the card that states its claim. SVGs must be generated with their own background and no clipped labels (check the canvas fits every label).
+
+## 5 · Cache and verification
+
+- Any change to `pass-track-deck.css` bumps the `?v=` query on the deck pages that depend on it (stale stylesheets caused the wide-margin graphic bug of 2026-10-27).
+- Before claiming a deck forged: `node --test scripts/tests/` (includes the `inlineHtml` test), `npm run render:decks`, `npm run build --ignore-scripts` (decks 0 errors; publication + citation gates), then open three slides in the browser: one card with a tension mark, one analysis model with kickers, one full graphic.
+- Report per deck: number of `slide-key` and `slide-tension` marks, and any slide whose sentence still fails the read-aloud test.
+
+## 6 · Replication checklist for another CV
+
+1. Copy the `inlineHtml` helper and the six call sites in `deck-render.mjs`, plus the “Slide typography law” CSS block, if the sibling site has its own pipeline.
+2. Rewrite every card per §1 before marking anything.
+3. Mark per §2 — key terms first, then at most one tension word where the slide carries a critical question.
+4. Move any diagram out of cards per §4.
+5. Bump the stylesheet version; build; browser-check; record the counts in the unit's execute receipt.

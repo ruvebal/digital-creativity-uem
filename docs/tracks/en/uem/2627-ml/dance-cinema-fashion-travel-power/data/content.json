@@ -211,8 +211,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.cover",
       "asset_id": "wikimedia:File:La Argentina dancing LOC agc.7a09934.jpg",
-      "heading": "Who owns a movement when it travels?",
-      "sentence": "Part 3 of 3. A reference can travel from one stage, country or body to another — but its history does not travel automatically.",
+      "heading": "Who **owns** a movement when it travels?",
+      "sentence": "Part 3 of 3. A reference can **travel** from one stage, country or body to another — but its ==history== does not travel automatically.",
       "prompt": "Master Lecture cycle · Dance, cinema and fashion · Digital Creativity I",
       "image_brief": "Arnold Genthe's photograph of Antonia Mercé, La Argentina: a Spanish dancer whose name travelled as far as Tokyo.",
       "notes": "- Bring the earlier captures and an Adobe login.\n- Today: analysis 15′ · masterclass 40′ · Lab 50′ · share 10′."
@@ -235,7 +235,7 @@ layout: null
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis · one painting",
-      "sentence": "We read one painting in eight steps: in pairs, three minutes per block.",
+      "sentence": "We read **one painting** in **eight steps**: in pairs, three minutes per block.",
       "notes": "- Same eight-step card as Parts 1 and 2."
     },
     {
@@ -244,19 +244,19 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.analysis-model",
       "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
-      "heading": "A German painter paints a Spanish dancer",
+      "heading": "A German painter paints a **Spanish dancer**",
       "body": [
         {
           "kicker": "Describe",
-          "text": "Look at the shawl, the ruffles, the pose and the brushwork. What does the painter make move, and what stays still?"
+          "text": "Look at the **shawl**, the **ruffles**, the pose and the brushwork. What does the painter make move, and what stays still?"
         },
         {
           "kicker": "Production",
-          "text": "Max Slevogt painted La Argentina in 1926. She was born in Buenos Aires and danced Spanish dance on international stages. Who chose the costume and the pose?"
+          "text": "Max Slevogt painted La Argentina in **1926**. She was born in **Buenos Aires** and danced Spanish dance on international stages. Who chose the costume and the pose?"
         },
         {
           "kicker": "Critical",
-          "text": "What does this painting present as “Spanish” — and who decided that?"
+          "text": "What does this painting present as ==“Spanish”== — and who decided that?"
         }
       ],
       "image_brief": "Max Slevogt, La Argentina, 1926: an embroidered shawl over a ruffled dress, hands on hips.",
@@ -268,8 +268,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.masterclass-1",
       "asset_id": "wikimedia:File:Loie Fuller, from the Actors and Actresses series (N45, Type 1) for Virginia Brights Cigarettes MET DP830450.jpg",
-      "heading": "A reference travels without its history",
-      "sentence": "When a dance, a pose or a costume moves to a new country or market, the people who made it can be left behind. Even a performer's face could be sold on a cigarette card.",
+      "heading": "A reference travels **without its history**",
+      "sentence": "When a dance, a pose or a costume moves to a new country or market, ==the people who made it== can be left behind. Even a performer's face could be sold on a **cigarette card**.",
       "image_brief": "An 1888 cigarette card sold Loïe Fuller's portrait as a product, years before her serpentine dance.",
       "notes": "- Ask of every reference: who is named, who is paid, who is displaced?"
     },
@@ -292,13 +292,13 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.masterclass-2",
       "asset_id": "wikimedia:File:1918-12-01, La Novela Teatral, Antonia Mercé (La Argentina), Tovar.jpg",
-      "heading": "Madrid → Tokyo",
-      "sentence": "The Japanese dancer Kazuo Ohno saw La Argentina dance as a young man and, about fifty years later, named a solo after her: Admiring La Argentina, 1977.",
+      "heading": "Madrid → **Tokyo**",
+      "sentence": "The Japanese dancer **Kazuo Ohno** saw La Argentina dance as a young man and, about fifty years later, named a solo after her: **Admiring La Argentina**, 1977.",
       "external_link": {
         "href": "https://numeridanse.com/en/dance-videotheque/admiring-la-argentina/",
         "label": "Watch Admiring La Argentina at source"
       },
-      "prompt": "The title is a quotation you can check. The year he saw her is not settled: archives give 1926, 1927 and 1929.",
+      "prompt": "The title is a **quotation** you can check. The year he saw her is ==not settled==: archives give 1926, 1927 and 1929.",
       "image_brief": "Manuel Tovar's 1918 caricature of La Argentina on a Madrid magazine cover: a star at home before she toured the world.",
       "notes": "- What does Ohno quote: a costume, a gesture, a feeling?"
     },
@@ -308,8 +308,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.masterclass-3",
       "asset_id": "wikimedia:File:Pink Delphos dress by Fortuny, 1920s.jpg",
-      "heading": "Pleats, again: influence or analogy?",
-      "sentence": "Fortuny pleated silk in the early twentieth century; Issey Miyake made pleated costumes for William Forsythe's Frankfurt Ballet and then the Pleats Please line in 1993. Looking alike is not evidence of influence.",
+      "heading": "Pleats, again: **influence or analogy**?",
+      "sentence": "Fortuny pleated silk in the early twentieth century; Issey Miyake made pleated costumes for William Forsythe's Frankfurt Ballet and then the **Pleats Please** line in 1993. Looking alike is ==not evidence== of influence.",
       "image_brief": "A pink Fortuny Delphos gown: fine pleats that fall straight to the floor.",
       "notes": "- Forsythe and Miyake: 1991 or 1992, sources disagree — a documented exchange (rung 3).\n- Fortuny to Miyake: no record here — only analogy (rung 1)."
     },
@@ -319,8 +319,8 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.masterclass-4",
       "asset_id": "wikimedia:File:Ruth St. Denis in Radha. (3110871798).jpg",
-      "heading": "Who performs whose culture?",
-      "sentence": "Around 1908 the American dancer Ruth St. Denis presented herself as a Hindu goddess for Western audiences, in a costume that sold an idea of “the East”.",
+      "heading": "Who performs **whose culture**?",
+      "sentence": "Around 1908 the American dancer Ruth St. Denis presented herself as a **Hindu goddess** for Western audiences, in a costume that sold ==an idea of “the East”==.",
       "image_brief": "Ruth St. Denis in Radha, 1908–09: a jewelled, fringed costume and small cymbals.",
       "notes": "- What record would separate influence, exchange and appropriation?"
     },
@@ -330,13 +330,13 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.masterclass-5",
       "asset_id": "wikimedia:File:Guests at the 2026 Met Gala 354.jpg",
-      "heading": "Who is made strange?",
-      "sentence": "The label Matières Fécales, founded in Montreal in 2014, built its name on disgust — and in 2026 dressed the actress Sarah Paulson for the Met Gala.",
+      "heading": "Who is made **strange**?",
+      "sentence": "The label Matières Fécales, founded in Montreal in 2014, built its name on **disgust** — and in 2026 dressed the actress Sarah Paulson for the **Met Gala**.",
       "external_link": {
         "href": "https://www.depop.com/fecalmatter/",
         "label": "Open the label's Depop shop"
       },
-      "prompt": "Critique, or a new kind of luxury? Answer with evidence — statements, reception, who wore it — not adjectives.",
+      "prompt": "Critique, or a new kind of luxury? Answer with **evidence** — statements, reception, who wore it — ==not adjectives==.",
       "image_brief": "Sarah Paulson in a grey tulle Matières Fécales gown at the 2026 Met Gala, as reported by Out.com.",
       "notes": "- Abjection is a theory of who is pushed out, not a word for “shocking”.\n- Delfín and Locking: discuss only with evidence."
     },
@@ -346,9 +346,9 @@ layout: null
       "background_kind": "curated",
       "media_slot_id": "ML-DCF-3.masterclass-6",
       "asset_id": "wikimedia:File:Sankai Juku.jpg",
-      "heading": "Butoh has histories, not one look",
-      "sentence": "Butoh began in post-war Japan and travelled to Mexico, Argentina and many other places. White paint is the easiest thing to copy and the least informative.",
-      "prompt": "A pose alone cannot tell us where a movement came from.",
+      "heading": "Butoh has **histories**, not one look",
+      "sentence": "Butoh began in **post-war Japan** and travelled to **Mexico, Argentina** and many other places. White paint is the easiest thing to copy and ==the least informative==.",
+      "prompt": "A **pose alone** cannot tell us where a movement came from.",
       "image_brief": "Sankai Juku at the Festival Cervantino in Guanajuato, Mexico, 2006: one more reception history of butoh.",
       "notes": "- Who can name a tradition, and who earns from its circulation?"
     },
@@ -372,7 +372,7 @@ layout: null
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab",
-      "sentence": "Two exercises: transform a capture with Adobe tools, then audit what the machine assumes.",
+      "sentence": "**Two exercises**: transform a capture with Adobe tools, then **audit** what the machine assumes.",
       "notes": "- Never upload a classmate's image to cloud AI without their explicit consent."
     },
     {
@@ -382,9 +382,9 @@ layout: null
       "media_slot_id": "ML-DCF-3.lab-1",
       "asset_id": "wikimedia:File:Isadora Duncan dancer LOC agc.7a09946.jpg",
       "heading": "Exercise 1 · Transform your capture",
-      "sentence": "Choose one: widen a vertical photo to cinema format, extend a sleeve or hem with Generative Fill, restyle the garment in Firefly, or animate a still into five seconds of video.",
+      "sentence": "Choose one: widen a vertical photo to **cinema format**, extend a sleeve or hem with **Generative Fill**, restyle the garment in **Firefly**, or animate a still into **five seconds of video**.",
       "portfolio_bound": true,
-      "portfolio_trace": "Keep the original and the transformed image side by side, and mark what the AI invented.",
+      "portfolio_trace": "Keep the original and the transformed image side by side, and mark ==what the AI invented==.",
       "card_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-travel-power/#exercise-1--transform-with-photoshop-or-firefly-25",
         "label": "All four prompts in the lesson"
@@ -400,9 +400,9 @@ layout: null
       "media_slot_id": "ML-DCF-3.lab-2",
       "asset_id": "wikimedia:File:Antonia Mercé.png",
       "heading": "Exercise 2 · Audit what the machine assumes",
-      "sentence": "Ask Firefly for four images of a “butoh dancer” or a “flamenco dancer”, list what the model assumes, and decide which rung of the evidence ladder a generated image can reach.",
+      "sentence": "Ask Firefly for four images of a “butoh dancer” or a “flamenco dancer”, list ==what the model assumes==, and decide which **rung of the evidence ladder** a generated image can reach.",
       "portfolio_bound": true,
-      "portfolio_trace": "Write your audit sentences and a two-line AI declaration: the tool, what it contributed, and what you checked.",
+      "portfolio_trace": "Write your **audit sentences** and a two-line **AI declaration**: the tool, what it contributed, and what you checked.",
       "card_link": {
         "href": "/lessons/en/master-lectures/dance-cinema-fashion-travel-power/#exercise-2--audit-what-the-machine-assumes-25",
         "label": "Audit prompt in the lesson"
@@ -437,7 +437,7 @@ layout: null
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Climb only as high as your evidence, and ask who is credited, paid or displaced when a movement travels. A generated image can resemble a tradition; it cannot document one.",
+      "sentence": "Climb **only as high as your evidence**, and ask who is ==credited, paid or displaced== when a movement travels. A generated image can resemble a tradition; it cannot document one.",
       "notes": "- Portfolio entry and AI declaration before the next session."
     }
   ],
