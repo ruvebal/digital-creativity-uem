@@ -1,5 +1,5 @@
 {
-  "dance-cinema-fashion": {
+  "dance-cinema-fashion-garment-camera": {
     "cover": {
       "src": "/assets/images/deck-media/3f5593e9e27f9d23.webp",
       "alt": "Loïe Fuller in a vast pale costume spread like butterfly wings, arms raised inside it, in an 1895 photograph.",
@@ -84,31 +84,63 @@
       "caption_html": "<span class=\"slide-caption__title\">Eadweard Muybridge, Animal Locomotion, Woman Dancing (fancy), 1887, plate 187</span> · <span class=\"slide-caption__author\">Eadweard Muybridge</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Eadweard_Muybridge%2C_Animal_Locomotion%2C_Woman_Dancing_%28fancy%29%2C_1887%2C_plate_187.gif\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-13": {
+    "lab-1": {
+      "src": "/assets/images/deck-media/7aff8a7fa984b579.webp",
+      "alt": "A woman in a sheer dress lifts her hem and turns in front of a gridded wall.",
+      "caption_html": "<span class=\"slide-caption__title\">Woman in dress dancing (1887)</span> · <span class=\"slide-caption__author\">Eadweard Muybridge</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Woman_in_dress_dancing_%281887%29.gif\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/6686a49d4089a581.webp",
+      "alt": "Schlemmer’s figure plan: small schematic costumes built from cones, spheres, discs and spirals.",
+      "caption_html": "<span class=\"slide-caption__title\">Oskar Schlemmer Triadisches Ballett 100</span> · <span class=\"slide-caption__author\">Oskar Schlemmer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Oskar_Schlemmer_Triadisches_Ballett_100.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    }
+  },
+  "dance-cinema-fashion-travel-power": {
+    "cover": {
       "src": "/assets/images/deck-media/fbb70f0e7c412031.webp",
       "alt": "La Argentina mid-dance in a long ruffled bata de cola, one arm raised.",
       "caption_html": "<span class=\"slide-caption__title\">La Argentina dancing LOC agc.7a09934</span> · <span class=\"slide-caption__author\">Arnold Genthe</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:La_Argentina_dancing_LOC_agc.7a09934.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-14": {
+    "analysis-model": {
       "src": "/assets/images/deck-media/2f77a0728b1b0ff9.webp",
       "alt": "Max Slevogt’s painting of La Argentina standing hands on hips, a pale shawl embroidered with large pink and green flowers over a ruffled dress.",
       "caption_html": "<span class=\"slide-caption__title\">Slevogt La Argentina</span> · <span class=\"slide-caption__author\">Max Slevogt</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Slevogt_La_Argentina.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-15": {
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/1cb3a3bc395c0ed5.webp",
+      "alt": "An 1888 cigarette card: Loïe Fuller, then a stage actress, in breeches and a patterned jacket, with a pug at her feet; printed name “Loie Fuller” and “Virginia Brights Cigarettes”.",
+      "caption_html": "<span class=\"slide-caption__title\">Loie Fuller, from the Actors and Actresses series (N45, Type 1) for Virginia Brights Cigarettes MET DP830450</span> · <span class=\"slide-caption__author\">Allen &amp; Ginter</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Loie_Fuller%2C_from_the_Actors_and_Actresses_series_%28N45%2C_Type_1%29_for_Virginia_Brights_Cigarettes_MET_DP830450.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4b": {
+      "src": "/assets/images/deck-media/601dcc456179acf2.webp",
+      "alt": "Caricature of La Argentina on a 1918 Madrid magazine cover: a smiling face with arched brows, sleek dark hair and a zigzag-patterned collar.",
+      "caption_html": "<span class=\"slide-caption__title\">1918-12-01, La Novela Teatral, Antonia Mercé (La Argentina), Tovar</span> · <span class=\"slide-caption__author\">Manuel Tovar Siles</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:1918-12-01%2C_La_Novela_Teatral%2C_Antonia_Merc%C3%A9_%28La_Argentina%29%2C_Tovar.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4c": {
+      "src": "/assets/images/deck-media/d3a43bbac02a702a.webp",
+      "alt": "A pink pleated Delphos gown by Fortuny on a display figure; the fine pleats fall straight to the floor.",
+      "caption_html": "<span class=\"slide-caption__title\">Pink Delphos dress by Fortuny, 1920s</span> · <span class=\"slide-caption__author\">Mabalu (photograph); Mariano Fortuny (dress)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Pink_Delphos_dress_by_Fortuny%2C_1920s.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4d": {
       "src": "/assets/images/deck-media/ad36d0fb4c955b73.webp",
       "alt": "Ruth St. Denis in a jewelled, fringed costume, arms extended, holding small cymbals.",
       "caption_html": "<span class=\"slide-caption__title\">Ruth St. Denis in Radha. (3110871798)</span> · <span class=\"slide-caption__author\">Otto Sarony</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Ruth_St._Denis_in_Radha._%283110871798%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-16": {
+    "masterclass-5": {
       "src": "/assets/images/deck-media/19334b6bd6caf2d0.webp",
       "alt": "Sarah Paulson on mossy museum steps in a voluminous grey tulle gown with a feathered bodice.",
       "caption_html": "<span class=\"slide-caption__title\">Guests at the 2026 Met Gala 354</span> · <span class=\"slide-caption__author\">SWinxy (photograph); Matières Fécales (gown)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_354.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
-    "masterclass-17": {
+    "masterclass-6": {
       "src": "/assets/images/deck-media/0147d24569c145a1.webp",
       "alt": "Sankai Juku dancers with whitened bodies crouch on a dark stage; three robed figures stand behind.",
       "caption_html": "<span class=\"slide-caption__title\">Sankai Juku</span> · <span class=\"slide-caption__author\">Carlos de las Piedras</span> · <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Sankai_Juku.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
@@ -121,9 +153,9 @@
       "rights_status": "ok"
     },
     "lab-2": {
-      "src": "/assets/images/deck-media/6686a49d4089a581.webp",
-      "alt": "Schlemmer’s figure plan: small schematic costumes built from cones, spheres, discs and spirals.",
-      "caption_html": "<span class=\"slide-caption__title\">Oskar Schlemmer Triadisches Ballett 100</span> · <span class=\"slide-caption__author\">Oskar Schlemmer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Oskar_Schlemmer_Triadisches_Ballett_100.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "src": "/assets/images/deck-media/3903b1dc172a21a1.webp",
+      "alt": "Antonia Mercé, La Argentina, in 1913: one arm raised with castanets, in a long embroidered dress, photographed in a Madrid magazine.",
+      "caption_html": "<span class=\"slide-caption__title\">Antonia Mercé</span> · <span class=\"slide-caption__author\">Unknown photographer (Mundo Gráfico, 1913)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Antonia_Merc%C3%A9.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     }
   },

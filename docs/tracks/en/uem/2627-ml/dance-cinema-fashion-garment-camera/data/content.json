@@ -2,11 +2,11 @@
 layout: null
 ---
 {
-  "unit_label": "Master Lecture · Dance, cinema and fashion",
+  "unit_label": "Dance, cinema and fashion · Part 1 of 2",
   "locale": "en",
-  "final_event_theme": "What does the cloth do after the body moves — and what does the camera decide we see?",
+  "final_event_theme": "What does the cloth do after the body moves — and who owns the movement when it travels?",
   "media_selection": {
-    "unit_id": "ML-DCF",
+    "unit_id": "ML-DCF-1",
     "project_id": "ml",
     "collection": "unit-accepted",
     "strategy": "slide-bound-asset_id",
@@ -14,7 +14,7 @@ layout: null
   },
   "assets": [
     {
-      "media_slot_id": "ML-DCF.cover",
+      "media_slot_id": "ML-DCF-1.cover",
       "asset_id": "wikimedia:File:Loie Fuller 1895.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/3f5593e9e27f9d23.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Loie_Fuller_1895.jpg",
@@ -33,7 +33,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.analysis-model",
+      "media_slot_id": "ML-DCF-1.analysis-model",
       "asset_id": "wikimedia:File:Top-Hat-Rogers-Astaire.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/5b85d1d3bc1bdfd1.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Top-Hat-Rogers-Astaire.jpg",
@@ -52,7 +52,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-1",
+      "media_slot_id": "ML-DCF-1.masterclass-1",
       "asset_id": "wikimedia:File:Isadora Duncan dancing LOC agc.7a09881.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/b02e4ce6a12b61f9.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Isadora_Duncan_dancing_LOC_agc.7a09881.jpg",
@@ -71,7 +71,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-2",
+      "media_slot_id": "ML-DCF-1.masterclass-2",
       "asset_id": "wikimedia:File:Museo del Traje - MT111885 - Vestido Delphos.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/74abb5b761dcf38a.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Museo_del_Traje_-_MT111885_-_Vestido_Delphos.jpg",
@@ -90,7 +90,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-3",
+      "media_slot_id": "ML-DCF-1.masterclass-3",
       "asset_id": "wikimedia:File:(Albi) - La Loïe Fuller aux-Folies-Bergère - Toulouse-Lautrec (1893) MTL.152.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/0e229df50c64da2a.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%28Albi%29_-_La_Lo%C3%AFe_Fuller_aux-Folies-Berg%C3%A8re_-_Toulouse-Lautrec_%281893%29_MTL.152.jpg",
@@ -109,7 +109,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-4",
+      "media_slot_id": "ML-DCF-1.masterclass-4",
       "asset_id": "wikimedia:File:Loie Fuller dancing with scarf.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/21370ca588fff523.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Loie_Fuller_dancing_with_scarf.jpg",
@@ -128,7 +128,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-5",
+      "media_slot_id": "ML-DCF-1.masterclass-5",
       "asset_id": "wikimedia:File:Isadora Duncan dancers LOC agc.7a10003.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/c11f6e815e0dc27f.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Isadora_Duncan_dancers_LOC_agc.7a10003.jpg",
@@ -147,7 +147,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-6",
+      "media_slot_id": "ML-DCF-1.masterclass-6",
       "asset_id": "wikimedia:File:Das Triadische Ballett, Programmzettel 1922.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/55e05b1a9cb9cae3.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Das_Triadische_Ballett%2C_Programmzettel_1922.jpg",
@@ -166,7 +166,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-7",
+      "media_slot_id": "ML-DCF-1.masterclass-7",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 200.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/d4bf15487438affc.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Oskar_Schlemmer_Triadisches_Ballett_200.jpg",
@@ -185,7 +185,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-8",
+      "media_slot_id": "ML-DCF-1.masterclass-8",
       "asset_id": "wikimedia:File:Triadisches Ballett by Oskar Schlemmer - Staatsgalerie - Stuttgart - Germany 2017.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/cd2031e60bec59c3.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Triadisches_Ballett_by_Oskar_Schlemmer_-_Staatsgalerie_-_Stuttgart_-_Germany_2017.jpg",
@@ -204,7 +204,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-9",
+      "media_slot_id": "ML-DCF-1.masterclass-9",
       "asset_id": "wikimedia:File:Janet Eilber Performing Martha Graham’s “Lamentation” in the East Room of the White House - NARA - 30805967.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/21402f359a6b2581.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Janet_Eilber_Performing_Martha_Graham%E2%80%99s_%E2%80%9CLamentation%E2%80%9D_in_the_East_Room_of_the_White_House_-_NARA_-_30805967.jpg",
@@ -223,7 +223,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-10",
+      "media_slot_id": "ML-DCF-1.masterclass-10",
       "asset_id": "wikimedia:File:Swing Time (1936).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/ed74ac9294fe8999.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Swing_Time_%281936%29.jpg",
@@ -242,7 +242,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-11",
+      "media_slot_id": "ML-DCF-1.masterclass-11",
       "asset_id": "wikimedia:File:Ginger Rogers and Fred Astaire - Follow the Fleet (1936).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/05a5b40545b115e7.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ginger_Rogers_and_Fred_Astaire_-_Follow_the_Fleet_%281936%29.jpg",
@@ -261,7 +261,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-12",
+      "media_slot_id": "ML-DCF-1.masterclass-12",
       "asset_id": "wikimedia:File:Eadweard Muybridge, Animal Locomotion, Woman Dancing (fancy), 1887, plate 187.gif",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/350a547f1886a4d6.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Eadweard_Muybridge%2C_Animal_Locomotion%2C_Woman_Dancing_%28fancy%29%2C_1887%2C_plate_187.gif",
@@ -280,102 +280,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.masterclass-13",
-      "asset_id": "wikimedia:File:La Argentina dancing LOC agc.7a09934.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/fbb70f0e7c412031.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/La_Argentina_dancing_LOC_agc.7a09934.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:La_Argentina_dancing_LOC_agc.7a09934.jpg",
-      "title": "La Argentina dancing LOC agc.7a09934",
-      "alt_text": "La Argentina mid-dance in a long ruffled bata de cola, one arm raised.",
-      "author": "Arnold Genthe",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Arnold Genthe · Wikimedia Commons",
-      "author_death_year": 1942,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1942; 1942+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "ML-DCF.masterclass-14",
-      "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/2f77a0728b1b0ff9.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Slevogt_La_Argentina.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Slevogt_La_Argentina.jpg",
-      "title": "Slevogt La Argentina",
-      "alt_text": "Max Slevogt’s painting of La Argentina standing hands on hips, a pale shawl embroidered with large pink and green flowers over a ruffled dress.",
-      "author": "Max Slevogt",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Max Slevogt · Wikimedia Commons",
-      "author_death_year": 1932,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1932; 1932+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "ML-DCF.masterclass-15",
-      "asset_id": "wikimedia:File:Ruth St. Denis in Radha. (3110871798).jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/ad36d0fb4c955b73.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ruth_St._Denis_in_Radha._%283110871798%29.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ruth_St._Denis_in_Radha._%283110871798%29.jpg",
-      "title": "Ruth St. Denis in Radha. (3110871798)",
-      "alt_text": "Ruth St. Denis in a jewelled, fringed costume, arms extended, holding small cymbals.",
-      "author": "Otto Sarony",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Otto Sarony · Wikimedia Commons",
-      "author_death_year": 1903,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1903; 1903+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "ML-DCF.masterclass-16",
-      "asset_id": "wikimedia:File:Guests at the 2026 Met Gala 354.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/19334b6bd6caf2d0.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Guests_at_the_2026_Met_Gala_354.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_354.jpg",
-      "title": "Guests at the 2026 Met Gala 354",
-      "alt_text": "Sarah Paulson on mossy museum steps in a voluminous grey tulle gown with a feathered bodice.",
-      "author": "SWinxy (photograph); Matières Fécales (gown)",
-      "licence": "CC-BY-4.0",
-      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "SWinxy (photograph); Matières Fécales (gown) · Wikimedia Commons",
-      "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "CC photo of a contemporary garment — design copyright may still run; flagged.",
-      "rights_status": "flagged",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "ML-DCF.masterclass-17",
-      "asset_id": "wikimedia:File:Sankai Juku.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/0147d24569c145a1.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Sankai_Juku.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sankai_Juku.jpg",
-      "title": "Sankai Juku",
-      "alt_text": "Sankai Juku dancers with whitened bodies crouch on a dark stage; three robed figures stand behind.",
-      "author": "Carlos de las Piedras",
-      "licence": "CC-BY-2.0",
-      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Carlos de las Piedras · Wikimedia Commons",
-      "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "CC BY 2.0 (not on the course whitelist) photograph of a contemporary performance; flagged.",
-      "rights_status": "flagged",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "ML-DCF.lab-1",
+      "media_slot_id": "ML-DCF-1.lab-1",
       "asset_id": "wikimedia:File:Woman in dress dancing (1887).gif",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/7aff8a7fa984b579.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Woman_in_dress_dancing_%281887%29.gif",
@@ -394,7 +299,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF.lab-2",
+      "media_slot_id": "ML-DCF-1.lab-2",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 100.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/6686a49d4089a581.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Oskar_Schlemmer_Triadisches_Ballett_100.jpg",
@@ -418,15 +323,18 @@ layout: null
       "slide_id": "cover",
       "slide_role": "unit_cover",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.cover",
+      "media_slot_id": "ML-DCF-1.cover",
       "asset_id": "wikimedia:File:Loie Fuller 1895.jpg",
-      "heading": "Dance, cinema and fashion",
-      "sentence": "A garment changes what a moving body can show and do. A camera changes what we can see of both.",
+      "heading": "What does a garment do when the body moves?",
+      "sentence": "Part 1 of 2. A garment is not a costume until it moves — and a camera decides how much of that movement we see.",
+      "prompt": "Master Lecture cycle · Dance, cinema and fashion · Digital Creativity I",
+      "image_brief": "Loïe Fuller's butterfly costume, 1895: cloth that becomes an image only when it moves.",
+      "notes": "- Phones charged; a garment that moves.\n- Today: analysis 15′ · three ideas 40′ · Lab 50′ · share 10′.",
       "quote": "Every phase of movement, every small transfer of weight, every single gesture … reveals some feature of our inner life.",
       "quote_origin": "print_transcription",
       "citation": {
         "label": "(Laban 1987, 39) · course translation",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -442,69 +350,69 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "prompt": "Master Lecture · Digital Creativity I · I.7 Compositional sources",
-      "image_brief": "Loïe Fuller's 1895 butterfly costume: cloth as a moving image before cinema.",
-      "notes": "- Open on the image: a costume that only exists when it moves.\n- Phones charged, a garment that moves, Adobe login ready.\n- Today: 15′ analysis · 40′ masterclass · 50′ lab · 10′ share."
+      }
     },
     {
       "slide_id": "session-flow",
       "slide_role": "masterclass",
       "background_kind": "none",
-      "heading": "120′ · how the session runs",
+      "heading": "Part 1 · how the session runs",
       "figure": {
-        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow.en.svg",
-        "alt": "Session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 capture 60–85, exercise 2 transform 85–110, share 110–120.",
+        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-1.en.svg",
+        "alt": "Part 1 session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 capture 60–85, exercise 2 image of time 85–110, share 110–120.",
         "placement": "full",
         "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
       },
-      "notes": "- Walk the clock once: analysis, masterclass, two Lab exercises, share."
+      "notes": "- Walk the clock once, then start the analysis."
     },
     {
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis · one still",
-      "sentence": "Read before you watch: eight steps on one frozen image.",
-      "notes": "- Pairs, three minutes per block.\n- Use the eight-step card from the fashion image analysis lecture."
+      "sentence": "Before any film, we read one frozen image in eight steps: in pairs, three minutes per block.",
+      "notes": "- Use the eight-step card from the fashion image analysis lecture."
     },
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.analysis-model",
+      "media_slot_id": "ML-DCF-1.analysis-model",
       "asset_id": "wikimedia:File:Top-Hat-Rogers-Astaire.jpg",
       "heading": "A dance that never stops — stopped",
       "body": [
         {
-          "kicker": "Describe · Forms",
-          "text": "Bodies, gown, light, crop. Where does the line of the dress go, and where does it stop?"
+          "kicker": "Describe",
+          "text": "Look at the bodies, the gown, the light and the crop. Follow the line of the dress: where does it go, and where does it stop?"
         },
         {
           "kicker": "Production",
-          "text": "A publicity still, not a film frame. Who posed it, for whom?"
+          "text": "This is a studio publicity photograph from 1935, not a frame of the film. Who posed it, and for whom?"
         },
         {
           "kicker": "Critical",
-          "text": "Who leans and who holds? What does the photo freeze that the dance never would?"
+          "text": "She leans back and he holds her. What does the photograph freeze that the dance itself would never stop on?"
         }
       ],
-      "image_brief": "Rogers and Astaire, Top Hat publicity still: the dress spreads like a fan in a pose the film never holds.",
-      "notes": "- Model step 1–3 aloud, then let pairs do 6–8.\n- Point at the feathered sleeve: the costume is built to be seen in motion."
+      "image_brief": "Ginger Rogers and Fred Astaire in a Top Hat publicity still: the feathered sleeve spreads like a fan.",
+      "notes": "- Model the first block aloud; pairs do the rest."
     },
     {
       "slide_id": "masterclass-1",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-1",
+      "media_slot_id": "ML-DCF-1.masterclass-1",
       "asset_id": "wikimedia:File:Isadora Duncan dancing LOC agc.7a09881.jpg",
       "heading": "1 · The cloth arrives after the body",
-      "sentence": "A garment is not a costume until it moves — and we feel that movement in our own body.",
+      "sentence": "When a dancer moves, the fabric follows a moment later — and as we watch, we feel that movement in our own body.",
+      "prompt": "Very little film of Isadora Duncan dancing is known: her dance reaches us mostly through photographs.",
+      "image_brief": "Arnold Genthe's photograph of Isadora Duncan in a loose tunic, one arm raised.",
+      "notes": "- Play the Muybridge loop in the lesson: the hem lands after the step.",
       "quote": "we map these postures and gestures onto our own body, feeling them in our own skin and bones",
       "quote_origin": "page_verified",
       "citation": {
         "label": "(Shinkle 2008, 222)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -520,66 +428,66 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "prompt": "Watch the Muybridge loop in the lesson: the hem lands after the step.",
-      "image_brief": "Genthe's photograph of Isadora Duncan: a loose tunic following an open gesture.",
-      "notes": "- Very little film of Duncan dancing is known: her dance reaches us through stills.\n- Ask: which 'classical' body becomes the ideal here, and who is left out?"
+      }
     },
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-2",
+      "media_slot_id": "ML-DCF-1.masterclass-2",
       "asset_id": "wikimedia:File:Museo del Traje - MT111885 - Vestido Delphos.jpg",
-      "heading": "2 · A borrowed antiquity",
-      "sentence": "Fortuny's pleated Delphos — made by a designer born in Granada — and Duncan's tunic both borrow an idea of ancient Greece.",
-      "prompt": "Museo del Traje, Madrid · MT111885. You can visit it.",
-      "image_brief": "Fortuny's black Delphos gown, Museo del Traje: pleats that only open when the body moves.",
-      "notes": "- Drape: the garment follows and lengthens the gesture.\n- Revival is not the ancient practice itself: what evidence would tell them apart?"
+      "heading": "2 · Two artists borrow ancient Greece",
+      "sentence": "Isadora Duncan danced in loose “Greek” tunics, and the designer Mariano Fortuny, born in Granada, pleated silk into a column he called Delphos.",
+      "prompt": "This Delphos gown is in the Museo del Traje in Madrid. Whose “classical” body becomes the ideal — and who is left out?",
+      "image_brief": "Fortuny's black Delphos gown, Museo del Traje, Madrid: pleats that open only when a body moves.",
+      "notes": "- Drape: the garment follows and lengthens the gesture.\n- A revival is not the ancient practice itself."
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-3",
+      "media_slot_id": "ML-DCF-1.masterclass-3",
       "asset_id": "wikimedia:File:(Albi) - La Loïe Fuller aux-Folies-Bergère - Toulouse-Lautrec (1893) MTL.152.jpg",
       "heading": "3 · A patent for flying cloth",
-      "sentence": "Loïe Fuller patented a 'garment for dancers' in 1894: a skirt hung from the head, thrown into waves with wands.",
+      "sentence": "In 1894 the dancer Loïe Fuller patented a “garment for dancers”: a huge skirt hung from the head and thrown into waves with light wands.",
       "external_link": {
         "href": "https://patents.google.com/patent/US518347A/en",
-        "label": "Open the 1894 patent (US 518,347)"
+        "label": "Open Fuller's 1894 patent"
       },
-      "image_brief": "Toulouse-Lautrec paints Fuller at the Folies-Bergère as smudged colour: the body vanishes into cloth.",
-      "notes": "- Extension: the costume becomes the image.\n- Ask: who gets the authorship credit — dancer, maker, or patent holder?"
+      "prompt": "Toulouse-Lautrec painted her in Paris in 1893 as swirling colour: the cloth, not the body.",
+      "image_brief": "Toulouse-Lautrec's sketch of Loïe Fuller at the Folies-Bergère: the body disappears into cloth.",
+      "notes": "- Extension: the costume becomes the image.\n- Who gets the credit: dancer, maker, or the person who filed the patent?"
     },
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-4",
+      "media_slot_id": "ML-DCF-1.masterclass-4",
       "asset_id": "wikimedia:File:Loie Fuller dancing with scarf.jpg",
-      "heading": "4 · Most 'Fuller' films show someone else",
-      "sentence": "The serpentine dance was copied everywhere: Annabelle for Edison, an unnamed dancer for Lumière, a Pathé copy coloured in Barcelona.",
+      "heading": "4 · Many films called “Loïe Fuller” show someone else",
+      "sentence": "Fuller's serpentine dance was copied everywhere, so early films sold under her name often show other dancers. Every old film is evidence to check.",
       "external_link": {
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#2--costume-makes-a-choreography",
-        "label": "Play the three films in the lesson"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#2--costume-makes-a-choreography",
+        "label": "Play the three serpentine films in the lesson"
       },
-      "image_brief": "A dancer swings a sheer scarf in a wide arc: the serpentine move as a repeatable formula.",
-      "notes": "- Watch the films as evidence, not illustration.\n- The Pathé card says 1902, Commons says 1901: dates disagree. Keep that tension."
+      "image_brief": "A dancer swings a long sheer scarf in a wide arc: the serpentine move as a repeatable formula.",
+      "notes": "- Edison filmed Annabelle Whitford (1894); Lumière's dancer is unnamed (1897); a Pathé copy was hand-coloured by Segundo de Chomón in Barcelona.\n- The Pathé card says 1902, Commons says 1901: dates disagree."
     },
     {
       "slide_id": "masterclass-5",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-5",
+      "media_slot_id": "ML-DCF-1.masterclass-5",
       "asset_id": "wikimedia:File:Isadora Duncan dancers LOC agc.7a10003.jpg",
-      "heading": "5 · The dancer draws lines",
-      "sentence": "Kandinsky's Bauhaus notebook gives you a looking tool for every clip today.",
+      "heading": "5 · A dancing body draws lines",
+      "sentence": "The painter Wassily Kandinsky taught his Bauhaus students to look at a dancing body as a drawing made of lines.",
+      "image_brief": "Three of Isadora Duncan's dancers hold a veil above a seated figure: one line across three bodies.",
+      "notes": "- Kandinsky credits the observation to the dancer Gret Palucca.\n- Trace one line in the image before speaking.",
       "quote": "The entire body of the dancer, right down to his finger tips, is at every moment an uninterrupted composition of lines",
       "quote_origin": "page_verified",
       "citation": {
         "label": "(Kandinsky 2012, “Line”)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -595,23 +503,24 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "image_brief": "Duncan's dancers raise a veil together: the cloth draws one line across three bodies.",
-      "notes": "- Kandinsky credits the observation to the dancer Gret Palucca.\n- Trace one line in the image with your finger before speaking."
+      }
     },
     {
       "slide_id": "masterclass-6",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-6",
+      "media_slot_id": "ML-DCF-1.masterclass-6",
       "asset_id": "wikimedia:File:Das Triadische Ballett, Programmzettel 1922.jpg",
-      "heading": "6 · Start from the step",
-      "sentence": "Schlemmer did not start from geometry but from a body standing on a stage.",
+      "heading": "6 · Start from one step",
+      "sentence": "Oskar Schlemmer, who designed the Triadic Ballet in 1922, did not start from geometry. He started from a body standing on a stage.",
+      "prompt": "In English: taking a step is a grand event — and raising a hand or moving a finger no less.",
+      "image_brief": "The printed programme of the Triadic Ballet premiere, Stuttgart, 1922: twelve dances in three colour series.",
+      "notes": "- A document, not a photograph of the premiere.",
       "quote": "Puesto que dar un paso es un acontecimiento grandioso, mientras que levantar una mano, mover un dedo, no lo son menos.",
       "quote_origin": "print_transcription",
       "citation": {
         "label": "(Schlemmer 1987, 112)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -627,32 +536,29 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "prompt": "“For taking a step is a grand event — and raising a hand or moving a finger no less.”",
-      "image_brief": "The 1922 premiere programme: twelve dances ordered by colour, a choreography designed like a page.",
-      "notes": "- Premiere: Stuttgart, 30 September 1922.\n- This is a document, not a photograph of the premiere."
+      }
     },
     {
       "slide_id": "masterclass-7",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-7",
+      "media_slot_id": "ML-DCF-1.masterclass-7",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 200.jpg",
       "heading": "7 · Geometry decides the step",
-      "sentence": "Rigid, geometric figures reorganise the body: some steps become impossible, new ones appear.",
-      "image_brief": "Triadic Ballet figures in Die Bühne im Bauhaus (1925): cones, spikes and spheres replace anatomy.",
-      "notes": "- Reorganisation: the costume dictates the choreography.\n- Bridge to Lab C4: build a constraint and film what it forces."
+      "sentence": "Schlemmer's rigid costumes of cones, discs and spirals made some steps impossible and invented new ones.",
+      "image_brief": "Triadic Ballet figures photographed for the 1925 Bauhaus stage book: a spiked cone skirt, a club-like arm.",
+      "notes": "- Reorganisation: the costume writes the choreography.\n- Lab prompt C4 builds one of these in five minutes."
     },
     {
       "slide_id": "masterclass-8",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-8",
+      "media_slot_id": "ML-DCF-1.masterclass-8",
       "asset_id": "wikimedia:File:Triadisches Ballett by Oskar Schlemmer - Staatsgalerie - Stuttgart - Germany 2017.jpg",
-      "heading": "8 · What does the garment do to movement?",
-      "sentence": "Drape, extension, tension, reorganisation: a map to argue with, not a fact.",
-      "image_brief": "Triadic Ballet figures on display in Stuttgart, 2017: costumes still, out of the dance.",
-      "notes": "- Place each clip and image on the map; defend with one frame.\n- Museum display ≠ performance."
+      "heading": "8 · Four things a garment can do",
+      "sentence": "A garment can do four things to a moving body: drape it, extend it, hold it in tension, or reorganise it completely.",
+      "image_brief": "Triadic Ballet figures on display in Stuttgart, 2017: costumes standing still, out of the dance.",
+      "notes": "- A museum display is not a performance."
     },
     {
       "slide_id": "masterclass-8-map",
@@ -665,36 +571,38 @@ layout: null
         "placement": "full",
         "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
       },
-      "notes": "- Place each clip and image on the map; defend with one frame.\n- It is a course hypothesis, not a fact."
+      "notes": "- Place each clip and image on the map; defend the place with one frame.\n- A course hypothesis, not a fact."
     },
     {
       "slide_id": "masterclass-9",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-9",
+      "media_slot_id": "ML-DCF-1.masterclass-9",
       "asset_id": "wikimedia:File:Janet Eilber Performing Martha Graham’s “Lamentation” in the East Room of the White House - NARA - 30805967.jpg",
       "heading": "9 · The body pushes against the cloth",
-      "sentence": "In Graham's Lamentation a stretched jersey tube turns grief into visible tension.",
+      "sentence": "In Martha Graham's solo Lamentation, the dancer sits inside a tube of stretched jersey, and grief becomes visible as tension in the fabric.",
       "external_link": {
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#2--costume-makes-a-choreography",
-        "label": "Watch Night Journey in the lesson"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#2--costume-makes-a-choreography",
+        "label": "Watch Graham's Night Journey in the lesson"
       },
-      "image_brief": "Janet Eilber in Lamentation, 1976: only face, hands and feet escape the fabric.",
-      "notes": "- Tension: the garment resists, the body works against it.\n- Then Night Journey: when does the long skirt move with the body, when against it?"
+      "image_brief": "Janet Eilber dances Lamentation, 1976: only face, hands and feet escape the fabric.",
+      "notes": "- Tension: the garment resists and the body works against it."
     },
     {
       "slide_id": "masterclass-10",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-10",
+      "media_slot_id": "ML-DCF-1.masterclass-10",
       "asset_id": "wikimedia:File:Swing Time (1936).jpg",
       "heading": "10 · Same dance, different film",
-      "sentence": "A camera chooses a frame, a distance and a cut — and still clings to the moving body.",
+      "sentence": "A camera chooses how close to stand and when to cut — and those choices decide whether we ever see the whole dress move.",
+      "image_brief": "Rogers and Astaire in Swing Time: the skirt flares wide, visible only in a full-figure shot.",
+      "notes": "- Play Cheek to Cheek from a licensed copy: count the cuts; check feet and hem.",
       "quote": "Cameras will, with all their complex technical possibilities, in most cases still cling to and follow concrete body movements.",
       "quote_origin": "page_verified",
       "citation": {
         "label": "(Pfeiffer 2009, 198)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -710,9 +618,7 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "image_brief": "Swing Time still: the skirt flares wide — only a full-figure frame can show it.",
-      "notes": "- Play Cheek to Cheek from the licensed copy. Count cuts; check feet and hem.\n- Then the Pina trailer in the lesson: where does Wenders' camera stand?"
+      }
     },
     {
       "slide_id": "masterclass-10-framing",
@@ -725,21 +631,23 @@ layout: null
         "placement": "full",
         "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
       },
-      "notes": "- Count cuts while Cheek to Cheek runs; are feet and hem in frame?\n- What does the close-up sell: the dress or the star?"
+      "notes": "- Then play the Pina trailer in the lesson: where does Wim Wenders' camera stand?"
     },
     {
       "slide_id": "masterclass-11",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-11",
+      "media_slot_id": "ML-DCF-1.masterclass-11",
       "asset_id": "wikimedia:File:Ginger Rogers and Fred Astaire - Follow the Fleet (1936).jpg",
       "heading": "11 · The public makes the star",
-      "sentence": "Hollywood used fashion photography to turn stars into fashion references.",
+      "sentence": "Hollywood studios used fashion photographs to turn dancing stars into style models that audiences wanted to copy.",
+      "image_brief": "Rogers and Astaire in Follow the Fleet: a costume made to sell a star as much as a step.",
+      "notes": "- Who is credited: the dancers, the costume designer, the photographer?",
       "quote": "it's the public who makes the star",
       "quote_origin": "page_verified",
       "citation": {
         "label": "(Sill 2008, 127)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -755,23 +663,27 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "image_brief": "Rogers and Astaire, Follow the Fleet: a costume made to sell a star as much as a step.",
-      "notes": "- Sill 2008, 130: the star presented as a fashion reference.\n- Ask: who is credited — dancers, costume designer, photographer?"
+      }
     },
     {
       "slide_id": "masterclass-12",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-12",
+      "media_slot_id": "ML-DCF-1.masterclass-12",
       "asset_id": "wikimedia:File:Eadweard Muybridge, Animal Locomotion, Woman Dancing (fancy), 1887, plate 187.gif",
-      "heading": "12 · Learn from the new media",
-      "sentence": "When film arrived, the stage could compete — or learn. So can you, with a phone and Firefly.",
+      "heading": "12 · When the stage met cinema",
+      "sentence": "When film arrived, theatre could compete with it or learn from it. The Spanish film pioneer Segundo de Chomón turned the serpentine dance into special effects.",
+      "external_link": {
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#3--cinema-frames-the-moving-body",
+        "label": "Play Chomón's film of 1908 in the lesson"
+      },
+      "image_brief": "Eadweard Muybridge's photographs of a dancing woman, 1887: seeing movement before cinema.",
+      "notes": "- Chomón: born Teruel 1871, died Paris 1929.\n- Your phone camera is today's version of this dialogue.",
       "quote": "a theatre which, instead of competing against the newer means of communication, tries to apply them and to learn from them",
       "quote_origin": "print_transcription",
       "citation": {
         "label": "(Benjamin 1998, 99)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -787,105 +699,22 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "external_link": {
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#3--cinema-frames-the-moving-body",
-        "label": "Play Chomón's Création de la serpentine (1908)"
-      },
-      "image_brief": "Muybridge's dancing woman, 1887: photography learning to see movement before cinema.",
-      "notes": "- Segundo de Chomón (Teruel 1871 – Paris 1929): the edit, not the dancer, transforms the costume.\n- Bridge to I.8 animation."
-    },
-    {
-      "slide_id": "masterclass-13",
-      "slide_role": "masterclass",
-      "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-13",
-      "asset_id": "wikimedia:File:La Argentina dancing LOC agc.7a09934.jpg",
-      "heading": "13 · Climb only as high as your evidence",
-      "sentence": "Looks-like is rung 1. A title, a dated record, testimony climb higher.",
-      "image_brief": "Genthe photographs Antonia Mercé, La Argentina: a Spanish dancer whose name travelled to Tokyo.",
-      "notes": "- Forsythe × Miyake: costumes 1991/92 → Pleats Please 1993 (rung 3).\n- Appropriation: who is credited, paid, displaced?"
-    },
-    {
-      "slide_id": "masterclass-13-ladder",
-      "slide_role": "masterclass",
-      "background_kind": "none",
-      "heading": "How do we know a movement travelled?",
-      "figure": {
-        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-evidence-ladder.en.svg",
-        "alt": "Evidence ladder: analogy, quotation, exchange, documented influence. Appropriation is a question of power, not a rung.",
-        "placement": "full",
-        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
-      },
-      "notes": "- Rung 1 needs only eyes; rung 4 needs testimony, dates and works.\n- Appropriation is a question of power, not a rung."
-    },
-    {
-      "slide_id": "masterclass-14",
-      "slide_role": "masterclass",
-      "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-14",
-      "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
-      "heading": "14 · Madrid → Tokyo",
-      "sentence": "Kazuo Ohno's 1977 solo is titled Admiring La Argentina. When did he see her? 1926, 1927, 1929 — sources disagree.",
-      "external_link": {
-        "href": "https://numeridanse.com/en/dance-videotheque/admiring-la-argentina/",
-        "label": "Watch at source: Numeridanse"
-      },
-      "image_brief": "Max Slevogt paints La Argentina in 1926: a Spanish dancer’s shawl and ruffles as seen in Berlin, the same years Ohno saw her in Tokyo.",
-      "notes": "- The title is a quotation you can check (rung 2).\n- What does Ohno quote: a costume, a gesture, a feeling?\n- Slevogt (Berlin) and Ohno (Tokyo) both answer one Spanish dancer: another travel route to map."
-    },
-    {
-      "slide_id": "masterclass-15",
-      "slide_role": "masterclass",
-      "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-15",
-      "asset_id": "wikimedia:File:Ruth St. Denis in Radha. (3110871798).jpg",
-      "heading": "15 · Who performs whose culture?",
-      "sentence": "An American dancer presents herself as a Hindu goddess for Western audiences.",
-      "image_brief": "Ruth St. Denis in Radha, 1908–09: a costume that sells 'the East' to the West.",
-      "notes": "- Who is named, paid or displaced when a practice enters a new market?\n- What record separates influence from appropriation?"
-    },
-    {
-      "slide_id": "masterclass-16",
-      "slide_role": "masterclass",
-      "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-16",
-      "asset_id": "wikimedia:File:Guests at the 2026 Met Gala 354.jpg",
-      "heading": "16 · Shock on the red carpet",
-      "sentence": "Matières Fécales built a name on disgust — then dressed a Hollywood star for the 2026 Met Gala.",
-      "external_link": {
-        "href": "https://www.depop.com/fecalmatter/",
-        "label": "Open the label's Depop shop (new tab)"
-      },
-      "prompt": "Critique, or a new kind of luxury? Bring evidence, not adjectives.",
-      "image_brief": "Sarah Paulson in a Matières Fécales gown at the 2026 Met Gala (as reported by Out.com).",
-      "notes": "- Abjection is a theory of who is pushed out, not a synonym for 'shocking'.\n- Also discuss Delfín and Locking only with evidence: statements, reception, who wore it."
-    },
-    {
-      "slide_id": "masterclass-17",
-      "slide_role": "masterclass",
-      "background_kind": "curated",
-      "media_slot_id": "ML-DCF.masterclass-17",
-      "asset_id": "wikimedia:File:Sankai Juku.jpg",
-      "heading": "17 · Butoh has histories, not one look",
-      "sentence": "White paint is the easiest thing to copy and the least informative. A pose cannot say where a movement came from.",
-      "image_brief": "Sankai Juku at the Festival Cervantino, Mexico, 2006: one more reception history of butoh.",
-      "notes": "- Second-generation butoh (Amagatsu, 1975) on a Mexican stage; long reception in Argentina too.\n- Who can name a tradition, who earns from its circulation?"
+      }
     },
     {
       "slide_id": "retrieval",
       "slide_role": "retrieval",
       "background_kind": "geometrical",
       "heading": "Recall check",
-      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "sentence": "Alone, from memory, three minutes. Then compare with a partner.",
+      "notes": "Answers:\n- Drape, extension, tension, reorganisation.\n- The dance was copied: other dancers appear under her name.\n- The feet, the hem, the whole garment in motion.\n- Loïe Fuller.\n- Oskar Schlemmer.",
       "questions": [
-        "Name the four things a garment can do to movement.",
-        "Why are most early 'Fuller' films not evidence of Fuller?",
-        "What does a full-figure frame show that a close-up hides?",
-        "Which rung is 'it looks like' on the evidence ladder?",
-        "Whose name is in the title of Ohno's 1977 solo?"
-      ],
-      "notes": "Answers:\n- Drape, extension, tension, reorganisation.\n- The serpentine was copied: Annabelle, unnamed Lumière dancer, Pathé copy.\n- Feet, hem, the whole garment in motion.\n- Rung 1: visual analogy — never enough alone.\n- Antonia Mercé, La Argentina."
+        "What four things can a garment do to a moving body?",
+        "Why should we doubt early films sold as “Loïe Fuller”?",
+        "What does a full-figure shot show that a close-up hides?",
+        "Who patented a “garment for dancers” in 1894?",
+        "Who wrote that taking a step is a grand event?"
+      ]
     },
     {
       "slide_id": "lab-method",
@@ -894,33 +723,42 @@ layout: null
       "heading": "Burst → layers → one image of time",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-onion-skin.en.svg",
-        "alt": "Lab method: burst of twelve frames, keep six, stack as layers at 25% or Lighten, one image of time.",
+        "alt": "Lab method: a burst of about twelve frames, keep six, stack them as layers at 25 percent or Lighten, one image of time.",
         "placement": "full",
         "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
       },
-      "notes": "- C2 burst of about 12 frames → keep 6 → Photoshop layers at 25% or Lighten (T1)."
+      "notes": "- Exercise 2 uses this method; no AI needed."
     },
     {
       "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab",
-      "sentence": "Two exercises. Everything you make enters your portfolio index / Canvas.",
-      "notes": "- Consent first: photograph a classmate only if they say yes; faces optional.\n- Never upload a classmate's image to cloud AI without explicit consent."
+      "sentence": "Two exercises with your phone. Everything you make goes into your portfolio index on Canvas.",
+      "notes": "- Consent first: photograph a classmate only if they say yes; faces are optional."
     },
     {
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.lab-1",
+      "media_slot_id": "ML-DCF-1.lab-1",
       "asset_id": "wikimedia:File:Woman in dress dancing (1887).gif",
-      "heading": "Exercise 1 · Capture with your phone",
-      "sentence": "Pick two: C1 serpentine slow-mo · C2 burst chronophotograph · C3 one take vs three cuts · C4 constraint costume · C5 long-exposure lines.",
+      "heading": "Exercise 1 · Capture movement with your phone",
+      "sentence": "Choose two: a slow-motion spin, a burst of one turn, one take against three cuts, a stiff costume you build, or lines of light in a long exposure.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Keep your best capture and write one sentence: did the garment change the weight, the space, the time or the flow of the movement?",
+      "card_link": {
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#exercise-1--capture-with-the-phone-camera-25",
+        "label": "All five prompts in the lesson"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Muybridge's dancer lifts her hem and turns: the model for a phone burst of one turn.",
+      "notes": "- Plain wall, side light; colour the light with a second phone screen.\n- Laban's four factors: weight, space, time, flow.",
       "quote": "Peso, espacio, tiempo, y flujo.",
       "quote_origin": "print_transcription",
       "citation": {
         "label": "(Laban 1987, 28)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#references"
       },
       "semantic_tags": {
         "themes": [
@@ -936,63 +774,33 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "portfolio_bound": true,
-      "portfolio_trace": "Keep your best capture + one sentence: which factor — weight, space, time, flow — did the garment change?",
-      "card_link": {
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#exercise-1--capture-with-the-phone-camera-25",
-        "label": "Full prompts in the lesson"
-      },
-      "timer_seconds": 1500,
-      "image_brief": "Muybridge's woman lifting her hem: the model for a phone burst of one turn.",
-      "notes": "- Plain wall, side light; colour the light with a second phone screen.\n- Burst: hold the shutter / swipe left on iPhone."
+      }
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF.lab-2",
+      "media_slot_id": "ML-DCF-1.lab-2",
       "asset_id": "wikimedia:File:Oskar Schlemmer Triadisches Ballett 100.jpg",
-      "heading": "Exercise 2 · Transform, then audit the machine",
-      "sentence": "Pick one: T1 layers (no AI) · T2 Generative Expand to 16:9 · T3 Generative Fill garment · T4 Firefly composition reference · T5 Firefly image-to-video.",
-      "quote": "extensive acts of appropriation",
-      "quote_origin": "page_verified",
-      "citation": {
-        "label": "(Mejias and Couldry 2024, introduction)",
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#references"
-      },
-      "semantic_tags": {
-        "themes": [
-          "generative-ai",
-          "appropriation"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "quotations"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
+      "heading": "Exercise 2 · One image of time",
+      "sentence": "Stack six frames of your burst in Photoshop, then read the result with the movement card: what the garment does, the frame, and what the frame hides.",
       "portfolio_bound": true,
-      "portfolio_trace": "Audit: generate 'butoh dancer' or 'flamenco dancer' ×4, list what the model assumes, and say which ladder rung it can reach. Declare the AI use.",
+      "portfolio_trace": "Save your image of time with the filled movement card. No AI is needed today.",
       "card_link": {
-        "href": "/lessons/en/master-lectures/dance-cinema-fashion/#exercise-2--transform-with-photoshop-or-firefly--and-audit-25",
-        "label": "Full prompts in the lesson"
+        "href": "/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/#quick-card-printable",
+        "label": "Printable movement card"
       },
       "timer_seconds": 1500,
-      "image_brief": "Schlemmer's figure plan: designed transformation, before any machine.",
-      "notes": "- Keep Content Credentials on.\n- Declaration: tool, what it contributed, what you checked → /ai-declaration/.\n- No Firefly? Do T1."
+      "image_brief": "Schlemmer's figure plan: movement designed and mapped on paper before any stage.",
+      "notes": "- File → Scripts → Load Files into Stack; blend Lighten or 25% opacity."
     },
     {
       "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Watch what the cloth does after the body moves. Count the cuts. Climb only as high as your evidence.",
-      "notes": "- Share two captures and one audit sentence.\n- Portfolio entry + AI declaration before next session."
+      "sentence": "Watch what the cloth does after the body moves, and count the cuts before you praise the dance. Part 2 asks: who owns a movement when it travels?",
+      "notes": "- Portfolio entry before the next session."
     }
   ],
   "schema_version": 2

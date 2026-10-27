@@ -331,8 +331,8 @@
 
 - slug: dance-cinema-fashion
   title:
-    en: 'Master Lecture · Dance, cinema and fashion'
-    es: 'Master Lecture · Danza, cine y moda'
+    en: 'Master Lecture Cycle · Dance, Cinema and Fashion'
+    es: 'Ciclo de Master Lectures · Danza, cine y moda'
   path:
     en: /lessons/en/master-lectures/dance-cinema-fashion/
     es: /lessons/es/master-lectures/danza-cine-moda/
@@ -340,8 +340,42 @@
     en: lessons/en/master-lectures/dance-cinema-fashion/index.md
     es: lessons/es/master-lectures/danza-cine-moda/index.md
   status:
+    en: wip
+    es: wip
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-DCF
+
+- slug: dance-cinema-fashion-garment-camera
+  title:
+    en: 'Master Lecture · What Does a Garment Do When the Body Moves?'
+    es: 'Master Lecture · ¿Qué hace una prenda cuando el cuerpo se mueve?'
+  path:
+    en: /lessons/en/master-lectures/dance-cinema-fashion-garment-camera/
+    es: /lessons/es/master-lectures/danza-cine-moda-prenda-camara/
+  file:
+    en: lessons/en/master-lectures/dance-cinema-fashion-garment-camera/index.md
+    es: lessons/es/master-lectures/danza-cine-moda-prenda-camara/index.md
+  status:
     en: pilot
     es: pilot
   type: master-lecture
   track: master-lectures
-  unit_id: ML-DCF
+  unit_id: ML-DCF-1
+
+- slug: dance-cinema-fashion-travel-power
+  title:
+    en: 'Master Lecture · Who Owns a Movement When It Travels?'
+    es: 'Master Lecture · ¿De quién es un movimiento cuando viaja?'
+  path:
+    en: /lessons/en/master-lectures/dance-cinema-fashion-travel-power/
+    es: /lessons/es/master-lectures/danza-cine-moda-viaje-poder/
+  file:
+    en: lessons/en/master-lectures/dance-cinema-fashion-travel-power/index.md
+    es: lessons/es/master-lectures/danza-cine-moda-viaje-poder/index.md
+  status:
+    en: pilot
+    es: pilot
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-DCF-2

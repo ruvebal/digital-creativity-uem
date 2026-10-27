@@ -16,4 +16,6 @@ Shared **analysis methods** used across tracks. Not official CONTENIDOS unit IDs
 | **Image morphology** | [Lesson]({{ '/lessons/en/master-lectures/image-morphology/' | relative_url }}) | [Deck]({{ '/master-lectures/image-morphology/' | relative_url }}) |
 | **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
 | **Dignity in fashion image and media** | [Guide and classroom activities]({{ '/dignity/en/' | relative_url }}) | Activity menu in the guide |
-| **Dance, cinema and fashion** | [Lesson (EN)]({{ '/lessons/en/master-lectures/dance-cinema-fashion/' | relative_url }}) · [Lección (ES)]({{ '/lessons/es/master-lectures/danza-cine-moda/' | relative_url }}) | [Deck]({{ '/master-lectures/dance-cinema-fashion/' | relative_url }}) |
+| **Dance, cinema and fashion** (cycle) | [Index]({{ '/lessons/en/master-lectures/dance-cinema-fashion/' | relative_url }}) · [Índice (ES)]({{ '/lessons/es/master-lectures/danza-cine-moda/' | relative_url }}) | — |
+| ↳ 1/2 · What Does a Garment Do When the Body Moves? | [Lesson]({{ '/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/' | relative_url }}) | [Deck]({{ '/master-lectures/dance-cinema-fashion-garment-camera/' | relative_url }}) |
+| ↳ 2/2 · Who Owns a Movement When It Travels? | [Lesson]({{ '/lessons/en/master-lectures/dance-cinema-fashion-travel-power/' | relative_url }}) | [Deck]({{ '/master-lectures/dance-cinema-fashion-travel-power/' | relative_url }}) |

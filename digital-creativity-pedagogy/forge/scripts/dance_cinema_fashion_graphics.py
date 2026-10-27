@@ -222,22 +222,38 @@ def ladder(L):
 
 # ---------------------------------------------------------------- 4 · session flow
 FLOW = {
-    "en": dict(title="Session flow, 120 minutes",
-               desc=("Course diagram of the session. Minutes 0 to 15, Analysis strip on one film still. 15 to 55, Masterclass: "
-                     "six ideas with clips. 55 to 60, Lab opener. 60 to 85, Exercise 1, Capture with the phone camera. 85 to 110, "
-                     "Exercise 2, Transform in Photoshop or Firefly, plus an AI audit. 110 to 120, share and AI declaration."),
-               head="120′ · how the session runs",
-               seg=[(0, 15, "Analysis", "1 still · 8 steps"), (15, 55, "Masterclass", "6 ideas · clips"), (55, 60, "Lab", "opener"),
-                    (60, 85, "Ex 1 · Capture", "phone camera"), (85, 110, "Ex 2 · Transform", "Photoshop · Firefly"),
+    # one 120-minute plan per part of the cycle
+    ("1", "en"): dict(title="Part 1 session flow, 120 minutes",
+               desc=("Course diagram of Part 1. Minutes 0 to 15, Analysis of one film still. 15 to 55, Masterclass: three "
+                     "ideas with films. 55 to 60, Lab opener. 60 to 85, Exercise 1, capture movement with the phone camera. "
+                     "85 to 110, Exercise 2, one image of time in Photoshop and the movement card. 110 to 120, share."),
+               head="Part 1 · 120′ · how the session runs",
+               seg=[(0, 15, "Analysis", "1 still · 8 steps"), (15, 55, "Masterclass", "3 ideas · films"), (55, 60, "Lab", "opener"),
+                    (60, 85, "Ex 1 · Capture", "phone camera"), (85, 110, "Ex 2 · Image of time", "layers · movement card"),
+                    (110, 120, "Share", "portfolio")]),
+    ("2", "en"): dict(title="Part 2 session flow, 120 minutes",
+               desc=("Course diagram of Part 2. Minutes 0 to 15, Analysis of one painting. 15 to 55, Masterclass: three "
+                     "ideas on travel, strangeness and butoh. 55 to 60, Lab opener. 60 to 85, Exercise 1, transform a capture "
+                     "in Photoshop or Firefly. 85 to 110, Exercise 2, audit what the machine assumes. 110 to 120, share and AI declaration."),
+               head="Part 2 · 120′ · how the session runs",
+               seg=[(0, 15, "Analysis", "1 painting · 8 steps"), (15, 55, "Masterclass", "3 ideas · evidence"), (55, 60, "Lab", "opener"),
+                    (60, 85, "Ex 1 · Transform", "Photoshop · Firefly"), (85, 110, "Ex 2 · Audit", "what the AI assumes"),
                     (110, 120, "Share", "+ AI declaration")]),
-    "es": dict(title="Ritmo de la sesión, 120 minutos",
-               desc=("Diagrama del curso de la sesión. Minutos 0 a 15, franja de análisis sobre un fotograma. 15 a 55, "
-                     "masterclass: seis ideas con vídeos. 55 a 60, apertura del Lab. 60 a 85, ejercicio 1, capturar con la cámara "
-                     "del móvil. 85 a 110, ejercicio 2, transformar en Photoshop o Firefly, con auditoría de IA. 110 a 120, "
-                     "puesta en común y declaración de IA."),
-               head="120′ · cómo corre la sesión",
-               seg=[(0, 15, "Análisis", "1 fotograma · 8 pasos"), (15, 55, "Masterclass", "6 ideas · vídeos"), (55, 60, "Lab", "apertura"),
-                    (60, 85, "Ej 1 · Capturar", "cámara del móvil"), (85, 110, "Ej 2 · Transformar", "Photoshop · Firefly"),
+    ("1", "es"): dict(title="Ritmo de la parte 1, 120 minutos",
+               desc=("Diagrama del curso de la parte 1. Minutos 0 a 15, análisis de un fotograma. 15 a 55, masterclass: tres "
+                     "ideas con películas. 55 a 60, apertura del Lab. 60 a 85, ejercicio 1, capturar movimiento con la cámara "
+                     "del móvil. 85 a 110, ejercicio 2, una imagen del tiempo en Photoshop y la tarjeta de movimiento. 110 a 120, compartir."),
+               head="Parte 1 · 120′ · cómo corre la sesión",
+               seg=[(0, 15, "Análisis", "1 fotograma · 8 pasos"), (15, 55, "Masterclass", "3 ideas · películas"), (55, 60, "Lab", "apertura"),
+                    (60, 85, "Ej 1 · Capturar", "cámara del móvil"), (85, 110, "Ej 2 · Imagen del tiempo", "capas · tarjeta"),
+                    (110, 120, "Compartir", "portfolio")]),
+    ("2", "es"): dict(title="Ritmo de la parte 2, 120 minutos",
+               desc=("Diagrama del curso de la parte 2. Minutos 0 a 15, análisis de un cuadro. 15 a 55, masterclass: tres ideas "
+                     "sobre viaje, extrañeza y butoh. 55 a 60, apertura del Lab. 60 a 85, ejercicio 1, transformar una captura en "
+                     "Photoshop o Firefly. 85 a 110, ejercicio 2, auditar lo que supone la máquina. 110 a 120, compartir y declaración de IA."),
+               head="Parte 2 · 120′ · cómo corre la sesión",
+               seg=[(0, 15, "Análisis", "1 cuadro · 8 pasos"), (15, 55, "Masterclass", "3 ideas · evidencia"), (55, 60, "Lab", "apertura"),
+                    (60, 85, "Ej 1 · Transformar", "Photoshop · Firefly"), (85, 110, "Ej 2 · Auditar", "qué supone la IA"),
                     (110, 120, "Compartir", "+ declaración IA")]),
 }
 
@@ -315,9 +331,13 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for lang in ("en", "es"):
         for name, fn, data in (("affordance-map", affordance, AFF), ("framing", framing, FRM),
-                               ("evidence-ladder", ladder, LAD), ("session-flow", flow, FLOW), ("onion-skin", onion, ONION)):
+                               ("evidence-ladder", ladder, LAD), ("onion-skin", onion, ONION)):
             path = OUT / f"dcf-{name}.{lang}.svg"
             path.write_text(fn(data[lang]), encoding="utf-8")
+            print(path.relative_to(ROOT))
+        for part in ("1", "2"):
+            path = OUT / f"dcf-session-flow-{part}.{lang}.svg"
+            path.write_text(flow(FLOW[(part, lang)]), encoding="utf-8")
             print(path.relative_to(ROOT))
 
 

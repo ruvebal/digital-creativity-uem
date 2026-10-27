@@ -115,3 +115,13 @@ Rights checked against each Commons file page (licence, author, source) on 2026-
 - **Quotations bank (owner-authorised exception to hard rule 6):** only the four strongest matches used, verbatim from `~/projects/ruvebal/scholar/quotations_bank/`: Laban 1987, 39 and 28 (Fundamentos ed.); Schlemmer 1987, 112 (Paidós); Benjamin 1998, 99 (“The Author as Producer”; Verso edition and page range to confirm against the book). Not used: Craig 1954 (incomplete bibliography), Gropius 1969, other Laban passages. Public deck JSON labels these `quote_origin: print_transcription`.
 - **Owner revision (deck):** course diagrams moved out of the reading card (`figure.placement: "apart"`, new renderer option + `pass-track-deck.css` panel) on slides 1, 10, 12, 15, 21. Slide 16 (masterclass-14) no longer uses the Kazuo Ohno portrait: replaced by Max Slevogt, *La Argentina* (1926), Muzeum Narodowe w Szczecinie, PD (Slevogt d. 1932). Ohno portrait remains in the lesson page only.
 - **Owner revision 2:** course diagrams are now standalone slides (`figure.placement: "full"`, no reading card): session-flow, masterclass-8-map, masterclass-10-framing, masterclass-13-ladder, lab-method (deck = 30 slides). Framing SVG canvas extended to 456 px so the FULL FIGURE label is not clipped.
+
+### Cycle split — 2026-10-27 (night)
+
+Owner asked for an index + two parts, cloned from the CT cycle *Who Creates, Who Owns, Who Scales?*:
+- **Index (ML-DCF):** `/lessons/{en,es}/master-lectures/{dance-cinema-fashion,danza-cine-moda}/` — master idea, WIP line, the two parts with their indexed sub-ideas and Labs, a notable quote (Schlemmer 1987, 112), tools table. Old single-lesson and old deck URLs land here.
+- **Part 1 (ML-DCF-1)** *What Does a Garment Do When the Body Moves?* — ideas 1–3; Lab: Ex 1 phone capture (C1–C5), Ex 2 one image of time (T1, no AI) + movement card. Deck `/master-lectures/dance-cinema-fashion-garment-camera/` (24 slides, 16 photos, 4 standalone diagrams).
+- **Part 2 (ML-DCF-2)** *Who Owns a Movement When It Travels?* — ideas 4–6; analysis still = Slevogt; Lab: Ex 1 transform (T2–T5), Ex 2 AI audit. Deck `/master-lectures/dance-cinema-fashion-travel-power/` (16 slides, 10 photos, 2 standalone diagrams).
+- Slide sentences rewritten to stand alone when read aloud (who/what named, no “below/next slide”).
+- New PD/CC0/CC assets registered for ML-DCF-1/2: Tovar caricature of La Argentina (1918; Tovar d. 1935), Allen & Ginter cigarette card of Loïe Fuller (c. 1888; Met CC0), Antonia Mercé in *Mundo Gráfico* (1913, anonymous; low-resolution source), Fortuny pink Delphos (Mabalu, CC BY-SA 4.0).
+- Spanish master-lectures index created (`/lessons/es/master-lectures/`) — it was a dead breadcrumb.
