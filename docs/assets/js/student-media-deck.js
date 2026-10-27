@@ -191,6 +191,9 @@
     slidesRoot.innerHTML = '';
     data.slides.forEach((slide) => {
       const asset = slide.media_slot_id ? assets.get(slide.media_slot_id) : null;
+      const figure = slide.figure?.src
+        ? `<img class="student-media-slide__figure" src="${escapeHtml(citationHref(slide.figure.src))}" alt="${escapeHtml(slide.figure.alt || '')}">`
+        : '';
       let url;
       let captionHtml;
       let alt = '';
@@ -220,6 +223,7 @@
         <div class="student-media-slide">
           <p class="student-media-slide__unit">${escapeHtml(data.unit_label)}</p>
           <h1>${escapeHtml(slide.heading)}</h1>
+          ${figure}
           <p class="student-media-slide__sentence">${escapeHtml(slide.sentence || '')}</p>
           ${slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : ''}
           ${slide.citation ? `<p class="student-media-slide__citation"><a href="${escapeHtml(citationHref(slide.citation.href))}">${escapeHtml(slide.citation.label)}</a></p>` : ''}
@@ -228,6 +232,13 @@
         </div>
         ${alt ? `<p class="sr-only">Image: ${escapeHtml(alt)}</p>` : ''}
         ${captionHtml ? `<p class="slide-caption">${captionHtml}</p>` : ''}`;
+      if (slide.figure?.src && slide.figure.placement === 'full') {
+        section.innerHTML = `
+          <h1 class="sr-only">${escapeHtml(String(slide.heading || '').replace(/\*\*|==/g, ''))}</h1>
+          <figure class="student-media-figure-full">${figure}${slide.figure.caption ? `<figcaption>${escapeHtml(slide.figure.caption)}</figcaption>` : ''}</figure>
+          ${slide.notes ? `<aside class="notes">${escapeHtml(slide.notes)}</aside>` : ''}`;
+        section.setAttribute('data-figure', 'full');
+      }
       if (url) backgroundUrlBySection.set(section, url);
       slidesRoot.append(section);
     });
