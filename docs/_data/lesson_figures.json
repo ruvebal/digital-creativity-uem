@@ -1,5 +1,5 @@
 {
-  "dance-cinema-fashion-garment-camera": {
+  "dance-cinema-fashion-body-cloth": {
     "cover": {
       "src": "/assets/images/deck-media/3f5593e9e27f9d23.webp",
       "alt": "Loïe Fuller in a vast pale costume spread like butterfly wings, arms raised inside it, in an 1895 photograph.",
@@ -48,52 +48,78 @@
       "caption_html": "<span class=\"slide-caption__title\">Das Triadische Ballett, Programmzettel 1922</span> · <span class=\"slide-caption__author\">Oskar Schlemmer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Das_Triadische_Ballett%2C_Programmzettel_1922.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-7": {
-      "src": "/assets/images/deck-media/d4bf15487438affc.webp",
-      "alt": "Triadic Ballet figures on a tiled stage: a spiked conical skirt, a club-like arm, a ballooning dark form.",
-      "caption_html": "<span class=\"slide-caption__title\">Oskar Schlemmer Triadisches Ballett 200</span> · <span class=\"slide-caption__author\">Oskar Schlemmer (figures); photographer not identified</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Oskar_Schlemmer_Triadisches_Ballett_200.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "ok"
-    },
-    "masterclass-8": {
-      "src": "/assets/images/deck-media/cd2031e60bec59c3.webp",
-      "alt": "Museum display of three Triadic Ballet figures on low plinths against dark walls.",
-      "caption_html": "<span class=\"slide-caption__title\">Triadisches Ballett by Oskar Schlemmer - Staatsgalerie - Stuttgart - Germany 2017</span> · <span class=\"slide-caption__author\">José Luiz Bernardes Ribeiro (photograph); Oskar Schlemmer (figures)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Triadisches_Ballett_by_Oskar_Schlemmer_-_Staatsgalerie_-_Stuttgart_-_Germany_2017.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "ok"
-    },
-    "masterclass-9": {
-      "src": "/assets/images/deck-media/21402f359a6b2581.webp",
-      "alt": "A seated dancer wrapped in a stretched tube of pale fabric; only face, hands and feet show.",
-      "caption_html": "<span class=\"slide-caption__title\">Janet Eilber Performing Martha Graham’s “Lamentation” in the East Room of the White House - NARA - 30805967</span> · <span class=\"slide-caption__author\">White House photographer (US National Archives)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Janet_Eilber_Performing_Martha_Graham%E2%80%99s_%E2%80%9CLamentation%E2%80%9D_in_the_East_Room_of_the_White_House_-_NARA_-_30805967.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
-    },
-    "masterclass-10": {
-      "src": "/assets/images/deck-media/ed74ac9294fe8999.webp",
-      "alt": "Rogers in a full ruffled gown and Astaire in tails dance; her skirt flares wide.",
-      "caption_html": "<span class=\"slide-caption__title\">Swing Time (1936)</span> · <span class=\"slide-caption__author\">RKO Radio Pictures (studio publicity photograph)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Swing_Time_%281936%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "ok"
-    },
-    "masterclass-11": {
-      "src": "/assets/images/deck-media/05a5b40545b115e7.webp",
-      "alt": "Rogers mid-step in a light gown beside Astaire in tails on a shiny dance floor.",
-      "caption_html": "<span class=\"slide-caption__title\">Ginger Rogers and Fred Astaire - Follow the Fleet (1936)</span> · <span class=\"slide-caption__author\">RKO Radio Pictures (studio publicity photograph)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Ginger_Rogers_and_Fred_Astaire_-_Follow_the_Fleet_%281936%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "ok"
-    },
-    "masterclass-12": {
+    "lab-1": {
       "src": "/assets/images/deck-media/350a547f1886a4d6.webp",
       "alt": "A Muybridge frame: a woman in a light dress dancing before a gridded wall.",
       "caption_html": "<span class=\"slide-caption__title\">Eadweard Muybridge, Animal Locomotion, Woman Dancing (fancy), 1887, plate 187</span> · <span class=\"slide-caption__author\">Eadweard Muybridge</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Eadweard_Muybridge%2C_Animal_Locomotion%2C_Woman_Dancing_%28fancy%29%2C_1887%2C_plate_187.gif\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "lab-1": {
+    "lab-2": {
       "src": "/assets/images/deck-media/7aff8a7fa984b579.webp",
       "alt": "A woman in a sheer dress lifts her hem and turns in front of a gridded wall.",
       "caption_html": "<span class=\"slide-caption__title\">Woman in dress dancing (1887)</span> · <span class=\"slide-caption__author\">Eadweard Muybridge</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Woman_in_dress_dancing_%281887%29.gif\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
+    }
+  },
+  "dance-cinema-fashion-costume-camera": {
+    "cover": {
+      "src": "/assets/images/deck-media/6fe9129ee37eeb4c.webp",
+      "alt": "A Triadic Ballet figure photographed in 1925: a glass sphere for a head, a black ruffled skirt and black-and-white striped legs ending in points.",
+      "caption_html": "<span class=\"slide-caption__title\">Oskar Schlemmer Triadisches Ballett 400</span> · <span class=\"slide-caption__author\">Oskar Schlemmer (figure); photographer not identified</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Oskar_Schlemmer_Triadisches_Ballett_400.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     },
-    "lab-2": {
+    "analysis-model": {
+      "src": "/assets/images/deck-media/3e454e5917eae721.webp",
+      "alt": "Schlemmer’s drawing of a Triadic Ballet figure: a body wound in black-and-white spiral rings over a wide striped disc, washed in grey.",
+      "caption_html": "<span class=\"slide-caption__title\">Oskar Schlemmer Triadisches Ballett 300</span> · <span class=\"slide-caption__author\">Oskar Schlemmer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Oskar_Schlemmer_Triadisches_Ballett_300.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/d4bf15487438affc.webp",
+      "alt": "Triadic Ballet figures on a tiled stage: a spiked conical skirt, a club-like arm, a ballooning dark form.",
+      "caption_html": "<span class=\"slide-caption__title\">Oskar Schlemmer Triadisches Ballett 200</span> · <span class=\"slide-caption__author\">Oskar Schlemmer (figures); photographer not identified</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Oskar_Schlemmer_Triadisches_Ballett_200.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/cd2031e60bec59c3.webp",
+      "alt": "Museum display of three Triadic Ballet figures on low plinths against dark walls.",
+      "caption_html": "<span class=\"slide-caption__title\">Triadisches Ballett by Oskar Schlemmer - Staatsgalerie - Stuttgart - Germany 2017</span> · <span class=\"slide-caption__author\">José Luiz Bernardes Ribeiro (photograph); Oskar Schlemmer (figures)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Triadisches_Ballett_by_Oskar_Schlemmer_-_Staatsgalerie_-_Stuttgart_-_Germany_2017.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/21402f359a6b2581.webp",
+      "alt": "A seated dancer wrapped in a stretched tube of pale fabric; only face, hands and feet show.",
+      "caption_html": "<span class=\"slide-caption__title\">Janet Eilber Performing Martha Graham’s “Lamentation” in the East Room of the White House - NARA - 30805967</span> · <span class=\"slide-caption__author\">White House photographer (US National Archives)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Janet_Eilber_Performing_Martha_Graham%E2%80%99s_%E2%80%9CLamentation%E2%80%9D_in_the_East_Room_of_the_White_House_-_NARA_-_30805967.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/ed74ac9294fe8999.webp",
+      "alt": "Rogers in a full ruffled gown and Astaire in tails dance; her skirt flares wide.",
+      "caption_html": "<span class=\"slide-caption__title\">Swing Time (1936)</span> · <span class=\"slide-caption__author\">RKO Radio Pictures (studio publicity photograph)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Swing_Time_%281936%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/05a5b40545b115e7.webp",
+      "alt": "Rogers mid-step in a light gown beside Astaire in tails on a shiny dance floor.",
+      "caption_html": "<span class=\"slide-caption__title\">Ginger Rogers and Fred Astaire - Follow the Fleet (1936)</span> · <span class=\"slide-caption__author\">RKO Radio Pictures (studio publicity photograph)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Ginger_Rogers_and_Fred_Astaire_-_Follow_the_Fleet_%281936%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/3ca4a20c6bb3e0e3.webp",
+      "alt": "A Muybridge frame of a man and a woman waltzing: her long patterned dress swings out as they turn.",
+      "caption_html": "<span class=\"slide-caption__title\">Man and woman dancing a waltz (1887)</span> · <span class=\"slide-caption__author\">Eadweard Muybridge</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Man_and_woman_dancing_a_waltz_%281887%29.gif\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
       "src": "/assets/images/deck-media/6686a49d4089a581.webp",
       "alt": "Schlemmer’s figure plan: small schematic costumes built from cones, spheres, discs and spirals.",
       "caption_html": "<span class=\"slide-caption__title\">Oskar Schlemmer Triadisches Ballett 100</span> · <span class=\"slide-caption__author\">Oskar Schlemmer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Oskar_Schlemmer_Triadisches_Ballett_100.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/aa112628d9c18754.webp",
+      "alt": "Roberta, 1935: in a modern fashion salon Irene Dunne sits in a check suit, Fred Astaire leans over her, and Ginger Rogers stands in a polka-dot coat with a fur collar.",
+      "caption_html": "<span class=\"slide-caption__title\">Irene Dunne, Fred Astaire and Ginger Rogers in Roberta</span> · <span class=\"slide-caption__author\">RKO Radio Pictures (studio publicity photograph)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Irene_Dunne%2C_Fred_Astaire_and_Ginger_Rogers_in_Roberta.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     }
   },
@@ -110,25 +136,25 @@
       "caption_html": "<span class=\"slide-caption__title\">Slevogt La Argentina</span> · <span class=\"slide-caption__author\">Max Slevogt</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Slevogt_La_Argentina.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-4": {
+    "masterclass-1": {
       "src": "/assets/images/deck-media/1cb3a3bc395c0ed5.webp",
       "alt": "An 1888 cigarette card: Loïe Fuller, then a stage actress, in breeches and a patterned jacket, with a pug at her feet; printed name “Loie Fuller” and “Virginia Brights Cigarettes”.",
       "caption_html": "<span class=\"slide-caption__title\">Loie Fuller, from the Actors and Actresses series (N45, Type 1) for Virginia Brights Cigarettes MET DP830450</span> · <span class=\"slide-caption__author\">Allen &amp; Ginter</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Loie_Fuller%2C_from_the_Actors_and_Actresses_series_%28N45%2C_Type_1%29_for_Virginia_Brights_Cigarettes_MET_DP830450.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-4b": {
+    "masterclass-2": {
       "src": "/assets/images/deck-media/601dcc456179acf2.webp",
       "alt": "Caricature of La Argentina on a 1918 Madrid magazine cover: a smiling face with arched brows, sleek dark hair and a zigzag-patterned collar.",
       "caption_html": "<span class=\"slide-caption__title\">1918-12-01, La Novela Teatral, Antonia Mercé (La Argentina), Tovar</span> · <span class=\"slide-caption__author\">Manuel Tovar Siles</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:1918-12-01%2C_La_Novela_Teatral%2C_Antonia_Merc%C3%A9_%28La_Argentina%29%2C_Tovar.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-4c": {
+    "masterclass-3": {
       "src": "/assets/images/deck-media/d3a43bbac02a702a.webp",
       "alt": "A pink pleated Delphos gown by Fortuny on a display figure; the fine pleats fall straight to the floor.",
       "caption_html": "<span class=\"slide-caption__title\">Pink Delphos dress by Fortuny, 1920s</span> · <span class=\"slide-caption__author\">Mabalu (photograph); Mariano Fortuny (dress)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Pink_Delphos_dress_by_Fortuny%2C_1920s.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-4d": {
+    "masterclass-4": {
       "src": "/assets/images/deck-media/ad36d0fb4c955b73.webp",
       "alt": "Ruth St. Denis in a jewelled, fringed costume, arms extended, holding small cymbals.",
       "caption_html": "<span class=\"slide-caption__title\">Ruth St. Denis in Radha. (3110871798)</span> · <span class=\"slide-caption__author\">Otto Sarony</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Ruth_St._Denis_in_Radha._%283110871798%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
@@ -147,9 +173,9 @@
       "rights_status": "flagged"
     },
     "lab-1": {
-      "src": "/assets/images/deck-media/7aff8a7fa984b579.webp",
-      "alt": "A woman in a sheer dress lifts her hem and turns in front of a gridded wall.",
-      "caption_html": "<span class=\"slide-caption__title\">Woman in dress dancing (1887)</span> · <span class=\"slide-caption__author\">Eadweard Muybridge</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Woman_in_dress_dancing_%281887%29.gif\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "src": "/assets/images/deck-media/fe1c064774870c1d.webp",
+      "alt": "A Duncan dancer in a sheer tunic steps forward on a dark stage, one knee raised, the cloth trailing behind her.",
+      "caption_html": "<span class=\"slide-caption__title\">Isadora Duncan dancer LOC agc.7a09946</span> · <span class=\"slide-caption__author\">Arnold Genthe</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Isadora_Duncan_dancer_LOC_agc.7a09946.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "lab-2": {

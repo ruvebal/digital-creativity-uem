@@ -6,7 +6,7 @@ date: 2026-10-28
 author: 'Rubén Vega Balbás, PhD'
 lang: es
 permalink: /lessons/es/master-lectures/danza-cine-moda-viaje-poder/
-description: 'Parte 2 de 2. Las referencias viajan, pero su historia no viaja sola: evidencia, provocación, butoh — y una auditoría de lo que supone un generador de imágenes.'
+description: 'Parte 3 de 3. Las referencias viajan, pero su historia no viaja sola: evidencia, provocación, butoh — y una auditoría de lo que supone un generador de imágenes.'
 status: pilot
 tags: [master-lecture, dance, circulation, butoh, generative-ai-audit, series-dcf]
 master_idea: 'Una referencia puede viajar, pero su historia no viaja sola.'
@@ -14,7 +14,7 @@ practice_anchor: 'Transformar una captura con Photoshop o Firefly; auditar lo qu
 frontier_signal: 'La influencia entre escena, pantalla y moda es fácil de ver y difícil de probar: hasta en casos famosos las fechas y los testimonios no coinciden.'
 deck_url: /master-lectures/dance-cinema-fashion-travel-power/
 series: dance-cinema-fashion
-series_part: 2
+series_part: 3
 references: [de-perthuis-2008, shinkle-2008, navarro-gavino-2022, mejias-couldry-2024]
 ---
 
@@ -56,20 +56,20 @@ forge: digital-creativity-pedagogy/forge/DANCE-CINEMA-FASHION-FORGE.mdc · ledge
 
 > **Una referencia puede viajar, pero su historia no viaja sola.**
 
-**Creativos trabajando · WIP** · **Serie:** [Danza, cine y moda]({{ '/lessons/es/master-lectures/danza-cine-moda/' | relative_url }}) · Parte 2 de 2
-**Presentación en clase:** [abrir presentación]({{ '/master-lectures/dance-cinema-fashion-travel-power/' | relative_url }}) (en inglés)
-**Anterior:** [¿Qué hace una prenda cuando el cuerpo se mueve?]({{ '/lessons/es/master-lectures/danza-cine-moda-prenda-camara/' | relative_url }})
+**Creativos trabajando · WIP** · **Serie:** [Danza, cine y moda]({{ '/lessons/es/master-lectures/danza-cine-moda/' | relative_url }}) · Parte 3 de 3  
+**Presentación en clase:** [abrir presentación]({{ '/master-lectures/dance-cinema-fashion-travel-power/' | relative_url }}) (en inglés)  
+**Anterior:** [¿Quién da forma a un baile: el vestuario o la cámara?]({{ '/lessons/es/master-lectures/danza-cine-moda-vestuario-camara/' | relative_url }})
 
 Taller de método para Creación Digital I · I.7 — no es una unidad ni una nota nueva. Tres ideas: el movimiento viaja con su contexto, a quién se vuelve extraño, el butoh tiene historias. Lab: Photoshop o Firefly y después una auditoría de lo que supone la máquina.
 
-**Trae:** tus capturas de la parte 1 (o el móvil para hacer otras) y tu acceso a Adobe Creative Cloud.
+**Trae:** tus capturas de las partes 1 y 2 (o el móvil para hacer otras) y tu acceso a Adobe Creative Cloud.
 
 [English version]({{ '/lessons/en/master-lectures/dance-cinema-fashion-travel-power/' | relative_url }})
 
 </div>
 
 <figure class="dcf-media dcf-diagram" markdown="0">
-<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-2.es.svg' | relative_url }}" alt="Ritmo de la sesión, 120 minutos: análisis 15, masterclass 40, apertura del Lab 5, ejercicio 1 25, ejercicio 2 25, compartir 10." loading="lazy" decoding="async">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-3.es.svg' | relative_url }}" alt="Ritmo de la sesión, 120 minutos: análisis 15, masterclass 40, apertura del Lab 5, ejercicio 1 25, ejercicio 2 25, compartir 10." loading="lazy" decoding="async">
 </figure>
 
 ## Objetivos de aprendizaje
@@ -100,7 +100,7 @@ Lee un cuadro con la [tarjeta de ocho pasos]({{ '/lessons/en/master-lectures/fas
 
 ## Masterclass · tres ideas (40′)
 
-### 4 · El movimiento viaja con su contexto
+### 6 · El movimiento viaja con su contexto
 
 Las referencias viajan: de la escena al cine, del cine a la pasarela, de un país a otro. Pero una referencia no lleva su historia consigo de forma automática. Usa la escalera: **sube solo hasta donde llegue tu evidencia**.
 
@@ -136,7 +136,7 @@ Las referencias viajan: de la escena al cine, del cine a la pasarela, de un paí
 
 Una bailarina estadounidense se presenta como diosa hindú ante públicos occidentales. **Pregunta:** ¿a quién se nombra, se paga o se desplaza cuando una práctica entra en un mercado nuevo? ¿Qué registro separaría influencia, intercambio, apropiación y simple analogía visual?
 
-### 5 · ¿A quién se vuelve extraño?
+### 7 · ¿A quién se vuelve extraño?
 
 La moda lleva mucho tiempo alejando el cuerpo de la proporción «natural»; Henri Focillon escribió que «la moda inventa una humanidad artificial» (Focillon, citado en [de Perthuis 2008, 169](#ref-de-perthuis-2008)). Las imágenes de moda también pueden rechazar la gracia a propósito: Shinkle describe a una modelo «zarandeada como un maniquí de pruebas de choque», fuera del léxico habitual de poses [(Shinkle 2008, 222)](#ref-shinkle-2008).
 
@@ -159,24 +159,26 @@ La imagen en movimiento también puede abrir espacio: una investigación sobre f
 
 **Pregunta:** ¿Esta provocación discute una norma — o convierte cuerpos excluidos en espectáculo? ¿Qué relato y qué evidencia de recepción permitirían distinguirlo?
 
-### 6 · El butoh tiene historias, no un *look*
+### 8 · El butoh tiene historias, no un *look*
 
-El *butō* nació en el Japón de posguerra (Tatsumi Hijikata, Kazuo Ohno) y se extendió en muchas direcciones, incluida una larga recepción en Argentina. Sus imágenes más conocidas — cuerpo pintado de blanco, distorsión lenta — son lo más fácil de copiar y lo que menos informa.
+El *butō* nació en el Japón de posguerra (Tatsumi Hijikata, Kazuo Ohno) y se extendió en muchas direcciones, incluida una larga recepción en Argentina. Sus imágenes más conocidas — cuerpo pintado de blanco, distorsión lenta — son lo más fácil de copiar y lo que menos informa. **Una pose sola no puede decirnos de dónde viene un movimiento.** Fíjate en que el solo más famoso de Ohno, de la idea 6, es un homenaje a una bailarina española: la historia cruza el *look*.
 
 <figure class="dcf-media" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/sankai-juku-kagemi-2006.webp' | relative_url }}" alt="Escenario oscuro: tres bailarines con cabeza rapada y cuerpo blanqueado, en taparrabos, agachados delante con las manos junto a la cara; detrás, tres figuras blanqueadas con vestidos largos color tierra se llevan las manos a los ojos." loading="lazy" decoding="async">
 <figcaption>Sankai Juku, <em>Kagemi: más allá de la metáfora de los espejos</em>, Festival Internacional Cervantino, Guanajuato (México), octubre de 2006. Fotografía Carlos de las Piedras, CC BY 2.0 · <a href="https://commons.wikimedia.org/wiki/File:Sankai_Juku.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>. Una compañía de butoh de segunda generación (fundada por Ushio Amagatsu en 1975) en un escenario mexicano: otra historia de recepción, no un «look» intemporal.</figcaption>
-</figure> **Una pose sola no puede decirnos de dónde viene un movimiento.** Fíjate en que el solo más famoso de Ohno, de la idea 4, es un homenaje a una bailarina española: la historia cruza el *look*.
+</figure>
 
 Es también lo que pasa cuando un generador de imágenes aprende de imágenes recolectadas en masa. Mejias y Couldry llaman a la captura masiva de datos «extensos actos de apropiación» y sostienen que el atractivo de la «IA generativa» es sobre todo un dispositivo para distraer de ello [(Mejias and Couldry 2024, introduction)](#ref-mejias-couldry-2024). Lo pondrás a prueba en la auditoría del Lab.
 
 **Pregunta:** ¿Quién puede nombrar una tradición, quién gana con su circulación y cuándo el exotismo borra el contexto?
 
+
+
 ---
 
 ## Lab (portfolio) · 50′
 
-Dos ejercicios. Trabaja sobre una captura de la parte 1 — o haz una nueva en dos minutos con las propuestas de la parte 1. Todo lo que hagas va a tu índice de portfolio / Canvas con una nota breve.
+Dos ejercicios. Trabaja sobre una captura de la parte 1 o 2 — o haz una nueva en dos minutos. Todo lo que hagas va a tu índice de portfolio / Canvas con una nota breve.
 
 <div class="dcf-guard" markdown="1">
 **Consentimiento y cuidado (innegociable).** Fotografía a un compañero solo si dice que sí, y enséñale el resultado. La cara es opcional — manos, bajos, sombras y espaldas bastan. **Nunca subas la imagen de un compañero a Firefly ni a ninguna IA en la nube sin su consentimiento explícito**; en caso de duda, usa tu propio cuerpo, tu prenda o un objeto. Borra si te lo piden. El trabajo del estudiante es de su autoría: nada se expone sin un permiso aparte.
@@ -229,7 +231,7 @@ Sube **solo hasta donde llegue tu evidencia** — hasta las historias de influen
 
 ## Créditos de medios
 
-Todas las imágenes son de dominio público o con licencia abierta; cada pie nombra autor, licencia y página de origen. Los diagramas son del curso (CC BY-NC-SA 4.0). *Admiring La Argentina* no se inserta: se ve en la fuente. El tráiler de *Pina* se reproduce en el reproductor de YouTube desde una subida de terceros nombrada en su pie; la tienda de Depop no permite inserción y se abre en otra pestaña.
+Todas las imágenes son de dominio público o con licencia abierta; cada pie nombra autor, licencia y página de origen. Los diagramas son del curso (CC BY-NC-SA 4.0). *Admiring La Argentina* no se inserta: se ve en la fuente. La tienda de Depop no permite inserción y se abre en otra pestaña.
 
 ## Referencias
 
@@ -239,7 +241,7 @@ Todas las imágenes son de dominio público o con licencia abierta; cada pie nom
 
 ## Nota editorial · Trabajo en curso · Práctica de Innovación Docente
 
-**Laguna declarada:** la bibliografía sobre la recepción transnacional del butoh y la abyección en moda aún no está verificada por página en la bibliografía del curso; esas partes se enseñan con páginas de archivo y preguntas abiertas, no con citas.  
+**Laguna declarada:** la bibliografía sobre la recepción transnacional del butoh y la abyección en moda aún no está verificada por página en la bibliografía del curso; esas partes se enseñan con páginas de archivo y preguntas abiertas.  
 **Evidencia faltante:** el año en que Ohno vio por primera vez a La Argentina (1926, 1927 o 1929 según los archivos); el año del estreno de *The Loss of Small Detail* de Forsythe con vestuario de Miyake (1991 o 1992).  
 **Nota al editor:** esta parte pide al alumnado usar las herramientas generativas en la nube de Adobe con su propia licencia de Creative Cloud, a petición del profesor, con una regla de consentimiento para imágenes de compañeros y una auditoría obligatoria; los materiales del curso no usan imágenes generativas.
 

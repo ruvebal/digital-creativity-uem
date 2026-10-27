@@ -346,22 +346,39 @@
   track: master-lectures
   unit_id: ML-DCF
 
-- slug: dance-cinema-fashion-garment-camera
+- slug: dance-cinema-fashion-body-cloth
   title:
     en: 'Master Lecture · What Does a Garment Do When the Body Moves?'
     es: 'Master Lecture · ¿Qué hace una prenda cuando el cuerpo se mueve?'
   path:
-    en: /lessons/en/master-lectures/dance-cinema-fashion-garment-camera/
-    es: /lessons/es/master-lectures/danza-cine-moda-prenda-camara/
+    en: /lessons/en/master-lectures/dance-cinema-fashion-body-cloth/
+    es: /lessons/es/master-lectures/danza-cine-moda-cuerpo-tela/
   file:
-    en: lessons/en/master-lectures/dance-cinema-fashion-garment-camera/index.md
-    es: lessons/es/master-lectures/danza-cine-moda-prenda-camara/index.md
+    en: lessons/en/master-lectures/dance-cinema-fashion-body-cloth/index.md
+    es: lessons/es/master-lectures/danza-cine-moda-cuerpo-tela/index.md
   status:
     en: pilot
     es: pilot
   type: master-lecture
   track: master-lectures
   unit_id: ML-DCF-1
+
+- slug: dance-cinema-fashion-costume-camera
+  title:
+    en: 'Master Lecture · Who Shapes a Dance: the Costume or the Camera?'
+    es: 'Master Lecture · ¿Quién da forma a un baile: el vestuario o la cámara?'
+  path:
+    en: /lessons/en/master-lectures/dance-cinema-fashion-costume-camera/
+    es: /lessons/es/master-lectures/danza-cine-moda-vestuario-camara/
+  file:
+    en: lessons/en/master-lectures/dance-cinema-fashion-costume-camera/index.md
+    es: lessons/es/master-lectures/danza-cine-moda-vestuario-camara/index.md
+  status:
+    en: pilot
+    es: pilot
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-DCF-2
 
 - slug: dance-cinema-fashion-travel-power
   title:
@@ -378,4 +395,4 @@
     es: pilot
   type: master-lecture
   track: master-lectures
-  unit_id: ML-DCF-2
+  unit_id: ML-DCF-3

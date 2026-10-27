@@ -125,3 +125,11 @@ Owner asked for an index + two parts, cloned from the CT cycle *Who Creates, Who
 - Slide sentences rewritten to stand alone when read aloud (who/what named, no “below/next slide”).
 - New PD/CC0/CC assets registered for ML-DCF-1/2: Tovar caricature of La Argentina (1918; Tovar d. 1935), Allen & Ginter cigarette card of Loïe Fuller (c. 1888; Met CC0), Antonia Mercé in *Mundo Gráfico* (1913, anonymous; low-resolution source), Fortuny pink Delphos (Mabalu, CC BY-SA 4.0).
 - Spanish master-lectures index created (`/lessons/es/master-lectures/`) — it was a dead breadcrumb.
+
+### Three-part series — 2026-10-27 (late night)
+
+- Part 1 split in two so each lesson carries **six masterclass slides**: **1 · What Does a Garment Do When the Body Moves?** (`…-body-cloth`, ideas 1–3, Lab: serpentine & light · one image of time), **2 · Who Shapes a Dance: the Costume or the Camera?** (`…-costume-camera`, ideas 4–5, Lab: constraint costume · one take vs three cuts + movement card), **3 · Who Owns a Movement When It Travels?** (`…-travel-power`, ideas renumbered 6–8, unchanged Lab). Units ML-DCF-1/2/3. The two-part `…-garment-camera` pages and deck are removed (never published).
+- New PD images: Schlemmer Triadic figures 300 (drawing) and 400 (photo) from *Die Bühne im Bauhaus* (1925); *Roberta* (RKO, 1935) promotional still; Genthe, Duncan dancer (LOC 7a09946); Muybridge, waltz (1887).
+- Deck diagrams: full-slide graphic fixed (figure takes the deck's 690 px height, drawing contained and centred, credit at 0.32em). Root cause of the wide margins was a **stale cached stylesheet**; deck pages now load `pass-track-deck.css?v=20261027d`.
+- Slide headings carry no idea numbers, so each slide reads on its own.
+- Butoh section: paragraph that had been glued after a figure's closing tag is re-joined before the figure (EN + ES).

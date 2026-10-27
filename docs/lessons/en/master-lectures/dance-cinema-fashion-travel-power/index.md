@@ -6,7 +6,7 @@ date: 2026-10-28
 author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /lessons/en/master-lectures/dance-cinema-fashion-travel-power/
-description: 'Part 2 of 2. References travel, but their history does not travel automatically: evidence, provocation, butoh — and an audit of what an image generator assumes.'
+description: 'Part 3 of 3. References travel, but their history does not travel automatically: evidence, provocation, butoh — and an audit of what an image generator assumes.'
 status: pilot
 tags: [master-lecture, dance, circulation, butoh, generative-ai-audit, series-dcf]
 master_idea: 'A reference can travel, but its history does not travel automatically.'
@@ -14,7 +14,7 @@ practice_anchor: 'Transform a capture with Photoshop or Firefly; audit what the 
 frontier_signal: 'Influence between stage, screen and fashion is easy to see and hard to prove: dates and testimony disagree even in famous cases.'
 deck_url: /master-lectures/dance-cinema-fashion-travel-power/
 series: dance-cinema-fashion
-series_part: 2
+series_part: 3
 references: [de-perthuis-2008, shinkle-2008, navarro-gavino-2022, mejias-couldry-2024]
 ---
 
@@ -82,20 +82,20 @@ S1–S15 of the research ledger remain outside the vault: no Duncan, Fuller, Sch
 
 > **A reference can travel, but its history does not travel automatically.**
 
-**Creatives at work · WIP** · **Series:** [Dance, Cinema and Fashion]({{ '/lessons/en/master-lectures/dance-cinema-fashion/' | relative_url }}) · Part 2 of 2
-**In-class slideshow:** [open deck]({{ '/master-lectures/dance-cinema-fashion-travel-power/' | relative_url }})
-**Previous:** [What Does a Garment Do When the Body Moves?]({{ '/lessons/en/master-lectures/dance-cinema-fashion-garment-camera/' | relative_url }})
+**Creatives at work · WIP** · **Series:** [Dance, Cinema and Fashion]({{ '/lessons/en/master-lectures/dance-cinema-fashion/' | relative_url }}) · Part 3 of 3  
+**In-class slideshow:** [open deck]({{ '/master-lectures/dance-cinema-fashion-travel-power/' | relative_url }})  
+**Previous:** [Who Shapes a Dance: the Costume or the Camera?]({{ '/lessons/en/master-lectures/dance-cinema-fashion-costume-camera/' | relative_url }})
 
 Method workshop for Digital Creativity I · I.7 — not a new unit or grade. Three ideas: movement travels with context, who is made strange, butoh has histories. Lab: Photoshop or Firefly, then an audit of what the machine assumes.
 
-**Bring:** your Part 1 captures (or a phone to shoot new ones) and your Adobe Creative Cloud login.
+**Bring:** your Part 1 and Part 2 captures (or a phone to shoot new ones) and your Adobe Creative Cloud login.
 
 [Versión en español]({{ '/lessons/es/master-lectures/danza-cine-moda-viaje-poder/' | relative_url }})
 
 </div>
 
 <figure class="dcf-media dcf-diagram" markdown="0">
-<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-2.en.svg' | relative_url }}" alt="Session flow, 120 minutes: Analysis 15, Masterclass 40, Lab opener 5, Exercise 1 25, Exercise 2 25, share 10." loading="lazy" decoding="async">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-3.en.svg' | relative_url }}" alt="Session flow, 120 minutes: analysis 15, masterclass 40, Lab opener 5, exercise 1 25, exercise 2 25, share 10." loading="lazy" decoding="async">
 </figure>
 
 ## Learning objectives
@@ -125,8 +125,7 @@ Read one painting with the [eight-step card]({{ '/lessons/en/master-lectures/fas
 ---
 
 ## Masterclass · three ideas (40′)
-
-### 4 · Movement travels with context
+### 6 · Movement travels with context
 
 References travel: from stage to film, from film to runway, from one country to another. But a reference does not carry its history automatically. Use the ladder: **climb only as high as your evidence**.
 
@@ -162,7 +161,7 @@ References travel: from stage to film, from film to runway, from one country to 
 
 An American dancer presents herself as a Hindu goddess for Western audiences. **Ask:** who is named, paid or displaced when a practice moves into a new market? What record would separate influence, exchange, appropriation and mere visual analogy?
 
-### 5 · Who is made strange?
+### 7 · Who is made strange?
 
 Fashion has long pushed the body away from “natural” proportion; Henri Focillon wrote that “fashion invents an artificial humanity” (Focillon, quoted in [de Perthuis 2008, 169](#ref-de-perthuis-2008)). Fashion images can also refuse grace on purpose: Shinkle describes a model “tossed about wildly like a crash-test dummy”, outside the usual lexicon of poses [(Shinkle 2008, 222)](#ref-shinkle-2008).
 
@@ -185,24 +184,26 @@ Moving image can also open space: research on fashion films from 2010 to 2020 ap
 
 **Ask:** Does this provocation contest a norm — or turn excluded bodies into spectacle? Whose account, and which reception evidence, could tell the difference?
 
-### 6 · Butoh has histories, not one look
+### 8 · Butoh has histories, not one look
 
-*Butō* began in post-war Japan (Tatsumi Hijikata, Kazuo Ohno) and spread in many directions, including a long reception in Argentina. Its best-known images — white body paint, slow distortion — are the easiest thing to copy and the least informative.
+*Butō* began in post-war Japan (Tatsumi Hijikata, Kazuo Ohno) and spread in many directions, including a long reception in Argentina. Its best-known images — white body paint, slow distortion — are the easiest thing to copy and the least informative. **A pose alone cannot tell us where a movement came from.** Notice that Ohno's most famous solo, from idea 6, is a tribute to a Spanish dancer: the history crosses the look.
 
 <figure class="dcf-media" markdown="0">
 <img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/sankai-juku-kagemi-2006.webp' | relative_url }}" alt="Dark stage: three dancers with shaved, whitened heads and bodies crouch in loincloths at the front, hands raised near their faces; behind them three whitened figures in long earth-coloured dresses stand with hands lifted to their eyes." loading="lazy" decoding="async">
 <figcaption>Sankai Juku, <em>Kagemi: Beyond the Metaphor of Mirrors</em>, Festival Internacional Cervantino, Guanajuato (Mexico), October 2006. Photograph Carlos de las Piedras, CC BY 2.0 · <a href="https://commons.wikimedia.org/wiki/File:Sankai_Juku.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>. A second-generation butoh company (founded by Ushio Amagatsu, 1975) on a Mexican stage: another reception history, not a timeless “look”.</figcaption>
-</figure> **A pose alone cannot tell us where a movement came from.** Notice that Ohno's most famous solo, from idea 4, is a tribute to a Spanish dancer: the history crosses the look.
+</figure>
 
 This is also what happens when an image generator learns from scraped pictures. Mejias and Couldry call large-scale data capture “extensive acts of appropriation” and argue that “the ‘cool’ factor of ‘generative AI’ is basically a device to distract from this” [(Mejias and Couldry 2024, introduction)](#ref-mejias-couldry-2024). You will test this in the Lab audit.
 
 **Ask:** Who can name a tradition, who earns from its circulation, and when does exoticisation erase context?
 
+
+
 ---
 
 ## Lab (portfolio) · 50′
 
-Two exercises. Work on a capture from Part 1 — or shoot a new one in two minutes with the Part 1 prompts. Everything you make goes to your portfolio index / Canvas with a short note.
+Two exercises. Work on a capture from Part 1 or Part 2 — or shoot a new one in two minutes. Everything you make goes to your portfolio index / Canvas with a short note.
 
 <div class="dcf-guard" markdown="1">
 **Consent and care (non-negotiable).** Photograph a classmate only if they say yes, and show them the result. Faces are optional — hands, hems, shadows and backs are enough. **Never upload a classmate's image to Firefly or any cloud AI without their explicit consent**; when in doubt, use your own body, your garment, or an object. Delete on request. Student work is authorial property: nothing is exhibited without a separate permission.
@@ -255,7 +256,7 @@ Climb **only as high as your evidence** — even famous influence stories have d
 
 ## Media credits
 
-All images are public domain or openly licensed; each caption names the creator, licence and source page. Diagrams are course-made (CC BY-NC-SA 4.0). *Admiring La Argentina* is not embedded: watch it at source. The *Pina* trailer plays in YouTube's own player from a third-party upload named in its caption; the Depop shop does not allow embedding and opens in a new tab.
+All images are public domain or openly licensed; each caption names the creator, licence and source page. Diagrams are course-made (CC BY-NC-SA 4.0). *Admiring La Argentina* is not embedded: watch it at source. The Depop shop does not allow embedding and opens in a new tab.
 
 ## References
 
@@ -265,7 +266,7 @@ All images are public domain or openly licensed; each caption names the creator,
 
 ## Editorial note · Work in progress · Teaching Innovation Practice
 
-**Declared gap:** scholarship on butoh's transnational reception and on abjection in fashion is not yet page-verified in the course bibliography; those parts are taught through archive pages and open questions, not citations.  
+**Declared gap:** scholarship on butoh's transnational reception and on abjection in fashion is not yet page-verified in the course bibliography; those parts are taught through archive pages and open questions.  
 **Missing evidence:** the year Ohno first saw La Argentina (1926, 1927 or 1929 in archive pages); the first performance year of Forsythe's *The Loss of Small Detail* with Miyake's costumes (1991 or 1992).  
 **Addressed-to-editor:** this part asks students to use Adobe's cloud generative tools under their own Creative Cloud licence, at the instructor's request, with a consent rule for classmates' images and a mandatory audit; course materials themselves use no generative imagery.
 

@@ -671,22 +671,22 @@ body {
   overflow: visible;
 }
 
-/* Course graphic as a whole slide (figure.placement "full"): no reading card. */
+/* Course graphic as a whole slide (figure.placement "full"): no reading card.
+   Reveal centres sections by their height, so the figure takes the deck's own
+   720 px height; the drawing is contained (never cropped) and centred. */
 .student-media-figure-full {
-  /* Reveal centres sections by their height: give the figure the slide's
-     own height (720 px deck) instead of absolute insets on a 0-height box. */
-  width: 100%;
-  height: 640px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 690px;
   margin: 0;
 }
 .student-media-figure-full .student-media-slide__figure {
-  /* SVGs carry no intrinsic size: size the box, let the drawing contain itself. */
   width: 100%;
-  height: calc(100% - 1.6em);
+  height: 100%;
+  min-height: 0;
   max-height: none;
   flex: 1 1 auto;
   object-fit: contain;
@@ -695,9 +695,11 @@ body {
   border-radius: 0;
 }
 .student-media-figure-full figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.42em;
-  color: rgb(var(--foreground) / 0.75);
+  flex: 0 0 auto;
+  margin-top: 0.3rem;
+  font-size: 0.32em;
+  letter-spacing: 0.02em;
+  color: rgb(var(--foreground) / 0.55);
 }
 @media (max-width: 720px) {
   .student-media-figure-full { height: auto; }

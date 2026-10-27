@@ -2,11 +2,11 @@
 layout: null
 ---
 {
-  "unit_label": "Dance, cinema and fashion · Part 2 of 2",
+  "unit_label": "Dance, cinema and fashion · Part 3 of 3",
   "locale": "en",
   "final_event_theme": "What does the cloth do after the body moves — and who owns the movement when it travels?",
   "media_selection": {
-    "unit_id": "ML-DCF-2",
+    "unit_id": "ML-DCF-3",
     "project_id": "ml",
     "collection": "unit-accepted",
     "strategy": "slide-bound-asset_id",
@@ -14,7 +14,7 @@ layout: null
   },
   "assets": [
     {
-      "media_slot_id": "ML-DCF-2.cover",
+      "media_slot_id": "ML-DCF-3.cover",
       "asset_id": "wikimedia:File:La Argentina dancing LOC agc.7a09934.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/fbb70f0e7c412031.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/La_Argentina_dancing_LOC_agc.7a09934.jpg",
@@ -33,7 +33,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.analysis-model",
+      "media_slot_id": "ML-DCF-3.analysis-model",
       "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/2f77a0728b1b0ff9.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Slevogt_La_Argentina.jpg",
@@ -52,7 +52,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.masterclass-4",
+      "media_slot_id": "ML-DCF-3.masterclass-1",
       "asset_id": "wikimedia:File:Loie Fuller, from the Actors and Actresses series (N45, Type 1) for Virginia Brights Cigarettes MET DP830450.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/1cb3a3bc395c0ed5.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Loie_Fuller%2C_from_the_Actors_and_Actresses_series_%28N45%2C_Type_1%29_for_Virginia_Brights_Cigarettes_MET_DP830450.jpg",
@@ -71,7 +71,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.masterclass-4b",
+      "media_slot_id": "ML-DCF-3.masterclass-2",
       "asset_id": "wikimedia:File:1918-12-01, La Novela Teatral, Antonia Mercé (La Argentina), Tovar.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/601dcc456179acf2.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1918-12-01%2C_La_Novela_Teatral%2C_Antonia_Merc%C3%A9_%28La_Argentina%29%2C_Tovar.jpg",
@@ -90,7 +90,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.masterclass-4c",
+      "media_slot_id": "ML-DCF-3.masterclass-3",
       "asset_id": "wikimedia:File:Pink Delphos dress by Fortuny, 1920s.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/d3a43bbac02a702a.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pink_Delphos_dress_by_Fortuny%2C_1920s.jpg",
@@ -109,7 +109,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.masterclass-4d",
+      "media_slot_id": "ML-DCF-3.masterclass-4",
       "asset_id": "wikimedia:File:Ruth St. Denis in Radha. (3110871798).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/ad36d0fb4c955b73.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ruth_St._Denis_in_Radha._%283110871798%29.jpg",
@@ -128,7 +128,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.masterclass-5",
+      "media_slot_id": "ML-DCF-3.masterclass-5",
       "asset_id": "wikimedia:File:Guests at the 2026 Met Gala 354.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/19334b6bd6caf2d0.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Guests_at_the_2026_Met_Gala_354.jpg",
@@ -147,7 +147,7 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.masterclass-6",
+      "media_slot_id": "ML-DCF-3.masterclass-6",
       "asset_id": "wikimedia:File:Sankai Juku.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/0147d24569c145a1.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Sankai_Juku.jpg",
@@ -166,26 +166,26 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.lab-1",
-      "asset_id": "wikimedia:File:Woman in dress dancing (1887).gif",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/7aff8a7fa984b579.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Woman_in_dress_dancing_%281887%29.gif",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Woman_in_dress_dancing_%281887%29.gif",
-      "title": "Woman in dress dancing (1887)",
-      "alt_text": "A woman in a sheer dress lifts her hem and turns in front of a gridded wall.",
-      "author": "Eadweard Muybridge",
+      "media_slot_id": "ML-DCF-3.lab-1",
+      "asset_id": "wikimedia:File:Isadora Duncan dancer LOC agc.7a09946.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/fe1c064774870c1d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Isadora_Duncan_dancer_LOC_agc.7a09946.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Isadora_Duncan_dancer_LOC_agc.7a09946.jpg",
+      "title": "Isadora Duncan dancer LOC agc.7a09946",
+      "alt_text": "A Duncan dancer in a sheer tunic steps forward on a dark stage, one knee raised, the cloth trailing behind her.",
+      "author": "Arnold Genthe",
       "licence": "PD-old-70",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Eadweard Muybridge · Wikimedia Commons",
-      "author_death_year": 1904,
+      "credit_line": "Arnold Genthe · Wikimedia Commons",
+      "author_death_year": 1942,
       "eu_term_ok": true,
-      "eu_term_reason": "Author died 1904; 1904+70 < 2026: public domain in the EU.",
+      "eu_term_reason": "Author died 1942; 1942+70 < 2026: public domain in the EU.",
       "rights_status": "ok",
       "cropped": false
     },
     {
-      "media_slot_id": "ML-DCF-2.lab-2",
+      "media_slot_id": "ML-DCF-3.lab-2",
       "asset_id": "wikimedia:File:Antonia Mercé.png",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/3903b1dc172a21a1.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Antonia_Merc%C3%A9.png",
@@ -209,22 +209,22 @@ layout: null
       "slide_id": "cover",
       "slide_role": "unit_cover",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.cover",
       "asset_id": "wikimedia:File:La Argentina dancing LOC agc.7a09934.jpg",
       "heading": "Who owns a movement when it travels?",
-      "sentence": "Part 2 of 2. A reference can travel from one stage, country or body to another — but its history does not travel automatically.",
+      "sentence": "Part 3 of 3. A reference can travel from one stage, country or body to another — but its history does not travel automatically.",
       "prompt": "Master Lecture cycle · Dance, cinema and fashion · Digital Creativity I",
       "image_brief": "Arnold Genthe's photograph of Antonia Mercé, La Argentina: a Spanish dancer whose name travelled as far as Tokyo.",
-      "notes": "- Bring the Part 1 captures and an Adobe login.\n- Today: analysis 15′ · three ideas 40′ · Lab 50′ · share 10′.",
-      "media_slot_id": "ML-DCF-2.cover"
+      "notes": "- Bring the earlier captures and an Adobe login.\n- Today: analysis 15′ · masterclass 40′ · Lab 50′ · share 10′."
     },
     {
       "slide_id": "session-flow",
       "slide_role": "masterclass",
       "background_kind": "none",
-      "heading": "Part 2 · how the session runs",
+      "heading": "Part 3 · how the session runs",
       "figure": {
-        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-2.en.svg",
-        "alt": "Part 2 session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 transform 60–85, exercise 2 audit 85–110, share 110–120.",
+        "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-3.en.svg",
+        "alt": "Part 3 session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 transform 60–85, exercise 2 audit 85–110, share 110–120.",
         "placement": "full",
         "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
       },
@@ -236,12 +236,13 @@ layout: null
       "background_kind": "geometrical",
       "heading": "Analysis · one painting",
       "sentence": "We read one painting in eight steps: in pairs, three minutes per block.",
-      "notes": "- Same eight-step card as Part 1."
+      "notes": "- Same eight-step card as Parts 1 and 2."
     },
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.analysis-model",
       "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
       "heading": "A German painter paints a Spanish dancer",
       "body": [
@@ -259,22 +260,21 @@ layout: null
         }
       ],
       "image_brief": "Max Slevogt, La Argentina, 1926: an embroidered shawl over a ruffled dress, hands on hips.",
-      "notes": "- Model the first block aloud; pairs do the rest.",
-      "media_slot_id": "ML-DCF-2.analysis-model"
+      "notes": "- Model the first block aloud; pairs do the rest."
     },
     {
-      "slide_id": "masterclass-4",
+      "slide_id": "masterclass-1",
       "slide_role": "masterclass",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.masterclass-1",
       "asset_id": "wikimedia:File:Loie Fuller, from the Actors and Actresses series (N45, Type 1) for Virginia Brights Cigarettes MET DP830450.jpg",
-      "heading": "4 · A reference travels without its history",
+      "heading": "A reference travels without its history",
       "sentence": "When a dance, a pose or a costume moves to a new country or market, the people who made it can be left behind. Even a performer's face could be sold on a cigarette card.",
       "image_brief": "An 1888 cigarette card sold Loïe Fuller's portrait as a product, years before her serpentine dance.",
-      "notes": "- Ask of every reference: who is named, who is paid, who is displaced?",
-      "media_slot_id": "ML-DCF-2.masterclass-4"
+      "notes": "- Ask of every reference: who is named, who is paid, who is displaced?"
     },
     {
-      "slide_id": "masterclass-4-ladder",
+      "slide_id": "masterclass-1-ladder",
       "slide_role": "masterclass",
       "background_kind": "none",
       "heading": "How do we know a movement travelled?",
@@ -287,9 +287,10 @@ layout: null
       "notes": "- Rung 1 needs only eyes; rung 4 needs testimony, dates and works.\n- Climb only as high as your evidence."
     },
     {
-      "slide_id": "masterclass-4b",
+      "slide_id": "masterclass-2",
       "slide_role": "masterclass",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.masterclass-2",
       "asset_id": "wikimedia:File:1918-12-01, La Novela Teatral, Antonia Mercé (La Argentina), Tovar.jpg",
       "heading": "Madrid → Tokyo",
       "sentence": "The Japanese dancer Kazuo Ohno saw La Argentina dance as a young man and, about fifty years later, named a solo after her: Admiring La Argentina, 1977.",
@@ -299,37 +300,37 @@ layout: null
       },
       "prompt": "The title is a quotation you can check. The year he saw her is not settled: archives give 1926, 1927 and 1929.",
       "image_brief": "Manuel Tovar's 1918 caricature of La Argentina on a Madrid magazine cover: a star at home before she toured the world.",
-      "notes": "- What does Ohno quote: a costume, a gesture, a feeling?",
-      "media_slot_id": "ML-DCF-2.masterclass-4b"
+      "notes": "- What does Ohno quote: a costume, a gesture, a feeling?"
     },
     {
-      "slide_id": "masterclass-4c",
+      "slide_id": "masterclass-3",
       "slide_role": "masterclass",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.masterclass-3",
       "asset_id": "wikimedia:File:Pink Delphos dress by Fortuny, 1920s.jpg",
       "heading": "Pleats, again: influence or analogy?",
       "sentence": "Fortuny pleated silk in the early twentieth century; Issey Miyake made pleated costumes for William Forsythe's Frankfurt Ballet and then the Pleats Please line in 1993. Looking alike is not evidence of influence.",
       "image_brief": "A pink Fortuny Delphos gown: fine pleats that fall straight to the floor.",
-      "notes": "- Forsythe and Miyake: 1991 or 1992, sources disagree — a documented exchange (rung 3).\n- Fortuny to Miyake: no record here — only analogy (rung 1).",
-      "media_slot_id": "ML-DCF-2.masterclass-4c"
+      "notes": "- Forsythe and Miyake: 1991 or 1992, sources disagree — a documented exchange (rung 3).\n- Fortuny to Miyake: no record here — only analogy (rung 1)."
     },
     {
-      "slide_id": "masterclass-4d",
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.masterclass-4",
       "asset_id": "wikimedia:File:Ruth St. Denis in Radha. (3110871798).jpg",
       "heading": "Who performs whose culture?",
       "sentence": "Around 1908 the American dancer Ruth St. Denis presented herself as a Hindu goddess for Western audiences, in a costume that sold an idea of “the East”.",
       "image_brief": "Ruth St. Denis in Radha, 1908–09: a jewelled, fringed costume and small cymbals.",
-      "notes": "- What record would separate influence, exchange and appropriation?",
-      "media_slot_id": "ML-DCF-2.masterclass-4d"
+      "notes": "- What record would separate influence, exchange and appropriation?"
     },
     {
       "slide_id": "masterclass-5",
       "slide_role": "masterclass",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.masterclass-5",
       "asset_id": "wikimedia:File:Guests at the 2026 Met Gala 354.jpg",
-      "heading": "5 · Who is made strange?",
+      "heading": "Who is made strange?",
       "sentence": "The label Matières Fécales, founded in Montreal in 2014, built its name on disgust — and in 2026 dressed the actress Sarah Paulson for the Met Gala.",
       "external_link": {
         "href": "https://www.depop.com/fecalmatter/",
@@ -337,20 +338,19 @@ layout: null
       },
       "prompt": "Critique, or a new kind of luxury? Answer with evidence — statements, reception, who wore it — not adjectives.",
       "image_brief": "Sarah Paulson in a grey tulle Matières Fécales gown at the 2026 Met Gala, as reported by Out.com.",
-      "notes": "- Abjection is a theory of who is pushed out, not a word for “shocking”.\n- Delfín and Locking: discuss only with evidence.",
-      "media_slot_id": "ML-DCF-2.masterclass-5"
+      "notes": "- Abjection is a theory of who is pushed out, not a word for “shocking”.\n- Delfín and Locking: discuss only with evidence."
     },
     {
       "slide_id": "masterclass-6",
       "slide_role": "masterclass",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.masterclass-6",
       "asset_id": "wikimedia:File:Sankai Juku.jpg",
-      "heading": "6 · Butoh has histories, not one look",
+      "heading": "Butoh has histories, not one look",
       "sentence": "Butoh began in post-war Japan and travelled to Mexico, Argentina and many other places. White paint is the easiest thing to copy and the least informative.",
       "prompt": "A pose alone cannot tell us where a movement came from.",
       "image_brief": "Sankai Juku at the Festival Cervantino in Guanajuato, Mexico, 2006: one more reception history of butoh.",
-      "notes": "- Who can name a tradition, and who earns from its circulation?",
-      "media_slot_id": "ML-DCF-2.masterclass-6"
+      "notes": "- Who can name a tradition, and who earns from its circulation?"
     },
     {
       "slide_id": "retrieval",
@@ -379,8 +379,8 @@ layout: null
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "media_slot_id": "ML-DCF-2.lab-1",
-      "asset_id": "wikimedia:File:Woman in dress dancing (1887).gif",
+      "media_slot_id": "ML-DCF-3.lab-1",
+      "asset_id": "wikimedia:File:Isadora Duncan dancer LOC agc.7a09946.jpg",
       "heading": "Exercise 1 · Transform your capture",
       "sentence": "Choose one: widen a vertical photo to cinema format, extend a sleeve or hem with Generative Fill, restyle the garment in Firefly, or animate a still into five seconds of video.",
       "portfolio_bound": true,
@@ -390,13 +390,14 @@ layout: null
         "label": "All four prompts in the lesson"
       },
       "timer_seconds": 1500,
-      "image_brief": "Muybridge's dancer: start from your own Part 1 capture, not from someone else's image.",
+      "image_brief": "A Duncan dancer steps forward, the cloth trailing: start from your own capture, not from someone else's image.",
       "notes": "- Keep Content Credentials on when you export.\n- No Firefly? Stack layers by hand (Part 1, Exercise 2)."
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
+      "media_slot_id": "ML-DCF-3.lab-2",
       "asset_id": "wikimedia:File:Antonia Mercé.png",
       "heading": "Exercise 2 · Audit what the machine assumes",
       "sentence": "Ask Firefly for four images of a “butoh dancer” or a “flamenco dancer”, list what the model assumes, and decide which rung of the evidence ladder a generated image can reach.",
@@ -429,8 +430,7 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      },
-      "media_slot_id": "ML-DCF-2.lab-2"
+      }
     },
     {
       "slide_id": "outro",
