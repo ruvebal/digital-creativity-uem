@@ -165,6 +165,12 @@ Duncan's “Greek” tunic and Fortuny's pleated column both borrow an idea of a
 
 Some costumes follow the body; others become the dance. Loïe Fuller patented a “garment for dancers” in 1894: a wide skirt hung from the head, with light wands of aluminium or bamboo that let the dancer throw the cloth into waves and wings — open the [patent itself](https://patents.google.com/patent/US518347A/en){:target="_blank" rel="noopener"} as a primary record.
 
+<figure class="dcf-media" style="max-width: 520px" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/fuller-patent-1894.png' | relative_url }}" alt="Patent drawing, black line on white: Fig. 1 a wide bell-shaped skirt hung from a head crown; Figs. 2 and 3 two light wands, one straight and one hooked; Fig. 4 a dancer holding the wands inside spiralling waves of cloth. Header: M. L. Fuller, Garment for Dancers, No. 518,347, patented Apr. 17, 1894." loading="lazy" decoding="async" style="background:#fff">
+<figcaption>Marie Louise (Loïe) Fuller, “Garment for Dancers”, US Patent 518,347, 17 April 1894, drawing sheet. Public domain · <a href="https://patents.google.com/patent/US518347A/en" target="_blank" rel="noopener">Google Patents</a>. <em>Look:</em> Fig. 4 draws the dance as the cloth, not the body.</figcaption>
+</figure>
+
+
 Then something happened that matters to anyone studying references: **the serpentine dance was copied everywhere, and most early films labelled “Loïe Fuller” show other dancers.** Watch three of them as evidence, not as illustration.
 
 <div class="dcf-grid dcf-grid--2" markdown="0">

@@ -140,6 +140,12 @@ La túnica «griega» de Duncan y la columna plisada de Fortuny toman prestada u
 
 Hay vestuarios que siguen al cuerpo y otros que se convierten en la danza. Loïe Fuller patentó en 1894 una «prenda para bailarinas»: una falda amplia colgada de la cabeza, con varillas ligeras de aluminio o bambú para lanzar la tela en olas y alas — abre la [patente](https://patents.google.com/patent/US518347A/en){:target="_blank" rel="noopener"} como documento primario.
 
+<figure class="dcf-media" style="max-width: 520px" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/fuller-patent-1894.png' | relative_url }}" alt="Dibujo de patente, línea negra sobre blanco: fig. 1 una falda amplia en forma de campana colgada de una corona; figs. 2 y 3 dos varillas ligeras, una recta y otra curvada; fig. 4 una bailarina que sujeta las varillas dentro de olas de tela en espiral. Encabezado: M. L. Fuller, Garment for Dancers, n.º 518,347, patentado el 17 de abril de 1894." loading="lazy" decoding="async" style="background:#fff">
+<figcaption>Marie Louise (Loïe) Fuller, «Garment for Dancers», patente de EE. UU. 518,347, 17 de abril de 1894, hoja de dibujos. Dominio público · <a href="https://patents.google.com/patent/US518347A/en" target="_blank" rel="noopener">Google Patents</a>. <em>Mira:</em> la fig. 4 dibuja la danza como tela, no como cuerpo.</figcaption>
+</figure>
+
+
 Y pasó algo que importa a quien estudia referencias: **la danza serpentina se copió por todas partes, y casi todas las primeras películas tituladas «Loïe Fuller» muestran a otras bailarinas.** Mira tres como evidencia, no como ilustración.
 
 <div class="dcf-grid dcf-grid--2" markdown="0">
