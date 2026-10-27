@@ -670,3 +670,35 @@ body {
   max-height: none;
   overflow: visible;
 }
+
+/* Course graphic beside the reading card (figure.placement "apart"): the card
+   keeps text only; the graphic gets its own panel on the right half. */
+.student-media-deck .reveal .slides section[data-figure="apart"] .student-media-slide {
+  max-width: min(30rem, 44%);
+}
+.student-media-figure-apart {
+  position: absolute;
+  right: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 54%;
+  margin: 0;
+  padding: 0.4rem;
+  border: 1px solid rgb(var(--foreground) / 0.18);
+  border-radius: var(--radius);
+  background: #f7f2e8;
+  box-shadow: 0 1rem 3rem rgb(var(--background) / 0.32);
+}
+.student-media-figure-apart .student-media-slide__figure {
+  max-height: 62vh;
+  object-position: center;
+  border-radius: 0.25rem;
+}
+.student-media-card-hidden .student-media-figure-apart {
+  opacity: 0;
+  pointer-events: none;
+}
+@media (max-width: 720px) {
+  .student-media-deck .reveal .slides section[data-figure="apart"] .student-media-slide { max-width: none; }
+  .student-media-figure-apart { position: static; transform: none; width: 100%; margin-top: 0.6rem; }
+}

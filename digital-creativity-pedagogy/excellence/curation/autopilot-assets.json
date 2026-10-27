@@ -2041,6 +2041,33 @@
       "rights_source": "Commons API imageinfo extmetadata; death years checked by hand",
       "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
       "origin": "Dance–Cinema–Fashion master lecture (ML-DCF)"
+    },
+    {
+      "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-DCF"
+        }
+      ],
+      "title": "Slevogt La Argentina.jpg",
+      "raw_title": "File:Slevogt La Argentina.jpg",
+      "alt_text": "Max Slevogt’s painting of La Argentina standing hands on hips, a pale shawl embroidered with large pink and green flowers over a ruffled dress.",
+      "author": "Max Slevogt",
+      "author_death_year": 1932,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Slevogt_La_Argentina.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Slevogt_La_Argentina.jpg",
+      "provider": "wikimedia_commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1932; 1932+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-27",
+      "rights_source": "Commons API imageinfo extmetadata (Muzeum Narodowe w Szczecinie); death year checked by hand",
+      "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
+      "origin": "Dance–Cinema–Fashion master lecture (ML-DCF), replaces Kazuo Ohno portrait on masterclass-14"
     }
   ]
 }

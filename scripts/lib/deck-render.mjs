@@ -257,11 +257,16 @@ export function renderSlide(slide, deck, background, ctx = {}) {
     ...(slide.portfolio_bound ? [['data-portfolio-bound', 'true']] : []),
     ...(timer ? [['data-timer', String(timer)]] : []),
     ...(cardHref ? [['data-card-href', cardHref]] : []),
+    ...(slide.figure?.src && slide.figure.placement === 'apart' ? [['data-figure', 'apart']] : []),
   ].filter(([, v]) => v !== undefined && v !== null && v !== '');
   const open = `<section ${attrs.map(([k, v]) => `${k}="${escapeHtml(v)}"`).join(' ')}>`;
-  const figure = slide.figure?.src
+  // figure.placement "apart": the course graphic sits beside the reading card,
+  // not inside it, so the card stays text-only and the graphic stays legible.
+  const figureApart = slide.figure?.src && slide.figure.placement === 'apart';
+  const figureImg = slide.figure?.src
     ? `<img class="student-media-slide__figure" src="${escapeHtml(withBase(slide.figure.src, ctx.base))}" alt="${escapeHtml(slide.figure.alt || '')}">`
     : '';
+  const figure = figureApart ? '' : figureImg;
   const body = [
     `<p class="student-media-slide__unit">${escapeHtml(deck.unit_label)}</p>`,
     `<h1>${escapeHtml(slide.heading)}</h1>`,
@@ -290,6 +295,7 @@ export function renderSlide(slide, deck, background, ctx = {}) {
     `  <div class="student-media-slide student-media-slide--${layout}">`,
     ...body.map((line) => `    ${line}`),
     '  </div>',
+    figureApart ? `  <figure class="student-media-figure-apart">${figureImg}</figure>` : '',
     background.alt ? `  <p class="sr-only">Image: ${escapeHtml(background.alt)}</p>` : '',
     background.captionHtml ? `  <p class="slide-caption">${background.captionHtml}</p>` : '',
     notes ? `  <aside class="notes">${notes}</aside>` : '',

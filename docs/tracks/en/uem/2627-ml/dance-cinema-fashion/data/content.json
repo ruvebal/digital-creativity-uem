@@ -300,20 +300,20 @@ layout: null
     },
     {
       "media_slot_id": "ML-DCF.masterclass-14",
-      "asset_id": "wikimedia:File:Kazuo Ohno.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/38a275e1b9c80a1c.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kazuo_Ohno.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Kazuo_Ohno.jpg",
-      "title": "Kazuo Ohno",
-      "alt_text": "Portrait of Kazuo Ohno, face painted white, blue eye make-up and red lips.",
-      "author": "Ras67 (Wikimedia Commons uploader)",
-      "licence": "CC-BY-3.0",
-      "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+      "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/2f77a0728b1b0ff9.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Slevogt_La_Argentina.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Slevogt_La_Argentina.jpg",
+      "title": "Slevogt La Argentina",
+      "alt_text": "Max Slevogt’s painting of La Argentina standing hands on hips, a pale shawl embroidered with large pink and green flowers over a ruffled dress.",
+      "author": "Max Slevogt",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Ras67 (Wikimedia Commons uploader) · Wikimedia Commons",
-      "author_death_year": null,
+      "credit_line": "Max Slevogt · Wikimedia Commons",
+      "author_death_year": 1932,
       "eu_term_ok": true,
-      "eu_term_reason": "CC BY 3.0 licence grant by the uploader.",
+      "eu_term_reason": "Author died 1932; 1932+70 < 2026: public domain in the EU.",
       "rights_status": "ok",
       "cropped": false
     },
@@ -455,7 +455,8 @@ layout: null
       "sentence": "Read before you watch: eight steps on one frozen image.",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow.en.svg",
-        "alt": "Session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 capture 60–85, exercise 2 transform 85–110, share 110–120."
+        "alt": "Session flow: analysis 0–15, masterclass 15–55, lab opener, exercise 1 capture 60–85, exercise 2 transform 85–110, share 110–120.",
+        "placement": "apart"
       },
       "notes": "- Pairs, three minutes per block.\n- Use the eight-step card from the fashion image analysis lecture."
     },
@@ -644,7 +645,8 @@ layout: null
       "sentence": "Drape, extension, tension, reorganisation: a map to argue with, not a fact.",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-affordance-map.en.svg",
-        "alt": "Two-by-two map: drape (Duncan, Fortuny), extension (Fuller), tension (Graham), reorganisation (Schlemmer)."
+        "alt": "Two-by-two map: drape (Duncan, Fortuny), extension (Fuller), tension (Graham), reorganisation (Schlemmer).",
+        "placement": "apart"
       },
       "image_brief": "Triadic Ballet figures on display in Stuttgart, 2017: costumes still, out of the dance.",
       "notes": "- Place each clip and image on the map; defend with one frame.\n- Museum display ≠ performance."
@@ -674,7 +676,8 @@ layout: null
       "sentence": "A camera chooses a frame, a distance and a cut — and still clings to the moving body.",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-framing.en.svg",
-        "alt": "Full figure, medium and close-up frames over a dancer; one take versus six cuts of the same thirty seconds."
+        "alt": "Full figure, medium and close-up frames over a dancer; one take versus six cuts of the same thirty seconds.",
+        "placement": "apart"
       },
       "quote": "Cameras will, with all their complex technical possibilities, in most cases still cling to and follow concrete body movements.",
       "quote_origin": "page_verified",
@@ -778,7 +781,8 @@ layout: null
       "sentence": "Looks-like is rung 1. A title, a dated record, testimony climb higher.",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-evidence-ladder.en.svg",
-        "alt": "Evidence ladder: analogy, quotation, exchange, documented influence. Appropriation is a question of power, not a rung."
+        "alt": "Evidence ladder: analogy, quotation, exchange, documented influence. Appropriation is a question of power, not a rung.",
+        "placement": "apart"
       },
       "image_brief": "Genthe photographs Antonia Mercé, La Argentina: a Spanish dancer whose name travelled to Tokyo.",
       "notes": "- Forsythe × Miyake: costumes 1991/92 → Pleats Please 1993 (rung 3).\n- Appropriation: who is credited, paid, displaced?"
@@ -788,15 +792,15 @@ layout: null
       "slide_role": "masterclass",
       "background_kind": "curated",
       "media_slot_id": "ML-DCF.masterclass-14",
-      "asset_id": "wikimedia:File:Kazuo Ohno.jpg",
+      "asset_id": "wikimedia:File:Slevogt La Argentina.jpg",
       "heading": "14 · Madrid → Tokyo",
       "sentence": "Kazuo Ohno's 1977 solo is titled Admiring La Argentina. When did he see her? 1926, 1927, 1929 — sources disagree.",
       "external_link": {
         "href": "https://numeridanse.com/en/dance-videotheque/admiring-la-argentina/",
         "label": "Watch at source: Numeridanse"
       },
-      "image_brief": "Kazuo Ohno in 1986: the dancer who turned a memory of La Argentina into butoh.",
-      "notes": "- The title is a quotation you can check (rung 2).\n- What does Ohno quote: a costume, a gesture, a feeling?"
+      "image_brief": "Max Slevogt paints La Argentina in 1926: a Spanish dancer’s shawl and ruffles as seen in Berlin, the same years Ohno saw her in Tokyo.",
+      "notes": "- The title is a quotation you can check (rung 2).\n- What does Ohno quote: a costume, a gesture, a feeling?\n- Slevogt (Berlin) and Ohno (Tokyo) both answer one Spanish dancer: another travel route to map."
     },
     {
       "slide_id": "masterclass-15",
@@ -859,7 +863,8 @@ layout: null
       "sentence": "Two exercises. Everything you make enters your portfolio index / Canvas.",
       "figure": {
         "src": "/assets/images/master-lectures/dance-cinema-fashion/dcf-onion-skin.en.svg",
-        "alt": "Lab method: burst of twelve frames, keep six, stack as layers at 25% or Lighten, one image of time."
+        "alt": "Lab method: burst of twelve frames, keep six, stack as layers at 25% or Lighten, one image of time.",
+        "placement": "apart"
       },
       "notes": "- Consent first: photograph a classmate only if they say yes; faces optional.\n- Never upload a classmate's image to cloud AI without explicit consent."
     },
