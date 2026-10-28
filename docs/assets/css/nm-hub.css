@@ -1,0 +1,40 @@
+/* Course index: a compact editorial layout for the New Media hub. */
+.nm-hub { --nm-ink: #29221f; --nm-muted: #655b55; --nm-line: #dfd4c7; --nm-paper: #f7f3ec; --nm-accent: #9a3e2d; max-width: 1240px; margin: 0 auto; padding: 2rem clamp(1.2rem, 4vw, 3rem) 5rem; color: var(--nm-ink); }
+.nm-hub a { color: inherit; text-decoration: none; }
+.nm-hub a:hover { color: var(--nm-accent); }
+.nm-hub a:focus-visible { outline: 3px solid #bd6a49; outline-offset: 4px; }
+.nm-hub__breadcrumb { display: flex; gap: .7rem; align-items: center; color: var(--nm-muted); font-size: .78rem; margin-bottom: 2rem; }
+.nm-hub__breadcrumb a { text-decoration: underline; text-underline-offset: .2em; }
+.nm-hub__hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .72fr); background: var(--nm-paper); border: 1px solid var(--nm-line); }
+.nm-hub__intro { padding: clamp(2rem, 5vw, 5rem); align-self: center; }
+.nm-hub .nm-hub__eyebrow { margin: 0 0 1rem; color: var(--nm-accent); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 700; }
+.nm-hub h1 { margin: 0; max-width: 10ch; font-family: Georgia, serif; font-size: clamp(2.7rem, 5vw, 4.8rem); line-height: 1.04; letter-spacing: -.045em; color: var(--nm-ink); }
+.nm-hub h1 em { font-weight: 400; color: var(--nm-accent); }
+.nm-hub .nm-hub__lede { max-width: 35ch; margin: 1.5rem 0; font-size: clamp(1.08rem, 1.5vw, 1.3rem); line-height: 1.5; }
+.nm-hub .nm-hub__note { max-width: 43ch; color: var(--nm-muted); font-size: .9rem; line-height: 1.6; }
+.nm-hub__links, .nm-unit__actions { display: flex; flex-wrap: wrap; gap: .7rem 1.4rem; }
+.nm-hub__links { margin-top: 1.8rem; }
+.nm-hub__links a, .nm-unit__actions a { font-size: .84rem; font-weight: 700; text-decoration: underline; text-underline-offset: .3em; }
+.nm-hub__art { margin: 0; padding: 1.25rem; display: flex; flex-direction: column; background: #e9ded0; }
+.nm-hub__art img { display: block; width: 100%; height: 100%; max-height: 480px; object-fit: contain; margin: 0; }
+.nm-hub__art figcaption { color: #594d45; font-size: .72rem; line-height: 1.5; margin-top: .9rem; }
+.nm-hub__art figcaption a { text-decoration: underline; }
+.nm-hub__section { margin-top: clamp(4rem, 7vw, 6rem); }
+.nm-hub__section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 1.8rem; }
+.nm-hub__section-heading h2 { margin: 0; color: var(--nm-ink); font-family: Georgia, serif; font-size: clamp(2rem, 3vw, 2.8rem); line-height: 1.1; }
+.nm-hub__section-heading > p { max-width: 36ch; margin: 0; color: var(--nm-muted); font-size: .9rem; line-height: 1.5; }
+.nm-hub__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.nm-unit, .nm-hub__lecture-grid article { display: flex; flex-direction: column; min-width: 0; padding: 1.5rem; border: 1px solid var(--nm-line); background: var(--nm-paper); }
+.nm-unit__top { display: flex; justify-content: space-between; gap: .5rem; color: var(--nm-accent); text-transform: uppercase; letter-spacing: .1em; font-size: .68rem; font-weight: 700; }
+.nm-unit__status { color: var(--nm-muted); letter-spacing: .04em; }
+.nm-hub .nm-unit h3, .nm-hub__lecture-grid h3 { color: var(--nm-ink); margin: 1.5rem 0 2rem; font-family: Georgia, serif; font-size: 1.35rem; line-height: 1.25; }
+.nm-unit__actions { margin-top: auto; align-items: center; }
+.nm-unit__actions > span { color: var(--nm-muted); font-size: .78rem; }
+.nm-hub .nm-hub__status-note { color: var(--nm-muted); font-size: .8rem; margin-top: 1rem; }
+.nm-hub__lecture-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.nm-hub__lecture-grid h3 { margin: 0 0 .5rem; }
+.nm-hub__lecture-grid p { margin: 0 0 1.5rem; color: var(--nm-muted); font-size: .9rem; }
+.nm-hub__footer { display: flex; flex-wrap: wrap; gap: 1.5rem; border-top: 1px solid var(--nm-line); margin-top: 4rem; padding-top: 1.5rem; font-size: .85rem; font-weight: 700; }
+html.dark .nm-hub { --nm-ink: #f2e9de; --nm-muted: #c2b5a7; --nm-line: #51443c; --nm-paper: #241e1b; --nm-accent: #efaa8c; }
+@media (max-width: 760px) { .nm-hub__hero { grid-template-columns: 1fr; } .nm-hub__art img { max-height: 360px; } .nm-hub__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .nm-hub__section-heading { display: block; } .nm-hub__section-heading > p { margin-top: .8rem; } }
+@media (max-width: 480px) { .nm-hub__grid, .nm-hub__lecture-grid { grid-template-columns: 1fr; } .nm-unit { min-height: 180px; } }

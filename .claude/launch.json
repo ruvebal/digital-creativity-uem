@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "site-static", "runtimeExecutable": "python3", "runtimeArgs": ["-m", "http.server", "4012", "--directory", "/private/tmp/claude-501/-Users-ruvebal-projects-ruvebal-scholar-universidadeuropea-digital-creativity-uem/e0c632c4-bca2-45cb-9cdf-ebc37dbafaff/scratchpad/serve"], "port": 4012 }
+  ]
+}

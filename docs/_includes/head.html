@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v=site-quote-ref-2" />
 <script src="{{ '/assets/js/site-menu.js' | relative_url }}" defer></script>
 <link rel="stylesheet" href="{{ '/assets/css/field-index.css' | relative_url }}" />
+{% if page.slug == 'nm-lessons-hub' %}
+<link rel="stylesheet" href="{{ '/assets/css/nm-hub.css' | relative_url }}" />
+{% endif %}
 {% if page.slug == 'dignity' %}
 <link rel="stylesheet" href="{{ '/assets/css/dignity.css' | relative_url }}" />
 {% endif %}
