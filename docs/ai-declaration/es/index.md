@@ -4,12 +4,12 @@ title: 'Declaración de uso de IA'
 lang: es
 slug: ai-declaration
 permalink: /ai-declaration/es/
-description: 'Orientaciones para declarar el uso de herramientas de IA en los trabajos de Creación Digital, Universidad Europea'
+description: 'Orientaciones generales para declarar el uso de herramientas de IA en trabajos académicos y creativos'
 ---
 
 # Declaración de uso de IA
 
-**Creación Digital I–II · orientaciones sobre autoría y transparencia**
+**Orientaciones sobre autoría y transparencia**
 
 [English version]({{ '/ai-declaration/' | relative_url }}).
 
@@ -18,7 +18,7 @@ description: 'Orientaciones para declarar el uso de herramientas de IA en los tr
 
 ## Propósito
 
-Esta declaración promueve la transparencia sobre el uso de herramientas de inteligencia artificial en los trabajos de creación digital de moda. No prohíbe la IA; pide documentar con claridad qué herramientas se utilizaron, cómo se utilizaron y qué decisiones humanas dieron forma al trabajo final.
+Esta declaración promueve la transparencia sobre el uso de herramientas de inteligencia artificial en trabajos académicos y creativos, incluidos los de creación digital y moda. No prohíbe la IA; pide documentar con claridad qué herramientas se utilizaron, cómo se utilizaron y qué decisiones humanas dieron forma al trabajo final.
 
 ## Elementos obligatorios de la declaración
 
@@ -61,9 +61,9 @@ Cada pieza entregada (entrada de portfolio, ejercicio, proyecto o respuesta de e
 3. **El contexto importa:** no es una práctica aceptable generar una entrega completa con IA sin contribución humana. Usar la IA como una herramienta entre otras, como una biblioteca de referencias, un tutorial o un foro técnico, es aceptable cuando se documenta.
 4. **Honestidad ante la duda:** si no sabes con certeza si una herramienta cuenta como IA, declárala. Lo esencial es la claridad, no la clasificación técnica.
 
-## Consideraciones para la creación digital
+## Consideraciones para el trabajo digital y creativo
 
-En Creación Digital, las herramientas de IA pueden utilizarse para:
+En estos trabajos, las herramientas de IA pueden utilizarse para:
 
 - **Desarrollo de conceptos:** tableros de inspiración, exploración de estilos y generación de referencias.
 - **Ayuda técnica:** sugerencias de código, optimización del flujo de trabajo y resolución de problemas.
