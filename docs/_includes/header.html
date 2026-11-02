@@ -110,9 +110,9 @@
 				</li>
 				<li>
 					<a
-						href="{{ site.baseurl }}/ai-declaration/"
+						href="{{ site.baseurl }}{% if page.lang == 'es' %}/ai-declaration/es/{% else %}/ai-declaration/{% endif %}"
 						class="site-primary-navigation__link text-slate-600 dark:text-neutral-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
-						AI declaration
+						{% if page.lang == 'es' %}Declaración de IA{% else %}AI declaration{% endif %}
 					</a>
 				</li>
 			</ul>

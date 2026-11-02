@@ -23,6 +23,8 @@ description: 'Guidelines for declaring AI tool usage in course work — Digital 
 
 **Digital Creativity I–II · authorship and transparency guidelines**
 
+[Versión en español]({{ '/ai-declaration/es/' | relative_url }}).
+
 - Table of Contents
   {:toc}
 
