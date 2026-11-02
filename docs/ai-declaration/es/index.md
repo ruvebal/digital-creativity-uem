@@ -110,6 +110,6 @@ Esta versión traduce la declaración en inglés. La formulación sobre el Regla
 ## Autoría asistida por IA
 {: #ai-assisted-authorship }
 
-Rubén Vega Balbás, PhD, redactó la declaración original con asistencia de IA y conserva el criterio editorial y la responsabilidad del texto final. Para su elaboración se consultaron tres fuentes del repositorio académico; la fecha de elaboración fue el 14 de septiembre de 2026 y se utilizó `lesson-scribe` v0.1. Esta versión en español se ha preparado con asistencia de IA.
+Rubén Vega Balbás, PhD, redactó la declaración original con asistencia de IA y conserva el criterio editorial y la responsabilidad del texto final. Para su elaboración se consultaron tres fuentes del repositorio académico; la fecha de elaboración fue el 14 de septiembre de 2026 y se utilizó `lesson-scribe` v0.1. Tanto `lesson-scribe` v0.1 como el resto del harness agéntico fueron creados por el autor. Esta versión en español se ha preparado con asistencia de IA.
 
 Para conocer los fundamentos del desarrollo asistido por IA del docente, consulta [AI-Assisted Development Foundations](https://ruvebal.github.io/web-atelier-udit/methodology/en/ai-assisted-development-foundations/).
