@@ -10,7 +10,7 @@ description: 'Part 2 of 3. A costume can decide the step, and a camera decides w
 status: pilot
 tags: [master-lecture, dance, cinema, costume, phone-camera, series-dcf]
 master_idea: 'A costume can decide the step — and a camera decides how much of it we see.'
-practice_anchor: 'Build a constraint costume and film it; film one phrase as one take and as three cuts; read both with the movement card'
+practice_anchor: 'Move from inspiration to sketch to a defined costume constraint, then prompt, evaluate, repeat and film the final form'
 deck_url: /master-lectures/dance-cinema-fashion-costume-camera/
 series: dance-cinema-fashion
 series_part: 2
@@ -34,6 +34,7 @@ forge: digital-creativity-pedagogy/forge/DANCE-CINEMA-FASHION-FORGE.mdc
 execute: digital-creativity-pedagogy/forge/DANCE-CINEMA-FASHION.execute.md
 ledger: digital-creativity-pedagogy/forge/DANCE-CINEMA-FASHION-SOURCE-MEDIA-LEDGER.md
 forged: 2026-10-27 · harness lesson-scribe · discovery athanor project_slug=profield-digital-creativity (+ profield-nuevos-medios-moda-2026-27, scholar-ai-criticism)
+EX1-DISCOVERY: vector match in profield-digital-creativity identified sketching as idea generation/development/sharing and iterative evaluation as a useful transfer frame; local Ahmes page/citation verification was unavailable in this turn, so no public research claim is made from the match.
 page_basis: printed folio read from the source PDF page (resolver scheme=pdf_order is NOT the printed folio; see ledger §Grounding review)
 PROVENANCE_LINE: claim=ML-DCF.embodied-viewing; status=VERIFIED; page_basis=printed; source={coat=1936070c; node=1c49011b-db3d-53cd-964a-22e5acbb7d3a; pdf_seq=235; printed=222}; chapter_author=Shinkle (ch.15, own chapter in own edited volume); public="(Shinkle 2008, 222)"; evaluator_safe=yes
 PROVENANCE_LINE: claim=ML-DCF.dancer-lines; status=VERIFIED; page_basis=section (EPUB, no page-list); source={coat=5c285f15; node=d1fa157d-1211-5983-94d2-89a1d5507575; page_index=9; section=Line}; public="(Kandinsky 2012, “Line”)"; evaluator_safe=yes; note=Kandinsky attributes the sentence's idea to Palucca
@@ -73,6 +74,8 @@ S1–S15 of the research ledger remain outside the vault: no Duncan, Fuller, Sch
 .dcf-prompt code { white-space: normal; }
 .dcf-watch { border: 1px dashed currentColor; border-radius: 6px; padding: .7rem 1rem; margin: 1rem 0; }
 .dcf-guard { border-radius: 6px; padding: .8rem 1rem; margin: 1rem 0; background: rgba(180,68,44,.10); }
+.dcf-embed { width: 100%; max-width: 62rem; aspect-ratio: 16 / 9; margin: 1.25rem auto; background: #050505; border-radius: 6px; overflow: hidden; }
+.dcf-embed iframe { display: block; width: 100%; height: 100%; border: 0; }
 </style>
 
 {% include lesson-semantic-graphic.html %}
@@ -95,7 +98,7 @@ Method workshop for Digital Creativity I · I.7 — not a new unit or grade. Two
 </div>
 
 <figure class="dcf-media dcf-diagram" markdown="0">
-<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-2.en.svg' | relative_url }}" alt="Session flow, 120 minutes: analysis 15, masterclass 40, Lab opener 5, exercise 1 25, exercise 2 25, share 10." loading="lazy" decoding="async">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/dcf-session-flow-2.en.svg' | relative_url }}" alt="Session flow, 120 minutes: analysis 15, masterclass 40, Lab opener 5, Exercise 1 from concept to form 50, share 10." loading="lazy" decoding="async">
 </figure>
 
 ## Learning objectives
@@ -105,7 +108,7 @@ By the end of this session you can:
 1. Name what a garment does to movement — **drape, extension, tension or reorganisation** — and defend it with one frame.
 2. Explain how **frame size and cutting** decide what a film lets us see of a dressed body.
 3. Say who is credited when a costume, a star or a camera shapes a dance.
-4. Build a **constraint costume**, and film one phrase as **one take and as three cuts**.
+4. Move from **inspiration to sketch to defined constraint**, then use a prompt, evaluate two iterations, and film the final form.
 
 ---
 
@@ -211,6 +214,23 @@ Chomón's films, below, are that dialogue seen from cinema's side; your phone ca
 </figure>
 
 <figure class="dcf-media" markdown="0">
+<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/roberta-1935.webp' | relative_url }}" alt="Roberta, 1935: in a modern fashion salon Irene Dunne sits in a check suit, Fred Astaire leans over her and Ginger Rogers stands in a polka-dot coat with a fur collar." loading="lazy" decoding="async">
+<figcaption>Irene Dunne, Fred Astaire and Ginger Rogers in <em>Roberta</em> (RKO), a 1935 musical set in a Paris fashion house; promotional still. Public domain (per Commons) · <a href="https://commons.wikimedia.org/wiki/File:Irene_Dunne,_Fred_Astaire_and_Ginger_Rogers_in_Roberta.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
+</figure>
+
+<p><em>Roberta</em> is useful because the fashion house is not just a backdrop: the film makes clothing, professional identity, social status and dance share one visual world. Ask whether the camera is showing a garment, selling a star, or making the fashion system itself part of the story.</p>
+
+<figure class="dcf-media" markdown="0">
+<div class="dcf-embed"><iframe src="https://www.youtube-nocookie.com/embed/xNsiQMeSvMk" title="Phantom Thread, official trailer" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption><strong>Official trailer.</strong> Paul Thomas Anderson, <em>Phantom Thread</em> (2017), Focus Features. Here fashion is a system of authorship, control and intimacy: watch how the film turns fitting, fabric and the atelier into suspense. <a href="https://www.focusfeatures.com/video/phantom-thread-official-trailer" target="_blank" rel="noopener">Official source</a>.</figcaption>
+</figure>
+
+<figure class="dcf-media" markdown="0">
+<div class="dcf-embed"><iframe src="https://www.youtube-nocookie.com/embed/9nr_Xq-dVmg" title="Dior and I, official trailer" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption><strong>Official trailer.</strong> Frédéric Tcheng, <em>Dior and I</em> (2014), 1091 Pictures. The film makes a collection through its collaborators: watch how the atelier, deadline, designer and seamstresses become the drama. <a href="https://www.youtube.com/watch?v=9nr_Xq-dVmg" target="_blank" rel="noopener">Official distributor upload</a>.</figcaption>
+</figure>
+
+<figure class="dcf-media" markdown="0">
 <div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/I5RT3xhkeWo" title="Pina, official 3D trailer (2011)" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 <figcaption><strong>YouTube.</strong> Wim Wenders, <em>Pina</em> (2011), official 3D trailer, with the dancers of Tanztheater Wuppertal Pina Bausch. Uploaded by the DanceOn channel. <em>Watch:</em> where does the camera stand — inside the dance or in front of it? Count how often you see a whole body, and what the long dresses do in the wind, the water, the street.</figcaption>
 </figure>
@@ -221,38 +241,30 @@ Chomón's films, below, are that dialogue seen from cinema's side; your phone ca
 
 ## Lab (portfolio) · 50′
 
-Two exercises with your phone. Everything you make goes to your portfolio index / Canvas with a short note.
+One extended exercise with your phone. Everything you make goes to your portfolio index / Canvas with a short note.
 
 <div class="dcf-guard" markdown="1">
 **Consent and care (non-negotiable).** Photograph a classmate only if they say yes, and show them the result. Faces are optional — hands, hems, shadows and backs are enough. **Never upload a classmate's image to Firefly or any cloud AI without their explicit consent**; when in doubt, use your own body, your garment, or an object. Delete on request. Student work is authorial property: nothing is exhibited without a separate permission.
 </div>
 
-### Exercise 1 · Constraint costume (25′)
+### Exercise 1 · From concept to form (50′)
 
-Build a costume that decides the step, then film what it forces.
-
-<div class="dcf-prompt" markdown="1">
-**C4 · Constraint costume (after Schlemmer).** In five minutes, build one rigid extension — paper cone, cardboard disc, coat hanger, tape — on an arm, the head or the hem. Film the movement it **forces**. One sentence: what step became impossible, and what new step appeared?
-</div>
-
-### Exercise 2 · Same dance, different film (25′)
-
-Film one short phrase twice, then read both versions with the movement card.
-
-<figure class="dcf-media" markdown="0">
-<img src="{{ '/assets/images/master-lectures/dance-cinema-fashion/roberta-1935.webp' | relative_url }}" alt="Roberta, 1935: in a modern fashion salon Irene Dunne sits in a check suit, Fred Astaire leans over her and Ginger Rogers stands in a polka-dot coat with a fur collar." loading="lazy" decoding="async">
-<figcaption>Irene Dunne, Fred Astaire and Ginger Rogers in <em>Roberta</em> (RKO), a 1935 musical set in a Paris fashion house; promotional still. Public domain (per Commons) · <a href="https://commons.wikimedia.org/wiki/File:Irene_Dunne,_Fred_Astaire_and_Ginger_Rogers_in_Roberta.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
-</figure>
+Move from an idea to a testable costume constraint. Keep each decision visible: inspiration, first sketch, definition, prompt, evaluation, revision.
 
 <div class="dcf-prompt" markdown="1">
-**C3 · Same dance, different film (after Astaire).** One 8-count phrase, twice: **A** one take, full figure, feet and hem in frame; **B** three short close-ups (hem, hands, face) cut together in your phone's editor. Compare with the framing diagram: what does B sell?
+**C4 · From concept to form (after Schlemmer).** Choose one short **inspiration**: a costume image, a movement, a material, or a shape. Give it a **title** and write a two-sentence description of the intended effect. Make a quick **ideation sketch**. Define one constraint — for example, a rigid extension on an arm, the head or the hem — and state what it should make possible or impossible. Only then write one image or video **prompt** for the form you want to test. Generate or make one version, **evaluate** it against your title, sketch and constraint, then repeat once with a deliberate change. Film the movement the final form **forces**. Save the inspiration, sketch, prompt, two iterations and one sentence: what step became impossible, and what new step appeared?
 </div>
 
-**Portfolio entry:** your constraint film (Ex 1) + the two versions of your phrase (Ex 2) + the filled movement card. Today needs no AI; if you used any tool that generates content, declare it following the [course AI declaration]({{ '/ai-declaration/' | relative_url }}).
+**Portfolio entry:** title + short description, inspiration, ideation sketch, defined constraint, prompt, two iterations with evaluation notes, and the final constraint film. Today needs no AI; if you used any tool that generates content, declare it following the [course AI declaration]({{ '/ai-declaration/' | relative_url }}).
 
 ### Where this goes next
 
 Fashion film is the heir of advertising, cinema, short film, video clips and video art, and a form of branded content [(Díaz Soloaga and García Guerrero 2016, 49)](#ref-diaz-soloaga-2016). Interactive stages go further: in Chunky Move's *Glow*, an overhead camera tracks the dancer so that a projector maps light and graphics precisely onto the body's coordinates [(Eckersall, Grehan, and Scheer 2017, 47)](#ref-eckersall-2017) — the body becomes “productive of the specific shape of its immediate digital environment” [(Eckersall, Grehan, and Scheer 2017, 48)](#ref-eckersall-2017). Projection always raises “questions about who and what is visible” and “who is looking” [(Eckersall, Grehan, and Scheer 2017, 25)](#ref-eckersall-2017).
+
+<figure class="dcf-media" markdown="0">
+<div class="dcf-embed"><iframe src="https://www.youtube.com/embed/PqF2ZgpqI0U?si=EJtkIY9V8030gRbZ" title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<figcaption><strong>Where this goes next.</strong> A video reference for extending the exercise from costume concept to moving image. If the embedded player is unavailable, <a href="https://www.youtube.com/watch?v=PqF2ZgpqI0U" target="_blank" rel="noopener">open the video at YouTube</a>.</figcaption>
+</figure>
 
 
 

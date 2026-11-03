@@ -209,6 +209,34 @@ body {
 	overflow: visible;
 }
 
+/* A quiet authorship mark belongs to the image field, not the reading card. */
+.student-media-deck--dcf-costume-camera .reveal .slides section::before {
+	content: "";
+	position: absolute;
+	inset: 4% 8%;
+	z-index: 0;
+	background: url("/digital-creativity-uem/assets/icons/favicon.svg") center / min(72vw, 72vh) no-repeat;
+	opacity: 0.035;
+	pointer-events: none;
+}
+
+.student-media-deck--dcf-costume-camera .reveal .slides section::after {
+	content: "RUBÉN VEGA BALBÁS, PHD — MASTER LECTURE · WHO SHAPES A DANCE: THE COSTUME OR THE CAMERA?";
+	position: absolute;
+	right: clamp(0.7rem, 2vw, 1.4rem);
+	bottom: clamp(0.55rem, 1.4vw, 1rem);
+	z-index: 4;
+	max-width: min(42rem, 48%);
+	font-size: clamp(0.34rem, 0.48vw, 0.52rem);
+	font-weight: 300;
+	letter-spacing: 0.09em;
+	line-height: 1.35;
+	text-align: right;
+	text-transform: uppercase;
+	color: rgb(var(--foreground) / 0.62);
+	pointer-events: none;
+}
+
 /* Reading mode: the image bleeds behind the card. */
 .student-media-deck .slide-background-content {
 	background-repeat: no-repeat;
@@ -541,6 +569,11 @@ body {
 
 .student-media-slide--image_argument { max-width: min(42rem, 64%); }
 
+.student-media-deck--dcf-costume-camera .student-media-slide--image_argument {
+	width: min(60rem, calc(100% - 2rem));
+	max-width: 70%;
+}
+
 .student-media-slide--quote { max-width: min(48rem, 72%); }
 .student-media-slide--quote .student-media-slide__quote {
   max-width: none;
@@ -555,6 +588,11 @@ body {
   align-items: start;
   max-width: min(52rem, 72%);
   min-height: 0;
+}
+
+.student-media-deck--dcf-costume-camera .reveal .slides section[data-layout="image_argument"] .slide-caption {
+	width: min(18rem, 22%);
+	max-width: 22%;
 }
 .student-media-slide--split > .student-media-slide__unit,
 .student-media-slide--split > h1 { grid-column: 1; }
