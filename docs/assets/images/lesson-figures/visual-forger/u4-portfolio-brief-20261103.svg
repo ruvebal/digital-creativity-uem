@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Brief de portfolio para U4</title>
+  <desc id="desc">Cuatro campos conectados: audiencia, idea, pieza y declaración. El resultado es una propuesta creativa con límite de evidencia.</desc>
+  <rect width="1600" height="900" fill="#17212b"/>
+  <text x="120" y="118" fill="#fff8e7" font-family="Arial, sans-serif" font-size="43" font-weight="700">Brief de portfolio</text>
+  <text x="120" y="166" fill="#b9c8c6" font-family="Arial, sans-serif" font-size="24">Una propuesta creativa deja una huella que otra persona puede revisar.</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="130" y="320" width="280" height="170" rx="22" fill="#f5b700"/>
+    <text x="270" y="390" fill="#17212b" font-size="31" font-weight="700">AUDIENCIA</text><text x="270" y="435" fill="#17212b" font-size="22">situada</text>
+    <rect x="470" y="320" width="280" height="170" rx="22" fill="#ef8354"/>
+    <text x="610" y="390" fill="#17212b" font-size="31" font-weight="700">IDEA</text><text x="610" y="435" fill="#17212b" font-size="22">tensión + voz</text>
+    <rect x="810" y="320" width="280" height="170" rx="22" fill="#48cae4"/>
+    <text x="950" y="390" fill="#17212b" font-size="31" font-weight="700">PIEZA</text><text x="950" y="435" fill="#17212b" font-size="22">formato + acción</text>
+    <rect x="1150" y="320" width="320" height="170" rx="22" fill="#e9ecef"/>
+    <text x="1310" y="390" fill="#17212b" font-size="31" font-weight="700">DECLARACIÓN</text><text x="1310" y="435" fill="#17212b" font-size="22">IA + prueba pendiente</text>
+  </g>
+  <path d="M410 405h45M750 405h45M1090 405h45" stroke="#fff8e7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M455 405l-18-15m18 15-18 15M795 405l-18-15m18 15-18 15M1135 405l-18-15m18 15-18 15" stroke="#fff8e7" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <text x="800" y="710" fill="#fff8e7" font-family="Arial, sans-serif" font-size="29" text-anchor="middle">Entrega: mapa, tres piezas, atribución y límite de evidencia</text>
+</svg>

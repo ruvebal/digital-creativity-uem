@@ -74,14 +74,23 @@ media_plan:
     generated: true
     source_claims: "course operational frame only; no campaign outcome inferred"
   lesson_figures:
-    - asset: docs/assets/images/deck-media/0b217cf0bc282992.webp
-      role: "campaign production and editorial labour"
-    - asset: docs/assets/images/deck-media/beb3c557c1ee2f39.webp
-      role: "fashion image as editorial practice"
-    - asset: docs/assets/images/deck-media/99969ed97ba1044d.webp
-      role: "sequence, catalogue and product framing"
-    - asset: docs/assets/images/deck-media/07366fb980f47ec7.webp
-      role: "body, product and advertising composition"
+    - asset: docs/assets/images/deck-media/f474332a54a2d2dc.webp
+      role: "fashion image as commercial promise"
+    - asset: docs/assets/images/deck-media/d68bca8bc247a17a.webp
+      role: "editorial sequence and attention"
+    - asset: docs/assets/images/deck-media/701b22b6d0745f87.webp
+      role: "scene, participation and social promise"
+    - asset: docs/assets/images/deck-media/7eee3e408ab2271c.webp
+      role: "figure, event and advertising composition"
+  graphs:
+    - file: docs/assets/images/lesson-figures/visual-forger/u4-content-chain-20261103.svg
+      role: "creative-content chain"
+    - file: docs/assets/images/lesson-figures/visual-forger/u4-participation-evidence-20261103.svg
+      role: "attention, participation and effect"
+    - file: docs/assets/images/lesson-figures/visual-forger/u4-claim-audit-20261103.svg
+      role: "claim, resource and proof audit"
+    - file: docs/assets/images/lesson-figures/visual-forger/u4-portfolio-brief-20261103.svg
+      role: "portfolio-bound proposal brief"
   rights_rule: "Every public figure keeps author, licence and source-page attribution; archive images are analogues, not campaign evidence."
 
 lab_media:

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Participación y evidencia no son la misma señal</title>
+  <desc id="desc">Tres señales separadas: atención, participación y efecto. Una línea de límite indica que las dos primeras no prueban por sí solas un efecto material.</desc>
+  <rect width="1600" height="900" fill="#17212b"/>
+  <text x="110" y="115" fill="#fff8e7" font-family="Arial, sans-serif" font-size="43" font-weight="700">Participación y evidencia</text>
+  <text x="110" y="165" fill="#b9c8c6" font-family="Arial, sans-serif" font-size="24">Una reacción ayuda a leer la circulación. No demuestra por sí sola un efecto material.</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <circle cx="330" cy="440" r="155" fill="#f5b700"/>
+    <text x="330" y="430" fill="#17212b" font-size="34" font-weight="700">ATENCIÓN</text>
+    <text x="330" y="475" fill="#17212b" font-size="22">¿se detuvo?</text>
+    <circle cx="800" cy="440" r="155" fill="#48cae4"/>
+    <text x="800" y="430" fill="#17212b" font-size="34" font-weight="700">PARTICIPACIÓN</text>
+    <text x="800" y="475" fill="#17212b" font-size="22">¿respondió?</text>
+    <circle cx="1270" cy="440" r="155" fill="#e9ecef"/>
+    <text x="1270" y="430" fill="#17212b" font-size="34" font-weight="700">EFECTO</text>
+    <text x="1270" y="475" fill="#17212b" font-size="22">¿qué cambió?</text>
+  </g>
+  <path d="M490 440H640M960 440H1110" stroke="#fff8e7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M640 440l-24-18m24 18-24 18M1110 440l-24-18m24 18-24 18" stroke="#fff8e7" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="420" y="685" width="760" height="82" rx="41" fill="#ef8354"/>
+  <text x="800" y="735" fill="#17212b" font-family="Arial, sans-serif" font-size="25" text-anchor="middle" font-weight="700">El claim necesita una prueba independiente</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Auditoría de un claim creativo</title>
+  <desc id="desc">Tabla visual con tres columnas: afirmación, recurso y prueba. La última columna pregunta qué evidencia falta antes de publicar.</desc>
+  <rect width="1600" height="900" fill="#101820"/>
+  <text x="120" y="118" fill="#f8f3e8" font-family="Arial, sans-serif" font-size="43" font-weight="700">Auditoría del claim</text>
+  <text x="120" y="166" fill="#b9c8c6" font-family="Arial, sans-serif" font-size="24">La pieza gana claridad cuando separa lo que dice de lo que muestra y de lo que puede probar.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="120" y="285" width="405" height="300" rx="20" fill="#f5b700"/>
+    <rect x="598" y="285" width="405" height="300" rx="20" fill="#48cae4"/>
+    <rect x="1075" y="285" width="405" height="300" rx="20" fill="#e9ecef"/>
+    <text x="322" y="360" fill="#101820" font-size="32" font-weight="700" text-anchor="middle">AFIRMACIÓN</text>
+    <text x="322" y="430" fill="#101820" font-size="25" text-anchor="middle">¿qué promete?</text>
+    <text x="800" y="360" fill="#101820" font-size="32" font-weight="700" text-anchor="middle">RECURSO</text>
+    <text x="800" y="430" fill="#101820" font-size="25" text-anchor="middle">¿qué imagen o forma usa?</text>
+    <text x="1277" y="360" fill="#101820" font-size="32" font-weight="700" text-anchor="middle">PRUEBA</text>
+    <text x="1277" y="430" fill="#101820" font-size="25" text-anchor="middle">¿qué falta comprobar?</text>
+  </g>
+  <path d="M525 435h60M1003 435h60" stroke="#f8f3e8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M585 435l-22-17m22 17-22 17M1063 435l-22-17m22 17-22 17" stroke="#f8f3e8" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <text x="800" y="720" fill="#f8f3e8" font-family="Arial, sans-serif" font-size="29" text-anchor="middle">Publica el límite junto con la idea</text>
+  <text x="800" y="770" fill="#b9c8c6" font-family="Arial, sans-serif" font-size="21" text-anchor="middle">Gráfico original de la unidad · herramienta de aula, no resultado de campaña</text>
+</svg>
