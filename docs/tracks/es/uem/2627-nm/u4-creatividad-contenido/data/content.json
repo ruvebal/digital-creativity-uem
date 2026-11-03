@@ -161,6 +161,10 @@ layout: null
       "diagram_caption": "Audiencia 3D · variante 2",
       "diagram_credit": "Imagen original generada para la unidad",
       "diagram_rights": "No reproduce la fotografía de LIFE ni sus personas",
+      "external_link": {
+        "label": "Referencia conceptual: LIFE · audiencia cinematográfica",
+        "href": "https://www.life.com/arts-entertainment/3-d-movies-revisiting-a-classic-life-photo-of-a-rapt-film-audience/"
+      },
       "image_brief": "Original course-generated image: a contemporary, visibly diverse audience with many larger-bodied adults wears 3D helmets; emotionally flat faces and a dark text-safe area frame the slide copy.",
       "heading": "El formato cambia el significado",
       "sentence": "Un carrusel compara, un vídeo marca ritmo y una historia abre una respuesta breve.",
