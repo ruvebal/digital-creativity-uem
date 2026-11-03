@@ -118,8 +118,7 @@ The EU AI Act (2024) provides a regulatory framework that aligns with these educ
 ## AI-assisted authorship
 {: #ai-assisted-authorship }
 
-Instructor transparency  
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the crea-comm.net studio environment — an author-built agentic harness with MCP-backed retrieval, RAG context from the curriculum vault, and a scholar-voice model fine-tuned on his own writing. The `lesson-scribe` v0.1 harness and the rest of this agentic harness were created by the author. Forging consulted 3 vault sources; every public `(Author, Year)` was checked against that vault before acceptance. Prompts, model drafts, and human amendments are archived for later evaluation. Editorial judgment and responsibility for the final text remain with the author.
-Forge date: 2026-09-14 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1
+**Condensed version**
+As professor and instructor, Rubén Vega Balbás, PhD, uses AI intensively as part of an author-supervised scholarly workflow: frontier language models assist with dialogue, drafting, critique, and revision; a multi-agent research prospector explores and validates sources; a knowledge engine links evidence through graph retrieval and neural querying; and a locally trained writing model supports a consistent scholarly voice. These systems form an agentic studio of reusable skills, specialist agents, and verification checkpoints, but they do not replace human authorship: the author defines the questions, evaluates evidence, rejects unsuitable outputs, makes the pedagogical and ethical judgments, and remains fully responsible for the final text.
 
 For the instructor's detailed AI-assisted development foundations, see [AI-Assisted Development Foundations](https://ruvebal.github.io/web-atelier-udit/methodology/en/ai-assisted-development-foundations/).
