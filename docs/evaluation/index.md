@@ -37,7 +37,7 @@ visible through five deliverables. D1 and D2 divide the single official
 | Deliverable | Work-plan weight | Official instrument |
 | --- | ---: | --- |
 | D1 Live fashion-image analysis | **10%** | Research and projects |
-| D2 Transposition | **10%** | Research and projects |
+| [D2 Transposition]({{ '/assignments/en/transposition/' | relative_url }}) | **10%** | Research and projects |
 | D3 Atrium | **15%** | Case / problem |
 | D4 Final Digital Portfolio Notebook | **10%** | Lab / studio notebook |
 | D5 Exam | **55%** | Knowledge tests |
@@ -62,7 +62,7 @@ The Spanish-cohort Plan de trabajo (Sandra Jiménez Duarte) runs four continuous
 | ID | Task | Course fork |
 | --- | --- | --- |
 | **D1 Analysis** | 15 min defence · slideshow · 2 students/session from s3 | Fashion image related to a **Madrid exhibition** piece (coordinated visit) |
-| **D2 Transposition** | **Same task as the Spanish ACT3 Transposición:** a **cartel** (image series OK) transposed from another language (song, film, poem, literary work, theatre, …) — composition, colour, hierarchy, type; source + process trail | Output **into an image** |
+| **[D2 Transposition]({{ '/assignments/en/transposition/' | relative_url }})** | **Same task as the Spanish ACT3 Transposición:** a **cartel** (image series OK) transposed from another language (song, film, poem, literary work, theatre, …) — composition, colour, hierarchy, type; source + process trail | Output **into an image** · submit before **23 November 2026** through Campus Virtual |
 | **D3 Atrium** | Tech script + live defence | Theme: *What is fashion for you?* |
 | **D4 Portfolio index** | Lab exercises + D1–D3 | Same for both subjects |
 | **D5 Exam** | Critical demonstration of course understanding + final self-review of portfolio process | Same |

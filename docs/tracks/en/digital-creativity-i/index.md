@@ -80,11 +80,13 @@ deliverable.
 | Deliverable | Weight |
 | --- | ---: |
 | D1 Live fashion-image analysis | **10%** |
-| D2 Transposition | **10%** |
+| [D2 Transposition]({{ '/assignments/en/transposition/' | relative_url }}) | **10%** |
 | D3 Atrium | **15%** |
 | D4 Final Digital Portfolio Notebook | **10%** |
 | D5 Exam | **55%** |
 | **Total** | **100%** |
+
+**D2 deadline:** submit the [Transposition brief]({{ '/assignments/en/transposition/' | relative_url }}) through Campus Virtual before **23 November 2026**. Campus Virtual sets the exact time and submission channel.
 
 ## Official contents (guía)
 

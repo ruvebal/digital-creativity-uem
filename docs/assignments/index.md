@@ -19,6 +19,12 @@ Analyse one fashion image with the Master Lecture method; present live (slidesho
 - [Master Lecture]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }})
 - [Class slideshow]({{ '/master-lectures/fashion-image-analysis/' | relative_url }})
 
+## D2 · Transposition
+
+Transform a source from another language into a cartel / poster image (an image series is OK): source + credits + visual process trail + authorship declaration.
+
+**[Open D2 brief and internal rubric →]({{ '/assignments/en/transposition/' | relative_url }})** · Submit before **23 November 2026** through Campus Virtual.
+
 ## Final portfolio
 
 **[Final Digital Portfolio Notebook and rubric →]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }})**
