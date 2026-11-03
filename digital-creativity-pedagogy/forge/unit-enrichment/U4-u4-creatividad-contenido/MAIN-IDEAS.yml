@@ -91,6 +91,13 @@ media_plan:
       role: "claim, resource and proof audit"
     - file: docs/assets/images/lesson-figures/visual-forger/u4-portfolio-brief-20261103.svg
       role: "portfolio-bound proposal brief"
+  generated_variants:
+    - file: docs/assets/images/lesson-figures/visual-forger/u4-3d-theatre-audience-20261103-v2.webp
+      role: "active masterclass-3 background: larger-bodied 3D audience with emotionally flat, non-desiring expressions"
+      source: "course-generated image; LIFE article used only as a conceptual reference, not reproduced"
+    - file: docs/assets/images/lesson-figures/visual-forger/u4-bourgeois-critic-20261103.webp
+      role: "lesson critical counter-image: fat bourgeois observer without visible empathy, separated from the audience"
+      source: "course-generated image; original composition"
   rights_rule: "Every public figure keeps author, licence and source-page attribution; archive images are analogues, not campaign evidence."
 
 lab_media:

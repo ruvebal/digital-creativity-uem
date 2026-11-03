@@ -75,6 +75,11 @@ La moda añade otra responsabilidad: una imagen no es únicamente un archivo que
 <figcaption><strong>La fotografía aparece como servicio.</strong> El cartel vende un acontecimiento mediante una figura que dirige la mirada antes de explicar el producto. Auguste Donnay · Wikimedia Commons · <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">dominio público</a> · <a href="https://commons.wikimedia.org/wiki/File:Regate_et_chapeau_%C3%A0_plumes,_advertising_poster,_1895.jpg" target="_blank" rel="noopener noreferrer">fuente</a>.</figcaption>
 </figure>
 
+<figure class="lesson-figure" id="figure-u4-bourgeois-critic" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/u4-bourgeois-critic-20261103.webp' | relative_url }}" alt="Crítico burgués corpulento, de expresión plana, observa tras un cristal a una audiencia con cascos 3D en un cine contemporáneo." loading="lazy" decoding="async">
+<figcaption><strong>La mirada crítica también tiene una posición.</strong> La distancia entre quien observa y quien aparece en escena se construye con encuadre, espacio y postura. Imagen original generada para la unidad; no representa a una persona real ni reproduce una fuente documental.</figcaption>
+</figure>
+
 ## Objetivos de aprendizaje
 
 Al final de esta unidad podrás:
@@ -90,6 +95,7 @@ Al final de esta unidad podrás:
 <!--
 FORGE · grounding-graph / visual-forger: diagram the chain idea → voice → sequence → participation → evidence; include an explicit break where a claim needs independent proof. No campaign result may be inferred from the diagram.
 FORGE · naturalistic background prompt: editorial content studio with a blank phone mock-up, folded unbranded textile, contact sheets and coloured paper; no logos, no readable text, no people, warm daylight, generous negative space for type, 16:9, accessible contrast.
+FORGE · visual-forger generated variants: u4-3d-theatre-audience-20261103-v2.webp (active #/4 background) and u4-bourgeois-critic-20261103.webp (lesson counter-image); respectful larger-bodied representation, emotionally flat/non-desiring audience, no sexualisation, no recognisable people, no reproduction of the LIFE photograph.
 -->
 {% endif %}
 
