@@ -7,7 +7,7 @@ description: 'Índice de unidades Canvas y diapositivas para Nuevos medios — R
 slug: nm-lessons-hub
 ---
 
-<div class="nm-hub">
+<div class="nm-hub" markdown="0">
   <nav class="nm-hub__breadcrumb" aria-label="Navegación"><a href="{{ '/lessons/es/' | relative_url }}">Lecciones</a><span aria-hidden="true">/</span><span>Nuevos medios</span></nav>
   <header class="nm-hub__hero">
     <div class="nm-hub__intro">

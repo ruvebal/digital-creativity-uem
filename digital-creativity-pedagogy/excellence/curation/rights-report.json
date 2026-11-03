@@ -3,7 +3,7 @@
   "mode": "flag",
   "policy": "AUTOPILOT.md §0: rights recorded and flagged, not blocking; rightsVerdict stays strict. Professor reviews every flagged asset before release.",
   "year": 2026,
-  "generated_at": "2026-11-03T17:28:29.899Z",
+  "generated_at": "2026-11-03T17:35:16.615Z",
   "summary": {
     "assets": 112,
     "pass": 56,
