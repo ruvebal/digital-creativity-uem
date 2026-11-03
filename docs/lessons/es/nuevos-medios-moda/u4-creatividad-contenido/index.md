@@ -31,6 +31,10 @@ competencies: [HAB12, HAB5, COMP8]
 project_slug: profield-nuevos-medios-moda-2026-27
 campaign_ledger: 20260925T200000Z
 forge: agentic CV forge · nm-unit-forge · visual-forger/grounding-graph slots
+grounding:
+  creativity: "course operational frame; Ahmes discovery recorded as BIBLIO-GAP until resolver-safe"
+  fashion_image: "Shinkle 2008, 15 · evaluator-safe Ahmes anchor"
+  fashion_node: cca1472b-b0c6-594c-8e13-ed87d6b73897
 ai_authorship_internal:
   vault_refs_n: 1
   forge_date: 2026-11-03
@@ -44,6 +48,32 @@ media_rights: archive backgrounds are credited in the deck and below; campaign i
 
 **Diapositivas de clase:** [abrir deck]({{ '/tracks/es/uem/2627-nm/u4-creatividad-contenido/' | relative_url }})
 </div>
+
+## Marco de creatividad y moda
+
+En esta unidad, **creatividad** no significa novedad por sí sola. Es una decisión situada: una idea responde a una tensión, acepta restricciones de audiencia y formato, y deja claro qué puede demostrar. La propuesta creativa se evalúa por la relación entre intención, forma, participación y evidencia, no por el brillo aislado de una ocurrencia.
+
+La moda añade otra responsabilidad: una imagen no es únicamente un archivo que ilustra un post. Como recuerda la investigación sobre fotografía de moda, **“Fashion photography comprises a wide array of practices”** [(Shinkle 2008, 15)](#ref-shinkle-2008). Por eso leeremos cada imagen como práctica editorial, publicitaria, documental o de representación: ¿quién aparece?, ¿quién mira?, ¿qué trabajo queda fuera del encuadre?, ¿qué atribución necesita la pieza?
+
+<figure class="lesson-figure" id="figure-u4-content-chain" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/u4-content-chain-20261103.svg' | relative_url }}" alt="Diagrama de cinco etapas: tensión, relato, formato, participación y prueba, con contexto, voces, atribución y límite de evidencia en cada salto." loading="lazy" decoding="async">
+<figcaption><strong>La cadena de contenido creativo.</strong> El gráfico es una herramienta de decisión para el ejercicio; no representa resultados de una campaña. Gráfico original de la unidad, 2026.</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-u4-fashion-image" markdown="0">
+<img src="{{ '/assets/images/deck-media/beb3c557c1ee2f39.webp' | relative_url }}" alt="Portada de la revista Fashion Street, primavera-verano 2019: una modelo con sombrero negro y guantes con pedrería mira de frente a cámara." loading="lazy" decoding="async">
+<figcaption><strong>Una portada es una decisión de mirada.</strong> Observa quién aparece, cómo se organiza la atención y qué información editorial queda fuera. FashionStreet.hu · Wikimedia Commons · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Cover_of_Fashion_Street_Magazine_SS_2019.jpg" target="_blank" rel="noopener noreferrer">fuente</a>.</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-u4-sequence" markdown="0">
+<img src="{{ '/assets/images/deck-media/99969ed97ba1044d.webp' | relative_url }}" alt="Página del catálogo de moda de Bloomingdale Bros., verano de 1890: grabados numerados de cuatro trajes infantiles y un traje masculino a rayas." loading="lazy" decoding="async">
+<figcaption><strong>La secuencia organiza la atención.</strong> Los números, el orden y la comparación convierten una página en un sistema de lectura. Bloomingdale Bros. · Internet Archive Book Images · Wikimedia Commons · <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">dominio público</a> · <a href="https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14781648884).jpg" target="_blank" rel="noopener noreferrer">fuente</a>.</figcaption>
+</figure>
+
+<figure class="lesson-figure" id="figure-u4-advertising-frame" markdown="0">
+<img src="{{ '/assets/images/deck-media/07366fb980f47ec7.webp' | relative_url }}" alt="Cartel de 1902 para los almacenes de moda Holzer de Budapest: dos mujeres con vestidos largos, sombreros y estolas caminan bajo el rótulo Holzer divatháza." loading="lazy" decoding="async">
+<figcaption><strong>Producto, cuerpo y encuadre.</strong> Reescribe el mensaje sin separar la forma de la posición de quienes aparecen en la imagen. Géza Faragó · Wikimedia Commons · <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">dominio público</a> · <a href="https://commons.wikimedia.org/wiki/File:Farag%C3%B3,_G%C3%A9za_-_Poster_for_the_Holzer_Fashion_Store_(1902).jpg" target="_blank" rel="noopener noreferrer">fuente</a>.</figcaption>
+</figure>
 
 ## Objetivos de aprendizaje
 
@@ -106,14 +136,25 @@ En dos frases, explica qué se pierde cuando una marca usa una imagen de residuo
 - **The Or Foundation / Kantamanto / Stop Waste Colonialism** · [Dead White Man’s Clothes: introducción y contexto](https://deadwhitemansclothes.org/intro){:target="_blank" rel="noopener noreferrer"}. Relevancia: sitúa la ropa de segunda mano como economía, trabajo y circulación; no autoriza a generalizar una cifra local al sistema global.
 - The Or Foundation. [Work and research](https://www.theor.org/work){:target="_blank" rel="noopener noreferrer"}. Relevancia: amplía el contexto de trabajo y residuos para contrastar un relato de marca.
 - Yu, Joanne, Astrid Dickinger, Kevin Kam Fung So, and Roman Egger. 2024. “Artificial Intelligence-Generated Virtual Influencer…” *Journal of Retailing and Consumer Services*. <a href="https://doi.org/10.1016/j.jretconser.2023.103560" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.jretconser.2023.103560</a>. Relevancia: puente para discutir engagement y creatividad sintética; no sustituye el juicio editorial del ejercicio.
+- <span id="ref-shinkle-2008">Shinkle, Eugénie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I.B. Tauris.</span> Relevancia: la imagen de moda como campo de prácticas y decisiones de mirada.
 
 ---
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-**Evidencia faltante.** La unidad incorpora el caso Kantamanto como referencia de contexto y diseño de relato, no como prueba de impacto de una marca. Falta una fuente independiente que mida la recepción de la propuesta estudiantil; el gráfico conceptual y la fotografía naturalista quedan como slots de mejora editorial. Las imágenes de archivo del deck mantienen crédito, licencia y enlace de fuente en cada diapositiva.
+**Evidencia faltante.** La unidad incorpora el caso Kantamanto como referencia de contexto y diseño de relato, no como prueba de impacto de una marca. Falta una fuente independiente que mida la recepción de la propuesta estudiantil; esa ausencia se mantiene explícita en el laboratorio. El gráfico conceptual y una figura de archivo ya están publicados con texto alternativo, crédito, licencia y enlace de fuente; queda abierta únicamente la posible sustitución futura por una fotografía naturalista propia.
 
 **Addressed to editor.** Se añadió la URL canónica de The Or Foundation y su contexto de trabajo. Revisar el alcance geográfico de cualquier cifra antes de publicar una nueva versión y conservar la distinción entre participación, engagement y resultado material. La forja se realizó con el contrato de unidad NM, el ledger de campañas y los scripts de rehidratación/render del deck.
+
+{% if site.publication.publish_internal_metadata %}
+<!--
+curriculum-internal grounding receipt:
+- creativity: [BIBLIO-GAP] Beghetto and Karwowski 2025 nodes ef1eaf5c-9058-52b2-b4ac-b24f5a738628, 10055dde-d470-5e71-afe8-cc9c22f9b52d, 2ce00718-a8f2-5fd2-a04d-18cfd720db30 and d19d9955-62d5-52af-b28f-60ab95a8c11b; resolver returned unsafe metadata, so public prose is a course operational frame and no scholarly citation is claimed.
+- creativity/AI discovery: [BIBLIO-GAP] 2411_00168_creativity_ai nodes c7a4caf9-a5dc-539e-a243-1fd649c7745a and 89ca5849-41bb-5a9b-850c-849bd97552c2; discovery only, omitted from public References pending safe resolver output.
+- fashion-image: [VERIFIED] Shinkle 2008, printed page 15, Ahmes node cca1472b-b0c6-594c-8e13-ed87d6b73897, page_index=14, evaluator_safe=yes; supports the short quote and the claim that fashion photography is a field of practices.
+- grounding boundary: no campaign outcome, engagement result or local Kantamanto figure is inferred from the visual graphic or archive images.
+-->
+{% endif %}
 
 ## Autoría asistida por IA
 

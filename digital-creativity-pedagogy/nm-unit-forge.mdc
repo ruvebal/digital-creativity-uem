@@ -35,6 +35,13 @@ A **scaffold** lesson (frontmatter + stub B1) is not done. Done means CT/CD pari
    `~/src/.cursor/skills/curriculum-forger/references/institution-nm.md`.  
 3. Write `forge/unit-enrichment/U*/MAIN-IDEAS.yml` (≤ 6 ideas; slide sentences
    human; Chicago or `studio_hypothesis`).  
+   For every unit, the enrichment file must also carry a `grounding` block with
+   separate creativity and fashion-image frames, the Ahmes resolver status of
+   each source, and an explicit public-use boundary. A `[BIBLIO-GAP]` source is
+   an internal discovery receipt only: it may shape a clearly labelled course
+   operational frame, but it must not become a public Chicago citation or an
+   invented quote. At least one fashion-image source must be resolver-safe when
+   the unit teaches fashion imagery.
    **Campaign exemplars (binding):** before locking MAIN-IDEAS / Masterclass /
    labs, open
    [`~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md`](file:///Users/ruvebal/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md)
@@ -63,8 +70,10 @@ A **scaffold** lesson (frontmatter + stub B1) is not done. Done means CT/CD pari
    include `lesson-conceptual-graph-slot.html` + `lesson-deck-photo-slot.html`
    with HTML comments for (a) `grounding-graph` → `visual-forger` generative
    request tied to the Master idea, and (b) naturalistic photo prompt for
-   Masterclass deck backgrounds. Editorial note must name both slots as
-   addressed-to-editor until assets ship. AI links →
+   Masterclass deck backgrounds. A forge-complete unit must ship at least one
+   accessible course-generated graphic and one credited image figure in the
+   lesson; a slot may remain open only when the Editorial note names the exact
+   remaining gap. AI links →
    `/ai-declaration/#ai-assisted-authorship`.  
 7. **Cold B1** — one Thessia pass per Masterclass idea via `lesson-scribe`
    (`thessia_generate.py`); six-axis cold review → amend → integrate.  

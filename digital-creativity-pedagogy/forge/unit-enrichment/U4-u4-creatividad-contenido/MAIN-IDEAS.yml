@@ -1,0 +1,93 @@
+# Student slideshow payload — <= 6 main ideas · U4
+# Grounding pass: creativity as an operational design frame; fashion image as a field of practices.
+# Campaign bank: Profield fashion-exemplary-social-campaigns CANONICAL -> 20260925T200000Z
+unit_id: U4
+title_es: U4 · Creatividad y contenido digital
+max_ideas: 6
+voice: late-secondary / first-year clear Spanish
+teaching_language: es
+campaign_bank_ref: "~/src/profield/runs/fashion-exemplary-social-campaigns/CANONICAL.md"
+campaign_ids: [kantamanto-stop-waste-colonialism]
+contenidos: "Creatividad aplicada a la comunicación social digital"
+competencies: [HAB12, HAB5, COMP8]
+master_idea: "El contenido alineado a marca convierte una idea en un sistema narrativo situado, participable y comprobable."
+
+grounding:
+  creativity:
+    public_frame: "La creatividad se trabaja como decisión situada: novedad con propósito, bajo restricciones de audiencia, formato, contexto y evidencia."
+    ahmes_status: biblio-gap
+    internal_sources:
+      - source: "Beghetto and Karwowski 2025, Elements in Creativity and Imagination"
+        nodes: [ef1eaf5c-9058-52b2-b4ac-b24f5a738628, 10055dde-d470-5e71-afe8-cc9c22f9b52d, 2ce00718-a8f2-5fd2-a04d-18cfd720db30, d19d9955-62d5-52af-b28f-60ab95a8c11b]
+        use: "internal synthesis only; citation resolver returned BIBLIO-GAP"
+      - source: "Creativity, AI and design outcomes 2024"
+        nodes: [c7a4caf9-a5dc-539e-a243-1fd649c7745a, 89ca5849-41bb-5a9b-850c-849bd97552c2]
+        use: "internal discovery only; do not publish as a scholarly citation until resolver-safe"
+  fashion:
+    public_frame: "La imagen de moda no es solo una fotografía: es una práctica editorial, publicitaria, documental y de representación que construye una mirada."
+    ahmes_status: evaluator-safe
+    citation: "(Shinkle 2008, 15)"
+    node: cca1472b-b0c6-594c-8e13-ed87d6b73897
+    page_index: 14
+    printed_page: 15
+    use: "short verified quote and image-literacy frame"
+
+ideas:
+  - id: 1
+    heading: La creatividad empieza con una tensión
+    sentence: "Una idea creativa no es una ocurrencia aislada: responde a una tensión concreta y decide qué puede sostener."
+    case: "Caso: The Or Foundation / Kantamanto / Stop Waste Colonialism (rank 10)."
+    case_track: C
+    case_rank: 10
+    case_url: "https://deadwhitemansclothes.org/intro"
+    stance: studio_hypothesis
+    evidence_boundary: "El caso aporta contexto para diseñar un relato; no prueba el impacto de la propuesta estudiantil."
+  - id: 2
+    heading: La imagen de moda construye una mirada
+    sentence: "Antes de publicar una imagen, pregunta qué práctica activa, quién aparece, quién habla y qué queda fuera del encuadre."
+    quote: "Fashion photography comprises a wide array of practices"
+    quote_origin: ahmes
+    chicago: "(Shinkle 2008, 15)"
+    source_node: cca1472b-b0c6-594c-8e13-ed87d6b73897
+    media_role: "archive image plus captioned course diagram"
+  - id: 3
+    heading: El relato se diseña como secuencia
+    sentence: "Ordena apertura, desarrollo y cierre antes de pedir una reacción: el formato cambia qué puede comprender y hacer la audiencia."
+    stance: studio_hypothesis
+    media_role: "course-generated sequence diagram"
+  - id: 4
+    heading: Participar no es solo reaccionar
+    sentence: "Un comentario, un guardado y una acción material son señales distintas: no las conviertas en una sola métrica de éxito."
+    stance: studio_hypothesis
+    case: "Caso: Kantamanto como prueba de contexto, voces y circulación; no como cifra universal."
+    case_url: "https://deadwhitemansclothes.org/intro"
+  - id: 5
+    heading: La creatividad también responde de sus pruebas
+    sentence: "Separa afirmación, recurso visual y evidencia; atribuye lo abierto y declara qué resultado todavía no puedes demostrar."
+    stance: studio_hypothesis
+    media_role: "claim-evidence boundary diagram"
+
+media_plan:
+  lesson_graph:
+    file: docs/assets/images/lesson-figures/visual-forger/u4-content-chain-20261103.svg
+    role: "idea -> relato -> formato -> participación -> evidencia"
+    generated: true
+    source_claims: "course operational frame only; no campaign outcome inferred"
+  lesson_figures:
+    - asset: docs/assets/images/deck-media/0b217cf0bc282992.webp
+      role: "campaign production and editorial labour"
+    - asset: docs/assets/images/deck-media/beb3c557c1ee2f39.webp
+      role: "fashion image as editorial practice"
+    - asset: docs/assets/images/deck-media/99969ed97ba1044d.webp
+      role: "sequence, catalogue and product framing"
+    - asset: docs/assets/images/deck-media/07366fb980f47ec7.webp
+      role: "body, product and advertising composition"
+  rights_rule: "Every public figure keeps author, licence and source-page attribution; archive images are analogues, not campaign evidence."
+
+lab_media:
+  lab-1:
+    asset_id: "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14781648884).jpg"
+    use: "sequence and product evidence"
+  lab-2:
+    asset_id: "wikimedia:File:Faragó, Géza - Poster for the Holzer Fashion Store (1902).jpg"
+    use: "body/product framing and evidence boundary"

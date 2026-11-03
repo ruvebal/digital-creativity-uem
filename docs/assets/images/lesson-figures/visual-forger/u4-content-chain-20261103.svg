@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de contenido creativo</title>
+  <desc id="desc">Diagrama de cinco etapas: tensión, relato, formato, participación y evidencia. Una línea inferior recuerda que cada decisión debe conservar contexto y atribución.</desc>
+  <rect width="1600" height="900" fill="#101820"/>
+  <text x="120" y="118" fill="#f8f3e8" font-family="Arial, sans-serif" font-size="42" font-weight="700">De la tensión a la prueba</text>
+  <text x="120" y="166" fill="#b9c8c6" font-family="Arial, sans-serif" font-size="24">Creatividad aplicada a la comunicación social digital</text>
+  <g font-family="Arial, sans-serif" font-weight="700" font-size="28" text-anchor="middle">
+    <rect x="100" y="330" width="230" height="150" rx="24" fill="#f5b700"/>
+    <text x="215" y="395" fill="#101820">TENSIÓN</text><text x="215" y="435" fill="#101820" font-size="20" font-weight="400">¿qué importa?</text>
+    <rect x="420" y="330" width="230" height="150" rx="24" fill="#ef8354"/>
+    <text x="535" y="395" fill="#101820">RELATO</text><text x="535" y="435" fill="#101820" font-size="20" font-weight="400">¿qué sitúa?</text>
+    <rect x="740" y="330" width="230" height="150" rx="24" fill="#80b918"/>
+    <text x="855" y="395" fill="#101820">FORMATO</text><text x="855" y="435" fill="#101820" font-size="20" font-weight="400">¿qué permite?</text>
+    <rect x="1060" y="330" width="230" height="150" rx="24" fill="#48cae4"/>
+    <text x="1175" y="395" fill="#101820">PARTICIPACIÓN</text><text x="1175" y="435" fill="#101820" font-size="20" font-weight="400">¿qué acción?</text>
+    <rect x="1370" y="330" width="150" height="150" rx="24" fill="#e9ecef"/>
+    <text x="1445" y="395" fill="#101820" font-size="25">PRUEBA</text><text x="1445" y="435" fill="#101820" font-size="20" font-weight="400">¿qué sé?</text>
+  </g>
+  <g stroke="#f8f3e8" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M335 405h70l-20-18m20 18-20 18M655 405h70l-20-18m20 18-20 18M975 405h70l-20-18m20 18-20 18M1295 405h55l-20-18m20 18-20 18"/>
+  </g>
+  <path d="M150 650H1450" stroke="#f8f3e8" stroke-width="3" stroke-dasharray="12 14"/>
+  <text x="800" y="720" fill="#f8f3e8" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">En cada salto: contexto · voces · atribución · límite de evidencia</text>
+  <text x="800" y="790" fill="#b9c8c6" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">Gráfico original de la unidad · no representa resultados de una campaña</text>
+</svg>

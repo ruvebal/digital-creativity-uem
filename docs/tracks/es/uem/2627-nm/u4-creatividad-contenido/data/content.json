@@ -71,6 +71,25 @@ layout: null
       "cropped": false
     },
     {
+      "media_slot_id": "U4.masterclass-3",
+      "asset_id": "wikimedia:File:Advertisement for Philadelphia Sunday Press- May 10, 1895 MET DP866320.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/d68bca8bc247a17a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Advertisement_for_Philadelphia_Sunday_Press-_May_10%2C_1895_MET_DP866320.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Advertisement_for_Philadelphia_Sunday_Press-_May_10,_1895_MET_DP866320.jpg",
+      "title": "Advertisement for Philadelphia Sunday Press- May 10, 1895 MET DP866320",
+      "alt_text": "Cartel de 1895 del Philadelphia Sunday Press: una mujer con vestido verde de mangas abullonadas, falda a rayas y gran sombrero con pluma camina junto a la lista de contenidos del número; abajo anuncia los últimos figurines de moda en color.",
+      "author": "George Reiter Brill",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "George Reiter Brill · Wikimedia Commons",
+      "author_death_year": 1918,
+      "eu_term_ok": true,
+      "eu_term_reason": "The Metropolitan Museum of Art released the image under CC0 (Open Access); the author died 1918, so the EU term has also expired.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
       "media_slot_id": "U4.lab-1",
       "asset_id": "wikimedia:File:Faragó, Géza - Poster for the Holzer Fashion Store (1902).jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/07366fb980f47ec7.webp",
@@ -130,8 +149,12 @@ layout: null
       "heading": "Una idea necesita una tensión",
       "sentence": "Una propuesta empieza con una pregunta concreta sobre audiencia, problema y capacidad de respuesta.",
       "prompt": "La idea no es un eslogan: delimita qué puede sostener el contenido.",
-      "quote": "La creatividad gana fuerza cuando acepta un límite legible.",
-      "quote_origin": "tao_invented",
+      "quote": "Fashion photography comprises a wide array of practices",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Shinkle 2008, 15)",
+        "href": "/digital-creativity-uem/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/#referencias"
+      },
       "media_slot_id": "U4.masterclass-1"
     },
     {
@@ -150,14 +173,15 @@ layout: null
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "asset_id": "wikimedia:File:Advertisement for Philadelphia Sunday Press- May 10, 1895 MET DP866320.jpg",
       "image_brief": "An 1895 newspaper poster makes attention a designed step before a reader chooses to continue.",
       "heading": "El formato cambia el significado",
       "sentence": "Un carrusel compara, un vídeo marca ritmo y una historia abre una respuesta breve.",
       "prompt": "Diseña cada pieza para la acción que hace posible; no copies el mismo texto en todos los formatos.",
       "quote": "No hay contenido neutro: cada forma invita a una conducta.",
-      "quote_origin": "tao_invented"
+      "quote_origin": "tao_invented",
+      "media_slot_id": "U4.masterclass-3"
     },
     {
       "slide_id": "masterclass-4",

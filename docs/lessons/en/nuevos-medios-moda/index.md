@@ -19,11 +19,11 @@ Track twin: [New Media (EN)]({{ '/tracks/en/nuevos-medios-moda/' | relative_url 
 | U1 | History and evolution of new media | [EN]({{ '/lessons/en/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u1-historia-nuevos-medios/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u1-historia-nuevos-medios/' | relative_url }}) |
 | U2 | Digital communication strategies | [EN]({{ '/lessons/en/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u2-estrategias-comunicacion-digital/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u2-estrategias-comunicacion-digital/' | relative_url }}) |
 | U3 | Marketing and advertising in new media | [EN]({{ '/lessons/en/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u3-marketing-publicidad/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u3-marketing-publicidad/' | relative_url }}) |
-| U4 | Creativity and digital content | [EN]({{ '/lessons/en/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | — *(scaffold)* |
+| U4 | Creativity and digital content | [EN]({{ '/lessons/en/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u4-creatividad-contenido/' | relative_url }}) | [Deck]({{ '/tracks/es/uem/2627-nm/u4-creatividad-contenido/' | relative_url }}) |
 | U5 | Digital tools and data analysis | [EN]({{ '/lessons/en/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u5-herramientas-datos/' | relative_url }}) | — *(scaffold)* |
 | U6 | Future of digital communication | [EN]({{ '/lessons/en/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | [ES]({{ '/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/' | relative_url }}) | — *(scaffold)* |
 
-**Status:** U1–U3 published (Masterclass + Reveal deck · campaign ledger). U4–U6 remain scaffold until full unit authoring.
+**Status:** U1–U4 published (Masterclass + Reveal deck · campaign ledger). U5–U6 remain scaffold until full unit authoring.
 
 ## Master Lectures (transversal · English)
 
