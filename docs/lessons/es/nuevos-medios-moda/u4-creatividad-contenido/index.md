@@ -145,7 +145,7 @@ En dos frases, explica qué se pierde cuando una marca usa una imagen de residuo
 - **The Or Foundation / Kantamanto / Stop Waste Colonialism** · [recurso audiovisual sobre el caso](https://youtu.be/bwhWP6gEN6w?si=FzL95n3a4dxiLaIW){:target="_blank" rel="noopener noreferrer"}. Relevancia: apoya la lectura de la ropa de segunda mano como economía, trabajo y circulación; no autoriza a generalizar una cifra local al sistema global.
 - The Or Foundation. [Work and research](https://www.theor.org/work){:target="_blank" rel="noopener noreferrer"}. Relevancia: amplía el contexto de trabajo y residuos para contrastar un relato de marca.
 - Yu, Joanne, Astrid Dickinger, Kevin Kam Fung So, and Roman Egger. 2024. “Artificial Intelligence-Generated Virtual Influencer…” *Journal of Retailing and Consumer Services*. <a href="https://doi.org/10.1016/j.jretconser.2023.103560" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.jretconser.2023.103560</a>. Relevancia: puente para discutir engagement y creatividad sintética; no sustituye el juicio editorial del ejercicio.
-- <span id="ref-shinkle-2008">Shinkle, Eugénie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I.B. Tauris.</span> Relevancia: la imagen de moda como campo de prácticas y decisiones de mirada.
+- <span id="ref-shinkle-2008">Shinkle, Eugénie, ed. 2008. <a href="https://www.bloomsbury.com/uk/fashion-as-photograph-9781845115173/" target="_blank" rel="noopener noreferrer"><em>Fashion as Photograph: Viewing and Reviewing Images of Fashion</em></a>. London: I.B. Tauris.</span> Relevancia: la imagen de moda como campo de prácticas y decisiones de mirada.
 
 ---
 
