@@ -36,6 +36,7 @@ campaign quality or social impact.
 | benetton-colors | U3 | 5 | United Colors of Benetton; Benetton; COLORS magazine; Benetton / COLORS | [Vogue profile of Oliviero Toscani and Benetton](https://www.vogue.com/article/oliviero-toscani-united-colors-benetton) |
 | ropa-limpia-inditex | U3 | 7 | Ropa Limpia; SETEM; Ropa Limpia × Inditex; SETEM / Inditex AGM | [Ropa Limpia AGM intervention](https://ropalimpia.org/noticias/accionistas-y-entidades-sociales-exigen-responsabilidad-climatica-y-social-a-inditex-durante-la-junta-de-accionistas/) |
 | jigsaw-into-the-woods-aw21 | U3 | — (supplemental critical case) | Jigsaw AW21 Into the Woods; Jigsaw “These boots were made for walking” email; Jigsaw sexual-objectification ruling | [ASA ruling](https://www.asa.org.uk/rulings/robinson-webster--holdings--ltd-g21-1127608-robinson-webster--holdings--ltd.html) |
+| kantamanto-stop-waste-colonialism | U4 | 10 | The Or Foundation; Kantamanto; Stop Waste Colonialism | [Dead White Man’s Clothes](https://deadwhitemansclothes.org/intro) |
 
 U4–U6 have no campaign allocation until their lessons are forged. A case is
 assigned when its ID is added to a lesson; do not copy an existing case merely

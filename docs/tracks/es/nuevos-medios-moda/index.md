@@ -98,7 +98,7 @@ Método de análisis compartido — **no** es una fila CONTENIDOS / Canvas. La v
 | --- | --- | --- |
 | **Fashion image analysis** | [Lesson (EN)]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck (EN)]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
 
-**Estado U1–U3:** forjadas (Masterclass + deck Reveal · campañas del ledger). U4–U6 aún andamiaje. Master Lecture de imagen de moda: pilot EN.
+**Estado U1–U4:** forjadas (Masterclass + deck Reveal · campañas del ledger). U5–U6 aún andamiaje. Master Lecture de imagen de moda: pilot EN.
 
 | Unidad | Deck |
 | --- | --- |

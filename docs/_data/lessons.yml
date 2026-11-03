@@ -11,8 +11,8 @@
     es: lessons/es/creacion-digital-ii/ii-5-web-portfolio/index.md
     en: lessons/en/digital-creativity-ii/ii-5-web-portfolio/index.md
   status:
-    es: scaffold
-    en: scaffold
+    es: forged
+    en: forged-twin
   type: lesson
 - slug: i-5-forma-tridimensional
   title:
@@ -282,6 +282,8 @@
   type: lesson
   track: nuevos-medios-moda
   unit_id: U4
+  deck:
+    es: /tracks/es/uem/2627-nm/u4-creatividad-contenido/
 - slug: u5-herramientas-datos
   title:
     es: 'U5 · Herramientas digitales y análisis de datos'
