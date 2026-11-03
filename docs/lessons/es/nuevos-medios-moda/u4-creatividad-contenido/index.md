@@ -84,9 +84,7 @@ Al final de esta unidad podrás:
 - justificar decisiones visuales y audiovisuales con un criterio de accesibilidad, atribución y transparencia;
 - presentar una propuesta creativa de redes sociales y declarar la asistencia de IA en el proceso.
 
-{% include lesson-conceptual-graph-slot.html lang="es" narrative="El gráfico debe hacer visible la cadena idea → relato → formato → participación → evidencia, con el punto de decisión editorial en cada paso." %}
-
-{% include lesson-deck-photo-slot.html lang="es" purpose="Fondos de archivo para recordar que el contenido se diseña para circular: los carteles, catálogos y fotografías tienen atribución pública en el deck; la fotografía naturalista propia queda como mejora editorial." %}
+<p class="lesson-media-status"><strong>Recursos visuales publicados:</strong> la cadena conceptual y las imágenes de archivo que acompañan esta unidad están disponibles arriba y en el deck, con texto alternativo, licencia y fuente.</p>
 
 {% if site.publication.publish_internal_metadata %}
 <!--
@@ -142,7 +140,7 @@ En dos frases, explica qué se pierde cuando una marca usa una imagen de residuo
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-**Evidencia faltante.** La unidad incorpora el caso Kantamanto como referencia de contexto y diseño de relato, no como prueba de impacto de una marca. Falta una fuente independiente que mida la recepción de la propuesta estudiantil; esa ausencia se mantiene explícita en el laboratorio. El gráfico conceptual y una figura de archivo ya están publicados con texto alternativo, crédito, licencia y enlace de fuente; queda abierta únicamente la posible sustitución futura por una fotografía naturalista propia.
+**Evidencia faltante.** La unidad incorpora el caso Kantamanto como referencia de contexto y diseño de relato, no como prueba de impacto de una marca. Falta una fuente independiente que mida la recepción de la propuesta estudiantil; esa ausencia se mantiene explícita en el laboratorio. Los gráficos y las figuras de archivo están publicados con texto alternativo, crédito, licencia y enlace de fuente.
 
 **Addressed to editor.** Se añadió la URL canónica de The Or Foundation y su contexto de trabajo. Revisar el alcance geográfico de cualquier cifra antes de publicar una nueva versión y conservar la distinción entre participación, engagement y resultado material. La forja se realizó con el contrato de unidad NM, el ledger de campañas y los scripts de rehidratación/render del deck.
 
