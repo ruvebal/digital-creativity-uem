@@ -27,6 +27,22 @@ Locked from the official 2026–27 subject guides for Creación Digital I and II
 
 Studio deliverables **D1–D5** map onto these instruments. They do not change the four percentages.
 
+### Digital Creativity I work-plan allocation (2026–27)
+
+For the Digital Creativity I work plan, the official categories are made
+visible through five deliverables. D1 and D2 divide the single official
+**Research and projects (20%)** category equally, while D3 is the
+**Case/problem (15%)** deliverable.
+
+| Deliverable | Work-plan weight | Official instrument |
+| --- | ---: | --- |
+| D1 Live fashion-image analysis | **10%** | Research and projects |
+| D2 Transposition | **10%** | Research and projects |
+| D3 Atrium | **15%** | Case / problem |
+| D4 Final Digital Portfolio Notebook | **10%** | Lab / studio notebook |
+| D5 Exam | **55%** | Knowledge tests |
+| **Total** | **100%** | Official categories preserved |
+
 ### Coordinated Spanish continuous strip (informational)
 
 The Spanish-cohort Plan de trabajo (Sandra Jiménez Duarte) runs four continuous activities at **11.2% each** (Figurín, Key visual, Transposición cartel, revista project). That strip is **compatible** with this site’s D/Lab map; it does **not** replace the guía table above. See [How to Pass CD I]({{ '/tracks/dci/how-to-pass-this-track/' | relative_url }}).

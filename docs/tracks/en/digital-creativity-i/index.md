@@ -54,6 +54,38 @@ Previous track note: `[BIBLIO-GAP]` — Campinho et al. (2025) was initially ret
 
 Each lesson gives you **B1** (concept and debate), **B2** (studio artefact and definition of done), and **B3** (an individual problem — except I.8, whose real 0 h resolution allocation is disclosed and folded into its process note). Submit a piece ID, process folder, final artefact, and process note; keep the original/source files and disclose any AI assistance. Dates, submission channels, and the institutional exam procedure remain in the Campus Virtual rather than being invented here.
 
+## Course coordination and special teaching date
+
+The degree coordinating professor is **Marta Quintana de Juan**.
+For course questions and tutorial requests, contact **Rubén Vega Balbás** at
+[ruben.vega@universidadeuropea.com](mailto:ruben.vega@universidadeuropea.com).
+Tutorial-meeting indications and the available scheduling window are published
+in Campus Virtual.
+
+**Dignity Day special — 21 October 2026.** The course will use the [Dignity in
+fashion image and media guide]({{ '/dignity/en/' | relative_url }}) for a
+course-based image and communication activity. The teaching sequence continues
+as **Dignity Week on Friday 23 October 2026**. The activity asks students to
+question a communication decision and revise it with evidence; it does not
+score anyone's body or identity and does not create a new institutional
+assessment percentage.
+
+## Work-plan assessment allocation
+
+The Digital Creativity I work plan makes the official evaluation categories
+visible through five deliverables. D1 and D2 divide the official **Research and
+projects (20%)** category equally; D3 is the **Case/problem (15%)**
+deliverable.
+
+| Deliverable | Weight |
+| --- | ---: |
+| D1 Live fashion-image analysis | **10%** |
+| D2 Transposition | **10%** |
+| D3 Atrium | **15%** |
+| D4 Final Digital Portfolio Notebook | **10%** |
+| D5 Exam | **55%** |
+| **Total** | **100%** |
+
 ## Official contents (guía)
 
 Institutional contract: official PDF [9729001103](https://universidadeuropea.es/myfiles/pr/9729001103.pdf) (2026-27). Presencial formative load **150 h** across the official activity categories. Pedagogical session slices are allocated in the curriculum; institutional dates and Campus Virtual procedures remain pending.
