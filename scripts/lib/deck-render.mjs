@@ -230,8 +230,8 @@ export function backgroundFor(slide, assetsBySlot, ctx, state) {
   }
   if (slide.background_kind === 'diagram' && slide.diagram_src) {
     const src = String(slide.diagram_src);
-    const allowed = /^\/assets\/images\/lesson-figures\/visual-forger\/[a-z0-9-]+\.svg$/i.test(src);
-    if (!allowed) throw new Error(`diagram background must use a published visual-forger SVG: ${src}`);
+    const allowed = /^\/assets\/images\/lesson-figures\/visual-forger\/[a-z0-9-]+\.(?:svg|webp|png|jpe?g)$/i.test(src);
+    if (!allowed) throw new Error(`diagram background must use a published visual-forger image: ${src}`);
     return {
       url: withBase(src, base),
       captionHtml: `<span class="slide-caption__title">${escapeHtml(slide.diagram_caption || (ctx.locale === 'es' ? 'Ilustración original de la asignatura' : 'Original course illustration'))}</span>`
@@ -352,7 +352,7 @@ export function lessonFigures(content, { base = '' } = {}) {
         caption_html: `<span class="slide-caption__title">${escapeHtml(slide.diagram_caption || (content.locale === 'es' ? 'Ilustración original de la asignatura' : 'Original course illustration'))}</span>`
           + ` · <span class="slide-caption__author">${escapeHtml(slide.diagram_credit || 'Rubén Vega Balbás · visual-forger 1.3.0')}</span>`
           + ` · <span>${escapeHtml(slide.diagram_rights || (content.locale === 'es' ? 'Ilustración original · todos los derechos reservados' : 'Original course illustration · all rights reserved'))}</span>`,
-        rights_status: 'ok',
+        rights_status: /confirmar|review/i.test(String(slide.diagram_rights || '')) ? 'flagged' : 'ok',
       };
       continue;
     }

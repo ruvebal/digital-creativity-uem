@@ -39,7 +39,7 @@ ideas:
     case: "Caso: The Or Foundation / Kantamanto / Stop Waste Colonialism (rank 10)."
     case_track: C
     case_rank: 10
-    case_url: "https://deadwhitemansclothes.org/intro"
+    case_url: "https://youtu.be/bwhWP6gEN6w?si=FzL95n3a4dxiLaIW"
     stance: studio_hypothesis
     evidence_boundary: "El caso aporta contexto para diseñar un relato; no prueba el impacto de la propuesta estudiantil."
   - id: 2
@@ -60,7 +60,7 @@ ideas:
     sentence: "Un comentario, un guardado y una acción material son señales distintas: no las conviertas en una sola métrica de éxito."
     stance: studio_hypothesis
     case: "Caso: Kantamanto como prueba de contexto, voces y circulación; no como cifra universal."
-    case_url: "https://deadwhitemansclothes.org/intro"
+    case_url: "https://youtu.be/bwhWP6gEN6w?si=FzL95n3a4dxiLaIW"
   - id: 5
     heading: La creatividad también responde de sus pruebas
     sentence: "Separa afirmación, recurso visual y evidencia; atribuye lo abierto y declara qué resultado todavía no puedes demostrar."
@@ -98,6 +98,9 @@ media_plan:
     - file: docs/assets/images/lesson-figures/visual-forger/u4-bourgeois-critic-20261103.webp
       role: "lesson critical counter-image: fat bourgeois observer without visible empathy, separated from the audience"
       source: "course-generated image; original composition"
+    - file: docs/assets/images/lesson-figures/visual-forger/u4-barbies-123rf-186151092-20261103.webp
+      role: "active masterclass-5 curated image: reduced damaged-dolls photograph for claim / resource / proof audit"
+      source: "user-supplied 123RF image 186151092_l.jpg; derived reduced copy; licence to confirm at https://www.123rf.com/license/free/"
   rights_rule: "Every public figure keeps author, licence and source-page attribution; archive images are analogues, not campaign evidence."
 
 lab_media:

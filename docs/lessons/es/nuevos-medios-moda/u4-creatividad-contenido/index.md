@@ -80,6 +80,11 @@ La moda añade otra responsabilidad: una imagen no es únicamente un archivo que
 <figcaption><strong>La mirada crítica también tiene una posición.</strong> La distancia entre quien observa y quien aparece en escena se construye con encuadre, espacio y postura. Imagen original generada para la unidad; no representa a una persona real ni reproduce una fuente documental.</figcaption>
 </figure>
 
+<figure class="lesson-figure" id="figure-u4-barbies-123rf" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/u4-barbies-123rf-186151092-20261103.webp' | relative_url }}" alt="Varias muñecas Barbie dañadas y despeinadas, fotografiadas como un conjunto de objetos de consumo deteriorados." loading="lazy" decoding="async">
+<figcaption><strong>El recurso visual también necesita una prueba.</strong> Esta copia reducida del archivo 186151092_l.jpg se usa como imagen de contraste para auditar una afirmación, su material visual y la evidencia que falta. Imagen suministrada por el usuario; <a href="https://www.123rf.com/license/free/" target="_blank" rel="noopener noreferrer">condiciones de licencia 123RF</a> a confirmar antes de una publicación externa.</figcaption>
+</figure>
+
 ## Objetivos de aprendizaje
 
 Al final de esta unidad podrás:
@@ -115,7 +120,7 @@ Un carrusel permite comparar; un vídeo corto permite ritmo; una historia efíme
 
 ### 4. Participar no es solo reaccionar
 
-El caso **The Or Foundation / Kantamanto / Stop Waste Colonialism** muestra por qué una imagen de residuos no basta: el relato debe situar trabajo, mercado y voces locales. Consulta la [ficha de campaña](https://deadwhitemansclothes.org/intro){:target="_blank" rel="noopener noreferrer"} y no conviertas una economía concreta en una metáfora global sin evidencia.
+El caso **The Or Foundation / Kantamanto / Stop Waste Colonialism** muestra por qué una imagen de residuos no basta: el relato debe situar trabajo, mercado y voces locales. Consulta el [recurso audiovisual sobre el caso](https://youtu.be/bwhWP6gEN6w?si=FzL95n3a4dxiLaIW){:target="_blank" rel="noopener noreferrer"} y no conviertas una economía concreta en una metáfora global sin evidencia.
 
 ### 5. La creatividad también responde de sus pruebas
 
@@ -137,7 +142,7 @@ En dos frases, explica qué se pierde cuando una marca usa una imagen de residuo
 
 ## Referencias
 
-- **The Or Foundation / Kantamanto / Stop Waste Colonialism** · [Dead White Man’s Clothes: introducción y contexto](https://deadwhitemansclothes.org/intro){:target="_blank" rel="noopener noreferrer"}. Relevancia: sitúa la ropa de segunda mano como economía, trabajo y circulación; no autoriza a generalizar una cifra local al sistema global.
+- **The Or Foundation / Kantamanto / Stop Waste Colonialism** · [recurso audiovisual sobre el caso](https://youtu.be/bwhWP6gEN6w?si=FzL95n3a4dxiLaIW){:target="_blank" rel="noopener noreferrer"}. Relevancia: apoya la lectura de la ropa de segunda mano como economía, trabajo y circulación; no autoriza a generalizar una cifra local al sistema global.
 - The Or Foundation. [Work and research](https://www.theor.org/work){:target="_blank" rel="noopener noreferrer"}. Relevancia: amplía el contexto de trabajo y residuos para contrastar un relato de marca.
 - Yu, Joanne, Astrid Dickinger, Kevin Kam Fung So, and Roman Egger. 2024. “Artificial Intelligence-Generated Virtual Influencer…” *Journal of Retailing and Consumer Services*. <a href="https://doi.org/10.1016/j.jretconser.2023.103560" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.jretconser.2023.103560</a>. Relevancia: puente para discutir engagement y creatividad sintética; no sustituye el juicio editorial del ejercicio.
 - <span id="ref-shinkle-2008">Shinkle, Eugénie, ed. 2008. *Fashion as Photograph: Viewing and Reviewing Images of Fashion*. London: I.B. Tauris.</span> Relevancia: la imagen de moda como campo de prácticas y decisiones de mirada.
@@ -146,9 +151,9 @@ En dos frases, explica qué se pierde cuando una marca usa una imagen de residuo
 
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 
-**Evidencia faltante.** La unidad incorpora el caso Kantamanto como referencia de contexto y diseño de relato, no como prueba de impacto de una marca. Falta una fuente independiente que mida la recepción de la propuesta estudiantil; esa ausencia se mantiene explícita en el laboratorio. Los gráficos y las figuras de archivo están publicados con texto alternativo, crédito, licencia y enlace de fuente.
+**Evidencia faltante.** La unidad incorpora el caso Kantamanto como referencia de contexto y diseño de relato, no como prueba de impacto de una marca. Falta una fuente independiente que mida la recepción de la propuesta estudiantil; esa ausencia se mantiene explícita en el laboratorio. La imagen 123RF de muñecas se conserva como recurso suministrado y su licencia concreta debe confirmarse antes de cualquier publicación externa.
 
-**Addressed to editor.** Se añadió la URL canónica de The Or Foundation y su contexto de trabajo. Revisar el alcance geográfico de cualquier cifra antes de publicar una nueva versión y conservar la distinción entre participación, engagement y resultado material. La forja se realizó con el contrato de unidad NM, el ledger de campañas y los scripts de rehidratación/render del deck.
+**Addressed to editor.** Se sustituyó el enlace muerto por el recurso audiovisual proporcionado. Revisar el alcance geográfico de cualquier cifra antes de publicar una nueva versión, confirmar la licencia 123RF del archivo 186151092_l.jpg y conservar la distinción entre participación, engagement y resultado material. La forja se realizó con el contrato de unidad NM, el ledger de campañas y los scripts de rehidratación/render del deck.
 
 {% if site.publication.publish_internal_metadata %}
 <!--
