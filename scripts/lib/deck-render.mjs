@@ -230,7 +230,7 @@ export function backgroundFor(slide, assetsBySlot, ctx, state) {
   }
   if (slide.background_kind === 'diagram' && slide.diagram_src) {
     const src = String(slide.diagram_src);
-    const allowed = /^\/assets\/images\/lesson-figures\/visual-forger\/[a-z0-9-]+\.(?:svg|webp|png|jpe?g)$/i.test(src);
+    const allowed = /^\/assets\/images\/(?:lesson-figures\/visual-forger|lesson-media\/u3-campaign)\/[a-z0-9-]+\.(?:svg|webp|png|jpe?g)$/i.test(src);
     if (!allowed) throw new Error(`diagram background must use a published visual-forger image: ${src}`);
     return {
       url: withBase(src, base),
