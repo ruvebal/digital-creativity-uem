@@ -10,7 +10,7 @@ permalink: /lessons/en/digital-creativity-i/i-7-fashion-references/
 description: 'Sourcing a compositional reference is not a neutral act of collection — what a search surfaces already carries a representational politics, evidenced, narrowly, this session.'
 status: scaffold
 tags: [digital-creativity-i, references, mood-board, image-ethics, body-representation]
-references: [campinho-2025]
+references: [campinho-2025, torn-rabkin-2026]
 ---
 
 <!-- prettier-ignore-start -->
@@ -111,6 +111,12 @@ Campinho, Cardim da Silva, Dantas Soares, and Amparo-Santos (2025) studied Googl
 **Practice anchor (field lens):** source hierarchy, visual function, citation, transformation, and provenance as durable research-studio constructs — separate from any one search interface.
 
 **Frontier signal (field lens):** reference boards can turn archives and cultural knowledge into uncredited extraction; treat every tile as a provenance decision, not a mood.
+
+Rabkin’s critique of postmodern fashion adds a second warning: a reference can
+become a surface sign detached from the garment’s history or material story
+(Rabkin 2026). For each board tile, record not only the visual property you
+borrow, but also the source, the transformation, the cultural context you keep,
+and the meaning your new composition claims.
 
 ## Lab (Portfolio)
 

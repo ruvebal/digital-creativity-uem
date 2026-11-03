@@ -12,7 +12,7 @@ tags: [master-lecture, dance, cinema, fashion, series-dcf]
 master_idea: 'A garment changes what a moving body can show and do; a camera and an edit change what we can see of both. Claim only what your evidence can climb to.'
 series: dance-cinema-fashion
 series_part: 0
-references: [schlemmer-1987]
+references: [schlemmer-1987, torn-rabkin-2026]
 ---
 
 <!-- prettier-ignore-start -->
@@ -68,6 +68,11 @@ Oskar Schlemmer wrote this while designing some of the most geometric stage cost
 Fashion borrows constantly from dance and film: the swirl of a skirt, the line of a pose, the cut of a red-carpet moment. This cycle looks at those borrowings three times — first as **cloth** (what does a garment do when the body moves?), then as **design and camera** (who decides how a costume moves and how much of it we see?), and finally as **power** (when a movement travels from one stage, country or body to another, who is credited, paid or made strange?).
 
 It serves the official content *Fuentes y referencias compositivas en el diseño de moda* (I.7) of Digital Creativity I, and touches *Creación de imágenes digitales animadas* (I.8) in the animation prompt of Part 3. It adds no unit, deliverable or grade: each part ends in a two-exercise Lab whose traces go to your portfolio.
+
+Rabkin’s account of fashion as storytelling gives this cycle a second check:
+when cloth travels from body to camera to platform, do not treat visual
+similarity as meaning. Ask what the garment contributes, what the camera
+selects, and what circulation adds or removes from the story (Rabkin 2026).
 
 ### Tools used across the cycle
 

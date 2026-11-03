@@ -13,7 +13,7 @@ tags: [master-lecture, analysis, fashion-image, guide, transversal]
 master_idea: 'Read the image from dot to perspective before asking where it comes from, what it means with evidence, whom it serves, and how it circulates.'
 practice_anchor: '8-step card + Lens A (triad) + Lens B (circulation) on one fashion image'
 deck_url: /master-lectures/fashion-image-analysis/
-references: [shinkle-2008, maynard-2008, eckersall-2017, kandinsky-2012]
+references: [shinkle-2008, maynard-2008, eckersall-2017, kandinsky-2012, torn-rabkin-2026]
 ---
 
 <!-- prettier-ignore-start -->
@@ -212,6 +212,15 @@ When you analyse shared cultural codes (style, genre, “what everyone understan
 ---
 
 ## Lab (Portfolio)
+
+### Meaning, material, and market
+
+Rabkin argues that fashion can lose its narrative when the sign or logo
+overwhelms the garment (Rabkin 2026). Treat that as a critical hypothesis, not
+as a universal verdict: in Lens B, identify what the image makes visible, what
+the garment materially does, and what the surrounding caption or brand system
+asks the viewer to buy. A useful test is: **“Without a story, fashion is just
+clothing.”**
 
 *Illustrative traces below are professor-made examples — not student work.*
 

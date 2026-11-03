@@ -15,7 +15,7 @@ frontier_signal: 'Influence between stage, screen and fashion is easy to see and
 deck_url: /master-lectures/dance-cinema-fashion-travel-power/
 series: dance-cinema-fashion
 series_part: 3
-references: [de-perthuis-2008, shinkle-2008, navarro-gavino-2022, mejias-couldry-2024]
+references: [de-perthuis-2008, shinkle-2008, navarro-gavino-2022, mejias-couldry-2024, torn-rabkin-2026]
 ---
 
 <!-- prettier-ignore-start -->
@@ -207,6 +207,15 @@ This is also what happens when an image generator learns from scraped pictures. 
 ---
 
 ## Lab (portfolio) · 50′
+
+### Add a fashion-circulation check
+
+Rabkin describes irony as capable of giving the consumer an illusion of
+participation while leaving the system unchanged (Rabkin 2026). Add one line to
+your audit: **who is credited, who is paid, who is made strange, and what
+commercial surface carries the reference next?** This extends the evidence
+ladder from resemblance to circulation without claiming that one generated
+image proves cultural influence.
 
 Two exercises. Work on a capture from Part 1 or Part 2 — or shoot a new one in two minutes. Everything you make goes to your portfolio index / Canvas with a short note.
 

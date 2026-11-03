@@ -332,3 +332,10 @@ benjamin-1998:
   chicago: >-
     Benjamin, Walter. 1998. “The Author as Producer.” In *Understanding Brecht*, translated by Anna
     Bostock, 85–103. London: Verso.
+
+torn-rabkin-2026:
+  sort: "Rabkin 2026"
+  year: 2026
+  edition_used: "Zer0 Books eBook, ISBN 978-1-80341-861-2; EPUB section anchors used because this edition has no stable printed folios."
+  chicago: >-
+    Rabkin, Eugene. 2026. *Torn: Fashion and Postmodernism*. Zer0 Books.
