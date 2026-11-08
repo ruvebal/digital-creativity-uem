@@ -4,6 +4,16 @@
 	--max: clamp(66ch, 2.5vw + 78ch, 104ch); /* Harmonic readable measure for prose (wider) */
 	--site-header-height: 4.5rem;
 
+	/* Course archive palettes — shared by static SVG covers and live geometry. */
+	--dc-i-paper: #18141d;
+	--dc-i-gold: #e8c56c;
+	--dc-i-coral: #f07c63;
+	--dc-i-mint: #9be2d1;
+	--dc-ii-paper: #121a2e;
+	--dc-ii-lime: #e7ff79;
+	--dc-ii-violet: #af89ff;
+	--dc-ii-rose: #ff82a7;
+
 	--background: hsla(213, 100%, 18%, 0.9999); /* #00295E */
 	--foreground: hsla(60, 60%, 49%, 0.9999); /* #C9C932 */
 
@@ -259,11 +269,56 @@ img.footer-logo {
 	border-bottom: 1px solid rgb(226 177 39 / 0.28);
 }
 
+.geometry-live-bg {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+.hero-foreground-plane,
+.hero-foreground-plane--self {
+	position: relative;
+	z-index: 2;
+	isolation: isolate;
+}
+
+.hero-foreground-plane::before,
+.hero-foreground-plane--self::before {
+	position: absolute;
+	z-index: -1;
+	inset: clamp(-1.25rem, -2vw, -0.5rem) clamp(-4rem, -5vw, -1rem);
+	content: '';
+	background:
+		linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--dc-i-paper) 72%, transparent),
+			color-mix(in srgb, var(--dc-ii-paper) 48%, transparent)
+		),
+		linear-gradient(
+			45deg,
+			color-mix(in srgb, var(--dc-i-gold) 8%, transparent),
+			color-mix(in srgb, var(--dc-ii-violet) 8%, transparent)
+		);
+	border: 1px solid color-mix(in srgb, var(--dc-i-gold) 20%, transparent);
+	clip-path: polygon(8% 0, 92% 0, 100% 50%, 92% 100%, 8% 100%, 0 50%);
+	box-shadow: 0 1.5rem 5rem rgb(0 0 0 / 0.22);
+	pointer-events: none;
+}
+
+.hero-foreground-plane--self > :not(.geometry-live-bg) {
+	position: relative;
+	z-index: 2;
+}
+
 .hero-section--archive .hero-section__inner,
 .hero-section--archive .hero-section__title,
 .hero-section--archive .hero-section__lede {
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 
 .hero-section--archive a {
@@ -332,6 +387,18 @@ img.footer-logo {
 		background: none !important;
 		color: inherit;
 		border-bottom: 1px solid var(--border-light);
+	}
+
+	.geometry-live-bg,
+	.hero-foreground-plane::before,
+	.hero-foreground-plane--self::before {
+		display: none;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.geometry-live-bg {
+		display: none;
 	}
 }
 
