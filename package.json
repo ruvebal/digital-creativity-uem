@@ -4,6 +4,7 @@
 	"description": "Digital Creativity / Creación Digital — fashion avatars, web portfolio, AR — Universidad Europea teaching site",
 	"private": true,
 	"scripts": {
+		"build:favicons": "bash scripts/build-favicon-family.sh",
 		"postcss:build": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css",
 		"postcss:watch": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css --watch",
 		"normalize:ids": "node scripts/normalize-ids.mjs",

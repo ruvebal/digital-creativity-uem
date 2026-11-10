@@ -1,4 +1,5 @@
 import { createGeometryField } from './geometry-field.js';
+import { bindFaviconBackgroundMotion } from '../favicon-motion/hero-coordinator.js';
 
 const FAMILIES = {
 	'dc-i': {
@@ -37,7 +38,11 @@ export function mountArchiveHero(hero, { family = 'dc-i', asset = 'archive-home'
 		floatDepth: 26,
 		pointerRoot: hero,
 	});
-	const destroy = () => field?.destroy();
+	const unbindFavicon = bindFaviconBackgroundMotion(hero, field, { selector: '#favicon-hero-icon' });
+	const destroy = () => {
+		unbindFavicon();
+		field?.destroy();
+	};
 	window.addEventListener('pagehide', destroy, { once: true });
 	return { canvas, destroy };
 }
