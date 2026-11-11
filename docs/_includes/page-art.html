@@ -1,6 +1,16 @@
 {% assign page_art = site.data.page_art[page.url] %}
 {% if page_art %}
-<figure class="page-art" data-page-art-grammar="{{ page_art.grammar | join: ' ' }}" markdown="0">
+<figure
+  class="page-art{% if page.rive_background %} rive-background{% endif %}"
+  data-page-art-grammar="{{ page_art.grammar | join: ' ' }}"
+  {% if page.rive_background %}data-rive-src="{{ page.rive_background | relative_url }}"{% endif %}
+  {% if page.rive_fallback %}data-rive-fallback="{{ page.rive_fallback | relative_url }}"{% endif %}
+  markdown="0"
+>
+{% if page.rive_fallback %}
+<img src="{{ page.rive_fallback | relative_url }}" width="1600" height="900" alt="Perspective · volume kit fallback for {{ page_art.title | escape }}" />
+{% else %}
 <img src="{{ '/assets/images/page-art/' | append: page_art.asset | append: '.svg' | relative_url }}" width="1600" height="360" alt="Generative geometric artwork for {{ page_art.title | escape }}" />
+{% endif %}
 </figure>
 {% endif %}

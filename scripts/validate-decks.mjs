@@ -118,11 +118,11 @@ for (const path of deckPaths) {
   for (const slide of content.slides || []) {
     if (slide.diagram_src) {
       const src = String(slide.diagram_src);
-      const safePath = /^\/assets\/images\/lesson-figures\/visual-forger\/[a-z0-9-]+\.svg$/i.test(src);
+      const safePath = /^\/assets\/images\/lesson-figures\/(?:visual-forger|perspective-kit)\/[a-z0-9.-]+\.svg$/i.test(src);
       const file = join(root, 'docs', src.replace(/^\//, ''));
       const problems = [];
       if (slide.background_kind !== 'diagram') problems.push('diagram_src requires background_kind diagram');
-      if (!safePath) problems.push('diagram_src must point to a published visual-forger SVG');
+      if (!safePath) problems.push('diagram_src must point to a published visual-forger or perspective-kit SVG');
       else if (!existsSync(file)) problems.push(`diagram background file missing ${src}`);
       if (!String(slide.diagram_alt || '').trim()) problems.push('diagram background needs diagram_alt');
       if (!String(slide.diagram_caption || '').trim()) problems.push('diagram background needs diagram_caption');

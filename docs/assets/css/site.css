@@ -215,12 +215,77 @@ img.footer-logo {
 	border-bottom: 1px solid rgb(226 177 39 / 0.28);
 }
 
-.page-art img {
+/* Live Rive page-art needs room; keep grid stack, not absolute collapse. */
+.page-art.rive-background {
+	position: relative;
+	inset: auto;
+	z-index: auto;
+	opacity: 1;
+	pointer-events: none;
+	height: clamp(12rem, 32vw, 24rem);
+	margin: 0 0 1.25rem;
+}
+
+.page-art img,
+.page-art .page-art__rive,
+.page-art .rive-background__canvas {
 	grid-area: 1 / 1;
 	display: block;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.page-art .page-art__rive {
+	border: 0;
+	opacity: 0.55;
+	pointer-events: none;
+}
+
+.page-art.rive-background.is-rive-live > img {
+	opacity: 0;
+}
+
+.page-art.rive-background .rive-background__canvas {
+	opacity: 0.95;
+	z-index: 1;
+}
+
+/* Absolute only for Reveal slide-background hosts — not the page-art figure itself. */
+.reveal .slide-background-content.rive-background {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	pointer-events: none;
+	opacity: 1;
+	overflow: hidden;
+}
+
+.rive-background__canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.reveal .slides > section[data-rive-src] {
+	position: relative;
+}
+
+.reveal .slides > section[data-rive-src] > .student-media-slide,
+.reveal .slides > section[data-rive-src] > .slide-caption {
+	position: relative;
+	z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.page-art .page-art__rive,
+	.page-art.rive-background .rive-background__canvas,
+	.reveal .slide-background-content.rive-background .rive-background__canvas {
+		display: none !important;
+	}
+	.page-art.rive-background.is-rive-live > img {
+		opacity: 1;
+	}
 }
 
 .page-art::after {
@@ -3371,7 +3436,6 @@ html.dark .lesson-media-slot__body,
 .lesson-figure__missing {
   color: #b45309;
 }
-
 
 /* EX10 — practice quizzes (answers on click; printable) */
 .practice-quiz {

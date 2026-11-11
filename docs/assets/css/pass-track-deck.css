@@ -188,16 +188,41 @@ body {
 .student-media-slide {
   display: grid;
   align-content: start;
-  /* EX5: no forced tall min-height — forge type floors already fill the card;
-     a 62vh floor pushed long masterclass cards outside the section (B4). */
+  /* Liquid fit: card must stay inside the Reveal viewport; scroll inside the card if needed. */
   min-height: 0;
-  max-width: min(46rem, 72%);
-  gap: 0.45rem;
-  padding: clamp(0.95rem, 2.6vw, 1.65rem);
+  max-width: min(42rem, 68%);
+  max-height: min(78dvh, 34rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  gap: clamp(0.28rem, 0.8vh, 0.45rem);
+  padding: clamp(0.7rem, 1.8vw, 1.25rem);
   border: 1px solid rgb(var(--foreground) / 0.18);
   border-radius: var(--radius);
   background: linear-gradient(135deg, rgb(var(--card) / 0.9), rgb(var(--background) / 0.68));
   box-shadow: 0 1rem 3rem rgb(var(--background) / 0.32);
+}
+
+/* Rive-alone motion slides: keep the reading card thin so the field reads. */
+.student-media-deck .reveal .slides section[data-slide-id$="-rive"] .student-media-slide {
+  max-width: min(28rem, 52%);
+  max-height: min(42dvh, 16rem);
+}
+
+.student-media-deck .reveal .slides section[data-slide-id$="-rive"] .student-media-slide__figure,
+.student-media-deck .reveal .slides section[data-background-kind="diagram"] .student-media-slide__figure {
+  display: none; /* never duplicate a background diagram inside the card */
+}
+
+.student-media-slide h1 {
+  font-size: clamp(1.05rem, 2.4vw, 1.65rem);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.student-media-slide p,
+.student-media-slide__quote,
+.student-media-slide__body {
+  font-size: clamp(0.78rem, 1.35vw, 1rem);
 }
 
 .student-media-deck .reveal .slides section {
@@ -865,3 +890,29 @@ h1 .slide-key { font-weight: inherit; }
 .student-media-slide__citation,
 .student-media-slide__external,
 .student-media-slide__card { margin-top: 0.15rem; }
+
+/* Optional Rive/.riv ambient overlay (static background remains the Reveal image). */
+.rive-background {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	pointer-events: none;
+	opacity: 0.42;
+	overflow: hidden;
+}
+.rive-background__canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.reveal .slides > section[data-rive-src] {
+	position: relative;
+}
+.reveal .slides > section[data-rive-src] > .student-media-slide,
+.reveal .slides > section[data-rive-src] > .slide-caption {
+	position: relative;
+	z-index: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+	.rive-background { display: none !important; }
+}

@@ -5,6 +5,7 @@
 	</head>
 	<body
 		class="bg-white dark:bg-neutral-950 text-slate-900 dark:text-neutral-100 antialiased transition-colors duration-200{% if site.data.archive_covers[page.url] %} has-archive-hero{% endif %}"
+		data-base-url="{{ site.baseurl }}"
 		{% if site.data.archive_covers[page.url] %}style="{% include archive-hero-vars.html %}"{% endif %}>
 		<a href="#main" class="skip-link">
 			{% if page.lang == 'es' or page.lang == 'es' %}Saltar al contenido{% else %}Skip to main content{% endif %}

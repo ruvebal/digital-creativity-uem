@@ -117,6 +117,9 @@
     const sync = () => {
       if (afterSync) afterSync();
       if (updateBack) updateBack();
+      if (window.DCRiveBackground && typeof window.DCRiveBackground.scanDeck === 'function') {
+        window.DCRiveBackground.scanDeck();
+      }
     };
     Reveal.on('ready', sync);
     Reveal.on('slidechanged', sync);

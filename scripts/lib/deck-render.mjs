@@ -230,12 +230,15 @@ export function backgroundFor(slide, assetsBySlot, ctx, state) {
   }
   if (slide.background_kind === 'diagram' && slide.diagram_src) {
     const src = String(slide.diagram_src);
-    const allowed = /^\/assets\/images\/(?:lesson-figures\/visual-forger|lesson-media\/u3-campaign)\/[a-z0-9-]+\.(?:svg|webp|png|jpe?g)$/i.test(src);
-    if (!allowed) throw new Error(`diagram background must use a published visual-forger image: ${src}`);
+    const allowed = /^\/assets\/images\/(?:lesson-figures\/(?:visual-forger|perspective-kit)|lesson-media\/u3-campaign)\/[a-z0-9.-]+\.(?:svg|webp|png|jpe?g)$/i.test(src);
+    if (!allowed) throw new Error(`diagram background must use a published visual-forger or perspective-kit image: ${src}`);
+    const defaultCredit = /perspective-kit\//.test(src)
+      ? 'Rubén Vega Balbás · perspective-kit'
+      : 'Rubén Vega Balbás · visual-forger 1.3.0';
     return {
       url: withBase(src, base),
       captionHtml: `<span class="slide-caption__title">${escapeHtml(slide.diagram_caption || (ctx.locale === 'es' ? 'Ilustración original de la asignatura' : 'Original course illustration'))}</span>`
-        + ` · <span class="slide-caption__author">${escapeHtml(slide.diagram_credit || 'Rubén Vega Balbás · visual-forger 1.3.0')}</span>`
+        + ` · <span class="slide-caption__author">${escapeHtml(slide.diagram_credit || defaultCredit)}</span>`
         + ` · <span>${escapeHtml(slide.diagram_rights || (ctx.locale === 'es' ? 'Ilustración original · todos los derechos reservados' : 'Original course illustration · all rights reserved'))}</span>`,
       alt: String(slide.diagram_alt || '').trim(),
     };
@@ -270,6 +273,9 @@ export function renderSlide(slide, deck, background, ctx = {}) {
     ...(timer ? [['data-timer', String(timer)]] : []),
     ...(cardHref ? [['data-card-href', cardHref]] : []),
     ...(slide.figure?.src && slide.figure.placement === 'full' ? [['data-figure', 'full']] : []),
+    // Optional AnimaScript overlay: SVG/curated stays data-background-image; .riv is host-mounted.
+    ...(slide.rive_src ? [['data-rive-src', withBase(slide.rive_src, ctx.base)]] : []),
+    ...(slide.rive_fallback ? [['data-rive-fallback', withBase(slide.rive_fallback, ctx.base)]] : []),
   ].filter(([, v]) => v !== undefined && v !== null && v !== '');
   const open = `<section ${attrs.map(([k, v]) => `${k}="${escapeHtml(v)}"`).join(' ')}>`;
   const figureImg = slide.figure?.src

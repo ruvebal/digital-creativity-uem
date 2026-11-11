@@ -1,0 +1,18 @@
+/* Companion to site.css page-art / Reveal rive hosts.
+ * Keep rules here thin; site.css owns page-art geometry. */
+
+.rive-background__canvas {
+  pointer-events: none; /* ambient overlay — not interactive */
+}
+
+.reveal .slide-background-content.rive-background .rive-background__canvas {
+  position: absolute;
+  inset: 0;
+  opacity: 0.55;
+  z-index: 1;
+}
+
+.reveal .slide-background-content.rive-background.is-rive-live {
+  /* Prefer live .riv over the static diagram twin when used as slide bg. */
+  background-image: none !important;
+}
