@@ -609,6 +609,44 @@
       "rights_status": "flagged"
     }
   },
+  "i-7-fashion-references": {
+    "cover": {
+      "src": "/assets/images/deck-media/324922ac305a2043.webp",
+      "alt": "News kiosk displaying stacks of fashion and craft magazines as a curated visual inventory",
+      "caption_html": "<span class=\"slide-caption__title\">News kiosk — exhibition of fashion magazines</span> · <span class=\"slide-caption__author\">Wikimedia Commons uploader</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/5c8edc58c61d8a47.webp",
+      "alt": "1967 paper dress printed with a Bob Dylan photograph from the Poster Dress series",
+      "caption_html": "<span class=\"slide-caption__title\">1967 paper dress, Poster Dress series</span> · <span class=\"slide-caption__author\">Poster Dress series (museum photograph)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/d62e2d90c5ca131d.webp",
+      "alt": "Painted portrait of a woman in a red dress, seated, with strong colour and pose as compositional cues",
+      "caption_html": "<span class=\"slide-caption__title\">Portrait of Senyora Anita with Red Dress</span> · <span class=\"slide-caption__author\">Benet Mercadé</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/882a2085cc0610ad.webp",
+      "alt": "Museum kimono from the Khalili Collection — cleared contrast tile also used on the I.7 lesson",
+      "caption_html": "<span class=\"slide-caption__title\">Khalili Collection Kimono 02</span> · <span class=\"slide-caption__author\">Khalili Collection / Wikimedia Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Khalili_Collection_Kimono_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/324922ac305a2043.webp",
+      "alt": "News kiosk displaying stacks of fashion and craft magazines as a curated visual inventory",
+      "caption_html": "<span class=\"slide-caption__title\">News kiosk — exhibition of fashion magazines</span> · <span class=\"slide-caption__author\">Wikimedia Commons uploader</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/d62e2d90c5ca131d.webp",
+      "alt": "Painted portrait of a woman in a red dress — a tile that can earn its place with a full ledger",
+      "caption_html": "<span class=\"slide-caption__title\">Portrait of Senyora Anita with Red Dress</span> · <span class=\"slide-caption__author\">Benet Mercadé</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    }
+  },
   "u3-marketing-publicidad": {
     "cover": {
       "src": "/assets/images/deck-media/0b217cf0bc282992.webp",

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="t7 d7">
+  <title id="t7">Reference as situated lineage</title>
+  <desc id="d7">Five steps from search surface through selection, named visual property, transformation, and credited composition; a reproduction dead-end is marked.</desc>
+  <defs>
+    <linearGradient id="g7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F2E8"/>
+      <stop offset="1" stop-color="#E8DFD0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="620" rx="28" fill="url(#g7)"/>
+
+  <!-- pipeline nodes -->
+  <g font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">
+    <g transform="translate(80 180)">
+      <rect width="220" height="140" rx="16" fill="#FFFCF7" stroke="#111111" stroke-width="2.5"/>
+      <text x="110" y="58" text-anchor="middle" font-size="20" font-weight="500" fill="#111111">SEARCH</text>
+      <text x="110" y="90" text-anchor="middle" font-size="15" fill="#333333">what surfaces</text>
+      <text x="110" y="114" text-anchor="middle" font-size="15" fill="#C44536">before choice</text>
+    </g>
+    <g transform="translate(360 180)">
+      <rect width="220" height="140" rx="16" fill="#FFFCF7" stroke="#111111" stroke-width="2.5"/>
+      <text x="110" y="58" text-anchor="middle" font-size="20" font-weight="500" fill="#111111">SELECT</text>
+      <text x="110" y="90" text-anchor="middle" font-size="15" fill="#333333">one fragment</text>
+      <text x="110" y="114" text-anchor="middle" font-size="15" fill="#333333">with a reason</text>
+    </g>
+    <g transform="translate(640 180)">
+      <rect width="220" height="140" rx="16" fill="#FFFCF7" stroke="#111111" stroke-width="2.5"/>
+      <text x="110" y="58" text-anchor="middle" font-size="20" font-weight="500" fill="#111111">NAME</text>
+      <text x="110" y="90" text-anchor="middle" font-size="15" fill="#333333">visual property</text>
+      <text x="110" y="114" text-anchor="middle" font-size="15" fill="#333333">not the whole look</text>
+    </g>
+    <g transform="translate(920 180)">
+      <rect width="220" height="140" rx="16" fill="#FFFCF7" stroke="#111111" stroke-width="2.5"/>
+      <text x="110" y="58" text-anchor="middle" font-size="20" font-weight="500" fill="#111111">TRANSFORM</text>
+      <text x="110" y="90" text-anchor="middle" font-size="15" fill="#333333">recontextualise</text>
+      <text x="110" y="114" text-anchor="middle" font-size="15" fill="#333333">keep lineage</text>
+    </g>
+    <g transform="translate(1200 180)">
+      <rect width="300" height="140" rx="16" fill="#111111"/>
+      <text x="150" y="58" text-anchor="middle" font-size="20" font-weight="500" fill="#F7F2E8">CREDIT</text>
+      <text x="150" y="90" text-anchor="middle" font-size="15" fill="#F7F2E8">source · licence · use</text>
+      <text x="150" y="114" text-anchor="middle" font-size="15" fill="#E8C56C">composition, not collage</text>
+    </g>
+
+    <!-- arrows -->
+    <path d="M300 250 H360" stroke="#111111" stroke-width="3"/>
+    <path d="M580 250 H640" stroke="#111111" stroke-width="3"/>
+    <path d="M860 250 H920" stroke="#111111" stroke-width="3"/>
+    <path d="M1140 250 H1200" stroke="#111111" stroke-width="3"/>
+
+    <!-- reproduction trap -->
+    <g transform="translate(640 400)">
+      <rect width="500" height="90" rx="14" fill="none" stroke="#C44536" stroke-width="2.5" stroke-dasharray="7 6"/>
+      <text x="250" y="40" text-anchor="middle" font-size="18" font-weight="500" fill="#C44536">reproduction trap</text>
+      <text x="250" y="68" text-anchor="middle" font-size="15" fill="#333333">copying the look · erasing provenance · skipping the named property</text>
+    </g>
+    <path d="M750 320 V400" stroke="#C44536" stroke-width="2" stroke-dasharray="5 5"/>
+
+    <text x="800" y="560" text-anchor="middle" font-size="22" font-weight="500" fill="#111111">A reference informs when lineage stays visible</text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+I.6 / I.7 lesson-figures — media ledger (2026-11-11)
+
+Wikimedia Commons (browser User-Agent; FilePath/API; resized max edge 1600):
+  see SOURCE-WIKIMEDIA.json — CC0 / CC BY-SA files for non-Eurocentric volume + cleared contrast tiles.
+
+Fashion and Race Database / Asian Fashion Archive (platform pages, NOT cleared local stills):
+  see SOURCE-FRD-PLATFORM.json — platform-page screenshots + FRD feature-card thumbnails
+  for citation/navigation teaching only. Captions in lessons state: do not reuse as moodboard texture.
+
+Prior local stills in this folder (paper dress, Mercadé, WIP board, AI astronaut, etc.)
+  retain their earlier Commons / course-ledger provenance.

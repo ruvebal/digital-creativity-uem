@@ -1,0 +1,55 @@
+[
+  {
+    "file": "frd-thumb-e5512db6ece10767.jpg",
+    "w": 1080,
+    "h": 674,
+    "bytes": 100623,
+    "kind": "platform-page-thumbnail",
+    "label": "FRD feature card \u2014 Decolonizing Fashion Studies Education: A Student\u2019s POV",
+    "source_url": "https://fashionandrace.org/database/wp-content/uploads/sites/2/2025/01/fashionandrace.org-Decolonizing-Fashion-Student-POV-Marissa-Scharlau-1-1080x675.jpg",
+    "platform_page": "https://fashionandrace.org/database/",
+    "rights": "platform page thumbnail \u2014 NOT a rights-cleared local still; citation/navigation teaching only; do not reuse as moodboard texture"
+  },
+  {
+    "file": "frd-thumb-76c9c07db2b448a5.jpg",
+    "w": 1080,
+    "h": 675,
+    "bytes": 128396,
+    "kind": "platform-page-thumbnail",
+    "label": "FRD feature card \u2014 Native American Braids (Objects That Matter)",
+    "source_url": "https://fashionandrace.org/database/wp-content/uploads/sites/2/2026/05/fashionandrace.org-fashionandrace.org-native-american-braids-objects-that-matter-4-1080x675.jpg",
+    "platform_page": "https://fashionandrace.org/database/",
+    "rights": "platform page thumbnail \u2014 NOT a rights-cleared local still; citation/navigation teaching only; do not reuse as moodboard texture"
+  },
+  {
+    "file": "frd-thumb-4b33c348eed232e8.jpg",
+    "w": 768,
+    "h": 830,
+    "bytes": 47990,
+    "kind": "platform-page-thumbnail",
+    "label": "FRD platform tile \u2014 Cutting a Figure (book cover as surfaced on platform)",
+    "source_url": "https://fashionandrace.org/database/wp-content/uploads/sites/2/2020/07/cutting-a-figure-768x830.jpg",
+    "platform_page": "https://fashionandrace.org/database/",
+    "rights": "platform page thumbnail \u2014 NOT a rights-cleared local still; citation/navigation teaching only; do not reuse as moodboard texture"
+  },
+  {
+    "file": "frd-platform-98359d8ac771162f.jpg",
+    "w": 1204,
+    "h": 1600,
+    "bytes": 345256,
+    "kind": "platform-page-screenshot",
+    "label": "Fashion and Race Database \u2014 platform home (Race and Image-Making theme)",
+    "platform_page": "https://fashionandrace.org/database/",
+    "rights": "platform page screenshot \u2014 NOT a rights-cleared local still; citation/navigation teaching only; do not reuse as moodboard texture"
+  },
+  {
+    "file": "afa-platform-0652c2bb98b673ea.jpg",
+    "w": 1204,
+    "h": 1600,
+    "bytes": 279553,
+    "kind": "platform-page-screenshot",
+    "label": "Asian Fashion Archive \u2014 platform home",
+    "platform_page": "https://www.asianfashionarchive.com/",
+    "rights": "platform page screenshot \u2014 NOT a rights-cleared local still; citation/navigation teaching only; do not reuse as moodboard texture"
+  }
+]

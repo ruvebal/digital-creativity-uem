@@ -1,0 +1,360 @@
+---
+layout: null
+---
+{
+  "schema_version": 2,
+  "locale": "en",
+  "unit_label": "Digital Creativity I · I.7 Fashion References",
+  "final_event_theme": "Communicate and inspire: What is fashion for you?",
+  "media_selection": {
+    "unit_id": "I.7",
+    "project_id": "dc",
+    "collection": "fashion-references",
+    "strategy": "slide-bound-asset_id",
+    "description": "Reference-ledger teaching stills: archive wall, citation garment, credited portrait, non-Euro textile.",
+    "media_overrides": {}
+  },
+  "assets": [
+    {
+      "media_slot_id": "I.7.cover",
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/324922ac305a2043.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "title": "News kiosk — exhibition of fashion magazines",
+      "alt_text": "News kiosk displaying stacks of fashion and craft magazines as a curated visual inventory",
+      "author": "Wikimedia Commons uploader",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "Modern photograph; rely on stated licence",
+      "rights_status": "ok",
+      "cropped": false,
+      "sameAs": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-reference-archive",
+      "renditionOf": "/assets/images/deck-media/324922ac305a2043.webp"
+    },
+    {
+      "media_slot_id": "I.7.analysis-model",
+      "asset_id": "wikimedia:File:1967 paper dress with photograph of Bob Dylan from the Poster Dress series.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/5c8edc58c61d8a47.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg",
+      "title": "1967 paper dress, Poster Dress series",
+      "alt_text": "1967 paper dress printed with a Bob Dylan photograph from the Poster Dress series",
+      "author": "Poster Dress series (museum photograph)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Poster Dress series · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "Photograph licence ok; underlying celebrity image may carry separate rights — teaching use only",
+      "rights_status": "flagged",
+      "cropped": false,
+      "sameAs": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-paper-dress-tile",
+      "renditionOf": "/assets/images/lesson-figures/i6-i7/23feafacc2d66964.jpg"
+    },
+    {
+      "media_slot_id": "I.7.masterclass-ledger",
+      "asset_id": "wikimedia:File:Benet Mercadé - Portrait of Senyora Anita with Red Dress - Google Art Project.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/d62e2d90c5ca131d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg",
+      "title": "Portrait of Senyora Anita with Red Dress",
+      "alt_text": "Painted portrait of a woman in a red dress, seated, with strong colour and pose as compositional cues",
+      "author": "Benet Mercadé",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Museu Nacional d’Art de Catalunya / Wikimedia Commons",
+      "credit_line": "Benet Mercadé · Museu Nacional d’Art de Catalunya",
+      "author_death_year": 1897,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1897; public domain in the EU",
+      "rights_status": "ok",
+      "cropped": false,
+      "sameAs": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-credited-vs-mute",
+      "renditionOf": "/assets/images/lesson-figures/i6-i7/82a634cf9a8e964c.jpg"
+    },
+    {
+      "media_slot_id": "I.7.masterclass-non-euro",
+      "asset_id": "wikimedia:File:Khalili Collection Kimono 02.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/882a2085cc0610ad.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Khalili_Collection_Kimono_02.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Khalili_Collection_Kimono_02.jpg",
+      "title": "Khalili Collection Kimono 02",
+      "alt_text": "Museum kimono from the Khalili Collection — cleared contrast tile also used on the I.7 lesson",
+      "author": "Khalili Collection / Wikimedia Commons",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Khalili Collection · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "Modern museum photograph under CC BY-SA 4.0",
+      "rights_status": "ok",
+      "cropped": false,
+      "sameAs": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-cleared-kimono-contrast",
+      "renditionOf": "/assets/images/lesson-figures/i6-i7/wm-54b414ca06027962.jpg"
+    },
+    {
+      "media_slot_id": "I.7.lab-1",
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/324922ac305a2043.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "title": "News kiosk — exhibition of fashion magazines",
+      "alt_text": "News kiosk displaying stacks of fashion and craft magazines as a curated visual inventory",
+      "author": "Wikimedia Commons uploader",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "Modern photograph; rely on stated licence",
+      "rights_status": "ok",
+      "cropped": false,
+      "sameAs": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-reference-archive"
+    },
+    {
+      "media_slot_id": "I.7.lab-2",
+      "asset_id": "wikimedia:File:Benet Mercadé - Portrait of Senyora Anita with Red Dress - Google Art Project.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/d62e2d90c5ca131d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg",
+      "title": "Portrait of Senyora Anita with Red Dress",
+      "alt_text": "Painted portrait of a woman in a red dress — a tile that can earn its place with a full ledger",
+      "author": "Benet Mercadé",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Museu Nacional d’Art de Catalunya / Wikimedia Commons",
+      "credit_line": "Benet Mercadé · Museu Nacional d’Art de Catalunya",
+      "author_death_year": 1897,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1897; public domain in the EU",
+      "rights_status": "ok",
+      "cropped": false,
+      "sameAs": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-credited-vs-mute",
+      "renditionOf": "/assets/images/lesson-figures/i6-i7/82a634cf9a8e964c.jpg"
+    }
+  ],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "I.7 · Fashion references",
+      "sentence": "Reference is a situated act of selection and recontextualisation — not image collecting.",
+      "prompt": "CONTENIDOS: Fuentes y referencias compositivas en el diseño de moda",
+      "media_slot_id": "I.7.cover",
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "image_brief": "A magazine wall already arranges desire — layout proposes how garments should be compared.",
+      "notes": [
+        "Open with the master idea: sourcing is selection + recontextualisation.",
+        "Name the CONTENIDOS line aloud."
+      ],
+      "citation": {
+        "label": "(Lesson figure · archive wall)",
+        "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-reference-archive"
+      }
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "What a search surfaces already carries a representational politics — before you choose a tile.",
+      "notes": [
+        "Anchor Campinho et al. on Google Images body searches.",
+        "Ask whose agency is missing when a source becomes a moodboard tile."
+      ]
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "A tile that is already a citation",
+      "sentence": "Borrowing a garment that quotes a photograph doubles the erasure unless the ledger is complete.",
+      "media_slot_id": "I.7.analysis-model",
+      "asset_id": "wikimedia:File:1967 paper dress with photograph of Bob Dylan from the Poster Dress series.jpg",
+      "image_brief": "1967 paper dress — the garment quotes a photograph.",
+      "notes": [
+        "Model: source, reason, cultural position, transformation, deliberate non-copy."
+      ],
+      "citation": {
+        "label": "(Lesson figure · paper dress)",
+        "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-paper-dress-tile"
+      }
+    },
+    {
+      "slide_id": "debate",
+      "slide_role": "analysis_model",
+      "background_kind": "geometrical",
+      "heading": "Debate · Who owns the bias?",
+      "sentence": "If a mood-board search reproduces a biased pattern before you've chosen anything, whose responsibility is it?",
+      "notes": [
+        "No source settles it; Campinho makes the question unavoidable."
+      ]
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "1 · Moodboard as research",
+      "sentence": "A board answers a stated question — it is not collage décor.",
+      "notes": [
+        "Write the research question on the board before any tile lands."
+      ]
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "2 · Reference ledger",
+      "sentence": "Source · reason · cultural position · transformation · what you refused to copy.",
+      "media_slot_id": "I.7.masterclass-ledger",
+      "asset_id": "wikimedia:File:Benet Mercadé - Portrait of Senyora Anita with Red Dress - Google Art Project.jpg",
+      "image_brief": "Credited portrait that can argue colour or pose — not the whole look.",
+      "notes": [
+        "Keep the five fields visible for every tile."
+      ],
+      "citation": {
+        "label": "(Lesson figure · credited portrait)",
+        "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-credited-vs-mute"
+      }
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "3 · Inspiration · quotation · adaptation · infringement",
+      "sentence": "Name the studio decision; do not hide a copy behind the word inspiration.",
+      "notes": [
+        "Walk one example of each register with the class."
+      ]
+    },
+    {
+      "slide_id": "masterclass-4",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "4 · Refuse a Euro-only default",
+      "sentence": "Use a cleared non-Eurocentric tile (or ledger an FRD/AFA path) — do not paste platform thumbs as texture.",
+      "media_slot_id": "I.7.masterclass-non-euro",
+      "asset_id": "wikimedia:File:Khalili Collection Kimono 02.jpg",
+      "image_brief": "Cleared kimono contrast — same file as lesson #figure-cleared-kimono-contrast; FRD/AFA stay linked, not re-embedded.",
+      "notes": [
+        "Point to lesson FRD/AFA figures; open addendum source map for destinations.",
+        "Addendum: /lessons/en/digital-creativity-i/i-7-media-sources-addendum/#instructor-source-map"
+      ],
+      "citation": {
+        "label": "(Lesson figure · cleared kimono)",
+        "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-cleared-kimono-contrast"
+      }
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "5 · AI speed and provenance",
+      "sentence": "Generation accelerates boards while raising provenance and stylistic-convergence questions.",
+      "notes": [
+        "Moodboard teaching efficacy remains an open gap — say so."
+      ]
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Name the five ledger fields without looking.",
+      "notes": [
+        "Source · reason · cultural position · transformation · deliberate non-copy."
+      ]
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Leave a process trace",
+      "sentence": "Two exercises: audit the search surface, then ledger one tile transform.",
+      "notes": [
+        "Point students to the lesson Lab anchors."
+      ]
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "Exercise 1 · Audit the search surface",
+      "sentence": "Run the same query twice; name the pattern that appears before you choose.",
+      "media_slot_id": "I.7.lab-1",
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "method_id": "i7-references-lab-1",
+      "notes": [
+        "After the audit, send students to addendum Exercise A for named repositories.",
+        "/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#lab-exercise-a"
+      ],
+      "citation": {
+        "label": "(Lesson Lab 1)",
+        "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#lab-exercise-1"
+      }
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "Exercise 2 · Ledger + one tile transform",
+      "sentence": "Complete five fields, then change one compositional cue — not the whole look.",
+      "media_slot_id": "I.7.lab-2",
+      "asset_id": "wikimedia:File:Benet Mercadé - Portrait of Senyora Anita with Red Dress - Google Art Project.jpg",
+      "method_id": "i7-references-lab-2",
+      "notes": [
+        "Non-Eurocentric check: at least one ledger row must leave the Euro/US default."
+      ],
+      "citation": {
+        "label": "(Lesson Lab 2)",
+        "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#lab-exercise-2"
+      }
+    },
+    {
+      "slide_id": "addendum-link",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "Where to look next",
+      "sentence": "Destinations, provenance graphs, and repository Labs live on the addendum — one atlas, linked from this unit.",
+      "citation": {
+        "label": "(I.7 media-sources addendum)",
+        "href": "/lessons/en/digital-creativity-i/i-7-media-sources-addendum/"
+      },
+      "notes": [
+        "Do not paste FRD/AFA thumbs; link the lesson figures.",
+        "/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#instructor-source-map",
+        "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-frd-platform-page"
+      ]
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Keep Lab traces honest in the portfolio index — do not invent a graded deliverable How to Pass does not ask for.",
+      "notes": [
+        "Carry forward via addendum source map — do not invent a second destination list.",
+        "/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#instructor-source-map"
+      ],
+      "citation": {
+        "label": "(Media sources addendum)",
+        "href": "/lessons/en/digital-creativity-i/i-7-media-sources-addendum/"
+      }
+    }
+  ]
+}
