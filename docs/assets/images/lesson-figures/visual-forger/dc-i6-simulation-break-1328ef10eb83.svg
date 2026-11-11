@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+<title id="t">Supported material versus unsupported virtual contour</title>
+<desc id="d">Left: cloth hangs and ends at the posts. Right: virtual contour continues past the support; the marked break is the discrepancy to test.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1a1524"/><stop offset="100%" stop-color="#121018"/>
+  </linearGradient>
+  <linearGradient id="cloth" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#3a2834"/><stop offset="100%" stop-color="#241820"/>
+  </linearGradient>
+  <linearGradient id="meshfill" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1c2a2a"/><stop offset="100%" stop-color="#152022"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect x="60" y="70" width="720" height="760" rx="10" fill="#1a1622" stroke="#3d374c" stroke-width="1.5"/>
+<rect x="820" y="70" width="720" height="760" rx="10" fill="#1a1622" stroke="#3d374c" stroke-width="1.5"/>
+<text x="420.0" y="125.0" fill="#f07c63" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="26" font-weight="normal" text-anchor="middle">supported material</text>
+<text x="1180.0" y="125.0" fill="#9be2d1" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="26" font-weight="normal" text-anchor="middle">unsupported virtual</text>
+<line x1="200.0" y1="560.0" x2="200.0" y2="428.0" stroke="#e8c56c" stroke-width="5" opacity="0.9" stroke-linecap="round"/>
+<line x1="428.0" y1="606.2" x2="428.0" y2="474.2" stroke="#e8c56c" stroke-width="5" opacity="0.9" stroke-linecap="round"/>
+<line x1="200.0" y1="428.0" x2="428.0" y2="474.2" stroke="#e8c56c" stroke-width="6" opacity="0.95" stroke-linecap="round"/>
+<path d="M200.0 431.3 L215.1 452.2 L230.4 472.0 L246.3 489.5 L262.8 503.9 L280.3 514.3 L298.8 520.4 L318.3 522.0 L338.8 519.3 L360.3 512.6 L382.4 502.8 L405.1 490.7 L428.0 477.5 L428.0 604.0 L409.0 600.1 L390.0 596.3 L371.0 592.4 L352.0 588.6 L333.0 584.8 L314.0 580.9 L295.0 577.0 L276.0 573.2 L257.0 569.3 L238.0 565.5 L219.0 561.6 L200.0 557.8 Z" fill="#2a2030" stroke="none" stroke-width="0" opacity="0.65" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M200.0 431.3 L215.1 452.2 L230.4 472.0 L246.3 489.5 L262.8 503.9 L280.3 514.3 L298.8 520.4 L318.3 522.0 L338.8 519.3 L360.3 512.6 L382.4 502.8 L405.1 490.7 L428.0 477.5" fill="none" stroke="#f07c63" stroke-width="5" opacity="0.98" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="420.0" y="790.0" fill="#9a93a6" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="18" font-weight="normal" text-anchor="middle">ends at the support</text>
+<line x1="960.0" y1="560.0" x2="960.0" y2="428.0" stroke="#e8c56c" stroke-width="5" opacity="0.9" stroke-linecap="round"/>
+<line x1="1188.0" y1="606.2" x2="1188.0" y2="474.2" stroke="#e8c56c" stroke-width="5" opacity="0.45" stroke-linecap="round"/>
+<line x1="960.0" y1="428.0" x2="1188.0" y2="474.2" stroke="#e8c56c" stroke-width="6" opacity="0.7" stroke-linecap="round"/>
+<line x1="960.0" y1="544.6" x2="1378.0" y2="629.3" stroke="#3d374c" stroke-width="1.2" opacity="0.45" stroke-linecap="round"/>
+<line x1="960.0" y1="518.2" x2="1378.0" y2="602.9" stroke="#3d374c" stroke-width="1.2" opacity="0.45" stroke-linecap="round"/>
+<line x1="960.0" y1="491.8" x2="1378.0" y2="576.5" stroke="#3d374c" stroke-width="1.2" opacity="0.45" stroke-linecap="round"/>
+<line x1="960.0" y1="465.4" x2="1378.0" y2="550.1" stroke="#3d374c" stroke-width="1.2" opacity="0.45" stroke-linecap="round"/>
+<line x1="960.0" y1="439.0" x2="1378.0" y2="523.7" stroke="#3d374c" stroke-width="1.2" opacity="0.45" stroke-linecap="round"/>
+<path d="M960.0 428.0 L978.8 451.0 L997.7 472.4 L1016.7 490.8 L1036.0 505.0 L1055.6 514.2 L1075.5 518.0 L1095.9 516.4 L1116.6 510.0 L1137.9 499.7 L1159.6 486.6 L1181.4 582.7 L1202.6 584.7 L1223.9 586.7 L1245.1 588.7 L1266.3 590.6 L1287.6 592.6 L1308.8 594.6" fill="none" stroke="#9be2d1" stroke-width="5" opacity="0.98" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1188.0" cy="537.1" r="16" fill="none" stroke="#f07c63" stroke-width="3.5"/>
+<line x1="1172.0" y1="521.1" x2="1204.0" y2="553.1" stroke="#f07c63" stroke-width="3.2" opacity="0.95" stroke-linecap="round"/>
+<line x1="1204.0" y1="521.1" x2="1172.0" y2="553.1" stroke="#f07c63" stroke-width="3.2" opacity="0.95" stroke-linecap="round"/>
+<text x="1216.0" y="529.1" fill="#f07c63" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="20" font-weight="normal" text-anchor="start">break</text>
+<text x="1180.0" y="790.0" fill="#e8c56c" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="17" font-weight="normal" text-anchor="middle">hold: support · change: contour</text>
+<line x1="790.0" y1="450.0" x2="830.0" y2="450.0" stroke="#f07c63" stroke-width="3" opacity="0.85" stroke-linecap="round"/>
+<path d="M815.0 438.0 L838.0 450.0 L815.0 462.0 Z" fill="#f07c63" stroke="#f07c63" stroke-width="1" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

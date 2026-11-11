@@ -7,17 +7,132 @@ layout: null
   "media_selection": {
     "unit_id": "I.6",
     "project_id": "dc",
-    "collection": "course-diagrams",
-    "strategy": "authored-diagram-backgrounds",
-    "description": "Ilustraciones originales de la asignatura; no se atribuyen derechos de medios externos.",
+    "collection": "volume-drape",
+    "strategy": "slide-bound-asset_id",
+    "description": "Accepted drapery/volume stills, Dürer perspective plates, and Rive motion slides kept separate from reading cards.",
     "media_overrides": {}
   },
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "I.6.cover",
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Leonardo_da_vinci%2C_Garment_study_for_a_seated_figure.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg",
+      "title": "Leonardo da Vinci, Garment study for a seated figure",
+      "alt_text": "Leonardo da Vinci garment study for a seated figure showing deep cloth folds",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.6.analysis-model",
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/f4786040093c9e0d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg",
+      "title": "Drapery study for figure of Sculpture",
+      "alt_text": "A drapery study for a figure of Sculpture with construction lines in the folds",
+      "author": "Kenyon Cox (Library of Congress scan)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Kenyon Cox · Library of Congress / Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "EU term not fully verified",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.6.lab-1",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/8243faeb5945da08.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg",
+      "title": "Dresses by Rei Kawakubo - Sarah Stierch 02",
+      "alt_text": "Exhibition view of Rei Kawakubo dresses with transformed but readable silhouettes",
+      "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Sarah Stierch (photograph); Rei Kawakubo (garments) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.6.lab-2",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/4e655e0f068fdc07.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg",
+      "title": "Dresses by Rei Kawakubo - Sarah Stierch 03",
+      "alt_text": "Second exhibition view of Rei Kawakubo dresses for comparing volume change",
+      "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Sarah Stierch (photograph); Rei Kawakubo (garments) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.6.masterclass-2",
+      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/1d8013b42b50dedf.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
+      "title": "Dürer — Man Drawing a Lute",
+      "alt_text": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
+      "author": "Albrecht Dürer",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Albrecht Dürer · Wikimedia Commons",
+      "author_death_year": 1528,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.6.masterclass-3",
+      "asset_id": "wikimedia:File:Duerer Underweysung der Messung fig 001 page 181.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/741970e6613cb99e.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
+      "title": "Dürer — Underweysung der Messung (perspective construction)",
+      "alt_text": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
+      "author": "Albrecht Dürer",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Albrecht Dürer · Wikimedia Commons",
+      "author_death_year": 1528,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
   "slides": [
     {
       "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "geometrical",
+      "background_kind": "curated",
       "heading": "I.6 · Volumen",
       "sentence": "El volumen se contrasta entre materia, proyección y revisión.",
       "notes": [
@@ -45,7 +160,11 @@ layout: null
         "dcterms": [
           "dcterms:type=Text"
         ]
-      }
+      },
+      "fallback_background_kind": "geometrical",
+      "media_slot_id": "I.6.cover",
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "image_brief": "Estudio de vestimenta de Leonardo da Vinci: pliegues observados antes de interpretar el volumen."
     },
     {
       "slide_id": "analysis-opener",
@@ -60,16 +179,13 @@ layout: null
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Compara tres vistas",
       "sentence": "Cada proyección hace visible un contorno distinto del mismo drapeado.",
       "notes": [
         "Modela cómo cada proyección revela un contorno distinto del mismo drapeado."
       ],
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
-      "diagram_alt": "Un pliegue drapeado aparece con contornos distintos en tres proyecciones.",
-      "diagram_caption": "Un pliegue, tres proyecciones",
-      "image_brief": "Tres proyecciones revelan contornos distintos de un mismo volumen drapeado.",
+      "image_brief": "Estudio de drapeado con líneas de construcción visibles en los pliegues.",
       "quote": "Un objeto puede proyectar varias vistas honestas.",
       "quote_origin": "tao_invented",
       "citation": {
@@ -93,7 +209,11 @@ layout: null
         ]
       },
       "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
-      "diagram_rights": "Ilustración original · todos los derechos reservados"
+      "diagram_rights": "Ilustración original · todos los derechos reservados",
+      "media_slot_id": "I.6.analysis-model",
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
+      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p4-space-box-b453853d6d87.riv",
+      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p4-space-box-bg-b30a812e1dd7.svg"
     },
     {
       "slide_id": "masterclass-1",
@@ -104,10 +224,10 @@ layout: null
       "notes": [
         "Deja que un estudio físico y un pase digital se corrijan mutuamente."
       ],
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
-      "diagram_alt": "El estudio físico y el pase digital vuelven tras la crítica y la revisión.",
-      "diagram_caption": "Un ciclo con un motivo visible",
-      "image_brief": "Un ciclo acotado conecta estudio físico, pase digital, crítica y una revisión registrada.",
+      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-bg-35ec3bca368c.svg",
+      "diagram_alt": "Diagrama de dos paneles: espacio psicofisiológico frente a perspectiva central.",
+      "diagram_caption": "P1 · espacio psicofisiológico ≠ matemático",
+      "image_brief": "Diagrama de dos paneles: espacio psicofisiológico frente a perspectiva central.",
       "quote": "Deja que cada pase plantee una pregunta más precisa al siguiente.",
       "quote_origin": "tao_invented",
       "citation": {
@@ -130,22 +250,19 @@ layout: null
           "dcterms:type=Text"
         ]
       },
-      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
+      "diagram_credit": "Rubén Vega Balbás · perspective-kit P1",
       "diagram_rights": "Ilustración original · todos los derechos reservados"
     },
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "2 · Comprobar el pliegue simulado",
-      "sentence": "Un contorno digital verosímil todavía necesita comprobarse con el material.",
+      "background_kind": "curated",
+      "heading": "2 · Probar el pliegue simulado",
+      "sentence": "Un contorno digital plausible aún necesita una comprobación material.",
       "notes": [
         "Un contorno digital verosímil todavía necesita comprobarse con el material."
       ],
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
-      "diagram_alt": "El contorno virtual continúa donde el material apoyado no lo hace.",
-      "diagram_caption": "Una diferencia que merece comprobarse",
-      "image_brief": "La malla virtual continúa más allá del pliegue sostenido por el material físico.",
+      "image_brief": "Dürer draughtsman using a perspective machine to draw a lute — construction before fit.",
       "quote": "Una superficie convincente todavía debe ponerse a prueba con el material.",
       "quote_origin": "tao_invented",
       "citation": {
@@ -168,22 +285,37 @@ layout: null
           "dcterms:type=Text"
         ]
       },
-      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
-      "diagram_rights": "Ilustración original · todos los derechos reservados"
+      "diagram_rights": "Ilustración original · todos los derechos reservados",
+      "media_slot_id": "I.6.masterclass-2",
+      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg"
+    },
+    {
+      "slide_id": "masterclass-2-rive",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Movimiento · perspectiva central",
+      "sentence": "Deja que el punto de fuga se arme — luego vuelve a la prueba material.",
+      "notes": [
+        "Rive alone: no duplicate labelled diagram in the card."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg",
+      "diagram_alt": "Central vanishing-point construction (textless background).",
+      "diagram_caption": "P5 · motion field",
+      "diagram_credit": "Rubén Vega Balbás · perspective-kit",
+      "image_brief": "Central VP motion field",
+      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p5-central-vp-171766bc7dee.riv",
+      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg"
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "3 · Cambiar una variable",
-      "sentence": "Mantén la escala y el punto de vista mientras revisas una diferencia.",
+      "background_kind": "curated",
+      "heading": "3 · Cambia una variable",
+      "sentence": "Mantén escala y punto de vista estables al revisar un desajuste.",
       "notes": [
         "Mantén la escala y el punto de vista mientras revisas una diferencia."
       ],
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
-      "diagram_alt": "Tres estudios acotados aumentan la profundidad y conservan una sección común.",
-      "diagram_caption": "Profundidad cambiada en un paso",
-      "image_brief": "Tres estudios escalonados aumentan la profundidad y conservan una dirección de sección común.",
+      "image_brief": "Dürer Underweysung der Messung plate — systematic construction as symbolic form.",
       "quote": "Una revisión importa si su motivo sigue visible.",
       "quote_origin": "tao_invented",
       "citation": {
@@ -206,8 +338,26 @@ layout: null
           "dcterms:type=Text"
         ]
       },
-      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
-      "diagram_rights": "Ilustración original · todos los derechos reservados"
+      "diagram_rights": "Ilustración original · todos los derechos reservados",
+      "media_slot_id": "I.6.masterclass-3",
+      "asset_id": "wikimedia:File:Duerer Underweysung der Messung fig 001 page 181.jpg"
+    },
+    {
+      "slide_id": "masterclass-3-rive",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · Movimiento · multi-vista",
+      "sentence": "Tres cámaras, una tela — observa cómo sostienen los ejes compartidos.",
+      "notes": [
+        "Rive alone: multi-view drape with XYZ triads."
+      ],
+      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg",
+      "diagram_alt": "Fashion multi-view textless background.",
+      "diagram_caption": "P6 · motion field",
+      "diagram_credit": "Rubén Vega Balbás · perspective-kit",
+      "image_brief": "Fashion multi-view motion field",
+      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p6-fashion-multiview-e5c6807ca13e.riv",
+      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg"
     },
     {
       "slide_id": "retrieval",
@@ -239,17 +389,14 @@ layout: null
     {
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Ejercicio 1 · Construir un pliegue",
       "sentence": "Construye un volumen pequeño con papel, tela u otro material disponible; fotografía dos vistas y marca dónde cambia el pliegue.",
       "notes": [
         "Individual, 15 minutos. Se admite una alternativa táctil o estática.",
         "Rastro para el portfolio: Dos vistas y una nota sobre el cambio de contorno, apoyo o caída."
       ],
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
-      "diagram_alt": "Un material plegado y su malla digital se comparan en una diferencia señalada.",
-      "diagram_caption": "Construir profundidad para probar un pliegue",
-      "image_brief": "Un material plegado y su malla digital se comparan en una diferencia visible.",
+      "image_brief": "Vista de exposición de vestidos de Rei Kawakubo con siluetas transformadas pero legibles.",
       "portfolio_bound": true,
       "portfolio_trace": "Dos vistas y una nota sobre el cambio de contorno, apoyo o caída.",
       "timer_seconds": 900,
@@ -281,23 +428,21 @@ layout: null
           "dcterms:type=Text"
         ]
       },
-      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
-      "diagram_rights": "Ilustración original · todos los derechos reservados"
+      "diagram_rights": "Ilustración original · todos los derechos reservados",
+      "media_slot_id": "I.6.lab-1",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg"
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Ejercicio 2 · Contrastar y revisar",
       "sentence": "Compara el estudio físico con una interpretación digital sencilla; cambia una variable y conserva la vista anterior.",
       "notes": [
         "Individual, 15 minutos. Se admite una alternativa táctil o estática.",
         "Rastro para el portfolio: Par antes/después y una frase que explique el cambio."
       ],
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
-      "diagram_alt": "Una revisión local se comprueba frente al contorno de origen conservado.",
-      "diagram_caption": "Conservar el origen junto a la revisión",
-      "image_brief": "Un contorno modificado se compara con su trazo de origen conservado.",
+      "image_brief": "Segunda vista de exposición de Kawakubo para comparar el cambio de volumen.",
       "portfolio_bound": true,
       "portfolio_trace": "Par antes/después y una frase que explique el cambio.",
       "timer_seconds": 900,
@@ -329,8 +474,9 @@ layout: null
           "dcterms:type=Text"
         ]
       },
-      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
-      "diagram_rights": "Ilustración original · todos los derechos reservados"
+      "diagram_rights": "Ilustración original · todos los derechos reservados",
+      "media_slot_id": "I.6.lab-2",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg"
     },
     {
       "slide_id": "outro",

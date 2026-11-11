@@ -2325,6 +2325,18 @@ html.dark,
 	color: #fff;
 }
 
+.lesson-cover__quote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	max-width: 36ch;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: clamp(0.95rem, 1.6vw, 1.2rem);
+	font-style: italic;
+	line-height: 1.35;
+	color: rgb(247 242 232 / 0.92);
+}
+
 .lesson-title--cover {
 	color: #fff;
 	font-size: clamp(2.1rem, 5.4vw, 4.9rem);
@@ -3436,6 +3448,22 @@ html.dark .lesson-media-slot__body,
 .lesson-figure__missing {
   color: #b45309;
 }
+
+/* Volume diagnostics (I.6): host SVG via <object> so in-SVG .orb-volume
+   animation runs on the represented solids — never spin the outer frame. */
+.lesson-figure--orb {
+  max-width: min(100%, 48rem);
+}
+.lesson-figure--orb object,
+.lesson-figure--orb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.35rem;
+  background: #121018;
+}
+
 
 /* EX10 — practice quizzes (answers on click; printable) */
 .practice-quiz {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+<title id="t">Supported material versus unsupported virtual contour</title>
+<desc id="d">Left: cloth ends at the posts. Right: the virtual contour continues past the support; the marked break is the discrepancy to test by holding support constant.</desc>
+<rect width="1600" height="900" fill="#14121a"/>
+<defs>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1e1a28"/><stop offset="100%" stop-color="#14121a"/>
+  </linearGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="0.6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1600" height="900" fill="url(#glow)"/>
+<rect x="70" y="90" width="680" height="720" rx="8" fill="#1c1824" stroke="#3a3548" stroke-width="1.5"/>
+<rect x="850" y="90" width="680" height="720" rx="8" fill="#1c1824" stroke="#3a3548" stroke-width="1.5"/>
+<text x="410.0" y="140.0" fill="#f07c63" font-family="Georgia, Times New Roman, serif" font-size="26" text-anchor="middle" opacity="0.95">supported material</text>
+<text x="1190.0" y="140.0" fill="#9be2d1" font-family="Georgia, Times New Roman, serif" font-size="26" text-anchor="middle" opacity="0.95">unsupported virtual</text>
+<line x1="299.2" y1="544.3" x2="294.2" y2="366.6" stroke="#e8c56c" stroke-width="6" opacity="0.9" stroke-linecap="round"/>
+<line x1="589.8" y1="581.4" x2="599.7" y2="366.6" stroke="#e8c56c" stroke-width="6" opacity="0.9" stroke-linecap="round"/>
+<path d="M294.4 373.2 L327.3 416.9 L360.8 455.1 L395.3 482.1 L431.1 493.8 L468.8 487.8 L509.0 464.1 L552.3 424.9 L599.3 374.7" fill="none" stroke="#f07c63" stroke-width="5" opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M294.4 373.2 L327.3 416.9 L360.8 455.1 L395.3 482.1 L431.1 493.8 L468.8 487.8 L509.0 464.1 L552.3 424.9 L599.3 374.7 L590.1 574.1 L547.2 568.9 L506.5 563.8 L467.7 559.1 L430.8 554.5 L395.6 550.2 L362.0 546.0 L329.8 542.1 L299.0 538.3 Z" fill="#2a2030" stroke="none" stroke-width="0" opacity="0.55" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="410.0" y="780.0" fill="#8a8494" font-family="Georgia, Times New Roman, serif" font-size="18" text-anchor="middle" opacity="0.95">ends at the support</text>
+<line x1="1079.2" y1="544.3" x2="1074.2" y2="366.6" stroke="#e8c56c" stroke-width="6" opacity="0.9" stroke-linecap="round"/>
+<line x1="1369.8" y1="581.4" x2="1379.7" y2="366.6" stroke="#e8c56c" stroke-width="6" opacity="0.55" stroke-linecap="round"/>
+<line x1="1095.4" y1="523.4" x2="1613.1" y2="581.0" stroke="#3a3548" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="1094.7" y1="496.3" x2="1617.0" y2="544.4" stroke="#3a3548" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="1094.1" y1="468.8" x2="1621.1" y2="507.1" stroke="#3a3548" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="1093.4" y1="440.9" x2="1625.2" y2="469.0" stroke="#3a3548" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="1092.7" y1="412.6" x2="1629.4" y2="430.2" stroke="#3a3548" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<line x1="1092.0" y1="384.0" x2="1633.7" y2="390.7" stroke="#3a3548" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+<path d="M1074.4 373.2 L1105.3 414.7 L1136.9 451.5 L1169.2 478.7 L1202.6 492.7 L1237.5 491.1 L1274.5 473.5 L1314.1 441.0 L1356.8 397.0 L1395.1 499.2 L1439.8 498.4 L1487.1 497.5 L1537.1 496.7 L1590.0 495.7" fill="none" stroke="#9be2d1" stroke-width="5" opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1379.3" cy="374.7" r="14" fill="none" stroke="#f07c63" stroke-width="3"/>
+<line x1="1361.3" y1="356.7" x2="1397.3" y2="392.7" stroke="#f07c63" stroke-width="3" opacity="0.95" stroke-linecap="round"/>
+<line x1="1397.3" y1="356.7" x2="1361.3" y2="392.7" stroke="#f07c63" stroke-width="3" opacity="0.95" stroke-linecap="round"/>
+<text x="1190.0" y="780.0" fill="#e8c56c" font-family="Georgia, Times New Roman, serif" font-size="17" text-anchor="middle" opacity="0.95">holds: support · changes: contour</text>
+<text x="1350.0" y="344.7" fill="#f07c63" font-family="Georgia, Times New Roman, serif" font-size="20" text-anchor="start" opacity="0.95">break</text>
+<line x1="760.0" y1="450.0" x2="840.0" y2="450.0" stroke="#f07c63" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+<path d="M825.0 438.0 L845.0 450.0 L825.0 462.0 Z" fill="#f07c63" stroke="#f07c63" stroke-width="1" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-hidden="true">
+<rect width="1600" height="900" fill="#18141d"/>
+<rect x="48" y="48" width="736" height="804" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.45"/>
+<path d="M120 720 Q400 200 720 720" fill="none" stroke="#f07c63" stroke-width="3" opacity="0.85"/>
+<path d="M160 700 Q400 280 680 700" fill="none" stroke="#f07c63" stroke-width="2" opacity="0.5"/>
+<path d="M200 680 Q400 360 640 680" fill="none" stroke="#f07c63" stroke-width="2" opacity="0.3"/>
+<circle cx="280" cy="520" r="18" fill="#ffffff"/><circle cx="480" cy="420" r="12" fill="#ffffff"/><circle cx="560" cy="560" r="22" fill="#ffffff" opacity="0.85"/>
+<rect x="816" y="48" width="736" height="804" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.45"/>
+<circle cx="1188" cy="160" r="10" fill="#f07c63"/>
+<line x1="980" y1="280" x2="1400" y2="280" stroke="#9be2d1" stroke-width="3" opacity="0.8"/>
+<circle cx="1188" cy="520" r="6" fill="#e8c56c"/>
+<line x1="1188" y1="160" x2="1000" y2="720" stroke="#ffffff" stroke-width="1.5" opacity="0.65"/>
+<line x1="1188" y1="160" x2="1188" y2="720" stroke="#ffffff" stroke-width="1.5" opacity="0.65"/>
+<line x1="1188" y1="160" x2="1376" y2="720" stroke="#ffffff" stroke-width="1.5" opacity="0.65"/>
+<path d="M1040 720 L1188 560 L1336 720 Z" fill="none" stroke="#f07c63" stroke-width="2.5" opacity="0.9"/>
+</svg>

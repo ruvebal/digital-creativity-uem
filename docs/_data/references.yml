@@ -180,6 +180,15 @@ campinho-2025:
     pelo Google.” *Revista de Saúde Pública*.
     [https://doi.org/10.1590/s0104-12902025240894pt](https://doi.org/10.1590/s0104-12902025240894pt).
 
+cheang-suterwalla-2020:
+  sort: "Cheang Suterwalla 2020"
+  year: 2020
+  edition_used: "Fashion Theory PDF (printed pages; pdf_order)."
+  chicago: >-
+    Cheang, Sarah, and Shehnaz Suterwalla. 2020. “Decolonizing the Curriculum? Transformation,
+    Emotion and Positionality in Teaching.” *Fashion Theory* 24 (6): 879–900.
+    [https://doi.org/10.1080/1362704X.2020.1800989](https://doi.org/10.1080/1362704X.2020.1800989).
+
 coats-2026:
   sort: "Coats 2026"
   year: 2026
@@ -188,6 +197,15 @@ coats-2026:
     Coats, M. 2026. “The Denim Project—A Hybrid Approach to Fashion Education Using CLO3D.”
     *International Journal of Fashion Design, Technology and Education*.
     [https://doi.org/10.1080/17543266.2026.2688308](https://doi.org/10.1080/17543266.2026.2688308).
+
+galada-2025:
+  sort: "Galada Baytar 2025"
+  year: 2025
+  edition_used: "Fashion and Textiles open-access PDF (printed pages)."
+  chicago: >-
+    Galada, Aditi, and Fatma Baytar. 2025. “Developing an Instrument with Simulations to Measure
+    3D to 2D Fit Correction Skills in Fashion Design.” *Fashion and Textiles* 12.
+    [https://doi.org/10.1186/s40691-025-00417-y](https://doi.org/10.1186/s40691-025-00417-y).
 
 eckersall-2017:
   sort: "Eckersall Grehan Scheer 2017"
@@ -339,3 +357,31 @@ torn-rabkin-2026:
   edition_used: "Zer0 Books eBook, ISBN 978-1-80341-861-2; EPUB section anchors used because this edition has no stable printed folios."
   chicago: >-
     Rabkin, Eugene. 2026. *Torn: Fashion and Postmodernism*. Zer0 Books.
+
+bertol-2016:
+  sort: "Bertol Daniela 2016"
+  year: 2016
+  edition_used: "Int. J. Rapid Manufacturing PDF; Table 1 and §§2,5,6 verified for platonic-solids skill maths (2026-11-11)."
+  chicago: >-
+    Bertol, Daniela. 2016. “The Parametric Making of Geometry: The Platonic Solids.”
+    *International Journal of Rapid Manufacturing* 6 (1): 33–47.
+    <a href="https://doi.org/10.1504/ijrapidm.2016.078743" target="_blank" rel="noopener noreferrer">Article DOI</a>.
+
+pacioli-1889:
+  sort: "Pacioli Luca Winterberg 1889"
+  year: 1889
+  edition_note: "Winterberg critical edition of Divina proportione; coat ready — spot-check pages before lesson body quotes."
+  edition_used: "Carl Graeser (Vienna) Quellenschriften PDF, 1889."
+  chicago: >-
+    Pacioli, Luca. 1889. *Divina proportione: Die Lehre vom Goldenen Schnitt*. Edited and
+    translated by Constantin Winterberg. Quellenschriften für Kunstgeschichte und Kunsttechnik.
+    Vienna: Carl Graeser.
+
+panofsky-1993:
+  sort: "Panofsky Erwin 1993"
+  year: 1993
+  edition_note: "Zone Books English edition; coat ready — spot-check pages before lesson body quotes."
+  edition_used: "Zone Books PDF, 1991/1993 printing as held."
+  chicago: >-
+    Panofsky, Erwin. 1991. *Perspective as Symbolic Form*. Translated by Christopher S. Wood.
+    New York: Zone Books. 1993 printing consulted.

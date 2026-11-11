@@ -63,7 +63,9 @@
       "opt-art",
       "glitch",
       "organic-dialogue"
-    ]
+    ],
+    "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p6-fashion-multiview-7e85e61256d6.riv",
+    "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-d0cf3c150102.svg"
   },
   "/lessons/en/digital-creativity-i/i-7-fashion-references/": {
     "asset": "page-lessons-en-digital-creativity-i-i-7-fashion-references",
@@ -228,7 +230,9 @@
       "opt-art",
       "glitch",
       "organic-dialogue"
-    ]
+    ],
+    "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p6-fashion-multiview-7e85e61256d6.riv",
+    "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-d0cf3c150102.svg"
   },
   "/lessons/es/creacion-digital-i/i-7-referencias-moda/": {
     "asset": "page-lessons-es-creacion-digital-i-i-7-referencias-moda",

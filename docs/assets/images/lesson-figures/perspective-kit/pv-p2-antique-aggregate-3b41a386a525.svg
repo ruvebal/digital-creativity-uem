@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img">
+<rect width="1600" height="900" fill="#18141d"/>
+<text x="64" y="72" fill="#e8c56c" font-family="Georgia,serif" font-size="32">P2 · Antique aggregate / vanishing-axis</text>
+<text x="64" y="110" fill="#9be2d1" font-family="system-ui,sans-serif" font-size="18">fishbone axis · no single shared VP · bodies remain discrete</text>
+<!-- vanishing axis -->
+<line x1="800" y1="160" x2="800" y2="780" stroke="#e8c56c" stroke-width="3"/>
+<!-- left fishbones -->
+<line x1="220" y1="240" x2="800" y2="400" stroke="#ffffff" stroke-width="2" opacity="0.85"/>
+<line x1="180" y1="360" x2="800" y2="480" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+<line x1="240" y1="520" x2="800" y2="560" stroke="#ffffff" stroke-width="2" opacity="0.55"/>
+<!-- right fishbones (different horizon tendency) -->
+<line x1="1380" y1="220" x2="800" y2="420" stroke="#ffffff" stroke-width="2" opacity="0.85"/>
+<line x1="1420" y1="400" x2="800" y2="500" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+<line x1="1340" y1="620" x2="800" y2="580" stroke="#ffffff" stroke-width="2" opacity="0.55"/>
+<!-- discrete bodies -->
+<rect x="300" y="300" width="90" height="140" fill="none" stroke="#f07c63" stroke-width="3"/>
+<rect x="1180" y="280" width="70" height="110" fill="none" stroke="#f07c63" stroke-width="3"/>
+<rect x="520" y="560" width="110" height="80" fill="none" stroke="#f07c63" stroke-width="3"/>
+<text x="64" y="850" fill="#ffffff" font-family="system-ui,sans-serif" font-size="16" opacity="0.75">Panofsky: antique space as aggregate of bodies — not modern homogeneous extension</text>
+
+</svg>

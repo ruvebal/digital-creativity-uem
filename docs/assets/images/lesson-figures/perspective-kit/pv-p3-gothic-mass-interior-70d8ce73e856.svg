@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img">
+<rect width="1600" height="900" fill="#18141d"/>
+<text x="64" y="72" fill="#e8c56c" font-family="Georgia,serif" font-size="32">P3 · Mass → reopened interior</text>
+<text x="64" y="110" fill="#9be2d1" font-family="system-ui,sans-serif" font-size="18">planar mass consolidates, then a hollow volume reopens</text>
+<!-- mass planes -->
+<rect x="120" y="200" width="420" height="520" fill="#f07c63" opacity="0.35"/>
+<rect x="180" y="240" width="360" height="440" fill="#f07c63" opacity="0.45"/>
+<rect x="240" y="280" width="280" height="360" fill="#f07c63" opacity="0.6"/>
+<!-- arrow -->
+<path d="M620 460 L760 460" stroke="#e8c56c" stroke-width="4"/>
+<path d="M740 440 L780 460 L740 480 Z" fill="#e8c56c"/>
+<!-- hollow interior -->
+<path d="M860 260 L1340 260 L1340 720 L860 720 Z" fill="none" stroke="#ffffff" stroke-width="3"/>
+<path d="M900 300 L1300 300 L1300 680 L900 680 Z" fill="none" stroke="#9be2d1" stroke-width="2"/>
+<path d="M900 300 L980 220 L1380 220 L1300 300" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+<path d="M1300 300 L1380 220 L1380 640 L1300 680" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+<text x="64" y="850" fill="#ffffff" font-family="system-ui,sans-serif" font-size="16" opacity="0.75">From mass to space-box readiness — still not a fit diagnosis</text>
+
+</svg>

@@ -128,12 +128,15 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 							fetchpriority="high" />
 						<figcaption class="lesson-cover__caption">
 							<h1 class="lesson-title lesson-title--cover">{{ page.title }}</h1>
+							{% if page.cover_quote %}
+							<blockquote class="lesson-cover__quote">{{ page.cover_quote | escape }}</blockquote>
+							{% endif %}
 							{% if site.publication.publish_internal_metadata and page.status %} {% assign status_lower = page.status | downcase %}
 							<span class="lesson-status lesson-status--cover status-{{ page.status | downcase | replace: ' ', '-' }} flex-shrink-0">
 								{% if status_lower == 'finished' or status_lower == 'terminado' %} {% if page.lang == 'es' %}✓ Finalizado{% else
 								%}✓ Finished{% endif %} {% elsif status_lower == 'scaffold' %} {% if page.lang == 'es' %}Andamiaje{% else %}Scaffold{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
 								%}Borrador{% else %}Draft{% endif %} {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
-								status_lower == 'en proceso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
+								status_lower == 'en progreso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
 								page.status | capitalize }} {% endif %}
 							</span>
 							{% endif %}

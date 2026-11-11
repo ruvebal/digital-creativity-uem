@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="t6 d6">
+  <title id="t6">Volume is tested across media</title>
+  <desc id="d6">A physical fold and a digital mesh sit side by side; a dashed mismatch marks where behaviour diverges; one revision arrow returns to the physical study.</desc>
+  <defs>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F2E8"/>
+      <stop offset="1" stop-color="#E8DFD0"/>
+    </linearGradient>
+    <pattern id="grid6" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#111111" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="620" rx="28" fill="url(#g6)"/>
+  <rect width="1600" height="620" rx="28" fill="url(#grid6)"/>
+
+  <!-- physical fold -->
+  <g transform="translate(220 140)">
+    <rect x="0" y="0" width="360" height="320" rx="18" fill="#FFFCF7" stroke="#111111" stroke-width="2.5"/>
+    <path d="M70 70 C120 40 180 50 210 90 C250 140 230 210 180 250 C140 280 90 260 80 210 C70 160 40 120 70 70 Z" fill="#C44536" fill-opacity=".18" stroke="#C44536" stroke-width="3"/>
+    <path d="M110 100 C150 120 170 160 160 210" fill="none" stroke="#111111" stroke-width="2.5"/>
+    <text x="180" y="300" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#111111">PHYSICAL FOLD</text>
+    <text x="180" y="328" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#333333">support · gravity · thickness</text>
+  </g>
+
+  <!-- digital mesh -->
+  <g transform="translate(1020 140)">
+    <rect x="0" y="0" width="360" height="320" rx="18" fill="#FFFCF7" stroke="#111111" stroke-width="2.5"/>
+    <path d="M80 80 L300 80 L300 260 L80 260 Z" fill="none" stroke="#111111" stroke-opacity=".25" stroke-width="1.5"/>
+    <path d="M80 120 H300 M80 160 H300 M80 200 H300 M80 240 H300 M120 80 V260 M160 80 V260 M200 80 V260 M240 80 V260" fill="none" stroke="#111111" stroke-opacity=".2" stroke-width="1"/>
+    <path d="M95 95 C140 55 210 65 245 110 C285 165 255 235 195 265 C145 290 95 265 90 210 C85 160 55 135 95 95 Z" fill="none" stroke="#111111" stroke-width="3"/>
+    <path d="M100 100 C145 60 205 70 240 115 C280 170 250 230 190 260 C140 285 95 255 95 210" fill="none" stroke="#C44536" stroke-width="2.5" stroke-dasharray="8 7"/>
+    <text x="180" y="300" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#111111">DIGITAL PASS</text>
+    <text x="180" y="328" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#333333">mesh · silhouette · claim</text>
+  </g>
+
+  <!-- mismatch bridge -->
+  <g transform="translate(640 220)">
+    <rect x="0" y="0" width="320" height="160" rx="16" fill="#111111"/>
+    <text x="160" y="58" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#F7F2E8">MISMATCH</text>
+    <text x="160" y="92" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#F7F2E8">same view · same scale</text>
+    <text x="160" y="126" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#E8C56C">one variable to revise</text>
+  </g>
+  <path d="M580 300 H640" stroke="#111111" stroke-width="3" marker-end="url(#arr)"/>
+  <path d="M960 300 H1020" stroke="#111111" stroke-width="3"/>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+  <text x="800" y="560" text-anchor="middle" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#111111">Volume is behaviour under constraint — not a polished render alone</text>
+</svg>

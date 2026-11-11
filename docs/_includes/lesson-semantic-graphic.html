@@ -60,7 +60,12 @@
 {% endif %}
 
 {% if semantic_cover %}
+{% if semantic_cover.semantic_asset %}
+  {% assign semantic_stem = semantic_cover.semantic_asset %}
+{% else %}
+  {% assign semantic_stem = semantic_cover.asset | append: '-semantic' %}
+{% endif %}
 <figure class="lesson-semantic lesson-semantic--{{ semantic_cover.family }}" data-semantic-mode="{{ semantic_cover.mode }}" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/' | append: semantic_cover.asset | append: '-semantic.svg' | relative_url }}" width="1600" height="620" alt="{% if page.lang == 'es' and semantic_cover.semantic_alt_es %}{{ semantic_cover.semantic_alt_es | escape }}{% elsif page.lang == 'es' %}{{ semantic_cover.alt_es | escape }}{% elsif semantic_cover.semantic_alt_en %}{{ semantic_cover.semantic_alt_en | escape }}{% else %}{{ semantic_cover.master_idea | escape }}{% endif %}" />
+<img src="{{ '/assets/images/lesson-covers/' | append: semantic_stem | append: '.svg' | relative_url }}" width="1600" height="620" alt="{% if page.lang == 'es' and semantic_cover.semantic_alt_es %}{{ semantic_cover.semantic_alt_es | escape }}{% elsif page.lang == 'es' %}{{ semantic_cover.alt_es | escape }}{% elsif semantic_cover.semantic_alt_en %}{{ semantic_cover.semantic_alt_en | escape }}{% else %}{{ semantic_cover.master_idea | escape }}{% endif %}" />
 </figure>
 {% endif %}

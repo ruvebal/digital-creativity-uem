@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+<title id="t">Psychophysiological space versus mathematical central perspective</title>
+<desc id="d">Left: curved perceptual field with uneven depth. Right: visual pyramid cut by a picture plane with orthogonals to one vanishing point.</desc>
+<rect width="1600" height="900" fill="#18141d"/>
+<!-- left panel -->
+<rect x="48" y="48" width="736" height="804" fill="none" stroke="#ffffff" stroke-width="4"/>
+<text x="80" y="100" fill="#e8c56c" font-family="Georgia, serif" font-size="28">P1 · Psychophysiological space</text>
+<text x="80" y="138" fill="#9be2d1" font-family="system-ui,sans-serif" font-size="18">finite · non-homogeneous · angle-led</text>
+<!-- spheroidal arcs -->
+<path d="M120 720 Q400 200 720 720" fill="none" stroke="#f07c63" stroke-width="3" opacity="0.9"/>
+<path d="M160 700 Q400 280 680 700" fill="none" stroke="#f07c63" stroke-width="2" opacity="0.55"/>
+<path d="M200 680 Q400 360 640 680" fill="none" stroke="#f07c63" stroke-width="2" opacity="0.35"/>
+<!-- uneven object marks -->
+<circle cx="280" cy="520" r="18" fill="#ffffff"/>
+<circle cx="480" cy="420" r="12" fill="#ffffff"/>
+<circle cx="560" cy="560" r="22" fill="#ffffff" opacity="0.85"/>
+<text x="80" y="800" fill="#ffffff" font-family="system-ui,sans-serif" font-size="16" opacity="0.75">Perception does not know infinity or homogeneity</text>
+<!-- right panel -->
+<rect x="816" y="48" width="736" height="804" fill="none" stroke="#ffffff" stroke-width="4"/>
+<text x="848" y="100" fill="#e8c56c" font-family="Georgia, serif" font-size="28">P1 · Mathematical construction</text>
+<text x="848" y="138" fill="#9be2d1" font-family="system-ui,sans-serif" font-size="18">single eye · planar cut · central VP</text>
+<!-- eye -->
+<circle cx="1188" cy="160" r="10" fill="#f07c63"/>
+<text x="1208" y="166" fill="#ffffff" font-family="system-ui,sans-serif" font-size="14">eye</text>
+<!-- picture plane -->
+<line x1="980" y1="280" x2="1400" y2="280" stroke="#9be2d1" stroke-width="3"/>
+<text x="980" y="268" fill="#9be2d1" font-family="system-ui,sans-serif" font-size="14">picture plane</text>
+<!-- VP -->
+<circle cx="1188" cy="520" r="6" fill="#e8c56c"/>
+<text x="1204" y="526" fill="#e8c56c" font-family="system-ui,sans-serif" font-size="14">VP</text>
+<!-- orthogonals -->
+<line x1="1188" y1="160" x2="1000" y2="720" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+<line x1="1188" y1="160" x2="1188" y2="720" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+<line x1="1188" y1="160" x2="1376" y2="720" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+<!-- ground square foreshortened -->
+<path d="M1040 720 L1188 560 L1336 720 Z" fill="none" stroke="#f07c63" stroke-width="2.5"/>
+<!-- pyramid edges to plane -->
+<line x1="1188" y1="160" x2="1040" y2="280" stroke="#e8c56c" stroke-width="1" opacity="0.5"/>
+<line x1="1188" y1="160" x2="1336" y2="280" stroke="#e8c56c" stroke-width="1" opacity="0.5"/>
+<text x="848" y="800" fill="#ffffff" font-family="system-ui,sans-serif" font-size="16" opacity="0.75">Perspective transforms psychophysiological space into mathematical space</text>
+</svg>

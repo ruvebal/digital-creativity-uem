@@ -498,79 +498,115 @@
     }
   },
   "i-6-volume": {
-    "analysis-model": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
-      "alt": "Three views reveal different contours of one draped volume.",
-      "caption_html": "<span class=\"slide-caption__title\">One fold, three projections</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+    "cover": {
+      "src": "/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "alt": "Leonardo da Vinci garment study for a seated figure showing deep cloth folds",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo da Vinci, Garment study for a seated figure</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
+      "alt": "A drapery study for a figure of Sculpture with construction lines in the folds",
+      "caption_html": "<span class=\"slide-caption__title\">Drapery study for figure of Sculpture</span> · <span class=\"slide-caption__author\">Kenyon Cox (Library of Congress scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
-      "alt": "A physical study and digital pass return through critique and revision.",
-      "caption_html": "<span class=\"slide-caption__title\">A loop with a visible reason</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-bg-35ec3bca368c.svg",
+      "alt": "Two-panel diagram contrasting psychophysiological space with central perspective.",
+      "caption_html": "<span class=\"slide-caption__title\">P1 · psychophysiological ≠ mathematical space</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit P1</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-2": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
-      "alt": "A virtual contour continues where the supported material form does not.",
-      "caption_html": "<span class=\"slide-caption__title\">A discrepancy worth testing</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "src": "/assets/images/deck-media/1d8013b42b50dedf.webp",
+      "alt": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer — Man Drawing a Lute</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2-rive": {
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg",
+      "alt": "Central vanishing-point construction (textless background).",
+      "caption_html": "<span class=\"slide-caption__title\">P5 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-3": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
-      "alt": "Three bounded studies increase depth and retain a shared section.",
-      "caption_html": "<span class=\"slide-caption__title\">Depth changed in one step</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "src": "/assets/images/deck-media/741970e6613cb99e.webp",
+      "alt": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer — Underweysung der Messung (perspective construction)</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3-rive": {
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg",
+      "alt": "Fashion multi-view textless background.",
+      "caption_html": "<span class=\"slide-caption__title\">P6 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "lab-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
-      "alt": "A folded material and digital mesh are compared at a marked mismatch.",
-      "caption_html": "<span class=\"slide-caption__title\">Build enough depth to test a fold</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
-      "rights_status": "ok"
+      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
+      "alt": "Exhibition view of Rei Kawakubo dresses with transformed but readable silhouettes",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     },
     "lab-2": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
-      "alt": "One local revision is checked against its retained source contour.",
-      "caption_html": "<span class=\"slide-caption__title\">Keep the source beside the revision</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
-      "rights_status": "ok"
+      "src": "/assets/images/deck-media/4e655e0f068fdc07.webp",
+      "alt": "Second exhibition view of Rei Kawakubo dresses for comparing volume change",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 03</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     }
   },
   "i-6-volumen": {
-    "analysis-model": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
-      "alt": "Un pliegue drapeado aparece con contornos distintos en tres proyecciones.",
-      "caption_html": "<span class=\"slide-caption__title\">Un pliegue, tres proyecciones</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+    "cover": {
+      "src": "/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "alt": "Leonardo da Vinci garment study for a seated figure showing deep cloth folds",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo da Vinci, Garment study for a seated figure</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
+      "alt": "A drapery study for a figure of Sculpture with construction lines in the folds",
+      "caption_html": "<span class=\"slide-caption__title\">Drapery study for figure of Sculpture</span> · <span class=\"slide-caption__author\">Kenyon Cox (Library of Congress scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
-      "alt": "El estudio físico y el pase digital vuelven tras la crítica y la revisión.",
-      "caption_html": "<span class=\"slide-caption__title\">Un ciclo con un motivo visible</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-bg-35ec3bca368c.svg",
+      "alt": "Diagrama de dos paneles: espacio psicofisiológico frente a perspectiva central.",
+      "caption_html": "<span class=\"slide-caption__title\">P1 · espacio psicofisiológico ≠ matemático</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit P1</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "masterclass-2": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
-      "alt": "El contorno virtual continúa donde el material apoyado no lo hace.",
-      "caption_html": "<span class=\"slide-caption__title\">Una diferencia que merece comprobarse</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "src": "/assets/images/deck-media/1d8013b42b50dedf.webp",
+      "alt": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer — Man Drawing a Lute</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2-rive": {
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg",
+      "alt": "Central vanishing-point construction (textless background).",
+      "caption_html": "<span class=\"slide-caption__title\">P5 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "masterclass-3": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
-      "alt": "Tres estudios acotados aumentan la profundidad y conservan una sección común.",
-      "caption_html": "<span class=\"slide-caption__title\">Profundidad cambiada en un paso</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "src": "/assets/images/deck-media/741970e6613cb99e.webp",
+      "alt": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer — Underweysung der Messung (perspective construction)</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3-rive": {
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg",
+      "alt": "Fashion multi-view textless background.",
+      "caption_html": "<span class=\"slide-caption__title\">P6 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "lab-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
-      "alt": "Un material plegado y su malla digital se comparan en una diferencia señalada.",
-      "caption_html": "<span class=\"slide-caption__title\">Construir profundidad para probar un pliegue</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
-      "rights_status": "ok"
+      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
+      "alt": "Exhibition view of Rei Kawakubo dresses with transformed but readable silhouettes",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     },
     "lab-2": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
-      "alt": "Una revisión local se comprueba frente al contorno de origen conservado.",
-      "caption_html": "<span class=\"slide-caption__title\">Conservar el origen junto a la revisión</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Ilustración original · todos los derechos reservados</span>",
-      "rights_status": "ok"
+      "src": "/assets/images/deck-media/4e655e0f068fdc07.webp",
+      "alt": "Second exhibition view of Rei Kawakubo dresses for comparing volume change",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 03</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     }
   },
   "u3-marketing-publicidad": {
