@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">Hybrid computer and AI remix paths</title>
+<desc id="d">Diagram of hybrid provenance paths where computer and AI processes remix source images.</desc>
+<rect width="1600" height="900" fill="#F7F2E8"/>
+<text x="80" y="70" font-family="Georgia, serif" font-size="36" fill="#17202A">Hybrid ways · computer / AI remixes</text>
+<text x="80" y="110" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#54718B">A remix inherits every upstream class — ledger both ends · course diagram</text>
+<!-- source -->
+<rect x="80" y="200" width="280" height="100" rx="10" fill="#FFFDF8" stroke="#17202A" stroke-width="3"/>
+<text x="100" y="255" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#17202A">Source tile</text>
+<text x="100" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#54718B">(class 1–6)</text>
+<!-- arrows / paths -->
+<path d="M380 250 H520" stroke="#C44536" stroke-width="4" fill="none"/>
+<path d="M500 240 L530 250 L500 260" fill="#C44536"/>
+<rect x="530" y="160" width="300" height="90" rx="10" fill="#FFFDF8" stroke="#54718B" stroke-width="3"/>
+<text x="550" y="210" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#17202A">CGI / 3D restage</text>
+<path d="M380 250 V400 H520" stroke="#1D7976" stroke-width="4" fill="none"/>
+<path d="M500 390 L530 400 L500 410" fill="#1D7976"/>
+<rect x="530" y="350" width="300" height="90" rx="10" fill="#FFFDF8" stroke="#1D7976" stroke-width="3"/>
+<text x="550" y="400" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#17202A">Bitmap edit · collage</text>
+<path d="M380 250 V560 H520" stroke="#C44536" stroke-width="4" fill="none"/>
+<path d="M500 550 L530 560 L500 570" fill="#C44536"/>
+<rect x="530" y="510" width="300" height="90" rx="10" fill="#FFFDF8" stroke="#C44536" stroke-width="3"/>
+<text x="550" y="560" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#17202A">AI img2img / inpaint</text>
+<!-- converge -->
+<path d="M830 205 H960 V560 H830" stroke="#B6ADA0" stroke-width="2" fill="none" stroke-dasharray="8 8"/>
+<path d="M960 380 H1100" stroke="#17202A" stroke-width="4"/>
+<path d="M1070 370 L1100 380 L1070 390" fill="#17202A"/>
+<rect x="1100" y="320" width="400" height="140" rx="12" fill="#E8F0EE" stroke="#17202A" stroke-width="3"/>
+<text x="1120" y="375" font-family="Georgia, serif" font-size="24" fill="#17202A">Hybrid ledger row</text>
+<text x="1120" y="410" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#17202A">upstream class + process + tool/date</text>
+<text x="1120" y="435" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#54718B">+ refusal (what you did not invent)</text>
+<text x="80" y="700" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#17202A">Rule: a hybrid tile is never “authorless.” Name the human decision that ends the chain.</text>
+<text x="80" y="740" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#54718B">Original course illustration · digital-creativity-uem · 2026-11-11</text>
+</svg>

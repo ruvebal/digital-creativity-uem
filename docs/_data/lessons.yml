@@ -182,6 +182,21 @@
     es: scaffold
     en: scaffold
   type: lesson
+- slug: i-7-addendum-fuentes-medios
+  title:
+    es: 'I.7 Addendum · Fuentes de medios más allá del stock y la IA'
+    en: 'I.7 Addendum · Media Sources beyond Stock and AI'
+  path:
+    es: /lessons/es/creacion-digital-i/i-7-addendum-fuentes-medios/
+    en: /lessons/en/digital-creativity-i/i-7-media-sources-addendum/
+  file:
+    es: lessons/es/creacion-digital-i/i-7-addendum-fuentes-medios/index.md
+    en: lessons/en/digital-creativity-i/i-7-media-sources-addendum/index.md
+  status:
+    es: pilot
+    en: pilot
+  type: lesson
+  parent: i-7-referencias-moda
 - slug: i-8-animacion
   title:
     es: 'I.8 · Creación de imágenes digitales animadas'

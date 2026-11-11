@@ -1,0 +1,14 @@
+I.7 media-sources addendum — media ledger (2026-11-11)
+
+Course-authored (all rights reserved):
+  provenance-taxonomy.svg|.png
+  hybrid-remix-paths.svg|.png
+
+Platform-page screenshots (NOT cleared local stills — navigation teaching only):
+  bne-platform-*.jpg — BNE Digital search UI (revistas de moda)
+  nypl-platform-*.jpg — NYPL Digital Collections Fashion topic filter
+  FRD / AFA screenshots reused from lesson-figures/i6-i7/
+
+LOC Prints & Photographs URL verified via public catalog pages;
+  automated screenshot blocked by Cloudflare challenge this session —
+  students browse https://www.loc.gov/pictures/search/?q=fashion&st=gallery directly.

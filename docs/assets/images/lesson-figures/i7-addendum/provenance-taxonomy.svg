@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
+<title id="t">Digital image provenance taxonomy</title>
+<desc id="d">Six primary provenance classes for digital fashion images, plus a hybrid remix band.</desc>
+<rect width="1600" height="1000" fill="#F7F2E8"/>
+<text x="80" y="70" font-family="Georgia, serif" font-size="36" fill="#17202A">Digital image provenance</text>
+<text x="80" y="110" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#54718B">Name the origin before you ledger a tile — course diagram · all rights reserved</text>
+<!-- boxes -->
+<g font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#17202A">
+  <rect x="80" y="160" width="340" height="120" rx="10" fill="#FFFDF8" stroke="#1D7976" stroke-width="3"/>
+  <text x="100" y="210">1 · Digital photograph</text>
+  <text x="100" y="240" font-size="15" fill="#54718B">Camera / phone capture</text>
+
+  <rect x="450" y="160" width="340" height="120" rx="10" fill="#FFFDF8" stroke="#1D7976" stroke-width="3"/>
+  <text x="470" y="210">2 · Physical scan</text>
+  <text x="470" y="240" font-size="15" fill="#54718B">Print · plate · textile photo</text>
+
+  <rect x="820" y="160" width="340" height="120" rx="10" fill="#FFFDF8" stroke="#54718B" stroke-width="3"/>
+  <text x="840" y="210">3 · Computer-generated</text>
+  <text x="840" y="240" font-size="15" fill="#54718B">3D render · CGI · vector art</text>
+
+  <rect x="1190" y="160" width="330" height="120" rx="10" fill="#FFFDF8" stroke="#C44536" stroke-width="3"/>
+  <text x="1210" y="210">4 · AI-generated</text>
+  <text x="1210" y="240" font-size="15" fill="#54718B">Prompted model output</text>
+
+  <rect x="80" y="320" width="520" height="120" rx="10" fill="#FFFDF8" stroke="#C44536" stroke-width="3"/>
+  <text x="100" y="370">5 · Stock / commercial library</text>
+  <text x="100" y="400" font-size="15" fill="#54718B">Licensed packs · marketplace tiles</text>
+
+  <rect x="640" y="320" width="880" height="120" rx="10" fill="#FFFDF8" stroke="#17202A" stroke-width="3"/>
+  <text x="660" y="370">6 · Digital repositories (libraries · archives · Commons)</text>
+  <text x="660" y="400" font-size="15" fill="#54718B">BNE · NYPL · LOC · FRD · AFA · Wikimedia · museum OA</text>
+</g>
+<rect x="80" y="500" width="1440" height="160" rx="12" fill="#E8F0EE" stroke="#1D7976" stroke-width="3"/>
+<text x="100" y="555" font-family="Georgia, serif" font-size="28" fill="#17202A">Course preference (I.7 addendum)</text>
+<text x="100" y="595" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#17202A">Prefer class 6 with a readable licence · treat 4–5 as ledger-heavy exceptions · never pretend a platform thumb is a cleared still</text>
+<text x="100" y="630" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#54718B">Each portfolio tile must name one primary class above before transformation notes.</text>
+<text x="80" y="740" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#54718B">Original course illustration · digital-creativity-uem · 2026-11-11</text>
+</svg>
