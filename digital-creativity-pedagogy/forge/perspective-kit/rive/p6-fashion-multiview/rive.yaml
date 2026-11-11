@@ -1,0 +1,12 @@
+name: p6-fashion-multiview
+main: main
+scripting: wasm
+artboard:
+  width: 1600
+  height: 900
+  background: "#18141D"
+logs:
+  file: build/rive.log
+  problems: build/problems.log
+output:
+  dir: build
