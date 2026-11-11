@@ -3071,6 +3071,64 @@
       "approved_by": "professor in-session instruction 2026-10-27 (final review pending)",
       "brief": "An 1832 political caricature in which rivals perform as ballet dancers: costume and pose as public satire.",
       "origin": "Dance–Cinema–Fashion Part 3 lesson figure (§7), not a slide"
+    },
+    {
+      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg",
+      "assignments": [
+        {
+          "project_id": "dc",
+          "unit_id": "I.6"
+        }
+      ],
+      "title": "Dürer - Man Drawing a Lute.jpg",
+      "raw_title": "File:Dürer - Man Drawing a Lute.jpg",
+      "alt_text": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
+      "author": "Albrecht Dürer",
+      "author_death_year": 1528,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/1d8013b42b50dedf.webp",
+      "provider": "Wikimedia Commons",
+      "origin": "manual-i6-perspective-20261111",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; public domain in the EU.",
+      "rights_status": "ok",
+      "rights_checked_on": "2026-11-11",
+      "rights_source": "wikimedia-commons-extmetadata",
+      "approved_by": "ruvebal",
+      "cropped": false,
+      "brief": "Perspective construction before fit — Dürer lute draughtsman for I.6 masterclass-2."
+    },
+    {
+      "asset_id": "wikimedia:File:Duerer Underweysung der Messung fig 001 page 181.jpg",
+      "assignments": [
+        {
+          "project_id": "dc",
+          "unit_id": "I.6"
+        }
+      ],
+      "title": "Duerer Underweysung der Messung fig 001 page 181.jpg",
+      "raw_title": "File:Duerer Underweysung der Messung fig 001 page 181.jpg",
+      "alt_text": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
+      "author": "Albrecht Dürer",
+      "author_death_year": 1528,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/741970e6613cb99e.webp",
+      "provider": "Wikimedia Commons",
+      "origin": "manual-i6-perspective-20261111",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; public domain in the EU.",
+      "rights_status": "ok",
+      "rights_checked_on": "2026-11-11",
+      "rights_source": "wikimedia-commons-extmetadata",
+      "approved_by": "ruvebal",
+      "cropped": false,
+      "brief": "Systematic perspective plate for I.6 masterclass-3."
     }
   ]
 }
