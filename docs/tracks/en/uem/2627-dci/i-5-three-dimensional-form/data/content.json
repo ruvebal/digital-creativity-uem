@@ -9,7 +9,7 @@ layout: null
     "project_id": "dc",
     "collection": "pending-review",
     "strategy": "slide-bound-asset_id",
-    "description": "EX4: slides bind by asset_id; rehydrate uses bindSlides (no rank dealing).",
+    "description": "PHASE-V1 slim I.5: spatial literacy → I.6 behaviour hand-off. No perspective-kit wall.",
     "media_overrides": {}
   },
   "assets": [
@@ -20,7 +20,7 @@ layout: null
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
       "title": "Dresses by Rei Kawakubo - Sarah Stierch 01",
-      "alt_text": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "alt_text": "Exhibition view of sculptural dresses by Rei Kawakubo worn as volume on the body",
       "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
       "licence": "CC-BY-4.0",
       "licence_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -39,7 +39,7 @@ layout: null
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/1890_silhouette_-_DPLA_-_8df7f808914dce4eee6250dc2f06f783.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1890_silhouette_-_DPLA_-_8df7f808914dce4eee6250dc2f06f783.jpg",
       "title": "1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783",
-      "alt_text": "1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg",
+      "alt_text": "1890 fashion silhouette print showing a side-view contour",
       "author": "Unknown 1890 illustrator; DPLA aggregate",
       "licence": "PD-old-70",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
@@ -58,7 +58,7 @@ layout: null
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
       "title": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932",
-      "alt_text": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "alt_text": "Historical costume plate with multiple figures for comparing projections",
       "author": "19th-century French costume plate engraver",
       "licence": "CC0",
       "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -77,7 +77,7 @@ layout: null
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hand_drawing_on_a_graphic_tablet.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hand_drawing_on_a_graphic_tablet.jpg",
       "title": "Hand drawing on a graphic tablet",
-      "alt_text": "Hand drawing on a graphic tablet.jpg",
+      "alt_text": "Hand drawing on a graphic tablet after a paper sketch",
       "author": "Photograph uploader on Commons",
       "licence": "CC-BY-SA-4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -96,13 +96,13 @@ layout: null
       "background_kind": "curated",
       "fallback_background_kind": "geometrical",
       "heading": "I.5 · Three-dimensional form",
-      "sentence": "A 3D form begins with a 2D reading that another view can test.",
+      "sentence": "A 3D form begins with a 2D reading that another view can **test**.",
       "prompt": "CONTENIDOS: Fundamentos y representación de la forma tridimensional",
       "media_slot_id": "I.5.cover",
       "slide_id": "cover",
-      "image_brief": "Rei Kawakubo sculptural dress (Stierch 01): volume worn on the body — three-dimensional form as fashion, not only CAD.",
+      "image_brief": "Rei Kawakubo sculptural dress (Stierch 01): volume worn on the body — spatial literacy before software polish.",
       "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
-      "notes": "- Open the unit with the cover claim: I.5 · Three-dimensional form.\n- Land one sentence: A 3D form begins with a 2D reading that another view can test.\n- Point at the image; name why this picture belongs on the cover."
+      "notes": "- Open: spatial literacy owns I.5; behaviour owns I.6.\n- Land: A 3D form begins with a 2D reading that another view can test."
     },
     {
       "slide_role": "analysis_opener",
@@ -110,58 +110,82 @@ layout: null
       "heading": "Analysis opens the class",
       "sentence": "Ask what a hidden view must contain before you accept the proposed volume.",
       "slide_id": "analysis-opener",
-      "notes": "- Mark the Analysis block: modelled first, then student defences from session 3.\n- Ask what a hidden view must contain before you accept the proposed volume."
+      "notes": "- Modelled first; student defences from session 3.\n- Ask what a hidden view must contain."
     },
     {
       "slide_role": "analysis_model",
       "background_kind": "curated",
       "fallback_background_kind": "geometrical",
-      "heading": "Read across views",
-      "sentence": "Front, side, and top views must agree on axis, proportion, and silhouette.",
+      "heading": "One projection, one question",
+      "sentence": "A side silhouette already argues volume — what must the front view contain?",
       "slide_id": "analysis-model",
-      "image_brief": "1890 silhouette fashion print (DPLA): a side-view contour that trains reading form across one projection.",
+      "image_brief": "1890 silhouette fashion print (DPLA): side-view contour that trains reading form across one projection.",
       "asset_id": "wikimedia:File:1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg",
       "media_slot_id": "I.5.analysis-model",
-      "notes": "- Model the reading on this slide: Read across views.\n- Script: Front, side, and top views must agree on axis, proportion, and silhouette.\n- Ask one student to restate the path the picture travels."
+      "notes": "- One projection is not proof.\n- Debate: 3D prototyping replace physical making or teach alongside? (Papahristou 2024, 270)."
     },
     {
       "slide_role": "masterclass",
       "background_kind": "diagram",
       "fallback_background_kind": "geometrical",
-      "heading": "1 · Start with the axis",
-      "sentence": "An axis makes proportion and direction inspectable before a model becomes polished.",
+      "heading": "1 · Flat vs volumetric claim",
+      "sentence": "A 3D form begins with a 2D reading that another view can test.",
       "slide_id": "masterclass-1",
-      "image_brief": "A single volume is held by a visible axis and two measuring directions.",
-      "notes": "- Beat: 1 · Start with the axis.\n- Core line: An axis makes proportion and direction inspectable before a model becomes polished.\n- Debate prompt: what changes if the venue or audience shifts?",
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-axis-studio-20261020-r1.svg",
-      "diagram_alt": "A simplified garment shell wraps a shared axis; measured offsets reveal how direction and proportion can be checked before surface polish.",
-      "diagram_caption": "The axis holds a volume readable"
+      "image_brief": "Flat panel → side elevation → simple volume on a shared axis.",
+      "notes": "- Beat: flat evidence vs volumetric claim.\n- Vocabulary (geometry, transforms, light) serves judgement — not a menu to clear.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
+      "diagram_alt": "One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations.",
+      "diagram_caption": "From flat reading to volume",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger"
     },
     {
       "slide_role": "masterclass",
       "background_kind": "diagram",
       "fallback_background_kind": "geometrical",
-      "heading": "2 · Planes make volume testable",
-      "sentence": "Silhouette, plane, section, and view turn a flat reading into spatial evidence.",
+      "heading": "2 · Multi-view = different questions",
+      "sentence": "Front, side, and three-quarter must ==agree== — or name the mismatch.",
       "slide_id": "masterclass-2",
-      "image_brief": "A cut plane exposes the internal contour that the silhouette conceals.",
-      "notes": "- Beat: 2 · Planes make volume testable.\n- Core line: Silhouette, plane, section, and view turn a flat reading into spatial evidence.\n- Debate prompt: what changes if the venue or audience shifts?",
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-section-plane-20261020-r1.svg",
-      "diagram_alt": "A translucent section plane passes through a faceted volume and reveals an interior contour that its outer silhouette alone cannot show.",
-      "diagram_caption": "A section makes interior form inspectable"
+      "image_brief": "Front, side, and top constrain one volume; dashed mismatch marks a failing contour.",
+      "notes": "- Planes make volume testable.\n- Fit and drape stay for I.6 — do not claim them here.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
+      "diagram_alt": "Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain.",
+      "diagram_caption": "Planes make volume testable",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "3 · Spatial viz ≠ software fluency",
+      "sentence": "IHU teaches 3D in year three **alongside** 2D — after patternmaking — not as tool fluency alone.",
+      "slide_id": "masterclass-3",
+      "image_brief": "Course-structure claim: sequenced 2D→3D exists; validated form-understanding measures do not.",
+      "notes": "- Cite: Papahristou and Zolota Tatsi 2024, 270 (IHU); 268 (AMFI).\n- Gap: same review reports tool adoption, not form-understanding instruments (p. 1).\n- Nail: 2D→3D diagnostic + view-change explanation — not render polish."
     },
     {
       "slide_role": "masterclass",
       "background_kind": "diagram",
       "fallback_background_kind": "geometrical",
-      "heading": "3 · A render is not understanding",
-      "sentence": "A convincing output still needs a visible account of how the 2D idea became form.",
-      "slide_id": "masterclass-3",
-      "image_brief": "Compare surface recognition with a construction view that explains shaping.",
-      "notes": "- Beat: 3 · A render is not understanding.\n- Core line: A convincing output still needs a visible account of how the 2D idea became form.\n- Debate prompt: what changes if the venue or audience shifts?",
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-output-or-explanation-20261020-r1.svg",
-      "diagram_alt": "The same schematic volume appears as a polished surface and a construction view that exposes shaping planes, a hollow, and tension direction.",
-      "diagram_caption": "Output and explanation answer different questions"
+      "heading": "4 · Light and silhouette as evidence",
+      "sentence": "Block mass, cast one light, read the outer silhouette — a render is not understanding.",
+      "slide_id": "masterclass-4",
+      "image_brief": "Polished volume beside a process trail that records the test.",
+      "notes": "- Light-on-form is studio literacy.\n- Fashion-HE RCT for still-life → garment = Declared gap (`dc-3d-form-volume-pedagogy`).",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
+      "diagram_alt": "A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test.",
+      "diagram_caption": "A render is not understanding",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "5 · Hand-off to I.6",
+      "sentence": "I.5 ends at views that agree; I.6 asks what the volume **does** under fit and gravity.",
+      "slide_id": "masterclass-5",
+      "image_brief": "Volume worn on the body — behaviour and discrepancy begin next unit.",
+      "media_slot_id": "I.5.cover",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "notes": "- Explicit series split: spatial literacy (I.5) → behaviour (I.6).\n- Perspective construction stays in ML-B draft — not jammed here."
     },
     {
       "slide_id": "retrieval",
@@ -171,12 +195,12 @@ layout: null
       "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
       "questions": [
         "At IHU, when is 3D prototyping taught relative to 2D?",
-        "IHU 3D course halves?",
-        "Name one item on I.5’s form-understanding evidence trail.",
+        "Name the five I.5 masterclass moves in order.",
+        "What does I.5 hand off to I.6?",
         "Papahristou proves validated volume understanding — true/false?",
         "3D prototyping: replace physical making or teach alongside?"
       ],
-      "notes": "Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\nThen 2 minutes in pairs: compare answers, then check the lesson.\nPractice only: nothing is collected or graded. Five more questions with answers are on the unit practice quiz page.\nAnswers:\n- 1. Third year, alongside 2D CAD, after traditional patternmaking basics (Papahristou 2024, 5).\n- 2. Theoretical half and practical/laboratory half (Papahristou 2024, 5).\n- 3. 2D read before build; sketch→volume→digital sequence; or a divergence sentence.\n- 4. False — it reports structures/tool adoption, not validated volume measures (Papahristou 2024).\n- 5. Alongside — sequenced with 2D/physical literacy, not automatic replacement.\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+      "notes": "Timer: 3 minutes alone; 2 minutes pairs. Practice only — not graded.\nAnswers:\n- 1. Third year, alongside 2D CAD, after traditional patternmaking (Papahristou 2024, 270).\n- 2. Flat vs volumetric · multi-view · spatial viz ≠ software · light/silhouette · I.6 hand-off.\n- 3. Behaviour / fit / drape / discrepancy — not prettier mesh.\n- 4. False — tool adoption, not form-understanding instruments (Papahristou 2024, 1).\n- 5. Alongside — sequenced with 2D/physical literacy."
     },
     {
       "slide_role": "lab_opener",
@@ -184,7 +208,7 @@ layout: null
       "heading": "Lab · Build the spatial trace",
       "sentence": "Save today's two exercises in your portfolio index.",
       "slide_id": "lab-opener",
-      "notes": "- Bridge into Lab: two portfolio-bound exercises follow.\n- Save today's two exercises in your portfolio index."
+      "notes": "- Two portfolio-bound exercises follow."
     },
     {
       "slide_role": "lab_exercise",
@@ -196,10 +220,10 @@ layout: null
       "portfolio_bound": true,
       "portfolio_trace": "Three-sketch strip + one sentence naming the 3D test you will run next (no CLO required).",
       "slide_id": "lab-1",
-      "image_brief": "Historical costume plate with multiple figures: fold the projections by comparing front and three-quarter views on one sheet.",
+      "image_brief": "Historical costume plate: fold projections by comparing front and three-quarter views on one sheet.",
       "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
-      "notes": "- Timer: 20 minutes. Individual. Selected I.5 Lab — spatial craft feeding later cartel/workshop work.\n- Sketch flat → side elevation → simple volume for one garment region.\n- Mark one ambiguity that only 3D can resolve.\n- State what you will test in digital volume next (tool of choice; CLO not required).\n- Keep the three sketches as one strip.\nSource: sequenced 2D→3D teaching structure in programmes (Papahristou and Zolota Tatsi 2024, 268, 270); steps are classroom adaptation.\nAsk: Which plane lied first?",
-      "prompt": "Practises Masterclass 1 (start with the axis) and 2 (planes make volume testable).",
+      "notes": "- Timer: 20 minutes. Individual.\n- Keep the three sketches as one strip.\nSource: sequenced 2D→3D structure (Papahristou and Zolota Tatsi 2024, 268, 270).",
+      "prompt": "Practises Masterclass 1 (flat vs volumetric) and 2 (multi-view).",
       "method_id": "2d-to-3d-sequence-sketch",
       "practises": [
         "masterclass-1",
@@ -217,23 +241,24 @@ layout: null
       "portfolio_bound": true,
       "portfolio_trace": "Volume block + silhouette trace + flat comparison + one sentence on what the render would have hidden.",
       "slide_id": "lab-2",
-      "image_brief": "Hand drawing on a graphic tablet: the digital step after a paper sketch and a simple volume primitive — sketch → primitive → digital.",
+      "image_brief": "Hand drawing on a graphic tablet: digital step after paper sketch and volume primitive.",
       "asset_id": "wikimedia:File:Hand drawing on a graphic tablet.jpg",
-      "notes": "- Timer: 20 minutes. Individual.\n- Block a garment as 2–4 volumes (no surface detail).\n- Cast a single light; shade only mass.\n- Trace the outer silhouette; discard interior noise; compare to a flat of the same design.\nSource: Classroom adaptation (silhouette-from-volume held — Moritz & Youn spatial visualization gap).\nAsk: If the render looked “correct,” would your silhouette still match the flat?",
-      "prompt": "Practises Masterclass 3: a render is not understanding.",
+      "notes": "- Timer: 20 minutes. Individual.\n- Declared gap: light-on-form RCT in fashion HE.\nAsk: If the render looked “correct,” would your silhouette still match the flat?",
+      "prompt": "Practises Masterclass 4 (light/silhouette) and prepares Masterclass 5 (I.6 hand-off).",
       "method_id": "silhouette-from-volume",
       "practises": [
-        "masterclass-3"
+        "masterclass-4",
+        "masterclass-5"
       ],
       "timer_seconds": 1200
     },
     {
       "slide_role": "outro",
       "background_kind": "geometrical",
-      "heading": "Carry forward",
-      "sentence": "Bring the view your model cannot yet explain, not only the render that looks finished.",
+      "heading": "Next · I.6 Volume as behaviour",
+      "sentence": "Bring the view your model cannot yet explain — I.6 will test fit, drape, and discrepancy.",
       "slide_id": "outro",
-      "notes": "- Close: name what carries to the next session / deliverable.\n- Bring the view your model cannot yet explain, not only the render that looks finished."
+      "notes": "- Close the hand-off explicitly.\n- Perspective kit / Panofsky stay in ML-B — not tonight."
     }
   ],
   "schema_version": 2

@@ -26,7 +26,7 @@
 | Phase | Status |
 | --- | --- |
 | V0 · Slim I.6 + ML-B draft home | **DONE** (see report) |
-| V1 · Slim I.5 | PENDING |
+| V1 · Slim I.5 | **DONE** (see `PHASE-V1-REPORT.md`) |
 | V2 · ML-A/B/C student surfaces | PENDING (B draft only after V0) |
 | V3 · Media-accept Commons leads | PENDING |
 | V4 · Verification gates | PARTIAL in V0 |

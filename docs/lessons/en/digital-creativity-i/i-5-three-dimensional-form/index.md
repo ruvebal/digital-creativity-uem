@@ -3,20 +3,25 @@ layout: lesson
 title: 'I.5 · Fundamentals and Representation of Three-Dimensional Form'
 title_es: 'I.5 · Fundamentos y representación de la forma tridimensional'
 slug: i-5-forma-tridimensional
-date: 2026-08-20
+date: 2026-11-14
 author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /lessons/en/digital-creativity-i/i-5-three-dimensional-form/
-description: 'Three-dimensional form as spatial literacy — geometry and perception plus a verified 2D→3D course sequence, with an honest gap on validated form understanding.'
-status: scaffold
+description: 'Three-dimensional form as spatial literacy — multi-view evidence before software fluency, with a verified 2D→3D course sequence and an honest gap on validated form understanding.'
+status: pilot
+enable_page_art: false
 tags: [digital-creativity-i, 3d-form, spatial-reasoning, fashion-education]
 deck_url: /tracks/dci/i-5-three-dimensional-form/
+master_idea: '3D software is a spatial-literacy instrument before it is a modelling interface'
+practice_anchor: 'A 2D-to-3D translation diagnostic and a view-change explanation — not software polish alone'
+frontier_signal: 'Generative 3D may accelerate output faster than pedagogical validation; treat generated volume as input to judgement'
 references: [papahristou-2024]
+cover_quote: 'Practice in the dojo, perform in the arena.'
 ---
 
 <!-- prettier-ignore-start -->
 
-## 📋 Table of Contents
+## Table of contents
 {: .no_toc }
 - TOC
 {:toc}
@@ -25,204 +30,126 @@ references: [papahristou-2024]
 
 ---
 
-> _"Practice in the dojo, perform in the arena."_
-<!-- TTDO fit: used analogically here — its own `teaches` field is about DEV/STG/PROD software environments, not fashion form-making; the fit is the distinction between decontextualised skill drills and the contextualised studio piece, B3 vs B2 below. -->
-> — Tao of Development, `wis-013`
-{: .tao-development-quote }
-
----
-
 {% include lesson-semantic-graphic.html %}
 
-## Where this sits — CONTENIDOS and competencies
+## Start here
 
-**CONTENIDOS anchor (verbatim, official guía):** *Fundamentos y representación de la forma tridimensional.*
+**In-class deck:** [I.5 · Three-dimensional form slideshow]({{ '/tracks/dci/i-5-three-dimensional-form/' | relative_url }}). **Class rhythm:** Analysis → Masterclass → two Lab exercises.
 
-**Competencies served:** `CON1`, `HAB9`, `COMP8`, `COMP9`.
+**Series note:** This unit owns *spatial literacy* (views, axis, evidence trail). I.6 owns *volume as behaviour* (fit, drape, discrepancy). Perspective history and depth-perception enrichment stay off this page — see Volume–Depth cascade.
 
-**Learning outcomes:** *"Identificar los conceptos fundamentales de la forma tridimensional y su representación geométrica."* · *"Reconocer las técnicas de representación tridimensional."*
+## Official place in the course
 
-**Evaluation weights:** Investigaciones y proyectos 20% (studio piece); Cuaderno 10% (process note).
+**CONTENIDOS:** *Fundamentos y representación de la forma tridimensional.*
 
----
+**Guide competencies:** `CON1`, `HAB9`, `COMP8`, `COMP9`.
 
-## Learning objectives
+**Relevant learning outcomes:** *Identificar los conceptos fundamentales de la forma tridimensional y su representación geométrica* · *Reconocer las técnicas de representación tridimensional*.
 
-- **Name geometry, transforms, surfaces, lighting, rendering, and display pipelines** as the technical families behind 3D representation (Hughes et al. 2013).
-- **Treat spatial visualization as the core pedagogical construct** — mentally transforming flat patterns and sketches into three-dimensional forms and back (Moritz and Youn 2022).
-- **Describe a sequenced 2D→3D teaching structure** documented in real fashion programmes [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024).
-- **Produce a small sequence of form studies** that documents how a flat idea became a spatial one.
-- **Distinguish "the software rendered a volume" from "I understand the volume."**
+**Official evaluation weights:** Investigaciones y proyectos 20% · Cuaderno de prácticas 10% (process traces).
 
----
+## Learning aims
+
+- Treat a 3D claim as something another view can test — not as a polished render alone.
+- Name front / side / three-quarter (or top) as different questions about the same form.
+- Separate spatial visualization from software fluency (tool docs stay `[PLATFORM]`).
+- Use light and silhouette as form evidence without claiming a fashion-HE RCT for light-on-form.
+- Hand off to I.6: behaviour and fit signs, not prettier mesh.
 
 ## Analysis
-### Critical perspective
 
-The dressed body is not a biological support prior to fashion, but a socially produced body — a theoretical counterweight to 3D systems that treat measurements, gender, pose, or silhouette as merely technical parameters (Entwistle 2015).
+Start with a flat reading that another projection can confirm or break. Spatial literacy is the capacity to move between flat evidence and volumetric claim — and to say where they diverge.
 
-Avatar libraries and mannequin defaults are not neutral representations of the body: they condition which identities can be recognised in spatial exercises. What does your chosen view make legible, and which form is treated as the unspoken standard?
+<figure class="lesson-figure" id="figure-analysis-model" markdown="0">
+<img src="{{ '/assets/images/deck-media/f30519b35796f439.webp' | relative_url }}" width="1200" height="1600" alt="Historical fashion silhouette print showing a side-view contour that trains reading form across one projection." loading="lazy" decoding="async" />
+<figcaption><strong>One projection, one question.</strong> A side silhouette already argues volume — ask what the front view would have to contain for the claim to hold. 1890 silhouette · DPLA / Wikimedia Commons · course media records.</figcaption>
+</figure>
 
-### The debate prompt
+**Debate prompt:** Is 3D virtual prototyping a replacement for physical model-making in learning form, or a different representation that must be taught *alongside* it? Documented programmes sequence 2D before 3D [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024) — does that settle the question for your cohort, or only describe one institutional choice?
 
-**Is 3D virtual prototyping a replacement for physical model-making in learning form, or a different representation that must be taught alongside it, not instead of it?** The IHU/AMFI structures above answer "alongside" by sequencing 2D before 3D — does that settle the question for your cohort, or only describe one institution's choice?
-
----
-
-
-
-Covered above: Hughes/Arnheim/Moritz framing, Papahristou sequence, critical lens, and debate. The three concept illustrations appear with their teaching moves below.
-
-**What "understanding form" means here:** a rendered volume that looks correct is not proof of understanding. Minimum evidence trail: (1) the 2D read before building; (2) a visible sketch → primitive-volume → digital sequence; (3) one sentence naming where 2D reading and 3D result diverged — "they matched" is valid if stated.
-
----
+Avatar and mannequin defaults are not neutral. Ask what your chosen view makes legible, and which body form is treated as the unspoken standard.
 
 ## Masterclass
 
+### 1 · Flat evidence vs volumetric claim
+
+A 3D form begins with a 2D reading that another view can test. Geometry, transforms, surfaces, lighting, and rendering name the technical families behind representation — they are vocabulary for judgement, not a menu to clear.
+
 <figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations." loading="lazy" decoding="async" aria-describedby="i5-spatial-reading-caption">
-<figcaption id="i5-spatial-reading-caption"><strong>From flat reading to volume.</strong> Follow the shared axis, then name what the side elevation has to propose that the flat cannot show. Original semantic teaching illustration; garment geometry is schematic.</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations." loading="lazy" decoding="async" />
+<figcaption><strong>From flat reading to volume.</strong> Follow the shared axis, then name what the side elevation must propose that the flat cannot show. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
+
+### 2 · Multi-view = different questions
+
+Front, side, and three-quarter (or top) views must agree on axis, proportion, and silhouette — or name the mismatch. Planes and sections make volume *testable*; they do not by themselves prove fit or drape (that is I.6).
 
 <figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain." loading="lazy" decoding="async" aria-describedby="i5-views-agree-caption">
-<figcaption id="i5-views-agree-caption"><strong>Planes make volume testable.</strong> Trace one level across front and side; identify where the dashed mismatch fails to fit the shared volume. Original semantic teaching illustration for projection reasoning.</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain." loading="lazy" decoding="async" />
+<figcaption><strong>Planes make volume testable.</strong> Trace one level across front and side; identify where the dashed mismatch fails the shared volume. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
+
+### 3 · Spatial visualization ≠ software fluency
+
+Apparel education treats the capacity to mentally transform flat patterns and sketches into three-dimensional forms — and back — as spatial visualization, not as “can operate a 3D package.” Verified course-structure evidence: at International Hellenic University, 3D virtual prototyping is taught in the third year alongside 2D CAD, after traditional patternmaking and 2D software — theory half and laboratory half [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024). AMFI integrated 3D progressively across the curriculum [(Papahristou and Zolota Tatsi 2024, 268)](#ref-papahristou-2024).
+
+**What this supports — and what it does not.** Those cases support that a sequenced 2D→3D structure *exists*. They do **not** prove validated volume-understanding outcomes; the same review reports tool-adoption measures rather than form-understanding instruments [(Papahristou and Zolota Tatsi 2024, 1)](#ref-papahristou-2024).
+
+**Course nail (assessable):** a 2D-to-3D translation diagnostic and a view-change explanation — do not grade only software operation or render polish.
+
+### 4 · Light and silhouette as form evidence
+
+Block mass, cast one light, read the outer silhouette before surface noise. Light-on-form is durable studio literacy; fashion-HE controlled evidence for a still-life → garment pipeline remains a **Declared gap** (`dc-3d-form-volume-pedagogy`). Teach the exercise; do not invent the RCT.
 
 <figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test." loading="lazy" decoding="async" aria-describedby="i5-render-evidence-caption">
-<figcaption id="i5-render-evidence-caption"><strong>A render is not understanding.</strong> Find where the prediction diverges, then name the test that justified the revision. Original semantic teaching illustration; the evidence trail is a classroom proposal, not a validated assessment instrument.</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test." loading="lazy" decoding="async" />
+<figcaption><strong>A render is not understanding.</strong> Find where the prediction diverges, then name the test that justified the revision. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
 
-<figure class="lesson-figure" id="figure-analysis-model" markdown="0">
-<img src="{{ '/assets/images/deck-media/f30519b35796f439.webp' | relative_url }}" alt="1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="analysis-model" %}</figcaption>
-</figure>
+### 5 · Hand-off to I.6 — behaviour, not prettier mesh
+
+I.5 ends when the student can explain form across views. I.6 begins when the same volume must answer *fit, drape, tension, and material response* — including cases where silhouette matches and behaviour does not.
 
 <figure class="lesson-figure" id="figure-cover" markdown="0">
-<img src="{{ '/assets/images/deck-media/a7fe225309618a85.webp' | relative_url }}" alt="Dresses by Rei Kawakubo - Sarah Stierch 01.jpg" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="cover" %}</figcaption>
+<img src="{{ '/assets/images/deck-media/a7fe225309618a85.webp' | relative_url }}" width="1200" height="1600" alt="Exhibition view of sculptural dresses whose volumes are worn on the body, not only modelled in CAD." loading="lazy" decoding="async" />
+<figcaption><strong>Volume worn.</strong> Three-dimensional form in fashion is already on the body — I.6 will ask what that volume *does* under support and gravity. Photograph · Sarah Stierch / garments Rei Kawakubo · Wikimedia Commons · flagged rights for classroom stills.</figcaption>
 </figure>
 
+## Lab · Portfolio
 
-**Claim:** three-dimensional representation depends on geometry, transforms, surfaces, lighting, rendering, and display pipelines — the technical substrate this unit names before any brand-specific 3D menu (Hughes et al. 2013).
+### Exercise 1 · Flat → elevation → volume strip {#lab-exercise-1}
 
-Perception of shape, balance, depth, and volume is a psychological foundation for representing three-dimensional form — digital tools do not replace that perceptual work (Arnheim 2004). Fashion education treats the capacity to mentally transform flat patterns, sketches, and garment components into three-dimensional forms — and back again — as a domain-specific form of spatial visualization (Moritz and Youn 2022).
+**Time:** 20 minutes · **Format:** individual.
 
-**Verified course-structure evidence.** At the International Hellenic University, 3D virtual prototyping is taught in the third year alongside a 2D CAD patternmaking course — after students already know traditional patternmaking, basic construction, and 2D design software. The course is split into a theoretical half and a practical/laboratory half [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024). A second independent case reports AMFI integrating 3D prototyping progressively across the curriculum — initially in the final prototyping phase, later extended to the conceptual phase [(Papahristou and Zolota Tatsi 2024, 268)](#ref-papahristou-2024).
-
-**What this supports, and what it does not.** Hughes et al. (2013) and Arnheim (2004) support technical and perceptual vocabulary. Moritz and Youn (2022) support naming apparel-specific spatial visualization as measurable, not assumed. Papahristou and Zolota Tatsi (2024) support that a sequenced 2D→3D structure exists in real programmes — **not** that it produces validated spatial-form understanding; their review reports tool-adoption outcomes rather than validated volume-understanding measures [(Papahristou and Zolota Tatsi 2024, 1)](#ref-papahristou-2024). Tool docs ground operations only — label `[PLATFORM]`, never research.
-
-**Practice anchor (field lens):** spatial visualization and orthographic/perspective literacy as durable design-education constructs — separate from interface fluency.
-
-**Frontier signal (field lens):** generative 3D and AI-assisted form tools may accelerate output faster than pedagogical validation; treat any generated volume as input to judgement, not proof of spatial understanding.
-
-## Lab (Portfolio)
-
-*A geometrical slide announces the Lab: **two** exercises follow. Traces go into the **portfolio index**. Selected I.5 Labs practise Masterclass spatial craft (feeds later cartel / workshop work) — not a new graded ACT.*
-
-### Exercise 1 — Flat → elevation → volume strip {#lab-exercise-1}
-
-Practises Masterclass ideas **1** (start with the axis) and **2** (planes make volume testable).
-
-**Time:** 20 minutes.
-
-**Group:** alone.
-
-**Materials:** paper or tablet; timer; optional simple 3D tool later (CLO not required).
-
-**Steps:**
-
-1. Sketch flat → side elevation → simple volume for one garment region.
-2. Mark one ambiguity that only 3D can resolve.
-3. State what you will test in digital volume next (without requiring CLO).
-4. Keep the three sketches as one strip.
+Sketch flat → side elevation → simple volume for one garment region. Mark one ambiguity that only 3D can resolve. State what you will test next (CLO not required). Keep the three sketches as one strip.
 
 **Portfolio trace:** three-sketch strip + next-test sentence.
 
-**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+### Exercise 2 · Silhouette from volume (not from polish) {#lab-exercise-2}
 
-**Source:** Sequenced 2D→3D teaching structure in programmes [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024); steps are classroom adaptation.
+**Time:** 20 minutes · **Format:** individual.
 
-**Example trace:** *(Illustrative · not student work.)* Two orthographic views + one perspective thumbnail; note: “Form read fails when the silhouette alone is trusted.”
-
-
-### Exercise 2 — Silhouette from volume (not from polish) {#lab-exercise-2}
-
-Practises Masterclass idea **3** (a render is not understanding).
-
-**Time:** 20 minutes.
-
-**Group:** alone.
-
-**Materials:** sketch or simple digital volume; a flat of the same design; timer.
-
-**Steps:**
-
-1. Block the garment as 2–4 volumes (no surface detail).
-2. Cast a single light; shade only mass.
-3. Trace the outer silhouette; discard interior noise.
-4. Compare to a flat of the same design.
-5. Write one sentence on what a polished render would have hidden.
+Block the garment as 2–4 volumes (no surface detail). Cast a single light; shade only mass. Trace the outer silhouette; compare to a flat of the same design. Write one sentence on what a polished render would have hidden.
 
 **Portfolio trace:** volume block + silhouette trace + flat comparison + render-honesty sentence.
 
-**Judged by:** [Portfolio rubric — form understanding]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }}#rubric)
+## Problem-solving check
 
-**Source:** Classroom adaptation (silhouette-from-volume held — Moritz & Youn spatial visualization gap).
-
-**Example trace:** *(Illustrative · not student work.)* Clay vs screen pass of the same volume; sentence: “The hand pass revealed underarm void the mesh smoothed away.”
-
-
-**Definition of done:** piece ID; process folder; one-paragraph reflection naming what the 2D read predicted and what it missed once built in 3D.
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (piece); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
-Tool documentation referenced (any 2D drawing or 3D modelling package) is a dated platform note, not a citation — check versions before class.
-LAB_LINE: exercise=1; method_id=2d-to-3d-sequence-sketch; practises=masterclass-1,masterclass-2; source=papahristou-2024 pp.3,5 (verified) + classroom steps; selected I.5–I.9
-LAB_LINE: exercise=2; method_id=silhouette-from-volume; practises=masterclass-3; source=held/classroom adaptation; selected I.5–I.9
--->
-{% endif %}
-
----
-
-## Workshop
-
-From session 4: Workshop is protected studio time for D2 Transposition and D3 final event (≈ half / half) — not D1 Analysis clock.
-
-
-1. **Diagnostic.** Given three 2D projections of the same object (front, side, top), identify which stated 3D volume they could *not* actually fold into, and say what's inconsistent.
-2. Given a rendered 3D mock-up with a visible form/volume error, name the specific inconsistency — not "it looks wrong," but which dimension or projection fails.
-3. **No-tool, declared:** without any digital or physical tool, describe in writing how a flat pattern piece becomes a rounded form when draped — name at least two things that change and why. **No AI — declared as such.**
-
-Professor answer sketches are not published on this page.
-
-{% comment %}
-outcome-graphic-selection:
-  source-section: "B3 · Resolución de problemas"
-  visual-grammar: "projection-fold — orthographic planes converge on one coherent volume while an inconsistency is excluded"
-{% endcomment %}
-{% include lesson-outcome-graphic.html %}
-
----
+1. Given three 2D projections of the same object, identify which stated 3D volume they could *not* fold into — and what is inconsistent.
+2. Given a rendered mock-up with a form error, name the specific inconsistency (dimension or projection), not “it looks wrong.”
+3. Without tools, describe how a flat pattern piece becomes a rounded form when draped — name at least two things that change and why. **No AI — declared.**
 
 ## Conclusion
 
-This unit leaves named gaps on purpose: what the vault can page-verify stays in References; what remains open stays in the Editorial note. Keep Lab traces honest in the portfolio index. Do not invent a graded deliverable that How to Pass does not ask for. The next stake is the session rhythm already named — Analysis defence (D1) from session 3, Workshop from session 4 for Transposition and the final event.
+Carry the view your model cannot yet explain. Next unit (I.6) tests whether that form *behaves* — fit and material — not whether the mesh looks finished.
 
----
-
-
-**Practice:** five recall questions with answers on click — [i-5-three-dimensional-form practice quiz]({{ '/practice/en/i-5-three-dimensional-form/' | relative_url }}). Not graded; nothing recorded.
+**Practice:** [I.5 practice quiz]({{ '/practice/en/i-5-three-dimensional-form/' | relative_url }}). Not graded; nothing recorded.
 
 ## Tao of the Image {#tao-of-the-image}
 
-Unit epigraph (studio Tao register — not a scholarly quotation):
+Studio aphorism; not a scholarly quotation.
 
-> _"Practice in the dojo, perform in the arena."_
-
-Deck and lesson links that target `#tao-of-the-image` resolve here.
+> _“Practice in the dojo, perform in the arena.”_
 
 ---
 
@@ -232,19 +159,12 @@ Deck and lesson links that target `#tao-of-the-image` resolve here.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-PROFIELD_ROUTING: unit=I.5; temario=T1-image-2d-volume.pass1.resultant.mdc § 3D form/volume; subfield_runs=dc-3d-form-volume-pedagogy/20260816/pass1.edited.md § 1–2
-CRITICAL_ROUTING: unit=I.5; critica=C2 Entwistle fashioned body L29; C2 default-body prompt; session spatial-vocabulary prompt
-PROVENANCE_LINE: claim=I.5.claim.3d-pipeline; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/02-temario-contenidos; knowledge_scope=field_prospection; query="geometry transforms surfaces lighting rendering 3D representation"; source_locator=T1-image-2d-volume.pass1.resultant.mdc § Hughes; similarity=null; proposed_use="technical anchor"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Hughes et al. 2013 not in scholar vault; quote=none; public_citation="(Hughes et al. 2013)"; supports="3D representation pipeline vocabulary"; does_not_support="fashion-specific 3D tool pedagogy"
-PROVENANCE_LINE: claim=I.5.claim.perceptual-form; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/02-temario-contenidos; knowledge_scope=field_prospection; query="perception shape balance depth volume Arnheim"; source_locator=T1-image-2d-volume.pass1.resultant.mdc § Arnheim; similarity=null; proposed_use="perceptual anchor"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Arnheim 2004 not in scholar vault; quote=none; public_citation="(Arnheim 2004)"; supports="perceptual foundation for 3D form"; does_not_support="digital-tool classroom sequence"
-PROVENANCE_LINE: claim=I.5.claim.spatial-visualization; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=dc-3d-form-volume-pedagogy; knowledge_scope=field_prospection; query="apparel spatial visualization 2D 3D transformation Moritz"; source_locator=pass1.edited.md L9; similarity=null; proposed_use="pedagogy construct"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Moritz Youn 2022 not in scholar vault; quote="mentally transform flat patterns, sketches, and garment components into three-dimensional forms"; public_citation="(Moritz and Youn 2022)"; supports="apparel-specific spatial visualization construct"; does_not_support="this unit's validated learning outcomes"
-PROVENANCE_LINE: claim=I.5.claim.sequenced-2d-3d-structure; status=VERIFIED; page_basis=printed; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="3D virtual prototyping 2D CAD patternmaking theory lab split"; source_locator=dc-3d-form-volume-pedagogy digest p1-c002; similarity=null; proposed_use="course-structure anchor"}; source={document_coat=20e79483; extraction_db=ahmes-library/scholar/documents/cdatp_papachristou_20e79483/extract/extraction.db; node_id=88bcdad6-160b-5fab-a31e-848932abb7c3; page_index=4; printed_page=5}; resolver="ahmes query --cite extraction.db:88bcdad6-160b-5fab-a31e-848932abb7c3 --require-evaluator-safe evaluator_safe=yes"; quote="theoretical half and a practical/laboratory half"; public_citation="[(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024)"; supports="real 2D→3D sequenced course structure"; does_not_support="validated form-understanding outcomes"
-PROVENANCE_LINE: claim=I.5.claim.amfi-integration; status=VERIFIED; page_basis=printed; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="AMFI 3D prototyping curriculum integration Siersema"; source_locator=same coat Papahristou review; similarity=null; proposed_use="second institutional case"}; source={document_coat=20e79483; extraction_db=ahmes-library/scholar/documents/cdatp_papachristou_20e79483/extract/extraction.db; node_id=a196bf7e-da78-5714-86df-7e196221f633; page_index=2; printed_page=3}; resolver="ahmes query --cite extraction.db:a196bf7e-da78-5714-86df-7e196221f633 --require-evaluator-safe evaluator_safe=yes"; quote=none; public_citation="[(Papahristou and Zolota Tatsi 2024, 268)](#ref-papahristou-2024)"; supports="progressive 3D integration in second institution"; does_not_support="universal curriculum prescription"
-PROVENANCE_LINE: claim=I.5.gap.form-understanding-measures; status=[BIBLIO-GAP]; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="3D design education tool adoption not validated form understanding"; source_locator=Papahristou review synthesis p.1; similarity=null; proposed_use="honest gap"}; source={document_coat=20e79483; extraction_db=ahmes-library/scholar/documents/cdatp_papachristou_20e79483/extract/extraction.db; node_id=none; page_index=null; printed_page=1}; resolver=OMITTED; ahmes_attempt=page-1 gap claim cited from review synthesis not separately node-resolved this pass; quote=none; public_citation="[(Papahristou and Zolota Tatsi 2024, 1)](#ref-papahristou-2024)"; supports="naming tool-adoption vs form-understanding gap"; does_not_support="abandoning 2D→3D sequence"
-PROVENANCE_LINE: claim=I.5.critical.fashioned-body; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="fashioned body avatar neutral mannequin Entwistle"; source_locator=C2-fashion-virtuality.pass1.resultant.mdc L29; similarity=null; proposed_use="critical theoretical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Entwistle 2015 not in scholar vault; quote=none; public_citation="(Entwistle 2015)"; supports="body as socially produced not technical default"; does_not_support="which mannequin students must use"
-PROVENANCE_LINE: claim=I.5.critical.spatial-vocabulary; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="spatial conventions default body form representation"; source_locator=i-5-three-dimensional-form.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming whose forms are easy to model"; does_not_support="empirical claim about cohort"
-MEDIA_RIGHTS_LINE: slot=I.5.video.2d-to-3d-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.5.still.orthographic-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.5.graphic.reference-to-blockout; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+PROFIELD_ROUTING: unit=I.5; cascade=VOLUME-DEPTH-SERIES/PHASE-V1; MASTER-IDEAS=I.5 spatial-literacy; handoff=I.6 behaviour
+PROVENANCE_LINE: claim=I.5.claim.sequenced-2d-3d-structure; status=VERIFIED; public_citation="(Papahristou and Zolota Tatsi 2024, 270)"
+PROVENANCE_LINE: claim=I.5.claim.amfi-integration; status=VERIFIED; public_citation="(Papahristou and Zolota Tatsi 2024, 268)"
+PROVENANCE_LINE: claim=I.5.gap.form-understanding-measures; status=[BIBLIO-GAP]; public_citation="(Papahristou and Zolota Tatsi 2024, 1)"
+PROVENANCE_LINE: claim=I.5.claim.3d-pipeline; status=[BIBLIO-GAP]; public_citation="(Hughes et al. 2013)"; orientation only
+PROVENANCE_LINE: claim=I.5.claim.perceptual-form; status=[BIBLIO-GAP]; public_citation="(Arnheim 2004)"; orientation only
 -->
 {% endif %}
 
@@ -253,20 +173,12 @@ MEDIA_RIGHTS_LINE: slot=I.5.graphic.reference-to-blockout; status=PENDING; licen
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-**Declared gap — stated plainly.** Papahristou and Zolota Tatsi (2024) support a real taught 2D→3D sequence; they do **not** prove that sequence produces validated spatial-form understanding better than an alternative. Moritz and Youn (2022) support naming apparel-specific spatial visualization — not this classroom's efficacy.
-
-This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+Papahristou and Zolota Tatsi (2024) support a real taught 2D→3D sequence; they do **not** prove validated spatial-form understanding. Light-on-form and still-life → garment pipelines remain Declared gaps in `dc-3d-form-volume-pedagogy`. Hughes / Arnheim stay orientation vocabulary until Ahmes-safe. Perspective construction teaching lives in the Volume–Depth ML-B draft, not here.
 
 ---
 
 ## AI-assisted authorship
 
-This lesson was written with local AI-assisted drafting under the author's editorial control. Six original semantic illustrations were authored as SVG with visual-forger 1.3.0: three lesson diagrams and three distinct companion slide illustrations. The author reviewed them for spatial consistency and slide legibility. Student and teaching AI declaration: [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+This lesson was drafted with AI assistance under the author’s editorial control.
 
-
-{% if site.publication.publish_internal_metadata %}
-<!-- lesson_uuid: 8dd5a47e-f8b1-4532-a98b-60d0031d33ba
-     vault_refs_consulted: 5
-     forge_pass: editorial-ai-footer-law-2026-09-22
--->
-{% endif %}
+AI-assisted authorship declaration: [read the full disclosure]({{ '/ai-declaration/' | relative_url }}).

@@ -3,20 +3,25 @@ layout: lesson
 title: 'I.5 · Fundamentos y representación de la forma tridimensional'
 title_en: 'I.5 · Fundamentals and Representation of Three-Dimensional Form'
 slug: i-5-forma-tridimensional
-date: 2026-08-20
+date: 2026-11-14
 author: 'Rubén Vega Balbás, PhD'
 lang: es
 permalink: /lessons/es/creacion-digital-i/i-5-forma-tridimensional/
-description: 'La forma tridimensional como alfabetización espacial — geometría y percepción más una secuencia 2D→3D verificada, con una laguna honesta sobre comprensión validada de la forma.'
-status: scaffold
-tags: [creacion-digital-i, forma-3d, razonamiento-espacial, educacion-moda]
+description: 'La forma tridimensional como alfabetización espacial — evidencia multi-vista antes de la fluidez de software, con una secuencia 2D→3D verificada y un hueco declarado sobre comprensión validada de la forma.'
+status: pilot
+enable_page_art: false
+tags: [digital-creativity-i, 3d-form, spatial-reasoning, fashion-education]
 deck_url: /tracks/dci/i-5-three-dimensional-form/
+master_idea: 'El software 3D es un instrumento de alfabetización espacial antes que una interfaz de modelado'
+practice_anchor: 'Un diagnóstico de traducción 2D→3D y una explicación de cambio de vista — no solo el brillo del render'
+frontier_signal: 'El 3D generativo puede acelerar la salida más rápido que la validación pedagógica; trata el volumen generado como input al juicio'
 references: [papahristou-2024]
+cover_quote: 'Practice in the dojo, perform in the arena.'
 ---
 
 <!-- prettier-ignore-start -->
 
-## 📋 Tabla de contenidos
+## Índice
 {: .no_toc }
 - TOC
 {:toc}
@@ -25,228 +30,126 @@ references: [papahristou-2024]
 
 ---
 
-> _"Practica en el dojo, actúa en la arena."_
-<!-- Ajuste TTDO: usado de forma analógica aquí — su campo `teaches` propio trata de entornos de software DEV/STG/PROD, no de creación de forma en moda; el ajuste está en la distinción entre práctica descontextualizada, B3, y la pieza contextualizada de taller, B2, más abajo. -->
-> — Tao of Development, `wis-013`
-{: .tao-development-quote }
-
----
-
 {% include lesson-semantic-graphic.html %}
 
-## Dónde se sitúa — CONTENIDOS y competencias
+## Empieza aquí
 
-**Anclaje CONTENIDOS (verbatim, guía oficial):** *Fundamentos y representación de la forma tridimensional.*
+**Deck en clase:** [I.5 · Diapositivas de forma tridimensional]({{ '/tracks/dci/i-5-three-dimensional-form/' | relative_url }}). **Ritmo de clase:** Análisis → Masterclass → dos ejercicios de Lab.
 
-**Competencias que sirve:** `CON1`, `HAB9`, `COMP8`, `COMP9`.
+**Nota de serie:** Esta unidad posee la *alfabetización espacial* (vistas, eje, rastro de evidencia). I.6 posee el *volumen como comportamiento* (ajuste, caída, discrepancia). La historia de la perspectiva y el enriquecimiento de percepción de profundidad quedan fuera de esta página — ver cascada Volume–Depth.
 
-**Resultados de aprendizaje:** *"Identificar los conceptos fundamentales de la forma tridimensional y su representación geométrica."* · *"Reconocer las técnicas de representación tridimensional."*
+## Lugar oficial en el curso
 
-**Pesos de evaluación:** Investigaciones y proyectos 20% (pieza de taller); Cuaderno 10% (nota de proceso).
+**CONTENIDOS:** *Fundamentos y representación de la forma tridimensional.*
 
----
+**Competencias de la guía:** `CON1`, `HAB9`, `COMP8`, `COMP9`.
+
+**Resultados de aprendizaje relevantes:** *Identificar los conceptos fundamentales de la forma tridimensional y su representación geométrica* · *Reconocer las técnicas de representación tridimensional*.
+
+**Pesos oficiales de evaluación:** Investigaciones y proyectos 20% · Cuaderno de prácticas 10% (rastros de proceso).
 
 ## Objetivos de aprendizaje
 
-- **Nombrar geometría, transformaciones, superficies, iluminación, render y tuberías de visualización** como familias técnicas de la representación 3D (Hughes et al. 2013).
-- **Tratar la visualización espacial como constructo pedagógico central** — transformar mentalmente patrones y bocetos planos en formas tridimensionales y viceversa (Moritz y Youn 2022).
-- **Describir una estructura didáctica secuenciada 2D→3D** documentada en programas reales de moda (Papahristou y Zolota Tatsi 2024, 5).
-- **Producir una pequeña secuencia de estudios de forma** que documente cómo una idea plana se volvió espacial.
-- **Distinguir "el software renderizó un volumen" de "yo entiendo el volumen".**
-
----
+- Tratar una afirmación 3D como algo que otra vista puede poner a prueba — no solo como un render pulido.
+- Nombrar frente / lado / tres cuartos (o planta) como preguntas distintas sobre la misma forma.
+- Separar visualización espacial de fluidez de software (la documentación de herramienta queda en `[PLATFORM]`).
+- Usar luz y silueta como evidencia de forma sin reclamar un RCT de moda-HE para luz-sobre-forma.
+- Pasar el testigo a I.6: signos de comportamiento y ajuste, no malla más bonita.
 
 ## Análisis
-### Perspectiva crítica
 
-El cuerpo vestido no es un soporte biológico previo a la moda, sino un cuerpo socialmente producido — contrapeso teórico frente a sistemas 3D que tratan medidas, género, pose o silueta como meros parámetros técnicos (Entwistle 2015).
+Empieza con una lectura plana que otra proyección puede confirmar o romper. La alfabetización espacial es la capacidad de moverse entre evidencia plana y afirmación volumétrica — y de decir dónde divergen.
 
-Las bibliotecas de avatares y los maniquíes por defecto no son representaciones neutrales del cuerpo: condicionan qué identidades pueden reconocerse en ejercicios espaciales. ¿Qué hace legible la vista elegida, y qué forma se trata como estándar tácito?
-
-### La pregunta de debate
-
-**¿Es el prototipado virtual 3D un sustituto del modelado físico para aprender la forma, o una representación distinta que hay que enseñar junto a él, no en su lugar?** Las estructuras IHU/AMFI de arriba responden "junto a" secuenciando 2D antes que 3D — ¿eso resuelve la pregunta para vuestra cohorte, o solo describe la elección de una institución?
-
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.5.video.2d-to-3d-process" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-05-spatial-literacy-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador abstracto para demostración espacial 2D a 3D; no representa personas ni prendas." loading="lazy" />
-<figcaption>
-<p><strong>Por qué está aquí:</strong> un clip breve marca cuándo una representación puede comprobarse desde otra vista.</p>
-<p><strong>Qué observar:</strong> eje, proporción, silueta y qué cierra cada paso.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
-</figcaption>
+<figure class="lesson-figure" id="figure-analysis-model" markdown="0">
+<img src="{{ '/assets/images/deck-media/f30519b35796f439.webp' | relative_url }}" width="1200" height="1600" alt="Estampa histórica de silueta de moda en vista lateral que entrena a leer la forma en una sola proyección." loading="lazy" decoding="async" />
+<figcaption><strong>Una proyección, una pregunta.</strong> Una silueta lateral ya argumenta volumen — pregunta qué tendría que contener la vista frontal para que la afirmación se sostenga. Silueta 1890 · DPLA / Wikimedia Commons · registros de medios del curso.</figcaption>
 </figure>
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.5.still.orthographic-exemplar" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-05-spatial-literacy-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador para ejemplo ortográfico y contraejemplo de dibujo ambiguo; no representa personas ni prendas." loading="lazy" />
-<figcaption>
-<p><strong>Por qué está aquí:</strong> imágenes en paralelo separan tres vistas alineadas de dibujos contradictorios.</p>
-<p><strong>Qué observar:</strong> evidencia espacial frente a pulido decorativo.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
-</figcaption>
-</figure>
+**Pregunta de debate:** ¿Es el prototipado virtual 3D un sustituto del modelado físico para aprender forma, o una representación distinta que debe enseñarse *junto* a él? Programas documentados secuencian 2D antes de 3D [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024) — ¿eso cierra la pregunta para tu cohorte, o solo describe una elección institucional?
 
-<figure class="lesson-media lesson-media--placeholder" data-media-slot="I.5.graphic.reference-to-blockout" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/dc-i-05-spatial-literacy-semantic.svg' | relative_url }}" width="1600" height="560" alt="Marcador de diagrama para cadena referencia-eje-silueta-vistas-bloqueo; no representa personas ni prendas." loading="lazy" />
-<figcaption>
-<p><strong>Por qué está aquí:</strong> mapea referencia → eje → silueta → planos → vistas → bloqueo.</p>
-<p><strong>Qué observar:</strong> dónde se pierde información espacial entre pasos.</p>
-<p class="media-note">Marcador visual — medios con licencia pendientes de revisión.</p>
-</figcaption>
-</figure>
-
----
-
-
-
-Cubierto arriba: marco Hughes/Arnheim/Moritz, secuencia Papahristou, perspectiva crítica, debate y marcadores.
-
-**Qué significa "entender la forma" aquí:** un volumen renderizado que se ve correcto no es prueba de comprensión. Rastro mínimo: (1) lectura 2D antes de construir; (2) secuencia visible boceto → volumen primitivo → digital; (3) una frase nombrando dónde divergieron lectura 2D y resultado 3D — "coincidieron" es válido si se declara.
-
----
+Los defaults de avatar y maniquí no son neutrales. Pregunta qué hace legible tu vista elegida, y qué forma corporal se trata como estándar no dicho.
 
 ## Masterclass
 
+### 1 · Evidencia plana frente a afirmación volumétrica
+
+Una forma 3D empieza con una lectura 2D que otra vista puede poner a prueba. Geometría, transformaciones, superficies, iluminación y renderizado nombran las familias técnicas detrás de la representación — son vocabulario para el juicio, no un menú que hay que completar.
+
 <figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
-<img src="{{ '/assets/images/deck-media/6d87fb61fcb1d4de.webp' | relative_url }}" alt="Indienne, représentant Minerve Péruvienne." loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-1" %}</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un panel abstracto de prenda pasa del patrón plano a la elevación lateral y a un volumen simple; un eje compartido y marcas de proporción revelan lo que cambia entre representaciones." loading="lazy" decoding="async" />
+<figcaption><strong>De la lectura plana al volumen.</strong> Sigue el eje compartido y nombra lo que la elevación lateral debe proponer y el plano no puede mostrar. Ilustración original del curso · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
+
+### 2 · Multi-vista = preguntas distintas
+
+Frente, lado y tres cuartos (o planta) deben acordar en eje, proporción y silueta — o nombrar el desajuste. Los planos y secciones hacen el volumen *comprobable*; no demuestran por sí solos ajuste o caída (eso es I.6).
 
 <figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
-<img src="{{ '/assets/images/deck-media/5440d18f70034583.webp' | relative_url }}" alt="Affiche voor tentoonstelling 'SHANGHAI GESTURE, curated by Alexander van Slobbe', objectnr 480.tif" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-2" %}</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Vistas frontal, lateral y planta alinean un volumen axonométrico; un desajuste a trazos marca un contorno que la forma propuesta no explica." loading="lazy" decoding="async" />
+<figcaption><strong>Los planos hacen comprobable el volumen.</strong> Traza un nivel entre frente y lado; identifica dónde el desajuste a trazos falla el volumen compartido. Ilustración original del curso · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
+
+### 3 · Visualización espacial ≠ fluidez de software
+
+La educación en confección trata la capacidad de transformar mentalmente patrones planos y bocetos en formas tridimensionales — y al revés — como visualización espacial, no como «saber manejar un paquete 3D». Evidencia verificada de estructura de curso: en International Hellenic University, el prototipado virtual 3D se enseña en tercer año junto al CAD 2D, tras patronaje tradicional y software 2D — mitad teoría y mitad laboratorio [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024). AMFI integró el 3D de forma progresiva en el currículo [(Papahristou and Zolota Tatsi 2024, 268)](#ref-papahristou-2024).
+
+**Qué sostiene esto — y qué no.** Esos casos sostienen que existe una estructura secuenciada 2D→3D. **No** demuestran resultados validados de comprensión del volumen; la misma revisión reporta medidas de adopción de herramientas más que instrumentos de comprensión de la forma [(Papahristou and Zolota Tatsi 2024, 1)](#ref-papahristou-2024).
+
+**Clavo del curso (evaluable):** un diagnóstico de traducción 2D→3D y una explicación de cambio de vista — no califiques solo la operación del software o el brillo del render.
+
+### 4 · Luz y silueta como evidencia de forma
+
+Bloquea la masa, lanza una luz, lee la silueta exterior antes del ruido de superficie. Luz-sobre-forma es alfabetización de estudio durable; la evidencia controlada de moda-HE para un pipeline bodegón → prenda sigue siendo un **hueco declarado** (`dc-3d-form-volume-pedagogy`). Enseña el ejercicio; no inventes el RCT.
 
 <figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
-<img src="{{ '/assets/images/deck-media/f4786040093c9e0d.webp' | relative_url }}" alt="A drapery study for a figure of Sculpture" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="masterclass-3" %}</figcaption>
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un volumen pulido junto a un rastro de proceso con la lectura plana, una ambigüedad de bloqueo y una vista revisada que registra su prueba." loading="lazy" decoding="async" />
+<figcaption><strong>Un render no es comprensión.</strong> Encuentra dónde diverge la predicción y nombra la prueba que justificó la revisión. Ilustración original del curso · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
 
-<figure class="lesson-figure" id="figure-analysis-model" markdown="0">
-<img src="{{ '/assets/images/deck-media/f30519b35796f439.webp' | relative_url }}" alt="1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="analysis-model" %}</figcaption>
-</figure>
+### 5 · Testigo a I.6 — comportamiento, no malla más bonita
+
+I.5 termina cuando el estudiante puede explicar la forma entre vistas. I.6 empieza cuando ese mismo volumen debe responder a *ajuste, caída, tensión y respuesta material* — incluidos casos en que la silueta coincide y el comportamiento no.
 
 <figure class="lesson-figure" id="figure-cover" markdown="0">
-<img src="{{ '/assets/images/deck-media/a7fe225309618a85.webp' | relative_url }}" alt="Dresses by Rei Kawakubo - Sarah Stierch 01.jpg" loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="i-5-three-dimensional-form" slide="cover" %}</figcaption>
+<img src="{{ '/assets/images/deck-media/a7fe225309618a85.webp' | relative_url }}" width="1200" height="1600" alt="Vista de exposición de vestidos escultóricos cuyos volúmenes se llevan en el cuerpo, no solo se modelan en CAD." loading="lazy" decoding="async" />
+<figcaption><strong>Volumen llevado.</strong> La forma tridimensional en moda ya está en el cuerpo — I.6 preguntará qué *hace* ese volumen bajo soporte y gravedad. Fotografía · Sarah Stierch / prendas Rei Kawakubo · Wikimedia Commons · derechos marcados para fotogramas de aula.</figcaption>
 </figure>
 
+## Lab · Portfolio
 
-**Afirmación:** la representación tridimensional depende de geometría, transformaciones, superficies, iluminación, render y tuberías de visualización — el sustrato técnico que nombra esta unidad antes de cualquier menú 3D de marca (Hughes et al. 2013).
+### Ejercicio 1 · Tira plano → elevación → volumen {#lab-exercise-1}
 
-La percepción de forma, equilibrio, profundidad y volumen es un fundamento psicológico para representar la forma tridimensional — las herramientas digitales no sustituyen ese trabajo perceptivo (Arnheim 2004). La educación de moda trata la capacidad de transformar mentalmente patrones planos, bocetos y componentes de prenda en formas tridimensionales — y viceversa — como una forma específica de visualización espacial (Moritz y Youn 2022).
+**Tiempo:** 20 minutos · **Formato:** individual.
 
-**Evidencia verificada de estructura curricular.** En la Universidad Internacional Helénica, el prototipado virtual 3D se enseña en tercer año junto a un curso de patronaje CAD 2D — cuando los estudiantes ya conocen patronaje tradicional, construcción básica y software de diseño 2D. El curso se divide en una mitad teórica y una mitad práctica/laboratorio (Papahristou y Zolota Tatsi 2024, 5). Un segundo caso independiente reporta que AMFI integró el prototipado 3D de forma progresiva — inicialmente en la fase final de prototipado, después extendido a la fase conceptual (Papahristou y Zolota Tatsi 2024, 3).
+Boceta plano → elevación lateral → volumen simple de una región de prenda. Marca una ambigüedad que solo el 3D puede resolver. Di qué probarás a continuación (CLO no obligatorio). Mantén los tres bocetos como una sola tira.
 
-**Qué sostiene y qué no.** Hughes et al. (2013) y Arnheim (2004) sostienen vocabulario técnico y perceptivo. Moritz y Youn (2022) sostienen nombrar la visualización espacial específica de moda como medible, no asumida. Papahristou y Zolota Tatsi (2024) sostienen que existe una estructura secuenciada 2D→3D en programas reales — **no** que produzca comprensión validada de la forma espacial; su revisión reporta resultados de adopción de herramienta más que medidas validadas de comprensión de volumen (Papahristou y Zolota Tatsi 2024, 1). La documentación de herramienta fundamenta operaciones — etiqueta `[PLATFORM]`, nunca investigación.
+**Rastro de portfolio:** tira de tres bocetos + frase de siguiente prueba.
 
-**Ancla de práctica (perspectiva de campo):** visualización espacial y alfabetización ortográfica/perspectiva como constructos duraderos de educación en diseño — separados de la fluidez de interfaz.
+### Ejercicio 2 · Silueta desde el volumen (no desde el brillo) {#lab-exercise-2}
 
-**Señal de frontera (perspectiva de campo):** el 3D generativo y las herramientas de forma asistidas por IA pueden acelerar la salida más rápido que la validación pedagógica; trata cualquier volumen generado como entrada al juicio, no como prueba de comprensión espacial.
+**Tiempo:** 20 minutos · **Formato:** individual.
 
-## Lab (Portfolio)
+Bloquea la prenda en 2–4 volúmenes (sin detalle de superficie). Lanza una sola luz; sombrea solo la masa. Traza la silueta exterior; compárala con un plano del mismo diseño. Escribe una frase sobre lo que un render pulido habría ocultado.
 
-*Bloque de sesión · Una diapositiva geométrica anuncia el Lab: **dos** ejercicios. Todo lo que produzcas en Lab entra en tu **índice de portfolio**. Los Labs practican ideas de Masterclass y alimentan el oficio ACT — no son un segundo canal evaluable de Campus Virtual.*
+**Rastro de portfolio:** bloque de volúmenes + trazo de silueta + comparación con plano + frase de honestidad del render.
 
-### Ejercicio 1 — Flat → elevation → volume strip {#lab-exercise-1}
+## Comprobación de resolución de problemas
 
-Practises Masterclass ideas **1** (start with the axis) and **2** (planes make volume testable).
-
-**Time:** 20 minutes.
-
-**Group:** alone.
-
-**Materials:** paper or tablet; timer; optional simple 3D tool later (CLO not required).
-
-**Steps:**
-
-1. Sketch flat → side elevation → simple volume for one garment region.
-2. Mark one ambiguity that only 3D can resolve.
-3. State what you will test in digital volume next (without requiring CLO).
-4. Keep the three sketches as one strip.
-
-**Portfolio trace:** three-sketch strip + next-test sentence.
-
-**Judged by:** [Portfolio rubric — process evidence and craft]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
-
-**Source:** Sequenced 2D→3D teaching structure in programmes [(Papahristou and Zolota Tatsi 2024, 270)](#ref-papahristou-2024); steps are classroom adaptation.
-
-**Example trace:** *(Illustrative · not student work.)* Two orthographic views + one perspective thumbnail; note: “Form read fails when the silhouette alone is trusted.”
-
-
-### Ejercicio 2 — Silhouette from volume (not from polish) {#lab-exercise-2}
-
-Practises Masterclass idea **3** (a render is not understanding).
-
-**Time:** 20 minutes.
-
-**Group:** alone.
-
-**Materials:** sketch or simple digital volume; a flat of the same design; timer.
-
-**Steps:**
-
-1. Block the garment as 2–4 volumes (no surface detail).
-2. Cast a single light; shade only mass.
-3. Trace the outer silhouette; discard interior noise.
-4. Compare to a flat of the same design.
-5. Write one sentence on what a polished render would have hidden.
-
-**Portfolio trace:** volume block + silhouette trace + flat comparison + render-honesty sentence.
-
-**Judged by:** [Portfolio rubric — form understanding]({{ '/assignments/es/digital-creativity-portfolio/' | relative_url }}#rubric)
-
-**Source:** Classroom adaptation (silhouette-from-volume held — Moritz & Youn spatial visualization gap).
-
-**Example trace:** *(Illustrative · not student work.)* Clay vs screen pass of the same volume; sentence: “The hand pass revealed underarm void the mesh smoothed away.”
-
-
-**Definition of done:** piece ID; process folder; one-paragraph reflection naming what the 2D read predicted and what it missed once built in 3D.
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-**Evidence:** Investigaciones y proyectos 20% (piece); Cuaderno 10% (note). No S1/S2 — ARTEFACT ROLE none.
-Tool documentation referenced (any 2D drawing or 3D modelling package) is a dated platform note, not a citation — check versions before class.
-LAB_LINE: exercise=1; method_id=2d-to-3d-sequence-sketch; practises=masterclass-1,masterclass-2; source=papahristou-2024 pp.3,5 (verified) + classroom steps; selected I.5–I.9
-LAB_LINE: exercise=2; method_id=silhouette-from-volume; practises=masterclass-3; source=held/classroom adaptation; selected I.5–I.9
--->
-{% endif %}
-
----
-
-## Workshop
-
-Desde la sesión 4: el Workshop es tiempo de estudio protegido para D2 Transposición y D3 evento final (≈ mitad / mitad) — no es reloj de D1 Análisis.
-
-
-1. **Diagnóstico.** Dadas tres proyecciones 2D del mismo objeto (frontal, lateral, superior), identifica qué volumen 3D declarado *no* podrían formar en realidad, y explica la inconsistencia.
-2. Dado un mock-up 3D renderizado con un error visible de forma/volumen, nombra la inconsistencia específica — no "se ve mal", sino qué dimensión o proyección falla.
-3. **Sin herramienta, declarado:** sin ninguna herramienta digital o física, describe por escrito cómo una pieza de patrón plana se convierte en una forma redondeada al caer — nombra al menos dos cosas que cambian y por qué. **Sin IA — declarado como tal.**
-
-Los borradores de respuesta del profesor no se publican en esta página.
-
-{% comment %}
-outcome-graphic-selection:
-  source-section: "B3 · Resolución de problemas"
-  visual-grammar: "projection-fold — planos ortográficos convergen en un volumen coherente y excluyen una inconsistencia"
-{% endcomment %}
-{% include lesson-outcome-graphic.html %}
-
----
+1. Dadas tres proyecciones 2D del mismo objeto, identifica qué volumen 3D declarado *no* podrían plegar — y qué es inconsistente.
+2. Dado un mock-up renderizado con un error de forma, nombra la inconsistencia concreta (dimensión o proyección), no «se ve mal».
+3. Sin herramientas, describe cómo una pieza de patrón plano se convierte en forma redondeada al drapearse — nombra al menos dos cosas que cambian y por qué. **Sin IA — declarado.**
 
 ## Conclusión
 
-Esta unidad deja lagunas nombradas a propósito: lo que el vault puede verificar con página queda en Referencias; lo abierto queda en la Nota editorial. Mantén las trazas de Lab honestas en el índice de portfolio. No inventes un entregable evaluable que How to Pass no pide. La siguiente apuesta es el ritmo de sesión ya nombrado — defensa de Análisis (D1) desde la sesión 3; Workshop desde la sesión 4 para Transposición y el evento final.
+Lleva la vista que tu modelo aún no explica. La siguiente unidad (I.6) prueba si esa forma *se comporta* — ajuste y material — no si la malla se ve terminada.
 
----
+**Práctica:** [Cuestionario de práctica I.5]({{ '/practice/es/i-5-three-dimensional-form/' | relative_url }}). No puntuado; no se registra nada.
 
-## Tao de la imagen {#tao-of-the-image}
+## Tao of the Image {#tao-of-the-image}
 
-Epígrafe de la unidad (registro Tao de estudio — no es cita académica):
+Aforismo de estudio; no es una cita académica.
 
-> _"Practica en el dojo, actúa en la arena."_
-
-Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
+> _“Practice in the dojo, perform in the arena.”_
 
 ---
 
@@ -256,41 +159,26 @@ Los enlaces del deck y de la lección a `#tao-of-the-image` resuelven aquí.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
-PROFIELD_ROUTING: unit=I.5; temario=T1-image-2d-volume.pass1.resultant.mdc § 3D form/volume; subfield_runs=dc-3d-form-volume-pedagogy/20260816/pass1.edited.md § 1–2
-CRITICAL_ROUTING: unit=I.5; critica=C2 Entwistle fashioned body L29; C2 default-body prompt; session spatial-vocabulary prompt
-PROVENANCE_LINE: claim=I.5.claim.3d-pipeline; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/02-temario-contenidos; knowledge_scope=field_prospection; query="geometry transforms surfaces lighting rendering 3D representation"; source_locator=T1-image-2d-volume.pass1.resultant.mdc § Hughes; similarity=null; proposed_use="technical anchor"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Hughes et al. 2013 not in scholar vault; quote=none; public_citation="(Hughes et al. 2013)"; supports="3D representation pipeline vocabulary"; does_not_support="fashion-specific 3D tool pedagogy"
-PROVENANCE_LINE: claim=I.5.claim.perceptual-form; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/02-temario-contenidos; knowledge_scope=field_prospection; query="perception shape balance depth volume Arnheim"; source_locator=T1-image-2d-volume.pass1.resultant.mdc § Arnheim; similarity=null; proposed_use="perceptual anchor"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Arnheim 2004 not in scholar vault; quote=none; public_citation="(Arnheim 2004)"; supports="perceptual foundation for 3D form"; does_not_support="digital-tool classroom sequence"
-PROVENANCE_LINE: claim=I.5.claim.spatial-visualization; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=dc-3d-form-volume-pedagogy; knowledge_scope=field_prospection; query="apparel spatial visualization 2D 3D transformation Moritz"; source_locator=pass1.edited.md L9; similarity=null; proposed_use="pedagogy construct"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Moritz Youn 2022 not in scholar vault; quote="mentally transform flat patterns, sketches, and garment components into three-dimensional forms"; public_citation="(Moritz and Youn 2022)"; supports="apparel-specific spatial visualization construct"; does_not_support="this unit's validated learning outcomes"
-PROVENANCE_LINE: claim=I.5.claim.sequenced-2d-3d-structure; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="3D virtual prototyping 2D CAD patternmaking theory lab split"; source_locator=dc-3d-form-volume-pedagogy digest p1-c002; similarity=null; proposed_use="course-structure anchor"}; source={document_coat=20e79483; extraction_db=ahmes-library/scholar/documents/cdatp_papachristou_20e79483/extract/extraction.db; node_id=88bcdad6-160b-5fab-a31e-848932abb7c3; page_index=4; printed_page=5}; resolver="ahmes query --cite extraction.db:88bcdad6-160b-5fab-a31e-848932abb7c3 --require-evaluator-safe evaluator_safe=yes"; quote="theoretical half and a practical/laboratory half"; public_citation="(Papahristou and Zolota Tatsi 2024, 270)"; supports="real 2D→3D sequenced course structure"; does_not_support="validated form-understanding outcomes"
-PROVENANCE_LINE: claim=I.5.claim.amfi-integration; status=VERIFIED; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="AMFI 3D prototyping curriculum integration Siersema"; source_locator=same coat Papahristou review; similarity=null; proposed_use="second institutional case"}; source={document_coat=20e79483; extraction_db=ahmes-library/scholar/documents/cdatp_papachristou_20e79483/extract/extraction.db; node_id=a196bf7e-da78-5714-86df-7e196221f633; page_index=2; printed_page=3}; resolver="ahmes query --cite extraction.db:a196bf7e-da78-5714-86df-7e196221f633 --require-evaluator-safe evaluator_safe=yes"; quote=none; public_citation="(Papahristou and Zolota Tatsi 2024, 268)"; supports="progressive 3D integration in second institution"; does_not_support="universal curriculum prescription"
-PROVENANCE_LINE: claim=I.5.gap.form-understanding-measures; status=[BIBLIO-GAP]; discovery={service=Athanor; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="3D design education tool adoption not validated form understanding"; source_locator=Papahristou review synthesis p.1; similarity=null; proposed_use="honest gap"}; source={document_coat=20e79483; extraction_db=ahmes-library/scholar/documents/cdatp_papachristou_20e79483/extract/extraction.db; node_id=none; page_index=null; printed_page=1}; resolver=OMITTED; ahmes_attempt=page-1 gap claim cited from review synthesis not separately node-resolved this pass; quote=none; public_citation="(Papahristou and Zolota Tatsi 2024, 1)"; supports="naming tool-adoption vs form-understanding gap"; does_not_support="abandoning 2D→3D sequence"
-PROVENANCE_LINE: claim=I.5.critical.fashioned-body; status=[BIBLIO-GAP]; discovery={service=profield; project_slug=digital-creativity/03-temario-critica; knowledge_scope=field_prospection; query="fashioned body avatar neutral mannequin Entwistle"; source_locator=C2-fashion-virtuality.pass1.resultant.mdc L29; similarity=null; proposed_use="critical theoretical"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; ahmes_attempt=Entwistle 2015 not in scholar vault; quote=none; public_citation="(Entwistle 2015)"; supports="body as socially produced not technical default"; does_not_support="which mannequin students must use"
-PROVENANCE_LINE: claim=I.5.critical.spatial-vocabulary; status=NONE; discovery={service=session-prompt; project_slug=profield-digital-creativity; knowledge_scope=field_prospection; query="spatial conventions default body form representation"; source_locator=i-5-three-dimensional-form.md § Critical field lens; similarity=null; proposed_use="living prompt"}; source={document_coat=none; extraction_db=none; node_id=none; page_index=null; printed_page=null}; resolver=OMITTED; quote=none; public_citation=OMITTED; supports="naming whose forms are easy to model"; does_not_support="empirical claim about cohort"
-MEDIA_RIGHTS_LINE: slot=I.5.video.2d-to-3d-process; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.5.still.orthographic-exemplar; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
-MEDIA_RIGHTS_LINE: slot=I.5.graphic.reference-to-blockout; status=PENDING; licence=none; canonical_source=none; swap_phase=MP5
+PROFIELD_ROUTING: unit=I.5; cascade=VOLUME-DEPTH-SERIES/PHASE-V1; MASTER-IDEAS=I.5 spatial-literacy; handoff=I.6 behaviour
+PROVENANCE_LINE: claim=I.5.claim.sequenced-2d-3d-structure; status=VERIFIED; public_citation="(Papahristou and Zolota Tatsi 2024, 270)"
+PROVENANCE_LINE: claim=I.5.claim.amfi-integration; status=VERIFIED; public_citation="(Papahristou and Zolota Tatsi 2024, 268)"
+PROVENANCE_LINE: claim=I.5.gap.form-understanding-measures; status=[BIBLIO-GAP]; public_citation="(Papahristou and Zolota Tatsi 2024, 1)"
+PROVENANCE_LINE: claim=I.5.claim.3d-pipeline; status=[BIBLIO-GAP]; public_citation="(Hughes et al. 2013)"; orientation only
+PROVENANCE_LINE: claim=I.5.claim.perceptual-form; status=[BIBLIO-GAP]; public_citation="(Arnheim 2004)"; orientation only
 -->
 {% endif %}
 
 ---
 
-## Nota editorial. Trabajo en curso. Práctica de Innovación docente
+## Nota editorial. Trabajo en curso. Práctica de Innovación Docente
 {: .lesson-editorial-note }
 
-**Laguna declarada — con claridad.** Papahristou y Zolota Tatsi (2024) sostienen una secuencia 2D→3D realmente enseñada; **no** prueban que esa secuencia produzca comprensión espacial validada mejor que una alternativa. Moritz y Youn (2022) sostienen nombrar la visualización espacial específica de moda — no la eficacia de este aula.
-
-Esta nota forma parte de una *Práctica de Innovación docente* en curso — los límites epistémicos van aquí, no entre párrafos de Masterclass.
+Papahristou y Zolota Tatsi (2024) sostienen una secuencia 2D→3D realmente enseñada; **no** demuestran comprensión espacial de la forma validada. Luz-sobre-forma y pipelines bodegón → prenda siguen siendo huecos declarados en `dc-3d-form-volume-pedagogy`. Hughes / Arnheim quedan como vocabulario de orientación hasta Ahmes-seguro. La enseñanza de construcción perspectiva vive en el borrador ML-B de Volume–Depth, no aquí.
 
 ---
 
 ## Autoría asistida por IA
 
-Esta lección se redactó con asistencia local de IA bajo control editorial del autor. Declaración de uso de IA (alumnado y docencia): [/digital-creativity-uem/ai-declaration/]({{ '/ai-declaration/' | relative_url }}).
+Esta lección se redactó con asistencia de IA bajo control editorial del autor.
 
-{% if site.publication.publish_internal_metadata %}
-<!-- forge_date: 2026-09-22 · Studio: crea-comm.net · harness: local drafting tools v0.1 · prompt-v2.1
-      lesson_uuid: 4d860331-0085-4ca2-8103-5ebc97012d68
-     vault_refs_consulted: 5
-     forge_pass: editorial-ai-footer-law-2026-09-22
--->
-{% endif %}
+Declaración de autoría asistida por IA: [leer la divulgación completa]({{ '/ai-declaration/' | relative_url }}).

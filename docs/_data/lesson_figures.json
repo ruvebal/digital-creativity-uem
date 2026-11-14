@@ -456,43 +456,49 @@
   "i-5-three-dimensional-form": {
     "cover": {
       "src": "/assets/images/deck-media/a7fe225309618a85.webp",
-      "alt": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "alt": "Exhibition view of sculptural dresses by Rei Kawakubo worn as volume on the body",
       "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 01</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "analysis-model": {
       "src": "/assets/images/deck-media/f30519b35796f439.webp",
-      "alt": "1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783.jpg",
+      "alt": "1890 fashion silhouette print showing a side-view contour",
       "caption_html": "<span class=\"slide-caption__title\">1890 silhouette - DPLA - 8df7f808914dce4eee6250dc2f06f783</span> · <span class=\"slide-caption__author\">Unknown 1890 illustrator; DPLA aggregate</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:1890_silhouette_-_DPLA_-_8df7f808914dce4eee6250dc2f06f783.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-axis-studio-20261020-r1.svg",
-      "alt": "A simplified garment shell wraps a shared axis; measured offsets reveal how direction and proportion can be checked before surface polish.",
-      "caption_html": "<span class=\"slide-caption__title\">The axis holds a volume readable</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
+      "alt": "One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations.",
+      "caption_html": "<span class=\"slide-caption__title\">From flat reading to volume</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-2": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-section-plane-20261020-r1.svg",
-      "alt": "A translucent section plane passes through a faceted volume and reveals an interior contour that its outer silhouette alone cannot show.",
-      "caption_html": "<span class=\"slide-caption__title\">A section makes interior form inspectable</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
+      "alt": "Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain.",
+      "caption_html": "<span class=\"slide-caption__title\">Planes make volume testable</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
-    "masterclass-3": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-output-or-explanation-20261020-r1.svg",
-      "alt": "The same schematic volume appears as a polished surface and a construction view that exposes shaping planes, a hollow, and tension direction.",
-      "caption_html": "<span class=\"slide-caption__title\">Output and explanation answer different questions</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger 1.3.0</span> · <span>Original course illustration · all rights reserved</span>",
+    "masterclass-4": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
+      "alt": "A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test.",
+      "caption_html": "<span class=\"slide-caption__title\">A render is not understanding</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/a7fe225309618a85.webp",
+      "alt": "Exhibition view of sculptural dresses by Rei Kawakubo worn as volume on the body",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 01</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     },
     "lab-1": {
       "src": "/assets/images/deck-media/3e1406d573d0b92f.webp",
-      "alt": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "alt": "Historical costume plate with multiple figures for comparing projections",
       "caption_html": "<span class=\"slide-caption__title\">Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932</span> · <span class=\"slide-caption__author\">19th-century French costume plate engraver</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "lab-2": {
       "src": "/assets/images/deck-media/fd86a630773ba048.webp",
-      "alt": "Hand drawing on a graphic tablet.jpg",
+      "alt": "Hand drawing on a graphic tablet after a paper sketch",
       "caption_html": "<span class=\"slide-caption__title\">Hand drawing on a graphic tablet</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Hand_drawing_on_a_graphic_tablet.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     }
