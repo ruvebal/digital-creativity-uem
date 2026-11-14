@@ -782,11 +782,23 @@
     }
   },
   "volume-depth-perception": {
+    "cover": {
+      "src": "/assets/images/deck-media/52de9862187535a4.webp",
+      "alt": "Historical book plate from The Venetian School of Painting showing foreshortened figure volume",
+      "caption_html": "<span class=\"slide-caption__title\">The Venetian School of Painting (1912)</span> · <span class=\"slide-caption__author\">Internet Archive Book Images</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">PD</a> · <a href=\"https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/84057bc32cd0e64b.webp",
+      "alt": "Diagram of eye level and vanishing point in linear perspective",
+      "caption_html": "<span class=\"slide-caption__title\">Eye level and vanishing point diagram</span> · <span class=\"slide-caption__author\">すじにくシチュー</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0-1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
     "masterclass-5": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
-      "alt": "Front, side, and top views constrain one volume; dashed mismatch marks failure.",
-      "caption_html": "<span class=\"slide-caption__title\">Cues need a second view</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
-      "rights_status": "ok"
+      "src": "/assets/images/deck-media/60a50b4472b6540e.webp",
+      "alt": "Diagram plate of pictorial depth cues including occlusion, size, and perspective",
+      "caption_html": "<span class=\"slide-caption__title\">Depth cues 1</span> · <span class=\"slide-caption__author\">Brazzit</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Depth_cues_1.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     }
   }
 }

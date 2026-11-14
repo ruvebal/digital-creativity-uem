@@ -38,8 +38,19 @@ Resume: branch on PHASE-Vn-REPORT status (DONE | PARTIAL | BLOCKED | VERIFYING)
 2. Do not stuff Arnheim + Panofsky + Coats into one session.  
 3. Perspective-kit SVGs/Rive move to ML-B — not deleted.  
 4. No student HTML from Profield discovery without `media-accept`.  
-5. Commit only on feature branches; no force-push to `main`.
+5. Commit only on feature branches; no force-push to `main`.  
+6. **Cold reviews and EN↔ES twins** → local Ollama Qwen only (`~/src/.cursor/rules/local-qwen-cold-review-translate.mdc`). Never cloud; never the implementing Cursor session as its own reviewer/translator.
 
 ## Closing protocol
 
-VERIFYING → write `PHASE-Vn-REPORT.md` with counts → optional cold review → amend-on-surprise in same commit as report.
+VERIFYING → write `PHASE-Vn-REPORT.md` with counts → **cold review via Ollama Qwen** (fresh packet; file `PHASE-Vn-COLD-REVIEW.md`) → amend-on-surprise in same commit as report.
+
+## Profield CLI (Tanit)
+
+`profield` is not on PATH by default. From `/Users/ruvebal/src/profield`:
+
+```fish
+cd ~/src/profield
+.venv/bin/profield media-accept --help
+# or: source .venv/bin/activate.fish ; and profield media-accept …
+```

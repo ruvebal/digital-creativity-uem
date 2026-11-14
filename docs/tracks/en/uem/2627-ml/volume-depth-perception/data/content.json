@@ -7,19 +7,80 @@ layout: null
   "media_selection": {
     "unit_id": "ML-VD-A",
     "project_id": "ml",
-    "collection": "pending-review",
-    "strategy": "diagram-first",
-    "description": "PHASE-V2 ML-A: geometrical + course diagrams until V3 Commons media-accept."
+    "collection": "ml-vd-a-volume-depth",
+    "strategy": "slide-bound-asset_id",
+    "description": "PHASE-V3 PARTIAL: three human-accepted Commons stills from 20261113 runs; visual-cliff / Alberti leads still pending prospect."
   },
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "ML-VD-A.cover",
+      "asset_id": "wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/52de9862187535a4.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/The_Venetian_School_of_Painting_%281912%29_%2814597540617%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg",
+      "title": "The Venetian School of Painting (1912)",
+      "alt_text": "Historical book plate from The Venetian School of Painting showing foreshortened figure volume",
+      "author": "Internet Archive Book Images",
+      "licence": "PD",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Internet Archive Book Images · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "Book scan PD statement — verify before commercial reuse",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.analysis-model",
+      "asset_id": "wikimedia:File:Eye level and vanishing point diagram japanese.svg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/84057bc32cd0e64b.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Eye_level_and_vanishing_point_diagram_japanese.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg",
+      "title": "Eye level and vanishing point diagram",
+      "alt_text": "Diagram of eye level and vanishing point in linear perspective",
+      "author": "すじにくシチュー",
+      "licence": "CC0-1.0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "すじにくシチュー · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.masterclass-5",
+      "asset_id": "wikimedia:File:Depth cues 1.png",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/60a50b4472b6540e.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Depth_cues_1.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Depth_cues_1.png",
+      "title": "Depth cues 1",
+      "alt_text": "Diagram plate of pictorial depth cues including occlusion, size, and perspective",
+      "author": "Brazzit",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Brazzit · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC-BY-SA modern diagram — attribution required",
+      "rights_status": "flagged",
+      "cropped": false
+    }
+  ],
   "slides": [
     {
       "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "geometrical",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
       "heading": "ML-A · Seeing volume",
       "sentence": "Volume on a flat picture is an **inference** problem.",
-      "prompt": "Enrichment · not a CONTENIDOS row"
+      "prompt": "Enrichment · not a CONTENIDOS row",
+      "media_slot_id": "ML-VD-A.cover",
+      "asset_id": "wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg"
     },
     {
       "slide_id": "analysis-opener",
@@ -27,6 +88,16 @@ layout: null
       "background_kind": "geometrical",
       "heading": "Ask the flat",
       "sentence": "Which depth claim would a second view break?"
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "Linear perspective as one cue",
+      "sentence": "Eye level and vanishing point organise the box — they do not prove fit.",
+      "media_slot_id": "ML-VD-A.analysis-model",
+      "asset_id": "wikimedia:File:Eye level and vanishing point diagram japanese.svg"
     },
     {
       "slide_id": "masterclass-1",
@@ -59,20 +130,20 @@ layout: null
     {
       "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
       "heading": "5 · Cue table",
-      "sentence": "Occlusion · size · perspective · texture · aerial — name three.",
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
-      "diagram_alt": "Front, side, and top views constrain one volume; dashed mismatch marks failure.",
-      "diagram_caption": "Cues need a second view",
-      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+      "sentence": "Occlusion · size · perspective · texture · aerial — name **three**.",
+      "media_slot_id": "ML-VD-A.masterclass-5",
+      "asset_id": "wikimedia:File:Depth cues 1.png"
     },
     {
       "slide_id": "masterclass-6",
       "slide_role": "masterclass",
       "background_kind": "geometrical",
       "heading": "6 · Studio ask",
-      "sentence": "On one fashion still, name three cues — and what **fit** they cannot prove."
+      "sentence": "On one fashion still, name three cues — and what **fit** they cannot prove.",
+      "notes": "Use the cover plate as the studio still if no student phone photo is ready."
     },
     {
       "slide_id": "outro",

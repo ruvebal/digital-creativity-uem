@@ -1,0 +1,87 @@
+- media_slot_id: ML-VD-A.cue.vanishing
+  media_role: still
+  asset_id: wikimedia:File:Eye level and vanishing point diagram japanese.svg
+  studio_semantics:
+  - object
+  why_this_is_here: Eye-level / vanishing-point diagram for ML-A linear-perspective
+    cue.
+  viewing_question: Which depth cue is doing the work — and what fit claim can it
+    not prove?
+  canonical_source_url: https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg
+  source_file_url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Eye_level_and_vanishing_point_diagram_japanese.svg
+  embed: null
+  credit_block: すじにくシチュー — File:Eye level and vanishing point diagram japanese.svg
+    [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg
+    — CC0-1.0
+  accessibility:
+    captions: false
+    transcript: null
+    alt_text: Eye level and vanishing point diagram japanese.svg
+    static_fallback: null
+  licence:
+    class: conforming_public
+    spdx: CC0-1.0
+  placeholder: false
+  placeholder_kind: null
+  profield_run_id: 20261113-perspective-vanishing
+  review:
+    status: accepted
+    accepted_by: ruvebal@crea-comm.net
+    accepted_at: '2026-11-14T11:29:16Z'
+- media_slot_id: ML-VD-A.cue.depth-cues
+  media_role: still
+  asset_id: wikimedia:File:Depth cues 1.png
+  studio_semantics:
+  - object
+  why_this_is_here: Classic pictorial depth-cue plate for ML-A inventory.
+  viewing_question: Which depth cue is doing the work — and what fit claim can it
+    not prove?
+  canonical_source_url: https://commons.wikimedia.org/wiki/File:Depth_cues_1.png
+  source_file_url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Depth_cues_1.png
+  embed: null
+  credit_block: Brazzit — File:Depth cues 1.png [modern_rights_review_required] —
+    https://commons.wikimedia.org/wiki/File:Depth_cues_1.png — CC-BY-SA-3.0
+  accessibility:
+    captions: false
+    transcript: null
+    alt_text: Depth cues 1.png
+    static_fallback: null
+  licence:
+    class: conforming_sharealike
+    spdx: CC-BY-SA-3.0
+  placeholder: false
+  placeholder_kind: null
+  profield_run_id: 20261113-texture-gradient
+  review:
+    status: accepted
+    accepted_by: ruvebal@crea-comm.net
+    accepted_at: '2026-11-14T11:29:16Z'
+- media_slot_id: ML-VD-A.cue.volume-paint
+  media_role: still
+  asset_id: wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg
+  studio_semantics:
+  - object
+  why_this_is_here: Historical painting still for volume-in-picture / foreshortening
+    studio ask.
+  viewing_question: Which depth cue is doing the work — and what fit claim can it
+    not prove?
+  canonical_source_url: https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg
+  source_file_url: https://upload.wikimedia.org/wikipedia/commons/5/54/The_Venetian_School_of_Painting_%281912%29_%2814597540617%29.jpg
+  embed: null
+  credit_block: Internet Archive Book Images — File:The Venetian School of Painting
+    (1912) (14597540617).jpg [explicit_public_domain_statement] — https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg
+  accessibility:
+    captions: false
+    transcript: null
+    alt_text: The Venetian School of Painting (1912) (14597540617).jpg
+    static_fallback: null
+  licence:
+    class: conforming_attribution
+    spdx: null
+  placeholder: false
+  placeholder_kind: null
+  profield_run_id: 20261113-foreshortening
+  review:
+    status: accepted
+    accepted_by: ruvebal@crea-comm.net
+    accepted_at: '2026-11-14T11:29:17Z'

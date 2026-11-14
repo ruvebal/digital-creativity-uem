@@ -1,0 +1,16 @@
+---
+description: >-
+  UEM pointer — cold reviews and EN↔ES lesson twins go to local Qwen via
+  Ollama. Canonical rule: ~/src/.cursor/rules/local-qwen-cold-review-translate.mdc
+alwaysApply: true
+---
+
+# Local Qwen · cold review & translation (UEM)
+
+Read and follow the studio-canonical rule:
+
+[`~/src/.cursor/rules/local-qwen-cold-review-translate.mdc`](/Users/ruvebal/src/.cursor/rules/local-qwen-cold-review-translate.mdc)
+
+**This course:** Volume–Depth cascade cold reviews, and any EN↔ES twin of `docs/lessons/**` or master-lecture decks, must be delegated to Ollama Qwen — not authored as a second pass by the same Cursor implementer session.
+
+Volume–Depth resume: see `digital-creativity-pedagogy/DEV_PLAN/VOLUME-DEPTH-SERIES/VOLUME-DEPTH-ORCHESTRATOR.md`.

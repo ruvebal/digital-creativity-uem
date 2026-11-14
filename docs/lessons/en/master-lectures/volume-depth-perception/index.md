@@ -14,7 +14,7 @@ tags: [master-lecture, volume-depth, perception, spatial-literacy]
 deck_url: /master-lectures/volume-depth-perception/
 master_idea: 'Volume on a flat picture is an inference problem, not a property of the pixels alone'
 practice_anchor: 'Name three pictorial cues on one fashion still and say what each cannot prove about fit'
-frontier_signal: 'Commons cue plates arrive after media-accept (cascade V3); studio diagrams carry the session until then'
+frontier_signal: 'Three Commons cue plates accepted (V3 PARTIAL); visual-cliff / Alberti still pending a fresh prospect'
 ---
 
 <!-- prettier-ignore-start -->
