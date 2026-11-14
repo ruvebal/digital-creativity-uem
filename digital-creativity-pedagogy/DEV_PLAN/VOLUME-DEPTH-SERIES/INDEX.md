@@ -28,5 +28,5 @@
 | V0 · Slim I.6 + ML-B draft home | **DONE** (see report) |
 | V1 · Slim I.5 | **DONE** (see `PHASE-V1-REPORT.md`) |
 | V2 · ML-A/B/C student surfaces | **DONE** (see `PHASE-V2-REPORT.md`) |
-| V3 · Media-accept Commons leads | PENDING |
-| V4 · Verification gates | PARTIAL in V0 |
+| V3 · Media-accept Commons leads | **BLOCKED** (human `media-accept` — see `PHASE-V3-REPORT.md`) |
+| V4 · Verification gates | PENDING (deferred from V0–V2) |
