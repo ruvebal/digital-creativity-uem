@@ -511,33 +511,27 @@
       "rights_status": "flagged"
     },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-bg-35ec3bca368c.svg",
-      "alt": "Two-panel diagram contrasting psychophysiological space with central perspective.",
-      "caption_html": "<span class=\"slide-caption__title\">P1 · psychophysiological ≠ mathematical space</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit P1</span> · <span>Original course illustration · all rights reserved</span>",
-      "rights_status": "ok"
-    },
-    "masterclass-2": {
-      "src": "/assets/images/deck-media/1d8013b42b50dedf.webp",
-      "alt": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
-      "caption_html": "<span class=\"slide-caption__title\">Dürer — Man Drawing a Lute</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "ok"
-    },
-    "masterclass-2-rive": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg",
-      "alt": "Central vanishing-point construction (textless background).",
-      "caption_html": "<span class=\"slide-caption__title\">P5 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg",
+      "alt": "Physical fold beside a flatter digital mesh with a dashed mismatch hull.",
+      "caption_html": "<span class=\"slide-caption__title\">Physical fold · digital mesh</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-3": {
-      "src": "/assets/images/deck-media/741970e6613cb99e.webp",
-      "alt": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
-      "caption_html": "<span class=\"slide-caption__title\">Dürer — Underweysung der Messung (perspective construction)</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg",
+      "alt": "Material span between two supports with two gravity contours.",
+      "caption_html": "<span class=\"slide-caption__title\">Gravity curves the material</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
-    "masterclass-3-rive": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg",
-      "alt": "Fashion multi-view textless background.",
-      "caption_html": "<span class=\"slide-caption__title\">P6 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+    "masterclass-4": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg",
+      "alt": "Cloth ends at supports; virtual contour continues past them.",
+      "caption_html": "<span class=\"slide-caption__title\">Hold the support · test the contour</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg",
+      "alt": "Source, flatter simulation, and one marked local correction on a timeline.",
+      "caption_html": "<span class=\"slide-caption__title\">Source → simulation → one correction</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "lab-1": {
@@ -567,33 +561,27 @@
       "rights_status": "flagged"
     },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-bg-35ec3bca368c.svg",
-      "alt": "Diagrama de dos paneles: espacio psicofisiológico frente a perspectiva central.",
-      "caption_html": "<span class=\"slide-caption__title\">P1 · espacio psicofisiológico ≠ matemático</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit P1</span> · <span>Ilustración original · todos los derechos reservados</span>",
-      "rights_status": "ok"
-    },
-    "masterclass-2": {
-      "src": "/assets/images/deck-media/1d8013b42b50dedf.webp",
-      "alt": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
-      "caption_html": "<span class=\"slide-caption__title\">Dürer — Man Drawing a Lute</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "ok"
-    },
-    "masterclass-2-rive": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg",
-      "alt": "Central vanishing-point construction (textless background).",
-      "caption_html": "<span class=\"slide-caption__title\">P5 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg",
+      "alt": "Physical fold beside a flatter digital mesh with a dashed mismatch hull.",
+      "caption_html": "<span class=\"slide-caption__title\">Pliegue físico · malla digital</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "masterclass-3": {
-      "src": "/assets/images/deck-media/741970e6613cb99e.webp",
-      "alt": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
-      "caption_html": "<span class=\"slide-caption__title\">Dürer — Underweysung der Messung (perspective construction)</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg",
+      "alt": "Material span between two supports with two gravity contours.",
+      "caption_html": "<span class=\"slide-caption__title\">La gravedad curva el material</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
-    "masterclass-3-rive": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg",
-      "alt": "Fashion multi-view textless background.",
-      "caption_html": "<span class=\"slide-caption__title\">P6 · motion field</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · perspective-kit</span> · <span>Ilustración original · todos los derechos reservados</span>",
+    "masterclass-4": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg",
+      "alt": "Cloth ends at supports; virtual contour continues past them.",
+      "caption_html": "<span class=\"slide-caption__title\">Congela el apoyo · prueba el contorno</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg",
+      "alt": "Source, flatter simulation, and one marked local correction on a timeline.",
+      "caption_html": "<span class=\"slide-caption__title\">Fuente → simulación → una corrección</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "lab-1": {

@@ -3,13 +3,13 @@ layout: null
 ---
 {
   "unit_label": "Creación Digital I · I.6 Volumen",
-  "final_event_theme": "Comunicar e inspirar: ¿qué es la moda para ti?",
+  "final_event_theme": "Communicate and inspire: What is fashion for you?",
   "media_selection": {
     "unit_id": "I.6",
     "project_id": "dc",
     "collection": "volume-drape",
     "strategy": "slide-bound-asset_id",
-    "description": "Accepted drapery/volume stills, Dürer perspective plates, and Rive motion slides kept separate from reading cards.",
+    "description": "Behaviour-first I.6: drapery stills and course diagrams. Perspective-kit / Dürer moved to ML-B draft (PHASE-V0).",
     "media_overrides": {}
   },
   "assets": [
@@ -88,44 +88,6 @@ layout: null
       "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
       "rights_status": "flagged",
       "cropped": false
-    },
-    {
-      "media_slot_id": "I.6.masterclass-2",
-      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/1d8013b42b50dedf.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
-      "title": "Dürer — Man Drawing a Lute",
-      "alt_text": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
-      "author": "Albrecht Dürer",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Albrecht Dürer · Wikimedia Commons",
-      "author_death_year": 1528,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1528; public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "I.6.masterclass-3",
-      "asset_id": "wikimedia:File:Duerer Underweysung der Messung fig 001 page 181.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/741970e6613cb99e.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
-      "title": "Dürer — Underweysung der Messung (perspective construction)",
-      "alt_text": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
-      "author": "Albrecht Dürer",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Albrecht Dürer · Wikimedia Commons",
-      "author_death_year": 1528,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1528; public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
     }
   ],
   "slides": [
@@ -134,359 +96,168 @@ layout: null
       "slide_role": "unit_cover",
       "background_kind": "curated",
       "heading": "I.6 · Volumen",
-      "sentence": "El volumen se contrasta entre materia, proyección y revisión.",
-      "notes": [
-        "Open with the official CONTENIDOS anchor: Volumen."
-      ],
+      "sentence": "El volumen es **comportamiento** — ajuste, caída, material, movimiento — no brillo de malla.",
+      "notes": ["CONTENIDOS: Volumen. Panofsky / kit de perspectiva → deck de enriquecimiento."],
       "prompt": "CONTENIDOS: Volumen",
       "quote": "Un pliegue se vuelve volumen cuando sus bordes se encuentran en el espacio.",
       "quote_origin": "tao_invented",
       "citation": {
-        "label": "(Tao de la Imagen)",
+        "label": "(Tao of the Image)",
         "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
       },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "geometry"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "fallback_background_kind": "geometrical",
       "media_slot_id": "I.6.cover",
       "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
-      "image_brief": "Estudio de vestimenta de Leonardo da Vinci: pliegues observados antes de interpretar el volumen."
+      "image_brief": "Leonardo garment study — deep folds as fit evidence"
     },
     {
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
-      "heading": "Leer el volumen",
-      "sentence": "¿Qué parte del pliegue se mantiene al pasar a la pantalla y cuál cambia?",
-      "notes": [
-        "Modela una comparación entre materia y pantalla antes del Lab."
-      ]
+      "heading": "Lee el volumen",
+      "sentence": "¿Qué parte de un pliegue sobrevive al pasar a la pantalla, y cuál cambia?"
     },
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
       "background_kind": "curated",
-      "heading": "Compara tres vistas",
-      "sentence": "Cada proyección hace visible un contorno distinto del mismo drapeado.",
-      "notes": [
-        "Modela cómo cada proyección revela un contorno distinto del mismo drapeado."
-      ],
-      "image_brief": "Estudio de drapeado con líneas de construcción visibles en los pliegues.",
-      "quote": "Un objeto puede proyectar varias vistas honestas.",
+      "heading": "Compara dos estados",
+      "sentence": "Crestas, valles y acumulación son ==signos de ajuste==, no decoración que borrar.",
+      "image_brief": "Drapery study with readable fold construction",
+      "quote": "Un objeto puede dar varias vistas honestas.",
       "quote_origin": "tao_invented",
       "citation": {
-        "label": "(Tao de la Imagen)",
+        "label": "(Tao of the Image)",
         "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
       },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "projection"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "diagram_credit": "Rubén Vega Balbás · visual-forger 1.3.0",
-      "diagram_rights": "Ilustración original · todos los derechos reservados",
       "media_slot_id": "I.6.analysis-model",
-      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
-      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p4-space-box-b453853d6d87.riv",
-      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p4-space-box-bg-b30a812e1dd7.svg"
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg"
     },
     {
       "slide_id": "masterclass-1",
       "slide_role": "masterclass",
       "background_kind": "diagram",
-      "heading": "1 · Iterar entre representaciones",
-      "sentence": "Deja que un estudio físico y un pase digital se corrijan mutuamente.",
-      "notes": [
-        "Deja que un estudio físico y un pase digital se corrijan mutuamente."
-      ],
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-bg-35ec3bca368c.svg",
-      "diagram_alt": "Diagrama de dos paneles: espacio psicofisiológico frente a perspectiva central.",
-      "diagram_caption": "P1 · espacio psicofisiológico ≠ matemático",
-      "image_brief": "Diagrama de dos paneles: espacio psicofisiológico frente a perspectiva central.",
-      "quote": "Deja que cada pase plantee una pregunta más precisa al siguiente.",
+      "heading": "Comportamiento, no brillo",
+      "sentence": "Diagnostica el desajuste en **dos vistas** — di qué no puede probar el segundo medio.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg",
+      "diagram_alt": "Physical fold beside a flatter digital mesh with a dashed mismatch hull.",
+      "diagram_caption": "Pliegue físico · malla digital",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Mismatch hull between cloth and mesh",
+      "quote": "Un pliegue se vuelve volumen cuando sus bordes se encuentran en el espacio.",
       "quote_origin": "tao_invented",
       "citation": {
-        "label": "(Tao de la Imagen)",
+        "label": "(Tao of the Image)",
         "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "iteration"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "diagram_credit": "Rubén Vega Balbás · perspective-kit P1",
-      "diagram_rights": "Ilustración original · todos los derechos reservados"
+      }
     },
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "curated",
-      "heading": "2 · Probar el pliegue simulado",
-      "sentence": "Un contorno digital plausible aún necesita una comprobación material.",
-      "notes": [
-        "Un contorno digital verosímil todavía necesita comprobarse con el material."
-      ],
-      "image_brief": "Dürer draughtsman using a perspective machine to draw a lute — construction before fit.",
-      "quote": "Una superficie convincente todavía debe ponerse a prueba con el material.",
+      "background_kind": "geometrical",
+      "heading": "¿De quién es el cuerpo por defecto?",
+      "sentence": "Pregunta de quién son las medidas que congela el avatar antes de confiar en un pase de volumen.",
+      "quote": "Un cuerpo por defecto ya es una decisión de diseño.",
       "quote_origin": "tao_invented",
       "citation": {
-        "label": "(Tao de la Imagen)",
+        "label": "(Tao of the Image)",
         "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "simulation"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "diagram_rights": "Ilustración original · todos los derechos reservados",
-      "media_slot_id": "I.6.masterclass-2",
-      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg"
-    },
-    {
-      "slide_id": "masterclass-2-rive",
-      "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "2 · Movimiento · perspectiva central",
-      "sentence": "Deja que el punto de fuga se arme — luego vuelve a la prueba material.",
-      "notes": [
-        "Rive alone: no duplicate labelled diagram in the card."
-      ],
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg",
-      "diagram_alt": "Central vanishing-point construction (textless background).",
-      "diagram_caption": "P5 · motion field",
-      "diagram_credit": "Rubén Vega Balbás · perspective-kit",
-      "image_brief": "Central VP motion field",
-      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p5-central-vp-171766bc7dee.riv",
-      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg"
+      }
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "curated",
-      "heading": "3 · Cambia una variable",
-      "sentence": "Mantén escala y punto de vista estables al revisar un desajuste.",
-      "notes": [
-        "Mantén la escala y el punto de vista mientras revisas una diferencia."
-      ],
-      "image_brief": "Dürer Underweysung der Messung plate — systematic construction as symbolic form.",
-      "quote": "Una revisión importa si su motivo sigue visible.",
-      "quote_origin": "tao_invented",
-      "citation": {
-        "label": "(Tao de la Imagen)",
-        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "evidence"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "diagram_rights": "Ilustración original · todos los derechos reservados",
-      "media_slot_id": "I.6.masterclass-3",
-      "asset_id": "wikimedia:File:Duerer Underweysung der Messung fig 001 page 181.jpg"
+      "background_kind": "diagram",
+      "heading": "Congela una variable",
+      "sentence": "Nombra **caída · tensión · pliegue · vacío · escala · gravedad · cámara · iluminación** — congela una.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg",
+      "diagram_alt": "Material span between two supports with two gravity contours.",
+      "diagram_caption": "La gravedad curva el material",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Support and drape comparison"
     },
     {
-      "slide_id": "masterclass-3-rive",
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
       "background_kind": "diagram",
-      "heading": "3 · Movimiento · multi-vista",
-      "sentence": "Tres cámaras, una tela — observa cómo sostienen los ejes compartidos.",
-      "notes": [
-        "Rive alone: multi-view drape with XYZ triads."
-      ],
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg",
-      "diagram_alt": "Fashion multi-view textless background.",
-      "diagram_caption": "P6 · motion field",
-      "diagram_credit": "Rubén Vega Balbás · perspective-kit",
-      "image_brief": "Fashion multi-view motion field",
-      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p6-fashion-multiview-e5c6807ca13e.riv",
-      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg"
+      "heading": "La discrepancia enseña",
+      "sentence": "La silueta puede coincidir mientras la ==tensión del cinturón== aún miente — conserva ambas evidencias.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg",
+      "diagram_alt": "Cloth ends at supports; virtual contour continues past them.",
+      "diagram_caption": "Congela el apoyo · prueba el contorno",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Simulation break at support"
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "Una revisión",
+      "sentence": "Cambia **una** variable; conserva el primer pase junto a la corrección.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg",
+      "diagram_alt": "Source, flatter simulation, and one marked local correction on a timeline.",
+      "diagram_caption": "Fuente → simulación → una corrección",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Evidence pair with single revision pin"
     },
     {
       "slide_id": "retrieval",
       "slide_role": "retrieval",
       "background_kind": "geometrical",
-      "heading": "Recuperación rápida",
-      "sentence": "Responde de memoria y comprueba después las ideas en la lección.",
-      "notes": [
-        "Respuestas posibles: perfil de profundidad; caída/tensión/pliegue; escala y punto de vista constantes; par antes/después con la zona marcada; una imagen final no verifica apoyo, gravedad ni material."
-      ],
+      "heading": "Comprobación de recuerdo",
+      "sentence": "Responde de memoria; luego comprueba la lección.",
       "questions": [
-        "¿Qué muestra la vista lateral que oculta la frontal?",
-        "Nombra una diferencia posible entre tela y simulación.",
-        "¿Qué mantendrás constante al comparar dos pases?",
-        "¿Qué evidencia hace comprensible una revisión?",
-        "¿Por qué un render pulido no prueba el comportamiento material?"
+        "Nombra dos variables de volumen que puedas congelar en una comparación justa.",
+        "¿Qué puede mostrar una segunda vista que oculta un render frontal pulido?",
+        "¿Por qué una silueta coincidente no basta para aprender ajuste?",
+        "¿Qué evidencia de portafolio hace legible una revisión?",
+        "¿El cuerpo de quién puede borrar un avatar por defecto?"
       ]
     },
     {
       "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
-      "heading": "Lab · Dejar rastro del proceso",
-      "sentence": "Guarda los dos ejercicios en el índice de portfolio.",
-      "notes": [
-        "A continuación hay dos ejercicios para el portfolio."
-      ]
+      "heading": "Lab · Deja un rastro de proceso",
+      "sentence": "Guarda ambos ejercicios en el índice de portafolio."
     },
     {
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Ejercicio 1 · Construir un pliegue",
-      "sentence": "Construye un volumen pequeño con papel, tela u otro material disponible; fotografía dos vistas y marca dónde cambia el pliegue.",
-      "notes": [
-        "Individual, 15 minutos. Se admite una alternativa táctil o estática.",
-        "Rastro para el portfolio: Dos vistas y una nota sobre el cambio de contorno, apoyo o caída."
-      ],
-      "image_brief": "Vista de exposición de vestidos de Rei Kawakubo con siluetas transformadas pero legibles.",
+      "heading": "Ejercicio 1 · Construye un pliegue",
+      "sentence": "Construye un volumen pequeño; fotografía **dos vistas**; nombra dos variables.",
       "portfolio_bound": true,
-      "portfolio_trace": "Dos vistas y una nota sobre el cambio de contorno, apoyo o caída.",
+      "portfolio_trace": "Dos vistas y una nota sobre contorno, apoyo o caída — más dos variables nombradas.",
       "timer_seconds": 900,
       "method_id": "i6-volume-lab-1",
-      "practises": [
-        "masterclass-1",
-        "masterclass-2"
-      ],
-      "prompt": "Guarda una comparación etiquetada en el índice de portfolio.",
-      "quote": "Construye solo el volumen necesario para probar un pliegue.",
-      "quote_origin": "tao_invented",
-      "citation": {
-        "label": "(Tao de la Imagen)",
-        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "craft"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "diagram_rights": "Ilustración original · todos los derechos reservados",
+      "practises": ["masterclass-1", "masterclass-3"],
+      "prompt": "Guarda una comparación etiquetada en el índice de portafolio.",
       "media_slot_id": "I.6.lab-1",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg"
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "image_brief": "Exhibition dresses with readable transformed silhouettes"
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Ejercicio 2 · Contrastar y revisar",
-      "sentence": "Compara el estudio físico con una interpretación digital sencilla; cambia una variable y conserva la vista anterior.",
-      "notes": [
-        "Individual, 15 minutos. Se admite una alternativa táctil o estática.",
-        "Rastro para el portfolio: Par antes/después y una frase que explique el cambio."
-      ],
-      "image_brief": "Segunda vista de exposición de Kawakubo para comparar el cambio de volumen.",
+      "heading": "Ejercicio 2 · Compara y revisa",
+      "sentence": "Diagnostica un desajuste; cambia una variable; conserva la vista anterior.",
       "portfolio_bound": true,
       "portfolio_trace": "Par antes/después y una frase que explique el cambio.",
       "timer_seconds": 900,
       "method_id": "i6-volume-lab-2",
-      "practises": [
-        "masterclass-2",
-        "masterclass-3"
-      ],
-      "prompt": "Guarda una comparación etiquetada en el índice de portfolio.",
-      "quote": "Conserva el primer contorno junto a la corrección.",
-      "quote_origin": "tao_invented",
-      "citation": {
-        "label": "(Tao de la Imagen)",
-        "href": "/lessons/es/creacion-digital-i/i-6-volumen/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "process"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "diagram_rights": "Ilustración original · todos los derechos reservados",
+      "practises": ["masterclass-4", "masterclass-5"],
+      "prompt": "Guarda una comparación etiquetada en el índice de portafolio.",
       "media_slot_id": "I.6.lab-2",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg"
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg",
+      "image_brief": "Second exhibition view for volume comparison"
     },
     {
       "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
-      "heading": "Llevar al siguiente estudio",
-      "sentence": "Trae la diferencia que aún necesita comprobarse, no solo la vista más pulida.",
-      "notes": [
-        "Conserva la diferencia pendiente como pregunta para comprobar."
-      ]
+      "heading": "Lleva adelante",
+      "sentence": "Lleva el desajuste que aún necesita prueba — no solo la vista más pulida."
     }
   ],
   "schema_version": 2,

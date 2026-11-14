@@ -9,7 +9,7 @@ layout: null
     "project_id": "dc",
     "collection": "volume-drape",
     "strategy": "slide-bound-asset_id",
-    "description": "Accepted drapery/volume stills, Dürer perspective plates, and Rive motion slides kept separate from reading cards.",
+    "description": "Behaviour-first I.6: drapery stills and course diagrams. Perspective-kit / Dürer moved to ML-B draft (PHASE-V0).",
     "media_overrides": {}
   },
   "assets": [
@@ -88,44 +88,6 @@ layout: null
       "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
       "rights_status": "flagged",
       "cropped": false
-    },
-    {
-      "media_slot_id": "I.6.masterclass-2",
-      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/1d8013b42b50dedf.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
-      "title": "Dürer — Man Drawing a Lute",
-      "alt_text": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
-      "author": "Albrecht Dürer",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Albrecht Dürer · Wikimedia Commons",
-      "author_death_year": 1528,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1528; public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "I.6.masterclass-3",
-      "asset_id": "wikimedia:File:Duerer Underweysung der Messung fig 001 page 181.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/741970e6613cb99e.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_fig_001_page_181.jpg",
-      "title": "Dürer — Underweysung der Messung (perspective construction)",
-      "alt_text": "Albrecht Dürer perspective construction plate from Underweysung der Messung",
-      "author": "Albrecht Dürer",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Albrecht Dürer · Wikimedia Commons",
-      "author_death_year": 1528,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1528; public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
     }
   ],
   "slides": [
@@ -134,10 +96,8 @@ layout: null
       "slide_role": "unit_cover",
       "background_kind": "curated",
       "heading": "I.6 · Volume",
-      "sentence": "Volume is tested across material, projection, and revision.",
-      "notes": [
-        "Open with the official CONTENIDOS anchor: Volumen."
-      ],
+      "sentence": "Volume is **behaviour** — fit, drape, material, movement — not mesh polish.",
+      "notes": ["CONTENIDOS: Volumen. Keep Panofsky / perspective kit for the enrichment construction deck."],
       "prompt": "CONTENIDOS: Volumen",
       "quote": "A fold becomes volume when its edges meet in space.",
       "quote_origin": "tao_invented",
@@ -145,230 +105,112 @@ layout: null
         "label": "(Tao of the Image)",
         "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
       },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "geometry"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "fallback_background_kind": "geometrical",
       "media_slot_id": "I.6.cover",
       "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
-      "image_brief": "Leonardo da Vinci garment study for a seated figure showing deep cloth folds"
+      "image_brief": "Leonardo garment study — deep folds as fit evidence"
     },
     {
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Read the volume",
-      "sentence": "Which part of a fold survives the move to screen, and which part changes?",
-      "notes": [
-        "Model one material-to-screen comparison before the Lab."
-      ]
+      "sentence": "Which part of a fold survives the move to screen, and which part changes?"
     },
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
       "background_kind": "curated",
-      "heading": "Compare three views",
-      "sentence": "Each projection makes a different contour of the same drape visible.",
-      "notes": [
-        "Model how each projection reveals a different contour of the same drape."
-      ],
-      "image_brief": "A drapery study for a figure of Sculpture with construction lines in the folds",
+      "heading": "Compare two states",
+      "sentence": "Ridges, valleys, and pooling are ==fit signs==, not decoration to erase.",
+      "image_brief": "Drapery study with readable fold construction",
       "quote": "One object can cast several honest views.",
       "quote_origin": "tao_invented",
       "citation": {
         "label": "(Tao of the Image)",
         "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
       },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "projection"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
       "media_slot_id": "I.6.analysis-model",
-      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
-      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p4-space-box-b453853d6d87.riv",
-      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p4-space-box-bg-b30a812e1dd7.svg"
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg"
     },
     {
       "slide_id": "masterclass-1",
       "slide_role": "masterclass",
       "background_kind": "diagram",
-      "heading": "1 · Iterate between representations",
-      "sentence": "Let one physical study and one digital pass correct each other.",
-      "notes": [
-        "Let one physical study and one digital pass correct each other."
-      ],
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-bg-35ec3bca368c.svg",
-      "diagram_alt": "Two-panel diagram contrasting psychophysiological space with central perspective.",
-      "diagram_caption": "P1 · psychophysiological ≠ mathematical space",
-      "image_brief": "Two-panel diagram contrasting psychophysiological space with central perspective.",
-      "quote": "Let each pass ask the next a sharper question.",
+      "heading": "Behaviour, not polish",
+      "sentence": "Diagnose misfit across **two views** — say what the second medium cannot prove.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg",
+      "diagram_alt": "Physical fold beside a flatter digital mesh with a dashed mismatch hull.",
+      "diagram_caption": "Physical fold · digital mesh",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Mismatch hull between cloth and mesh",
+      "quote": "A fold becomes volume when its edges meet in space.",
       "quote_origin": "tao_invented",
       "citation": {
         "label": "(Tao of the Image)",
         "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "iteration"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "diagram_credit": "Rubén Vega Balbás · perspective-kit P1"
+      }
     },
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "curated",
-      "heading": "2 · Test the simulated fold",
-      "sentence": "A plausible digital contour still needs a material check.",
-      "notes": [
-        "A plausible digital contour still needs a material check."
-      ],
-      "image_brief": "Dürer draughtsman using a perspective machine to draw a lute — construction before fit.",
-      "quote": "A convincing surface still owes the material a test.",
+      "background_kind": "geometrical",
+      "heading": "Whose default body?",
+      "sentence": "Ask whose measures the avatar freezes before you trust a volume pass.",
+      "quote": "A default body is already a design decision.",
       "quote_origin": "tao_invented",
       "citation": {
         "label": "(Tao of the Image)",
         "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "simulation"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "media_slot_id": "I.6.masterclass-2",
-      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg"
-    },
-    {
-      "slide_id": "masterclass-2-rive",
-      "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "2 · Motion · central perspective",
-      "sentence": "Let the vanishing point assemble — then return to the material test.",
-      "notes": [
-        "Rive alone: no duplicate labelled diagram in the card."
-      ],
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg",
-      "diagram_alt": "Central vanishing-point construction (textless background).",
-      "diagram_caption": "P5 · motion field",
-      "diagram_credit": "Rubén Vega Balbás · perspective-kit",
-      "image_brief": "Central VP motion field",
-      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p5-central-vp-171766bc7dee.riv",
-      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-bg-708c927932cd.svg"
+      }
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "curated",
-      "heading": "3 · Change one variable",
-      "sentence": "Keep scale and viewpoint stable while revising one mismatch.",
-      "notes": [
-        "Keep scale and viewpoint stable while revising one mismatch."
-      ],
-      "image_brief": "Dürer Underweysung der Messung plate — systematic construction as symbolic form.",
-      "quote": "A revision matters when its reason remains visible.",
-      "quote_origin": "tao_invented",
-      "citation": {
-        "label": "(Tao of the Image)",
-        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "evidence"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
-      "media_slot_id": "I.6.masterclass-3",
-      "asset_id": "wikimedia:File:Duerer Underweysung der Messung fig 001 page 181.jpg"
+      "background_kind": "diagram",
+      "heading": "Hold one variable",
+      "sentence": "Name **drape · tension · fold · void · scale · gravity · camera · lighting** — freeze one.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg",
+      "diagram_alt": "Material span between two supports with two gravity contours.",
+      "diagram_caption": "Gravity curves the material",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Support and drape comparison"
     },
     {
-      "slide_id": "masterclass-3-rive",
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
       "background_kind": "diagram",
-      "heading": "3 · Motion · multi-view",
-      "sentence": "Three cameras, one cloth — watch the shared axes hold.",
-      "notes": [
-        "Rive alone: multi-view drape with XYZ triads."
-      ],
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg",
-      "diagram_alt": "Fashion multi-view textless background.",
-      "diagram_caption": "P6 · motion field",
-      "diagram_credit": "Rubén Vega Balbás · perspective-kit",
-      "image_brief": "Fashion multi-view motion field",
-      "rive_src": "/assets/images/lesson-figures/perspective-kit/rive/pv-p6-fashion-multiview-e5c6807ca13e.riv",
-      "rive_fallback": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-bg-71af54a9678b.svg"
+      "heading": "Discrepancy teaches",
+      "sentence": "Silhouette may match while ==waistband tension== still lies — keep both evidences.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg",
+      "diagram_alt": "Cloth ends at supports; virtual contour continues past them.",
+      "diagram_caption": "Hold the support · test the contour",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Simulation break at support"
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "One revision",
+      "sentence": "Change **one** variable; keep the first pass beside the correction.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg",
+      "diagram_alt": "Source, flatter simulation, and one marked local correction on a timeline.",
+      "diagram_caption": "Source → simulation → one correction",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger",
+      "image_brief": "Evidence pair with single revision pin"
     },
     {
       "slide_id": "retrieval",
       "slide_role": "retrieval",
       "background_kind": "geometrical",
       "heading": "Recall check",
-      "sentence": "Answer from memory, then check the ideas in the lesson.",
-      "notes": [
-        "Answer cues: depth profile; drape/tension/fold; keep scale and viewpoint constant; before/after pair with changed region marked; a final image alone does not verify support, gravity, or material."
-      ],
+      "sentence": "Answer from memory, then check the lesson.",
       "questions": [
-        "What can a side view show that the front view hides?",
-        "Name one possible mismatch between cloth and simulation.",
-        "What will you hold constant when comparing two passes?",
-        "What evidence makes a revision legible?",
-        "Why does a polished render not prove material behaviour by itself?"
+        "Name two volume variables you can freeze in a fair comparison.",
+        "What can a second view show that a polished front render hides?",
+        "Why is a matching silhouette not enough for fit learning?",
+        "What portfolio evidence makes one revision legible?",
+        "Whose body might a default avatar erase?"
       ]
     },
     {
@@ -376,110 +218,46 @@ layout: null
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Leave a process trace",
-      "sentence": "Save both exercises in your portfolio index.",
-      "notes": [
-        "Two portfolio-bound exercises follow."
-      ]
+      "sentence": "Save both exercises in your portfolio index."
     },
     {
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "heading": "Exercise 1 · Build one fold",
-      "sentence": "Build a small volume from paper, cloth, or another available material; photograph two views and mark where the fold changes.",
-      "notes": [
-        "Individual, 15 minutes. A tactile or static equivalent is welcome.",
-        "Portfolio trace: Two views and one note on the changed contour, support, or drape."
-      ],
-      "image_brief": "Exhibition view of Rei Kawakubo dresses with transformed but readable silhouettes",
+      "sentence": "Build a small volume; photograph **two views**; name two volume variables.",
       "portfolio_bound": true,
-      "portfolio_trace": "Two views and one note on the changed contour, support, or drape.",
+      "portfolio_trace": "Two views and one note on contour, support, or drape — plus two named variables.",
       "timer_seconds": 900,
       "method_id": "i6-volume-lab-1",
-      "practises": [
-        "masterclass-1",
-        "masterclass-2"
-      ],
+      "practises": ["masterclass-1", "masterclass-3"],
       "prompt": "Save one labelled comparison in the portfolio index.",
-      "quote": "Build only enough volume to test one fold.",
-      "quote_origin": "tao_invented",
-      "citation": {
-        "label": "(Tao of the Image)",
-        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "craft"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
       "media_slot_id": "I.6.lab-1",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg"
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "image_brief": "Exhibition dresses with readable transformed silhouettes"
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "heading": "Exercise 2 · Compare and revise",
-      "sentence": "Compare the physical study with a simple digital interpretation; change one variable and keep the earlier view.",
-      "notes": [
-        "Individual, 15 minutes. A tactile or static equivalent is welcome.",
-        "Portfolio trace: Before/after pair and one sentence explaining the change."
-      ],
-      "image_brief": "Second exhibition view of Rei Kawakubo dresses for comparing volume change",
+      "sentence": "Diagnose one mismatch; change one variable; keep the earlier view.",
       "portfolio_bound": true,
       "portfolio_trace": "Before/after pair and one sentence explaining the change.",
       "timer_seconds": 900,
       "method_id": "i6-volume-lab-2",
-      "practises": [
-        "masterclass-2",
-        "masterclass-3"
-      ],
+      "practises": ["masterclass-4", "masterclass-5"],
       "prompt": "Save one labelled comparison in the portfolio index.",
-      "quote": "Keep the first contour beside the correction.",
-      "quote_origin": "tao_invented",
-      "citation": {
-        "label": "(Tao of the Image)",
-        "href": "/lessons/en/digital-creativity-i/i-6-volume/#tao-of-the-image"
-      },
-      "semantic_tags": {
-        "themes": [
-          "fashion",
-          "volume",
-          "process"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text"
-        ]
-      },
       "media_slot_id": "I.6.lab-2",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg"
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg",
+      "image_brief": "Second exhibition view for volume comparison"
     },
     {
       "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Bring the mismatch that still needs a test, not only the most polished view.",
-      "notes": [
-        "Carry the unresolved mismatch forward as a question to test."
-      ]
+      "sentence": "Bring the mismatch that still needs a test — not only the most polished view."
     }
   ],
   "schema_version": 2,
