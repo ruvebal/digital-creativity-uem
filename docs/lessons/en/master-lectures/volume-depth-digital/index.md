@@ -14,7 +14,7 @@ tags: [master-lecture, volume-depth, projection, 2.5d, ai]
 deck_url: /master-lectures/volume-depth-digital/
 master_idea: 'A convincing depth image can still be a painter-order lie — ask which engine produced the occlusion'
 practice_anchor: 'Classify one portfolio still as 2.5D projection, true depth-tested 3D, or AI-plausible — and say what I.6 would still need to test'
-frontier_signal: 'Sister craft: web-atelier SVG master session Round 4 + canvas-25d-content-hero; Rive-3D when the claim is a Z-buffer'
+frontier_signal: 'Sister craft: SVG / Canvas 2.5D master session (painter-order projection); true Rive-3D / WebGL when the claim is a Z-buffer'
 ---
 
 <!-- prettier-ignore-start -->

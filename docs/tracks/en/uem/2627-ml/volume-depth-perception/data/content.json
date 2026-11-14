@@ -9,7 +9,7 @@ layout: null
     "project_id": "ml",
     "collection": "ml-vd-a-volume-depth",
     "strategy": "slide-bound-asset_id",
-    "description": "PHASE-V3 PARTIAL: three human-accepted Commons stills from 20261113 runs; visual-cliff / Alberti leads still pending prospect."
+    "description": "PHASE-V3: four human-accepted Commons stills (depth cues · vanishing · Venetian plate · visual cliff)."
   },
   "assets": [
     {
@@ -49,6 +49,25 @@ layout: null
       "eu_term_reason": "CC0 dedication",
       "rights_status": "flagged",
       "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.masterclass-4",
+      "asset_id": "wikimedia:File:NIH visual cliff experiment (cropped).png",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/b9f4e3d6aa856453.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/NIH_visual_cliff_experiment_%28cropped%29.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:NIH_visual_cliff_experiment_(cropped).png",
+      "title": "NIH visual cliff experiment (cropped)",
+      "alt_text": "Infant on a glass visual cliff apparatus used in Gibson and Walk depth-perception research",
+      "author": "Gibson and Walk (1960) via NIH / Nature Publishing Group",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Gibson and Walk (1960) via NIH / Nature Publishing Group · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC BY 4.0 modern scientific figure — attribution required",
+      "rights_status": "flagged",
+      "cropped": true
     },
     {
       "media_slot_id": "ML-VD-A.masterclass-5",
@@ -123,9 +142,12 @@ layout: null
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "geometrical",
+      "background_kind": "curated",
       "heading": "4 · Gibson frame",
-      "sentence": "Ambient optic array and motion parallax as ecological cues."
+      "sentence": "Gibson’s visual cliff: depth as ==ecological== affordance, not only inference.",
+      "fallback_background_kind": "geometrical",
+      "media_slot_id": "ML-VD-A.masterclass-4",
+      "asset_id": "wikimedia:File:NIH visual cliff experiment (cropped).png"
     },
     {
       "slide_id": "masterclass-5",

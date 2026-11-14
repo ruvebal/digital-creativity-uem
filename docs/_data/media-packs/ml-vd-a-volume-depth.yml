@@ -85,3 +85,31 @@
     status: accepted
     accepted_by: ruvebal@crea-comm.net
     accepted_at: '2026-11-14T11:29:17Z'
+- media_slot_id: ML-VD-A.cue.cliff
+  media_role: still
+  asset_id: wikimedia:File:NIH visual cliff experiment (cropped).png
+  studio_semantics:
+  - object
+  why_this_is_here: Gibson/Walk visual cliff plate for ML-A ecological-optics frame.
+  viewing_question: What does the cliff prove about depth — and what fashion fit claim
+    can it not prove?
+  canonical_source_url: https://commons.wikimedia.org/wiki/File:NIH_visual_cliff_experiment_(cropped).png
+  source_file_url: https://upload.wikimedia.org/wikipedia/commons/3/33/NIH_visual_cliff_experiment_%28cropped%29.png
+  embed: null
+  credit_block: Gibson and Walk (1960) · NIH / Nature · Wikimedia Commons · CC BY
+    4.0
+  accessibility:
+    captions: false
+    transcript: null
+    alt_text: Infant on a glass visual cliff apparatus used in Gibson and Walk depth-perception
+      research
+    static_fallback: null
+  licence:
+    class: conforming_attribution
+    spdx: CC-BY-4.0
+  placeholder: false
+  placeholder_kind: null
+  profield_run_id: 20261114-visual-cliff
+  review:
+    status: accepted
+    accepted_by: ruvebal@crea-comm.net

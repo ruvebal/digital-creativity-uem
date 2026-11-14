@@ -9,28 +9,44 @@ layout: null
     "project_id": "ml",
     "collection": "perspective-kit",
     "strategy": "kit-full-graphics",
-    "description": "PHASE-V2 ML-B: perspective-kit P1–P5 as full graphic slides; Dürer stills from deck-media."
+    "description": "PHASE-V3/V4: perspective-kit P1–P5 full graphics + accepted Dürer Commons stills with download URLs."
   },
   "assets": [
     {
       "media_slot_id": "ML-VD-B.cover",
-      "asset_id": "wikimedia:File:Durer_Perspective.jpg",
+      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/3fcc495e344b4a24.webp",
-      "title": "Dürer perspective demonstration (lute)",
-      "alt_text": "Historical woodcut of a perspective drafting demonstration with a lute",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg",
+      "title": "Dürer - Man Drawing a Lute",
+      "alt_text": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
+      "author": "Albrecht Dürer",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Dürer · Wikimedia Commons · course deck-media",
-      "rights_status": "flagged",
+      "credit_line": "Albrecht Dürer · Wikimedia Commons",
+      "author_death_year": 1528,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; public domain in the EU.",
+      "rights_status": "ok",
       "cropped": false
     },
     {
-      "media_slot_id": "ML-VD-B.alberti",
-      "asset_id": "wikimedia:File:Durer_Underweysung_der_Messung.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/c9f5e3396acefa9c.webp",
-      "title": "Dürer Underweysung der Messung",
+      "media_slot_id": "ML-VD-B.masterclass-1",
+      "asset_id": "wikimedia:File:Duerer Underweysung der Messung 181.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/9a622f353e4e1772.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Duerer_Underweysung_der_Messung_181.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_181.jpg",
+      "title": "Dürer Underweysung der Messung 181",
       "alt_text": "Plate from Dürer Underweysung der Messung showing measurement construction",
+      "author": "Albrecht Dürer",
+      "licence": "PD-old-100",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Dürer · Wikimedia Commons · course deck-media",
+      "credit_line": "Albrecht Dürer · Wikimedia Commons",
+      "author_death_year": 1528,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; public domain in the EU",
       "rights_status": "flagged",
       "cropped": false
     }
@@ -44,7 +60,8 @@ layout: null
       "heading": "ML-B · Constructing space",
       "sentence": "Perspective is a **symbolic** construction of space.",
       "media_slot_id": "ML-VD-B.cover",
-      "prompt": "Relocated from jammed I.6"
+      "prompt": "Relocated from jammed I.6",
+      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg"
     },
     {
       "slide_id": "analysis-opener",
@@ -60,7 +77,8 @@ layout: null
       "fallback_background_kind": "geometrical",
       "heading": "1 · Alberti’s window",
       "sentence": "The picture plane cuts the visual pyramid.",
-      "media_slot_id": "ML-VD-B.alberti"
+      "media_slot_id": "ML-VD-B.masterclass-1",
+      "asset_id": "wikimedia:File:Duerer Underweysung der Messung 181.jpg"
     },
     {
       "slide_id": "masterclass-2",
@@ -74,7 +92,7 @@ layout: null
       "slide_role": "masterclass",
       "background_kind": "geometrical",
       "heading": "3 · Aerial depth",
-      "sentence": "Atmosphere softens far planes — orientation until Ahmes-safe."
+      "sentence": "Atmosphere softens far planes — orientation until cite-grade evidence."
     },
     {
       "slide_id": "masterclass-4",

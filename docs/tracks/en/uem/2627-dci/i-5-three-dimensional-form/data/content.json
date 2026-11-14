@@ -177,14 +177,11 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "curated",
-      "fallback_background_kind": "geometrical",
+      "background_kind": "geometrical",
       "heading": "5 · Hand-off to I.6",
       "sentence": "I.5 ends at views that agree; I.6 asks what the volume **does** under fit and gravity.",
       "slide_id": "masterclass-5",
       "image_brief": "Volume worn on the body — behaviour and discrepancy begin next unit.",
-      "media_slot_id": "I.5.cover",
-      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
       "notes": "- Explicit series split: spatial literacy (I.5) → behaviour (I.6).\n- Perspective construction stays in ML-B draft — not jammed here."
     },
     {

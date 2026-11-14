@@ -484,12 +484,6 @@
       "caption_html": "<span class=\"slide-caption__title\">A render is not understanding</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
-    "masterclass-5": {
-      "src": "/assets/images/deck-media/a7fe225309618a85.webp",
-      "alt": "Exhibition view of sculptural dresses by Rei Kawakubo worn as volume on the body",
-      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 01</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
-    },
     "lab-1": {
       "src": "/assets/images/deck-media/3e1406d573d0b92f.webp",
       "alt": "Historical costume plate with multiple figures for comparing projections",
@@ -738,14 +732,14 @@
   "volume-depth-construction": {
     "cover": {
       "src": "/assets/images/deck-media/3fcc495e344b4a24.webp",
-      "alt": "Historical woodcut of a perspective drafting demonstration with a lute",
-      "caption_html": "<span class=\"slide-caption__title\">Dürer perspective demonstration (lute)</span>",
-      "rights_status": "flagged"
+      "alt": "Albrecht Dürer woodcut of a draughtsman using a perspective grid to draw a lute",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer - Man Drawing a Lute</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     },
     "masterclass-1": {
-      "src": "/assets/images/deck-media/c9f5e3396acefa9c.webp",
+      "src": "/assets/images/deck-media/9a622f353e4e1772.webp",
       "alt": "Plate from Dürer Underweysung der Messung showing measurement construction",
-      "caption_html": "<span class=\"slide-caption__title\">Dürer Underweysung der Messung</span>",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer Underweysung der Messung 181</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_181.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "masterclass-5": {
@@ -792,6 +786,12 @@
       "src": "/assets/images/deck-media/84057bc32cd0e64b.webp",
       "alt": "Diagram of eye level and vanishing point in linear perspective",
       "caption_html": "<span class=\"slide-caption__title\">Eye level and vanishing point diagram</span> · <span class=\"slide-caption__author\">すじにくシチュー</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0-1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/b9f4e3d6aa856453.webp",
+      "alt": "Infant on a glass visual cliff apparatus used in Gibson and Walk depth-perception research",
+      "caption_html": "<span class=\"slide-caption__title\">NIH visual cliff experiment (cropped)</span> · <span class=\"slide-caption__author\">Gibson and Walk (1960) via NIH / Nature Publishing Group</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:NIH_visual_cliff_experiment_(cropped).png\" target=\"_blank\" rel=\"noopener\">Source</a> · <span>cropped</span>",
       "rights_status": "flagged"
     },
     "masterclass-5": {

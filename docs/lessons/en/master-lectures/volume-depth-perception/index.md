@@ -63,7 +63,7 @@ Carry the cue names into I.5 multi-view work. Do **not** substitute this lecture
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Arnheim / Helmholtz / Gibson remain **orientation** until Ahmes-safe lesson cites. Light-on-form fashion RCT = Declared gap (`dc-3d-form-volume-pedagogy`). Commons cue plates: cascade V3 media-accept.
+Arnheim / Helmholtz / Gibson remain **orientation** until cite-grade vault evidence is cleared for lesson body quotes. Light-on-form fashion RCT = Declared gap in the course 3D-form gap field. Four Commons cue plates are bound on the deck after human media-accept.
 
 ## AI-assisted authorship
 

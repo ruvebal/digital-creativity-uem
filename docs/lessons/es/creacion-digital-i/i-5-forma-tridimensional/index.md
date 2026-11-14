@@ -99,7 +99,7 @@ La educación en confección trata la capacidad de transformar mentalmente patro
 
 ### 4 · Luz y silueta como evidencia de forma
 
-Bloquea la masa, lanza una luz, lee la silueta exterior antes del ruido de superficie. Luz-sobre-forma es alfabetización de estudio durable; la evidencia controlada de moda-HE para un pipeline bodegón → prenda sigue siendo un **hueco declarado** (`dc-3d-form-volume-pedagogy`). Enseña el ejercicio; no inventes el RCT.
+Bloquea la masa, lanza una luz, lee la silueta exterior antes del ruido de superficie. Luz-sobre-forma es alfabetización de estudio durable; la evidencia controlada de moda-HE para un pipeline bodegón → prenda sigue siendo un **hueco declarado**. Enseña el ejercicio; no inventes el RCT.
 
 <figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
 <img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un volumen pulido junto a un rastro de proceso con la lectura plana, una ambigüedad de bloqueo y una vista revisada que registra su prueba." loading="lazy" decoding="async" />
@@ -173,7 +173,7 @@ PROVENANCE_LINE: claim=I.5.claim.perceptual-form; status=[BIBLIO-GAP]; public_ci
 ## Nota editorial. Trabajo en curso. Práctica de Innovación Docente
 {: .lesson-editorial-note }
 
-Papahristou y Zolota Tatsi (2024) sostienen una secuencia 2D→3D realmente enseñada; **no** demuestran comprensión espacial de la forma validada. Luz-sobre-forma y pipelines bodegón → prenda siguen siendo huecos declarados en `dc-3d-form-volume-pedagogy`. Hughes / Arnheim quedan como vocabulario de orientación hasta Ahmes-seguro. La enseñanza de construcción perspectiva vive en el borrador ML-B de Volume–Depth, no aquí.
+Papahristou y Zolota Tatsi (2024) sostienen una secuencia 2D→3D realmente enseñada; **no** demuestran comprensión espacial de la forma validada. Luz-sobre-forma y pipelines bodegón → prenda siguen siendo huecos declarados en el campo de huecos de forma 3D del curso. Hughes / Arnheim quedan como vocabulario de orientación hasta evidencia de bóveda cite-grade. La enseñanza de construcción perspectiva vive en la master lecture de enriquecimiento Volume–Depth *Construir el espacio*, no aquí.
 
 ---
 

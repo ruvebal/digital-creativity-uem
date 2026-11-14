@@ -211,7 +211,8 @@ layout: null
         "¿Por qué una silueta coincidente no basta para aprender ajuste?",
         "¿Qué evidencia de portafolio hace legible una revisión?",
         "¿El cuerpo de quién puede borrar un avatar por defecto?"
-      ]
+      ],
+      "notes": "Respuestas:\n1. Cualquiera dos de: caída, tensión, pliegue, vacío, escala, gravedad, cámara, iluminación.\n2. Signos de ajuste / desajuste que el brillo frontal oculta.\n3. La silueta puede coincidir mientras la tensión o el soporte mienten.\n4. Primer pase junto a una corrección marcada (una sola variable).\n5. Quienquiera cuyas medidas congela el avatar por defecto como estándar no dicho."
     },
     {
       "slide_id": "lab-opener",

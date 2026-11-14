@@ -99,7 +99,7 @@ Apparel education treats the capacity to mentally transform flat patterns and sk
 
 ### 4 · Light and silhouette as form evidence
 
-Block mass, cast one light, read the outer silhouette before surface noise. Light-on-form is durable studio literacy; fashion-HE controlled evidence for a still-life → garment pipeline remains a **Declared gap** (`dc-3d-form-volume-pedagogy`). Teach the exercise; do not invent the RCT.
+Block mass, cast one light, read the outer silhouette before surface noise. Light-on-form is durable studio literacy; fashion-HE controlled evidence for a still-life → garment pipeline remains a **Declared gap**. Teach the exercise; do not invent the RCT.
 
 <figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
 <img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test." loading="lazy" decoding="async" />
@@ -173,7 +173,7 @@ PROVENANCE_LINE: claim=I.5.claim.perceptual-form; status=[BIBLIO-GAP]; public_ci
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Papahristou and Zolota Tatsi (2024) support a real taught 2D→3D sequence; they do **not** prove validated spatial-form understanding. Light-on-form and still-life → garment pipelines remain Declared gaps in `dc-3d-form-volume-pedagogy`. Hughes / Arnheim stay orientation vocabulary until Ahmes-safe. Perspective construction teaching lives in the Volume–Depth ML-B draft, not here.
+Papahristou and Zolota Tatsi (2024) support a real taught 2D→3D sequence; they do **not** prove validated spatial-form understanding. Light-on-form and still-life → garment pipelines remain Declared gaps in the course 3D-form gap field. Hughes / Arnheim stay orientation vocabulary until cite-grade vault evidence is cleared. Perspective construction teaching lives in the Volume–Depth enrichment lecture *Constructing space*, not here.
 
 ---
 
