@@ -30,3 +30,4 @@
 | V2 · ML-A/B/C student surfaces | **DONE** (see `PHASE-V2-REPORT.md`) |
 | V3 · Media-accept Commons leads | **DONE** (4/4 ML-A + Dürer ML-B URLs — see `PHASE-V3-REPORT.md`) |
 | V4 · Verification gates | **DONE** (publication/citations exit 0; Alberti on ML-B; full rehydrate safe — see `PHASE-V4-REPORT.md` + `PHASE-V4-COLD-REVIEW.md`) |
+| Graphics commission | **G0/G1** — see [`GRAPHICS-COMMISSION.md`](GRAPHICS-COMMISSION.md) · branch `forge/volume-depth-graphics-g0` |

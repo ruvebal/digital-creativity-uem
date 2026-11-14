@@ -8,39 +8,37 @@ lang: en
 <section
 	class="hero-section hero-section--archive hero-section--landing"
 	aria-labelledby="hero-title">
-	<div class="max-w-4xl mx-auto text-center px-4 py-12 hero-section__inner">
+	<div class="hero-section__inner hero-foreground-plane">
 		<span
 			id="favicon-hero-icon"
-			class="favicon-canvas-25d landing-hero__mark mx-auto"
-			data-favicon-src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-clean-base-6">
-			<img src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-clean-base-6" alt="" aria-hidden="true" />
+			class="favicon-canvas-25d landing-hero__mark"
+			data-favicon-src="{{ '/assets/icons/platonic-favicon-rive-3d.svg' | relative_url }}?v=20261114-g1-platonic">
+			<img
+				src="{{ '/assets/icons/platonic-favicon-rive-3d.svg' | relative_url }}?v=20261114-g1-platonic"
+				alt=""
+				width="512"
+				height="512"
+				decoding="async"
+				aria-hidden="true" />
 		</span>
-		<h1 id="hero-title" class="text-3xl md:text-4xl font-bold mb-3">
-			Digital Creativity
-		</h1>
-		<p class="text-lg mb-2 opacity-90">
-			Digital Creativity — fashion, interface, evidence
-		</p>
-		<p class="text-lg italic opacity-80 mb-6">
-			Critical Coding for a Better Living
-		</p>
-		<p class="text-base opacity-80">
-			Rubén Vega Balbás, PhD — Creative Technologist &amp; Developer ·
+		<h1 id="hero-title">Digital Creativity</h1>
+		<p class="landing-hero__tagline">Critical Coding for a Better Living</p>
+		<p class="landing-hero__meta">
+			Rubén Vega Balbás, PhD ·
 			<a href="mailto:ruvebal@crea-comm.net" class="hover:underline">ruvebal@crea-comm.net</a>
 			·
 			<a href="https://orcid.org/0000-0001-6862-9081" class="hover:underline">ORCID</a>
 		</p>
-		<p class="max-w-2xl mx-auto mt-8 leading-relaxed opacity-90">
-			Lesson itineraries and methodology for <strong>Digital Creativity I–II</strong> and
-			<strong>New Media</strong> (Universidad Europea — Fashion Communication &amp; Management):
-			three-dimensional form, avatars, digital experiences, web portfolio, augmented reality,
-			and fashion platforms / social networks — with critical judgement under ambient AI.
+		<p class="landing-hero__lede">
+			Lesson itineraries for <strong>Digital Creativity I–II</strong> and
+			<strong>New Media</strong> — three-dimensional form, volume, avatars, web portfolio, and AR,
+			with critical judgement under ambient AI.
 		</p>
 	</div>
 </section>
 
 <script type="module">
-	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261110-clean-base-depth-8';
+	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261114-g1-platonic';
 	mountFaviconCanvas(document.getElementById('favicon-hero-icon')).catch((error) => {
 		console.warn('[favicon-canvas-25d] Static SVG fallback retained.', error);
 	});
@@ -79,7 +77,7 @@ lang: en
 	</article>
 	<article class="p-6 rounded-xl border border-gray-200 dark:border-neutral-700">
 		<h2 class="text-lg font-semibold mb-2">Master Lectures</h2>
-		<p class="text-gray-600 dark:text-neutral-400 mb-4">Transversal analysis methods — fashion image guide + in-class slideshow (EN).</p>
+		<p class="text-gray-600 dark:text-neutral-400 mb-4">Transversal analysis methods — fashion image guide + Volume–Depth enrichment.</p>
 		<a href="{{ '/lessons/en/master-lectures/' | relative_url }}" class="text-amber-800 font-medium hover:underline">Open master lectures →</a>
 		·
 		<a href="{{ '/master-lectures/fashion-image-analysis/' | relative_url }}" class="text-amber-800 font-medium hover:underline">Slideshow →</a>

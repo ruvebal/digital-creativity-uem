@@ -335,7 +335,8 @@ img.footer-logo {
 }
 
 .hero-section--landing {
-	--landing-mark-max: 15rem;
+	/* G1 · atelier parity (GRAPHICS-COMMISSION): mark owns focal weight */
+	--landing-mark-max: 20rem;
 	box-sizing: border-box;
 	display: grid;
 	min-block-size: calc(100svh - var(--site-header-height));
@@ -353,25 +354,53 @@ img.footer-logo {
 	align-content: center;
 	justify-items: center;
 	padding-block: 0;
+	gap: clamp(0.75rem, 2cqb, 1.5rem);
 }
 
 .hero-section--landing .landing-hero__mark {
-	--landing-mark-size: clamp(8rem, 24vmin, var(--landing-mark-max));
+	--landing-mark-size: clamp(9rem, 28vmin, var(--landing-mark-max));
 	inline-size: var(--landing-mark-size);
 	block-size: var(--landing-mark-size);
 	aspect-ratio: 1;
-	margin-block-end: clamp(0.45rem, 1.4cqb, 1rem);
+	margin-block-end: clamp(0.35rem, 1.2cqb, 0.85rem);
 }
 
 @supports (width: 1cqi) {
 	.hero-section--landing .landing-hero__mark {
-		--landing-mark-size: clamp(8rem, min(20cqi, 24svh), var(--landing-mark-max));
+		--landing-mark-size: clamp(9rem, min(26cqi, 30svh), var(--landing-mark-max));
 	}
 }
 
+/* Mark is focal — title one responsive step below atelier brand shout */
 .hero-section--landing #hero-title {
-	font-size: clamp(1.75rem, min(4.4cqi, 5.7cqb), 3rem);
+	font-size: clamp(1.8rem, min(4.6cqi, 6cqb), 3.25rem);
 	line-height: 1.04;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	margin: 0;
+}
+
+.hero-section--landing .landing-hero__tagline {
+	font-size: clamp(0.95rem, min(1.8cqi, 2.4cqb), 1.2rem);
+	line-height: 1.35;
+	font-style: italic;
+	opacity: 0.88;
+	margin: 0;
+}
+
+.hero-section--landing .landing-hero__meta {
+	font-size: clamp(0.82rem, min(1.5cqi, 2cqb), 1.05rem);
+	line-height: 1.42;
+	opacity: 0.8;
+	margin: 0;
+}
+
+.hero-section--landing .landing-hero__lede {
+	font-size: clamp(0.88rem, min(1.6cqi, 2.1cqb), 1.1rem);
+	line-height: 1.5;
+	opacity: 0.9;
+	max-inline-size: 42rem;
+	margin: clamp(0.5rem, 1.5cqb, 1rem) 0 0;
 }
 
 .hero-section--landing p {
