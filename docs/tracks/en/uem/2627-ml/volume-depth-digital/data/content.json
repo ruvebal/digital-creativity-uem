@@ -1,0 +1,83 @@
+---
+layout: null
+---
+{
+  "unit_label": "Master Lecture · Digital & AI depth",
+  "final_event_theme": "Volume Perception & Depth Representation · C",
+  "media_selection": {
+    "unit_id": "ML-VD-C",
+    "project_id": "ml",
+    "collection": "pending-review",
+    "strategy": "diagram-first",
+    "description": "PHASE-V2 ML-C: projection honesty + 2.5D vs Z-buffer; no generative scrapes."
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "geometrical",
+      "heading": "ML-C · Digital & AI depth",
+      "sentence": "A convincing depth image can still be a painter-order **lie**.",
+      "prompt": "Sister: SVG master session Round 4 · canvas-25d-content-hero"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Which engine?",
+      "sentence": "Ask which occlusion law produced the fold."
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Projection x/z",
+      "sentence": "Flat output from a **ratio** — not from 3D vibes.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
+      "diagram_alt": "Flat panel to elevation to volume on a shared axis.",
+      "diagram_caption": "Projection is a transform",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "2 · Virtual camera = Alberti",
+      "sentence": "Station point + picture plane — same cut, different UI."
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "3 · Z-buffer / stereo",
+      "sentence": "2.5D sorts; true 3D ==tests== occlusion."
+    },
+    {
+      "slide_id": "masterclass-4",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "4 · AI plausibility",
+      "sentence": "A fold can look right and still invent support.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
+      "diagram_alt": "Polished volume beside a process trail recording a failed prediction.",
+      "diagram_caption": "Plausible ≠ proven",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "5 · Bridge to I.6",
+      "sentence": "Classify the engine — then run a **fit/drape** test."
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Cue literacy · construction · engine honesty — behaviour still owns I.6."
+    }
+  ],
+  "schema_version": 2
+}

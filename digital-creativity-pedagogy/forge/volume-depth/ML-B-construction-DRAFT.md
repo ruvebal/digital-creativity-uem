@@ -1,37 +1,32 @@
-# ML-B · Constructing space (DRAFT — PHASE-V0 park)
+# ML-B · Constructing space — REGISTERED (PHASE-V2)
 
-**Student-facing title (future):** Volume Perception & Depth · Construction  
-**Status:** instructor draft only — not registered in `lessons.yml` yet (cascade V2).  
+**Student-facing:** [Lesson](/lessons/en/master-lectures/volume-depth-construction/) · [Deck](/master-lectures/volume-depth-construction/)  
+**Status:** registered in `lessons.yml` (`ML-VD-B`) + `tracks.yml` master_lectures · track `2627-ml/volume-depth-construction/`.  
 **Why:** Relocated from jammed I.6 so official *Volumen* keeps the behaviour nail.
 
-## Main ideas (≤6) — future deck
+## Main ideas (6)
 
 1. Alberti’s window / picture plane  
 2. Visual pyramid as construction law  
-3. Leonardo aerial / atmospheric depth  
-4. Panofsky: perspective as **symbolic form**  
-5. P1 psychophysiological ≠ mathematical space (kit)  
+3. Aerial / atmospheric depth (orientation)  
+4. Panofsky: perspective as symbolic form  
+5. P1 psycho/math ≠ P5 central VP (kit; P5 as companion graphic)  
 6. Multi-view ≠ fit proof — bridge back to I.6
 
-## Assets to mount (already in repo)
+## Assets mounted
 
 | kit_id | Path |
 | --- | --- |
-| P1 | `docs/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-*.svg` |
-| P2–P6 | same folder + `rive/` overlays |
-| Dürer lute | `deck-media/3fcc495e344b4a24.webp` |
-| Dürer Messung | `deck-media/c9f5e3396acefa9c.webp` |
+| P1 | `docs/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-5e69c5149013.svg` |
+| P5 | `…/pv-p5-central-vp-708c927932cd.svg` |
+| P6 | `…/pv-p6-fashion-multiview-71af54a9678b.svg` |
+| Dürer lute / Messung | `deck-media/3fcc495e…` · `c9f5e339…` |
 
-## SAFE cites (from prior I.6 provenance — relocate, do not invent)
+## SAFE cites
 
 - Panofsky 1991, 14 · central perspective assumptions  
 - Panofsky 1991, 15 · psycho → mathematical space  
-- Panofsky 1991, 21 · antique aggregate space  
-
-## 2.5D / code bridge (for ML-C / FE sister)
-
-Painter-order SVG/Canvas 2.5D (web-atelier svg-master-session Round 4; `canvas-25d-content-hero`) is **render geometry** that can *illustrate* pictorial cues (occlusion, relative scale, parallax) — it does **not** replace Alberti/Panofsky argument slides. Use course SVGs with edge-clean labels as full graphic slides; reserve true Rive-3D / WebGL when the claim is depth buffer / occlusion honesty.
 
 ## Next
 
-Cascade V2: register `docs/lessons/en/master-lectures/volume-depth-construction/` + track under `2627-ml/`.
+Cascade V3: media-accept Commons leads for ML-A · optional Rive overlays for kit.

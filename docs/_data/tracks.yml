@@ -285,3 +285,27 @@
       deck_path: 'tracks/en/uem/2627-ml/fashion-image-analysis/'
       deck_permalink: '/master-lectures/fashion-image-analysis/'
       lesson_path: 'lessons/en/master-lectures/fashion-image-analysis/'
+    - title: 'Master Lecture · Seeing volume'
+      slug: 'volume-depth-perception'
+      unit_id: ML-VD-A
+      special: true
+      lang: en
+      deck_path: 'tracks/en/uem/2627-ml/volume-depth-perception/'
+      deck_permalink: '/master-lectures/volume-depth-perception/'
+      lesson_path: 'lessons/en/master-lectures/volume-depth-perception/'
+    - title: 'Master Lecture · Constructing space'
+      slug: 'volume-depth-construction'
+      unit_id: ML-VD-B
+      special: true
+      lang: en
+      deck_path: 'tracks/en/uem/2627-ml/volume-depth-construction/'
+      deck_permalink: '/master-lectures/volume-depth-construction/'
+      lesson_path: 'lessons/en/master-lectures/volume-depth-construction/'
+    - title: 'Master Lecture · Digital & AI depth'
+      slug: 'volume-depth-digital'
+      unit_id: ML-VD-C
+      special: true
+      lang: en
+      deck_path: 'tracks/en/uem/2627-ml/volume-depth-digital/'
+      deck_permalink: '/master-lectures/volume-depth-digital/'
+      lesson_path: 'lessons/en/master-lectures/volume-depth-digital/'

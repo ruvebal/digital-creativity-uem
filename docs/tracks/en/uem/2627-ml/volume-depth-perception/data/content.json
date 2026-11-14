@@ -1,0 +1,86 @@
+---
+layout: null
+---
+{
+  "unit_label": "Master Lecture · Seeing volume",
+  "final_event_theme": "Volume Perception & Depth Representation · A",
+  "media_selection": {
+    "unit_id": "ML-VD-A",
+    "project_id": "ml",
+    "collection": "pending-review",
+    "strategy": "diagram-first",
+    "description": "PHASE-V2 ML-A: geometrical + course diagrams until V3 Commons media-accept."
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "geometrical",
+      "heading": "ML-A · Seeing volume",
+      "sentence": "Volume on a flat picture is an **inference** problem.",
+      "prompt": "Enrichment · not a CONTENIDOS row"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Ask the flat",
+      "sentence": "Which depth claim would a second view break?"
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "1 · Paradox",
+      "sentence": "One silhouette can hide ==several honest volumes==."
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "2 · Inverse problem",
+      "sentence": "Perception recovers depth the picture **underdetermines**."
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "3 · Helmholtz frame",
+      "sentence": "Unconscious inference from prior experience — orientation, not dogma."
+    },
+    {
+      "slide_id": "masterclass-4",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "4 · Gibson frame",
+      "sentence": "Ambient optic array and motion parallax as ecological cues."
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "5 · Cue table",
+      "sentence": "Occlusion · size · perspective · texture · aerial — name three.",
+      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
+      "diagram_alt": "Front, side, and top views constrain one volume; dashed mismatch marks failure.",
+      "diagram_caption": "Cues need a second view",
+      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+    },
+    {
+      "slide_id": "masterclass-6",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "6 · Studio ask",
+      "sentence": "On one fashion still, name three cues — and what **fit** they cannot prove."
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Bridge · I.5 then I.6",
+      "sentence": "Carry cue names into multi-view — leave behaviour for I.6."
+    }
+  ],
+  "schema_version": 2
+}

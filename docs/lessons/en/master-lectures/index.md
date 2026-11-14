@@ -15,6 +15,10 @@ Shared **analysis methods** used across tracks. Not official CONTENIDOS unit IDs
 | --- | --- | --- |
 | **Image morphology** | [Lesson]({{ '/lessons/en/master-lectures/image-morphology/' | relative_url }}) | [Deck]({{ '/master-lectures/image-morphology/' | relative_url }}) |
 | **Fashion image analysis** | [Lesson]({{ '/lessons/en/master-lectures/fashion-image-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/fashion-image-analysis/' | relative_url }}) |
+| **Volume Perception & Depth** (series) | Enrichment A–B–C after slim I.5 / I.6 | — |
+| ↳ A · Seeing volume | [Lesson]({{ '/lessons/en/master-lectures/volume-depth-perception/' | relative_url }}) | [Deck]({{ '/master-lectures/volume-depth-perception/' | relative_url }}) |
+| ↳ B · Constructing space | [Lesson]({{ '/lessons/en/master-lectures/volume-depth-construction/' | relative_url }}) | [Deck]({{ '/master-lectures/volume-depth-construction/' | relative_url }}) |
+| ↳ C · Digital & AI depth | [Lesson]({{ '/lessons/en/master-lectures/volume-depth-digital/' | relative_url }}) | [Deck]({{ '/master-lectures/volume-depth-digital/' | relative_url }}) |
 | **Dignity in fashion image and media** | [Guide and classroom activities]({{ '/dignity/en/' | relative_url }}) | Activity menu in the guide |
 | **Dance, cinema and fashion** (cycle) | [Index]({{ '/lessons/en/master-lectures/dance-cinema-fashion/' | relative_url }}) · [Índice (ES)]({{ '/lessons/es/master-lectures/danza-cine-moda/' | relative_url }}) | — |
 | ↳ 1/3 · What Does a Garment Do When the Body Moves? | [Lesson]({{ '/lessons/en/master-lectures/dance-cinema-fashion-body-cloth/' | relative_url }}) | [Deck]({{ '/master-lectures/dance-cinema-fashion-body-cloth/' | relative_url }}) |

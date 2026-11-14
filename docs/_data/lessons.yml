@@ -413,3 +413,45 @@
   type: master-lecture
   track: master-lectures
   unit_id: ML-DCF-3
+
+- slug: volume-depth-perception
+  title:
+    en: 'Master Lecture · Seeing volume'
+    es: 'Master Lecture · Ver el volumen'
+  path:
+    en: /lessons/en/master-lectures/volume-depth-perception/
+  file:
+    en: lessons/en/master-lectures/volume-depth-perception/index.md
+  status:
+    en: pilot
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-VD-A
+
+- slug: volume-depth-construction
+  title:
+    en: 'Master Lecture · Constructing space'
+    es: 'Master Lecture · Construir el espacio'
+  path:
+    en: /lessons/en/master-lectures/volume-depth-construction/
+  file:
+    en: lessons/en/master-lectures/volume-depth-construction/index.md
+  status:
+    en: pilot
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-VD-B
+
+- slug: volume-depth-digital
+  title:
+    en: 'Master Lecture · Digital & AI depth'
+    es: 'Master Lecture · Profundidad digital e IA'
+  path:
+    en: /lessons/en/master-lectures/volume-depth-digital/
+  file:
+    en: lessons/en/master-lectures/volume-depth-digital/index.md
+  status:
+    en: pilot
+  type: master-lecture
+  track: master-lectures
+  unit_id: ML-VD-C

@@ -734,5 +734,59 @@
       "caption_html": "<span class=\"slide-caption__title\">Regate et chapeau à plumes, advertising poster, 1895</span> · <span class=\"slide-caption__author\">Auguste Donnay</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Regate_et_chapeau_%C3%A0_plumes,_advertising_poster,_1895.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     }
+  },
+  "volume-depth-construction": {
+    "cover": {
+      "src": "/assets/images/deck-media/3fcc495e344b4a24.webp",
+      "alt": "Historical woodcut of a perspective drafting demonstration with a lute",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer perspective demonstration (lute)</span>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/c9f5e3396acefa9c.webp",
+      "alt": "Plate from Dürer Underweysung der Messung showing measurement construction",
+      "caption_html": "<span class=\"slide-caption__title\">Dürer Underweysung der Messung</span>",
+      "rights_status": "flagged"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-5e69c5149013.svg",
+      "alt": "Psychophysiological space contrasted with mathematical perspective space.",
+      "caption_html": "<span class=\"slide-caption__title\">P1 · Psycho vs mathematical space</span> · <span class=\"slide-caption__author\">Course perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "graphic-p5": {
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-708c927932cd.svg",
+      "alt": "Central vanishing-point construction diagram.",
+      "caption_html": "<span class=\"slide-caption__title\">P5 · Central vanishing point</span> · <span class=\"slide-caption__author\">Course perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-71af54a9678b.svg",
+      "alt": "Fashion multi-view diagram that still cannot prove fit.",
+      "caption_html": "<span class=\"slide-caption__title\">P6 · Multi-view is not fit proof</span> · <span class=\"slide-caption__author\">Course perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    }
+  },
+  "volume-depth-digital": {
+    "masterclass-1": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
+      "alt": "Flat panel to elevation to volume on a shared axis.",
+      "caption_html": "<span class=\"slide-caption__title\">Projection is a transform</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
+      "alt": "Polished volume beside a process trail recording a failed prediction.",
+      "caption_html": "<span class=\"slide-caption__title\">Plausible ≠ proven</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    }
+  },
+  "volume-depth-perception": {
+    "masterclass-5": {
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
+      "alt": "Front, side, and top views constrain one volume; dashed mismatch marks failure.",
+      "caption_html": "<span class=\"slide-caption__title\">Cues need a second view</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
+      "rights_status": "ok"
+    }
   }
 }

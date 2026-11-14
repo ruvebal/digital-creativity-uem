@@ -1,0 +1,129 @@
+---
+layout: null
+---
+{
+  "unit_label": "Master Lecture · Constructing space",
+  "final_event_theme": "Volume Perception & Depth Representation · B",
+  "media_selection": {
+    "unit_id": "ML-VD-B",
+    "project_id": "ml",
+    "collection": "perspective-kit",
+    "strategy": "kit-full-graphics",
+    "description": "PHASE-V2 ML-B: perspective-kit P1–P5 as full graphic slides; Dürer stills from deck-media."
+  },
+  "assets": [
+    {
+      "media_slot_id": "ML-VD-B.cover",
+      "asset_id": "wikimedia:File:Durer_Perspective.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/3fcc495e344b4a24.webp",
+      "title": "Dürer perspective demonstration (lute)",
+      "alt_text": "Historical woodcut of a perspective drafting demonstration with a lute",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Dürer · Wikimedia Commons · course deck-media",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.alberti",
+      "asset_id": "wikimedia:File:Durer_Underweysung_der_Messung.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/c9f5e3396acefa9c.webp",
+      "title": "Dürer Underweysung der Messung",
+      "alt_text": "Plate from Dürer Underweysung der Messung showing measurement construction",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Dürer · Wikimedia Commons · course deck-media",
+      "rights_status": "flagged",
+      "cropped": false
+    }
+  ],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "ML-B · Constructing space",
+      "sentence": "Perspective is a **symbolic** construction of space.",
+      "media_slot_id": "ML-VD-B.cover",
+      "prompt": "Relocated from jammed I.6"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Construction, not decoration",
+      "sentence": "Ask which law the picture plane is enforcing."
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "fallback_background_kind": "geometrical",
+      "heading": "1 · Alberti’s window",
+      "sentence": "The picture plane cuts the visual pyramid.",
+      "media_slot_id": "ML-VD-B.alberti"
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "2 · Visual pyramid",
+      "sentence": "Station point · rays · the plane that freezes them."
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "3 · Aerial depth",
+      "sentence": "Atmosphere softens far planes — orientation until Ahmes-safe."
+    },
+    {
+      "slide_id": "masterclass-4",
+      "slide_role": "masterclass",
+      "background_kind": "geometrical",
+      "heading": "4 · Symbolic form",
+      "sentence": "Perspective constructs cultural space (Panofsky 1991, 14)."
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "5 · P1 vs P5",
+      "sentence": "Psycho/math space ≠ central ==vanishing-point== law — advance once for P5.",
+      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-5e69c5149013.svg",
+      "diagram_alt": "Psychophysiological space contrasted with mathematical perspective space.",
+      "diagram_caption": "P1 · Psycho vs mathematical space",
+      "diagram_credit": "Course perspective-kit",
+      "notes": "Advance to the next graphic for P5 central VP (same idea, second full graphic)."
+    },
+    {
+      "slide_id": "graphic-p5",
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "P5 · Central VP",
+      "sentence": "One vanishing point organises the box — still not fit.",
+      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-708c927932cd.svg",
+      "diagram_alt": "Central vanishing-point construction diagram.",
+      "diagram_caption": "P5 · Central vanishing point",
+      "diagram_credit": "Course perspective-kit"
+    },
+    {
+      "slide_id": "masterclass-6",
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "6 · Multi-view ≠ fit",
+      "sentence": "Views can agree while waistband tension still lies.",
+      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-71af54a9678b.svg",
+      "diagram_alt": "Fashion multi-view diagram that still cannot prove fit.",
+      "diagram_caption": "P6 · Multi-view is not fit proof",
+      "diagram_credit": "Course perspective-kit"
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Bridge · I.6 behaviour",
+      "sentence": "Construction clear — now diagnose **drape and discrepancy**."
+    }
+  ],
+  "schema_version": 2
+}
