@@ -5,8 +5,11 @@
 **Aesthetic brief:** Bauhaus minimalism · neo-Renaissance technical drawing · one unique studio accent  
 **Diffusion:** **Website-first** (not print). Print/PDF is a twin export, never the design driver.  
 **Curriculum boundary:** **CD I** = form · volume · depth literacy. **CD II** owns true 3D / WebGL open space / avatar–scene pipelines.  
-**Hero law:** Hero headings = **pure geometrical expression** (platonic-solids). No photographic heroes; no figurative illustration in the hero band.  
-**Status:** G0 DONE · G1 IN_PROGRESS (landing platonic mark)  
+**Hero law:**  
+- **Landing (flagship):** signature **faceted brand favicon** (`favicon.svg` + Canvas 2.5D facet motion). **Never** replace with a platonic solid.  
+- **Lesson / track / lab heroes:** pure geometrical expression OK — platonic-solids as **orbitable 2.5D projections** (pointer-driven), not on the main landing.  
+- No photographic stills in any hero band.  
+**Status:** G0 DONE · G1 amended (landing = brand facets; platonic reserved off-landing)  
 **Branch:** `forge/volume-depth-graphics-g0`  
 **Date:** 2026-11-14
 
@@ -29,9 +32,9 @@ Web diffusion means we *may* use motion and real depth — but CD I must not ste
 **If the student must *feel a solid as identity/hero*, ship platonic Rive / Canvas 2.5D.**  
 **If the student must *inhabit a scene*, that is CD II — park it.**
 
-### Dare: platonic-solids — **yes**
+### Dare: platonic-solids — **yes, off the landing**
 
-The skill is forge-indexed and Bertol-gated. Heroes and landing mark default to **`FAVICON-RIVE-3D` icosahedron** (`CR=1`), frontal rest, canvas-25d handoff. That is pure geometry for the heading band — exactly this brief. Teaching *cloth behaviour* stays diagram + photography, not a soft-body WebGL demo in CD I.
+The skill is forge-indexed and Bertol-gated. Use **`FAVICON-RIVE-3D` / projected Canvas 2.5D** for lesson/track/lab heroes and Volume labs — orbitable pointer response, frontal rest, SVG twin. **Landing stays the signature faceted brand mark.** Teaching *cloth behaviour* stays diagram + photography, not a soft-body WebGL demo in CD I.
 
 ### Rive vs WebGL in this series
 
@@ -177,8 +180,8 @@ Early `dc-i6-*-20261020-r1` duplicates superseded by hashed Nov builds; unused t
 | Wave | Deliverable | Skills | Gate |
 | --- | --- | --- | --- |
 | **G0** | This commission + palette tokens in `docs/assets/css` + skill upgrades (§5) | — | Doc + CSS tokens landed |
-| **G1** | Landing: bigger platonic mark (atelier clamps) + canvas-25d / Rive hero; pure geometry only | platonic-solids, canvas-25d, rive-animascript | Mark≥atelier scale; reduced-motion SVG twin; no photo in hero |
-| **G2** | Lesson/track heroes (I.5, I.6, ML-A/B/C): pure geometrical expression | platonic + canvas-25d (± fractal field) | Heading band = solid + type; FEI composition, no figurative art |
+| **G1** | Landing: **brand faceted favicon** at atelier mark scale + canvas-25d facets | canvas-25d (existing favicon paths) | Signature mark restored; mark≥atelier scale; facet invert works |
+| **G2** | Lesson/track heroes (I.5, I.6, ML-A/B/C): orbitable platonic 2.5D | platonic-solids + canvas-25d | Heading = solid + type; **not** the landing mark; pointer orbit |
 | **G3** | Reforge I.5 + I.6 core diagram set (7 plates) | visual-forger (± TikZ) | Side-by-side with old; student HTML swapped |
 | **G4** | ML-A invent cue suite (5 plates) + bind empty MC | visual-forger | ML-A deck 0 geometrical masterclass |
 | **G5** | ML-B perspective-kit reforge P1–P6 + Alberti/Dürer overlays | visual-forger, TikZ, optional Rive | Kit index updated; Commons stills retained |

@@ -12,12 +12,12 @@ lang: en
 		<span
 			id="favicon-hero-icon"
 			class="favicon-canvas-25d landing-hero__mark"
-			data-favicon-src="{{ '/assets/icons/platonic-favicon-rive-3d.svg' | relative_url }}?v=20261114-g1-platonic">
+			data-favicon-src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261114-g1-facets">
 			<img
-				src="{{ '/assets/icons/platonic-favicon-rive-3d.svg' | relative_url }}?v=20261114-g1-platonic"
+				src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261114-g1-facets"
 				alt=""
-				width="512"
-				height="512"
+				width="1024"
+				height="920"
 				decoding="async"
 				aria-hidden="true" />
 		</span>
@@ -38,7 +38,7 @@ lang: en
 </section>
 
 <script type="module">
-	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261114-g1-platonic';
+	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261114-g1-facets';
 	mountFaviconCanvas(document.getElementById('favicon-hero-icon')).catch((error) => {
 		console.warn('[favicon-canvas-25d] Static SVG fallback retained.', error);
 	});
