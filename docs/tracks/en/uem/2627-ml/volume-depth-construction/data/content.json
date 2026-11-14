@@ -49,6 +49,25 @@ layout: null
       "eu_term_reason": "Author died 1528; public domain in the EU",
       "rights_status": "flagged",
       "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.masterclass-2",
+      "asset_id": "wikimedia:File:Della Pittura Alberti perspective vanishing point.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/8b9edff7f4ed9386.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Della_Pittura_Alberti_perspective_vanishing_point.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Della_Pittura_Alberti_perspective_vanishing_point.jpg",
+      "title": "Della Pittura Alberti perspective vanishing point",
+      "alt_text": "Perspective construction plate from Alberti Della pittura showing vanishing-point geometry",
+      "author": "Leon Battista Alberti",
+      "licence": "PD-old-100",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Leon Battista Alberti · Wikimedia Commons",
+      "author_death_year": 1472,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1472; public domain in the EU",
+      "rights_status": "flagged",
+      "cropped": false
     }
   ],
   "slides": [
@@ -83,9 +102,11 @@ layout: null
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "geometrical",
+      "background_kind": "curated",
       "heading": "2 · Visual pyramid",
-      "sentence": "Station point · rays · the plane that freezes them."
+      "sentence": "Station point · rays · the plane that freezes them.",
+      "asset_id": "wikimedia:File:Della Pittura Alberti perspective vanishing point.jpg",
+      "media_slot_id": "ML-VD-B.masterclass-2"
     },
     {
       "slide_id": "masterclass-3",

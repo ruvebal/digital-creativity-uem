@@ -29,4 +29,4 @@
 | V1 · Slim I.5 | **DONE** (see `PHASE-V1-REPORT.md`) |
 | V2 · ML-A/B/C student surfaces | **DONE** (see `PHASE-V2-REPORT.md`) |
 | V3 · Media-accept Commons leads | **DONE** (4/4 ML-A + Dürer ML-B URLs — see `PHASE-V3-REPORT.md`) |
-| V4 · Verification gates | **PARTIAL** (cascade surface green; whole-repo I.7/neoplastic/platonic remain — see `PHASE-V4-REPORT.md` + `PHASE-V4-COLD-REVIEW.md`) |
+| V4 · Verification gates | **DONE** (publication/citations exit 0; Alberti on ML-B; full rehydrate safe — see `PHASE-V4-REPORT.md` + `PHASE-V4-COLD-REVIEW.md`) |

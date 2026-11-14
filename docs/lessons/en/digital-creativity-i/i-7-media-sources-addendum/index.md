@@ -127,7 +127,7 @@ Rights statements differ item by item. A platform homepage is **not** a clearanc
   <strong>Fashion and Race Database</strong> — same rule: one figure, many links.
   Canonical figure: <a href="{{ '/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-frd-platform-page' | relative_url }}">I.7 · figure-frd-platform-page</a>
   · live site: <a href="https://fashionandrace.org/database/" target="_blank" rel="noopener">fashionandrace.org/database</a>
-  · scholarly nail: Rodriguez Schon and Valle-Noronha on the parent lesson.
+  · scholarly nail: [(Rodriguez Schon and Valle-Noronha 2025)](#ref-rodriguez-schon-2025) on the parent lesson.
 </p>
 
 ### Extended set (also used in this course / studio)
@@ -251,4 +251,13 @@ PROVENANCE_LINE: claim=I.7add.claim.instructor-source-map; status=OPERATIONAL; s
 
 ## AI-assisted authorship
 
-Vault count for this page: 0 new Ahmes cites (operational map + course diagrams). Forge date: 2026-11-11. Harness: studio agent under `lesson-scribe` / curriculum-forger discipline. See the course [AI declaration]({{ '/ai-declaration/' | relative_url }}).
+This lesson was drafted with AI assistance under the author’s editorial control.
+
+AI-assisted authorship declaration: [read the full disclosure]({{ '/ai-declaration/' | relative_url }}).
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: i7-addendum-en-2026-11-11
+     vault_refs_consulted: 0
+     forge_date: 2026-11-11 · harness: I.7 media-sources addendum
+-->
+{% endif %}

@@ -21,6 +21,12 @@
  * Env:
  *   PROFIELD_MEDIA_ROOT   default <home>/src/profield/runs/media-prospector
  *   DECK_ROOTS            comma-separated (default: 2627-dci,2627-ml,2627-nm)
+ *
+ * Orphan safety: a bound still survives a full (unscoped) rehydrate when
+ * (1) review-state has status accepted + project_id/unit_id assignment, and
+ * (2) source_file_url is a live https download (not a local-only path).
+ * DECK_ROOTS scoping is optional narrowing — not required once those two hold.
+ * Merge prefers an existing https URL on the committed asset over empty catalog fields.
  */
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, unlinkSync, writeFileSync } from 'node:fs';
@@ -246,6 +252,19 @@ function assetUrlFallback(record) {
   return record.asset_url || '';
 }
 
+/** Prefer committed https download URLs so catalog blanks cannot orphan a still. */
+function mergeAssetRecord(committed, catalogued, registered, assetId) {
+  const c = committed || {};
+  const cat = catalogued || {};
+  const reg = registered || {};
+  const merged = { ...c, ...cat, ...reg, asset_id: assetId };
+  const https = [c.source_file_url, cat.source_file_url, reg.source_file_url, c.asset_url, cat.asset_url, reg.asset_url]
+    .map((u) => stripUtm(u || ''))
+    .find((u) => /^https?:\/\//i.test(u));
+  if (https) merged.source_file_url = https;
+  return merged;
+}
+
 const deckFiles = deckRoots.flatMap((dir) => filesUnder(dir, (name, path) => name === 'content.json' && /\/data\/content\.json$/.test(path)));
 
 async function rehydrateDeck(path) {
@@ -272,7 +291,7 @@ async function rehydrateDeck(path) {
       console.warn(`  ${unit}/${slide.slide_id}: ${assetId} not accepted for ${project}/${unit}`);
       continue;
     }
-    const record = { ...(committed.get(assetId) || {}), ...(catalog.get(assetId) || {}), ...(registry.get(assetId) || {}), asset_id: assetId };
+    const record = mergeAssetRecord(committed.get(assetId), catalog.get(assetId), registry.get(assetId), assetId);
     const verdict = rightsVerdict(record);
     if (!registry.get(assetId)?.raw_title) {
       verdict.ok = false;

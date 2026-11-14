@@ -3078,6 +3078,10 @@
         {
           "project_id": "dc",
           "unit_id": "I.6"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
         }
       ],
       "title": "Dürer - Man Drawing a Lute.jpg",
@@ -3129,6 +3133,150 @@
       "approved_by": "ruvebal",
       "cropped": false,
       "brief": "Systematic perspective plate for I.6 masterclass-3."
+    },
+    {
+      "asset_id": "wikimedia:File:Della Pittura Alberti perspective vanishing point.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Della Pittura Alberti perspective vanishing point",
+      "raw_title": "File:Della Pittura Alberti perspective vanishing point.jpg",
+      "alt_text": "Perspective construction plate from Alberti Della pittura showing vanishing-point geometry",
+      "author": "Leon Battista Alberti",
+      "author_death_year": 1472,
+      "licence": "PD-old-100",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Della_Pittura_Alberti_perspective_vanishing_point.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Della_Pittura_Alberti_perspective_vanishing_point.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Della_Pittura_Alberti_perspective_vanishing_point.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1472; public domain in the EU",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "asset_id": "wikimedia:File:Duerer Underweysung der Messung 181.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Dürer Underweysung der Messung 181",
+      "raw_title": "File:Duerer Underweysung der Messung 181.jpg",
+      "alt_text": "Plate from Dürer Underweysung der Messung showing measurement construction",
+      "author": "Albrecht Dürer",
+      "author_death_year": 1528,
+      "licence": "PD-old-100",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_181.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Duerer_Underweysung_der_Messung_181.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Duerer_Underweysung_der_Messung_181.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; public domain in the EU",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "asset_id": "wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        }
+      ],
+      "title": "The Venetian School of Painting (1912)",
+      "raw_title": "File:The Venetian School of Painting (1912) (14597540617).jpg",
+      "alt_text": "Historical book plate from The Venetian School of Painting showing foreshortened figure volume",
+      "author": "Internet Archive Book Images",
+      "author_death_year": null,
+      "licence": "PD",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/The_Venetian_School_of_Painting_%281912%29_%2814597540617%29.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/The_Venetian_School_of_Painting_%281912%29_%2814597540617%29.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": false,
+      "eu_term_reason": "Book scan PD statement — verify before commercial reuse",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "asset_id": "wikimedia:File:Eye level and vanishing point diagram japanese.svg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        }
+      ],
+      "title": "Eye level and vanishing point diagram",
+      "raw_title": "File:Eye level and vanishing point diagram japanese.svg",
+      "alt_text": "Diagram of eye level and vanishing point in linear perspective",
+      "author": "すじにくシチュー",
+      "author_death_year": null,
+      "licence": "CC0-1.0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Eye_level_and_vanishing_point_diagram_japanese.svg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Eye_level_and_vanishing_point_diagram_japanese.svg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "asset_id": "wikimedia:File:NIH visual cliff experiment (cropped).png",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        }
+      ],
+      "title": "NIH visual cliff experiment (cropped)",
+      "raw_title": "File:NIH visual cliff experiment (cropped).png",
+      "alt_text": "Infant on a glass visual cliff apparatus used in Gibson and Walk depth-perception research",
+      "author": "Gibson and Walk (1960) via NIH / Nature Publishing Group",
+      "author_death_year": null,
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:NIH_visual_cliff_experiment_(cropped).png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/NIH_visual_cliff_experiment_%28cropped%29.png",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/NIH_visual_cliff_experiment_%28cropped%29.png",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": false,
+      "eu_term_reason": "CC BY 4.0 modern scientific figure — attribution required",
+      "rights_status": "flagged",
+      "cropped": true
+    },
+    {
+      "asset_id": "wikimedia:File:Depth cues 1.png",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        }
+      ],
+      "title": "Depth cues 1",
+      "raw_title": "File:Depth cues 1.png",
+      "alt_text": "Diagram plate of pictorial depth cues including occlusion, size, and perspective",
+      "author": "Brazzit",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Depth_cues_1.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Depth_cues_1.png",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Depth_cues_1.png",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": false,
+      "eu_term_reason": "CC-BY-SA modern diagram — attribution required",
+      "rights_status": "flagged",
+      "cropped": false
     }
   ]
 }

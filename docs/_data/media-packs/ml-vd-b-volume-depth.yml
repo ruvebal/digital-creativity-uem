@@ -1,0 +1,30 @@
+- media_slot_id: ML-VD-B.alberti.vanishing
+  media_role: still
+  asset_id: wikimedia:File:Della Pittura Alberti perspective vanishing point.jpg
+  studio_semantics:
+  - historical_context
+  - process_demonstration
+  why_this_is_here: Alberti Della pittura vanishing-point plate for ML-B construction.
+  viewing_question: Where is the vanishing point — and what cultural claim does the
+    construction make?
+  canonical_source_url: https://commons.wikimedia.org/wiki/File:Della_Pittura_Alberti_perspective_vanishing_point.jpg
+  source_file_url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Della_Pittura_Alberti_perspective_vanishing_point.jpg
+  embed: null
+  credit_block: Leon Battista Alberti — File:Della Pittura Alberti perspective vanishing
+    point.jpg — Public domain
+  accessibility:
+    captions: false
+    transcript: null
+    alt_text: Perspective construction plate from Alberti Della pittura showing vanishing-point
+      geometry
+    static_fallback: null
+  licence:
+    class: conforming_public
+    spdx: null
+  placeholder: false
+  placeholder_kind: null
+  profield_run_id: 20261113-alberti-perspective
+  review:
+    status: accepted
+    accepted_by: ruvebal@crea-comm.net
+    accepted_at: '2026-11-14T12:09:28Z'

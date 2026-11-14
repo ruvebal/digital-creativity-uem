@@ -111,7 +111,7 @@ Las declaraciones de derechos cambian ítem a ítem. Una página de inicio **no*
 
 <figure class="lesson-figure" id="figure-frd-recall" markdown="0">
 <img src="{{ '/assets/images/lesson-figures/i6-i7/frd-platform-98359d8ac771162f.jpg' | relative_url }}" width="1204" height="1600" alt="Captura de inicio de la Fashion and Race Database reutilizada como ayuda de navegación." loading="lazy" decoding="async" />
-<figcaption><strong>Fashion and Race Database.</strong> Vía no eurocéntrica documentada en I.7 vía Rodriguez Schon y Valle-Noronha. <a href="https://fashionandrace.org/database/" target="_blank" rel="noopener">fashionandrace.org/database</a>.</figcaption>
+<figcaption><strong>Fashion and Race Database.</strong> Vía no eurocéntrica documentada en I.7 vía <a class="citation-link" href="#ref-rodriguez-schon-2025">(Rodriguez Schon y Valle-Noronha 2025)</a>. <a href="https://fashionandrace.org/database/" target="_blank" rel="noopener">fashionandrace.org/database</a>.</figcaption>
 </figure>
 
 ### Conjunto ampliado (también usado en esta asignatura / estudio)
@@ -234,4 +234,13 @@ MEDIA_RIGHTS_LINE: slots=provenance-taxonomy,hybrid-remix-paths,bne-platform,nyp
 
 ## Autoría asistida por IA
 
-Conteo de vaults para esta página: 0 citas Ahmes nuevas (mapa operativo + diagramas de asignatura). Fecha de forge: 2026-11-11. Harness: agente de estudio bajo disciplina `lesson-scribe` / curriculum-forger. Ver la [declaración de IA]({{ '/ai-declaration/' | relative_url }}) del curso.
+Esta lección se redactó con asistencia de IA bajo control editorial del autor.
+
+Declaración de autoría asistida por IA: [leer la divulgación completa]({{ '/ai-declaration/' | relative_url }}).
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: i7-addendum-es-2026-11-11
+     vault_refs_consulted: 0
+     forge_date: 2026-11-11 · harness: I.7 media-sources addendum
+-->
+{% endif %}

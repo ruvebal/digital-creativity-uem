@@ -1,5 +1,5 @@
 neoplasticizer 1.0.0
-source: ~/src/.cursor/skills/neoplasticizer (studio skill; edit there, then re-sync)
+source: neoplasticizer skill (synced studio copy; edit upstream skill, then re-sync)
 sha256:
 adc10284161a650920f2ea993ece32fcdf768dee9dde7611f4cf585d1e9b7ef1  neoplastic-field.js
 280816b7cee9914743f20769d69c01bca5ab095ec261b786344baa7fd53604b2  neoplastic-grid.js
