@@ -17,10 +17,12 @@
 			{% if archive_cover and page.layout == 'default' %}
 				{% unless page.content contains 'hero-section' %}
 			<section class="hero-section hero-section--archive hero-section--title-only" aria-labelledby="page-hero-title">
+				<div class="hero-section__inner hero-foreground-plane">
 				<h1 id="page-hero-title" class="hero-section__title">{{ page.title | escape }}</h1>
 				{% if page.description %}
 				<p class="hero-section__lede">{{ page.description | escape }}</p>
 				{% endif %}
+				</div>
 			</section>
 				{% endunless %}
 			{% endif %}
@@ -29,6 +31,7 @@
 			{{ content }}
 		</main>
 		{% include archive-hero-live.html %}
+		{% include svg-plane-25d-boot.html %}
 		{% include footer.html %}
 	</body>
 </html>

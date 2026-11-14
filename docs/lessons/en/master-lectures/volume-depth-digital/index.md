@@ -9,7 +9,6 @@ lang: en
 permalink: /lessons/en/master-lectures/volume-depth-digital/
 description: 'Enrichment lecture: projection as Alberti-in-algebra, 2.5D honesty vs depth buffers, and AI plausibility — then bridge back to I.6 behaviour.'
 status: pilot
-enable_page_art: false
 tags: [master-lecture, volume-depth, projection, 2.5d, ai]
 deck_url: /master-lectures/volume-depth-digital/
 master_idea: 'A convincing depth image can still be a painter-order lie — ask which engine produced the occlusion'
@@ -52,7 +51,7 @@ Pairs with the FE sister lesson on SVG / Canvas **2.5D** (painter-order projecti
 5. **Bridge to I.6** — classify the engine, then run a fit/drape test.
 
 <figure class="lesson-figure" id="figure-render-honesty" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Polished volume beside a process trail that records a failed prediction and its test." loading="lazy" decoding="async" />
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-g3-cb92695f22e8.svg' | relative_url }}" width="1600" height="900" alt="Polished volume beside a process trail that records a failed prediction and its test." loading="lazy" decoding="async" />
 <figcaption><strong>Plausible ≠ proven.</strong> Same honesty law as I.5 render evidence — now applied to engines. Course diagram · visual-forger.</figcaption>
 </figure>
 

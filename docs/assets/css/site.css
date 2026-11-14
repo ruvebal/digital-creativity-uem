@@ -199,11 +199,13 @@ img.footer-logo {
 
 .page-art {
 	--page-art-corner: clamp(1.25rem, 5vw, 5.5rem);
+	position: relative;
 	display: grid;
 	margin: 0;
-	height: clamp(8rem, 18vw, 16rem);
+	/* G2 · lesson heading band — taller presence; transparent so facets float */
+	height: clamp(10rem, 22vw, 20rem);
 	overflow: hidden;
-	background: #050816;
+	background: transparent;
 	clip-path: polygon(
 		0 0,
 		100% 0,
@@ -299,7 +301,7 @@ img.footer-logo {
 
 @media (max-width: 640px) {
 	.page-art {
-		height: clamp(6.5rem, 28vw, 10rem);
+		height: clamp(8rem, 32vw, 12rem);
 	}
 }
 
@@ -3479,8 +3481,11 @@ html.dark .lesson-media-slot__body,
 }
 
 /* Volume diagnostics (I.6): host SVG via <object> so in-SVG .orb-volume
-   animation runs on the represented solids — never spin the outer frame. */
-.lesson-figure--orb {
+   animation runs on the represented solids — never spin the outer frame.
+   G2: Canvas 2.5D plane mounts on the same host (verbatim SVG + parallax). */
+.lesson-figure--orb,
+[data-svg-plane-25d] {
+  position: relative;
   max-width: min(100%, 48rem);
 }
 .lesson-figure--orb object,
@@ -3490,7 +3495,94 @@ html.dark .lesson-media-slot__body,
   height: auto;
   aspect-ratio: 16 / 9;
   border-radius: 0.35rem;
-  background: #121018;
+  background: transparent;
+}
+.svg-plane-25d__surface {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  touch-action: none;
+  background: transparent;
+}
+.lesson-figure--orb {
+  background: transparent;
+}
+.lesson-figure--orb .svg-plane-25d__surface {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  aspect-ratio: auto;
+  border-radius: 0.35rem;
+  background: transparent;
+}
+.lesson-figure--orb.is-svg-plane-ready {
+  aspect-ratio: 16 / 9;
+  background: transparent;
+}
+.lesson-figure--orb.is-svg-plane-ready > img,
+.lesson-figure--orb.is-svg-plane-ready > object {
+  opacity: 0;
+  pointer-events: none;
+}
+.page-art {
+  background: transparent;
+}
+.page-art .svg-plane-25d__surface {
+  grid-area: 1 / 1;
+  z-index: 0;
+  background: transparent;
+}
+.page-art.is-svg-plane-ready {
+  background: transparent;
+}
+.page-art.is-svg-plane-ready > img {
+  opacity: 0;
+}
+.page-art.is-svg-plane-ready::after {
+  /* keep readability veil only; no opaque plate */
+  background:
+    linear-gradient(90deg, rgb(5 8 22 / 0.12), transparent 35%, rgb(5 8 22 / 0.1)),
+    linear-gradient(0deg, rgb(5 8 22 / 0.42), transparent 44%);
+}
+
+/* G2 · orbitable platonic mark in lesson heading (never landing brand) */
+.platonic-hero-mark {
+  --platonic-mark-size: clamp(5.5rem, 16vmin, 9.5rem);
+  position: relative;
+  display: block;
+  inline-size: var(--platonic-mark-size);
+  block-size: var(--platonic-mark-size);
+  margin: 0 auto clamp(0.75rem, 2vw, 1.25rem);
+  background: transparent;
+}
+.platonic-hero-mark img,
+.platonic-hero-mark .svg-plane-25d__surface {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.platonic-hero-mark.is-svg-plane-ready > img {
+  opacity: 0;
+}
+.lesson-platonic-hero {
+  display: grid;
+  justify-items: center;
+  margin: 0 0 1rem;
+  padding: clamp(0.75rem, 2vw, 1.25rem) 0 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .svg-plane-25d__surface {
+    display: none !important;
+  }
+  .lesson-figure--orb.is-svg-plane-ready > img,
+  .lesson-figure--orb.is-svg-plane-ready > object,
+  .page-art.is-svg-plane-ready > img,
+  .platonic-hero-mark.is-svg-plane-ready > img {
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 
 

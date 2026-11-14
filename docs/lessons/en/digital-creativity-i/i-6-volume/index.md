@@ -9,7 +9,6 @@ lang: en
 permalink: /lessons/en/digital-creativity-i/i-6-volume/
 description: 'Volume is behaviour — fit, drape, material response, and movement — diagnosed across views, not a mesh that merely looks three-dimensional.'
 status: pilot
-enable_page_art: false
 tags: [digital-creativity-i, volume, material-study, spatial-representation, fashion-image, fit]
 deck_url: /tracks/dci/i-6-volume/
 master_idea: 'Volume is behaviour: fit, drape, material response, and movement'
@@ -72,8 +71,8 @@ Start with cloth that occupies space — not a polished garment render. Volume h
 **Debate prompt:** If a digital silhouette matches the physical outline but the waistband tension does not, which representation is “right” for learning volume — the matching outline, the mismatched tension, or the pair kept together?
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-material-memory" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg' | relative_url }}" width="1600" height="900" aria-label="Left: a supported cloth volume with readable ridges and valleys. Right: the same topology as a digital mesh whose dashed outer hull marks a mismatch to keep and test.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg' | relative_url }}" width="1600" height="900" alt="Left: a supported cloth volume with readable ridges and valleys. Right: the same topology as a digital mesh whose dashed outer hull marks a mismatch to keep and test." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-g3-ef1f22a10258.svg' | relative_url }}" width="1600" height="900" aria-label="Left: a supported cloth volume with readable ridges and valleys. Right: the same topology as a digital mesh whose dashed outer hull marks a mismatch to keep and test.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-g3-ef1f22a10258.svg' | relative_url }}" width="1600" height="900" alt="Left: a supported cloth volume with readable ridges and valleys. Right: the same topology as a digital mesh whose dashed outer hull marks a mismatch to keep and test." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>Physical fold · digital mesh.</strong> Same cloth topology, two evidences: ridge/valley/support on the left; a flatter mesh on the right. The dashed hull is the mismatch to keep — do not smooth it away. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
@@ -113,8 +112,8 @@ Treat these as inspectable variables, not software menus: **drape · tension · 
 Front, side, and three-quarter views answer different questions about the same volume — outline, depth, fold direction, or contact with a support. Keep them aligned and state what each contributes. (Systematic perspective history belongs in the enrichment construction deck, not as a fit proof here.)
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-support-and-drape" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg' | relative_url }}" width="1600" height="900" aria-label="A material span between two supports shows a stable contour and a deeper fall under load.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A material span between two supports shows a stable contour and a deeper fall under load." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-g3-2392399d311b.svg' | relative_url }}" width="1600" height="900" aria-label="A material span between two supports shows a stable contour and a deeper fall under load.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-g3-2392399d311b.svg' | relative_url }}" width="1600" height="900" alt="A material span between two supports shows a stable contour and a deeper fall under load." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>Gravity curves the material.</strong> The same material span is drawn between two supports. The two contours make the role of gravity and the point of suspension visible. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
@@ -126,15 +125,15 @@ A hybrid denim teaching case reports that silhouette and proportions can align c
 Choose one mismatch — an unsupported fold, an implausible tension line, or a changed silhouette. Adjust one variable, keep the first pass, and record why the change improves the representation.
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-evidence-pair" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg' | relative_url }}" width="1600" height="900" aria-label="Three stages of one cloth volume: material source, flatter simulation, and a single marked local correction on a shared timeline.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg' | relative_url }}" width="1600" height="900" alt="Three stages of one cloth volume: material source, flatter simulation, and a single marked local correction on a shared timeline." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-g3-fe27d00d4a3c.svg' | relative_url }}" width="1600" height="900" aria-label="Three stages of one cloth volume: material source, flatter simulation, and a single marked local correction on a shared timeline.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-g3-fe27d00d4a3c.svg' | relative_url }}" width="1600" height="900" alt="Three stages of one cloth volume: material source, flatter simulation, and a single marked local correction on a shared timeline." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>Source → simulation → one correction.</strong> Keep the three stages together so the change is inspectable. The coral pin marks the single variable you revised — not a wholesale remesh. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-simulation-break" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg' | relative_url }}" width="1600" height="900" aria-label="Left: cloth hangs and ends at two supports. Right: a virtual contour continues past the support; a marked break shows the discrepancy to test.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg' | relative_url }}" width="1600" height="900" alt="Left: cloth hangs and ends at two supports. Right: a virtual contour continues past the support; a marked break shows the discrepancy to test." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-g3-adacde2d39d5.svg' | relative_url }}" width="1600" height="900" aria-label="Left: cloth hangs and ends at two supports. Right: a virtual contour continues past the support; a marked break shows the discrepancy to test.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-g3-adacde2d39d5.svg' | relative_url }}" width="1600" height="900" alt="Left: cloth hangs and ends at two supports. Right: a virtual contour continues past the support; a marked break shows the discrepancy to test." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>Hold the support · test the contour.</strong> Material ends at the posts; the virtual line keeps going. Name that break before you revise — freeze support/gravity, change one contour variable. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>

@@ -1,6 +1,11 @@
-{% if page.enable_page_art == true and page.hide_site_hero != true %}
+{% comment %}
+  G2: show page-art whenever the registry has an entry for this URL,
+  unless the lesson explicitly sets enable_page_art: false.
+{% endcomment %}
+{% if page.enable_page_art != false and page.hide_site_hero != true %}
   {% assign page_art_entry = site.data.page_art[page.url] %}
   {% if page_art_entry %}
     {% include page-art.html %}
   {% endif %}
+  {% include platonic-lesson-hero.html %}
 {% endif %}

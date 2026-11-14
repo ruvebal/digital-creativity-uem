@@ -9,7 +9,7 @@
 - **Landing (flagship):** signature **faceted brand favicon** (`favicon.svg` + Canvas 2.5D facet motion). **Never** replace with a platonic solid.  
 - **Lesson / track / lab heroes:** pure geometrical expression OK — platonic-solids as **orbitable 2.5D projections** (pointer-driven), not on the main landing.  
 - No photographic stills in any hero band.  
-**Status:** G0 DONE · G1 amended (landing = brand facets; platonic reserved off-landing)  
+**Status:** G0 DONE · G1 DONE · **G2 DONE** (per-element Path2D facets + z-index; transparent canvas; platonic orbitable lesson mark off-landing) · **G3 WAVE-1 DONE** (7 live I.5/I.6 plates: backdrop stripped, cards unrounded, new `*-g3-*.svg` hashes; see `G3-PLATE-REFORGE-RECEIPT.md`). **G3 WAVE-2 pending:** full Bauhaus×neo-Renaissance ink redesign. G4–G7 not started.  
 **Branch:** `forge/volume-depth-graphics-g0`  
 **Date:** 2026-11-14
 

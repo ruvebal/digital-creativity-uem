@@ -9,7 +9,6 @@ lang: es
 permalink: /lessons/es/creacion-digital-i/i-6-volumen/
 description: 'El volumen es comportamiento — ajuste, caída, respuesta del material y movimiento — diagnosticado entre vistas, no una malla que solo parece tridimensional.'
 status: pilot
-enable_page_art: false
 tags: [digital-creativity-i, volume, material-study, spatial-representation, fashion-image, fit]
 deck_url: /tracks/dci/i-6-volumen/
 master_idea: 'El volumen es comportamiento: ajuste, caída, respuesta del material y movimiento'
@@ -73,8 +72,8 @@ Empieza con tela que ocupa espacio — no un render de prenda pulido. El volumen
 **Debate:** Si la silueta digital coincide con el contorno físico pero la tensión del cinturón no, ¿qué representación es «correcta» para aprender volumen — el contorno coincidente, la tensión desajustada, o el par mantenido junto?
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-material-memory" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg' | relative_url }}" width="1600" height="900" aria-label="Izquierda: un volumen de tela apoyado con crestas y valles legibles. Derecha: la misma topología como malla digital cuyo contorno discontinuo marca un desajuste a conservar y probar.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg' | relative_url }}" width="1600" height="900" alt="Izquierda: un volumen de tela apoyado con crestas y valles legibles. Derecha: la misma topología como malla digital cuyo contorno discontinuo marca un desajuste a conservar y probar." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-g3-ef1f22a10258.svg' | relative_url }}" width="1600" height="900" aria-label="Izquierda: un volumen de tela apoyado con crestas y valles legibles. Derecha: la misma topología como malla digital cuyo contorno discontinuo marca un desajuste a conservar y probar.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-g3-ef1f22a10258.svg' | relative_url }}" width="1600" height="900" alt="Izquierda: un volumen de tela apoyado con crestas y valles legibles. Derecha: la misma topología como malla digital cuyo contorno discontinuo marca un desajuste a conservar y probar." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>Pliegue físico · malla digital.</strong> Misma topología de tela, dos evidencias. El contorno discontinuo es el desajuste a conservar — no lo suavices. Ilustración original · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
@@ -114,8 +113,8 @@ Trátalas como variables inspeccionables, no como menús de software: **caída �
 Frontal, lateral y tres cuartos responden preguntas distintas sobre el mismo volumen — contorno, profundidad, dirección del pliegue o contacto con un apoyo. Manténlas alineadas y di qué aporta cada una. (La historia sistemática de la perspectiva pertenece a la presentación de enriquecimiento de construcción, no como prueba de ajuste aquí.)
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-support-and-drape" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg' | relative_url }}" width="1600" height="900" aria-label="Un tramo de material entre dos apoyos muestra un contorno estable y una caída más profunda bajo carga.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un tramo de material entre dos apoyos muestra un contorno estable y una caída más profunda bajo carga." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-g3-2392399d311b.svg' | relative_url }}" width="1600" height="900" aria-label="Un tramo de material entre dos apoyos muestra un contorno estable y una caída más profunda bajo carga.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-g3-2392399d311b.svg' | relative_url }}" width="1600" height="900" alt="Un tramo de material entre dos apoyos muestra un contorno estable y una caída más profunda bajo carga." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>La gravedad curva el material.</strong> El mismo tramo se dibuja entre dos apoyos. Los dos contornos hacen visibles el papel de la gravedad y el punto de suspensión. Ilustración original · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
@@ -127,15 +126,15 @@ Un caso docente híbrido de denim informa que silueta y proporciones pueden alin
 Elige un desajuste — un pliegue sin apoyo, una línea de tensión inverosímil o una silueta cambiada. Ajusta una variable, conserva el primer pase y registra por qué el cambio mejora la representación.
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-evidence-pair" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg' | relative_url }}" width="1600" height="900" aria-label="Tres etapas de un volumen de tela: fuente material, simulación más plana y una corrección local marcada en una línea de tiempo compartida.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg' | relative_url }}" width="1600" height="900" alt="Tres etapas de un volumen de tela: fuente material, simulación más plana y una corrección local marcada en una línea de tiempo compartida." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-g3-fe27d00d4a3c.svg' | relative_url }}" width="1600" height="900" aria-label="Tres etapas de un volumen de tela: fuente material, simulación más plana y una corrección local marcada en una línea de tiempo compartida.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-g3-fe27d00d4a3c.svg' | relative_url }}" width="1600" height="900" alt="Tres etapas de un volumen de tela: fuente material, simulación más plana y una corrección local marcada en una línea de tiempo compartida." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>Fuente → simulación → una corrección.</strong> Mantén las tres etapas juntas. El pin coral marca la única variable revisada — no un remesh completo. Ilustración original · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
 
 <figure class="lesson-figure lesson-figure--orb" id="figure-simulation-break" markdown="0">
-<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg' | relative_url }}" width="1600" height="900" aria-label="Izquierda: la tela cuelga y termina en dos apoyos. Derecha: un contorno virtual continúa más allá del apoyo; una ruptura marcada muestra la discrepancia a probar.">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg' | relative_url }}" width="1600" height="900" alt="Izquierda: la tela cuelga y termina en dos apoyos. Derecha: un contorno virtual continúa más allá del apoyo; una ruptura marcada muestra la discrepancia a probar." loading="lazy" decoding="async" />
+<object type="image/svg+xml" data="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-g3-adacde2d39d5.svg' | relative_url }}" width="1600" height="900" aria-label="Izquierda: la tela cuelga y termina en dos apoyos. Derecha: un contorno virtual continúa más allá del apoyo; una ruptura marcada muestra la discrepancia a probar.">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-g3-adacde2d39d5.svg' | relative_url }}" width="1600" height="900" alt="Izquierda: la tela cuelga y termina en dos apoyos. Derecha: un contorno virtual continúa más allá del apoyo; una ruptura marcada muestra la discrepancia a probar." loading="lazy" decoding="async" />
 </object>
 <figcaption><strong>Congela el apoyo · prueba el contorno.</strong> El material termina en los postes; la línea virtual sigue. Nombra esa ruptura antes de revisar. Ilustración original · visual-forger · todos los derechos reservados.</figcaption>
 </figure>

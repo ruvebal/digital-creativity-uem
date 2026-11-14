@@ -9,7 +9,6 @@ lang: en
 permalink: /lessons/en/master-lectures/volume-depth-perception/
 description: 'Enrichment lecture: how the eye–brain system constructs depth and volume from flat cues — orientation vocabulary for I.5, not a fashion-HE RCT.'
 status: pilot
-enable_page_art: false
 tags: [master-lecture, volume-depth, perception, spatial-literacy]
 deck_url: /master-lectures/volume-depth-perception/
 master_idea: 'Volume on a flat picture is an inference problem, not a property of the pixels alone'
@@ -52,7 +51,7 @@ This is an **enrichment master lecture** — not a guía CONTENIDOS row. Teach a
 6. **Studio ask** — Pick one fashion still; name three cues; say what fit they cannot prove.
 
 <figure class="lesson-figure" id="figure-cue-diagram" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Front, side, and top views constrain one volume; a dashed mismatch marks a failing contour." loading="lazy" decoding="async" />
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-g3-01951557d9b3.svg' | relative_url }}" width="1600" height="900" alt="Front, side, and top views constrain one volume; a dashed mismatch marks a failing contour." loading="lazy" decoding="async" />
 <figcaption><strong>Cues need a second view.</strong> Relative size and silhouette agree until the side elevation breaks them — same literacy as I.5. Course diagram · visual-forger.</figcaption>
 </figure>
 

@@ -9,7 +9,6 @@ lang: es
 permalink: /lessons/es/creacion-digital-i/i-5-forma-tridimensional/
 description: 'La forma tridimensional como alfabetización espacial — evidencia multi-vista antes de la fluidez de software, con una secuencia 2D→3D verificada y un hueco declarado sobre comprensión validada de la forma.'
 status: pilot
-enable_page_art: false
 tags: [digital-creativity-i, 3d-form, spatial-reasoning, fashion-education]
 deck_url: /tracks/dci/i-5-three-dimensional-form/
 master_idea: 'El software 3D es un instrumento de alfabetización espacial antes que una interfaz de modelado'
@@ -75,8 +74,8 @@ Los defaults de avatar y maniquí no son neutrales. Pregunta qué hace legible t
 
 Una forma 3D empieza con una lectura 2D que otra vista puede poner a prueba. Geometría, transformaciones, superficies, iluminación y renderizado nombran las familias técnicas detrás de la representación — son vocabulario para el juicio, no un menú que hay que completar.
 
-<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un panel abstracto de prenda pasa del patrón plano a la elevación lateral y a un volumen simple; un eje compartido y marcas de proporción revelan lo que cambia entre representaciones." loading="lazy" decoding="async" />
+<figure class="lesson-figure lesson-figure--orb" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-g3-c018dbace498.svg' | relative_url }}" width="1600" height="900" alt="Un panel abstracto de prenda pasa del patrón plano a la elevación lateral y a un volumen simple; un eje compartido y marcas de proporción revelan lo que cambia entre representaciones." loading="lazy" decoding="async" />
 <figcaption><strong>De la lectura plana al volumen.</strong> Sigue el eje compartido y nombra lo que la elevación lateral debe proponer y el plano no puede mostrar. Ilustración original del curso · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
 
@@ -84,8 +83,8 @@ Una forma 3D empieza con una lectura 2D que otra vista puede poner a prueba. Geo
 
 Frente, lado y tres cuartos (o planta) deben acordar en eje, proporción y silueta — o nombrar el desajuste. Los planos y secciones hacen el volumen *comprobable*; no demuestran por sí solos ajuste o caída (eso es I.6).
 
-<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Vistas frontal, lateral y planta alinean un volumen axonométrico; un desajuste a trazos marca un contorno que la forma propuesta no explica." loading="lazy" decoding="async" />
+<figure class="lesson-figure lesson-figure--orb" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-g3-01951557d9b3.svg' | relative_url }}" width="1600" height="900" alt="Vistas frontal, lateral y planta alinean un volumen axonométrico; un desajuste a trazos marca un contorno que la forma propuesta no explica." loading="lazy" decoding="async" />
 <figcaption><strong>Los planos hacen comprobable el volumen.</strong> Traza un nivel entre frente y lado; identifica dónde el desajuste a trazos falla el volumen compartido. Ilustración original del curso · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
 
@@ -101,8 +100,8 @@ La educación en confección trata la capacidad de transformar mentalmente patro
 
 Bloquea la masa, lanza una luz, lee la silueta exterior antes del ruido de superficie. Luz-sobre-forma es alfabetización de estudio durable; la evidencia controlada de moda-HE para un pipeline bodegón → prenda sigue siendo un **hueco declarado**. Enseña el ejercicio; no inventes el RCT.
 
-<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Un volumen pulido junto a un rastro de proceso con la lectura plana, una ambigüedad de bloqueo y una vista revisada que registra su prueba." loading="lazy" decoding="async" />
+<figure class="lesson-figure lesson-figure--orb" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-g3-cb92695f22e8.svg' | relative_url }}" width="1600" height="900" alt="Un volumen pulido junto a un rastro de proceso con la lectura plana, una ambigüedad de bloqueo y una vista revisada que registra su prueba." loading="lazy" decoding="async" />
 <figcaption><strong>Un render no es comprensión.</strong> Encuentra dónde diverge la predicción y nombra la prueba que justificó la revisión. Ilustración original del curso · visual-forger · todos los derechos reservados.</figcaption>
 </figure>
 

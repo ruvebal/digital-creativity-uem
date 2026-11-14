@@ -9,7 +9,6 @@ lang: en
 permalink: /lessons/en/master-lectures/volume-depth-construction/
 description: 'Enrichment lecture: Alberti–Panofsky construction of pictorial space, with the course perspective kit as full graphic slides — relocated from jammed I.6.'
 status: pilot
-enable_page_art: false
 tags: [master-lecture, volume-depth, perspective, panofsky]
 deck_url: /master-lectures/volume-depth-construction/
 master_idea: 'Perspective is a symbolic construction of space before it is a CLO camera preset'

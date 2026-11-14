@@ -9,7 +9,6 @@ lang: en
 permalink: /lessons/en/digital-creativity-i/i-5-three-dimensional-form/
 description: 'Three-dimensional form as spatial literacy — multi-view evidence before software fluency, with a verified 2D→3D course sequence and an honest gap on validated form understanding.'
 status: pilot
-enable_page_art: false
 tags: [digital-creativity-i, 3d-form, spatial-reasoning, fashion-education]
 deck_url: /tracks/dci/i-5-three-dimensional-form/
 master_idea: '3D software is a spatial-literacy instrument before it is a modelling interface'
@@ -75,8 +74,8 @@ Avatar and mannequin defaults are not neutral. Ask what your chosen view makes l
 
 A 3D form begins with a 2D reading that another view can test. Geometry, transforms, surfaces, lighting, and rendering name the technical families behind representation — they are vocabulary for judgement, not a menu to clear.
 
-<figure class="lesson-figure" id="figure-masterclass-1" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations." loading="lazy" decoding="async" />
+<figure class="lesson-figure lesson-figure--orb" id="figure-masterclass-1" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-g3-c018dbace498.svg' | relative_url }}" width="1600" height="900" alt="One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations." loading="lazy" decoding="async" />
 <figcaption><strong>From flat reading to volume.</strong> Follow the shared axis, then name what the side elevation must propose that the flat cannot show. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
 
@@ -84,8 +83,8 @@ A 3D form begins with a 2D reading that another view can test. Geometry, transfo
 
 Front, side, and three-quarter (or top) views must agree on axis, proportion, and silhouette — or name the mismatch. Planes and sections make volume *testable*; they do not by themselves prove fit or drape (that is I.6).
 
-<figure class="lesson-figure" id="figure-masterclass-2" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain." loading="lazy" decoding="async" />
+<figure class="lesson-figure lesson-figure--orb" id="figure-masterclass-2" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-g3-01951557d9b3.svg' | relative_url }}" width="1600" height="900" alt="Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain." loading="lazy" decoding="async" />
 <figcaption><strong>Planes make volume testable.</strong> Trace one level across front and side; identify where the dashed mismatch fails the shared volume. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
 
@@ -101,8 +100,8 @@ Apparel education treats the capacity to mentally transform flat patterns and sk
 
 Block mass, cast one light, read the outer silhouette before surface noise. Light-on-form is durable studio literacy; fashion-HE controlled evidence for a still-life → garment pipeline remains a **Declared gap**. Teach the exercise; do not invent the RCT.
 
-<figure class="lesson-figure" id="figure-masterclass-3" markdown="0">
-<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg' | relative_url }}" width="1600" height="900" alt="A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test." loading="lazy" decoding="async" />
+<figure class="lesson-figure lesson-figure--orb" id="figure-masterclass-3" markdown="0">
+<img src="{{ '/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-g3-cb92695f22e8.svg' | relative_url }}" width="1600" height="900" alt="A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test." loading="lazy" decoding="async" />
 <figcaption><strong>A render is not understanding.</strong> Find where the prediction diverges, then name the test that justified the revision. Original course illustration · visual-forger · all rights reserved.</figcaption>
 </figure>
 
