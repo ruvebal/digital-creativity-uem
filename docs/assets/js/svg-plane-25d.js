@@ -287,22 +287,41 @@ export async function mountSvgPlane25d(host, options = {}) {
 		planeY: { value: 0, velocity: 0 },
 	};
 
+	const ambientFloat = options.ambientFloat === true;
+	const ambientDepth = options.ambientDepth ?? 0.32;
+	const ambientOrbitYaw = options.ambientOrbitYaw ?? 0.028;
+	const ambientOrbitPitch = options.ambientOrbitPitch ?? 0.018;
+
 	function draw() {
 		context.setTransform(dpr, 0, 0, dpr, 0, 0);
 		context.clearRect(0, 0, width, height);
 
 		const fit = Math.min(width / viewBox.width, height / viewBox.height) * (options.fitScale ?? 0.92);
+		// Ambient levitation needs a non-zero depth floor (atelier landing physics).
+		const depthFloor = ambientFloat ? ambientDepth : 0;
+		const renderCamera = {
+			...camera,
+			depth: { value: Math.max(camera.depth.value, depthFloor), velocity: camera.depth.velocity },
+			yaw: {
+				value: camera.yaw.value + (ambientFloat ? Math.sin(elapsed * 0.35) * ambientOrbitYaw : 0),
+				velocity: camera.yaw.velocity,
+			},
+			pitch: {
+				value: camera.pitch.value + (ambientFloat ? Math.cos(elapsed * 0.28) * ambientOrbitPitch : 0),
+				velocity: camera.pitch.velocity,
+			},
+		};
 		const items = facets.map((facet) => ({
 			facet,
-			projected: projectFacet(facet, viewBox, camera, elapsed, {
-				floatDepth: options.floatDepth ?? 7,
+			projected: projectFacet(facet, viewBox, renderCamera, elapsed, {
+				floatDepth: options.floatDepth ?? (ambientFloat ? 9 : 7),
 				extrusionStrength: options.extrusionStrength ?? 2.35,
 				insetX: options.insetX ?? 3.1,
 				insetY: options.insetY ?? 2.5,
 				perspectiveStrength: options.perspectiveStrength ?? 0.32,
 			}),
 		}));
-		if (camera.depth.value > 0.06) {
+		if (renderCamera.depth.value > 0.06) {
 			items.sort((a, b) => b.projected.z - a.projected.z || a.facet.index - b.facet.index);
 		}
 
@@ -374,7 +393,8 @@ export async function mountSvgPlane25d(host, options = {}) {
 		springStep(camera.planeX, target.planeX, delta, options.planeFrequency ?? 3.8, options.planeDamping ?? 1.04);
 		springStep(camera.planeY, target.planeY, delta, options.planeFrequency ?? 3.8, options.planeDamping ?? 1.04);
 		draw();
-		if (!cameraSettled()) schedule();
+		// Keep RAF alive for ambient float/orbit even when springs rest.
+		if (!cameraSettled() || ambientFloat) schedule();
 	}
 
 	function resize() {
@@ -433,7 +453,7 @@ export async function mountSvgPlane25d(host, options = {}) {
 	const visibilityObserver = new IntersectionObserver(
 		([entry]) => {
 			visible = entry.isIntersecting;
-			if (visible && !cameraSettled()) schedule();
+			if (visible && (!cameraSettled() || ambientFloat)) schedule();
 			else if (!visible) {
 				cancelAnimationFrame(frame);
 				frame = 0;
@@ -449,6 +469,7 @@ export async function mountSvgPlane25d(host, options = {}) {
 	window.addEventListener('blur', resetCamera);
 	resize();
 	draw();
+	if (ambientFloat) schedule();
 
 	return {
 		facetCount: facets.length,
@@ -486,6 +507,9 @@ export async function mountAllSvgPlanes25d(root = document) {
 				yawAmplitude: isCover ? 0.1 : 0.11,
 				pitchAmplitude: isCover ? 0.065 : 0.075,
 				extrusionStrength: isCover ? 2.6 : 2.35,
+				ambientFloat: isCover,
+				ambientDepth: isCover ? 0.34 : 0,
+				floatDepth: isCover ? 10 : 7,
 			});
 			if (mount) mounts.push(mount);
 		} catch (error) {

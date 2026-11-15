@@ -1480,6 +1480,9 @@ video {
 .fixed {
   position: fixed;
 }
+.absolute {
+  position: absolute;
+}
 .relative {
   position: relative;
 }
@@ -1550,9 +1553,6 @@ video {
 .hidden {
   display: none;
 }
-.h-24 {
-  height: 6rem;
-}
 .h-6 {
   height: 1.5rem;
 }
@@ -1561,9 +1561,6 @@ video {
 }
 .min-h-screen {
   min-height: 100vh;
-}
-.w-24 {
-  width: 6rem;
 }
 .w-6 {
   width: 1.5rem;
@@ -1706,6 +1703,11 @@ video {
 }
 .text-center {
   text-align: center;
+}
+.text-3xl {
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 .text-4xl {
   font-size: 2.5rem;
@@ -2065,10 +2067,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:text-5xl {
-    font-size: 3.25rem;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+  .md\:text-4xl {
+    font-size: 2.5rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
   }
 }
 

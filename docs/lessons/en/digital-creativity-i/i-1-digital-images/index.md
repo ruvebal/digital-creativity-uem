@@ -73,7 +73,6 @@ By the end of this unit, you will be able to:
 
 ## Analysis
 
-Analysis opens the class. Sessions 1–2 model the method; from session 3, two students × ~15 minutes each defend a D1 piece. Before you open any software, read a fashion image with four moves: **practice · venue · audience · circulation** — then ask where the art/commerce boundary sits.
 
 **Field tension — imagination ≠ creativity ≠ fantasy.** Before the tool panel opens, name the vocabulary trap: students often praise an image as “more creative” when they mean a freer *fantasy*, or call a look “imaginative” when they mean a technical *rearrangement*. Hüppauf and Wulf treat faculty of imagination, fantasy, and creativity as related but non-identical terms — imagination and fantasy can enable creativity without collapsing into it [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009). Hold that distinction beside Shinkle’s practice frame: a fashion image can be highly imaginative in Kant’s sense of “re-presenting what is absent” and still fail as a *creative* contribution to a brief. A practitioner counterpoint from music production culture insists that taste shows up in listening and curation, not in tool worship [(Rubin 2023, 123)](#ref-rubin-2023) — declared here as practitioner voice, not peer-reviewed image pedagogy.
 

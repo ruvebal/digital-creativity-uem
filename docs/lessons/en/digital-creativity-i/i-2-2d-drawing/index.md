@@ -62,7 +62,6 @@ cover-agentic:
 
 ## Analysis
 
-Analysis opens the class. Keep I.1's practice · venue · audience · circulation habit, then add one drawing axis: **line · layer · revision · export**. Ask what the silhouette needed that the tool alone cannot decide.
 
 **Field tension (carry from I.1).** When a student says a contour is “more creative,” check whether they mean freer fantasy, a sharper imaginative re-presentation of the absent garment, or a creative fit to brief — Hüppauf and Wulf keep those terms distinct [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009). Tool fluency is not taste: Rubin’s practitioner stance puts listening and curation ahead of method worship [(Rubin 2023, 123)](#ref-rubin-2023).
 

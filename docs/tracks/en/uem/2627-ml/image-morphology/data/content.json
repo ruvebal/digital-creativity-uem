@@ -13,40 +13,418 @@ layout: null
     "description": "Master lecture (transversal): each morphology slide pins its matching concept image (dot→dot, line→line, …)."
   },
   "assets": [
-    {"media_slot_id":"ML-FIA.morphology.dot","asset_id":"generated:morphology-dot","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-dot.png","title":"Morphology · dot","alt_text":"A single dot with concentric attention rings on warm paper","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Scientific-educational visual for a fashion image analysis masterclass: a single black dot on a warm off-white paper field, with subtle concentric attention rings and generous negative space, editorial art-school aesthetic, no text, no labels, no border, high contrast, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.line","asset_id":"generated:morphology-line","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-line.png","title":"Morphology · line","alt_text":"A black line moving from straight to curved across warm paper","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"One elegant black line crossing warm off-white paper, straight to curved, with visible changes in direction and force, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.plane","asset_id":"generated:morphology-plane","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-plane.png","title":"Morphology · plane","alt_text":"Layered translucent planes organising figure and ground","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Layered translucent planes in ochre, cobalt, and charcoal forming figure-ground relations on warm paper, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.form","asset_id":"generated:morphology-form","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-form.png","title":"Morphology · form","alt_text":"A geometric silhouette unfolding into a volumetric form","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Flat geometric silhouette unfolding into a volumetric form with clear light and shadow, fashion-design study, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.colour","asset_id":"generated:morphology-colour","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-colour.png","title":"Morphology · colour","alt_text":"Four colour fields contrasting hue, value, saturation, and temperature","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Relational colour study with four fields showing hue, value, saturation, and warm-cool contrast, editorial art-school aesthetic, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.morphology.composition","asset_id":"generated:morphology-composition","asset_url":"/digital-creativity-uem/assets/images/morphology/morphology-composition.png","title":"Morphology · composition","alt_text":"An asymmetrical fashion-image composition with scale, crop, rhythm, and depth","provider":"OpenAI image generation","credit_line":"Generated for the Digital Creativity morphology masterclass","license":"CC BY 4.0 · all rights reserved to author except where stated","generation":{"model":"OpenAI image generation","pipeline":"prompt-to-raster · six-study morphology set","prompt":"Balanced fashion-image composition with asymmetrical scale, crop, rhythm, and a receding perspective grid, no text, no labels, no border, landscape 16:9 composition.","runtime":"Codex imagegen","skill":"imagegen (local studio)","skill_version":"1.x"}},
-    {"media_slot_id":"ML-FIA.vf.dot","asset_id":"visual-forger:vf-dot","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-dot.svg","title":"Visual-forger · dot","alt_text":"A single dot with concentric attention rings","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.line","asset_id":"visual-forger:vf-line","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-line.svg","title":"Visual-forger · line","alt_text":"A line moving from straight to curved","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.plane","asset_id":"visual-forger:vf-plane","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-plane.svg","title":"Visual-forger · plane","alt_text":"Layered planes organising figure and ground","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.form","asset_id":"visual-forger:vf-form","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-form.svg","title":"Visual-forger · form","alt_text":"A geometric silhouette unfolding into volume","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.colour","asset_id":"visual-forger:vf-colour","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-colour.svg","title":"Visual-forger · colour","alt_text":"Four fields comparing colour relations","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.vf.composition","asset_id":"visual-forger:vf-composition","asset_url":"/digital-creativity-uem/assets/images/morphology/visual-forger/vf-composition.svg","title":"Visual-forger · composition","alt_text":"An asymmetrical composition with grid and depth","provider":"visual-forger","credit_line":"Rubén Vega Balbás · visual-forger 1.2.0","license":"CC BY 4.0 · all rights reserved to author except where stated"},
-    {"media_slot_id":"ML-FIA.i4.1","asset_id":"wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/8243faeb5945da08.jpg","title":"Dresses by Rei Kawakubo · I4 accepted","alt_text":"Dresses by Rei Kawakubo in an exhibition view","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 10","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-FIA.i4.2","asset_id":"wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/4e655e0f068fdc07.jpg","title":"Dresses by Rei Kawakubo · I4 accepted","alt_text":"Dresses by Rei Kawakubo in a second exhibition view","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 10","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-FIA.i4.3","asset_id":"wikimedia:File:Fashion Sketch Design.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg","title":"Fashion sketch design · I4 accepted","alt_text":"A fashion sketch design study","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-FIA.i4.4","asset_id":"wikimedia:File:AK ER Exhibition Poster 2014.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/37ef9f5bda8f9a93.jpg","title":"Exhibition poster · I4 accepted","alt_text":"An exhibition poster composition","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-FIA.i4.5","asset_id":"wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg","title":"Beauty advertisement · I4 accepted","alt_text":"A historical beauty advertisement","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-FIA.i4.6","asset_id":"wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/f4786040093c9e0d.jpg","title":"Drapery study · I4 accepted","alt_text":"A drapery study for a figure of Sculpture","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · I4 accepted image · rank 9","selection_rank":9,"priority":9},
-    {"media_slot_id":"ML-IM.cover.steen","asset_id":"wikimedia:File:Jan Steen - The Drawing Lesson - 83.PB.388 - J. Paul Getty Museum.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/db1b64aa813542e5.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/7/72/Jan_Steen_-_The_Drawing_Lesson_-_83.PB.388_-_J._Paul_Getty_Museum.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Jan_Steen_-_The_Drawing_Lesson_-_83.PB.388_-_J._Paul_Getty_Museum.jpg","title":"Jan Steen — The Drawing Lesson","alt_text":"Jan Steen, The Drawing Lesson, J. Paul Getty Museum","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · public domain","licence":"Public domain","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-IM.opener.takahashi","asset_id":"wikimedia:File:Jun Takahashi dress for Undercover (51492).jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/c2c1b5e1ab5b5c82.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/0/0e/Jun_Takahashi_dress_for_Undercover_%2851492%29.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Jun_Takahashi_dress_for_Undercover_(51492).jpg","title":"Jun Takahashi dress for Undercover","alt_text":"Jun Takahashi dress for Undercover","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","licence":"CC BY-SA (Commons)","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-IM.sequence.dylan-dress","asset_id":"wikimedia:File:1967 paper dress with photograph of Bob Dylan from the Poster Dress series.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/23feafacc2d66964.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/2/2b/1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg","title":"1967 paper dress with photograph of Bob Dylan","alt_text":"1967 paper dress with a photograph of Bob Dylan from the Poster Dress series","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","licence":"Commons — renewal/notice review tagged","selection_rank":10,"priority":10},
-    {"media_slot_id":"ML-IM.lab.mercade","asset_id":"wikimedia:File:(Barcelona) Benet Mercadé - Portrait of Senyora Anita with Red Dress - Museu Nacional d'Art de Catalunya.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/82a634cf9a8e964c.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/7/73/%28Barcelona%29_Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Museu_Nacional_d%27Art_de_Catalunya.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:(Barcelona)_Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Museu_Nacional_d%27Art_de_Catalunya.jpg","title":"Benet Mercadé — Portrait of Senyora Anita with Red Dress","alt_text":"Benet Mercadé, Portrait of Senyora Anita with Red Dress, Museu Nacional d'Art de Catalunya","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons · public domain","licence":"Public domain","selection_rank":10,"priority":10}
+    {
+      "media_slot_id": "ML-FIA.morphology.dot",
+      "asset_id": "generated:morphology-dot",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/morphology-dot.png",
+      "title": "Morphology · dot",
+      "alt_text": "A single dot with concentric attention rings on warm paper",
+      "provider": "OpenAI image generation",
+      "credit_line": "Generated for the Digital Creativity morphology masterclass",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated",
+      "generation": {
+        "model": "OpenAI image generation",
+        "pipeline": "prompt-to-raster · six-study morphology set",
+        "prompt": "Scientific-educational visual for a fashion image analysis masterclass: a single black dot on a warm off-white paper field, with subtle concentric attention rings and generous negative space, editorial art-school aesthetic, no text, no labels, no border, high contrast, landscape 16:9 composition.",
+        "runtime": "Codex imagegen",
+        "skill": "imagegen (local studio)",
+        "skill_version": "1.x"
+      }
+    },
+    {
+      "media_slot_id": "ML-FIA.morphology.line",
+      "asset_id": "generated:morphology-line",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/morphology-line.png",
+      "title": "Morphology · line",
+      "alt_text": "A black line moving from straight to curved across warm paper",
+      "provider": "OpenAI image generation",
+      "credit_line": "Generated for the Digital Creativity morphology masterclass",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated",
+      "generation": {
+        "model": "OpenAI image generation",
+        "pipeline": "prompt-to-raster · six-study morphology set",
+        "prompt": "One elegant black line crossing warm off-white paper, straight to curved, with visible changes in direction and force, no text, no labels, no border, landscape 16:9 composition.",
+        "runtime": "Codex imagegen",
+        "skill": "imagegen (local studio)",
+        "skill_version": "1.x"
+      }
+    },
+    {
+      "media_slot_id": "ML-FIA.morphology.plane",
+      "asset_id": "generated:morphology-plane",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/morphology-plane.png",
+      "title": "Morphology · plane",
+      "alt_text": "Layered translucent planes organising figure and ground",
+      "provider": "OpenAI image generation",
+      "credit_line": "Generated for the Digital Creativity morphology masterclass",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated",
+      "generation": {
+        "model": "OpenAI image generation",
+        "pipeline": "prompt-to-raster · six-study morphology set",
+        "prompt": "Layered translucent planes in ochre, cobalt, and charcoal forming figure-ground relations on warm paper, no text, no labels, no border, landscape 16:9 composition.",
+        "runtime": "Codex imagegen",
+        "skill": "imagegen (local studio)",
+        "skill_version": "1.x"
+      }
+    },
+    {
+      "media_slot_id": "ML-FIA.morphology.form",
+      "asset_id": "generated:morphology-form",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/morphology-form.png",
+      "title": "Morphology · form",
+      "alt_text": "A geometric silhouette unfolding into a volumetric form",
+      "provider": "OpenAI image generation",
+      "credit_line": "Generated for the Digital Creativity morphology masterclass",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated",
+      "generation": {
+        "model": "OpenAI image generation",
+        "pipeline": "prompt-to-raster · six-study morphology set",
+        "prompt": "Flat geometric silhouette unfolding into a volumetric form with clear light and shadow, fashion-design study, no text, no labels, no border, landscape 16:9 composition.",
+        "runtime": "Codex imagegen",
+        "skill": "imagegen (local studio)",
+        "skill_version": "1.x"
+      }
+    },
+    {
+      "media_slot_id": "ML-FIA.morphology.colour",
+      "asset_id": "generated:morphology-colour",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/morphology-colour.png",
+      "title": "Morphology · colour",
+      "alt_text": "Four colour fields contrasting hue, value, saturation, and temperature",
+      "provider": "OpenAI image generation",
+      "credit_line": "Generated for the Digital Creativity morphology masterclass",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated",
+      "generation": {
+        "model": "OpenAI image generation",
+        "pipeline": "prompt-to-raster · six-study morphology set",
+        "prompt": "Relational colour study with four fields showing hue, value, saturation, and warm-cool contrast, editorial art-school aesthetic, no text, no labels, no border, landscape 16:9 composition.",
+        "runtime": "Codex imagegen",
+        "skill": "imagegen (local studio)",
+        "skill_version": "1.x"
+      }
+    },
+    {
+      "media_slot_id": "ML-FIA.morphology.composition",
+      "asset_id": "generated:morphology-composition",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/morphology-composition.png",
+      "title": "Morphology · composition",
+      "alt_text": "An asymmetrical fashion-image composition with scale, crop, rhythm, and depth",
+      "provider": "OpenAI image generation",
+      "credit_line": "Generated for the Digital Creativity morphology masterclass",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated",
+      "generation": {
+        "model": "OpenAI image generation",
+        "pipeline": "prompt-to-raster · six-study morphology set",
+        "prompt": "Balanced fashion-image composition with asymmetrical scale, crop, rhythm, and a receding perspective grid, no text, no labels, no border, landscape 16:9 composition.",
+        "runtime": "Codex imagegen",
+        "skill": "imagegen (local studio)",
+        "skill_version": "1.x"
+      }
+    },
+    {
+      "media_slot_id": "ML-FIA.vf.dot",
+      "asset_id": "visual-forger:vf-dot",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/visual-forger/vf-dot.svg",
+      "title": "Visual-forger · dot",
+      "alt_text": "A single dot with concentric attention rings",
+      "provider": "visual-forger",
+      "credit_line": "Rubén Vega Balbás · visual-forger 1.2.0",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated"
+    },
+    {
+      "media_slot_id": "ML-FIA.vf.line",
+      "asset_id": "visual-forger:vf-line",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/visual-forger/vf-line.svg",
+      "title": "Visual-forger · line",
+      "alt_text": "A line moving from straight to curved",
+      "provider": "visual-forger",
+      "credit_line": "Rubén Vega Balbás · visual-forger 1.2.0",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated"
+    },
+    {
+      "media_slot_id": "ML-FIA.vf.plane",
+      "asset_id": "visual-forger:vf-plane",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/visual-forger/vf-plane.svg",
+      "title": "Visual-forger · plane",
+      "alt_text": "Layered planes organising figure and ground",
+      "provider": "visual-forger",
+      "credit_line": "Rubén Vega Balbás · visual-forger 1.2.0",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated"
+    },
+    {
+      "media_slot_id": "ML-FIA.vf.form",
+      "asset_id": "visual-forger:vf-form",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/visual-forger/vf-form.svg",
+      "title": "Visual-forger · form",
+      "alt_text": "A geometric silhouette unfolding into volume",
+      "provider": "visual-forger",
+      "credit_line": "Rubén Vega Balbás · visual-forger 1.2.0",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated"
+    },
+    {
+      "media_slot_id": "ML-FIA.vf.colour",
+      "asset_id": "visual-forger:vf-colour",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/visual-forger/vf-colour.svg",
+      "title": "Visual-forger · colour",
+      "alt_text": "Four fields comparing colour relations",
+      "provider": "visual-forger",
+      "credit_line": "Rubén Vega Balbás · visual-forger 1.2.0",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated"
+    },
+    {
+      "media_slot_id": "ML-FIA.vf.composition",
+      "asset_id": "visual-forger:vf-composition",
+      "asset_url": "/digital-creativity-uem/assets/images/morphology/visual-forger/vf-composition.svg",
+      "title": "Visual-forger · composition",
+      "alt_text": "An asymmetrical composition with grid and depth",
+      "provider": "visual-forger",
+      "credit_line": "Rubén Vega Balbás · visual-forger 1.2.0",
+      "license": "CC BY 4.0 · all rights reserved to author except where stated"
+    },
+    {
+      "media_slot_id": "ML-FIA.i4.1",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/8243faeb5945da08.jpg",
+      "title": "Dresses by Rei Kawakubo · I4 accepted",
+      "alt_text": "Dresses by Rei Kawakubo in an exhibition view",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · I4 accepted image · rank 10",
+      "selection_rank": 10,
+      "priority": 10
+    },
+    {
+      "media_slot_id": "ML-FIA.i4.2",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 03.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/4e655e0f068fdc07.jpg",
+      "title": "Dresses by Rei Kawakubo · I4 accepted",
+      "alt_text": "Dresses by Rei Kawakubo in a second exhibition view",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · I4 accepted image · rank 10",
+      "selection_rank": 10,
+      "priority": 10
+    },
+    {
+      "media_slot_id": "ML-FIA.i4.3",
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg",
+      "title": "Fashion sketch design · I4 accepted",
+      "alt_text": "A fashion sketch design study",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · I4 accepted image · rank 9",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "media_slot_id": "ML-FIA.i4.4",
+      "asset_id": "wikimedia:File:AK ER Exhibition Poster 2014.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/37ef9f5bda8f9a93.jpg",
+      "title": "Exhibition poster · I4 accepted",
+      "alt_text": "An exhibition poster composition",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · I4 accepted image · rank 9",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "media_slot_id": "ML-FIA.i4.5",
+      "asset_id": "wikimedia:File:Dorothy Lamour - Woodbury Complete Beauty Cream, 1945.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/50123c6eb70f0276.jpg",
+      "title": "Beauty advertisement · I4 accepted",
+      "alt_text": "A historical beauty advertisement",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · I4 accepted image · rank 9",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "media_slot_id": "ML-FIA.i4.6",
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f4786040093c9e0d.jpg",
+      "title": "Drapery study · I4 accepted",
+      "alt_text": "A drapery study for a figure of Sculpture",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · I4 accepted image · rank 9",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "media_slot_id": "ML-IM.cover.steen",
+      "asset_id": "wikimedia:File:Jan Steen - The Drawing Lesson - 83.PB.388 - J. Paul Getty Museum.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/db1b64aa813542e5.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Jan_Steen_-_The_Drawing_Lesson_-_83.PB.388_-_J._Paul_Getty_Museum.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Jan_Steen_-_The_Drawing_Lesson_-_83.PB.388_-_J._Paul_Getty_Museum.jpg",
+      "title": "Jan Steen — The Drawing Lesson",
+      "alt_text": "Jan Steen, The Drawing Lesson, J. Paul Getty Museum",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · public domain",
+      "licence": "Public domain",
+      "selection_rank": 10,
+      "priority": 10
+    },
+    {
+      "media_slot_id": "ML-IM.opener.takahashi",
+      "asset_id": "wikimedia:File:Jun Takahashi dress for Undercover (51492).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c2c1b5e1ab5b5c82.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Jun_Takahashi_dress_for_Undercover_%2851492%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Jun_Takahashi_dress_for_Undercover_(51492).jpg",
+      "title": "Jun Takahashi dress for Undercover",
+      "alt_text": "Jun Takahashi dress for Undercover",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "CC BY-SA (Commons)",
+      "selection_rank": 10,
+      "priority": 10
+    },
+    {
+      "media_slot_id": "ML-IM.sequence.dylan-dress",
+      "asset_id": "wikimedia:File:1967 paper dress with photograph of Bob Dylan from the Poster Dress series.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/23feafacc2d66964.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg",
+      "title": "1967 paper dress with photograph of Bob Dylan",
+      "alt_text": "1967 paper dress with a photograph of Bob Dylan from the Poster Dress series",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "Commons — renewal/notice review tagged",
+      "selection_rank": 10,
+      "priority": 10
+    },
+    {
+      "media_slot_id": "ML-IM.lab.mercade",
+      "asset_id": "wikimedia:File:(Barcelona) Benet Mercadé - Portrait of Senyora Anita with Red Dress - Museu Nacional d'Art de Catalunya.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/82a634cf9a8e964c.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/%28Barcelona%29_Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Museu_Nacional_d%27Art_de_Catalunya.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Museu_Nacional_d%27Art_de_Catalunya.jpg",
+      "title": "Benet Mercadé — Portrait of Senyora Anita with Red Dress",
+      "alt_text": "Benet Mercadé, Portrait of Senyora Anita with Red Dress, Museu Nacional d'Art de Catalunya",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons · public domain",
+      "licence": "Public domain",
+      "selection_rank": 10,
+      "priority": 10
+    }
   ],
   "promoted_assets": [
-    {"asset_id":"wikimedia:File:Astronaut Riding a Horse (SD3.5).webp","asset_url":"/digital-creativity-uem/assets/images/profield-cache/14efab1e027565fc.webp","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp","title":"Astronaut riding a horse","alt_text":"A digitally generated astronaut riding a horse","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":10,"priority":10},
-    {"asset_id":"wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/324922ac305a2043.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/d/d8/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg","title":"News kiosk — exhibition of fashion magazines","alt_text":"A news kiosk displaying fashion and craft magazines","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":10,"priority":10},
-    {"asset_id":"wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/bf651ca6c925cff0.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/f/f2/Lautrec_the_photographer_sescau_%28poster%29_1894.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Lautrec_the_photographer_sescau_(poster)_1894.jpg","title":"Lautrec — The photographer Sescau","alt_text":"A 1894 poster depicting the photographer Sescau","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Work in Progress.JPG","asset_url":"/digital-creativity-uem/assets/images/profield-cache/9d962140d44bf914.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG","title":"Work in Progress","alt_text":"A work-in-progress creative process","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"nypl:ecd58340-c606-012f-96ca-58d385a7bc34","asset_url":"/digital-creativity-uem/assets/images/profield-cache/67e8367fb0719e25.jpg","source_file_url":"https://images.nypl.org/index.php?id=1634206&t=w","canonical_source_url":"http://digitalcollections.nypl.org/items/ecd58340-c606-012f-96ca-58d385a7bc34","title":"Fashion illustration","alt_text":"Fashion illustration","provider":"nypl","credit_line":"nypl","selection_rank":9,"priority":9},
-    {"asset_id":"nypl:ed252fa0-c606-012f-d3ed-58d385a7bc34","asset_url":"/digital-creativity-uem/assets/images/profield-cache/c425a4f37ec39601.jpg","source_file_url":"https://images.nypl.org/index.php?id=1634205&t=w","canonical_source_url":"http://digitalcollections.nypl.org/items/ed252fa0-c606-012f-d3ed-58d385a7bc34","title":"Fashion illustration","alt_text":"Fashion illustration","provider":"nypl","credit_line":"nypl","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/f4786040093c9e0d.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/8/80/Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg","title":"Drapery study for figure of Sculpture","alt_text":"A drapery study for a figure of Sculpture","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/a7fe225309618a85.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/0/07/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg","title":"Dresses by Rei Kawakubo","alt_text":"Dresses by Rei Kawakubo","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Fashion Sketch Design.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/8/8b/Fashion_Sketch_Design.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg","title":"Fashion Sketch Design","alt_text":"Fashion sketch design","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9},
-    {"asset_id":"wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg","asset_url":"/digital-creativity-uem/assets/images/profield-cache/3e1406d573d0b92f.jpg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg","title":"Historical clothing of France","alt_text":"Historical French clothing illustration","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","selection_rank":9,"priority":9}
+    {
+      "asset_id": "wikimedia:File:Astronaut Riding a Horse (SD3.5).webp",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/14efab1e027565fc.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SD3.5).webp",
+      "title": "Astronaut riding a horse",
+      "alt_text": "A digitally generated astronaut riding a horse",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 10,
+      "priority": 10
+    },
+    {
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/324922ac305a2043.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "title": "News kiosk — exhibition of fashion magazines",
+      "alt_text": "A news kiosk displaying fashion and craft magazines",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 10,
+      "priority": 10
+    },
+    {
+      "asset_id": "wikimedia:File:Lautrec the photographer sescau (poster) 1894.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/bf651ca6c925cff0.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lautrec_the_photographer_sescau_%28poster%29_1894.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Lautrec_the_photographer_sescau_(poster)_1894.jpg",
+      "title": "Lautrec — The photographer Sescau",
+      "alt_text": "A 1894 poster depicting the photographer Sescau",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "asset_id": "wikimedia:File:Work in Progress.JPG",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/9d962140d44bf914.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Work_in_Progress.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Work_in_Progress.JPG",
+      "title": "Work in Progress",
+      "alt_text": "A work-in-progress creative process",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "asset_id": "nypl:ecd58340-c606-012f-96ca-58d385a7bc34",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/67e8367fb0719e25.jpg",
+      "source_file_url": "https://images.nypl.org/index.php?id=1634206&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/ecd58340-c606-012f-96ca-58d385a7bc34",
+      "title": "Fashion illustration",
+      "alt_text": "Fashion illustration",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "asset_id": "nypl:ed252fa0-c606-012f-d3ed-58d385a7bc34",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/c425a4f37ec39601.jpg",
+      "source_file_url": "https://images.nypl.org/index.php?id=1634205&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/ed252fa0-c606-012f-d3ed-58d385a7bc34",
+      "title": "Fashion illustration",
+      "alt_text": "Fashion illustration",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "asset_id": "wikimedia:File:Drapery study for figure of Sculpture LCCN2004662299.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/f4786040093c9e0d.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drapery_study_for_figure_of_Sculpture_LCCN2004662299.jpg",
+      "title": "Drapery study for figure of Sculpture",
+      "alt_text": "A drapery study for a figure of Sculpture",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/a7fe225309618a85.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
+      "title": "Dresses by Rei Kawakubo",
+      "alt_text": "Dresses by Rei Kawakubo",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "asset_id": "wikimedia:File:Fashion Sketch Design.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/684484de753f97f5.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fashion_Sketch_Design.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Fashion_Sketch_Design.jpg",
+      "title": "Fashion Sketch Design",
+      "alt_text": "Fashion sketch design",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 9,
+      "priority": 9
+    },
+    {
+      "asset_id": "wikimedia:File:Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/profield-cache/3e1406d573d0b92f.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "title": "Historical clothing of France",
+      "alt_text": "Historical French clothing illustration",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "selection_rank": 9,
+      "priority": 9
+    }
   ],
   "slides": [
     {
@@ -58,14 +436,20 @@ layout: null
       "prompt": "Foundational visual vocabulary for I1–I5 and the analysis master class",
       "quote": "Describe first. Interpret later.",
       "quote_origin": "tao_invented",
-      "semantic_tags": { "themes": ["master-lecture", "analysis", "fashion-image"] }
+      "semantic_tags": {
+        "themes": [
+          "master-lecture",
+          "analysis",
+          "fashion-image"
+        ]
+      }
     },
     {
       "slide_role": "analysis_opener",
       "background_kind": "profield",
       "media_slot_id": "ML-IM.opener.takahashi",
-      "heading": "Morphology · formal inventory",
-      "sentence": "Name what is visible before you infer what it means."
+      "heading": "Open",
+      "sentence": ""
     },
     {
       "slide_role": "analysis_model",

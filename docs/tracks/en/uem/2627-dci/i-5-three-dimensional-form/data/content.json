@@ -107,8 +107,8 @@ layout: null
     {
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
-      "heading": "Analysis opens the class",
-      "sentence": "Ask what a hidden view must contain before you accept the proposed volume.",
+      "heading": "Open",
+      "sentence": "",
       "slide_id": "analysis-opener",
       "notes": "- Modelled first; student defences from session 3.\n- Ask what a hidden view must contain."
     },

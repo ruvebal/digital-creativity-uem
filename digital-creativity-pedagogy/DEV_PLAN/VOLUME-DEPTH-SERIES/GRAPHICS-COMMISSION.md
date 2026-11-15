@@ -19,9 +19,10 @@
 1. **One decorative** per lesson/track heading — follow the DCI track archive pattern (`/tracks/en/digital-creativity-i/`).  
 2. **Prefer `lesson-cover`** (Hexaform) as the quality surface; mount it as per-element Canvas 2.5D.  
 3. **Do not stack** page-art + floating platonic + cover. Page-art only if no lesson-cover.  
-4. **Platonic solids** may appear *inside* an illustration; never as orphan floating marks above the breadcrumb.  
+4. **Platonic solids (by now):** prefer *inside* illustrations or other **explicitly requested** uses (landing exception stays: brand facets win). Current orphan-mark experiments are **not QA-ready** — next work is **maths → code** (Bertol envelope in `platonic-solids`, verified projection), not more decorative dumps.  
 5. **Never override graphics** — new forge ⇒ new hashed path; register in **both** indexes.  
-6. **Less elements, better QA** — fix one surface at a time.
+6. **Less elements, better QA** — fix one surface at a time.  
+7. **Lesson-cover motion:** ambient levitation + gentle orbit at rest (atelier landing physics), pointer deepens depth — not static.
 
 ---
 
@@ -191,7 +192,7 @@ Early `dc-i6-*-20261020-r1` duplicates superseded by hashed Nov builds; unused t
 | --- | --- | --- | --- |
 | **G0** | This commission + palette tokens in `docs/assets/css` + skill upgrades (§5) | — | Doc + CSS tokens landed |
 | **G1** | Landing: **brand faceted favicon** at atelier mark scale + canvas-25d facets | canvas-25d (existing favicon paths) | Signature mark restored; mark≥atelier scale; facet invert works |
-| **G2** | Lesson/track heroes (I.5, I.6, ML-A/B/C): orbitable platonic 2.5D | platonic-solids + canvas-25d | Heading = solid + type; **not** the landing mark; pointer orbit |
+| **G2** | Lesson/track heroes: lesson-cover Hexaform Canvas 2.5D facets + ambient orbit | canvas-25d (platonic **by request** / maths→code) | Cover = one decorative; **not** orphan platonic marks; pointer + ambient orbit |
 | **G3** | Reforge I.5 + I.6 core diagram set (7 plates) | visual-forger (± TikZ) | Side-by-side with old; student HTML swapped |
 | **G4** | ML-A invent cue suite (5 plates) + bind empty MC | visual-forger | ML-A deck 0 geometrical masterclass |
 | **G5** | ML-B perspective-kit reforge P1–P6 + Alberti/Dürer overlays | visual-forger, TikZ, optional Rive | Kit index updated; Commons stills retained |

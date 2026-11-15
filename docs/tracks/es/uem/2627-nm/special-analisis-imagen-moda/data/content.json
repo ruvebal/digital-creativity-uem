@@ -21,14 +21,20 @@ layout: null
       "prompt": "Guía de análisis (hermana del Web Analysis Guide) · lenguaje / medio / soporte + circulación",
       "quote": "Ocho pasos. Dos lentes. Una imagen. Critica siempre.",
       "quote_origin": "tao_invented",
-      "semantic_tags": { "themes": ["nuevos-medios", "special-analysis", "fashion-image"] }
+      "semantic_tags": {
+        "themes": [
+          "nuevos-medios",
+          "special-analysis",
+          "fashion-image"
+        ]
+      }
     },
     {
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "background_url": "/assets/images/fractal-pass-track/uem-pass-01-structure-5218b595b4fa.svg",
-      "heading": "Análisis · dos lentes",
-      "sentence": "Lente A: lenguaje / medio / soporte. Lente B: producción → recepción → nueva producción.",
+      "heading": "Open",
+      "sentence": "",
       "caption": "Geometrical · uem-pass-01-structure.svg#5218b595b4fa"
     },
     {

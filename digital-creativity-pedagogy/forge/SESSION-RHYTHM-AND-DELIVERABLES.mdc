@@ -93,7 +93,7 @@ background_kind: profield | geometrical | diagram | none
 portfolio_bound: true | false
 ```
 
-`analysis_opener` SHOULD open ordinary unit decks. `lab_opener` MUST appear **immediately before** the first `lab_exercise`. Forge **exactly two** `lab_exercise` slides per ordinary unit (lesson B2 matches).
+`analysis_opener` MAY open ordinary unit decks as a **geometrical slide only** (graphic; no scripted “Analysis opens the class” prose). Live analysis guiding is **professor-led in class** — do **not** paste session-block Analysis opener essays into student lessons or slide notes. Keep method axes (e.g. practice · venue · audience · circulation) compact where the unit needs them; leave the defence ritual off the page. `lab_opener` MUST appear **immediately before** the first `lab_exercise`. Forge **exactly two** `lab_exercise` slides per ordinary unit (lesson B2 matches). Compactness cascade: `DEV_PLAN/LESSON-COMPACT-ANALYSIS/`.
 
 ---
 
