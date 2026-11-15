@@ -1,11 +1,16 @@
 {% comment %}
-  G2: show page-art whenever the registry has an entry for this URL,
-  unless the lesson explicitly sets enable_page_art: false.
+  One-decorative law (GRAPHICS-COMMISSION):
+  Prefer lesson-cover (mounted in lesson layout) as the sole heading graphic.
+  Show page-art only when there is no lesson_cover for this page.
+  Never inject floating platonic marks here.
 {% endcomment %}
+{% assign cover_key = page.slug | default: page.title | slugify %}
+{% assign lesson_cover = site.data.lesson_covers[cover_key] %}
 {% if page.enable_page_art != false and page.hide_site_hero != true %}
-  {% assign page_art_entry = site.data.page_art[page.url] %}
-  {% if page_art_entry %}
-    {% include page-art.html %}
-  {% endif %}
-  {% include platonic-lesson-hero.html %}
+  {% unless lesson_cover %}
+    {% assign page_art_entry = site.data.page_art[page.url] %}
+    {% if page_art_entry %}
+      {% include page-art.html %}
+    {% endif %}
+  {% endunless %}
 {% endif %}

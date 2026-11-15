@@ -1,0 +1,1269 @@
+{
+  "$schema_note": "Project forged-assets index. Append-only. Never overwrite a hashed path \u2014 mint a new id.",
+  "project": "digital-creativity-uem",
+  "law": [
+    "never_override_graphics",
+    "one_decorative_per_heading",
+    "lesson_cover_preferred_over_page_art",
+    "platonic_only_inside_illustration",
+    "less_elements_better_qa",
+    "fix_one_by_one"
+  ],
+  "updated": "2026-11-15",
+  "count": 134,
+  "assets": [
+    {
+      "id": "lesson-cover:dc-i-01-image-regimes-graph",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-01-image-regimes-graph.svg",
+      "sha12": "c939a8902c16",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-01-image-system-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-01-image-system-semantic.svg",
+      "sha12": "c939a8902c16",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-01-image-system",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-01-image-system.svg",
+      "sha12": "4db994327873",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-01-practice-boundary-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-01-practice-boundary-outcome.svg",
+      "sha12": "4c3407c4a7cc",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-02-curve-diagnosis-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-02-curve-diagnosis-outcome.svg",
+      "sha12": "b26fd921ed3c",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-02-drawing-thinking-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-02-drawing-thinking-semantic.svg",
+      "sha12": "0fd1d4bc5a7b",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-02-drawing-thinking",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-02-drawing-thinking.svg",
+      "sha12": "0207c3620ddc",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-03-colour-relations-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-03-colour-relations-semantic.svg",
+      "sha12": "b6c14482b2fb",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-03-colour-relations",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-03-colour-relations.svg",
+      "sha12": "e893ebf8e0fc",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-03-palette-depth-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-03-palette-depth-outcome.svg",
+      "sha12": "707f9f520d1b",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-04-effects-before-after-placeholder",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-04-effects-before-after-placeholder.svg",
+      "sha12": "4083239565b2",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-04-effects-layer-stack-placeholder",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-04-effects-layer-stack-placeholder.svg",
+      "sha12": "08f8de79f0f8",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-04-effects-meaning-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-04-effects-meaning-semantic.svg",
+      "sha12": "f96f8ece1358",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-04-effects-meaning",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-04-effects-meaning.svg",
+      "sha12": "cc97a8637cce",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-04-traceable-transform-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-04-traceable-transform-outcome.svg",
+      "sha12": "be14f06d8c6c",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-05-projection-fold-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-05-projection-fold-outcome.svg",
+      "sha12": "893385e22a25",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-05-spatial-literacy-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-05-spatial-literacy-semantic.svg",
+      "sha12": "c8bde8f7ef18",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-05-spatial-literacy",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-05-spatial-literacy.svg",
+      "sha12": "60d39df37989",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-06-hybrid-volume-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-06-hybrid-volume-outcome.svg",
+      "sha12": "e241cbbc32e7",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-06-volume-behaviour-semantic-20261110-r2",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic-20261110-r2.svg",
+      "sha12": "0f166a41a50c",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-06-volume-behaviour-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-06-volume-behaviour-semantic.svg",
+      "sha12": "0dab6b412166",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-06-volume-behaviour",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-06-volume-behaviour.svg",
+      "sha12": "f1194a71e95b",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-07-reference-lineage-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-07-reference-lineage-outcome.svg",
+      "sha12": "b3e556da8252",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-07-situated-reference-semantic-20261110-r2",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-07-situated-reference-semantic-20261110-r2.svg",
+      "sha12": "da4db7b15120",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-07-situated-reference-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-07-situated-reference-semantic.svg",
+      "sha12": "b525f99012a8",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-07-situated-reference",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-07-situated-reference.svg",
+      "sha12": "a1a916936477",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-08-motion-time-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-08-motion-time-semantic.svg",
+      "sha12": "5f07d16e0c86",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-08-motion-time",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-08-motion-time.svg",
+      "sha12": "9254de64454f",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-08-temporal-loop-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-08-temporal-loop-outcome.svg",
+      "sha12": "9998c1ac396e",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-09-compositional-balance-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-09-compositional-balance-outcome.svg",
+      "sha12": "778e9b54bf30",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-09-material-attention-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-09-material-attention-semantic.svg",
+      "sha12": "4fa295b0e191",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-i-09-material-attention",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-i-09-material-attention.svg",
+      "sha12": "b3501d8a3c4c",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-01-accountable-retouch-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-01-accountable-retouch-outcome.svg",
+      "sha12": "273ed248c585",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-01-retouching-authorship-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-01-retouching-authorship-semantic.svg",
+      "sha12": "d549d46bdbf0",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-01-retouching-authorship",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-01-retouching-authorship.svg",
+      "sha12": "96a49a32bf39",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-02-avatar-identity-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-02-avatar-identity-semantic.svg",
+      "sha12": "f69ed2136399",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-02-avatar-identity",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-02-avatar-identity.svg",
+      "sha12": "057137bb433c",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-02-identity-parameters-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-02-identity-parameters-outcome.svg",
+      "sha12": "497459bae292",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-03-experience-audience-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-03-experience-audience-semantic.svg",
+      "sha12": "83065e74a65c",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-03-experience-audience",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-03-experience-audience.svg",
+      "sha12": "b3e19eeb2b71",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-03-staged-response-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-03-staged-response-outcome.svg",
+      "sha12": "02968663c442",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-04-consent-sequence-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-04-consent-sequence-outcome.svg",
+      "sha12": "9942033c08ba",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-04-video-narrative-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-04-video-narrative-semantic.svg",
+      "sha12": "81bdc4a72629",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-04-video-narrative",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-04-video-narrative.svg",
+      "sha12": "ad6bd441fa7d",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-05-portfolio-evidence-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-05-portfolio-evidence-semantic.svg",
+      "sha12": "9dcf038d38a2",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-05-portfolio-evidence",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-05-portfolio-evidence.svg",
+      "sha12": "40fd53ca0c49",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-05-portfolio-lineage-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-05-portfolio-lineage-outcome.svg",
+      "sha12": "58a3202e7453",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-06-ar-interaction-semantic",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-06-ar-interaction-semantic.svg",
+      "sha12": "6ae86a0d1e06",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-06-ar-interaction",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-06-ar-interaction.svg",
+      "sha12": "a2054003adb3",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "lesson-cover:dc-ii-06-medium-threshold-outcome",
+      "kind": "lesson-cover",
+      "path": "docs/assets/images/lesson-covers/dc-ii-06-medium-threshold-outcome.svg",
+      "sha12": "6e54df122b6f",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "page-art:page-bibliography-es",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-bibliography-es.svg",
+      "sha12": "29cba50c9ffb",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-evaluation",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-evaluation.svg",
+      "sha12": "862eea4cb8c7",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-index",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-index.svg",
+      "sha12": "efb33bc96bf2",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-1-digital-images",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-1-digital-images.svg",
+      "sha12": "0b36cd7b4dba",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-2-2d-drawing",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-2-2d-drawing.svg",
+      "sha12": "8a188f58067f",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-3-color-bitmaps",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-3-color-bitmaps.svg",
+      "sha12": "0623f57723a2",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-4-effects",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-4-effects.svg",
+      "sha12": "42afdfd28ac3",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-5-three-dimensional-form",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-5-three-dimensional-form.svg",
+      "sha12": "64ba7c430f80",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-6-volume",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-6-volume.svg",
+      "sha12": "3a63a8f6a27f",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-7-fashion-references",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-7-fashion-references.svg",
+      "sha12": "d6d237a6705e",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-8-animation",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-8-animation.svg",
+      "sha12": "86096150c2c9",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-i-i-9-bodegones",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-i-i-9-bodegones.svg",
+      "sha12": "31bcea0eef85",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-ii-ii-1-retoque-moda",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-ii-ii-1-retoque-moda.svg",
+      "sha12": "2c0303f48501",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-ii-ii-2-avatares",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-ii-ii-2-avatares.svg",
+      "sha12": "7f1320ba7d99",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-ii-ii-3-experiencias-digitales",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-ii-ii-3-experiencias-digitales.svg",
+      "sha12": "bc0e000dc309",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-ii-ii-4-video",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-ii-ii-4-video.svg",
+      "sha12": "6f021c721a33",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-ii-ii-5-web-portfolio",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-ii-ii-5-web-portfolio.svg",
+      "sha12": "fa14dafdf061",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-en-digital-creativity-ii-ii-6-hologramas-ra",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-en-digital-creativity-ii-ii-6-hologramas-ra.svg",
+      "sha12": "dc33b1816806",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-1-imagenes-digitales",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-1-imagenes-digitales.svg",
+      "sha12": "dc030fc25bd1",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-2-dibujo-2d",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-2-dibujo-2d.svg",
+      "sha12": "dec792b968aa",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-3-color-bitmaps",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-3-color-bitmaps.svg",
+      "sha12": "a3fb4014b310",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-4-efectos",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-4-efectos.svg",
+      "sha12": "bdc09abee33e",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-5-forma-tridimensional",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-5-forma-tridimensional.svg",
+      "sha12": "b063bb5ba10c",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-6-volumen",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-6-volumen.svg",
+      "sha12": "3a63a8f6a27f",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-7-referencias-moda",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-7-referencias-moda.svg",
+      "sha12": "87b224e8b19b",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-8-animacion",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-8-animacion.svg",
+      "sha12": "ec264aa6303f",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-i-i-9-bodegones",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-i-i-9-bodegones.svg",
+      "sha12": "f5fd11fbc9cb",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-ii-ii-1-retoque-moda",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-ii-ii-1-retoque-moda.svg",
+      "sha12": "b820a2a6a1d5",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-ii-ii-2-avatares",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-ii-ii-2-avatares.svg",
+      "sha12": "024d8806352b",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-ii-ii-3-experiencias-digitales",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-ii-ii-3-experiencias-digitales.svg",
+      "sha12": "3878db70b4e9",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-ii-ii-4-video",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-ii-ii-4-video.svg",
+      "sha12": "9b68a3fa5949",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-ii-ii-5-web-portfolio",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-ii-ii-5-web-portfolio.svg",
+      "sha12": "b690141e2f63",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-lessons-es-creacion-digital-ii-ii-6-hologramas-ra",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-lessons-es-creacion-digital-ii-ii-6-hologramas-ra.svg",
+      "sha12": "8393abf093ff",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-methodology-en-ai-practical-guide",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-methodology-en-ai-practical-guide.svg",
+      "sha12": "6d57a0cb0a47",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-methodology-en",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-methodology-en.svg",
+      "sha12": "1ab8b772d4b3",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-methodology-es-ai-practical-guide",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-methodology-es-ai-practical-guide.svg",
+      "sha12": "94b974344023",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-methodology-es",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-methodology-es.svg",
+      "sha12": "a7ebcfea3dab",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tao",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tao.svg",
+      "sha12": "7a1a22d20d89",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-templates",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-templates.svg",
+      "sha12": "f723e052fd81",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tracks-en-digital-creativity-i",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tracks-en-digital-creativity-i.svg",
+      "sha12": "bfef05244afe",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tracks-en-digital-creativity-ii",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tracks-en-digital-creativity-ii.svg",
+      "sha12": "1b405681f8a5",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tracks-en",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tracks-en.svg",
+      "sha12": "674c00f4a3d5",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tracks-es-creacion-digital-i",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tracks-es-creacion-digital-i.svg",
+      "sha12": "cae6ed2ed455",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tracks-es-creacion-digital-ii",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tracks-es-creacion-digital-ii.svg",
+      "sha12": "25b41bce6252",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tracks-es",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tracks-es.svg",
+      "sha12": "6490dcb13e56",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "page-art:page-tracks",
+      "kind": "page-art",
+      "path": "docs/assets/images/page-art/page-tracks.svg",
+      "sha12": "0be1c97fa11a",
+      "status": "canonical",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Shown only when lesson has no lesson_cover (one-decorative law)"
+    },
+    {
+      "id": "visual-forger:dc-i3-colour-context-20261013-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i3-colour-context-20261013-r1.svg",
+      "sha12": "bd8286069cb5",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i4-effects-disclosure-lens-20261013-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i4-effects-disclosure-lens-20261013-r1.svg",
+      "sha12": "02b4f0023fe9",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i4-effects-reversible-workflow-20261013-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i4-effects-reversible-workflow-20261013-r1.svg",
+      "sha12": "c34184b5cf1f",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-axis-studio-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-axis-studio-20261020-r1.svg",
+      "sha12": "7b5bd059d01e",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-output-or-explanation-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-output-or-explanation-20261020-r1.svg",
+      "sha12": "5ebe2d982f70",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-render-evidence-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
+      "sha12": "b69f127bc5d2",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-render-evidence-g3-cb92695f22e8",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-g3-cb92695f22e8.svg",
+      "sha12": "cb92695f22e8",
+      "status": "g3-wave1",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-section-plane-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-section-plane-20261020-r1.svg",
+      "sha12": "e56561f91a33",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-spatial-reading-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
+      "sha12": "21d91735c66b",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-spatial-reading-g3-c018dbace498",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-g3-c018dbace498.svg",
+      "sha12": "c018dbace498",
+      "status": "g3-wave1",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-views-agree-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
+      "sha12": "838809baf9fa",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i5-views-agree-g3-01951557d9b3",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-g3-01951557d9b3.svg",
+      "sha12": "01951557d9b3",
+      "status": "g3-wave1",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-evidence-pair-059859bcea99",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-059859bcea99.svg",
+      "sha12": "059859bcea99",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-evidence-pair-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20261020-r1.svg",
+      "sha12": "eba6da51de13",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-evidence-pair-20c174fd85e2",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg",
+      "sha12": "20c174fd85e2",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-evidence-pair-9112bf1fe546",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-9112bf1fe546.svg",
+      "sha12": "9112bf1fe546",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-evidence-pair-g3-fe27d00d4a3c",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-g3-fe27d00d4a3c.svg",
+      "sha12": "fe27d00d4a3c",
+      "status": "g3-wave1",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-local-correction-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-local-correction-20261020-r1.svg",
+      "sha12": "9c5a14d35c6c",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-material-memory-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-20261020-r1.svg",
+      "sha12": "a76496b822c4",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-material-memory-3c68505d2df6",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-3c68505d2df6.svg",
+      "sha12": "3c68505d2df6",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-material-memory-d3dc0615851c",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-d3dc0615851c.svg",
+      "sha12": "d3dc0615851c",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-material-memory-e9c611d87b2c",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg",
+      "sha12": "e9c611d87b2c",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-material-memory-g3-ef1f22a10258",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-g3-ef1f22a10258.svg",
+      "sha12": "ef1f22a10258",
+      "status": "g3-wave1",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-revision-cycle-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-revision-cycle-20261020-r1.svg",
+      "sha12": "55ca98efde14",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-simulation-break-1328ef10eb83",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-1328ef10eb83.svg",
+      "sha12": "1328ef10eb83",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-simulation-break-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-20261020-r1.svg",
+      "sha12": "8a91decbbd8f",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-simulation-break-c1d1efc6790d",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg",
+      "sha12": "c1d1efc6790d",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-simulation-break-d45512f8ed57",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-d45512f8ed57.svg",
+      "sha12": "d45512f8ed57",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-simulation-break-g3-adacde2d39d5",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-g3-adacde2d39d5.svg",
+      "sha12": "adacde2d39d5",
+      "status": "g3-wave1",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-support-and-drape-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg",
+      "sha12": "7a569b92d0f4",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-support-and-drape-g3-2392399d311b",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-g3-2392399d311b.svg",
+      "sha12": "2392399d311b",
+      "status": "g3-wave1",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-three-views-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-three-views-20261020-r1.svg",
+      "sha12": "c68236a78940",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:dc-i6-volume-study-20261020-r1",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/dc-i6-volume-study-20261020-r1.svg",
+      "sha12": "d924e1e3d7b0",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:u4-claim-audit-20261103",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/u4-claim-audit-20261103.svg",
+      "sha12": "773ea91106c9",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:u4-content-chain-20261103",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/u4-content-chain-20261103.svg",
+      "sha12": "ffa3cc23011b",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:u4-participation-evidence-20261103",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/u4-participation-evidence-20261103.svg",
+      "sha12": "8d762690083c",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "visual-forger:u4-portfolio-brief-20261103",
+      "kind": "teaching-plate",
+      "path": "docs/assets/images/lesson-figures/visual-forger/u4-portfolio-brief-20261103.svg",
+      "sha12": "8d1f0ee5a2d0",
+      "status": "legacy-keep",
+      "host": "digital-creativity-uem",
+      "override": false
+    },
+    {
+      "id": "platonic:platonic-icosa-favicon-rive-3d-782c68c0e763",
+      "kind": "platonic-solid",
+      "path": "docs/assets/images/platonic/platonic-icosa-favicon-rive-3d-782c68c0e763.svg",
+      "sha12": "782c68c0e763",
+      "status": "asset-available",
+      "host": "digital-creativity-uem",
+      "override": false,
+      "note": "Incorporate inside illustrations only; never floating lesson hero"
+    }
+  ]
+}

@@ -379,8 +379,14 @@ export async function mountSvgPlane25d(host, options = {}) {
 
 	function resize() {
 		const bounds = host.getBoundingClientRect();
-		width = Math.max(1, bounds.width);
-		height = Math.max(1, bounds.height);
+		// shortcut: first RO pass can be 0×0 while sticky chrome settles —
+		// never hide the SVG fallback until we have a real box.
+		if (bounds.width < 2 || bounds.height < 2) {
+			host.classList.remove('is-svg-plane-ready');
+			return;
+		}
+		width = bounds.width;
+		height = bounds.height;
 		dpr = Math.min(window.devicePixelRatio || 1, options.dprCap || 1.5);
 		canvas.width = Math.round(width * dpr);
 		canvas.height = Math.round(height * dpr);
@@ -464,17 +470,22 @@ export async function mountSvgPlane25d(host, options = {}) {
 
 export async function mountAllSvgPlanes25d(root = document) {
 	const hosts = [
+		...root.querySelectorAll('.lesson-cover[data-svg-plane-25d]'),
 		...root.querySelectorAll('.lesson-figure--orb'),
 		...root.querySelectorAll('.page-art:not(.rive-background)'),
 		...root.querySelectorAll('[data-svg-plane-25d]'),
-		...root.querySelectorAll('.platonic-hero-mark'),
 	];
+	// De-dupe if a node matches multiple selectors.
+	const unique = [...new Set(hosts)];
 	const mounts = [];
-	for (const host of hosts) {
+	for (const host of unique) {
 		try {
+			const isCover = host.classList.contains('lesson-cover');
 			const mount = await mountSvgPlane25d(host, {
-				fitScale: host.classList.contains('platonic-hero-mark') ? 0.88 : 0.92,
-				yawAmplitude: host.classList.contains('platonic-hero-mark') ? 0.14 : 0.11,
+				fitScale: isCover ? 0.96 : 0.92,
+				yawAmplitude: isCover ? 0.1 : 0.11,
+				pitchAmplitude: isCover ? 0.065 : 0.075,
+				extrusionStrength: isCover ? 2.6 : 2.35,
 			});
 			if (mount) mounts.push(mount);
 		} catch (error) {

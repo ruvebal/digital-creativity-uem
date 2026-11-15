@@ -2326,34 +2326,48 @@ html.dark,
 
 .lesson-cover::after {
 	position: absolute;
+	z-index: 1;
 	inset: 0;
 	content: '';
 	background:
-		linear-gradient(90deg, rgb(3 7 18 / 0.86) 0%, rgb(3 7 18 / 0.62) 42%, rgb(3 7 18 / 0.18) 100%),
-		linear-gradient(0deg, rgb(3 7 18 / 0.74) 0%, transparent 52%);
+		linear-gradient(90deg, rgb(3 7 18 / 0.72) 0%, rgb(3 7 18 / 0.48) 42%, rgb(3 7 18 / 0.12) 100%),
+		linear-gradient(0deg, rgb(3 7 18 / 0.62) 0%, transparent 52%);
 	pointer-events: none;
 }
 
-.lesson-cover img {
+.lesson-cover img,
+.lesson-cover .svg-plane-25d__surface {
 	display: block;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	transition: transform 420ms ease;
+	background: transparent;
+}
+
+.lesson-cover .svg-plane-25d__surface {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+}
+
+.lesson-cover.is-svg-plane-ready > img {
+	opacity: 0;
+	pointer-events: none;
 }
 
 .lesson-cover:hover img {
-	transform: scale(1.018);
+	transform: none; /* motion owned by facet camera, not CSS scale */
 }
 
 .lesson-cover__caption {
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	inset: auto 8% 9%;
 	display: grid;
 	gap: 1rem;
 	max-width: min(68ch, 76%);
 	color: #fff;
+	pointer-events: none;
 }
 
 .lesson-cover__quote {
@@ -3546,32 +3560,6 @@ html.dark .lesson-media-slot__body,
     linear-gradient(0deg, rgb(5 8 22 / 0.42), transparent 44%);
 }
 
-/* G2 · orbitable platonic mark in lesson heading (never landing brand) */
-.platonic-hero-mark {
-  --platonic-mark-size: clamp(5.5rem, 16vmin, 9.5rem);
-  position: relative;
-  display: block;
-  inline-size: var(--platonic-mark-size);
-  block-size: var(--platonic-mark-size);
-  margin: 0 auto clamp(0.75rem, 2vw, 1.25rem);
-  background: transparent;
-}
-.platonic-hero-mark img,
-.platonic-hero-mark .svg-plane-25d__surface {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-}
-.platonic-hero-mark.is-svg-plane-ready > img {
-  opacity: 0;
-}
-.lesson-platonic-hero {
-  display: grid;
-  justify-items: center;
-  margin: 0 0 1rem;
-  padding: clamp(0.75rem, 2vw, 1.25rem) 0 0;
-}
 @media (prefers-reduced-motion: reduce) {
   .svg-plane-25d__surface {
     display: none !important;
@@ -3579,7 +3567,7 @@ html.dark .lesson-media-slot__body,
   .lesson-figure--orb.is-svg-plane-ready > img,
   .lesson-figure--orb.is-svg-plane-ready > object,
   .page-art.is-svg-plane-ready > img,
-  .platonic-hero-mark.is-svg-plane-ready > img {
+  .lesson-cover.is-svg-plane-ready > img {
     opacity: 1;
     pointer-events: auto;
   }

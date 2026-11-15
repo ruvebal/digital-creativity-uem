@@ -1,0 +1,13 @@
+{
+  "updated": "2026-11-15",
+  "law": [
+    "never_override_graphics",
+    "one_decorative_per_heading",
+    "lesson_cover_preferred_over_page_art",
+    "platonic_only_inside_illustration",
+    "less_elements_better_qa",
+    "fix_one_by_one"
+  ],
+  "count": 134,
+  "index_path": "digital-creativity-pedagogy/GRAPHICS/FORGED-ASSETS-INDEX.json"
+}

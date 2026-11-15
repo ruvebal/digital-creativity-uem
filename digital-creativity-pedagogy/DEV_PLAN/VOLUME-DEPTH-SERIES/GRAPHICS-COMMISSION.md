@@ -9,9 +9,19 @@
 - **Landing (flagship):** signature **faceted brand favicon** (`favicon.svg` + Canvas 2.5D facet motion). **Never** replace with a platonic solid.  
 - **Lesson / track / lab heroes:** pure geometrical expression OK — platonic-solids as **orbitable 2.5D projections** (pointer-driven), not on the main landing.  
 - No photographic stills in any hero band.  
-**Status:** G0 DONE · G1 DONE · **G2 DONE** (per-element Path2D facets + z-index; transparent canvas; platonic orbitable lesson mark off-landing) · **G3 WAVE-1 DONE** (7 live I.5/I.6 plates: backdrop stripped, cards unrounded, new `*-g3-*.svg` hashes; see `G3-PLATE-REFORGE-RECEIPT.md`). **G3 WAVE-2 pending:** full Bauhaus×neo-Renaissance ink redesign. G4–G7 not started.  
+**Status:** G0 DONE · G1 DONE · **G2 AMENDED 2026-11-15** (one-decorative law; lesson-cover = verbatim 2.5D facets; floating platonic lesson marks **retired**; page-art only when no lesson-cover) · **G3 WAVE-1 DONE** · **G3 WAVE-2 pending** (Bauhaus×neo-Renaissance ink) · G4–G7 not started.  
 **Branch:** `forge/volume-depth-graphics-g0`  
-**Date:** 2026-11-14
+**Date:** 2026-11-15  
+**Indexes:** studio `~/src/.cursor/skills/studio-graphics/FORGED-ASSETS-INDEX.json` · project `digital-creativity-pedagogy/GRAPHICS/FORGED-ASSETS-INDEX.json`
+
+### Heading composition law (binding)
+
+1. **One decorative** per lesson/track heading — follow the DCI track archive pattern (`/tracks/en/digital-creativity-i/`).  
+2. **Prefer `lesson-cover`** (Hexaform) as the quality surface; mount it as per-element Canvas 2.5D.  
+3. **Do not stack** page-art + floating platonic + cover. Page-art only if no lesson-cover.  
+4. **Platonic solids** may appear *inside* an illustration; never as orphan floating marks above the breadcrumb.  
+5. **Never override graphics** — new forge ⇒ new hashed path; register in **both** indexes.  
+6. **Less elements, better QA** — fix one surface at a time.
 
 ---
 
