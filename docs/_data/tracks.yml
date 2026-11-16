@@ -301,7 +301,7 @@
       deck_path: 'tracks/en/uem/2627-ml/volume-depth-construction/'
       deck_permalink: '/master-lectures/volume-depth-construction/'
       lesson_path: 'lessons/en/master-lectures/volume-depth-construction/'
-    - title: 'Master Lecture · Digital & AI depth'
+    - title: 'Master Lecture · Digital and AI depth'
       slug: 'volume-depth-digital'
       unit_id: ML-VD-C
       special: true

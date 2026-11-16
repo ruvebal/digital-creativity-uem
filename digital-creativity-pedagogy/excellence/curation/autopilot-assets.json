@@ -170,6 +170,10 @@
         {
           "project_id": "nm",
           "unit_id": "U4"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
         }
       ],
       "title": "Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
@@ -1030,6 +1034,10 @@
         {
           "project_id": "ml",
           "unit_id": "ML-FIA"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
         }
       ],
       "title": "Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
@@ -1212,6 +1220,10 @@
         {
           "project_id": "ml",
           "unit_id": "ML-FIA"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
         }
       ],
       "title": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
@@ -1352,6 +1364,14 @@
         {
           "project_id": "ml",
           "unit_id": "ML-FIA"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
         }
       ],
       "title": "Leonardo da vinci, Garment study for a seated figure.jpg",
@@ -1619,6 +1639,10 @@
         {
           "project_id": "ml",
           "unit_id": "ML-DCF-3"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
         }
       ],
       "title": "Museo del Traje - MT111885 - Vestido Delphos.jpg",
@@ -2464,6 +2488,10 @@
         {
           "project_id": "ml",
           "unit_id": "ML-DCF-3"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
         }
       ],
       "title": "Pink Delphos dress by Fortuny, 1920s.jpg",
@@ -2846,6 +2874,10 @@
         {
           "project_id": "nm",
           "unit_id": "U3"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
         }
       ],
       "title": "Illustrated fashion catalogue - summer, 1890 (1890) (14781648884).jpg",
@@ -3192,7 +3224,7 @@
       ],
       "title": "The Venetian School of Painting (1912)",
       "raw_title": "File:The Venetian School of Painting (1912) (14597540617).jpg",
-      "alt_text": "Historical book plate from The Venetian School of Painting showing foreshortened figure volume",
+      "alt_text": "Black-and-white 1912 book plate of a crowded Venetian Adoration of the Magi: figures in rich garments stacked up the picture rather than receding to one vanishing point.",
       "author": "Internet Archive Book Images",
       "author_death_year": null,
       "licence": "PD",
@@ -3277,6 +3309,506 @@
       "eu_term_reason": "CC-BY-SA modern diagram — attribution required",
       "rights_status": "flagged",
       "cropped": false
+    },
+    {
+      "asset_id": "wikimedia:File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        }
+      ],
+      "title": "Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+      "raw_title": "File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+      "alt_text": "Caillebotte’s 1877 painting of a Paris street in the rain: fashionable walkers under umbrellas, paving stones shrinking toward the distance.",
+      "author": "Gustave Caillebotte",
+      "author_death_year": 1894,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1894; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Gustave Caillebotte",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Texture gradient and relative size on fashionable bodies, 1877.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Ames room.svg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        }
+      ],
+      "title": "Ames room.svg",
+      "raw_title": "File:Ames room.svg",
+      "alt_text": "Diagram of an Ames room: a trapezoidal room seen through a peephole looks rectangular, so two people at different distances appear giant and tiny.",
+      "author": "Alex valavanis",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ames_room.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ames_room.svg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ames_room.svg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Released into the public domain by its author on Wikimedia Commons.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Alex valavanis",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Inverse problem: one retinal image, two very different rooms.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Crater illusion.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-A"
+        }
+      ],
+      "title": "Crater illusion.jpg",
+      "raw_title": "File:Crater illusion.jpg",
+      "alt_text": "Two lunar orbiter photographs of the same crater; rotated 180 degrees, the hollow crater reads as a raised dome.",
+      "author": "NASA / GSFC / Arizona State University",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Crater_illusion.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Crater_illusion.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Crater_illusion.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Work of the US federal government (NASA): no copyright.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "NASA/GSFC/ARIZONA STATE UNIVERSITY",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Light-from-above prior: the brain decides hollow or bump.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Masaccio, trinità.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Masaccio, trinità.jpg",
+      "raw_title": "File:Masaccio, trinità.jpg",
+      "alt_text": "Masaccio’s Holy Trinity fresco, about 1425: a painted barrel vault that recedes to a single vanishing point at the viewer’s eye level.",
+      "author": "Masaccio",
+      "author_death_year": 1428,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Masaccio,_trinit%C3%A0.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Masaccio%2C_trinit%C3%A0.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Masaccio%2C_trinit%C3%A0.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1428; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Masaccio",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Earliest surviving full linear-perspective fresco.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Piero - The Flagellation.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Piero - The Flagellation.jpg",
+      "raw_title": "File:Piero - The Flagellation.jpg",
+      "alt_text": "Piero della Francesca’s Flagellation: a measured architectural space with a tiled floor, three robed men in the foreground and a scene deep behind.",
+      "author": "Piero della Francesca",
+      "author_death_year": 1492,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Piero_-_The_Flagellation.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Piero_-_The_Flagellation.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Piero_-_The_Flagellation.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1492; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Piero della Francesca",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Perspective as measurement: Piero’s mathematical space.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Perspective Picture (Uki-e)- Theater District at Dawn on Opening Day of the Kabuki Season (IA mma perspective picture ukie theater district at dawn on opening day of the 36669).jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Perspective Picture (Uki-e)- Theater District at Dawn on Opening Day of the Kabuki Season (IA mma perspective picture ukie theater district at dawn on opening day of the 36669).jpg",
+      "raw_title": "File:Perspective Picture (Uki-e)- Theater District at Dawn on Opening Day of the Kabuki Season (IA mma perspective picture ukie theater district at dawn on opening day of the 36669).jpg",
+      "alt_text": "Japanese uki-e woodblock print by Utagawa Toyoharu: an Edo theatre district drawn in imported Western perspective, crowds in kimono receding along the street.",
+      "author": "Utagawa Toyoharu",
+      "author_death_year": 1814,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Perspective_Picture_(Uki-e)-_Theater_District_at_Dawn_on_Opening_Day_of_the_Kabuki_Season_(IA_mma_perspective_picture_ukie_theater_district_at_dawn_on_opening_day_of_the_36669).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Perspective_Picture_%28Uki-e%29-_Theater_District_at_Dawn_on_Opening_Day_of_the_Kabuki_Season_%28IA_mma_perspective_picture_ukie_theater_district_at_dawn_on_opening_day_of_the_36669%29.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Perspective_Picture_%28Uki-e%29-_Theater_District_at_Dawn_on_Opening_Day_of_the_Kabuki_Season_%28IA_mma_perspective_picture_ukie_theater_district_at_dawn_on_opening_day_of_the_36669%29.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1814; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Utagawa Toyoharu",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Perspective adopted and re-meant in Edo Japan.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+      "raw_title": "File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+      "alt_text": "Holbein’s The Ambassadors, 1533: two richly dressed men beside instruments; a stretched skull across the floor becomes legible only from one oblique point.",
+      "author": "Hans Holbein the Younger",
+      "author_death_year": 1543,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1543; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Hans Holbein the Younger",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Anamorphosis: the image depends on where you stand.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Draughtsman Making a Perspective Drawing of a Reclining Woman MET DP816489.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Draughtsman Making a Perspective Drawing of a Reclining Woman MET DP816489.jpg",
+      "raw_title": "File:Draughtsman Making a Perspective Drawing of a Reclining Woman MET DP816489.jpg",
+      "alt_text": "Dürer’s woodcut: a draughtsman looks through a gridded frame at a reclining, partly draped woman and copies her onto squared paper.",
+      "author": "Albrecht Dürer",
+      "author_death_year": 1528,
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Draughtsman_Making_a_Perspective_Drawing_of_a_Reclining_Woman_MET_DP816489.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Draughtsman_Making_a_Perspective_Drawing_of_a_Reclining_Woman_MET_DP816489.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Draughtsman_Making_a_Perspective_Drawing_of_a_Reclining_Woman_MET_DP816489.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by The Metropolitan Museum of Art; Dürer died 1528.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC0",
+      "commons_artist": "Albrecht Dürer",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Who holds the grid and who is measured.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Robe à la Française MET DT5011.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        },
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
+        }
+      ],
+      "title": "Robe à la Française MET DT5011.jpg",
+      "raw_title": "File:Robe à la Française MET DT5011.jpg",
+      "alt_text": "A silk robe à la française of about 1765 on a mannequin, its skirt widened at the hips by panniers.",
+      "author": "The Metropolitan Museum of Art (photograph); unknown French maker (gown)",
+      "author_death_year": null,
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by The Metropolitan Museum of Art; 18th-century garment.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC0",
+      "commons_artist": "",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Volume built by an under-structure, not by the picture.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Madonna del parto piero della Francesca.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Madonna del parto piero della Francesca.jpg",
+      "raw_title": "File:Madonna del parto piero della Francesca.jpg",
+      "alt_text": "Piero’s Madonna del Parto: a pregnant Virgin in a blue gown opened at the front, framed by two angels holding back a tent.",
+      "author": "Piero della Francesca",
+      "author_death_year": 1492,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Madonna_del_parto_piero_della_Francesca.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Madonna_del_parto_piero_della_Francesca.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Madonna_del_parto_piero_della_Francesca.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1492; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Piero della Francesca",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "A gown’s opening as constructed volume.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Along the River During the Qingming Festival (detail of original).jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-B"
+        }
+      ],
+      "title": "Along the River During the Qingming Festival (detail of original).jpg",
+      "raw_title": "File:Along the River During the Qingming Festival (detail of original).jpg",
+      "alt_text": "Detail of the Qingming scroll: a bridge crowded with people, boats and shops, drawn from a high, travelling viewpoint without one vanishing point.",
+      "author": "Zhang Zeduan",
+      "author_death_year": 1145,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Twelfth-century work; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Zhang Zeduan",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "A moving viewpoint: space unrolled, not framed.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:1646 Athanasius Kircher - Camera obscura.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
+        }
+      ],
+      "title": "1646 Athanasius Kircher - Camera obscura.jpg",
+      "raw_title": "File:1646 Athanasius Kircher - Camera obscura.jpg",
+      "alt_text": "Kircher’s 1646 engraving of a portable camera obscura: a person inside a box traces the inverted image projected through small openings.",
+      "author": "Athanasius Kircher",
+      "author_death_year": 1680,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1646_Athanasius_Kircher_-_Camera_obscura.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/1646_Athanasius_Kircher_-_Camera_obscura.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/1646_Athanasius_Kircher_-_Camera_obscura.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1680; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Athanasius Kircher",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Every camera is a dark room with a rule.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Cubic Structure.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
+        }
+      ],
+      "title": "Cubic Structure.jpg",
+      "raw_title": "File:Cubic Structure.jpg",
+      "alt_text": "A computer-rendered hollow white cube standing on a blue and green checkered floor, with soft shading and cast shadows.",
+      "author": "Dominicos (Wikimedia Commons user)",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Cubic_Structure.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cubic_Structure.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cubic_Structure.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 3.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC BY-SA 3.0",
+      "commons_artist": "Dominicos",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "A render that uses every pictorial cue at once.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Comparison of graphical projections.svg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
+        }
+      ],
+      "title": "Comparison of graphical projections.svg",
+      "raw_title": "File:Comparison of graphical projections.svg",
+      "alt_text": "Chart comparing graphical projections of the same house: multiview, axonometric, oblique and perspective.",
+      "author": "Cmglee (Wikimedia Commons user)",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Comparison_of_graphical_projections.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Comparison_of_graphical_projections.svg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Comparison_of_graphical_projections.svg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC BY-SA 4.0",
+      "commons_artist": "Cmglee",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "One object, many projection rules.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Z buffer.svg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
+        }
+      ],
+      "title": "Z buffer.svg",
+      "raw_title": "File:Z buffer.svg",
+      "alt_text": "Diagram of a Z-buffer: a simple 3D scene and its depth image, where nearer surfaces are brighter.",
+      "author": "-Zeus- (Wikimedia Commons user)",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Z_buffer.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Z_buffer.svg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Z_buffer.svg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 3.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC BY-SA 3.0",
+      "commons_artist": "-Zeus-",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Depth stored per pixel and tested, not painted.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:Giovanni Battista Piranesi - Le Carceri d'Invenzione - First Edition - 1750 - 07 - The Drawbridge.jpg",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-VD-C"
+        }
+      ],
+      "title": "Giovanni Battista Piranesi - Le Carceri d'Invenzione - First Edition - 1750 - 07 - The Drawbridge.jpg",
+      "raw_title": "File:Giovanni Battista Piranesi - Le Carceri d'Invenzione - First Edition - 1750 - 07 - The Drawbridge.jpg",
+      "alt_text": "Piranesi’s etching The Drawbridge from the Imaginary Prisons: vast stairways and bridges that look convincing but cannot all connect.",
+      "author": "Giovanni Battista Piranesi",
+      "author_death_year": 1778,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi_-_Le_Carceri_d%27Invenzione_-_First_Edition_-_1750_-_07_-_The_Drawbridge.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giovanni_Battista_Piranesi_-_Le_Carceri_d%27Invenzione_-_First_Edition_-_1750_-_07_-_The_Drawbridge.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giovanni_Battista_Piranesi_-_Le_Carceri_d%27Invenzione_-_First_Edition_-_1750_-_07_-_The_Drawbridge.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1778; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Giovanni Battista Piranesi",
+      "rights_checked_on": "2026-11-16",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
+      "brief": "Plausible space that cannot be built.",
+      "origin": "Volume–Depth master lectures polish 2026-11-16"
     }
   ]
 }

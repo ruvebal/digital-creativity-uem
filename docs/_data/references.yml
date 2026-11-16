@@ -389,8 +389,41 @@ pacioli-1889:
 panofsky-1993:
   sort: "Panofsky Erwin 1993"
   year: 1993
-  edition_note: "Zone Books English edition; coat ready — spot-check pages before lesson body quotes."
-  edition_used: "Zone Books PDF, 1991/1993 printing as held."
+  edition_note: "Page numbers follow the printed Zone Books pagination."
+  edition_used: "Zone Books scan, two printed pages per PDF sheet: printed page = 2 × PDF sheet (left) or 2 × sheet + 1 (right)."
   chicago: >-
     Panofsky, Erwin. 1991. *Perspective as Symbolic Form*. Translated by Christopher S. Wood.
     New York: Zone Books. 1993 printing consulted.
+
+boden-2004:
+  sort: "Boden Margaret 2004"
+  year: 2004
+  edition_used: "Routledge e-Library PDF, second edition; printed page = PDF sequence − 15."
+  chicago: >-
+    Boden, Margaret A. 2004. *The Creative Mind: Myths and Mechanisms*. 2nd ed.
+    London: Routledge.
+
+vince-2017:
+  sort: "Vince John 2017"
+  year: 2017
+  edition_used: "Springer PDF, fifth edition; printed page = PDF sequence − 13."
+  chicago: >-
+    Vince, John. 2017. *Mathematics for Computer Graphics*. 5th ed. Undergraduate Topics in
+    Computer Science. London: Springer. https://doi.org/10.1007/978-1-4471-7336-6.
+
+an-park-2026:
+  sort: "An Hyosun 2026"
+  year: 2026
+  edition_used: "Open-access article PDF; page = article page (Page n of 22)."
+  chicago: >-
+    An, Hyosun, and Minjung Park. 2026. “AI Tools and Fashion Design Education: Instructor
+    Perspectives on Student Challenges and Design Process Tool Support.” *Fashion and Textiles*
+    13: 3. https://doi.org/10.1186/s40691-025-00452-9.
+
+bendel-2025:
+  sort: "Bendel Oliver 2025"
+  year: 2025
+  edition_used: "Open-access article PDF; printed page = PDF sequence + 436."
+  chicago: >-
+    Bendel, Oliver. 2025. “Image Synthesis from an Ethical Perspective.” *AI & Society* 40:
+    437–46. https://doi.org/10.1007/s00146-023-01780-4.

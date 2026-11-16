@@ -2,81 +2,515 @@
 layout: null
 ---
 {
-  "unit_label": "Master Lecture · Digital & AI depth",
-  "final_event_theme": "Volume Perception & Depth Representation · C",
+  "unit_label": "Volume and depth · Lecture C of 3",
+  "locale": "en",
+  "final_event_theme": "When a machine shows volume, what does it know — and who decides what counts?",
   "media_selection": {
     "unit_id": "ML-VD-C",
     "project_id": "ml",
-    "collection": "pending-review",
-    "strategy": "diagram-first",
-    "description": "PHASE-V2 ML-C: projection honesty + 2.5D vs Z-buffer; no generative scrapes."
+    "collection": "unit-accepted",
+    "strategy": "slide-bound-asset_id",
+    "description": "Slides bind by asset_id; rehydrate uses bindSlides (no rank dealing)."
   },
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "ML-VD-C.cover",
+      "asset_id": "wikimedia:File:1646 Athanasius Kircher - Camera obscura.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/615df243ed4970ea.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/1646_Athanasius_Kircher_-_Camera_obscura.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1646_Athanasius_Kircher_-_Camera_obscura.jpg",
+      "title": "1646 Athanasius Kircher - Camera obscura",
+      "alt_text": "Kircher’s 1646 engraving of a portable camera obscura: a person inside a box traces the inverted image projected through small openings.",
+      "author": "Athanasius Kircher",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Athanasius Kircher · Wikimedia Commons",
+      "author_death_year": 1680,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1680; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.analysis-model",
+      "asset_id": "wikimedia:File:Cubic Structure.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/c9c84626ccfb914a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cubic_Structure.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Cubic_Structure.jpg",
+      "title": "Cubic Structure",
+      "alt_text": "A computer-rendered hollow white cube standing on a blue and green checkered floor, with soft shading and cast shadows.",
+      "author": "Dominicos (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Dominicos (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 3.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.masterclass-projection",
+      "asset_id": "wikimedia:File:Comparison of graphical projections.svg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/187d0facfadeb354.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Comparison_of_graphical_projections.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Comparison_of_graphical_projections.svg",
+      "title": "Comparison of graphical projections",
+      "alt_text": "Chart comparing graphical projections of the same house: multiview, axonometric, oblique and perspective.",
+      "author": "Cmglee (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Cmglee (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.masterclass-depth-test",
+      "asset_id": "wikimedia:File:Z buffer.svg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/10ea743f3ea99e0f.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Z_buffer.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Z_buffer.svg",
+      "title": "Z buffer",
+      "alt_text": "Diagram of a Z-buffer: a simple 3D scene and its depth image, where nearer surfaces are brighter.",
+      "author": "-Zeus- (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "-Zeus- (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 3.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.masterclass-plausible",
+      "asset_id": "wikimedia:File:Giovanni Battista Piranesi - Le Carceri d'Invenzione - First Edition - 1750 - 07 - The Drawbridge.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/c1af268770cfe9e9.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giovanni_Battista_Piranesi_-_Le_Carceri_d%27Invenzione_-_First_Edition_-_1750_-_07_-_The_Drawbridge.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi_-_Le_Carceri_d%27Invenzione_-_First_Edition_-_1750_-_07_-_The_Drawbridge.jpg",
+      "title": "Giovanni Battista Piranesi - Le Carceri d'Invenzione - First Edition - 1750 - 07 - The Drawbridge",
+      "alt_text": "Piranesi’s etching The Drawbridge from the Imaginary Prisons: vast stairways and bridges that look convincing but cannot all connect.",
+      "author": "Giovanni Battista Piranesi",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Giovanni Battista Piranesi · Wikimedia Commons",
+      "author_death_year": 1778,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1778; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.masterclass-construction",
+      "asset_id": "wikimedia:File:Pink Delphos dress by Fortuny, 1920s.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/d3a43bbac02a702a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pink_Delphos_dress_by_Fortuny%2C_1920s.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pink_Delphos_dress_by_Fortuny%2C_1920s.jpg",
+      "title": "Pink Delphos dress by Fortuny, 1920s",
+      "alt_text": "A pink pleated Delphos gown by Fortuny on a display figure; the fine pleats fall straight to the floor.",
+      "author": "Mabalu (photograph); Mariano Fortuny (dress)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Mabalu (photograph); Mariano Fortuny (dress) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 photograph; Fortuny died 1949, so the design is public domain in the EU since 2020.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.masterclass-judgement",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/8243faeb5945da08.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg",
+      "title": "Dresses by Rei Kawakubo - Sarah Stierch 02",
+      "alt_text": "Dresses by Rei Kawakubo in an exhibition view",
+      "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Sarah Stierch (photograph); Rei Kawakubo (garments) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.masterclass-data",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14781648884).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/99969ed97ba1044d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Illustrated_fashion_catalogue_-_summer%2C_1890_%281890%29_%2814781648884%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14781648884).jpg",
+      "title": "Illustrated fashion catalogue - summer, 1890 (1890) (14781648884)",
+      "alt_text": "Página del catálogo de moda de Bloomingdale Bros., verano de 1890: grabados de cuatro trajes infantiles y un traje masculino a rayas, cada uno con su número de figura y de referencia.",
+      "author": "Bloomingdale Bros. · Internet Archive Book Images",
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Bloomingdale Bros. · Internet Archive Book Images · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Anonymous corporate catalogue published in New York in 1890: the EU term for anonymous works (70 years from publication) has expired; Flickr Commons “no known copyright restrictions”.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.lab-1",
+      "asset_id": "wikimedia:File:Robe à la Française MET DT5011.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/cbd2eec73d63c0be.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg",
+      "title": "Robe à la Française MET DT5011",
+      "alt_text": "A silk robe à la française of about 1765 on a mannequin, its skirt widened at the hips by panniers.",
+      "author": "The Metropolitan Museum of Art (photograph); unknown French maker (gown)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "The Metropolitan Museum of Art (photograph); unknown French maker (gown) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by The Metropolitan Museum of Art; 18th-century garment.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-C.lab-2",
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Leonardo_da_vinci%2C_Garment_study_for_a_seated_figure.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg",
+      "title": "Leonardo da vinci, Garment study for a seated figure",
+      "alt_text": "Leonardo da Vinci garment study for a seated figure",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; 1519+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
   "slides": [
     {
       "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "geometrical",
-      "heading": "ML-C · Digital & AI depth",
-      "sentence": "A convincing depth image can still be a painter-order **lie**.",
-      "prompt": "Sister: SVG master session Round 4 · canvas-25d-content-hero"
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:1646 Athanasius Kircher - Camera obscura.jpg",
+      "heading": "What does a **machine** know about depth?",
+      "sentence": "Lecture C of three. Every camera, from a 1646 dark room to a 3-D program, **projects** a scene onto a plane — but only some of them ==know the scene==.",
+      "prompt": "Master Lecture cycle · Volume perception and depth · Digital Creativity I",
+      "image_brief": "Kircher's 1646 portable camera obscura: a person inside a box traces the projected, inverted world.",
+      "notes": "- Lecture A: the viewer builds volume. B: the rule. C: the machine.\n- Course rule: in class we use local tools only.",
+      "media_slot_id": "ML-VD-C.cover"
     },
     {
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Open",
-      "sentence": ""
+      "sentence": "",
+      "notes": "- Eight-step card, steps 1–3; add one question: which engine made this?"
     },
     {
-      "slide_id": "masterclass-1",
-      "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "1 · Projection x/z",
-      "sentence": "Flat output from a **ratio** — not from 3D vibes.",
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
-      "diagram_alt": "Flat panel to elevation to volume on a shared axis.",
-      "diagram_caption": "Projection is a transform",
-      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Cubic Structure.jpg",
+      "heading": "Every cue, and **no cloth**",
+      "body": [
+        {
+          "kicker": "Describe",
+          "text": "A white open cube stands on a checkered floor. List the cues: **cast shadow**, **shading**, the **shrinking** squares."
+        },
+        {
+          "kicker": "Engine",
+          "text": "Photograph, 3-D render or AI image? Say what in the picture **decides** — and what would not."
+        },
+        {
+          "kicker": "Critical",
+          "text": "It is a 3-D render. Perfect cues prove the **software** works. What would they prove about a garment ==made of real cloth==?"
+        }
+      ],
+      "image_brief": "A computer-rendered hollow cube on a checkered floor with soft shadows.",
+      "notes": "- Keep the cue ledger from lecture A at hand.",
+      "media_slot_id": "ML-VD-C.analysis-model"
     },
     {
-      "slide_id": "masterclass-2",
+      "slide_id": "masterclass-projection",
       "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Comparison of graphical projections.svg",
+      "heading": "Alberti's window becomes a **ratio**",
+      "sentence": "A 3-D program's virtual camera divides each point by its **depth**: twice as far, half as big. It is Alberti's construction, now computed **millions of times** a second.",
+      "quote": "Of all the projections employed in computer graphics, the perspective projection is one most widely used.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Vince 2017, 204)",
+        "href": "/lessons/en/master-lectures/volume-depth-digital/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "projection",
+          "computer-graphics"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "image_brief": "The same house drawn in multiview, axonometric, oblique and perspective projections.",
+      "notes": "- Orthographic views (CLO pattern views) do not divide by depth; perspective does.",
+      "media_slot_id": "ML-VD-C.masterclass-projection"
+    },
+    {
+      "slide_id": "figure-projection",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Alberti’s window, written as a ratio",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-c-projection-xz-32f6c73dbf40.svg",
+        "alt": "Course diagram: a camera, a picture plane at distance d, and the same garment at depth z and 2z; the farther image is half as tall. Formula: x prime equals d times x divided by z.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Read the formula aloud once: divide by depth."
+    },
+    {
+      "slide_id": "masterclass-depth-test",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Z buffer.svg",
+      "heading": "Painted order or **tested** depth?",
+      "sentence": "A 2.5-D web layer is sorted **back to front** once. A 3-D engine stores a depth value for every pixel and tests it **every frame**, so crossing shapes stay honest.",
+      "prompt": "Photogrammetry goes further and **measures** depth from many photos — but shiny, black or sheer cloth often scans badly.",
+      "image_brief": "A Z-buffer diagram: a simple 3D scene beside its depth image, nearer surfaces brighter.",
+      "notes": "- 2.5-D parallax on a portfolio site is painter's order, not 3-D.\n- Marr's 2½-D sketch: depth per point, seen from one place.",
+      "media_slot_id": "ML-VD-C.masterclass-depth-test"
+    },
+    {
+      "slide_id": "figure-engine",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Before you praise the depth, name the engine",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-c-engine-honesty-3e067f094649.svg",
+        "alt": "Course diagram in three columns: 2.5-D layers in painter's order (shapes that cross cannot both be in front); 3-D depth-tested with a Z-buffer (only as true as the model and light); AI image of learned plausibility (no scene or camera; shadows, seams and supports may disagree).",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- The Lab 1 classification uses these three labels."
+    },
+    {
+      "slide_id": "masterclass-plausible",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Giovanni Battista Piranesi - Le Carceri d'Invenzione - First Edition - 1750 - 07 - The Drawbridge.jpg",
+      "heading": "Plausible is not the same as **possible**",
+      "sentence": "Around 1750 Piranesi etched prisons whose stairs and bridges look convincing yet cannot all connect. Image generators make depth in a similar way: from **learned plausibility**, with ==no scene== behind it.",
+      "prompt": "Has the machine learned perspective, or only what perspective **looks like**?",
+      "image_brief": "Piranesi's Drawbridge: vast stairways and bridges that look solid but do not add up.",
+      "notes": "- Check an AI garment for: shadow direction, seam continuity, what holds the volume up.",
+      "media_slot_id": "ML-VD-C.masterclass-plausible"
+    },
+    {
+      "slide_id": "masterclass-construction",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Pink Delphos dress by Fortuny, 1920s.jpg",
+      "heading": "AI gives images, not **patterns**",
+      "sentence": "Fashion instructors interviewed in a 2026 study found AI tools useful for **ideas** but not for **construction**.",
+      "quote": "they just give you images; they don't actually support garment construction",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(An and Park 2026, 15)",
+        "href": "/lessons/en/master-lectures/volume-depth-digital/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "ai",
+          "fashion-education",
+          "construction"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "Fortuny's Delphos pleats are construction: no picture of them tells you how to **make** them.",
+      "image_brief": "A pink Fortuny Delphos dress, 1920s: fine pleats that hold volume through making, not drawing.",
+      "notes": "- Same study, p. 14: instructors ask for process-oriented assessment, not output counts.",
+      "media_slot_id": "ML-VD-C.masterclass-construction"
+    },
+    {
+      "slide_id": "masterclass-judgement",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 02.jpg",
+      "heading": "The tool explores; **you** judge",
+      "sentence": "Margaret Boden separates **exploring** a style from **transforming** it. A tool can explore a learned space; judging what is valuable, and breaking the rule, stays with the designer.",
+      "quote": "This example illustrates the evaluation bottleneck that lies in the way of automated transformational creativity.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 320)",
+        "href": "/lessons/en/master-lectures/volume-depth-digital/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "creativity",
+          "ai",
+          "evaluation"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "image_brief": "Comme des Garçons pieces in the 2017 Met exhibition: volumes that broke the rules of silhouette.",
+      "notes": "- Boden's Lovelace questions (2004, 16): can computers help us understand creativity, or appear creative?",
+      "media_slot_id": "ML-VD-C.masterclass-judgement"
+    },
+    {
+      "slide_id": "figure-loop",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Who decides what counts as volume?",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-c-human-machine-loop-5dc1c097cea8.svg",
+        "alt": "Course diagram: a loop of intention, constraints, machine proposal, human judgement, revision and declaration; human decisions in red, the machine move in blue; centre note, trace kept: prompt, seed, rejects, reasons.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- This loop is the Lab 2 protocol."
+    },
+    {
+      "slide_id": "masterclass-data",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14781648884).jpg",
+      "heading": "Whose pictures taught the **machine**?",
+      "sentence": "Image generators learn from millions of pictures by people who were rarely asked. The ethicist Oliver Bendel notes outputs that still showed **watermarks** from image platforms.",
+      "quote": "it was repeatedly noticed that images bore watermarks and fonts",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Bendel 2025, 440)",
+        "href": "/lessons/en/master-lectures/volume-depth-digital/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "ai",
+          "ethics",
+          "authorship"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "This 1890 catalogue illustrator is public domain today. ==Who is paid== when a living illustrator's style is learned?",
+      "image_brief": "An 1890 department-store fashion catalogue page: anonymous commercial illustration.",
+      "notes": "- Link to the course AI declaration and the S-set consent rules for student work.",
+      "media_slot_id": "ML-VD-C.masterclass-data"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
       "background_kind": "geometrical",
-      "heading": "2 · Virtual camera = Alberti",
-      "sentence": "Station point + picture plane — same cut, different UI."
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, three minutes. Then compare with a partner.",
+      "questions": [
+        "What does a virtual camera divide each point by?",
+        "How does 2.5-D decide what is in front?",
+        "What does a Z-buffer store for each pixel?",
+        "Why is an AI image plausible but not proven?",
+        "What did fashion instructors say AI cannot support?"
+      ],
+      "notes": "Answers:\n- Its depth (z).\n- By drawing order, back to front, once.\n- The nearest depth value, tested every frame.\n- It imitates cues from training images without a scene or camera.\n- Garment construction: they give images, not patterns."
     },
     {
-      "slide_id": "masterclass-3",
-      "slide_role": "masterclass",
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
       "background_kind": "geometrical",
-      "heading": "3 · Z-buffer / stereo",
-      "sentence": "2.5D sorts; true 3D ==tests== occlusion."
+      "heading": "Lab",
+      "sentence": "**Two exercises** on your own images. Local tools only — or none. Everything goes into your **portfolio index** on Canvas.",
+      "notes": "- No cloud AI in class; no classmate's image in any generator."
     },
     {
-      "slide_id": "masterclass-4",
-      "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "4 · AI plausibility",
-      "sentence": "A fold can look right and still invent support.",
-      "diagram_src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
-      "diagram_alt": "Polished volume beside a process trail recording a failed prediction.",
-      "diagram_caption": "Plausible ≠ proven",
-      "diagram_credit": "Rubén Vega Balbás · visual-forger"
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Robe à la Française MET DT5011.jpg",
+      "heading": "Exercise 1 · Name the engine",
+      "sentence": "Choose three images: a **photo**, a **3-D render** and an **AI image** of garments. For each, name the engine and one depth cue that could be ==lying==.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Upload the three with labels — projection · depth-tested · learned plausibility — and the **cue you doubt**.",
+      "card_link": {
+        "href": "/lessons/en/master-lectures/volume-depth-digital/#exercise-1--name-the-engine-25",
+        "label": "Checklist in the lesson"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "A real 1765 robe à la française: the photographed volume to compare renders against.",
+      "notes": "- Credit every image you did not make.",
+      "media_slot_id": "ML-VD-C.lab-1"
     },
     {
-      "slide_id": "masterclass-5",
-      "slide_role": "masterclass",
-      "background_kind": "geometrical",
-      "heading": "5 · Bridge to I.6",
-      "sentence": "Classify the engine — then run a **fit/drape** test."
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "heading": "Exercise 2 · A declared collaboration",
+      "sentence": "Make one garment view with a **local** tool (a 3-D program or an offline generator) and judge it against a photo of a real garment. Keep **prompt, settings, rejects and reasons**.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Submit the pair, your loop trace and an AI declaration: what did the machine propose, and what did ==you decide==?",
+      "card_link": {
+        "href": "/lessons/en/master-lectures/volume-depth-digital/#exercise-2--a-declared-collaboration-25",
+        "label": "Protocol in the lesson"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Leonardo's drapery study: the human judgement of folds the machine must be measured against.",
+      "notes": "- Doing it with no tool at all, by hand, is a valid choice: say why.",
+      "media_slot_id": "ML-VD-C.lab-2"
     },
     {
       "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Cue literacy · construction · engine honesty — behaviour still owns I.6."
+      "sentence": "Volume on a screen is a **claim** made by an engine. In I.6, test the real garment: ==behaviour==, not appearance, decides fit.",
+      "notes": "- Series complete: perceive (A) · construct (B) · compute (C)."
     }
   ],
   "schema_version": 2

@@ -2,56 +2,114 @@
 layout: null
 ---
 {
-  "unit_label": "Master Lecture · Seeing volume",
-  "final_event_theme": "Volume Perception & Depth Representation · A",
+  "unit_label": "Volume and depth · Lecture A of 3",
+  "locale": "en",
+  "final_event_theme": "What does a flat image ask a viewer to infer — and what can it never prove about a garment?",
   "media_selection": {
     "unit_id": "ML-VD-A",
     "project_id": "ml",
-    "collection": "ml-vd-a-volume-depth",
+    "collection": "unit-accepted",
     "strategy": "slide-bound-asset_id",
-    "description": "PHASE-V3: four human-accepted Commons stills (depth cues · vanishing · Venetian plate · visual cliff)."
+    "description": "Slides bind by asset_id; rehydrate uses bindSlides (no rank dealing)."
   },
   "assets": [
     {
       "media_slot_id": "ML-VD-A.cover",
-      "asset_id": "wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/52de9862187535a4.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/The_Venetian_School_of_Painting_%281912%29_%2814597540617%29.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg",
-      "title": "The Venetian School of Painting (1912)",
-      "alt_text": "Historical book plate from The Venetian School of Painting showing foreshortened figure volume",
-      "author": "Internet Archive Book Images",
-      "licence": "PD",
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Leonardo_da_vinci%2C_Garment_study_for_a_seated_figure.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg",
+      "title": "Leonardo da vinci, Garment study for a seated figure",
+      "alt_text": "Leonardo da Vinci garment study for a seated figure",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Internet Archive Book Images · Wikimedia Commons",
-      "author_death_year": null,
-      "eu_term_ok": false,
-      "eu_term_reason": "Book scan PD statement — verify before commercial reuse",
-      "rights_status": "flagged",
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; 1519+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
       "cropped": false
     },
     {
       "media_slot_id": "ML-VD-A.analysis-model",
-      "asset_id": "wikimedia:File:Eye level and vanishing point diagram japanese.svg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/84057bc32cd0e64b.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Eye_level_and_vanishing_point_diagram_japanese.svg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg",
-      "title": "Eye level and vanishing point diagram",
-      "alt_text": "Diagram of eye level and vanishing point in linear perspective",
-      "author": "すじにくシチュー",
-      "licence": "CC0-1.0",
-      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset_id": "wikimedia:File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/2c784043003df3d0.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg",
+      "title": "Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project",
+      "alt_text": "Caillebotte’s 1877 painting of a Paris street in the rain: fashionable walkers under umbrellas, paving stones shrinking toward the distance.",
+      "author": "Gustave Caillebotte",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "すじにくシチュー · Wikimedia Commons",
-      "author_death_year": null,
+      "credit_line": "Gustave Caillebotte · Wikimedia Commons",
+      "author_death_year": 1894,
       "eu_term_ok": true,
-      "eu_term_reason": "CC0 dedication",
+      "eu_term_reason": "Author died 1894; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.masterclass-paradox",
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/a7fe225309618a85.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg",
+      "title": "Dresses by Rei Kawakubo - Sarah Stierch 01",
+      "alt_text": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "author": "Sarah Stierch (photograph); Rei Kawakubo (garments)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Sarah Stierch (photograph); Rei Kawakubo (garments) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "CC photo of contemporary garments — garment design copyright may still run; flagged",
       "rights_status": "flagged",
       "cropped": false
     },
     {
-      "media_slot_id": "ML-VD-A.masterclass-4",
+      "media_slot_id": "ML-VD-A.masterclass-inverse",
+      "asset_id": "wikimedia:File:Ames room.svg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/fcc3b86fe739b009.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ames_room.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ames_room.svg",
+      "title": "Ames room",
+      "alt_text": "Diagram of an Ames room: a trapezoidal room seen through a peephole looks rectangular, so two people at different distances appear giant and tiny.",
+      "author": "Alex valavanis",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Alex valavanis · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Released into the public domain by its author on Wikimedia Commons.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.masterclass-inference",
+      "asset_id": "wikimedia:File:Crater illusion.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/bdef7ce13fec1e61.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Crater_illusion.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Crater_illusion.jpg",
+      "title": "Crater illusion",
+      "alt_text": "Two lunar orbiter photographs of the same crater; rotated 180 degrees, the hollow crater reads as a raised dome.",
+      "author": "NASA / GSFC / Arizona State University",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "NASA / GSFC / Arizona State University · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Work of the US federal government (NASA): no copyright.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.masterclass-ecology",
       "asset_id": "wikimedia:File:NIH visual cliff experiment (cropped).png",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/b9f4e3d6aa856453.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/NIH_visual_cliff_experiment_%28cropped%29.png",
@@ -70,7 +128,7 @@ layout: null
       "cropped": true
     },
     {
-      "media_slot_id": "ML-VD-A.masterclass-5",
+      "media_slot_id": "ML-VD-A.masterclass-cues",
       "asset_id": "wikimedia:File:Depth cues 1.png",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/60a50b4472b6540e.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Depth_cues_1.png",
@@ -87,6 +145,63 @@ layout: null
       "eu_term_reason": "CC-BY-SA modern diagram — attribution required",
       "rights_status": "flagged",
       "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.masterclass-creativity",
+      "asset_id": "wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/52de9862187535a4.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/The_Venetian_School_of_Painting_%281912%29_%2814597540617%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg",
+      "title": "The Venetian School of Painting (1912)",
+      "alt_text": "Black-and-white 1912 book plate of a crowded Venetian Adoration of the Magi: figures in rich garments stacked up the picture rather than receding to one vanishing point.",
+      "author": "Internet Archive Book Images",
+      "licence": "PD",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Internet Archive Book Images · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "Book scan PD statement — verify before commercial reuse",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.lab-1",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/affb13f5f7c9d0f8.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Illustrated_fashion_catalogue_-_summer%2C_1890_%281890%29_%2814803821793%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14803821793).jpg",
+      "title": "Illustrated fashion catalogue - summer, 1890 (1890) (14803821793)",
+      "alt_text": "Illustrated fashion catalogue page from summer 1890",
+      "author": "Unknown catalogue illustrator (1890)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown catalogue illustrator (1890) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous US catalogue 1890; EU term from publication expired",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-A.lab-2",
+      "asset_id": "wikimedia:File:Museo del Traje - MT111885 - Vestido Delphos.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/74abb5b761dcf38a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Museo_del_Traje_-_MT111885_-_Vestido_Delphos.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Museo_del_Traje_-_MT111885_-_Vestido_Delphos.jpg",
+      "title": "Museo del Traje - MT111885 - Vestido Delphos",
+      "alt_text": "A long black finely pleated silk Delphos gown on a mannequin.",
+      "author": "Museo del Traje (photograph); Mariano Fortuny y Madrazo (gown)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Museo del Traje (photograph); Mariano Fortuny y Madrazo (gown) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 photograph released by the Museo del Traje; Fortuny died 1949, so the design is public domain in the EU since 2020.",
+      "rights_status": "ok",
+      "cropped": false
     }
   ],
   "slides": [
@@ -94,85 +209,244 @@ layout: null
       "slide_id": "cover",
       "slide_role": "unit_cover",
       "background_kind": "curated",
-      "fallback_background_kind": "geometrical",
-      "heading": "ML-A · Seeing volume",
-      "sentence": "Volume on a flat picture is an **inference** problem.",
-      "prompt": "Enrichment · not a CONTENIDOS row",
-      "media_slot_id": "ML-VD-A.cover",
-      "asset_id": "wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg"
+      "asset_id": "wikimedia:File:Leonardo da vinci, Garment study for a seated figure.jpg",
+      "heading": "How does a flat picture make **volume**?",
+      "sentence": "Lecture A of three. The volume you see in a picture is not in the paper or the pixels: **your eye and brain build it**.",
+      "prompt": "Master Lecture cycle · Volume perception and depth · Digital Creativity I",
+      "image_brief": "Leonardo's drapery study: a seated figure's folds made only of light and shade on a flat sheet.",
+      "notes": "- Session: analysis 15′ · masterclass 40′ · Lab 50′ · share 15′.\n- Ask first: is there any volume on this sheet of paper?",
+      "media_slot_id": "ML-VD-A.cover"
     },
     {
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Open",
-      "sentence": ""
+      "sentence": "",
+      "notes": "- Use the eight-step card from the fashion image analysis lecture; stop at step 3 (forms)."
     },
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
       "background_kind": "curated",
-      "fallback_background_kind": "geometrical",
-      "heading": "Linear perspective as one cue",
-      "sentence": "Eye level and vanishing point organise the box — they do not prove fit.",
-      "media_slot_id": "ML-VD-A.analysis-model",
-      "asset_id": "wikimedia:File:Eye level and vanishing point diagram japanese.svg"
+      "asset_id": "wikimedia:File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+      "heading": "A rainy street in **1877**, read for depth",
+      "body": [
+        {
+          "kicker": "Describe",
+          "text": "Gustave Caillebotte painted Paris in **1877**: umbrellas, top hats, a long coat, wet paving stones. Say what is **near** and what is **far**."
+        },
+        {
+          "kicker": "Cues",
+          "text": "Which clues tell you? Look at the **shrinking stones**, the **overlapping bodies** and the **size** of the distant walkers."
+        },
+        {
+          "kicker": "Critical",
+          "text": "The couple's clothes look solid and heavy. What does the painting ==not tell you== about how those clothes fit?"
+        }
+      ],
+      "image_brief": "Caillebotte's Paris Street; Rainy Day: fashionable walkers, paving that compresses toward the distance.",
+      "notes": "- Model the first block aloud; pairs do the rest.\n- Keep the answers: they return in the cue ledger.",
+      "media_slot_id": "ML-VD-A.analysis-model"
     },
     {
-      "slide_id": "masterclass-1",
-      "slide_role": "masterclass",
-      "background_kind": "geometrical",
-      "heading": "1 · Paradox",
-      "sentence": "One silhouette can hide ==several honest volumes==."
-    },
-    {
-      "slide_id": "masterclass-2",
-      "slide_role": "masterclass",
-      "background_kind": "geometrical",
-      "heading": "2 · Inverse problem",
-      "sentence": "Perception recovers depth the picture **underdetermines**."
-    },
-    {
-      "slide_id": "masterclass-3",
-      "slide_role": "masterclass",
-      "background_kind": "geometrical",
-      "heading": "3 · Helmholtz frame",
-      "sentence": "Unconscious inference from prior experience — orientation, not dogma."
-    },
-    {
-      "slide_id": "masterclass-4",
+      "slide_id": "masterclass-paradox",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "heading": "4 · Gibson frame",
-      "sentence": "Gibson’s visual cliff: depth as ==ecological== affordance, not only inference.",
-      "fallback_background_kind": "geometrical",
-      "media_slot_id": "ML-VD-A.masterclass-4",
-      "asset_id": "wikimedia:File:NIH visual cliff experiment (cropped).png"
+      "asset_id": "wikimedia:File:Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "heading": "One silhouette, **several** honest volumes",
+      "sentence": "Rei Kawakubo builds garments that do not follow the body's outline. From one view, the eye cannot tell **padding** from **body**: the silhouette alone does not decide the volume.",
+      "prompt": "Photographed in the 2017 Kawakubo exhibition at the Met, New York. Which **second view** would settle the question?",
+      "image_brief": "Black Comme des Garçons pieces on stands: silhouettes that hide where the body ends.",
+      "notes": "- The paradox of the whole lecture: a flat outline fits many volumes.\n- Ask for the cheapest second view: side, back, or movement?",
+      "media_slot_id": "ML-VD-A.masterclass-paradox"
     },
     {
-      "slide_id": "masterclass-5",
+      "slide_id": "masterclass-inverse",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "fallback_background_kind": "geometrical",
-      "heading": "5 · Cue table",
-      "sentence": "Occlusion · size · perspective · texture · aerial — name **three**.",
-      "media_slot_id": "ML-VD-A.masterclass-5",
-      "asset_id": "wikimedia:File:Depth cues 1.png"
+      "asset_id": "wikimedia:File:Ames room.svg",
+      "heading": "Seeing solves an **inverse** problem",
+      "sentence": "Many different scenes can send the **same image** to the eye. Seeing depth means choosing one of them — and the choice can be ==wrong==.",
+      "prompt": "In an **Ames room**, a slanted room seen through a peephole looks square, so two people of the same height look like a giant and a child.",
+      "image_brief": "Plan of an Ames room: the far corner is much deeper than it looks from the peephole.",
+      "notes": "- Adelbert Ames Jr. built the room in 1946.\n- The eye prefers 'square room' over 'equal people': a learned bet.",
+      "media_slot_id": "ML-VD-A.masterclass-inverse"
     },
     {
-      "slide_id": "masterclass-6",
+      "slide_id": "figure-inverse",
       "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "One picture, many worlds",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-a-inverse-problem-81f96c33dbac.svg",
+        "alt": "Course diagram: an eye looks through a flat picture plane; a small near card, a tilted plank and a large far card all fill the same two rays and cast the same red image, so the picture alone cannot say which world is there.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Point to the three objects: same image, three worlds.\n- This is why a fashion still needs a second view."
+    },
+    {
+      "slide_id": "masterclass-inference",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Crater illusion.jpg",
+      "heading": "The brain **bets** that light comes from above",
+      "sentence": "In the 1860s Hermann von Helmholtz called seeing **unconscious inference**: a fast guess from experience. Turn this lunar crater upside down and the hollow becomes a **dome**.",
+      "prompt": "Your folds obey the same bet: light a pleat from below and ==it can turn inside out==.",
+      "image_brief": "The same lunar crater twice, rotated 180°: hollow on one side, dome on the other.",
+      "notes": "- Rotate a phone photo of a quilted jacket: the quilting flips too.\n- Helmholtz: Handbook of Physiological Optics, vol. 3 (1867).",
+      "media_slot_id": "ML-VD-A.masterclass-inference"
+    },
+    {
+      "slide_id": "masterclass-ecology",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:NIH visual cliff experiment (cropped).png",
+      "heading": "Depth as something you can **fall into**",
+      "sentence": "In 1960 Eleanor Gibson and Richard Walk placed babies on glass over a drop. Most would not crawl across the **visual cliff**: they read depth as **danger**, not as theory.",
+      "prompt": "James J. Gibson argued that a **moving** viewer picks up depth directly from texture, flow and horizon in the light.",
+      "image_brief": "An infant on the glass of the visual cliff apparatus, a checkered drop below.",
+      "notes": "- Gibson (1979): the ecological approach; motion parallax and optic flow.\n- Studio translation: walk around the garment before you trust one photo.",
+      "media_slot_id": "ML-VD-A.masterclass-ecology"
+    },
+    {
+      "slide_id": "figure-frames",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Three ways to explain seeing depth",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-a-three-frames-d0881c358931.svg",
+        "alt": "Course diagram in three columns: Helmholtz 1867, inference, test by moving the light; Gibson 1979, pick-up, test by walking around the garment; Marr 1982, computation from image to sketch to 2½-D sketch to 3-D model, test by naming the stage your software works at.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Frames, not dogma: each one gives a different studio test.\n- Marr's 2½-D sketch returns in lecture C."
+    },
+    {
+      "slide_id": "masterclass-cues",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Depth cues 1.png",
+      "heading": "Seven clues a flat picture can **give**",
+      "sentence": "Occlusion, relative size, perspective, texture, haze, shading and motion parallax let a flat image suggest depth. Each one is a **clue**, ==not proof==.",
+      "image_brief": "A diagram plate of pictorial depth cues: overlap, size, convergence.",
+      "notes": "- Ask pairs to find four of the seven in the Caillebotte painting.\n- Binocular cues (two eyes) are what a flat picture cannot give.",
+      "media_slot_id": "ML-VD-A.masterclass-cues"
+    },
+    {
+      "slide_id": "figure-cue-ledger",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "What a cue proves — and what it cannot",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-a-cue-ledger-0c9502289438.svg",
+        "alt": "Course diagram: a table of seven depth cues, each with what it can show and, in red, what it cannot prove about a garment, from occlusion (not the ease underneath) to motion parallax (not how the garment itself moves).",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- This table is the Lab 1 worksheet."
+    },
+    {
+      "slide_id": "masterclass-creativity",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:The Venetian School of Painting (1912) (14597540617).jpg",
+      "heading": "Pictorial revolutions start in **perception**",
+      "sentence": "The cognitive scientist Margaret Boden argues that Renaissance perspective and Cubism were both creative because they **worked on** how the mind turns flat images into scenes.",
+      "quote": "the set of psychological processes that make it possible for the mind to interpret two-dimensional images as depicting three-dimensional scenes",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 23)",
+        "href": "/lessons/en/master-lectures/volume-depth-perception/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "creativity",
+          "perception",
+          "depth"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "An image is creative when it changes **what a viewer infers**, not when it adds more detail.",
+      "image_brief": "A 1912 book plate of a crowded Venetian Adoration: rich garments stacked up the picture instead of receding to one point.",
+      "notes": "- Boden 2004, 22–23: perspective and Cubism grounded in the same 2D→3D processes.\n- Point at the plate: depth by stacking, before one measured box.",
+      "media_slot_id": "ML-VD-A.masterclass-creativity"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
       "background_kind": "geometrical",
-      "heading": "6 · Studio ask",
-      "sentence": "On one fashion still, name three cues — and what **fit** they cannot prove.",
-      "notes": "Use the cover plate as the studio still if no student phone photo is ready."
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, three minutes. Then compare with a partner.",
+      "questions": [
+        "Why can one flat image fit **many** 3D scenes?",
+        "What did Helmholtz call seeing?",
+        "What did babies do at the visual cliff?",
+        "Name **three** pictorial depth cues.",
+        "Which depth cue can prove how a garment **fits**?"
+      ],
+      "notes": "Answers:\n- The eye receives a 2D projection: the inverse problem.\n- Unconscious inference.\n- Most refused to crawl over the drop.\n- Any three of occlusion, size, perspective, texture, haze, shading, motion parallax.\n- None: a cue is evidence about the picture, not the body."
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab",
+      "sentence": "**Two exercises** with your phone and one garment. Everything you make goes into your **portfolio index** on Canvas.",
+      "notes": "- Consent first: photograph a classmate only if they say yes; a garment on a hanger is enough."
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "heading": "Exercise 1 · Cue audit",
+      "sentence": "Photograph one garment from the front. Mark **three depth cues** on the photo and write what each one ==cannot prove== about fit.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Upload the marked photo with three lines: **cue** · what it shows · what it **cannot prove**.",
+      "card_link": {
+        "href": "/lessons/en/master-lectures/volume-depth-perception/#exercise-1--cue-audit-25",
+        "label": "Worksheet and example in the lesson"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "An 1890 fashion catalogue page: engraved dresses whose volume is drawn with line and hatching.",
+      "notes": "- Use the cue ledger as the worksheet.\n- Strong answers name the missing second view.",
+      "media_slot_id": "ML-VD-A.lab-1"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Museo del Traje - MT111885 - Vestido Delphos.jpg",
+      "heading": "Exercise 2 · Flip the light",
+      "sentence": "Light the same folds twice with a phone torch: once **from above**, once **from below**. Find the frame where a hollow reads as a **bump**.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Keep both frames and one sentence: which bet did your eye make, and which view would **correct** it?",
+      "card_link": {
+        "href": "/lessons/en/master-lectures/volume-depth-perception/#exercise-2--flip-the-light-25",
+        "label": "Set-up in the lesson"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Fortuny's black Delphos gown in the Museo del Traje, Madrid: pleats whose depth exists only in light.",
+      "notes": "- Pleated or quilted fabric works best; dark room, torch at 45°.\n- No AI needed today.",
+      "media_slot_id": "ML-VD-A.lab-2"
     },
     {
       "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
-      "heading": "Bridge · I.5 then I.6",
-      "sentence": "Carry cue names into multi-view — leave behaviour for I.6."
+      "heading": "Carry forward",
+      "sentence": "Volume in a picture is **built by the viewer**. Lecture B asks who wrote the rules of that picture: ==whose eye== does perspective assume?",
+      "notes": "- Portfolio entry before the next session."
     }
   ],
   "schema_version": 2

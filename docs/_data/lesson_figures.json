@@ -663,75 +663,183 @@
       "caption_html": "<span class=\"slide-caption__title\">Dürer - Man Drawing a Lute</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:D%C3%BCrer_-_Man_Drawing_a_Lute.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-1": {
-      "src": "/assets/images/deck-media/9a622f353e4e1772.webp",
-      "alt": "Plate from Dürer Underweysung der Messung showing measurement construction",
-      "caption_html": "<span class=\"slide-caption__title\">Dürer Underweysung der Messung 181</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_181.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
+    "analysis-model": {
+      "src": "/assets/images/deck-media/3b8e9ba9b77f6312.webp",
+      "alt": "Masaccio’s Holy Trinity fresco, about 1425: a painted barrel vault that recedes to a single vanishing point at the viewer’s eye level.",
+      "caption_html": "<span class=\"slide-caption__title\">Masaccio, trinità</span> · <span class=\"slide-caption__author\">Masaccio</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Masaccio,_trinit%C3%A0.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     },
-    "masterclass-2": {
+    "masterclass-window": {
       "src": "/assets/images/deck-media/8b9edff7f4ed9386.webp",
       "alt": "Perspective construction plate from Alberti Della pittura showing vanishing-point geometry",
       "caption_html": "<span class=\"slide-caption__title\">Della Pittura Alberti perspective vanishing point</span> · <span class=\"slide-caption__author\">Leon Battista Alberti</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Della_Pittura_Alberti_perspective_vanishing_point.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
-    "masterclass-5": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-5e69c5149013.svg",
-      "alt": "Psychophysiological space contrasted with mathematical perspective space.",
-      "caption_html": "<span class=\"slide-caption__title\">P1 · Psycho vs mathematical space</span> · <span class=\"slide-caption__author\">Course perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+    "masterclass-eye": {
+      "src": "/assets/images/deck-media/73bb388bdbc19d65.webp",
+      "alt": "Piero della Francesca’s Flagellation: a measured architectural space with a tiled floor, three robed men in the foreground and a scene deep behind.",
+      "caption_html": "<span class=\"slide-caption__title\">Piero - The Flagellation</span> · <span class=\"slide-caption__author\">Piero della Francesca</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Piero_-_The_Flagellation.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "graphic-p5": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-708c927932cd.svg",
-      "alt": "Central vanishing-point construction diagram.",
-      "caption_html": "<span class=\"slide-caption__title\">P5 · Central vanishing point</span> · <span class=\"slide-caption__author\">Course perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+    "masterclass-symbolic": {
+      "src": "/assets/images/deck-media/9f3a4cf68ffeb417.webp",
+      "alt": "Japanese uki-e woodblock print by Utagawa Toyoharu: an Edo theatre district drawn in imported Western perspective, crowds in kimono receding along the street.",
+      "caption_html": "<span class=\"slide-caption__title\">Perspective Picture (Uki-e)- Theater District at Dawn on Opening Day of the Kabuki Season (IA mma perspective picture ukie theater district at dawn on opening day of the 36669)</span> · <span class=\"slide-caption__author\">Utagawa Toyoharu</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Perspective_Picture_(Uki-e)-_Theater_District_at_Dawn_on_Opening_Day_of_the_Kabuki_Season_(IA_mma_perspective_picture_ukie_theater_district_at_dawn_on_opening_day_of_the_36669).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-6": {
-      "src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-71af54a9678b.svg",
-      "alt": "Fashion multi-view diagram that still cannot prove fit.",
-      "caption_html": "<span class=\"slide-caption__title\">P6 · Multi-view is not fit proof</span> · <span class=\"slide-caption__author\">Course perspective-kit</span> · <span>Original course illustration · all rights reserved</span>",
+    "masterclass-sword": {
+      "src": "/assets/images/deck-media/5a45c628d9775b7c.webp",
+      "alt": "Holbein’s The Ambassadors, 1533: two richly dressed men beside instruments; a stretched skull across the floor becomes legible only from one oblique point.",
+      "caption_html": "<span class=\"slide-caption__title\">Hans Holbein the Younger - The Ambassadors - Google Art Project</span> · <span class=\"slide-caption__author\">Hans Holbein the Younger</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-gaze": {
+      "src": "/assets/images/deck-media/0c2262302a302a30.webp",
+      "alt": "Dürer’s woodcut: a draughtsman looks through a gridded frame at a reclining, partly draped woman and copies her onto squared paper.",
+      "caption_html": "<span class=\"slide-caption__title\">Draughtsman Making a Perspective Drawing of a Reclining Woman MET DP816489</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Draughtsman_Making_a_Perspective_Drawing_of_a_Reclining_Woman_MET_DP816489.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-multiview": {
+      "src": "/assets/images/deck-media/cbd2eec73d63c0be.webp",
+      "alt": "A silk robe à la française of about 1765 on a mannequin, its skirt widened at the hips by panniers.",
+      "caption_html": "<span class=\"slide-caption__title\">Robe à la Française MET DT5011</span> · <span class=\"slide-caption__author\">The Metropolitan Museum of Art (photograph); unknown French maker (gown)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/da969366f7ea1d20.webp",
+      "alt": "Piero’s Madonna del Parto: a pregnant Virgin in a blue gown opened at the front, framed by two angels holding back a tent.",
+      "caption_html": "<span class=\"slide-caption__title\">Madonna del parto piero della Francesca</span> · <span class=\"slide-caption__author\">Piero della Francesca</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Madonna_del_parto_piero_della_Francesca.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/0934c6356384f204.webp",
+      "alt": "Detail of the Qingming scroll: a bridge crowded with people, boats and shops, drawn from a high, travelling viewpoint without one vanishing point.",
+      "caption_html": "<span class=\"slide-caption__title\">Along the River During the Qingming Festival (detail of original)</span> · <span class=\"slide-caption__author\">Zhang Zeduan</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     }
   },
   "volume-depth-digital": {
-    "masterclass-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
-      "alt": "Flat panel to elevation to volume on a shared axis.",
-      "caption_html": "<span class=\"slide-caption__title\">Projection is a transform</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
+    "cover": {
+      "src": "/assets/images/deck-media/615df243ed4970ea.webp",
+      "alt": "Kircher’s 1646 engraving of a portable camera obscura: a person inside a box traces the inverted image projected through small openings.",
+      "caption_html": "<span class=\"slide-caption__title\">1646 Athanasius Kircher - Camera obscura</span> · <span class=\"slide-caption__author\">Athanasius Kircher</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:1646_Athanasius_Kircher_-_Camera_obscura.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
-    "masterclass-4": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
-      "alt": "Polished volume beside a process trail recording a failed prediction.",
-      "caption_html": "<span class=\"slide-caption__title\">Plausible ≠ proven</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
+    "analysis-model": {
+      "src": "/assets/images/deck-media/c9c84626ccfb914a.webp",
+      "alt": "A computer-rendered hollow white cube standing on a blue and green checkered floor, with soft shading and cast shadows.",
+      "caption_html": "<span class=\"slide-caption__title\">Cubic Structure</span> · <span class=\"slide-caption__author\">Dominicos (Wikimedia Commons user)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Cubic_Structure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-projection": {
+      "src": "/assets/images/deck-media/187d0facfadeb354.webp",
+      "alt": "Chart comparing graphical projections of the same house: multiview, axonometric, oblique and perspective.",
+      "caption_html": "<span class=\"slide-caption__title\">Comparison of graphical projections</span> · <span class=\"slide-caption__author\">Cmglee (Wikimedia Commons user)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Comparison_of_graphical_projections.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-depth-test": {
+      "src": "/assets/images/deck-media/10ea743f3ea99e0f.webp",
+      "alt": "Diagram of a Z-buffer: a simple 3D scene and its depth image, where nearer surfaces are brighter.",
+      "caption_html": "<span class=\"slide-caption__title\">Z buffer</span> · <span class=\"slide-caption__author\">-Zeus- (Wikimedia Commons user)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Z_buffer.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-plausible": {
+      "src": "/assets/images/deck-media/c1af268770cfe9e9.webp",
+      "alt": "Piranesi’s etching The Drawbridge from the Imaginary Prisons: vast stairways and bridges that look convincing but cannot all connect.",
+      "caption_html": "<span class=\"slide-caption__title\">Giovanni Battista Piranesi - Le Carceri d&#39;Invenzione - First Edition - 1750 - 07 - The Drawbridge</span> · <span class=\"slide-caption__author\">Giovanni Battista Piranesi</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi_-_Le_Carceri_d%27Invenzione_-_First_Edition_-_1750_-_07_-_The_Drawbridge.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-construction": {
+      "src": "/assets/images/deck-media/d3a43bbac02a702a.webp",
+      "alt": "A pink pleated Delphos gown by Fortuny on a display figure; the fine pleats fall straight to the floor.",
+      "caption_html": "<span class=\"slide-caption__title\">Pink Delphos dress by Fortuny, 1920s</span> · <span class=\"slide-caption__author\">Mabalu (photograph); Mariano Fortuny (dress)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Pink_Delphos_dress_by_Fortuny%2C_1920s.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-judgement": {
+      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
+      "alt": "Dresses by Rei Kawakubo in an exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-data": {
+      "src": "/assets/images/deck-media/99969ed97ba1044d.webp",
+      "alt": "Página del catálogo de moda de Bloomingdale Bros., verano de 1890: grabados de cuatro trajes infantiles y un traje masculino a rayas, cada uno con su número de figura y de referencia.",
+      "caption_html": "<span class=\"slide-caption__title\">Illustrated fashion catalogue - summer, 1890 (1890) (14781648884)</span> · <span class=\"slide-caption__author\">Bloomingdale Bros. · Internet Archive Book Images</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14781648884).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/cbd2eec73d63c0be.webp",
+      "alt": "A silk robe à la française of about 1765 on a mannequin, its skirt widened at the hips by panniers.",
+      "caption_html": "<span class=\"slide-caption__title\">Robe à la Française MET DT5011</span> · <span class=\"slide-caption__author\">The Metropolitan Museum of Art (photograph); unknown French maker (gown)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "alt": "Leonardo da Vinci garment study for a seated figure",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo da vinci, Garment study for a seated figure</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     }
   },
   "volume-depth-perception": {
     "cover": {
-      "src": "/assets/images/deck-media/52de9862187535a4.webp",
-      "alt": "Historical book plate from The Venetian School of Painting showing foreshortened figure volume",
-      "caption_html": "<span class=\"slide-caption__title\">The Venetian School of Painting (1912)</span> · <span class=\"slide-caption__author\">Internet Archive Book Images</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">PD</a> · <a href=\"https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
+      "src": "/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "alt": "Leonardo da Vinci garment study for a seated figure",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo da vinci, Garment study for a seated figure</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     },
     "analysis-model": {
-      "src": "/assets/images/deck-media/84057bc32cd0e64b.webp",
-      "alt": "Diagram of eye level and vanishing point in linear perspective",
-      "caption_html": "<span class=\"slide-caption__title\">Eye level and vanishing point diagram</span> · <span class=\"slide-caption__author\">すじにくシチュー</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0-1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Eye_level_and_vanishing_point_diagram_japanese.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "src": "/assets/images/deck-media/2c784043003df3d0.webp",
+      "alt": "Caillebotte’s 1877 painting of a Paris street in the rain: fashionable walkers under umbrellas, paving stones shrinking toward the distance.",
+      "caption_html": "<span class=\"slide-caption__title\">Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project</span> · <span class=\"slide-caption__author\">Gustave Caillebotte</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-paradox": {
+      "src": "/assets/images/deck-media/a7fe225309618a85.webp",
+      "alt": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 01</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
-    "masterclass-4": {
+    "masterclass-inverse": {
+      "src": "/assets/images/deck-media/fcc3b86fe739b009.webp",
+      "alt": "Diagram of an Ames room: a trapezoidal room seen through a peephole looks rectangular, so two people at different distances appear giant and tiny.",
+      "caption_html": "<span class=\"slide-caption__title\">Ames room</span> · <span class=\"slide-caption__author\">Alex valavanis</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Ames_room.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-inference": {
+      "src": "/assets/images/deck-media/bdef7ce13fec1e61.webp",
+      "alt": "Two lunar orbiter photographs of the same crater; rotated 180 degrees, the hollow crater reads as a raised dome.",
+      "caption_html": "<span class=\"slide-caption__title\">Crater illusion</span> · <span class=\"slide-caption__author\">NASA / GSFC / Arizona State University</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Crater_illusion.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-ecology": {
       "src": "/assets/images/deck-media/b9f4e3d6aa856453.webp",
       "alt": "Infant on a glass visual cliff apparatus used in Gibson and Walk depth-perception research",
       "caption_html": "<span class=\"slide-caption__title\">NIH visual cliff experiment (cropped)</span> · <span class=\"slide-caption__author\">Gibson and Walk (1960) via NIH / Nature Publishing Group</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:NIH_visual_cliff_experiment_(cropped).png\" target=\"_blank\" rel=\"noopener\">Source</a> · <span>cropped</span>",
       "rights_status": "flagged"
     },
-    "masterclass-5": {
+    "masterclass-cues": {
       "src": "/assets/images/deck-media/60a50b4472b6540e.webp",
       "alt": "Diagram plate of pictorial depth cues including occlusion, size, and perspective",
       "caption_html": "<span class=\"slide-caption__title\">Depth cues 1</span> · <span class=\"slide-caption__author\">Brazzit</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Depth_cues_1.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
+    },
+    "masterclass-creativity": {
+      "src": "/assets/images/deck-media/52de9862187535a4.webp",
+      "alt": "Black-and-white 1912 book plate of a crowded Venetian Adoration of the Magi: figures in rich garments stacked up the picture rather than receding to one vanishing point.",
+      "caption_html": "<span class=\"slide-caption__title\">The Venetian School of Painting (1912)</span> · <span class=\"slide-caption__author\">Internet Archive Book Images</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">PD</a> · <a href=\"https://commons.wikimedia.org/wiki/File:The_Venetian_School_of_Painting_(1912)_(14597540617).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/affb13f5f7c9d0f8.webp",
+      "alt": "Illustrated fashion catalogue page from summer 1890",
+      "caption_html": "<span class=\"slide-caption__title\">Illustrated fashion catalogue - summer, 1890 (1890) (14803821793)</span> · <span class=\"slide-caption__author\">Unknown catalogue illustrator (1890)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14803821793).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/74abb5b761dcf38a.webp",
+      "alt": "A long black finely pleated silk Delphos gown on a mannequin.",
+      "caption_html": "<span class=\"slide-caption__title\">Museo del Traje - MT111885 - Vestido Delphos</span> · <span class=\"slide-caption__author\">Museo del Traje (photograph); Mariano Fortuny y Madrazo (gown)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Museo_del_Traje_-_MT111885_-_Vestido_Delphos.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     }
   }
 }

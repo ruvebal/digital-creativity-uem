@@ -2,14 +2,15 @@
 layout: null
 ---
 {
-  "unit_label": "Master Lecture · Constructing space",
-  "final_event_theme": "Volume Perception & Depth Representation · B",
+  "unit_label": "Volume and depth · Lecture B of 3",
+  "locale": "en",
+  "final_event_theme": "Who wrote the rules of pictorial space — and whose eye do they assume?",
   "media_selection": {
     "unit_id": "ML-VD-B",
     "project_id": "ml",
-    "collection": "perspective-kit",
-    "strategy": "kit-full-graphics",
-    "description": "PHASE-V3/V4: perspective-kit P1–P5 full graphics + accepted Dürer Commons stills with download URLs."
+    "collection": "unit-accepted",
+    "strategy": "slide-bound-asset_id",
+    "description": "Slides bind by asset_id; rehydrate uses bindSlides (no rank dealing)."
   },
   "assets": [
     {
@@ -32,26 +33,26 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "ML-VD-B.masterclass-1",
-      "asset_id": "wikimedia:File:Duerer Underweysung der Messung 181.jpg",
-      "asset_url": "/digital-creativity-uem/assets/images/deck-media/9a622f353e4e1772.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Duerer_Underweysung_der_Messung_181.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Duerer_Underweysung_der_Messung_181.jpg",
-      "title": "Dürer Underweysung der Messung 181",
-      "alt_text": "Plate from Dürer Underweysung der Messung showing measurement construction",
-      "author": "Albrecht Dürer",
-      "licence": "PD-old-100",
+      "media_slot_id": "ML-VD-B.analysis-model",
+      "asset_id": "wikimedia:File:Masaccio, trinità.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/3b8e9ba9b77f6312.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Masaccio%2C_trinit%C3%A0.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Masaccio,_trinit%C3%A0.jpg",
+      "title": "Masaccio, trinità",
+      "alt_text": "Masaccio’s Holy Trinity fresco, about 1425: a painted barrel vault that recedes to a single vanishing point at the viewer’s eye level.",
+      "author": "Masaccio",
+      "licence": "PD-old-70",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Albrecht Dürer · Wikimedia Commons",
-      "author_death_year": 1528,
+      "credit_line": "Masaccio · Wikimedia Commons",
+      "author_death_year": 1428,
       "eu_term_ok": true,
-      "eu_term_reason": "Author died 1528; public domain in the EU",
-      "rights_status": "flagged",
+      "eu_term_reason": "Author died 1428; public domain in the EU.",
+      "rights_status": "ok",
       "cropped": false
     },
     {
-      "media_slot_id": "ML-VD-B.masterclass-2",
+      "media_slot_id": "ML-VD-B.masterclass-window",
       "asset_id": "wikimedia:File:Della Pittura Alberti perspective vanishing point.jpg",
       "asset_url": "/digital-creativity-uem/assets/images/deck-media/8b9edff7f4ed9386.webp",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Della_Pittura_Alberti_perspective_vanishing_point.jpg",
@@ -68,6 +69,139 @@ layout: null
       "eu_term_reason": "Author died 1472; public domain in the EU",
       "rights_status": "flagged",
       "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.masterclass-eye",
+      "asset_id": "wikimedia:File:Piero - The Flagellation.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/73bb388bdbc19d65.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Piero_-_The_Flagellation.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Piero_-_The_Flagellation.jpg",
+      "title": "Piero - The Flagellation",
+      "alt_text": "Piero della Francesca’s Flagellation: a measured architectural space with a tiled floor, three robed men in the foreground and a scene deep behind.",
+      "author": "Piero della Francesca",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Piero della Francesca · Wikimedia Commons",
+      "author_death_year": 1492,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1492; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.masterclass-symbolic",
+      "asset_id": "wikimedia:File:Perspective Picture (Uki-e)- Theater District at Dawn on Opening Day of the Kabuki Season (IA mma perspective picture ukie theater district at dawn on opening day of the 36669).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/9f3a4cf68ffeb417.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Perspective_Picture_%28Uki-e%29-_Theater_District_at_Dawn_on_Opening_Day_of_the_Kabuki_Season_%28IA_mma_perspective_picture_ukie_theater_district_at_dawn_on_opening_day_of_the_36669%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Perspective_Picture_(Uki-e)-_Theater_District_at_Dawn_on_Opening_Day_of_the_Kabuki_Season_(IA_mma_perspective_picture_ukie_theater_district_at_dawn_on_opening_day_of_the_36669).jpg",
+      "title": "Perspective Picture (Uki-e)- Theater District at Dawn on Opening Day of the Kabuki Season (IA mma perspective picture ukie theater district at dawn on opening day of the 36669)",
+      "alt_text": "Japanese uki-e woodblock print by Utagawa Toyoharu: an Edo theatre district drawn in imported Western perspective, crowds in kimono receding along the street.",
+      "author": "Utagawa Toyoharu",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Utagawa Toyoharu · Wikimedia Commons",
+      "author_death_year": 1814,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1814; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.masterclass-sword",
+      "asset_id": "wikimedia:File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/5a45c628d9775b7c.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+      "title": "Hans Holbein the Younger - The Ambassadors - Google Art Project",
+      "alt_text": "Holbein’s The Ambassadors, 1533: two richly dressed men beside instruments; a stretched skull across the floor becomes legible only from one oblique point.",
+      "author": "Hans Holbein the Younger",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Hans Holbein the Younger · Wikimedia Commons",
+      "author_death_year": 1543,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1543; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.masterclass-gaze",
+      "asset_id": "wikimedia:File:Draughtsman Making a Perspective Drawing of a Reclining Woman MET DP816489.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/0c2262302a302a30.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Draughtsman_Making_a_Perspective_Drawing_of_a_Reclining_Woman_MET_DP816489.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Draughtsman_Making_a_Perspective_Drawing_of_a_Reclining_Woman_MET_DP816489.jpg",
+      "title": "Draughtsman Making a Perspective Drawing of a Reclining Woman MET DP816489",
+      "alt_text": "Dürer’s woodcut: a draughtsman looks through a gridded frame at a reclining, partly draped woman and copies her onto squared paper.",
+      "author": "Albrecht Dürer",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Albrecht Dürer · Wikimedia Commons",
+      "author_death_year": 1528,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by The Metropolitan Museum of Art; Dürer died 1528.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.masterclass-multiview",
+      "asset_id": "wikimedia:File:Robe à la Française MET DT5011.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/cbd2eec73d63c0be.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Robe_%C3%A0_la_Fran%C3%A7aise_MET_DT5011.jpg",
+      "title": "Robe à la Française MET DT5011",
+      "alt_text": "A silk robe à la française of about 1765 on a mannequin, its skirt widened at the hips by panniers.",
+      "author": "The Metropolitan Museum of Art (photograph); unknown French maker (gown)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "The Metropolitan Museum of Art (photograph); unknown French maker (gown) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by The Metropolitan Museum of Art; 18th-century garment.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.lab-1",
+      "asset_id": "wikimedia:File:Madonna del parto piero della Francesca.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/da969366f7ea1d20.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Madonna_del_parto_piero_della_Francesca.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Madonna_del_parto_piero_della_Francesca.jpg",
+      "title": "Madonna del parto piero della Francesca",
+      "alt_text": "Piero’s Madonna del Parto: a pregnant Virgin in a blue gown opened at the front, framed by two angels holding back a tent.",
+      "author": "Piero della Francesca",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Piero della Francesca · Wikimedia Commons",
+      "author_death_year": 1492,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1492; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-VD-B.lab-2",
+      "asset_id": "wikimedia:File:Along the River During the Qingming Festival (detail of original).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/0934c6356384f204.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+      "title": "Along the River During the Qingming Festival (detail of original)",
+      "alt_text": "Detail of the Qingming scroll: a bridge crowded with people, boats and shops, drawn from a high, travelling viewpoint without one vanishing point.",
+      "author": "Zhang Zeduan",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Zhang Zeduan · Wikimedia Commons",
+      "author_death_year": 1145,
+      "eu_term_ok": true,
+      "eu_term_reason": "Twelfth-century work; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
     }
   ],
   "slides": [
@@ -75,93 +209,293 @@ layout: null
       "slide_id": "cover",
       "slide_role": "unit_cover",
       "background_kind": "curated",
-      "fallback_background_kind": "geometrical",
-      "heading": "ML-B · Constructing space",
-      "sentence": "Perspective is a **symbolic** construction of space.",
-      "media_slot_id": "ML-VD-B.cover",
-      "prompt": "Relocated from jammed I.6",
-      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg"
+      "asset_id": "wikimedia:File:Dürer - Man Drawing a Lute.jpg",
+      "heading": "Who decided how **space** should look?",
+      "sentence": "Lecture B of three. Perspective is not simply how eyes see: it is a **rule for building pictures**, written down in Florence in the 1400s.",
+      "prompt": "Master Lecture cycle · Volume perception and depth · Digital Creativity I",
+      "image_brief": "Dürer's 1525 woodcut: two men plot a lute point by point with a thread, a frame and a fixed eye-point.",
+      "notes": "- Lecture A: the viewer builds volume. Lecture B: who builds the rules?\n- The thread in Dürer's woodcut is a visual ray.",
+      "media_slot_id": "ML-VD-B.cover"
     },
     {
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Open",
-      "sentence": ""
+      "sentence": "",
+      "notes": "- Eight-step card, steps 1–3; then ask where the lines meet."
     },
     {
-      "slide_id": "masterclass-1",
-      "slide_role": "masterclass",
-      "background_kind": "curated",
-      "fallback_background_kind": "geometrical",
-      "heading": "1 · Alberti’s window",
-      "sentence": "The picture plane cuts the visual pyramid.",
-      "media_slot_id": "ML-VD-B.masterclass-1",
-      "asset_id": "wikimedia:File:Duerer Underweysung der Messung 181.jpg"
-    },
-    {
-      "slide_id": "masterclass-2",
-      "slide_role": "masterclass",
-      "background_kind": "curated",
-      "heading": "2 · Visual pyramid",
-      "sentence": "Station point · rays · the plane that freezes them.",
-      "asset_id": "wikimedia:File:Della Pittura Alberti perspective vanishing point.jpg",
-      "media_slot_id": "ML-VD-B.masterclass-2"
-    },
-    {
-      "slide_id": "masterclass-3",
-      "slide_role": "masterclass",
-      "background_kind": "geometrical",
-      "heading": "3 · Aerial depth",
-      "sentence": "Atmosphere softens far planes — orientation until cite-grade evidence."
-    },
-    {
-      "slide_id": "masterclass-4",
-      "slide_role": "masterclass",
-      "background_kind": "geometrical",
-      "heading": "4 · Symbolic form",
-      "sentence": "Perspective constructs cultural space (Panofsky 1991, 14)."
-    },
-    {
-      "slide_id": "masterclass-5",
-      "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "5 · P1 vs P5",
-      "sentence": "Psycho/math space ≠ central ==vanishing-point== law — advance once for P5.",
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p1-psycho-vs-math-5e69c5149013.svg",
-      "diagram_alt": "Psychophysiological space contrasted with mathematical perspective space.",
-      "diagram_caption": "P1 · Psycho vs mathematical space",
-      "diagram_credit": "Course perspective-kit",
-      "notes": "Advance to the next graphic for P5 central VP (same idea, second full graphic)."
-    },
-    {
-      "slide_id": "graphic-p5",
+      "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "diagram",
-      "heading": "P5 · Central VP",
-      "sentence": "One vanishing point organises the box — still not fit.",
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p5-central-vp-708c927932cd.svg",
-      "diagram_alt": "Central vanishing-point construction diagram.",
-      "diagram_caption": "P5 · Central vanishing point",
-      "diagram_credit": "Course perspective-kit"
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Masaccio, trinità.jpg",
+      "heading": "A chapel painted on a **flat wall**",
+      "body": [
+        {
+          "kicker": "Describe",
+          "text": "Masaccio painted this fresco in Florence around **1425**. Follow the lines of the **ceiling**: where do they meet?"
+        },
+        {
+          "kicker": "Construction",
+          "text": "They meet near the **eye height** of a person standing in the church: the flat wall opens into a **chapel** that is not there."
+        },
+        {
+          "kicker": "Critical",
+          "text": "The space is built for one standing viewer. ==Who== is that ideal viewer, and where must everyone else stand?"
+        }
+      ],
+      "image_brief": "Masaccio's Holy Trinity: a coffered vault receding to one point at a standing viewer's eye level.",
+      "notes": "- Often called the earliest surviving fresco in full linear perspective.",
+      "media_slot_id": "ML-VD-B.analysis-model"
     },
     {
-      "slide_id": "masterclass-6",
+      "slide_id": "masterclass-window",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
-      "heading": "6 · Multi-view ≠ fit",
-      "sentence": "Views can agree while waistband tension still lies.",
-      "diagram_src": "/assets/images/lesson-figures/perspective-kit/pv-p6-fashion-multiview-71af54a9678b.svg",
-      "diagram_alt": "Fashion multi-view diagram that still cannot prove fit.",
-      "diagram_caption": "P6 · Multi-view is not fit proof",
-      "diagram_credit": "Course perspective-kit"
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Della Pittura Alberti perspective vanishing point.jpg",
+      "heading": "The picture as an **open window**",
+      "sentence": "In **1435** Leon Battista Alberti told painters to treat the picture as a window. Erwin Panofsky describes the method as a **flat cut** through the cone of sight.",
+      "quote": "I imagine the picture – in accord with the “window” definition – as a planar cross section through the so-called visual pyramid",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Panofsky 1991, 28)",
+        "href": "/lessons/en/master-lectures/volume-depth-construction/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "perspective",
+          "construction"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "image_brief": "A plate after Alberti's treatise on painting: a floor of squares converging to one centric point.",
+      "notes": "- Panofsky paraphrases the Albertian procedure in the first person.\n- The grid floor is the measuring tool.",
+      "media_slot_id": "ML-VD-B.masterclass-window"
+    },
+    {
+      "slide_id": "figure-pyramid",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Alberti’s window: a cut through the visual pyramid",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-b-visual-pyramid-26982e30ab05.svg",
+        "alt": "Course diagram: one still eye on the left; dashed rays run to a panel with a black dress silhouette; a framed picture plane cuts the rays, and a smaller red dress marks the image where the rays cross the window.",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Station point, rays, plane, image: four words to keep."
+    },
+    {
+      "slide_id": "masterclass-eye",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Piero - The Flagellation.jpg",
+      "heading": "One still eye, one **measurable** space",
+      "sentence": "Central perspective assumes a viewer with **one eye** who never moves. In exchange, lived space becomes a space you can **measure** tile by tile, as Piero della Francesca did.",
+      "quote": "In a sense, perspective transforms psychophysiological space into mathematical space.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Panofsky 1991, 31)",
+        "href": "/lessons/en/master-lectures/volume-depth-construction/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "perspective",
+          "abstraction"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "Panofsky calls the two assumptions — one still eye, a flat cut — **bold abstractions** from real vision.",
+      "image_brief": "Piero's Flagellation: a measured tiled floor and columns, robed men in front, the scene deep behind.",
+      "notes": "- Panofsky 1991, 29: 'we see with a single and immobile eye'.\n- Two moving eyes and a curved retina are what the rule leaves out.",
+      "media_slot_id": "ML-VD-B.masterclass-eye"
+    },
+    {
+      "slide_id": "masterclass-symbolic",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Perspective Picture (Uki-e)- Theater District at Dawn on Opening Day of the Kabuki Season (IA mma perspective picture ukie theater district at dawn on opening day of the 36669).jpg",
+      "heading": "Not **whether** perspective, but **which**",
+      "sentence": "Panofsky called perspective a **symbolic form**: each culture builds space its own way. In Edo Japan, **uki-e** prints borrowed Western perspective for theatre streets full of kimono.",
+      "quote": "it is essential to ask of artistic periods and regions not only whether they have perspective, but also which perspective they have",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Panofsky 1991, 40)",
+        "href": "/lessons/en/master-lectures/volume-depth-construction/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "perspective",
+          "culture",
+          "symbolic-form"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "image_brief": "Utagawa Toyoharu's uki-e print of an Edo kabuki district at dawn: imported perspective, local dress and crowds.",
+      "notes": "- Uki-e ('floating pictures') appear in the 1730s–40s; Toyoharu is a later master.\n- Boden would call this a combinational move.",
+      "media_slot_id": "ML-VD-B.masterclass-symbolic"
+    },
+    {
+      "slide_id": "figure-conceptual-spaces",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Three kinds of creative move",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/vd-b-conceptual-spaces-6a1d7fd72bdf.svg",
+        "alt": "Course diagram after Margaret Boden: combinational (uki-e joins Western perspective and Japanese prints; a tailoring code with a sportswear fabric), exploratory (Florentine painters testing boxes of space; every skirt a pannier allows), transformational (one vanishing point in the 1420s–1435; Kawakubo's 1997 padded bump).",
+        "placement": "full",
+        "caption": "Course diagram · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Boden 2004, 1: creativity = new, surprising, valuable.\n- Boden 2004, 4: conceptual spaces include 'fashions in couture'."
+    },
+    {
+      "slide_id": "masterclass-sword",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+      "heading": "Perspective cuts **both ways**",
+      "sentence": "Holbein's Ambassadors (1533) hides a stretched skull that reads only from **one oblique spot**. The rule that orders space also makes the image depend on **where you stand**.",
+      "quote": "For perspective is by nature a two-edged sword",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Panofsky 1991, 67)",
+        "href": "/lessons/en/master-lectures/volume-depth-construction/#references"
+      },
+      "semantic_tags": {
+        "themes": [
+          "perspective",
+          "viewpoint",
+          "anamorphosis"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "image_brief": "Holbein's two richly dressed ambassadors; a distorted skull slants across the floor.",
+      "notes": "- Objective rule, subjective viewpoint: Panofsky 1991, 67.\n- Ask a student to find the skull's point on a phone screen.",
+      "media_slot_id": "ML-VD-B.masterclass-sword"
+    },
+    {
+      "slide_id": "masterclass-gaze",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Draughtsman Making a Perspective Drawing of a Reclining Woman MET DP816489.jpg",
+      "heading": "Who holds the grid, who is **measured**?",
+      "sentence": "In Dürer's woodcut a clothed man looks through a grid at a reclining, half-draped woman. Perspective is also a relation of **power** between the one who looks and ==the one looked at==.",
+      "prompt": "Fashion images inherit the grid: **lens, pose, crop**.",
+      "image_brief": "Dürer's draughtsman with a gridded frame and sighting post; the woman lies on the other side.",
+      "notes": "- From the 1538 edition of Dürer's treatise on measurement.\n- Link to the dignity guide: who chooses the pose?",
+      "media_slot_id": "ML-VD-B.masterclass-gaze"
+    },
+    {
+      "slide_id": "masterclass-multiview",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Robe à la Française MET DT5011.jpg",
+      "heading": "Perfect perspective still cannot **fit** a dress",
+      "sentence": "A robe à la française of about 1765 gets its width from **panniers** underneath. Any number of perfect views can agree while the **under-structure** stays invisible.",
+      "prompt": "Construction draws space. Only **I.6** tests how a volume behaves on a body.",
+      "image_brief": "An 18th-century silk robe à la française on a mannequin, skirt widened by hidden panniers.",
+      "notes": "- Bridge: multi-view is a question about volume, not a proof of fit.\n- Optional: show the perspective-kit P6 multiview diagram from the lesson.",
+      "media_slot_id": "ML-VD-B.masterclass-multiview"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, three minutes. Then compare with a partner.",
+      "questions": [
+        "What did Alberti compare the picture to, in 1435?",
+        "What two things does central perspective assume?",
+        "What is a **symbolic form**?",
+        "Why is perspective a two-edged sword?",
+        "Why can't perfect views prove a dress fits?"
+      ],
+      "notes": "Answers:\n- An open window.\n- One still eye; a flat cut through the visual pyramid.\n- A cultural way of building space: which perspective, not whether.\n- It orders space objectively but depends on one viewer's position.\n- Volume can come from hidden structure, ease and cloth behaviour."
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab",
+      "sentence": "**Two exercises**: one with your phone, one on paper. Everything goes into your **portfolio index** on Canvas.",
+      "notes": "- A garment on a chair is enough; no model needed."
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Madonna del parto piero della Francesca.jpg",
+      "heading": "Exercise 1 · One eye, one step",
+      "sentence": "Fix your phone at **one eye position**, turn on the camera grid and photograph a garment on a chair. Move **one step** sideways and shoot again.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Pair the two shots with one sentence: what changed in the garment's volume when ==only the eye moved==?",
+      "card_link": {
+        "href": "/lessons/en/master-lectures/volume-depth-construction/#exercise-1--one-eye-one-step-25",
+        "label": "Set-up in the lesson"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Piero's Madonna del Parto: a blue gown opened at the front, its volume built for one viewpoint.",
+      "notes": "- Phone on a stack of books keeps the eye still.\n- Grid lines = Alberti's veil.",
+      "media_slot_id": "ML-VD-B.lab-1"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Along the River During the Qingming Festival (detail of original).jpg",
+      "heading": "Exercise 2 · Same garment, two spaces",
+      "sentence": "Draw the same garment twice: once in **central perspective** from one fixed point, once as a **scroll** seen while you walk past it.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Upload both drawings and name the **symbolic form** each one assumes: whose eye, standing where?",
+      "card_link": {
+        "href": "/lessons/en/master-lectures/volume-depth-construction/#exercise-2--same-garment-two-spaces-25",
+        "label": "Both drawing rules in the lesson"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "The Qingming scroll: a bridge crowd seen from a high, travelling viewpoint with no single vanishing point.",
+      "notes": "- The scroll is read by moving: no one station point.\n- Sketchbook or tablet; no AI.",
+      "media_slot_id": "ML-VD-B.lab-2"
     },
     {
       "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
-      "heading": "Bridge · I.6 behaviour",
-      "sentence": "Construction clear — now diagnose **drape and discrepancy**."
+      "heading": "Carry forward",
+      "sentence": "Perspective is a **rule**, not the truth of vision. Lecture C asks what happens when the rule becomes software — and when an AI ==imitates it without rules==.",
+      "notes": "- Portfolio entry before the next session."
     }
   ],
   "schema_version": 2
