@@ -1,0 +1,142 @@
+[
+  {
+    "unit": "U5",
+    "idea": 1,
+    "heading": "Una métrica decide qué cuenta",
+    "record": "2026-11-17-7887cf42-nm-u5-idea1",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "Un dashboard de marketing puede medir lo que un cliente decide llamar éxito; eso incluye decisiones sobre qué omitirse y por ende enriquecer. El salón del Apolo 11 celebró su misión al ver la señal correcta apareciendo como esperado — no porque hubiera una verdad independiente tras las pantallas. Si los datos son el resultado de preguntas previamente formuladas: ¿quién formula esas primeras hipótesis, quién financia sus respuestas e importan solo si alguien invierte? Medición sin crítica se reduce a confirmación repetida de lo que ya decidió contar; un proceso iterativo pero cerrado donde cada vuelta mejora algo por defecto y olvida otro.",
+    "attempts": [
+      "2026-11-17-230f07fb-nm-u5-idea1",
+      "2026-11-17-7887cf42-nm-u5-idea1"
+    ]
+  },
+  {
+    "unit": "U5",
+    "idea": 2,
+    "heading": "Medir no es probar",
+    "record": "2026-11-17-e8d03eed-nm-u5-idea2",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": ": Un número en la ficha de producto informa; solo se vuelve prueba si su método aguanta una comparación. Reformation's Refscale publicó sus datos y verificaron independientemente que cada prenda reduce huella —pero el desafío persiste cuando las etiquetas son más retóricas que rigurosas: Norrøna × Higg MSI fueron objeto del reproche noruego al no probar con igualdad orgánico vs convencional, como recordaba (United Nations Environment Programme 2023, p. 39).: ¿Qué condiciones debe cumplir un índice de sostenibilidad para ser confiable? Y si los números están sujetos a interpretación política en la producción…  medir sin teorizar sobre su contexto es simplemente contar algo; y ese \"algo\" puede ocultar tanto o revelarlo todo según quién lo cuenta —y por qué.[/p]",
+    "attempts": [
+      "2026-11-17-0431b77a-nm-u5-idea2",
+      "2026-11-17-e8d03eed-nm-u5-idea2"
+    ]
+  },
+  {
+    "unit": "U5",
+    "idea": 3,
+    "heading": "Los datos se extraen de la vida",
+    "record": "2026-11-17-164a68c6-nm-u5-idea3",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "Los datos son extracto de vidas; lo que llamamos \"medición\" es una decisión sobre qué se ve y quién está en la cuenta. La crítica decolonial sostiene que este proceso lleva consigo un coste ocultado —no sólo los salarios pagados por Google o Amazon sino también el tiempo, energía mental e imaginación invertidos para producir esos clicks como trabajadores digitales no remunerados—: si las métricas vienen del trabajo humano convertido a números reducibles al beneficio corporativo, entonces cualquier análisis crítico debe comenzar preguntándose desde dónde estamos mirando ese sistema de medir (Couldry and Mejias 2018). Si todos somos \"creadoras y creadores\" en la era digital pero casi ninguno recibe una tarifa laboral digna; ¿quién se llevó los datos que generamos?  Preguntas sobre el origen son también preguntas políticas. La verdad es más compleja.[/paragraph][EOF][/prompt]",
+    "attempts": [
+      "2026-11-17-164a68c6-nm-u5-idea3"
+    ]
+  },
+  {
+    "unit": "U5",
+    "idea": 4,
+    "heading": "Los datos también rinden cuentas",
+    "record": "2026-11-17-e77d42ac-nm-u5-idea4",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "El caso de Zara en Brasil muestra que los datos también pueden ser una forma indirecta y pública del control. La fiscalía laboral documentó trabajo esclavo en proveedores locales; la lista suja fue un registro público donde aparecieron las marcas responsables por estas condiciones ilegales. ¿Qué significado tiene para el consumidor ver este tipo de información publicada oficialmente? Si no se trata solo como escándalo pasajero, sino como evidencia persistente sobre prácticas corporativas. Esto lleva a pensar si todas nuestras compras tienen algún derecho legítimo al anonimato cuando los datos públicos exponen sus consecuencias.",
+    "attempts": [
+      "2026-11-17-e77d42ac-nm-u5-idea4"
+    ]
+  },
+  {
+    "unit": "U5",
+    "idea": 5,
+    "heading": "Optimizar con criterio",
+    "record": "2026-11-17-f346647f-nm-u5-idea5",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "El problema no es que la prueba de dos versiones del mismo sitio web te diga qué versión vende más; el problema empieza cuando decides si estás dispuesto a hacer lo necesario para ganar esa venta extra en primer lugar. Si una variación A/B hace que alguien compre algo porque se siente presionado o manipulado —por ejemplo, un botón \"Comprar ahora\" rojo sobre fondo blanco— y ese diseño mejora las ventas pero afecta negativamente su percepción posterior al comprar (como pasó con Nike), entonces tienes que decidir: ¿vamos por eso? ([United Nations Environment Programme 2023, 88]). No hay forma de medirlas todas; algunas cosas son incalculables. Pero si no te das cuenta de qué estás dejando fuera del cálculo cuando tomas una decisión basada en datos… el problema ya está hecho. El A/B testing es un poderoso recordatorio de la centralita telefónica humana: nos gusta pensar que estamos optimizando para lo mejor posible y olvidar quién decide cómo definimos \"mejor\".",
+    "attempts": [
+      "2026-11-17-f346647f-nm-u5-idea5"
+    ]
+  },
+  {
+    "unit": "U6",
+    "idea": 1,
+    "heading": "Probarse sin tocar",
+    "record": "2026-11-17-d35b221f-nm-u6-idea1",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "La prueba virtual reduce la duda de comprar online; en el caso Dior × Snapchat B27 (2020), se ofreció una lente que permitía probar seis zapatillas y hacer clic para adquirirlas desde dentro del AR. Según Sarkis et al., este tipo de interacción puede reducir la asimetría informativa —por ejemplo, saber si las botas combinan con mi mochila— ya que ofrece experiencia realista e inmediata antes de realizar un gasto importante ([author_year]). Sin embargo, dado que los datos publicados provienen directamente del proveedor tecnológico (Snapchat en esta ocasión), queda pendiente qué estudios independientes validen sus efectos a largo plazo sobre el comportamiento postventa; es decir: ¿los clientes siguen tan satisfechos una semana después? El AR democratiza experiencias premium como probarse zapatillas sin moverte y puede ser útil para tomar decisiones informadas —pero la fiabilidad depende siempre quién cuente las cifras.",
+    "attempts": [
+      "2026-11-17-e1b75f22-nm-u6-idea1",
+      "2026-11-17-d35b221f-nm-u6-idea1"
+    ]
+  },
+  {
+    "unit": "U6",
+    "idea": 2,
+    "heading": "Modelos que no existen",
+    "record": "2026-11-17-01cb3a7c-nm-u6-idea2",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "Mango Teen lanzó una campaña generada por IA en julio de este año; según el comunicado oficial fue la primera colección íntegra bajo ese método y se llamaba Sunset Dream. La marca no solo ahorrará tiempo al reducir las sesiones fotográficas tradicionales sino también dinero ya que los modelos sintéticos representan un gasto menor comparados con contratos laborables para personas físicamente presentes —la pregunta entonces es, quién queda sin trabajo: ¿el modelo o su sombra? [Bendel 2025]. Además del desempleo inmediato, surge una cuestión más amplia relacionada a cómo el desarrollo de estos sistemas afecta la diversidad en términos ético y cultural dado que se trata precisamente del origen demográfico (género, raza, etnia) sobre lo cual entrenamos las IA. Porque al final no estamos diseñando modas sino símbolos; cuando un chiste llevado por código reemplazó una cara real —¿quiénes son los nuevos modelos si ni poseen sombra?",
+    "attempts": [
+      "2026-11-17-01cb3a7c-nm-u6-idea2"
+    ]
+  },
+  {
+    "unit": "U6",
+    "idea": 3,
+    "heading": "Declarar es parte del diseño",
+    "record": "2026-11-17-68dadd29-nm-u6-idea3",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "La divulgación de contenido sintético en la moda es un problema del diseño que el Reglamento europeo ya considera obligatorio; Guess × Vogue fue un caso paradigmático donde una nota legal casi invisible no resolvió nada para los lectores reales. El anuncio con modelo generada por IA y aviso diminuto ilustraba lo que Flavián et al. llaman \"el 'dark side' tecnológico: si algo se hace difícilmente visible, también será fácil ignorarlo o pasar a otro lado\" (Flavián et al., 9). ¿La etiquetado transparente debe ser más sutil en interés estético del diseño de la página web? O quizás el problema es mayor cuando lo menos obvio termina siendo crucial? No hay respuesta única; cada sitio tendrá su propio equilibrio entre transparencia editorial obligatoria e imagen visual donde los lectores buscan belleza y estilo antes que detalles legales — aunque esos sean precisamente los primeros lugares donde deberían buscarlos.",
+    "attempts": [
+      "2026-11-17-5097abc5-nm-u6-idea3",
+      "2026-11-17-68dadd29-nm-u6-idea3"
+    ]
+  },
+  {
+    "unit": "U6",
+    "idea": 4,
+    "heading": "El avatar también es un dato",
+    "record": "2026-11-17-6466b050-nm-u6-idea4",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "El avatar no es sólo una expresión de identidad digital sino también un registro detallado del cuerpo medido y catalogado. Como el sistema antropométrico que Bertillon aplicó en la Francia decimonónica para registrar cuerpos penales —largo del brazo izquierdo, anchura del pecho— hoy las plataformas registran medidas corporales al crear tu representación virtual: ancho entre los ojos, altura real convertida a píxeles.(Lamerichs 2025) ¿Es posible imaginar moda sin mediaciones tecnológicas? O ya estamos tan acostumbrados que no lo notamos más? Si un avatar es una versión digital de ti mismo medido y controlado por sistemas externos (por ejemplo, TikTok), entonces el problema se desplaza desde la \"moda\" hasta quién posee tus datos; si eres tú quien decide cómo apareces en pantalla.",
+    "attempts": [
+      "2026-11-17-caa706af-nm-u6-idea4",
+      "2026-11-17-3b89bb88-nm-u6-idea4",
+      "2026-11-17-6466b050-nm-u6-idea4"
+    ]
+  },
+  {
+    "unit": "U6",
+    "idea": 5,
+    "heading": "Mundos de marca, jardines cerrados",
+    "record": "2026-11-17-c3b1435d-nm-u6-idea5",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": ": La colección de Balenciaga como videojuego gratuito transforma el catálogo en un mapa que se explora y posee al jugar; la plataforma decide quién entra con qué avatar.(Balenciaga Afterworld: The Age of Tomorrow): El jugador no compra prendas directamente sino experiencia — los \"objetos\" son códigos interactivos más allá del mero archivo visual o wearable digital.(Lamerichs 2025, 345): ¿Cómo afectan las economías internas estos mundos a nuestra comprensión tradicional de propiedad? Si todo está tokenizado pero cerrado por licencias privadas, estamos ante jardines virtuales que dan flores en prestamo y cobran la entrada.  La autenticidad se desplaza hacia el diseño interactivo: si algo es jugable no puede ser un recuerdo fijo; debe evolucionar para mantener su interés.[/p]",
+    "attempts": [
+      "2026-11-17-c3b1435d-nm-u6-idea5"
+    ]
+  },
+  {
+    "unit": "U6",
+    "idea": 6,
+    "heading": "La herramienta propone; tú juzgas",
+    "record": "2026-11-17-ffc9c674-nm-u6-idea6",
+    "exit_code": 0,
+    "rejected": false,
+    "raw": "El dispositivo de moda no genera patrones técnicos ni instrucciones para producir prendas; la inteligencia artificial proporciona imágenes que el diseñador debe traducir y validar según su experiencia e intuición. Como señala Boden en relación con Ada Lovelace: \"This example illustrates the evaluation bottleneck that lies in the way of automated transformational creativity\" ([Boden](https://doi.org/0.58796), 320). ¿Cómo medimos si ese límite persiste o se ha superado? La respuesta podría estar menos en los algoritmos que en nuestra capacidad de juzgar lo valioso desde una perspectiva humana, no técnica. Si la máquina da imágenes —y solo eso— entonces el juicio sigue siendo del diseñador; cuando firmamos un diseño digitalmente creado pero manualmente aprobado y producido, reconocemos esa disociación como inherente al trabajo creativo contemporáneo: máquinas proponen, humanos deciden.",
+    "attempts": [
+      "2026-11-17-448cc1be-nm-u6-idea6",
+      "2026-11-17-1cdea76f-nm-u6-idea6",
+      "2026-11-17-ffc9c674-nm-u6-idea6"
+    ]
+  }
+]

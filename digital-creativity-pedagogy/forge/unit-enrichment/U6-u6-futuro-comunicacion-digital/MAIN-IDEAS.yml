@@ -1,0 +1,41 @@
+# Student slideshow payload — ≤ 6 main ideas · U6
+unit_id: U6
+title_es: U6 · Futuro de la comunicación digital
+max_ideas: 6
+teaching_language: es
+forge: master-lecture-forger + nm-unit-forge (2026-11-17)
+grounding:
+  creativity: "Boden 2004, 320 (evaluation bottleneck) · evaluator-safe"
+  fashion_image: "Lamerichs 2025, 337 (screenwear / digital fashion identity) · evaluator-safe"
+  public_use_boundary: "campaign images linked, never copied; campaign metrics taught as source claims"
+ideas:
+  - id: 1
+    heading: Probarse sin tocar
+    sentence: "La prueba virtual reduce la duda de comprar online, pero la cifra de éxito suele venir de quien vende la tecnología."
+    case: "Dior × Snapchat B27 (2020): lente de RA para probar seis zapatillas y comprarlas desde la app; las cifras de retorno publicadas proceden de un caso de estudio de Snapchat."
+    chicago: "(Sarkis et al. 2026, 229)"
+  - id: 2
+    heading: Modelos que no existen
+    sentence: "En 2024 una marca española lanzó su primera campaña con modelos generadas por IA: ¿qué gana y quién deja de posar?"
+    case: "Mango Teen, colección Sunset Dream (julio de 2024, Track B · España): primera campaña generada íntegramente con IA según la nota de prensa de la marca."
+    chicago: "(Bendel 2025, 440)"
+  - id: 3
+    heading: Declarar es parte del diseño
+    sentence: "Una nota diminuta no basta: la divulgación debe verse tanto como la imagen."
+    case: "Guess × Vogue (agosto de 2025, caso crítico suplementario): anuncio con una modelo generada por IA y un aviso en letra pequeña que muchos lectores no vieron."
+    chicago: "(Flavián et al. 2024, 9)"
+  - id: 4
+    heading: El avatar también es un dato
+    sentence: "Tu avatar expresa identidad, pero también registra medidas, gestos y gustos."
+    case: "Marco crítico: la ficha antropométrica de Bertillon (1890s) como genealogía del cuerpo medido."
+    chicago: "(Lamerichs 2025, 337)"
+  - id: 5
+    heading: Mundos de marca, jardines cerrados
+    sentence: "Un videojuego de colección es una plataforma: decide quién entra, qué se posee y quién cobra."
+    case: "Balenciaga Afterworld: The Age of Tomorrow (diciembre de 2020, Track A): la colección otoño-invierno 2021 presentada como videojuego gratuito en el navegador."
+    chicago: "(Lamerichs 2025, 345) · (Lamerichs 2025, 337)"
+  - id: 6
+    heading: La herramienta propone; tú juzgas
+    sentence: "La IA da imágenes, no patrones; decidir qué vale y firmarlo sigue siendo tu trabajo."
+    case: "Marco de unidad: Ada Lovelace y la objeción de que la máquina no origina."
+    chicago: "(An and Park 2026, 15) · (Boden 2004, 320)"

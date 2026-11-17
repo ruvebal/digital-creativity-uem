@@ -105,7 +105,8 @@ Al final de esta unidad podrás:
 
 ### 1 · Probarse sin tocar
 
-<!--B1:U6:1-->
+Probarse una zapatilla con la cámara del móvil parece un detalle técnico, pero cambia quién decide cómo te queda: la lente o tu cuerpo. En 2020, Dior y Snapchat lanzaron una lente de realidad aumentada para probarse seis modelos de la zapatilla B27 y comprarlos sin salir de la app, y un estudio reciente confirma que este tipo de interacción reduce la asimetría de información de la compra online [(Sarkis et al. 2026, 229)](#ref-sarkis-2026). Las cifras de éxito de esa campaña, sin embargo, proceden de un caso de estudio del propio proveedor: ¿qué estudio independiente te diría si quienes compraron seguían satisfechos una semana después? La realidad aumentada puede ayudar a decidir mejor, pero su fiabilidad depende de quién cuenta las cifras y de lo que deja sin contar.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-d35b221f-nm-u6-idea1 · cold B1 thessia-scholar-v3 · amended -->{% endif %}
 
 > AR can reduce information asymmetry, a common issue in online shopping, by providing real-time, immersive product interactions.
 
@@ -120,9 +121,10 @@ Al final de esta unidad podrás:
 
 ### 2 · Modelos que no existen
 
-<!--B1:U6:2-->
+Los maniquíes de escaparate siempre fueron cuerpos sintéticos; la novedad es que ahora posan en campañas como si fueran personas. En julio de 2024, Mango presentó su primera campaña generada íntegramente con IA, para la colección Sunset Dream de su línea Teen, y su nota de prensa describe la IA como un apoyo para el equipo creativo. ¿Quién deja de cobrar cuando una campaña ya no necesita modelos, fotografía ni maquillaje, y qué cuerpos aprende a repetir una máquina entrenada con millones de imágenes ajenas, algunas todavía con marcas de agua de bancos de imágenes [(Bendel 2025, 440)](#ref-bendel-2025)? Una imagen generada puede ser rápida y barata para la marca, pero no responde por sí sola a la pregunta de quién estaba antes delante de la cámara.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-01cb3a7c-nm-u6-idea2 · cold B1 thessia-scholar-v3 · amended -->{% endif %}
 
-**Caso · Mango Teen, «Sunset Dream»** (julio de 2024 · Track B · España). La marca presentó su primera campaña generada íntegramente con IA para su línea juvenil ([nota de prensa de Mango, 10 de julio de 2024](https://mangofashiongroup.com/en/w/mango-crea-la-primera-campa%C3%B1a-generada-con-inteligencia-artificial-para-su-l%C3%ADnea-teen){:target="_blank" rel="noopener noreferrer"}). La propia nota presenta la IA como un «co-piloto» del equipo; la pregunta del curso es quién deja de cobrar por posar, fotografiar o maquillar, y con qué imágenes se entrenó la herramienta. El ético Oliver Bendel recuerda que en los generadores «it was repeatedly noticed that images bore watermarks and fonts» [(Bendel 2025, 440)](#ref-bendel-2025).
+**Caso · Mango Teen, «Sunset Dream»** (julio de 2024 · Track B · España). La marca presentó su primera campaña generada íntegramente con IA para su línea juvenil ([nota de prensa de Mango, 10 de julio de 2024](https://mangofashiongroup.com/en/w/mango-crea-la-primera-campa%C3%B1a-generada-con-inteligencia-artificial-para-su-l%C3%ADnea-teen){:target="_blank" rel="noopener noreferrer"}). Sobre el origen de las imágenes de entrenamiento, el ético Oliver Bendel recuerda que en los generadores «it was repeatedly noticed that images bore watermarks and fonts» [(Bendel 2025, 440)](#ref-bendel-2025).
 
 <figure class="lesson-figure" id="figure-u6-mannequins" markdown="0">
 <img src="{{ '/assets/images/deck-media/169b82fb3589dcc9.webp' | relative_url }}" alt="Escaparate de lencería Lustre en Brisbane (1937): maniquíes blancos idénticos posan en fila bajo un gran rótulo." loading="lazy" decoding="async">
@@ -131,7 +133,8 @@ Al final de esta unidad podrás:
 
 ### 3 · Declarar es parte del diseño
 
-<!--B1:U6:3-->
+Una etiqueta que casi nadie ve cumple con el trámite, pero no informa a nadie. En agosto de 2025, un anuncio de Guess en Vogue mostró una modelo generada con IA con un aviso en letra pequeña que muchos lectores no vieron, y el debate posterior giró sobre todo en torno a la visibilidad del aviso. ¿Dónde, con qué tamaño y con qué palabras tendría que aparecer una etiqueta para que mirar la imagen incluya saber cómo se hizo? El Reglamento europeo de IA marca un mínimo obligatorio para ciertos contenidos, pero cada imagen pide además una decisión editorial que ninguna ley toma por ti.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-68dadd29-nm-u6-idea3 · cold B1 thessia-scholar-v3 · amended; fabricated quotation removed -->{% endif %}
 
 **Caso crítico suplementario · Guess × Vogue** (agosto de 2025). Un anuncio con una modelo generada con IA apareció en la edición impresa de *Vogue* con un aviso en letra pequeña que muchos lectores no vieron ([RNZ, 30 de julio de 2025](https://www.rnz.co.nz/news/world/568415/her-features-are-flawless-but-this-model-in-vogue-isn-t-real){:target="_blank" rel="noopener noreferrer"}). La revista aclaró que era publicidad, no una decisión editorial. En la Unión Europea, el [Reglamento (UE) 2024/1689, artículo 50](https://eur-lex.europa.eu/eli/reg/2024/1689/oj){:target="_blank" rel="noopener noreferrer"}, obliga a revelar como tales ciertos contenidos generados o manipulados con IA: la ley marca el mínimo, no el estándar editorial.
 
@@ -147,7 +150,8 @@ Al final de esta unidad podrás:
 
 ### 4 · El avatar también es un dato
 
-<!--B1:U6:4-->
+Un avatar parece una forma de expresarte, pero también es una ficha: cada ajuste de altura, rostro o gesto queda guardado en algún servidor. La investigadora Nicolle Lamerichs describe la moda digital como una extensión de la identidad, una ropa de pantalla que llevamos a medida que pasamos más tiempo en línea [(Lamerichs 2025, 337)](#ref-lamerichs-2025); en la década de 1880, Alphonse Bertillon medía cabezas, orejas y brazos para identificar a las personas detenidas. ¿Quién guarda las medidas, los gestos y los gustos que entregas cuando eliges un avatar, y para qué podría usarlos mañana? La moda digital abre identidades nuevas, pero la pregunta por quién posee esos datos no desaparece porque la prenda sea de píxeles.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-6466b050-nm-u6-idea4 · cold B1 thessia-scholar-v3 · amended -->{% endif %}
 
 > This screenwear is an extension of our identity, as users spend more and more of their time online.
 
@@ -160,13 +164,14 @@ Al final de esta unidad podrás:
 
 ### 5 · Mundos de marca, jardines cerrados
 
-<!--B1:U6:5-->
+Cuando una colección se presenta como videojuego, la tienda se convierte en territorio y quien juega pasa a ser visitante de un mundo que no es suyo. En diciembre de 2020, Balenciaga lanzó Afterworld: The Age of Tomorrow, un juego gratuito en el navegador ambientado en 2031 para mostrar su colección otoño-invierno 2021; la marca decidía el recorrido y lo que se podía mirar. Lamerichs advierte que el peor escenario para estos mundos es convertirse en lugares privatizados y movidos por la publicidad [(Lamerichs 2025, 345)](#ref-lamerichs-2025): ¿qué derechos tienes sobre lo que ves, compras o creas dentro de un mundo de marca? Un juego puede ser una forma generosa de presentar moda y, a la vez, un jardín cerrado cuyas reglas escribe siempre la misma mano.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-c3b1435d-nm-u6-idea5 · cold B1 thessia-scholar-v3 · amended -->{% endif %}
 
 > A worst-case scenario is that the Metaverse becomes a highly privatized place (a gated community, as it were) and entirely driven by ads.
 
 <p class="quote-ref" markdown="1">— [(Lamerichs 2025, 345)](#ref-lamerichs-2025)</p>
 
-**Caso · Balenciaga, *Afterworld: The Age of Tomorrow*** (diciembre de 2020). La colección otoño-invierno 2021 se presentó como un videojuego gratuito en el navegador, ambientado en 2031 ([designboom](https://www.designboom.com/design/balenciaga-afterworld-the-age-of-tomorrow-video-game-12-09-2020/){:target="_blank" rel="noopener noreferrer"} · [Dazed](https://www.dazeddigital.com/fashion/article/51331/1/you-can-now-play-balenciaga-aw21-futuristic-video-game-demna-gvasalia){:target="_blank" rel="noopener noreferrer"}). Los mundos inmersivos también tienen un lado oscuro que hay que estudiar: los investigadores Flavián, Ibáñez-Sánchez, Orús y Barta piden explorar «the 'dark side' of these technologies» para comprender la experiencia completa [(Flavián et al. 2024, 9)](#ref-flavian-2024).
+**Caso · Balenciaga, *Afterworld: The Age of Tomorrow*** (diciembre de 2020) — fuentes: [designboom](https://www.designboom.com/design/balenciaga-afterworld-the-age-of-tomorrow-video-game-12-09-2020/){:target="_blank" rel="noopener noreferrer"} · [Dazed](https://www.dazeddigital.com/fashion/article/51331/1/you-can-now-play-balenciaga-aw21-futuristic-video-game-demna-gvasalia){:target="_blank" rel="noopener noreferrer"}. Los mundos inmersivos también tienen un lado oscuro que hay que estudiar: los investigadores Flavián, Ibáñez-Sánchez, Orús y Barta piden explorar «the 'dark side' of these technologies» para comprender la experiencia completa [(Flavián et al. 2024, 9)](#ref-flavian-2024).
 
 <figure class="lesson-figure" id="figure-u6-panorama" markdown="0">
 <img src="{{ '/assets/images/deck-media/538050782caf5c9d.webp' | relative_url }}" alt="Vista del Panorama Mesdag (1881) en La Haya: una pintura circular de playa, dunas y barcos que envuelve al público." loading="lazy" decoding="async">
@@ -175,7 +180,8 @@ Al final de esta unidad podrás:
 
 ### 6 · La herramienta propone; tú juzgas
 
-<!--B1:U6:6-->
+La IA generativa entrega imágenes de prendas, no patrones ni instrucciones para coserlas: falta justo lo que convierte un dibujo en ropa. Las docentes de diseño de moda entrevistadas por Hyosun An y Minjung Park lo resumen así: estas herramientas dan imágenes, pero no ayudan a construir la prenda [(An and Park 2026, 15)](#ref-an-park-2026). Si una máquina puede proponer cien variantes en un minuto, ¿quién decide cuál vale la pena, y con qué criterios que la máquina no puede comprobar por sí misma? Margaret Boden explica que, cuando una idea cambia las reglas de un estilo, el juicio de valor es precisamente lo que no se automatiza [(Boden 2004, 320)](#ref-boden-2004); por eso firmar un diseño hecho con ayuda de una máquina significa declarar qué decidiste tú.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-ffc9c674-nm-u6-idea6 · cold B1 thessia-scholar-v3 · amended; fabricated DOI removed -->{% endif %}
 
 > they just give you images; they don't actually support garment construction
 
@@ -259,7 +265,7 @@ Fondos del deck y figuras: postal «En l'an 2000» de Villemard (1910, dominio p
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 {: .lesson-editorial-note }
 
-Todas las citas están verificadas con la página impresa de la fuente. Los cuatro casos son suplementarios y se apoyan en notas de prensa o periodismo enlazado: ninguna cifra de campaña se presenta como resultado independiente. Dos estudios sobre IA generativa y formación en moda —uno sobre el paso de «diseñador a curador» y otro sobre ideación colaborativa— quedan pendientes de revisión bibliográfica y no se citan todavía. **En revisión:** los párrafos de desarrollo de cada idea de la masterclass se están redactando con el modelo local del curso y se incorporarán tras su revisión; mientras tanto, cada idea muestra su tesis, su caso y su cita.
+Todas las citas están verificadas con la página impresa de la fuente. Los cuatro casos son suplementarios y se apoyan en notas de prensa o periodismo enlazado: ninguna cifra de campaña se presenta como resultado independiente. Dos estudios sobre IA generativa y formación en moda —uno sobre el paso de «diseñador a curador» y otro sobre ideación colaborativa— quedan pendientes de revisión bibliográfica y no se citan todavía. Los párrafos de desarrollo de la masterclass parten de un primer borrador del modelo local del curso, revisado y corregido a mano; las correcciones quedan registradas.
 
 ## Autoría asistida por IA
 

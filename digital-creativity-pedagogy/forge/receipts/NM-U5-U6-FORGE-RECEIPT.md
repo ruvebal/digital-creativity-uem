@@ -1,6 +1,6 @@
 # NM U5 + U6 forge receipt (2026-11-17)
 
-**Skill:** master-lecture-forger 1.1.0 + `nm-unit-forge.mdc` · **Status:** forged, cold B1 pending (see §5)
+**Skill:** master-lecture-forger 1.1.0 + `nm-unit-forge.mdc` · **Status:** forged · cold B1 integrated (see §5)
 
 ## 1 · Surfaces
 
@@ -29,12 +29,31 @@ U6 (ranked bank has no AI/AR case): `dior-snapchat-b27-2020` · `mango-teen-ai-2
 - **Deck JS:** back link localised by `<html lang>` (all ES decks showed English labels).
 - **Anchors:** kramdown transliterates accents in heading ids; deck card links fixed.
 
-## 5 · Cold B1 (lesson-scribe / Thessia) — PENDING
+## 5 · Cold B1 (lesson-scribe / Thessia) — DONE 2026-11-17
 
-Run `forge/nm_forge_u5_u6.py` (quotes locked, verbatim registry `registries/nm-u5-u6-verbatims.json`). On 2026-11-17 another client held `qwen3.8:27b` on the GPU; attempts timed out (`httpx.ReadTimeout`) or were rejected by the v2.1 gates (fabricated quotations, missing `[S3]`). Run stopped after U5 ideas 1–3; records kept in `thessia-tuning-memory` as training signal. Lessons carry invisible slots `<!--B1:U5:n-->` / `<!--B1:U6:n-->` and an editorial-note line saying the paragraphs are in review.
+Run 3 (after restarting a wedged Ollama server; 30-min timeout, ≤3 attempts) produced a gate-passing draft for all 11 ideas. Every draft was then reviewed on the six axes and amended by hand; `integrated.md`, `amendments.diff` and `evaluation.md` sit in each record, and each lesson paragraph carries a hidden `tuning_record` pointer.
 
-**Resume:** free the GPU, then `THESSIA_PY=<python with ollama+pyyaml> python3 forge/nm_forge_u5_u6.py` (consider `--timeout 900` in the script's call), evaluate on the six axes, integrate with `amendments.diff`, remove the editorial "En revisión" line.
+| Idea | Record | Main amendments |
+| --- | --- | --- |
+| U5·1 | 7887cf42 | Apollo framing corrected; grammar |
+| U5·2 | e8d03eed | **fabricated page "p. 39"** removed; RefScale assurance overclaim fixed |
+| U5·3 | 164a68c6 | Couldry & Mejias page completed (2); invented Google/Amazon detail removed |
+| U5·4 | e77d42ac | *lista suja* claim corrected (could enter, not appeared) |
+| U5·5 | f346647f | invented "Nike" example removed; misattached UNEP 88 cite removed |
+| U6·1 | d35b221f | placeholder "([author_year])" → Sarkis et al. 2026, 229 |
+| U6·2 | 01cb3a7c | date (2024), campaign vs collection, Bendel re-anchored to training data |
+| U6·3 | 68dadd29 | **fabricated Flavián quotation** removed |
+| U6·4 | 6466b050 | Lamerichs re-anchored (337); TikTok example removed |
+| U6·5 | c3b1435d | game title used as citation; Lamerichs 345 re-anchored; ownership claim removed |
+| U6·6 | ffc9c674 | **fabricated DOI link** for Boden removed; Lovelace mis-framing fixed |
+
+### Harness findings (report to the Thessia/lesson-scribe owner)
+
+1. **CI3 citation fidelity reported 0 checked on every pass** — it let a wrong page ("p. 39"), page-less cites and a placeholder through. The regex accepts these forms, so the registry built from BRIEF.md is probably empty.
+2. **v2.1 quote verification false-passes** when an invented quotation *contains* a registered fragment ("dark side"). It should require the whole quoted span to match.
+3. Under GPU contention the default HTTP timeout fails passes silently (no raw output); the forge now uses `--timeout 1800`.
+4. Thessia regularly ignores `[S1]…[S4]`, overruns length and invents examples; the six-axis human pass remains necessary.
 
 ## 6 · Not done
 
-Human final review of 17 new media records · Athanor inject · Thessia B1 (above).
+Human final review of the new media records · Athanor inject.

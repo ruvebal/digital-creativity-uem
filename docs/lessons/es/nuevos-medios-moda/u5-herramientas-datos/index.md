@@ -104,7 +104,8 @@ Trabaja en parejas con los tres primeros pasos de la [ficha de análisis de imag
 
 ### 1 · Una métrica decide qué cuenta
 
-<!--B1:U5:1-->
+Un dashboard de marketing no mide el éxito: mide lo que alguien decidió llamar éxito, y con esa decisión también elige qué deja fuera. En julio de 1969, la sala de control del Apolo 11 celebró cuando sus pantallas mostraron las señales que el equipo había definido de antemano como misión cumplida: el éxito estaba escrito antes de medirlo. Si los datos responden a preguntas formuladas antes, ¿quién formula esas preguntas, quién paga por responderlas y a quién le importan las respuestas? Medir sin crítica se reduce a confirmar lo que ya se decidió contar: un circuito que mejora una cifra en cada vuelta y olvida otra, sin que nadie pregunte cuál.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-7887cf42-nm-u5-idea1 · cold B1 thessia-scholar-v3 · amended (see amendments.diff) -->{% endif %}
 
 <figure class="lesson-figure" id="figure-u5-mission-control" markdown="0">
 <img src="{{ '/assets/images/deck-media/1340167941ac09c8.webp' | relative_url }}" alt="Controladores de vuelo del Apolo 11 celebran en la sala de control de Houston en julio de 1969, con banderas y puros junto a las consolas." loading="lazy" decoding="async">
@@ -113,7 +114,8 @@ Trabaja en parejas con los tres primeros pasos de la [ficha de análisis de imag
 
 ### 2 · Medir no es probar
 
-<!--B1:U5:2-->
+Una cifra en la ficha de producto parece un hecho, pero solo es una afirmación hasta que su método resiste una comparación. Reformation publica la metodología de su RefScale y una declaración de verificación externa, y así permite revisar cómo calcula la huella de cada prenda; en 2022, en cambio, la autoridad noruega de consumo consideró engañoso que Norrøna comparara algodón orgánico y convencional con datos del Higg MSI. ¿Qué condiciones tendría que cumplir un índice de sostenibilidad para que pudieras repetir su número sin convertirte en altavoz de una afirmación ajena? Medir sin preguntar por el método es solo contar algo, y ese algo puede ocultar o revelar mucho según quién lo cuenta y para qué.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-e8d03eed-nm-u5-idea2 · cold B1 thessia-scholar-v3 · amended; fabricated page cite removed (see evaluation.md) -->{% endif %}
 
 > Some of the measurement tools available are critiqued as not fit for purpose and consequently fraught with controversy
 
@@ -134,7 +136,8 @@ Trabaja en parejas con los tres primeros pasos de la [ficha de análisis de imag
 
 ### 3 · Los datos se extraen de la vida
 
-<!--B1:U5:3-->
+Los datos de audiencia no se encuentran: se extraen de vidas, y cada «medición» decide qué se ve y quién entra en la cuenta. Nick Couldry y Ulises Mejias llaman a esta apropiación colonialismo de datos: el tiempo, la atención y los gestos de millones de personas se convierten en cifras que otros capitalizan [(Couldry and Mejias 2018, 2)](#ref-couldry-mejias-2018). Si casi ninguna de las personas que generan esos datos recibe algo por ellos, ¿de quién son las métricas que pegas en tu informe? Preguntar por el origen de un dato ya es una pregunta política, aunque el dashboard la presente como un simple número.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-164a68c6-nm-u5-idea3 · cold B1 thessia-scholar-v3 · amended -->{% endif %}
 
 > Data colonialism combines the predatory extractive practices of historical colonialism with the abstract quantification methods of computing.
 
@@ -147,7 +150,8 @@ Trabaja en parejas con los tres primeros pasos de la [ficha de análisis de imag
 
 ### 4 · Los datos también rinden cuentas
 
-<!--B1:U5:4-->
+Los datos que más pesan sobre una marca a veces no los produce la marca: los producen inspectores, fiscales y tribunales. En Brasil, la inspección laboral documentó trabajo esclavo en talleres de proveedores de Zara Brasil, la justicia responsabilizó a la empresa y esta podía entrar en la «lista suja», el registro público de empleadores sancionados. ¿Qué cambia para quien compra cuando esa información deja de ser un rumor de redes y se convierte en un expediente oficial? Un registro público no resuelve el trabajo en la cadena de suministro, pero sí impide que el dashboard de la marca sea el único relato disponible.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-e77d42ac-nm-u5-idea4 · cold B1 thessia-scholar-v3 · amended -->{% endif %}
 
 **Caso · Zara Brasil** (rank 14 · Track B). La fiscalía laboral documentó trabajo esclavo en talleres proveedores, la justicia responsabilizó a la marca y esta podía entrar en la *lista suja*, el registro público de empleadores sancionados ([Ministério Público do Trabalho, São Paulo](https://www.prt2.mpt.mp.br/513-justica-responsabiliza-zara-por-trabalho-escravo-e-empresa-pode-entrar-na-lista-suja){:target="_blank" rel="noopener noreferrer"} · [dosier de Repórter Brasil](https://reporterbrasil.org.br/wp-content/uploads/2016/08/From-moral-responsibility-to-legal-liability.pdf){:target="_blank" rel="noopener noreferrer"}). Es un expediente, no una anécdota de redes: aquí el dato viene de inspectores y tribunales.
 
@@ -158,7 +162,8 @@ Trabaja en parejas con los tres primeros pasos de la [ficha de análisis de imag
 
 ### 5 · Optimizar con criterio
 
-<!--B1:U5:5-->
+Una prueba A/B no te dice qué está bien: te dice qué versión de una página consigue más clics o más ventas. Si la variante ganadora funciona porque mete prisa o presiona —un contador falso, un aviso de «solo quedan dos»—, el número sube y la pregunta de fondo sigue sin respuesta: ¿quieres ganar esa venta así? Nadie puede medirlo todo, así que la decisión importante es qué no aceptarías optimizar aunque el resultado mejorara, y quién lo decide en tu equipo. La centralita de 1907 recuerda que detrás de cada sistema que «optimiza» hay personas que eligieron qué conexión contaba como buena, aunque la pantalla lo haga parecer automático.
+{% if site.publication.publish_internal_metadata %}<!-- tuning_record: 2026-11-17-f346647f-nm-u5-idea5 · cold B1 thessia-scholar-v3 · amended -->{% endif %}
 
 El PNUMA pide llevar los principios también al informe interno: el éxito «must not only look like integrating the principles into the communicator's practice, but also into their internal reporting, with an accountability and governance structure created against them» [(United Nations Environment Programme 2023, 88)](#ref-unep-2023).
 
@@ -228,7 +233,7 @@ Fondos del deck y figuras: telar Jacquard (Stephencdickson, CC BY-SA 4.0), diagr
 ## Nota editorial. Trabajo en progreso. Práctica de innovación docente
 {: .lesson-editorial-note }
 
-Las citas del PNUMA y de Couldry y Mejias están verificadas con la página impresa de la fuente. La escalera de la evidencia es un **marco operativo del curso**, no un resultado de investigación. Los casos se enseñan con sus fuentes primarias o periodísticas enlazadas; ninguna cifra de campaña se presenta como resultado independiente. Falta un estudio publicado sobre la enseñanza crítica de KPI en comunicación de moda. **En revisión:** los párrafos de desarrollo de cada idea de la masterclass se están redactando con el modelo local del curso y se incorporarán tras su revisión; mientras tanto, cada idea muestra su tesis, su caso y su cita.
+Las citas del PNUMA y de Couldry y Mejias están verificadas con la página impresa de la fuente. La escalera de la evidencia es un **marco operativo del curso**, no un resultado de investigación. Los casos se enseñan con sus fuentes primarias o periodísticas enlazadas; ninguna cifra de campaña se presenta como resultado independiente. Falta un estudio publicado sobre la enseñanza crítica de KPI en comunicación de moda. Los párrafos de desarrollo de la masterclass parten de un primer borrador del modelo local del curso, revisado y corregido a mano; las correcciones quedan registradas.
 
 ## Autoría asistida por IA
 
