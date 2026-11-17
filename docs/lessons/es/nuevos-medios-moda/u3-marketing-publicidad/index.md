@@ -148,7 +148,7 @@ United Colors of Benetton (Oliviero Toscani) y la revista **COLORS** (con Tibor 
 
 ### 2. Shock ≠ prueba de impacto social
 
-La controversia mide atención; no demuestra por sí sola un cambio social. El sector también mueve *brainprint*: influencia sobre el consumo, no solo huella operativa (United Nations Environment Programme 2023, 27). Contrasta **Benetton** (rank 5 · Track A) con el **Carnaval de Gualeguaychú** (rank 3 · Track C): uno es publicidad de marca; el otro, activismo ambiental que usa vestuario y comparsa como medios políticos. Sus objetivos y evidencias no comparten una sola rúbrica. ¿Qué métrica sería pertinente para cada caso?
+La controversia mide atención; no demuestra por sí sola un cambio social. El sector también mueve *brainprint*: influencia sobre el consumo, no solo huella operativa (United Nations Environment Programme 2023, 22). Contrasta **Benetton** (rank 5 · Track A) con el **Carnaval de Gualeguaychú** (rank 3 · Track C): uno es publicidad de marca; el otro, activismo ambiental que usa vestuario y comparsa como medios políticos. Sus objetivos y evidencias no comparten una sola rúbrica. ¿Qué métrica sería pertinente para cada caso?
 
 <figure class="lesson-figure" id="figure-gualeguaychu-carrozzo" markdown="0">
 <img src="{{ '/assets/images/lesson-media/u3-campaign/evangelina-carrozzo-cumbre-2006-e1dd657b08ae9b58.webp' | relative_url }}" alt="Evangelina Carrozzo, de pie frente a micrófonos y banderas, durante una protesta contra las plantas de celulosa en el conflicto Gualeguaychú–Fray Bentos (12 de mayo de 2006)." style="max-height:36rem;width:auto;margin-inline:auto;display:block" loading="lazy" decoding="async">
@@ -162,7 +162,7 @@ La controversia mide atención; no demuestra por sí sola un cambio social. El s
 
 > Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption
 >
-> — (United Nations Environment Programme 2023, 27)
+> — (United Nations Environment Programme 2023, 22)
 
 <figure class="lesson-figure" markdown="0">
 <img src="{{ '/assets/images/lesson-media/u3-campaign/01-message-metric-outcome-94f7d2cb235661d5.png' | relative_url }}" alt="Un mensaje de campaña conduce a tres indicadores distintos —atención, participación y divulgación—, mientras los efectos sociales requieren evidencia aparte." loading="lazy">

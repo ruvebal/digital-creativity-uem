@@ -33,7 +33,7 @@ campaign_ledger: 20260925T200000Z
 forge: agentic CV forge · nm-unit-forge · visual-forger/grounding-graph slots
 grounding:
   creativity: "course operational frame; Ahmes discovery recorded as BIBLIO-GAP until resolver-safe"
-  fashion_image: "Shinkle 2008, 15 · evaluator-safe Ahmes anchor"
+  fashion_image: "Shinkle 2008, 2 · evaluator-safe Ahmes anchor"
   fashion_node: cca1472b-b0c6-594c-8e13-ed87d6b73897
 ai_authorship_internal:
   vault_refs_n: 1
@@ -53,7 +53,7 @@ media_rights: archive backgrounds are credited in the deck and below; campaign i
 
 En esta unidad, **creatividad** no significa novedad por sí sola. Es una decisión situada: una idea responde a una tensión, acepta restricciones de audiencia y formato, y deja claro qué puede demostrar. La propuesta creativa se evalúa por la relación entre intención, forma, participación y evidencia, no por el brillo aislado de una ocurrencia.
 
-La moda añade otra responsabilidad: una imagen no es únicamente un archivo que ilustra un post. Como recuerda la investigación sobre fotografía de moda, **“Fashion photography comprises a wide array of practices”** [(Shinkle 2008, 15)](#ref-shinkle-2008). Por eso leeremos cada imagen como práctica editorial, publicitaria, documental o de representación: ¿quién aparece?, ¿quién mira?, ¿qué trabajo queda fuera del encuadre?, ¿qué atribución necesita la pieza?
+La moda añade otra responsabilidad: una imagen no es únicamente un archivo que ilustra un post. Como recuerda la investigación sobre fotografía de moda, **“Fashion photography comprises a wide array of practices”** [(Shinkle 2008, 2)](#ref-shinkle-2008). Por eso leeremos cada imagen como práctica editorial, publicitaria, documental o de representación: ¿quién aparece?, ¿quién mira?, ¿qué trabajo queda fuera del encuadre?, ¿qué atribución necesita la pieza?
 
 <figure class="lesson-figure" id="figure-u4-content-chain" markdown="0">
 <img src="{{ '/assets/images/lesson-figures/visual-forger/u4-content-chain-20261103.svg' | relative_url }}" alt="Diagrama de cinco etapas: tensión, relato, formato, participación y prueba, con contexto, voces, atribución y límite de evidencia en cada salto." loading="lazy" decoding="async">
@@ -160,7 +160,7 @@ En dos frases, explica qué se pierde cuando una marca usa una imagen de residuo
 curriculum-internal grounding receipt:
 - creativity: [BIBLIO-GAP] Beghetto and Karwowski 2025 nodes ef1eaf5c-9058-52b2-b4ac-b24f5a738628, 10055dde-d470-5e71-afe8-cc9c22f9b52d, 2ce00718-a8f2-5fd2-a04d-18cfd720db30 and d19d9955-62d5-52af-b28f-60ab95a8c11b; resolver returned unsafe metadata, so public prose is a course operational frame and no scholarly citation is claimed.
 - creativity/AI discovery: [BIBLIO-GAP] 2411_00168_creativity_ai nodes c7a4caf9-a5dc-539e-a243-1fd649c7745a and 89ca5849-41bb-5a9b-850c-849bd97552c2; discovery only, omitted from public References pending safe resolver output.
-- fashion-image: [VERIFIED] Shinkle 2008, printed page 15, Ahmes node cca1472b-b0c6-594c-8e13-ed87d6b73897, page_index=14, evaluator_safe=yes; supports the short quote and the claim that fashion photography is a field of practices.
+- fashion-image: [VERIFIED] Shinkle 2008, printed page 2 (corrected 2026-11-17 from pdf_order 15), Ahmes node cca1472b-b0c6-594c-8e13-ed87d6b73897, page_index=14, evaluator_safe=yes; supports the short quote and the claim that fashion photography is a field of practices.
 - grounding boundary: no campaign outcome, engagement result or local Kantamanto figure is inferred from the visual graphic or archive images.
 -->
 {% endif %}

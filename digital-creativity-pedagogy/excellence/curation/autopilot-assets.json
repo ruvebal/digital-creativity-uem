@@ -174,6 +174,10 @@
         {
           "project_id": "ml",
           "unit_id": "ML-VD-A"
+        },
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
         }
       ],
       "title": "Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
@@ -316,21 +320,25 @@
         {
           "project_id": "dc",
           "unit_id": "I.1"
+        },
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
         }
       ],
       "title": "Miss Maquillage Digital Fashion Garment example.png",
       "raw_title": "File:Miss Maquillage Digital Fashion Garment example.png",
       "alt_text": "Miss Maquillage Digital Fashion Garment example.png",
-      "author": "Digital fashion author / Commons upload",
+      "author": "Spitefire9 (Wikimedia Commons user)",
       "author_death_year": null,
       "licence": "CC-BY-SA-4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "provider": "wikimedia_commons",
-      "eu_term_ok": false,
-      "eu_term_reason": "digital garment still; modern rights review",
-      "rights_status": "flagged",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the author (holder licence; no EU-term claim).",
+      "rights_status": "ok",
       "flag_reason": "digital garment still; modern rights review",
       "commons_licence": "CC BY-SA 4.0",
       "commons_artist": "Spitefire9",
@@ -3661,6 +3669,10 @@
         {
           "project_id": "ml",
           "unit_id": "ML-VD-C"
+        },
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
         }
       ],
       "title": "1646 Athanasius Kircher - Camera obscura.jpg",
@@ -3809,6 +3821,502 @@
       "approved_by": "professor in-session instruction 2026-11-16 (final review pending)",
       "brief": "Plausible space that cannot be built.",
       "origin": "Volume–Depth master lectures polish 2026-11-16"
+    },
+    {
+      "asset_id": "wikimedia:File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+      "raw_title": "File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+      "alt_text": "Telar Jacquard en el National Museum of Scotland: una larga cadena de tarjetas perforadas cuelga junto a los hilos y decide el dibujo del tejido.",
+      "author": "Stephencdickson (Wikimedia Commons user)",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/A_Jacquard_loom_showing_information_punchcards%2C_National_Museum_of_Scotland.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/A_Jacquard_loom_showing_information_punchcards%2C_National_Museum_of_Scotland.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the photographer.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC BY-SA 4.0",
+      "commons_artist": "Stephencdickson",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Los datos programables nacieron en el telar: la tarjeta decide qué patrón existe.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Diagram of the Causes of Mortality in the Army in the East. (IA dr diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002).jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "Diagram of the Causes of Mortality in the Army in the East. (IA dr diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002).jpg",
+      "raw_title": "File:Diagram of the Causes of Mortality in the Army in the East. (IA dr diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002).jpg",
+      "alt_text": "Diagrama de rosa de Florence Nightingale (1858): dos espirales de cuñas azules, rojas y negras comparan las causas de muerte del ejército británico mes a mes.",
+      "author": "Florence Nightingale",
+      "author_death_year": 1910,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_Causes_of_Mortality_in_the_Army_in_the_East._(IA_dr_diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Diagram_of_the_Causes_of_Mortality_in_the_Army_in_the_East._%28IA_dr_diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002%29.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Diagram_of_the_Causes_of_Mortality_in_the_Army_in_the_East._%28IA_dr_diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002%29.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1910; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Martineau, Harriet\nNightingale, Florence",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Un gráfico de datos decide qué se ve primero: Nightingale convirtió cifras en argumento.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Inflight - Apollo XI (Mission Control Center -MCC-) - MSC (S69-40302).jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "Inflight - Apollo XI (Mission Control Center -MCC-) - MSC (S69-40302).jpg",
+      "raw_title": "File:Inflight - Apollo XI (Mission Control Center -MCC-) - MSC (S69-40302).jpg",
+      "alt_text": "Controladores de vuelo del Apolo 11 celebran en la sala de control de Houston en julio de 1969, con banderas y puros junto a las consolas.",
+      "author": "NASA Johnson Space Center",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Inflight_-_Apollo_XI_(Mission_Control_Center_-MCC-)_-_MSC_(S69-40302).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Inflight_-_Apollo_XI_%28Mission_Control_Center_-MCC-%29_-_MSC_%28S69-40302%29.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Inflight_-_Apollo_XI_%28Mission_Control_Center_-MCC-%29_-_MSC_%28S69-40302%29.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Work of the US federal government (NASA): no copyright.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "NASA Johnson Space Center",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "El éxito se define antes de medir: la sala celebra lo que sus pantallas cuentan.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Cotton field, Floyd County, GA, US.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "Cotton field, Floyd County, GA, US.jpg",
+      "raw_title": "File:Cotton field, Floyd County, GA, US.jpg",
+      "alt_text": "Campo de algodón maduro en Floyd County, Georgia (2025): miles de cápsulas blancas abiertas hasta el horizonte.",
+      "author": "Bubba73 (Wikimedia Commons user)",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Cotton_field,_Floyd_County,_GA,_US.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cotton_field%2C_Floyd_County%2C_GA%2C_US.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cotton_field%2C_Floyd_County%2C_GA%2C_US.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the photographer.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC BY-SA 4.0",
+      "commons_artist": "Bubba73",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "La materia prima detrás de una cifra de huella: el algodón no viene con su número puesto.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Ontario Datacenter California 7.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "Ontario Datacenter California 7.jpg",
+      "raw_title": "File:Ontario Datacenter California 7.jpg",
+      "alt_text": "Armario de servidores de un centro de datos en Ontario, California: filas de unidades con luces verdes encendidas.",
+      "author": "Ontariodatacenter (Wikimedia Commons user)",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ontario_Datacenter_California_7.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ontario_Datacenter_California_7.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ontario_Datacenter_California_7.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC BY-SA 4.0",
+      "commons_artist": "Ontariodatacenter",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "La infraestructura que convierte la vida diaria en flujo de datos.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Garment workers. Upper East Side, N.Y.C. LOC nclc.04080.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "Garment workers. Upper East Side, N.Y.C. LOC nclc.04080.jpg",
+      "raw_title": "File:Garment workers. Upper East Side, N.Y.C. LOC nclc.04080.jpg",
+      "alt_text": "Fotografía de Lewis Hine (1910): una familia cose prendas en casa, en el Upper East Side de Nueva York; adultos y niñas trabajan juntos junto a una ventana.",
+      "author": "Lewis Wickes Hine · National Child Labor Committee",
+      "author_death_year": 1940,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Garment_workers._Upper_East_Side,_N.Y.C._LOC_nclc.04080.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Garment_workers._Upper_East_Side%2C_N.Y.C._LOC_nclc.04080.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Garment_workers._Upper_East_Side%2C_N.Y.C._LOC_nclc.04080.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1940; public domain in the EU; Library of Congress, no known restrictions.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Hine, Lewis Wickes; National Child Labor Committee Collection",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "La fotografía documental como dato de rendición de cuentas sobre el trabajo textil.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Telephone switchboard 6 Oct 1907 Salt Lake City.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "Telephone switchboard 6 Oct 1907 Salt Lake City.jpg",
+      "raw_title": "File:Telephone switchboard 6 Oct 1907 Salt Lake City.jpg",
+      "alt_text": "Centralita telefónica de Salt Lake City en 1907: una larga fila de operadoras con cascos conecta llamadas a mano.",
+      "author": "The Salt Lake Herald",
+      "author_death_year": null,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Telephone_switchboard_6_Oct_1907_Salt_Lake_City.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Telephone_switchboard_6_Oct_1907_Salt_Lake_City.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Telephone_switchboard_6_Oct_1907_Salt_Lake_City.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Published in 1907 in a US newspaper; public domain in the EU (anonymous work over 70 years).",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "The Salt Lake Herald",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Detrás de cada sistema de datos hay trabajo humano que enruta y clasifica.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Hollerith Punched Card.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U5"
+        }
+      ],
+      "title": "Hollerith Punched Card.jpg",
+      "raw_title": "File:Hollerith Punched Card.jpg",
+      "alt_text": "Tarjeta perforada del sistema Hollerith (hacia 1895): columnas numeradas donde cada agujero registra un dato del censo.",
+      "author": "Unknown author (Hollerith system)",
+      "author_death_year": null,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hollerith_Punched_Card.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hollerith_Punched_Card.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hollerith_Punched_Card.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Created about 1895; anonymous work, public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Unknown authorUnknown author",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Un formulario decide qué agujeros existen: el diseño del dato precede al análisis.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:France in XXI Century. Latest fashion.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "France in XXI Century. Latest fashion.jpg",
+      "raw_title": "File:France in XXI Century. Latest fashion.jpg",
+      "alt_text": "Postal francesa de 1910 «En el año 2000»: una gran máquina sastre toma medidas y viste a los clientes mientras un dependiente la acciona.",
+      "author": "Villemard",
+      "author_death_year": 1913,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:France_in_XXI_Century._Latest_fashion.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/France_in_XXI_Century._Latest_fashion.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/France_in_XXI_Century._Latest_fashion.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Postcard series «En l’an 2000», 1910; treated as public domain on Commons; flag for review of EU term (author death year unknown).",
+      "rights_status": "flagged",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Villemard",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "El futuro de la moda imaginado como máquina: toda tecnología llega con una promesa.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:StateLibQld 1 129042 Lustre lingerie and hosiery display created by the Brisbane Window Display Service, 1937.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "StateLibQld 1 129042 Lustre lingerie and hosiery display created by the Brisbane Window Display Service, 1937.jpg",
+      "raw_title": "File:StateLibQld 1 129042 Lustre lingerie and hosiery display created by the Brisbane Window Display Service, 1937.jpg",
+      "alt_text": "Escaparate de lencería Lustre en Brisbane (1937): maniquíes blancos idénticos posan en fila bajo un gran rótulo.",
+      "author": "Green Studio · State Library of Queensland",
+      "author_death_year": null,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_129042_Lustre_lingerie_and_hosiery_display_created_by_the_Brisbane_Window_Display_Service,_1937.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/StateLibQld_1_129042_Lustre_lingerie_and_hosiery_display_created_by_the_Brisbane_Window_Display_Service%2C_1937.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/StateLibQld_1_129042_Lustre_lingerie_and_hosiery_display_created_by_the_Brisbane_Window_Display_Service%2C_1937.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Photograph from 1937; public domain in Australia and the EU (expired term).",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Contributor(s): Green Studio",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Los cuerpos de escaparate siempre fueron sintéticos: el maniquí antes del modelo de IA.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Bertillon - Signalement Anthropometrique.png",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "Bertillon - Signalement Anthropometrique.png",
+      "raw_title": "File:Bertillon - Signalement Anthropometrique.png",
+      "alt_text": "Lámina del «signalement anthropométrique» de Alphonse Bertillon: doce viñetas muestran cómo medir cabeza, orejas, brazos y pies de una persona.",
+      "author": "Alphonse Bertillon",
+      "author_death_year": 1914,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Bertillon_-_Signalement_Anthropometrique.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bertillon_-_Signalement_Anthropometrique.png",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bertillon_-_Signalement_Anthropometrique.png",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1914; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "El cuerpo convertido en datos: la genealogía de la biometría.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Panorama Mesdag, Den Haag 01.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "Panorama Mesdag, Den Haag 01.jpg",
+      "raw_title": "File:Panorama Mesdag, Den Haag 01.jpg",
+      "alt_text": "Vista del Panorama Mesdag (1881) en La Haya: una pintura circular de playa, dunas y barcos que envuelve al público.",
+      "author": "Donarreiskoffer (Wikimedia Commons user)",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Mesdag,_Den_Haag_01.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Panorama_Mesdag%2C_Den_Haag_01.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Panorama_Mesdag%2C_Den_Haag_01.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the photographer; the 1881 panorama painting is public domain.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC BY-SA 4.0",
+      "commons_artist": "Donarreiskoffer",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Mundos inmersivos antes del metaverso: el panorama como plataforma.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Ada Lovelace portrait.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "Ada Lovelace portrait.jpg",
+      "raw_title": "File:Ada Lovelace portrait.jpg",
+      "alt_text": "Retrato de Ada Lovelace por Alfred Edward Chalon (hacia 1840): vestido de noche, chal de encaje y abanico.",
+      "author": "Alfred Edward Chalon",
+      "author_death_year": 1860,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1860; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "Alfred Edward Chalon",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "La objeción de Lovelace: la máquina no origina; decidir el valor sigue siendo humano.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:\"Kharrad Recognizes the \"Princess\" as being an Automaton\", Folio from a Shahnama (Book of Kings) MET DP215907.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "\"Kharrad Recognizes the \"Princess\" as being an Automaton\", Folio from a Shahnama (Book of Kings) MET DP215907.jpg",
+      "raw_title": "File:\"Kharrad Recognizes the \"Princess\" as being an Automaton\", Folio from a Shahnama (Book of Kings) MET DP215907.jpg",
+      "alt_text": "Folio del Shahnama (1341): figuras con túnicas de colores rodean a una «princesa» velada en un trono; Kharrad descubre que es un autómata.",
+      "author": "Ferdowsi (text) · Iranian painter, Inju period",
+      "author_death_year": null,
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:%22Kharrad_Recognizes_the_%22Princess%22_as_being_an_Automaton%22,_Folio_from_a_Shahnama_(Book_of_Kings)_MET_DP215907.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/%22Kharrad_Recognizes_the_%22Princess%22_as_being_an_Automaton%22%2C_Folio_from_a_Shahnama_%28Book_of_Kings%29_MET_DP215907.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/%22Kharrad_Recognizes_the_%22Princess%22_as_being_an_Automaton%22%2C_Folio_from_a_Shahnama_%28Book_of_Kings%29_MET_DP215907.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by The Metropolitan Museum of Art; manuscript of 1341.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC0",
+      "commons_artist": "Ferdowsi",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Distinguir un cuerpo artificial de uno real: un dilema de autenticidad muy antiguo.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Holmes stereoscope.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "Holmes stereoscope.jpg",
+      "raw_title": "File:Holmes stereoscope.jpg",
+      "alt_text": "Estereoscopio de mano tipo Holmes, de madera y piel, con una tarjeta estereoscópica doble de un taller industrial colocada delante de las lentes.",
+      "author": "Davepape (Wikipedia user)",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Holmes_stereoscope.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Holmes_stereoscope.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Holmes_stereoscope.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Released into the public domain by its author on Wikipedia.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "Public domain",
+      "commons_artist": "User Davepape on en.wikipedia",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "La inmersión tiene historia: el estereoscopio como antecedente de la RA.",
+      "origin": "NM U5/U6 forge 2026-11-17"
+    },
+    {
+      "asset_id": "wikimedia:File:Twee portretten van onbekende mannen met geestverschijningen Photographie spirite de Mumler. Photographie spirite de Buguet (titel op object), RP-F-2001-7-1101D-31.jpg",
+      "assignments": [
+        {
+          "project_id": "nm",
+          "unit_id": "U6"
+        }
+      ],
+      "title": "Twee portretten van onbekende mannen met geestverschijningen Photographie spirite de Mumler. Photographie spirite de Buguet (titel op object), RP-F-2001-7-1101D-31.jpg",
+      "raw_title": "File:Twee portretten van onbekende mannen met geestverschijningen Photographie spirite de Mumler. Photographie spirite de Buguet (titel op object), RP-F-2001-7-1101D-31.jpg",
+      "alt_text": "Libro abierto sobre fotografía (hacia 1884): dos retratos de hombres sentados con figuras fantasmales a su espalda, ejemplos de «fotografía espírita» de Mumler y de Buguet.",
+      "author": "Rijksmuseum (reproduction); William H. Mumler and Édouard Buguet (photographs)",
+      "author_death_year": null,
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Twee_portretten_van_onbekende_mannen_met_geestverschijningen_Photographie_spirite_de_Mumler._Photographie_spirite_de_Buguet_(titel_op_object),_RP-F-2001-7-1101D-31.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Twee_portretten_van_onbekende_mannen_met_geestverschijningen_Photographie_spirite_de_Mumler._Photographie_spirite_de_Buguet_%28titel_op_object%29%2C_RP-F-2001-7-1101D-31.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Twee_portretten_van_onbekende_mannen_met_geestverschijningen_Photographie_spirite_de_Mumler._Photographie_spirite_de_Buguet_%28titel_op_object%29%2C_RP-F-2001-7-1101D-31.jpg",
+      "provider": "Wikimedia Commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by the Rijksmuseum; photographs of the 1860s–1870s by authors who died in the 19th and early 20th century.",
+      "rights_status": "ok",
+      "cropped": false,
+      "commons_licence": "CC0",
+      "commons_artist": "Rijksmuseum",
+      "rights_checked_on": "2026-11-17",
+      "rights_source": "Commons API imageinfo extmetadata",
+      "approved_by": "professor in-session instruction 2026-11-17 (final review pending)",
+      "brief": "Fotografías trucadas que se vendieron como auténticas: la divulgación es un problema antiguo.",
+      "origin": "NM U5/U6 forge 2026-11-17"
     }
   ]
 }

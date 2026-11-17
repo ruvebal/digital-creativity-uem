@@ -37,8 +37,20 @@ campaign quality or social impact.
 | ropa-limpia-inditex | U3 | 7 | Ropa Limpia; SETEM; Ropa Limpia × Inditex; SETEM / Inditex AGM | [Ropa Limpia AGM intervention](https://ropalimpia.org/noticias/accionistas-y-entidades-sociales-exigen-responsabilidad-climatica-y-social-a-inditex-durante-la-junta-de-accionistas/) |
 | jigsaw-into-the-woods-aw21 | U3 | — (supplemental critical case) | Jigsaw AW21 Into the Woods; Jigsaw “These boots were made for walking” email; Jigsaw sexual-objectification ruling | [ASA ruling](https://www.asa.org.uk/rulings/robinson-webster--holdings--ltd-g21-1127608-robinson-webster--holdings--ltd.html) |
 | kantamanto-stop-waste-colonialism | U4 | 10 | The Or Foundation; Kantamanto; Stop Waste Colonialism | [Dead White Man’s Clothes](https://deadwhitemansclothes.org/intro) |
+| reformation-refscale | U5 | 17 | Reformation RefScale; RefScale | [RefScale methodology 2023](https://media.thereformation.com/image/upload/v1680279343/pdfs/RefScale-Methodology-2023.pdf) · [independent assurance statement](https://media.thereformation.com/image/upload/v1717624075/pdfs/Point%20B%20Independent%20Assurance%20Statement%20-%20Reformation%20RefScale_23%20.pdf) |
+| zara-brasil-lista-suja | U5 | 14 | Zara Brasil; Zara Brasil slave-labour liability; lista suja | [MPT-SP court record](https://www.prt2.mpt.mp.br/513-justica-responsabiliza-zara-por-trabalho-escravo-e-empresa-pode-entrar-na-lista-suja) · [Repórter Brasil dossier](https://reporterbrasil.org.br/wp-content/uploads/2016/08/From-moral-responsibility-to-legal-liability.pdf) |
+| norrona-higg-msi-nca | U5 | — (supplemental critical case) | Norrøna Higg MSI; Higg MSI; Higg Index | [Forbrukertilsynet and ACM guidance](https://www.forbrukertilsynet.no/eng-articles/consumer-authorities-issue-guidance-on-environmental-claims-to-the-textile-industry) (bot-wall 406 to scripts) · [FashionUnited report](https://fashionunited.uk/news/business/norwegian-and-dutch-watchdogs-publish-guidance-on-higg-msi-use/2022101165634) |
+| mango-teen-ai-2024 | U6 | — (supplemental; Track B · Spain) | Mango Teen AI campaign; Mango Sunset Dream; Sunset Dream | [Mango Pressroom, 10 July 2024](https://mangofashiongroup.com/en/w/mango-crea-la-primera-campa%C3%B1a-generada-con-inteligencia-artificial-para-su-l%C3%ADnea-teen) |
+| guess-vogue-ai-2025 | U6 | — (supplemental critical case) | Guess AI model Vogue; Guess × Vogue AI ad; Seraphinne Vallora | [RNZ report, 30 July 2025](https://www.rnz.co.nz/news/world/568415/her-features-are-flawless-but-this-model-in-vogue-isn-t-real) |
+| dior-snapchat-b27-2020 | U6 | — (supplemental; Track A) | Dior B27 Snapchat AR; Dior × Snapchat; B27 try-on lens | [FashionUnited report, 30 October 2020](https://fashionunited.uk/news/retail/dior-partners-with-snapchat-for-ar-sneaker-try-on-feature/2020103051697) |
+| balenciaga-afterworld-2020 | U6 | — (supplemental; Track A) | Balenciaga Afterworld; Afterworld: The Age of Tomorrow | [designboom, 9 December 2020](https://www.designboom.com/design/balenciaga-afterworld-the-age-of-tomorrow-video-game-12-09-2020/) |
 
-U4–U6 have no campaign allocation until their lessons are forged. A case is
+U5 and U6 were allocated on 2026-11-17. The ranked bank (1–13) is fully
+allocated; U5 uses secondary-bank ranks 14 and 17 plus one regulator-backed
+supplemental case. The ranked bank has **no** AI / AR / virtual-platform case,
+so all four U6 cases are supplemental, documented by brand primary sources or
+press reports and scoped to what those sources establish; vendor-reported
+metrics (e.g. the Snapchat case study) are taught as vendor claims. A case is
 assigned when its ID is added to a lesson; do not copy an existing case merely
 because the Profield unit-routing note recommends it. If no unassigned case
 fits, return to Profield research for a new verified case before proceeding.

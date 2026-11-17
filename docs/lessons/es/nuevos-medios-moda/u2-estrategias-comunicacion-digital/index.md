@@ -109,11 +109,11 @@ Antes de programar posts, escribe voz, formatos, hipótesis de fallo y cómo sab
 
 ### 3. Las métricas son decisiones
 
-Cada KPI elige qué cuenta como éxito y qué queda invisible. A escala sectorial, la moda mueve *brainprint*: la influencia de lo que pone en el mundo sobre el consumo (United Nations Environment Programme 2023, 27). **#CompartirMomentos** permite preguntar quién comunica el alcance de una campaña de salud pública; **Moda Livre** convierte la información sobre prácticas laborales en una herramienta para comparar marcas. La investigación disponible atribuye las cifras de alcance a portavoces y las descargas de la app a sus responsables: son señales de actividad, no pruebas independientes de impacto. Si tu dashboard premia solo clics, ¿qué hipótesis estás dejando de poner a prueba?
+Cada KPI elige qué cuenta como éxito y qué queda invisible. A escala sectorial, la moda mueve *brainprint*: la influencia de lo que pone en el mundo sobre el consumo (United Nations Environment Programme 2023, 22). **#CompartirMomentos** permite preguntar quién comunica el alcance de una campaña de salud pública; **Moda Livre** convierte la información sobre prácticas laborales en una herramienta para comparar marcas. La investigación disponible atribuye las cifras de alcance a portavoces y las descargas de la app a sus responsables: son señales de actividad, no pruebas independientes de impacto. Si tu dashboard premia solo clics, ¿qué hipótesis estás dejando de poner a prueba?
 
 > Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption
 >
-> — (United Nations Environment Programme 2023, 27)
+> — (United Nations Environment Programme 2023, 22)
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -125,11 +125,11 @@ Cada KPI elige qué cuenta como éxito y qué queda invisible. A escala sectoria
 
 ### 4. Transparencia bajo presión de claims
 
-Si el claim no aguanta evidencia, no es estrategia: es riesgo. A escala UE, más de la mitad de los claims ambientales analizados eran vagos, engañosos o sin fundamento (United Nations Environment Programme 2023, 26). En Instagram, marcas de fast fashion movilizan claims de sostenibilidad para legitimar un modelo controvertido — autorización, racionalización, evaluación moral, mitopoiesis (Alkkiomäki 2024, 2). Practica la distinción con **Moda Livre**, que organiza información comparativa sobre marcas, frente a la legitimación visual de H&M/Lindex analizada por Alkkiomäki. ¿Cómo distinguirías un claim con pruebas de una estrategia de legitimación visual?
+Si el claim no aguanta evidencia, no es estrategia: es riesgo. A escala UE, más de la mitad de los claims ambientales analizados eran vagos, engañosos o sin fundamento (United Nations Environment Programme 2023, 21). En Instagram, marcas de fast fashion movilizan claims de sostenibilidad para legitimar un modelo controvertido — autorización, racionalización, evaluación moral, mitopoiesis (Alkkiomäki 2024, 2). Practica la distinción con **Moda Livre**, que organiza información comparativa sobre marcas, frente a la legitimación visual de H&M/Lindex analizada por Alkkiomäki. ¿Cómo distinguirías un claim con pruebas de una estrategia de legitimación visual?
 
 > Indeed, misinformation and greenwashing has become so ubiquitous, a 2020 study by the European Commission found 53.3% of environmental claims communicated in the EU at large were vague, misleading or unfounded
 >
-> — (United Nations Environment Programme 2023, 26)
+> — (United Nations Environment Programme 2023, 21)
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

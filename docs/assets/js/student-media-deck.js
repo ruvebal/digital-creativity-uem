@@ -92,8 +92,16 @@
       const current = typeof Reveal !== 'undefined' && Reveal.getCurrentSlide ? Reveal.getCurrentSlide() : null;
       const cardHref = current?.getAttribute('data-card-href') || '';
       backLink.href = cardHref || lessonUrl || backLink.getAttribute('href') || '#';
-      backLink.textContent = cardHref ? '← Printable card' : (lessonUrl.includes('master-lectures') ? '← Back to master lecture' : '← Back to lesson');
-      backLink.setAttribute('aria-label', cardHref ? 'Back to printable card' : 'Back to lesson');
+      // Localised by the deck page's <html lang> (Spanish NM / CD decks showed English labels).
+      const es = (document.documentElement.lang || '').toLowerCase().startsWith('es');
+      const master = lessonUrl.includes('master-lectures');
+      const label = cardHref
+        ? (es ? '← Ficha imprimible' : '← Printable card')
+        : master
+          ? (es ? '← Volver a la lección magistral' : '← Back to master lecture')
+          : (es ? '← Volver a la lección' : '← Back to lesson');
+      backLink.textContent = label;
+      backLink.setAttribute('aria-label', cardHref ? (es ? 'Volver a la ficha imprimible' : 'Back to printable card') : (es ? 'Volver a la lección' : 'Back to lesson'));
     };
     return update;
   };

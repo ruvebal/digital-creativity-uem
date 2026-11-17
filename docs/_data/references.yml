@@ -50,6 +50,7 @@ abidin-2016:
 unep-2023:
   sort: "United Nations Environment Programme 2023"
   year: 2023
+  edition_used: "UNEP PDF (102 pp.); folio printed in the page footer; printed page = PDF sequence − 5 (verified 2026-11-17: sheet 26 = p. 21, sheet 38 = p. 33). Earlier NM cites used PDF order and were corrected."
   chicago: >-
     United Nations Environment Programme. 2023. *The Sustainable Fashion
     Communication Playbook: Shifting the Narrative*. Practitioner guidance.
@@ -427,3 +428,44 @@ bendel-2025:
   chicago: >-
     Bendel, Oliver. 2025. “Image Synthesis from an Ethical Perspective.” *AI & Society* 40:
     437–46. https://doi.org/10.1007/s00146-023-01780-4.
+
+couldry-mejias-2018:
+  sort: "Couldry Nick 2018"
+  year: 2018
+  edition_note: "Page numbers follow the OnlineFirst version (pp. 1–14)."
+  edition_used: "SAGE OnlineFirst PDF, 2 September 2018, paginated 1–14 (final issue 20 (4): 336–49, 2019, not consulted)."
+  chicago: >-
+    Couldry, Nick, and Ulises A. Mejias. 2018. “Data Colonialism: Rethinking Big Data’s Relation to the
+    Contemporary Subject.” *Television & New Media*, published online September 2, 2018, 1–14.
+    https://doi.org/10.1177/1527476418796632.
+
+lamerichs-2025:
+  sort: "Lamerichs Nicolle 2025"
+  year: 2025
+  edition_used: "Open-access chapter PDF (CC BY-SA 4.0); printed page = PDF sequence + 334. Resolver prints 2024 from metadata; the book's imprint is 2025."
+  chicago: >-
+    Lamerichs, Nicolle. 2025. “Towards a Responsible Metaverse: Digital Fashion, Avatars, and the
+    Promise of Identity in Virtual Worlds.” In *Gaming the Metaverse*, edited by Benjamin Beil,
+    Gundolf S. Freyermuth, Isabelle Hamm, and Vanessa Ossa, 335–50. Studies of Digital Media Culture 21.
+    Bielefeld: transcript. https://doi.org/10.14361/9783839474624-013.
+
+sarkis-2026:
+  sort: "Sarkis Nada 2026"
+  year: 2026
+  edition_used: "Taylor & Francis PDF with cover sheet; folio read on each page (article pp. 224–233)."
+  chicago: >-
+    Sarkis, Nada, Nada Jabbour Al Maalouf, Elias Saliba, and Joseph Azizi. 2026. “The Impact of
+    Augmented Reality within the Fashion Industry on Purchase Decisions, Customer Engagement, and
+    Brand Loyalty.” *International Journal of Fashion Design, Technology and Education* 19 (2):
+    224–33. https://doi.org/10.1080/17543266.2025.2470187.
+
+flavian-2024:
+  sort: "Flavian Carlos 2024"
+  year: 2024
+  edition_note: "Page numbers follow the article-in-press pagination."
+  edition_used: "Elsevier article-in-press PDF (xxx (xxxx) xxx), paginated from 1; folio read on page."
+  chicago: >-
+    Flavián, Carlos, Sergio Ibáñez-Sánchez, Carlos Orús, and Sergio Barta. 2024. “The Dark Side of
+    the Metaverse: The Role of Gamification in Event Virtualization.” *International Journal of
+    Information Management*. Article in press.
+

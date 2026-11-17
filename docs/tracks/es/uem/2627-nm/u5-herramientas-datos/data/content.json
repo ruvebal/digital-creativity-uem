@@ -1,0 +1,482 @@
+---
+layout: null
+---
+{
+  "unit_label": "Nuevos medios · U5",
+  "locale": "es",
+  "final_event_theme": "¿Qué cuenta tu dashboard — y qué deja fuera?",
+  "media_selection": {
+    "unit_id": "U5",
+    "project_id": "nm",
+    "collection": "unit-accepted",
+    "strategy": "slide-bound-asset_id",
+    "description": "NM decks: geometrical openers; slides bind archive images by asset_id (rehydrate bindSlides); exclusive campaign cases from the course allocation index; campaign images stay linked at source."
+  },
+  "assets": [
+    {
+      "media_slot_id": "U5.cover",
+      "asset_id": "wikimedia:File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/a4122f03534da849.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/A_Jacquard_loom_showing_information_punchcards%2C_National_Museum_of_Scotland.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg",
+      "title": "A Jacquard loom showing information punchcards, National Museum of Scotland",
+      "alt_text": "Telar Jacquard en el National Museum of Scotland: una larga cadena de tarjetas perforadas cuelga junto a los hilos y decide el dibujo del tejido.",
+      "author": "Stephencdickson (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Stephencdickson (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the photographer.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.analysis-model",
+      "asset_id": "wikimedia:File:Diagram of the Causes of Mortality in the Army in the East. (IA dr diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/c1de5c6e83b2145b.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Diagram_of_the_Causes_of_Mortality_in_the_Army_in_the_East._%28IA_dr_diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_Causes_of_Mortality_in_the_Army_in_the_East._(IA_dr_diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002).jpg",
+      "title": "Diagram of the Causes of Mortality in the Army in the East. (IA dr diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002)",
+      "alt_text": "Diagrama de rosa de Florence Nightingale (1858): dos espirales de cuñas azules, rojas y negras comparan las causas de muerte del ejército británico mes a mes.",
+      "author": "Florence Nightingale",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Florence Nightingale · Wikimedia Commons",
+      "author_death_year": 1910,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1910; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-metric",
+      "asset_id": "wikimedia:File:Inflight - Apollo XI (Mission Control Center -MCC-) - MSC (S69-40302).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/1340167941ac09c8.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Inflight_-_Apollo_XI_%28Mission_Control_Center_-MCC-%29_-_MSC_%28S69-40302%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Inflight_-_Apollo_XI_(Mission_Control_Center_-MCC-)_-_MSC_(S69-40302).jpg",
+      "title": "Inflight - Apollo XI (Mission Control Center -MCC-) - MSC (S69-40302)",
+      "alt_text": "Controladores de vuelo del Apolo 11 celebran en la sala de control de Houston en julio de 1969, con banderas y puros junto a las consolas.",
+      "author": "NASA Johnson Space Center",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "NASA Johnson Space Center · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Work of the US federal government (NASA): no copyright.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-refscale",
+      "asset_id": "wikimedia:File:Hollerith Punched Card.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/d7363bff5c489ed9.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hollerith_Punched_Card.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hollerith_Punched_Card.jpg",
+      "title": "Hollerith Punched Card",
+      "alt_text": "Tarjeta perforada del sistema Hollerith (hacia 1895): columnas numeradas donde cada agujero registra un dato del censo.",
+      "author": "Unknown author (Hollerith system)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown author (Hollerith system) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Created about 1895; anonymous work, public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-index",
+      "asset_id": "wikimedia:File:Cotton field, Floyd County, GA, US.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/347515a5d720e1f0.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cotton_field%2C_Floyd_County%2C_GA%2C_US.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Cotton_field,_Floyd_County,_GA,_US.jpg",
+      "title": "Cotton field, Floyd County, GA, US",
+      "alt_text": "Campo de algodón maduro en Floyd County, Georgia (2025): miles de cápsulas blancas abiertas hasta el horizonte.",
+      "author": "Bubba73 (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Bubba73 (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the photographer.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-extraction",
+      "asset_id": "wikimedia:File:Ontario Datacenter California 7.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/3c70a8ae4f2e05c6.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ontario_Datacenter_California_7.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ontario_Datacenter_California_7.jpg",
+      "title": "Ontario Datacenter California 7",
+      "alt_text": "Armario de servidores de un centro de datos en Ontario, California: filas de unidades con luces verdes encendidas.",
+      "author": "Ontariodatacenter (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Ontariodatacenter (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the author.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-public-data",
+      "asset_id": "wikimedia:File:Garment workers. Upper East Side, N.Y.C. LOC nclc.04080.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/0af12140980ac367.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Garment_workers._Upper_East_Side%2C_N.Y.C._LOC_nclc.04080.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Garment_workers._Upper_East_Side,_N.Y.C._LOC_nclc.04080.jpg",
+      "title": "Garment workers. Upper East Side, N.Y.C. LOC nclc.04080",
+      "alt_text": "Fotografía de Lewis Hine (1910): una familia cose prendas en casa, en el Upper East Side de Nueva York; adultos y niñas trabajan juntos junto a una ventana.",
+      "author": "Lewis Wickes Hine · National Child Labor Committee",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Lewis Wickes Hine · National Child Labor Committee · Wikimedia Commons",
+      "author_death_year": 1940,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1940; public domain in the EU; Library of Congress, no known restrictions.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.lab-1",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/affb13f5f7c9d0f8.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Illustrated_fashion_catalogue_-_summer%2C_1890_%281890%29_%2814803821793%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Illustrated_fashion_catalogue_-_summer,_1890_(1890)_(14803821793).jpg",
+      "title": "Illustrated fashion catalogue - summer, 1890 (1890) (14803821793)",
+      "alt_text": "Illustrated fashion catalogue page from summer 1890",
+      "author": "Unknown catalogue illustrator (1890)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown catalogue illustrator (1890) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous US catalogue 1890; EU term from publication expired",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.lab-2",
+      "asset_id": "wikimedia:File:Telephone switchboard 6 Oct 1907 Salt Lake City.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/8e69f6f0f2dc1b37.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Telephone_switchboard_6_Oct_1907_Salt_Lake_City.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Telephone_switchboard_6_Oct_1907_Salt_Lake_City.jpg",
+      "title": "Telephone switchboard 6 Oct 1907 Salt Lake City",
+      "alt_text": "Centralita telefónica de Salt Lake City en 1907: una larga fila de operadoras con cascos conecta llamadas a mano.",
+      "author": "The Salt Lake Herald",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "The Salt Lake Herald · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Published in 1907 in a US newspaper; public domain in the EU (anonymous work over 70 years).",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+      "heading": "¿Qué **cuenta** tu dashboard?",
+      "sentence": "Cada métrica es una decisión sobre qué cuenta como éxito: medir **no es probar**, y los datos tienen origen, coste y dueño.",
+      "prompt": "CONTENIDOS: Comunicación digital · herramientas y análisis de datos.",
+      "image_brief": "Telar Jacquard con tarjetas perforadas: los datos programables nacieron en el textil.",
+      "notes": "- Sesión: análisis 15′ · masterclass 40′ · laboratorio 50′ · puesta en común 15′.\n- Pregunta de apertura: ¿qué número miras primero cuando publicas?",
+      "media_slot_id": "U5.cover"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Abrir",
+      "sentence": "",
+      "notes": "- Usa los tres primeros pasos de la ficha de análisis de imagen de moda."
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Diagram of the Causes of Mortality in the Army in the East. (IA dr diagram-of-the-causes-of-mortality-in-the-army-in-the-east-10563002).jpg",
+      "heading": "Un gráfico de **1858** que cambió una política",
+      "body": [
+        {
+          "kicker": "Describe",
+          "text": "Florence Nightingale dibujó la mortalidad del ejército británico en Crimea como **cuñas de colores**, mes a mes. ¿Qué ves primero?"
+        },
+        {
+          "kicker": "Datos",
+          "text": "Las cuñas azules —muertes por enfermedades evitables— son **mucho mayores** que las rojas de las heridas: el diseño decide qué comparación salta a la vista."
+        },
+        {
+          "kicker": "Crítica",
+          "text": "Nightingale eligió qué contar y cómo mostrarlo para cambiar la sanidad militar. ¿Qué decide tu dashboard ==por ti==?"
+        }
+      ],
+      "image_brief": "Diagrama de rosa de Nightingale: el diseño del dato como argumento.",
+      "notes": "- Modela el primer bloque en voz alta; las parejas hacen el resto.",
+      "media_slot_id": "U5.analysis-model"
+    },
+    {
+      "slide_id": "masterclass-metric",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Inflight - Apollo XI (Mission Control Center -MCC-) - MSC (S69-40302).jpg",
+      "heading": "Una métrica decide qué **cuenta**",
+      "sentence": "Antes de medir, alguien decidió qué es éxito. **Alcance**, **ventas** y **cambio de conducta** no son lo mismo, y medir el último es lo más difícil.",
+      "quote": "Measuring the impact of communication and tracking its input on industry progress towards sustainability targets can be a challenge",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 88)",
+        "href": "/lessons/es/nuevos-medios-moda/u5-herramientas-datos/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "metrics",
+          "measurement"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "Houston, julio de 1969: la sala celebra lo que sus pantallas cuentan. ¿Qué celebraría tu equipo?",
+      "image_brief": "Controladores del Apolo 11 celebran junto a las consolas.",
+      "notes": "- En español: «Medir el impacto de la comunicación y su aporte al avance del sector hacia los objetivos de sostenibilidad puede ser un reto».\n- Distingue indicador (lo que se mide) y efecto (lo que cambia).",
+      "media_slot_id": "U5.masterclass-metric"
+    },
+    {
+      "slide_id": "figure-ladder",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "La escalera de la evidencia",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/nm-u5-evidence-ladder-b044bc3280f2.svg",
+        "alt": "Diagrama del curso: seis peldaños de evidencia, de la exposición (impresiones, dato de la plataforma) al resultado independiente (auditoría, inspección o dato público, producido por un tercero).",
+        "placement": "full",
+        "caption": "Diagrama original del curso · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Marco operativo del curso: cada caso de la unidad se sitúa en un peldaño."
+    },
+    {
+      "slide_id": "masterclass-refscale",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Hollerith Punched Card.jpg",
+      "heading": "Una cifra en la etiqueta **informa**",
+      "sentence": "Reformation muestra una huella por prenda con su **RefScale** y publica el método y una verificación externa. Lee ambos antes de repetir el número.",
+      "quote": "Some of the measurement tools available are critiqued as not fit for purpose and consequently fraught with controversy",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 33)",
+        "href": "/lessons/es/nuevos-medios-moda/u5-herramientas-datos/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "measurement",
+          "claims"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "external_link": {
+        "href": "https://media.thereformation.com/image/upload/v1680279343/pdfs/RefScale-Methodology-2023.pdf",
+        "label": "Caso: Reformation RefScale · metodología 2023 ↗"
+      },
+      "prompt": "Caso rank 17 · Track A: transparencia contable de marca, ==no== movimiento social.",
+      "image_brief": "Tarjeta perforada Hollerith: el formato del dato decide qué se puede contar.",
+      "notes": "- En español: «Algunas herramientas de medición disponibles se critican por no ser adecuadas y, por tanto, están rodeadas de controversia».\n- Verificación independiente: https://media.thereformation.com/image/upload/v1717624075/pdfs/Point%20B%20Independent%20Assurance%20Statement%20-%20Reformation%20RefScale_23%20.pdf",
+      "media_slot_id": "U5.masterclass-refscale"
+    },
+    {
+      "slide_id": "masterclass-index",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Cotton field, Floyd County, GA, US.jpg",
+      "heading": "Un índice tampoco es una **prueba**",
+      "sentence": "En 2022 la autoridad noruega de consumo pidió a **Norrøna** cambiar anuncios que comparaban algodón orgánico y convencional con datos del **Higg MSI**: el índice no bastaba como prueba.",
+      "quote": "not evidence-backed when it comes to comparing the environmental footprint of an organic cotton t-shirt with a conventional cotton one, and thus misleading",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(United Nations Environment Programme 2023, 33)",
+        "href": "/lessons/es/nuevos-medios-moda/u5-herramientas-datos/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "greenwashing",
+          "regulation"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "external_link": {
+        "href": "https://fashionunited.uk/news/business/norwegian-and-dutch-watchdogs-publish-guidance-on-higg-msi-use/2022101165634",
+        "label": "Caso: Norrøna × Higg MSI · guía de las autoridades, 2022 ↗"
+      },
+      "prompt": "Caso crítico suplementario: un regulador, ==no== una opinión, decidió que la comparación era engañosa.",
+      "image_brief": "Campo de algodón: la materia prima no viene con su número puesto.",
+      "notes": "- En español: «sin respaldo de evidencia para comparar la huella de una camiseta de algodón orgánico con la de una convencional, y por tanto engañoso».\n- Fuente primaria (bloquea scripts, abre en navegador): https://www.forbrukertilsynet.no/eng-articles/consumer-authorities-issue-guidance-on-environmental-claims-to-the-textile-industry",
+      "media_slot_id": "U5.masterclass-index"
+    },
+    {
+      "slide_id": "masterclass-extraction",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Ontario Datacenter California 7.jpg",
+      "heading": "Los datos se **extraen** de la vida",
+      "sentence": "Tus métricas vienen de vidas convertidas en datos. Nick Couldry y Ulises Mejias llaman a esta apropiación **colonialismo de datos**: pregunta de quién son y ==quién no consintió==.",
+      "quote": "Data colonialism combines the predatory extractive practices of historical colonialism with the abstract quantification methods of computing.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Couldry and Mejias 2018, 2)",
+        "href": "/lessons/es/nuevos-medios-moda/u5-herramientas-datos/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "big-data",
+          "data-colonialism"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "Antes de usar un dato de audiencia: ¿quién lo recogió, quién lo vende, quién lo **cobra**?",
+      "image_brief": "Armario de servidores: la infraestructura física de los datos.",
+      "notes": "- En español: «El colonialismo de datos combina las prácticas extractivas depredadoras del colonialismo histórico con los métodos abstractos de cuantificación de la informática».",
+      "media_slot_id": "U5.masterclass-extraction"
+    },
+    {
+      "slide_id": "masterclass-public-data",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Garment workers. Upper East Side, N.Y.C. LOC nclc.04080.jpg",
+      "heading": "Los datos también **rinden cuentas**",
+      "sentence": "En Brasil, la inspección laboral documentó trabajo esclavo en talleres proveedores de **Zara Brasil**; la justicia responsabilizó a la marca, que podía entrar en la «**lista suja**», un registro público.",
+      "external_link": {
+        "href": "https://www.prt2.mpt.mp.br/513-justica-responsabiliza-zara-por-trabalho-escravo-e-empresa-pode-entrar-na-lista-suja",
+        "label": "Caso: Zara Brasil · Ministério Público do Trabalho ↗"
+      },
+      "prompt": "Caso rank 14 · Track B. Fondo: Lewis Hine fotografió en 1910 costura a domicilio en Nueva York como **prueba** para cambiar leyes — no es el caso brasileño.",
+      "image_brief": "Fotografía de Lewis Hine: la imagen documental como dato de rendición de cuentas.",
+      "notes": "- Dosier de Repórter Brasil: https://reporterbrasil.org.br/wp-content/uploads/2016/08/From-moral-responsibility-to-legal-liability.pdf\n- Contra-datos: periodismo, inspección y tribunales producen evidencia que la marca no controla.",
+      "media_slot_id": "U5.masterclass-public-data"
+    },
+    {
+      "slide_id": "figure-kpi",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Ficha de auditoría de un KPI",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/nm-u5-kpi-audit-95efe33c02cb.svg",
+        "alt": "Diagrama del curso: cinco preguntas para auditar la tasa de engagement — qué cuenta, qué deja fuera, quién produce el dato, qué decisión provoca y, en rojo, qué prueba falta.",
+        "placement": "full",
+        "caption": "Diagrama original del curso · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Esta ficha es la hoja de trabajo del Ejercicio 1."
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Repaso",
+      "sentence": "Solo, de memoria, tres minutos. Después compara con tu pareja.",
+      "questions": [
+        "¿Por qué una métrica es una **decisión**?",
+        "¿Qué diferencia hay entre un indicador y un efecto?",
+        "¿Qué decidió en 2022 la autoridad noruega sobre el Higg MSI?",
+        "¿Qué es el colonialismo de datos?",
+        "¿Qué es la «lista suja» de Brasil?"
+      ],
+      "notes": "Respuestas:\n- Porque define antes qué cuenta como éxito y qué queda fuera.\n- El indicador se mide (alcance, clics); el efecto es el cambio real, más difícil de probar.\n- Que comparar algodón orgánico y convencional con esos datos era engañoso.\n- La apropiación de la vida social convertida en datos para extraer valor.\n- Un registro público de empleadores sancionados por trabajo esclavo."
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Laboratorio",
+      "sentence": "**Dos ejercicios**. Todo lo que produzcas entra en tu **índice de portafolio** en Canvas.",
+      "notes": "- Anonimiza capturas: ningún dato personal de otras personas."
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Illustrated fashion catalogue - summer, 1890 (1890) (14803821793).jpg",
+      "heading": "Ejercicio 1 · Auditoría de dashboard",
+      "sentence": "Abre las estadísticas de una cuenta (tuya o de una marca pública) y audita **tres KPI** con la ficha: qué cuentan, qué dejan fuera y ==qué prueba falta==.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Sube la ficha con capturas anonimizadas y una frase: ¿en qué **peldaño** de la escalera está cada KPI?",
+      "card_link": {
+        "href": "/lessons/es/nuevos-medios-moda/u5-herramientas-datos/#ejercicio-1--auditoria-de-dashboard-25",
+        "label": "Ficha y pasos en la lección"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Catálogo de moda de 1890: cada prenda numerada, lista para ser contada.",
+      "media_slot_id": "U5.lab-1"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Telephone switchboard 6 Oct 1907 Salt Lake City.jpg",
+      "heading": "Ejercicio 2 · Plan de medición con criterio",
+      "sentence": "Diseña la medición de una campaña de moda: **un objetivo**, **tres indicadores** en peldaños distintos y **una línea roja** que no optimizarías aunque subiera el número.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Entrega el plan en una página y explica qué **decisión** cambiaría cada indicador.",
+      "card_link": {
+        "href": "/lessons/es/nuevos-medios-moda/u5-herramientas-datos/#ejercicio-2--plan-de-medicion-con-criterio-25",
+        "label": "Plantilla en la lección"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Centralita de 1907: detrás de cada sistema de datos hay trabajo humano.",
+      "media_slot_id": "U5.lab-2"
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Para llevar",
+      "sentence": "Un dashboard cuenta lo que alguien decidió contar. En U6, cuando la imagen la produce una máquina, la pregunta cambia: ==¿qué tendrías que declarar?==",
+      "notes": "- Entrada de portafolio antes de la próxima sesión."
+    }
+  ],
+  "schema_version": 2
+}

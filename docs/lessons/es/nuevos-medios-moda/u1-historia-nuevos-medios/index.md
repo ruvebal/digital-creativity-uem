@@ -110,7 +110,7 @@ Banco de casos de U1: PayUp · Patagonia Action Works · Levi’s Buy Better, We
 
 ### 1. La historia es un mapa de poder
 
-La historia de la moda no es una línea de fechas: cada salto técnico cambia **quién** puede definir lo visible — vapor, electricidad, pantalla, feed (Nobile 2021, 294). Hoy ese mapa no se cierra en la fábrica: la *platformization* circula y monetiza cuerpos digitales en mundos online (Lamerichs 2024, 3). Un caso vivo de redistribución de poder *fuera* del escaparate: **PayUp / #PayUp** (Remake, 2020) — coalición viral por salarios y contratos cancelados durante la pandemia, no un spot de producto (United Nations Environment Programme 2023, 80). ¿Quién gana visibilidad cuando el “nuevo medio” es un algoritmo y no un canal de televisión? La respuesta no es “todos publican”: es una redistribución de poder con nuevas exclusiones.
+La historia de la moda no es una línea de fechas: cada salto técnico cambia **quién** puede definir lo visible — vapor, electricidad, pantalla, feed (Nobile 2021, 294). Hoy ese mapa no se cierra en la fábrica: la *platformization* circula y monetiza cuerpos digitales en mundos online (Lamerichs 2024, 3). Un caso vivo de redistribución de poder *fuera* del escaparate: **PayUp / #PayUp** (Remake, 2020) — coalición viral por salarios y contratos cancelados durante la pandemia, no un spot de producto (United Nations Environment Programme 2023, 75). ¿Quién gana visibilidad cuando el “nuevo medio” es un algoritmo y no un canal de televisión? La respuesta no es “todos publican”: es una redistribución de poder con nuevas exclusiones.
 
 > Throughout history, technological advancements have shaped the nature of fashion: the first industrial revolution contributed to the mechanisation of fashion manufacture by exploiting water and steam power, the second revolution accelerated fashion production through the invention of electricity
 >
@@ -148,11 +148,11 @@ La historia de la moda no es una línea de fechas: cada salto técnico cambia **
 
 > PayUp was a campaign launched by global advocacy organisation Remake in 2020 to recover the USD 40 billion owed by brands to suppliers for clothing already in production or completed prior to the COVID-19 pandemic.
 >
-> — (United Nations Environment Programme 2023, 80)
+> — (United Nations Environment Programme 2023, 75)
 
 ### 2. La transformación digital toca toda la moda
 
-Comunicación y marketing digitales no son un anexo al catálogo: rehacen la relación negocio–público (Nobile 2021, 294). Instagram no “añade un canal”: desplaza dónde se ve, se desea y se compra la prenda. **Patagonia Action Works** muestra otra forma de esa transformación: la marca conecta al público con grupos de base mediante eventos, peticiones, voluntariado cualificado y donaciones — presencia más allá del post (United Nations Environment Programme 2023, 79). ¿Qué decisiones de marca siguen siendo válidas si el punto de contacto primario ya no es el escaparate?
+Comunicación y marketing digitales no son un anexo al catálogo: rehacen la relación negocio–público (Nobile 2021, 294). Instagram no “añade un canal”: desplaza dónde se ve, se desea y se compra la prenda. **Patagonia Action Works** muestra otra forma de esa transformación: la marca conecta al público con grupos de base mediante eventos, peticiones, voluntariado cualificado y donaciones — presencia más allá del post (United Nations Environment Programme 2023, 74). ¿Qué decisiones de marca siguen siendo válidas si el punto de contacto primario ya no es el escaparate?
 
 > The digital transformation has impacted all the facets of fashion. First of all fashion communication and marketing, through the adoption of digital tools creates a fertile ground for the improvement of business and customer relationships
 >
@@ -178,11 +178,11 @@ Comunicación y marketing digitales no son un anexo al catálogo: rehacen la rel
 
 > Patagonia Action Works is a platform from outerwear brand Patagonia that aims to connect individuals with grassroots groups so they can help take action on some of the most pressing issues facing the world today. It invites the public to participate through events, petitions, skilled volunteer opportunities and donations.
 >
-> — (United Nations Environment Programme 2023, 79)
+> — (United Nations Environment Programme 2023, 74)
 
 ### 3. El medio reescribe la relación marca–público
 
-Cada plataforma redefine quién habla, quién amplifica y quién mide. En Instagram, el comercio de influencers recluta seguidores que producen #OOTD y otros gestos de visibilidad — trabajo creativo poco compensado en una economía de atención (Abidin 2016, 1). A escala sectorial, lo que la moda pone en el mundo es también *brainprint*: influencia sobre el consumo, no solo huella material (United Nations Environment Programme 2023, 27). **Levi’s Buy Better, Wear Longer** (2021) opera exactamente ahí: campaña multiplataforma sobre consumo intencional, SecondHand y Tailor Shops — el medio intenta reescribir el hábito de compra (United Nations Environment Programme 2023, 55). ¿Qué cambia en tu línea de tiempo marca–público si cuentas el trabajo de los seguidores *y* el brainprint de campañas como parte del medio?
+Cada plataforma redefine quién habla, quién amplifica y quién mide. En Instagram, el comercio de influencers recluta seguidores que producen #OOTD y otros gestos de visibilidad — trabajo creativo poco compensado en una economía de atención (Abidin 2016, 1). A escala sectorial, lo que la moda pone en el mundo es también *brainprint*: influencia sobre el consumo, no solo huella material (United Nations Environment Programme 2023, 22). **Levi’s Buy Better, Wear Longer** (2021) opera exactamente ahí: campaña multiplataforma sobre consumo intencional, SecondHand y Tailor Shops — el medio intenta reescribir el hábito de compra (United Nations Environment Programme 2023, 50). ¿Qué cambia en tu línea de tiempo marca–público si cuentas el trabajo de los seguidores *y* el brainprint de campañas como parte del medio?
 
 > Influencers are one form of microcelebrity who accumulate a following on blogs and social media through textual and visual narrations of their personal, everyday lives, upon which advertorials for products and services are premised. … everyday users are beginning to model after Influencers through tags, reposts and #OOTDs … producing volumes of advertising content that is not only encouraged by Influencers and brands but also publicly utilised with little compensation.
 >
@@ -198,7 +198,7 @@ Cada plataforma redefine quién habla, quién amplifica y quién mide. En Instag
 
 > Ultimately this is about the sector's 'brainprint' and not just its footprint; about the influence what it puts out into the world has on consumption
 >
-> — (United Nations Environment Programme 2023, 27)
+> — (United Nations Environment Programme 2023, 22)
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -210,7 +210,7 @@ Cada plataforma redefine quién habla, quién amplifica y quién mide. En Instag
 
 > The multi-platform Buy Better, Wear Longer campaign from denim brand Levi's was unveiled in 2021 focused on responsible production, reduced consumption and less waste.
 >
-> — (United Nations Environment Programme 2023, 55)
+> — (United Nations Environment Programme 2023, 50)
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -224,7 +224,7 @@ Cada plataforma redefine quién habla, quién amplifica y quién mide. En Instag
 
 ### 4. Glosario activo, no lista muerta
 
-Un término del glosario solo cuenta si lo anclas a un caso vivo. “Advertorial”, “#OOTD” o “visibility labour” no son decoración: nombran trabajo y circulación en campañas ancladas a seguidores (Abidin 2016, 2). Banco vivo de este curso: **PayUp** · **Action Works** · **Levi’s Buy Better, Wear Longer** · **Selfridges Project Earth** (United Nations Environment Programme 2023, 56, 55, 79, 80). Si la definición oficial y la marca real divergen, ese desfase es material de estudio — no un error a ocultar. *(Postura de estudio: la pedagogía del glosario como instrumento crítico sigue abierta.)*
+Un término del glosario solo cuenta si lo anclas a un caso vivo. “Advertorial”, “#OOTD” o “visibility labour” no son decoración: nombran trabajo y circulación en campañas ancladas a seguidores (Abidin 2016, 2). Banco vivo de este curso: **PayUp** · **Action Works** · **Levi’s Buy Better, Wear Longer** · **Selfridges Project Earth** (United Nations Environment Programme 2023, 51, 55, 79, 80). Si la definición oficial y la marca real divergen, ese desfase es material de estudio — no un error a ocultar. *(Postura de estudio: la pedagogía del glosario como instrumento crítico sigue abierta.)*
 
 > This article turns to focus on Influencers' followers and the labour in which they engage in tandem with Influencers' advertorial posts. … the products of followers' labour are also publicly utilised with little to no remuneration, compensation or acknowledgement.
 >
@@ -240,7 +240,7 @@ Un término del glosario solo cuenta si lo anclas a un caso vivo. “Advertorial
 
 > U.K retailer Selfridges launched Project Earth in 2020 to change the way people shop and the way it does business, and to create a more sustainable future for people and planet.
 >
-> — (United Nations Environment Programme 2023, 56)
+> — (United Nations Environment Programme 2023, 51)
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

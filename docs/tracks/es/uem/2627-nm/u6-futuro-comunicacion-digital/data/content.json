@@ -1,0 +1,541 @@
+---
+layout: null
+---
+{
+  "unit_label": "Nuevos medios · U6",
+  "locale": "es",
+  "final_event_theme": "¿Qué promete la tecnología — y qué tendrías que declarar?",
+  "media_selection": {
+    "unit_id": "U6",
+    "project_id": "nm",
+    "collection": "unit-accepted",
+    "strategy": "slide-bound-asset_id",
+    "description": "NM decks: geometrical openers; slides bind archive images by asset_id (rehydrate bindSlides); exclusive campaign cases from the course allocation index; campaign images stay linked at source."
+  },
+  "assets": [
+    {
+      "media_slot_id": "U6.cover",
+      "asset_id": "wikimedia:File:France in XXI Century. Latest fashion.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/4bbea51b65bd2ddc.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/France_in_XXI_Century._Latest_fashion.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:France_in_XXI_Century._Latest_fashion.jpg",
+      "title": "France in XXI Century. Latest fashion",
+      "alt_text": "Postal francesa de 1910 «En el año 2000»: una gran máquina sastre toma medidas y viste a los clientes mientras un dependiente la acciona.",
+      "author": "Villemard",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Villemard · Wikimedia Commons",
+      "author_death_year": 1913,
+      "eu_term_ok": true,
+      "eu_term_reason": "Postcard series «En l’an 2000», 1910; treated as public domain on Commons; flag for review of EU term (author death year unknown).",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.analysis-model",
+      "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/eb30c35e179aae54.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miss_Maquillage_Digital_Fashion_Garment_example.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png",
+      "title": "Miss Maquillage Digital Fashion Garment example",
+      "alt_text": "Miss Maquillage Digital Fashion Garment example.png",
+      "author": "Spitefire9 (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Spitefire9 (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the author (holder licence; no EU-term claim).",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-ar",
+      "asset_id": "wikimedia:File:Holmes stereoscope.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/b16db3fa275a514c.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Holmes_stereoscope.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Holmes_stereoscope.jpg",
+      "title": "Holmes stereoscope",
+      "alt_text": "Estereoscopio de mano tipo Holmes, de madera y piel, con una tarjeta estereoscópica doble de un taller industrial colocada delante de las lentes.",
+      "author": "Davepape (Wikipedia user)",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Davepape (Wikipedia user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Released into the public domain by its author on Wikipedia.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-ai-models",
+      "asset_id": "wikimedia:File:StateLibQld 1 129042 Lustre lingerie and hosiery display created by the Brisbane Window Display Service, 1937.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/169b82fb3589dcc9.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/StateLibQld_1_129042_Lustre_lingerie_and_hosiery_display_created_by_the_Brisbane_Window_Display_Service%2C_1937.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_129042_Lustre_lingerie_and_hosiery_display_created_by_the_Brisbane_Window_Display_Service,_1937.jpg",
+      "title": "StateLibQld 1 129042 Lustre lingerie and hosiery display created by the Brisbane Window Display Service, 1937",
+      "alt_text": "Escaparate de lencería Lustre en Brisbane (1937): maniquíes blancos idénticos posan en fila bajo un gran rótulo.",
+      "author": "Green Studio · State Library of Queensland",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Green Studio · State Library of Queensland · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Photograph from 1937; public domain in Australia and the EU (expired term).",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-disclosure",
+      "asset_id": "wikimedia:File:Twee portretten van onbekende mannen met geestverschijningen Photographie spirite de Mumler. Photographie spirite de Buguet (titel op object), RP-F-2001-7-1101D-31.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/0b84ec74f1568fd3.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Twee_portretten_van_onbekende_mannen_met_geestverschijningen_Photographie_spirite_de_Mumler._Photographie_spirite_de_Buguet_%28titel_op_object%29%2C_RP-F-2001-7-1101D-31.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Twee_portretten_van_onbekende_mannen_met_geestverschijningen_Photographie_spirite_de_Mumler._Photographie_spirite_de_Buguet_(titel_op_object),_RP-F-2001-7-1101D-31.jpg",
+      "title": "Twee portretten van onbekende mannen met geestverschijningen Photographie spirite de Mumler. Photographie spirite de Buguet (titel op object), RP-F-2001-7-1101D-31",
+      "alt_text": "Libro abierto sobre fotografía (hacia 1884): dos retratos de hombres sentados con figuras fantasmales a su espalda, ejemplos de «fotografía espírita» de Mumler y de Buguet.",
+      "author": "Rijksmuseum (reproduction); William H. Mumler and Édouard Buguet (photographs)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Rijksmuseum (reproduction); William H. Mumler and Édouard Buguet (photographs) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by the Rijksmuseum; photographs of the 1860s–1870s by authors who died in the 19th and early 20th century.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-avatar",
+      "asset_id": "wikimedia:File:Bertillon - Signalement Anthropometrique.png",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/a72705888118e0c6.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bertillon_-_Signalement_Anthropometrique.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Bertillon_-_Signalement_Anthropometrique.png",
+      "title": "Bertillon - Signalement Anthropometrique",
+      "alt_text": "Lámina del «signalement anthropométrique» de Alphonse Bertillon: doce viñetas muestran cómo medir cabeza, orejas, brazos y pies de una persona.",
+      "author": "Alphonse Bertillon",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Alphonse Bertillon · Wikimedia Commons",
+      "author_death_year": 1914,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1914; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-platform",
+      "asset_id": "wikimedia:File:Panorama Mesdag, Den Haag 01.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/538050782caf5c9d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Panorama_Mesdag%2C_Den_Haag_01.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Mesdag,_Den_Haag_01.jpg",
+      "title": "Panorama Mesdag, Den Haag 01",
+      "alt_text": "Vista del Panorama Mesdag (1881) en La Haya: una pintura circular de playa, dunas y barcos que envuelve al público.",
+      "author": "Donarreiskoffer (Wikimedia Commons user)",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Donarreiskoffer (Wikimedia Commons user) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 4.0 licence granted by the photographer; the 1881 panorama painting is public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-judgement",
+      "asset_id": "wikimedia:File:Ada Lovelace portrait.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/39eb29d0f59c131f.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg",
+      "title": "Ada Lovelace portrait",
+      "alt_text": "Retrato de Ada Lovelace por Alfred Edward Chalon (hacia 1840): vestido de noche, chal de encaje y abanico.",
+      "author": "Alfred Edward Chalon",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Alfred Edward Chalon · Wikimedia Commons",
+      "author_death_year": 1860,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1860; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.lab-1",
+      "asset_id": "wikimedia:File:1646 Athanasius Kircher - Camera obscura.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/615df243ed4970ea.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/1646_Athanasius_Kircher_-_Camera_obscura.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1646_Athanasius_Kircher_-_Camera_obscura.jpg",
+      "title": "1646 Athanasius Kircher - Camera obscura",
+      "alt_text": "Kircher’s 1646 engraving of a portable camera obscura: a person inside a box traces the inverted image projected through small openings.",
+      "author": "Athanasius Kircher",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Athanasius Kircher · Wikimedia Commons",
+      "author_death_year": 1680,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1680; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.lab-2",
+      "asset_id": "wikimedia:File:\"Kharrad Recognizes the \"Princess\" as being an Automaton\", Folio from a Shahnama (Book of Kings) MET DP215907.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/18fb82ee4732dcf9.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/%22Kharrad_Recognizes_the_%22Princess%22_as_being_an_Automaton%22%2C_Folio_from_a_Shahnama_%28Book_of_Kings%29_MET_DP215907.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:%22Kharrad_Recognizes_the_%22Princess%22_as_being_an_Automaton%22,_Folio_from_a_Shahnama_(Book_of_Kings)_MET_DP215907.jpg",
+      "title": "\"Kharrad Recognizes the \"Princess\" as being an Automaton\", Folio from a Shahnama (Book of Kings) MET DP215907",
+      "alt_text": "Folio del Shahnama (1341): figuras con túnicas de colores rodean a una «princesa» velada en un trono; Kharrad descubre que es un autómata.",
+      "author": "Ferdowsi (text) · Iranian painter, Inju period",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Ferdowsi (text) · Iranian painter, Inju period · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 release by The Metropolitan Museum of Art; manuscript of 1341.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:France in XXI Century. Latest fashion.jpg",
+      "heading": "¿Qué **promete** el futuro de la moda?",
+      "sentence": "IA, realidad aumentada y mundos virtuales cambian la escena. **Autenticidad**, **divulgación** y **datos** son problemas de diseño, no letra pequeña.",
+      "prompt": "CONTENIDOS: Presente y futuro de la comunicación digital.",
+      "image_brief": "Postal de 1910: el sastre del año 2000 imaginado como máquina.",
+      "notes": "- Pregunta de apertura: ¿qué tecnología de moda has usado esta semana sin pensarlo?",
+      "media_slot_id": "U6.cover"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Abrir",
+      "sentence": "",
+      "notes": "- Ficha de análisis, pasos 1–3; añade: ¿qué parte de la imagen es real?"
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Miss Maquillage Digital Fashion Garment example.png",
+      "heading": "Una prenda que **no existe**, sobre una persona real",
+      "body": [
+        {
+          "kicker": "Describe",
+          "text": "Dos fotos de la misma modelo: a la izquierda con su ropa; a la derecha, con una **prenda digital** superpuesta."
+        },
+        {
+          "kicker": "Producción",
+          "text": "La prenda se diseñó con software y se ajustó a la foto: no hay tela, pero sí **trabajo**, archivo y licencia."
+        },
+        {
+          "kicker": "Crítica",
+          "text": "Si la imagen circula sin explicación, ¿qué cree quien mira? ==¿Quién debería decirlo?=="
+        }
+      ],
+      "image_brief": "Antes y después: moda digital superpuesta a una fotografía.",
+      "notes": "- Modela el primer bloque; las parejas hacen el resto.",
+      "media_slot_id": "U6.analysis-model"
+    },
+    {
+      "slide_id": "masterclass-ar",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Holmes stereoscope.jpg",
+      "heading": "Probarse **sin tocar**",
+      "sentence": "En 2020 **Dior** y **Snapchat** lanzaron una lente para probarse seis modelos de la zapatilla B27 con la cámara. Un estudio de 2026 confirma que la RA reduce la **duda** de comprar online.",
+      "quote": "AR can reduce information asymmetry, a common issue in online shopping, by providing real-time, immersive product interactions.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Sarkis et al. 2026, 229)",
+        "href": "/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "augmented-reality",
+          "retail"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "external_link": {
+        "href": "https://fashionunited.uk/news/retail/dior-partners-with-snapchat-for-ar-sneaker-try-on-feature/2020103051697",
+        "label": "Caso: Dior × Snapchat B27 · FashionUnited, 2020 ↗"
+      },
+      "prompt": "Las cifras de éxito de esta campaña proceden de un caso de estudio del propio ==Snapchat==: ¿quién lo verifica?",
+      "image_brief": "Estereoscopio tipo Holmes: ver en relieve sin tocar, antecedente de la RA.",
+      "notes": "- En español: «La RA puede reducir la asimetría de información, un problema habitual de la compra online, mediante interacciones inmersivas con el producto en tiempo real».\n- Más cobertura: https://www.retaildive.com/news/dior-activates-snapchat-e-commerce-for-new-sneaker/588386",
+      "media_slot_id": "U6.masterclass-ar"
+    },
+    {
+      "slide_id": "masterclass-ai-models",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:StateLibQld 1 129042 Lustre lingerie and hosiery display created by the Brisbane Window Display Service, 1937.jpg",
+      "heading": "Modelos que **no existen**",
+      "sentence": "En julio de 2024 **Mango** presentó su primera campaña generada íntegramente con IA, para su línea Teen. Las imágenes generadas también arrastran los **datos** con que se entrenó la máquina.",
+      "quote": "it was repeatedly noticed that images bore watermarks and fonts",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Bendel 2025, 440)",
+        "href": "/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "ai",
+          "synthetic-models",
+          "training-data"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "external_link": {
+        "href": "https://mangofashiongroup.com/en/w/mango-crea-la-primera-campa%C3%B1a-generada-con-inteligencia-artificial-para-su-l%C3%ADnea-teen",
+        "label": "Caso: Mango Teen · nota de prensa, 10 julio 2024 ↗"
+      },
+      "prompt": "Track B · España. ¿Qué gana la marca —rapidez, coste— y ==quién deja de cobrar== por posar, fotografiar o maquillar?",
+      "image_brief": "Maniquíes de escaparate de 1937: el cuerpo sintético de la moda no es nuevo.",
+      "notes": "- En español: «se observó repetidamente que las imágenes llevaban marcas de agua y tipografías» (de bancos de imágenes protegidos).",
+      "media_slot_id": "U6.masterclass-ai-models"
+    },
+    {
+      "slide_id": "masterclass-disclosure",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Twee portretten van onbekende mannen met geestverschijningen Photographie spirite de Mumler. Photographie spirite de Buguet (titel op object), RP-F-2001-7-1101D-31.jpg",
+      "heading": "Declarar es parte del **diseño**",
+      "sentence": "En agosto de 2025 un anuncio de **Guess** en Vogue mostró una modelo generada con IA, con un aviso en letra pequeña que muchos lectores **no vieron**.",
+      "external_link": {
+        "href": "https://www.rnz.co.nz/news/world/568415/her-features-are-flawless-but-this-model-in-vogue-isn-t-real",
+        "label": "Caso: Guess × Vogue · RNZ, 30 julio 2025 ↗"
+      },
+      "prompt": "El Reglamento europeo de IA (art. 50) obliga a revelar ciertos contenidos generados con IA: la ley es el mínimo, ==no el estándar==.",
+      "image_brief": "Fotografías espíritas de Mumler y Buguet en un libro de hacia 1884: fraudes que se vendieron como auténticos.",
+      "notes": "- Reglamento (UE) 2024/1689: https://eur-lex.europa.eu/eli/reg/2024/1689/oj\n- Caso crítico suplementario: la crítica pública no es un fallo regulatorio.",
+      "media_slot_id": "U6.masterclass-disclosure"
+    },
+    {
+      "slide_id": "figure-disclosure",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "La escalera de la divulgación",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/nm-u6-disclosure-ladder-e34e5dd4775e.svg",
+        "alt": "Diagrama del curso: cinco peldaños de divulgación, de «nada declarado» a «proceso, consentimiento y crédito», con una nota sobre el artículo 50 del Reglamento europeo de IA.",
+        "placement": "full",
+        "caption": "Diagrama original del curso · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Esta escalera es la hoja de trabajo del Ejercicio 2."
+    },
+    {
+      "slide_id": "masterclass-avatar",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Bertillon - Signalement Anthropometrique.png",
+      "heading": "El avatar también es un **dato**",
+      "sentence": "La investigadora Nicolle Lamerichs ve la moda digital como una extensión de la **identidad**. Esa misma ropa de pantalla convierte en datos medidas, gestos y gustos.",
+      "quote": "This screenwear is an extension of our identity, as users spend more and more of their time online.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Lamerichs 2025, 337)",
+        "href": "/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "avatars",
+          "digital-fashion",
+          "identity"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "Alphonse Bertillon medía cuerpos en la década de 1880 para identificarlos. ¿Quién mide el tuyo cuando ==eliges un avatar==?",
+      "image_brief": "Ficha antropométrica de Bertillon: el cuerpo convertido en datos.",
+      "notes": "- En español: «Esta ropa de pantalla es una extensión de nuestra identidad, a medida que pasamos cada vez más tiempo en línea».",
+      "media_slot_id": "U6.masterclass-avatar"
+    },
+    {
+      "slide_id": "masterclass-platform",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Panorama Mesdag, Den Haag 01.jpg",
+      "heading": "Mundos de marca, **jardines cerrados**",
+      "sentence": "En diciembre de 2020 **Balenciaga** presentó su colección otoño-invierno 2021 como un videojuego, Afterworld. Lamerichs advierte del riesgo de mundos **privatizados** y movidos por anuncios.",
+      "quote": "A worst-case scenario is that the Metaverse becomes a highly privatized place (a gated community, as it were) and entirely driven by ads.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Lamerichs 2025, 345)",
+        "href": "/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "platforms",
+          "metaverse"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "external_link": {
+        "href": "https://www.designboom.com/design/balenciaga-afterworld-the-age-of-tomorrow-video-game-12-09-2020/",
+        "label": "Caso: Balenciaga Afterworld · designboom, 2020 ↗"
+      },
+      "prompt": "En un mundo de marca, ¿quién decide ==quién entra y qué se posee==?",
+      "image_brief": "Panorama Mesdag (1881): mundos inmersivos antes del metaverso.",
+      "notes": "- En español: «El peor escenario es que el metaverso se convierta en un lugar muy privatizado (una urbanización cerrada, por así decirlo) y movido por completo por la publicidad».\n- Lamerichs 2025, 337: los modelos de negocio de la moda digital «no son neutrales».",
+      "media_slot_id": "U6.masterclass-platform"
+    },
+    {
+      "slide_id": "figure-promise",
+      "slide_role": "masterclass",
+      "background_kind": "none",
+      "heading": "Promesa · prueba · riesgo",
+      "figure": {
+        "src": "/assets/images/lesson-figures/visual-forger/nm-u6-promise-proof-risk-3d3b0cb324ad.svg",
+        "alt": "Diagrama del curso: tabla de cuatro tecnologías — prueba virtual con RA, modelos generados por IA, avatares y moda digital, mundos de marca — con lo que prometen, quién aporta la prueba, el riesgo y qué declarar.",
+        "placement": "full",
+        "caption": "Diagrama original del curso · Rubén Vega Balbás · CC BY-NC-SA 4.0"
+      },
+      "notes": "- Esta ficha es la hoja de trabajo del Ejercicio 1 (Canvas, 10 puntos)."
+    },
+    {
+      "slide_id": "masterclass-judgement",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:Ada Lovelace portrait.jpg",
+      "heading": "La herramienta propone; **tú juzgas**",
+      "sentence": "Docentes de diseño de moda entrevistados en 2026 coinciden: la IA ayuda a idear, pero **no construye** la prenda. Decidir qué vale, y firmarlo, sigue siendo humano.",
+      "quote": "they just give you images; they don't actually support garment construction",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(An and Park 2026, 15)",
+        "href": "/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/#referencias"
+      },
+      "semantic_tags": {
+        "themes": [
+          "ai",
+          "fashion-education",
+          "authorship"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "quotations"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "prompt": "Ada Lovelace escribió en 1843 que la máquina analítica no pretende **originar** nada: juzgar es tu trabajo.",
+      "image_brief": "Retrato de Ada Lovelace (hacia 1840).",
+      "notes": "- En español: «solo te dan imágenes; no ayudan de verdad a construir la prenda».\n- Boden 2004, 320: el 'cuello de botella de la evaluación' frena la creatividad transformacional automática.",
+      "media_slot_id": "U6.masterclass-judgement"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Repaso",
+      "sentence": "Solo, de memoria, tres minutos. Después compara con tu pareja.",
+      "questions": [
+        "¿Qué reduce la prueba virtual con RA?",
+        "¿Quién publicó las cifras de éxito de la lente de Dior?",
+        "¿Qué exige el artículo 50 del Reglamento de IA?",
+        "¿Por qué un avatar también es un dato?",
+        "¿Qué no hace la IA, según las docentes de moda?"
+      ],
+      "notes": "Respuestas:\n- La duda o asimetría de información al comprar online.\n- Un caso de estudio del propio Snapchat.\n- Revelar como tales ciertos contenidos generados o manipulados con IA.\n- Porque registra medidas, gestos y preferencias de quien lo usa.\n- Construir la prenda: da imágenes, no patrones."
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Laboratorio",
+      "sentence": "**Dos ejercicios**. Herramientas **locales** o ninguna, y ninguna imagen de compañeros en generadores. Todo va a tu **índice de portafolio** en Canvas.",
+      "notes": "- Si usas IA, solo local y declarada."
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:1646 Athanasius Kircher - Camera obscura.jpg",
+      "heading": "Ejercicio 1 · Explora una tecnología emergente",
+      "sentence": "Elige una tecnología —RA, modelos IA, avatares o mundos de marca— y un **caso real con fuente**; completa la ficha **promesa · prueba · riesgo**.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Entrega Canvas (10 ptos): la ficha, el **enlace** a la fuente del caso y una frase sobre qué tendría que declarar la marca.",
+      "card_link": {
+        "href": "/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/#ejercicio-1--explora-una-tecnologia-emergente-25",
+        "label": "Ficha y criterios en la lección"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Cámara oscura de Kircher (1646): toda tecnología de imagen empezó como novedad.",
+      "media_slot_id": "U6.lab-1"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "asset_id": "wikimedia:File:\"Kharrad Recognizes the \"Princess\" as being an Automaton\", Folio from a Shahnama (Book of Kings) MET DP215907.jpg",
+      "heading": "Ejercicio 2 · Dilema de autenticidad",
+      "sentence": "Sitúa una imagen de moda tuya —con o sin IA local— en la **escalera de la divulgación** y redacta la etiqueta exacta que publicarías.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Sube la imagen, la etiqueta y tu declaración de IA. Si no usaste IA, ==decláralo también==.",
+      "card_link": {
+        "href": "/lessons/es/nuevos-medios-moda/u6-futuro-comunicacion-digital/#ejercicio-2--dilema-de-autenticidad-25",
+        "label": "Escalera y ejemplos en la lección"
+      },
+      "timer_seconds": 1500,
+      "image_brief": "Folio del Shahnama (1341): descubrir que la «princesa» es un autómata.",
+      "media_slot_id": "U6.lab-2"
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Para llevar",
+      "sentence": "La tecnología cambia la escena; la responsabilidad no cambia de manos. Cierra el curso con una pregunta: ==¿qué firmarías con tu nombre?==",
+      "notes": "- Último portafolio: enlaza la entrega de U6 en tu índice."
+    }
+  ],
+  "schema_version": 2
+}

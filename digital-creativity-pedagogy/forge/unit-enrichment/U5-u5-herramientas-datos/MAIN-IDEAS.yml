@@ -1,0 +1,36 @@
+# Student slideshow payload — ≤ 6 main ideas · U5
+unit_id: U5
+title_es: U5 · Herramientas digitales y análisis de datos
+max_ideas: 6
+teaching_language: es
+forge: master-lecture-forger + nm-unit-forge (2026-11-17)
+grounding:
+  creativity: "Boden 2004, 320 (evaluation bottleneck) · evaluator-safe"
+  fashion_image: "UNEP 2023, 33 (measurement tools and scorecards) · evaluator-safe"
+  public_use_boundary: "campaign images linked, never copied; campaign metrics taught as source claims"
+ideas:
+  - id: 1
+    heading: Una métrica decide qué cuenta
+    sentence: "Antes de medir, alguien decidió qué es éxito: alcance, ventas o cambio de conducta no son lo mismo."
+    case: "Marco de unidad (sin caso de campaña): la sala de control del Apolo 11 celebra lo que sus pantallas miden."
+    chicago: "(United Nations Environment Programme 2023, 88)"
+  - id: 2
+    heading: Medir no es probar
+    sentence: "Un número en la ficha de producto informa; solo se vuelve prueba si su método aguanta una comparación."
+    case: "Reformation RefScale (rank 17, Track A): cifra de huella por prenda con metodología publicada y declaración de verificación independiente. Caso crítico suplementario: Norrøna × Higg MSI — en 2022 la autoridad noruega de consumo consideró engañoso comparar algodón orgánico y convencional con esos datos."
+    chicago: "(United Nations Environment Programme 2023, 33)"
+  - id: 3
+    heading: Los datos se extraen de la vida
+    sentence: "Tus métricas vienen de vidas convertidas en datos: pregunta de quién son, quién las cobra y quién no consintió."
+    case: "Marco crítico (sin caso de campaña)."
+    chicago: "(Couldry and Mejias 2018, 2)"
+  - id: 4
+    heading: Los datos también rinden cuentas
+    sentence: "Un registro público, una inspección o una sentencia son datos que la marca no controla."
+    case: "Zara Brasil (rank 14, Track B): la fiscalía laboral de São Paulo documentó trabajo esclavo en talleres proveedores y la justicia responsabilizó a la marca (2011–2017); la 'lista suja' es un registro público de empleadores."
+    stance: studio_hypothesis
+  - id: 5
+    heading: Optimizar con criterio
+    sentence: "Una prueba A/B mejora lo que mides; decide antes qué no aceptarías optimizar."
+    case: "Marco de unidad: la centralita de 1907 como recordatorio del trabajo humano que enruta las señales."
+    chicago: "(United Nations Environment Programme 2023, 88)"
