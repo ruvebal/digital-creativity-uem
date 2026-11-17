@@ -187,6 +187,7 @@ Return ONLY the paragraph (with [S1]… markers). No preamble. No headings.
     out = rec / "thessia-raw.md"
     cmd = [str(PY), str(THESSIA), "--prompt", prompt, "--out", str(out), "--brief", str(rec / "BRIEF.md"),
            "--model", "thessia-scholar-v3", "--num-predict", "640", "--expected-sentences", "4",
+           "--timeout", os.environ.get("THESSIA_TIMEOUT", "1800"),  # 2026-11-17: GPU contention caused ReadTimeouts
            "--verbatim-registry", str(registry)]
     proc = subprocess.run(cmd, capture_output=True, text=True)
     (rec / "generate.log").write_text(proc.stdout + "\n---STDERR---\n" + proc.stderr, encoding="utf-8")
@@ -204,12 +205,14 @@ def main():
     for unit in UNITS.values():
         write_main_ideas(unit)
         for idea in unit["ideas"]:
-            r = run(unit, idea, registry)
-            # one regeneration if the gates rejected the paragraph (raw kept as training signal)
-            if r["rejected"] or r["exit_code"] != 0:
-                r2 = run(unit, idea, registry)
-                r2["first_attempt"] = r["record"]
-                r = r2
+            # up to three attempts when the gates reject the paragraph (every raw kept as training signal)
+            attempts = []
+            for _ in range(3):
+                r = run(unit, idea, registry)
+                attempts.append(r["record"])
+                if not r["rejected"] and r["exit_code"] == 0:
+                    break
+            r["attempts"] = attempts
             results.append(r)
             print(f"{r['unit']} idea {r['idea']}: exit={r['exit_code']} rejected={r['rejected']} record={r['record']}", flush=True)
     outp = PED / "forge/receipts/NM-U5-U6-THESSIA-RAW.json"

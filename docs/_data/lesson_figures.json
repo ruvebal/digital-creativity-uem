@@ -287,8 +287,8 @@
     "lab-1": {
       "src": "/assets/images/deck-media/eb30c35e179aae54.webp",
       "alt": "Miss Maquillage Digital Fashion Garment example.png",
-      "caption_html": "<span class=\"slide-caption__title\">Miss Maquillage Digital Fashion Garment example</span> · <span class=\"slide-caption__author\">Digital fashion author / Commons upload</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
-      "rights_status": "flagged"
+      "caption_html": "<span class=\"slide-caption__title\">Miss Maquillage Digital Fashion Garment example</span> · <span class=\"slide-caption__author\">Spitefire9 (Wikimedia Commons user)</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Miss_Maquillage_Digital_Fashion_Garment_example.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     },
     "lab-2": {
       "src": "/assets/images/deck-media/c8acd44e8f333198.webp",
@@ -422,10 +422,22 @@
     }
   },
   "i-4-effects": {
+    "cover": {
+      "src": "/assets/images/deck-media/a7fe225309618a85.webp",
+      "alt": "Dresses by Rei Kawakubo - Sarah Stierch 01.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 01</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_01.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
     "analysis-model": {
       "src": "/assets/images/deck-media/4e655e0f068fdc07.webp",
       "alt": "Dresses by Rei Kawakubo in a second exhibition view",
       "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 03</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/6d87fb61fcb1d4de.webp",
+      "alt": "Indienne, représentant Minerve Péruvienne.",
+      "caption_html": "<span class=\"slide-caption__title\">Indienne, représentant Minerve Péruvienne.</span> · <span class=\"slide-caption__author\">The New York Public Library (digital scan)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"http://digitalcollections.nypl.org/items/5a950250-c629-012f-852b-58d385a7bc34\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "masterclass-2": {
@@ -439,6 +451,12 @@
       "alt": "An exhibition poster composition",
       "caption_html": "<span class=\"slide-caption__title\">AK ER Exhibition Poster 2014</span> · <span class=\"slide-caption__author\">Poster designer / photographer</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:AK_ER_Exhibition_Poster_2014.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/3e1406d573d0b92f.webp",
+      "alt": "Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">Costumes civils HISTORICAL CLOTHING OF FRANCE civilian costumes male female dress fashion design c 1640-1925 Public domain French illustration Larousse du XXème siècle 1932</span> · <span class=\"slide-caption__author\">19th-century French costume plate engraver</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Costumes_civils_HISTORICAL_CLOTHING_OF_FRANCE_civilian_costumes_male_female_dress_fashion_design_c_1640-1925_Public_domain_French_illustration_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     },
     "lab-2": {
       "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
@@ -467,19 +485,19 @@
       "rights_status": "flagged"
     },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-20261020-r1.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-spatial-reading-g3-c018dbace498.svg",
       "alt": "One abstract garment panel moves from flat pattern through side elevation to a simple volume; a shared axis and proportion marks reveal what changes across representations.",
       "caption_html": "<span class=\"slide-caption__title\">From flat reading to volume</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-2": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-20261020-r1.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-views-agree-g3-01951557d9b3.svg",
       "alt": "Front, side, and top views align to constrain one axonometric volume; a dashed mismatch marks a contour the proposed form cannot explain.",
       "caption_html": "<span class=\"slide-caption__title\">Planes make volume testable</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-4": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-20261020-r1.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i5-render-evidence-g3-cb92695f22e8.svg",
       "alt": "A polished volume sits beside a process trail showing the flat read, a blockout ambiguity, and a revised view recording its test.",
       "caption_html": "<span class=\"slide-caption__title\">A render is not understanding</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
@@ -498,6 +516,12 @@
     }
   },
   "i-6-volume": {
+    "cover": {
+      "src": "/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "alt": "Leonardo da Vinci garment study for a seated figure",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo da vinci, Garment study for a seated figure</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
     "analysis-model": {
       "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
       "alt": "A drapery study for a figure of Sculpture",
@@ -505,31 +529,49 @@
       "rights_status": "flagged"
     },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-g3-ef1f22a10258.svg",
       "alt": "Physical fold beside a flatter digital mesh with a dashed mismatch hull.",
       "caption_html": "<span class=\"slide-caption__title\">Physical fold · digital mesh</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-3": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-g3-2392399d311b.svg",
       "alt": "Material span between two supports with two gravity contours.",
       "caption_html": "<span class=\"slide-caption__title\">Gravity curves the material</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-4": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-g3-adacde2d39d5.svg",
       "alt": "Cloth ends at supports; virtual contour continues past them.",
       "caption_html": "<span class=\"slide-caption__title\">Hold the support · test the contour</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
     },
     "masterclass-5": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-g3-fe27d00d4a3c.svg",
       "alt": "Source, flatter simulation, and one marked local correction on a timeline.",
       "caption_html": "<span class=\"slide-caption__title\">Source → simulation → one correction</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Original course illustration · all rights reserved</span>",
       "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
+      "alt": "Dresses by Rei Kawakubo in an exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/4e655e0f068fdc07.webp",
+      "alt": "Dresses by Rei Kawakubo in a second exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 03</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     }
   },
   "i-6-volumen": {
+    "cover": {
+      "src": "/assets/images/deck-media/76f4b32ceaeb1364.webp",
+      "alt": "Leonardo da Vinci garment study for a seated figure",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo da vinci, Garment study for a seated figure</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Garment_study_for_a_seated_figure.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
     "analysis-model": {
       "src": "/assets/images/deck-media/f4786040093c9e0d.webp",
       "alt": "A drapery study for a figure of Sculpture",
@@ -537,31 +579,62 @@
       "rights_status": "flagged"
     },
     "masterclass-1": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-e9c611d87b2c.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-material-memory-g3-ef1f22a10258.svg",
       "alt": "Physical fold beside a flatter digital mesh with a dashed mismatch hull.",
       "caption_html": "<span class=\"slide-caption__title\">Pliegue físico · malla digital</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "masterclass-3": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-20261020-r1.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-support-and-drape-g3-2392399d311b.svg",
       "alt": "Material span between two supports with two gravity contours.",
       "caption_html": "<span class=\"slide-caption__title\">La gravedad curva el material</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "masterclass-4": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-c1d1efc6790d.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-simulation-break-g3-adacde2d39d5.svg",
       "alt": "Cloth ends at supports; virtual contour continues past them.",
       "caption_html": "<span class=\"slide-caption__title\">Congela el apoyo · prueba el contorno</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
     },
     "masterclass-5": {
-      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-20c174fd85e2.svg",
+      "src": "/assets/images/lesson-figures/visual-forger/dc-i6-evidence-pair-g3-fe27d00d4a3c.svg",
       "alt": "Source, flatter simulation, and one marked local correction on a timeline.",
       "caption_html": "<span class=\"slide-caption__title\">Fuente → simulación → una corrección</span> · <span class=\"slide-caption__author\">Rubén Vega Balbás · visual-forger</span> · <span>Ilustración original · todos los derechos reservados</span>",
       "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/8243faeb5945da08.webp",
+      "alt": "Dresses by Rei Kawakubo in an exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 02</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/4e655e0f068fdc07.webp",
+      "alt": "Dresses by Rei Kawakubo in a second exhibition view",
+      "caption_html": "<span class=\"slide-caption__title\">Dresses by Rei Kawakubo - Sarah Stierch 03</span> · <span class=\"slide-caption__author\">Sarah Stierch (photograph); Rei Kawakubo (garments)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Dresses_by_Rei_Kawakubo_-_Sarah_Stierch_03.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     }
   },
-  "i-7-fashion-references": {},
+  "i-7-fashion-references": {
+    "cover": {
+      "src": "/assets/images/deck-media/324922ac305a2043.webp",
+      "alt": "News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "caption_html": "<span class=\"slide-caption__title\">News kiosk -Exhibition of magazines for crochet and knitting and fashion in general</span> · <span class=\"slide-caption__author\">Photograph uploader on Commons</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/0ea58e6808552cec.webp",
+      "alt": "Painted portrait of a woman in a red dress, seated, with strong colour and pose as compositional cues",
+      "caption_html": "<span class=\"slide-caption__title\">Portrait of Senyora Anita with Red Dress</span> · <span class=\"slide-caption__author\">Benet Mercadé</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/629de0eb5e95c05b.webp",
+      "alt": "Museum kimono from the Khalili Collection — cleared contrast tile also used on the I.7 lesson",
+      "caption_html": "<span class=\"slide-caption__title\">Khalili Collection Kimono 02</span> · <span class=\"slide-caption__author\">Khalili Collection / Wikimedia Commons</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Khalili_Collection_Kimono_02.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    }
+  },
   "u3-marketing-publicidad": {
     "cover": {
       "src": "/assets/images/deck-media/0b217cf0bc282992.webp",

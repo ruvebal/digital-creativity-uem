@@ -14,12 +14,70 @@ layout: null
     "description": "Reference-ledger teaching stills: archive wall, citation garment, credited portrait, non-Euro textile.",
     "media_overrides": {}
   },
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "I.7.cover",
+      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/324922ac305a2043.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:News_kiosk_-Exhibition_of_magazines_for_crochet_and_knitting_and_fashion_in_general.jpg",
+      "title": "News kiosk -Exhibition of magazines for crochet and knitting and fashion in general",
+      "alt_text": "News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
+      "author": "Photograph uploader on Commons",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Photograph uploader on Commons · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "modern photograph of magazine display",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.7.masterclass-2",
+      "asset_id": "wikimedia:File:Benet Mercadé - Portrait of Senyora Anita with Red Dress - Google Art Project.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/0ea58e6808552cec.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg",
+      "title": "Portrait of Senyora Anita with Red Dress",
+      "alt_text": "Painted portrait of a woman in a red dress, seated, with strong colour and pose as compositional cues",
+      "author": "Benet Mercadé",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Museu Nacional d’Art de Catalunya / Wikimedia Commons",
+      "credit_line": "Benet Mercadé · Museu Nacional d’Art de Catalunya / Wikimedia Commons",
+      "author_death_year": 1897,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1897; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "I.7.masterclass-4",
+      "asset_id": "wikimedia:File:Khalili Collection Kimono 02.jpg",
+      "asset_url": "/digital-creativity-uem/assets/images/deck-media/629de0eb5e95c05b.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Khalili_Collection_Kimono_02.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Khalili_Collection_Kimono_02.jpg",
+      "title": "Khalili Collection Kimono 02",
+      "alt_text": "Museum kimono from the Khalili Collection — cleared contrast tile also used on the I.7 lesson",
+      "author": "Khalili Collection / Wikimedia Commons",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Khalili Collection / Wikimedia Commons · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": "Modern museum photograph under CC BY-SA 4.0",
+      "rights_status": "flagged",
+      "cropped": false
+    }
+  ],
   "slides": [
     {
       "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "fallback_background_kind": "geometrical",
       "heading": "I.7 · Fashion references",
       "sentence": "Reference is a situated act of selection and recontextualisation — not image collecting.",
@@ -33,7 +91,8 @@ layout: null
       "citation": {
         "label": "(Lesson figure · archive wall)",
         "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-reference-archive"
-      }
+      },
+      "media_slot_id": "I.7.cover"
     },
     {
       "slide_id": "analysis-opener",
@@ -86,7 +145,7 @@ layout: null
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "fallback_background_kind": "geometrical",
       "heading": "2 · Reference ledger",
       "sentence": "Source · reason · cultural position · transformation · what you refused to copy.",
@@ -98,7 +157,8 @@ layout: null
       "citation": {
         "label": "(Lesson figure · credited portrait)",
         "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-credited-vs-mute"
-      }
+      },
+      "media_slot_id": "I.7.masterclass-2"
     },
     {
       "slide_id": "masterclass-3",
@@ -113,7 +173,7 @@ layout: null
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "fallback_background_kind": "geometrical",
       "heading": "4 · Refuse a Euro-only default",
       "sentence": "Use a cleared non-Eurocentric tile (or ledger an FRD/AFA path) — do not paste platform thumbs as texture.",
@@ -126,7 +186,8 @@ layout: null
       "citation": {
         "label": "(Lesson figure · cleared kimono)",
         "href": "/lessons/en/digital-creativity-i/i-7-fashion-references/#figure-cleared-kimono-contrast"
-      }
+      },
+      "media_slot_id": "I.7.masterclass-4"
     },
     {
       "slide_id": "masterclass-5",
@@ -170,7 +231,6 @@ layout: null
       "fallback_background_kind": "geometrical",
       "heading": "Exercise 1 · Audit the search surface",
       "sentence": "Run the same query twice; name the pattern that appears before you choose.",
-      "asset_id": "wikimedia:File:News kiosk -Exhibition of magazines for crochet and knitting and fashion in general.jpg",
       "method_id": "i7-references-lab-1",
       "notes": [
         "After the audit, send students to addendum Exercise A for named repositories.",
@@ -188,7 +248,6 @@ layout: null
       "fallback_background_kind": "geometrical",
       "heading": "Exercise 2 · Ledger + one tile transform",
       "sentence": "Complete five fields, then change one compositional cue — not the whole look.",
-      "asset_id": "wikimedia:File:Benet Mercadé - Portrait of Senyora Anita with Red Dress - Google Art Project.jpg",
       "method_id": "i7-references-lab-2",
       "notes": [
         "Non-Eurocentric check: at least one ledger row must leave the Euro/US default."
