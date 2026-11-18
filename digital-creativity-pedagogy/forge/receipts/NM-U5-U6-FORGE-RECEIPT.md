@@ -18,7 +18,7 @@ U6 (ranked bank has no AI/AR case): `dior-snapchat-b27-2020` · `mango-teen-ai-2
 
 ## 3 · Grounding
 
-- New vault: Lamerichs 2025 (`10_1515_9783839474624_013_2ebbda3a`), ingested at operator request; printed = PDF + 334; DevIAC vectors `profield-nuevos-medios-moda-2026-27` (51 chunks). Athanor inject **not run** (stack down; its Postgres binds :5432 used by DevIAC).
+- New vault: Lamerichs 2025 (`10_1515_9783839474624_013_2ebbda3a`), ingested at operator request; printed = PDF + 334; DevIAC vectors `profield-nuevos-medios-moda-2026-27` (51 chunks). Athanor inject **done 2026-11-18** into `profield-nuevos-medios-moda-2026-27` / `scholar` (231 nodes, 555 entities; injection `48ee6383`). Run through the native CLI against the DevIAC-hosted `athanor` DB (local `.env`), with no compose stack and so no :5432 clash. A scoped search returns the p. 3 node at similarity 0.77. Athanor metadata gives the volume title and an LLM-guessed 2023 date, which is discovery only; cite from the Ahmes node.
 - Cites (all evaluator_safe, printed page read on page): UNEP 2023, 33 · 88; Couldry & Mejias 2018 (OnlineFirst), 2; Sarkis et al. 2026, 229; Bendel 2025, 440; Lamerichs 2025, 337 · 345; Flavián et al. 2024, 9; An & Park 2026, 15; Boden 2004, 320.
 
 ## 4 · Corrections to already-published units
@@ -56,4 +56,4 @@ Run 3 (after restarting a wedged Ollama server; 30-min timeout, ≤3 attempts) p
 
 ## 6 · Not done
 
-Human final review of the new media records · Athanor inject.
+Human final review of the new media records.
