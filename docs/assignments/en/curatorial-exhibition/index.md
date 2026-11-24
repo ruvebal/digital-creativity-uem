@@ -35,7 +35,7 @@ The exhibition may be physical, digital, or hybrid. It may be realistic or specu
 
 ## Work through the creative process
 
-Use the [Creativity Techniques repository’s introduction to the creative process](https://github.com/ruvebal/creativity-techniques-uem/tree/main/docs/lessons/en/creativity-techniques/u-1-introduction-creativity) as a working guide. The five stages are not a rigid recipe: in real creative work, **incubation, insight, and evaluation interrupt one another**. Your process package should show that movement rather than inventing a perfectly straight story after the fact.
+Use the five-stage creative-process guide provided in class as a working guide: preparation, incubation, insight/Eureka, evaluation, and elaboration. The stages are not a rigid recipe: in real creative work, **incubation, insight, and evaluation interrupt one another**. Your process package should show that movement rather than inventing a perfectly straight story after the fact.
 
 1. **Preparation.** Gather references, identify the curatorial problem, map possible themes, and investigate the relevant fashion and creative fields.
 2. **Incubation.** Leave space for associations and alternative readings. Record notes, images, questions, walks, conversations, or other activities that allowed the theme to develop without forcing an immediate answer.
