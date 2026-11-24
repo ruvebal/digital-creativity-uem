@@ -144,7 +144,13 @@ Rights statements differ item by item. A platform homepage is **not** a clearanc
 
 These extend the instructor map; they do not replace the five core destinations above.
 
-## Lab · Portfolio (research exercises)
+## Lab · Portfolio
+
+### Default exercise · Repository experience reflection
+
+**Start here.** Every student should complete Exercise E as the main I.7 portfolio task. It records what happened when you used a real archive or repository as a research tool. You are not being asked to say that a website is “good” or “bad”. You are learning to notice how a repository helps you search, what it chooses to show, what information it gives you, and how it changes your creative decisions.
+
+Exercises A–D below are **complementary options**. Use them when you need more evidence, when you want to explore a particular repository in greater depth, or when the professor assigns one of them. They do not replace the default Exercise E unless the professor says so.
 
 ### Exercise A · Source atlas (browse → summarise → screenshot) {#lab-exercise-a}
 
@@ -209,7 +215,9 @@ Pick one specialty path:
 
 **Time:** 20–25 minutes · **Format:** individual.
 
-After browsing the repositories, write a short portfolio reflection about the experience of using them as research environments. This is not a review of whether a website looks attractive; it is an account of how the repository shaped what you could find, understand, select, and reuse.
+After browsing at least one repository, complete the printable field note below and turn it into a short portfolio reflection. This is not a review of whether a website looks attractive; it is an account of how the repository shaped what you could find, understand, select, and reuse.
+
+Choose one repository from the source map. If you are unsure, start with **Wikimedia Commons**, **NYPL Digital Collections**, **Library of Congress**, or **BNE Digital**. You do not need to find the “perfect” image. The important thing is to show your research decisions clearly and honestly.
 
 Respond to these questions:
 
@@ -233,6 +241,63 @@ Use first person where appropriate. The aim is to make your experience and judge
 **Portfolio trace:** reflection + screenshot + item record + one limitation/bias note.
 
 **Suggested title in the portfolio:** *Repository field note: browsing as creative research*.
+
+## Printable template · Repository field note {#repository-field-note-printable}
+
+<div class="quick-card not-prose" markdown="0">
+<p class="quick-card__nav"><button type="button" class="quick-card__print">Print this worksheet</button></p>
+<p class="quick-card__title">Repository field note</p>
+<p class="quick-card__caption">Use this sheet while you browse. Write in short, specific sentences. You are not being marked on finding a famous image; you are being marked on making your research process visible.</p>
+<ol class="quick-card__fields">
+<li><span>Name</span><span class="quick-card__line"></span></li>
+<li><span>Date</span><span class="quick-card__line"></span></li>
+<li><span>Repository name</span><span class="quick-card__line"></span></li>
+<li><span>Repository URL</span><span class="quick-card__line"></span></li>
+</ol>
+<p class="quick-card__group">1 · Begin with a question</p>
+<p>What are you trying to find for your fashion or creative project?</p>
+<p class="quick-card__writing-lines">____________________________________________________________________________<br>____________________________________________________________________________</p>
+<p class="quick-card__group">2 · Browse slowly</p>
+<p>Write two words that describe what the repository shows most often: period, country, body, garment, material, technique, maker, class, race, gender, or another pattern.</p>
+<ol class="quick-card__fields">
+<li><span>Pattern 1</span><span class="quick-card__line"></span></li>
+<li><span>Pattern 2</span><span class="quick-card__line"></span></li>
+</ol>
+<p>What did you expect to find but did not find easily?</p>
+<p class="quick-card__writing-lines">____________________________________________________________________________<br>____________________________________________________________________________</p>
+<p class="quick-card__group">3 · Choose one item</p>
+<p>Record the item before downloading or using it. If the rights are unclear, record the item but do not use the image.</p>
+<ol class="quick-card__fields">
+<li><span>Maker / creator</span><span class="quick-card__line"></span></li>
+<li><span>Title or description</span><span class="quick-card__line"></span></li>
+<li><span>Date</span><span class="quick-card__line"></span></li>
+<li><span>Item URL</span><span class="quick-card__line"></span></li>
+<li><span>Licence / rights statement</span><span class="quick-card__line"></span></li>
+</ol>
+<p class="quick-card__group">4 · Explain your experience</p>
+<p>Complete these sentences:</p>
+<p>“This repository made it easy to find _____________________________________________.”</p>
+<p>“It was difficult to understand or find __________________________________________.”</p>
+<p>“The repository influenced my creative direction by ______________________________.”</p>
+<p>“One limitation or bias I noticed was _____________________________________________.”</p>
+<p class="quick-card__group">5 · Make a responsible decision</p>
+<p>Will you use the image, use only one visual property, or refuse to use it? Explain why.</p>
+<p class="quick-card__writing-lines">____________________________________________________________________________<br>____________________________________________________________________________<br>____________________________________________________________________________</p>
+<p class="quick-card__caption">Before submitting: attach one screenshot of the search or item page. Keep the source, credit, licence, and your reflection together in the portfolio.</p>
+</div>
+
+### How to complete the default exercise
+
+1. **Choose one repository.** Use the source map. Begin with one of the recommended repositories if you do not know where to start.
+2. **Write your question first.** Do not browse randomly. Decide what kind of fashion reference, period, material, body, image, or idea you need.
+3. **Browse for five minutes before choosing.** Notice repeated patterns. What does the archive show a lot? What is difficult to find?
+4. **Open the item page.** Do not rely only on the thumbnail or the image appearing in a search result. Look for the creator, title, date, institution, URL, and rights statement.
+5. **Take one useful screenshot.** Capture the search or item page so another person can see how you found the source. Do not present the screenshot as your own image.
+6. **Make a decision.** You can use the image with correct credit, use only a property such as colour or silhouette, or refuse to use it because the rights or context are unclear.
+7. **Write your reflection.** Use the completed template to write 250–350 words in your own voice. Be specific: name what you saw, what you could not find, and what changed in your project.
+8. **Add it to the portfolio.** Submit the reflection, screenshot, item record, and limitation/bias note together. A reader should be able to reconstruct your research path.
+
+You can do this. A strong field note does not require a complicated theory or a perfect archive. It requires attention, honesty, and one clear creative decision.
 
 ## Relation to I.7 Labs 1–2
 
