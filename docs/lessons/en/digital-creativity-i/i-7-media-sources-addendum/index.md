@@ -205,6 +205,35 @@ Pick one specialty path:
 
 **Portfolio trace:** one specialty note (≤150 words) + one platform screenshot.
 
+### Exercise E · Repository experience reflection {#lab-exercise-e}
+
+**Time:** 20–25 minutes · **Format:** individual.
+
+After browsing the repositories, write a short portfolio reflection about the experience of using them as research environments. This is not a review of whether a website looks attractive; it is an account of how the repository shaped what you could find, understand, select, and reuse.
+
+Respond to these questions:
+
+1. Which repository did you use, and what were you looking for?
+2. What did the repository make easy to discover: period, garment, technique, geography, maker, material, or another aspect?
+3. What did you find difficult, hidden, missing, or over-represented?
+4. How clear were the metadata, credits, licence, rights statement, image download options, and item context?
+5. Which image or object did you finally select, and why did it answer your research question better than a Pinterest result would have?
+6. What would you change in the repository’s search, classification, interface, or educational support?
+
+Write **250–350 words** and include:
+
+- the repository name and direct URL;
+- one screenshot of the search or item interface;
+- one selected item with its complete credit or a written refusal if the rights are unclear;
+- one sentence about how the repository influenced your creative direction;
+- one sentence identifying a limitation or bias in the archive.
+
+Use first person where appropriate. The aim is to make your experience and judgement visible, not to produce an impersonal website description.
+
+**Portfolio trace:** reflection + screenshot + item record + one limitation/bias note.
+
+**Suggested title in the portfolio:** *Repository field note: browsing as creative research*.
+
 ## Relation to I.7 Labs 1–2
 
 | I.7 Lab | This addendum |
@@ -212,6 +241,7 @@ Pick one specialty path:
 | Lab 1 · Audit the search surface | Exercise A replaces a generic web search with named repositories |
 | Lab 2 · Ledger + transform | Exercise B supplies the tiles; Exercise C forces provenance honesty |
 | Non-Eurocentric check | AFA / FRD remain mandatory options in Exercise A |
+| Repository experience | Exercise E records how the archive’s interface, metadata, rights language, and perspective shaped the student’s research |
 
 ## Problem-solving check
 

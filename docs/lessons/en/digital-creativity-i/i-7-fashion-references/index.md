@@ -209,6 +209,7 @@ When you need destinations beyond stock packs and AI texture dumps, do **not** r
 | Instructor destination table (AFA · FRD · NYPL · LOC · BNE) | [Source map]({{ '/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#instructor-source-map' | relative_url }}) |
 | Provenance / hybrid graphs | [Graph A]({{ '/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#figure-provenance-taxonomy' | relative_url }}) · [Graph B]({{ '/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#figure-hybrid-remix' | relative_url }}) |
 | Browse → summarise Lab | [Exercise A]({{ '/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#lab-exercise-a' | relative_url }}) |
+| Portfolio reflection on repository experience | [Exercise E]({{ '/lessons/en/digital-creativity-i/i-7-media-sources-addendum/#lab-exercise-e' | relative_url }}) |
 | FRD / AFA platform figures | Stay on this lesson: [FRD](#figure-frd-platform-page) · [AFA](#figure-afa-platform-page) — the addendum links back here instead of re-embedding |
 
 ## Lab · Portfolio

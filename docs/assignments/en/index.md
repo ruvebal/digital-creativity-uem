@@ -25,6 +25,12 @@ Transform a source from another language into a cartel / poster image (an image 
 
 **[Open D2 brief and internal rubric →]({{ '/assignments/en/transposition/' | relative_url }})** · Submit before **23 November 2026** through Campus Virtual.
 
+## D3 · Curatorial exhibition proposal
+
+Act as a curator: research a theme, select works from fashion and related creative practices, and propose a physical, digital, or hybrid exhibition through a professional pitch with spatial mock-ups or renders.
+
+**[Open D3 brief and internal rubric →]({{ '/assignments/en/atrium/' | relative_url }})** · D3 is the official Case / problem instrument (15%).
+
 ## Final portfolio
 
 **[Final Digital Portfolio Notebook and rubric →]({{ '/assignments/en/digital-creativity-portfolio/' | relative_url }})**
