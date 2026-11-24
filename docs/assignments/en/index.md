@@ -29,7 +29,7 @@ Transform a source from another language into a cartel / poster image (an image 
 
 Act as a curator: research a theme, select works from fashion and related creative practices, and propose a physical, digital, or hybrid exhibition through a professional pitch with spatial mock-ups or renders.
 
-**[Open D3 brief and internal rubric →]({{ '/assignments/en/atrium/' | relative_url }})** · D3 is the official Case / problem instrument (15%).
+**[Open D3 brief and internal rubric →]({{ '/assignments/en/curatorial-exhibition/' | relative_url }})** · D3 is the official Case / problem instrument (15%).
 
 ## Final portfolio
 

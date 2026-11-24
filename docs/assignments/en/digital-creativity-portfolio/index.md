@@ -88,7 +88,7 @@ Submit one navigable digital portfolio containing:
 
 - **A home/index page:** your name or chosen designer name, a short statement, course, and a clear route through the work.
 - **At least one substantive exercise entry for every Lab time/lesson:** include the brief, final result, process traces, technical decisions, and reflection. If a Lab produces several exercises, choose the strongest representative exercise; additional evidence is welcome but not required.
-- **D1 Analysis, D2 Transposition, and [D3 Curatorial Exhibition Proposal]({{ '/assignments/en/atrium/' | relative_url }}):** include the final work and the process that led to it, with working links or embedded media. These are required milestone deliverables; they do not replace the official content-anchor coverage above.
+- **D1 Analysis, D2 Transposition, and [D3 Curatorial Exhibition Proposal]({{ '/assignments/en/curatorial-exhibition/' | relative_url }}):** include the final work and the process that led to it, with working links or embedded media. These are required milestone deliverables; they do not replace the official content-anchor coverage above.
 - **A final synthesis:** 500–800 words or an equivalent designed digital form explaining how your creative and technical practice changed.
 - **A process inventory:** a visible or linked checklist showing that every Lab time has a selected exercise entry.
 - **An authorship and AI/material declaration for every piece:** name tools, source materials, collaborators, and your human decisions. See the [AI usage declaration](/ai-declaration/) for detailed guidance. “No AI tools used” is a valid declaration.

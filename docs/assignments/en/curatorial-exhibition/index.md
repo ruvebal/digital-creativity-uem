@@ -2,8 +2,8 @@
 layout: lesson
 title: 'D3 · Curatorial exhibition proposal'
 lang: en
-slug: atrium
-permalink: /assignments/en/atrium/
+slug: curatorial-exhibition
+permalink: /assignments/en/curatorial-exhibition/
 description: 'D3: work as a curator to research, select, and stage a fashion and creative exhibition.'
 ---
 

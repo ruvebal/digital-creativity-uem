@@ -3,10 +3,10 @@
   "mode": "flag",
   "policy": "AUTOPILOT.md §0: rights recorded and flagged, not blocking; rightsVerdict stays strict. Professor reviews every flagged asset before release.",
   "year": 2026,
-  "generated_at": "2026-11-17T20:24:28.716Z",
+  "generated_at": "2026-11-24T19:13:42.224Z",
   "summary": {
-    "assets": 173,
-    "pass": 102,
+    "assets": 174,
+    "pass": 103,
     "flagged": 71,
     "curator_flagged": 51,
     "v2_flagged": 40,
@@ -1154,6 +1154,27 @@
       "reasons": [
         "EU term not verified"
       ]
+    },
+    {
+      "deck": "docs/tracks/en/uem/2627-dci/i-7-fashion-references/data/content.json",
+      "schema_version": 2,
+      "wave1": true,
+      "legacy": false,
+      "slide_id": "masterclass-2",
+      "heading": "2 · Reference ledger",
+      "media_slot_id": "I.7.masterclass-2",
+      "asset_id": "wikimedia:File:Benet Mercadé - Portrait of Senyora Anita with Red Dress - Google Art Project.jpg",
+      "title": "Portrait of Senyora Anita with Red Dress",
+      "author": "Benet Mercadé",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Benet_Mercad%C3%A9_-_Portrait_of_Senyora_Anita_with_Red_Dress_-_Google_Art_Project.jpg",
+      "author_death_year": 1897,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1897; public domain in the EU.",
+      "rights_status": "ok",
+      "verdict": "pass",
+      "reasons": []
     },
     {
       "deck": "docs/tracks/en/uem/2627-dci/i-7-fashion-references/data/content.json",
@@ -2502,7 +2523,7 @@
       "asset_id": "wikimedia:File:1967 paper dress with photograph of Bob Dylan from the Poster Dress series.jpg",
       "title": "1967 paper dress with photograph of Bob Dylan",
       "author": "Poster Dress series (museum photograph)",
-      "licence": "CC-BY-SA-4.0",
+      "licence": "CC-BY-SA-2.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1967_paper_dress_with_photograph_of_Bob_Dylan_from_the_Poster_Dress_series.jpg",
       "author_death_year": null,
@@ -2511,6 +2532,7 @@
       "rights_status": null,
       "verdict": "fail",
       "reasons": [
+        "licence not accepted: CC-BY-SA-2.0",
         "EU term not verified"
       ]
     },
